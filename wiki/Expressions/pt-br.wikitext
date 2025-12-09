@@ -109,7 +109,7 @@ O sistema Animator do Unity usa floats no backend para todos os tipos de parâme
 !Comportamento
 |-
 |Float → Bool
-|<span lang="en" dir="ltr" class="mw-content-ltr">Any Float value that isn’t 0 sets bool to True</span>
+|Qualquer valor Float diferente de 0 define uma variável booleana como Verdadeiro.
 |-
 |Float → Int
 |<span lang="en" dir="ltr" class="mw-content-ltr">Rounded Conversion: ≥0.5 → 1 ; <0.5 → 0</span>
