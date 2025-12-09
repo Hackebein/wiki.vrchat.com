@@ -65,10 +65,8 @@ Se você estiver com problemas de conexão, pode ser uma boa ideia utilizar um t
 *'''Mac''': https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/
 *'''Linux''': https://docs.quad9.net/Setup_Guides/Linux_and_BSD/Ubuntu_22.04_%28Encrypted%29/
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The guides for the DNS settings above will, by default, use IP addresses that connect to "Quad9" DNS servers. 
-Instead, use the provided Cloudflare IP addresses.
-</div>
+Os guias para as configurações de DNS acima usarão, por padrão, endereços IP que se conectam aos servidores DNS "Quad9". 
+Em vez disso, utilize os endereços IP fornecidos da Cloudflare.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''You must put both IPv4 and IPv6 settings to make it work without issue.'''
