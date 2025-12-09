@@ -53,9 +53,8 @@ Um espelho de baixa qualidade geralmente reflete os avatares ao seu redor com um
 
 Um espelho transparente geralmente reflete os avatares ao seu redor enquanto age como uma janela, mostrando o que aparece atrás do espelho e também tendo um reflexo fraco do mundo a partir da perspectiva do espelho. Ele requer uma configuração especial, que também está disponível através dos prefabs de espelhos transparentes da comunidade.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Performance issues ==
-</div>
+<span id="Performance_issues"></span>
+== Problemas de desempenho ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Every object reflected in a mirror has to be rendered again, separately from what the user sees in the playable world. A mirror reflecting the whole world will double the performance cost of rendering the world. Occlusion culling does not work in mirror reflections, so a mirror facing a wall will still try to render everything behind the wall too.
