@@ -50,9 +50,7 @@ Para personalizar seu impostor, adicione o componente "VRCImpostorSettings" ao s
 <span id="Resolution_Scale"></span>
 ===Escala de Resolução===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Changes the amount of space on the impostor's texture atlas that is dedicated to this body part's texture. For instance, you can place this script on the head bone and change this value to make the head take up more or less of the texture atlas, increasing or decreasing the overall texture quality. Note that this may shrink other parts of the body on the atlas if needed.
-</div>
+Altera a quantidade de espaço no atlas de texturas do impostor dedicado à textura dessa parte do corpo. Por exemplo, você pode colocar esse script no osso da cabeça e alterar esse valor para fazer com que a cabeça ocupe mais ou menos espaço no atlas de texturas, aumentando ou diminuindo a qualidade geral da textura. Observe que isso pode reduzir outras partes do corpo no atlas, se necessário.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''This is relative to the bone that VRCImpostorSettings is placed on.''
