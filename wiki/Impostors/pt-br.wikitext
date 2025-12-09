@@ -75,9 +75,7 @@ Como exemplo do que não fazer, você ''poderia'' colocar um desses em cada dedo
 
 Reatribui outro osso a este sprite do impostor. Isso significa que ele será impostorizado com esta parte do corpo e fará parte desse sprite.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For instance, if you'd like your wings to be a part of the upper body, you can re-parent the root wing bone to the chest bone during impostorization with this.
-</div>
+Por exemplo, se você quiser que suas asas façam parte da parte superior do corpo, você pode reatribuir o osso da asa raiz ao osso do peito durante a impostorização com isso.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''This is relative to the bone that VRCImpostorSettings is placed on.''
