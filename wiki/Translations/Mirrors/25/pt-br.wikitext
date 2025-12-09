@@ -1,0 +1,5 @@
+Os criadores podem reduzir o custo de desempenho dos espelhos de várias maneiras, tais como:
+* Desativar todos os espelhos por padrão. Ativar um espelho apenas quando o usuário apertar um botão ou se aproximar fisicamente dele.
+* Desativar os espelhos quando um usuário sair da área. Isso removerá o custo de renderização de um espelho quando um jogador não estiver usando-o. Os usuários muitas vezes não fazem isso por conta própria, então use um script para fazer isso por eles.
+* Considerar a localização dos espelhos. Um espelho voltado para longe do centro do mundo terá que renderizar menos do que um voltado para dentro.
+* Alterar as [[Special:MyLanguage/Layers{{#translation:}}|Camadas]]
