@@ -96,7 +96,7 @@ O sistema Animator do Unity usa floats no backend para todos os tipos de parâme
 |Qualquer valor inteiro diferente de 0 define uma variável booleana como Verdadeiro.
 |-
 |Int → Int
-|<span lang="en" dir="ltr" class="mw-content-ltr">Expected Behaviour</span>
+|Comportamento Esperado
 |-
 |Int → Float
 |<span lang="en" dir="ltr" class="mw-content-ltr">Straight Conversion: e.g. Int = 2 → Float = 2.0</span>
