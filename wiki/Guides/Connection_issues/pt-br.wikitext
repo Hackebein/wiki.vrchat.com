@@ -168,15 +168,13 @@ Para desativar a priorização IPv6,
 * Digite "netsh interface ipv6 reset" e pressione a tecla Enter.
 * Isso deverá reverter a priorização do IPv4 após reiniciar o seu computador.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Option 4 - Disabling IPv6 and forcing IPv4 use (DO NOT USE)===
-Many ISPs have started removing IPv4 capability completely, due to worldwide shortages of IPv4 addresses. 
-If your ISP doing this, this method may not work, and may not allow you to connect to the Internet at all. 
-There are some available guides on how to disable IPv6 protocol if you knows what you are doing:
+===Opção 4 - Desativar IPv6 e forçar o uso de IPv4 (NÃO UTILIZAR)===
+Muitos provedores de internet começaram a remover completamente a capacidade de usar o IPv4, devido à escassez mundial de endereços IPv4. 
+Se o seu provedor de internet estiver fazendo isso, esse método pode não funcionar e pode até mesmo impedir que você se conecte à internet. 
+Existem alguns guias disponíveis sobre como desativar o protocolo IPv6, caso você saiba o que está fazendo:
 *'''Windows''': https://support.surfshark.com/hc/en-us/articles/360011550199-How-to-disable-IPv6-on-Windows
 *'''Mac''': https://support.surfshark.com/hc/en-us/articles/360012367560-How-to-disable-IPv6-on-macOS
 *'''Linux''': https://support.surfshark.com/hc/en-us/articles/360024470413-How-to-disable-IPv6-on-a-Linux-device
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Troubleshooting==
