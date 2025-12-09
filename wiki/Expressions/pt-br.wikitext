@@ -32,9 +32,7 @@ Quando nenhuma expressão é configurada, um menu de expressões padrão com ani
 <span id="Custom_expressions"></span>
 ===Expressões personalizadas===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To add custom expressions, create an '''Expression Menu''' file and an '''Expression Parameter''' file, then attach them to the VRChat Avatar Descriptor. The menu defines parameter entries shown on your avatar’s expression menus. The parameters are the '''variables''' the menu controls. You also specify details such as whether parameters must be synchronized for other users. You can set 256 bits to be synced, with in 8192 variables.
-</div>
+Para adicionar expressões personalizadas, crie um arquivo de "Menu de Expressões" e um arquivo de "Parâmetros de Expressão" e, em seguida, anexe-os ao Descritor de Avatar do VRChat. O menu define as entradas de parâmetros exibidas nos menus de expressão do seu avatar. Os parâmetros são as "variáveis" que o menu controla. Você também especifica detalhes, como se os parâmetros devem ser sincronizados para outros usuários. É possível definir 256 bits para serem sincronizados, com um limite de 8192 variáveis.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Controls====
