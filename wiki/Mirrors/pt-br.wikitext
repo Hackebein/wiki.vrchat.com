@@ -29,9 +29,7 @@ Pode ser ativado e configurado através do [[Special:MyLanguage/Action Menu|Menu
 <span id="Calibration_Mirror"></span>
 ==== Espelho de Calibração ====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A calibration mirror is a type of mirror that activates automatically when the user presses the "Calibrate FBT" button. It is visible only to the user who is calibrating and disappears once they are done. The calibration mirror displays only the user's avatar, controllers, and FBT tracker model, which can be set in the Main Menu's Settings. If "Display Calibration Visuals" is enabled under Tracking and IK, the calibration mirror will also reflect these, showing which tracking points the trackers will track when calibration is done.
-</div>
+Um espelho de calibração é um tipo de espelho que é ativado automaticamente quando o usuário pressiona o botão "Calibrar FBT". Ele é visível apenas para o usuário que está realizando a calibração e desaparece assim que a calibração é concluída. O espelho de calibração exibe apenas o avatar do usuário, os controladores e o modelo do rastreador FBT, que podem ser definidos nas Configurações do Menu Principal. Se a opção "Exibir visuais de calibração" estiver ativada em Rastreamento e IK, o espelho de calibração também refletirá esses elementos, mostrando quais pontos de rastreamento os rastreadores irão rastrear quando a calibração for concluída.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 It can be enabled via the [[Special:MyLanguage/Action Menu|Action Menu]] or the [[Special:MyLanguage/Main Menu|Main Menu]]'s [[Special:MyLanguage/Settings|Settings]] page, but there are no configuration options for the calibration mirror.
