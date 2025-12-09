@@ -47,9 +47,8 @@ Os Impostores ficam muito bons por padrão. No entanto, avatares complexos podem
 
 Para personalizar seu impostor, adicione o componente "VRCImpostorSettings" ao seu avatar antes de enviá-lo. Alterar as configurações desse componente permite que você mude a aparência do impostor. Você pode adicionar vários "VRCImpostorSettings" para personalizar diferentes partes do corpo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Resolution Scale===
-</div>
+<span id="Resolution_Scale"></span>
+===Escala de Resolução===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Changes the amount of space on the impostor's texture atlas that is dedicated to this body part's texture. For instance, you can place this script on the head bone and change this value to make the head take up more or less of the texture atlas, increasing or decreasing the overall texture quality. Note that this may shrink other parts of the body on the atlas if needed.
