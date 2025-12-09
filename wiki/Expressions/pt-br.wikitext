@@ -66,7 +66,7 @@ A divergência de parâmetros de expressão refere-se à prática de usar tipos 
 O sistema Animator do Unity usa floats no backend para todos os tipos de parâmetros, enquanto o VRChat usa SBytes internamente para armazenamento de parâmetros. A interface do usuário no Unity e no VRCSDK permite selecionar tipos de parâmetros para maior conveniência, mas, internamente, conversões são possíveis. Isso significa que os parâmetros não são convertidos (cast), mas sim divergentes. Esse comportamento também é suportado por ferramentas populares como Av3Emulator e Gesture Manager.
 
 <span id="Expression_Parameter_Bool"></span>
-===Parâmetro de expressão Booleano===
+===Parâmetro de Expressão Booleano===
 {| class="wikitable"
 |+Parâmetro do Controlador de Animação
 !Tipo
