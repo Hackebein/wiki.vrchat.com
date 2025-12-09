@@ -152,11 +152,9 @@ EDNS ECS oferece hosts mais próximos do que os servidores DNS tradicionais, o q
 
 Referência: https://adguard-dns.io/en/blog/privacy-friendly-edns-client-subnet.html
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Option 3 - Elevate IPv4 priority over IPv6 on Windows ===
-This will prioritize using IPv4 over IPv6, without disabling IPv6 completely.
-*This option may not works if your ISP stop offering IPv4 completely.
-</div>
+=== Opção 3 - Elevar a prioridade do IPv4 sobre o IPv6 no Windows ===
+Isso dará prioridade ao uso do IPv4 em relação ao IPv6, sem desativar completamente o IPv6.
+*Esta opção pode não funcionar se o seu provedor de internet deixar de oferecer IPv4 completamente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To enable on Windows,
