@@ -68,13 +68,11 @@ Se você estiver com problemas de conexão, pode ser uma boa ideia utilizar um t
 Os guias para as configurações de DNS acima usarão, por padrão, endereços IP que se conectam aos servidores DNS "Quad9". 
 Em vez disso, utilize os endereços IP fornecidos da Cloudflare.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''You must put both IPv4 and IPv6 settings to make it work without issue.'''
+'''Você precisa configurar tanto o IPv4 quanto o IPv6 para que funcione sem problemas.'''
 <syntaxhighlight lang="bbcode" line="1">
 <IPv4>
 1.1.1.1
 1.0.0.1
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 <IPv6>
