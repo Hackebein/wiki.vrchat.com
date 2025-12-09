@@ -1,0 +1,2 @@
+um espelho reflete. Um espelho apenas renderiza objetos nas camadas definidas. Por exemplo, se você tiver um grande mundo externo com uma casa no meio, poderá definir os objetos do ambiente externo para a camada de ambiente e, em seguida, desativar a camada de ambiente nos espelhos dentro da casa. Isso impedirá que os espelhos tentem renderizar o ambiente que não podem ver.
+Ao interagir com um espelho em um mundo, os usuários poderão ativar ou alternar diferentes opções para economizar desempenho, tais como:
