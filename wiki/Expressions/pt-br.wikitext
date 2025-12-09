@@ -63,9 +63,7 @@ Os parâmetros de expressão são usados ​​para controlar as funcionalidades
 
 A divergência de parâmetros de expressão refere-se à prática de usar tipos de parâmetros diferentes entre os parâmetros de expressão e os parâmetros do controlador de animação local. Embora seja recomendável manter a consistência dos tipos de parâmetros, existe suporte para essa divergência e o sistema converterá os valores entre os tipos de acordo com regras específicas. Isso pode ser útil em certas configurações <u>avançadas</u>.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Unity's Animator system uses floats on the backend for all parameter types, while VRChat internally uses SBytes for parameter storage. The user interface in Unity and the VRCSDK allows you to select parameter types for convenience, but under the hood, conversions are possible. This means that parameters are not being cast, but rather mismatched. This behavior is also supported by popular tools such as Av3Emulator and Gesture Manager.
-</div>
+O sistema Animator do Unity usa floats no backend para todos os tipos de parâmetros, enquanto o VRChat usa SBytes internamente para armazenamento de parâmetros. A interface do usuário no Unity e no VRCSDK permite selecionar tipos de parâmetros para maior conveniência, mas, internamente, conversões são possíveis. Isso significa que os parâmetros não são convertidos (cast), mas sim divergentes. Esse comportamento também é suportado por ferramentas populares como Av3Emulator e Gesture Manager.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Expression Parameter Bool===
