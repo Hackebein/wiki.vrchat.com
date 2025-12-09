@@ -67,12 +67,10 @@ Os criadores podem reduzir o custo de desempenho dos espelhos de várias maneira
  um espelho reflete. Um espelho apenas renderiza objetos nas camadas definidas. Por exemplo, se você tiver um grande mundo externo com uma casa no meio, poderá definir os objetos do ambiente externo para a camada de ambiente e, em seguida, desativar a camada de ambiente nos espelhos dentro da casa. Isso impedirá que os espelhos tentem renderizar o ambiente que não podem ver.
 Ao interagir com um espelho em um mundo, os usuários poderão ativar ou alternar diferentes opções para economizar desempenho, tais como:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Using only one mirror at a time.
-* Choosing a lower quality option for a mirror, if available.
-* Alternatively, substituting a world's mirror for your Personal Mirror.
-* Adjust your mirror resolution under [[Special:MyLanguage/Settings#Graphics|Graphics Settings]].
-</div>
+* Usar apenas um espelho por vez.
+* Escolher uma opção de menor qualidade para o espelho, se disponível.
+* Alternativamente, substituir o seu Espelho Pessoal por um espelho do mundo.
+* Ajustar a resolução do espelho em [[Special:MyLanguage/Settings#Graphics|Configurações Gráficas]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Resources ==
