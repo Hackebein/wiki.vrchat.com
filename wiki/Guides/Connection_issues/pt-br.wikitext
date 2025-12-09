@@ -59,13 +59,11 @@ Se você estiver com problemas de conexão, pode ser uma boa ideia utilizar um t
 
 ## [https://developers.cloudflare.com/1.1.1.1/setup/ 1.1.1.1 da Cloudflare] é um resolvedor DNS alternativo incluído no WARP. Ele foi projetado para segurança e privacidade, criptografando parte do tráfego do seu dispositivo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Option 2 - Configuring DNS servers.===
+===Opção 2 - Configurando servidores DNS.===
 *'''Windows10''': https://docs.quad9.net/Setup_Guides/Windows/Windows_10/
 *'''Windows11''': https://docs.quad9.net/Setup_Guides/Windows/Windows_11_%28Encrypted%29/
 *'''Mac''': https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/
 *'''Linux''': https://docs.quad9.net/Setup_Guides/Linux_and_BSD/Ubuntu_22.04_%28Encrypted%29/
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The guides for the DNS settings above will, by default, use IP addresses that connect to "Quad9" DNS servers. 
