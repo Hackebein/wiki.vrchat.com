@@ -158,11 +158,9 @@ Isso dará prioridade ao uso do IPv4 em relação ao IPv6, sem desativar complet
 
 Para ativar no Windows,
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Open the command prompt by pressing the "Windows Key", and typing "cmd", which opens the Command Console; then press "Run as Administrator".
-* Type "netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 100 4", and press the Enter key.
-* This should prioritize IPv4, after restarting your PC.
-</div>
+* Abra o prompt de comando pressionando a tecla "Windows" e digitando "cmd", o que abrirá o Console de Comando; em seguida, clique em "Executar como administrador".
+* Digite "netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 100 4" e pressione a tecla Enter.
+* Isso deve priorizar o IPv4 após reiniciar o seu PC.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To disable IPv6 prioritization,
