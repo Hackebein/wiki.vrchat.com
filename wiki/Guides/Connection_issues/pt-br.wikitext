@@ -192,10 +192,9 @@ Verifique a integridade do firmware dos drivers da sua placa de vídeo ou do sof
 Certifique-se de que seu firewall ou antivírus não esteja bloqueando sua conexão com o VRChat. Se necessário, adicione o VRChat e o Easy Anti-Cheat à lista de exceções do seu antivírus ou firewall.
 *Utilizando os comandos "ping/nslookup/tracert" no Prompt de Comando, para verificar, dependendo se você estiver usando um sistema operacional e software compatíveis.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Output logs ===
-By default, VRChat's output logs are located under "%USERNAME%\AppData\LocalLow\VRChat\vrchat" and named "output_log_(date)". Check the latest dated file, and seek any instabilities with your connection to VRChat.
-</div> 
+=== Registros de saída ===
+
+Por padrão, os registros de saída do VRChat estão localizados em "%USERNAME%\AppData\LocalLow\VRChat\vrchat" e nomeados como "output_log_(data)". Verifique o arquivo com a data mais recente e procure por quaisquer instabilidades em sua conexão com o VRChat. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{VRC link|https://vrch.at/support|VRChat's User Support}}, or troubleshooting on VRChat's [[Special:MyLanguage/Discord servers|Discord servers]] may be able to find the issue, as a last resort.
