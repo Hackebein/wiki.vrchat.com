@@ -1,0 +1,3 @@
+* Abra o prompt de comando pressionando a tecla "Windows" e digitando "cmd", o que abrirá o Console de Comando; em seguida, clique em "Executar como administrador".
+* Digite "netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 100 4" e pressione a tecla Enter.
+* Isso deve priorizar o IPv4 após reiniciar o seu PC.
