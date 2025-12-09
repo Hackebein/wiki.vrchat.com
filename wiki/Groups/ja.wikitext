@@ -1,0 +1,376 @@
+<languages/>
+{{Noticebox/Official}}
+[[File:Groups Render.webp|thumb|グループの公式ロゴ]]
+'''グループ'''は、VRChat内でコミュニティやインスタンスを形成、維持、組織することを目的としたソーシャル機能である。
+
+グループを作成すると、他のユーザーがグループに参加できるようになり、ファンや[[Special:MyLanguage/Community:Culture|文化]]などのオーディエンスを一体化させる事ができるようになる。オプションとして、グループインスタンス内でイベントを主催し、参加することもできる。グループのメンバーは、そのグループを代表し、ネームプレートやプロフィールにグループのバナーを表示することができる。グループ機能は [https://hello.vrchat.com/blog/vrchat-groups 2022年11月30日]に正式にリリースされた。
+
+<span id="Joining_a_group"></span>
+==グループに参加する==
+
+グループに参加するには、まずグループのページに移動する必要がある。ユーザーは一度に最大100の異なるグループに参加できるが、アクティブな[[Special:MyLanguage/VRC+|VRC+]]サブスクリプションに加入していると最大200のグループに参加することができる。グループに参加するには、[[Special:MyLanguage/Main Menu|メインメニュー]]の'''検索'''または'''グループ'''からグループを検索できる。
+
+また、他のユーザーのプロフィールにある参加中のグループのリストを閲覧したり、ワールドにある特定のプロモーションポスターをクリックすることで、グループに参加することも可能である。グループに入ると、グループページの'''インスタンス'''、またはソーシャル画面の'''グループのアクティビティ'''から、アクティブなグループインスタンスに参加することができる。
+
+<span id="Representing"></span>
+===グループの掲示===
+
+グループを代表すると、ユーザーのネームプレートとプロフィールにグループ名とバナーが表示される。ユーザーは、メインメニューからグループページに行き、右上の「グループを掲示する」というラベルの付いたボタンをクリックすることで、グループを掲示することができる。 一度に代表できるグループは1つまでである。
+
+<span id="Membership_visibility"></span>
+=== メンバーであることの可視性 ===
+
+グループのメンバーは、プロフィールの参加グループ一覧に所属を表示しないようにすることができる。
+ただし、以下の条件下では、ユーザーはあなたがグループ内にいるかどうかを確認することができる。
+
+* 同じグループを相互に共有している場合。
+* そのユーザーが全メンバーを表示する権限を持っている場合。（例：グループオーナー、等）
+
+[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|グループの可視性オプション]]
+
+VRChat内の'''グループ'''でグループを選択し、メニューの右上にある歯車のアイコンをクリックすると、'''グループの設定'''のサブメニューが開き、自由に可視性を変更できる。
+
+また、VRChatウェブサイトからサイドバーの「Groups」タブでグループを選択し、'''Settings'''をクリックし'''My Membership'''の下にある "Visibility"を選択することで、可視性を変更することも可能である。
+{| class="wikitable"
+!誰でも
+|グループは全員のあなたのプロフィールに表示される。
+|-
+!フレンドのみ
+|グループはフレンドのあなたのプロフィールに表示される。
+
+|-
+!非表示
+|このグループはあなたのプロフィールから表示されない。
+|}
+
+<span id="Creating_a_group"></span>
+==グループを作成する==
+
+グループを作成するには、まずアクティブな[[Special:MyLanguage/VRChat+|VRC+]]サブスクリプションを持っている必要がある。グループオーナーシップを維持するためにVRC+のサブスクリプションの維持は必要ではない。しかし、VRC+ [[Special:MyLanguage/Gallery|ギャラリー]]を使用してアイコンやバナーを変更したり、グループのギャラリーを編集したり、グループの所有権を他のユーザーに譲渡するには、アクティブなVRC+サブスクリプションが必要である。現在、グループの作成は{{VRC link|https://vrchat.com/home/groups|VRChatウェブサイト}}から行う必要がある。ユーザーは最大5つのグループを所有でき、各グループには最大100,000人のメンバーが参加できる。
+
+<span id="Joinability_and_visibility"></span>
+=== 参加要件と可視性 ===
+
+グループを作成するとき、作成者はいくつかのプライバシーオプションを設定する必要がある。 グループの参加要件は、どのユーザーがグループに参加できるかを決定する。 この設定は後で変更することができる。
+{| class="wikitable"
+!Free Join
+|誰でも自由に参加できる。
+|-
+!Request to Join
+|グループの参加にはリクエストが必要である。
+
+|-
+!Invite-Only
+
+|適切な権限を持つ人は、新しいメンバーをグループに招待することができる。
+|}
+グループの'''可視性'''は、グループをメンバーのプロフィールに表示するかどうかを決定するものであり、この設定は'''後で変更することはできない。''''
+{| class="wikitable"
+!パブリック
+|メンバーはプロフィールにグループの所属を掲載することができる。
+|-
+!プライベート
+|メンバーによるグループの宣伝や表示はできない。
+|}
+前述したように、どのユーザーも可視性の設定により、プロフィールに表示されるパブリックグループを手動で無効にすることができる。
+
+===グループバナー===
+
+グループバナーは、そのグループを代表することを選択したユーザーのネームプレートに表示され、VRChat Home WebサイトのグループページやVRChat内のグループUIにも表示されます。
+
+バナーはVRChat Homeのウェブサイトからアップロードして選択できます。 ただし、アップロードされた画像は、表示場所によって異なる方法でトリミングされます。
+
+コミュニティメンバーのReavaは[https://github.com/Reava/Resources/releases/tag/Guide a guide]を作成しました。これは、バナーを作成して、必要に応じて最も重要な部分がUIに表示されるようにするのに役立ちます。
+
+<span id="Group_roles_and_permissions"></span>
+==グループのロールと権限==
+
+<span id="Viewing_your_roles"></span>
+===自分のロールを見る===
+
+現在、VRChatクライアント内でロールを選択・変更することはできませんが、[[Special:MyLanguage/Main Menu|メインメニュー]]を開き、グループタブをクリックし、ロールを表示したいグループをクリックすることで、アカウントに適用されている現在のロールをすべて表示することができる。メニューの右上に「歯車」のアイコンがあり、右方向に'''グループの設定'''のサブメニューが展開される。サブメニューの一番上には、現在適用されているロールが表示される。
+
+<span id="Default_roles"></span>
+===デフォルトのロール===
+
+[[File:Groups default roles.png|thumb|253x253px|ロールの概要]]
+
+グループには、ロールのための階層が存在する。 '''Management Roles'''、'''Member Roles'''、'''Default Role''''の異なる三つがある。 グループが作成されると、自動的に以下の3つのロールが設定される。'''Everyone'''に「Default Role」、'''Member'''は「Member Roles」、'''Group Owner'''は「Management Roles」である。「Group Owner」と「Member」のロール名は変更できるが、「Everyone」は変更も削除も出来ない。
+
+デフォルトでは、グループオーナーには常にすべての権限が与えられているため、グループオーナーの権限を変更したり削除したりすることはできない。ただし、グループオーナーは、両者がVRC+に加入している限り、他のグループメンバーに譲渡することができる。すべての移籍は最終的なものであるため、移籍前に熟考する必要がある。グループ移籍についての詳細は以下を参照。 
+
+<span id="Creating_roles"></span>
+===ロールの作成===
+
+グループの管理者は、いつでもロールの追加、名前の変更、削除を行うことができる。各ロールには説明とカスタム権限セットを与えることができる。それぞれの権限は、グループに対してオンまたはオフに切り替えられる。ロールはオプションで、'''Assigned On Join''''、'''Self Assignable'''、または'''Require 2FA'''に設定できる。
+
+ Self Assignableロールはオプションで、ユーザーはVRChatのWebサイトにサインインして自身にロールを適用することができる。ただし、SteamアカウントやMetaアカウントなどのプラットフォームアカウントのユーザーが、VRChat Webサイトにログインするには[[Special:MyLanguage/Getting Started#Account Creation|VRChatのアカウントを作成]]する必要がある。グループ管理では、任意のユーザーに手動でロールを適用できる。
+{| class="wikitable"
+|+
+!Function
+!Description
+|-
+|Assign On Join
+|<small>有効にすると、新しいメンバーがグループに参加した時にこのロールが割り当てられる。これは既存のメンバーには影響しない。</small>
+|-
+|Self Assignable
+
+|<small>グループのメンバーが自身にこのロールを割り当てることを許可する。</small>
+|-
+|Require 2FA
+|<small>権限を適用する前に、メンバーに２要素認証を要求する。</small>
+|}
+
+[[File:Groups permissions overview.png|thumb|グループ管理オプションで見ることができる、割り当て可能な権限の一部]]
+
+<span id="Assigning_permissions"></span>
+===権限の割り当て===
+
+ロールに権限を割り当てるには、グループ管理者がVRChatウェブサイトにサインインし、「権限」タブに移動する必要がある。 
+
+* 手順1：ウェブサイトの左サイドバーにある'''Groups'''をクリックします。 
+
+* 手順2：権限を管理または変更できるグループをクリックする。 
+
+* 手順3：グループ管理者がアクセスできるタブには、「Overview」「Posts」などがあるが、今回は'''Settings'''というタイトルのタブをクリックする。 
+
+* 手順4：タブの下にある'''Roles'''をクリックする。 
+
+* 手順5: 権限を編集したいロールをクリックし、ロックアイコンのある'''Permissions'''をクリックする。 
+
+<div class="mw-translate-fuzzy">
+* 手順6：以下の権限の許可を適用し、ページの一番下までスクロールして、'''click Save'''をクリックする。
+{| class="wikitable"
+|+
+!権限
+!詳細
+|-
+|Manage Group Member Data
+|<small>すべてのメンバーの表示、ロールによるフィルタリング、ソート、およびメンバーに関するデータの編集を行うことができる。</small>
+|-
+|Manage Group Data
+|<small>グループの詳細（名前、説明、joinStateなど）を編集できる。</small>
+|-
+|View Audit log
+|<small>グループ監査ログ全体を閲覧できる。</small>
+|-
+|Manage Group Roles
+|<small>ロールの作成、ロールの変更、およびロールの削除を許可する。</small>
+|-
+|Manage Group Default Role
+|<small>デフォルトロール(別名Everyoneロール)の権限を管理できるようにします。 「Manage Group Roles」が必要。</small>
+|-
+|Assign Group Roles
+|<small>ユーザにロールを割り当てとその解除を許可する。「Manage Group Member Data」が必要。</small>
+|-
+|Manage Group Ban
+|<small>ユーザーのバンとその解除を許可し、バンされたすべてのユーザーを表示できる。「Manage Group Member Data」が必要。</small>
+|-
+|Remove Group members
+|<small>グループからメンバーの削除を許可する。「Manage Group Member Data」が必要。</small>
+|-
+|View All Members
+|<small>フレンドだけでなく、グループの全メンバーを見ることができる。</small>
+|-
+|Manage Group Announcement
+|<small>グループアナウンスを設定し、通知として送信することを許可する。</small>
+|-
+|Manage Group Galleries
+|<small>グループギャラリーの作成、並び替え、編集、削除を許可。 常にギャラリーに投稿し、画像を承認することができる。</small>
+|-
+|Manage Group Invites
+|<small>招待の作成とキャンセル、参加リクエストの承認、拒否、ブロックを行うことができる。</small>
+|-
+|Moderate Group Instance
+|<small>グループインスタンス内でモデレートすることを許可する。</small>
+|-
+|Manage Group Instances
+|<small>グループインスタンスを閉じることを許可する。</small>
+|-
+|Group Instance Queue Priority
+|<small>ロールによってグループインスタンスキューに優先度を設けることができる。</small>
+|-
+|Create Age Gated Instances
+|<small>参加するために年齢認証された18歳以上のユーザーである事を必要とするグループインスタンスを作成できます。</small>
+|-
+|Create Group Public Instances
+|<small>メンバーであるかどうかに関わらず、すべての人に公開されるグループインスタンスを作成することができる。 注意:プライベートグループはパブリックインスタンスを作成できない。</small>
+|-
+|Create Group+ Instances
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Member Data||<small>Allows role to view, filter by role, and sort all members and edit data about them.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Data||<small>Allows role to edit group details (name, description, joinState, etc).</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View Audit log||<small>Allows role to view the full group audit log.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Roles||<small>Allows role to create roles, modify roles, and delete roles.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Default Role||<small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Assign Group Roles||<small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Bans||<small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Remove Group Members||<small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View All Members||<small>Allows role to view all members in a group, not just friends.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Announcement||<small>Allows role to set/clear group announcement and send it as a notification.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Calendar||<small>Allows role to create, modify, and publish calendar entries.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Galleries||<small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Invites||<small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Moderate Group Instance||<small>Allows role to moderate within a group instance.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Instances||<small>Allows role to close an group instance.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Group Instance Queue Priority||<small>Gives role priority for group instance queues.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Age Gated Instances||<small>Allows role to create group instances that require users to have age verified in order to join.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Linked Instances||<small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group Public Instances||<small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group+ Instances||<small>Allows role to create group instances that friends of people present can also join.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Members-Only Group Instances||<small>Allows role to create members-only instances.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Role-Restrict Members-Only Instances||<small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Portal to Group+ Instances||<small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Unlocked Portal to Group+ Instances||<small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Join Group Instances||<small>Allows role to join group instances.</small>
+|}
+</div>
+
+<span id="Group_instances"></span>
+==グループインスタンス==
+
+グループの所有者、および適切な権限を持つ者は、グループ[[Special:MyLanguage/Instances|インスタンス]]を作成することができる。グループインスタンスには3つのタイプがある。
+{| class="wikitable"
+!Group
+|グループのメンバー（または指定されている場合はグループ内の特定のロール）のみがインスタンスに参加できる。
+|-
+!Group+
+|インスタンス内のユーザーのフレンドであれば誰でも参加できる。インスタンスへの参加にグループメンバーである必要はない。
+|-
+!Group Public
+|誰でも参加できる、グループによってホストされる一般公開されたインスタンス。インスタンスへの参加にグループメンバーである必要はない。
+|}
+グループインスタンスは多くの場合、'''インスタンスをホストするグループによって管理されている'''。グループの所有者と、その役割を通じてモデレーション権限を与えられた者は、インスタンス内のユーザーを警告、ミュート、キック、またはバンすることができる。グループからユーザーを永続的に追放すると、そのグループによって作成されたインスタンスに参加できなくなるだけでなく、グループ自体にも参加できなくなる。
+
+<span id="Group_instance_queues"></span>
+===グループインスタンス キュー===
+
+グループインスタンスは、大人数のイベントを管理するのにも最適である。そのような状況のために、'''VRChatグループキューオプション'''は、インスタンスの最大人数に達したときに参加リクエストを処理するための待機列をセットアップできる。インスタンスのキューに参加すると、そのインスタンスの枠が空くと招待リクエストが届く。あなたがリクエストを受信したら、次の人に枠が移るまでの1分以内にインスタンスに参加する必要がある。
+
+<span id="Transferring_a_group"></span>
+==グループの譲渡==
+
+2024年3月27日現在<ref>https://ask.vrchat.com/t/developer-update-28-march-2024/23676</ref>、グループの所有者は、双方がVRC+に加入しており、利用可能なスペースがある限り、グループの所有権を他の意思のあるグループメンバーに譲渡することが可能である。すべての移籍は最終的なものであるため、この点は考慮する必要がある。
+
+'''グループの所有権を他のメンバーに譲渡することができます。対象となるメンバーとグループは、以下の条件を満たしている必要があります。'''
+* 対象メンバーがメールアドレスを確認済みであること（アカウント設定から「Eメール」セクションを確認してください）
+* 対象メンバーがアクティブなVRC+サブスクリプションを持っていること
+* 対象となるメンバーは、グループを所有できる枠があるか（各ユーザーは最大5つのグループを所有できます）
+* グループが収益化されていないこと
+
+<span id="Official_resources"></span>
+== 公式リソース ==
+
+*[https://www.youtube.com/watch?v=b6c_kDRJG2A Developer Update - Groups] on ''YouTube'', uploaded November 30, 2022.
+*{{VRC link|https://hello.vrchat.com/blog/vrchat-groups|Groups is Now Live!}} on ''hello.vrchat.com''
+*{{VRC link|https://help.vrchat.com/hc/en-us/sections/11719560642963-VRChat-Groups|VRChat Groups FAQ}} on ''help.vrchat.com''
+
+<span id="Trivia"></span>
+==トリビア==
+
+*「Just Bread Group」（[https://vrc.group/TOASTY.1234 TOASTY.1234]）は、史上初のグループ<ref>https://x.com/VRChat/status/1747389673154949626</ref>です。 サーバーエンジニアのBreadyによってテスト目的で作成されました。 グループを起動すると、サーバーのパフォーマンスを最大化するためにデータを特定の方法で整理する必要があり、データベースを適切に整理するために最初に作成する必要がありました。
+
+<span id="References"></span>
+==出典==
+
+<references />
+
+[[Category:Features{{#translation:}}]]

@@ -1,0 +1,41 @@
+This template displays build numbers of clients. This template parameters should be in-sync with the [[Template:Version|<nowiki>{{Version}}</nowiki>]] and [[Template:Version/href|<nowiki>{{Version/href}}</nowiki>]] templates.
+
+{| class="wikitable"
+!Version
+!Example
+!Template code
+|-
+| style="text-align:center;" colspan="3" |'''<big>Client</big>'''
+|-
+|Live Main Page
+|{{Version/Build|live-mainpage}}
+|<code><nowiki>{{Version/Build|live-mainpage}}</nowiki></code>
+|-
+|Live
+|{{Version/Build|live}}
+|<code><nowiki>{{Version/Build|live}}</nowiki></code>
+|-
+|Live (Windows)
+|{{Version/Build|live-windows}}
+|<code><nowiki>{{Version/Build|live-windows}}</nowiki></code>
+|-
+|Live (Android)
+|{{Version/Build|live-android}}
+|<code><nowiki>{{Version/Build|live-android}}</nowiki></code>
+|-
+|Live (iOS)
+|{{Version/Build|live-ios}}
+|<code><nowiki>{{Version/Build|live-ios}}</nowiki></code>
+|-
+|Open Beta
+|{{Version/Build|open-beta}}
+|<code><nowiki>{{Version/Build|open-beta}}</nowiki></code>
+|-
+|Open Beta (Windows)
+|{{Version/Build|open-beta-windows}}
+|<code><nowiki>{{Version/Build|open-beta-windows}}</nowiki></code>
+|-
+|Open Beta (Quest)
+|{{Version/Build|open-beta-quest}}
+|<code><nowiki>{{Version/Build|open-beta-quest}}</nowiki></code>
+|}

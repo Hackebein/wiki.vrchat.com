@@ -1,0 +1,43 @@
+This is a placeholder for the Image Tags help page.
+
+{| class="wikitable"
+|+ License Templates
+|-
+! Code !! Description !! Example
+|-
+| colspan="3" | Free Licenses
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license pd|license pd]]<nowiki>}}</nowiki> || This image is in the public domain. || {{license pd}}
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license cc0|license cc0]]<nowiki>}}</nowiki> || This image is licensed under Creative Commons 0 (Public Domain equivalent). || {{license cc0}}
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license cc-by|license cc-by]]<nowiki>}}</nowiki> || This image is licensed under the Creative Commons Attribution license. || {{license cc-by}}
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license cc-by-sa|license cc-by-sa]]<nowiki>}}</nowiki> || This image is licensed under the Creative Commons Attribution Share-Alike 3.0 license. || {{license cc-by-sa}}
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license free-other|license free-other]]<nowiki>}}</nowiki> || This image is licensed under another free or compatible license, such as Free Art License 1.3 or GPLv3. || {{license free-other}}
+|-
+| colspan="3" | Used with permission
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license vrc-permission|license vrc-permission]]<nowiki>}}</nowiki> || This is an image taken in VRChat I am using with permission (details in description). || {{license vrc-permission}}
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license 3rd-party-permission|license 3rd-party-permission]]<nowiki>}}</nowiki> || Used with permission by the creator (add details in description). || {{license 3rd-party-permission}}
+|-
+| colspan="3" | Self
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license self|license self]]<nowiki>}}</nowiki> || I made this image. || {{license self}}
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license self-made-ai|license self-made-ai]]<nowiki>}}</nowiki> || I generated this image using an AI tool (details in description). || {{license self-made-ai}}
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license self-made-vrc|license self-made-vrc]]<nowiki>}}</nowiki> || I took this image inside VRChat. || {{license self-made-vrc}}
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license own|license own]]<nowiki>}}</nowiki> || I am not the creator of this image but I have full ownership of it (details in description). || {{license own}}
+|-
+| colspan="3" | Other
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license VRC|license VRC]]<nowiki>}}</nowiki> || This is an official VRChat logo or image, and is used with permission. || {{license VRC}}
+|-
+| <nowiki>{{</nowiki>[[Special:MyLanguage/Template:license unknown|license unknown]]<nowiki>}}</nowiki> || I do not know the license of this image. || {{license unknown}}
+|}
+
+[[Category:Help Pages]]

@@ -1,0 +1,1 @@
+グループには、ロールのための階層が存在する。 '''Management Roles'''、'''Member Roles'''、'''Default Role''''の異なる三つがある。 グループが作成されると、自動的に以下の3つのロールが設定される。'''Everyone'''に「Default Role」、'''Member'''は「Member Roles」、'''Group Owner'''は「Management Roles」である。「Group Owner」と「Member」のロール名は変更できるが、「Everyone」は変更も削除も出来ない。

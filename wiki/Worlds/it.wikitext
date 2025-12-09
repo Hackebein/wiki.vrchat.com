@@ -1,0 +1,79 @@
+<languages/>
+''Leggi anche [[Special:MyLanguage/Instances|Istanze]] ulteriori informazioni.''{{Noticebox/Official}}
+I '''Mondi''' sono gli spazi virtuali occupati dagli utenti di [[Special:MyLanguage/VRChat|VRChat]]. Sono luoghi in cui gli utenti possono interagire fra di loro, con l'ambiente, ed altre funzionalità e meccaniche. I mondi sono sviluppati dagli utenti della comunità, e caricati pubblicamente e non tramite l'[[Special:MyLanguage/VRChat SDK|SDK]] di VRChat. Per permettere agli utenti di altre [[Special:MyLanguage/Platforms|piattaforme]] di entrare nel mondo è necessario sviluppare versioni compatibili con tali piattaforme.
+
+There's a variety of world types covering topics ranging from social hangouts, games, to avatar showcases, scenic views, and more. Each world can have multiple sessions running at the same time, referred to as [[Special:MyLanguage/Instances|instances]], which have a global region they're linked to, a maximum user capacity set by the world author, and an instance type that controls who can join and moderate the world instance.
+<span id="Discovering_and_joining_worlds"></span>
+==Scoprire ed entrare nei mondi==
+
+[[File:VRC Worlds Banner.png|thumb|Render ufficiale del logo "Mondi"]]
+È possibile scoprire nuovi mondi anche senza aver mai aperto l'applicazione VRChat, eseguendo il login nel [https://vrchat.com/home sito web di VRChat], o tramite la pagina principale dell'app per dispositivi mobili. Al primo avvio, l'utente verrà posto nel loro mondo casa.
+<span id="Home_world"></span>
+===Mondo casa ===
+
+Il mondo casa è un mondo nel quale ogni utente entra all'avvio di VRChat. La [[Special:MyLanguage/VRChat Home|Casa di VRChat]] è il mondo casa predefinito, ma gli utenti possono rendere qualsiasi mondo, disponibile in VRChat, la propria casa<ref group="note" name="any-world">Gli utenti non possono impostare un mondo privato o che sono nel [[Special:MyLanguage/Community_Labs|Laboratorio della Comunità]].</ref>. Per rendere un mondo la propria casa, è necessario navigare nelle informazioni nel mondo e, sotto la sezione azioni, premere '''Rendi Casa'''.
+
+Il tipo e la regione di un mondo casa possono essere cambiati. Normalmente, il tipo d'istanza è Invito e la regione è impostata automaticamente per essere la più stabile per l'utente. Questo può essere cambiato nelle [[Special:MyLanguage/Settings#Safety|impostazioni di Comfort e Sicurezza.]]
+<span id="Using_the_menu"></span>
+===Usare il menù ===
+
+Esistono vari modi per entrare nei mondi, o istanze, tutti attuabili nel [[Special:MyLanguage/Menus|menù]].
+
+<span id="&quot;Worlds&quot;_Quick_Link_/_tab"></span>
+==== Collegamento Rapido Mondi ====
+
+Quando il [[Special:MyLanguage/Quick Menu|Menù Rapido]] è aperto, interagire con il pulsante '''Mondi''', porterà l'utente al [[Special:MyLanguage/Main Menu|Menù Principale]], a cui sarà mostrata, in modo predefinito, la scheda della ''Scatola della Varietà di VRCat'', la quale mostra una selezione casuale di mondi di varie categorie. In qualunque momento, è possibile accedere a questa sezione premento il pulsante 'Mondo' in basso.
+
+On the left of the World tab, one can select a specific world category such as "Trending", "Avatar Worlds - Trending", "Games - Active", "New & Noteworthy", etc. This can be useful for quickly finding popular worlds in different categories. Clicking on a world tile here will take users to the detailed menu page for that world, giving the user options to select an existing instance to join or to create a new one, and to either join directly or drop a world portal. Each world is represented with a [[Special:MyLanguage/Community:World Thumbnail|thumbnail]], giving insight into its contents.
+<span id="Recently_visited,_and_favorite_worlds"></span>
+====Mondi preferiti e recentemente visitati====
+
+Nella pagina Mondo, è presente una finestra a cascata di nome: '''I Miei Mondi''', che contiene tutti i mondi caricati, recentemente visitati e le liste di mondi preferiti dall'utente.
+<span id="Search"></span>
+====Cerca====
+
+From the Worlds tab, users can use the "Search Worlds" button to search for a specific world by title, description, tag, author, etc. These can also be sorted by Relevance, Last Updated, and Popular.
+
+Users can also use the Search tab on the Main Menu. This tab includes a variety of different search terms for discovering worlds, sorted into two different categories: Recommended Searches, and Quick World Searches. Quick World Searches can be shuffled to spot different search terms.
+<span id="Portals"></span>
+===Portali===
+
+''Leggi anche [[Special:MyLanguage/Portals|Portali]] per ulteriori informazioni.''
+
+[[Special:MyLanguage/Portals|Portals]] provide a quick way for users to access a specific world and instance, without having to individually find it through the menu. The portal will display the world image inside itself, and it will usually have the title above alongside other details such as user capacity and region. By default, walking forward into a portal, will transfer the user to the associated world, but [[Special:MyLanguage/Settings#Comfort & Safety|settings]] can be changed so that it requires user input (Portal Prompt), to prevent accidental travel. Portals will always come in two distinct forms:
+<span id="Static_portals"></span>
+====Portali fissi====
+
+Worlds may contain 'static portals' that they feature to serve as a link to other worlds. These are part of the world, and as such, usually stay there permanently, ready for people to interact with. If a user walks through a static portal, a countdown, starting from thirty will begin, to which any following user can proceed into the same instance until the countdown expires.
+<span id="User-placed_portals"></span>
+====Portali degli utenti====
+
+Gli utenti possono piazzare portali verso istanze di mondi cercando nella scheda Mondi, selezionando poi '''Nuova Istanza''', fornendo poi il tipo d'istanza, finalizzando ciò piazzando un portale, premendo il pulsante '''Rilascia Portale'''. I portali possono essere piazzati sulla maggior parte delle superfici del mondo, altresì in vicinanza del/dei punto/i di spawn. Questo tipo di portale è identico in aspetto ai portali statici, con l'unica differenza nella presenza di un timer sopra essi. Il timer conta alla rovescia partendo da 30 secondi. Il timer viene resettato ogni volta che un utente vi entra. Una volta scaduto il tempo, il portale scompare.
+<span id="Creating_and_uploading_worlds"></span>
+==Creare e caricare mondi==
+
+Per creare e caricare un mondo per VRChat, un utente deve aver raggiunto il rango di fiducia: "Utente".
+
+Per poter iniziare a creare un mondo, è necessario scaricare il [[Special:MyLanguage/VRChat Creator Companion|Creator Companion di VRChat]], che permette l'installazione della versione più recente e compatibile di Unity e del [[Special:MyLanguage/VRChat SDK|SDK di VRChat]]. Alla prima pubblicazione di un mondo esso sarà inserito automaticamente nel [[Special:MyLanguage/Community Labs|laboratorio della comunità]] prima di essere rilasciato formalmente. 
+<span id="See_also"></span>
+==Pagine correlate==
+
+* [[Special:MyLanguage/List of worlds created by VRChat|Lista dei mondi creati da VRChat]]
+
+* [[Special:MyLanguage/Community Labs|Laboratorio della Comunità]]
+
+* [[Category:Features{{#translation:}}]]
+
+*[[Special:MyLanguage/Instances|Istanze]]
+
+*[[Special:MyLanguage/Portals|Portali]]
+<span id="Trivia"></span>
+==Curiosità==
+
+*Il primo mondo VRChat mai creato è stato un bar; per celebrare il decimo anniversario dal rilascio di VRChat, una versione del suddetto mondo è stata pubblicata il 16 Gennaio, 2024.<ref>[https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973 '''VRChat.''' ''VRChat Cafe.'' VRChat, 16 Gen. 2024. ''VRChat'', https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973]</ref>
+<span id="References"></span>
+==Riferimenti==
+
+<references />
+
+[[Category:Needs Images{{#translation:}}]]

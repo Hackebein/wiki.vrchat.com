@@ -1,0 +1,47 @@
+<noinclude><languages/></noinclude><onlyinclude><div class="pi-theme-community" style="background: var(--pi-background); overflow: hidden;  margin-bottom: 5px; {{#ifexpr: {{#if: {{{youtube|}}} | 1 | 0 }} OR {{#if: {{{image|}}} | 1 | 0 }} ||display: table-cell; vertical-align:top; width: 50%;}}">
+<div style="display:flex; flex-wrap: wrap; align-items: stretch;">
+{{#ifexpr: {{#if: {{{youtube|}}}|1|0}} OR {{#if: {{{image|}}}|1|0}} |
+<div style="flex-basis: 45%; display: flex;">{{#if: {{{youtube|}}}|{{YouTube|{{{youtube|}}}|100%}}|{{#if: {{{image|}}}|<!-- Image -->|}}}}</div>
+}}
+<div style="flex-grow: 1; display:flex; flex-direction: column; flex-basis: min-content;">
+<div style="background:var(--pi-secondary-background); text-align:center;">{{{title|}}}</div>
+<div style="font-size: 1.75em; line-height: 1.5; text-align: center;">{{{name|Name}}}</div>
+<div style="display: flex; flex-wrap: wrap;">
+<div style="padding: 0.4em 0.5em; flex-basis: 60%; box-sizing: border-box;">'''Status:''' {{#ifeq: {{{status|}}} | maintained
+| Mantenido activamente<br><span style="font-size: .7em;">El asset se actualiza periódicamente con nuevas funciones y correcciones de errores.</span>
+| {{#ifeq: {{{status|}}} | maintenance
+| Modo de mantenimiento<br><span style="font-size: .7em;">El asset solo recibe correcciones de errores críticos, pero no nuevas funciones.</span>
+| {{#ifeq: {{{status|}}} | deprecated
+| Obsoleto<br><span style="font-size: .7em;">Ya no se recomienda el uso del asset y puede reemplazarse por una alternativa más nueva.</span>
+| {{#ifeq: {{{status|}}} | abandoned
+| Abandonado<br><span style="font-size: .7em;">El asset ya no se mantiene y es posible que no sea funcional.</span>
+| {{#ifeq: {{{status|}}} | archived
+| Archivado<br><span style="font-size: .7em;">El asset se conserva con fines históricos, pero no está en uso activo.</span>
+| {{#ifeq: {{{status|unknown}}} | unknown
+| Desconocido<br><span style="font-size: .7em;">El estado es desconocido.</span>
+<!-- Fallback -->  
+| {{{status|}}}
+}}}}}}}}}}}}</div>{{#if: {{{license|}}}|
+<div style="padding: 0.4em 0.5em; flex-basis: 40%; box-sizing: border-box;">'''License:''' {{{license|}}}<br>[vcc://vpm/addRepo?url={{{vpm|}}} Add to VCC]</div>
+}}{{#if:{{{author|}}} |
+<div style="padding: 0.4em 0.5em; flex-basis: 60%; box-sizing: border-box;">{{#if:{{{author_1|}}}
+|'''Autores''' (ordenados por importancia)
+|'''Autor'''
+}}:<br>{{Infobox/Asset/Authors|{{{author|}}}|{{{author_1||}}}|{{{author_2||}}}|{{{author_3||}}}}}</div>
+||}}{{#ifexpr: {{#if: {{{docs|}}}|1|0}} OR {{#if: {{{booth|}}}|1|0}} OR {{#if: {{{gumroad|}}}|1|0}} OR {{#if: {{{github|}}}|1|0}} OR {{#if: {{{gitlab|}}}|1|0}} |<div style="padding: 0.4em 0.5em; flex-basis: 40%; box-sizing: border-box;">'''Links:'''{{#if: {{{docs|}}}
+| * [{{{docs}}} Docs]
+}}{{#if: {{{booth|}}}
+| * [https://booth.pm/en/items/{{{booth}}} BOOTH]
+}}{{#if: {{{gumroad|}}}
+| * [https://gum.co/{{{gumroad}}} Gumroad]
+}}{{#if: {{{github|}}}
+| * [https://github.com/{{{github}}} GitHub]
+}}{{#if: {{{gitlab|}}}
+| * [https://gitlab.com/{{{gitlab}}} GitLab]
+}}</div>}}
+</div>
+</div>
+</div>
+</div>
+[[Category:Resources{{#translation:}}]][[Category:Assets{{#translation:}}]]</onlyinclude>
+<noinclude>{{Documentation}}[[Category:Contentbox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>

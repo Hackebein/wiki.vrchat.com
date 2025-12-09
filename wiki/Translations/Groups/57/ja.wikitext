@@ -1,0 +1,10 @@
+ Self Assignableロールはオプションで、ユーザーはVRChatのWebサイトにサインインして自身にロールを適用することができる。ただし、SteamアカウントやMetaアカウントなどのプラットフォームアカウントのユーザーが、VRChat Webサイトにログインするには[[Special:MyLanguage/Getting Started#Account Creation|VRChatのアカウントを作成]]する必要がある。グループ管理では、任意のユーザーに手動でロールを適用できる。
+{| class="wikitable"
+|+
+!Function
+!Description
+|-
+|Assign On Join
+|<small>有効にすると、新しいメンバーがグループに参加した時にこのロールが割り当てられる。これは既存のメンバーには影響しない。</small>
+|-
+|Self Assignable

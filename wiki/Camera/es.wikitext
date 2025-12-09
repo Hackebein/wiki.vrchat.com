@@ -1,0 +1,124 @@
+<languages/>
+{{Noticebox/Official}}
+La '''cámara''' es una herramienta dentro del juego que permite a los usuarios hacer fotos para capturar sus experiencias en VRChat.
+
+== Cómo acceder ==
+Hay varias formas de acceder a la cámara en VRChat:
+* Abre el [[Special:MyLanguage/Action Menu|menú de acción]], selecciona "Herramientas" y luego "Cámara".
+* Abre el [[Special:MyLanguage/Quick Menu|menú rápido]] y haz clic en la pestaña "Cámara" en la parte inferior. El menú rápido ofrece opciones para todos los modos de cámara.
+* Haz doble clic en el botón "Cámara" en la parte inferior del menú rápido. Esto sacará o guardará la cámara de inmediato.
+
+== Tipos ==
+[[File:Menú rápido cámara ES.webp|thumb|Pestaña de la cámara en el menú rápido.]]
+*'''Cámara de fotos:'''
+Una cámara estándar para hacer capturas.
+*'''Cámara de transmisión:'''
+Se usa para hacer transmisiones o grabar lo que ve la cámara, en lugar de lo que ves directamente desde tu visor. 
+
+Esto mostrará la perspectiva de la cámara en la ventana de escritorio de VRChat, en lugar del punto de vista del usuario.
+*'''Cámara de instantáneas:'''
+Tiene una función similar a la cámara de fotos, pero permite imprimir la imagen hecha.
+*'''Cámara de iconos (disponible solo para [[Special:MyLanguage/VRChat+|VRC+]]):'''
+Permite hacer una foto que se guarda en la galería, para usarla en la placa de nombres o en los iconos de grupo.
+*'''Galería de la cámara (disponible solo para VRC+):'''
+Permite hacer una foto que se guarda en la galería para colocarla en el perfil, en los carteles de grupo o en las fotos de invitación.
+*'''Captura de pantalla:'''
+Los usuarios de escritorio pueden hacer una captura que se guarda en la carpeta de fotos de VRChat en su disco duro. 
+
+También se puede usar presionando la tecla F12 para una captura de pantalla normal o Ctrl+F12 para una captura en alta resolución.
+*'''Cámara multicapa:'''
+Hace varias fotos en rápida sucesión con diferentes capas aplicadas, pero no admite enfoque ni filtros, y puede causar caídas de rendimiento.
+
+Generará tres tipos de fotos: "Todo en uno", "Solo capa del entorno" y "Solo capa de usuario local + usuario remoto".
+*'''Cámara de foto para invitaciones (disponible solo para VRC+):'''
+Permite tomar una foto opcional para enviarla junto con una invitación o una respuesta.
+
+== IU ==
+[[File:Cámara ES.webp|thumb|Vista general de la cámara de VRChat.]]
+La interfaz de usuario de la cámara incluye varios iconos e indicadores:
+* '''X en la esquina superior izquierda:''' Para salir de la cámara.
+* '''Iconos de cámara y foto:''' Indica qué cámara está activa.
+* '''Icono de pin:''' Indica el pin activo (los ajustes se guardan).
+* '''Icono de enfoque:''' Indica si se utiliza el enfoque y qué modo de enfoque está seleccionado.
+* '''Círculos de filtro:''' Muestra si se aplicó un filtro o no y cuál está seleccionado.
+* '''Círculo de giro en la parte superior izquierda:''' Indica si la cámara está orientada hacia ti o hacia el otro lado.
+* '''Flecha de giro a la derecha:''' Restablece el nivel de zoom y la exposición.
+* '''Icono de recuadro girando:''' Cambia la orientación entre vertical y horizontal.
+* '''Línea de zoom a la derecha:''' Ajusta el zoom; muévela hacia abajo para alejar (ojo de pez) y hacia arriba para acercar.
+* '''Línea de exposición a la derecha:''' Ajusta la luminosidad de la cámara.
+* '''Flecha en la parte inferior:''' Contrae el menú.
+
+== Menú ==
+* '''Hacer foto:''' Hace una foto inmediatamente.
+* '''Temporizador (5s):''' Hace una foto después de un retraso de 5 segundos con un sonido de cuenta regresiva.
+* '''Modo de la cámara:''' Amplía los diferentes modos de la cámara.
+** Foto local, Multicapa, Transmisión
+*** Exclusivo de [[Special:MyLanguage/VRChat+|VRC+]]: Galería de fotos, icono de usuario, pegatina, instantánea, emoji
+* '''Anclaje:''' Determina a dónde está vinculada la cámara.
+** '''Por defecto:''' Vinculado al usuario.
+** '''Local:''' Sigue el movimiento del usuario pero no el movimiento de la cabeza.
+** '''Mundo:''' Vinculado al mundo, independiente del movimiento del usuario.
+* '''Comportamiento:''' Ajusta el rendimiento de la cámara.
+** '''Suavizado:''' Estabiliza el vídeo para obtener imágenes más suaves.
+** '''Mírame:''' La cámara sigue la dirección en la que mira tu cabeza.
+** '''Autonivelado de inclinación:''' Mantiene la cámara nivelada, evitando que se incline.
+* '''Enfoque:''' Controla el modo de enfoque.
+** '''Automático:''' Ajusta automáticamente la apertura y la distancia focal.
+** '''Semiautomático:''' Permite ajustar solo la apertura.
+** '''Manual:''' Permite ajustar tanto la apertura como la distancia focal.
+* '''Pins:''' Ajustes guardados de enfoque y filtros.
+* '''Máscara:''' Determina qué capas se incluyen en las fotos.
+** '''Usuario local:''' Incluye al usuario y su avatar.
+** '''Usuario remoto:''' Incluye a otros usuarios.
+** '''Mundo:''' Incluye el entorno del mundo.
+** '''Pantalla verde:''' Sustituye el entorno por una pantalla verde.
+** '''IU:''' Incluye elementos de la interfaz, como el menú radial y la interfaz de la cámara.
+** '''Objetos:''' Incluye objetos colocados en el mundo por los usuarios.
+* '''Visibilidad de la lente:''' Define cómo se renderiza la cámara dentro del mundo.
+** '''Desactivado:''' Muestra solo una luz pequeña.
+** '''Fantasma:''' Muestra una lente de cámara transparente color azul claro.
+** '''Sólido:''' Muestra una lente de cámara sólida.
+* '''Filtros:''' Agrega filtros visuales a la cámara. Solo se puede activar un filtro a la vez.
+* '''Resolución de la foto:''' Ajusta la resolución de la foto. Resoluciones más altas generan archivos más grandes y pueden causar bajada de fotogramas.
+* '''Cuadrícula:''' Superpone una cuadrícula 3x3 en la pantalla de la cámara para asistencia visual. La cuadrícula no aparece en la foto final.
+* '''Bloquear (Solo RV):''' Bloquea la cámara para que no pueda ser sostenida. Solo se puede usar en RV.
+* '''Modo vuelo:''' La cámara se puede controlar manualmente cerca de tu posición. En escritorio, mantén presionada la rueda del ratón y usa el movimiento del ratón junto con las teclas 'WASD' para pilotar la cámara. En RV, haz clic en el botón "Volar" y usa los joysticks izquierdo y derecho después de presionar el gatillo para alternar el movimiento entre la cámara y tu avatar.
+
+=== Controles manuales ===
+Cuando el enfoque se establece en semiautomático o manual, aparecen controles adicionales.
+
+* '''Distancia focal:''' A qué distancia enfoca la cámara.
+* '''Apertura:''' Qué tan abierta está la apertura; cuanto menor sea este número, más borroso aparecerá todo lo que no esté enfocado.
+
+== Cámara móvil ==
+''Véase también [[Special:MyLanguage/Camera Dolly|Cámara móvil]] para obtener información más detallada.''
+
+La cámara móvil es un sistema exclusivo de [[Special:MyLanguage/VRChat+|VRC+]] que te permite crear y reproducir animaciones para la cámara de VRChat.
+
+'''Sugerencia:''' El acceso a la cámara móvil te permite desbloquear un rango de vuelo de cámara adicional después de activar y desactivar la cámara una vez.
+
+== Dron ==
+''Véase también [[Special:MyLanguage/Camera Drone|Dron]] para obtener información más detallada.''
+
+El dron es exclusivo de [[Special:MyLanguage/VRChat+|VRC+]]. Funciona como un dron completamente operativo que puedes pilotar dentro de VRChat, ya sea para grabar o simplemente para volar y divertirte con tus amigos.
+
+<span id="Accessing_saved_photos"></span>
+== Acceder a las fotos guardadas ==
+
+*Los '''sistemas operativos Windows''' almacenarán las fotos de VRChat usando la ruta de carpeta predeterminada de "Imágenes": <code>''C:/Usuarios/(Propietario)/Imágenes/VRChat''</code>. Las fotografías se ordenarán por mes y año. En las versiones de escritorio y PCVR de VRChat, al abrir la pestaña "Cámara" en el menú rápido y al seleccionar "Abrir carpeta de fotos", se abrirá directamente el explorador de archivos en esa ruta.
+
+*Los usuarios de '''Steam''' pueden acceder a sus '''capturas de pantalla de Steam''', separadas de las fotos de VRChat, usando la ruta de carpeta predeterminada: <code>''C:/Archivos de programa (x86)/Steam/userdata/XXXXXXXXX/760/remote/438100/screenshots''</code>.
+
+*Los usuarios de '''Quest Standalone''' pueden acceder a sus fotos a través de la aplicación "Archivos" de Quest en el panel del sistema, o mediante la aplicación Meta Horizon en su teléfono u otro dispositivo si está sincronizado.
+
+*Los dispositivos '''Android y iOS''' pueden acceder a sus fotos de VRChat mediante la aplicación "Galería" o a través de la aplicación "Archivos" del dispositivo.
+
+<span id="See_also"></span>
+== Véase también ==
+
+* [[Special:MyLanguage/Camera Dolly|Cámara móvil]]
+* [[Special:MyLanguage/Camera Drone|Dron]]
+* [[Special:MyLanguage/Gallery|Galería]]
+{{Start-navbox}}
+[[Category:User Interface{{#translation:}}]]
+[[Category:Features{{#translation:}}]]

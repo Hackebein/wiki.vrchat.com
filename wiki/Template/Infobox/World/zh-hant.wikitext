@@ -1,0 +1,26 @@
+<noinclude><languages/></noinclude><includeonly><infobox type="World" theme="community">
+	<title source="name"><default>'''Missing name!'''</default></title>
+	<image source="image"><default>[[File:Placeholder.webp|Missing thumbnail image!]]</default></image>
+	<group>
+        <data source="author"><label>作者</label><default>'''Missing author!'''</default></data>
+        <data source="developers"><label>開發者</label></data>
+        <data source="capacity"><label>推薦數</label></data>
+        <data source="platforms"><label>相容平台</label></data>
+        <data source="tags"><label>標籤</label></data>
+        <data source="languages"><label>語言</label></data>
+        <data source="id"><label>世界連結</label>
+           <default>'''Missing world ID!'''</default>
+           <format>{{World link|{{{id}}}|{{{name}}}}}</format></data>
+    </group>
+    <group>
+        <header>世界歷史</header>
+        <data source="labs">
+            <label>社群實驗室</label>
+            <format>{{#timel: Y F d | {{{labs}}} }}</format>
+        </data>
+        <data source="published">
+            <label>正式公開於</label>
+            <format>{{#timel: Y F d | {{{published}}} }}</format>
+        </data>
+    </group>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}[[Category:Worlds{{#translation:}}]]</includeonly><noinclude>{{Documentation}}[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>

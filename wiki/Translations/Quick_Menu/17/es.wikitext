@@ -1,0 +1,106 @@
+{| class="wikitable"
+|+
+!Variante del reloj
+!Descripción
+|-
+|Normal Clock (Default, Boring)
+|Muestra un reloj en la parte superior del menú rápido.
+|-
+| No Time! <sup>to talk?</sup>
+|Elimina completamente el reloj del menú rápido, dejándolo sin nada.
+|-
+|LGBTQ+ Clock
+|Muestra un reloj colorido en forma de arcoíris, en referencia a la [[es.wikipedia:Bandera_LGBT|bandera del Orgullo]].
+|-
+|Swatch Internet Time (.beats)
+| Una medida de tiempo alternativa basada en decimales; muestra los [[es.wikipedia:Hora_Internet|.beats]]
+|-
+|VRChat Session Time ⏱️
+|Muestra cuánto tiempo llevas en línea, en formato HH:MM.
+|-
+|VRChat+ Ultra Premium Time ☆
+|Pone el reloj amarillo. ''¡Este es un reloj exclusivo de [[Special:MyLanguage/VRC+|VRC+]]!''
+|-
+|Date Time <sup>(ask them out, you got this!)</sup>
+|Aparece el mes, la fecha y el año en formato MM/DD/YYYY.
+|-
+| Is It Thursday?
+|Responde "No" todos los días, excepto los jueves, cuando dice "Sí" .
+|-
+|Large Clock
+|Igual que el Normal Clock, pero más grande con un tipo de letra más fácil de leer.
+|-
+|Tiny Clock
+|Igual que el Normal Clock, pero más pequeño con un tipo de letra más difícil de leer.
+|-
+|WAY TOO LARGE CLOCK
+|Más grande que el Large Clock, superando los límites del menú rápido.
+|-
+|Broken Clock
+|Siempre en rojo y parpadeando "12:00AM." o "00:00", como un reloj despertador LCD.
+|-
+|Shader Time
+|Muestra la hora actual, en color rosa. En referencia a un error de sombreador faltante.
+|-
+|<blink />
+|Permite que la hora actual parpadee.
+|-
+|<marquee />
+|Hace que el reloj se desplace, como si fuera un letrero digital.
+|-
+|Backwards Clock 🔙
+|¡El reloj está al revés!
+|-
+|kcolC esreveR
+|¡El reloj está invertido!
+|-
+|Backfacing Clock???
+|El reloj se coloca detrás del menú rápido y VRCat también se voltea.
+|-
+|ʞɔolƆ uʍop ǝpᴉsd∩
+|¡El reloj está boca abajo!
+|-
+|Star Date (TNG)
+|Muestra la ''[[es.wikipedia:Fecha_estelar|fecha estelar]]'' de Star Trek: La nueva generación. 🖖
+|-
+|Unix Time ''(32-bit)''
+|Segundos desde el 1 de enero de 1970, en relación con el [[es.wikipedia:Tiempo_Unix|tiempo Unix]].
+El entero con signo máximo para 32 bits expirará el 29 de enero de 2038. 
+|-
+|Unix Time ''(64-bit)''
+|Segundos desde el 1 de enero de 1970, en relación con el tiempo Unix.
+El entero con signo máximo para 64 bits expirará dentro de miles de millones de años.
+|-
+|Unix Time ''(Nano)''
+|
+|-
+|''Very'' Accurate Clock
+|Muestra horas, minutos, segundos y 10<sup>-7</sup> en segundos.
+|-
+|''DateTimeFormat.ShortTimePattern''
+|Muestra "'''h:mm tt'''".
+|-
+|Udon Network Time
+|Muestra la {{VRC link|https://creators.vrchat.com/worlds/udon/networking/|hora de red de Udon}}, en milisegundos.
+|-
+|RFC3339
+|
+|-
+|RFC3339Nano
+|
+|-
+|ITU-R TF.460-6 UTC(-ish)
+|
+|-
+|GPS Time
+|
+|-
+|Binary Time
+|
+|-
+|Days in VRChat
+|Muestra la cantidad de días desde que el usuario se unió a VRChat.
+|-
+|Random!
+|Elige cualquiera de los relojes anteriores al azar.
+|}

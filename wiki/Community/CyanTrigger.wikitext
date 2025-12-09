@@ -1,0 +1,26 @@
+{{Noticebox/Community}}
+{{Infobox/Asset/VPM
+|name=com.cyan.cyantrigger
+|image=[[File:CyanTrigger.png]]
+|github=CyanLaser/CyanTrigger
+|booth=3194594
+|status=maintenance
+|license=Proprietary (closed source, free-to-use)
+}}
+
+'''CyanTrigger''' is a [[Udon]] compiler, with a focus on in-scene editing. The interface for CyanTrigger resembles legacy [[SDK2]] VRC Trigger interfaces, but has more functionality. CyanTrigger has access to most of Udon, and remained fully compatible with [[UdonGraph]] and [[UdonSharp]], but does not support newer features such as [https://creators.vrchat.com/worlds/udon/networking/events/#sending-events-with-parameters Events with Parameters] introduced in SDK 3.8.1<ref>https://creators.vrchat.com/releases/release-3-8-1/</ref>.
+
+== Maintenance Mode ==
+On October 11, 2024, CyanTrigger's author stated that while they will continue to maintain CyanTrigger to ensure compatibility with Udon 1, they do not plan to update it for future functionality, such as feature, major upgrades, or breaking updates to Udon (like "[[Soba]]").<ref>https://x.com/CyanLaser/status/1844769943344312745</ref>
+
+As such, creators using or considering using CyanTrigger should exercise caution, and ensure that they have a way to migrate out of CyanTrigger if required. Ideally, creators should not rely upon it for production or long-running projects.
+
+== See also ==
+
+* [[VRChat SDK]]
+* [[Udon]]
+
+== References ==
+<references />
+[[Category:Assets]]
+[[Category:Assets available via GitHub]]

@@ -1,0 +1,155 @@
+<languages/>
+{{Noticebox/Official}}
+'''Nível de Confiança'''  faz parte do sistema [[Special:MyLanguage/Trust and Safety|Confiança e Segurança]] na plataforma VRChat, projetada para garantir uma experiência segura e agradável para todos os usuários. Esse sistema determina quando um usuário pode enviar conteúdo, e avalia o comportamento do usuário para calcular a "Confiança", usando um agregado de muitas variáveis.
+
+<span id="Ranks"></span>
+==Níveis==
+
+A Confiança de um usuário alimenta seu '''Nível de Confiança''', um indicador do tempo que passou no VRChat, da criação de conteúdo, das amizades feitas e de outros fatores. 
+
+Os níveis que podem ser adquiridos são os seguintes (do mais baixo para o mais alto):
+{| class="wikitable"
+|+
+| style="background-color: #bababa" |
+!Visitante
+|Nível Inicial.
+|-
+| style="background-color: #1678ff" |
+!Novo Usuário
+|Pode enviar [[Special:MyLanguage/Avatars|avatares]] e [[Special:MyLanguage/Worlds|mundos]] para o VRChat. Mundos enviados permanecem privados.
+|-
+| style="background-color: #2acf5b" |
+!Usuário
+|Pode publicar [[Special:MyLanguage/Worlds|mundos]] no [[Special:MyLanguage/Community Labs|Labs da Comunidade]]. A maioria das funções torna-se disponível neste nível.
+|-
+| style="background-color: #ff7c42" |
+!Usuário Conhecido
+|Pode optar por aparecer como "Usuário".
+|-
+| style="background-color: #8143e6" |
+!Usuário Confiável
+|Pode optar por aparecer como "Usuário".
+|}
+
+<span id="Special_ranks"></span>
+===Níveis especiais===
+
+{| class="wikitable"
+|+
+| style="background-color: #efea17" |
+!'''Amigos'''
+|Os usuários que você adicionou como amigos terão todos os recursos de avatar exibidos no Nível de Proteção Normal, e você poderá personalizá-los como qualquer outro Nível de Confiança.
+|-
+| style="background-color: #bababa" |
+!'''Inconveniente'''
+|Os usuários que causaram problemas para outros terão um indicador acima da placa de identificação quando o Menu Rápido estiver aberto. O avatar deles será completamente bloqueado e eles serão silenciados por padrão, independentemente do Nível de Proteção. No entanto, você ainda pode ativá-los manualmente ou exibir o avatar deles.
+|-
+| style="background-color: #b52626" |
+!'''Equipe do VRChat'''
+|É exibido no cliente do VRChat e aparece no aplicativo do VRChat ao visualizar o perfil do usuário, bem como acima da cabeça do usuário, no lugar do seu nível de confiança. Também aparece no site do VRChat ao visualizar o perfil do usuário ou um resultado de pesquisa, como uma borda vermelha.
+|}
+
+===Níveis descontinuados===
+"Veja [[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|Recursos Removidos]]."
+
+<span id="Gaining_ranks"></span>
+===Ganhando níveis===
+
+O funcionamento interno do sistema de Confiança é intencionalmente oculto para evitar exploração.  
+
+No entanto, a melhor maneira de aumentar seu Nível de Confiança é participar de atividades normais no VRChat, como: 
+
+* Explorando
+*Fazendo amigos
+*Criando conteúdo
+
+Atividades que não aumentarão seu Nível de Confiança incluem:
+*Ficar parado ou inativo em uma sala (ausente).
+*Enviar uma grande quantidade de conteúdo de baixa qualidade.
+*Adicionar um grande número de usuários como amigos em massa.
+*Assédio contra outros usuários do VRChat.
+Além disso, assinar o [[Special:MyLanguage/VRC+|VRC+]] ou receber uma assinatura de presente pode aumentar seu Nível de Confiança<ref>[https://hello.vrchat.com/vrchatplus VRC+] no site do VRChat; acessado em 24 de outubro de 2024.</ref>. No entanto, esse aumento ocorre apenas uma vez.
+
+No entanto, em alguns casos, o Nível de Confiança não aumenta necessariamente, mas fornece um impulso para atingir o próximo nível.
+
+==Níveis de confiança e segurança==
+[[File:Shield_level.webp|thumb|300px|Os níveis de proteção podem ser personalizados, dependendo do Nível de Confiança do usuário.]]
+Os níveis de confiança afetam como os usuários podem ver seu avatar, ouvi‑lo ou acessar seu conteúdo da [[Special:MyLanguage/Gallery|galeria]], como [[Special:MyLanguage/Stickers|adesivos]] e [[VRC+#Prints|impressões]]; tudo isso depende das preferências do [[Special:MyLanguage/Trust and Safety#Personal%20safety|Nível de Proteção]] deles.
+{| class="wikitable"
+!Option Name
+!Impacted Feature
+|-
+|Voz
+|Usuário 
+|-
+|Avatar
+|Avatar
+|-
+|Ícone do Usuário
+|Social
+|-
+|Imagens Personalizadas
+|Social
+|-
+|Drone
+|Social
+|-
+|Áudio
+|Avatar
+|-
+|Luzes e Partículas
+|Avatar
+|-
+|Sombreadores
+|Avatar
+|-
+|Animações Personalizadas
+|Avatar
+|-
+|Emojis Animados
+|Social
+|}
+Vários '''Predefinições''' estão disponíveis, dependendo das preferências do usuário para segurança e conforto.
+
+<span id="Appearance_of_ranks_inside_VRChat"></span>
+==Aparência dos níveis dentro do VRChat==
+
+[[File:TrustRank_Example.png|right|frameless]]
+
+O Sistema de Segurança e Confiança foi projetado para ser discreto. O Nível de Confiança de um usuário é visível apenas quando o Menu Rápido está aberto. Essa configuração pode ser alterada em "Interface do Usuário" > "Placa de Identificação" ou no [[Special:MyLanguage/Action Menu|Menu Radial]] em "Opções" > "Placas de Identificação".
+
+*O texto no canto superior esquerdo da [[Special:MyLanguage/Nameplates|placa de identificação]] indica o Nível de Confiança do usuário.
+*O canto superior direito da placa de identificação exibe o nível de desempenho do avatar do usuário.
+
+===Transição de nível===
+*'''Visitante para Novo Usuário:'''  Ao alcançar o nível de Novo Usuário, os usuários ganham a capacidade de enviar conteúdo para o VRChat, caso estejam usando uma conta do VRChat. Eles são notificados sobre essa transição e direcionados para a página de documentação do VRChat para criação de conteúdo.
+*'''Novo Usuário para Usuário:''' Ao alcançar o nível de Usuário, os usuários ganham a capacidade de reportar mundos, grupos, usuários e avatares para a Equipe de Moderação revisar. Eles são notificados sobre essa transição.
+*'''Notificações:''' Os usuários recebem notificações ao mudarem de Nível de Confiança.
+*'''Alternância de Exibição do Nível:''' Usuários com o nível de Usuário Conhecido ou superior podem optar por exibir seu nível como "Usuário". Isso altera seu ícone e texto de Confiança para o nível de Usuário e modifica como o sistema de Segurança os trata. A opção pode ser encontrada na página de perfil abaixo do status e também na "Aba de Perfil", na parte inferior.
+== Recursos oficiais ==
+
+* [https://docs.vrchat.com/docs/vrchat-safety-and-trust-system Sistema de Segurança e Confiança] no ''docs.vrchat.com''
+* [https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 Sistema de Segurança e Confiança do VRChat: Mudanças e Feedback] no Medium.
+
+<span id="See_also"></span>
+==Veja também==
+
+Regras e Diretrizes
+
+* [[Termos de Serviço]]
+* [[Diretrizes da Comunidade]]
+* [[VRCWiki:Diretrizes]]
+* [[VRCWiki:Política diciplinar]]
+
+Artigos sobre a plataforma do VRChat
+
+* [[Denunciando]]
+* [[Banimentos]]
+* [[Autenticação de Dois-Fatores (2FA)]]
+
+<span id="References"></span>
+==Referências==
+
+[[Category:Features{{#translation:}}]]
+
+<references />

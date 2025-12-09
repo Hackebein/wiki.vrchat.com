@@ -1,0 +1,8 @@
+== Tablón de anuncios ==
+=== Discusiones recientes ===
+==== Contenido ====
+Las discusiones recientes en los espacios de nombre Main, Community y Guide aparecerán a continuación:
+{{Special:RecentChanges/days=120,limit=5,namespace=1;3001;3101,hidebots=1}}
+==== Wiki ====
+Las discusiones recientes en los espacios de nombre VRCWiki, File, MediaWiki y Template aparecerán a continuación:
+{{Special:RecentChanges/days=120,limit=5,namespace=5;7;9;11;,hidebots=1}}

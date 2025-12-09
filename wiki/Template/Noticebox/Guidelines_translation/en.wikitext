@@ -1,0 +1,12 @@
+<noinclude><languages/></noinclude>{{#switch:{{SUBPAGENAME}}
+| {{PAGENAME}}
+| en =
+| #default = {{Noticebox
+|template=Noticebox/Guidelines_translation
+|image=VRChatTranslatorBadge.png
+|title= The [[{{#titleparts:{{FULLPAGENAME}}|-1}}/en|English translation]] of this article is the definitive version.
+|description= Moderation actions are taken at the discretion of the English versions of the VRChat Wiki's rules and policies.
+|border-color=#207dd4
+|background-color=#151d29
+}}
+}}

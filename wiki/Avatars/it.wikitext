@@ -1,0 +1,74 @@
+<languages/>
+{{Noticebox/Official}}
+Gli '''avatar''' fungono da modello rappresentativo per gli utenti in [[Special:MyLanguage/VRChat|VRChat]]. Sono il modo primario per cui gli utenti possono esprimersi nel contesto della VR. Attraverso gli avatar gli utenti possono esprimere al meglio la loro personalità, interagire nei [[Special:MyLanguage/Worlds|mondi]], o esplorare nuove identità in maniera creativa ed immersiva. Gli avatar prendono varie forme e la comunità di VRChat ne ha creati in grande quantità, ognuno con il suo stile ed estetica. La scelta dell'avatar è personale, derivante da gusti e preferenze, ed è anche possibile crearli tramite l'[[Special:MyLanguage/VRChat SDK|SDK di VRChat]].
+
+= Cambiare avatar =
+Quando un utente entra per la prima volta in VRChat, gli è conferito un avatar predefinito, l'amabile [[Special:MyLanguage/Robot|Robot]]. Oltre all'avatar predefinito, l'utente può scegliere l'avatar che più preferisce fra una selezione ufficiale di VRChat. Questi, però, non sono che una minima frazione del catalogo di avatar disponibili.
+
+= Lista consigliati =
+VRChat gestisce una lista di [[Special:MyLanguage/Public Avatars|avatar pubblici]], ottimizzati per buone prestazioni e creati per adattarsi a vari stili e preferenze. Gli utenti possono scoprire e provare questi avatar andando nella sezione Avatar nel [[Special:MyLanguage/Main Menu|Menù Principale]] e selezionando "Pubblici" o "Legacy".
+
+<div class="mw-translate-fuzzy">
+Una volta trovato un avatar, selezionalo e premi il pulsante "Usa Avatar".
+<!-- This images is placed here on purpose, it doesnt seem to have updated to the current version of the image, ill give it some time to see if its delayed. -->
+[[File:Publicavatarclone.webp|thumb|right|Il Menù Rapido con un utente selezionato, i pulsanti "Clona Avatar" e "Salva Avatar" sono nella sezione "Azioni Utente".]]
+= Clonare =
+Gli utenti possono clonare gli avatar direttamente da altri utenti nella stessa istanza, premendo il pulsante "Clona Avatar" nel [[Special:MyLanguage/Quick Menu|Menù Rapido]]. Se questa opzione non è disponibile, vuol dire che l'utente selezionato ha disabilitato la funzionalità di clonaggio dei suoi avatar, o sta utilizzato un avatar marchiato come privato.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Cloning===
+[[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, "Clone Avatar" and "Favorite Avatar" buttons found under "User Actions" section.]]
+Users have the option to clone avatars directly from other users. This feature allows users to adopt the same avatar they see another user using by selecting the user and utilizing the "Clone Avatar" button within the [[Special:MyLanguage/Quick Menu|Quick Menu]]. If this option is unavailable, it indicates that the other user has disabled the cloning feature, or is using an avatar marked as private.
+</div>
+
+Per disabilitare la copia degli avatar è possibile navigare nelle [[Special:MyLanguage/Settings|impostazioni]] nel menù principale, selezionare la scheda "Avatar" e disabilitare '''Consenti Clonazione Avatar'''.
+
+=Mondi avatar e piedistalli=
+Gli avatar possono essere trovati anche sui piedistalli. Li puoi trovare specialmente nei mondi nella sezione "Mondi Avatar". I piedistalli mostrano anteprime 2D degli avatar, con cui gli utenti possono interagire clonando l'avatar mostrato. 
+
+<div class="mw-translate-fuzzy">
+=Aggiungere ai preferiti=
+Gli utenti possono salvare gli avatar che preferiscono per uso futuro. Salvare avatar farà si che compaiano nella sezione "Preferiti" nella pagina degli avatar nel Menù Principale. Ogni sezione può contenere al massimo 50 avatar. Con un abbonamento attivo a [[Special:MyLanguage/VRChat+|VRChat+]] potrai ottenere altre 5 sezioni in cui salvare i tuoi avatar, per un ammontare di 300 avatar!
+</div>
+
+<div class="mw-translate-fuzzy">
+Ci sono molteplici modi per salvare un avatar. Se da salvare è quello che stai indossando, vai nella pagina degli avatar nel menù principale, e clicca il pulsante "Salva Avatar" sotto l'anteprima avatar. Se, invece, l'avatar da salvare è indossato da qualcun'altro, seleziona l'utente e premi il pulsante "Salva Avatar" nel [[Special:MyLanguage/Quick Menu|Menù Rapido]].
+</div>
+
+=Compatibilità piattaforma=
+''Vedi anche [[Special:MyLanguage/Platforms|Piattaforme]] per informazioni aggiuntive.''
+
+Gli avatar di VRChat sono strutturati in modo differente per PC e dipositivi mobili, principalmente per le limitazioni di questi ultimi, inclusi dipositivi come: Meta (Oculus) Quest, sistemi Android e IOS. Conseguentemente, alcuni avatar non saranno completamente funzionali o addirittura visibili su tutti i dispositivi. Informazioni aggiuntive riguardo queste limitazioni nelle risorse seguenti:
+
+*[https://creators.vrchat.com/platforms/android/quest-content-limitations/ Limitazioni Contenuti Quest]
+*[https://creators.vrchat.com/platforms/android/android-best-practices/ Migliori Pratiche Android]
+
+I creatori possono configurare un avatar affinchè sia compatibile con multiple piattaforme, tramite la pubblicazione di molteplici versioni del medesimo avatar, sotto lo stesso avatar ID. Se un avatar non è visibile all'utente, l'applicazione proverà a mostrare un [[Special:MyLanguage/Impostor|Impostore]] di quell'avatar. Se nessun impostore è disponibile, verrà allora mostrato un [[Special:MyLanguage/Fallback|Avatar di Riserva]].
+
+<div class="mw-translate-fuzzy">
+L'avatar di Riserva può essere cambiato nella sezione Avatar del menù principale.
+</div>
+
+=Classificazione prestazioni=
+Gli avatar sono classificati a seconda delle loro prestazioni. Vanno da Very Poor{{performance|verypoor|22}}, a Poor{{performance|poor|22}}, a Medium{{performance|medium|22}}, a Good{{performance|good|22}}, fino ad arrivare a Excellent{{performance|excellent|22}}. Questa classificazione aiuta gli utenti a capire l'impatto sulle prestazioni proprie e altrui dei propri avatar. Alcune caratteristiche che impattano la classificazione sono: numero di poligoni delle mesh, numero dei materiali, risoluzione texture, complessità dell'animatore; e componenti avatar come le [[Special:MyLanguage/Physbones|PhysBones]] o i constraint. 
+
+Puoi trovare ulteriori dettagli sulla documentazione ufficiale cliccando su [https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ Sistema Classificazione Prestazioni Avatar].
+
+<div class="mw-translate-fuzzy">
+= Creare e condividere=
+Gli utenti possono arricchire la propria esperienza di gioco creando avatar personalizzati, a patto che rientrino nei limiti imposti dai [[Special:MyLanguage/Terms of Service|Termini di Servizio]] di VRChat. Per caricare un avatar, gli utenti devono prima acquisire il grado di "Nuovo Utente" ed ottenere gli strumenti necessari per lo sviluppo, come la verione consigliata di Unity e l'[[Special:MyLanguage/VRChat SDK|SDK di VRChat]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+With the release of [https://creators.vrchat.com/releases/release-3-9-0#fixes--changes SDK 3.9.0], the trust rank requirement for users to build & test their avatars have been removed. Previous SDK versions require trust rank "New User" or higher to build & test avatars.
+</div>
+
+Una volta caricato un avatar, potrai trovarlo nella sezione "Caricati" della tua lista di avatar.
+
+Una '''guida più dettagliata''' su cosa puoi fare con l'SDK è disponibile nella documentazione per Creators a [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Creare Il Tuo Primo Avatar].
+
+<span id="Official_resources"></span>
+== Risorse ufficiali ==
+
+* [https://creators.vrchat.com/avatars/ Avatar] su Creatori di VRChat.

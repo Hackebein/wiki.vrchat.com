@@ -1,0 +1,223 @@
+{{Noticebox/Official}}'''Launch Options''' are special parameters used to modify how VRChat starts. 
+
+==How to use Launch Options==
+Launch Options are only supported on the following:
+
+===Steam===
+Steam allows you to set launch options per application, to set launch options for VRChat, right-click VRChat in your game list and click on '''Properties'''. After clicking Properties, under General, click on the box under Launch Options, then put your desired launch options in.
+
+===Meta Quest Link App / Manual===
+You must create a shortcut to the VRChat executable. After launching Oculus Home, launch this shortcut by clicking its icon. The Oculus launcher does not support launch options natively.
+
+=== VRC Quick Launcher ===
+The [[VRC Quick Launcher]] allows custom parameters to be set
+
+==List of Launch Options and Arguments==
+
+===General===
+{| class="wikitable"
+|-
+!Launch Options!!Descriptions
+|-
+| --no-vr||Forces desktop mode
+|-
+| --fps=x||Overrides the FPS cap to X instead of the default. On Desktop, 90 is the default. In VR, the headset's reported maximum refresh rate is the default.
+|-
+| --profile=x
+|Launches with a different user profile, where X is a number. 0 is the default profile
+|}
+
+===Creator===
+{| class="wikitable"
+|-
+!Launch Options!!Descriptions
+|-
+| --watch-avatars||Watches the location where the VRChat SDK builds test avatars, and if wearing a test avatar that's been updated automatically switches to the newer version.
+|-
+| --watch-worlds||Watches the location where the VRChat SDK builds worlds, and automatically joins any new local world created.
+|-
+| --osc=<ARG1>:<ARG2>:<ARG3>
+|Customize network settings for incoming/outgoing OSC messages.
+Accepts the following 3 arguments:
+
+- <ARG1>: The port that the VRChat client should listen on for incoming OSC messages.
+- <ARG2>: The IP that outgoing OSC messages should be sent to.
+- <ARG3>: The port that outgoing OSC messages should be sent to. 
+|-
+| --midi=deviceName
+| Forces the MIDI drive to search for a connected MIDI device which contains the deviceName specified, including partial matches, case-insensitive.
+|-
+| --enforce-world-server-checks||Force require the world to be processed fir server side check
+|}
+
+===IK===
+These launch options<ref>[https://docs.vrchat.com/docs/ik-20-features-and-options 'IK 2.0 Features and Options'] on ''docs.vrchat.com''; retrieved on March 18, 2025.</ref> are for [[Inverse Kinematics]] on an [[Avatars|avatar]].<!-- I'm pretty sure most of these launch options are removed? Most of these are in the settings menu now. -->
+
+{| class="wikitable"
+|-
+!Launch Options!! Descriptions
+|-
+| --custom-arm-ratio="<ARG>"
+|Adjusts the ratio used to scale the avatar when using measure-by-arms mode. "0.4537" is the default argument value.
+|-
+| --legacyfbt-calibrate||Swaps to the older method of locking your avatar in place during calibration.
+|-
+| --disable-shoulder-tracking||Prevents arm (elbow) trackers from affecting the shoulders.
+|-
+| --calibration-range="<ARG>"|| If you're having problems with your hip tracker but your feet are fine, you can also try adjusting your calibration range. 
+|-
+| --enable-ik-debug-logging||Adds extra log output related to IK features.
+|-
+| --freeze-tracking-on-disconnect||When a tracker disconnects it continues to lock the tracked body to its final location relative to the player, rather than transitioning that part to untracked behavior. 
+
+Made new efforts to ensure that even if you activate this option after the tracker has disconnected it will still remember and use the proper final location of the tracker.
+|-
+| --ignore-trackers=serial1,serial2
+|Ignore tracking data from devices with the specified serial numbers. Comma delimited list.
+|}
+
+===Debug===
+{| class="wikitable"
+|-
+!Launch Options!!Descriptions
+|-
+| --enable-debug-gui||Enables the [[Debug Menu|debug menu]]
+|-
+| --enable-sdk-log-levels
+|Enables a large amount of additional logging.
+|-
+| --enable-udon-debug-logging||Enable Udon heap and stack dumps in the client. Usually only enabled in editor.
+|-
+| --enable-verbose-logging||Output verbose logs
+|-
+| --log-debug-levels="<ARG>"||ARG
+{| class="wikitable"
+|-
+! Arguments !! Descriptions
+|-
+|API;
+|API
+|-
+|All;||All Request
+|-
+|Always;||Always
+|-
+|AssetBundleDownloadManager;||Related to Asset Bundle Download
+|-
+|ContentCreator;||For Contents Creator
+|-
+|Errors;||Related to Error
+|-
+|NetworkData;||Related to Network Data
+|-
+|NetworkProcessing;||Related to Network Processing
+|-
+|NetworkTransport;||Related to Network Transport
+|-
+|Warnings"||Related to Warning
+|}
+|}
+
+===System===
+{| class="wikitable"
+|-
+!Launch Options!!Descriptions
+|-
+| --disable-hw-video-decoding|| rowspan="2" |Forces video decoding to be done in software or hardware.
+
+On AMD graphics cards, the default is "software" because there have been issues in the past. 
+
+You can use the "enable" variant to force hardware decoding.
+
+With other GPU vendors, the default is "hardware", use the "disable" variant to force software decoding.
+
+Warning: Using the "software" option will utilize your CPU to decode video, which can impact your performance.
+
+Most users do not need to use this feature.
+|-
+| --enable-hw-video-decoding
+|-
+| --affinity=<ARG>||Sets VRChat's thread affinity to the specified threads. <ARG> is a bitmask indicating which threads should be utilized for- VRChat. For example, FFFF selects the first 16 threads, FF selects the first 8, and so on.
+
+Most users do not need to use this feature. It is left up to the user to determine if they should use this feature.
+|-
+| --process-priority=<ARG>
+|Manually sets the process priority of VRChat to the specified level. 
+
+<ARG> is a number that represents the priority level to use:
+{| class="wikitable"
+|-
+| <ARG>||
+|-
+| -2 ||Idle priority
+|-
+| -1 ||Below Normal priority
+|-
+| 0 ||Normal priority
+|-
+| 1 ||Above Normal priority
+|-
+| 2 ||High priority
+|-
+|}
+|-
+| --main-thread-priority=<ARG>
+|Manually sets the priority of the main Unity thread that VRChat runs on to the specified level. 
+
+<ARG> is a number that represents the priority level to use:
+{| class="wikitable"
+|-
+| <ARG>||
+|-
+| -2 ||Idle priority
+|-
+| -1 ||Below Normal priority
+|-
+| 0 ||Normal priority
+|-
+| 1 ||Above Normal priority
+|-
+| 2 ||High priority
+|-
+|}
+|-
+| --skip-registry-install
+|This prevents VRChat from installing or updating the vrchat:// information in your registry and prevents the "VRChat Installation Helper" popup from appearing. 
+|-
+| --disable-amd-stutter-workaround
+|Disables a rendering workaround that helps prevent stutter on AMD graphics cards. Does nothing on non-AMD GPUs.
+
+It is not recommended to disable this workaround, as it may lead to stutters, but advanced users can set this flag for testing.
+|-
+| --enable-avpro-in-proton
+|Allow Proton users to re-enable AVPro for video playback. This may cause crashes!
+|}
+
+===Unity===
+Unity comes with built-in launch options. These are not supported or guaranteed to work. You can view the full list [https://docs.unity3d.com/2022.3/Documentation/Manual/PlayerCommandLineArguments.html here].
+
+Some useful ones are listed below:
+{| class="wikitable"
+|-
+!Launch Options!!Descriptions
+|-
+| -screen-width||Override the default screen width. This must be an integer from a supported resolution.
+|-
+| -screen-height||Override the default screen height. This must be an integer from a supported resolution.
+|-
+| -screen-fullscreen||Override the default full-screen state. This must be 0 or 1.
+|-
+| -monitor N||Run Standalone Player on the specified monitor, indicated by a 1-based index number.
+|}
+==See also==
+* [[Settings]]
+* [[Troubleshooting]]
+* [[Debug Menu]]
+
+==References==
+
+* [https://docs.vrchat.com/docs/launch-options docs.vrchat.com - Launch Options]
+
+[[Category:Guides{{#translation:}}]]
+<references />
+[[Category:Resources]]

@@ -1,0 +1,79 @@
+<languages/>
+{{Noticebox/Official}}
+
+VRChat 内有多种类型的菜单，可用于与平台的不同方面进行交互。包括但不限于[[Special:MyLanguage/Quick Menu|快速菜单]]、[[Special:MyLanguage/Main Menu|主菜单]]和[[Special:MyLanguage/Action Menu|圆盘菜单]]。虽然这些菜单的目的各不相同，并提供了独有的功能，但它们通常具有相同的功能和设置，只是以不同的格式呈现，更适合不同的环境。
+
+<span id="Quick_Menu"></span>
+== 快速菜单 ==
+
+
+[[File:Quick Menu.webp|thumb| 快速菜单。]]
+
+''更多详细信息，请参阅[[Special:MyLanguage/Quick Menu|快速菜单]]。''
+
+快速菜单包含用户可能希望经常使用的选项和操作。快速菜单中的功能通常是主菜单中对应功能的浓缩版，但也有少数例外。快速菜单独有的一些功能包括回家按钮、回出生点按钮、“当前所在位置”选项卡等。
+
+一些用户通常将快速菜单称为“小菜单”。默认情况下，在 PC 上使用 “Escape” 键打开，在 VR 上按 “B/Y” 键（双手拇指顶端的按钮）打开，在游戏手柄和移动设备上按 “Menu” 键打开。
+
+<span id="Main_Menu"></span>
+==主菜单==
+
+[[File:Quick Menu.webp|thumb| 主菜单。]]
+
+''更多详细信息，请参阅[[Special:MyLanguage/Main Menu|主菜单]]。''
+
+<div class="mw-translate-fuzzy">
+主菜单可以通过点击快速菜单右上角的“展开”按钮来显示。主菜单提供了一系列更强大的选项卡，包含有关 VRChat 系统的深入信息，如[[Special:MyLanguage/Worlds|世界]]、[[Special:MyLanguage/Avatars|虚拟形象]]、[[Special:MyLanguage/Groups|群组]]等。主菜单独有功能包括浏览世界、完整设置、搜索用户和内容等。
+</div>
+
+一些用户通常将主菜单称为“大菜单”。
+
+<span id="Action_Menu"></span>
+==圆盘菜单==
+
+''更多详细信息，请参阅[[Special:MyLanguage/Action Menu|圆盘菜单]]。''
+
+在圆盘菜单中，有各种一般用于在社交互动中快速使用的操作。选项以环形菜单的形式出现，通过向选项轻推摇杆来与之互动。圆盘菜单主要用于使用虚拟形象的内置功能，如表情分类中的面部表情，但也有发送表情包、切换个人[[Special:MyLanguage/Mirror|镜子]]等基本工具，以及用于各种设置的选项。
+
+VRChat 用户通常将圆盘菜单称为“轮盘”或 “环形菜单”。默认情况下，在 PC 上使用''R''键打开，在 VR 上长按''B / Y''（顶部拇指按钮）打开，在游戏手柄上按''右摇杆''打开，在手机上长按''菜单''键打开。
+
+<span id="Settings"></span>
+==设置==
+
+''更多详细信息，请参阅[[Special:MyLanguage/Settings|设置]]。''
+
+你可以在设置中自定义 VRChat 体验。设置菜单可在快速菜单、主菜单和圆盘菜单中打开。它包括用户界面元素、用户界面、虚拟形象、你的虚拟形象、虚拟形象剔除、聊天框、显示和视觉调整、舒适性和安全性、音频和语音、图形、[[Special:MyLanguage/Mirrors|镜子]]、[[Special:MyLanguage/Controls|控制]]、动捕和 IK、无障碍功能和调试等选项。
+
+在主菜单和快速菜单中，“设置”选项卡的图标为一个齿轮[[File:Icons Settings 25.png|frameless|16x16px]]。也可以通过向圆盘菜单中的“设置”选项轻推摇杆来打开设置菜单。
+
+<span id="Camera"></span>
+== 相机 ==
+
+<div class="mw-translate-fuzzy">
+''更多详细信息，请参阅[[Special:MyLanguage/Camera|相机]]。''
+</div>
+
+<div class="mw-translate-fuzzy">
+相机用于在 VRChat 中拍照。你可以通过“快速菜单”或“圆盘菜单”的“工具”选项卡使用该功能。你可以将拍摄的图片保存到'''图标'''和'''相册'''，并在客户端内查看和'''打印'''出这些照片，如果订阅了[[Special:MyLanguage/VRChat+|VRChat+]]，你还可以在 VRChat 网站上访问这些照片。桌面/PCVR 用户可以点击“相机”选项卡中的'''浏览本地保存目录'''按钮，浏览保存到电脑上的照片。要快速打开相机，请双击相机图标，而不是只单击一次。
+</div> 
+
+<span id="Debug_Menus"></span>
+==调试菜单==
+
+[[File:SteamDebugLaunchParam.webp|thumb| Steam 启动选项。]]
+
+<div class="mw-translate-fuzzy">
+''更多详细信息，请参阅[[Special:MyLanguage/Debug Menu|调试菜单]]。''
+</div>
+
+
+这是在游戏内调试世界，虚拟形象，和[[Special:MyLanguage/Open Sound Control|OSC]]的实用工具。要查看这些内容，需要使用启动参数 <code>--enable-debug-gui</code> 启动 VRChat。共有 9 种不同的调试视图，可帮助创作者修复错误或测试应用的优化及其影响。
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+https://docs.vrchat.com/docs/launch-options
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Navigation==
+</div>
+{{Navbox/Menus}}

@@ -1,0 +1,21 @@
+{{Noticebox/Community}}{{Stub}}{{Infobox/Asset
+|name=VRC Light Volumes
+|image=VRCLightVolume.png
+|author=REDSIM
+|license=[[license:mit|MIT]]
+|documentation=[https://github.com/REDSIM/VRCLightVolumes/blob/main/Documentation/HowToUse.md "How to Use" on Github]
+|vpm=https://redsim.github.io/vpmlisting/
+|github=REDSIM/VRCLightVolumes
+}}
+
+'''VRC Light Volumes''' is a voxel based [[unitym:LightProbes|light probes]] replacement for VRChat to improve illumination by sampling smooth, per-pixel lighting instead of relying on scattered light probes. Illuminates static geometry and dynamic objects (avatars, props). Supporting realtime color changes, multiple light sources, and baked shadows. Designed for VRChat performance constraints.
+
+== Features ==
+
+* Realtime light color changes and dynamic light support.
+
+* Baked shadows plus dynamic lights.
+* AudioLink and TV-screen integration.
+
+[[Category:Third-party applications]]
+[[Category:Empty]]

@@ -1,0 +1,5 @@
+Creators can reduce the performance cost for mirrors in many ways, such as:
+* Disabling all mirrors by default. Only enable a mirror when the user pushes a button, or physically approaches them.
+* Disabling mirrors when a user leaves the area. This will remove the rendering cost of a mirror when a player isn't using it. Users will often not do this themselves, so use a script to do it for them.
+* Considering the placement of mirrors. A mirror facing away from the center of the world will have to render less than one facing inward.
+* Changing the [[Special:MyLanguage/Layers{{#translation:}}|Layers]]

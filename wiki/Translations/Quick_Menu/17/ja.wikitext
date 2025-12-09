@@ -1,0 +1,106 @@
+{| class="wikitable"
+|+
+!Clock variant
+!Description
+|-
+|Normal Clock (Default, Boring)
+|Displays a clock at the top of the Quick Menu.
+|-
+| No Time! <sup>to talk?</sup>
+|Removes the clock entirely from the Quick Menu, leaving it blank.
+|-
+|LGBTQ+ Clock
+|Puts up a colorful rainbow clock, in reference to the [[wikipedia:Rainbow_flag_(LGBT)|Pride Flag]].
+|-
+|Swatch Internet Time (.beats)
+| An alternate decimal-based time measurement; displays [[wikipedia:Swatch_Internet_Time|.beats]]
+|-
+|VRChat Session Time ⏱️
+|Shows how long you have been online for, in HH:MM.
+|-
+|VRChat+ Ultra Premium Time ☆
+|Turns the clock yellow. ''This is a [[Special:MyLanguage/VRC+|VRC+]] exclusive clock!''
+|-
+|Date Time <sup>(ask them out, you got this!)</sup>
+|The month, date, and year in MM/DD/YYYY format appears.
+|-
+| Is It Thursday?
+|Replies "No" every day, except Thursdays where it says "Yes".
+|-
+|Large Clock
+|The same as the Normal Clock, but in a larger, easier to see font.
+|-
+|Tiny Clock
+|The same as the Normal Clock, but in a smaller, harder to see font.
+|-
+|WAY TOO LARGE CLOCK
+|Larger than the Large Clock, which exceeds the boundaries of the Quick Menu.
+|-
+|Broken Clock
+|Always red and blinking "12:00AM" or "00:00", like an LCD alarm clock.
+|-
+|Shader Time
+|Displays the current time, in pink. In reference to a Missing Shader error.
+|-
+|<blink />
+|Allows the current time to blink.
+|-
+|<marquee />
+|Causes the clock to 'scroll', as if it were a digital marquee.
+|-
+|Backwards Clock 🔙
+|The clock is backwards!
+|-
+|kcolC esreveR
+|The clock is reversed!
+|-
+|Backfacing Clock???
+|The clock goes behind the Quick Menu, and VRCat also flips around.
+|-
+|ʞɔolƆ uʍop ǝpᴉsd∩
+|The clock is upside down!
+|-
+|Star Date (TNG)
+|Displays the current ''[[wikipedia:Stardate|Star Date]]'' from Star Trek: The Next Generation. 🖖
+|-
+|Unix Time ''(32-bit)''
+|Seconds since January 1, 1970, in relation to the [[wikipedia:Unix_time|Unix Epoch]].
+The maximum signed integer for 32-bit will expire on January 29, 2038. 
+|-
+|Unix Time ''(64-bit)''
+|Seconds since January 1, 1970, in relation to the Unix Epoch.
+The maximum signed integer for 64-bit will expire in billions of years.
+|-
+|Unix Time ''(Nano)''
+|
+|-
+|''Very'' Accurate Clock
+|Shows hours, minutes, seconds, and 10<sup>-7</sup> in seconds.
+|-
+|''DateTimeFormat.ShortTimePattern''
+|Displays "'''h:mm tt'''".
+|-
+|Udon Network Time
+|Shows the {{VRC link|https://creators.vrchat.com/worlds/udon/networking/|network time for Udon}}, in milliseconds.
+|-
+|RFC3339
+|
+|-
+|RFC3339Nano
+|
+|-
+|ITU-R TF.460-6 UTC(-ish)
+|
+|-
+|GPS Time
+|
+|-
+|Binary Time
+|
+|-
+|Days in VRChat
+|Shows the amount of days since the user joined VRChat.
+|-
+|Random!
+|Chooses any of the above clocks at random.
+|}

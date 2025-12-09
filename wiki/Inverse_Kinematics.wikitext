@@ -1,0 +1,247 @@
+{{Noticebox/Official}}
+
+'''Inverse Kinematics''' (IK) are the animations and movements of an [[avatar]] within [[VRChat]]. VRChat currently utilizes '''IK 2.0''', a "complete revamp" for every aspect of tracking in VRChat<ref>[https://docs.vrchat.com/docs/ik-20-features-and-options 'IK 2.0 Features and Options'] on ''docs.vrchat.com''; retrieved March 18, 2025.</ref>; including support for more tracking points, calibration saving, newer IK settings, and more. 
+
+==Overview==
+[[File:VRCIK2render.webp|thumb|VRChat's official render, for the release of IK 2.0]]
+Any avatar that can animate or uses any form of movement tracking, has a 'skeleton', a virtual structure inside an avatar with a set of 'bones', that can move, and rotate. Avatar movement and animations are created by rotating the angles of joints in a skeleton to predetermined values<ref>[https://docs.unity3d.com/Manual/InverseKinematics.html Unity Manual: Inverse Kinematics] on ''docs.unity3d.com''; retrieved March 18, 2025.</ref>. Most avatar features within VRChat relate to Inverse Kinematics in some way.
+
+IK 2.0 was introduced<ref>[https://www.youtube.com/watch?v=hZKv9_77xlM 'VRChat - IK 2.0 Released!'] on ''YouTube''; retrieved March 18, 2025.</ref> on May 25, 2022, just shortly after the release<ref>[https://docs.vrchat.com/docs/vrchat-202212 'VRChat 2022.1.2'] on ''docs.vrchat.com''; retrieved March 18, 2025.</ref> of [[Avatar Dynamics]]<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live 'Avatar Dynamics is Now Live'] on ''VRChat's Blog''; retrieved March 18, 2025.</ref> and [[Physbones]] in April 2022. The releases of IK 2.0 and Avatar Dynamics, have drastically improved the quality of avatar movements, and flexibility. 
+
+==IK settings within VRChat==
+<small>''For more detailed information, see also [[Settings#Tracking_&_IK]].''</small>
+
+====Face Tracking====
+{| class="wikitable"
+!Name
+! Values
+!Tooltip
+|-
+| Enable [[Selfie Expression]]
+|On/Off
+|Selfie Expression uses your camera to animate your avatar! No one will see your real face. Image data is processed locally on your divce, only used for animation, and never saved. 
+|-
+|Auto-Adjust Selfie Expression Quality
+|On/Off
+|Automatically adjust Selfie Expression quality depending on current frame rate
+|-
+|Selfie Expression Quality Level
+|Best Quality/High Quality/Balanced/Performance/Off 
+|'''[Best Quality]''' Quality - Selfie Expression uses camera with highest resolution and framerate<br/>
+'''[High Quality]''' Quality - Selfie Expression uses camera with higher resolution and framerate<br/>
+'''[Balanced]''' Balanced - Selfie Expression uses camera with medium resolution and framerate<br/>
+'''[Performance]''' Performance - Selfie Expression disables hand tracking and uses minimum camera resolution and framerate<br/>
+'''[Off]''' Off - Selfie Expression is disabled until frame rate improves
+|-
+|Selfie Expression Also Moves Hands
+| On/Off
+|While Selfie Expression is enabled, and the Quality setting is set to 'Balanced' or above, allow moving hands via your webcam
+|-
+|Auto Recentering Speed
+|0-100 
+|Adjust how quickly your avatar will automatically recenter rotation (to compensate your camera offset)
+|-
+|Recenter
+| -
+|Instantly recenter your avatar to compensate for camera offset
+|-
+| Reset 
+| -
+|Reset to default
+|-
+|Change Webcam Device
+| -
+|Change your current webcam device. Makes sure your webcam is not being used by other software 
+|}
+
+====Eye Tracking====
+{| class="wikitable"
+!Name 
+!Values
+!Tooltip
+|-
+|Force Eyetracking Raycast 
+|On/Off
+| When eyetracking is active, force eyes to converge at a distance determined by raycast hit 
+|-
+|Display Eyetracking Debug
+|On/Off
+|When eyetracking is active, display debug overlay information
+|-
+| Disable Eye Look Tracking
+|On/Off
+|Disable tracking eye look direction
+|-
+|Disable Eye Lid Tracking
+|On/Off
+|Disable tracking eyelid closed amount
+|-
+|Mic Mute Disabled Eyetracking
+|On/Off 
+|The in-app mic mute function will disable eyetracking as well (when not using push-to-talk mode)
+|}
+
+====Finger Tracking ====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+
+|-
+|Jump Gesture 
+|On/Off
+|Enable or Disable jump Gesture 
+|-
+|Grab Gesture
+|Grab/Pinch/Combined 
+| Choose finger grab gesture 
+|}
+====Calibration & Debug====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Legacy Calibration
+|On/Off
+|Toggles using the old locked avatar position style of FBT calibration
+|-
+|One Handed Calibration
+| On/Off
+|Only require holding a single trigger rather than both when finalizing FBT calibration
+|-
+|Display Calibration Visuals
+|On/Off
+|Display extra detail during FBT calibration, Adjust FBT mode, and eyetracking debug
+
+|-
+| IK Debug Logging
+| On/Off
+|Adds additional output to the log regarding IK 
+|-
+|Per-Avatar Calibration Adjustment
+|On/Off
+| Changes made in Adjust FBT mode will be applied per-avatar
+|-
+|Allow Sending Head and Wrist VR Tracking OSC Data*
+|On/Off
+| Send VR system head and wrist OSC data
+
+|-
+|Calibration Range
+|0.05-2.00m
+|Determines the distance from predicted supported binding points that the caliibration will search (in meters). The closest binding point to the center of the search sphere will be used.
+|-
+|Confirm Calibration
+|On/Off
+| Confirmation dialogs when clicking the "Calibrate FBT" button are [enabled/disabled], click to [disable/enable]. 
+|-
+|FBT Tracker Model
+|Sphere, System, Box, Axis
+|Switch tracker model<br>
+'''[Sphere]''' Sphere - Your trackers will display as the classic default white ball<br>
+'''[System]''' System - Your trackers will display using models provided by your VR system<br>
+'''[Box]''' Box - Your trackers will display as boxes with colored sides representing standard xyz axis colors (lighter colors for positive direction)<br>
+'''[Axis]''' Axis - Your trackers will display with axis aligned protrusions with colored tips representing standard xyz axis colors (lighter colors for positive direction) 
+|}
+'''''*Footnote regarding the Allow Sending Head and Wrist VR Tracking OSC Data option:''' Legal Disclaimer: You are enabling a feature that will share data about you with third-party services and devices using the OSC network protocol. if you proceed, you are expressly directing VRChat to share data from your headset and other accessories with services and devices that you configure to receive such data. You can turn off this feature at any time in the "Tracking & IK" main menu options page.''
+
+====Body Tracking====
+{| class="wikitable"
+!Name
+!Values
+! Tooltip
+|-
+| User Real Height
+|(3'0"-8'0" ft)/(0.81m-2.44m) 
+|User Real Height should always be set to your height in real life. its important for properly matching your avatar with your body.
+|-
+|Metric Units Adjustment
+|On/Off
+|Adjustment arrows for User Real hight increment in cm instead of inches<br>
+Adjustment arrows for User Real hight increment in inches instead of cm
+|-
+|Use Legacy IK Solving
+|On/Off
+|'''[Off]''' Now using new IK2.0<br>
+'''[On]''' Now using old legacy IK      
+|-
+|Disable Shoulder Tracking
+|On/Off
+|Prevents arm trackers from affecting shoulders. Use this to avoid issues with some types of IMU-only based arm trackers
+|-
+|Freeze Tracking on Disconnect
+|On/Off
+|Cause trackers to freeze in place relative to the user when they are disconnected   
+|-
+|Shoulder Width Compensation
+|On/Off 
+|Assists in straightening the arm when reaching upwards on avatars with narrow shoulders
+|-
+|FBT Locomotion Animation
+|On/Off
+| FBT locomotion animation is [enabled/disabled] click to [enable/disable]
+
+|-
+|Tracker Motion Prediction
+|0-100%
+| Set how much latency compensating moton prediciton to use on body trackers, only works for SteamVR trackers.
+|-
+|Wrist Angle
+| -45° to 45°
+|Offsets the angle of the wrist alignment toward or away from the thumb     
+
+|-
+|Arm vs Height Ratio
+|30-60%
+|Adjusts the ratio used to scale the avatar when using mesure-by-arms mode   
+|-
+|Knee Angle
+| -180° to 180°
+|Offsets the knee-bend angle as predicted by the foot angle. Ignored if knee trackers are used.
+|}
+
+==In the SDK==
+[[File:VRCAvatarDescriptorIK.webp|thumb|A screenshot within Unity, to highlight VRChat SDK's various options for Inverse Kinematics.]]
+Within Unity, an avatar's skeleton can be inspected and rigged. Within the [[VRChat SDK]], any IK animations can be edited. In addition, [[PhysBones]] and SquishyBones can be placed onto the avatar.
+
+Within the '''VRC Avatar Descriptor''' component on an avatar, various settings are effected by an avatar's skeleton and inverse kinematics, such as:
+* '''Eye Look'''
+* '''Playable Layers'''
+** Bases
+*** Base: Locomotion
+*** Additive: Idle
+*** Gestures
+*** Actions
+*** FX
+** Special
+*** Sitting
+*** TPose
+*** IKPose
+* '''Lower Body'''
+** Use Auto-Footsteps for 3 and 4 point tracking
+** Force Locomotion animations for 6 point tracking
+* '''Colliders'''
+
+===Physbones===
+<small>''For more detailed information, see also [[PhysBones]].''</small>
+
+Physbones are an avatar feature that utilizes VRChat's inverse kinematics system. An avatar with Physbones enabled take a bone, or set of bones on an avatar, and display additional motion beyond the normal skeletal movements. A physbones component can be enabled on an avatar's hair, clothing, tails, ears, and more, allowing those features to simulate physics, and be affected by movement, gravity, and collisions.
+
+===Avatar Dynamics===
+<small>''For more detailed information, see also [[Avatar Dynamics]].''</small>
+
+Certain avatar dynamics tie in with Inverse Kinematics! Certain toggles, interactives, and animations can be triggered on an avatar's skeleton, or by an avatar's collider.
+
+==Official resources==
+* [https://docs.vrchat.com/docs/ik-20-features-and-options IK 2.0 Features and Options] on ''docs.vrchat.com''.
+* [https://docs.unity3d.com/Manual/InverseKinematics.html Unity Manual: Inverse Kinematics] on ''docs.unity3d.com''
+==See also==
+* [[Avatars]]
+* [[Avatar Dynamics]]
+* [[PhysBones]]
+* [[Guides:Types of tracking]]
+** [[Full-Body Tracking]]
+** [[Finger tracking]]
+==References==
+[[Category:Features]]

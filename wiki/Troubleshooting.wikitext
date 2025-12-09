@@ -1,0 +1,82 @@
+{{Stub|More information needed, what else does a troubleshooting page need?}}
+
+This page will help you troubleshoot any issues you may have. 
+
+==Common issues and solutions==
+
+Below are some common issues users may have, check out the [https://help.vrchat.com/hc/en-us/sections/1500000361722-Troubleshooting-VRChat help.vrchat.com] articles for more information!
+
+===Client<ref>https://help.vrchat.com/hc/en-us/sections/1500000361722-Troubleshooting-VRChat</ref>===
+{| class="wikitable"
+|[https://help.vrchat.com/hc/en-us/articles/4408235200403-How-can-I-completely-reinstall-VRChat How can I completely reinstall VRChat?]
+|[https://help.vrchat.com/hc/en-us/articles/14301364738707-I-m-experiencing-slow-download-speeds My download speeds are slow]
+|-
+|[https://help.vrchat.com/hc/en-us/articles/4408235200403-How-can-I-completely-reinstall-VRChat I'm experiencing performance issues / heavy frame drops]
+|[https://help.vrchat.com/hc/en-us/articles/4408235200403-How-can-I-completely-reinstall-VRChat I can't see anyone's avatars]
+|-
+|[https://help.vrchat.com/hc/en-us/articles/1500002247841-I-can-t-hear-any-sound I can't hear any sound]
+|[https://help.vrchat.com/hc/en-us/articles/1500002248141-My-microphone-isn-t-working My microphone isn't working]
+|}
+
+===SDK<ref>https://help.vrchat.com/hc/en-us/sections/10415958270099-Troubleshooting-SDK</ref>===
+{| class="wikitable"
+|[https://help.vrchat.com/hc/en-us/articles/5302698555667-The-SDK-Control-Panel-is-blank-and-does-not-show-any-options-missing-VRCUrlInputField The SDK Control Panel is blank]
+|[https://help.vrchat.com/hc/en-us/articles/1500002248501-I-m-stuck-on-building-or-uploading-content I'm stuck on building or uploading content]
+|}
+
+==== SDK Listing Wrong Platform ====
+You may run into an issue where both the VRChat SDK and the Unity interface imply that the SDK is set to a different platform than what you have currently selected (e.g. Android when it's set to Windows, Windows when it's set to Android).
+
+This can manifest itself in ways such as the error "World download size too large for the target platform" despite building for Windows which does not have this limitation. This is due to Unity temporarily switching platforms when accessing the override panel of an asset (such as a texture or sound file).
+
+To get back out of this state simply select any texture file within your project, click the Android icon under the settings for the asset, click the Windows tab (the screen icon) and then click back to the leftmost "Default" tab. Reverse the Windows and Android order if you're building for Android.
+
+The SDK and Unity Settings window will now show the correct platform details as expected.
+
+==Performance optimization tips==
+There are a variety of ways to improve your performance in VRChat. Here are some useful ones to look at!
+
+===Graphics Settings===
+VRChat has a plenty of [[Special:MyLanguage/Settings#Graphics|graphics settings]] to tweak. Consider lowering some of these performance heavy settings.
+
+*Anti-Aliasing
+*Shadows
+*Level of Detail
+*Particle Physics Quality
+*Particle Limiter
+*Pixel Light Count
+
+===Avatar Optimization===
+Avatars could be one of the biggest causes for performance issues. Consider changing some [[Special:MyLanguage/Settings#Avatar Optimization|settings]] on how avatars get shown to you.
+{| class="wikitable"
+!Block Poorly Optimized Avatars
+|You can set certain avatar performance ranks to be hidden by default. 
+'''Note:''' Setting this option too strictly could cause a lot of avatars to be hidden
+|-
+!Maximum Download Size
+|Some avatars may be large in file size, could be problematic if you have slow internet and loading in a bunch of avatars at once!
+|-
+!Maximum Uncompressed Size
+|Some avatars textures could take up a lot space in your memory, could be problematic if you have a lot of avatar shown.
+|}
+
+====Avatar Culling====
+[[Special:MyLanguage/Settings#Avatar Culling|Avatar Culling]] is a great way to dynamically adjust how many avatars are visible around you. Consider turning on some of these settings.
+{| class="wikitable"
+!Hide Avatar Beyond
+|Hides avatars past a certain range
+|-
+!Maximum Shown Avatars
+|Hides avatars if there is too many in a instance
+|}
+
+===Trust and Safety System===
+Utilize VRChat's [[Special:MyLanguage/Trust and Safety|Trust and Safety System]] to hide avatar features based on [[Special:MyLanguage/Trust Rank|trust rank]]. A great way to prevent bad actors from abusing performance heavy avatars.
+
+Try selecting one of the defaults or custom to your liking.
+
+==References==
+{{reflist}}
+
+{{Start-navbox}}
+[[Category:Stubs]]

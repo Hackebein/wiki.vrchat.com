@@ -1,0 +1,1338 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Terrors of Nowhere
+|image=ToN Final.webp
+|author=[https://vrchat.com/home/user/usr_8d3b6c9b-cd64-449a-8b39-a819057f5d3c Beyond]
+|capacity=16 (16)
+|languages=English, Japanese
+|platforms=PC
+|tags=Horror, Survival, PvE
+|id=wrld_a61cdabe-1218-4287-9ffc-2a4d1414e5bd
+|published=23 Oct. 2023}}
+'''Terrors of Nowhere''' ist eine Player-Versus-Entity [[Special:MyLanguage/:Category:Game_Worlds|Spielwelt]] für PC, veröffentlicht von ''Beyond'' im Oktober 2023. In diesem Spiel müssen bis zu 16 Spieler eine zufällige Entität (im Spiel als '''Terror''' bezeichnet) innerhalb einer zufälligen Arena für bis zu drei Minuten überleben.
+
+Die Zeit zwischen den Runden ist als '''Intermission''' bekannt, in der du eine Verschnaufpause einlegen kannst, um mehr '''Enkephalin'''-Kristalle (die Währung des Spiel, abgekürzt Eph) zu sammeln. Enkephalin wächst periodisch über den Hof verteilt und kann im '''Enkephalin Shop''' für Items ausgegeben werden, die dir oder anderen Spielern beim Überleben der Runden helfen.
+
+Zusätzlich zu Eph wirst du mit '''Survival Points''' (SP) für das Überleben der Runde belohnt. SP können im '''Survival Shop''' für spezielle Items ausgegeben werden. Anders als Eph werden SP nicht verbraucht, wenn damit Items gekauft werden.
+
+<span id="Round_types"></span>
+==Rundentypen==
+
+Zusätzlich zu den '''klassischen Runden''' gibt es '''Spezialrunden''', die zu einer Wahrscheinlichkeit von 50% jede zweite Runde auftreten können. Wenn die zweite Runde eine klassische Runde ist, ist die dritte garantiert eine Spezialrunde.
+
+* '''Classic (Klassisch)''' - Dies ist die Standardrunde bei Terrors of Nowhere, bei der Terror des Standardpools (klassischen Pools) ausgewählt werden. Die Spieler haben drei Minuten Zeit, um zu überleben, je nach Terror auch manchmal ein kleines bisschen länger und mit unterschiedlicher Schwierigkeit.
+
+* '''Fog (Nebel)''' - Eine klassische Runde mit starkem Nebel, versteckter Spielerzahl und einem mit ??? ersetzten Terror-Namen. Die Sicht kann mit einer Glow/Psycho Coil verbessert werden, Der Terror kann mithilfe des Radar aufgedeckt werden (obwohl erfahrenere Spieler diesen oft am Sound identifizieren) und manchmal kann ein alternativer Terror auftauchen.
+
+* '''Punished (Bestraft)''' - Eine klassische Runde, bei der Spieler alle Items verlieren, was sie davon abhält, zu flüchten oder sich zu verteidigen. Items müssen nach der Runde am Shop neu gespawnt werden.
+
+* '''Alternate (Alternativ)''' - Schwerere Terror spawnen aus einem Alternativ-Pool. Diese benötigen in der Regel eine größere Koordination der Spieler und bieten ab und zu Item-Belohnungen.
+
+* '''Bloodbath (Blutbad)''' - Drei Terror aus dem Klassisch-Pool spawnen und bieten eine Herausforderung von bewältigbar bis hin zu unmöglich je nach Kombination und Arena.
+
+* '''Midnight (Mitternacht)''' - Wie Blutbad, nur dass einer der drei Terror als einer des Alternativ-Pools spawnt, was diese Runde viel schwerer macht und einige Tode erwarten lässt.
+
+* '''Sabotage (Sabotage)''' - Ein Terror aus dem klassischen Pool spawnt und ein Spieler übernimmt die Rolle des Saboteurs, ausgerüstet mit einem Messer, das andere Spieler sofort tötet. Terror ignorieren den Saboteur (außer der Terror Arrival) und wenn dieser es nicht schafft, bis zum Ende der Runde alle Spieler zu eliminieren, stirbt er und muss sich sein vorheriges Item aus dem Shop zurückholen.
+
+* '''8 Pages (8 Seiten)''' - Spieler müssen 8 leuchtende Seiten auf der Map sammeln, eine nach der anderen. Der Terror spawnt, nachdem die erste Seite gefunden wurde, oder genug Zeit verstrichen ist. Die meisten Items werden, ähnlich wie bei Punished, entfernt, allerdings verbleiben einige geringerwertige Items. Anders als bei anderen Rundentypen startet 8 Pages standardmäßig mit 190 Sekunden.
+
+* '''[[ton:terrors/meatball_man|Run]]''' - Schaffe es zum anderen Ende der Karte, bevor die Zeit ausläuft.
+
+* '''Cracked (Beknackt)''' - Eine klassische Runde, bei der der Terror sehr viel schneller läuft und angreift. Diese Runde ist nicht ausgewogen, sodass einige Terror unfair sind und sich teilweise merkwürdig in der beknackten Form verhalten.
+
+* '''Double Trouble (Doppelproblem)''' - Ähnlich wie bei Bloodbath, nur dass ein Terror zweimal spawnt, wobei einer dieser beiden Terror eine geupgradete Version ist.
+
+<div class="mw-translate-fuzzy">
+* '''Unbound (Ungebunden)''' - Spawnt eine Kombination an Terrorn, die von der Community vorgeschlagen wurde, einige dieser sind eigentlich unmöglich, sodass sich die Schwierigkeit teils sehr unterscheidet.
+</div>
+
+* '''Ghost (Geist)''' - Eine klassische Runde, in der der Terror unsichtbar ist. Lediglich dessen Partikel und Sounds geben seinen Standort preis, es sei denn, du nutzt Items wie das Radar. Ein Alternate-Terror erscheint möglicherweise.
+
+* '''Moons (Monde)''' - In Terrors of Nowhere gibt es mehrere Moons, die durch die Erfüllung bestimmter Anforderungen aktiviert werden können. Sobald freigeschaltet, warnt der Overseer die Spieler vor einer eintreffenden Bedrohung und rät ihnen, sich mit den richtigen Items vorzubereiten. Nachdem ein Moon gespielt wurde, hat jeder Moon eine Chance von 1/20, eine spezielle Runde (Nicht-Klassisch) zu ersetzen.
+
+<span id="Terrors"></span>
+==Terror==
+
+In Terrors of Nowhere kann man insgesamt auf etwa '''198''' Terror treffen. (134 Klassische, 37 Alternative, 23 Varianten, 4 Bossmonde)
+
+<center><big>⚠️'''Spoilerwarnung'''⚠️<br>
+'''Der folgende Inhalt kann Spoiler enthalten, sei also vorsichtig beim Aufklappen'''</big></center>
+
+<!-- Not a pretty table but made sure to list them in the order they are listed in the in-game Index. If someone wants to pretty the classic table for me go ahead, but they should generally be kept in the order currently listed.-->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Klassisch
+|-
+|[[ton:terrors/huggy|Huggy]]||[[ton:terrors/corrupted_toys|Corrupted Toys]]||[https://terror.moe/terrors/demented_spongebob Demented Spongebob]||[https://terror.moe/terrors/specimen_8 Specimen 8]||[https://terror.moe/terrors/her HER]||[https://terror.moe/terrors/tails_doll Tails Doll]||[https://terror.moe/terrors/black_sun Black Sun]||[https://terror.moe/terrors/aku_ball Aku Ball]||[https://terror.moe/terrors/ao_oni Ao Oni]||[https://terror.moe/terrors/torens_shadow Toren's Shadow]||[https://terror.moe/terrors/censored [CENSORED<nowiki>]</nowiki>]
+|
+|-
+|[https://terror.moe/terrors/whitenight WhiteNight]||[https://terror.moe/terrors/an_arbiter An Arbiter]||[https://terror.moe/terrors/specimen_5 Specimen 5]||[https://terror.moe/terrors/comedy Comedy]||[https://terror.moe/terrors/purple_guy Purple Guy]||[https://terror.moe/terrors/spongefly_swarm Spongefly Swarm]||[https://terror.moe/terrors/hush Hush]||[https://terror.moe/terrors/mopemope MopeMope]||[https://terror.moe/terrors/sawrunner Sawrunner]||[https://terror.moe/terrors/imposter Imposter]||[https://terror.moe/terrors/something Something]
+|[https://terror.moe/terrors/squidward Squidward]
+|-
+|[https://terror.moe/terrors/starved Starved]||[https://terror.moe/terrors/the_painter The Painter]||[https://terror.moe/terrors/the_guidance The Guidance]||[https://terror.moe/terrors/with_many_voices With Many Voices]||[https://terror.moe/terrors/nextbots Nextbots]||[https://terror.moe/terrors/harvest Harvest]||[https://terror.moe/terrors/smileghost Smileghost]||[https://terror.moe/terrors/karol_corpse Karol_Corpse]|| [https://terror.moe/terrors/mx MX]||[https://terror.moe/terrors/big_bird Big Bird]||[https://terror.moe/terrors/dev_bytes Dev Bytes]
+|[https://terror.moe/terrors/mario_has_logged_in Mario Has Logged In]
+|-
+|[https://terror.moe/terrors/luigi_and_luigi_dolls Luigi & Luigi Dolls]||[https://terror.moe/terrors/v2 V2]||[https://terror.moe/terrors/withered_bonnie Withered Bonnie]||[https://terror.moe/terrors/the_boys The Boys]||[https://terror.moe/terrors/something_wicked Something Wicked]||[https://terror.moe/terrors/seek Seek]||[https://terror.moe/terrors/rush Rush]||[https://terror.moe/terrors/sonic Sonic]||[https://terror.moe/terrors/bad_batter Bad Batter]||[https://terror.moe/terrors/signus Signus]||[https://terror.moe/terrors/mirror Mirror]
+|
+|-
+|[https://terror.moe/terrors/legs Legs]||[https://terror.moe/terrors/mona_and_the_mountain Mona & The Mountain]||[https://terror.moe/terrors/judgement_bird Judgement Bird]||[https://terror.moe/terrors/slender Slender]||[https://terror.moe/terrors/maul-a-child Maul-A-Child]||[https://terror.moe/terrors/garten_goers Garten Goers]||[https://terror.moe/terrors/dont_touch_me Don't Touch Me]||[https://terror.moe/terrors/specimen_2 Specimen 2]||[https://terror.moe/terrors/specimen_10 Specimen 10]||[https://terror.moe/terrors/the_lifebringer The Lifebringer]||[https://terror.moe/terrors/pale_association Pale Association]
+|[https://terror.moe/terrors/the_old_man The Old Man]
+|-
+|[https://terror.moe/terrors/toy_enforcer Toy Enforcer]||[https://terror.moe/terrors/tbh TBH]|| [https://terror.moe/terrors/doombox Doombox]||[https://terror.moe/terrors/christian_brutal_sniper Christian Brutal Sniper]||[https://terror.moe/terrors/nosk Nosk]||[https://terror.moe/terrors/apocrean_harvester Apocrean Harvester]||[https://terror.moe/terrors/arkus Arkus]||[https://terror.moe/terrors/cartoon_cat Cartoon Cat]||[https://terror.moe/terrors/wario_apparition Wario Apparition]||[https://terror.moe/terrors/shinto Shinto]||[https://terror.moe/terrors/hell_bell Hell Bell]
+|
+|-
+|[https://terror.moe/terrors/security Security]||[https://terror.moe/terrors/the_swarm The Swarm]||[https://terror.moe/terrors/shiteyanyo Shiteyanyo]||[https://terror.moe/terrors/bacteria Bacteria]||[https://terror.moe/terrors/tiffany Tiffany]||[https://terror.moe/terrors/hoovydundy HoovyDundy]||[https://terror.moe/terrors/haket Haket]||[https://terror.moe/terrors/akumii-kari Akumii-Kari]||[https://terror.moe/terrors/lunatic_cultist Lunatic Cultist]||[https://terror.moe/terrors/sturm Sturm]||[https://terror.moe/terrors/punishing_bird Punishing Bird]
+|
+|-
+|[https://terror.moe/terrors/prisoner Prisoner]||[https://terror.moe/terrors/red_bus Red Bus]||[https://terror.moe/terrors/waterwraith Waterwraith]||[https://terror.moe/terrors/astrum_aureus Astrum Aureus]||[https://terror.moe/terrors/snarbolax Snarbolax]||[https://terror.moe/terrors/all-around-helpers All-Around-Helpers]||[https://terror.moe/terrors/sakuya_izayoi Sakuya Izayoi]||[https://terror.moe/terrors/arrival Arrival]||[https://terror.moe/terrors/miros_birds Miros Birds]||[https://terror.moe/terrors/bff BFF]||[https://terror.moe/terrors/scavenger Scavenger]
+|
+|-
+|[https://terror.moe/terrors/tinky_winky Tinky Winky]
+|[https://terror.moe/terrors/tricky Tricky]
+|[https://terror.moe/terrors/yolm Yolm]
+|[https://terror.moe/terrors/red_fanatic Red Fanatic]
+|[https://terror.moe/terrors/dr_tox Dr.Tox]
+|[https://terror.moe/terrors/ink_demon Ink Demon]
+|[https://terror.moe/terrors/retep Retep]
+|[https://terror.moe/terrors/those_olden_days Those Olden Days]
+|[https://terror.moe/terrors/sos S.O.S]
+|[https://terror.moe/terrors/bigger_boot Bigger Boot]
+|[https://terror.moe/terrors/the_pursuer The Pursuer]
+|
+|-
+|[https://terror.moe/terrors/spamton Spamton]
+|[https://terror.moe/terrors/immortal_snail Immortal Snail]
+|[https://terror.moe/terrors/charlotte Charlotte]
+|[https://terror.moe/terrors/herobrine Herobrine]
+|[https://terror.moe/terrors/peepy Peepy]
+|[https://terror.moe/terrors/the_jester The Jester]
+|[https://terror.moe/terrors/wild_yet_curious_creature Wild Yet Curious Creature]
+|[https://terror.moe/terrors/manti Manti]
+|[https://terror.moe/terrors/horseless_headless_horsemann Horseless Headless Horsemann]
+|[https://terror.moe/terrors/ghost_girl Ghost Girl]
+|[https://terror.moe/terrors/cubors_revenge Cubor's Revenge]
+|
+|-
+|[https://terror.moe/terrors/the_origin The Origin]
+|[https://terror.moe/terrors/beyond Beyond]
+|[https://terror.moe/terrors/terror_of_nowhere Terror of Nowhere]
+|[https://terror.moe/terrors/deleted Deleted]
+|[https://terror.moe/terrors/poly Poly] 
+|[https://terror.moe/terrors/dog_mimic Dog Mimic]
+|[https://terror.moe/terrors/warden Warden] 
+|[https://terror.moe/terrors/express_train_to_hell Express Train To Hell]
+|[https://terror.moe/terrors/killer_fish Killer Fish]
+|[https://terror.moe/terrors/fox_squad FOX Squad]
+|[https://terror.moe/terrors/time_ripper Time Ripper]
+|[https://terror.moe/terrors/this_killer_does_not_exist This Killer Does Not Exist]
+|-
+|[https://terror.moe/terrors/malicious_twins Malicious Twins]
+|[https://terror.moe/terrors/parhelions_victims Parhelion's Victims]
+|[https://terror.moe/terrors/bed_mecha Bed Mecha]
+|[https://terror.moe/terrors/killer_rabbit Killer Rabbit]
+|[https://terror.moe/terrors/random_flying_knife Random Flying Knife]
+|[https://terror.moe/terrors/missingno MissingNo]
+|[https://terror.moe/terrors/living_shadow Living Shadow]
+|[https://terror.moe/terrors/the_plague_doctor The Plague Doctor]
+|[https://terror.moe/terrors/the_rat The Rat]
+|[https://terror.moe/terrors/waldo Waldo]
+|[https://terror.moe/terrors/clockey Clockey]
+|[https://terror.moe/terrors/lain lain]
+|}
+</center>
+<!-- Replaced with the new pyramid like table. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Alternativ
+|-
+|[https://terror.moe/terrors/feddys Feddys]||[https://terror.moe/terrors/tbh_spy TBH Spy]||[https://terror.moe/terrors/tragedy Tragedy]||[https://terror.moe/terrors/voidwalker Voidwalker]||[https://terror.moe/terrors/paradise_bird Paradise Bird]
+|[https://terror.moe/terrors/restless_creator Restless Creator]||[https://terror.moe/terrors/lords_signal Lord's Signal]||[https://terror.moe/terrors/joy Joy]||[https://terror.moe/terrors/mr_mega MR. MEGA]||[https://terror.moe/terrors/eggmans_announcement Eggman's Announcement]||[https://terror.moe/terrors/knight_of_toren Knight of Toren]
+|-
+| ||[https://terror.moe/terrors/decayed_sponge Decayed Sponge]||[https://terror.moe/terrors/parhelion Parhelion]||[https://terror.moe/terrors/yan 얀샋ㄷ요무]||[https://terror.moe/terrors/army_in_black Army in Black]
+|[https://terror.moe/terrors/bliss Bliss]||[https://terror.moe/terrors/glaggle_gang Glaggle Gang]||[https://terror.moe/terrors/whiteface WHITEFACE]||[https://terror.moe/terrors/sm64_z64 SM64.Z64]||[https://terror.moe/terrors/the_red_mist The Red Mist]
+|
+|-
+| || ||[https://terror.moe/terrors/sanic Sanic]||[https://terror.moe/terrors/stgm S.T.G.M.]|| [https://terror.moe/terrors/convict_squad Convict Squad]
+|[https://terror.moe/terrors/fusion_pilot Fusion Pilot]||[https://terror.moe/terrors/dev_maulers Dev Maulers]||[https://terror.moe/terrors/lisa Lisa]
+|[https://terror.moe/terrors/apathy Apathy]
+|
+|
+|-
+| || || ||[https://terror.moe/terrors/angry_munci Angry Munci]||[https://terror.moe/terrors/ambush Ambush]
+|[https://terror.moe/terrors/roblander Roblander]
+|[https://terror.moe/terrors/walpurgisnacht Walpurgisnacht]
+|[https://terror.moe/terrors/sakuya_the_ripper Sakuya The Ripper]
+|
+|
+|
+|-
+| || ||
+|
+|[https://terror.moe/terrors/teuthida Teuthida]
+|[https://terror.moe/terrors/judas Judas]
+|[https://terror.moe/terrors/try_not_to_touch_me Try Not To Touch Me]
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|
+|[https://terror.moe/terrors/the_observation The Observation]
+|
+|
+|[https://terror.moe/terrors/rabid_snarbolax Rabid Snarbolax (Deleted)]
+|[https://terror.moe/terrors/furnace Furnace](Merged with [https://terror.moe/terrors/starved Starved])
+|[https://terror.moe/terrors/the_navigator The Navigator (Deleted)]
+|}
+</center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Variante
+|-
+|[https://terror.moe/terrors/slendy Slendy]||[https://terror.moe/terrors/scrapyard_machine Scrapyard Machine]||[https://terror.moe/terrors/rewrite Rewrite]||[https://terror.moe/terrors/eyes Eyes]||[https://terror.moe/terrors/search_and_destroy Search & Destroy]||[https://terror.moe/terrors/the_batter The Batter]||[https://terror.moe/terrors/monarch Monarch]
+|[https://terror.moe/terrors/ruinborn_afton Ruinborn Afton]
+|[https://terror.moe/terrors/nameless ???]([https://terror.moe/terrors/crimboong Crimboong])
+|[https://terror.moe/terrors/kimera Kimera]
+|[https://terror.moe/terrors/blue_haket Blue Haket]
+|-
+|[https://terror.moe/terrors/inverted_roblander Inverted Roblander]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|[https://terror.moe/terrors/alternates Alternates]||[https://terror.moe/terrors/red_mist_apparition Red Mist Apparition]||[https://terror.moe/terrors/baldi Baldi]||[https://terror.moe/terrors/shadow_freddy Shadow Freddy]||[https://terror.moe/terrors/searchlights Searchlights]||[https://terror.moe/terrors/epic_bonnie Epic Bonnie]||[https://terror.moe/terrors/tbh_sans TBH Sans]
+|[https://terror.moe/terrors/transportation_trio_and_the_drifter Transportation Trio & The Drifter]
+|[https://terror.moe/terrors/freezer Freezer]
+|[https://terror.moe/terrors/hungry_home_invader Hungry Home Invader]
+|
+|}
+</center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Unbound-Runden (WIP)
+!Index
+!Name
+!Terror
+|-
+|1
+|Guidance & The Booboo's
+|
+|-
+|2
+|Red VS Blue
+|
+|-
+|3
+|Third Trumpet
+|
+|-
+|4
+|Higher Beings
+|
+|-
+|5
+|Forest Guardians
+|
+|-
+|6
+|Quadruple Sponge
+|
+|-
+|7
+|Your Best Friends
+|
+|-
+|8
+|Hotel Monsters
+|
+|-
+|9
+|Squibb Squad
+|
+|-
+|10
+|Garden Rejects
+|
+|-
+|11
+|Judgement Day
+|
+|-
+|12
+|Me and My Shadow
+|
+|-
+|13
+|Meltdown
+|
+|-
+|14
+|Faceless Mafia
+|
+|-
+|15
+|Mansion Monsters
+|
+|-
+|16
+|Copyright Infringement
+|
+|-
+|17
+|Purple Bros
+|
+|-
+|18
+|Scavengers
+|
+|-
+|19
+|Life & Death
+|
+|-
+|20
+|Labyrinth
+|
+|-
+|21
+|Spiteful Shadows
+|
+|-
+|22
+|Triple Munci
+|
+|-
+|23
+|Daycare
+|
+|-
+|24
+|Huggy Horde
+|
+|-
+|25
+|Infection
+|
+|-
+|26
+|Triple Hush
+|
+|-
+|27
+|[CENSORED]
+|
+|-
+|28
+|Byte Horde
+|
+|-
+|29
+|SawMarathon
+|
+|-
+|30
+|TAKE THE NAMI CHALLENGE
+|
+|-
+|31
+|Thunderstorm
+|
+|-
+|32
+|END OF THE WORLD
+|
+|-
+|33
+|Fragmented Memories
+|
+|-
+|34
+|Mona & Mona & Mona & Mona
+|
+|-
+|35
+|Seekers
+|
+|-
+|36
+|Nugget Squad
+|
+|-
+|37
+|Saul's Goodmen
+|
+|-
+|38
+|Something Old. Something New
+|
+|-
+|39
+|POV: Bug
+|
+|-
+|40
+|Punishing Birdemic
+|
+|-
+|41
+|Double Ao Oni
+|
+|-
+|42
+|Too Many Voices
+|
+|-
+|43
+|Memory Crypts
+|
+|-
+|44
+|Zumbo Sauce
+|
+|-
+|45
+|Freaks
+|
+|-
+|46
+|Lunatic Cult
+|
+|-
+|47
+|Transportation Trio 8 The Drifter
+|
+|-
+|48
+|Father Son Bonding
+|
+|-
+|49
+|WHAT IS MY NAME
+|
+|-
+|50
+|Glaggleland Cremators
+|
+|-
+|51
+|Triple Signus
+|
+|-
+|52
+|Triple Akumii Kari
+|
+|-
+|53
+|Black & White
+|
+|-
+|54
+|[LESSER CENSORED]
+|
+|-
+|55
+|Blue Monsters
+|
+|-
+|56
+|Drones
+|
+|-
+|57
+|Scrapyard Takers
+|
+|-
+|58
+|Luigi Dolls
+|
+|-
+|59
+|Meteor Shower
+|
+|-
+|60
+|Triple TBH
+|
+|-
+|61
+|Lost Souls
+|
+|-
+|62
+|Ballin
+|
+|-
+|63
+|Reunion
+|
+|-
+|64
+|Angels
+|
+|-
+|65
+|Ordinary Apocalypse Bird
+|
+|-
+|66
+|Pack of Wild Yet Curious
+|
+|-
+|67
+|ToN X SlashCo Collab
+|
+|-
+|68
+|Pack of Yolm
+|
+|-
+|69
+|Threepy
+|
+|-
+|70
+|???
+|
+|-
+|71
+|Delete He
+|
+|-
+|72
+|Spamton Spam
+|
+|-
+|73
+|Death From Above
+|
+|-
+|74
+|It Came From Bus To Nowhere
+|
+|-
+|75
+|Zombie Apocalypse
+|
+|-
+|76
+|Eating Contest
+|
+|-
+|77
+|Triple Clockeys
+|
+|-
+|78
+|Triple Killer Fish
+|
+|-
+|79
+|Lethal League
+|
+|-
+|80
+|Trollage
+|
+|-
+|81
+|Mopemopemopemopemopemope
+|
+|-
+|82
+|Triple Trouble
+|
+|-
+|83
+|Tirple Living Shadow
+|
+|-
+|84
+|Beyond's Masks
+|
+|}
+</center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Bossmond
+|-
+|[https://terror.moe/terrors/mystic_moon Mystic Moon]||[https://terror.moe/terrors/blood_moon Blood Moon]||[https://terror.moe/terrors/twilight Twilight]||[https://terror.moe/terrors/solstice Solstice]
+|}
+</center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Saisonale Events
+|-
+|[https://terror.moe/terrors/cold_night Cold Night]
+|}
+</center>
+
+<span id="Locations"></span>
+==Standorte==
+
+Terrors of Nowhere beinhaltet insgesamt '''75''' verschiedene Standorte, von denen '''74''' Arenen sind, in denen du zufällig während der Runden platziert wirst.
+
+<center><big>⚠️'''Spoilerwarnung'''⚠️<br>
+
+'''Der folgende Inhalt kann Spoiler enthalten, sei also vorsichtig beim Aufklappen'''</big></center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Standorte
+|-
+|[https://terror.moe/locations/hub Hub]||[https://terror.moe/locations/sewers Sewers]||[https://terror.moe/locations/construct Construct]||[https://terror.moe/locations/secret Secret]||[https://terror.moe/locations/innyume Innyume]||[https://terror.moe/locations/warehouse Warehouse]
+|[https://terror.moe/locations/sanctum Sanctum]
+|[https://terror.moe/locations/sea_base Sea Base]
+|[https://terror.moe/locations/astral Astral]
+|-
+|[https://terror.moe/locations/hell Hell]||[https://terror.moe/locations/fishbowl Fishbowl]||[https://terror.moe/locations/forest Forest]||[https://terror.moe/locations/neon_towers_p Pink Neon Towers]||[https://terror.moe/locations/playplace Playplace]||[https://terror.moe/locations/isolation Isolation]
+|[https://terror.moe/locations/pizzeria Pizzeria]
+|[https://terror.moe/locations/schoolhouse Schoolhouse]
+|[https://terror.moe/locations/ancient Ancient]
+|-
+|[https://terror.moe/locations/inner_towers Inner Towers]||[https://terror.moe/locations/blackspace Blackspace]||[https://terror.moe/locations/museum Museum]||[https://terror.moe/locations/throne Throne]||[https://terror.moe/locations/neon_towers_g Green Neon Towers]||[https://terror.moe/locations/pool Pool]
+|[https://terror.moe/locations/hole Hole]
+|[https://terror.moe/locations/iteration_0 Iteration_0]
+|[https://terror.moe/locations/dring_kings_citadel Dring King's Citadel]
+|-
+|[https://terror.moe/locations/car_park Car Park]||[https://terror.moe/locations/development Development]||[https://terror.moe/locations/hotel Hotel]|| [https://terror.moe/locations/elevator Elevator]||[https://terror.moe/locations/tbh TBH]||[https://terror.moe/locations/experimentation Experimentation]
+|[https://terror.moe/locations/scrapyard Scrapyard]
+|[https://terror.moe/locations/robland Robland]
+|[https://terror.moe/locations/backrooms Backrooms]
+|-
+|[https://terror.moe/locations/desktop Desktop]
+|[https://terror.moe/locations/slashco_hq SlashCo HQ]
+|[https://terror.moe/locations/harvest Harvest]
+|[https://terror.moe/locations/heaven Heaven]
+|[https://terror.moe/locations/hightower Hightower]
+|[https://terror.moe/locations/lounge Lounge]
+|[https://terror.moe/locations/baseplate Baseplate]
+|[https://terror.moe/locations/challenge_cube Challenge Cube]
+|[https://terror.moe/locations/have Have]
+|-
+|[https://terror.moe/locations/engine Engine]||[https://terror.moe/locations/orange Orange]|| [https://terror.moe/locations/wall Wall]||[https://terror.moe/locations/nexus Nexus]||[https://terror.moe/locations/colony Colony]||[https://terror.moe/locations/altar Alter]
+|[https://terror.moe/locations/gardens Gardens]
+|[https://terror.moe/locations/dust Dust]
+|[https://terror.moe/locations/dots Dots]
+|-
+|[https://terror.moe/locations/mall Mall]||[https://terror.moe/locations/nightlife Nightlife]||[https://terror.moe/locations/skyscraper Skyscrapers]||[https://terror.moe/locations/gaol Gaol]
+|[https://terror.moe/locations/chess Chess]
+|[https://terror.moe/locations/mineshaft Mineshaft]
+|[https://terror.moe/locations/escape_route Escape Route]
+|[https://terror.moe/locations/garten Garten]
+|[https://terror.moe/locations/black_forest Black Forest]
+|-
+|[https://terror.moe/locations/park Park]
+|[https://terror.moe/locations/wafflehouse Wafflehouse]
+|[https://terror.moe/locations/tunnels Tunnels]
+|[https://terror.moe/locations/subway Subway]
+|[https://terror.moe/locations/supply_route Supply Route]
+|[https://terror.moe/locations/vents Vents]
+|[https://terror.moe/locations/cheese_maze Cheese Maze]
+|[https://terror.moe/locations/snowfield Snowfield]
+|[https://terror.moe/locations/luna_hills Luna Hills]
+|-
+|[https://terror.moe/locations/court Court]
+|[https://terror.moe/locations/its_maze Its Maze (Deleted)]
+|
+|
+|
+|
+|
+|[https://terror.moe/locations/spaceless Spaceless (Hidden)]
+|[https://terror.moe/locations/this_map_does_not_exist This Map Does Not Exist (Hidden)]
+|}
+</center>
+
+<span id="Red_Merchant_Store"></span>
+==Roter Händlerladen==
+
+Im Roten Händlerladen kannst du in drei verschiedenen Shops stöbern: dem '''Enkephalin Shop''', dem '''Special Shop''' und dem '''Event Shop'''.
+
+<center><big>⚠️'''Spoilerwarnung'''⚠️<br>
+
+'''Der folgende Inhalt kann Spoiler enthalten, sei also vorsichtig beim Aufklappen'''</big></center>
+
+<!-- Please refrain from proofreading the shop descriptions, as they are provided as-is from the game. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ Enkephalin Shop
+|-
+!Name!! Price !!Shop Description!!Notes
+|-
+|[https://terror.moe/items/radar Radar]||20 Eph||<small>Ein nützlicher Gegenstand, der jegliche Gefahren für den Träger erkennt. Es behält immer den Überblick über die Hauptbedrohung und alamiert den Nutzer über alles in der Nähe.</small>||<small>Wenn gehalten, zeigt das Radar die Entfernung zur Hauptbedrohung an. Wenn sich etwas in der Nähe befindet, alarmiert es den Nutzer. Es kann Killer während bestimmter Rundentypen aufdecken.</small>
+|-
+|[https://terror.moe/items/medkit Medkit]||20 Eph ||<small>Ein Koffer, der mehrere medizinische Vorräte enthält, die an den verschiedenen Standorten gesammelt wurden, die der Green Bus besucht hat. Es ist nicht viel, aber es bringt dich durch eine Rauferei.</small>||<small>Heilt bei Benutzung den Nutzer und Verbündete in der Nähe um 25% HP. Muss sich nach der Nutzung wiederaufladen. Virus zu überleben gewährt dir das Red Medkit. Mit diesem kannst du nur dich selber vollständig heilen.</small>
+|-
+|[https://terror.moe/items/haves_mysterious_brew Have's Mysterious Brew]||20 Eph||<small>Ein merkwürdiges Gebräu, das von einer Waldkreatur gebraut wurde. Keine Ahnung, was drin ist, aber es riecht furchtbar. Ich würde dich als verrückt bezeichnen, wenn du davon trinkst, aber hey, mach was du willst.</small>||<small>Gewährt dir einen zufälligen Statuseffekt bei Benutzung. Dieser Effekt kann gut oder schlecht sein. Effekte können Geschwindigkeit, Heilung, Blindheit, Verbrennung, Verlangsamung, Teleportation etc. beinhalten.</small>
+|-
+|[https://terror.moe/items/glow_coil Glow Coil]||75 Eph ||<small>Diese Spule spendet Licht für die Sünder, die zu viel Angst in der Dunkelheit haben. Ich sehe nicht oft, dass sie benutzt wird, aber sie wird dich durch einige der schwärzesten Nächte bringen.</small>||<small>Wenn getragen, erhält der Spieler 2 Punkte an Geschwindigkeit. Die Spule spendet ein beruhigendes Licht, das dir ermöglicht, in der Dunkelheit besser sehen zu können. Sie bietet guten Einsatz gegen Killer mit intensiver Dunkelheit oder Nebeleffekten wie beispielsweise Miros Birds oder Something Wicked. Die Glow Coil ist ein guter Konter gegen Fog-Runden, da sie den den Nebeleffekt um die Hälfte reduziert und die Namensfarbe des Killers (aber nicht den Namen selber) aufdeckt. Die Variante dieser, Psycho Coil, erhältst du, wenn du Psychosis mit der Glow Coil überlebst. Diese gewährt dir eine höhere Geschwindigkeit als die Glow Coil und negiert Nebeleffekte, spendet allerdings kein Licht.</small>
+|-
+|[https://terror.moe/items/teleporter Teleporter]||125 Eph||<small>Ein Gerät, das an einem der vielen Standorte, die der Green Bus besucht hat, aufgehoben wurde. Dessen Natur macht es zu einer unzuverlässigen, aber effektiven Flucht.</small>||<small>Teleportiere dich bei Benutzung an einen zufälligen Ort der Karte. Hat eine kurze Verzögerung bei Benutzung. Muss sich nach Benutzung wieder aufladen. Es gibt drei Varianten, die den Basis-Teleporter zur Freischaltung benötigen - das Pale Briefcase, erhalten durchs Überleben eines Alternate-Terror, den Bloody Teleport, erhalten durchs Überleben einer Bloodbath-Runde, und den Thorn Hacker, erhalten durchs Überleben von Solstice. Das Pale Briefcase hat eine längere Abklingzeit, dafür aber einen besseren und länger andauernden Geschwindigkeitsbuff. Der Bloody Teleport lädt sich schneller wieder auf, saugt aber deine HP bei Benutzung langsam aus. Der Thorn Hacker teleportiert dich stattdessen jedes Mal zum Thorn (Terror-Spawn).
+|-
+|[https://terror.moe/items/speed_coil Speed Coil]||125 Eph ||<small>Die Speed Coil ist der beste Freund des Passagiers und erlaubt es diesem, sich noch schneller fortzubewegen. North hat diese Spulen so erstellt, dass sie viel leichter sind, als ihre originalen Gegenstücke.</small>||<small>Wenn gehalten, erhält der Spieler 3 Punkte an Geschwindigkeit, was es ihm erlaubt, sich schneller als Terror zu bewegen. Du erhältst die Bloody Coil, wenn du eine Bloodbath-Runde mit einer Speed Coil überlebst. Mit dieser bewegst du dich schneller, nachdem du Schaden erlitten hast.</small>
+|-
+|[https://terror.moe/items/regen_coil Regen Coil]||125 Eph||<small>Die Regen Coil gewährt dem Träger sowohl Heilung als auch eine Menge an Geschwindigkeit. Obwohl dessen Passagiere sich zwar langsamer bewegen, stehen ihre Überlebenschancen nicht schlecht.</small>||<small>Wenn gehalten, erhält der Spieler 2 Punkte an Geschwindigkeit. Wenn gehalten, ist die HP-Regeneration 4x schneller.</small>
+|-
+|[https://terror.moe/items/metal_bat Metal Bat]||200 Eph||<small>Dieser Schläger ist eine Waffe für diejenigen, die mutig genug sind, die Terror herauszufordern. Interne Elektronik hilft ihm dabei, Terror zu schädigen. Er wirkt nicht gegen stärkere oder körperlose Terror.</small>||<small>Schwinge und betäube einen Killer bei Benutzung. Betäubungseffekt variiert stark zwischen Killern. Eine erfolgreiche Betäubung resultiert in gelben Partikeln. Eine fehlgeschlagene Betäubung resultiert in roten Partikeln. Muss sich nach der Benutzung wiederaufladen. Erlaubt es dem Nutzer, bestimmte Terror zu betäuben. Gewährt beim Schwung einen kurzen Moment Unverwundbarkeit, erhöht deine Geschwindigkeit für kurze Zeit nach einem erfolgreichen Treffer und braucht zum Wiederaufladen etwa 15 Sekunden. Aufladezeit erhöht sich mit mehr Spielern in der Instanz. Es gibt vier Varianten in Form des Bloodstained Bat (überleben einer Bloodbath-Runde), Metal Pipe (überleben einer Alternate-Runde), Justitia (überleben einer Midnight-Runde) und Colorable Bat (überleben einer Cracked-Runde). Um die Varianten freizuschalten, muss man den Basisschläger, den Colorable Bat oder den Rubber Mallet benutzen. Der Bloody Bat gewährt eine schnellere Wiederaufladung, je weniger HP du hast. Allerdings ist seine anfängliche Abklingzeit länger. Die Metal Pipe hat eine etwas höhere Abklingzeit, dafür kann sie mehrere Terror gleichzeitig treffen. Justitia funktioniert ähnlich wie der Bloody Bat, schwingt aber zusätzlich drei Mal innerhalb einer Animation. Der Colorable Bat funktioniert genau wie der Basisschläger, aber wie der Name sagt, kannst du ihn am Shop einfärben!</small>
+|-
+|[https://terror.moe/items/silver_kat_charm Silver Kat Charm]||200 Eph||<small>Ein magischer Talisman, der angeblich von einer Hexe hergestellt wurde, die nichts mehr wollte, als die Menschheit auszulöschen. Der Talisman wurde hergestellt, um sie und die, die sie liebt, zu beschützen. Er wird dich vermutlich auch beschüttzen.</small>||<small>Erhalte Schutz und 2 Geschwindigkeit bei Benutzung. Wenn du getroffen wirst, während du Schutz hast, wirst du zurückgeschleudert. Der Effekt hält 6 Sekunden an. Der Talisman muss sich nach Benutzung wiederaufladen. Lädt sich nach 30 Sekunden wieder auf.</small>
+|-
+|[https://terror.moe/items/chaos_coil Chaos Coil]|| 200 Eph||<small>Die Chaos Coil ist durch andersweltliche Energie verzerrt und kann daher nicht zu lange an einem Ort verweilen. Die Spule, obwohl sie einen massiven Geschwindigkeitsboost gewährt, ist sehr instabil und nicht zuverlässig.</small>||<small>Wenn gehalten, erhält der Spieler 4 Punkte an Geschwindigkeit. Beim Bewegen kann die Spule manchmal für 2-7 Sekunden kaputtgehen und sich nach 3 Sekunden reparieren. Du erhältst die Twilight Coil, nachdem du Apocalypse Bird mit der Chaos Coil überlebt hast. Mit dieser kannst du dich schneller als mit der Chaos Coil bewegen, sie zerbricht allerdings öfter.</small>
+|-
+|[https://terror.moe/items/glass_coil Glass Coil]||250 Eph||<small>Eine kraftvolle, aus Glas gemachte, Spule. Sie ist stärker als die meisten Spulen, kann allerdings leicht zerbrechen. Ich habe sie als Geschenk gemacht, möchte aber lieber nicht sagen, für wen.</small>||<small>Wenn gehalten, erhält der Spieler 3,5 Punkte an Geschwindigkeit. Jeglicher Schaden, der erlitten wird, lässt die Spule zerbrechen. Die Spule repariert sich selbst nach 60 Sekunden, in denen kein Schaden erlitten wurde.</small>
+|-
+|[https://terror.moe/items/corkscrew_coil Corkscrew Coil]||250 Eph||<small>Die Corkscrew Coil ist das ultimative Kampf- oder Fluchtwerkzeug, das sowohl Geschwindigkeit als auch Schutz gleichzeitig bietet. Sie muss sich allerdings zwischen den Nutzungen wiederaufladen, also benutze sie mit Vorsicht.</small>||<small>Gewährt beim Tragen 1 Punkt an Geschwindigkeit. Gewährt bei Benutzung 4 Punkte an Geschwindigkeit für 3 Sekunden. Die Coil kann Killer während dieser Zeit betäuben. Muss sich nach dieser Zeit wiederaufladen. Braucht etwa 30 Sekunden zum Wiederaufladen. Gewährt kurze Unverwundbarkeit bei Benutzung.</small>
+|-
+|[https://terror.moe/items/antique_revolver Antique Revolver]||250 Eph ||<small>Ein alter, abgenutzter Revolver. Er sieht aus, als würde er jeden Moment zerbrechen. Sein Zylinder fasst lediglich eine Kugel und diese reinzubekommen, erweist sich als schwierig. Eine reicht schon.</small>||<small>Feuer den Revolver bei Benutzung ab und betäube Terror aus der Distanz. Der Effekt der Betäubung kann je nach Killer sehr variieren. Das Geschoss kann durch mehrere Terror durchfliegen. Muss sich 30 Sekunden lang nach der Nutzung aufladen. Es gibt eine bleiche Variante, die durch das Überleben einer Alternative-Runde mit der Waffe verdient werden kann. Mit der bleichen Pistole zu schießen, gibt dem Nutzer einen temporären Geschwindigkeitsbonus, allerdings hat diese eine längere Abklingzeit.</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Special Shop
+|-
+!Name!!Preis!!Shop-Beschreibung!!Notizen
+|-
+|[https://terror.moe/items/burger Burger]||1 SP||<small>Hamburger Cheeseburger Big Mac Whopper Hamburger Cheeseburger Big Mac Whopper Hamburger Cheeseburger Big Mac Whopper</small>||<small>Verbrauche das Item bei Benutzung und stelle alle HP wieder her. Muss nach Benutzung am Shop neu gespawnt werden.</small>
+|-
+|[https://terror.moe/items/beyond_plush Beyond Plush]||10 SP||<small>Ein rätselhaftes Stofftier von jemandem, der vermutlich mal zu irgendeinem Zeitpunkt wichtig gewesen ist. Es enthält schwache Spuren uralter Energie. Wer weiß, wozu es fähig ist?</small>||<small>Spiele bei Benutzung einen Sound ab. Es besteht eine Chance, einen zufälligen Sound abzuspielen. Es besteht eine Chance, einen anderen Effekt auszulösen. 10 Sekunden Abklingzeit. Es besteht eine Chance, zufällige Sounds mit zufälligem Effekt beim Drücken abzuspielen, die Unverwundbarkeit, Teleportation oder Tod sein können.</small>
+|-
+|[https://terror.moe/items/magic_conch Magic Conch]||25 SP||<small>Eine Muschelschale, die von einer merkwürdigen Unterwasser-Ritualstätte geborgen wurde. Wenn du am Faden ziehst, spricht sie. Obwohl sie aus einer organischen Schale gemacht ist, scheint sich im Inneren Elektronik zu befinden.</small>||<small>Frag sie etwas und zieh am Faden.</small>
+|-
+|[https://terror.moe/items/radar_coil Radar Coil]||50 SP||<small>Eine merkwürdige Mixtur aus dem Radar und einer Speed Coil. Durch einen fehlenden Bildschirm gestaltet es sich schwierig, zu merken, woher die Gefahr kommt. Allerdings wird sie sichergehen, dass du Bescheid weißt.</small>||<small>Wenn gehalten, erhält der Spieler 2 Punkte an Geschwindigkeit. Wenn gehalten, spürt das Radar Terror innerhalb von 35 Metern um den Nutzer auf. Das Radar aktualisiert seine Distanz alle 0,8 Sekunden. Die Radar Coil gewährt einen spürbaren Geschwindigkeitsschub, wenn ein Terror entdeckt wird. Deckt den Namen des Terrors während einer Fog-Runde auf sowie den aller drei Terror während einer Bloodbath- oder Midnight-Runde.</small>
+|-
+|[https://terror.moe/items/rubber_mallet Rubber Mallet]||100 SP||<small>Ein gegen sussy Personen effekter Gummihammer. Er mag manchen vertrauter vorkommen, oder komfortabler zu benutzen sein als der Metal Bat, erfüllt aber funktional den gleichen Zweck.</small>||<small>Schwing und betäube einen Killer bei Benutzung. Betäubungseffekt variiert sehr je nach Killer. Erfolgreiche Betäubungen führen zu gelben Partikeln. Erfolglose Betäubungen führen zu roten Partikeln. Funktioniert genau wie der Metal Bat. Du kann die Varianten des Metal Bat mit dem Rubber Mallet freischalten.</small>
+|-
+|[https://terror.moe/items/banana Banana]
+|250 SP
+|<small>Banana ist ein Item, das es dem Spieler erlaubt... eine Banane auf den Boden fallen zu lassen. Sobald sie fallengelassen wurde, kannst du sie nicht wieder aufheben und musst eine neue aus dem Store holen. Genauso wie den Ziegelstein kannst du sie auch nicht wieder zurückrufen.</small>
+|<small>Wenn ein Spieler auf eine Banane tritt, erhalten sie den gleichen Effekt von Swooce, der sie in eine zufällige Richtung sendet. Wenn ein Terror auf eine Banane tritt, wird er betäubt. Dies könnte als eine schwächere Version der Subspace Tripmine angesehen werden.</small>
+|-
+|[https://terror.moe/items/tbh TBH]||500 SP||<small>Ein kleiner Kerl, eine kleine Kreatur. Hat keine Hirnaktivität, ist nur am viben. Wenn du ihn drückst, macht er vielleicht sogar ein Geräusch. Sei allerdings vorsichtig, ich hab gesehen, wie so einer schon mal in Flammen aufgegangen ist.</small>|| <small>Erhalte bei Benutzung zeitweise 5+ Geschwindigkeit. Fügt dir selbst Verbrennung zu. Muss sich nach Benutzung wiederaufladen. Lädt sich in 30 Sekunden wieder auf.</small>
+|-
+|[https://terror.moe/items/taser Taser]
+|700 SP
+|<small>Teile etwas GERECHTIGKEIT mit diesem Bad Boy aus, er hält jeden für einen kurzen Moment am Boden. Wir behielten ihn bei uns für den Fall, wenn Linzie zu den alten Zeiten, zu denen wir Reisen waren, zu chaotisch wurde.</small>.
+|<small>Feuere bei Benutzung einen kurzen Stoß an Elektrizität, der Terror 2-3 Sekunden lang paralysiert. Lange Abklingzeit nach Benutzung. Erlaubt es dem Nutzer, fast jeden Terror aus der Distanz zu tasern, auch solche, die nicht betäubt werden können. Bei erfolgreichem Treffer kannst du gelbe Partikel um den Terror erkennen, die anzeigen, dass er verlangsamt ist. Bedenke, dass der Taser nur die Bewegungsgeschwindigkeit beeinflusst. Terror greifen trotzdem weiter normal an, sobald sie sich in Reichweite befinden, sodass jemand wie V2 trotzdem nervig sein kann.</small>
+|-
+|[https://terror.moe/items/darkgrey_plush Darkgrey Plush]||750,5 SP||<small>Es ist Darkgrey! Wow! So Cool! Darkgrey-Action!</small>||<small>Darkgrey-Action! Er ist super Cool. Er ist unglaublich. Schau ihn an!!!!!!!</small>
+|-
+|[https://terror.moe/items/delicate_coil Delicate Coil]||1000 SP||<small>Wenn du dachtest, dass die Glass Coil riskant sei, dann wird dieses Ding geradezu in deinen Händen zersplittern. Einige sind durch dessen Glasexplosion gestorben, also würde ich nicht empfehlen, sie zu benutzen, es sei denn du bist bereit dazu, es zu riskieren.</small>||<small>Wenn gehalten, erhält der Spieler 3,8 Punkte an Geschwindigkeit. Jeglicher erlittener Schaden wird den Nutzer umbringen.</small>
+|-
+|[https://terror.moe/items/emerald_coil Emerald Coil]||2500 SP||<small>Diese Spule wird von dem angetrieben, was du gesammelt hast. Es stellt sich heraus, dass Enkephalin eine ziemlich nützliche Ressource ist. Obwohl nützlich, hält es nicht lange, also benutze die Spule sparsam, wenn du überleben willst.</small>||<small>Lade die Spule bei Benutzung für 2 Sekunden zum Preis von 5 Enkephalin auf. Während sie geladen ist, erhältst du 6 Punkte an Geschwindigkeit. Funktioniert nicht, wenn du kein Enkephalin besitzt.</small>
+|-
+|[https://terror.moe/items/pot_of_greed Pot of Greed]
+|5000 SP
+|<small>Ich kann mich nicht dran erinner, diesen Topf je gefunden zu haben, das macht mir Angst. Ich schwöre, er starrt mich an, wenn ich nicht hinschaue. Er kann dich vor Gefahr bewahren, aber ich rechne nicht damit, dass er es kostenlos macht.</small>
+|<small>Benötigt zum Funktionieren 100 Enkephalin. Wenn der Pot of Greed einen Terror in deiner Nähe entdeckt, teleportiert er dich automatisch weg. Jedes Mal, wenn er dies tut, besteht eine höhere Chance, dass er zerbricht und dir die Hälfte deiner Enkephalin stiehlt. Wenn man bedenkt, wie der Pot of Greed deine Enkephalin halbiert, wird empfohlen, diesen nur zu benutzen, wenn du eine geringe Menge an Enkephalin besitzt, anstatt erst eine große Menge anzuhäufen.</small>
+|-
+|[https://terror.moe/items/brick Brick]||10000 SP||<small>Es gibt nichts, das ein guter, alter Ziegelstein nicht lösen könnte. Du musst vielleicht ein bisschen üben, ihn richtig zu werfen, aber es zahlt sich aus. Lass ihn nur nicht fallen, du bekommst ihn vielleicht nicht zurück.</small>||<small>Wirf den Ziegelstein physisch, um Terror zu betäuben. Keine Abklingzeit, aber du musst deinen Ziegelstein wieder aufheben (kein Rückruf!). Verursacht eine Betäubung bei nur geringer Krafteinwirkung. Muss nach Benutzung manuell aufgehoben werden.</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Event Shop
+|-
+!Name!!Shop Beschreibung!!Hinweise!!Freischaltanforderung
+|-
+|[https://terror.moe/items/luxury_coil Luxus-Spule]||<small>Eine Spezialspule, hergestellt aus einem goldähnlichen Material. Sie bietet alles Notwendige zum Überleben, allerdings nicht auf die beste Weise. Sie ist eher ein Schmuckstück.</small>||<small>Wenn gehalten, erhält der Spieler 1,5 Punkte Geschwindigkeit. Regeneration von HP ist 2,5x schneller. Der Spieler verdient 1,5x mehr Eph. Teilt außerdem Nebelklärungsfähigkeiten mit der Glow-Spule.</small>||<small>Erhalten von allen Patreons (Caretaker), die ein Formular vor April 2023 eingereicht haben.</small>
+|-
+|[https://terror.moe/items/blue_medkit Blaues Medikit]||<small>Ein Koffer, der verschiedene medizinische Vorräte enthält, gesammelt von den vielen Orten, die der Grüne Bus besucht hat. Warum er wohl blau ist? Es ist nicht viel, aber es wird dich durch eine Auseinandersetzung bringen.</small>||<small>Bei Verwendung heilt sich der Spieler und nahe Verbündete um 25% HP. Verleiht einen zufälligen Statuseffekt an sich und nahe Spieler. Muss nach Gebrauch aufgeladen werden.</small>||<small>Erhalten von allen Patreons (Pilot), die ein Formular vor April 2023 eingereicht haben.</small>
+|-
+|[https://terror.moe/items/sealed_sword Versiegeltes Schwert]||<small>Eine antike Waffe, die in Stoff und Talismane gehüllt ist, um sowohl Segen als auch Flüche zu absorbieren. Die Waffe ist klobig und langsam. Ich würde sie nicht empfehlen.</small>||<small>Bei Verwendung wird ein Terror geschwungen und betäubt. Verlangsamt den Benutzer. Der Betäubungseffekt variiert stark zwischen Terrors. Erfolgreiche Betäubungen zeigen gelbe Partikel. Fehlgeschlagene Betäubungen zeigen rote Partikel. Muss nach Gebrauch aufgeladen werden.</small>||<small>Kann mit einem Betäubungswerkzeug aus einem Gehäuse im Museum gebrochen werden.</small>
+|-
+|[https://terror.moe/items/gran_faust Gran Faust]||<small>Seine Aufladungsangriffe sind so mächtig, dass sie ihren Benutzer verfluchen können. Trotzdem werden diese seltenen Klingen von Deviliten höher geschätzt als ihre spärliche Urlaubszeit. In den Händen von Ungeübten ist die Waffe jedoch weniger mächtig.</small>||<small>Bei Verwendung wird ein Terror geschwungen und betäubt. Der Betäubungseffekt variiert stark zwischen Terrors. Erfolgreiche Betäubungen zeigen gelbe Partikel. Chance, sich beim Schwingen selbst zu verfluchen. Das Schwingen während des Verfluchtseins schadet dem Benutzer und erneuert den Fluch. Schnellere Wiederaufladung nach Gebrauch. Nach Freischaltung kann Divine Avenger nicht mehr freigeschaltet werden.</small>||<small>Erhalten, indem man Arkus mit dem Versiegelten Schwert konfrontiert und überlebt, ohne ihn zu treffen.</small>
+|-
+|[https://terror.moe/items/divine_avenger Göttlicher Rächer]||<small>Ein heiliges Schwert, das in einer anderen Zeit geschaffen wurde, um Ritter zu bewaffnen, die gegen die Legionen der Unterwelt kämpften. Es gibt nur wenige Feinde, die würdig sind, von einer so feinen Klinge besiegt zu werden, und noch weniger Helden, die es wert sind, sie zu führen.</small>||<small>Bei Verwendung wird ein Terror geschwungen und betäubt. Der Betäubungseffekt variiert stark zwischen Terrors. Erfolgreiche Betäubungen zeigen gelbe Partikel. Erfolgreiche Betäubungen gewähren Regeneration. Muss nach Gebrauch aufgeladen werden. Nach Freischaltung kann Gran Faust nicht mehr freigeschaltet werden.</small>||<small>Erhalten, indem man Arkus mit dem Versiegelten Schwert konfrontiert und überlebt, nachdem man ihn mindestens zweimal getroffen hat.</small>
+|-
+|[https://terror.moe/items/maxwell Maxwell]||<small>Einer der alten Götter der Schöpfung. Er hat viele Namen, aber nur einer passt zu ihm. Er hat Mitleid mit deinem Schicksal und wird dir helfen, so wie du ihm geholfen hast.</small>||<small>Einmal pro Runde absorbiert Maxwell tödlichen Schaden und teleportiert dich mit voller HP weg. Nach der Nutzung wird Maxwell verbraucht und muss im Shop erneut erscheinen.</small>||<small>Gefunden im Labyrinth. (erscheint einmal pro Runde)</small>
+|-
+|[https://terror.moe/items/rock Stein]||<small>Sieht nicht aus wie ein Stein, den ich je gesehen habe. Fühlt sich auch nicht wie einer an. Du willst das wahrscheinlich nicht, Fremder. Manchmal höre ich, wie dieser Stein zu mir flüstert.</small>||<small>Wirf den Stein, um Terrors zu betäuben. Keine Abklingzeit, aber du musst deinen Stein aufsammeln. (kein Rückruf!) Funktional identisch mit einem Ziegelstein.</small>||<small>Erhalten, indem man den Fusion Pilot überlebt.</small>
+|-
+|[https://terror.moe/items/illumina Illumina]||<small>Eine antike Waffe, die sich denen offenbart, die Entschlossenheit zeigen, die Welt von unreinen Herzen zu befreien. Selbst in den dunkelsten Nächten wird es immer ein Licht geben.</small>||<small>Bei Verwendung wird ein Terror geschwungen und betäubt. Der Betäubungseffekt variiert stark zwischen Terrors. Erfolgreiche Betäubungen zeigen gelbe Partikel. Schnellere Wiederaufladung, aber keine Immunität beim Angriff.</small>||<small>Erhalten, indem man Bliss überlebt.</small>
+|-
+|[https://terror.moe/items/redbull RedBull]||<small>Ein Energy-Drink, von dem gesagt wird, dass er Flügel verleiht, aber eher Herzprobleme verursacht. (ToN wird NICHT von Red Bull gesponsert)</small>||<small>Bei Verwendung gewährt er einen massiven Geschwindigkeitsboost. Nach Ablauf des Boosts erhält man starke Verlangsamung.</small>||<small>Erhalten, indem man Roblander überlebt.</small>
+|-
+|[https://terror.moe/items/omori_plush Omori-Plüsch]||<small>Habe diesen kleinen Kerl neulich bei einem Flohmarkt gefunden. Ich halte ihn seitdem. Ich glaube nicht, dass er deine Überlebenschancen wirklich erhöht, aber er macht Spaß zu drücken!</small>||<small>Drücken, um einen Sound abzuspielen. Kann dir vielleicht helfen, die schlechten Dinge zu vergessen. Heilt 1 HP pro Nutzung.</small>||<small>Erhalten, indem man Something überlebt.</small>
+|-
+|[https://terror.moe/items/paradise_lost Paradise Lost]||<small>Ein seltsamer Stab, der ohne Glauben an die richtige Gottheit machtlos scheint. Ich kann nicht sagen, zu welcher Religion das gehört, aber wenn du es herausfindest, gebe ich ihn dir gerne.</small>||<small>Betäubt Killer in kurzer Reichweite vor dir. Heilt andere Spieler, die getroffen werden. Verletzt den Benutzer bei Verwendung.</small>||<small>Erhalten, indem man wiederholt Apostel in einer Runde betäubt. (Metallschläger/Farbiger Schläger/Gummihammer: 7 Treffer) (Antiker Revolver/Bleicher Revolver: 14 Treffer) (Alles andere, was betäubt: 12 Treffer)</small>
+|-
+|[https://terror.moe/items/thorn_glognut Dorn-Glognut]||<small>Das originale Glognut! Flauschiger kleiner Schwammkuchen mit leuchtend bernsteinfarbener, leckerer Glasur und wenig Zucker. Super lecker und süchtig machend! Jeder Giggler oder Gembo oder was auch immer hat mindestens einmal einen davon probiert.</small>||<small>Beim Verzehr erhält man 'Glagglevision', einen massiven Geschwindigkeitsboost und Schutz für 15 Sekunden. Zusätzlich verliert man bis auf 10% seiner HP alles.</small>||<small>Erhalten, indem man die Glaggle Gang überlebt.</small>
+|-
+|[https://terror.moe/items/jailbird Jailbird]||<small>Ein Stück empfindungsfähige Maschine, die es anscheinend genießt, als Waffe benutzt zu werden. Ich habe sie verstärkt, um zu verhindern, dass sie explodiert, da sie anscheinend dazu neigt.</small>||<small>Bei Verwendung lädt Jailbird auf und verleiht starke Schnelligkeit für 3 Sekunden. Jailbird kann erneut verwendet werden, um zuzuschlagen und jeden getroffenen Terror für 2–3 Sekunden zu lähmen. Wenn kein Ziel getroffen wird, wird der Benutzer stattdessen gelähmt. Dieses Item kann auch auf Terrors verwendet werden, die nicht betäubt werden können.</small>||<small>Erhalten, indem man alle Terrors im Classic-Index überlebt.</small>
+|-
+|[https://terror.moe/items/joyous_orb Freudige Kugel]||<small>Ein antikes Relikt, das von einer fernen Sonne geborgen wurde. Es sieht aus, als ob es tief in Gedanken versunken oder einfach nur am Schlafen ist. Wovon könnte ein solches Objekt träumen?</small>||<small>Wenn es während einer Runde freigesetzt wird, fliegt die Kugel zufällig umher und betäubt Terrors in ihrem Weg, bevor sie explodiert. Kann nicht in der Lobby verwendet werden.</small>||<small>Erhalten, indem man Joy überlebt.</small>
+|-
+|[https://terror.moe/items/have_plush Have-Plüsch]||<small>Ein Plüsch, das den Kreaturen ähnelt, die in den dunklen Wäldern lauern. Nur wenige wissen, dass die Wälder unter dem Schutz eines Königs stehen, der sich als deren Herrscher ausgibt.</small>||<small>Wenn gehalten, erhält der Spieler keine Debuffs mehr, kann aber auch keine Buffs mehr erhalten.</small>||<small>Erhalten, indem man The Observation überlebt.</small>
+|-
+|[https://terror.moe/items/silver_coil Silber-Spule]||<small>Ich bin heute großzügig und habe entschieden, dass du derjenige sein solltest, der diese Schönheit benutzt. Es ist nicht alltäglich, etwas so Elegantes zu verwenden!</small>||<small>Wenn gehalten, erhält der Spieler 3 Punkte Geschwindigkeit und kann Terrors überholen. Funktional ähnlich wie die Speed-Spule. Silber-Spule ist ein temporäres Item, das nicht gespeichert wird, wenn man eine Instanz verlässt.</small>||<small>1/250 (0,4%) Chance, im Event-Shop zu erscheinen, wenn man einer Instanz beitritt.</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Special Items<nowiki>*</nowiki>
+|-
+!Name!!Beschreibung
+|-
+|[https://terror.moe/items/torch_of_obsession Torch of Obsession]||<small>Dies ist ein Item, welches du erhältst, wenn du Cold Night während des Winterfest überlebst. Es gewährt dir bei Benutzung einen Flächen-Betäubungseffekt und Heilung, genauso wie etwas Licht.</small>
+|-
+|[https://terror.moe/items/snowy_speed_coil Snowy Speed Coil]||<small>Dies ist ein Item, das du während dem Winterevent freischalten kannst, indem du es vom Schneehaufen neben dem Shop aufhebst. Einmal aufgehoben, behältst du des nach dem Winterfest. Trotz des Namens, bewegst du dich ein kleines bisschen langsamer als mit einer normalen Speed Coil. Allerdings ist es kostenlos für diejenigen, die es besitzen.</small>
+|-
+|[https://terror.moe/items/carrot Carrot]||<small>Dies ist ein Item für Mitwirkende, das sich im Besitz von MaraRizer (Webmaster des offiziellen ToN Wiki) befindet. Es macht nicht nur das fröhliche, kleine bnnyu dessen Besitzers, die Karotte gibt ihm die gleichen Vorteile wie eine normale Speed Coil. Wenn aufgehoben, spielt es einen Soundeffekt aus einem von MaraRizer's Lieblingsspielen, Super C. Es trägt den Titel "Wiki Webmaster", wenn es fallengelassen wurde.</small>
+|-
+|[https://terror.moe/items/overseer_plush Overseer Plush]|| <small>Das Overseer Plush ist ein extrem seltenes Item, das nur wenige fürs Überleben eines Battle Royales erhalten haben. Manchmal wird es Beyond in einigen der Test-Instanzen zu langweilig und er lässt die Spieler um ihr Leben kämpfen. Das Stofftier macht neben Abspielen eines Soundeffekts und Augen des Overseers aufleuchten lassen bei Benutzung nicht viel. Allerdings wird ein kurzer String beim Namen angezeigt, wenn du jemandem aus der Liste (außer Mitwirkende) unten zuschaust: "overseer loves you:)"</small>
+|-
+|[https://terror.moe/items/judia Judia]|| <small>Dies ist ein Mirwirkende-Item, das sich im Besitz von nkt_にこまる befindet, die Person, die die Base erstellt hat, die von Terrorn, einschließlich Bliss, Judas und Roblander, genutzt wird. Bei Benutzung fliegt der Nutzer in Richtung des Terrors und betäubt Terror. Es funktioniert ähnlich wie die Corkscrew Coil, dass deren Angriffsanimation länger als normale Betäubungswaffen dauert. Wenn ein Terror allerdings getroffen wird, stoppt ein Rückstoß (ausgelöst durch Parieren) den Flug, sodass nkt_にこまる anfällig gegen Terror ist, deren Hitboxen bei der Betäubung immer noch aktiv sind. Außerdem gewährt Judia beim Tragen etwa 2 Geschwindigkeit. Wenn fallengelassen, zeigt der Titel den Namen des Besitzers an.</small>
+|-
+|[https://terror.moe/items/wispy_plush Wispy Plush]
+|<small>Dies ist ein einzigartiges Item, das sich im Besitz von WispySpectre befindet. Ähnlich wie das Beyond Plush spielt es bei benutzung einige, einzigartige Soundeffekte ab. Diese Sounds gehören zum Thema "Geist" und beinhalten: Standard-Stofftierquieken, Boo's Lachen aus Super Mario 64, Muffet's Kichern aus Undertale, Mimigma's Ausruf von Pokémon, den Todessound von Pikmin und den MopeMope-Schrei. Zusätzlich gewährt Wispy Plush dir 2 Geschwindigkeit.</small>
+|-
+|[https://terror.moe/items/wave_coil Wave Coil]
+|<small>Dies ist ein Mitwirkende-Item, das die meisten ToN-Mitwirkenden besitzen. Es ist ein Reskin der Emerald Coil, spielt einen kurzen Song und stößt ein paar blasenähnliche Partikel aus. Es hat eine coole Shader-Animation mit cyanfarbenem Licht. Der abgespielte Song ist [https://www.youtube.com/watch?v=QgSsrCVGKP4 this song].</small>
+|-
+|[https://terror.moe/items/darkheart Darkheart]
+|<small>Dies ist eine Illumina-Variante, die exklusiv für alle Community-Mapper ist, deren Standorte zum Update hinzugefügt wurden.</small>
+|-
+|[https://terror.moe/items/subspace_tripmine Subspace Tripmine]
+|<small>Dies ist ein extrem kraftvolles Item, das, wie der Name andeutet, wie eine Stolpermine funktioniert. Alles, was der Spieler machen muss, ist, sie zu werfen oder fallenzulassen. Die Subspace Tripmine macht ein leises Geräusch und wird anschließend komplett unsichtbar. Wenn sich ein Spieler in die Nähe bewegt, macht die Mine ein Geräusch, explodiert und tötet jeden in der Nähe. Spieler mit dem Kat Charm können sich davor schützen. Dieses Item ist nicht mehr zu erhalten. Sehr wenige Nutzer besitzen dieses Item, wenn man bedenkt, wie sehr es die Erfahrung anderer ruinieren kann.</small>
+|-
+|[https://terror.moe/items/knife Knife]
+|<small>Diese Waffe ist exklusiv für Saboteure in der Sabotage-Runde. Es gewährt einen geringen Geschwindigkeitsboost (je nach Anzahl der Spieler) und wird bei Benutzung geschwungen, was den Spieler ein wenig nach vorne fliegen lässt. Wenn ein Spieler dabei ist, zum Saboteur zu werden, wird deren Item entfernt und das Messer erscheint neben demjenigen. Die Trefferregistrierung begüstigte vorher die Überlebenden, dies hat sich allerdings mit dem neuesten Update geändert. Im Austausch wurde die Hitbox der Messers stark reduziert.</small>
+|-
+|[https://terror.moe/items/first_shape First Shape]
+|<small>Dieser mysteriöse Würfel ist ein Item für die meisten Closed Tester, als das Joyous Update entwickelt wurde. Dieses Item hat zwei verschiedene Tase-Angriffe. Der Primärangriff feuert eine Salve vor dem Benutzer ab und während der Sekundärangriff eine längere Abkühlzeit hat, feuert er einen Luftangriff direkt auf den Terror. Der Sekundäre Angriff kann auch in der Lobby genutzt werden, was dies zu einem extrem starken Support-Item macht. Wenn der Primärangriff auf einen Spieler geschossen wird, wird ein Regenerations-Buff gewährt. First Shape ist eine Hommage an Destiny (The Final Shape DLC) und den Blender-Würfel, der die erste Form ist, die du standardmäßig hast, wenn du ein neues Blender-Projekt erstellst. Kittenji (Entwickler des ToN Save-Managers) besitzt eine einzigartige Variante mit anderen Partikeleffekten.</small>
+|-
+|[https://terror.moe/items/memoria Memoria]
+|<small>Ein Mitwirkenden-Item für Bakame (バ亀⁄bakame), das die gleichen Funktionen wie Judia besitzt, allerdings anders aussieht. Es ist im Hinblick auf eine Verbindung zwischen Judas und Psychosis konzipiert. Während es gehalten wird, erhöht es leicht die Bewegungsgeschwindigkeit und während eines Angriffs verleiht es Unverwundbarkeit und kann Feinde betäuben. Es benutzt den gleichen Code wie Judia und so ist es auch technisch gesehen im Spiel bezeichnet. Ursprünglich war Memoria eine Fan-Kreation, erstellt und modelliert von Bakame für Beyond's verworfenes Projekt. Später wurde es dann im Joyous Update als Überraschung für Bakame implementiert.</small>
+|}
+<nowiki>*</nowiki>Special Items sind entweder nicht im Store verfügbar oder gar nicht zugänglich.
+</center>
+
+<span id="Achievements"></span>
+==Erfolge==
+
+Terrors of Nowhere hat '''163''' Erfolge, die du durch das Erreichen verschiedener Ziele freischalten kannst.
+
+<center><big>⚠️'''Spoilerwarnung'''⚠️<br>
+
+'''Der folgende Inhalt kann Spoiler enthalten, sei also vorsichtig beim Aufklappen'''</big></center>
+
+<div class="mw-translate-fuzzy">
+<!-- iirc there's 96 achievements this table might take a while... . -->
+<!-- Gonna be slowly adding these achievements in order as listed on the in-game board, so yeah will take some time. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Errungenschaften
+|-
+!Name!!Flavor-Text !!Freischaltbedingungen
+|-
+|Not Enough Blood||What, were you expecting more?!||Überlebe eine Bloodbath-Runde.
+|-
+|No Smoking!||It´s bad for your lungs!||Überlebe eine Fog-Runde.
+|-
+|Broken Boundaries|| Every star will burn itself out someday.||Überlebe eine Cracked-Runde.
+|-
+|The Other Side||We´ve all got friends on the other side.||Überlebe eine Alternate-Runde. 
+|-
+|Escaped!||You escaped that crazed lunatic! Oh wait, did you know them?||Überlebe eine Sabotage-Runde als Unschuldiger.
+|-
+|Walk It Off ||Not only can you run for your life, you can now run with it! ||Überlebe eine Bloodbath-Runde mit einer Speed Coil.
+|-
+| Slaughter||Look at the mess you´ve made! There´s so much blood!||Überlebe eine Bloodbath-Runde mit einem Bat.
+|-
+|Sacrificial||Hey, were you always missing your ear?|| Überlebe eine Bloodbath-Runde mit einem Teleporter.
+|-
+|Oooo Shiny! ||You found a pipe. Congratulations, I guess. Why do you even want a pipe?||Überlebe eine Alternate-Runde mit einem Bat.
+|-
+| Business Partner||You ever wonder what´s inside those suitcases? Now´s your chance! ||Überlebe eine Alternate-Runde mit einem Teleporter.
+|-
+| Pale Associate||Congratulations, you´re hired! Hopefully the others get the memo.||Überlebe eine Alternate-Runde mit einem Revolver.
+|-
+|Judgement||You´d think the sword would be more effective with the blade out.||Überlebe eine Midnight-Runde mit dem Metal Bat.
+|-
+|Am I tripping?||That Bat is looking a little colorful. Is it just me?||Überlebe eine Cracked-Runde mit einem Bat.
+|-
+|Crack of Dawn||The horrors came out, at midnight! They were Midnight Horrors!||Überlebe eine Midnight-Runde.
+|-
+|The False Light||It´s only a memory of her power, but it´s enough to make use of.||Überlebe Mystic Moon mit einer Glow Coil.
+|-
+|Watchful Eyes || The twilight was endured, and we now face towards dawn.|| Überlebe Twilight mit einer Chaos Coil.
+|-
+| The War Is Over||With nowhere left for him to go, you offer him a place of safety.||Überlebe Blood Moon mit dem Medkit.
+|-
+|Fateful Encounter|| Everything for as long as time has led up to this moment.||Finde Maxwell.
+|-
+|Collateral Damage||You swear it was an accident, and you have no idea where the sword went!|| Stehle das Sealed Sword.
+|-
+| Know Your Enemy||There isn´t enough room for the two of us.||Triff auf die Alternates.
+|-
+|Forgive Us||The cost was too great and grief overtook her will to persist.|| Überlebe Bliss.
+|-
+|Did You Have Fun?||There was no room left in the asylum for you. ||Überlebe Roblander.
+|-
+|Fahrenheit 10K||Despite her burning hatred for you, you managed to push through the fire.||Überlebe Fusion Pilot
+|-
+|It´s Dark||It´s there again, behind you. You can see it, can´t you?||Überlebe Something.
+|-
+| Fading Memory||Wait, what did we just beat? I don’t remember.||Überlebe Mystic Moon.
+|-
+|Darkest Day|| There was no such beast in the forest.||Überlebe Twilight. 
+|-
+|War||The fight never ends for him, and he will be back to fight another day.||Überlebe Blood Moon.
+|-
+|The Acolyte||There’s no reason to look back. We can only move forward.||Überlebe Solstice.
+|-
+|Genocide||You had a bad time, but came out ontop.||Überlebe TBH Sans.
+|-
+|It Happened.|| You should probably go for a walk after this round.||Triff auf Punished Arkus, während du das Sealed Sword trägst.
+|-
+| Forget Me Not||No thanks, I think I´d rather forget about this.||Überlebe MopeMope.
+|-
+|The Purplest Guy||And employee of the month goes too... Purple Guy!|| Überlebe Purple Guy in einer Cracked-Runde. 
+|-
+|Heresy||You resisted temptations and fought against the teaching of sin.||Bekämpfe die Apostles während WhiteNight.
+|-
+|Time Out||Go sit in the corner, you´ve been naughty||Überlebe eine Punished-Runde.
+|-
+|Ancient Power||The weapon banished the knights curse, and grew stronger. / The weapon absorbed the knights curses, at what cost?||Werte das Sealed Sword auf.
+|-
+|All Skill||Despite watching everyone die, you never submitted to the fear. ||Überlebe Solstice ohne Items.
+|-
+|Survivor||You won your first round! Congratulations!||Überlebe eine Runde.
+|-
+|From The Ashes
+|We will reform. We will build.We will show the world we are strong.
+|Überlebe Glaggle Gang.
+|-
+|Muted||“AMBUSH” has been muted by a moderator for micspam.||Überlebe Ambush.
+|-
+|The Greatest Performance To Ever Be Held||The performance is over, for now. The crowd awaits an encore.||Überlebe Teuthida.
+|-
+|Conflict & Resolve||Even after letting go of what made them alive, they still could not let go of their hate. ||Überlebe Convict Squad
+|-
+|Persistence||Your life in the palm of your hand. Keep it safe, if you value it.||Speichere zum ersten Mal.
+|-
+|You died!||It´s okay, you´ll die at least 3 more times before you get the hang of it!||Stirb zum ersten Mal.
+|-
+|Powered By Fear|| Now your chances of survival are 50% better!||Kaufe ein Item zum ersten Mal.
+|-
+| Rent´s Due||Don´t have the money? Don´t worry, your life will make a fine payment!||Stirb durch einen Schrank.
+|-
+|Big Bank||You´ve done so much grinding today, you should probably take a break!||Sammle 1000 Enkephalin.
+|-
+|INTERLOPE||Was it just a dream? Or maybe something more. Don’t dwell on it.||Stirb durch den Interloper.
+|-
+|Oh No||Look what you did, now she´s angry!||Erzürne Toren´s Shadow.
+|-
+|Dango Dango Dango||I don´t think he can get any bigger. But it´s best not to feed him anymore to find out.||Triff auf einen vollen Mountain of Smiling Bodies.
+|-
+|STOP||You should always make sure the light is green before crossing!||Stirb durch Guidance´s rotes Licht.
+|-
+|Wrong Place, Wrong Time||Well, at least the chances of it happening twice are basically zero.||Stirb durch MR MEGA´s passive Blitze. 
+|-
+|To Take The Dead|| Nailing the broken pieces back together, one AFK player at a time.||Überlebe eine Runde, in der du von Specimen 9 verfolgt wirst.
+|-
+|Ph.D||While you may not have the knowledge, you have the experience!||Erhalte jeden Statuseffekt innerhalb einer Instanz.
+|-
+|Spending Spree||Guess he´ll have to restock his wares now.|| Kaufe alles im Enkephalin Shop.
+|-
+|Deal With The Devil||You sold your soul! I hope you didn´t need it for anything!||Unterschreibe Beelzebub´s Vertrag.
+|-
+|Freedom||Enjoy it while it lasts, you know you won´t stay here forever.||Bleib im Gras in The Wall 170 Sekunden lang ohne rauszugehen. 
+|-
+|Be Nice||You never know who´s waiting just down the hall from you.||Überlebe Angry Munci.
+|-
+|Deleted||The world will continue as it always has, just without you in it.||Überlebe sm64.z64
+|-
+|Standard Procedure ||You resisted your intrusive thoughts and lived to see another day!||Überlebe Don't Touch Me
+|-
+| Rule Breaker||You allowed your intrusive thoughts to take over, and took everyone else with you. ||Drücke Don't Touch Me
+|-
+|Stand Proud ||I won! Hey guys! ...guys? Where´d everyone go?||Überlebe eine Runde als einziger.
+|-
+|Perfection||You survived so many rounds, without even a scratch!||Überlebe 10 Runden hintereinander, ohne Schaden zu nehmen.
+|-
+|Crystal Clicker|| It´s just like one of those idle games! ||Zerbreche einen Enkephalin-Kristall.
+|-
+| Sightseer||You´ve been all around the place!||Stelle mindestens eine Runde auf jeder Karte innerhalb einer Instanz fertig.
+|-
+|What’s For Dinner?||Violence never solved anything.||Überlebe Starved, ohne ihn zu betäuben.
+|-
+|Vengeance||The only light that remained was fueled by a desire to take back what was taken.|| Überlebe Judas.
+|-
+|No Cost Too Great||You betrayed everyone, and befriended a monster.||Töte alle in einer Sabotage-Runde.
+|-
+|The First Festival||We hope you had fun!||Überlebe Walpurgisnacht.
+|-
+| The Red Mist Returns||What remained of her opponents was nothing but red stains.||Überlebe The Red Mist.
+|-
+|Uber Cheap Killer|| The X-Tier is really something else.||Überlebe Sakuya The Ripper.
+|-
+|Dilemma|| A dubious creature stands before you. What can you do?||Triff auf Neko Arc.
+|-
+|Late For Work||People got places to be! You´re just wasting their time!||Erzürne den Red Bus.
+|-
+|Primordial Signal||It tells the story of our world;but nobody will ever recieve it. || Überlebe S.O.S. 
+|-
+| Live and Learn||You proved that there is always hope in the face of fear.||Überlebe eine Midnight-Runde mit einem Punktestand von über 200.
+|-
+| Endless Appetite ||Nothing will quench its everlasting hunger.||Überlebe den Meatball Man
+|-
+|Researcher||You´ve seen all this world has to offer. ||Vervollständige den Nightmare Index.
+|-
+|Void Walker|| You´ve seen all this reality has to offer.||Vervollständige den Alternate Index.
+|-
+|Stargazer||You spend too much time staring at the stars.||Vervollständige den Moon Index.
+|-
+|Ran´s Guidance ||Now you learned how to run!||Überlebe “Christian Brutal Sniper”, “Huggy” und “Akumii-Kari”.
+|-
+|Ran´s Favourite||Say “Hi” to them!||Überlebe “The Boys”.
+|-
+|Like She Do!||She always does this very easily!||Überlebe als einziger eine Bloodbath-Runde.
+|-
+|It´s the Slenderman!||and he´s cooking hotdogs on the stove!|| Triff auf den Hungry Home Invader.
+|-
+|Victory^3||That´s like, three times the victory! I think? I don´t know math. || Überlebe eine Runde im Challenge Cube.
+|-
+|Page Thief||I wonder who drew all of these anyway?||Schaffe 8 Pages
+|-
+| Mindless Machine|| But alas, he could be nothing more than a common machine. ||Überlebe das, welches keinen Namen hat.
+|-
+|Rite of Passage||With her choice made, she never looked back. ||Überlebe einen Solstice mit einem Teleporter.
+|-
+|An Unknown Challenger||Was there an update I missed?||Triff auf eine seltene Killer-Variante.
+|-
+| Hide & Seek Champion||You better hope nobody else takes your hiding spot next time!||Überlebe Bloodbath oder Midnight mit Rush oder Ambush.
+|-
+|The World||They invaded her world of stopped time, and still you managed to survive.||Überlebe Bloodbath oder Midnight mit Sakuya Izayoi.
+|-
+|Empathy|| Everything can be emphasized with; except that thing.||Überlebe Apathy.
+|-
+|Showstar!||Looks like this rounds all about them! ||Siehe eine Runden-Übernahme.
+|-
+| Seeing Double||Did that witch do something to my eyes? ||Sieh den gleichen Killer Zweimal.
+|-
+|Paradise Found||Perhaps what we consider paradise is subjective to us all. Some of us don´t want to be eaten by a bird.||Überlebe Paradise Bird.
+|-
+|Lost Soul||No home, no destiny, there is truly nothing for her left.||Überlebe Kimera.
+|-
+|Heart of Horror||It all had to come from somewhere, but in the end, ended up nowhere.||Triff auf Beyond in einer Instanz.
+|-
+|Like Banbans to Heaven||There is something wrong seriously with me for making this.||Überlebe Garten Goers.
+|-
+|THIS IS NOT FUN
+|Whatever, I'll just go play with someone else. Bye!
+|Erzürne Roblander.
+|-
+|The Observer
+|I stared into the abyss, and the abyss stared back.Quit staring at me!
+|Überlebe The Observation.
+|-
+|Radiant Happiness
+|The only happiness we can look towards is the one that shines brightest.
+|Überlebe Joy.
+|-
+|Scorched
+|Your ashes scatter across the lands,returned to earth once more.
+|Verbrenne zu Tode.
+|-
+|Yoink!
+|Looks like that monster took your item,hope you don't need it.
+|Lass dir dein Item klauen.
+|-
+|The Judge Has Decided.
+|You have sinned, but you already knew that didn't you?
+|Stirb durch ein urteil.
+|-
+|#CONNECTION# LOST#
+|#LOOK AWAY.# LOOK AWAY.#LOOK AWAY. #LOOK AWAY. #
+|Starre Akumii-Kari an.
+|-
+|Perfected Split
+|No, splitting in half does not double your points.
+|Stirb durch Red Mist's Greater Split.
+|-
+|Shocker
+|If only you were an electric type...
+|Sei betroffen durch Paralyse.
+|-
+|Homefield Advantage
+|No fair, they know the map already!
+|Triff auf einen Terror auf dessen eigener Karte.
+|-
+|Unchained
+|That was fun, back into the chains you go.
+|Überlebe eine Unbound-Runde.
+|-
+|Close Encounter
+|Nature is beautiful. You know, when it's not killing you.
+|Triff auf die Cat auf Have Dimension.
+|-
+|Lost In Space
+|The sound escapes your ears, as the last of your air leaves your lunges.
+|Aktiviere die Laser auf Colony und entkomme.
+|-
+|Shutdown!
+|Screw this game, I quit!
+|Stirb durch den Power-Knopf auf Desktop.
+|-
+|TBH
+|To be honest, I'm surprised you got this.
+|Triff auf TBH auf TBH.
+|-
+|Loremaster
+|Not only are you a nerd, you're a button presser too!
+|Drücke alle Knöpfe auf Museum innerhalb einer Runde.
+|-
+|Bus Pass
+|It's only good for a month, so make sure you renew it!
+|Überlebe das Transportation Trio & The Drifter.
+|-
+|The Only Friend I Need
+|You don't need friends when you have marketable toys.
+|Überlebe einen Alternate mit einem Plush-Item.
+|-
+|Ruined
+|The last of his legion crumbles,as the flame is extinguished once again.
+|Überlebe Monarch.
+|-
+|An Alternate Exit
+|Who knew the Meatball was just another part of Robland?
+|Entkomme dem Meatball durch die Türe.
+|-
+|HEY STOP THAT!
+|Those are expensive!How would you like if I broke YOUR screens?
+|Zerstöre alle Bildschirme auf Robland innerhalb einer Runde.
+|-
+|Responsible Pet Owner
+|With everyone feeding him,Swim Shady will live a long life.
+|Füttere Swim Shady.
+|-
+|Depressing Prize
+|You won an amazing prize from the Claw Machine!
+|Gewinne Nora durch den Greifautomaten auf Fishbowl.
+|-
+|Chaotic Prize
+|You won an amazing prize from the Claw Machine!
+|Gewinne Roblander durch den Greifautomaten auf Fishbowl.
+|-
+|Sefless Prize
+|You won an amazing prize from the Claw Machine!
+|Gewinne Observation durch den Greifautomaten auf Fishbowl.
+|-
+|Astral Burial
+|Little do you know, there's actually nothing under this grave, not even the ground.
+|Jemand muss das Darkgrey Plush zu Darkgrey's Hole's Grave auf Astral bringen.
+|-
+|Henry114's Secret
+|You listened to the madman's ramblings.
+|Folge Henry114´s Anweisungen.
+|-
+|Om Nom Nom
+|You are a burger, congratulations!
+|Iss einen Burger.
+|-
+|143
+|No matter where you are,I'll always be looking out for you.
+|Stirb durch Hellmari auf Blackspace.
+|-
+|Whale Watcher
+|Simply wonderful. It's not everyday you get to see something like this.
+|Sei Zeuge des Wals auf Sea Base.
+|-
+|Massive W
+|While you did get a massive W,it seems that you were unable to hold it.
+|Werde zerquetscht durch das W auf Wafflehouse.
+|-
+|This Item Sucks!
+|Maybe next time you'll purchase something useful.
+|Wirf ein Item weg.
+|-
+|Peek-A-Boo!
+|Hehe, I see you! But what's that behind you?
+|Wirf einen Blick durch den Riss auf Hotel.
+|-
+|The Deep Dark
+|Must have been hard finding all those pages, without making a single noise!
+|Überlebe den Warden in 8 Pages.
+|-
+|NICE TO MEET YOU
+|THAT WAS FUN. LETS PLAY AGAIN SOMETIME.
+|Überlebe Angry Munci in 8 Pages.
+|-
+|ROAD ROLLAR DA!
+|This was not a Jojo reference; but I made it one.
+|Stirb durch Waterwraith, indem es auf dich herabfällt.
+|-
+|Red Defender
+|While you protected yourself, the blood of those fallen tainted your shield.
+|Überlebe Bloodbath mit dem Silver Kat Charm.
+|-
+|Super Ghost Burgers
+|The ghost, they're trying to control me!Helppp, ARUUGHHh!!
+|Überlebe eine Ghost-Runde mit dem Burger.
+|-
+|Deadman's Iron
+|Five will do, friend. No more, no less.
+|Überlebe Bloodbath mit dem Antique Revolver.
+|-
+|Better With Friends!
+|With numbers, you are stronger.
+|Spiele eine Runde in einer vollen Lobby.
+|-
+|All Her Fault
+|There's nothing you can do for her.You've already broken her heart.
+|Überlebe den Restless Creator.
+|-
+|Followed
+|The voices grew louder and became overwhelming,but you kept calm and escaped.
+|Überlebe Shadow Freddy.
+|-
+|Stayin Alive
+|You may have lost most of your blood and suffered greatly, but you survived!
+|Überlebe eine Runde mit weniger als 3 HP.
+|-
+|Who Needs Pain?
+|Pain is just a physical responseof the body, so therefore, I can just ignore it!
+|Schaffe eine Alternate-Runde mit einer Regen Coil.
+|-
+|It Grows Within
+|You should probably get that checked out by a doctor.
+|Überlebe eine Runde, während du durch Arrival Infection auf Stufe 3 geplagt bist.
+|-
+|One Way Ticker
+|You best be sure you won't be returning.
+|Kaufe ein Ticket des Express Train to Hell.
+|-
+|Anomalous Discovery
+|The weapon is loyal to you, surely you won't betray it's trust.
+|Überlebe jeden Terror mindestens einmal. (außer Alternates & Moons)
+|-
+|Remember Me
+|When the TV turns off, just please, remember our time together.
+|Überlebe Those Olden Days.
+|-
+|A Shiny Quarter
+|You're incredible, here's your prize! A shiny quarter!
+|Überlebe Baldi.
+|-
+|The Force
+|Did you just stun that killer, with your mind?!
+|Überlebe eine Ghost-Runde mit einem Bat.
+|-
+|Something Strange
+|We'd better call somebody, but who?
+|Überlebe eine Ghost-Runde.
+|-
+|Cheese'd to Meet You
+|You did it, you found the cheese.
+|Finde den ganzen Käse auf Cheese Maze.
+|-
+|:3
+|I´ll always be watching from up here.
+|Überlebe Parhelion.
+|-
+|Don't Ask Me Why
+|I desperately wish to be included in the city's night.
+|Überlebe 얀샋ㄷ요무.
+|-
+|AAAAAAAAAAAAAAA
+|AAAAAAAAAAAAAAAAAAAA
+|Triff auf Golden Freddy.
+|-
+|Oh, So Sleepy
+|Don't think he'll mind if I use this as a bed.
+|Interagiere mit Bed Mecha's Bett nach dessen Zusammensturz.
+|-
+|Destroyer of Worlds
+|And now I have become death.
+|Überlebe Midnight mit der Corkscrew Coil.
+|-
+|Linked
+|Now you'll never be alone again!
+|Überlebe Unbound mit dem Teleporter.
+|-
+|Thrilling Gameplay
+|They made a little version of Terrors, just for you!
+|Überlebe Unbound mit Have's Mysterious Brew.
+|-
+|Pressured
+|You're lucky Urbanshade can't get to you here.
+|Überlebe Searchlights.
+|-
+|Happy Winterfest!||There´s something in the snow for you!||Finde die Snowy Speed Coil.
+|-
+|Their Garden||If I went with you, would there be happily-ever-afters?||Überlebe die Cold Night.
+|-
+|Which Way? (Not obtainable)
+|I think I´m lost. Oh well, I´ll just google it.
+|Überlebe den Navigator.
+|-
+|Insurrection (Not obtainable)
+|While unable to undo the damage done that day, the door has opened for a better future.
+|Überlebe Glaggle Gang.
+|-
+|The Fog Is Coming
+(Not obtainable)
+|Is the reason the mist is red because of all the blood?
+|Überlebe Red Mist Squidward.
+|-
+|Fallen Kingdom 
+(Not obtainable)
+|The king failed to exact his revenge, and once again returned to darkness.
+|Überlebe Monarch.
+|-
+|Test Subject
+|Hopefully it didn't go that badly!
+|Nimm an einem Test mit Beyond Teil.
+|}
+</center>
+</div>
+
+<span id="Gallery"></span>
+==Galerie==
+
+<gallery widths="260" heights="150">
+File:ToN Courtroom.png|"Terrors of Nowhere"-Lobbybereich, bezeichnet als der "Court"
+File:ToN Merchant Shop.png|Roter Händlerladen
+File:ToN Index&Settings.png|Terror-Index und Einstellungstafel
+File:ToN Achievements&Stats.png|Errungenschaftstafel und Spielerstatistiken
+File:ToN SpectatorScreen.webp|Der Zuschauerbildschirm, erreichbar über die Hinterseite des Hofes.
+File:ToN RedCrystal.webp|Ein roter Enkephalin-Kristall. Etwa 1-2 Eph wert.
+File:ToN BlueCrystal.webp|Ein blauer Enkephalin-Kristall. Etwa 3-5 Eph wert.
+File:ToN YellowCrystal.webp|Ein gelber Enkephalin-Kristall. Etwa 17-19 Eph wert.
+File:ToN HeadsUpDisplay.webp|Das Heads-Up-Display zeigt verschiedene Informationen, die für die Runde notwendig sind, an.
+File:Terrors Tracker.webp|Der blanke Tracker für Terrors of Nowhere, verfügbar auf [https://tontrack.me/ tontrack.me]
+</gallery>
+
+==Trivia==
+
+*Die originale Inspiration für Terrors of Nowhere ist [https://www.roblox.com/games/2809844442/Midnight-Horrors Midnight Horrors], ein Roblox-Spiel von ''CaptainSpinxs.''
+*Das Spiel besteht aus vielen Referenzen und Anspielungen auf verschiedene Stücke von Medien, von denen einige im Spiel erklärt werden, ausgenommen:  <!-- TODO: Reword this to sound better! -->
+**"Enkephalin" ist eine Referenz auf die Energieressource aus den Spielen Lobotomy Corporation und Limbus Company von Project Moon
+**Die Spulen-Items sind eine Referenz auf Roblox-Items mit ähnlichen Namen.<!-- could be worded better -->
+
+<span id="Community_resources"></span>
+==Community-Ressourcen==
+
+*[https://www.youtube.com/watch?v=-1xGejjPiXM ToN Release Trailer] auf ''YouTube''
+*[https://youtu.be/p3c_fxSdn7M ToN 1.15 Update Trailer] auf ''YouTube''
+*[https://vrc.group/TON.4826 Official ToN VRC Group]
+*[https://terror.moe/ terror.moe] - Offizielles Terrors of Nowhere-Wiki
+*[https://github.com/ChrisFeline/ToNSaveManager ToN Save Manager] - Simples Tool, mit dem du den Überblick über deine Speichercodes behältst
+*[https://tontrack.me/ tontrack.me] - Fortschrittsanzeige
+*[https://youtube.com/playlist?list=PL691R7EWbmCNpoPACOfnTjSwA2LFIJqkY&si=i_zxYnHDP9ltqtGR ToN Soundtrack Playlist]
+
+[[Category:Japanese{{#translation:}}]]

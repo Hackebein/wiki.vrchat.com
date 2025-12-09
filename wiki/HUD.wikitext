@@ -1,0 +1,152 @@
+{{Noticebox/Official}}
+The '''HUD''' ('''heads-up display''') is a UI element that's located at the bottom half of the screen, which contains displays important, at a glance, information. Some elements include the microphone, invites, [[Special:MyLanguage/notifications|notifications]], among other things.
+[[File:ExamplePicOfHUDElements.png|thumb|Picture of HUD with various elements]]
+
+==Elements ==
+The HUD contains a variety of elements, but are verbose, allowing you to customize it to your liking.
+
+===Icons ===
+Icons appear to the right of the microphone, if there is more than one icon element on the screen, icons shift right with the most recent icon appearing first.
+
+====Microphone====
+The microphone icon appears on the left side of the HUD. This element displays when you are muted or unmuted. 
+
+When muted the icon turns red with a line across it, when unmuted the icon adapts to if you are speaking or not. Speaking turns the icon is white, while not speaking turns the icon gray, becoming smaller and transparent.
+
+The microphone also has a push-to-talk mode, which has different icons.<gallery heights="50" mode="packed-hover" widths="50">
+File:MicrophoneMuted HUD.png|Microphone muted
+File:MicrophoneSpeaking HUD.png|Microphone speaking
+File:MicrophoneFadeOut HUD.png|Microphone not speaking
+File:MicrophoneMutedPTT HUD.png|Push-to-talk microphone muted
+File:MicrophoneSpeakingPTT HUD.png|Push-to-talk microphone speaking
+File:MicrophoneFadeOutPTT HUD.png|Push-to-talk microphone not speaking
+</gallery>
+
+====Friend Request====
+The friend request icon displays on the right side of the microphone. The element displays when receiving a friend request and is colored green.
+
+This icon fades out after a certain amount of time. There is also a notification variant of it.<gallery mode="packed" heights="50">
+File:FriendRequestIcon HUD.png
+</gallery>
+
+====Invites====
+The invite icon displays on the right side of the microphone. This icon displays when receiving an invite or a variation of it. The color also changes depending on what type of invite you receive. 
+
+This icon fades out after a certain amount of time. There is also a notification variant of it.<gallery mode="packed-hover" heights="50">
+File:InviteIcon HUD.png|Invite icon
+File:RequestInviteIcon HUD.png|Request Invite icon
+</gallery>
+
+====Gestures====
+
+=====Gesture Indicators icons=====
+The gesture indicators icons display, left and right-hand icons on each side of your screen, respectively. The icons show the current [[Special:MyLanguage/Gestures|gesture]] you are doing.<gallery mode="packed-hover" heights="50">
+File:GestureFistsCombined HUD.png|Fist gesture on HUD
+File:GestureFistsFadeOutCombined HUD.png|Fist gesture fade out on HUD
+</gallery>
+
+=====Gesture toggle icon =====
+The gesture toggle icon displays to the right of the microphone. This element appears when toggling the "Avatar Gestures" setting. There are 2 states for this icon: disabled and enabled.
+
+See also [https://docs.vrchat.com/docs/gesture-toggle Avatar Gestures] to learn more about this setting.<gallery mode="packed-hover" heights="50">
+File:GesturesEnabled HUD.png|Icon when enabling gestures
+File:GesturesDisabled HUD.png|Icon when disabling gestures
+</gallery>
+
+====Face mirror====
+The face [[Mirrors|mirror]] appears in the middle of the HUD. This element displays the face of the user's avatar. The position and other settings for the face mirror can be adjusted to your liking.
+[[File:FaceMirror HUD.png|thumb|Picture of the face mirror on the HUD]]
+
+====AFK====
+The AFK icon displays on the top right side of the microphone. This element appears when the user goes AFK, either by, taking off their HMD when the AFK Detection setting is enabled, or pressing the <code>End</code> key on their keyboard.
+
+When AFK, user movement is locked and their avatar will play an AFK animation.
+
+<gallery mode="packed-hover" heights="50">
+File:AFKIcon HUD.png|AFK icon
+</gallery>
+
+====Notifications====
+The notification icon displays to the right of the microphone. This element appears when receiving certain types of notifications. 
+
+For a list of notifications that make the icon appear, see [[Special:MyLanguage/Notifications|here]].<gallery mode="packed" heights="50">
+File:NotificationIcon HUD.png
+</gallery>
+
+===Notifications===
+Notifications also appear in the HUD, keeping you notified at a glance. 
+
+Notification position can also be changed, as well as the theming of the UI; if you have [[Special:MyLanguage/VRChat+|VRChat+]].
+
+====HUD Specific====
+HUD Specific notifications are those mentioned in the "HUD Verbose Mode" Settings. 
+
+=====Friend Request=====
+When receiving a friend request, the notification displays the friend request icon and the following message:
+
+'''Receiving a friend request:''' "(name of user) would like to be your friend"<gallery mode="packed-hover" heights="50">
+File:NotificationFriendRequest HUD.png|Notification of user receiving a friend request
+</gallery>
+
+=====Invites=====
+When receiving an invite, the notification displays the icon of the type of invite your received and the following message:
+
+'''Receiving an invite:''' "(name of user) would like you to join them in (world name)"
+
+'''Requested an invite:''' "(name of user) would like you join you"<gallery mode="packed-hover" heights="50">
+File:NotificationInviteAccept HUD.png|Notification of when another user accepted their invite
+File:NotificationRequestedInvite HUD.png|Notification of when another user is requesting to join
+</gallery>
+
+=====Joining & Leaving=====
+When a user either joins and leaves the instance, the notification displays the icon friend icon and the following message:
+
+'''User joining:''' "(name of user) has joined your instance"
+
+'''User leaving:''' "(name of user) has left your instance"
+
+Also, when joining an instance, a notification pops up telling you what type of instance you are joining. The notification displays the icon world icon and the following message:
+
+'''Joining an instance:''' "You have joined a/an (instance type) instance"<gallery mode="packed-hover" heights="50">
+File:NotificationInstanceJoinUser HUD.png|Notification of user joining an instance
+File:NotificationInstanceLeaveUser HUD.png|Notification of user leaving an instance
+File:NotificationInstanceJoinGroup HUD.png|Notification of user joining an instance type
+</gallery>
+
+=====Portal=====
+When a user drops a portal, the notification displays the entering portal icon and the following message:
+
+'''Dropping a portal:''' "(name of user) has created a portal"<gallery mode="packed-hover" heights="50">
+File:NotificationUserCreatedPortal HUD.png|Notification of user creating a portal
+</gallery>
+
+=====Other=====
+The HUD also displays other notifications, such as when your instance queue is ready, groups posts, OSC, and more.
+
+See also [[Special:MyLanguage/Notifications|Notifications]] for more detailed information.
+
+==HUD Detail Level==
+The HUD comes with three detail levels you can choose from: Off, Minimal, and Verbose.
+
+'''"Off"''' completely hides the HUD
+
+'''"Minimal"''' only shows HUD icons. These icons include:
+
+*Microphone
+*Friend Request
+*Invites
+*Notification
+*Gestures & Gesture toggle icons
+*Face Mirror
+
+'''"Verbose"''' includes HUD icons and notifications.
+
+==HUD Settings==
+Below is a list of all settings that affect the HUD in one way or another:
+
+*[[Settings#Microphone|Microphone settings]]
+*[[Settings#HUD|HUD settings]]
+*[[Settings#HUD Verbose Mode Settings|HUD Verbose settings]]
+*[[Settings#Face Mirror|Face Mirror settings]]
+
+[[Category:User Interface]]

@@ -1,0 +1,8 @@
+== 掲示板 ==
+=== 最近の議論 ===
+==== 内容 ====
+メイン、コミュニティ、ガイド名前空間における最近の議論は以下に表示されます:
+{{Special:RecentChanges/days=120,limit=5,namespace=1;3001;3101,hidebots=1}}
+==== Wiki ====
+VRCWiki、ファイル、MediaWiki、テンプレートの名前空間における最近の議論は以下に表示されます：
+{{Special:RecentChanges/days=120,limit=5,namespace=5;7;9;11;,hidebots=1}}

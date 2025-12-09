@@ -1,0 +1,57 @@
+<noinclude>[[Category:Template Documentation]]</noinclude>
+{{Infobox/AvatarType
+|name= Example Avatar
+|image= File:Robot_Avatar_Thumbnail.png
+|author= Example Author
+|published= January 1, 2024
+}}
+==Example==
+<pre>
+<nowiki>{{</nowiki>Infobox/AvatarType
+|name= Example Avatar
+|image= File:Robot_Avatar_Thumbnail.png
+|author= Example Author
+|published= January 1, 2024
+<nowiki>}}</nowiki>
+</pre>
+==TemplateData Documentation==
+<templatedata>
+{
+	"params": {
+		"name": {
+			"label": "Name",
+			"description": "The name of the avatar base.",
+			"example": "Example Avatar",
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"label": "Image",
+			"description": "The image used for the thumbnail of the avatar.",
+			"example": "Robot_Avatar_Thumbnail.png",
+			"type": "wiki-file-name",
+			"required": true
+		},
+		"author": {
+			"label": "Author",
+			"description": "The user who has created the original avatar base.",
+			"example": "Example Author",
+			"type": "string",
+			"required": true
+		},
+		"published": {
+			"label": "Published",
+			"description": "The date this avatar base was first published.",
+			"example": "January 1, 2024",
+			"type": "date"
+		}
+	},
+	"description": "Paste this template into an Avatar Page for an Avatar Base to have the infobox appear on the top right. It is recommended to paste and fill this out while in the Source editor, however this can also be done in the Visual editor. For more guidance on how to best use this, see how other Avatar pages have implemented this infobox.\n\nThis template is for writing about Avatar Types, also known as Avatar Bases. Do not use this template to reference a specific Avatar. For a specific Avatar use [[Template:Infobox/Avatar]]\n\nFields without contents will not show up on the infobox.",
+	"paramOrder": [
+		"name",
+		"image",
+		"author",
+		"published"
+	]
+}
+</templatedata>

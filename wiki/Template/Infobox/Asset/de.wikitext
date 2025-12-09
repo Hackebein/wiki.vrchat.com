@@ -1,0 +1,60 @@
+<noinclude><languages/></noinclude><onlyinclude><infobox type="Asset" layout="stacked" theme="community">
+    <title source="name"/>
+    <header>{{{title|}}}</header>
+	<image source="image"/>
+    <data source="youtube">
+        <format>{{YouTube|{{{youtube}}}|100%}}</format>
+    </data>
+    <data source="author">
+        <label>{{#if:{{{author_1|}}}|Autoren (sortiert nach Wichtigkeit)|Autor}}</label>
+        <format>{{Infobox/Asset/Authors|{{{author|}}}|{{{author_1|}}}|{{{author_2|}}}|{{{author_3|}}}}}</format>
+    </data>
+    <data source="status">
+        <label>Status</label>
+        <format>{{#ifeq: {{{status|}}} | maintained
+| <span lang="en" dir="ltr" class="mw-content-ltr">Actively Maintained – Asset is regularly updated with new features and bug fixes.</span>
+| {{#ifeq: {{{status|}}} | maintenance
+| <span lang="en" dir="ltr" class="mw-content-ltr">Maintenance Mode – Asset only receives critical bug fixes, but no new features.</span>
+| {{#ifeq: {{{status|}}} | deprecated
+| <span lang="en" dir="ltr" class="mw-content-ltr">Deprecated – Asset is no longer recommended for use and may be replaced by a newer alternative.</span>
+| {{#ifeq: {{{status|}}} | abandoned
+| <span lang="en" dir="ltr" class="mw-content-ltr">Abandoned – Asset is no longer maintained and may not be functional.</span>
+| {{#ifeq: {{{status|}}} | archived
+| <span lang="en" dir="ltr" class="mw-content-ltr">Archived – Asset is preserved for historical purposes but is not in active use.</span>
+| {{#ifeq: {{{status|}}} | unknown
+| <span lang="en" dir="ltr" class="mw-content-ltr">Unknown – Status is unknown.</span>
+<!-- Fallback -->  
+| {{{status}}}}}
+}}}}}}}}}}</format>
+    </data>
+    <data source="documentation">
+        <label>Dokumentation</label>
+    </data>
+    <data source="license">
+        <label>Lizenz</label>
+    </data>
+	<group>
+    	<header>Downloads</header>
+    	<data source="vpm">
+			<label>[[VRChat Package Manager|VRChat-Paketmanager]]</label>
+            <format>[vcc://vpm/addRepo?url={{{vpm}}} <span lang="en" dir="ltr" class="mw-content-ltr">Add to VCC</span>][[Category:Assets available via the VRChat Package Manager{{#translation:}}]]</format>
+		</data>
+        <data source="booth">
+			<label>[[Community:BOOTH|BOOTH]]</label>
+            <format>[https://booth.pm/en/items/{{{booth}}} {{{booth}}}][[Category:Assets available via BOOTH{{#translation:}}]]</format>
+		</data>
+        <data source="gumroad">
+			<label>[[Community:Gumroad|Gumroad]]</label>
+            <format>[https://gum.co/{{{gumroad}}} {{{gumroad}}}][[Category:Assets available via Gumroad{{#translation:}}]]</format>
+		</data>
+        <data source="github">
+			<label>[[wikipedia:GitHub|GitHub]] repository</label>
+            <format>[https://github.com/{{{github}}} {{{github}}}][[Category:Assets available via GitHub{{#translation:}}]]</format>
+		</data>
+        <data source="gitlab">
+			<label>[[wikipedia:GitLab|GitLab]] repository</label>
+            <format>[https://gitlab.com/{{{gitlab}}} {{{gitlab}}}][[Category:Assets available via GitLab{{#translation:}}]]</format>
+		</data>
+    </group>
+</infobox>[[Category:Resources{{#translation:}}]][[Category:Assets{{#translation:}}]]</onlyinclude>
+<noinclude>{{Documentation}}[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>

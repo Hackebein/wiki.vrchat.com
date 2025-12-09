@@ -1,0 +1,72 @@
+* 第6步：应用以下的权限，向下滚动到页面底部，然后点击 '''Save'''。
+{| class="wikitable"
+|+
+!Permission
+!Function
+|-
+|Manage Group Member Data
+|<small>允许该权限组查看、按权限组筛选和排序所有成员，并编辑有关他们的数据。</small>
+|-
+|Manage Group Data
+|<small>允许该权限组编辑群组详细信息（名称、描述、加入条件等）。</small>
+|-
+|View Audit log
+|<small>允许该权限组查看完整的群组日志。</small>
+|-
+|Manage Group Roles
+|<small>允许该权限组创建、修改和删除权限组。</small>
+|-
+|Manage Group Default Role
+|<small>允许该权限组修改默认权限组（又称 Everyone 权限组）的权限。需要 “Manage Group Roles”。</small>
+|-
+|Assign Group Roles
+|<small>允许该权限组向用户分配/取消分配权限组。需要 “Manage Group Member Data”。</small>
+|-
+|Manage Group Ban
+|<small>允许该权限组封禁/解禁用户，并查看所有被封禁的用户。需要 “Manage Group Member Data”。</small>
+|-
+|Remove Group members
+|<small>允许该权限组将某人移出群组。需要 “Manage Group Member Data”。</small>
+|-
+|View All Members
+|<small>允许该权限组查看群组内的所有成员，不仅限于好友。</small>
+|-
+|Manage Group Announcement
+|<small>允许该权限组发布/删除群组公告，并将其作为通知发送。</small>
+|-
+|Manage Group Galleries
+|<small>允许该权限组创建、重新排序、编辑和删除群组图库。可随时向图库提交图片，并可批准图片。</small>
+|-
+|Manage Group Invites
+|<small>允许该权限组创建/取消邀请，以及接受/拒绝/屏蔽加入请求。</small>
+|-
+|Moderate Group Instance
+|<small>允许该权限组在群组房间中进行管理。</small>
+|-
+|Manage Group Instances
+|<small>允许该权限组关闭群组房间。</small>
+|-
+|Group Instance Queue Priority
+|<small>在群组房间的队列中拥有更高的优先级。</small>
+|-
+|Create Group Public Instances
+|<small>允许该权限组创建对所有成员开放的群组房间。注意：私人群组不能创建公开房间。</small>
+|-
+|Create Group+ Instances 
+|<small>允许该权限组创建 Group+ 房间，在场人员的好友也可加入。</small>
+|-
+|Create Members-Only Group Instances
+|<small>允许该权限组创建群组私人房间。</small>
+|-
+|Role-Restrict Members-Only Instances
+|<small>允许该权限组在群组私人房间里添加/删除/修改权限组限制。需要 “Create Members-Only Group Instances”。</small>
+|-
+|Portal to Group+ Instances 
+|<small>允许该权限组打开通往 Group+ 房间的锁定传送门。除非被群组封禁，否则成员、在场人员的好友以及传送门开启者的好友都可以进入。</small>
+|-
+|Unlocked Portal to Group+ Instances 
+|<small>允许该权限组打开通往 Group+ 实例的无限制传送门。除被群组封禁的人员外，所有人都可进入。需要 “Portal to Group+ Instances”。</small>
+|-
+|Join Group Instances
+|<small>允许该权限组加入群组房间。</small>
+|}

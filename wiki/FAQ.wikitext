@@ -1,0 +1,88 @@
+{{Noticebox/Official}}{{Start-navbox2}}
+
+==General==
+===Is VRChat free to play?===
+''<small>See also [[VRC+]] and [[Creator Economy]] for more detailed information.</small>''
+
+Yes, VRChat is free to play. However, there are in-game purchases available and options to support creators through donations.
+
+===Do I need a VR headset to play VRChat?===
+No, you don't need a VR headset to play VRChat. The game can be played in desktop mode using a keyboard and mouse or on a supported mobile [[Platforms|platform]], though a VR headset offers a more immersive experience.
+
+===I'm having problems with VRChat!===
+''<small>See also [[Resources]] for more detailed information.</small>''
+
+Head on over to [https://help.vrchat.com/ help.vrchat.com], which is where we provide technical support documentation.
+
+You can also contact our Support team [https://vrch.at/support here].
+
+===Why does my name have a bunch of letters or numbers after it?===
+If your name looks like this in-app:
+ Username a1bf
+or something similar, you are using what we call a "platform account." You created your account using a Steam, Oculus (Meta), Google, or Viveport account.
+
+You can migrate over to a canonical [[VRChat account]], by following the process detailed [https://help.vrchat.com/hc/en-us/articles/360062659053-I-want-to-turn-my-platform-account-through-Steam-Meta-Pico-or-Viveport-into-a-VRChat-account here].
+
+A canonical VRChat account refers to a standard VRChat-native account, one that is created directly through VRChat using an email and password, as opposed to being linked through a third-party service like Steam, Oculus (Meta), or Viveport.
+
+===I have a platform (Steam, Oculus, etc) account. How do I move over to a VRChat account?===
+If you have a Steam or Oculus (Meta) account, you can easily "convert" your account into a VRChat account. Check out [https://help.vrchat.com/hc/en-us/articles/360062659053-I-want-to-turn-my-platform-account-through-Steam-Meta-Pico-or-Viveport-into-a-VRChat-account this page] to see the process.
+
+Ensure the account you're merging into is a blank, brand-new VRChat account. If you have '''any''' saved Favorites or other content on your new VRChat account, your platform account info will not transfer over!
+
+===How can I connect with other players?===
+You can connect with other players through friends, [[Groups]], in-game [[Calendar|events]], and interactions in virtual worlds. The platform also offers various communication options, including [[Chatbox|text]] and voice chat.
+
+===Can I play VRChat on different platforms?===
+VRChat is available on multiple [[Platforms]], including PC (via Steam and the Oculus Store), and VR headsets like Oculus Rift, Meta Quest, HTC Vive, Pico, and Valve Index. There is mobile support for compatible Android smart devices, and iOS is currently in limited release. Cross-platform play is supported.
+
+=== How do I age verify? ===
+To [[Age Verification|age verify]], you will need an active subscription to [[VRC+]], and a government-issued ID. After subscribing, begin the age verification process with Persona. It is necessary to scan your ID and take a selfie to verify that it is you. Once this is done, your account will be age verified, and will be able to display the ''Verified 18+'', badge if applicable. You do not need to keep subscribed to VRC+ after the age verification process is completed, in order to retain your verification status.
+
+==Client==
+===How do I invite friends to join me in VRChat?===
+''<small>See also [[Social]] for more detailed information.</small>''
+
+You can invite friends to join you in VRChat by sending them an invite through the friends list or by sharing a direct world link with them. You can also join their instance if they're already in a world.
+
+===Are there any in-game events or activities?===
+''<small>See also [[Events]] and [[Calendar]] for more detailed information.</small>''
+
+Yes, VRChat frequently hosts in-game events and activities, including community gatherings, themed parties, and special collaborations. You can find information about these events on the VRChat website, [[Resources|social media]], and [[Resources|community forums]].
+
+=== I saw an instance, but it said I needed to be 18 or older to join. Why did this happen? ===
+This means that you stumbled upon an age-gated [[Instances|instance]]. These instances require your account to be [[Age Verification|age verified]], and ensure you are 18 years old to join. Note that age verification is not needed to access most of VRChat's user-generated content.
+
+==SDK==
+===What is the VRChat SDK?===
+The [https://creators.vrchat.com/sdk/ VRChat SDK] enables users to create interactive worlds and avatars for VRChat using Unity3D. Most Unity tools, including lighting, nav meshes, particles, animations, and other standard Unity features, work in VRChat.
+
+You must install the SDK using the [[VRChat Creator Companion]]. This [https://vcc.docs.vrchat.com/ official application] will help you install the correct version of Unity, maintain your projects, and install many helpful packages from both VRChat and the VRChat community.
+
+===Why can't I upload content yet?===
+You must obtain at least "New User" [[Special:MyLanguage/Trust Rank|Trust Rank]] in our [[Special:MyLanguage/Trust and Safety|Trust and Safety]] system in order to upload content. You can get this by just spending a few hours in VRChat, [[Community:World hopping|hop]] some [[Worlds]], and make some friends. Give it some time, and you'll get a notification that you're able to upload content.
+
+You must have a [[VRChat account]] to upload content. You can't use a Steam, Oculus (Meta), Google, or Viveport account to upload content like worlds or [[Avatars]].
+
+===How can I make my own custom avatar?===
+Glad you asked! VRChat has a Unity [[VRChat SDK|Software Development Kit]] (SDK) that allows you to create content for VRChat, including avatars.
+
+To get started, check out [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Creating Your First Avatar] in the Creator Documentation.
+
+In addition, there are a large number of tutorials created by our community available on YouTube.
+
+* [https://www.youtube.com/watch?v=IWKXbMQe3x4 Avatar Basics - Terminology]
+* [https://www.youtube.com/watch?v=xjS8rreIMos Uploading Your First Avatar - Part 1]
+* [https://www.youtube.com/watch?v=rRAnDMUbWt8 Uploading Your First Avatar - Part 2]
+
+===Can I create my own world?===
+Yes, using our Unity SDK you can create your own [[Worlds|world]]. It will start off as a private world, meaning you can only bring people in by opening up a portal or through inviting friends. Once you are ready to make the world public, you first have to go through the process of submitting your world to the [[Community Labs]].
+
+===How can I access my world?===
+Once you have created and uploaded your world using the SDK, you will find the world under the Uploaded tab in the World Menu.
+
+== See also ==
+
+* [[Getting Started]]
+* [[Resources]]
+* [[VRChat SDK]]

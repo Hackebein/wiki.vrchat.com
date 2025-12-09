@@ -1,0 +1,424 @@
+<languages/>
+{{Noticebox/Official}}
+'''Controles''' são conjuntos de entradas em controladores e dispositivos para navegar no [[Special:MyLanguage/VRChat|VRChat]], em diferentes [[Special:MyLanguage/platforms|plataformas]]. O VRChat é compatível com vários sistemas operacionais, com várias combinações de dispositivos e controladores. Alguns desses controles podem ser configurados no menu de [[Special:MyLanguage/Settings#Controls|Configurações]]. Dependendo da plataforma em que estiver usando o VRChat, você poderá personalizar ainda mais os controles usando o menu Configurações do VRChat ou no painel de seu dispositivo.
+
+O menu Configurações do VRChat detalha os mapeamentos de botões do dispositivo que você está usando no momento. Abaixo estão as configurações padrão:
+
+<span id="Primary_controls"></span>
+==Controles primários==
+
+Esses são os controles básicos para navegar e interagir no VRChat que se aplicam aos diferentes tipos de entrada:
+{| class="wikitable" style="text-align:center;"
+! style="text-align:center;" |Ação
+! style="text-align:center;" |Teclado/Mouse
+! style="text-align:center;" |Controle de VR
+! style="text-align:center;" |Gamepad (Xbox)
+! style="text-align:center;" |Celular
+|-
+! scope="row" style="text-align:center;" |Mover
+|WASD
+| colspan="2" |Botão Esquerdo do Polegar
+|Botão do Polegar Virtual
+|-
+! scope="row" style="text-align:center;" |Girar
+|Movimentação do Mouse
+| colspan="2" | Botão Direito do Polegar
+|Segure e arraste a tela 
+|-
+! scope="row" style="text-align:center;" |Pular
+|Espaço
+|A (mão direita, botão inferior)
+|A
+|Botão do Pulo
+|-
+! scope="row" style="text-align:center;" |Agachar
+|C
+| colspan="1" rowspan="2" |''−−''
+| rowspan="1" |Botão Esquerdo do Polegar (Clique)
+| rowspan="2" |Botão do Pulo (Segure)
+|-
+! scope="row" style="text-align:center;" |Agachar / Rastejar
+|Z
+|Botão Esquerdo do Polegar (Segure)
+|-
+! scope="row" style="text-align:center;" |Corrida
+|Shift Esquerdo
+| colspan="3" |''−−''
+|-
+! scope="row" style="text-align:center;" |Usar / Interagir
+|E
+|Trigger / Index finger pull
+| rowspan="2" |Gatilho
+| rowspan="2" | Toque
+|-
+! scope="row" style="text-align:center;" |Pegar / Segurar
+|Botão Esquerdo do Mouse
+|Aderência / Puxar o dedo médio
+|-
+! scope="row" style="text-align:center;" |Menu Rápido
+|Escape
+|B / Y (em ambas as mãos, botão superior)
+| colspan="2" |Botão do Menu
+|-
+! scope="row" style="text-align:center;" | Menu de Ação
+|R
+|B / Y (Segure) (em ambas as mãos, botão superior)
+| Botão Direito do Polegar (Pressione)
+|Botão do Menu (Segure)
+|-
+! scope="row" style="text-align:center;" |Mutar/Desmutar
+|V
+|X (mão esquerda, botão inferior)
+|Y
+| Botão do Microfone
+|}
+
+<span id="Additional_controls"></span>
+==Controles Adicionnais==
+
+<span id="VR"></span>
+===Controles do VR===
+
+O VRChat é oficialmente compatível com os seguintes fones de ouvidos e seus esquemas de controle correspondentes.
+
+*Fones de ouvido Meta Quest
+**Meta Quest 2
+**Meta Quest 3(S)
+**Meta Quest Pro
+* HTC Vive XR Elite
+*Pico 4
+
+Além disso, o VRChat é compatível com esses fones de ouvido no modo PCVR, no qual o fone de ouvido é conectado a um PC para jogos com Windows.
+
+*Todos os fones de ouvido compatíveis com o SteamVR, incluindo (mas não se limitando a)
+**Valve Index
+**Série HTC Vive
+**Bigscreen Beyond
+**HMDs Pimax com fio
+**Qualquer HMD compativel com o Steam Link
+** Qualquer HMD compatível com o Virtual Desktop
+**A maioria dos HMDs compatíveis com ALVR
+
+No PC, também oferecemos suporte à entrada de gamepad por meio do Gerenciador de entrada do Steam.
+
+<span id="Controller_buttons"></span>
+====Botões do Controle====
+
+A maioria dos controles de VR é disposta de forma semelhante. Cada controle tem um joystick e dois botões principais, um botão do sistema, um gatilho e um botão de aderência.
+{| class="wikitable"
+!Botão
+!Atribuição
+|-
+|A - mão direita, botão inferior
+|Pula
+|-
+|B - mão direita, botão superior
+| Pressione para Menu Rápido ou Segure para Menu de Ação 
+|-
+|X - mão esquerda, botão inferior
+|Pressione para Mutar/Desmutar
+|-
+|Y - mão esquerda, botão superior
+| Pressione para Menu Rápido ou Segure para Menu de Ação 
+|-
+|Aderência - Puxar o dedo médio
+
+|Pegar
+|-
+|Gatilho - Puxar o dedo indicador 
+|Usar
+|-
+|Botão Direito do polegar
+| Girar
+|-
+|Botão Esquerdo do polegar
+|Mover / Locomover
+|-
+|Ambos os Gatilhos + Ambos os botões de Menu
+| Ativa o Modo Seguro
+|-
+|Mantenha os dois botões do menu pressionados durante o carregamento do Mundo
+|Alterar localmente o avatar para o robô de erro (Útil quando seu avatar causa falhas ou impede que você use o menu)
+|}
+
+====Rastreamento das Mãos====
+''Veja também [[Special:MyLanguage/Finger tracking|Rastreamento de Dedos]] para obter informações mais detalhadas.''
+{{Thumb|{{YouTube|oopovk3BPaw}}}}
+[[File:Handtracking controls vrcmenu.webp|thumb|250px|Controles para rastreamento de dedo, dentro das opções do [[Special:MyLanguage/Main Menu|Menu Principal]].]]
+
+VRChat também oferece um {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|mundo tutorial}}, e [https://www.youtube.com/watch?v=oopovk3BPaw vídeo tutorial] sobre como configurar o rastreamento de mãos em sistemas Meta Quest, e aprender os gestos feitos através do rastreamento de mãos dentro do VRChat.
+
+Ative o rastreamento de mãos no painel de configurações do Quest. Para usar o rastreamento de mãos, coloque seus controles em uma superfície plana e estenda suas mãos para que o sistema de rastreamento de mãos do Quest possa detectá-las. Certifique-se de que há iluminação suficiente na sala, para que as câmeras do Quest possam ver suas mãos. Observe que o rastreamento de mãos ''não pode ser utilizado através de métodos com fio do Quest Link'' neste momento.
+
+'''Para se mover pelo [[Special:MyLanguage/Worlds|mundo]]''', mantenha a '''mão esquerda''' levantada, com a palma para cima voltada ao rosto. Toque o dedo médio no polegar em um movimento de "pinça" e uma pequena esfera azul aparecerá. Enquanto ainda estiver pinçando, afaste os dedos da esfera e seu avatar se moverá naquela direção.
+
+'''Para virar para a esquerda e para a direita''', pince o dedo médio e o polegar com a '''mão direita'''. Enquanto estiver usando a ação de pinçar, mova sua mão para a esquerda ou para a direita de sua posição inicial.
+
+Você também pode virar com o Giro Confortável (giro rápido) ativado ou desativado. Se o Giro Confortável estiver ativado, você precisará mover o dedo comprimido além do ponto de giro sempre que virar. Talvez seja mais fácil usar esse método de locomoção com o Giro Confortável desativado em suas [[Special:MyLanguage/Settings|Configurações]].
+
+'''Abra seu [[Special:MyLanguage/Quick Menu|Menu Rápido]]''' pinçando o seu dedo indicador e o seu polegar da '''mão esquerda'''. Este é um gesto padrão nos sistemas Meta, e você verá um pequeno ícone de menu flutuando sobre a sua mão, que preenche um medidor à medida que você faz a "pinça-longa". Há três métodos que você pode usar para abrir o Menu Rápido
+
+* Pinçar com a Palma para Cima
+* Chave Circular
+* Acionar Botão
+
+'''Para interagir com a interface do usuário e [[Special:MyLanguage/menus|menus]]''', aponte para ela com qualquer uma das mãos e selecione as opções "pinçar" o dedo indicador e o polegar juntos.
+
+'''Você pode silenciar a si mesmo''' segurando o polegar e o dedo mínimo juntos por um momento na mão esquerda.
+
+Para '''pegar objetos do mundo''' , aproxime-se dele e feche o punho. Além disso, você pode '''usar objetos''' mantendo os dedos médio, anelar e mínimo fechados, mas pinçando separadamente o indicador e o polegar juntos.
+
+'''Observação:''' Rastreio de mão não funciona com o Quest Link.
+Os controles do rastreio de dedos podem ser vistos na aba de Controles do [[Special:MyLanguage/Main Menu|Menu Principal]], enquanto o rastreio de dedos está ativado.
+
+<span id="Desktop"></span>
+=== Controles de Área de Trabalho===
+
+Você pode jogar VRChat usando o teclado e o mouse.
+
+O movimento é feito por meio da configuração padrão de um jogo FPS "WASD". O mouse ajusta a posição de visualização. Sua cabeça aponta para a direção em que você está olhando.
+{| class="wikitable"
+! Key
+!O que isso faz 
+|-
+|W
+|Move o usuário para frente
+|-
+| A
+|Move o usuário para a esquerda
+|-
+|S
+|Move o usuário para trás
+|-
+|D
+|Move o usuário para a direita
+|-
+|Space
+|Faz o usuário pular (se estiver ativado na sala)
+|-
+|Z
+|Rastejar
+|-
+|C
+|Agachar
+|-
+|R
+|Abre o Menu de Ação
+|-
+|Escape (Esc)
+|Abre o Menu Rápido
+|-
+|Shift
+|Velocidade
+|-
+|Clique Esquerdo
+|Interagir/Pegar
+|-
+|Clique Direito (Segurar)
+|Mostra a interação do mouse
+|-
+|Clique Direito
+|Larga o objeto
+|-
+| Clique Direito (Segurar) (Objetos)
+|Permite que você jogue os objetos segurados. Quanto mais tempo você segurar, mais longe o objeto vai.
+|-
+| V (Segurar) (Se estiver usando o pressionar para falar)
+|Ativa o microfone enquanto for mantido pressionado
+|-
+| V (Se estiver usando o modo de ativar/desativar)
+|Ativa / Desativa o microfone
+|-
+|Y
+|Abre o chatbox
+|-
+|Tab (Segurar)
+|Permite mover o mouse pela tela sem mover o avatar. (Útil para clicar em elementos da interface do usuário)
+|-
+| End
+|Ativa o modo AFK
+|-
+|Ctrl + N
+|Percorre as opções de visibilidade das [[Special:MyLanguage/Nameplates|placas de identificação]]
+|-
+|Ctrl + H
+|Alterna a visibilidade do [[Special:MyLanguage/HUD|HUD]] (ícones do microfone e notificações)
+|-
+|Ctrl + \
+|Chave local para o [[Special:MyLanguage/avatar|avatar]] [[Special:MyLanguage/Robot|robô]] padrão  (Útil quando seu avatar causa falhas ou impede que você use o menu)
+|-
+|RShift + Backtick + 1<sup>†</sup>
+|Alterna a visibilidade do menu de depuração do acionador
+|-
+|RShift + Backtick + 2<sup>†</sup>
+|Alterna a visibilidade do menu de depuração de informações
+|-
+|RShift + Backtick + 3<sup>†</sup>
+|Alterna a visibilidade do menu de depuração do console
+|-
+|RShift + Backtick + 4<sup>†</sup>
+|Alterna a visibilidade do menu de depuração de rede
+|-
+|RShift + Backtick + 5<sup>†</sup>
+|Alterna a visibilidade do menu de depuração do gráfico de rede
+|-
+|RShift + Backtick + 7<sup>†</sup>
+|Alterna a visibilidade da sobreposição de depuração de rede
+|-
+|RShift + Backtick + 8<sup>†</sup>
+|Alterna a visibilidade da sobreposição de depuração de eventos
+|-
+|RShift + Backtick + 9<sup>†</sup>
+|Alterna a visibilidade da sobreposição de depuração de rede do usuário
+|-
+|F12
+|Faz uma captura de tela, salva na pasta em que o VRChat está instalado
+|-
+|Ctrl + F12
+|Faz uma captura de tela com o dobro da resolução normal, por padrão 4k (3840 x 2160), salva na pasta Imagens/VRChat do usuário
+|-
+|Shift + F1*
+|Gesto com a mão - Inativo
+|-
+|Shift + F2*
+|Gesto com a mão - Punho
+|-
+|Shift + F3*
+|Gesto com a mão - Mão Aberta
+|-
+|Shift + F4* 
+|Gesto com a mão - Apontar
+|-
+|Shift + F5*
+|Gesto com a mão - Vitória (Paz)
+|-
+|Shift + F6*
+|Gesto com a mão - Rock ’n Roll
+|-
+|Shift + F7*
+|Gesto com a mão - Pistola de dedo
+|-
+|Shift + F8*
+|Gesto com a mão - Polegar para cima
+|-
+|Shift + Esc
+|Ativa o modo segurança.
+|-
+|Segure Esc Durante o Carregamento do Mundo
+|Altera seu avatar localmente para o robô de erro (Útil quando seu avatar causa travamentos ou impede o uso do menu)
+|-
+|< e >
+|Gira o usuário para a esquerda e para a direita 
+|-
+|I / K
+| Ajusta a inclinação do objeto mantido (gira ao longo do eixo X)
+|-
+|J / L
+|Ajusta a guinada do objeto mantido (gira ao longo do eixo Y)
+
+|-
+| U / O
+|Ajusta a rotação do objeto mantido (gira ao longo do eixo Z)
+|-
+|Roda do Mouse
+|Move o objeto segurado para frente/para trás (translação ao longo do eixo Z)
+|-
+|Botão do meio do mouse (Segurar)
+|Ajusta a rotação do objeto movendo o mouse
+|}
+
+<nowiki>*</nowiki> Use o shift esquerdo para controlar a mão esquerda e o shift direito para controlar a mão direita.
+
+<sup>†</sup> Em um teclado com layout QWERTY padrão inglês dos EUA, "backtick" é a tecla no canto superior esquerdo, ao lado da <code>1</code> tecla. Ela compartilha uma tecla com o caractere (<code>~</code>) til.
+
+As opções de depuração são desativadas a menos que você inicie o VRChat com a opção de lançamento <code>--enable-debug-gui</code>.
+
+<span id="Mobile"></span>
+===Celular===
+
+No lado esquerdo da tela, há um joystick virtual que moverá seu avatar. Tocar e arrastar na tela moverá seu ponto de vista. Ao tocar duas vezes e segurar em qualquer lugar da tela, você poderá andar e mover o ponto de vista simultaneamente.
+
+O lado direito da tela tem botões para pular, pegar itens e interagir com o mundo. Manter o botão pressionado permitirá outras opções, como um menu de ação ou agachamento.
+
+Tocar em outro usuário ou em um [[Special:MyLanguage/portals|portal]] abrirá instantaneamente um [[Special:MyLanguage/Menus|menu]] secundário.
+
+<span id="Gamepad"></span>
+===Controles do Gamepad===
+
+Você pode jogar VRChat usando um gamepad no PC e no Celular.
+
+Os controles típicos suportados incluem os controles do Xbox, do PlayStation e do Nintendo Switch. A tabela abaixo usa o layout do controle "Xbox" como referência.
+{| class="wikitable"
+!Botões (Baseado em um Controle do Xbox) 
+!Atribuição
+|-
+|A
+|Faz o usuário pular (se estiver ativado na sala)
+|-
+| B / X
+|Larga o objeto
+|-
+|Y (Segurar) (Se estiver usando o pressione para falar)
+|Ativa o microfone enquanto for mantido pressionado
+|-
+|Y (Se estiver usando alternar para falar)
+|Ativa / Desativa o microfone
+|-
+|D-pad para Cima
+|Alterna a visibilidade das placas de identificação do usuário
+|-
+|D-pad para Baixo
+|Alterna a visibilidade do HUD (ícones de microfone e notificação)
+|-
+|LB (Segurar) + Analógico Esquerdo
+|Move o objeto segurado para frente/para trás (translação ao longo do eixo Z)
+|-
+|LB (Segurar) + Analógico Direito
+|Gira o objeto segurado
+|-
+|RB (Segurar) + Analógico Esquerdo
+
+|Selecione o gesto da mão esquerda (Disponível apenas no Steam)
+|-
+|RB (Segurar) + Analógico Direito
+|Selecione o gesto da mão direita (Disponível apenas no Steam)
+|-
+|LT/RT
+|Interagir / Pegar
+|-
+|Analógico Esquerdo
+|Moves user
+|-
+|Clique do Analógico Esquerdo
+|Agachar
+|-
+|Segurar Analógico Esquerdo
+|Rastejar
+|-
+|Analógico Direito
+|Olha em volta
+|-
+|Clique do Analôgico Direito
+|Abre o Menu de Ação
+|-
+|Ver
+|Faz uma captura de tela, salva na pasta em que o VRChat está instalado
+|-
+|Menu
+|Abre o Menu Rápido
+|-
+|A / RT (No Menu)
+|Clique no Menu
+|-
+|B (No Menu)
+|Fecha o Menu 
+|}
+
+<span id="Resources"></span>
+==Recursos==
+
+*[https://www.youtube.com/watch?v=F0I2Ec4JsrE "Rastreamento de Dedos do Quest 2"] de VRChat no ''YouTube''
+*[https://docs.vrchat.com/docs/vrchat-202241 "VRChat 2022.4.1"] no Rastreamento das Mãos
+*[https://www.youtube.com/watch?v=oopovk3BPaw "Guia do iniciante para rastreamento de mãos/dedos VRChat"] por VRChat no ''YouTube''
+{{Start-navbox}}
+[[Category:Needs images{{#translation:}}]]

@@ -1,0 +1,83 @@
+<languages/>
+Este '''Manual de Estilo''' ('''MdE''' ou '''MDE''') é um manual de estilo sugerido para a VRChat Wiki.
+
+Em geral:
+
+* Todo o conteúdo na VRChat Wiki deve ser verdadeiro e preciso.
+* Os colaboradores devem escrever artigos usando uma linguagem direta, sucinta e de fácil compreensão, e estruturar os artigos com layouts e formatação consistentes e amigáveis ao leitor.
+* Se você tiver alguma dúvida sobre estilo, layout ou formatação da VRChat Wiki, entre em contato com um dos [https://wiki.vrchat.com/wiki/Special?username=&group=community-mod&wpsubmit=&wpFormIdentifier=mw-listusers-form&limit=50 Moderadores da Comunidade] para obter ajuda.
+
+Algumas diretrizes específicas para o estilo são detalhadas abaixo:
+
+<span id="Article_titles"></span>
+== Títulos de artigos ==
+
+Um título deve ser um nome ou descrição reconhecível do tópico, equilibrando os critérios de ser natural, suficientemente preciso, conciso e consistente com os de artigos relacionados.
+
+Para guias de formatação veja a seção de formatação de título do Artigo, observando o seguinte:
+* Capitalize a letra inicial, caso contrário siga as letras maiúsculas e minúsculas. VRChat usa letras maiúsculas para sentenças, títulos de artigos, títulos de seções, cabeçalhos em tabelas, legendas em imagens, entradas em listas (em alguns casos), e entradas em caixas de informações e templates similares, além de outras coisas.
+* Não utilize artigos (''a'', ''as'', ''o'', ''os'', ou ''uma'', ''umas'', ''um'', ''uns'') como primeira palavra (''[[Special:MyLanguage/Creator Economy|Economia do Criador]]'', não A Economia do Criador), ao menos que seja uma parte inseparável de um título (O Poderoso Chefão).
+* Normalmente use substantivos ou frases nominais: Início da vida, não No início da vida. Frases como No início da vida são aceitáveis (embora não obrigatórias) nos cabeçalhos de seção. Esta também pode ser usada frequentemente como parte de um título de artigo longo tal como ''Eventos do VRChat'', especialmente quando uma construção de frase curta (''Eventos'') podem ter problemas com ambiguidade.
+* O último caractere não deve conter pontuação final ao menos que seja uma parte inseparável de um nome (tal como ''Androides Sonham com Ovelhas Elétricas?''), ou uma abreviação (VRChat Inc.), ou requerido ao fechar parêntesis/aspas (''Avatares Fantásticos (e onde encontra-los)'').
+* Em qualquer momento que aspas ou apóstrofos aparecerem, adicione um redirecionamento para o mesmo título usando apóstrofos. Evite o uso de aspas duplas ("vírgulas dobradas") porque aspas simples e apóstrofos são fáceis de digitar e exibir corretamente na maioria das plataformas.
+
+<span id="Section_headings"></span>
+==Cabeçalhos de seção==
+
+Cabeçalhos de Seção no geral devem seguir as guias para títulos de artigos (acima), e devem ser apresentadas com a primeira letra maiúscula (Como alimentar seu VRCat), e não em letras maiúsculas por todo o título (Como Alimentar Seu VRCat).
+
+O cabeçalho deve estar em sua própria linha, com uma linha em branco antes dele; uma linha depois é opcional e ignorada (mas não utilize duas linhas em branco, antes ou depois, pois isso irá adicionar um espaço visível indesejado).
+
+Por razões técnicas, cabeçalhos de seção devem:
+
+* Ser únicos dentro de uma página, para que os links das seções levem ao lugar correto.
+* Não conter links, especialmente onde apenas uma parte do cabeçalho é vinculado.
+* Não conter imagens, emoji ou ícones.
+* Não conter citações ou notas de rodapé.
+* Não usar indevidamente a marcação de listas (";") para criar pseudo-cabeçalhos.
+* Não conter transclusões de template.
+
+Para manter um estilo consistente, cabeçalhos de seção devem:
+
+* Não referir-se redundantemente ao assunto do artigo, Ex.: Início da vida, não Início da vida de Smith ou Sua infância. 
+* Não referir-se a um cabeçalho de nível superior, a menos que, ao fazê-lo, seja curto e claro.
+* Não ser numerado ou escrito como um esboço.
+* Não ser escrito como uma pergunta, Ex.: Idiomas, não Que idiomas são falados no México?.
+* Não use cores ou fontes incomuns que possam causar problemas de acessibilidade.
+* Não ser envolto em marcação que possa causar problemas de exibição e outros problemas de acessibilidade.
+
+<span id="English_word_choice_and_capitalization"></span>
+== Palavras em português e uso de maiúsculas ==
+
+A fim de facilitar a localização de conteúdos da wiki a longo prazo, considere algumas opções de estilo tais como:
+
+* '''Citações, títulos de obras (livros, filmes, etc.)''' dever ser escritas com letras maiúsculas como no original (veja conformidade tipográfica abaixo);
+* '''Nomes próprios''' usa a grafia e capitalização do próprio sujeito, Ex.: "...projeto em conjunto com o VRChat Inc. e Labs da Comunidade do VRChat..."; "Federação Internacional do Avatar"
+* '''Novo acordo ortográfico''' use as regras fornecidades por ele para padronizar a ortografia da língua portuguesa em todo o mundo.
+* Geralmente, não se usa maiúsculas em palavras no meio da sentença: em todo o Reino Unido, não em todo O Reino Unido.
+* Use termos aceitos universalmente ao invés de poucos conhecidos, especialmente em títulos. Por exemplo, "celular" é preferido como variação nacional ao invés de "aparelho celular" ou "telemóvel".
+* Se uma grafia variante aparecer em um título, faça um redirecionamento de página para acomodar outras, tal como "artefato" e "artefacto", assim todas as variantes podem ser usadas em pesquisas e links.
+* Use palavras ou frases que podem ser comumente entendidas em preferência daquelas que tem um significado diferente por conta das diferenças nacionais (ao invés "malta" ou "galera", use "equipe"), exceto em contextos técnicos cuja substituição seria inapropriada ("Malta", o nome de um país").
+
+== Links ==
+
+Por favor, faça um esforço para usar links internos sempre que possível e evite incluir parâmetros de rastreamento nas suas URLs.
+
+<span id="Group_Links"></span>
+=== Links de Grupo ===
+
+Ao criar um link para seu grupo, certifique-se de usar um link permanente. O link deve exibir claramente o nome do grupo seguido de seu código curto.
+
+Exemplo:
+* [https://vrchat.com/home/group/grp_7ccb6ca3-cd36-4dab-9ab1-7bcf08d794e4 Time do VRChat] - VRCHAT.0000
+
+== Categorias ==
+Ao adicionar uma categoria a uma página, certifique-se de que está adicionando <code><nowiki>{{#translation:}}</nowiki></code> dentro da categoria que a envolve.
+
+Exemplo:
+* <code><nowiki>[[Category:Game worlds{{#translation:}}]]</nowiki></code>
+
+Isso garante que as futuras páginas que forem marcadas para tradução não obstruam a lista de categorias com variantes de idioma da mesma página.
+
+----
+{{Navbox/Wiki_policies}}

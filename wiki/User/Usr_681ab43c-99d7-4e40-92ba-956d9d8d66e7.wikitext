@@ -1,0 +1,69 @@
+<!-- Template:UserProfile -->
+<div style="---radius: 0.5rem; ---card-flex: 1 0 max(calc(25% - 4rem), 230px); ---card-bg: rgb(60, 65, 72); ---card-padding: 1rem; ---card-title-color: rgb(85, 130, 138); ---card-title-margin: 0.5rem;">
+  <h3 style="z-index: 5; margin-top: 2rem; padding-top: 0.2rem; padding-bottom: 0.5rem; font-weight: 700; color: rgb(106, 227, 249);font-size: 2.5rem; position:sticky; top: 0; background-color: var(--more-dark-grey); border: none;">Dorktoast</h3>
+  <div style="display: flex; flex-wrap: wrap; align-items: stretch; gap: 1rem; color: rgba(255,255,255,0.8)">
+    <div style="flex: var(---card-flex); font-weight: bold; border-radius: var(---radius); background: var(---card-bg); padding: var(---card-padding); overflow: hidden;">
+      <div style="position: relative; margin-inline: calc(-1 * var(---card-padding)); margin-top: calc(-1 * var(---card-padding)); margin-bottom: 3rem">
+        <!-- PROFILE THUMBNAIL -->
+        [[File:Skylight in the abandoned City Hall Station (32155).jpg|none|frameless|640x427px]]
+        <div style="position: absolute; bottom: 0; left: 1.25rem; transform: translateY(50%); display: flex; align-items: center; justify-content: center; width: 80px; font-size: 2rem; aspect-ratio:1; font-weight: 400; background-color: rgb(55, 65, 82); border-radius: 100%; color: #fff; box-shadow: -2px 1px 0 0 #000, 0px 0px 0px 2px var(---card-bg);">Dor</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <div style="width: 1.4rem; height: 1.4rem; border-radius: 50%; background-color: rgb(86, 242, 92); margin-inline: 0.1rem"></div>
+        <div style="line-height: 1.15;">
+          <!-- STATUS -->
+          <div style="color: var(---card-title-color); font-weight: bold; text-transform: uppercase; font-size: 0.8rem;">Status</div>
+          <div style="font-size: 1.05rem">Online</div>
+        </div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem; margin-top: 1rem;">
+        <div style="margin-inline: -0.1rem;">[[File:Icons ShieldLevel Normal 25.png|none|frameless|28x28px]]</div>
+        <div style="line-height: 1.15;">
+          <!-- TRUST RANK -->
+          <div style="color: var(---card-title-color); font-weight: bold; text-transform: uppercase; font-size: 0.8rem;">Trust Rank</div>
+          <div style="font-size: 1.05rem">Trusted User</div>
+        </div>
+      </div>
+    </div>
+    <div style="flex: var(---card-flex); font-weight: bold; flex: 1 0 max(calc(50% - 3.7rem), 230px); border-radius: var(---radius); background: var(---card-bg); padding: var(---card-padding);">
+      <div style="color: var(---card-title-color); text-transform: uppercase; margin-bottom: var(---card-title-margin)">Bio</div>
+      <!-- BIO -->
+      <div style="font-size: 1rem;">
+I am your host, the man they call Toast!<br><br>I am a [[VRCWiki:Wiki Moderators|VRCWiki Maintainer and organizer]], VRChat world creator, Unity developer, award-winning Science Fiction and Fantasy author, and all-around creative guy.<br><br>I am a certified Creative Commons educator, Wikimedian since 2005, and I am currently the [https://meta.wikimedia.org/wiki/Strategy/Wikimedia_movement/2018-20/People/Strategy_Liaisons_Organized_Groups Wikimedia Strategy Liaison] for [https://meta.wikimedia.org/wiki/Ohio_Wikimedians Ohio Wikimedians Group]. In short, my job is to be the point of contact between Ohio Wikimedians and the [https://meta.wikimedia.org/wiki/Strategy/Wikimedia_movement/2018-20 Wikimedia Movement Strategy Process].<br><br>IRL, I am the full-time director of [https://discord.gg/gibgames GIB Games], a game development studio based in the US. My published works include several games such as [https://store.steampowered.com/app/2702660/The_52_Fragments/ The 52 Fragments] and [https://store.steampowered.com/app/2121570/SCP_Infohazard/ SCP: Infohazard], and multiple novels including [https://www.goodreads.com/book/show/40778239-the-wizards-on-walnut-street The Wizards on Walnut Street] and [https://www.goodreads.com/book/show/46149337-no-place No Place].
+      </div>
+    </div>
+    <div style="flex: var(---card-flex); font-weight: bold; border-radius: var(---radius); background: var(---card-bg); padding: var(---card-padding);">
+       <!-- LANGUAGES -->
+      <div style="color: var(---card-title-color); font-weight: bold; text-transform: uppercase; margin-bottom: var(---card-title-margin)">Languages</div>
+      <div style="display: flex; flex-wrap: wrap; align-items-center; gap: 0.5rem;">
+<div style="display: flex; align-items: center; justify-content: center; width: 70px; aspect-ratio:1; font-weight: bold; background-color: var(--more-dark-grey-border); border-radius: 100%;" title="English">ENG</div>
+      </div>
+    </div>
+    <div style="flex: var(---card-flex); font-weight: bold; border-radius: var(---radius); background: var(---card-bg); padding: var(---card-padding);">
+      <!-- LINKS -->
+      <div style="color: var(---card-title-color); text-transform: uppercase; margin-bottom: var(---card-title-margin)">Links</div>
+      <div style="display: flex; flex-wrap: wrap; align-items-center; gap: 0.5rem; font-size:0;">
+<div style="border-radius: 100%; overflow: hidden;">
+[https://vrchat.com/home/user/usr_7d3dca04-5671-4738-a277-04fad9b586e4 <div style="display: flex; align-items: center; justify-content: center; width: 70px; aspect-ratio:1; font-weight: bold; background-color: var(--more-dark-grey-border); border-radius: 100%; font-size: 0.95rem;">VRChat</div>]</div><div style="border-radius: 100%; overflow: hidden;">
+[https://en.wikipedia.org/wiki/User:PonyToast <div style="display: flex; align-items: center; justify-content: center; width: 70px; aspect-ratio:1; font-weight: bold; background-color: var(--more-dark-grey-border); border-radius: 100%; font-size: 0.95rem;">Wikipedia</div>]</div>
+      </div>
+    </div>
+    <div style="flex: var(---card-flex); font-weight: bold; border-radius: var(---radius); background: var(---card-bg); padding: var(---card-padding);">
+      <!-- BADGES -->
+      <div style="color: var(---card-title-color); text-transform: uppercase; margin-bottom: var(---card-title-margin)">Badges</div>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+<div title="Supported VRChat through VRC+ when it first launched">[[File:Early_Supporter.png|none|frameless|70x70px]]</div>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; flex: var(---card-flex); font-weight: bold; border-radius: var(---radius); background: var(---card-bg); padding: var(---card-padding);">
+      <div style="color: var(---card-title-color); text-transform: uppercase; margin-bottom: var(---card-title-margin)">Groups</div>
+      <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; color: var(---card-title-color); text-align: center; font-size: 1.3rem; line-height: 1.25; font-weight: 700;">Not representing<br/>any group</div>
+    </div>
+  </div>
+</div>
+
+This profile style is based on the user profile of [[User:Usr 7d3dca04-5671-4738-a277-04fad9b586e4|Patroll]]!
+
+==Sandboxes==
+
+* [[User:Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7/sandbox|Sandbox 1]]

@@ -1,0 +1,2 @@
+a mirror reflects. A mirror only renders objects on the defined layers. For example, if you have a large outdoor world with a house in the middle, you could set the outdoor environment objects to the environment layer, and then disable the environment layer on the mirrors inside the house. This will stop the mirrors from trying to render the environment that they can't see.
+When interacting with a Mirror in a world, users will be able to enable or toggle different options to save on performance, such as:

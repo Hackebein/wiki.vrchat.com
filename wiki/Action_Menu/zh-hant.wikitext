@@ -1,0 +1,121 @@
+<languages/>
+{{Noticebox/Official}}
+[[File:Action_Menu.png|thumb|一張關於動作選單的圖片。]]
+「'''動作選單'''」（'''Action Menu'''）是涵蓋了各種主要用於社交互動的操作功能，並且設計成方便用戶能夠快速操作的形式，其當中也包括[[Special:MyLanguage/avatars|角色（Avatars）]]控制選項等等的專屬功能。用戶在使用「'''Avatar 3.0'''」的角色時，完全可以自定義這些角色的控制選項，而透過這個選單，可以控制驅動角色的各種參數，並隨著用戶在角色上設定的動畫控制器（Animator）邏輯，藉此讓角色的功能產生對應變化。
+
+用戶最多可以同時打開兩個動作選單，可以讓用戶在操作上有更高的靈活度。<small>*</small>
+
+<span id="Opening_the_Action_Menu"></span>
+==開啟動作選單==
+
+開啟動作選單的方式，將會取決於用戶所使用的控制方式而有所不同。 
+
+*在使用「'''鍵盤及滑鼠'''」的控制方式時，用戶按下「'''R'''」鍵便能開啟選單。
+*在使用「'''VR 控制器'''」的控制方式時，用戶長按可以開啟[[Special:MyLanguage/Quick_Menu|快速選單（Quick Menu）]]的按鈕便能開啟選單。其會根據用戶使用哪一隻手上的控制器，來對應開啟左側或右側的動作選單。
+*在使用「'''遊戲手把'''」的控制方式時，用戶按下右搖桿便能開啟選單。
+*在使用「'''行動裝置'''」的控制方式時，用戶長按選單按鈕便能開啟選單。
+
+<sup>*用戶在使用鍵盤及滑鼠、遊戲手把、行動裝置的控制方式時，僅能開啟左手的動作選單；僅有在使用 VR 控制器時，才能同時開啟左、右手的動作選單。</sup>
+
+<span id="Layout"></span>
+==介面配置==
+
+開啟動作選單時，總共會分成五大類別，分別是「'''角色控制'''」（'''Expressions'''）、「'''表情符號'''」（'''Emojis'''）、「'''工具'''」（'''Tools'''）、「'''選項'''」（'''Options'''）、「'''物件'''」（'''Items'''）。
+
+<span id="Expressions"></span>
+===角色控制===
+
+''詳細資訊請參考[[Special:MyLanguage/Expressions|角色控制]]的條目。''
+
+「'''角色控制'''」（'''Expressions'''）選單，可以控制角色身上的各種功能，而每個角色內建的角色控制選單都可能不同，這取決於上傳者的設計方式。
+
+<span id="Quick_Actions"></span>
+====快速選項====
+
+「'''快速選項'''」（'''Quick Actions'''）選單，是位於角色控制下的子選單，可以控制角色的各種功能，具體如下：
+*「'''角色身高'''」（'''Avatar Height'''）：可以調整角色的高度，而其可以控制的範圍，最低為 0.20 公尺，最高則為 5.00 公尺。
+*「'''重置身高'''」（'''Reset Height'''）：可以將角色身高，重置為在 Unity 中設定的預設身高。
+*「'''重置姿勢'''」（'''Release Poses'''）：可以重置 [[Special:MyLanguage/Physbones|Physbones]] 的姿勢。
+*「'''重置角色'''」（'''Reset Avatar'''）：可以重置角色的所有設定，包括 Physbones 以及其他已儲存的設定。
+*「'''舊版手勢'''」（'''Legacy Fingers'''）：若將這個功能關閉，則該角色的手勢動畫，將改為以 SteamVR 骨架資料驅動的動畫。
+
+<span id="Emojis_&amp;_Stickers"></span>
+===表情符號及貼圖===
+
+''詳細資訊請參考[[Special:MyLanguage/Emojis|表情符號]]、[[Special:MyLanguage/Stickers|貼圖]]的條目。''
+
+「'''表情符號'''」（'''Emoji'''）、「'''貼圖'''」（'''Stickers'''）子選單，是用戶發送及張貼表情符號、貼圖的主要方式。在發送表情符號時，會在用戶周圍的空中顯示動畫效果；貼圖則是可以張貼在[[Special:MyLanguage/Worlds|世界（Worlds）]]的任意處。
+
+===物件===
+''詳細資訊請參考[[Special:MyLanguage/Items|物件]]的條目。''
+
+「'''物件'''」（'''Items'''）的子選單用於管理物品；這些物品可以在世界中生成或放置。
+
+<span id="Tools"></span>
+===工具===
+
+「'''工具'''」（'''Tools'''）子選單，是集中常用功能的選單，而這些工具包括：
+
+*[[Special:MyLanguage/Mirrors#Personal Mirror|個人鏡子（Personal Mirror）]]
+*[[Special:MyLanguage/Mirrors#Face Mirror|臉部鏡子（Face Mirror）]]
+*[[Special:MyLanguage/Chatbox|對話框（Chatbox）]]
+*[[Special:MyLanguage/Camera|相機（Camera）]]
+
+<span id="Options"></span>
+===選項===
+
+在「'''選項'''」（'''Options'''）的子選單內建多個設定選項，包括「'''動作選單'''」（'''Action Menu'''）、「[[Special:MyLanguage/Nameplates|名牌（Nameplates）]]」、「'''角色'''」等功能選項。
+
+<span id="Using_the_Action_Menu"></span>
+==使用動作選單==
+
+[[File:PuppetMenu.gif|thumb|動作選單使用範例如下：]]
+
+<span id="Selection_Methods"></span>
+===選取方式===
+
+你可以透過以下步驟來啟用或停用選取方式。步驟依序為開啟「'''動作選單'''」後，點擊在「'''選項'''」中的子選項「'''動作選單'''」，在這個頁面中可以啟用或關閉「'''滑動選取'''」（'''Flick Select'''）的功能。
+
+<span id="Flick_Select"></span>
+====滑動選取====
+
+在啟用「'''滑動選取'''」功能選項後，只要將搖桿推向你想選擇的選項，推到一半時將浮現選取提示框，而再將搖桿推到底後，便可觸發這個選項並打開頁面。
+
+<span id="Pick_Select"></span>
+====點擊選取====
+
+在啟用「'''點擊選取'''」功能選項後，將搖桿推向你想選擇的選項，再扣下扳機鍵（PC 模式下請使用滑鼠左鍵），便可觸發這個選項。
+
+<span id="Closing_and_Saving"></span>
+===關閉與儲存===
+
+如果要關閉「'''動作選單'''」、「'''表情符號'''」或從其他子選項頁面返回，可點擊位在圓形選單上方的「'''返回'''」（'''Back'''）。執行與開啟動作選單相反的操作也可關閉選單，並且會記憶你先前在使用的頁面，再次開啟時，圓形選單將會回到你關閉選單前，正在瀏覽的頁面。
+
+<span id="Gallery"></span>
+==相簿==
+
+<gallery heights="100">
+File:Action Menu.png|動作選單的「'''主選單'''」（'''Main'''）頁面。
+File:Emojis-sticker-submenu.png|動作選單的「'''表情符號＆貼紙'''」（'''Emojis & Stickers'''）頁面。
+File:Action Menu Emojis.png|動作選單的「'''表情符號'''」（'''Emojis'''）頁面。
+File:Action Menu Tools.png|動作選單的「'''工具'''」（'''Tools'''）頁面。
+File:Action Menu Quick Actions.png|動作選單的「'''快速選項'''」（'''Quick Actions'''）頁面。
+File:Action Menu Expressions.png|動作選單的「'''角色控制'''」（'''Expressions'''）頁面。
+File:Action Menu Nameplates.png|動作選單的「'''名牌'''」（'''Nameplates'''）頁面。
+File:Action Menu Personal Mirror.png|動作選單的「'''個人鏡子'''」（'''Personal Mirror'''）頁面。
+File:Action menu Actions menu.png|動作選單的「'''動作選單設定'''」頁面。
+</gallery>
+
+<span id="Resources"></span>
+==官方資源==
+
+  
+
+*docs.vrchat.com 上的「[https://docs.vrchat.com/docs/action-menu 動作選單]」說明。（英文）
+*YouTube 上的「[https://www.youtube.com/shorts/PZsOQTLvPAc 什麼是動作選單？]」影片。（英文）
+
+<span id="Navigation"></span>
+==導覽==
+{{Navbox/Menus}}
+[[Category:User Interface{{#translation:}}]]
+[[Category:Menus{{#translation:}}]]

@@ -1,0 +1,26 @@
+<noinclude><languages/></noinclude><includeonly><infobox type="World" theme="community">
+	<title source="name"><default>'''Missing name!'''</default></title>
+	<image source="image"><default>[[File:Placeholder.webp|Missing thumbnail image!]]</default></image>
+	<group>
+        <data source="author"><label>作者</label><default>'''Missing author!'''</default></data>
+        <data source="developers"><label>開発者</label></data>
+        <data source="capacity"><label>人数</label></data>
+        <data source="platforms"><label>プラットフォーム</label></data>
+        <data source="tags"><label>タグ</label></data>
+        <data source="languages"><label>言語</label></data>
+        <data source="id"><label>ワールドリンク</label>
+           <default>'''Missing world ID!'''</default>
+           <format>{{World link|{{{id}}}|{{{name}}}}}</format></data>
+    </group>
+    <group>
+        <header>ワールドの歴史</header>
+        <data source="labs">
+            <label>ラボに公開した日</label>
+            <format>{{#timel: Y"年"Fd"日" | {{{labs}}} }}</format>
+        </data>
+        <data source="published">
+            <label>公開した日</label>
+            <format>{{#timel: Y"年"Fd"日" | {{{published}}} }}</format>
+        </data>
+    </group>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}[[Category:Worlds{{#translation:}}]]</includeonly><noinclude>{{Documentation}}[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>

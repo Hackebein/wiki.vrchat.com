@@ -1,0 +1,383 @@
+<languages/>
+{{Noticebox/Official}}
+[[File:Groups Render.webp|thumb|Render del logo della funzionalità "Gruppi".]]
+I '''Gruppi''' sono una funzione che mira a creare e a rendere più coese le comunità di VRChat.
+
+Tipicamente un gruppo è fondato al fine di riunire un insieme di persone interessate ad un determinato argomento; se questo gruppo diventa grande abbastanza, è possibile che si generi una [[Special:MyLanguage/Community:Culture|cultura]], e, molto spesso, che vengano ospitati eventi in istanze di gruppo, per i membri. I membri di un gruppo hanno la possibilità di rappresentarlo, mostrando lo stendardo del gruppo sulla loro targhetta e profilo. La funzione "Gruppi" è stata rilasciata il [https://hello.vrchat.com/blog/vrchat-groups 30 Novembre 2022].
+
+<span id="Joining_a_group"></span>
+== Unirsi ad un gruppo==
+
+Per unirsi a un gruppo è possibile cercare nella pagina di Ricerca o nella pagina dei Gruppi nel [[Special:MyLanguage/Main Menu|Menù Principale]]. 
+Ogni utente può unirsi ad un massimo di 100 gruppi, ma con un abbonamento attivo a [[Special:MyLanguage/VRC+|VRC+]] questo numero sale a 200.
+
+L'adesione è inoltre possibile tramite navigazione dei gruppi a cui un utente qualsiasi è membro, o cliccando su poster pubblicitari in un qualsiasi mondo. Una volta entrato in un gruppo, potrai unirti alle istanze esclusive tramite la pagina '''Istanze''' sulla schermata del gruppo, o nella riga "Attività dei Gruppi" nella pagina Social.
+
+<span id="Representing"></span>
+===Rappresentare un gruppo===
+
+Rappresentare un gruppo mostra il nome e lo stendardo del gruppo sulla propria targhetta e sul proprio profilo. Per rappresentare, è necessario andare sulla pagina del gruppo sul menù principale e cliccare il pulsante intitolato: "Rappresenta Gruppo", in alto a destra. È possibile rappresentare un singolo gruppo alla volta.
+
+<span id="Membership_visibility"></span>
+===Visibilità adesione===
+
+Anche se un membro di un gruppo può decidere di nascondere la propria affiliazione ad esso, questo sarà lo stesso visibile ad altri se soddisfatte le seguenti condizioni:
+
+*Condividono l'appartenenza allo stesso gruppo.
+*L'utente visualizzatore ha il permesso "Vedi Tutti I Membri" attivo.
+
+[[File:VRChat VisibilitaGruppo.png|thumb|150x150px|Opzioni visibilità gruppo]]
+
+Puoi cambiare la visibilità dell'adesione ad un gruppo direttamente dall'applicazione di VRChat, andando nella sezione Gruppo, selezionando il gruppo e cliccando l'icona ad ingranaggio in alto a destra. Questo farà comparie una finestra denominata '''Impostazioni Gruppo''', in cui puoi cambiare la visibilità del grupo in qualsiasi momento.
+
+Il processo è replicabile sul sito di VRChat, andando nel menù laterale, cliccando sul pulsante denominato "Groups", selezionando il gruppo, andando poi nelle impostazioni del gruppo premendo su '''Settings''' e scegliendo l'opzione '''Visibility'''.
+{| class="wikitable"
+!Visibile
+|Il gruppo è visibile a tutti, ed è mostrato sul tuo profilo.
+|-
+!Solo Amici
+|Il gruppo è visibile solo ai tuoi amici, ed è mostrato sul tuo profilo.
+
+|-
+!Nascosto
+|Il gruppo non è visibile.
+|}
+
+<span id="Creating_a_group"></span>
+==Creare un gruppo==
+
+Per creare un gruppo, un utente deve avere un abbonamento attivo a [[Special:MyLanguage/VRChat+|VRC+]]. Un abbonamento attivo non è necessario per ritenere la proprietà di un gruppo, ma è necessario per trasferirla ad un altro utente, per cambiare l'icona, lo stendardo e modificare la galleria del gruppo tramite la [[Special:MyLanguage/Gallery|Galleria]] di VRC+. Attualmente, per creare un gruppo è necessario visitare il {{VRC link|https://vrchat.com/home/groups|sito di VRChat}}. Un utente può possedere un massimo di 5 gruppi, a cui un massimo di 100.000 utenti possono unirsi, ciascuno.
+
+<span id="Joinability_and_visibility"></span>
+===Criteri d'entrata e visibilità===
+
+Quando si crea un gruppo, il sistema presenterà il creatore con alcune impostazioni di privacy. I '''criteri d'adesione''' determinano la capacità di un utente di unirsi al gruppo. Quest'impostazione può essere cambiata in seguito.
+{| class="wikitable"
+!Accesso Libero
+|Chiunque può unirsi al gruppo liberamente.
+|-
+!Richiesta Necessaria
+|I nuovi membri aspetteranno la conferma di una persona con i permessi per potersi unire.
+
+|-
+!Ad Invito
+
+|Solamente coloro con i permessi necessari potranno invitare altri utenti ad unirsi.
+|}
+La '''visibilità''' determina se il gruppo verrà visualizzato sul profilo dei membri. Quest'impostazione '''NON''' può essere cambiata in seguito.
+{| class="wikitable"
+!Pubblico
+|I membri possono scegliere se rappresentare il gruppo sul loro profilo.
+|-
+!Privato
+|I membri non possono mostrare o rappresentare il gruppo.
+|}
+Come già menzionato in precendenza, i singoli utenti possono scegliere se mostrare il gruppo sul loro profilo tramite le impostazioni di Visibilità.
+
+<div class="mw-translate-fuzzy">
+===Banner di gruppo===
+Un banner personalizzato può essere caricato tramite le relative impostazioni sul sito. L'immagine caricata non è mostrata interamente una su coloro che rappresentato il gruppo, sopra gli avatar, ma in parte. Quando il Menù Rapido è aperto il banner sarà mostrato interamente.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The banner can be uploaded and selected on the VRChat Home website. However, the uploaded image is cropped in different ways depending on where it is shown.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Community member Reava has created [https://github.com/Reava/Resources/releases/tag/Guide a guide] that can help people creating a banner to ensure that the most important parts show in the UI when needed.
+</div>
+
+<span id="Group_roles_and_permissions"></span>
+==Ruoli e permessi gruppo==
+{{Anchor|Group roles and permissions}}
+
+<span id="Viewing_your_roles"></span>
+===Visualizzare i tuoi ruoli===
+
+Anche se attualmente non è possibile effettuare modifiche ai ruoli dall'interno del client di VRChat, puoi lo stesso vedere i ruoli applicati al tuo account nel [[Special:MyLanguage/Main Menu|Menù Principale]], clicca sulla sezione Gruppi, poi sul gruppo interesssato. C'è una piccola icona a forma di 'ingranaggio', in alto a destra del menù, che apre le '''Impostazioni del Gruppo'''. La cima della finestra ti permetterà di visualizzare i ruoli su di te applicati nel gruppo selezionato.
+
+<span id="Default_roles"></span>
+===Ruoli predefiniti===
+
+[[File:Groups default roles.png|thumb|253x253px|Elenco ruoli]]
+
+I ruoli sono raggruppati in tre categorie: '''Ruoli Gestione''', '''Ruoli Membri''', e '''Ruoli Predefiniti'''. Automaticamente, alla creazione di un nuovo gruppo, saranno presenti tre ruoli: '''Tutti''', che cade sotto la categoria 'Ruoli Predefiniti', '''Membro''', che cade sotto la categoria '''Ruoli Membri''' e '''Proprietario Gruppo''', che fa parte della categoria 'Ruoli Gestione'. Il nome per i ruoli 'Proprietario Gruppo' e 'Membro' possono essere cambiati, non vale però per 'Tutti', esso non è modificabile e non può essere eliminato.
+
+I permessi del proprietario del gruppo non possono essere cambiati o rimossi in alcuna maniera. La proprietà del gruppo può essere trasferita ad un altro utente membro a patto che entrambi posseggano un abbonamento attivo a VRC+. Ogni trasferimento di proprietà è irreversibile, è quindi consigliata la presa in considerazione di quanto potrebbe scaturirne dal trasferimento. Leggi a riguardo del Cambio proprietario qui sotto. 
+
+<span id="Creating_roles"></span>
+===Creare ruoli===
+
+I ruoli possono essere aggiunti, rinominati o eliminati in qualsiasi momento dalla gestione del gruppo. Ogni ruolo può avere una descrizione ed un insieme di permessi personalizzabili. I ruoli possono essere impostati come: '''Assegnati all'Unione''',  '''Auto Assegnabili''', o che '''Richiedono il 2FA'''.
+
+È possibile assegnarsi i ruoli Auto Assegnabili tramite il sito di VRChat. Per gli utenti che usfruiscono di account piattaforma, come quelli di Steam o Meta, necessiteranno la [[Special:MyLanguage/Getting Started#Account Creation|creazione di un account VRChat]] per poter accedere al sito di VRChat. 
+{| class="wikitable"
+|+
+!Funzione
+!Descrizione
+|-
+|Assegna All'Entrata
+|<small>Se abilitato, questo ruolo sarà assegnato a coloro appena entrati nel gruppo. Questo non avrà effetto sui già membri.</small>
+|-
+|Auto Assegnabili
+
+|<small>Permette ai membri del gruppo di assegnarsi da soli questo ruolo.</small>
+|-
+|Richiede il 2FA
+|<small>Richiede ai membri di avere il 2FA attivo per poter entrare.</small>
+|}
+
+[[File:Groups permissions overview.png|thumb|Alcuni dei permessi assegnabili, come nelle Opzioni Gestione Gruppo]]
+
+<span id="Assigning_permissions"></span>
+===Assegnare permessi===
+
+Per assegnare i permessi per un ruolo, un manager del gruppo deve effettuare l'accesso sul sitoweb di VRChat e navigare nella pagina Permessi. 
+
+*Step 1: Cliccare si '''Groups''' sulla barra sinistra del sito. 
+
+*Step 2: Clicca su un gruppo che puoi modificare o in cui puoi cambiare i permessi. 
+
+*Step 3: Ci sono diverse funzioni a cui un manager di gruppo può accedere, come Overview, Posts, etc. Premi sulla sezione denominata '''Settings'''. 
+
+*Step 4: Premi su '''Roles''', sotto quella sezione. 
+
+*Step 5: Premi sul ruolo a cui vuoi modificare i permessi e premi '''Permissions''' con l'icona a lucchetto. 
+
+<div class="mw-translate-fuzzy">
+* Step 6: Applica i permessi sottostanti, scorri alla fine della pagina e '''premi Save'''.
+{| class="wikitable"
+|+
+!Permesso
+!Funzione
+|-
+|Gestire Dati Membro Gruppo
+|<small>Permette al ruolo di vedere, filtrare per ruolo, e ordinare e modificare i dati di ogni utente.</small>
+|-
+|Gestire Dati Gruppo
+|<small>Permette al ruolo di modificare i connotati del gruppo (nome, descrizione, joinState, etc).</small>
+|-
+|Visualizza Log Audit
+|<small>Permette al ruolo di visualizzare l'intero log audit.</small>
+|-
+|Gestire Ruoli Gruppo
+|<small>Permette al ruolo di creare, modificare ed eliminare ruoli.</small>
+|-
+|Gestire Permessi Ruolo Predefinito
+|<small>Permette al ruolo di modificare i permessi per il ruolo predefinito (il ruolo Tutti). Richiede “Gestisci Ruoli Gruppo”.</small>
+|-
+|Assegnare Ruoli Gruppo
+|<small>Permette di gestire l'assegnazione dei ruoli agli utenti. Richiede “Gestisci Dati Membri Gruppo”.</small>
+|-
+|Gestire Espulsioni Gruppo
+|<small>Permette al ruolo di bandire/riammettere un utente dal gruppo. Richiede “Gestisci Dati Membri Gruppo”.</small>
+|-
+|Rimuovere Membri Buppo
+|<small>Permette di rimuovere chiunque dal gruppo. Richiede “Gestisci Dati Membri Gruppo”.</small>
+|-
+|Visualizza Tutti i Membri
+|<small>Permette al ruolo di visualizzare tutti i membri del gruppo, non solo gli amici.</small>
+|-
+|Gestire Annunci Gruppo
+|<small>Permette al ruolo di creare e rimuovere annunci del gruppo, sotto forma di notifica.</small>
+|-
+|Gestire Galleria Gruppo
+|<small>Permette al ruolo di creare, riordinare, modificare, eliminare gallerie del gruppo. Permette inoltre di accettare o rifiutare richieste di aggiunta ad una galleria.</small>
+|-
+|Gestire Inviti Gruppo
+|<small>Permette al ruolo di creare o canellare inviti e di accettare, rifiutare o bloccare le richieste di adesione al gruppo.</small>
+|-
+|Moderare Istanza Gruppo
+|<small>Permette al ruolo di moderare un'istanza del gruppo, dandogli accesso a funzionalità di moderazione.</small>
+|-
+|Gestire Istanze Gruppo
+|<small>Permette al ruolo di chiudere un istanza del gruppo.</small>
+|-
+|Priorità Code Istanze Gruppo
+|<small>Da al ruolo la priorità in una coda per l'accesso ad un'istanza del gruppo.</small>
+|-
+|Crea Istanze Con Limiti d'Età
+|<small>Permette al ruolo di creare istanze che richiedono un'età verificata e o maggiorenne e di essere maggiorenni per entrarvi.</small>
+|-
+|Creare Istanze Pubbliche Gruppo 
+|<small>Permette al ruolo di creare istanze aperte a tutti, membri o no. NOTA: Gruppi privati non possono creare istanze pubbliche.</small>
+|-
+|Creare Istanze Gruppo+
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Member Data||<small>Allows role to view, filter by role, and sort all members and edit data about them.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Data||<small>Allows role to edit group details (name, description, joinState, etc).</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View Audit log||<small>Allows role to view the full group audit log.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Roles||<small>Allows role to create roles, modify roles, and delete roles.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Default Role||<small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Assign Group Roles||<small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Bans||<small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Remove Group Members||<small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View All Members||<small>Allows role to view all members in a group, not just friends.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Announcement||<small>Allows role to set/clear group announcement and send it as a notification.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Calendar||<small>Allows role to create, modify, and publish calendar entries.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Galleries||<small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Invites||<small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Moderate Group Instance||<small>Allows role to moderate within a group instance.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Instances||<small>Allows role to close an group instance.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Group Instance Queue Priority||<small>Gives role priority for group instance queues.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Age Gated Instances||<small>Allows role to create group instances that require users to have age verified in order to join.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Linked Instances||<small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group Public Instances||<small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group+ Instances||<small>Allows role to create group instances that friends of people present can also join.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Members-Only Group Instances||<small>Allows role to create members-only instances.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Role-Restrict Members-Only Instances||<small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Portal to Group+ Instances||<small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Unlocked Portal to Group+ Instances||<small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Join Group Instances||<small>Allows role to join group instances.</small>
+|}
+</div>
+
+<span id="Group_instances"></span>
+==Istanze gruppo==
+
+Il proprietario di un gruppo e coloro con i permessi necessari, possono creare un'istanza di gruppo. Ci sono tre tipi di istanze di gruppo.
+{| class="wikitable"
+!Gruppo
+|Solo i membri del gruppo, o coloro con un ruolo specifico, se specificato, possono unirsi.
+|-
+!Gruppo+
+|Qualsiasi amico di un utente nell'istanza può unirsi. L'adesione al gruppo da parte dei partecipanti non è necessaria.
+|-
+!Gruppo Pubblica
+|Un istanza visibile ed accessibila da tutti. L'adesione al gruppo da parte dei partecipanti non è necessaria.
+|}
+Le istanze di un gruppo possono essere '''moderate dal gruppo proprietario dell'istanza'''. Coloro con i permessi necessari, saranno capaci di avvertire, silenziare, espellere o bandire un utente nell'istanza. Bandire un utente da un gruppo impedisce a questi di entrare in qualsiasi Istanza futura di tale gruppo, come anche di rientrare nel gruppo in sè.
+
+<span id="Group_instance_queues"></span>
+===Code per istanza gruppo===
+
+Le istanze di gruppo sono un'ottima maniera per gestire eventi ad alta densità di persone. Per situazioni in cui il numero di partecipanti supera la capienza massima dell'istanza, una '''Coda di Gruppo''' sarà creata per gestire l'afflusso eccessivo, creando una coda LIFO (Last In First Out), in cui coloro che aspettano da più tempo riceveranno l'accesso all'istanza, una volta che uno spazio si crea, ricevendo un invito. Una volta ricevuto l'invito, si avrà un minuto per accedere, al termine del quale, il proprio posto sarà dato ad un'altra persona.
+
+<span id="Transferring_a_group"></span>
+==Cambiare proprietario del gruppo==
+
+Dal 27 Maggio 2024<ref>https://ask.vrchat.com/t/developer-update-28-march-2024/23676</ref>, i proprietari di un gruppo possono trasferirne la proprietà ad un altro membro a patto che entrambi dispongano di un abbonamento attivo a VRC+ ed abbiamo spazio disponibile. Il trasferimento, una volta effettuato, è finale, non è possibile annullarlo.
+
+'''Puoi trasferire la proprietà del gruppo ad un altro membro del gruppo; il membro scelto e il proprietario dovranno seguire i seguenti requisiti:''' 
+*Il membro scelto deve avere la sua email verificata (guarda la sezione Email nelle impostazioni account).
+* Il membro scelto deve avere un abbonamento attivo a VRChat+.
+*Il membro scelto deve avere lo spazio necessario (ogni utente può possedere un massimo 5 gruppi).
+*Il gruppo non è monetizzato.
+
+<span id="Official_resources"></span>
+==Risorse ufficiali==
+
+* [https://www.youtube.com/watch?v=b6c_kDRJG2A Aggiornamento Sviluppo - Gruppi] su ''YouTube'', pubblicato il 30 Novembre 2022.
+*{{VRC link|https://hello.vrchat.com/blog/vrchat-groups|Gruppi ora Live!}} su ''hello.vrchat.com''
+*{{VRC link|https://help.vrchat.com/hc/en-us/sections/11719560642963-VRChat-Groups|FAQ sui Gruppi VRChat}} su ''help.vrchat.com''
+
+<span id="Trivia"></span>
+==Curiosità==
+
+* "Just Bread Group" ([https://vrc.group/TOASTY.1234 TOASTY.1234]) fu il primo gruppo creato.
+* Il motivo della sua creazione è dovuto alla necessità di testare il sistema<ref>https://x.com/VRChat/status/1747389673154949626</ref> dovuto alla maniera in cui i dati nel database sono organizzati, in maniera tale da garantire la massima performance, e che quindi necessitava, al lancio della funzionalità, di un gruppo iniziale.
+
+<span id="References"></span>
+==Riferimenti==
+
+<references />
+
+[[Category:Features{{#translation:}}]]

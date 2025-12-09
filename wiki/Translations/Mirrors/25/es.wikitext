@@ -1,0 +1,5 @@
+Los creadores pueden reducir el costo de rendimiento de los espejos de varias maneras, como:
+* Desactivando todos los espejos por defecto. Solo activar un espejo cuando el usuario presione un botón o se acerque físicamente a él.
+* Desactivando los espejos cuando un usuario abandone el área. Esto eliminará el costo de renderizado del espejo cuando un jugador no lo esté usando. Los usuarios a menudo no hacen esto por sí mismos, así que usa un script para hacerlo por ellos.
+* Considerando la ubicación de los espejos. Un espejo que mira hacia afuera del centro del mundo tendrá que renderizar menos que uno que mira hacia adentro.
+* Cambiando las [[Special:MyLanguage/Layers{{#translation:}}|capas]].

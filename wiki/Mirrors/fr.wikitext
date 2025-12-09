@@ -1,0 +1,78 @@
+<languages/>
+{{Noticebox/Official}}
+{{stub|Resources heading is empty. Proofread according to [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]].}}
+[[File:Mirrors.webp|thumb|Un groupe de personnes socialisant devant un miroir.]]
+Les '''miroirs''' sont des surfaces réflectives qui permettent aux utilisateurs de voir une image réfléchie de leur avatar aux côtés d'autres utilisateurs ou du monde où ils se trouvent, dépendant des paramètres du monde. De nombreux mondes possèdent des miroirs ayant pour but de permettre aux utilisateurs de s'y asseoir tout en socialisant. Cette activité est plus communément appelée « Mirror Dwelling ». Les utilisateurs sont aussi en capacité d'utiliser un miroir personnel qui leur est uniquement visible. 
+
+<span id="World_prefab"></span>
+=== préfab de monde ===
+
+Le [[Special:MyLanguage/VRChat SDK|SDK VRchat]] contient un préfab de miroir prêt à utiliser qui peut être glissé dans la scène. Ce préfab peut être trouvé sur le chemin suivant :<br>
+<code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code>
+<span id="Types_of_mirror"></span>
+=== Types de miroirs ===
+
+<span id="Personal_Mirror"></span>
+==== Miroir personnel ====
+
+Un miroir personnel est un type de miroir pouvant être utilisé, déplacé et visible uniquement par son utilisateur. 
+
+Il peut être activé et modifié via la page du [[Special:MyLanguage/Action Menu|menu d'action]] ou du [[Special:MyLanguage/Main Menu|menu principal]].
+
+<span id="Face_Mirror"></span>
+==== Miroir facial ====
+
+Un miroir facial est un type de miroir qui affiche le visage de l'avatar de l'utilisateur sur son [[Special:MyLanguage/HUD|ATH]]. Les miroirs facials sont conçus pour aider les utilisateurs à rester conscients des expressions faciales de leur avatar, plus particulièrement si ceux-ci sont contrôlés par des gestes. Contrairement à un miroir traditionnel, le miroir facial ne représente pas la notion de profondeur.
+
+Il peut être activé et modifié via la page du [[Special:MyLanguage/Action Menu|menu d'action]] ou du [[Special:MyLanguage/Main Menu|menu principal]].
+
+<span id="Calibration_Mirror"></span>
+==== Miroir de calibration ====
+
+Un miroir de calibration est un type de miroir qui s'active automatiquement lorsque l'utilisateur appuie sur le bouton « Calibrer ». Il n'est visible que pour l'utilisateur qui se calibre et disparaît une fois celle-ci effectuée. Le miroir de calibration ne fait qu'afficher l'avatar de l'utilisateur, ses manettes et modèle des traqueurs qui peuvent être définis dans les paramètres du menu principal. Si « Afficher les visuels de calibration » est activé dans « Suivi et CI », le miroir de calibration les reflètera, affichant quel point de suivi sera suivi par les traqueurs lorsque la calibration sera finie.
+
+Il peut être activé et modifié via la page du [[Special:MyLanguage/Action Menu|menu d'action]] ou du [[Special:MyLanguage/Main Menu|menu principal]]. Aucune option de configuration n'est disponible pour le miroir de calibration.
+
+<span id="Common_setups"></span>
+== Mise en place commune ==
+
+Le préfab du miroir permet de sélectionner quelle couche doit être reflétée. Pour cette raison, il est courant que les mondes aient défini différents miroirs afin d'intervertir entre chacune des couches. Raison pour laquelle ils sont généralement divisés en trois options : Haute qualité, basse qualité et transparent. Certains mondes offrent même un nombre plus important d'options.
+
+<span id="High_quality"></span>
+=== Haute qualité ===
+
+Un miroir de haute qualité agit comme dans la vraie vie, reflétant le monde et les avatars tout autour depuis sa perspective.
+
+<span id="Low_quality"></span>
+=== Basse qualité ===
+
+Un miroir de basse qualité reflète généralement les avatars tout autour à plus faible résolution et remplace les réflexions du monde par la skybox.
+
+=== Transparent ===
+
+Un miroir transparent reflète généralement les avatars tout autour, tout en agissant comme une fenêtre, affichant ce qui s'y trouve derrière, ainsi qu'une légère réflexion du monde depuis sa perspective. Cela nécessite une mise en place spéciale qui est aussi disponible via les préfabs de miroir transparent de la communauté.
+
+<span id="Performance_issues"></span>
+== Problèmes de performances ==
+
+Chaque objet reflété dans un miroir doit être rendu à nouveau, séparément de ce que l'utilisateur perçoit dans le monde. Un miroir qui reflète l'entièreté du monde double les coûts en performance dû au rendu du monde. L'occlusion ne fonctionnant pas avec la réflexion des miroirs, ceux faisant face à un mur tenteront tout de même d'effectuer un rendu de ce qui se trouve derrière ce mur.
+
+Les créateurs peuvent réduire les coûts en performances de plusieurs manières, telles que : 
+* Désactiver tous les miroirs par défaut. N'activer qu'un miroir lorsqu'un utilisateur appuie sur un bouton ou s'y approche physiquement.
+* Désactiver les miroirs lorsqu'un utilisateur quitte la zone. Cela réduira les coûts en performances lorsqu'un utilisateur ne l'utilise pas. Les utilisateurs ne le feront sûrement pas d'eux-mêmes, utilisez donc un script pour le faire à leur place.
+*Prenant en compte le placement des miroirs, un miroir qui ne fait pas face au centre du monde aura moins de rendu à effectuer.
+
+ Un miroir reflète. Un miroir n'effectue qu'un rendu des objets sur des couches définies. Par exemple, si vous avez un grand monde ouvert avec des maisons en son centre, vous pourrez voir les objets extérieurs environnants sur la couche de l'environnement, puis désactiver celle-ci sur les miroirs situés dans les maisons. Cela empêchera les miroirs d'essayer d'effectuer un rendu de l'environnement qui n'est pas visible. Lors d'une interaction avec un miroir, les utilisateurs vont pouvoir activer ou désactiver différentes options pour économiser des performances, telles que :
+
+* N'utiliser qu'un miroir à la fois.
+* Choisir une qualité plus basse si disponible.
+* Autrement, opter pour le miroir personnel.
+* Ajuster la résolution du miroir via les paramètres dans [[Special:MyLanguage/Settings#Graphics|Graphismes]]
+
+<span id="Resources"></span>
+== Ressources ==
+
+[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ 
+Documentation des créateurs VRChat - VRC Mirror Reflection]
+
+[[Category:Features]]

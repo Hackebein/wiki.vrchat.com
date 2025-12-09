@@ -1,0 +1,2 @@
+Un espejo refleja. Un espejo solo renderiza objetos en las capas definidas. Por ejemplo, si tienes un mundo grande al aire libre con una casa en el centro, podrías asignar los objetos del entorno exterior a la capa de entorno, y luego desactivar la capa de entorno en los espejos dentro de la casa. Esto evitará que los espejos intenten renderizar el entorno que no pueden ver.
+Al interactuar con un espejo en un mundo, los usuarios podrán activar o alternar diferentes opciones para ahorrar en rendimiento, como:

@@ -1,0 +1,90 @@
+<languages/>
+
+<translate>
+<!--T:1-->
+Welcome to VRCWiki Contributor HQ, which is intended to provide a collection of useful information for those who would like to participate in this wiki.<br>Visit the [[Special:MyLanguage/VRCWiki:How to Contribute|'''How to Contribute''']] page for a quick guide on how to get started.
+</translate>
+
+<translate>
+<!--T:2-->
+== Useful pages ==
+The following is a list of useful resources to get started as a contributor. Please be sure to read all the rules and policies, and check the guides on how to contribute, and check out pages that are listed as needing attention.
+</translate>
+<div style="display:flex;flex-flow:row wrap;justify-content:space-between;">
+<div style="padding: 0 10px;">
+<translate>
+<!--T:3-->
+=== Contribution guides ===
+* [[Special:MyLanguage/VRCWiki:How_to_Contribute|How to Contribute]]
+** [[Special:MyLanguage/Guides:How_to_edit_and_create_VRChat_Wiki_pages|Page creation and editing guide]]
+* [[Special:MyLanguage/VRCWiki:Manual_of_Style|Style Guide]]
+* [[Special:MyLanguage/VRCWiki:Translation|How to Translate]]
+* [[Special:MyLanguage/VRCWiki:Useful_Templates|Useful Templates]]
+</translate>
+</div>
+<div style="padding: 0 10px;">
+
+<translate>
+<!--T:4-->
+=== Rules and policies ===
+* [[Special:MyLanguage/VRCWiki:Guidelines|Wiki Rules and Guidelines]]
+* [[Special:MyLanguage/VRCWiki:Conflicts_of_interest|Conflict of Interest Policy]]
+* [[Special:MyLanguage/VRCWiki:Neutral_point_of_view|Neutral Point of View Policy]]
+* [[Special:MyLanguage/VRCWiki:Notability|Notability Policy]]
+* [[Special:MyLanguage/VRCWiki:Disciplinary_policy|Disciplinary Policy]]
+* [[Special:MyLanguage/VRCWiki:Roles|User Role Policies and Expectations]]
+</translate>
+</div>
+<div style="padding: 0 10px;">
+<translate>
+<!--T:5-->
+=== Useful information ===
+* [[VRCWiki:Team|VRCWiki Team]]
+* [[VRCWiki:Changelog|VRCWiki Changelog]]
+* [[Special:BlockList|Blocked User List]]
+* [[Special:NewPages|Newly Created Pages]]
+* [[Special:WantedPages|Wanted Pages]]
+* [https://discord.gg/ZNNds82Nht VRCWiki Discord]
+</translate>
+</div>
+<div style="padding: 0 10px;">
+
+<translate>
+<!--T:6-->
+=== Pages needing attention ===
+* [[Special:MyLanguage/:Category:Empty|Empty Pages]]
+* [[Special:MyLanguage/:Category:Stubs|Incomplete Pages]]
+* [[Special:MyLanguage/:Category:Proofread|Pages to Proofread]]
+* [[Special:MyLanguage/:Category:Needs_Images|Pages that need Images]]
+</translate>
+</div>
+<div style="padding: 0 10px;">
+
+<translate>
+<!--T:7-->
+=== Pages for Maintainers ===
+* [[VRCWiki:Maintainers_Noticeboard|Maintainers Noticeboard]]
+* [[Special:UserRights|Permission Setting]]
+* [[Special:PageTranslation|Pages for Translation]]
+* [[Special:PagePreparation|Prepare page for translation]]
+</translate>
+</div>
+</div>
+
+<translate>
+<!--T:8-->
+== Noticeboard ==
+=== Recent discussions ===
+==== Content ====
+Recent discussions on Main, Community, and Guide namespaces will appear below:
+{{Special:RecentChanges/days=120,limit=5,namespace=1;3001;3101,hidebots=1}}
+==== Wiki ====
+Recent discussions on VRCWiki, File, MediaWiki, and Template namespaces will appear below:
+{{Special:RecentChanges/days=120,limit=5,namespace=5;7;9;11;,hidebots=1}}
+
+<!--T:9-->
+=== Discussions needing attention ===
+If there are ongoing discussions needing attention or other matters of note, you can add them here.
+</translate>
+* [[VRCWiki:Notability|Notability]] - Notability requirements for various content types.
+* [[VRCWiki_talk:Conflicts_of_interest|Conflict of Interest]] - Conflict of Interest.

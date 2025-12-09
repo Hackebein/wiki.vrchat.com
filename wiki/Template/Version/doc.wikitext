@@ -1,0 +1,89 @@
+This template displays versions of clients, SDK's, and other notable versioned tools/features. This template parameters should be in-sync with the [[Template:Version/Build|<nowiki>{{Version/Build}}</nowiki>]] and [[Template:Version/href|<nowiki>{{Version/href}}</nowiki>]] templates.
+
+{| class="wikitable"
+!Version
+!Example
+!Template code
+|-
+| style="text-align:center;" colspan="3" |'''<big>Client</big>'''
+|-
+|Live Main Page
+|{{Version|live-mainpage}}
+|<code><nowiki>{{Version|live-mainpage}}</nowiki></code>
+|-
+|Live
+|{{Version|live}}
+|<code><nowiki>{{Version|live}}</nowiki></code>
+|-
+|Live (Windows)
+|{{Version|live-windows}}
+|<code><nowiki>{{Version|live-windows}}</nowiki></code>
+|-
+|Live (Android)
+|{{Version|live-android}}
+|<code><nowiki>{{Version|live-android}}</nowiki></code>
+|-
+|Live (iOS)
+|{{Version|live-ios}}
+|<code><nowiki>{{Version|live-ios}}</nowiki></code>
+|-
+|Open Beta
+|{{Version|open-beta}}
+|<code><nowiki>{{Version|open-beta}}</nowiki></code>
+|-
+|Open Beta (Windows)
+|{{Version|open-beta-windows}}
+|<code><nowiki>{{Version|open-beta-windows}}</nowiki></code>
+|-
+|Open Beta (Quest)
+|{{Version|open-beta-quest}}
+|<code><nowiki>{{Version|open-beta-quest}}</nowiki></code>
+|-
+|Unity (Live)
+|{{Version|unity-live}}
+|<code><nowiki>{{Version|unity-live}}</nowiki></code>
+|-
+| style="text-align:center;" colspan="3" |'''<big>SDK</big>'''
+|-
+|SDK
+|{{Version|sdk}}
+|<code><nowiki>{{Version|sdk}}</nowiki></code>
+|-
+|SDK - Worlds
+|{{Version|sdk-worlds}}
+|<code><nowiki>{{Version|sdk-worlds}}</nowiki></code>
+|-
+|SDK - Avatars
+|{{Version|sdk-avatars}}
+|<code><nowiki>{{Version|sdk-avatars}}</nowiki></code>
+|-
+|SDK beta
+|{{Version|sdk-beta}}
+|<code><nowiki>{{Version|sdk-beta}}</nowiki></code>
+|-
+|Package Resolver
+|{{Version|package-resolver}}
+|<code><nowiki>{{Version|package-resolver}}</nowiki></code>
+|-
+|Unity (SDK)
+|{{Version|unity-sdk}}
+|<code><nowiki>{{Version|unity-sdk}}</nowiki></code>
+|-
+| style="text-align:center;" colspan="3" |'''<big>Other</big>'''
+|-
+|Creator Companion
+|{{Version|creator-companion}}
+|<code><nowiki>{{Version|creator-companion}}</nowiki></code>
+|-
+|Creator Companion beta
+|{{Version|creator-companion-beta}}
+|<code><nowiki>{{Version|creator-companion-beta}}</nowiki></code>
+|-
+|Quick Launcher
+|{{Version|quick-launcher}}
+|<code><nowiki>{{Version|quick-launcher}}</nowiki></code>
+|-
+|Impostors
+|{{Version|impostors}}
+|<code><nowiki>{{Version|impostors}}</nowiki></code>
+|}

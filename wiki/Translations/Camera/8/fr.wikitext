@@ -1,0 +1,35 @@
+== Menu ==
+* '''Prendre une photo :''' Prends une photo.
+* '''Minuteur (5s) :''' Prends une photo après un minuteur de 5 secondes.
+* '''Mode :''' Offre plus de modes pour la caméra.
+** Photo locale, Multicouche, Stream
+*** Réservé aux abonnés [[Special:MyLanguage/VRChat+|VRC+]] : Galerie de photos, Icône d'utilisateur, Autocollant, Imprimé, Émoji
+* '''Ancrage :''' Détermine à quoi l'objectif de la caméra est ancré.
+** '''Défaut :''' Ancré à la caméra.
+** '''Local :''' Ancré à l'utilisateur et suit ses mouvements.
+** '''Monde :''' Ancré au monde, indépendant de l'utilisateur.
+* '''Comportement :''' Adjusts camera performance.
+** '''Lissé :''' Stabilise les mouvements, les rendant plus fluides.
+** '''Me regarder :''' L'objectif suit les mouvements de la tête pour lui faire face.
+** '''Stabiliser l'inclinaison :''' Verrouille l'inclinaison de la caméra.
+* '''Focus :''' Contrôle la mise au point.
+** '''Automatique :''' Applique automatiquement l'ouverture et la distance focale.
+** '''Semi-auto :''' Permet d'ajuster l'ouverture.
+** '''Manuel :''' Permet d'ajuster l'ouverture et la distance focale.
+* '''Épingles :''' Paramètres sauvegardés de la mise au point et du filtre.
+* '''Masques :''' Détermine quelle couche est incluse dans la photo.
+** '''Vous :''' Inclue l'utilisateur est son avatar.
+** '''Utilisateurs :''' Inclue les autres utilisateurs.
+** '''Monde :''' Inclue le monde.
+** '''Écran vert:''' Remplace le monde par un écran vert.
+** '''Interface :''' Inclue les éléments de l'interface, tels que le menu radial et le menu de la caméra.
+** '''Objets :''' Inclue les objets placés dans le monde par les utilisateurs.
+* '''Objectif :''' Règle l'apparence de l'objectif de la caméra dans le monde.
+** '''Désactivé :''' N'affiche qu'une petite lumière.
+** '''Fantôme :''' Affiche un objectif bleu transparent.
+** '''Solide :''' Affiche un objectif opaque.
+* '''Filtres :''' Affiche des filtres à la caméra. Seul un filtre peut être appliqué à la fois.
+* '''Résolution :''' Règle la résolution des photos. Une résolution plus grande crée des fichiers plus lourds et peut causer des ralentissements. 
+* '''Grille :''' Affiche une grille 3x3 sur l'écran de la caméra, n'est pas visible sur la photo.
+* '''Verrouiller (VR seulement):''' Verrouille la caméra, l'empêchant de pouvoir être prise en main. Ne peut qu'être utilisé en VR.
+* '''Vol :''' la caméra peut être contrôlée manuellement à proximité de l'utilisateur. En maintenant la molette et en utilisant à la fois les mouvements de la souris et les touches ZQSD, la caméra peut être pilotée. En VR, cliquer sur le bouton « Vol » et presser la gâchette permet d'utiliser les joysticks pour déplacer la caméra.

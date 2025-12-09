@@ -1,0 +1,12 @@
+The owner of a group, and those with the correct permissions may create group [[Special:MyLanguage/Instances|instances]]. There are three types of group instances.
+{| class="wikitable"
+!Group
+|Only members of a group (or certain roles within the group if specified) can join the instance.
+|-
+!Group+
+|Any friend of a user in the instance can join. Group membership is not required to join the instance.
+|-
+!Group Public
+| A publicly listed instance hosted by a group to which anyone can join. Group membership is not required to join the instance.
+|}
+Group instances are often '''moderated by the group hosting the instance'''. The group's owner and those given moderation permissions through their role may warn, mute, kick or ban a user within the instance. Banning a user from a group permanently prevents them from joining any Instances made by the group, as well as joining the group itself.

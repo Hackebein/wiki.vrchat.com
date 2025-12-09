@@ -1,0 +1,139 @@
+Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts your view position. Your head points in the direction you’re looking.
+{| class="wikitable"
+! Key
+!What it does 
+|-
+|W
+| Moves user forward
+|-
+| A
+|Moves user left
+|-
+|S
+|Moves user back
+|-
+|D
+|Moves user right
+|-
+|Space
+|Makes user jump (if it is enabled in the room)
+|-
+|Z
+|Crawl/Go Prone
+|-
+|C
+|Crouch
+|-
+|R
+|Opens Action Menu
+|-
+|Escape
+|Opens Quick Menu
+|-
+|Shift
+|Sprint
+|-
+|Left Click
+|Interact / Pickup
+|-
+|Right Click (Hold)
+|Shows interaction mouse
+|-
+|Right Click
+|Drop pickup
+|-
+| Right Click (Hold) (Pickups)
+|Allows you to throw held pickups. The longer you hold, the further the object goes.
+|-
+| V (Hold) (If using push to talk)
+|Enables microphone as long as it’s held
+|-
+| V (If using toggle talk)
+|Enables / Disables microphone
+|-
+|Y
+|Opens chatbox text input
+|-
+|Tab (Hold)
+|Allows you to move your mouse around the screen without moving your avatar. (Useful for clicking UI elements)
+|-
+| End
+|Toggles AFK mode
+|-
+|Control + N
+|Cycles through visibility options of [[Special:MyLanguage/Nameplates|nameplates]]
+|-
+|Control + H
+|Toggles visibility of the [[Special:MyLanguage/HUD|HUD]] (microphone and notification icons)
+|-
+|Control + \
+|Local switch to default [[Special:MyLanguage/Robot|Robot]] [[Special:MyLanguage/avatar|avatar]] (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|RShift + Backtick + 1<sup>†</sup>
+|Toggles visibility of trigger debug menu
+|-
+|RShift + Backtick + 2<sup>†</sup>
+|Toggles visibility of information debug menu
+|-
+|RShift + Backtick + 3<sup>†</sup>
+|Toggles visibility of console debug menu
+|-
+|RShift + Backtick + 4<sup>†</sup>
+|Toggles visibility of networking debug menu
+|-
+|RShift + Backtick + 5<sup>†</sup>
+|Toggles visibility of networking graph debug menu
+|-
+|RShift + Backtick + 7<sup>†</sup>
+|Toggles visibility of networking debug overlay
+|-
+|RShift + Backtick + 8<sup>†</sup>
+|Toggles visibility of event debug overlay
+|-
+|RShift + Backtick + 9<sup>†</sup>
+|Toggles visibility of user networking debug overlay
+|-
+|F12
+|Takes screenshot, saved to the folder VRChat is installed
+|-
+|Control + F12
+|Takes screenshot at double the normal resolution, by default 4K (3840 × 2160), saved to the User’s Pictures/VRChat folder
+|-
+|Shift + F1*
+|Hand gesture - Idle
+|-
+|Shift + F2*
+|Hand gesture - Fist
+|-
+|Shift + F3*
+|Hand gesture - Open Hand
+|-
+|Shift + F4* 
+|Hand gesture - Point
+|-
+|Shift + F5*
+|Hand gesture - Victory (Peace)
+|-
+|Shift + F6*
+|Hand gesture - Rock ’n Roll
+|-
+|Shift + F7*
+|Hand gesture - Finger-gun
+|-
+|Shift + F8*
+|Hand gesture - Thumbs up
+|-
+|Shift + Escape
+|Enables Safe Mode.
+|-
+|Hold Escape During World Load
+|Locally change avatar to error robot (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|< and >
+|Rotate the user left and right in. 
+|-
+|I / K
+| Adjusts pitch of the held object (rotate along X axis)
+|-
+|J / L
+|Adjusts yaw of the held object (rotate along Y axis)

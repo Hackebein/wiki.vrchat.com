@@ -1,0 +1,1 @@
+Every object reflected in a mirror has to be rendered again, separately from what the user sees in the playable world. A mirror reflecting the whole world will double the performance cost of rendering the world. Occlusion culling does not work in mirror reflections, so a mirror facing a wall will still try to render everything behind the wall too.

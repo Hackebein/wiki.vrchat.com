@@ -1,0 +1,138 @@
+{{Noticebox/Community}}
+== Introduction ==
+'''VRChat''' has many ways of managing performance and safety within the game, Avatar '''Performance Ranks''' are one of them.<br>
+
+== Performance Ranks ==
+Ranks range from '''Very Poor''' to '''Excellent''', based on avatar complexity and resource usage in-game.<br>
+
+
+{| class="wikitable mw-collapsible"
+|+ Avatar Performance Ranks
+|-
+! Rank !! Icon !! Meaning
+|-
+| '''Excellent''' || [[File:Perf_excellent.png|114x114px]]|| '''"Excellent"''' rated avatars are highly optimized and there is minimal impact on performance.
+|-
+| '''Good''' || [[File:Perf_good.png|114x114px]]|| '''"Good"''' rated avatars are well optimized, and are generally considered safe for most users.
+|-
+| '''Medium''' || [[File:Perf_medium.png|114x114px]]|| '''"Medium"''' rated avatars are considered acceptable; May cause minor performance issues 
+|-
+| '''Poor''' || [[File:Perf_poor.png|114x114px]]|| "'''Poor"''' rated avatars are considered heavy on impact; They may cause lag or potentially crash lower-end systems. 
+|-
+| '''Very Poor''' || [[File:Perf_vpoor.png|114x114px]]|| '''"Very Poor"''' rated avatars are the most common; They are considered unsafe and are hidden by default safety settings, unless manually shown. They have a decent change at lagging low-to-mid end systems and some high-end systems. May cause crashes. These avatars '''exceed''' VRChat's performance limits in one or multiple ways.
+|}
+
+== Avatar Metrics ==
+'''VRChat''' has a unique avatar metric system that outlines the performance of each avatar, or world. An avatar's metrics are the main measurement for your Avatar's '''Performance Rank'''. These metrics measure how resource-intensive your avatar is. The more demanding the metrics are, the lower your avatar will be ranked. Lower ranks effect visibility, performance, and other user's experience.
+
+=== Metric Elements ===
+
+* '''Polygons''': These measure how complex your avatar's geometry is. A polygon count of an avatar is the number of tiny triangles that make up an avatar's 3D shape. More triangles = more detail, but more performance-intensive; Therefore more work for a system to process and render. This is also known as '''Triangle Count'''.
+* '''Materials''': Unique surface types that apply to each part of your avatar. Skin, clothing, eyes, harnesses, etc. More materials = more performance-intensive; Therefore more work for a system to process and render.
+* '''Textures''': These are image files (Such as PNGs, or JPGs), that give color and detail to the materials. Larger textures mean more detail, but make an avatar's '''size''' bigger. Bigger size means bigger download, and people may not render your avatar well. Too big of an avatar is not allowed, and cannot be uploaded.
+* '''Dynamic Bones (Physbones)''': Bones that move or "jiggle" dynamically with how the avatar itself is moving. Things such as hair, tails, ears, or small accessories may have '''Dynamic Bones'''. These can be converted and/or removed easily for avatar performance.
+* '''Meshes (skinned)''': These are meshes that deform with the bones. Things such as the body, face, and clothing. Each mesh adds complexity to the avatar; it is recommended to merge and blend meshes when possible.
+* '''Audio Sources''': These sources are simply sound emitters that are attached the the avatar. Voice lines, music, sound effects are '''audio sources'''. Multiple sources may cause lay or audio clutter. It is recommended to use 1-2 maximum; Avoid looping audios unless necessary.
+* '''Real-Time Lights''': These are lights that cast shadows or change dynamically. Things like glowing eyes, flashlights, or built-in light probes on some avatars. More lights cause '''heavy lag'''. It is highly recommended to bake lighting into textures instead.
+* '''Shaders:''' Code that controls how materials look. Things such as a materials glow, if it is transparent (PC only), or animated. Complex shaders are highly performance-intensive, and '''will''' crash low-mid end systems if not used carefully. Simple shaders such as '''VRChat'''<nowiki/>'s built-in shaders are '''safe for all devices'''. It is typically recommended to avoid transparent shaders and animation unless they are optimized.
+
+=== Rank Thresholds (Limits) ===
+{| class="wikitable mw-collapsible"
+|+Thresholds (Limits)
+!Rank
+!Polygons
+!Materials
+!Textures
+!Dynamic Bones (Physbones)
+!Audio Sources
+!Real-Time Lights
+!Shaders
+|-
+|'''Excellent'''
+|Under 10,000
+|1-2
+|Lower count; Small (512x512 or less)
+|Minimal Use / None
+|0-1
+|None
+|Simple (Unlit or Mobile)
+|-
+|'''Good'''
+|10,000-30,000
+|3-10
+|Okay count; mid-size (up to 1024x1024)
+|Light Use
+|1-2
+|None
+|Basic with minimal transparency
+|-
+|'''Medium'''
+|30,000-50,000
+|10-15
+|Larger or multiple (up to 2048x2048)
+|Moderate Use
+|2-4
+|Avoid if possible
+|Moderate Complexity
+|-
+|'''Poor'''
+|50,000-70,000
+|15-20
+|Large or memory-intensive
+|Heavy Use 
+|4+
+|Acceptable
+|Complex or transparent
+|-
+|'''Very Poor'''
+|70,000+
+|20+
+|Excessive Usage
+|128+ Components
+|4+
+|Any
+|Complex, layered, animated, transparent
+|}
+
+== Optimization Tips (Per Metric) ==
+
+=== Polygons ===
+Use decimation tools in Blender or Unity to reduce triangle counts. Avoid higher-poly accessories if possible. Combine meshes when possible.
+
+=== Materials ===
+Merge materials using texture atlases and tools available in Unity. Fewer materials = fewer draw calls, which improves render speed.
+
+=== Textures ===
+Compress textures (make smaller size, less detail) when possible. It is recommended to use formats like JPEG or WebP for lightweight assets. Use 1024x1024 or lower if possible.
+
+=== Dynamic Bones (PhysBones) ===
+Switch to PhysBones (Newer system). Limit bone chains, colliders, and detail. Use bone filters to exclude unnecessary movements, and reduce bugs.
+
+=== Meshes (Skinned) ===
+Combine skinned meshes in Unity using tools like Mesh Baker, or available 3rd party software. Avoid separate meshes for small accessories if possible.
+
+=== Audio Sources ===
+Use one audio source per avatar if possible. Avoid looping audios, or higher-bitrate audio unless absolutely essential.
+
+=== Real-Time Lights ===
+Avoid real-time lights at all possibilities. Instead, bake the lighting into textures or use emissive materials.
+
+=== Shaders ===
+Annoying, but necessary. Use lower-intensive shaders. Unlit and Mobile of course are recommended, but don't look as good or flashy. Avoid transparency, animation, or multi-pass effects unless they are optimized and minimal.<blockquote>It is possible to view your current avatar metrics from the VRChat avatars menu. Useful to identify possible avatar bottlenecks, and to know where adjustments need to be made if necessary.
+
+</blockquote>
+
+== Related Systems ==
+
+* [[Avatar Dynamics|Avatar Dynamics]]
+
+* [[Trust and Safety|Trust and Safety System]]
+
+* [https://creators.vrchat.com/avatars/avatar-size-limits/ Avatar Size Limits]
+
+* [https://creators.vrchat.com/avatars/avatar-components Avatar Components]
+
+* [https://docs.vrchat.com/docs/avatar-fallback-system Avatar Fallback System]
+
+[[Category:Avatars{{#translation:}}]]
+[[Category:Guides{{#translation:}}]]

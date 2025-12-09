@@ -1,0 +1,26 @@
+<noinclude><languages/></noinclude><includeonly><infobox type="World" theme="community">
+	<title source="name"><default>'''Missing name!'''</default></title>
+	<image source="image"><default>[[File:Placeholder.webp|Missing thumbnail image!]]</default></image>
+	<group>
+        <data source="author"><label><translate><!--T:1--> Author</translate></label><default>'''Missing author!'''</default></data>
+        <data source="developers"><label><translate><!--T:2--> Developers</translate></label></data>
+        <data source="capacity"><label><translate><!--T:3--> Capacity</translate></label></data>
+        <data source="platforms"><label><translate><!--T:4--> Platforms</translate></label></data>
+        <data source="tags"><label><translate><!--T:5--> Tags</translate></label></data>
+        <data source="languages"><label><translate><!--T:6--> Languages</translate></label></data>
+        <data source="id"><label><translate><!--T:7--> World Link</translate></label>
+           <default>'''Missing world ID!'''</default>
+           <format>{{World link|{{{id}}}|{{{name}}}}}</format></data>
+    </group>
+    <group>
+        <header><translate><!--T:8--> World history</translate></header>
+        <data source="labs">
+            <label><translate><!--T:9--> Published to Labs</translate></label>
+            <format><translate><!--T:11--> {{#timel:F d, Y |<tvar name="date">{{{labs}}}</tvar>}}</translate></format>
+        </data>
+        <data source="published">
+            <label><translate><!--T:10--> Published</translate></label>
+            <format><translate><!--T:12--> {{#timel:F d, Y |<tvar name="date">{{{published}}}</tvar>}}</translate></format>
+        </data>
+    </group>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}[[Category:Worlds{{#translation:}}]]</includeonly><noinclude>{{Documentation}}[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>

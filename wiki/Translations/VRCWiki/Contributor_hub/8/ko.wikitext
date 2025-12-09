@@ -1,0 +1,9 @@
+== 공지 게시판 ==
+=== 최근 토론 ===
+==== 콘텐츠 ====
+Main, Community, Guide 네임스페이스에서의 최근 토론이 아래에 표시됩니다:
+{{Special:RecentChanges/days=120,limit=5,namespace=1;3001;3101,hidebots=1}}
+
+==== 위키 ====
+VRCWiki, File, MediaWiki, Template 네임스페이스에서의 최근 토론이 아래에 표시됩니다:
+{{Special:RecentChanges/days=120,limit=5,namespace=5;7;9;11;,hidebots=1}}

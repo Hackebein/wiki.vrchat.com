@@ -1,0 +1,53 @@
+{{Stub|Not much information here! Please expand and proofread, in reference to [[VRCWiki:Manual_of_Style|Manual of Style]].}}
+[[File:Station in unity.webp|thumb|Station example in unity.]]
+'''Stations''', or colloquially known as ''seats'', or ''chairs'' are interactive assets in the VRChat World, and Avatar [[SDK]], allowing a user to be seated in the assigned spot. Stations primarily serve the function of being used as chairs but can also be used to build vehicles, manipulate the player's position and rotation or override the player's animations with a custom animation controller.
+
+== Parameters ==
+{| class="wikitable"
+|+
+!Parameter
+!Description
+!Options
+|-
+|Player Mobility
+|Determines if the Player can move while seated.
+|Mobile, Immobilize, Immobilize for Vehicle
+|-
+|Can use Station from Station
+|Allows the user to switch stations whilst seated.
+|True/False
+|-
+|Animation Controller (optional)
+|Overrides the player's animations whilst seated.
+|Animation Controller
+|-
+|Disable Station Exit
+|Disallows the player from exiting by normal means.
+|True/False
+|-
+|Seated
+|Should the player be seated in the station
+|True/False
+|-
+|Station Enter Player Location
+|Transform that determines where the player should be seated.
+|Transform
+|-
+|Station Exit Player Location
+|Transform that determines where the player should be unseated.
+|Transform
+|-
+|Controls Object
+|Determine an object controlled by the station such as a vehicle
+|GameObject
+|}
+
+== Trivia ==
+
+* Stations were mistakenly enabled on avatars sometime before May 11th 2018, before being disabled on the May 12th 2018 update (2018.1.2) as it was a planned feature released early<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297815713 "VRChat 2018.1.2"] on ''[https://store.steampowered.com/news/app/438100 Steam News Hub]''. Dated May 10 2018. Retrieved December 7, 2024.</ref>
+
+== Official resources ==
+
+* {{VRC link|https://creators.vrchat.com/worlds/components/vrc_station| VRC Station}} - on [[Creators.vrchat.com|''creators.vrchat.com'']]
+
+== References ==

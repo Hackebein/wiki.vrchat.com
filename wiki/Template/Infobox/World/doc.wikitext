@@ -1,0 +1,126 @@
+<noinclude>[[Category:Template Documentation]]</noinclude>
+{{Infobox/World
+|name= Example World
+|image= VrcHomeThumb.png
+|author= Example Author
+|developers= ExampleDev1, ExampleDev2
+|capacity= 80 (40)
+|platforms= PC, Android, iOS
+|tags= tag1, tag2, tag3, tag4, tag5
+|languages= English, Japanese, French
+|id= wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd
+|labs= Jan 1 2024
+|published= Jan 1 2024
+}}
+==Example==
+<pre>
+<nowiki>{{</nowiki>Infobox/World
+|name= Example World
+|image= VrcHomeThumb.png
+|author= Example Author
+|developers= ExampleDev1, ExampleDev2
+|capacity= 80 (40)
+|platforms= PC, Android, iOS
+|tags= tag1, tag2, tag3, tag4, tag5
+|languages= English, Japanese, French
+|id= wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd
+|labs=Jan 1 2024
+|published=Jan 1 2024
+<nowiki>}}</nowiki>
+</pre>
+==TemplateData Documentation==
+<templatedata>
+{
+	"params": {
+		"name": {
+			"label": "World Name",
+			"description": "The name of the VRChat world.",
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"label": "World Image",
+			"description": "The image used for the thumbnail of the world.",
+			"example": "thumbnail.webp",
+			"type": "wiki-file-name",
+			"required": true
+		},
+		"author": {
+			"label": "World Author",
+			"description": "The user who has the VRChat world published to their account.",
+			"example": "AuthorName",
+			"type": "string",
+			"required": true
+		},
+		"developers": {
+			"label": "Developers",
+			"description": "The main developer(s) of the VRChat world. This field is optional if the publisher is the sole developer.",
+			"example": "ExampleDev1, ExampleDev2",
+			"type": "string",
+			"suggested": true
+		},
+		"capacity": {
+			"label": "World Capacity",
+			"description": "The user capacity of the VRChat world, followed by its recommended capacity in parentheses.",
+			"example": "80 (40)",
+			"type": "number",
+			"suggested": true
+		},
+		"platforms": {
+			"label": "Platforms",
+			"description": "The platforms on which the VRChat world is available. PC, Android and/or iOS.",
+			"example": "PC, Android, iOS",
+			"suggested": true
+		},
+		"tags": {
+			"label": "Tags",
+			"description": "The tags of the VRChat world.",
+			"example": "tag1, tag2, tag3, tag4, tag5",
+			"type": "string",
+			"suggested": true
+		},
+		"languages": {
+			"label": "Available Languages",
+			"description": "Languages used or available inside the VRChat world.",
+			"example": "English, Japanese, French",
+			"type": "string",
+			"suggested": true
+		},
+		"id": {
+			"label": "World ID",
+			"description": "The VRChat world's ID used to link to it on the VRChat website, as well as identify it for other internal purposes. A world's ID can be found at the end of its URL on the VRChat website like so: https://vrchat.com/home/world/wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
+			"example": "wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd",
+			"type": "string",
+			"required": true
+		},
+		"labs": {
+			"label": "Community Labs publish date",
+			"description": "The date the VRChat world was published to Community Labs.",
+			"example": "Jan 1 2024",
+			"type": "date",
+			"suggested": true
+		},
+		"published": {
+			"label": "Publish Date",
+			"description": "The date the VRChat world was published/released from Community Labs.",
+			"example": "Jan 1 2024",
+			"type": "date",
+			"suggested": true
+		}
+	},
+	"description": "Paste this template into a world page to have the Infobox appear on the top right. It is recommended to paste and fill this out while in the Source Editor, however this can also be done in the Visual Editor. For more guidance on how to best use this, see how other world pages have implemented this Infobox.\n\nFields without contents will not show up on the Infobox.",
+	"paramOrder": [
+		"name",
+		"image",
+		"author",
+		"developers",
+		"capacity",
+		"platforms",
+		"tags",
+		"languages",
+		"id",
+		"labs",
+		"published"
+	]
+}
+</templatedata>

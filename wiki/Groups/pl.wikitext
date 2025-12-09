@@ -1,0 +1,386 @@
+<languages/>
+{{Noticebox/Official}}
+[[File:Groups Render.webp|thumb|Oficjalna grafika promująca system grup.]]
+'''Grupy''' są funkcją społecznościową mającą na celu tworzenie i zarządzanie społecznościami i instancjami w VRChacie.
+
+Celem tworzenia grup jest umożliwienie innym dołączanie do nich, zwykle by jednoczyć osoby o tych samych zainteresowaniach czy [[Special:MyLanguage/Community:Culture|subkulturze]], a także organizować i brać udział w wydarzeniach na [[Special:MyLanguage/Instances|instancjach]] tych grup. Członkowie grupy mogą zdecydować się reprezentować ją poprzez baner na swoim profilu i identyfikatorze. System grup został oficjalnie wydany [https://hello.vrchat.com/blog/vrchat-groups 30 listopada 2022].
+
+<span id="Joining_a_group"></span>
+== Dołączanie do grupy ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To join a group, you must first navigate to a group's page. Users can be in up to 100 different groups at a time, or up to 200 with an active [[Special:MyLanguage/VRC+|VRC+]] subscription. To join a group, you can either find one through the Search tab or Group tab in the [[Special:MyLanguage/Main Menu|Main Menu]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+It is also possible to join a group by browsing another user's list of groups they are representing on their profile, or by clicking on specific promotional posters located in worlds. Once you are in a group, you are able to join any active group instances via the '''Instances tab''' on the group's page, or the '''Group Activity''' row in the Social tab.
+</div>
+
+<span id="Representing"></span>
+===Reprezentowanie===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Representing a group displays the group's name and banner on the user's nameplate and profile. A user may represent a group by going to the group's page on the main menu and clicking the button labeled: "Represent Group", on the top right corner. A single group may be represented at a time.
+</div>
+
+<span id="Membership_visibility"></span>
+===Widoczność członkostwa===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+A member of a group may choose to obscure affiliation from displaying on their profile in the list of joined groups. However, a user will '''still''' be able to see if you're in the group under the following conditions:
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*They mutually share the group with you.
+*The user has the "View All Members" permission.
+</div>
+
+[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|Opcje widoczności grupy]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+You can hide visibility by going to the '''Group tab''' within the VRChat client, selecting the group, and clicking the cog icon at the top right on the menu. This will open a '''Group Settings''' submenu, to which you can change visibility at will.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+It is also possible to change visibility from the VRChat website by going to the Group tab in the sidebar, selecting the group, clicking "'''Settings"''', and then choosing the '''Visibility''' setting right for you beneath '''"My Membership"'''.
+{| class="wikitable"
+!Visible
+|The group is shown on your profile for everyone.
+|-
+!Friends Only
+|The group is only shown on your profile to your friends.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+!Hidden
+|The group is hidden from your profile.
+|}
+</div>
+
+<span id="Creating_a_group"></span>
+==Tworzenie grupy==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To create a group, a user must first have an active [[Special:MyLanguage/VRChat+|VRC+]] subscription. Maintaining the VRC+ subscription is not necessary for retaining group ownership. An active VRC+ subscription is required to change icons, banners and edit the group's gallery using the VRC+ [[Special:MyLanguage/Gallery|Gallery]], as well as transferring ownership of the group to another user. Currently, creating a group must be done via the {{VRC link|https://vrchat.com/home/groups|VRChat website}}. A user can own a maximum of 5 groups, of which a maximum of 100,000 members can join each group.
+</div>
+
+<span id="Joinability_and_visibility"></span>
+=== Możliwość dołączenia i widoczność ===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+When creating a group, an onboarding process presents the creator with a few privacy options. The '''joinability''' of a group determines any given user's ability to join the group. This setting can be changed later.
+{| class="wikitable"
+!Free Join
+|Anyone can join the group freely.
+|-
+!Request to Join
+|New members must request to join the group.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+!Invite-Only
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Those with the right permissions may invite new members to the group.
+|}
+The '''visibility''' of a group determines whether or not the group can be represented or displayed on a member's profile. This setting '''cannot''' be changed later.
+{| class="wikitable"
+!Public
+|Members can choose to advertise the group on their profile.
+|-
+!Private
+|The group cannot be advertised or displayed by members.
+|}
+As mentioned, any user can manually obscure of any public group from displaying on their profile via Visibility settings.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Group banner===
+Group banners are displayed on the nameplates of users who choose to represent that Group, and will also appear on the Group page on the VRChat Home website and in the Group UI within VRChat.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The banner can be uploaded and selected on the VRChat Home website. However, the uploaded image is cropped in different ways depending on where it is shown.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Community member Reava has created [https://github.com/Reava/Resources/releases/tag/Guide a guide] that can help people creating a banner to ensure that the most important parts show in the UI when needed.
+</div>
+
+<span id="Group_roles_and_permissions"></span>
+==Role i uprawnienia grup==
+
+<span id="Viewing_your_roles"></span>
+===Sprawdzanie swoich ról===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+While it is not currently possible to select or change roles within the VRChat client, you can view all current roles applied to your account by opening the [[Special:MyLanguage/Main Menu|Main Menu]], and clicking on the Group tab, click on a group that you wish to view your roles for. There is a 'cog' icon towards the top right of the menu, which expands a rightwards '''Group Settings''' submenu. The very top of the submenu will let you browse the roles currently applied.
+</div>
+
+<span id="Default_roles"></span>
+==Domyślne role==
+
+[[File:Groups default roles.png|thumb|253x253px|Widok ról]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Groups have three different tiers for roles: '''Management Roles''', '''Member Roles''', and '''Default Role'''. Automatically, groups will have three roles when the group is created: '''Everyone''', which is listed under 'Default Role', '''Member''', which is listed under 'Member Role', and '''Group Owner''', which is listed under 'Management Role'. The role names for 'Group Owner' and 'Member' can be changed, but 'Everyone' cannot be changed or deleted.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Group Owner permissions cannot be changed or deleted in any way, since by default, they should always have all permissions. The Group owner, however, can be transferred to another willing group member as long as both parties are subscribed to VRC+. This should be deliberated heavily before transfer, since all transfers are final. Read more about Group Transferring below.
+</div> 
+
+<span id="Creating_roles"></span>
+===Tworzenie ról===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Roles can be added, renamed, or deleted at any time by a group's management. Each role can be given a description, and a custom set of permissions. Permissions are either toggled on, or off for a group. Roles can optionally be set to be '''Assigned On Join''', be '''Self Assignable''', or '''Require 2FA'''.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Self Assignable roles are optional, and users can sign into the VRChat website to apply roles to themselves, if available. However, users on platform accounts, such as Steam or Meta accounts, are unable to log in and do so, since logging into their account on the VRChat website requires the [[Special:MyLanguage/Getting Started#Account Creation|creation of a VRChat account]]. Group management can manually apply roles to any user at will.
+{| class="wikitable"
+|+
+!Function
+!Description
+|-
+|Assign On Join
+|<small>If enabled, new members will be assigned this role when they join the group. This will not affect existing members.</small>
+|-
+|Self Assignable
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|<small>Allows members of the group to assign this role to themselves.</small>
+|-
+|Require 2FA
+|<small>Requires members to have 2FA before permissions apply.</small>
+|}
+</div>
+
+[[File:Groups permissions overview.png|thumb|Niektóre z dostępnych do przypisania uprawnień w opcjach zarządzania grupą]]
+
+<span id="Assigning_permissions"></span>
+===Przypisywanie uprawnień===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To assign permissions for a role, a group manager must sign in on the VRChat website, and navigate to the Permissions tab.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 1: Click '''Groups''' on the left sidebar of the website.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 2: Click on a group that you can manage or change permissions for.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 3: There are different tabs a group manager can access, such as Overview, Posts, etc. Click on the tab titled '''Settings'''.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 4: Click on '''Roles''', below that tab.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 5: Click on the role that you wish to edit permissions for, and click '''Permissions''' with the lock icon.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 6: Apply the permissions found below, scroll down to the bottom of the page, and '''click Save'''.
+{| class="wikitable"
+|+
+!Permission
+!Function
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Member Data||<small>Allows role to view, filter by role, and sort all members and edit data about them.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Data||<small>Allows role to edit group details (name, description, joinState, etc).</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View Audit log||<small>Allows role to view the full group audit log.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Roles||<small>Allows role to create roles, modify roles, and delete roles.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Default Role||<small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Assign Group Roles||<small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Bans||<small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Remove Group Members||<small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View All Members||<small>Allows role to view all members in a group, not just friends.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Announcement||<small>Allows role to set/clear group announcement and send it as a notification.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Calendar||<small>Allows role to create, modify, and publish calendar entries.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Galleries||<small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Invites||<small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Moderate Group Instance||<small>Allows role to moderate within a group instance.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Instances||<small>Allows role to close an group instance.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Group Instance Queue Priority||<small>Gives role priority for group instance queues.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Age Gated Instances||<small>Allows role to create group instances that require users to have age verified in order to join.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Linked Instances||<small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group Public Instances||<small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group+ Instances||<small>Allows role to create group instances that friends of people present can also join.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Members-Only Group Instances||<small>Allows role to create members-only instances.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Role-Restrict Members-Only Instances||<small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Portal to Group+ Instances||<small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Unlocked Portal to Group+ Instances||<small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Join Group Instances||<small>Allows role to join group instances.</small>
+|}
+</div>
+
+<span id="Group_instances"></span>
+==Instancje grupowe==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The owner of a group, and those with the correct permissions may create group [[Special:MyLanguage/Instances|instances]]. There are three types of group instances.
+{| class="wikitable"
+!Group
+|Only members of a group (or certain roles within the group if specified) can join the instance.
+|-
+!Group+
+|Any friend of a user in the instance can join. Group membership is not required to join the instance.
+|-
+!Group Public
+| A publicly listed instance hosted by a group to which anyone can join. Group membership is not required to join the instance.
+|}
+Group instances are often '''moderated by the group hosting the instance'''. The group's owner and those given moderation permissions through their role may warn, mute, kick or ban a user within the instance. Banning a user from a group permanently prevents them from joining any Instances made by the group, as well as joining the group itself.
+</div>
+
+<span id="Group_instance_queues"></span>
+===Kolejki instancji grupowych===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Group Instances are also great for managing events with a high amount of people. For that situation, the '''VRChat Group Queues''' option will setup a waiting queue to process joining requests when the instance max capacity is reached. When you join the queue for an instance, you will be placed in and will receive a invite request when a slot becomes available. Once the request is received on your side, you have one minute to join the instance before your slot is given to the next person.
+</div>
+
+<span id="Transferring_a_group"></span>
+==Przekazanie grupy==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+As of March 27, 2024<ref>https://ask.vrchat.com/t/developer-update-28-march-2024/23676</ref>, owners of groups could choose to transfer the ownership of a group to another willing group member as long as both parties are subscribed to VRC+, and have available space. This should be taken under consideration, as all transfers are final.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''You can transfer your group ownership to another member of the group; the target member and the group must meet the requirements below.''' 
+*The target member has verified their email address (check the Email section via account settings)
+*The target member has an active VRC+ subscription
+*The target member can still own more groups (each user can own up to 5 groups)
+*The group is not monetized
+</div>
+
+<span id="Official_resources"></span>
+==Oficjalne źródła==
+
+*[https://www.youtube.com/watch?v=b6c_kDRJG2A Aktualności deweloperskie - grupy] na ''YouTube'', przesłane 30 listopada 2022.
+*{{VRC link|https://hello.vrchat.com/blog/vrchat-groups|Grupy już dostępne!}} na ''hello.vrchat.com''
+*{{VRC link|https://help.vrchat.com/hc/en-us/sections/11719560642963-VRChat-Groups|FAQ grup}} na ''help.vrchat.com''
+
+<span id="Trivia"></span>
+==Ciekawostki==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*"Just Bread Group" ([https://vrc.group/TOASTY.1234 TOASTY.1234]) was the first ever Group<ref>https://x.com/VRChat/status/1747389673154949626</ref>. It was created by our server engineer Bready for testing purposes. While launching Groups, the data had to be organized in a specific way to maximize server performance, and one had to be created first in order to organize the database properly.
+</div>
+
+<span id="References"></span>
+==Przypisy==
+
+<references />
+
+[[Category:Features{{#translation:}}]]

@@ -1,0 +1,38 @@
+|Manage Group Member Data（管理成員資料）
+|<small>允許這個身分組的成員查看、按身分組篩選、排序所有成員，並編輯成員的資料。</small>
+|-
+|Manage Group Data（管理群組資料）
+|<small>允許這個身分組的成員編輯群組詳細資訊，例如名稱、介紹、加入權限等。</small>
+|-
+|View Audit Log（查看審核日誌）
+|<small>允許這個身分組的成員查看群組所有的審核日誌。</small>
+|-
+|Manage Group Roles（管理群組身分組）
+|<small>允許這個身分組的成員創建、修改和刪除群組身分組。</small>
+|-
+|Manage Group Default Role（管理預設身分組）
+|<small>允許這個身分組的成員管理預設身分組（即 everyone 身分組）。需要同時具備「管理群組身分組」的權限。</small>
+|-
+|Assign Group Roles（分配群組身分組）
+|<small>允許這個身分組的成員為用戶分配或撤銷身分組。需要同時具備「管理成員資料」的權限。</small>
+|-
+|Manage Group Bans（管理封鎖名單）
+|<small>允許這個身分組的成員從群組封鎖或解除封鎖用戶，並且能夠查看所有被封鎖的成員。需要同時具備「管理成員資料」的權限。</small>
+|-
+|Remove Group Members（踢出群組成員）
+|<small>允許這個身分組的成員將用戶踢出群組。需要同時具備「管理成員資料」的權限。</small>
+|-
+|View All Members（查看所有成員）
+|<small>允許這個身分組的成員查看群組內的所有成員，而不僅限於好友。</small>
+|-
+|Manage Group Announcement（管理群組公告）
+|<small>允許這個身分組的成員設定或清除群組公告，並對成員發送公告通知。</small>
+|-
+|Manage Group Calendar（管理群組行事曆）
+|
+|-<small>允許這個身分組的成員建立、修改與發布行事曆行程。</small>
+|Manage Group Galleries（管理群組相簿）
+|<small>允許這個身分組的成員創建、重新排序、編輯、刪除群組相簿，並可以提交或批准圖片。</small>
+|-
+|Manage Group Invites（管理群組邀請）
+|<small>允許這個身分組的成員建立或取消邀請，以及接受、拒絕、封鎖加入請求。</small>

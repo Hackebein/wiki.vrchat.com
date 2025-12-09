@@ -1,0 +1,12 @@
+Der Besitzer einer Gruppe und die Mitglieder mit den entsprechenden Berechtigungen können Gruppeninstanzen erstellen. Es gibt 3 Arten von Gruppeninstanzen.
+{| class="wikitable"
+!Group
+|Nur Mitglieder einer Gruppe (oder falls spezifiziert, Mitglieder mit bestimmten Rollen) können der Instanz beitreten.
+|-
+!Group+
+|Jeder, der mit einem Benutzer innerhalb der Instanz befreundet ist, kann beitreten. Eine Gruppenmitgliedschaft wird nicht für den Beitritt benötigt.
+|-
+!Group Public
+|Eine öffentlich gelistete, von einer Gruppe gehostete, Instanz, der jeder beitreten kann. Eine Gruppenmitgliedschaft wird nicht für den Beitritt benötigt.
+|}
+Gruppeninstanzen werden oft '''von der Gruppe moderiert, die die Instanz hostet'''. Der Gruppenbesitzer und die Mitglieder, die durch ihre Rolle Moderationsberechtigungen besitzen, können einen Benutzer in der Instanz warnen, kicken, oder bannen. Wenn ein Benutzer von der Gruppe gebannt wurde, kann dieser nie wieder einer Instanz, die von der Gruppe erstellt wurde, sowie der Gruppe selbst, beitreten.

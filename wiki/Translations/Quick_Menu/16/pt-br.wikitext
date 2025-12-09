@@ -1,0 +1,21 @@
+{| class="wikitable"
+!Configuração do relógio
+!Valores
+!Dica de Ferramentas
+|-
+|'''Modo Hora'''
+|Padrão do Sistema, 12 Horas, 24 Horas, 18 Horas
+|Altera se o relógio mostra 12 ou 24 horas<br>
+'''[Padrão do Sistema]''' Altera o modo de hora do relógio para padrão do sistema<br>
+'''[12 Horas]''' Altera o relógio para o modo de 12 horas<br>
+'''[24 Horas]''' Altera o relógio para o modo de 24 horas<br>
+'''[18 Horas]''' Altera o relógio para o modo de 18 horas (o que?)
+|-
+|'''Fuso Horário'''
+|Horário Local, UTC, GMT, Fuso Horário Aleatório
+|Altera o fuso horário que o relógio usa para qualquer modo que exija um<br>
+'''[Horário Local]''' Altera o relógio para usar seu fuso horário local<br>
+'''[UTC]''' Altera o relógio para usar o UTC (Universal Coordinated Time, culpe os franceses por não chamá-lo de UCT)<br>
+'''[GMT]''' Altera o relógio para usar GMT (é UTC, exeto quando o Microsoft Windows™ decide que não é)<br>
+'''[Fuso Horário Aleatótio]''' Altera o relógio para usar um fuso horário aleatório (0,71% de chance de ser o seu!)
+|}

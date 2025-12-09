@@ -1,0 +1,96 @@
+<languages/>
+{{noticebox/Official}}
+{{Infobox/Feature
+|name=<span lang="en" dir="ltr" class="mw-content-ltr">Age Verification</span>
+|image=Age Verification feature logo.png|platforms= PC, Android, iOS
+|vrchatplus=<span lang="en" dir="ltr" class="mw-content-ltr">Required for verification</span>
+|branch_live_date = 5 Dec 2024
+|branch_live_version = <span lang="en" dir="ltr" class="mw-content-ltr">2024.4.2 Build 1552</span>
+|branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202442
+}}
+{{Thumb|{{YouTube|odiNjIFUNvw}}}}
+[[File:Age_verified_profile.webp|thumb|<span class="mw-translate-fuzzy">Profilmarkierung</span>]]
+
+<div class="mw-translate-fuzzy">
+'''Altersverifikation''' ist eine soziale Funktion, die es Nutzern ermöglicht, ihr Alter mit Hilfe des Drittanbieterdienstes [https://withpersona.com/ Persona] zu verifizieren. Benutzer, die verifiziert sind, können eine Altersverifikationsmarkierung auf ihrem Profil anzeigen; verifizierte Benutzer, die 18 oder älter sind, können Zugang zu altersbeschränkten [[Special:MyLanguage/instances|Instanzen]] erhalten. Es wurde am 27. November 2024 auf dem offiziellen VRChat YouTube-Kanal angekündigt<ref name=„:0“>"Introducing Age Verification | Developer Update #vrchat.“ YouTube, hochgeladen von VRChat, 27 Nov. 2024, https://www.youtube.com/watch?v=odiNjIFUNvw. Accessed 27 Nov. 2024.</ref>.
+</div>
+
+Der Verifizierungsprozess ist derzeit im Early Access für alle [[Special:MyLanguage/VRC+|VRC+]]-Abonnenten ab dem 28. Januar 2025 verfügbar<ref>VRChat. „Altersverifikation ist jetzt für VRC+-Abonnenten verfügbar!...“ Bluesky, 28. Jan. 2025, https://bsky.app/profile/vrchat.com/post/3lgtoi5ho2227.</ref>.
+
+<span id="Process"></span>
+==Fortschritt==
+
+Der Altersverifizierungsprozess wird über [https://withpersona.com/ Persona] - einen Drittanbieter - durchgeführt. Die Benutzer geben einen von der Regierung ausgestellten Ausweis an<ref>https://docs.withpersona.com/reference/government-id-verifications Government ID Verifications auf ''withpersona.com''; abgerufen am 9. Dezember 2024.</ref> und verwenden ein kamerafähiges Gerät, wie z. B. ein Smartphone oder einen Computer mit einer Webcam, um den Vorgang abzuschließen.
+
+Je nach Land, aus dem der Nutzer kommt, kann so gut wie jede Form eines staatlichen Ausweises verwendet werden, z. B:
+*Führerschein
+*Identifikationskarte
+*Reisepass
+*Passportkarte
+<!-- Diese Liste kann von Land zu Land variieren, Übersetzern wird empfohlen, zu prüfen, welche Ausweise in ihrem jeweiligen Land verfügbar sind, damit die Liste für die meisten Benutzer korrekt ist -->
+
+Persona verarbeitet die Identifizierung und die biometrischen Daten des Nutzers in Übereinstimmung mit seiner Datenschutzrichtlinie<ref>Persona. Privacy Policy. https://withpersona.com/legal/privacy-policy. Accessed 27 Nov. 2024.</ref>, wobei sichergestellt wird, dass [[wikipedia:General_Data_Protection_Regulation|GDPR]], [[wikipedia:California_Consumer_Privacy_Act|CCPA]] und andere Compliance-Standards erfüllt werden<ref>Persona. Security. https://withpersona.com/security. Accessed 28 Nov. 2024.</ref>. VRChat erhält oder speichert keine persönlichen Informationen aus dem Verifizierungsprozess, mit Ausnahme des verifizierten Geburtsdatums des Nutzers. Persona arbeitet unter einer Datenverarbeitungsvereinbarung (DPA) mit VRChat, die Persona dazu verpflichtet, für alle Nutzer unabhängig vom Standort gemäß GDPR/CCPA zu arbeiten<ref>Tupper (2024, Dezember 2). ''Age Verification FAQ''. VRChat Forum. Abgerufen am 9. Dezember 2024, von https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-if-i-dont-live-in-the-eu-or-california-10</ref>.''
+
+<span id="Features"></span>
+==Funktionen==
+
+<span id="Profile_marker"></span>
+===Profilmarkierung===
+
+[[File:Age verif Update Status.webp|thumb|Profiloption zur öffentlichen Anzeige eines „Verified 18+“ Abzeichens.|200x200px]]
+
+Verifizierte Nutzer, die älter als 18 Jahre sind, haben die Möglichkeit, in ihrem Profil eine Markierung anzuzeigen, die ihren Status der Altersverifizierung 18+ angibt. 
+*Die Markierung „Verifiziert 18+“ kann nur von Nutzern verwendet werden, die altersverifiziert und 18 oder älter sind.
+Die Markierung kann auch komplett ausgeblendet werden, wenn ein Nutzer seinen Verifizierungsstatus nicht für andere sichtbar machen möchte. Benutzer, die mit 18+ verifiziert sind, können immer auf altersbeschränkte Instanzen zugreifen, unabhängig davon, ob die Verifizierungsmarkierung öffentlich in ihrem Profil angezeigt wird.
+
+Das Symbol des verifizierten Altersschildes allein bedeutet '''''nicht''''', dass ein Benutzer 18+ ist, sondern nur, dass er sein Alter verifiziert hat. Benutzer, die unter 18 Jahre alt sind, ''(aber mindestens 13 Jahre alt sein müssen)'' können ihr Alter mit Persona verifizieren, können aber nicht die Markierung Verifiziert 18+ in ihrem Profil auswählen oder auf altersbeschränkte Instanzen zugreifen, bis sie 18 geworden sind.
+
+<span id="Age_gated_instances"></span>
+===Altersgeschützte Instanzen===
+
+
+[[File:AgeRestrictedInstance.webp|alt=A screenshot of a group public instance in a world's instances list. An icon resembling an ID card with a checkmark on it indicating it is an age-restricted instance.|thumb|199x199px|Altersbeschränkte Instanzen werden durch das „ID“-Symbol in den Informationen zu einer Instanz angezeigt.]]
+
+<div class="mw-translate-fuzzy">
+[[Special:MyLanguage/Groups|Gruppen]] können [[Special:MyLanguage/Instances|Instanzen]] mit einer Altersbeschränkung von 18+ erstellen, so dass alle Teilnehmer Altersverifiziert ''und'' 18 oder älter sein müssen, um teilnehmen zu können. Diese Einschränkungen können auf öffentliche, Gruppen-plus- oder Nur-Gruppen-Instanzen angewendet werden. Instanzen mit der Altersbeschränkung 18+ werden immer am Anfang der Instanzenliste angezeigt, wenn der Benutzer 18+ verifiziert ist.
+</div>
+
+===Content Gating===
+
+
+{{noticebox/unreleased}}
+
+Es wird überlegt, ob die Altersüberprüfung zusammen mit [[Special:MyLanguage/Content_Gating|Content Gating]] funktionieren soll, um zu verhindern, dass nicht verifizierte Nutzer und verifizierte Nutzer unter 18 Jahren auf Inhalte zugreifen, die mit „Sexuell anzüglich“ und „Sprache und Themen für Erwachsene“ gekennzeichnet sind. Wann und wie dies geschehen wird, ist jedoch derzeit nicht bestätigt<ref>Tupper (2024, 3. Dezember). ''Age Verification FAQ''. VRChat Forum. Abgerufen am 9. Dezember 2024, von https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-when-will-content-gating-be-affected-by-age-verification-39</ref><ref>Tupper (2024, 3. Dezember). ''Age Verification FAQ''. VRChat Forum. Abgerufen am 9. Dezember 2024 von https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-other-content-or-systems-will-be-affected-by-age-verification-35</ref>.''
+
+<span id="Rollout"></span>
+==Veröffentlichung==
+
+Ursprünglich war die Funktion während einer Testphase auf ausgewählte Gruppen beschränkt, wobei nur Mitglieder ausgewählter Gruppen Verifizierungszeiträume beantragen und altersbeschränkte Instanzen erstellen konnten<ref name=„:0“ />.
+
+Die erste Einführung begann am 17. Dezember 2024, mehrere ausgewählte Gruppen erhielten Zugang zur Altersüberprüfung für Gruppennutzer. <!-- Wissen wir, wie viele? -->
+
+Am 28. Januar 2025 wurde die Funktion für alle [[Spezial:MyLanguage/VRChat+|VRC+]]-Abonnenten als Early-Access-Funktion eingeführt. Es gibt derzeit kein bestätigtes Datum, wann die Funktion für alle Benutzer verfügbar sein wird.
+
+<span id="Additional_information"></span>
+==Zusätzliche Informationen==
+
+*'''Verifizierungsanforderungen:''' Benutzer müssen ein ''unbearbeitetes'' Foto ihres Personalausweises einreichen, damit dieser akzeptiert wird, und einen ''Lebendigkeitscheck'' durchführen, der ein Selfie beinhaltet, um sicherzustellen, dass die Person, die die Überprüfung vornimmt, mit der Person identisch ist, die den Ausweis besitzt<ref>Tupper (2024, Dezember 2). ''Age Verification FAQ''. VRChat Forum. Abgerufen am 9. Dezember 2024, von https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-do-i-need-to-submit-to-verify-my-age-4</ref>.
+*'''Optional:''' Die Altersverifizierung ist nicht zwingend erforderlich, um VRChat zu nutzen. Um jedoch auf altersbeschränkte Instanzen und Funktionen zugreifen zu können, muss ein Benutzer sein Alter verifizieren ''und'' 18 oder älter sein<ref>Tupper (2024, Dezember 2). ''Age Verification FAQ''. VRChat Forum. Abgerufen am 9. Dezember 2024, von https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-is-age-verification-mandatory-6</ref>.
+*'''Datenhandhabung:''' ID-Daten werden von Persona für die minimale Zeitspanne aufbewahrt, die nötig ist, um das Geburtsdatum des Benutzers zu verifizieren und einen eindeutigen Einweg-[[wikipedia:Cryptographic_hash_function|cryptographic hash]] unter Verwendung der Daten der vom Benutzer angegebenen ID zu erstellen. Dieser Hash wird auf den VRChat-Servern für das Benutzerkonto gespeichert und alle ID-Daten werden auf Persona-Seite gelöscht, der irreversible kryptographische Hash und das verifizierte Geburtsdatum des Benutzers bleiben auf den VRChat-Servern.<ref>https://youtu.be/lzG9IwmM7TI</ref>
+**'''Hinweis:''' Das Löschen der Verifizierungsdaten in VRChat führt dazu, dass das Konto des Benutzers nicht mehr benutzt werden kann, bis er die Nutzungsbedingungen akzeptiert und sein Geburtsdatum erneut eingibt. Dies wird auch dazu führen, dass der Verifizierungsstatus von diesem Konto entfernt wird, solange er nicht wiederhergestellt wird.
+*'''Eine ID pro Konto:''' Eine ID kann nicht zur Verifizierung mehrerer Konten verwendet werden. Diese Einschränkung soll das Vertrauen stärken und die Nutzer dazu ermutigen, mehr Wert auf ihr Konto zu legen, um böswilliges Verhalten zu verhindern<ref>Tupper (2024, 2. Dezember). ''Age Verification FAQ''. VRChat Forum. Abgerufen am 9. Dezember 2024, von https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-can-i-use-the-same-id-to-verify-multiple-accounts-8</ref>.
+*'''18+ ≠ Sexuell explizite Inhalte:''' 18+ Altersverifikation oder altersbeschränkte Instanzen heben die [[Special:MyLanguage/Terms of Service|Terms of Service]] oder [[Special:MyLanguage/Community Guidelines|Community Guidelines]] Politik zu pornografischen Inhalten nicht auf.
+**Verweisen Sie auf Abschnitt 13.2 der [https://hello.vrchat.com/legal Nutzungsbedingungen]<ref>VRChat (2024, November 18). ''VRChat Terms of Service''. Abgerufen am 9. Dezember 2024 von https://hello.vrchat.com/legal#:~:text=13.2.%20Prohibited%20Conduct</ref> sowie die [https://hello.vrchat.com/community-guidelines Community Guidelines]<ref>VRChat (2024, August 12). ''VRChat Community Guidelines''. Abgerufen am 9. Dezember 2024, von https://hello.vrchat.com/community-guidelines</ref>.
+
+<span id="Official_resources"></span>
+== Offizielle Ressourcen ==
+
+*[https://www.youtube.com/watch?v=odiNjIFUNvw Einführung der Altersüberprüfung] auf ''YouTube''
+*[https://www.youtube.com/watch?v=lzG9IwmM7TI Verbesserungen bei der VRChat-Altersüberprüfung] auf ''YouTube''
+*[https://hello.vrchat.com/blog/age-verification Altersüberprüfung jetzt für VRC+ Abonnenten] verfügbar auf ''hello.vrchat.com''
+*[https://feedback.vrchat.com/age-verification  Altersüberprüfung Feedback ] auf ''feedback.vrchat.com''
+
+<span id="References"></span>
+==Referenzen==
+
+<references />

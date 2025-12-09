@@ -1,0 +1,58 @@
+* Step 6: Applica i permessi sottostanti, scorri alla fine della pagina e '''premi Save'''.
+{| class="wikitable"
+|+
+!Permesso
+!Funzione
+|-
+|Gestire Dati Membro Gruppo
+|<small>Permette al ruolo di vedere, filtrare per ruolo, e ordinare e modificare i dati di ogni utente.</small>
+|-
+|Gestire Dati Gruppo
+|<small>Permette al ruolo di modificare i connotati del gruppo (nome, descrizione, joinState, etc).</small>
+|-
+|Visualizza Log Audit
+|<small>Permette al ruolo di visualizzare l'intero log audit.</small>
+|-
+|Gestire Ruoli Gruppo
+|<small>Permette al ruolo di creare, modificare ed eliminare ruoli.</small>
+|-
+|Gestire Permessi Ruolo Predefinito
+|<small>Permette al ruolo di modificare i permessi per il ruolo predefinito (il ruolo Tutti). Richiede “Gestisci Ruoli Gruppo”.</small>
+|-
+|Assegnare Ruoli Gruppo
+|<small>Permette di gestire l'assegnazione dei ruoli agli utenti. Richiede “Gestisci Dati Membri Gruppo”.</small>
+|-
+|Gestire Espulsioni Gruppo
+|<small>Permette al ruolo di bandire/riammettere un utente dal gruppo. Richiede “Gestisci Dati Membri Gruppo”.</small>
+|-
+|Rimuovere Membri Buppo
+|<small>Permette di rimuovere chiunque dal gruppo. Richiede “Gestisci Dati Membri Gruppo”.</small>
+|-
+|Visualizza Tutti i Membri
+|<small>Permette al ruolo di visualizzare tutti i membri del gruppo, non solo gli amici.</small>
+|-
+|Gestire Annunci Gruppo
+|<small>Permette al ruolo di creare e rimuovere annunci del gruppo, sotto forma di notifica.</small>
+|-
+|Gestire Galleria Gruppo
+|<small>Permette al ruolo di creare, riordinare, modificare, eliminare gallerie del gruppo. Permette inoltre di accettare o rifiutare richieste di aggiunta ad una galleria.</small>
+|-
+|Gestire Inviti Gruppo
+|<small>Permette al ruolo di creare o canellare inviti e di accettare, rifiutare o bloccare le richieste di adesione al gruppo.</small>
+|-
+|Moderare Istanza Gruppo
+|<small>Permette al ruolo di moderare un'istanza del gruppo, dandogli accesso a funzionalità di moderazione.</small>
+|-
+|Gestire Istanze Gruppo
+|<small>Permette al ruolo di chiudere un istanza del gruppo.</small>
+|-
+|Priorità Code Istanze Gruppo
+|<small>Da al ruolo la priorità in una coda per l'accesso ad un'istanza del gruppo.</small>
+|-
+|Crea Istanze Con Limiti d'Età
+|<small>Permette al ruolo di creare istanze che richiedono un'età verificata e o maggiorenne e di essere maggiorenni per entrarvi.</small>
+|-
+|Creare Istanze Pubbliche Gruppo 
+|<small>Permette al ruolo di creare istanze aperte a tutti, membri o no. NOTA: Gruppi privati non possono creare istanze pubbliche.</small>
+|-
+|Creare Istanze Gruppo+

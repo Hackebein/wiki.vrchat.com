@@ -1,0 +1,188 @@
+<languages/>
+{{Noticebox/Official}}
+{{VisitorsIndicator}}
+
+このページは[[Special:MyLanguage/VRChat|VRChat]]を起動してすぐにプレイできるようにするために役立つ事が記載されている。
+
+このページで説明されることは以下の通りである。
+
+* VRChat が動作可能な[[Special:MyLanguage/Platforms|デバイス]]はどれか
+* どこから VRChat をインストールするか
+* VRChat を使い始めて最初の数分間で期待されること
+* 初めての体験に役立つおまけのガイドビデオ
+
+もし、[[Special:MyLanguage/Community:Terminology|専門用語]]がわからない場合は、VRChat Wikiの他のページにリンクしている青くハイライトされたハイパーリンクをクリックしてください。
+
+<span id="System_requirements_/_recommendations"></span>
+== システムの要件と推奨 ==
+
+<span id="Standalone_devices"></span>
+=== スタンドアロンデバイス ===
+
+VRChat は以下のスタンドアロンヘッドセットで動作する。
+
+*Meta Quest 2
+*Meta Quest 3
+*Meta Quest 3S
+*Meta Quest Pro
+*Vive Focus Vision
+*Vive XR Elite
+*Pico 4
+*Pico 4 Pro
+*Pico 4 Ultra
+
+<span id="Mobile_devices"></span>
+=== スマートフォン ===
+
+最低でも 6GB の RAM を搭載し、Wi-Fi または 4G/5G の携帯回線に接続されたAndroid 10、もしくはiOS 17.0以上のデバイスであれば、VRChat をプレイすることができる。
+
+最近のミドルレンジ以上の AndroidかiOS端末であれば、これらの仕様を満たしているはずである。
+
+<span id="Steam_Deck"></span>
+=== Steam Deck ===
+
+Valve のテストによると、VRChat は Steam Deck 上で検証済みであり、VRChat は Steam Deck 上で完全に機能し、内蔵のコントローラとディスプレイで問題なく動作する。 
+
+* すべての機能は、デフォルトのコントローラ設定を使用しているときにアクセス可能。
+* VRChat は Steam Deck コントローラーのアイコンを表示する。
+* Steam Deck でゲーム内インターフェースのテキストが読みやすい。
+* VRChat のデフォルトのグラフィックス設定は Steam Deck で良好に動作する。
+
+<span id="PC"></span>
+=== PC ===
+
+最低必要条件
+<ref>VRChatヘルプ、システム要件 https://help.vrchat.com/hc/en-us/articles/1500002378722-System-Requirements</ref>
+<ref>Steamストア、VRChat https://store.steampowered.com/app/438100/VRChat/</ref>は、SteamVRの最低必要条件に基づいている。
+<ref>Steamストア、SteamVR https://store.steampowered.com/app/250820/SteamVR/</ref>
+
+使用中のPCがVRChatをプレイするのに適しているかどうかは、[https://store.steampowered.com/app/1070910/Are_you_ready_for_Valve_Index/ Are you ready for Valve Index?] のアプリをダウンロードして確認することができる。
+
+* '''CPU:''' インテル® i5-4590 または AMD FX 8350 または同等の性能を持つもの
+* '''メモリ:''' 4GB
+* '''GPU:''' NVIDIA GeForce® GTX 970 または AMD Radeon™ R9 290 または同等の性能を持つもの
+* '''ディスク容量:''' 21.5GBのストレージ (<ref>SteamDB、VRChat、Depot https://steamdb.info/depot/438101/</ref>などのアプリケーション用に最大1.5GB、最小キャッシュサイズ20GB)
+* '''インターネット接続:''' 必須 (25Mbps以上のダウンロード速度を推奨)
+* '''OS:''' Windows 10、Windows 11
+
+これらはデスクトップモードでVRChatを実行するための<u>絶対的な最低要件</u>である。アプリケーションは動作するが、パフォーマンスの問題が発生する可能性がある。VRChat にはユーザー生成コンテンツが多数あり、[[Special:MyLanguage/avatars|アバター]]や[[Special:MyLanguage/worlds|ワールド]]によっては一般的なゲームよりもパフォーマンスが低下する場合があるため、[[Special:MyLanguage/Safety|セーフティ設定]]を調整することを推奨する。
+
+CPU は、AMD がこの世代で新しいソケット(AM5) に切り替えたので、7800X3D がいいでしょう。AMD X3D シリーズのプロセッサは、非常に大きなオンボードキャッシュを搭載しているため、VRChat やその他のゲームで非常に優れたパフォーマンスを発揮します。GPU については、利用可能な VRAM が最も多いグラフィックカードを選ぶのがベストです。
+
+===PC (クラウド)===
+====GeForce NOW====
+
+[https://www.nvidia.com/ja-jp/geforce-now/ GeForce NOW]を利用してVRChatを遊ぶことができる<ref>公式Xでの告知 - https://x.com/VRChat/status/1854237896707899862</ref>
+
+<span id="Installing_VRChat"></span>
+== VRChat をインストールする ==
+
+=== Meta Quest ===
+''Meta Quest 2 や Meta Quest 3、3S、Meta Quest Pro 向け''
+
+Meta ストアで '''VRChat''' を検索するか、[https://www.meta.com/experiences/1856672347794301 Meta ページ]からインストールする。
+
+=== Pico ===
+''Pico 4 や Pico 4 Pro、Pico 4 Ultra 向け''
+
+Pico ストアで '''VRChat''' を検索するか、[https://store-global.picoxr.com/global/detail/1/7288745304105664518Pico ストアのページ]からインストールする。
+
+=== Vive ===
+''Vive XR Elite や Vive Focus Vision 向け''
+
+Viveport ストアで '''VRChat''' を検索するか、[https://www.viveport.com/apps/4b5187b8-004c-473c-9219-258c3ea8e255 ここ]をクリックしてインストールする。
+
+<div class="mw-translate-fuzzy">
+=== PC ===
+</div>
+
+<span id="Via_Steam"></span>
+==== Steam ====
+
+Steam ストアのページで '''VRChat''' を検索するか、[https://store.steampowered.com/app/438100/VRChat ここ]をクリックしてインストールする。
+
+<span id="Via_Viveport"></span>
+==== Viveport ====
+
+Viveport ストアのページで '''VRChat''' を検索するか、[https://www.viveport.com/apps/469fbcbb-bfde-40b5-a7d4-381249d387cd/ ここ]をクリックしてインストールする。
+
+==== Meta ストア ====
+''Meta (Oculus) Rift や Meta (Oculus) Rift S 向け''
+
+Meta ストアで '''VRChat''' を検索するか、[https://www.meta.com/experiences/pcvr/vrchat/997678176960598/ Meta ページ]からインストールする。
+
+<span id="On_Android"></span>
+=== Android ===
+
+Google Play ストアで '''VRChat''' を検索するか、モバイルデバイスで[https://play.google.com/store/apps/details?id=com.vrchat.mobile.playstore このリンク]をタップしてインストールする。
+
+<div class="mw-translate-fuzzy">
+===iOS===
+iOS / iPadOSのApp Storeで「VRChat」を検索するか、[https://apple.co/4hxSKrK モバイル端末でこのリンクをタップ]してください。
+なお、アプリをインストールするにはiOS17以降でメモリーが６GB以上搭載のiPhoneシリーズ、もしくはiPadシリーズは必要です。
+</div>
+
+<span id="Account_creation"></span>
+==アカウントを作成する==
+
+[[File:LoginPage.webp|thumb|VRChatのログイン画面の画像]]
+
+VRChatを起動するとログイン画面が表示される。 言語の変更、[[Special:MyLanguage/Terms of Service|利用規約]]や[[Special:MyLanguage/Privacy Policy|プライバシーポリシー]]の確認、VRChatアカウントでのサインイン、Steam、Meta、Google、Pico、VIVEなどのデバイスアカウント作成など、使用するデバイスに応じたオプションがあります。VRChatアカウントにログインするには、まずVRChatのウェブサイトに[https://vrchat.com/home/register 登録]する必要がある。 VRChatアカウントを作成すると、VRChatアプリケーション、Web版VRChatプロフィール、フレンドリスト、ワールドの閲覧、[[Special:MyLanguage/impostors|インポスター]]の生成にアクセスできるようになる。また、[[Special:MyLanguage/VRChat_SDK|VRChatのSoftware Development Kit]]、[https://feedback.vrchat.com Feedback Forums]、[https://ask.vrchat.com Ask Forums]へのアクセス、[[Special:MyLanguage/Creator Economy|Creator Economy]] Programへの登録、VRChat Wikiの編集も可能になる。
+
+Steam、Meta、Google、Pico、VIVE経由でデバイスアカウントを作成すると、VRChatアプリケーションに瞬時にアクセスできるようになる。 一旦デバイスアカウントを作成し、後からVRChatアカウントを作成したい場合は、アカウントを統合することも可能である。 デバイスアカウントをVRChatアカウントに統合した後、デバイスアカウントにログインすることを選択すると、ログインがVRChatアカウントに転送される。
+
+<span id="Learning_how_to_use_VRChat"></span>
+==VRChatの使い方を学ぶ==
+
+VRChatにログインすると、プライベートなホームワールドからスタートする。 ここで自分のペースで[[Special:MyLanguage/controls|操作方法]]を学んだり、[[Special:MyLanguage/settings|設定]]を調整したり、最初のアバターを見つけたり、次のワールドに移動したりすることができる。 デフォルトのホームは[[Special:MyLanguage/VRChat Home|VRChat Home]]である。 クイックメニューを開き、'''ホームへ戻る'''を選択することで、いつでもプライベートなホームインスタンスに戻ることができる。
+
+VRChatで他のユーザーと会うとき、[[Special:MyLanguage/Quick Menu|クイックメニュー]]を開き、そのユーザーに関する詳細情報を知ることができる。 VRでこれを行うには、もう一方のレーザーを相手に向けると、カプセルが表示されるので、トリガーボタンをクリックして別メニューを開く。 デスクトップでは、'''ユーザーを選択'''をクリックするか、Shiftキーを押しながらカプセルにカーソルを合わせる。 マウスの左ボタンで新しいメニューを開くことができる。 モバイルの場合は、ユーザーをタップするだけでメニューが開く。
+
+クイックメニューには、インスタンス内の現在のユーザーのリストを表示する'''現在地'''タブも存在する。リスト内のユーザー名をクリックすると、その人の経歴を読んだり、フレンド申請をしたり、マイクの音量を変えたり、ミュートにしたり、アバターを隠したり、アバターを[https://wiki.vrchat.com/wiki/Avatars#Cloning クローン]したり、ブロックしたりすることができる。
+
+== UI表示言語の変更 ==
+VRChatの表示言語が理解出来ない物になっている場合は以下の方法で変更できます。
+*アイコンを利用してどのボタンをクリックするのか判別してください。
+<gallery widths="260" heights="150">
+File:How to change UI Language1.webp|1. '''歯車'''のアイコンを'''２回クリック'''して、設定メニューを開きます。
+File:How_to_change_UI_Language2.webp|2. '''鏡とゲームパッドのアイコンの間'''にあるカテゴリーをクリックしてユーザーインターフェースカテゴリに移動し、'''緑枠で例示されているボタン'''をクリックします。
+File:How_to_change_UI_Language3.webp|3. '''English'''または'''お好きな言語'''をクリックします。
+</gallery>
+さらに、'''ログイン画面'''でお好みの言語を選択することもできます。
+
+<span id="Community_resources"></span>
+==コミュニティのリソース==
+
+
+{{Noticebox/Community}}
+私たちのコミュニティは、VRChatを始めるための多くの素晴らしいガイドを作成した。ここでは、VRChatの使い方を学ぶためにチェックできるいくつかのビデオと、その他のガイドと前後情報を紹介する。
+
+<span id="Articles"></span>
+=== 記事 ===
+
+* [https://spritesanddice.com/features/vrchat-survival-pack/ VRChatサバイバルガイド] - Adam Factor著：VRChatの概要、推奨ヘッドセット、参加するためのVRChatコミュニティの「スターターパック」についての紹介。
+
+=== 動画 ===
+以下のビデオを制作してくださったPHIAと[[Community:The Virtual Reality Show|The Virtual Reality Show]]チームに感謝します。 
+
+*[https://www.youtube.com/watch?v=Bm8quWg_wig <nowiki>VRCHAT BEGINNERS GUIDE [2024] - Introduction for New Players!</nowiki>]  - このガイド動画は、VRChatを始めるためはうってつけです。
+
+*[https://www.youtube.com/watch?v=4UBmmpt5iJ8 Best Places to see in VRChat! Quest & PC feat. Thrillseeker]- VRChatの使い方を学んだところで、いくつかの場所をご紹介しましょう。
+
+*[https://www.youtube.com/watch?v=vWr4diTDqJM How to upload a VRChat Avatar - Complete Guide! PC, Quest & VRoid] -　アバターの作り方やアップロードの仕方に興味がある方は、この動画を参考にしてください。
+
+*[https://www.youtube.com/watch?v=DomfNq0vNCk The Best VR Setup for YOU!] - 2024年に向けたこのガイドでは、現在のVRハードウェアの状況を確認し、VRChatのプレーヤーが機器をアップグレードするときに何を判断材料にすべきかについて詳しく説明されています。
+
+*[https://www.youtube.com/watch?v=QSyS4HSaFPA Derafrog's Ultimate A to Z Guide to VRChat] - VRChatの多くの部分に関する包括的なビデオを提供しています。
+
+<span id="Official_resources"></span>
+== 公式リソース ==
+
+* ''help.vrchat.com'' の {{VRC link|https://vrch.at/getting-started | Getting Started}} (英語)
+
+==参考文献==
+{{Reflist}}
+
+
+{{Start-navbox}}
+[[Category:Needs Images]]

@@ -1,0 +1,17 @@
+<includeonly><infobox type="Avatar" theme="community">
+	<title source="name"><default>'''Missing name!'''</default></title>
+	<image source="image"><default>[[File:Placeholder.webp|Missing thumbnail image!]]</default></image>
+	<group>
+        <data source="author"><label>Author</label><default>'''Missing author!'''</default></data>
+        <data source="description"><label>Description</label></data>
+        <data source="platform"><label>Platforms</label></data>
+        <data source="features"><label>Features</label></data>
+        <data source="id"><label>Avatar Link</label>
+           <default>'''Missing avatar ID!'''</default>
+           <format>{{Avatar link|{{{id}}}|{{{name}}}}}</format></data>
+    </group>
+    <group>
+        <header>Avatar History</header>
+        <data source="published"><label>Published</label></data>
+    </group>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 |

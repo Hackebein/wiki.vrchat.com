@@ -1,0 +1,11 @@
+{{Noticebox/Community}}
+
+World constraints allow for constraints to follow a specific point in world space. Mainly used on Avatars to lock a object to the world and not follow the avatar. This works by referencing a prefab in your assets instead of a Gameobject in the hierarchy. 
+
+Before VRC Constrains were added with the "Freeze To World" option this was the method used to freeze things to the world.
+
+== Setup ==
+To setup you need a prefab in your assets you can reference. Its suggested the prefab to be a empty Gameobject, don't need anything else on it. Then drag and drop the prefab from your assets to one of your constraints sources.
+
+The prefabs transform can be changed and the constraint will follow what ever its set too.
+[[Category:Guides]]

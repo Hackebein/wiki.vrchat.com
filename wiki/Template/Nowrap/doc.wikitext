@@ -1,0 +1,6 @@
+<code>Nowrap</code> or <code>nowrap</code> stops wrapping of specific text. It prevents word wraps (line breaks) within text or inside a link which contains spaces, hyphens&nbsp;("-"), or, in some browsers, parentheses. The size of the nowrapped text becomes the minimum width of that paragraph and that can negatively influence the ability of the page to adapt to smaller screens, or alternate representations of the content.
+
+== Usage ==
+:: <code><nowiki>{{nowrap| these words stay together}}</nowiki></code>
+:: <code><nowiki>{{nowrap| a, b, c, or d.}}</nowiki></code>
+:: <code><nowiki>{{nowrap| merry-go-round }}</nowiki></code>

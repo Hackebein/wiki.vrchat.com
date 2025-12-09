@@ -1,0 +1,15 @@
+Rollen können jederzeit vom Gruppenmanagement hinzugefügt, umbenannt oder gelöscht werden. Bei jeder Rolle können eine Beschreibung und ein benutzerdefiniertes Set an Berechtigungen hinzugefügt werden. Berechtigungen sind für eine Gruppe entweder an- oder ausgeschaltet. Rollen können optional so eingestellt werden, dass sie per '''Assigned On Join''' vergeben werden, '''Self Assignable''' oder '''Require 2FA''' sind. Selbst zuweisbare Rollen sind optional und Benutzer können sich auf der VRChat-Webseite anmelden, um sich, sofern verfügbar, selbst Rollen zu vergeben. Benutzer von Plattformaccounts wie Steam- oder Meta-Accounts können sich jedoch nicht anmelden und dies tun, da für die Anmeldung bei ihrem Account auf der VRChat-Webseite die [[Special:MyLanguage/Getting Started#Account Creation|Erstellung eines VRChat-Accounts]] erforderlich ist. Das Gruppenmanagement kann jedem Benutzer nach Belieben manuell Rollen vergeben.
+{| class="wikitable"
+|+
+!Function
+!Description
+|-
+|Assign On Join
+|<small>Falls aktiviert, bekommen neue Mitglieder diese Rolle automatisch beim Beitritt vergeben. Dies beeinflusst nicht bereits existierende Mitglieder.</small>
+|-
+|Self Assignable 
+|<small>Erlaubt es den Mitgliedern der Gruppe, sich diese Rolle selbst zu vergeben.</small>
+|-
+|Require 2FA
+|<small>Mitglieder müssen eine 2FA haben, bevor Berechtigungen angewandt werden.</small>
+|}

@@ -1,0 +1,202 @@
+{{Noticebox/Official}}
+{{Noticebox|image=Icon_Circle_X_Mark.svg|title=This page describes features that have been removed from VRChat.|description=Features mentioned have been removed and are inaccessible as of the latest release of the client.|border-color=black|background-color=#260707}}
+
+This page is dedicated to VRChat features that were once included in the VRChat client, or announced by VRChat before removing the feature or depreciating further support for said feature. This page does not include features that are currently in development, or have been unofficially "rumored" to being implemented.
+<!--This archived page of early patch notes is very insightful on earlier versions of VRChat features. If you're looking for something specific, try Ctrl+F on this page! https://web.archive.org/web/20161211084017/http://vrchat.net/release-->
+
+==Request Host==
+[[File:QuickMenu Old.webp|thumb|right|alt=screenshot of the old quick menu |Screenshot of the old quick menu, "Request Host" button is in the bottom Right next to the close button]]
+
+'''Request Host''' was a button on the [[Special:MyLanguage/Menus|Quick Menu]] used to request a host (VRChat Moderator) to join the user's instance to handle urgent moderation issues. It was removed October 27, 2017<ref>'[https://store.steampowered.com/news/app/438100/view/5318144537297816998 Patch 0.12.0p2 - Halloween "Scared to Reality", Improved Moderation Tools, and VRCHIVE 360° Panorama fixes]' on Steam; retrieved September 8, 2024</ref> and replaced with a "[[Reporting|Report abuse]]" button that would allow users to report users similar to the report button in the current version of VRChat.
+
+<blockquote>
+'''Welcome to VRChat early access!''' on Steam:
+
+If you’d like to provide direct feedback you can do so to any of our HOSTS which have their name tag’s marked in VRChat. You can also "Request Host" if you are having any difficulties.
+
+VRChat is a friendly place and we’d like to keep it that way. Please be kind and polite to others. We absolutely will not tolerate trolls and abusive behavior.<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297818630 "Welcome to VRChat early access!"] on Steam</ref></blockquote>
+
+==Web panels==
+'''Web Panels''' was a feature in VRChat that allowed users to access and display web pages directly within the game environments. This feature was introduced to enhance interactivity and provide direct access to internet resources without leaving the VR space. However, due to emerging security concerns identified by the development team, this feature was disabled to protect users.
+
+The removal took place in August 2018, a decision driven by potential vulnerabilities that could be exploited through the web panel interface. The official announcement and further details regarding the security issues<ref>'[https://medium.com/@vrchat/security-update-web-panels-4699fa0be103 Security Update: Web Panels]' on Medium; retrieved on September 25, 2024</ref> leading to this decision were documented and shared with the community through a Steam update on August 17, 2018.
+
+==PhysSound support==
+'''PhysSound''' is a Unity asset that allows for sounds to be played when physics objects collide with each other or with static colliders. World authors were able to install the PhysSound Asset Package in their world projects. 
+
+Support for it was dropped in [[Special:MyLanguage/VRChat SDK|SDK3]]. Creators are expected to create their own replacement using [[Special:MyLanguage/Udon|Udon]].
+
+==Panoramic/360° screenshots (VRChive) ==
+[[File:Panorama.webp|thumb|right|Old quick menu, with panorama and VRChive panorama buttons]]
+The old [[Special:MyLanguage/camera|camera]] menu had two options to take panoramic (360-degree) photos. 
+
+*Panorama
+*VRChive Panorama
+
+The 'Panorama' option would save the panoramic a user's device, while 'VRChive Panorama' would automatically upload the panoramic to [[Community:VRChive|VRChive]], a social media platform focusing on VR, making it easy to share with friends on social media. These options were originally added on January 18, 2017.
+
+The feature was temporarily removed during an [[Special:MyLanguage/Open Beta|open beta]] build for the [https://docs.vrchat.com/docs/vrchat-202141 UI 1.5 Update], but has not returned since. Cited with the [https://discord.com/channels/189511567539306508/503009489486872583/898728604299563068 following reason on the official VRChat Discord]:
+<blockquote>
+*''The Panorama button in the Quick Menu has been removed due to several issues. There are many compounding bugs with this feature, and trying to fix it right now will slow down this release. We'll circle back around and implement it properly at a later time.''
+*''VRChive Panorama has also been removed for similar reasons''</blockquote>
+
+==Veteran/Legend trust rank==
+{| class="wikitable"
+| style="background-color: #efea17" |
+!Veteran 
+|Veteran User was the Trust Rank above Trusted User. 
+It was introduced with the safety system September 20, 2018<ref>'[https://medium.com/@vrchat/vrchat-safety-and-trust-system-4073f05ab602 VRChat Safety and Trust System]' on Medium; retrieved on September 8, 2024</ref>. 
+
+And removed a week from the VRChat client by September 26, 2018<ref>'[https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 VRChat Safety and Trust System: Changes and Feedback]' on Medium; retrieved on September 8, 2024</ref> after feedback during the Open Beta of the trust rank system. 
+
+It remained in [[VRChat API|the API]] under the tag <code>system_trust_legend</code> until it was eventually removed on May 4, 2022.
+
+The color<!-- are we american english or british english? --><!--To answer this question: https://wiki.vrchat.com/wiki/VRCWiki:Manual_of_Style ~DAG 02/15/2025 --> for Veteran Users was gold before it was removed from the client.
+
+|-
+| style="background-color: #fb6090" |
+!Legendary
+|Legendary used to be a rank given to specific members within the VRChat Community Until it was Removed September 26, 2018<ref>'[https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 VRChat Safety and Trust System: Changes and Feedback]' on Medium; retrieved on September 8, 2024</ref> . 
+It remained in [[VRChat API|the API]] under the tag <code>system_legend</code> until it was eventually removed on May 4, 2022.
+|}
+
+==Guided Mode==
+[[File:Guided Mode.webp|thumb|220x220px|A screencap of the "Guided Mode" menu.]]
+'''Guided Mode''' was a [[Special:MyLanguage/Menus|menu]] and UI feature intended for users who were new to VRChat, however any user could enable and use the Guided Mode menu. It was announced in the April 28, 2023<ref>[https://ask.vrchat.com/t/developer-update-28-april-2023/17808 '28 April 2023 - Developer Update'] on ''ask.vrchat.com''; retrieved September 1, 2025.</ref> [[Developer Update]], then initially released on May 3, 2023 in the VRChat 2023.2.2<ref>[https://docs.vrchat.com/docs/vrchat-202322 VRChat 2023.2.2] on ''docs.vrchat.com''; retrieved December 4, 2024.</ref> update. The Guided Menu heavily simplified world and avatar exploration and tweaking for settings. It was revealed on the [https://youtu.be/MyrEvss-Dzw&t=77 VRChat 2023.2.2 Video Patchnotes], and was present in the VRChat client for a few months before being silently removed.
+
+The following patchnotes<ref>[https://docs.vrchat.com/docs/vrchat-202322 VRChat 2023.2.2] on ''docs.vrchat.com''; retrieved February 15, 2025.</ref> were introduced alongside the released the release of Guided Mode:
+
+<blockquote>''Introducing '''Guided Mode'''!''
+
+*''Guided mode is a simplified Quick Menu meant for new users, making it easy to explore VRChat and learn about vital functions.''
+*''This mode is available to all users in the Open Beta for testing.''
+*''You can exit Guided Mode to return to the normal Quick Menu.''
+*''Once this release goes to Live, Guided Mode will only be accessible to some new users for further testing''
+*''Later on, we will release it fully and optionally allow all users to enable the feature if you prefer it''</blockquote>
+
+==Old age verification badges ==
+
+[[File:Age-Verification-Badges.webp|thumb|A screencap of the old 'age verification' badges.]]
+When [[Age Verification|age verification]] was in early access, and early stages of public release, there were two badges available for those who went through the age verification process. 
+*Age Verified
+* Verified 18+
+
+It should also be noted that these badges are not the same as achievable [[Badges|profile badges]]. The Age Verified Badge was removed, and the Verified 18+ badge was changed from red to blue, stating: <blockquote>''"Essentially, this marker simply meant that you had completed the process - you had verified your identity, but you may not have been 18 or older."''</blockquote>and <blockquote>''"Red looked really bad on some headsets and didn't match our visual design."''
+<ref>[https://discord.com/channels/189511567539306508/503009489486872583/1338982044251721778 Message from strasz] on VRChat [[Discord servers|Discord]]; retrieved February 12, 2025.</ref></blockquote>
+
+==18 Hour clock==
+The '''18 Hour clock''' mode was a setting originally introduced with the [[Quick Menu#Clock|clock]]'s release on April 1st, 2024. The feature was eventually removed during the 2025.3.1 beta cycle, build 1678, cited with the [https://feedback.vrchat.com/open-beta/p/1678-18-hour-clock-mode-is-missing following reason on the VRChat Feedback board]:
+<blockquote>
+''This change was intentional. As our localization stack matures, the time for the 18 hour clock had come...''</blockquote>
+
+The 18 hour clock divides the day into two phases: AA and PA. From midnight (00:00) to 6:00 PM (18:59), the time follows the standard 24-hour clock format and is labelled with the "AA" suffix. At 18:59 AA, the clock resets and switches to 1:00 PA, marking the start of the second phase of the day. The PA phase runs from 1:00 PA to 6:00 PA. After 6:00 PA, the clock resets back to 00:00 AA, starting the next day. 
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Hour Mode conversion table
+!12 hour clock
+!18 hour clock
+!24 hour clock
+|-
+|12:00 AM
+|00:00 AA
+|0:00
+|-
+|1:00 AM
+|01:00 AA
+|1:00
+|-
+|2:00 AM
+|02:00 AA
+|2:00
+|-
+|3:00 AM
+|03:00 AA
+|3:00
+|-
+|4:00 AM
+|04:00 AA
+|4:00
+|-
+|5:00 AM
+|05:00 AA
+|5:00
+|-
+|6:00 AM
+|06:00 AA
+|6:00
+|-
+|7:00 AM
+|07:00 AA
+|7:00
+|-
+|8:00 AM
+|08:00 AA
+|8:00
+|-
+|9:00 AM
+|09:00 AA
+|9:00
+|-
+|10:00 AM
+|10:00 AA
+|10:00
+|-
+|11:00 AM
+|11:00 AA
+|11:00
+|-
+|12:00 PM
+|12:00 AA
+|12:00
+|-
+|1:00 PM
+|13:00 AA
+|13:00
+|-
+|2:00 PM
+|14:00 AA
+|14:00
+|-
+|3:00 PM
+|15:00 AA
+|15:00
+|-
+|4:00 PM
+|16:00 AA
+|16:00
+|-
+|5:00 PM
+|17:00 AA
+|17:00
+|-
+|6:00 PM
+|18:00 AA
+|18:00
+|-
+|7:00 PM
+|01:00 PA
+|19:00
+|-
+|8:00 PM
+|02:00 PA
+|20:00
+|-
+|9:00 PM
+|03:00 PA
+|21:00
+|-
+|10:00 PM
+|04:00 PA
+|22:00
+|-
+|11:00 PM
+|05:00 PA
+|23:00
+|-
+|12:00 AM
+|06:00 PA
+|00:00 (next day)
+|}
+
+==References==
+<references />

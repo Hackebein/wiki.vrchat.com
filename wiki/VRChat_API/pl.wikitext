@@ -1,0 +1,62 @@
+<languages/>
+
+'''Interfejs programowania aplikacji VRChatu''' (ang. ''VRChat's application programmer interface'') to oficjalne dane pochodzące z serwerów VRChatu, przesyłane do użytkownika poprzez klienta, stronę internetową bądź aplikację VRChatu. API może być również odpytywane zewnętrznie.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==About==
+[[File:API Team2021.webp|thumb|Seven API team members, pose for a in-game photo in a server room. Photo from 2021.]]
+VRChat briefly explains what their application programmer interfaces does, and gives examples of information it maintains, on their Developer Blog from 2019<ref>[https://medium.com/vrchat/developer-blog-websockets-b5f0b424d379 Developer Blog — Websockets] published by VRChat on ''Medium''; retrieved November 28, 2024.</ref>:
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Quote|''There are three major parts to VRChat — the client, which handles all of the fun virtual reality stuff, the network layer, which handles the high-speed low-drag communication between users in the virtual realms, '''and the API, which is responsible for permanent information storage like "who our users are" and "where our users are" and "keeping tabs on a truly spectacular collection of petabytes of avatars loose conglomerations of dynamic bones and particle animations'''." ''}}
+</div>
+
+<span id="Data"></span>
+==Dane==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Information from VRChat's API includes the following:
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Login and authentication
+**Being able to sign in via Steam, Meta, PICO, etc.
+**Signing directly through your VRChat account
+*Social and friends list
+**Live instance data (and switching instances)
+**Data regarding invites, and notifications
+**Joining and leaving instances
+**Favorite friends lists
+*SDK asset uploads
+**Your worlds and avatars
+**Favorite avatars, worlds, etc.
+**Searching for worlds and avatars
+*Realtime player state changes
+**Status updates, changing bios
+**Practically anything account-related
+**Changing avatars
+**Switching instances (and live instance data)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Official resources==
+VRChat's API status can officially be queried here: {{VRC link|https://status.vrchat.com/|VRChat server status}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Documentation ==
+VRChat does not officially document its API or provide support for it<ref>[https://hello.vrchat.com/creator-guidelines VRChat Creator Guidelines] under API Usage / Bots; retrieved January 10, 2025.</ref>. However, community-driven efforts have made API documentation and SDK libraries available for various programming languages. You can find these resources at:
+</div>
+
+* [https://vrchat.community VRChat.community - Dokumentacja API i SDK]
+* [https://github.com/vrchatapi GitHub]
+
+==Zobacz też==
+*[[Special:MyLanguage/Instances|Instancje]]
+*[[Special:MyLanguage/VRChat account|Konto VRChat]]
+
+<span id="References"></span>
+==Przypisy==
+
+<references />

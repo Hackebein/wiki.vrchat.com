@@ -1,0 +1,22 @@
+{{Noticebox/Community}}[[File:Uploading a Custom World Thumbnail.png|thumb|Uploading a custom image as a Thumbnail is made easy through the SDK]]
+
+<p>The World Thumbnail is a picture representing [[Worlds]] ingame and on the website.</p><p>A custom Thumbnail can be uploaded via the SDK during the world upload process. Its dimensions are 1200x900. Should none be selected, an image of the scene is taken from where the ShotCam is located during upload.</p>
+==World Thumbnail template==
+<p>To help create your own Thumbnail you may use the provided template to help align existing visuals.<br>The image below covers guide lines representing the 4 different crops used. It is ready to be used with an existing thumbnail or as a base for making a new one. Simply set it as a layer above your visuals and remove it before uploading your world thumbnail.</p>
+[[File:World Thumbnail Template.png|none|thumb|600x600px|World Thumbnail template. .png with transparency]]
+
+===<span style="color: rgb(160, 160, 160);">Grey box</span>===
+<p><span style="color: rgb(160, 160, 160);"><strong>The grey box</strong> </span>is what users will see while loading into a world or on the website. As you see you can put something at the top and bottom, which is mostly seen loading in. An idea would be to put some more detailed update notes there or a thanks to whoever joined!</p>[[File:Grey_Box_Preview.png|border|frameless]]
+
+===<span style="color: rgb(186, 55, 42);">Red box</span>===
+<p><strong><span style="color: rgb(186, 55, 42);">The red box</span></strong> is how your image will look in the world menu. This is the most important crop to get right in order to get people to click on your world. On the top right of this box there is an overlay indicating on which platforms your world is available at, it is see through.</p>[[File:Red_Box_Preview.png|border|frameless]]
+[[File:Red_Box_Preview-selected.png|frameless|536x536px]]
+
+=== <span style="color: rgb(22, 145, 121);">Green box</span> ===
+<p><strong><span style="color: rgb(22, 145, 121);">The green box</span></strong> is what a user sees when hovering over a world and it zooms in a little bit. Important here is, that the PC/Quest platform indicator is nearly opaque when hovered over. It may be wise to ensure nothing is hidden or cut off on the top right.</p>[[File:Green Box Preview.png|border|frameless]]
+
+=== <span style="color: rgb(42, 148, 255);"><span style="color: rgb(0, 127, 255);">Blue</span> and <span style="color: rgb(84, 169, 255);">Lightblue</span> circles</span> ===
+<p><strong><span style="color: rgb(42, 148, 255);">The <span style="color: rgb(0, 127, 255);">blue</span> and <span style="color: rgb(84, 169, 255);">lightblue</span> circles</span></strong> indicate what can be expected to be seen as a picture inside a dropped [[Portals|portal]]. The smaller of those 2 circles indicates what is always in view, when looking straight towards it. The bigger lightblue circle indicates where the actual cutoff happens, which is what is seen looking at the portal close up or at an angle.<br>Be aware the image is squished by about 33% horizontally before displayed in the portal.</p>
+[[File:Blue Circle Preview.webp|border|frameless]]
+<p>Once you have everything lined up, you can delete this template layer. The template above already fits the right dimensions of 1200x900.</p>
+[[Category:Guides]]

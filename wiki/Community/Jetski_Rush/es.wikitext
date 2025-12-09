@@ -1,0 +1,329 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Jetski Rush
+|image=Jetski_Rush_world_thumbnail.png
+|author= Quap
+|developers=LiQua (Quap, Libes)
+|platforms=PC, Android
+|tags=game, race, multiplayer, water, pvp
+|id=wrld_2ad5bb30-adf7-4de1-ba50-ae9b6b4689fe
+|published=Aug 02 2024
+}}
+<div class="mw-translate-fuzzy">
+'''Jetski Rush''' es un mundo de carreras de karts multiplataforma [[Special:MyLanguage/:Category:Game_Worlds|mundo de juego]] que puede jugarse con hasta 16 jugadores. Hay varios circuitos para competir y objetos que puedes usar a tu favor.
+</div>
+<span id="Gameplay"></span>
+== Jugabilidad ==
+
+De 1 a 16 jugadores compiten con sus motos acuáticas por la mejor posición o el mejor tiempo en la clasificación. Cada partida se desarrolla en uno de varios circuitos acuáticos, que pueden elegirse por votación o al azar. Dependiendo del mapa, el número de vueltas varía de 2 a 4. Un circuito puede contener elementos que actúan como obstáculos o en beneficio del jugador, como anillos de impulso. Gran parte del juego se centra en recoger y utilizar objetos situados alrededor de los mapas para activar efectos como velocidad o protección extra, o armas como minas y proyectiles para ralentizar a otros jugadores. Los jugadores pueden ganar más velocidad recogiendo y usando Turbo, técnicas como derrapar e inclinarse, y elementos del entorno como olas y rampas.
+<span id="Controls"></span>
+== Controles ==
+
+<span id="Bindings"></span>
+===Teclas===
+
+{| class="wikitable"
+|+
+!Nombre
+!PC
+!VR
+|-
+|'''Girar'''
+|[A] / [D]
+|[I Palanca ↔]
+
+Movimiento
+|-
+|'''Acelerar'''
+|[W]
+|[D Gatillo]
+|-
+|'''Inverso'''
+| [S] 
+|[I Palanca ↓]
+|-
+|'''Utilizar'''
+|[Ratón a la izquierda]
+|[I Gatillo]
+|-
+|'''[[#Turbo|Turbo]]'''
+|[Shift]
+|[A] [A] (Double Tap) 
+|-
+|'''[[#Drift|Drift]]'''
+|[Espacio] + [A] / [D]
+|[A] + Girar
+|-
+|'''[[#Lean|Lean]]'''
+|[Space]
+|[A] + No Girar
+|}
+
+===Turbo===
+
+El medidor Turbo se obtiene al pasar tiempo fuera del agua, derrapando o con el objeto Combustible Turbo. El Turbo aumenta tu velocidad máxima y aceleración por un breve periodo. No se acumula con los anillos de impulso, pero sí con los aumentos de velocidad al aterrizar en el agua.
+
+===Drift===
+
+El derrape te bloquea en la dirección inicial hasta que sueltas el botón de inclinación. Mientras derrapas, puedes entrar en el derrape para girar más rápido o salir del derrape para girar más lento. Obtienes un aumento de velocidad según el tiempo que mantengas el derrape, además de combustible turbo.
+
+<span id="Lean"></span>
+=== Inclinarse ===
+
+Inclinarte reducirá gradualmente tu velocidad, pero te permitirá saltar de las olas con mayor facilidad. Aterrizar en el agua te dará un impulso de velocidad. Obtendrás combustible turbo mientras estés en el aire.
+== HUD ==
+
+[[Archivo:Jetski Rush world - HUD y finalizar line.png|thumb|Captura de pantalla del juego de una línea de meta y el HUD]]
+'''Vuelta''' - La vuelta actual de todas las vueltas.
+
+'''Posición''' - La posición actual del jugador en la carrera.
+
+'''Medidor de Turbo''' - El nivel actual de combustible turbo. Cada bloque permite un solo uso del Turbo.
+
+'''Mapa''' - El mapa del recorrido junto con la línea de meta y las posiciones de los jugadores.
+<span id="Items"></span>
+== Artículos ==
+
+{| class="wikitable"
+|+
+!Icono
+!Nombre
+!Descripción
+!Notas
+|-
+|
+[[File:Jetski Rush world item - Turbo Fuel.png|frameless|70x70px]]
+| "Combustible turbo
+|“'Da combustible turbo cuando se usa.”'
+|
+|-
+|
+[[File:Jetski Rush world item - Sharkpedo.png|frameless|70x70px]]
+|“”'Sharkpedo'''
+|“'Apunta y dispara un proyectil en línea recta que golpea a otros corredores.”'
+|
+|-
+|
+[[File:Jetski Rush world item - Puffermine.png|frameless|70x70px]]
+|“”'Puffermine'''
+|“'Apunta y dispara un proyectil que crea una trampa para que los corredores golpeen.”'
+|Se puede contrarrestar disparándole con un Sharkpedo o Puffermine.
+|-
+|
+[[File:Jetski Rush world item - Bubble Shield.png|frameless|70x70px]]
+|Escudo Burbuja
+|“'Crea un escudo alrededor del usuario que lo protege durante un tiempo”'.
+|
+|-
+|
+[[File:Jetski Rush world item - Bird Bomb.png|frameless|70x70px]]
+|“”'Bomba Pájaro'''
+|“'Envía una bomba para atacar al corredor directamente delante del usuario.”'
+|Se puede contrarrestar disparándole con un Sharkpedo o un Puffermine.
+|-
+|
+[[File:Jetski Rush world item - Dolphin Battery.png|frameless|70x70px]]
+|Batería de Delfín
+|“'Da al usuario un impulso inmediato de velocidad hacia adelante cuando se usa.”'
+|Suelta con más frecuencia cuanto más lejos estés del primer jugador.
+|-
+|
+[[File:Jetski Rush world item - Skull Curse.png|frameless|70x70px]]
+|“”'Maldición de la Calavera'''
+|“'Envía un ataque AOE al corredor que va en primer lugar”'.
+|
+|-
+|
+[[File:Jetski Rush world item - Royal Crown.png|frameless|70x70px]]
+|“”'Corona Real'''
+|“'Da al usuario un aumento temporal de velocidad e invencibilidad.”'
+|Tras 20 segundos, la corona se utilizará automáticamente.
+|}
+<span id="Courses"></span>
+==Cursos==
+
+{| class="wikitable"
+|+
+!Thumbnail
+!Map
+!Name 
+!Laps
+|-
+|
+[[File:Jetski Rush world course - Arctic Iceway.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Arctic Iceway.png|frameless|100x100px]]
+|“”'Arctic Iceway'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Aquatic Arena.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Aquatic Arena.png|frameless|100x100px]]
+|“”'Arena Acuática'''
+|4
+|-
+|
+[[File:Jetski Rush world course - Crossbone Cove.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Crossbone Cove.png|frameless|100x100px]]
+|“”'Crossbone Cove'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Fungal Forest.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Fungal Forest.png|frameless|100x100px]]
+|“”'Bosque de hongos'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Kabuki Peaks.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Kabuki Peaks.png|frameless|100x100px]]
+|“”'Picos Kabuki'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Seaside Factory.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Seaside Factory.png|frameless|100x100px]]
+|“”'Fábrica Seaside'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Temple Ravine.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Temple Ravine.png|frameless|100x100px]]
+|“”'Barranco del Templo'''
+|2
+|-
+|
+[[File:Jetski Rush world course - Candy Canyon.png|frameless|196x196px]]
+| 
+[[File:Jetski Rush world map - Candy Canyon.png|frameless|100x100px]]
+|“”'Barranco del Templo'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Hollow Castle.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Hollow Castle.png|frameless|100x100px]]
+|“”'Castillo Hueco'''
+|2
+|-
+|
+[[File:Jetski Rush world course - Retro Rush.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Retro Rush.png|frameless|100x100px]]
+|“”'Retro Rush'''
+|3
+|}
+
+<span id="Elements"></span>
+===Elementos===
+
+[[Archivo:Jetski Rush world - boost ring and ramp.webp|thumb|Un anillo de impulso y una rampa]]
+
+<span id="Boost_rings"></span>
+====Anillos de refuerzo====
+
+Conducir a través de un anillo de impulso te impulsa en la dirección en la que está orientado. La velocidad obtenida con un turbo no se acumula con los anillos de impulso.
+
+<span id="Ramps"></span>
+====Rampas====
+
+Las rampas permiten al jugador saltar y ganar tiempo fuera del agua para rellenar su medidor Turbo, a menudo para adquirir el aumento de velocidad de aterrizaje en el agua y, a veces, simplemente para saltar obstáculos.
+
+== Jetskis==
+
+[[Archivo:Jetski Rush world - customization.webp|thumb|Panel de personalización de motos acuáticas en la zona de inicio]] Los jugadores pueden elegir su modelo de moto acuática preferido en el panel de personalización de la zona de inicio. Las opciones de personalización van desde diferentes colores de la moto acuática básica hasta modelos completamente personalizados, como un patito de goma o modelos con temática de [[Special:MyLanguage/VRRat|VRRat]]. Las motos acuáticas más exclusivas solo están disponibles para los seguidores. También hay dos motos acuáticas disponibles con un código que se obtiene al completar desafíos especiales en [[Special:MyLanguage/Community:Jetski Islet|Jetski Islet]], un mundo diferente del mismo autor<ref>[https://vrchat.com/home/world/wrld_7ef54852-7894-46e4-9935-7dacb78f81c5 Jetski Islet world] en ''VRChat''.</ref>.
+<span id="Tips"></span>
+==Consejos==
+
+Consejos que se muestran en el menú de inicio: 
+
+*''¡Turbo justo antes de caer al agua para ganar velocidad!''
+*''¡Turbo después de ser golpeado para acelerar más!''
+*''¡Ataca una mina globo en el camino para despejar tu camino!''
+*''¡Gana turbo derrapando o estando fuera del agua!''
+*''¡Mantén presionado el acelerador cuando la cuenta regresiva llegue a 3 segundos para activar el turbo!''
+*''¡Mantén presionado el botón de inclinación sin girar antes de una ola para inclinarte y tomar aire!''
+*''¡Puedes ajustar el ángulo de derrapada intentando girar mientras derrapas!''
+*''¡Mantén presionado el botón de inclinación mientras giras para derrapar!''
+*''¡En RV, mira hacia adelante y presiona RT + LT durante la cuenta regresiva para recalibrar!''
+*''¿Te mareas? ¡Prueba a activar 'Movimiento reducido' en la configuración!''
+*''¿Tienes problemas para dirigir y apuntar? ¡Prueba a cambiar los controles o usa la palanca de dirección!''
+Otros consejos:
+
+*La distancia al primer jugador afecta la probabilidad de obtener ciertos objetos:<ref>Comentario del desarrollador sobre [https://discord.com/channels/673077556806811659/1249065781262684273/1279464209117216771 distancia/ubicación y probabilidades de obtener] en el servidor de Discord de LiQua Lounge.</ref>
+**Cuanto más cerca estés del primer puesto, mayor será la probabilidad de obtener Combustible Turbo.
+**Si el primer jugador te lleva cierta distancia, puedes obtener la Corona Real; la probabilidad aumenta con la distancia.
+==Actualizaciones==
+Aspectos destacados de las actualizaciones principales.
+
+<span id="Candy_Update"></span>
+===Actualización de Candy===
+
+Lanzado el 30 de agosto de 2024<ref>Actualización de Candy [https://x.com/TeamLiQua/status/1829626177847230801 video promocional] en ''Twitter''.</ref>.
+
+Cambios principales:
+*Se añadió un nuevo circuito: Candy Canyon.
+*Se añadieron 3 nuevas motos acuáticas: Gumdrop, Eclair y Shortcake.
+
+<span id="Time_Trials"></span>
+===Pruebas contrarreloj===
+
+Lanzado el 28 de septiembre de 2024<ref>Actualización de Contrarreloj [https://x.com/TeamLiQua/status/1840116564710043722 anuncio] en ''Twitter''.</ref>.
+
+Cambios importantes:
+
+*Se introdujo el modo Contrarreloj.
+**Clasificación global.
+**Datos fantasma.
+*Se añadieron 3 nuevas motos acuáticas: Moto acuática, Artillero y Electro.
+*La Bomba Pájaro se puede contrarrestar con un proyectil.
+
+<span id="Spooky_Update"></span>
+=== Actualización espeluznante ===
+
+Lanzado el 13 de octubre de 2024<ref>Actualización espeluznante [https://x.com/TeamLiQua/status/1845226388804239645 anuncio] en ''Twitter''.</ref>.
+
+Cambios importantes:
+
+* Se agregó un nuevo circuito: Hollow Castle.
+* Se agregaron 3 nuevas motos acuáticas: Pumpkin, Trick, Treat.
+
+<span id="Xmas_Update"></span>
+=== Actualización de Navidad ===
+
+Lanzado el 18 de diciembre de 2024<ref>Actualización de Navidad [https://bsky.app/profile/teamliqua.bsky.social/post/3ldjz7vlbbs2w anuncio] en ''Twitter''.</ref>.
+
+Cambios principales:
+* Se añadieron decoraciones navideñas.
+* Se añadieron 3 nuevas motos acuáticas: Trineo de Papá Noel, Travieso y Bueno.
+* Se introdujeron circuitos duplicados.
+
+=== Actualización Retro ===
+Lanzado el 19 de enero de 2024<ref>Actualización Retro [https://x.com/TeamLiQua/status/1880806850347860371 anuncio] en ''Twitter''.</ref>
+
+Cambios importantes:
+
+* Se añadió un nuevo circuito: Retro Rush.
+* Se añadieron 4 nuevas motos acuáticas: Retro, Future, Nostaljet y NeoWave.
+* Se introdujeron compras únicas de motos acuáticas.
+
+<span id="External_links"></span>
+==Links externos==
+
+*[https://discord.gg/WP2xYbz Discord de LiQua Lounge].
+*[https://x.com/TeamLiQua Twitter de LiQua].
+<span id="References"></span>
+==Referencias==
+<references />
+
+[[Category:Worlds{{#translation:}}]]
+[[Category:Game worlds{{#translation:}}]]
+[[Category:PvP worlds{{#translation:}}]]
+[[Category:English{{#translation:}}]]

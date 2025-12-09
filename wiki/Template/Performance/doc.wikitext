@@ -1,0 +1,50 @@
+== Documentation ==
+Allows for the usage of performance icons.
+=== Example Usage ===
+<nowiki>{{performance|excellent|64px}}</nowiki>
+
+will make:<br>
+{{performance|excellent|64px}}
+
+=== Template parameters ===
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Performance Ranking",
+			"type": "string",
+			"suggestedvalues": [
+				"excellent",
+				"good",
+				"medium",
+				"poor",
+				"verypoor"
+			],
+			"default": "medium",
+			"suggested": true,
+			"description": "What performance rank icon you want displayed",
+			"example": "excellent"
+		},
+		"2": {
+			"label": "Icon size (in pixels)",
+			"description": "Changes the size of the icon in pixels.",
+			"type": "number",
+			"suggestedvalues": [
+				"16",
+				"32",
+				"64",
+				"128"
+			],
+			"default": "32",
+			"suggested": true
+		}
+	},
+	"paramOrder": [
+		"1",
+		"2"
+	],
+	"format": "inline",
+	"description": "Performance ranking icon"
+}
+</templatedata>
+<noinclude>[[Category:Template Documentation]]</noinclude>

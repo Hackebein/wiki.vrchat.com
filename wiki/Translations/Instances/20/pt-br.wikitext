@@ -1,0 +1,43 @@
+=== Tabela de permissões ===
+{| class="wikitable"
+|+Permissões de moderação para instâncias
+!Tipos de instância
+|'''Público'''
+|'''Amigos+'''
+|'''Amigos'''
+|'''Convite+'''
+|'''Convite'''
+|'''Grupo Público'''
+|'''Grupo+'''
+|'''Grupo'''
+|-
+|'''Autor do mundo'''
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|Não
+|Não
+|-
+|'''Proprietário da instância'''
+|Não
+|✔️
+|✔️
+|✔️
+|✔️
+|Se for moderador
+|Se for moderador
+|Se for moderador
+|-
+|'''Moderador do grupo'''
+|Não
+|Não
+|Não
+|Não
+|Não
+|✔️
+|✔️
+|✔️
+|}

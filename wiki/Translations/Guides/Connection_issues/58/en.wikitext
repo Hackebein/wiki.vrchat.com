@@ -1,0 +1,3 @@
+* Open the command prompt again, by pressing the "Windows Key", and typing "cmd", and "Run as Administrator" again.
+* Type "netsh interface ipv6 reset" and press the Enter key.
+* This should revert the IPv4 prioritization after restarting your PC.

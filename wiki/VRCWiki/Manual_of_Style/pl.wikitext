@@ -1,0 +1,96 @@
+<languages/>
+Niniejsze '''Wytyczne stylu''' stanowią przewodnik sugerowanego stylu pisania na VRChat Wiki.
+
+Ogółem:
+
+* Wszystkie treści na VRChat Wiki powinny być dokładne i zgodne z prawdą.
+* Współtwórcy powinni pisać artykuły używając prostego, zwięzłego, łatwego do zrozumienia języka i tworzyć artykuły o spójnej, przyjaznej dla czytelnika budowie i formatowaniu.
+* Jeśli masz jakiekolwiek pytania dotyczące stylu, budowy lub formatowania VRChat Wiki, skontaktuj się z jednym z [https://wiki.vrchat.com/wiki/Special:ListUsers?username=&group=community-mod&wpsubmit=&wpFormIdentifier=mw-listusers-form&limit=50 moderatorów społeczności] w celu uzyskania pomocy.
+
+Poniżej znajduje się kilka konkretnych wytycznych dotyczących stylu:
+
+<span id="Article_titles"></span>
+== Tytuły artykułów ==
+
+Tytuł powinien być rozpoznawalną nazwą lub opisem zagadnienia, równoważąc kryteria naturalności, precyzji, zwięzłości i spójności z tytułami powiązanych artykułów.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+For formatting guidance see the Article title format section, noting the following:
+* Capitalize the initial letter, but otherwise follow sentence case. VRChat uses sentence case for sentences, article titles, section titles, table headers, image captions, list entries (in most cases), and entries in infoboxes and similar templates, among other things. 
+* Do not use articles (''a'', ''an'', or ''the'') as the first word (''[[Special:MyLanguage/Creator Economy|Creator Economy]]'', not ''The Creator Economy''), unless it is an inseparable part of a name ([[Special:MyLanguage/The Black Cat|The Black Cat]]) or title of a work (''The VRChat Times'').
+* Normally use nouns or noun phrases: Early life, not In early life. Phrases such as In early life are acceptable (though not required) as section headings. They are also used frequently as part of longer article titles such as ''VRChat Events'', especially when a shorter construction (''Events'') may have ambiguity issues.
+* The final character should not be punctuation unless it is an inseparable part of a name (such as ''Do Androids Dream of Electric Sheep?''), or an abbreviation (VRChat Inc.), or when a closing round bracket or quotation mark is required (''Fantastic Avatars (and where to find them)'').
+* Whenever quotation marks or apostrophes appear, add a redirect for the same title using apostrophes. Avoid use of curly quotes ("smart quotes") because straight quotation marks and apostrophes are easier to type and display reliably on most platforms.
+</div>
+
+<span id="Section_headings"></span>
+==Nagłówki sekcji==
+
+Nagłówki sekcji powinny być zgodne z wytycznymi dotyczącymi tytułów artykułów (powyżej) i tylko ich pierwszy wyraz powinien być zapisany wielką literą ("Dokąd w nocy tupta VRCat"), a nie wszystkie ("Dokąd w Nocy Tupta VRCat").
+
+Nagłówek musi znajdować się w nowej linii, z jedną pustą linią tuż przed nim. Pusty wiersz tuż po jest opcjonalny i ignorowany (ale nie używaj dwóch pustych wierszy, przed lub po, ponieważ spowoduje to dodanie przerwy).
+
+Ze względów technicznych nagłówki sekcji powinny:
+
+* Być unikalne w obrębie strony, aby linki do sekcji prowadziły do właściwego miejsca.
+* Nie zawierać linków, zwłaszcza gdy link dotyczy tylko części nagłówka.
+* Nie zawierać obrazków, emoji ani ikon.
+* Nie zawierać cytatów ani przypisów.
+* Nie nadużywać znaczników listy opisów (";") do tworzenia pseudonagłówków.
+* Nie mogą zawierać szablonów.
+
+Nagłówki sekcji powinny być spójne stylistycznie i:
+
+* Nie odnosić się niepotrzebnie do tematu artykułu, np. "Wczesne życie", a nie "Wczesne życie Smitha" lub "Jego wczesne życie".
+* Nie odnosić się do nagłówka wyższego poziomu, chyba że jest to krótsze lub bardziej przejrzyste.
+* Nie być numerowane ani wypunktowywane literami.
+* Nie być sformułowane jako pytanie, np. "Języki", a nie "Jakie języki są używane w Meksyku?".
+* Nie używać kolorów lub nietypowych czcionek, które mogą powodować problemy z dostępnością.
+* Nie być umieszczane pomiędzy znacznikami, które mogą zepsuć ich wyświetlanie lub powodować inne problemy z dostępnością.
+
+<span id="English_word_choice_and_capitalization"></span>
+== Dobór słów i wielkie litery ==
+
+Aby zachować jednolitość tłumaczeń, warto trzymać się poniższych reguł:
+
+* '''Cytaty, tytuły dzieł (książek, filmów itp.)''' powinny używać wielkich liter tak jak w ich oryginale.
+* '''Nazwy własne''' używają własnej pisowni i wielkich liter, np.: "...wspólny projekt VRChat Inc. i VRChat Community Labs...", "Organizacja Awatarów Zjednoczonych".
+* Używaj powszechnie zrozumiałego słownictwa, zwłaszcza w tytułach. Na przykład, "ziemniak" jest preferowane od odmian "bulba" czy "pyra" używanych w dialektach i gwarach.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Links ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Please make an effort to use internal links whenever possible and avoid including tracking parameters in your URLs.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Group Links ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+When linking to your group, ensure that you use a permanent link. The link should clearly display the group name followed by its short code.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Example:
+* [https://vrchat.com/home/group/grp_7ccb6ca3-cd36-4dab-9ab1-7bcf08d794e4 VRChat Team] - VRCHAT.0000
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Categories ==
+When adding a category to a page, ensure you are adding <code><nowiki>{{#translation:}}</nowiki></code> within the category enclosing.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Example:
+* <code><nowiki>[[Category:Game worlds{{#translation:}}]]</nowiki></code>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This ensures that future pages that get marked for translation doesn't clog up the category list with language variants of the same page.
+</div>
+
+----
+{{Navbox/Wiki_policies}}

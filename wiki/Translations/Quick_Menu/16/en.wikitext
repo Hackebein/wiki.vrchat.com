@@ -1,0 +1,21 @@
+{| class="wikitable"
+!Clock setting
+!Values
+!Tooltip
+|-
+|'''Hour Mode'''
+|System Default, 12 Hours, 24 Hours, 18 Hours
+|Change if the clock shows 12 or 24 hour time<br>
+'''[System Default]''' Change the clock hour mode to the system default<br>
+'''[12 Hours]''' Change the clock to 12 hour mode<br>
+'''[24 Hours]''' Change the clock to 24 hour mode<br>
+'''[18 Hours]''' Change the clock to 18 hour mode (what?)
+|-
+|'''Timezone'''
+|Local Time, UTC, GMT, Random Time Zone
+|Change the time zone the clock uses for any mode requiring one<br>
+'''[Local Time]''' Change the clock to use your local time zone<br>
+'''[UTC]''' Change the clock to use UTC (Universal Coordinated Time, blame the French for not calling it UCT)<br>
+'''[GMT]''' Change the clock to use GMT (it's UTC except when Microsoft Windows™ decides it isn't)<br>
+'''[Random Time Zone]''' Change the clock to use a random time zone (0.71% chance it's yours!)
+|}

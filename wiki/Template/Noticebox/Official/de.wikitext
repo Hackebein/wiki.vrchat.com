@@ -1,0 +1,11 @@
+<noinclude><languages/></noinclude><onlyinclude>{{Noticebox
+|template=Noticebox/Official
+|image=VRLogo.png
+|title=Dies ist eine offizielle VRChat-Informationsseite!
+|description=<span class="mw-translate-fuzzy">Verfasst von der [https://wiki.vrchat.com/wiki/Special:ListUsers?editsOnly=1 Community]. Überprüft vom [[VRCWiki:Team|VRCWiki Team]].</span>
+|border-color=var(--less-dark-green-border)
+|background-color=#162230}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Official Pages{{#translation:}}]][[Category:Official Content{{#translation:}}]]}}</onlyinclude>
+
+{{templatedocs}}
+[[Category:Templates{{#translation:}}]]
+[[Category:Templates/Noticeboxes{{#translation:}}]]

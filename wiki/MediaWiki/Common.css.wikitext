@@ -1,0 +1,319 @@
+/* CSS placed here will be applied to all skins */
+
+/* T-style like css. no longer needed: https://wiki.vrchat.com/index.php?title=Template:Infobox/styles.css&oldid=544
+@import url("/index.php?title=Template:Infobox/styles.css&action=raw&ctype=text/css");
+*/
+
+/* MAKE SURE THESE ARE NATIVE AT SOME POINT */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("/index.php?title=Template:MainPageInfopush.css&action=raw&ctype=text/css");
+@import url("/index.php?title=MediaWiki:Spoiler.css&action=raw&ctype=text/css");
+
+a:not(.icon-none)[href^="https://ask.vrchat.com"], a:not(.icon-none)[href^="https://docs.vrchat.com/"] {
+  background-image: var(--icon-url) !important;
+  background-position: center left !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  padding-right: 0 !important;
+  padding-left: 1.5em;
+}
+
+a[href^="https://ask.vrchat.com"] {
+	--icon-url: url("https://upload.wikimedia.org/wikipedia/commons/1/17/Discourse_icon.svg");
+}
+
+a:not(.icon-none)[href^="https://docs.vrchat.com"] {
+	--icon-url: url("https://docs.vrchat.com/favicon.ico");
+	padding-left: 1.6em;
+}
+
+[alt*="vrcat" i], [alt*="vrrat" i] {
+	cursor: grab;
+	transform-origin: bottom center;
+	transition: transform 0.1s ease;
+}
+
+[alt*="vrcat" i]:active, [alt*="vrrat" i]:active {
+	cursor: grabbing;
+	transform: scaleY(.9) scaleX(1.1);
+}
+
+#localNotice {
+  background: var(--less-dark-grey);
+  border: 3px solid var(--less-dark-grey-border);
+  border-radius: 12px;
+}
+
+.wikitable.navbox {
+  width: 100%;
+  text-align: center;
+}
+
+.hlist ul {
+  margin: 0;
+}
+
+.hlist li {
+  display: inline;
+}
+
+.hlist li::before {
+  content: " · ";
+  font-weight: bold;
+  margin: 0 0.25em 0 0.3em;
+}
+
+.hlist li:first-child::before {
+  content: none;
+}
+
+@keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.3);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+/* Image Gallery */
+.mw-gallery-traditional .gallerybox > .thumb::before {
+    content: unset;
+}
+
+#mw-content-text > div > ul > li {
+    padding-top: unset !important;
+}
+
+.mw-body li.gallerybox div.thumb {
+    height: auto !important;
+    overflow: hidden;
+}
+
+li.gallerybox div.thumb img {
+    width: 100%;
+}
+
+.mw-gallery-traditional .gallerybox > .thumb > * {
+    display: block;
+}
+
+/* Image Thumbnail */
+figure[typeof~='mw:File/Thumb'] > :not(figcaption) .mw-file-element, figure[typeof~='mw:File/Frame'] > :not(figcaption) .mw-file-element {
+    margin: 0;
+}
+
+.mw-body-content figure[typeof~='mw:File/Thumb'] > a, .mw-body-content figure[typeof~='mw:File/Frame'] > a {
+    background: var(--less-dark-grey);
+    border: solid var(--less-dark-grey-border);
+    border-radius: 10px;
+    padding: 0;
+    min-width: 256px;
+    max-width: 384px;
+    display:inline-block;
+    overflow: hidden;
+}
+
+figure[typeof~="mw:File/Thumb"], figure[typeof~="mw:File/Thumb"] > figcaption {
+    border: none !important;
+    background: none !important;
+}
+
+figure[typeof~="mw:File/Thumb"] > figcaption {
+    padding: 0.5em;
+}
+
+/* Community distinction experiment */
+@media screen {
+  .mw-body h1.firstHeading {
+  	display: flex;
+    flex-direction: column;
+    padding-bottom: .25em;
+  }
+
+  .mw-page-title-separator {
+    display: none;
+  }
+  
+  .mw-page-title-namespace {
+    font-size: 0.7em;
+  }
+
+  /* User namespace */
+  .ns-2 .mw-body h1.firstHeading,
+  .ns-3 .mw-body h1.firstHeading,
+  /* Community namespace */
+  .ns-3000 .mw-body h1.firstHeading,
+  .ns-3100 .mw-body h1.firstHeading {
+    border-color: #2ace5b;
+  }
+
+  /* User namespace */
+  .ns-2 .mw-body h1.firstHeading,
+  .ns-3 .mw-body h1.firstHeading,
+  /* Community namespace */
+  .ns-3000 .mw-body h1.firstHeading,
+  .ns-3100 .mw-page-title-namespace {
+    color: #2ace5b;
+  }
+}
+
+/* Note: The MediaWiki code editor will sometimes give errors for css parameters like --pi-background. These may safely be ignored. */
+
+
+
+/* Hide Main Page unneeded stuff */
+[class*=" page-Main_Page"] #firstHeading { display: none; }
+[class*=" page-Main_Page"] .mw-editsection { display: none; }
+
+/* Main Page Classes */
+[class*=" page-Main_Page"] .mw-body .mw-parser-output h2 {
+    margin: 0.9em 0.7em 0;
+    padding: 0;
+}
+
+[class*=" page-Main_Page"] .mw-body .mw-parser-output h2:after {
+	border-bottom: 0;
+}
+
+[class*=" page-Main_Page"] .mw-body .mw-parser-output h2:after {
+    border-bottom: 0;
+}
+
+[class*=" page-Main_Page"] .mw-body .mw-parser-output h3 {
+    margin: 0 0.3em 0.3em;
+    padding: 0;
+}
+
+.qm-icon:before {
+	display: inline-block;
+	content: '';
+	background-size: 0.85em;
+    width: 0.85em;
+    height: 0.85em;
+    margin-right: 0.4em;
+    position: relative;
+    top: 0.1em;
+}
+
+@media screen and (max-width: 600px) {
+    [class*=" page-Main_Page"] .mw-body .mw-parser-output h3 {
+        margin: 0 0 0.3em;
+        font-size: 1.4em;
+    }
+    
+    .qm-icon:before {
+		background-size: 0.75em;
+	    width: 0.75em;
+	    height: 0.75em;
+	}
+}
+
+.qm-icon.version:before {background-image: url('https://wiki-files.vrchat.com/Icons_PinFPS_25.png');}
+.qm-icon.news:before {background-image: url('https://wiki-files.vrchat.com/Icons_Announcement_25.png');}
+.qm-icon.basics:before {background-image: url('https://wiki-files.vrchat.com/Icons_LaunchPad_25.png');}
+.qm-icon.social:before {background-image: url('https://wiki-files.vrchat.com/Icons_Social_25.png');}
+.qm-icon.economy:before {background-image: url('https://wiki-files.vrchat.com/Icons_VRCPlus_25.png');}
+.qm-icon.worlds:before {background-image: url('https://wiki-files.vrchat.com/Icons_Worlds_25.png');}
+.qm-icon.avatars:before {background-image: url('https://wiki-files.vrchat.com/Icons_Avatars_25.png');}
+.qm-icon.creation:before {background-image: url('https://wiki-files.vrchat.com/Icons_CommunityLabs_25.png');}
+.qm-icon.help:before {background-image: url('https://wiki-files.vrchat.com/Icons_HelpInfo_25.png');}
+.qm-icon.community:before {background-image: url('https://wiki-files.vrchat.com/Icons_Favorite_25.png');}
+
+.qm-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    column-gap: 1.5em;
+    row-gap: 1.5em;
+    margin: 0.75em 0 1.5em;
+}
+
+.qm-box {
+    flex: 1 1 15%;
+    min-width: 180px;
+    padding: 1.5em;
+    font-size: 1em;
+    background-color: #171e28;
+    background-color: rgba(50, 90, 120, 0.1);
+    border: 3px solid #102f5b;
+    border: 3px solid rgba(20, 70, 140, 0.5);
+    border-radius: 1em;
+}
+
+.qm-box.community {
+    background-color: #1a251c;
+    background-color: rgba(40, 140, 40, 0.1);
+    border-color: #1a4c24;
+    border-color: rgba(40, 120, 40, 0.5);
+}
+
+.qm-box.flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    column-gap: 0.75em;
+    row-gap: 0.75em;
+    min-width: inherit;
+    max-width: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    .qm-container {
+    	column-gap: 0.75em;
+    	row-gap: 0.75em;
+    }
+    
+    .qm-box {
+    	min-width: 120px;
+    	padding: 0.75em;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+	.desktop-only {
+		display: none !important;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.mobile-only {
+		display: none !important;
+	}
+}
+
+/* 🦀 REAL NAME IS GONE 🦀 */
+[data-ooui*="Real name"] {
+	pointer-events: none;
+	display: none;
+}
+
+/* REFLIST STYLES */
+.reflist-upper-alpha ol {
+	list-style-type: upper-alpha;
+}
+
+.reflist-upper-roman ol {
+	list-style-type: upper-roman;
+}
+
+.reflist-lower-alpha ol {
+	list-style-type: lower-alpha;
+}
+
+.reflist-lower-roman ol {
+	list-style-type: lower-roman;
+}
+
+/* Navigation background fix */
+/* eg. https://wiki.vrchat.com/index.php?title=Special%3ATranslate&group=page-Main+Page&action=page&filter=&action_source=translate_page&language=de */
+@media screen and (min-height: 600px) {
+    .tux-messagetable-header {
+        background: transparent;
+    }
+}

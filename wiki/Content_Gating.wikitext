@@ -1,0 +1,98 @@
+{{Noticebox/Official}}
+[[File:ContentGatingKeyArtBlog.png|thumb|337x337px|Content Gating key art]]
+'''Content Gating''' is a system that allows users to filter or limit the type of content they encounter in [[Special:MyLanguage/VRChat|VRChat]]. Creators are required to label their content appropriately so that users are able to curate their experience. Content Gating settings can be adjusted from inside VRChat or the website.
+
+==Content Warnings==
+Content Warnings can be applied to either [[Special:MyLanguage/Avatars|avatars]] or [[Special:MyLanguage/Worlds|worlds]]. These are all the content warnings with usage examples:
+{| class="wikitable"
+!Content Warning Label
+!Age-based forced gating
+!Explanation
+!Usage Example
+|-
+|Sexually suggestive{{efn|The "Sexually suggestive" filter cannot be toggled on iOS [[Special:MyLanguage/Platforms|platforms]].}}
+| style="text-align:center;" |†<sub>{{efn|† The age-based forced gating system was disabled as of the 7 December 2023 Dev Update.<ref name="7Dec2023DevUpdate">[https://ask.vrchat.com/t/developer-update-7-december-2023/21274#content-gating-changes-5 Developer Update - 7 December, 2023] </ref></sub>}}
+|Avatars or worlds that display, imply, or promote sexually provocative poses, clothing, or activities. This includes but is not limited to overly revealing attire, sexually suggestive or provocative animations, or sexually-themed environments and avatars.
+|Content labeled “sexually suggestive” might be an avatar wearing revealing lingerie or an adult-themed dance club.
+|-
+|Adult language and themes
+| style="text-align:center;" |†
+|Avatars or worlds that include or promote mature subject matter such as drug use, gambling, or dark humor. This label focuses on explicit content that isn’t necessarily sexual, but is still “adult”.
+|Content labeled as “adult language and themes” might include avatars with very explicit language on their clothing or worlds that simulate drug usage.
+|-
+|Graphic violence
+| style="text-align:center;" |*<sub>{{efn|* Subject to change.<ref name="7Dec2023DevUpdate"/></sub>}}
+|Avatars or worlds that depict or encourage acts of violence in a detailed, realistic manner. This includes but is not limited to depictions of physical harm, depictions of self-harm, realistic weapons with violent animations, and other related content.
+|This label is not meant for “cartoon”-style violence but indicates that the content has some level of realism.
+|-
+|Excessive gore
+| style="text-align:center;" |*
+|Avatars or worlds that contain overly graphic or vivid depictions of blood, guts, or bodily dismemberment. This can include animations, textures, or scenes that aim to shock or disgust.
+|Content labeled as "excessive gore" might feature an avatar with overly graphic, realistic injuries or a world that depicts a gruesome, realistic crime scene.
+|-
+|Extreme horror
+| style="text-align:center;" |*
+|Avatars or worlds designed to instill intense fear, anxiety, or distress. This could include deeply unsettling themes or disturbing imagery beyond conventional and well-known horror aesthetics.
+|This label isn’t meant for the common types of “jumpscare” horror or “spooky” worlds, it’s a few levels above that.
+
+
+Content labeled as "extreme horror" could include avatars with grotesque features meant to disturb, or worlds meant to horrify or shock visitors.
+|}
+Explanations and usage examples are from VRChat's {{VRC link|https://hello.vrchat.com/creator-guidelines|Creator Guidelines}}. '''No matter what, VRChat's {{VRC link|https://hello.vrchat.com/legal|Terms of Service}} are the "final word".''' These explanations will help guide you into labeling content correctly to not break TOS.
+
+{{notelist}}
+
+=== Age-based Content Gating ===
+Age-based Content Gating would automatically enable Content Gating for users under 18 for every filter except Extreme Horror. This was revealed in the 22 November 2023 Developer Update<ref>[https://ask.vrchat.com/t/developer-update-22-november-2023/20878#h-202342-open-beta-6 Developer Update - 22 November, 2023]</ref>. Due to issues with the system in regards to users having the incorrect Date of Birth on their VRChat account and the way creators label their content, it has been disabled as of December 7th, 2023<ref name="7Dec2023DevUpdate"/>. It has been suggested this will be reimplemented with [[Age Verification]] in the future, however there is no confirmation as to when or how it will be done.
+
+==Content filtering==
+[[File:Content gating main menu settings.webp|thumb|Main Menu Content Gating]]
+<!-- EDITOR NOTE: the following is commented out due to it not being accurate. Age-based content gating is not enabled. Reinstate when age-based content gating returns.
+<!-- The way content gets filtered within VRChat is based on the date of birth used when registering their account. If the user is under the age of 18, Content Warning labels will be turned on and cannot be turned off (age-based forced content gating).
+
+For users over the age of 18, Content Warning labels will be off by default. -->
+
+Viewing content blocked by the Content Gating system results in the following:
+{| class="wikitable"
+!
+!When blocked by Content Gating
+|-
+|Avatars
+|Avatar gets replaced with the default VRChat [[Special:MyLanguage/Robot|Robot]]
+|-
+|Worlds
+|
+*Worlds will be hidden from menus and search
+*Worlds cannot be entered
+|-
+|World Invites
+|Unable to join instance, will be prompted with a notice
+|}
+'''Note:''' Self-uploaded content marked and filtered with content warning labels is still viewable and usable, indicated by black and yellow hazard stripes.
+
+====Toggling Content Warning labels====
+To change which labels to filter, first open your [[Special:MyLanguage/Quick Menu|Quick Menu]], then select the [[Special:MyLanguage/Main Menu|Main Menu]] button at the top right. From here, select the [[Special:MyLanguage/Settings|Settings]] tab on the Main Menu header. Then, select the "Comfort & Safety" category on the left side. Under the "Content Gating" header, is where the labels can be changed.
+
+==Applying Content Warnings==
+===SDK===
+[[File:Content warnings avatar SDK.webp|thumb|Avatar SDK content warnings]]
+====Avatars & worlds====
+In the [[Special:MyLanguage/VRChat SDK|SDK]]'s "Builder" tab, navigate to the "Prepare Your Content" header. Select the "Content Warnings" dropdown, choose applicable content warnings, then press the "Save Changes" button at the top of the "Builder" tab.
+
+===Website===
+[[File:Content warnings website.webp|thumb|Website content warnings]]
+====Avatars====
+Navigate to the "{{VRC link|https://vrchat.com/home/avatars|Avatars}}" page on the VRChat website, then select an avatar. Scroll down to the "Content Warnings" section. Select applicable content warnings, and it will be automatically applied.
+
+====Worlds====
+Navigate to the "{{VRC link|https://vrchat.com/home/content/worlds|Worlds}}" page on the VRChat website, then select a world. Scroll down to the "Content Warnings" section. Select applicable content warnings, then press the "Save Changes" button at the top right of the page.
+
+==Reporting missing Content Warnings==
+Avatars or Worlds may not have any or have incorrect content warnings. These types of content can be reported using the [[Special:MyLanguage/Reporting|in-client report form]]. There is no penalty to labeling appropriately, not doing so will result in VRChat labeling it at their own discretion, one could also potentially face action against their account in some circumstances.
+
+==Resources==
+*{{VRC link|https://hello.vrchat.com/blog/content-gating|Content Gating Blog Post}}
+*[https://ask.vrchat.com/t/developer-update-7-december-2023/21274#content-gating-changes-5 Content Gating Changes | December 7th Developer Update]
+
+==References==
+<references />

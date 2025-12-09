@@ -1,0 +1,10 @@
+{{#if: {{{1|}}}
+| <div class="thumb tright">
+    <div class="thumbinner">
+      <div class="thumbimage">{{{1}}}</div>
+      {{#if: {{{2|}}}
+        | <div class="thumbcaption">{{{2}}}</div>
+      }}
+    </div>
+  </div>
+}}

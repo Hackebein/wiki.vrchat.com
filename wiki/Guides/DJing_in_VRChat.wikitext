@@ -1,0 +1,45 @@
+{{Noticebox/Community}}
+{{Stub|Add images and more information about DJing in VRChat. Proofread.}}
+
+== Hardware and software for DJing ==
+In order to DJ in VRChat, either DJ software or stand-alone DJ hardware is required. If software is being used a DJ or [https://en.wikipedia.org/wiki/MIDI MIDI] controller can be used to control this software.
+
+=== Hardware ===
+
+==== Stand-alone Hardware ====
+Stand-alone DJ hardware does not require external software or a connection to a computer in order to work. 
+
+There are two possible set-ups for stand-alone mixing: DJ systems or DJ players together with a mixer.
+
+DJ systems are all-in-one devices that contain a [https://en.wikipedia.org/wiki/DJ_mixer mixer], music players, and usually a screen to display necessary information (such as waveforms) - examples include the [https://alphatheta.com/en/product/all-in-one-dj-system/xdj-az/black/ AlphaTheta XDJ-AZ] and [https://www.denondj.com/prime-4-plus.html Denon Prime 4+].
+
+DJ players are devices that can play one track at a time, modern players usually include a screen to display information such as waveforms. In order to mix music a [https://en.wikipedia.org/wiki/DJ_mixer mixer] and multiple (at least two) DJ players are required. Examples of DJ Players include [https://alphatheta.com/en/product/player/cdj-3000x/black/ AlphaTheta's CDJ 3000x] and [https://www.denondj.com/sc6000-prime.html Denon's SC6000 Prime]. Examples of DJ Mixers include [https://www.pioneerdj.com/en/product/mixer/djm-a9/black/overview/ Pioneer's DJM-A9] and [https://www.allen-heath.com/hardware/xone-series/xone92/ Allen-Heath's Xone92].
+
+Both these setups have the ability to output audio via physical cables connected to the DJ system / mixer. Some DJ systems and mixers are also able to output audio digitally via a usb connection to a computer.
+
+==== DJ Controllers ====
+DJ controllers are used to control DJ software and must be connected to a computer in order to work.
+
+Many DJ controllers come packaged with a license for a certain software and will only officially be supported with that software - however many can be manually remapped usuing MIDI to function with free software such as [https://virtualdj.com/ Virtual DJ]. Although, if a controller does not officially support a software it may be the case that some functions of the controller will not be functional. Examples of DJ controllers include: [https://www.pioneerdj.com/en/product/controller/ddj-flx10/black/overview/ Pioneer's DDJ FLX-10], [https://www.pioneerdj.com/en/product/controller/ddj-flx4/black/overview/ Pioneer's DDJ FLX-4], and [https://www.native-instruments.com/en/products/traktor/dj-controllers/traktor-kontrol-s4/ Traktor's Kontrol S4].
+
+Some (but not all) DJ controllers can output audio via physical cables. The connected DJ software can be used to output audio digitally.
+
+=== Software ===
+DJ software is used to: mix music (optionally with DJ controllers); organise, prepare, and analyse tracks for mixing; as well as output tracks to storage devices (e.g. USB) for use with stand-alone DJ hardware.
+
+Examples of DJ Software include: [https://rekordbox.com/en/ Rekordbox], [https://serato.com/ Serato], [https://www.native-instruments.com/en/products/traktor/dj-software/traktor-pro-4/ Traktor], and [https://virtualdj.com/ Virtual DJ].
+
+== Streaming and content delivery ==
+In order for players inside VRChat to hear a DJ's mixing, audio (and optionally visuals) must be streamed.
+
+First audio must be routed, either from DJ Software or stand-alone DJ hardware, into a broadcasting software such as [https://obsproject.com/ OBS]. For routing from DJ software, OBS's audio capture sources (Audio Input Capture, Audio Output Capture, Application Audio Capture) can be used. For routing from stand-alone hardware, either an audio interface or usb connection (and respective drivers) can be used.
+
+Once audio is inside the chosen broadcasting software, the user should stream to a [https://en.wikipedia.org/wiki/Content_delivery_network CDN] of their choice. Possible choices include [https://vrcdn.live/ VRCDN] and [https://www.twitch.tv/ Twitch]. VRCDN provides a lower latency stream, but requires a paid subscription.
+
+== Inside VRChat ==
+Once a stream has been set up, the link to this stream can be inputted into a video player inside VRChat. For Twitch, this link is simply the link to the user's profile (e.g. https://www.twitch.tv/username). For VRCDN, various links are displayed in the user's panel (https://panel.vrcdn.live/live.php) - see [https://wiki.vrcdn.live/en/home The VRCDN Wiki] for more information about using VRCDN.
+
+== Useful Links ==
+* https://wearecrossfader.co.uk/blog/best-dj-setups-for-any-budget/
+* https://obsproject.com/kb/quick-start-guide
+* https://wiki.vrcdn.live/en/stream/Getting-Started

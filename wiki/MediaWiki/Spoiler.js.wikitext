@@ -1,0 +1,11 @@
+$(
+	(function () {
+		[...document.querySelectorAll(".spoiler")].map((container) => {
+			const overlay = container.querySelector(".spoiler-overlay");
+
+			overlay?.addEventListener("click", () => {
+				container.dataset.open = "";
+			})
+		})
+	})()
+);

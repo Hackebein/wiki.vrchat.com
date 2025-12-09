@@ -1,0 +1,306 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Murder 4
+|image=File:Murder4.webp
+|author=[https://vrchat.com/home/user/LyCh6jlK6X Jar]
+|capacity= 12 (24)
+|platforms=PC, Android
+|tags=game, udon, murder, Approved
+|id=wrld_858dfdfc-1b48-4e1e-8a43-f0edc611e5fe
+|labs=December 03, 2020
+|published=December 04, 2020
+}}
+<blockquote>Ein Mörder ist wieder auf freiem Fuß! Hilf dem Detektiv, indem du Hinweise findest und den Übeltäter aufspürst. Jetzt mit Avataren! Von jar</blockquote>
+
+<div class="mw-translate-fuzzy">
+'''Murder 4''' ist eine plattformübergreifende player-versus-player Horror-[[Special:MyLanguage/:Category:Game_Worlds|Spielwelt]], erstellt 2020 von ''Jar''. Bis zu vierundzwanzig Spieler können gleichzeitig spielen, aber um zu starten, müssen mindestens drei Spieler anwesend sein. Es existieren drei spielbare Rollen: Den '''Detektiv''', den oder die '''Bystander''' und den '''Mörder'''. Auf der Spielkarte gibt es Hinweise, Fotos, Waffen und Gefahren, auf die die Spieler treffen werden. Das Ziel des Mörders ist es, jeden Spieler in der Villa zu eliminieren. Das Ziel des Detektivs und der Bystander besteht darin, zusammenzuarbeiten, um den Mörder zu identifizieren und zu neutralisieren.
+</div>
+
+<span id="Game_modifiers"></span>
+==Spielmodifikatoren==
+
+Der Instanz-Master kann optional Spielmodifikatoren hinzufügen, um die Regeln zu ändern.
+
+* '''Teams Enabled''' - beschwört zwölf Kreise zum Hineinstellen in der Lobby. Mehrere Spieler dürfen im selben Kreis stehen und übernehmen dadurch alle die gleiche Rolle, sodass es mehr als einen Detektiv oder Mörder geben kann.
+* '''Scrambled Spawns''' - zufällige Auswahl eines Raumes, in dem Spieler in der Villa starten. Nur der Detektiv spawnt immer im Arbeitszimmer.
+* '''One Unlock Only''' - spawnt eine freischaltbare Waffe für den ersten Spieler, der alle fünf Hinweise findet. Keine weiteren Hinweise spawnen mehr für alle anderen.
+* '''Invisible Knives''' bewirkt, dass nur der Mörder Messer auf dem Boden sehen kann. Messer sind immer noch sichtbar in der Hand des Mörders.
+
+<span id="Rooms"></span>
+==Räume==
+
+Es gibt einige Räume und drei Etagen in der Villa.
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable sortable"
+!Raum
+!Etage #
+!Messer?
+!Schubladen/Schränke
+|-
+|Schlafzimmer
+|2
+|Ja
+|5
+|-
+|Billardzimmer
+|1
+|Ja
+|11
+|-
+|Keller
+|U1
+|Ja
+|2
+|-
+|Wintergarten
+|1
+|Nein
+|0
+|-
+|Esszimmer
+|1
+|Nein
+|8
+|-
+|Großer Saal
+|1
+|Nein
+|4
+|-
+|Küche
+|1
+|Ja
+|8
+|-
+|Klosett
+|2
+|Nein
+|1
+|-
+|Bibliothek
+|1
+|Ja
+|2
+|-
+|Lounge
+|1
+|Nein
+|3
+|-
+|Arbeitszimmer
+|2
+|Nein
+|9
+|-
+|}
+</div>
+
+<span id="Clues"></span>
+==Hinweise==
+
+Hinweise sind sammelbare Papierblätter oder eingerahmte Bilder, die den Spieler mit einer von vier Waffen belohnen, nachdem er alle fünf Hinweise gesammelt hat. Jeder Spieler im Spiel kann Hinweise sammeln, allerdings werden Hinweise lokal genetworked, sodass die Hinweise für jeden Spieler an anderen Orten auftauchen und nicht geteilt werden können. Hinweise können sich auf Regalen oder hinter Türen befinden, sind aber auch in Schubladen oder Schränken versteckt. Das Öffnen von Schubladen und Schränken kann den Spieler mit einem Hinweis belohnen, also öffne so viele wie möglich; Schubladen und Schränke zu öffnen hilft dem Detektiv und den anderen Bystandern dabei, Hinweise zu finden. Zwei Hinweise spawnen gleichzeitig und sobald ein Hinweis gesammelt wurde, erscheint ein anderer auf der Karte.
+
+Das Sammeln von allen fünf Hinweisen belohnt den Spieler mit einer von vier Waffen:
+*'''Luger mit Schalldämpfer''' - Eine leise schießende Pistole. Sie schießt schneller als der Revolver des Detektivs.
+*'''Doppelläufige Schrotflinte''' - Eine sehr laut schießende Schrotflinte. Sie schießt schneller als der Revolver des Detektivs.
+*'''Splittergranate''' - Eine einmalig nutzbare Granate, die explodiert und jeden im Explosionsradius eliminiert.
+*'''Rauchgranate''' - Eine einmalig nutzbare Rauchgranate, die die Sicht behindert und Spieler innerhalb des Rauchradius verlangsamt. Der Rauch löst sich nach etwa dreißig Sekunden auf.
+
+Der Stift einer Granate kann durchs Drücken des Triggers oder der Maustaste gezogen werden. Solange die Granate gehalten wird, wird sie nicht detonieren.
+
+Wenn eine Waffe fallen gelassen wird, kann ein anderer Spieler diese aufheben und benutzen (außer es handelt sich um eine Granate mit gezogenem Stift).
+
+
+[[File:M4Map.webp|thumb|Eine Zuschaueransicht der Villa. Die lila Waffe zeigt, wo der Detektiv spawnt und der Standort seines Revolvers, Gefahren und Waffen sind umrandet. Der Keller ist nicht einsehbar.]]
+
+
+<span id="Photographs_and_camera"></span>
+==Fotos und Kamera==
+
+Es gibt fünf sammelbare Fotografien, die im Arbeitszimmer sortiert werden können. Wenn der Spieler alle Fotos findet und richtig sortiert, wird er mit einer Blitzlichtkamera belohnt.
+
+Die Kamera betäubt jeden auf dem Bild und zwingt sie so dazu, ihre getragenen Items fallenzulassen. Die Benutzung dieser hat eine sehr lange Abklingzeit. Idealerweise sollte die Kamera zur Flucht genutzt werden, wenn der Fotograf sich bedroht fühlt.
+
+<span id="Roles"></span>
+==Rollen==
+
+<span id="The_Murderer"></span>
+===Der Mörder===
+
+Das Ziel des Mörders besteht darin, alle anderen Spieler in dieser Runde mithilfe der verschiedenen Werkzeuge, die über die Karte verteilt sind, umzubringen. Durch den Modifikator "Teams enabled" besteht die Möglichkeit, mehrere Mörder im Spiel zu haben.
+
+Der Mörder kann Gefahren, die den Detektiv und die Bystander verletzen können, auf der Karte steuern. Diese Gefahren können nur vom Mörder bedient werden:
+
+*Messer sind für den Mörder am besten erreichbar und am einfachsten zu verstecken. Der Mörder kann Messer auch auf deren Opfer werfen. Wenn ein Spieler ein sich bewegendes Messer berührt, wird er besiegt. Der Detektiv und die Bystander können Messer nicht aufheben oder benutzen.
+
+<div class="mw-translate-fuzzy">
+*Durch das Öffnen einer Kiste wird eine Schlange freigelassen (oder Katze, wenn die Einstellung "Snake-phobia Safe" aktiviert ist), die anderen Spielern folgt und diese angreift. Die Schlange (oder Katze) macht Geräusche, durch die sie Spieler in der Nähe auf sich aufmerksam macht. Sie kann durch einen gezielten Schuss oder eine Detonation einer Splittergranate besiegt werden.
+</div>
+
+<div class="mw-translate-fuzzy">
+*Es gibt Bärenfallen im Arbeitszimmer, im Ballsaalklosett und im Billardklosett, die überall durch den Mörder platziert werden können. Die einzigen Wege für Spieler, diese zu entschärfen, bestehen darin, diese zu aktivieren, sich durch sie eliminieren zu lassen oder sie durch den Mördern entschärfen zu lassen.
+</div>
+
+*Wein und Gläser sind Objekte, die von jedem Spieler aufgehoben und benutzt werden können. Der Mörder kann den Wein vergiften, um einen Spieler zu eliminieren, der das Getränk trinkt.
+
+*Der Strom in der Villa kann durch den Mörder durch Ziehen des Unterbrecherhebels abgeschaltet werden. Der Detektiv und die Bystander können nur schlecht im dunkeln sehen und Namensschilder werden für sie deaktiviert. Das Licht kann wieder eingeschaltet werden, indem der Detektiv oder ein Bystander denselben Unterbrecherhebel zieht, der zum Ausschalten benutzt wurde. Die Hebel befinden sich im Obergeschoss im Klosett, dem Klosett des Billardzimmers, einer befindet sich im Keller und der letzte im Ballraumklosett. Wenn der Strom abgeschaltet wurde, ist der sicherste Raum der Wintergarten, da der Mond dort etwas Licht spendet und es dort drei Fluchtmöglichkeiten gibt.
+
+<span id="The_Detective"></span>
+===Der Detektiv===
+
+Das Ziel des Detektivs ist es, mit den Bystandern zu kooperieren, um den Mörder zu identifizieren und zu neutralisieren. Durch den Modifikator "Teams enabled" kann es sein, dass es mehrere Detektive gibt. Alle Detektive spawnen im Arbeitszimmer, aber es gibt nur einen Revolver. Der Detektiv sollte die Bystander unterstützen, indem er Schubladen und Schränke öffnet und nach Hinweisen Ausschau hält. Der Detektiv kann seine eigenen Hinweise sammeln und zwei Waffen tragen, wenn sich der Spieler im VR-Modus befindet.
+
+Der Revolver ist die langsamste der drei Schusswaffen und dieser wird fallengelassen, wenn der Detektiv auf einen unschuldigen Spieler schießt. Der Revolver kann von jedem, außer dem Mörder, aufgehoben werden. So ist es auch möglich, Bystander zu fragen, diesen aufzuheben, um deren Unschuld zu beweisen. Wenn eine zweite Schusswaffe vom Detektiv gefunden wurde, ist eine schlaue Taktik, den Revolver an einen Bystander weiterzugeben und die Luger oder Shotgun zu behalten.
+
+<span id="The_Bystander"></span>
+===Der Bystander ===
+
+Der Bystander ist eine neutrale Fraktion mit dem Ziel zu überleben. Er kann entweder dem Mörder oder dem Detektiv helfen oder diese hindern, gewinnt aber, wenn der Mörder eliminiert wird. Idealerweise hält er nach Hinweisen oder Fotos ausschau, um ein Mittel zur Verteidigung zu erhalten.
+
+<div class="mw-translate-fuzzy">
+==Errungenschaften==
+Murder 4 beinhaltet 52 Errungenschaften, die durch das Erreichen von Zielen freigeschaltet werden können. Errungenschaften werden über Persistenz gespeichert.<center>
+===Normale Errungenschaften===
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Normale Errungenschaften
+! Errungenschaft !! Beschreibung
+|-
+|Slaughterhouse||Gewinne ein Spiel mit 12 oder mehr Spielern.
+|-
+|Behind Closed Doors ||Ersteche 25 Spieler ohne Zeugen.
+|-
+|Sheer Steel||Töte 5 Spieler mit Messerwürfen aus 5 Meter Entfernung.
+|-
+| Bear Necessities||Ermorde 10 Spieler durch Bärenfallen.
+|-
+|Give 'em the Grizzly
+|Töte jemanden durch eine Bärenfalle im Dunkeln.
+|-
+|Knife to a Gun Fight||Benutze Messer, um einen Spieler zu töten, der eine Schusswaffe trägt.
+|-
+|Outgunned||Benutze Schusswaffen, um 5 andere Spieler zu ermorden, die Schusswaffen tragen.
+|-
+|Point and Shoot||Benutze Schusswaffen, um 15 Opfer zu ermorden.
+|-
+| Bitter End||Vergifte 5 Spieler.
+|-
+| Sommelier||Vergifte ein Opfer, kurz nachdem du Gift getrunken hast.
+|-
+|Free Noodle||Ermorde 3 Spieler durch die Nutzung der Schlange.
+|-
+|Hook, Line, and Slither||Ermorde einen Spieler direkt nachdem er die Schlange erschossen hat.
+|-
+|Lights Out ||Schalte das Licht 5 Mal aus.
+|-
+|Darkest Hour||Schalte jeden Lichtschalter innerhalb eines Spiels aus.
+|-
+|Shinobi||Ermorde einen Spieler aus einer Rauchwolke heraus.
+|-
+|Hat Trick||Ermorde 3 Spieler durch die Nutzung der schallgedämpften Pistole innerhalb eines Spiels.
+|-
+|Shotgun Spree||Ermorde 6 Spieler mithilfe einer Shotgun innerhalb eines Spiels.
+|-
+|The Long Con||Sammle als Mörder genug Hinweise, um ein Item freizuschalten.
+|-
+|Gonna Need a Bigger Morgue||Ermorde 100 Spieler.
+|-
+|Opportune Moment||Ermorde jemanden, während dieser geblendet ist.
+|-
+|Secret Weapon||Töte durch die Benutzung eines Messers, das in der Großvater-Uhr in der Großen Halle versteckt ist.
+|-
+|Cat and Mouse||Ermorde den Detektiv als letztes.
+|-
+|No Witnesses||Töte 3 SPieler, die mitbekommen haben, wie du das Licht ausgeschaltet hast.
+|-
+|Case Closed||Schieße 3 Mal als Detektiv auf den Mörder.
+|-
+|My Favorite Deputy||Gib deinen Revolver an einen Bystander weiter, der auf den Mörder schießt.
+|-
+|Legacy||Gib deinen Revolver an den Detektiv der vorigen Runde weiter.
+|-
+|Super Sleuth||Schalte als Detektiv eine zusätzliche Waffe frei.
+|-
+|Trigger Happy||Erziele als Bystander 10 spielentscheidende Schüsse.
+|-
+|Sharpshooter||Erschieße den Mörder aus 12 Meter Entfernung.
+|-
+|Everyone Stand Back||Jage nur den Mörder in die Luft.
+|-
+|Bombs Away||Töte 4 oder mehr Spieler mit einer einzigen Explosion.
+|-
+|Smoke 'Em If You Got 'Em||Detoniere eine Rauchgranate bei 4 oder mehr Spielern.
+|-
+|Say Cheese||Blende 5 oder mehr Spieler mit einem Kamerablitz.
+|-
+|Paparazzi||Fotografiere 12 Spieler mit der Blitzkamera.
+|-
+|Martyr||Jage dich selbst und den Mörder mit der gleichen Granate in die Luft.
+|-
+|Contingency Plan||Jage den Mörder aus dem jenseits in die Luft.
+|-
+|Obtain Luger||Sammle Hinweise, um die schallgedämpfte Pistole 3 Mal zu finden.
+|-
+|Obtain Sawed-Off||Sammle Hinweise, um eine Shotgun 3 Mal zu finden.
+|-
+|Obtain Smoke||Sammle Hinweise, um eine Rauchgranate 3 Mal zu finden.
+|-
+|Obtain Frag||Sammle Hinweise, um eine Splittergranate 3 Mal zu finden.
+|-
+|Obtain Camera||Löse das Puzzle, um die Blitzkamera freizuschalten.
+|-
+|Town Ain't Big Enough||Erschieße den Mörder im finalen Showdown.
+|-
+|Cold Case||Gewinne ein Spiel, das länger als 15 Minuten dauert.
+|}
+===Versteckte Errungenschaften===
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Versteckte Errungenschaften
+! Errungenschaft !! Beschreibung
+|-
+| Not My Problem || Wirf den Revolver in den Hintergarten.
+|-
+| Highly Suspect || Klicke 50 Mal auf das verdächtige Gemälde.
+|-
+| Meow || Stirb durch eine Katze.
+|-
+| Flushed || Lass Rauch im Klo explodieren.
+|-
+| Road Trip || Sei für eine Weile mit 3 anderen Spielern im Auto.
+|-
+| Tilted || Schieße auf die geneigte Wandleuchte.
+|-
+| Fortissimo || Stirb, während du auf dem Klavier spielst.
+|-
+| Dressed to Impress || Gewinne 3 Spiele, nachdem du ein Mörder-Avatarpodest benutzt hast.
+|-
+| Toss-Up || Wirf als Detektiv den Revolver einem Bystander zum Fangen zu.
+|}
+</center>
+</div>
+
+<span id="Trivia"></span>
+<div class="mw-translate-fuzzy">
+==Trivia ==
+</div>
+
+<div class="mw-translate-fuzzy">
+*Es gibt ein eingerahmtes Portrait des Schauspielers [[Wikipedia:Will Smith|Will Smith]] im Schlafzimmer.
+*Viele der Soundeffekte von Murder 4 stammen von Valves [[Wikipedia:Left_4_Dead_(franchise)|Left 4 Dead]]-Spielereihe.
+*Murder 4 ist statistisch gesehen das populärste Spiel in Jars "Murder"-Reihe.
+</div>
+
+<span id="Community_resources"></span>
+==Community-Ressourcen==
+
+<div class="mw-translate-fuzzy">
+*[https://www.youtube.com/watch?v=Bi-t7azupxE Murder 4 in VRChat] Trailer auf ''YouTube''
+*[https://www.youtube.com/watch?v=5S_XB4KWmBs "Murder 4 poison wine"] Teaser auf ''YouTube''
+* [https://www.youtube.com/watch?v=SYqwNWPj4gg Murder 4 Partners in Crime (Valentine's Day)] Trailer auf ''YouTube''
+* [https://www.youtube.com/watch?v=y96ViV_f0xo Murder 4 Halloween Trailer] auf ''YouTube''
+*[https://www.youtube.com/watch?v=aOXgCLskUVU Merry Murder 4] Trailer auf ''YouTube''
+</div>
+
+[[Category:Game worlds{{#translation:}}]]
+[[Category:PvP worlds{{#translation:}}]]

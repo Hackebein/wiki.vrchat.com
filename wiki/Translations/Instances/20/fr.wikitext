@@ -1,0 +1,43 @@
+=== Charte des permissions ===
+{| class="wikitable"
+|+Permissions de modération pour les instances
+!Type d'instance
+|'''Publique'''
+|'''Amis+'''
+|'''Amis'''
+|'''Invitation+'''
+|'''Invitation'''
+|'''Groupe Public'''
+|'''Groupe+'''
+|'''Groupe'''
+|-
+|'''Auteur du monde'''
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|Non
+|Non
+|-
+|'''Propriétaire de l'instance'''
+|Non
+|✔️
+|✔️
+|✔️
+|✔️
+|Si modérateur
+|Si modérateur
+|Si modérateur
+|-
+|'''Modérateur de groupe'''
+|Non
+|Non
+|Non
+|Non
+|Non
+|✔️
+|✔️
+|✔️
+|}

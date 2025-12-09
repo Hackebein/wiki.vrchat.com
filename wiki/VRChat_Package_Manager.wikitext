@@ -1,0 +1,26 @@
+{{Noticebox/Official}}
+{{Thumb|{{YouTube|0u1g0TYoJsU}}}}
+'''VRChat Package Manager''' (VPM) is a feature of the [[Creator Companion]], that helps creators keep their [[VRChat SDK]], packages, and repositories updated, streamlining the creation and management process of VRChat [[Special:MyLanguage/Avatars|avatar]] and [[Special:MyLanguage/Worlds|world]] projects.<ref>[https://vcc.docs.vrchat.com/vpm "VRChat Package Manager"] on ''[[vcc.docs.vrchat.com]]''. Retrieved September 18, 2025.</ref>
+
+==Overview==
+[[File:VPM_Format_v2.webp|thumb|VRChat Package Manager offers a more streamlined experience with project management.]]
+VRChat Package Manager was announced during the April 2021 Developer Stream<ref>[https://medium.com/vrchat/vrchat-april-2021-dev-stream-recap-8502bb8c9163 "April '21: Developer Stream Recap"], on ''[https://medium.com/vrchat Medium]''. Dated April 19, 2021. Retrieved September 18. 2025.</ref>, and initially introduced<ref>[https://hello.vrchat.com/blog/creator-toolbox-update "Creator Toolbox Update"] published on ''[https://hello.vrchat.com/blog VRChat's Blog]'' at ''[[hello.vrchat.com]]''. Dated May 17, 2022. Retrieved September 18, 2025.</ref> to [[Open Beta]] on May 17, 2022, then fully released<ref>[https://hello.vrchat.com/blog/creator-companion-live "The VRChat Creator Companion is Now Live!"] on ''[https://hello.vrchat.com/blog VRChat's Blog]'' at ''[[hello.vrchat.com]]''. Dated August 30, 2022. Retrieved September 18, 2025.</ref> on August 30, 2022. This package manager uses a similar format to Unity's Package Manager, and utilizes version matching<ref>[https://vcc.docs.vrchat.com/guides/version-matching "Version Matching"] on ''[[vcc.docs.vrchat.com]]''. Retrieved September 18, 2025.</ref>, specifically ''SemanticVersioning''<ref>[https://semver.org "Semantic Versioning 2.0.0"] at ''semver.org''. Retrieved September 18, 2025.</ref>, for most - if not all official VRChat software.
+[[File:VCC callout VPM.webp|thumb|With VPM, you can import and track community packages, repositories, and dependencies.]]
+Creators can also create, and import community packages and repositories<ref>[https://vcc.docs.vrchat.com/guides/community-repositories "Community Repositories"] documentation on ''[[vcc.docs.vrchat.com]]''. Retrieved September 18, 2025.</ref> to the VRChat Creator Companion, and subsequently, their projects by downloading and following VRChat's [https://github.com/vrchat-community/template-package template package] on GitHub.
+* [https://vcc.docs.vrchat.com/guides/create-listing/ Creating a Package Listing] - on ''[[vcc.docs.vrchat.com]]''
+* [https://vcc.docs.vrchat.com/guides/convert-unitypackage/ Converting Assets to a VPM Package] - on ''vcc.docs.vrchat.com''
+
+==Official resources==
+* [https://vcc.docs.vrchat.com/vpm VRChat Package Manager Documentation] - on ''vcc.docs.vrchat.com''
+** [https://vcc.docs.vrchat.com/vpm/packages Package Documentation] - on ''vcc.docs.vrchat.com''
+* [https://www.youtube.com/watch?v=0u1g0TYoJsU Create Avatars & World Projects - VRChat Creator Companion] - on ''[https://www.youtube.com/@vrchat_learning_channel YouTube]''
+* [https://www.youtube.com/watch?v=Gm_2YqvGgxM Community Packages - VRChat Creator Companion] on ''YouTube''
+
+==See also==
+* [[Special:MyLanguage/VRChat SDK|VRChat SDK]]
+* [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]]
+* [[Special:MyLanguage/VRC Quick Launcher|VRC Quick Launcher]]
+* [[Special:MyLanguage/ClientSim|ClientSim]]
+
+== References ==
+<references />

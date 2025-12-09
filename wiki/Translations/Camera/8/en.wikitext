@@ -1,0 +1,35 @@
+== Menu ==
+* '''Take Photo:''' Takes a photo immediately.
+* '''Timed (5s):''' Takes a photo after a 5-second delay with a countdown sound.
+* '''Camera Mode:''' Expands different modes for the camera.
+** Local Photo, Multi Layer, Stream
+*** [[Special:MyLanguage/VRChat+|VRC+]] exclusive: Gallery Photo, User Icon, Sticker, Prints, Emoji
+* '''Anchor:''' Determines where the camera is attached.
+** '''Default:''' Attached to the user.
+** '''Local:''' Follows user movement but not head movement.
+** '''World:''' Attached to the world, independent of user movement.
+* '''Behavior:''' Adjusts camera performance.
+** '''Smoothed:''' Stabilizes video for smoother footage.
+** '''Look at Me:''' Camera follows where your head is facing.
+** '''Auto Level:''' Keeps the camera level, preventing tilting.
+* '''Focus:''' Controls the focus mode.
+** '''Full Auto:''' Automatically sets the aperture and focal distance.
+** '''Semi Auto:''' Allows adjustment of aperture only.
+** '''Manual:''' Allows adjustment of both aperture and focal distance.
+* '''Pins:''' Saved settings for focus and filter configurations.
+* '''Mask:''' Determines which layers are included in pictures.
+** '''Local User:''' Includes the user and their avatar.
+** '''Remote User:''' Includes other users.
+** '''Environment:''' Includes the world environment.
+** '''Green Screen:''' Replaces the environment with a green screen.
+** '''UI:''' Includes UI elements like the radial menu and camera interface.
+** '''Items:''' Includes items placed by users in the world.
+* '''Lens Visibility:''' Sets how the camera is rendered within the world.
+** '''Off:''' Shows only a small light.
+** '''Ghost:''' Displays a light blue transparent camera lens.
+** '''Solid:''' Displays a solid camera lens.
+* '''Filters:''' Adds visual filters to the camera. Only one filter can be active at a time.
+* '''Photo Resolution:''' Sets the photo resolution. Higher resolutions create larger files and may cause frame lag.
+* '''Grid:''' Overlays a 3x3 grid on the camera screen for visual assistance. The grid does not appear in the actual picture.
+* '''Lock (VR Only):''' Lock the camera so that it cannot be held. This can only be used in VR.
+* '''Fly Mode:''' The camera can be manually controlled within proximity to yourself. Holding down the scroll wheel on desktop, and using a combination of mouse movement and 'WASD' keys will pilot the camera around. In VR, clicking the "Fly" button and using the left and right joysticks after pressing the trigger will toggle movement between the camera, and your avatar.

@@ -1,0 +1,878 @@
+{{Noticebox/Community}}
+{{Stub|Add missing images and table data.}}
+{{Infobox/World
+|name=Prison Escape
+|image=Prison Escape world thumbnail.png
+|author=Ostinyo
+|platforms=PC, Android
+|tags=game, udon, gun, prison
+|id=wrld_14750dd6-26a1-4edb-ae67-cac5bcd9ed6a
+|published=Mar 12 2022
+}}
+
+<blockquote>''Join the fight between Prisoners and Guards in this VR prisonǃ Plot your escape with friends or keep the prisoners in lineǃ''</blockquote>
+
+
+'''Prison Escape''' is a cross-platform player-versus-player [[Special:MyLanguage/Category:Game worlds|game world]] that can be played with up to 32 players.
+
+==Gameplay==
+Players spawn inside a prison, divided into two roles - prisoners and guards. Their objective is to led their team to victory either by eliminating everyone from the opposite team, or completing role specific goals - escaping the facility as a prisoner or preventing any escapees until the time runs out as a guard. The game area is filled with items, locations and special events players can utilize to their advantage, e.g. weapons, vents, causing a fire or blackouts. Additionally players can earn points by collecting money, winning or eliminations, and spend them on opening crates that drop special items and weapons. While guards spawn with guns immediately available to them and being able to access every area, the prisoner gameplay is more nuanced and opportunistic.
+== Roles==
+=== Prisoner===
+Prisoners start as innocent and can't be attacked by guards until they do a prohibited action that discretely marks them temporarily as suspicious or permanently as wanted, e.g. picking up weapons or entering restricted areas. Their goal is to escape the facility or eliminate all guards.
+====Win conditions====
+
+*A prisoner escapes.
+*All guards eliminated.
+
+====States====
+A prisoner can has one of 3 states. Depending on it they can be damaged by a guard or not.
+{| class="wikitable"
+!State
+!Damage 
+from guards
+!Received from
+!Description
+|-
+|'''Innocent'''
+|No
+|The start.
+Clearing out suspicious state.
+|Starting state. 
+Guards attacking an innocent player will lose own health instead.
+|-
+|<p><span style="color: #da9101">'''Suspicious'''</span></p>
+''(Temporary)''
+|Yes
+| Entering restricted areas or escaping a cell.
+|Temporarily received by entering restricted areas like locked/guard rooms or vents. 
+Cleared after some time after leaving a restricted area (goes back to innocent).
+Indicated by an eye icon on the bottom of the HUD.
+|-
+|<span style="color: #db2020">'''Wanted'''</span>
+|Yes
+|Taking weapons or keycards.
+|Permanently received by picking up weapons or keycards.
+|}
+
+===Guard===
+====Win conditions====  
+
+* Time runs out.
+*All prisoners eliminated.
+
+==Game settings==
+*Prisoner ratio.
+*Time limit.   
+**4 to 8 minutes or unlimited.
+
+==Points==
+Players collect points, which can be spend on opening crates that drop unique items and weapons.
+
+Points can be earned through:
+
+*Collecting money piles.
+*Winning.
+*Eliminations.
+*Collecting rewards for eliminating most wanted players.
+*Shooting CCTV cameras as a prisoner.
+Patreon supporters have access to an option to double the points that they earn.
+
+==Player stats ==
+
+===Health===
+'''Taking damage'''
+
+Players can take damage by being attacked by other players using weapons. Additionally a guard will receive damage when attacking an innocent prisoner and a prisoner loses HP after sticking a '''fork''' into a '''power outlet''' causing a '''blackout'''.
+
+'''Healing'''
+
+Health will start to slowly restore itself after a while. Additionally the beds in the Infirmary can heal too.
+
+===Armor===
+Armor acts as extra health. It can only be received by collecting a '''bulletproof vest''' from a crate.
+
+===Speed===
+Player speed can be sometimes be altered throughout the gameplay. Collecting an '''energy drink''' from a crate will permanently increase player's speed and walking through the gas from a '''gas grenade''' will slow them down. Sticking a '''fork''' into a '''power outlet''' causing a '''blackout''' or being hit with a '''stun baton''' causes a temporary stun.
+
+==Items==
+
+===Weapons ===
+
+====Guns====
+Ranged weapons.
+{| class="wikitable" style="position:relative;"
+! style="position: sticky; top:0;" |Image
+! style="position: sticky; top:0;" |Name
+! style="position: sticky; top:0;" |Magazine
+! style="position: sticky; top:0;" |Damage
+! style="position: sticky; top:0;" |Speed 
+! style="position: sticky; top:0;" |Range*
+! style="position: sticky; top:0;" |Dual wield
+! style="position: sticky; top:0;" |Description
+|-
+! colspan="8" |''Guard guns - spawn in guard room''
+|-
+| style="text-align:center" |[[File:Prison Escape world item - pistol.png|frameless|102x102px]]
+|'''Pistol'''
+|15
+|18
+|██░
+|██░
+|✓
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|-
+| style="text-align:center" |[[File:Prison Escape world item - revolver.png|frameless|130x130px]]
+|'''Revolver'''
+|6
+|75
+|█░░
+|██░
+|?
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|-
+| style="text-align:center" |[[File:Prison Escape world item - smg.png|frameless|89x89px]]
+|'''SMG''' 
+|32
+|6
+|███
+|█░░ 
+|✓
+|<p><small><span style="color: #db2020">'''[Wanted]'''</span></small></p>Small range and damage, 
+but fast and can dual wield.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - shotgun.png|frameless|175x175px]]
+|'''Shotgun'''
+|4
+|12
+|█░░
+|░░░ 
+| -
+|<p><small><span style="color: #db2020">'''[Wanted]'''</span></small></p>Small range and great damage. 
+|-
+| style="text-align:center" |?
+|'''M4A1''' 
+|30
+|12
+|██░
+|██░
+| -
+| <p><small><span style="color: #db2020">'''[Wanted]'''</span></small></p>Great range and solid damage.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - sniper rifle.png|frameless|219x219px]]
+|'''Sniper rifle'''
+|1
+|150 
+80 (<6m)
+|░░░
+| ███
+| -
+|
+<small><span style="color: #db2020">'''[Wanted]'''</span></small> 
+
+Massive range and damage 
+
+(one-shots players with no armor).
+
+Low damage up-close.
+
+Can use scope to zoom in. 
+|-
+! colspan="8" |''Prison guns - spawn in prisoner area''
+|-
+| style="text-align:center" |[[File:Prison Escape world item - trishot.png|frameless|111x111px]] 
+|'''Trishot'''
+|3
+|30
+|█░░
+|█░░
+|✓
+| <small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|-
+! colspan="8" |''Crate guns - drop from crates''
+|-
+| style="text-align:center" |[[File:Prison Escape world item - AK47.png|frameless|212x212px]]
+|'''AK-47'''
+|30
+|20
+|██░
+|██░
+| -
+|<p><small><span style="color: #db2020">'''[Wanted]'''</span></small></p>
+|-
+| style="text-align:center" |[[File:Prison Escape world item - LMG.png|frameless|258x258px]]
+|'''LMG'''
+|150
+|15
+|?
+|?
+|?
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small> 
+|-
+| style="text-align:center" |[[File:Prison Escape world item - P90.png|frameless|159x159px]]
+|'''P90'''
+| 50
+|13
+|██░
+|█░░
+|?
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|-
+| style="text-align:center" |?
+|'''RPG'''
+|Single use
+|250
+| -
+|██░
+|?
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|}
+''* Range is based on the bullet spread and how easy it is to aim.''
+
+====Melee====
+Hand-to-hand combat weapons.
+{| class="wikitable"
+!Image
+!Name
+!Damage
+!Dual wield
+!Spawn
+!Description
+|-
+| style="text-align:center" |[[File:Prison Escape world item - knife.png|frameless|145x145px]]
+|'''Knife'''
+|███
+|✓
+|''Multiple''
+|<p><small><span style="color: #db2020">'''[Wanted]'''</span></small></p>One-shots players with no armor.
+Dropped on hit.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - machete.png|frameless|170x170px]]
+|'''Machete'''
+|███
+|✓
+|Big crates
+|<p><small><span style="color: #db2020">'''[Wanted]'''</span></small></p>One-shots players. 
+|}
+
+====Throwables====
+Throwable weapons causing area of damage.
+{| class="wikitable"
+!Image
+!Name
+!Damage
+!Area
+
+!Dual wield
+!Spawn
+! Description
+|-
+| style="text-align:center" |[[File:Prison Escape world item - grenade.png|frameless|84x84px]]
+|'''Grenade'''
+|███
+|█░░
+|✓
+|Small crates
+|<p><small><span style="color: #db2020">'''[Wanted]'''</span></small></p>
+Explodes damaging players.
+Can still be held after arming.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - gas grenade.png|frameless|88x88px]]
+|'''Gas grenade''' 
+''("Tear gas")''
+| █░░
+|██░
+|✓
+|Small crates
+|<p><small><span style="color: #db2020">'''[Wanted]'''</span></small></p>
+Explodes creating a cloud of gas that damages and slows down players.
+Can still be held after arming. 
+|}
+
+===Tools===
+Pickups with functional use.
+{| class="wikitable"
+!Image
+!Name
+!Spawn
+!Description 
+|-
+| style="text-align:center" |[[File:Prison Escape world item - stun baton.png|frameless|125x125px]]
+|'''Stun baton'''
+|Armory
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+Stuns an enemy (a non-innocent prisoner or a guard) and makes them drop any carried items.
+
+Stunned players cannot move, teleport and pick items. 
+|-
+| style="text-align:center" |?
+|'''Broomstick'''
+| Big crates
+|Shields from bullets on use.
+''6 seconds use time. 10 seconds stamina recharge.''<ref>[https://discord.com/channels/822283520231211018/1192288733681156177/1207157126905204778 Broomstick changelog] on the Ostinyo Discord server from February 14, 2024.</ref>
+|-
+| style="text-align:center" |[[File:Prison Escape world item - fork.png|frameless|114x114px]] 
+|'''Fork'''
+|''Multiple''
+|Can be inserted into a power outlet to cause a blackout event.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - lighter.png|frameless|78x78px]]
+|'''Lighter'''
+|''Multiple''
+|Sets toilet paper on fire (<small><span style="color: #db2020">'''[Suspicious]'''</span></small>). 
+|-
+| style="text-align:center" |
+|'''Toilet paper'''
+|Toilets
+|Can be set on fire (<span style="color: #db2020">'''<small>[Suspicious]</small>'''</span>) using a lighter and then thrown into a washing machine to cause a fire event.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - fire extinguisher.png|frameless|94x94px]]
+|'''Fire extinguisher'''
+|Office storage
+| <span style="color: #006edb">'''<small><Guards only></small>'''</span> Extinguishes a washing machine on fire to stop the fire event.
+|}
+
+===Consumables===
+Disappear on use or collection.
+{| class="wikitable"
+!Image
+!Name
+! Spawn
+!Description
+|-
+| style="text-align:center" |[[File:Prison Escape world item - money piles.gif|frameless|100x100px]]
+|'''Money pile'''
+''("Prison points")''
+|''Multiple''
+|Collect to earn points. Comes in 3 pile sizes that give 10, 25 or 50 points. 
+(Visible locally) 
+|-
+| style="text-align:center" |[[File:Prison Escape world item - Facility access card.png|frameless|96x96px]] 
+|'''Facility access card'''
+|''Multiple''Drops on death
+|<small><span style="color: #db2020">'''[Wanted]'''</span> <span style="color: #da9101">'''<Prisoners only>'''</span></small> 
+Collect to gain the ability to use keypads to unlock doors and use gate control.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - bulletproof vest.png|frameless|100x100px]]
+|'''Bulletproof vest'''
+|Small crates
+|Collect to gain armor.
+|-
+| style="text-align:center" | ?
+|'''Energy drink'''
+''("Prison Rush")''
+|Small crates
+|Gives extra speed on use. 
+(Effect stacks) 
+|}
+
+===Props===
+Cosmetic pickups with no extra purpose.
+{| class="wikitable"
+!Image
+!Name
+!Spawn
+!Description
+|-
+| style="text-align:center" |[[File:Prison Escape world item - food tray.png|frameless|141x141px]]
+|'''Food tray'''
+|Cafeteria
+|Can be used as a shield to block bullets, if held in front of the hitbox.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - soap.png|frameless|89x89px]]
+|'''Soap'''
+|Showers
+|Slips from hand making a sound.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - rubber duck.png|frameless|70x70px]]
+|'''Rubber duck'''
+|Infirmary
+|Makes a squeaky sound on interaction.
+|-
+| style="text-align:center" |[[File:Prison Escape world item - basketball.png|frameless|70x70px]]
+|'''Basketball'''
+|Courtyard
+|Bounces and makes a sound on collision.
+
+|}
+
+==Locations==
+{| class="wikitable"
+! style="position: sticky; top:0;" |Photo 
+! style="position: sticky; top:0;" |Name
+! style="position: sticky; top:0;" |Restricted 
+! style="position: sticky; top:0;" |Items
+! style="position: sticky; top:0;" |Crates
+! style="position: sticky; top:0;" |Outlet
+! style="position: sticky; top:0;" |Fire alarm
+! style="position: sticky; top:0;" |Camera
+! style="position: sticky; top:0;" |Vents 
+! style="position: sticky; top:0;" | Special
+|-
+! colspan="10" |''Prisoner areas''
+
+|-
+|?
+|'''Hallway'''
+| -
+| -
+| -
+| -
+| -
+| ?
+| -
+|
+|-
+|?
+|'''Cells'''
+| -
+| -
+|✓
+| -
+| -
+| -
+|<p><small>[Toilets - Showers - Laundry]</small></p>
+<p><small>[Courtyard]</small></p>
+<p><small>[Secret room]</small></p>
+<p><small>[Storage]</small></p>
+<p><small>[Secret room - Cafeteria - Kitchen]</small></p>
+|
+|-
+|[[File:Prison Escape world area - cafeteria.webp|frameless|160x160px]]
+|'''Cafeteria'''
+| -
+|<small>Food trays</small>
+|✓
+|?
+| ?
+|✓
+|✓
+|
+|-
+|
+|'''Kitchen'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|✓
+|✓
+|?
+|?
+|?
+|✓
+|
+|-
+|[[File:Prison Escape world area - cafeteria back alley.webp|frameless|160x160px]]
+|'''Cafeteria back alley'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|✓ 
+|✓ 
+| -
+|?
+| -
+| -
+|
+|-
+|
+|'''Library'''
+| -
+|✓
+|✓ 
+|?
+|?
+|✓
+| -
+|
+|-
+|[[File:Prison Escape world area - secret room.webp|frameless|160x160px]]
+|'''Secret room'''
+| <small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|✓
+|✓
+|✓
+|?
+| -
+|<small>Cell</small>
+|
+|-
+|[[File:Prison Escape world area - toilets.webp|frameless|160x160px]]
+|'''Toilets'''
+| -
+|✓
+<small>Toilet paper</small>
+|✓
+|✓
+|?
+| -
+|<small>Cell - Showers - Laundry</small>
+|<small>Toilet paper</small>
+|-
+|[[File:Prison Escape world area - showers.webp|frameless|160x160px]]
+|'''Showers'''
+| -
+| ✓
+<small>Soap</small>
+|✓
+| -
+| -
+| -
+|<small>Cell - Toilets - Laundry</small>
+|
+|-
+|?
+|'''Courtyard'''
+| -
+|✓
+<small>Basketball</small>
+|✓
+|?
+| ?
+|✓
+|<small>Cell</small>
+|
+|-
+|?
+|'''Laundry'''
+| -
+|✓
+|✓
+|?
+|✓
+| ✓
+|<small>Cell - Showers - Toilets</small>
+|<small>Washing machine</small>
+|-
+|?
+|'''Storage'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|✓
+|✓
+|?
+|?
+| -
+|<small>Cell</small>
+|
+|-
+|[[File:Prison Escape world area - infirmary.webp|frameless|160x160px]]
+|'''Infirmary''' 
+| -
+|✓
+| ✓
+| ✓ 
+|?
+| -
+| -
+|<small>Healing beds</small>
+|-
+! colspan="10" |''Guard areas''
+|-
+|[[File:Prison Escape world area - entrance.webp|frameless|160x160px]]
+|'''Entrance''' 
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+| -
+|✓
+|?
+|✓
+|?
+| -
+|
+|-
+|[[File:Prison Escape world area - armory.webp|frameless|160x160px]]
+|'''Armory'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|<small>Guard guns</small>
+<small>Stun baton</small>
+|✓
+|?
+|?
+|?
+| -
+|
+|-
+|[[File:Prison Escape world area - cameras room.webp|frameless|160x160px]]
+|'''Cameras'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+| -
+| -
+|?
+| ?
+| -
+|<small>Outside - Visitor area backroom</small>
+|<small>Intercom mic</small>
+<small>Camera screens, keyboard</small>
+|-
+|[[File:Prison Escape world area - visitor area.webp|frameless|160x160px]]
+|'''Visitor area'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|✓
+|✓
+|?
+|?
+|?
+|<small>Sewers</small>
+|
+|-
+|[[File:Prison Escape world area - visitor area backroom.webp|frameless|160x160px]]
+|'''Visitor area backroom'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|✓
+| ✓
+|✓
+|?
+|?
+|<small>Cameras</small>
+|
+|-
+|[[File:Prison Escape world area - Office.webp|frameless|160x160px]]
+|'''Office'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|✓
+| -
+|?
+|?
+|?
+|<small>Sewers</small>
+|
+|-
+|[[File:Prison Escape world area - office storage.webp|frameless|160x160px]]
+| '''Office storage'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|✓
+<small>Fire extinguisher</small>
+|✓
+|?
+| ?
+|?
+|<small>Outside</small>
+|<small>Electrical panel</small>
+<small>Fire extinguisher</small>
+|-
+|[[File:Prison Escape world area - left corridor.webp|frameless|160x160px]]
+|'''Left corridor'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+| -
+| -
+| -
+| -
+| -
+| -
+|
+|-
+! colspan="10" |''Outside''
+|-
+|[[File:Prison Escape world area - outside.webp|frameless|160x160px]]
+|'''Outside'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+| -
+| -
+| -
+| -
+|✓
+|<p><small>Sewers</small></p><p><small>Cameras - Visitor area backroom</small></p><p><small>Office storage</small></p>
+|<p><small>Gate</small></p>
+<p><small>Gate control</small></p>
+|-
+|[[File:Prison Escape world area - sewers.webp|frameless|160x160px]]
+|'''Sewers'''
+|<span style="color: #db2020">'''<small>[Wanted]</small>'''</span>
+| -
+|✓
+| -
+| -
+| -
+|<small>Outside, Office, Visitor area</small>
+|
+|-
+|[[File:Prison Escape world area - tower inside.webp|frameless|160x160px]]
+|'''Guard towers''' 
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+|<small>Sniper rifle</small>
+| -
+| -
+| -
+| -
+| -
+|
+|-
+|[[File:Prison Escape world area - escape route.webp|frameless|160x160px]]
+|'''Escape route'''
+|<small><span style="color: #db2020">'''[Wanted]'''</span></small>
+| -
+| -
+| -
+| -
+| -
+| -
+|
+|}
+==Interactive objects==
+{| class="wikitable"
+! style="position: sticky; top:0;" |Image
+! style="position: sticky; top:0;" |Name
+! style="position: sticky; top:0;" |Location 
+! style="position: sticky; top:0;" |Description
+|-
+|?
+|'''Keypad'''
+|''Multiple''
+|<p><small><span style="opacity: 0.5;">'''<Requires access card>'''</span></small></p>
+Unlocks locked doors or toggles the gate (gate control).
+|-
+|?
+|'''Vent'''
+|''Multiple''
+|<p><span style="color: #db2020">'''<small>[Suspicious]</small>'''</span> <small><span style="color: #da9101">'''<Prisoners only>'''</span></small></p>
+Used to enter vent tunnels to escape cells and/or move around into other rooms and areas. 
+
+Moving fast inside vents creates sound. 
+|-
+|?
+|'''Teleport vent'''
+|''Multiple''
+|Vents used to enter sewers. Distinguishable for not being an openable door.
+''*Hold for 1s*''<ref>[https://discord.com/channels/822283520231211018/1192288733681156177/1200000466591961088 Teleport delay changelog] on the Ostinyo Discord server from January 25, 2024.</ref>
+|-
+|[[File:Prison Escape world object - wall hole.png|frameless|114x114px]]
+| '''Wall hole'''
+|Cell 
+|<p><small><span style="color: #da9101">'''<Prisoners only>'''</span></small></p>
+After opening can be used to escape a cell to a Secret room next to it. Located in the 3rd cell on the right. 
+|-
+|[[File:Prison Escape world objects - crates.gif|frameless|80x80px]]
+|'''Crates'''
+|''Multiple''
+|Open with points to drop special items. Guards can only open crates located in guard areas.
+''Small crate - 250 points''
+''Big crate - 500 points'' 
+|-
+|[[File:Prison Escape world object - ladder.png|frameless|80x80px]]
+|'''Ladder'''
+|Sewers, Guard Towers
+|Acts as teleport. Located in the sewers and guard towers.
+''*Hold for 0.5s*''<ref> [https://discord.com/channels/822283520231211018/1192288733681156177/1207157126905204778 Ladder delay changelog] on the Ostinyo Discord server from February 14, 2024.</ref>
+|-
+|
+|'''Storage'''
+| ''Multiple''
+|May contain items like money, access cards, knives, lighters.
+|-
+|
+|'''Cabinet''' 
+|''Multiple''
+|Can be used to hide inside. May contain money. Located in guard areas.
+|-
+| [[File:Prison Escape world object - gate.png|frameless|80x80px]]
+|'''Gate'''
+|Outside
+|Leads to escape. Can be opened and closed using the gate control or by events like fire.
+|-
+|[[File:Prison Escape world object - gate control.png|frameless|80x80px]]
+|'''Gate control''' 
+|Outside
+|<p><span style="opacity: 0.5;">'''<small><Requires access card></small>'''</span></p>
+Open and close the gate as a guard or a prisoner with an access card.
+|-
+| [[File:Prison Escape world object - fire alarm.png|frameless|80x80px]]
+|'''Fire alarm'''
+|''Multiple''
+| <small><span style="color: #da9101">'''<Prisoners only>'''</span></small> 
+Toggles sprinklers causing the cell doors to open prematurely. Spawns on walls in random locations.
+''Can only be used by prisoners when cells are still closed.''
+|-
+|[[File:Prison Escape world object - power outlet.png|frameless|80x80px]]
+|'''Power outlet'''
+| ''Multiple''
+|<p><span style="color: #da9101">'''<small><Prisoners only></small>'''</span></p>
+Can cause a blackout after inserting a fork.
+|-
+|[[File:Prison Escape world object - electrical panel.png|frameless|110x110px]]
+|'''Electrical panel'''
+|Office storage
+|Toggles power back on during a blackout. 
+|-
+|?
+|'''Security scanner''' 
+|Entrance
+|Detects prisoners walking through it, sounding an alarm.
+|-
+|?
+|'''Healing bed'''
+| Infirmary
+|Heals the player when standing on one.
+|-
+|?
+| '''Intercom mic''' 
+|Cameras 
+|Broadcasts player voice through prison speakers. 
+|-
+|?
+|'''Keyboard'''
+|Cameras
+|Switches live CCTV camera views on the screen.
+|-
+|[[File:Prison Escape world object - camera.png|frameless|80x80px]] 
+|'''CCTV camera'''
+|''Multiple''
+|Can be disabled by getting shot with a weapon.
+''Adds +5 (prisoner) or removes -10 points (guard).''<ref>[https://discord.com/channels/822283520231211018/1192288733681156177/1279000283891896341 CCTV cameras changelog ] on the Ostinyo Discord server from August 30, 2024.</ref>
+|-
+| [[File:Prison Escape world object - shower knob.png|frameless|80x80px]]
+| '''Shower knob'''
+|Showers
+|Turns on cosmetic water that makes noise.
+|}
+
+== Events==
+{| class="wikitable"
+!Image
+!Name
+! Triggered by
+!Cancelled by
+
+! Description 
+|-
+|?
+|'''Cells opening''' 
+|Time, blackout, fire, fire alarm.
+| -
+|Cells open either automatically after a specified time or prematurely by the prisoner's action. 
+|-
+|?
+|'''Gate opening'''
+|Gate control, fire (if no blackout).
+|Closing the gate.
+|Gate can be opened using the gate control keypad. It also opens automatically during the fire event (if there's no blackout) and can't be closed until it ends.
+|-
+| ?
+|'''Gate closing'''
+|Gate control.
+|Opening the gate. 
+|Gate can be closed with the gate control keypad (unless there's a blackout).
+|-
+|?
+|'''Fire'''
+|Toilet paper ignited by a lighter and inserted into a washing machine.
+|Extinguishing the washing machine or waiting 90 seconds.
+| Opens the gate (if there's no blackout) and locks it opened, opens cells, spawns smoke. 
+|-
+| ?
+|'''Blackout'''
+|Fork inserted into a power outlet. 
+|Turning power on in the electrical panel after a lightbulb icon pops up.
+|Turns the lights off, blocks the gate from being opened or closed.
+|}
+
+==Trivia ==
+<gallery widths="180" heights="180">
+File:Prison Escape world - cafeteria vent.webp|You can jump on top of the wall frame above the cells through the Cafeteria vent.
+</gallery>
+
+* Game's soundtrack is [https://www.youtube.com/watch?v=gTrHdi8iuvs Spy Glass by Keving MacLeod] on YouTube.
+
+==External links==
+*[https://discord.com/invite/qnQSGDnHjm Ostinyo Discord server].
+==References==
+<references />
+
+[[Category:Worlds]]
+[[Category:Game worlds]]
+[[Category:PvP worlds]]
+[[Category:English]]

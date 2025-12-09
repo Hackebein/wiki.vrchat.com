@@ -1,0 +1,58 @@
+<noinclude>[[Category:Template Documentation]]</noinclude>
+{{Infobox/Mascot
+|name= VRCat
+|image= VRCat.webp
+|firstAppearance= Nov 19, 2020
+|species= Cat
+|pronouns= He/It
+}}
+==Example==
+<pre>
+<nowiki>{{Infobox/Mascot
+|name= VRCat
+|image= VRCat.webp
+|firstAppearance= Nov 19, 2020
+|species= Cat
+|pronouns= He/It
+}}</nowiki>
+</pre>
+==TemplateData Documentation==
+<templatedata>
+{
+	"params": {
+		"name": {
+			"label": "Name",
+			"description": "The name of the mascot, displays the page title by default.",
+			"example": "VRCat",
+			"type": "string"
+		},
+		"image": {
+			"label": "Image",
+			"description": "The image displayed of the mascot.",
+			"example": "VRCat.webp",
+			"type": "wiki-file-name",
+			"required": true
+		},
+		"firstAppearance": {
+			"label": "First appearance",
+			"description": "When the character first appeared.",
+			"example": "Nov 19, 2020",
+			"type": "date"
+		},
+		"species": {
+			"label": "Species",
+			"description": "Species of the mascot.",
+			"example": "Cat",
+			"type": "string",
+			"required": true
+		},
+		"pronouns": {
+			"label": "Pronouns",
+			"description": "The character's official pronouns.",
+			"example": "He/It",
+			"type": "string"
+		}
+	},
+	"description": "Paste this template into a mascot page to have the infobox appear on the top right. It is recommended to paste and fill this out while in the Source Editor, however this can also be done in the Visual Editor. For more guidance on how to best use this, see how other mascot pages have implemented this Infobox.\n\nFields without contents will not show up on the Infobox."
+}
+</templatedata>

@@ -1,0 +1,30 @@
+/* Any JavaScript here will be loaded for all users on every page load. */
+
+// Lightweight analytics by Plausible.io
+!function(t) {
+	var e = t.createElement("script");
+	
+	e.setAttribute("defer", "defer");
+	e.setAttribute("data-domain", "wiki.vrchat.com");
+	
+	e.setAttribute("event-page-name", mw.config.get("wgTitle"));
+	e.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
+	e.setAttribute("event-page-namespace", mw.config.get("wgFormattedNamespaces")[mw.config.get("wgNamespaceNumber")]);
+	
+	e.setAttribute("event-theme", mw.config.get("skin"));
+	e.setAttribute("event-action", mw.config.get("action"));
+	
+	e.setAttribute("event-is-logged-in", mw.config.get("wgUserName") !== null);
+	const wgUserGroups = mw.config.get("wgUserGroups");
+	e.setAttribute("event-is-maintainer", wgUserGroups.includes("community-mod")
+		|| wgUserGroups.includes("moderator")
+		|| wgUserGroups.includes("sysop"));
+	
+	e.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
+	t.head.appendChild(e)
+}(document);
+
+importScript("MediaWiki:Template:MainPageInfopush.js");
+importScript("MediaWiki:VisitorsIndicator.js");
+importScript("MediaWiki:Spoiler.js");
+importScript("MediaWiki:YouTube.js");

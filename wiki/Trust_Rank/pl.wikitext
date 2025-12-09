@@ -1,0 +1,182 @@
+<languages/>
+{{Noticebox/Official}}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Trust Rank''' is part of the [[Special:MyLanguage/Trust and Safety|Trust and Safety]] system in VRChat, designed to ensure a safe and enjoyable experience for all users. This system determines when a user can upload content, and evaluates user behavior to calculate "Trust", using an aggregate of many variables.
+</div>
+
+<span id="Ranks"></span>
+==Rangi==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+A user’s Trust feeds into their '''Trust Rank''', an indicator of their time spent in VRChat, content contribution, friendships made, and other factors.
+</div> 
+
+Poniżej wymienione są rangi do osiągnięcia (od najniższej do najwyższej):
+{| class="wikitable"
+|+
+| style="background-color: #bababa" |
+!Gość
+|Ranga startowa.
+|-
+| style="background-color: #1678ff" |
+!Nowy
+|Może przesyłać [[Special:MyLanguage/Avatars|awatary]] i [[Special:MyLanguage/Worlds|światy]] do VRChat. Przesłane światy muszą pozostać prywatne.
+|-
+| style="background-color: #2acf5b" |
+!Użytkownik
+|Może publikować [[Special:MyLanguage/Worlds|światy]] w [[Special:MyLanguage/Community Labs|Laboratoriach Społeczności]]. Większość funkcji staje się dostępna od tej rangi.
+|-
+| style="background-color: #ff7c42" |
+!Znany
+|Może ukryć swą rangę występując jako zwykły "Użytkownik".
+|-
+| style="background-color: #8143e6" |
+!Zaufany
+|Może ukryć swą rangę występując jako zwykły "Użytkownik".
+|}
+
+<span id="Special_ranks"></span>
+===Rangi specjalne===
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable"
+|+
+| style="background-color: #efea17" |
+!'''Znajomy'''
+|Użytkownicy, których posiada się w znajomych będą widoczni ze wszystkimi funkcjami ich awatarów w normalnym ustawieniu osłony, którą można dostosować jak dla każdej innej rangi zaufania.
+|-
+| style="background-color: #bababa" |
+!'''Uciążliwy'''
+| Użytkownicy, którzy sprawiali problemy innym, będą specjalnie oznaczeni na ich identyfikatorze. Ich awatar będzie ukryty i będą domyślnie wyciszeni, bez względu na poziom ustawionej osłony. Jednakże wciąż można ręcznie ich odciszyć lub pokazać ich awatar.
+|-
+| style="background-color: #b52626" |
+!'''Zespół VRChat'''
+|Dostępna tylko dla członków zespołu VRChatu. Ich ranga wyświetli się, gdy posiadają włączony tag "DEV". Jeżeli podejrzewasz, że ktoś podszywa się pod pracownika VRChatu to dla pewności zweryfikuj jego rangę.
+|}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Discontinued ranks===
+''See [[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|Removed Features]].''
+</div>
+
+<span id="Gaining_ranks"></span>
+===Zdobywanie rang===
+
+Szczegóły działania systemu zaufania są umyślnie ukryte, aby przeciwdziałać jego nadużyciom.  
+
+Jednakże sprawdzonym sposobem na osiąganie wyższych rang zaufania jest zwykła aktywność w grze jak: 
+
+* Eksplorowanie
+* Poznawanie znajomych
+* Przesyłanie treści
+
+<div class="mw-translate-fuzzy">
+Rzeczy, które nie pomogą zdobyć wyższej rangi zaufania to np.:
+*Bezczynne stanie i bycie AFK.
+*Przesyłanie wiele treści o niskiej jakości.
+*Masowe dodawanie do znajomych.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+However, in some cases, the Trust Rank does not necessarily increase, but it does provide a boost in reaching the next rank.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Trust ranks and safety ==
+[[File:Shield_level.webp|thumb|300px|Shield levels can be customized, depending on a user's Trust Rank.]]
+Trust ranks affect how users can view your avatar, hear you, or see your [[Special:MyLanguage/Gallery|gallery]] content, such as [[Special:MyLanguage/Stickers|stickers]] and [[VRC+#Prints|prints]]; this all depends on their [[Special:MyLanguage/Trust and Safety#Personal%20safety|Safety Shield level]] preferences.
+{| class="wikitable"
+!Option Name
+!Impacted Feature
+|-
+|Voice
+|User
+|-
+|Avatar
+|Avatar
+|-
+|User Icons
+|Social
+|-
+|Custom Images
+|Social
+|-
+|Drone
+|Social
+|-
+|Audio
+| Avatar
+|-
+|Lights & Particles 
+|Avatar
+|-
+|Shaders
+|Avatar
+|-
+| Custom Animations
+|Avatar
+|-
+|Animated Emojis
+|Social 
+|}
+Multiple '''Presets''' are available depending on user's preference for security and comfort.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Appearance of ranks inside VRChat ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:TrustRank_Example.png|right|frameless]]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The Safety and Trust system is designed to stay unobtrusive. A user's Trust Rank is visible only when the Quick Menu is open. This setting can be changed under "User Interface" > "Nameplate" or in the [[Special:MyLanguage/Action Menu|Action Menu]] under "Options" > "Nameplates."
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*The text in the top left of the [[Special:MyLanguage/Nameplates|nameplate]] indicates the user's Trust Rank.
+*The top right of the nameplate displays the user's avatar performance rank.
+</div>
+
+<div class="mw-translate-fuzzy">
+===Postęp rangi===
+</div>
+
+<div class="mw-translate-fuzzy">
+* [https://docs.vrchat.com/docs/vrchat-safety-and-trust-system Safety and Trust System] na ''docs.vrchat.com''
+</div>
+
+<span id="See_also"></span>
+==Zobacz też==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Rules and Guidelines
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Terms of Service]]
+* [[Community Guidelines]]
+* [[VRCWiki:Guidelines]]
+* [[VRCWiki:Disciplinary policy]]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat platform articles
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Reporting]]
+* [[Bans]]
+* [[Two-Factor Authentication (2FA)]]
+</div>
+
+<span id="References"></span>
+==Przypisy==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[Category:Features{{#translation:}}]]
+</div>
+
+<references />

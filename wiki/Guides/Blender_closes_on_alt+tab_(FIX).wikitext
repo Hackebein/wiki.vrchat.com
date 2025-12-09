@@ -1,0 +1,28 @@
+{{Noticebox/Community}}
+This is a very particular problem that happens if you do somthing very specific to cause this problem.
+If you are having trouble with blender closing out after you alt+tab or minimized it.
+This might be the solution for you so you can get back to work on those Vrchat models and worlds again.
+
+If you have purchased a XP Tablet or a Wacom Tablet and has disabled pentablet on startup,
+then it has to relate to this.
+
+Me and my friend had the same problem but we fixed it for us.
+What we found out was that we both had xp pen tablet and a wacom tablet and we both disabled on start up "'''pentablet sevices'''".
+
+'''Step 1''' : Open your task manager.
+
+'''Step 2''' : Click on the startup tab.
+
+'''Step 3''' : Right click and Enable pentablet services. (close out of it)
+
+'''Step 4''' : Next right click windows start button, click search.
+
+'''Step 5''' : Search for "pentablet" application, Run it.
+
+(You will get a prompt that says "can't detect tablet, please plug it into then open the driver again" you do not have to plug in your tablet.)
+
+'''Step 6''' : Just Click OK
+
+
+And wahlah blender is able to tab out and tab back in again. Hope this helps you guys out ^^
+[[Category:Guides]]

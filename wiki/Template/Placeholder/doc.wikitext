@@ -1,0 +1,16 @@
+== Documentation ==
+This should only ever be used temporarily on any given page where an image is requested.
+=== Example Usage ===
+<nowiki>{{Placeholder|500px}}</nowiki>
+
+will make:
+{{Placeholder|500px}}
+
+=== Template parameters ===
+{| class="wikitable"
+|-
+! Name !! Variable !! Description
+|-
+| Size || <code>1</code>|| Size of image
+|}
+<noinclude>[[Category:Template Documentation]]</noinclude>

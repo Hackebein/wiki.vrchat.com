@@ -1,0 +1,8 @@
+==性能评级==
+虚拟形象会根据其性能的开销进行评级。它们分别是：
+极高负载{{performance|verypoor|22}}
+高负载{{performance|poor|22}}
+中负载{{performance|medium|22}}
+低负载{{performance|good|22}}
+极低负载{{performance|excellent|22}}。
+该分类有助于用户了解其虚拟形象对整个 VRChat 体验的性能影响。影响虚拟形象性能评级的因素包括网格多边形数、材质数、纹理分辨率、动画控制器复杂度；以及虚拟形象组件，如[[Special:MyLanguage/Physbones|物理骨骼]]或约束。

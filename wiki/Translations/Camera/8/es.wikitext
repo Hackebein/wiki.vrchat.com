@@ -1,0 +1,35 @@
+== Menú ==
+* '''Hacer foto:''' Hace una foto inmediatamente.
+* '''Temporizador (5s):''' Hace una foto después de un retraso de 5 segundos con un sonido de cuenta regresiva.
+* '''Modo de la cámara:''' Amplía los diferentes modos de la cámara.
+** Foto local, Multicapa, Transmisión
+*** Exclusivo de [[Special:MyLanguage/VRChat+|VRC+]]: Galería de fotos, icono de usuario, pegatina, instantánea, emoji
+* '''Anclaje:''' Determina a dónde está vinculada la cámara.
+** '''Por defecto:''' Vinculado al usuario.
+** '''Local:''' Sigue el movimiento del usuario pero no el movimiento de la cabeza.
+** '''Mundo:''' Vinculado al mundo, independiente del movimiento del usuario.
+* '''Comportamiento:''' Ajusta el rendimiento de la cámara.
+** '''Suavizado:''' Estabiliza el vídeo para obtener imágenes más suaves.
+** '''Mírame:''' La cámara sigue la dirección en la que mira tu cabeza.
+** '''Autonivelado de inclinación:''' Mantiene la cámara nivelada, evitando que se incline.
+* '''Enfoque:''' Controla el modo de enfoque.
+** '''Automático:''' Ajusta automáticamente la apertura y la distancia focal.
+** '''Semiautomático:''' Permite ajustar solo la apertura.
+** '''Manual:''' Permite ajustar tanto la apertura como la distancia focal.
+* '''Pins:''' Ajustes guardados de enfoque y filtros.
+* '''Máscara:''' Determina qué capas se incluyen en las fotos.
+** '''Usuario local:''' Incluye al usuario y su avatar.
+** '''Usuario remoto:''' Incluye a otros usuarios.
+** '''Mundo:''' Incluye el entorno del mundo.
+** '''Pantalla verde:''' Sustituye el entorno por una pantalla verde.
+** '''IU:''' Incluye elementos de la interfaz, como el menú radial y la interfaz de la cámara.
+** '''Objetos:''' Incluye objetos colocados en el mundo por los usuarios.
+* '''Visibilidad de la lente:''' Define cómo se renderiza la cámara dentro del mundo.
+** '''Desactivado:''' Muestra solo una luz pequeña.
+** '''Fantasma:''' Muestra una lente de cámara transparente color azul claro.
+** '''Sólido:''' Muestra una lente de cámara sólida.
+* '''Filtros:''' Agrega filtros visuales a la cámara. Solo se puede activar un filtro a la vez.
+* '''Resolución de la foto:''' Ajusta la resolución de la foto. Resoluciones más altas generan archivos más grandes y pueden causar bajada de fotogramas.
+* '''Cuadrícula:''' Superpone una cuadrícula 3x3 en la pantalla de la cámara para asistencia visual. La cuadrícula no aparece en la foto final.
+* '''Bloquear (Solo RV):''' Bloquea la cámara para que no pueda ser sostenida. Solo se puede usar en RV.
+* '''Modo vuelo:''' La cámara se puede controlar manualmente cerca de tu posición. En escritorio, mantén presionada la rueda del ratón y usa el movimiento del ratón junto con las teclas 'WASD' para pilotar la cámara. En RV, haz clic en el botón "Volar" y usa los joysticks izquierdo y derecho después de presionar el gatillo para alternar el movimiento entre la cámara y tu avatar.

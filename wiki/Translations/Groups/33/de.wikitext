@@ -1,0 +1,72 @@
+Schritt 6: Wende die unten aufgeführten Berechtigungen an, scrolle herunter zum Ende der Seite und '''klicke auf Save'''.
+{| class="wikitable"
+|+
+!Berechtigung
+!Funktion
+|-
+|Manage Group Member Data
+|<small>Erlaubt es der Rolle, sich alle Mitglieder anzuschauen, sie nach Rollen zu filtern sowie zu sortieren und Daten über sie zu bearbeiten.</small>
+|-
+|Manage Group Data
+|<small>Erlaubt es der Rolle, Gruppendetails zu editieren (Name, Description, Open to New Members usw.).</small>
+|-
+|View Audit log
+|<small>Erlaubt es der Rolle, den vollständigen Auditlog der Gruppe einzusehen.</small>
+|-
+|Manage Group Roles
+|<small>Erlaubt es der Rolle, Rollen zu erstellen, zu modifizieren und zu löschen.</small>
+|-
+|Manage Group Default Role
+|<small>Erlaubt es der Rolle, die Berechtigungen der Standardrolle ("Everyone"-Rolle) zu managen. Benötigt "Manage Group Roles".</small>
+|-
+|Assign Group Roles
+|<small>Erlaubt es der Rolle, Rollen an Benutzer zu vergeben/zurückzunehmen. Benötigt "Manage Group Member Data".</small>
+|-
+|Manage Group Ban
+|<small>Erlaubt es der Rolle, Benutzer zu bannen/zu entbannen und sich alle gebannten Benutzer anzeigen zu lassen. Benötigt "Manage Group Member Data".</small>
+|-
+|Remove Group members
+|<small>Erlaubt es der Rolle, jemanden aus der Gruppe zu entfernen. Benötigt "Manage Group Member Data".</small>
+|-
+|View All Members
+|<small>Erlaubt es der Rolle, sich alle Mitglieder der Gruppe, nicht nur Freunde, anzeigen zu lassen.</small>
+|-
+|Manage Group Announcement
+|<small>Erlaubt es der Rolle, Gruppenankündigungen festzulegen/zu löschen und diese als Benachrichtigung zu senden.</small>
+|-
+|Manage Group Galleries
+|<small>Erlaubt es der Rolle, Gruppengalerien zu erstellen, neu zu organisieren, zu editieren und zu löschen. Kann jederzeit Bilder der Galerie hinzufügen und diese genehmigen.</small>
+|-
+|Manage Group Invites
+|<small>Erlaubt es der Rolle, Einladungen zu erstellen/abzubrechen und Beitrittsanfragen zu akzeptieren/abzulehnen/zu blockieren.</small>
+|-
+|Moderate Group Instance
+|<small>Erlaubt es der Rolle, innerhalb einer Gruppeninstanz zu moderieren.</small>
+|-
+|Manage Group Instances
+|<small>Erlaubt es der Rolle, Gruppeninstanzen zu schließen.</small>
+|-
+|Group Instance Queue Priority
+|<small>Gibt der Rolle Priorität bei Warteschlangen für Gruppeninstanzen.</small>
+|-
+|Create Group Public Instances
+|<small>Erlaubt es der Rolle, Gruppeninstanzen zu erstellen, die für alle, ob Mitglied oder nicht, offen sind. NOTIZ: Private Gruppen können keine öffentlichen Instanzen erstellen.</small>
+|-
+|Create Group+ Instances 
+|<small>Erlaubt es der Rolle, Gruppeninstanzen zu erstellen, denen auch Freunde von Benutzern beitreten können, die sich in der Instanz befinden.</small>
+|-
+|Create Members-Only Group Instances
+|<small>Erlaubt es der Rolle, Instanzen nur für Mitglieder zu erstellen.</small>
+|-
+|Role-Restrict Members-Only Instances
+|<small>Erlaubt es der Rolle, Rolleneinschränkungen für Nur-Mitglieder-Instanzen hinzuzufügen/zu entfernen/zu modifizieren. Benötigt "Create Members-Only Group Instances".</small>
+|-
+|Portal to Group+ Instances 
+|<small>Erlaubt es der Rolle, gesperrte Portale zu Group+ Instanzen zu öffnen. Mitglieder, Freunde der Benutzer dort und Freunde desjenigen, der das Portal geöffnet hat, dürfen diese betreten, es sei denn, sie sind gruppengebannt.</small>
+|-
+|Unlocked Portal to Group+ Instances 
+|<small>Erlaubt es der Rolle, entsperrte Portale zu Group+ Instanzen zu öffnen. Alle außer gruppengebannte Benutzer dürfen diese betreten. Benötigt "Portal to Group+ Instances".</small>
+|-
+|Join Group Instances
+|<small>Erlaubt es der Rolle, Group-Instanzen beizutreten.</small>
+|}

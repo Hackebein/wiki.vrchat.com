@@ -1,0 +1,253 @@
+<languages/>
+{{Noticebox/Official}}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:Instance creation menu.webp
+</div>|thumb|Menu pop-up de criar instância]]
+'''Instâncias''' são sessões únicas para um [[Special:MyLanguage/Worlds|mundo]]. Os usuários podem criar e entrar em instâncias de um mundo, e os usuários na mesma instância podem perceber e interagir uns com os outros no espaço compartilhado do mundo, mas não com usuários em outras instâncias do mesmo mundo. As próprias instâncias podem ter propriedades específicas que afetam quem tem permissão para entrar, convidar ou ver quem está na instância. Elas também têm uma região, que corresponde a um servidor do mundo real que lida com a transmissão de informações de conexão entre os usuários na sessão.
+
+<span id="Instance_types"></span>
+==Tipos de instância==
+
+Existem diversos ambientes públicos e privados de todos os tipos que o usuário pode explorar. Os usuários também podem criar e participar de vários grupos comunitários para conhecer outros usuários com interesses em comum. Os usuários podem optar por participar de uma instância pública ou criar uma instância privada para ficar sozinhos ou convidar amigos após adicioná-los. O nível de privacidade das instâncias criadas fica a critério do usuário e é dividido em diferentes categorias:
+{| class="wikitable"
+|+
+!'''Público''' 
+|Uma instância listada publicamente à qual qualquer pessoa pode se juntar.
+|-
+!'''Amigos+'''
+|Seus amigos, e os amigos deles, e assim por diante podem participar.
+|-
+!'''Amigos''' 
+|Somente seus amigos podem participar; amigos de amigos estão excluídos.
+|-
+!'''Convite+'''
+|Usuários e amigos de usuários devem solicitar para entrar na sua instância, a menos que você ou um usuário convidado tenha o [[Special:MyLanguage/social status|status social]] definido como "Junte-se a Mim".
+|-
+!'''Convite''' 
+|Os usuários precisam enviar uma solicitação para se juntar à você, a menos que seu status social esteja definido como "Junte-se a Mim"; amigos de amigos estão excluídos.
+|-
+!'''[[Special:MyLanguage/Groups|Grupo]]'''
+|Uma instância à qual somente membros de um grupo, ou cargos específicos dentro desse grupo podem ter acesso.
+|-
+!'''Grupo+'''
+|Uma instância hospedada por um grupo, na qual amigos dos membros do grupo, amigos desses amigos e assim por diante podem entrar. Instâncias do tipo Grupo+ podem ter moderadores designados para gerenciar a instância. Não é necessário ser membro do grupo que hospeda a instância para entrar.
+|-
+!'''Grupo Público'''
+|Uma instância listada publicamente, hospedada por um grupo, à qual qualquer pessoa pode se juntar. Instâncias públicas de grupo podem ter [[Special:MyLanguage/Groups#Group roles and permissions|moderadores de grupo]] designados para gerenciar uma instância.
+|}
+
+{| class="wikitable"
+|+Quem pode participar de tipos de instância específicos
+!
+!Qualquer um
+!Amigos do<br />usuário
+!Amigos do<br />usuário<br />convidado
+!Amigos do<br />proprietário
+!Amigos do<br />proprietário<br />convidado
+!Cargo de membros<br />selecionados<br />do grupo
+!Todos os membros<br />do grupo
+|-
+!Público
+| style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="3" style="text-align:center;" |✔️
+| rowspan="5" style="text-align:center;" |✔️
+| rowspan="5" style="text-align:center;" | -
+| rowspan="5" style="text-align:center;" | -
+|-
+!Amigos+
+| rowspan="6" style="text-align:center;" | -
+|-
+!Amigos
+| rowspan="4" style="text-align:center;" | -
+| style="text-align:center;" | -
+|-
+!Convite+
+| style="text-align:center;" |✔️<ref group="note">A interface do usuário só permite enviar um convite depois que o amigo solicita um pedido para se juntar.</ref>
+| rowspan="5" style="text-align:center;" | -
+|-
+!Convite
+| rowspan="2" style="text-align:center;" | -
+|-
+!Grupo
+| rowspan="3" style="text-align:center;" | -
+| colspan="2" style="text-align:center;" |✔️<ref group="note">Todos os cargos ou cargos selecionadas (é necessária a permissão de cargo de grupo "Juntar-se em Instâncias do Grupo"). Observe que todos os membros do grupo ainda podem ver a instância, mesmo que não tenham permissão para se juntar à ela.</ref>
+|-
+!Grupo+
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" | -
+| rowspan="2" style="text-align:center;" |✔️
+|-
+!Grupo Público
+| style="text-align:center;" |✔️
+|}
+<references group="note" />
+<span id="Public_instances"></span>
+==Instâncias públicas==
+
+Instâncias públicas são consideradas de fácil acesso e incluem os tipos Público e Grupo Público.<ref name=":0">https://hello.vrchat.com/community-guidelines</ref> 
+
+<span id="Private_instances"></span>
+==Instâncias privadas==
+
+Instâncias privadas exigem um convite ou uma forma de acesso e incluem os tipos Amigos, Amigos+, Convite, Convite+, Grupo e Grupo+.<ref name=":0" />
+
+<span id="Group_instances"></span>
+==Instâncias de Grupo==
+
+Instâncias de grupo são criadas por um grupo e incluem os tipos Grupo Público, Grupo+ e Grupo.
+
+<span id="Age_gated_instances"></span>
+==== Instâncias com restrição de idade ====
+
+''Veja também [[Special:MyLanguage/Age Verification|Verificação de Idade]].''
+
+Opcionalmente, um membro do grupo com a permissão "Criar instâncias com restrição de idade" pode definir um requisito de verificação de idade de 18 anos para uma instância de grupo, permitindo que apenas usuários com idade comprovada de 18 anos ou mais participem. 
+
+Se um usuário tem sua idade verificada, as instâncias com restrição de idade terão prioridade e serão exibidas no topo da lista de instâncias.
+
+<small>(As permissões de moderador ou o excesso de proprietários do grupo não permitem que um usuário participe se ele não tiver sua idade verificada)</small>
+
+<span id="Queues"></span>
+==== Filas ====
+
+As instâncias podem ser configuradas com uma fila. Quando a capacidade é excedida, forma-se uma fila, indicada por um ícone separado que exibe seu comprimento. Os botões "Entrar" mudam para "Entrar na fila". Os usuários com permissão de fila prioritária do grupo são colocados na frente (atrás de quaisquer usuários que já estejam lá com a mesma permissão); todos os outros entram no final. O proprietário do grupo ignora a fila completamente.
+
+Um usuário pode se conectar diretamente a uma instância se outro cliente próprio já estiver conectado. O novo cliente desconecta o antigo ao entrar, permitindo alternar entre realidade virtual e desktop sem perder sua vaga em uma instância completa.
+
+<span id="Regions"></span>
+==Regiões==
+
+Ao selecionar um tipo de instância, existem opções entre diferentes regiões para otimizar sua experiência. Escolher uma instância mais próxima da sua localização resultará em uma redução no [[Special:MyLanguage/:Community:Terminology#Ping|ping]], garantindo uma conexão mais estável com a instância e evitando desconexões e lentidão.
+
+Historicamente, o VRChat funcionava exclusivamente no servidor da região Oeste dos EUA. Em 16 de junho de 2021, duas regiões adicionais - '''Europa e Japão''' foram adicionadas à plataforma na [https://docs.vrchat.com/docs/vrchat-202124 atualização de regiões]<ref>https://docs.vrchat.com/docs/vrchat-202124</ref> para distribuir a carga do servidor e compensar o aumento no número de usuários. Em 1º de dezembro de 2021, o VRChat adicionou a região '''Leste dos EUA'''<ref>https://docs.vrchat.com/docs/vrchat-202142</ref> e renomeou o servidor dos EUA para ''''Oeste dos EUA'''<nowiki/>'. Os usuários também são incentivados a verificar o site de ({{VRC link|https://status.vrchat.com|status de servidor}}) do VRChat ou a conta [https://x.com/VRChat_Status VRChat Status] nas redes sociais para verificar possíveis interrupções ou ao descobrirem problemas ao se conectar ao VRChat.
+{| class="wikitable"
+|+
+!Token
+!Região
+!Localização
+|-
+|usw
+|Oeste dos EUA
+|San José
+|-
+|use
+|Leste dos EUA
+|Washington D.C.
+|-
+|eu
+|Europa
+|Amsterdã
+|-
+|jp
+|Japão
+|Tóquio
+|}
+<span id="Instance_naming"></span>
+== Nomeação de instâncias ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:InstanceNaming.png
+</div>|thumb|O modal de instância criado um com um nome de exibição.]]
+Ao criar uma instância, o criador tem a opção de alterar seu nome de exibição. Os nomes das instâncias aparecem nos detalhes da instância, localizados na aba "Aqui" do Menu Rápido, e na lista de instâncias dos mundos. Os nomes das instâncias têm um limite de 32 caracteres, e os caracteres <code>.</code>, <code>/</code> e <code>\</code> não são permitidos.
+
+A nomeação de instâncias dentro do cliente é um recurso do [[Special:MyLanguage/VRC+|VRC+]], embora nomear uma instância através da API não necessite do VRC+.
+
+<span id="Instance_settings"></span>
+== Configurações da instância ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:QuickMenu HereTab.png
+</div>|thumb|A interface de configurações da instância na aba "Aqui" do Menu Rápido.]]
+Após entrar em uma instância, o criador da instância pode selecionar o tipo de conteúdo permitido dentro dela; as opções padrão serão definidas de acordo com as configurações de conteúdo padrão do mundo. A alteração do tipo de conteúdo permitido pode ser feita na aba '''Aqui''' do Menu Rápido. 
+
+As Configurações da Instância não podem ser definidas pelo criador da instância se o tipo de instância for Público ou Grupo Público. Em vez disso, elas respeitarão as configurações de conteúdo do criador do mundo. Os itens só podem ser configurados em instâncias de grupo e sempre respeitarão as configurações de conteúdo do criador do mundo, independentemente do tipo de instância.
+
+A lista de conteúdos que podem ser ativados/desativados inclui:
+
+* [[Special:MyLanguage/Emojis|Emojis]]
+* [[Special:MyLanguage/Stickers|Adesivos]]
+* [[Special:MyLanguage/VRC+#Sharing|Compartilhando]] Pedestais
+* [[Special:MyLanguage/VRC+#Prints|Impressões]]
+* [[Special:MyLanguage/Camera Drone|Drones]]
+* [[Special:MyLanguage/Items|Itens]]
+
+<span id="Instance_permissions"></span>
+== Permissões de instância ==
+
+Suas permissões para gerenciar uma instância são dependentes de você ser um autor do mundo, proprietário da instância ou moderador do grupo.
+
+<span id="Instance_owner"></span>
+=== Proprietário da instância ===
+
+O proprietário da instância é a pessoa que iniciou a instância e, dependendo do tipo, pode ser um usuário, um grupo ou o autor do mundo. A propriedade da instância não pode ser alterada depois de atribuída. Para alterar o proprietário da instância, uma nova instância deve ser aberta por outro usuário ou grupo. A propriedade da instância é frequentemente confundida com um "mestre", que geralmente está vinculado às configurações de mundo do [[Special:MyLanguage/Udon|Udon]]. 
+
+Os proprietários das instâncias têm permissão para [[Special:MyLanguage/Trust and Safety#User moderation tools|moderar usuários]], incluindo expulsá-los, advertir ou silenciá-los. No caso de uma instância de grupo, os moderadores do grupo e seus poderes dependem das [[Special:MyLanguage/Groups#Group Roles and Permissions|funções e permissões atribuídas ao grupo]].
+
+Instâncias públicas não possuem um proprietário atribuído, sendo o autor do mundo o proprietário padrão.
+
+<span id="World_author"></span>
+=== Autor do mundo ===
+
+O autor do mundo tem o mesmo conjunto básico de ferramentas de moderação que um proprietário de instância, podendo moderar usuários na forma de expulsão, advertência e silenciamento. O autor tem esses poderes adicionais, dependendo do tipo de instância.
+
+<span id="Permission_chart"></span>
+===Tabela de permissões===
+{| class="wikitable"
+|+Permissões de moderação para instâncias
+!Tipo de instância
+|'''Público'''
+|'''Amigos+'''
+|'''Amigos'''
+|'''Convite+'''
+|'''Convite'''
+|'''Grupo Público'''
+|'''Grupo+'''
+|'''Grupo'''
+|-
+|'''Autor do mundo'''
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|Não
+|Não
+|-
+|'''Proprietário da instância'''
+|Não
+|✔️
+|✔️
+|✔️
+|✔️
+|Se moderador
+|Se moderador
+|Se moderador
+|-
+|'''Moderador de grupo'''
+|Não
+|Não
+|Não
+|Não
+|Não
+|✔️
+|✔️
+|✔️
+|}
+<span id="Instance_duration_and_automatic_resets"></span>
+== Duração da instância e reinicializações automáticas ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:Instance shutdown notification.webp
+</div>|alt=A notification on the VRChat Quick Menu notification pane, in the Other section. The notification reads: "Warning: This instance will be reset in 60 minutes due to its age."|thumb|A notificação que aparece quando a instância está prestes a ser reiniciada.]]
+Instâncias que estiverem em execução por longos períodos serão reiniciadas automaticamente para evitar possíveis problemas. Se uma instância estiver populada, os usuários poderão retornar após a reinicialização; caso contrário, serão enviados para seu Mundo Inicial. Um aviso de 180- e 60-minutos pode ser emitido, sendo que um aviso de 5-minutos sempre emitido antes da reinicialização. As instâncias podem ficar em execução por até 7 dias, mas podem ser reiniciadas antes desse período devido a atualizações do servidor.
+
+<span id="References"></span>
+==Referências==
+
+<references />
+
+[[Category:Needs Images{{#translation:}}{{#translation:}}]]

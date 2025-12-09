@@ -1,0 +1,17 @@
+<infobox type="World" theme="official">
+	<title source="name"/>
+	<image source="image">
+	    <caption source="imagecaption" />
+	</image>
+	<group>
+        <data source="developer"><label>Developer</label></data>
+        <data source="publisher"><label>Publisher</label></data>
+    	<data source="designers"><label>Designers</label></data>
+    	<data source="released"><label>Release</label></data>
+        <data source="platforms"><label>Platforms</label></data>
+        <data source="languages"><label>Languages</label></data>
+        <data source="themes"><label>Themes</label></data>
+        <data source="engine"><label>Engine</label></data>
+    </group>
+</infobox>
+<noinclude>[[Category:Infobox Templates]][[Category:Templates]]</noinclude>

@@ -1,0 +1,349 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Jetski Rush
+|image=Jetski_Rush_world_thumbnail.png
+|author= Quap
+|developers=LiQua (Quap, Libes)
+|platforms=PC, Android
+|tags=game, race, multiplayer, water, pvp
+|id=wrld_2ad5bb30-adf7-4de1-ba50-ae9b6b4689fe
+|published=Aug 02 2024
+}}
+<div class="mw-translate-fuzzy">
+'''Jetski Rush''' 是一款跨平台的卡丁车赛车 [[Special:MyLanguage/:Category:Game_Worlds|game world]] 最多支持16名玩家同时游戏。游戏中有多个赛道可供竞速，并且有各种道具可以帮助玩家获得优势。
+</div>
+<span id="Gameplay"></span>
+== 游戏玩法 ==
+
+1-16 名玩家驾驶他们的水上摩托，在排行榜上争夺最佳排名或最快时间。每场比赛都会在多个水上赛道中的一个进行，赛道可以通过投票选择或随机决定。根据地图不同，比赛圈数范围在 2 到 4 圈之间。
+
+赛道中可能包含各种元素，这些元素既可能成为障碍，也可能为玩家提供优势，例如加速环。游戏的核心玩法之一是收集并使用散布在地图上的道具，以激活各种效果，例如额外加速或防护，或者使用武器（如水雷和投射物）来减缓其他玩家的速度。
+
+玩家可以通过收集和使用涡轮增压 (Turbo)，运用漂移、倾斜等技巧，以及利用海浪和跳台等环境因素来提升速度。
+<span id="Controls"></span>
+== 控制 ==
+
+<span id="Bindings"></span>
+===绑定===
+
+{| class="wikitable"
+|+
+!名称
+!PC
+!VR
+|-
+|'''转向'''
+|[A] / [D]
+|[L 摇杆 ↔]
+
+移动操作
+|-
+|'''加速'''
+|[W]
+|[R 触发器]
+|-
+|'''倒车'''
+| [S] 
+|[L 左摇杆 ↓]
+|-
+|'''使用物品'''
+|[鼠标左键]
+|[L 触发器]
+|-
+|'''[[#Turbo|涡轮加速]]'''
+|[Shift]
+|[A] [A] (双击) 
+|-
+|'''[[#Drift|漂移]]'''
+|[Space] + [A] / [D]
+|[A] + 转向
+|-
+|'''[[#Lean|倾身]]'''
+|[空格]
+|[A] + 不转向
+|}
+
+<span id="Turbo"></span>
+===涡轮===
+
+''涡轮加速需要通过离水时间、漂移或涡轮燃料道具来累积能量。涡轮加速在短时间内提高最大速度和加速度。它无法与加速环叠加，但可以与水面着陆加速效果叠加。''
+
+<span id="Drift"></span>
+===漂移===
+
+“漂移会将您锁定在初始方向，直到您松开倾斜按钮。在漂移过程中，您可以进入漂移状态以加快转弯速度，也可以退出漂移状态以减慢转弯速度。根据您保持漂移状态的时间长短，您可以获得速度提升以及涡轮增压燃料。”
+
+<span id="Lean"></span>
+=== 倾身 ===
+
+''倾身会逐渐降低你的速度，但可以让你更容易跃离波浪。落入水中时会获得加速效果。在空中停留的时间越长，获得的涡轮燃料就越多。''
+<span id="HUD"></span>
+== 平视显示器 ==
+
+[[File:Jetski Rush world - HUD and finish line.png|thumb|游戏截图，显示了终点线和平视显示器]]
+'''圈数''' - 当前圈数（总圈数中的一圈）。
+
+'''位置''' - 比赛中当前玩家的位置。
+
+'''涡轮计量器''' - 当前涡轮燃料的等级。每个格子可以使用一次涡轮加速。
+
+'''地图''' - 赛道的地图，包括终点线和玩家位置。
+<span id="Items"></span>
+== 项目 ==
+
+{| class="wikitable"
+|+
+!图标
+!名称
+!描述
+!备注
+|-
+|
+[[File:Jetski Rush world item - Turbo Fuel.png|frameless|70x70px]]
+| '''涡轮燃料'''
+|''使用时给予涡轮燃料。''
+|
+|-
+|
+[[File:Jetski Rush world item - Sharkpedo.png|frameless|70x70px]]
+|'''鲨鱼鱼雷'''
+|''瞄准并发射直线的投射物，击中其他赛车手。''
+|
+|-
+|
+[[File:Jetski Rush world item - Puffermine.png|frameless|70x70px]]
+|'''泡沫地雷'''
+|''瞄准并发射一个投射物，创建一个陷阱让赛车手撞上。''
+|可以通过用鲨鱼鱼雷或泡沫地雷击中它来反击。
+|-
+|
+[[File:Jetski Rush world item - Bubble Shield.png|frameless|70x70px]]
+|'''泡泡护盾'''
+|''在周围生成一个护盾，保护使用者一段时间。''
+|
+|-
+|
+[[File:Jetski Rush world item - Bird Bomb.png|frameless|70x70px]]
+|'''鸟炸弹'''
+|''向使用者前方的赛车手发送一颗炸弹进行攻击。''
+|可以通过用鲨鱼鱼雷或泡沫地雷击中它来反击。
+|-
+|
+[[File:Jetski Rush world item - Dolphin Battery.png|frameless|70x70px]]
+|'''海豚电池'''
+|''使用时立即为使用者提供加速。''
+|距离第一名赛车手越远，掉落的频率越高。
+|-
+|
+[[File:Jetski Rush world item - Skull Curse.png|frameless|70x70px]]
+|'''骷髅诅咒'''
+|''向第一名赛车手发送一个范围攻击。''
+|
+|-
+|
+[[File:Jetski Rush world item - Royal Crown.png|frameless|70x70px]]
+|'''皇家王冠'''
+|''给予使用者临时的加速和无敌效果。''
+|20秒后，王冠会自动使用。
+|}
+<span id="Courses"></span>
+==赛道==
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable"
+|+
+!缩略图
+!地图
+!名称 
+!圈数
+|-
+|
+[[File:Jetski Rush world course - Arctic Iceway.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Arctic Iceway.png|frameless|100x100px]]
+|'''北极冰道'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Aquatic Arena.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Aquatic Arena.png|frameless|100x100px]]
+|'''水上竞技场'''
+|4
+|-
+|
+[[File:Jetski Rush world course - Crossbone Cove.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Crossbone Cove.png|frameless|100x100px]]
+|'''骷髅海湾'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Fungal Forest.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Fungal Forest.png|frameless|100x100px]]
+|'''真菌森林'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Kabuki Peaks.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Kabuki Peaks.png|frameless|100x100px]]
+|'''歌舞伎峰'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Seaside Factory.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Seaside Factory.png|frameless|100x100px]]
+|'''海边工厂'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Temple Ravine.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Temple Ravine.png|frameless|100x100px]]
+|'''神庙峡谷'''
+|2
+|-
+|
+[[File:Jetski Rush world course - Candy Canyon.png|frameless|196x196px]]
+| 
+[[File:Jetski Rush world map - Candy Canyon.png|frameless|100x100px]]
+|'''糖果峡谷'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Hollow Castle.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Hollow Castle.png|frameless|100x100px]]
+|'''空心城堡'''
+|2
+|}
+</div>
+
+<span id="Elements"></span>
+===元素===
+
+[[File:Jetski Rush world - boost ring and ramp.webp|thumb|加速环和坡道]]
+
+<span id="Boost_rings"></span>
+====加速环====
+
+穿过加速环会将你推向加速环所指的方向。使用涡轮增压的速度不会与加速环叠加。
+
+<span id="Ramps"></span>
+====坡道 ====
+
+坡道允许玩家跳出水面并积攒时间来补充涡轮计量表，通常是为了获得水上着陆速度提升，有时只是为了跳过障碍物。
+
+<span id="Jetskis"></span>
+== 水上摩托艇==
+
+[[File:Jetski Rush world - customization.webp|thumb|生成时的水上摩托自定义面板]]玩家可以在生成时的自定义面板中选择自己喜欢的水上摩托模型。自定义选项从基本水上摩托的不同颜色变种，到完全自定义的模型，如橡胶鸭或[[Special:MyLanguage/VRRat|VRRat]]主题水上摩托。更独特的水上摩托只对支持者开放。还有两辆水上摩托可以通过完成[[Special:MyLanguage/Community:Jetski Islet|Jetski Islet]]中的特殊挑战获得，这个世界是由同一个作者创建的<ref>[https://vrchat.com/home/world/wrld_7ef54852-7894-46e4-9935-7dacb78f81c5 Jetski Islet 世界] 在''VRChat''上.</ref>.
+<span id="Tips"></span>
+==提示==
+
+生成菜单中显示的提示： 
+
+*''在落水前使用涡轮加速来获得额外的速度！''
+*''被击中后使用涡轮加速，加速恢复更快！''
+*''攻击路上的泡沫地雷来清理障碍！''
+*''通过漂移或离开水面来获得涡轮燃料！''
+*''在倒计时剩余3秒时按住油门键，获得涡轮起步！''
+*''在波浪前按住倾斜按钮不转向，倾斜并跳跃！''
+*''在漂移时尝试转向可以调整漂移角度！''
+*''按住倾斜按钮并转向来漂移！''
+*''在VR模式下，倒计时时看向前方并按下RT + LT来重新校准！''
+*''晕动症怎么办？试试在设置中启用‘减少运动’！''
+*''操控和瞄准有困难？试试更改控制设置或使用摇杆操控！''
+
+其他提示：
+
+*距离第一名玩家的距离会影响某些物品的掉落率：<ref>开发者在[https://discord.com/channels/673077556806811659/1249065781262684273/1279464209117216771 距离/排名与掉落率]上的评论，来自''LiQua Lounge Discord 服务器''。</ref>
+** 越靠近第一名，获得涡轮燃料的几率越高。
+** 如果第一名玩家领先你一定距离，你可能会获得皇家王冠，随着距离的增加，几率会提高。
+<div class="mw-translate-fuzzy">
+==更新==
+</div>
+
+<span id="Candy_Update"></span>
+=== 糖果更新 ===
+
+<div class="mw-translate-fuzzy">
+于2024年8月20日发布<ref>糖果更新 [https://x.com/TeamLiQua/status/1829626177847230801 宣传视频] 在 ''Twitter'' 上。</ref>。
+</div>
+
+<div class="mw-translate-fuzzy">
+主要更新：
+*新增了一条新赛道 - 糖果峡谷。
+*新增了3辆新水上摩托 - 糖果滴、闪电泡芙和草莓蛋糕。
+</div>
+
+<span id="Time_Trials"></span>
+=== 时间挑战 ===
+
+<div class="mw-translate-fuzzy">
+2024 年 10 月 13 日发布<ref>恐怖更新[https://x.com/TeamLiQua/status/1840116564710043722 announcement] on ''Twitter''.</ref>
+</div>
+
+主要变化：
+
+*引入了时间挑战模式。
+** 全球排行榜。
+** 幽灵数据。
+*新增了3辆新水上摩托 - Jetbike、Gunner、Electro。
+*使鸟炸弹可以被投射物反制。
+
+<span id="Spooky_Update"></span>
+=== 恐怖更新 ===
+
+2024 年 10 月 13 日发布<ref>恐怖更新[https://x.com/TeamLiQua/status/1845226388804239645 announcement] on ''Twitter''.</ref>.
+
+主要更新：
+
+*新增了一条新赛道 - 空洞城堡。
+*新增了3辆新水上摩托 - 南瓜、恶作剧、糖果。
+
+<span id="Xmas_Update"></span>
+=== 圣诞节更新 ===
+
+<div class="mw-translate-fuzzy">
+于2024年9月17日发布<ref>圣诞更新 [https://bsky.app/profile/teamliqua.bsky.social/post/3ldjz7vlbbs2w 公告] 在 ''Twitter'' 上。</ref>。
+</div>
+
+主要更新：
+
+*添加了节日装饰。
+*新增了3辆新水上摩托 - 圣诞老人雪橇、淘气、乖乖。
+*引入了镜像赛道。
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Retro Update ===
+Released on January 19th 2024<ref>Retro Update [https://x.com/TeamLiQua/status/1880806850347860371 announcement] on ''Twitter''.</ref>.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Major changes:
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Added a new course - Retro Rush.
+* Added 4 new jetskis - Retro, Future, Nostaljet, NeoWave.
+* Introduced one-time purchases for jetskis.
+</div>
+
+<span id="External_links"></span>
+==外部链接==
+
+[https://discord.gg/WP2xYbz LiQua Lounge Discord].
+*[https://x.com/TeamLiQua LiQua Twitter].
+<span id="References"></span>
+==参考文献==
+<references />
+
+[[Category:Worlds{{#translation:}}]]
+[[Category:Game worlds{{#translation:}}]]
+[[Category:PvP worlds{{#translation:}}]]
+[[Category:English{{#translation:}}]]

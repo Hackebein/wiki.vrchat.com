@@ -1,0 +1,137 @@
+{{Noticebox/Official}}{{Stub|Please expand and proofread, in reference to the [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]].}}
+'''Physbones''' (also styled as ''PhysBones''; a pormanteau of 'physics bones') are components, native to the [[Special:MyLanguage/VRChat SDK|VRChat SDK]] that allow [[Special:MyLanguage/avatars|avatars]] to display additional motion beyond the normal skeletal movements. PhysBones were implemented<ref>[https://docs.vrchat.com/docs/vrchat-202212 "VRChat 2022.1.2"] (Build 1189) on ''[[docs.vrchat.com]]''. Dated April 21, 2022. Retrieved September 18, 2025.</ref><ref>[https://hello.vrchat.com/blog/avatar-dynamics-live "Avatar Dynamics is Now Live"] on ''[https://hello.vrchat.com/blog VRChat Blog]'' at ''[[hello.vrchat.com]]''. Dated April 21, 2022. Retrieved September 13, 2024.</ref> into VRChat on April 21, 2022.
+
+==Overview==
+
+Physics Bones are designed to be a more performant, and free replacement for Dynamic Bones<ref>[https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743 "Dynamic Bones"] on ''[https://assetstore.unity.com Unity Asset Store]''. Retrieved September 13, 2024.</ref>, which are a paid Unity asset. These can be enabled on components like hair, clothing, tails, ears, and more, allowing those features to be affected by movement, gravity, and collisions. With the [[Special:MyLanguage/Avatar Dynamics|Avatar Dynamics]] system, PhysBones can optionally be used as interactions by oneself, or other users, for interactions such as grabbing and posing.
+
+==History==
+Before PhysBones, VRChat added support for Dynamic Bones circa 2017. PhysBones was first introduced as "physics bones" in the [https://youtu.be/QBQnCxtDaso&t=3661 April 2021 Developer Stream], during the [[Avatar Dynamics]] segment. An update about its development was posted on Medium<ref>[https://medium.com/vrchat/avatar-dynamics-dev-update-9582d674ab1d "Avatar Dynamics Update"] on ''[https://medium.com/vrchat Medium]''. Dated December 17, 2021. Retrieved September 13, 2024.</ref> on December 17, 2021. After the season, Avatar Dynamics launched into [[Open Beta]] on March 4, 2022<ref>[https://hello.vrchat.com/blog/avatar-dynamics-open-beta "Avatar Dynamics is Now in Open Beta!"] on ''[https://hello.vrchat.com/blog VRChat Blog]''. Dated March 4, 2022. Retrieved September 13, 2024</ref>. The Open Beta period ended on April 21, 2022, and subsequently was launched to VRChat's live build on the same day<ref>[https://discord.com/channels/189511567539306508/336764577301659649/966790466576203806 "Avatar Dynamics has launched on Live"'] on ''[https://discord.gg/vrchat VRChat Discord]''. Dated April 21, 2022. Retrieved September 13, 2024</ref><ref>[https://hello.vrchat.com/blog/avatar-dynamics-live "Avatar Dynamics is Now Live"] on ''[https://hello.vrchat.com/blog VRChat Blog]'' on ''[[hello.vrchat.com]]''. Dated April 21, 2022. Retrieved September 13, 2024</ref>, in the [https://docs.vrchat.com/docs/vrchat-202212 VRChat 2022.1.2] (build 1189) release.
+
+As an expansion to PhysBones, the introduction of '''SquishyBones''' was added in 2023.2.2<ref name="2023.2.2YT">[https://www.youtube.com/watch?v=PRZi6QS63rE "New in #vrchat 2023.2.2: SquishyBones!"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated May 3, 2023. Retrieved February 15, 2025</ref><ref name="2023.2.2Doc">[https://docs.vrchat.com/docs/vrchat-202322 "VRChat 2023.2.2"] (Build 1304) on ''[[docs.vrchat.com]]''. Dated May 3, 2023. Retrieved February 15, 2025.</ref> (build 1304) on May 3, 2023.
+
+Initially, Dynamic Bones were still supported, and even had a user option to be automatically converted into PhysBones, but as of the [https://docs.vrchat.com/docs/vrchat-202431 VRChat 2024.3.1] release, Dynamic Bones are now always automatically converted. VRChat SDK changes were made, so that compatibility with uploading new avatars with Dynamic Bones components are no longer permitted.
+
+== SDK ==
+Components for PhysBones, and SquishyBones can be found in the [[VRChat SDK]], and be applied to avatars within avatar projects on Unity.
+
+==Avatar performance==
+PhysBones were introduced to VRChat as an optimized and free alternative to legacy Dynamic Bones for Unity. Compared to Dynamic Bones, more PhysBones can be applied to an avatar on both PC, and Android versions, as they are more cost-performant.
+
+=== Definitions ===
+{| class="wikitable"
+|'''Avatar Quality'''
+|'''Quality Description'''
+|-
+|PhysBones Components
+|The number of PhysBone components on the avatar.
+|-
+|PhysBones Affected Transforms
+|The total number of transforms affected by PhysBones components on the avatar.
+|-
+|PhysBones Colliders
+|The number of PhysBone collider scripts on the avatar.
+|-
+|PhysBones Collision Check Count
+|The sum of how many PhysBone transforms each collider can affect. This can count transforms twice or more, because a single transform can be affected by multiple colliders.
+|}
+
+===PC limits===
+{| class="wikitable"
+|'''Avatar Quality'''
+|[[File:Perf_excellent.png|32x32px|Excellent]]
+|[[File:Perf_good.png|32x32px|Good]]
+|[[File:Perf_medium.png|32x32px|Medium]]
+|[[File:Perf_poor.png|32x32px|Poor]]
+|-
+|PhysBones Components
+|4
+|8
+|16
+|32
+|-
+|PhysBones Affected Transforms
+|16
+|64
+|128
+|256
+|-
+|PhysBones Colliders
+|4
+|8
+|16
+|32
+|-
+|PhysBones Collision Check Count
+|32
+|128
+|256
+|512
+|}
+
+===Mobile limits===
+{| class="wikitable"
+|'''Avatar Quality'''
+|[[File:Perf_excellent.png|32x32px|Excellent]]
+|[[File:Perf_good.png|32x32px|Good]]
+|[[File:Perf_medium.png|32x32px|Medium]]
+|[[File:Perf_poor.png|32x32px|Poor]]
+|-
+|PhysBones Components
+|0
+|4
+|6
+|8
+|-
+|PhysBones Affected Transforms
+|0
+|16
+|32
+|64
+|-
+|PhysBones Colliders
+|0
+|4
+|8
+|16
+|-
+|PhysBones Collision Check Count
+|0
+|16
+|32
+|64
+|}
+If the Very Poor value for an avatar is met on mobile, no matter the current "Show Avatar" state of the avatar, all Avatar Dynamics-related components will be removed.
+
+==SquishyBones==
+[[File:Squishandstrech demo.png|thumb|A graph, demonstrating stretching and squishing of a SquishyBone.]]
+On May 3, 2023, VRChat announced<ref name="2023.2.2Doc"/><ref name="2023.2.2YT"/> an expanded addition to Physbones 1.1, called '''SquishyBones''', which grant the illusion of a mesh or physbone being stretched or compressed, affecting bone length, compared to being moved around like a standard Physbone.
+
+Patchnotes for this update included the following:
+
+<blockquote>
+* ''Squishy Bones update, allowing for bones to squish and length to be affected by motion.''
+* ''Gravity now acts as a ratio of how far the bones will rotate when at rest. A positive Pull is required for bones to move in the direction of gravity.''
+* ''Stiffness now acts as a ratio which keeps a bone in it's previous orientation.''</blockquote>
+
+==Debugging==
+Using the Action Menu, you can use the Avatar Overlay option to [https://www.youtube.com/watch?v=8hqDquZWvhY show visual representations] of both PhysBones and Contacts live in game. These are useful for seeing exactly what is happening, or if objects have been set up properly.
+
+Both PhysBones and Contacts run in the editor as they would in the client. By entering Play mode you are able to simulate these systems and see how your avatar will react without needing to upload your avatar.
+
+==Official resources==
+*{{VRC link|https://creators.vrchat.com/avatars/avatar-dynamics/physbones/|'PhysBones'}} on the [https://creators.vrchat.com/ VRChat Creation Docs]
+*{{VRC link|https://creators.vrchat.com/avatars/avatar-performance-ranking-system|'Avatar Performance Ranking System'}} on the [https://creators.vrchat.com/ VRChat Creation Docs]
+*{{VRC link|https://creators.vrchat.com/avatars/avatar-dynamics/debugging-avatar-dynamics|'Debugging Avatar Components'}} on the [https://creators.vrchat.com/ VRChat Creation Docs]
+
+== See also ==
+
+* [[Avatars]]
+* [[Debug Menu]]
+
+==References==
+<references />
+
+[[Category:Stubs]]
+[[Category:Needs images]]
+[[Category:Avatar features]]

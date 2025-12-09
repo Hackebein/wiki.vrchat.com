@@ -1,0 +1,18 @@
+|Create Group+ Instances（創建群組＋房間）
+|<small>允許這個身分組的成員創建群組＋房間，這會允許位在這個房間中的群組成員，以及他們的朋友們加入。</small>
+|-
+|Create Members-Only Group Instances（創建群組專屬房間）
+|<small>允許這個身分組的成員創建僅有群組成員可以加入的房間。</small>
+|-
+|Role-Restrict Members-Only Instances（創建特定身分組專屬房間）
+|<small>允許這個身分組的成員在僅限成員的房間中，新增、移除或修改身分組限制。需要同時具備「創建群組專屬房間」的權限。</small>
+|-
+|Portal to Group+ Instances（開啟群組＋房間傳送門）
+|<small>允許這個身分組的成員開啟通往群組＋房間的傳送門，而群組成員、群組成員的朋友，以及傳送們放置者的朋友們可以進入，被群組封鎖者除外。</small>
+|-
+|Unlocked Portal to Group+ Instances（無限制群組＋房間傳送門）
+|<small>允許這個身分組的成員開啟無限制的群組＋房間傳送門，除了被群組封鎖的用戶之外，任何人皆可進入。需要同時具備「開啟群組＋房間傳送門」的權限。</small>
+|-
+|Join Group Instances（加入群組房間）
+|<small>允許這個身分組的成員加入群組房間。</small>
+|}

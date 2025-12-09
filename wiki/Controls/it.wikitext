@@ -1,0 +1,422 @@
+<languages/>
+{{Noticebox/Official}}
+I '''Controlli''' sono il modo per cui, tramite controller o altri dispositivi di input, è possibile navigare in [[Special:MyLanguage/VRChat|VRChat]]. La piattaforma supporta diversi dispositivi e controller, alcuni dei quali configurabili direttamente in VRChat, nel Menù [[Special:MyLanguage/Settings#Controls|Impostazioni]]. A seconda della piattaforma utilizzata, è inoltre possibile personalizzare i controlli dalla dashboard del dispositivo.
+
+Nel Menù Impostazioni del client sono contenute le assegnazioni tasti per il dispositivo in uso.
+
+<span id="Primary_controls"></span>
+==Controlli primari==
+
+Di seguito è presente la configurazione predefinita:
+{| class="wikitable" style="text-align:center;"
+! style="text-align:center;" |Azione
+! style="text-align:center;" |Tastiera/Mouse
+! style="text-align:center;" |Controller VR
+! style="text-align:center;" |Controller (Xbox)
+! style="text-align:center;" |Dispositivi Mobili
+|-
+! scope="row" style="text-align:center;" |Cammina
+|WASD
+| colspan="2" |Analogico Sinistro
+|Analogico Virtuale
+|-
+! scope="row" style="text-align:center;" |Voltati
+|Movimento Mouse
+| colspan="2" | Analogico Destro
+|Premi e trascina schermo 
+|-
+! scope="row" style="text-align:center;" |Salta
+|Spazio
+|A (mano destra, pulsante in basso)
+|A
+|Pulsante di Salto
+|-
+! scope="row" style="text-align:center;" |Accovacciati
+|C
+| colspan="1" rowspan="2" |''−−''
+| rowspan="1" |Analogico Sinistro (Premuto)
+| rowspan="2" |Pulsante di Salto (Tenuto Premuto)
+|-
+! scope="row" style="text-align:center;" |Gattona
+|Z
+|Analogico Sinistro (Tenuto Premuto)
+|-
+! scope="row" style="text-align:center;" |Corri
+|Shift Sinistro
+| colspan="3" |''−−''
+|-
+! scope="row" style="text-align:center;" |Usa / Interagisci
+|E
+|Grilletto / Premere con dito indice
+| rowspan="2" |Grilletto
+| rowspan="2" | Premi
+|-
+! scope="row" style="text-align:center;" |Afferra / Solleva
+|Pulsante Sinistro Mouse
+|Pulsante di Presa / Premere con dito medio
+|-
+! scope="row" style="text-align:center;" | Apri Menù Rapido
+|Escape
+|B / Y (ambo le mani, pulsante in alto)
+| colspan="2" |Pulsante Menù
+|-
+! scope="row" style="text-align:center;" | Apri Menù Azione
+|R
+|B / Y (Tenuto Premuto) (una delle mani, pulsante superiore)
+| Analogico Destro (Premuto)
+|Pulsante Menù(Tenuto Premuto)
+|-
+! scope="row" style="text-align:center;" |Disattiva/Attiva Microfono
+|V
+|X (mano sinistra, pulsante inferiore)
+|Y
+| Pulsante Microfono
+|}
+
+<span id="Additional_controls"></span>
+==Controlli aggiuntivi==
+
+===VR===
+
+VRChat supporta i seguenti visori e i corrispettivi schemi di controllo.
+
+*Linea visori Meta Quest
+**Meta Quest 2
+**Meta Quest 3(S)
+**Meta Quest Pro
+* HTC Vive XR Elite
+*Pico 4
+
+Questi visori sono compatibili con la modalità PCVR, ove il visore è collegato ad un computer compatibile da gaming con Sistema Operativo Windows.
+
+<div class="mw-translate-fuzzy">
+*Tutti i visori compatibili SteamVR, includono
+**Valve Index
+**Linea visori HTC Vive
+**Bigscreen Beyond
+**Tethered Pimax HMDs
+**Qualsiasi HMD compatibile con Steam Link (Linea visori Meta Quest)
+**Qualsiasi HMD compatibile con Virtual Desktop
+**La maggior parte degli HDM compatibili con ALVR
+</div>
+
+Su PC, VRChat supporta input da controller tramite l'Input Manager di Steam.
+
+<span id="Controller_buttons"></span>
+====Pulsanti controller====
+
+La maggior parte dei controller VR hanno disposizioni tasti simili fra loro. Ogni controller ha un analogico e due pulsanti principali; un pulsante di sisyema, un grilletto e un pulsante di presa. 
+{| class="wikitable"
+!Pulsante
+!Assegnazione
+|-
+|A - mano destra, pulsante inferiore
+|Salta
+|-
+|B - mano destra, pulsante superiore
+| Premi: Tieni Premuto Pulsante Menù Rapido: Menù Azione
+|-
+|X - mano sinistra, pulsante inferiore
+|Premi: Disattiva/Attiva microfono
+|-
+|Y - mano sinistra, pulsante superiore
+| Premi: Tieni Premuto Pulsante Menù Rapido: Menù Azione
+|-
+|Pulsante Presa - premi con dito medio
+
+|Prendi
+|-
+|Grilletto - premi con dito indice
+|Usa
+|-
+|Analogico Destro
+| Voltati
+|-
+|Analogico Sinistro
+|Cammina/ Locomozione
+|-
+|Entrambi i Grilletti + Entrambi i pulsanti Menù
+| Attiva Modalità Sicura
+|-
+|Tener Premuto Ambo I Pulsanti Menù Durante Il Caricamento Mondo
+		
+|Cambia localmente l'avatar nel robot di errore (Utile nei casi in cui il proprio avatar causa crash o impedisce di usare il menù)
+|}
+
+====Tracciamento mani====
+''Leggi [[Special:MyLanguage/Finger_tracking|Tracciamento dita]] per ulteriori informazioni.''
+{{Thumb|{{YouTube|oopovk3BPaw}}}}
+[[File:Handtracking controls vrcmenu.webp|thumb|250px|Controlli per il tracciamento delle dita all'interno delle impostazioni del [[Special:MyLanguage/Main Menu|menù principale]]]]
+
+VRChat ha creato un {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|mondo guida}} per imparare ad usare il tracciamento delle mani, un [https://www.youtube.com/watch?v=oopovk3BPaw video tutorial] su come impostare il tracciamento su dispositivi Meta Quest, e imparare i vari gesti utili in VRChat.
+
+Per usare il tracciamento delle dita è necessario abilitarlo nelle impostazioni del Quest. Fatto ciò, poni i controller su una superfice piatta, fuori dal campo visio del visore, e allunga le braccia mostrando le mani al visore, così che possa rilevarle. Al fine di evitare perdite di tracciamento sporadiche da parte del visore, illuminare uniformemente la stanza. Nota che attualmente questa funzionalità ''non può essere utilizzata tramite Quest Link via cavo''.
+
+'''Per muoversi nel [[Special:MyLanguage/Worlds|mondo]]''', è necessario porre la '''mano sinistra''' di fronte a se, con il palmo rivolto verso il proprio viso. Con il dito medio, toccare il pollice, come a voler "pizzicare" qualcuno; facendo ciò un piccolo cerchio azzurro dovrebbe comparire. Mentre le dita sono congiunte, allontanale dal cerchio, e, se ciò è svolto correttamente, noterai che ti starai spostando!
+
+''' Per roteare a destra o a sinistra''' eseguire un movimento simile, pizzicando il dito medio con il pollice, ma con la '''mano destra'''. Nel mentre, muovere la mano nella direzione desiderata.
+
+È possibile attivare o disattivare l'opzione di Rotazione Confortevole (rotazione a scatto). Se attiva, sarà necessario muovere le dita pizzicanti oltre la soglia di rotazione ogni volta si voglia roteare la visuale. Potrebbe risultare più confortevole avere questa impostazione disabilitata durante l'uso del tracciamento delle dita, è possibile fare ciò nelle [[Special:MyLanguage/Settings|impostazioni]].
+
+'''Aprire il [[Special:MyLanguage/Quick Menu|Menù Azione]]''' "pizzicando" con il dito indice e il pollice della '''mano sinistra'''. Questo è un gesto presente nei sistemi Meta; tenendo unite le dita comparirà l'icona di un menù che fluttua sulla mano, attorno al quale un anello si riempirà. Ci sono tre modi con cui aprire il Menù Azione:
+
+* Pizzicando con Palmo verso Viso
+* Usando il Pulsante a Cerchio
+* Premendo il Pulsante sul Controller
+
+'''Per interagire con l'interfaccia utente e i [[Special:MyLanguage/Menus|menù]]''', poni la mano verso esso, e seleziona gli elementi pizzicando con il dito indice e il pollice insieme.
+
+'''Puoi silenziarti''' pizzicando il pollice e l'anulare della mano sinistra insieme, brevemente.
+
+Per '''raccogliere oggetti''' è necessario avvicinarsi e chiudere la mano sull'oggetto interessato. È inoltre possibile '''usare gli oggetti''' tenedo chiusi: medio, anulare, e mignolo, pizzicando poi con il dito indice e pollice.
+
+'''Nota:'''  Il Tracciamento delle Dita non funziona con il Quest Link.
+I controlli del tracciamento delle dita possono essere visualizzati nella scheda "Controlli" del [[Special:MyLanguage/Main Menu|menà principale]], con il tracciamento abilitato.
+
+===Desktop===
+
+Puoi giocare a VRChat con mouse e tastiera.
+
+Il movimento è gestito con il . Your mouse adjusts your view position. Your head points in the direction you’re looking.
+{| class="wikitable"
+! Pulsante
+!Azione
+|-
+|W
+| Muove l'utente avanti
+|-
+| A
+|Muove l'utente a sinistra
+|-
+|S
+|Muove l'utente indietro
+|-
+|D
+|Muove l'utente a destra
+|-
+|Spazio
+|Salta (se nel mondo è concesso)
+|-
+|Z
+|Gattona
+|-
+|C
+|Accovaccia
+|-
+|R
+|Apre Menù Azione
+|-
+|Escape
+|Apre Menù Rapido
+|-
+|Shift
+|Fa correre l'utente
+|-
+|Click Sinistro
+|Interagisce/ Raccoglie
+|-
+|Click Destro (Tieni Premuto)
+|Mostra il mouse interazione
+|-
+|Click Destro
+|Rilascia l'oggetto raccolto
+|-
+| Click Destro (Tieni Premuto) (Oggetti afferrabili)
+|Lancia l'oggetto afferrato. Più tempo è premuto, più energia è posta nel lancio.
+|-
+| V (Tieni Premuto) (Se in modalità 'Premi Per Parlare')
+|Abilita il microfono finché è tenuto premuto
+|-
+| V (Se la modalità 'Premi Per Parlare' è disattivata)
+|Abilita/ Disabilita il microfono
+|-
+|Y
+|Apre la chatbox
+|-
+|Tab (Tieni Premuto)
+|Permette di muovere il cursore sullo schermo senza che l'avatar si muovi. (Utile per interagire con elementi della UI)
+|-
+| Fine
+|Abilita / Disabilita la modalità AFK
+|-
+|CTRL + N
+|Cicla fra le impostazioni di visibilità delle [[Special:MyLanguage/Nameplates|targhette]]
+|-
+|CTRL + H
+|Abilita / Disabilita visibilità per l'[[Special:MyLanguage/HUD|HUD]] (icone notifiche e microfono)
+|-
+|CTRL + \
+|Cambia l'[[Special:MyLanguage/avatar|avatar]] in [[Special:MyLanguage/Robot|Robot]] (Utile per accedere al menù o per quando l'avatar precendentemente indossato ostruiva la vista dell'utente).
+|-
+|Shift Destro + Backtick + 1<sup>†</sup>
+|Abilita / Disabilita la visibilità del menù trigger di debug
+|-
+|Shift Destro + Backtick + 2<sup>†</sup>
+|Abilita / Disabilita la visibilità del menù informazioni di debug
+|-
+|Shift Destro + Backtick + 3<sup>†</sup>
+|Abilita / Disabilita la visibilità del menù della console di debug
+|-
+|Shift Destro + Backtick + 4<sup>†</sup>
+|Abilita / Disabilita la visibilità del menù di debug del traffico di rete 
+|-
+|Shift Destro + Backtick + 5<sup>†</sup>
+|Abilita / Disabilita la visibilità del grafico di debug del traffico di rete 
+|-
+|Shift Destro + Backtick + 7<sup>†</sup>
+|Abilita / Disabilita la visibilità dell'overlay di debug del traffico di rete 
+|-
+|Shift Destro + Backtick + 8<sup>†</sup>
+|Abilita / Disabilita la visibilità dell'overlay di debug degli eventi
+|-
+|Shift Destro + Backtick + 9<sup>†</sup>
+|Abilita / Disabilita la visibilità dell'overlay di debug del traffico di rete utente
+|-
+|F12
+|Scatta uno screenshot, salvato nella cartella d'installazione di VRChat
+|-
+|CTRL + F12
+|Scatta uno screenshot al doppio della normale risoluzione, 4K (3840 × 2160) è il valore predefinito, salvato nella cartella Immagini/VRChat
+|-
+|Shift + F1*
+|Posa mano - Idle
+|-
+|Shift + F2*
+|Posa mano - Pugno
+|-
+|Shift + F3*
+|Posa mano - Mano Aperta
+|-
+|Shift + F4* 
+|Posa mano - Punta (Indice)
+|-
+|Shift + F5*
+|Posa mano - Vittoria (Pace)
+|-
+|Shift + F6*
+|Posa mano - Rock ’n Roll
+|-
+|Shift + F7*
+|Posa mano - Mano a pistola
+|-
+|Shift + F8*
+|Posa mano - Pollice in su
+|-
+|Shift + Esc
+|Abilita la modalità sicura.
+|-
+|< e >
+|Rotate the user left and right in
+|-
+|I / K
+| Modifica il beccheggio dell'oggetto in mano (rotea sull'asse X)
+|-
+|J / L
+|Modifica l'imbarata dell'oggetto in mano (rotea sull'asse Y)
+
+|-
+| U / O
+|Modifica il rollio dell'oggetto selezionato (rotea sull'asse Z)
+|-
+|Rotellina Mouse
+|Sposta l'oggetto selezionato avanti o dietro (trasla sull'asse Z)
+|-
+|Pulsante Centrale Mouse (Tenuto Premuto)
+|Modifica la rotazione dell'oggetto muovendo il mouse
+|}
+
+<nowiki>*</nowiki> Usa lo shift sinistro per controllarela tua mano sinistra, usa lo shift destro per controllare la tua mano destra.
+
+<sup>†</sup> Su una tastiera con disposizione Inglese Americana QWERTY , “backtick” è il tasto in alto a sinistra, vicino al tasto <code>1</code>. Condivide la posizione con il tasto per i carattere tidle (<code>~</code>).
+
+Le opzioni di debug sono disabilitate se non si avvia VRChat con l'opzione di avvio: <code>--enable-debug-gui</code>.
+
+<span id="Mobile"></span>
+===Dispositivi mobili===
+
+Sul lato sinistro dello schermo è presente un analogico virtuale, che permette l'utente di muovere l'avatar nel mondo. Premere e trascinare un dito su qualsiasi altra parte dello schermo fa spostare la visuale. Premere due volte consecutivamente e in seguito tenendo premuto su qualsiasi punto dello schermo permette di muovere l'avatar e spostare la visuale contemporaneamente.
+
+Il lato destro dello schermo è occupato dai pulsanti per: saltare, raccogliere oggetti, e interagire con il mondo. Tenendo premuto qualsiasi dei pulsanti permette di accedere a opzioni aggiuntive, come l'accovacciarsi o aprire il menù azione.
+
+Premere su un altro utente o un [[Special:MyLanguage/portals|portale]] mostrerà un [[Special:MyLanguage/Menus|menù]] secondario.
+
+<span id="Gamepad"></span>
+===Controller===
+
+Puoi giocare a VRChat tramite controller su PC e Dispositivi Mobili.
+
+I controller supportati includono: controller XBOX, controller Playstation, e controller della Nintendo Switch. La tabella in basso usa la disposizione dei tasti del controller "XBOX".
+{| class="wikitable"
+!Pulsanti (Secondo il controller XBOX) 
+!Assegnazione
+|-
+|A
+|Fa saltare l'utente (Se è concesso nel mondo)
+|-
+| B / X
+|Rilascia oggetto
+|-
+|Y (Premuto) (Se in uso il push to talk)
+|Tiene il microfono aperto finché il pulsante è premuto
+|-
+|Y (Se il push to talk non è in uso)
+|Abilita / Disabilita il microfono
+|-
+|D-pad Su
+|Abilita / Disabilita le targhette utente
+|-
+|D-pad Giù
+|Abilita / Disabilita la HUD (incone del microfono e delle notifiche)
+|-
+|LB (Premuto) + Movimento Analogico Sinistro
+|Sposta l'oggetto in mano avanti o indietro rispetto al giocatore (trasla sull'asse Z)
+|-
+|LB (Premuto) + Movimento Analogico Sinistro
+|Ruota l'oggetto in mano
+|-
+|RB (Premuto) + Movimento Analogico Sinistro
+
+|Seleziona gesto mano sinistra (Solo tramite Steam) 
+|-
+|RB (Tenuto Premuto) + Analogico Destro
+|Seleziona gesto mano destra (Solo tramite Steam) 
+|-
+|LT/RT
+|Interagisce / Raccoglie
+|-
+|Analogico Sinistro
+|Muove l'utente
+|-
+|Analogico Sinistro (Premuto)
+|Accovaccia
+|-
+|Analogico Sinistro (Tenuto Premuto)
+|Gattona
+|-
+|Analogico Destro
+|Sposta Visuale
+|-
+|Analogico Destro (Premuto)
+|Apre Menù Azione
+|-
+|Visualizza
+|Scatta uno screenshot, salvato nella cartella d'installazione di VRChat
+|-
+|Menù
+|Apre il Menù Rapido
+|-
+|A / RT (Nel Menù)
+|Premi nel menù
+|-
+|B (Nel Menù)
+|Chiude il menù 
+|}
+
+<span id="Resources"></span>
+== Risorse==
+
+*[https://www.youtube.com/watch?v=F0I2Ec4JsrE "Quest 2 Finger Tracking"] da VRChat su ''YouTube''
+*[https://docs.vrchat.com/docs/vrchat-202241 "VRChat 2022.4.1"] sul Tracciamento delle Mani
+*[https://www.youtube.com/watch?v=oopovk3BPaw "Beginner's Guide to VRChat Hand/Finger Tracking"] da VRChat su ''YouTube''
+{{Start-navbox}}
+[[Category:Needs images{{#translation:}}]]

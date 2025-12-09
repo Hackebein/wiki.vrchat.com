@@ -1,0 +1,30 @@
+Typical controllers supported include Xbox controllers, PlayStation controllers, and Nintendo Switch controllers. The below table uses the "Xbox" controller layout for reference.
+{| class="wikitable"
+!Buttons (Based on Xbox Controller) 
+!Assignment
+|-
+|A
+|Makes user jump (if it is enabled in the room)
+|-
+| B / X
+|Drop pickup
+|-
+|Y (Hold) (If using push to talk)
+|Enables microphone as long as it’s held
+|-
+|Y (If using toggle talk)
+|Enables / Disables microphone
+|-
+|D-pad Up
+|Toggles visibility of user nametags
+|-
+|D-pad Down
+|Toggles visibility of the HUD (microphone and notification icons)
+|-
+|LB (Hold) + Left Joystick
+|Moves the held object forward/back (translate along Z axis)
+|-
+|LB (Hold) + Right Joystick
+|Rotates the held object
+|-
+|RB (Hold) + Left Joystick

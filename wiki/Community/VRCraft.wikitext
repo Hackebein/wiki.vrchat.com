@@ -1,0 +1,51 @@
+{{Noticebox/Community}}
+{{Infobox/World
+|name=VRCraft
+|image=VRCraft Thumbnail.png
+|author=[https://vrchat.com/home/user/usr_14b0f743-94fe-4c8a-986e-f48124035eba Markcreator]
+|platforms=PC, Android
+|tags=minecraft, udon, build, creative, game
+|id=wrld_01b62965-1b3c-4062-bc22-0b339b8063ca
+|published=Aug 22 2020
+}}
+[[File:VRCraft Default Playarea.jpg|thumb|Overview of a fresh play area from Spawn]]
+'''VRCraft''', previously known as Udon Minecraft, is a cross-platform [[Special:MyLanguage/:Category:Game worlds|game world]] created by Markcreator. It was published in 2020 and remains in development to this date. It aims to recreate Minecraft in [[VRChat]], allowing users to place and break blocks together with other people.
+
+== Gameplay ==
+The actual play area is located below the spawn and can be accessed by walking forward into the gold block.
+
+As a playable recreation of Minecraft within VRChat, it retains the same control scheme that is found on Minecraft and its VR Mods. A notable difference is that only full Blocks are available and that entities such as torches are turned into transparent Full Blocks with a picture of the entity on each side.
+
+In VR, blocks are placed with the trigger of the right controller, while breaking them uses the trigger on the left controller. An expansive selection of all Blocks can be found by moving the right thumbstick up or down, while on Desktop the same menu opens by pressing the E button. The play area is currently 128x128x24 blocks large and synced across all players. The current master may load a custom template or allow explosions from TNT to be destructive. These and more options can be found when turning around on spawn.
+
+[[File:VRCraft Block Selection.jpg|thumb|A page of available blocks in the block menu]]
+=== Controls ===
+{| class="wikitable"
+|-
+! Action !! VR Controls !! Desktop Controls !! Mobile Controls
+|-
+| Place block || Right trigger || Right click || Place button
+|-
+| Remove block || Left trigger || Left click || Break button
+|-
+| Open Inventory || Right thumbstick up/down || 'E' or 'I' || Blocks button
+|-
+| Copy block || Right or Left thumbstick click || Middle mouse click || none
+|}
+
+== World templates ==
+[[File:VRCraft Template Browser.jpg|thumb|World Template Browser and options to save/load custom ones]]
+VRCraft allows anyone to make a backup of the current play area, which is saved as a Base 64 encoded text string in the text field below. This same field can be used to paste a relevant text string to load in past play areas, by pressing load. It is advised to paste this large text string, by pressing the paste symbol of the VRChat keyboard instead of using CTRL+V. CTRL+V may cause several seconds of frame lag.
+
+Additionally, a selection of Templates can be found in a Template browser next to the text field, these can be useful to launch a fresh world that deviates from the default play area.
+
+=== Importing Minecraft worlds ===
+A converter tool is available to convert existing Minecraft creations to a 128x128x24 template, that can be Imported to VRCraft. It can be found on the [https://github.com/Markcreator/minecraft2vrcraft World Creator's GitHub page]. It works by taking a snapshot of an area 64 blocks away in each cardinal direction, as well as 12 blocks going above and below. The corresponding text string is saved as a text file.
+
+A tool to convert VRCraft play areas to Minecraft is not available.
+
+== External links ==
+[https://github.com/Markcreator/minecraft2vrcraft Minecraft2VRCraft Converter Tool] on GitHub<br>[https://www.youtube.com/watch?v=Pbya0fthwy8 VRCraft Showcase and Tutorial] on YouTube
+
+[[Category:Worlds]]
+[[Category:Game worlds]]

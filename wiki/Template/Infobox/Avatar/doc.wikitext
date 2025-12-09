@@ -1,0 +1,102 @@
+<noinclude>[[Category:Template Documentation]]</noinclude>
+{{Infobox/Avatar
+|name= Example Avatar
+|image= File:Robot_Avatar_Thumbnail.png
+|author= Example Author
+|description= Example Description
+|platform= PC, Android
+|features= SDK3, Visemes
+|id= avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11
+|published= Jan 1 2024
+}}
+==Example==
+<pre>
+<nowiki>{{</nowiki>Infobox/Avatar
+|name= Example Avatar
+|image= File:Robot_Avatar_Thumbnail.png
+|author= Example Author
+|description= Example Description
+|platform= PC, Android
+|features= SDK3, Visemes
+|id= avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11
+|published= Jan 1 2024
+<nowiki>}}</nowiki>
+</pre>
+==TemplateData Documentation==
+<templatedata>
+{
+	"params": {
+		"name": {
+			"label": "Name",
+			"description": "The name of the VRChat avatar.",
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"label": "Image",
+			"description": "The image used for the thumbnail of the avatar.",
+			"example": "Placeholder.webp",
+			"type": "wiki-file-name",
+			"required": true
+		},
+		"author": {
+			"label": "Author",
+			"description": "The user who has the VRChat avatar uploaded to their account.",
+			"example": "Someone123",
+			"type": "string",
+			"required": true
+		},
+		"description": {
+			"label": "Description",
+			"description": "The description used on the uploaded avatar.",
+			"example": "Example description",
+			"type": "string"
+		},
+		"platform": {
+			"label": "Platform",
+			"description": "The platforms on which the VRChat avatar is available. PC, Android and/or iOS.",
+			"example": "PC, Android, iOS",
+			"type": "string",
+			"suggestedvalues": [
+				"PC",
+				"Android",
+				"iOS"
+			]
+		},
+		"features": {
+			"label": "Features",
+			"description": "The features listed under the VRChat avatar. Impostors, Visemes, SDK Version, Etc.",
+			"type": "string",
+			"suggestedvalues": [
+				"Impostors",
+				"Visemes",
+				"SDK 2.0",
+				"SDK 3.0"
+			]
+		},
+		"id": {
+			"label": "ID",
+			"description": "The VRChat avatar's ID used to link to it on the VRChat website, as well as identify it for other internal purposes. An avatar's ID can be found at the end of its URL on the VRChat website.",
+			"example": "avtr_c38a1615-5bf5-42b4-84eb-a8b6c37cbd11",
+			"type": "string"
+		},
+		"published": {
+			"label": "Published",
+			"description": "The date the VRChat avatar was created. This information cannot be found in the VRChat client and must be collected from the avatar's page on the VRChat website.",
+			"example": "Jan 1 2024",
+			"type": "date"
+		}
+	},
+	"paramOrder": [
+		"name",
+		"image",
+		"author",
+		"description",
+		"platform",
+		"features",
+		"id",
+		"published"
+	],
+	"description": "Paste this template into an Avatar Page to have the infobox appear on the top right. It is recommended to paste and fill this out while in the Source editor, however this can also be done in the Visual editor. For more guidance on how to best use this, see how other Avatar pages have implemented this infobox.\n\nThis template is for writing about specific uniquely uploaded avatars. Do not use this template to reference groups of avatars like bases or species. For avatar bases use [[Template:Infobox/AvatarType]]\n\nFields without contents will not show up on the infobox."
+}
+</templatedata>

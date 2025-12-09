@@ -1,0 +1,38 @@
+{| class="wikitable"
+!Elemento
+!Icono
+!Descripción 
+|-
+|'''Aislamiento sonoro'''
+|[[File:EarmuffModeIcon QM.png|frameless|32x32px]]
+|Aparece cuando el modo de [[Special:MyLanguage/Earmuff Mode|aislamiento sonoro]] está activado, Muestra la distancia del modo aislamiento y un botón "Desactivar" en el extremo derecho.
+|-
+| '''Modo streamer'''
+|[[File:StreamerModeIcon QM.png|frameless|32x32px]]
+|Aparece cuando el modo streamer está activo. Botón "Desactivar" en el extremo derecho.
+|-
+|'''Modo seguro'''
+|[[File:SafeModeIcon QM.png|frameless|32x32px]]
+|Aparece cuando el modo seguro está activo. Botón "Desactivar" en el extremo derecho.
+|-
+|'''Precargar mundo'''
+|N/A
+|Aparece al precargar un mundo. El icono es la miniatura del mundo que estás precargando. 
+Al precargar, se muestra el nombre y el tamaño de descarga del mundo, junto con una barra de estado que muestra el progreso de la precarga. Puedes cancelar la precarga en cualquier momento haciendo clic en el botón "Cancelar" en el extremo derecho.
+Cuando el mundo termine de precargarse, podrás unirte a él haciendo clic en el botón "Unirse" en el extremo derecho. 
+|-
+|'''Cola para estancias'''
+|[[File:InstanceQueueIcon QM.png|frameless|32x32px]]
+[[File:InstanceQueueReadyIcon QM.png|frameless|32x32px]]
+|Aparece cuando un usuario está en una [[Special:MyLanguage/Instances#Queues|cola de una estancia]].
+Mientras se espera, se muestra por defecto la posición en la cola, pero se puede cambiar haciendo clic en ella. Puedes alternar entre "tiempo en cola", "posición en cola" y "ocultar información".
+Cuando esté listo, el usuario tendrá 1 minuto para unirse al mundo utilizando el botón "Unirse" en el extremo derecho, antes de ser expulsado de la cola.
+|-
+|'''Denuncia sin acabar'''
+| [[File:UnfinishedReportIcon QM.png|frameless|32x32px]]
+|Aparece cuando el usuario tiene una denuncia sin acabar. Haz clic en el botón "Abrir" en el extremo derecho para reanudarlo.
+|-
+|'''Previsualizando avatar'''
+|[[File:PreviewAvatarIcon QM.png|frameless|32x32px]]
+|Aparece cuando un usuario cambia a un avatar creado localmente o al previsualizar un avatar del [[Special:MyLanguage/Avatar Marketplace|Mercado de avatares]]. Botón "Parar" en el extremo derecho.
+|}

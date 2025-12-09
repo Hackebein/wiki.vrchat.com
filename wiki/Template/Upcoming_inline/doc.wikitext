@@ -1,0 +1,11 @@
+== Documentation ==
+This template is used to tag additions as upcoming to text inline. It will also add an Upcoming category.
+
+<nowiki>{{1}}</nowiki> is the text that will be displayed
+
+<nowiki>{{2}}</nowiki>  is the link that will be used for the text. It appends <code>https://</code> automatically.
+
+=== Example Usage ===
+* <code><nowiki>{{Upcoming_inline}}</nowiki></code> will make: {{Upcoming_inline}}
+* <code><nowiki>{{Upcoming_inline|2025.3.2}}</nowiki></code> will make: {{Upcoming_inline|2025.3.2}}
+* <code><nowiki>{{Upcoming_inline|2025.3.2|docs.vrchat.com/docs/vrchat-202532}}</nowiki></code> will make: {{Upcoming_inline|2025.3.2|docs.vrchat.com/docs/vrchat-202532}}

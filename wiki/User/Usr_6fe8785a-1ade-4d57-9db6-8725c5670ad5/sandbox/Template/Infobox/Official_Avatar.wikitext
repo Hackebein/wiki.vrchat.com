@@ -1,0 +1,17 @@
+<includeonly><infobox type="Avatar" theme="official">
+	<title source="name"/>
+	<image source="image">
+	    <caption source="imagecaption" />
+	</image>
+	<group>
+        <data source="author"><label>Author</label></data>
+        <data source="description"><label>Description</label></data>
+        <data source="platform"><label>Platforms</label></data>
+        <data source="features"><label>Features</label></data>
+        <data source="link"><label>Avatar Link</label></data>
+    </group>
+    <group>
+        <header>Avatar History</header>
+        <data source="created"><label>Created</label></data>
+    </group>
+</infobox></includeonly>

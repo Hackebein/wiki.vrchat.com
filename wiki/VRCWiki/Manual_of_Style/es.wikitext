@@ -1,0 +1,85 @@
+<languages/>
+Este Manual de Estilo (MdE o MDE) es el manual de estilo recomendado por la Wiki de VRChat.
+* Se recomienda leer este artículo en inglés.
+
+En general:
+
+*Todo el contenido en la Wiki de VRChat debe ser veraz y preciso.
+*Los contribuidores deben escribir artículos usando un lenguaje directo, breve y fácil de entender, estructurando los artículos de manera consistente, con un formato y diseño fáciles de leer.
+*Si tienes preguntas sobre el estilo, diseño o formato de la Wiki de VRChat, contacta con uno de los [https://wiki.vrchat.com/wiki/Special:ListUsers?username=&group=community-mod&wpsubmit=&wpFormIdentifier=mw-listusers-form&limit=50 Moderadores de la comunidad] para obtener ayuda.
+
+A continuación se detallan algunas pautas de estilo específicas:
+
+<span id="Article_titles"></span>
+=== Títulos de artículos ===
+
+Un título debe tener un nombre reconocible o una descripción del tema, equilibrando estos criterios para ser natural, lo suficientemente preciso, conciso y consistente con los artículos relacionados.
+
+Para obtener orientación sobre el formato, consulta la sección Formato del título del artículo, teniendo en cuenta lo siguiente:
+* Escribe con mayúscula la letra inicial, pero en el resto de los casos sige el formato de oración. VRChat utiliza mayúscula inicial para oraciones, títulos de artículos, títulos de secciones, encabezados de tablas, leyendas de imágenes, entradas de listas (en la mayoría de los casos) y entradas en cuadros de información y plantillas similares, entre otras cosas.
+* No utilices artículos (''un'', ''una'' o ''el, la, los, las'') como primera palabra: (''[[Special:MyLanguage/Creator Economy|Economía del creador de VRChat]]'', y no: ''La economía del creador de VRChat''), a menos que sea parte inseparable de un nombre ([[Special:MyLanguage/The Black Cat|The Black Cat]]) o título de una obra (''The VRChat Times'').
+* Normalmente se utilizan sustantivos o frases nominales: "Primeros años de vida", y no "En los primeros años de vida". Frases como "En los primeros años de vida" son aceptables (aunque no obligatorias) como encabezados de sección. También se utilizan con frecuencia como parte de títulos de artículos más largos, como ''Eventos VRChat'', especialmente cuando una construcción más corta (''Eventos'') puede tener problemas de ambigüedad.
+* El carácter final no debe ser un signo de puntuación a menos que sea parte inseparable de un nombre (como ''¿Sueñan los androides con ovejas eléctricas?''), o una abreviatura (VRChat Inc.), o cuando se requiera un corchete de cierre o comillas (''Avatares fantásticos (y dónde encontrarlos)'').
+* Siempre que aparezcan comillas o apóstrofos, agrega una redirección al mismo título utilizando apóstrofos. Evita el uso de comillas tipográficas ("comillas inteligentes") porque las comillas rectas y los apóstrofos son más fáciles de escribir y se muestran de manera correcta en la mayoría de las plataformas.
+
+<span id="Section_headings"></span>
+==Encabezados de sección==
+
+Los encabezados de sección generalmente deben seguir las pautas para los títulos de artículos (arriba) y deben presentarse con mayúscula al iniciar la frase (Cómo alimentar a tu VRCat), y no con mayúscula al iniciar todas las palabras (Cómo Alimentar A Tu VRCat).
+
+El encabezado debe estar en su propia línea, con una línea en blanco justo antes; una línea en blanco justo después es opcional e ignorado (pero no uses dos líneas en blanco, antes o después, porque eso agregará espacio visible no deseado).
+
+Por razones técnicas, los encabezados de las secciones deben:
+
+* Ser únicos dentro de una página, de modo que los enlaces de las secciones lleven al lugar correcto.
+* No contener enlaces, especialmente cuando solo se enlaza una parte de un encabezado.
+* No contener imágenes, emojis ni iconos.
+* No contener citas ni notas al pie.
+* No utilizar incorrectamente el marcado de lista descriptivo (";") para crear pseudoencabezados.
+* No contener transclusiones de plantilla.
+
+Como un asunto de estilo coherente, los títulos de sección deben:
+
+* No hacer referencias redundantes al tema del artículo, por ejemplo, "Primeros años de vida", y no "Primeros años de vida de Smith" o "Sus primeros años de vida".
+* No hacer referencia a un encabezado de nivel superior, a menos que hacerlo sea más breve o más claro.
+* No estar numerado ni rotulado como un esquema.
+* No estar redactado como una pregunta, por ejemplo poner: "Idiomas", y no "¿Qué idiomas se hablan en México?".
+* No usar colores o fuentes inusuales que puedan causar problemas de accesibilidad.
+* No estar envuelto en marcado, lo que puede afectar a su visualización y causar otros problemas de accesibilidad.
+
+<span id="English_word_choice_and_capitalization"></span>
+== Elección de palabras en español y uso de mayúsculas ==
+
+Para facilitar la localización del contenido de la wiki a largo plazo, considera algunas opciones de estilo como estas:
+
+* '''Las citas, títulos de obras (libros, películas, etc.)''' deben escribirse con mayúscula tal como figura en la fuente (pero consulta la Conformidad tipográfica, más abajo);
+* '''Los nombres propios''' utilizan la ortografía y mayúsculas propias del sujeto, ej., "...proyecto conjunto de VRChat Inc. y Los laboratorios de la comunidad de VRChat..."; "Federación Internacional de Avatares".
+* En general, no escribas con mayúscula las palabras el, la, los, las en mitad de una oración: "en todo el Reino Unido", y no "en todo El Reino Unido".
+* Usa términos universalmente aceptados en lugar de aquellos menos difundidos, especialmente en los títulos. Por ejemplo, se prefiere "vehículo" a las variedades nacionales coche (español España) y carro (español LATAM); "Teléfono" es preferible a "móvil" (español España).
+* Utiliza una palabra o frase comúnmente entendida (palabras genéricas) en lugar de una que tenga un significado diferente debido a diferencias nacionales, excepto en contextos técnicos donde dicha sustitución sería inapropiada.
+* Intenta, en la medida de los posible, asemejar el texto a las mayúsculas del artículo original. Solo la primera letra, salvo que sean siglas, acrónimos o no concuerde con el texto, deberán ir en mayúsculas. Ej., "Economía del creador", y no "Economía del Creador" por mucho que el original sea "Creator Economy". Ya que en español no tendemos a poner mayúsculas al empezar todas las palabras.
+
+<span id="Links"></span>
+== Enlaces ==
+
+Por favor, esfuérzate por utilizar enlaces internos siempre que sea posible y evita incluir parámetros de seguimiento en tus URL.
+
+<span id="Group_Links"></span>
+=== Enlaces al grupo ===
+
+Al vincular tu grupo, asegúrate de usar un enlace permanente. El enlace debe mostrar claramente el nombre del grupo seguido de su código corto.
+
+Ejemplo:
+* [https://vrchat.com/home/group/grp_7ccb6ca3-cd36-4dab-9ab1-7bcf08d794e4 VRChat Team] - VRCHAT.0000
+
+== Categorías ==
+When adding a category to a page, ensure you are adding <code><nowiki>{{#translation:}}</nowiki></code> within the category enclosing.
+Al agregar una categoría a una página, asegúrate de agregar <code><nowiki>{{#translation:}}</nowiki></code> dentro de la categoría que la encierra.
+
+Ejemplo:
+* <code><nowiki>[[Category:Game worlds{{#translation:}}]]</nowiki></code>
+
+Esto garantiza que las futuras páginas que se marquen para traducción no saturen la lista de categorías con variantes de idioma de la misma página.
+
+----
+{{Navbox/Wiki_policies}}

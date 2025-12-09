@@ -1,0 +1,525 @@
+{{Noticebox/Community}}
+{{Noticebox/Stub|Proofread, don't refer to the reader as "you", replace/remove video placeholder}}
+{{Infobox/World
+|name=Magical Cursed Land
+|image=Magical_Cursed_Land.jpg
+|author= べるべる
+|developers=
+|capacity=4
+|platforms= PC
+|tags= pve, rpg, game, action
+|languages=Japanese, English
+|id=wrld_a0423f4f-d9a8-42d9-bfcf-323eca2ec8a3
+|labs= 
+|published=January 27, 2025
+}}
+'''Magical Cursed Land''' is a 1-4 Player PVE RPG that takes approximately 10-20 hours, dependent on party size, synergy and skill, to complete.  This world is something that is likely to take more than one sitting to complete, and includes the usage of persistent saves to use.  This saved with persistent saves or, the more old-fashioned method of using a generated code to load your data.  It is recommended to use VR for this, as Desktop is only allowed the usage of the Healer Class.
+
+This game supports the languages in Japanese and English.
+
+===Story synopsis===
+You're a new adventurer that travels to a new land in order to join a new guild and help the kingdom fight off the demons and monsters that have sprung up in the area.  The village is the current forefront of activity amongst adventurers, and transports adventurers all over the land to eradicate demons and take quests.
+
+== Getting started ==
+When you load into the world, you will be standing in the middle of the sky and are given a few options on a window in front of you that gives you warnings, such as what the world is about and what kind of actions you will be taking in the world.  After you agree to those conditions, you will be given some options.  
+
+New Game
+
+Load Game (via using save code to continue)
+
+Continue (via using the persistent save)
+
+Language < [JP] > (hitting the arrows changes the language from JP to EN
+
+Most of this is pretty explanatory, and for Continue, you are allowed to save 5 different files to save your game.  
+
+=== New Game ===
+New Game will transport you into a room with 5 weapons to choose from.  
+
+==== Classes ====
+
+=====Greatsword (Greatsword Man)=====
+This class boasts higher defense than the other classes and acts as the Tank class.  It also has high HP and Strength. Due to the class using a greatsword, you have reach over your opponent, and is great if you plan on playing solo.  The main skills of this are the ability to guard attacks
+
+=====Claws (Clawman)=====
+This class boasts high DPS, as you are given two weapons to hold onto.  This acts as a Monk Class in practice and has high Crit and skills rely on the movement and mobility of the player.  The main skills of this are backstep and lunge, and elemental discharges like a lightning punch.  This class is very fragile.
+
+=====Bow (Archer)=====
+The Archer class user the bow, a physical weapon that allows the user to strike from afar, and has the nice piercing shot that can hit several enemies at a time at the cost of charging a little bit.  This class specializes in debuffing and statuses.
+
+=====Magic Staff (Elemental Master)=====
+The Elemental Master class allows the user to cast Fire, Ice, and Lightning Magic at the cost of MP.  This class deals heavy damage, dependent on what the enemy is weak against.  The first levels of the spells cast a small, generally single target attack, while the advanced spells deal AoE type magic over, at the cost of being stronger, taking a little more time to charge, and using more MP. (Except  for the Ice series of spells, which are instant casts for being up close spells.)
+
+=====Heal Staff (Holy Healer)=====
+The Healer class allows the user to heal HP of allies and self, this class is generally healing, but it has a pretty decent attack strength in case they need to fight back.  This class can heal statuses and HP and cast an offensive light spell at the enemy.
+
+===Status===
+This is here to explain how the whole UI works.
+
+The left side, red orb is your HP, which depletes as you take damage.  When you reach 0 HP, you are considered incapacitated.
+
+The Green bar on the top is your Stamina.  Every physical attack uses stamina.  When you reach 50% of your max stamina, your character will slow down their walking speed.  At about 10%, your character will drastically lose speed and the screen will slightly fade as if you are passing out.  If you continue attacking at this stage, your attacks will be weakened.
+
+The Bottom bar is your MP.  This is you magic or your mana, which you require to cast spells and certain skills like lightning fist and war cry.
+
+Any Buffs or Debuffs you get will show up below your MP guage, and their duration is shown with a clockwise sweep of the square status icon.
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Status effects
+!Debuffs/Buffs
+!Effect
+|-
+|Provoke
+|The enemy becomes provoked to your presence, they will attack the provoked before the other party members.  This is done with the provoke skill
+|-
+|Poison
+|This status depletes your HP over a certain amount of time. This does a certain% of your maximum HP or a certain set damage over time per tick and generally needs to be healed of have healing potions to recover the HP to not be rendered incapacitated. It's been observed to deal 20 damage per tick.
+|-
+|War Cry
+|This status is gained by using the skill "War Cry" from the Greatsword Man class.  This status decreases defense at the cost of raising attack for a little bit.
+|-
+|Bleed/Slashed
+|This status can be obtained by being slashed by certain enemies, usually ones with claws or weapons.  The status goes away over time, but will cause the player to lose HP over time like poison.
+|-
+|Blind
+|This can be inflicted by the archer's blinding arrow, or by certain enemies' casting on the player.  This makes enemies lose track of you and stop approaching, wandering in a random direction for a few seconds before noticing the player again.  For players, this make the screen fade to black for a few seconds before the screen fades back into view.
+|-
+|Hidden
+|This is a status that can be obtained by the archer class.  This can also be obtained with the Concealing Perfume item.  This prevents the enemies from engaging the party for a little while.
+|-
+|Curse
+|This status causes the user to lose 50% of their maximum HP and reduces their attack and defense to pitiable levels.  If you are hit with the Curse effect twice in a row, your HP is reduced to 0 and you will immediately become incapacitated.
+|-
+|Attack Down
+|Reduces your attack by some amount
+|-
+|Defense Down
+|Reduces defense by some amount
+|-
+|Attack Up
+|Increases your Attack by some amount (Around 11-15% if using the buffing food item)
+|-
+|Defense Up
+|Increases your Defense by some amount (Around 11-15% if using the buffing food item)
+|-
+|Speed Up
+|Increases your Speed by some amount (Around 11-15% if using the buffing potion)
+|-
+|Dexterity Up
+|Increases your Dexterity by some amount (Around 11-15% if using the buffing item)
+|-
+|Stun/Dizzy
+|Disables your movement for a few seconds.  Can be obtained by getting hit by certain attacks.
+|}
+</center>
+==Prologue and First Quest==
+After you leave the Tutorial Room, you will enter the player's room.  It has a book to save your data or generate a save code, and a storage chest to store any items you have.  There are two doors and one portal in this room.  The portal leads back to the tutorial room to explain how to use items and pull up the Menu and quick menu, and how to equip items.
+
+===Item and Menu Tutorial===
+If it wasn't understood how to equip items and take them with you, I will include a mini-tutorial of how to do basic tasks in your journey.
+
+====[To include video]====
+In order to open the Menu, you must NOT be holding an item in your hand when you click the trigger.
+
+In order to equip an item, you must take the item and bring it up to the side off your head, which will add it to your inventory.  Then add open your inventory with the right trigger and drag the weapon from the inventory slot (using either trigger) to your weapon or armor slot.
+
+In order to add an item to your quick menu inventory slot, you must open your inventory with the right trigger and drag the inventory item from the inventory main body to one of the four slots at the top of the inventory.
+
+In order to use an item from the quick menu slots, open the item slots by clicking the left trigger and highlight an item by pointing at it with the cursor and using the grip button to put it into your hand.  This will put 1 potion into your hand to use.  If you would like to put it away, bring it up back to the side of your head and it will stack back with the remaining stack you have in your inventory.
+
+===Village and Hub Facilities===
+The Village is divided into several different facility buildings.  After you exit the room, you can explore the village.
+<center>
+{|class="wikitable mw-collapsible mw-collapsed"
+|+Village Facilities
+!Facility
+!Description
+|-
+|Your Room
+|This holds the Storage and Saves.  Where you start when you respawn and return back to the village.
+|-
+|The Shops
+|The shops hold three merchants inside.  These are: The Weapon and Armor Shop, the Accessory Shop, and the Item Shop. Outside is the Smithy, which allows you to use the Enhancement Seeds or Fruit to make your armor and weapons better.
+|-
+|The Tavern
+|The tavern holds a couple things.  This holds the main person who is in charge of giving you main quests, and the tavern counter, which gives your sub quests.
+|-
+|The Healer and Transportation Hub
+|The Healer is in this building, and there are several maid-like NPCs inside this building.  Each person transports you to a certain destination, if you have the quest prerequisite for them.
+|-
+|The Training Dummy
+|This is a training dummy outside the back door of your room.  You can see how much damage something does, or train with the required motion it takes to perform a certain skill.
+|}
+</center>
+
+== Quest 1 ==
+In order to take on the first quest, you must talk to the pointy-eared man on the second floor of the tavern, which is to the left of your room.  Taking to him will cause him to explain his task for you and will allow you to visit the first dungeon, the Forest of Beginnings.
+
+In order to travel to the Forest of Beginnings, talk to the transporter to the right of the entrance to the hub, across from the healer.
+
+Your task will be to defeat the King Goblin in the back of the Forest.
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Forest of Beginnings
+!Dungeon
+!Floors
+!Location
+!Reward
+!
+|-
+|Forest of Beginnings
+|3 Floors (2 Floors, then the boss room)
+|1st Dungeon
+|Access to 2nd Dungeon, New Items in Shops.
+|
+|-
+!Sub-Missions
+!Collect Items
+!Location
+!Reward
+!
+|-
+|Collect Items
+|5x Imp's Horn
+|1st Floor
+|3 Enhancement Seed
+|
+|-
+|Collect Items
+|5x Mossy Wood
+|1st Floor
+|2 Enhancement Seeds
+|
+|-
+|Collect Items
+|5x Dark Fairy's Boots
+|2nd Floor
+|5 Enhancement Seed
+|
+|-
+!Enemies:
+!Description
+!Location
+!Drops
+!Weakness
+|-
+|Imp
+|Small horned imps that slash with claws and attack with Fire and Ice Magic sometimes.  They target the player and chase.
+|1st Floor
+|Imp's Horn
+|???
+|-
+|Cursed Stump
+|Short, Melee attacking stumps that are generally weak and have a small attack range, but are slightly faster than the imps.
+|1st Floor
+|Mossy Wood
+|Fire
+|-
+|Dark Fairy
+|Creatures that wander around the battlefield and cast 2 lightning balls at the player about 20 degrees to the left and right of the player originating from the fairy. More weak to physical attacks and lightning.
+|2nd Floor
+|Fairy Boots
+|Physical
+|-
+|Treant
+|These creatures are large, wooden golem-looking creatures that move fast and hit hard.  Weak to Fire.
+|2nd Floor
+|Treant Skin
+|Fire
+|-
+|Goblin
+|These Goblins just chase the player around and attack with melee attacks.
+|1st Floor & Summoned by the Boss
+|Nothing
+|N/A
+|-
+|Goblin King
+|This enemy is the boss of the dungeon.  This creature runs after the player and attacks them with melee attacks.  After some time, they will summon a Goblin in order to attack the player.  They will only summon one Goblin at a time to assist them in combat
+|3rd Floor
+|Revival Potion
+|N/A
+|}
+</center>
+After you defeat the boss, it will open up a portal that returns you to the village hub, where you can report the mission to the tavern and reap your rewards.
+
+==Quest 2==
+After your first quest, you will be allowed to go to your first main dungeon of of your adventure.  The item, weapon and armor shops will obtain more items for you to purchase to make things easier.  This time you will be requested to venture into the Ruins nearby to see what the monsters are doing and see if you can help to figure anything out about turning the tide of battle against the monsters and demons.  To get to the Ruins, the second transporter elf on the right will send you there.
+{| class="wikitable"
+|+Ruins
+!Dungeon
+!Floor
+!Location
+!Reward
+!
+|-
+|Ruins
+|5 Floors ( 3 Floors, a mid-boss floor, and a Boss Floor)
+|2nd Dungeon
+|Gold
+|
+|-
+!Sub-Missions
+!Collect Items
+!Location
+!Reward
+|
+|-
+|Collect Items
+|Golem Arm x5
+|3rd Floor
+|Enhancement Seed x ?
+|
+|-
+|Collect Items
+|Lizardman's Eye x5
+|2+ Floor
+|Enhancement Seed x ?
+|
+|-
+|Collect Items
+|
+|
+|
+|
+|-
+!Enemies:
+!Description
+!Location
+!Drops
+!Weakness
+|-
+|Man-Eating Plant
+|A large plant that attacks with the head of the flower.  It can use Poison attacks, which do a lot of damage over time.
+|1st Floor
+|Magical Leaf
+|Fire
+|-
+|Satyr
+|A half-goat, half man that can cast water magic.  Tends to run into corners before casting magic.  There is a blind spot to the spell inside the circle if you cannot make it out before the spell goes off.
+|1+ Floor
+|Lustful Hoof
+|Fire/Lightning
+|-
+|Lizardman
+|A large bipedal lizard that can breathe fire.  This enemy generally will swipe once or twice between fire breaths.  It is hard to avoid the cone if you are at the far end of it.
+|3+ Floor
+|Lizardman's Eye
+|Ice
+|-
+|Golem
+|A quadupedal golem made of stone.  This enemy will cause rocks to fall from above from time to time as a spell.  Generally easy to avoid, but the golem has a big attack, and can easily knock out players with low defense and HP.
+|4th Floor
+|Golem's Arm
+|Fire?
+|-
+!'''Boss:'''
+!'''Description'''
+!Location
+!'''Drops'''
+|'''Weakness'''
+|-
+|Sub-Boss:
+|Treasure Hunting Sibling's Brother: [Name]
+|2nd Floor
+|Meal of Strength
+|???
+|-
+|Main Boss
+|Large Sealed Golem: [Name]
+|5th Floor
+|None
+|Fire
+|}
+
+==Quest 3==
+After beating the second dungeon, and returning to the Tavern and accepting your next Quest, you will be directed to examine the terrain "Cave" for any similar leads to the events of the last area.  
+
+==Quest 4==
+After beating the third dungeon, and reporting in, you will be directed to examine the "Sewer" for any leads regarding the boss of the last area.
+
+==Quest 5==
+After completing the sewers, something will be amiss, and the quest giver will give be in your room.  He will explain that Sister Portos, your healer in town has gone missing, and that he asks you to please find her.  She has gone off to the catacombs, which he asks you to explore and find her at.  When you go to the Teleportation Hub, she will not be there and will have a teleporter elf in her place.  Talking to her will open a portal to the Catacombs.
+
+==Final Quest==
+
+==Weapon Shop Chart==
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Weapon shop
+!Weapon
+!Price
+!Tier 0
+!Required Materials
+|-
+|Staff of Newcomer
+|150
+| +7-12 Attack Power
+|Starting Equipment
+|-
+|Claws of Newcomer
+|150
+| +7-12 Attack Power
+|Basic Equipment
+|-
+|Bow of Newcomer
+|150
+| +7-12 Attack Power
+|Basic Equipment
+|-
+|Sword of Newcomer
+|150
+| +7-12 Attack Power
+|Basic Equipment
+|-
+!After 1st Dungeon "Forest"
+!Price
+!Tier 1
+!Required Materials
+|-
+|Staff "Red"
+|700
+| +16-24 Attack Power
+|Imps' Horn x2, Hard Wood x2, Lustful Hoof x1
+|-
+|Claw "Suikazura"
+|860
+| +16-24 Attack Power
+|Imps' Horn x3, Fairy Boots x3, Treant's Skin x3
+|-
+|Bow "Capriccio"
+|800
+| +16-24 Attack Power
+|Mossy Wood x4, Magical Leaf x2, Treant's Skin x3
+|-
+|Sword "Parez"
+|800
+| +16-24 Attack Power
+|2x Hard Wood, Magical Leaf x1, Treant's Skin x2
+|-
+!After 2nd Dungeon "Ruins"
+!Price
+!Tier 2
+!Required Materials
+|-
+|Staff "Blue"
+|2400
+| +16-24 Attack Power
+|Lizardman's Eye x3, Poisonous Mushroom x4, Drake's Wing x2.
+|-
+|Claw "Kakitsubata"
+|2600
+| +16-24 Attack Power
+|Lustful Hoof x3, Golem's Arm x3, Imp's Tail x3
+|-
+|Bow "Trojan"
+|2400
+| +16-24 Attack Power
+|Golem's Arm x2, Poisonous Mushroom x2, Imp's Tail x5
+|-
+|Sword "Garowd"
+|2500
+| +16-24 Attack Power
+|Lustful Hood x4, Imp's Tail x3, Drake Wing x2
+|-
+!After 3nd Dungeon "Cave"
+!Price
+!Tier 3
+!Required Materials
+|-
+|Staff "Yellow"
+|3900
+| +32-36 Attack Power
+|Magical Crystal x5, Slime Gel x2, Green Slime x1
+|-
+|Claw "Mitsumata"
+|4500
+| +32-36 Attack Power
+|Dragonkin's Skin x3, Slime Gel x4, Dreadful Claw x2
+|-
+|Bow "Nocturne"
+|4000
+| +32-36 Attack Power
+|Drake's Wing x4, Magical Crystal x2, Green Slime x3
+|-
+|Sword "Douzie"
+|4200
+| +32-36 Attack Power
+|Drake's Wing x4, Slime Gel x3, Dreadful Claw x1
+|-
+!After 4nd Dungeon "Sewer"
+!Price
+!Tier 4
+!Required Materials
+|-
+|Staff "Azure"
+|8500
+| +40-44 Attack Power
+|Magical Gear x3, Zombie Arm x2, Bone Drake's Skull x2
+|-
+|Claw "Enishida"
+|9000
+| +40-44 Attack Power
+|Dreadful Claw x2, Zombie Arm x2, Zombie Hound's Leg, x4
+|-
+|Bow "Rhapsody"
+|8600
+| +40-44 Attack Power
+|Magical Gear x1, Zombie Arm x4, Zombie Hound's Leg x2
+|-
+|Sword "Seiry"
+|8800
+| +40-44 Attack Power
+|Magical Gear x3, Zombie Hound Leg x3, Bone Drake's Skull x2
+|-
+!After 5th Dungeon "Catacombs"
+!Price
+!Tier 5
+!Required Materials
+|-
+|Staff "Bronze"
+|12000
+| +46-50 Attack Power
+|Bottle of Blood x5, Cyclops Eye x3, Mana Enhancement Jewel x1
+|-
+|Claw "Rindoh"
+|15000
+| +46-50 Attack Power
+|Warrior's Helm x2, Wizard's Skull x2, Mana Enhancement Jewel x3
+|-
+|Bow "Scherzo"
+|13000
+| +46-50 Attack Power
+|Cyclops Eye x4, Wizard Skull x1, Mana Enhancement Jewel x3
+|-
+|Sword "Xevis"
+|14000
+| +46-50 Attack Power
+|Bone Drake's Skull x4, Warrior's Helm x3, Mana Enhancement Jewel x2
+|-
+!Postgame
+!Price
+!Tier 5
+!Required Materials
+|-
+|Staff "Platinum"
+|20000
+|?
+|Heart of the Demonguard x5, Big Devil's Horn x5, ???
+|-
+|Claw "Hinageshi"
+|24000
+|?
+|Heart of the Demonguard x5, Big Devil's Horn x5, ???
+|-
+|Bow "Symphony"
+|21000
+|?
+|Heart of the Demonguard x5, Big Devil's Horn x5, ???
+|-
+|Sword "Ronndoh"
+|22000
+|?
+|Heart of the Demonguard x5, Big Devil's Horn x5, ???
+|}
+</center>
+[[Category:Game worlds]]

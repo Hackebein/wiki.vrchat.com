@@ -1,0 +1,48 @@
+<languages/>
+
+'''L'interface de programmation d'application (API) de VRChat''' est constituée des données officielles de VRChat provenant des serveurs de VRChat, et transmises à votre compte via le client VRChat, le site web de VRChat ou l'application VRChat. L'API peut également être interrogée de manière externe.
+
+==À propos==
+[[File:API Team2021.webp|thumb|Sept membres de l'équipe API prenant une pose pour une photo en jeu dans une salle des serveurs. Photo prise en 2021.]]
+VRChat explique brièvement ce que fait leur interface de programmation d’application, et donne des exemples d’informations qu’elle maintient, dans leur blog développeur de 2019<ref>[https://medium.com/vrchat/developer-blog-websockets-b5f0b424d379 Developer Blog — Websockets] published by VRChat on ''Medium''; retrieved November 28, 2024.</ref>:
+
+<blockquote>''Il y a trois parties principales dans VRChat — le client, qui gère tout ce qui est amusant en réalité virtuelle, la couche réseau, qui gère la communication rapide et fluide entre les utilisateurs dans les mondes virtuels, '''et l’API, qui est responsable du stockage permanent des informations comme “qui sont nos utilisateurs”, “où se trouvent nos utilisateurs” et “garder la trace d’une collection vraiment spectaculaire de pétaoctets d’avatars, d’assemblages de 'dynamicbones' et d’animations de particules”'''.” <ref>[https://medium.com/vrchat/developer-blog-websockets-b5f0b424d379 Developer Blog — Websockets] publié par VRChat sur ''Medium'' ; consulté le 28 novembre 2024.</ref>''</blockquote>
+
+==Data==
+
+Les informations provenant de l’API de VRChat comprennent les éléments suivants :
+
+Connexion et authentification  
+**Possibilité de se connecter via Steam, Meta, PICO, etc.  
+**Connexion directe via votre compte VRChat  
+*Réseau social et liste d’amis  
+**Données d’instance en direct (et changement d’instance)  
+**Données concernant les invitations et notifications  
+**Rejoindre et quitter des instances  
+**Listes d’amis favoris  
+*Téléchargements d’assets SDK  
+**Vos mondes et avatars  
+**Avatars, mondes favoris, etc.  
+**Recherche de mondes et avatars  
+*Modifications en temps réel de l’état des joueurs  
+**Mises à jour de statut, changement de bio  
+**Pratiquement tout ce qui concerne le compte  
+**Changement d’avatars  
+**Changement d’instances (et données d’instance en direct)
+
+== Ressources officielles ==
+Le statut de l’API de VRChat peut être consulté officiellement ici : {{VRC link|https://status.vrchat.com/|Statut des serveurs VRChat}}
+
+== Documentation ==
+VRChat ne documente pas officiellement son API et ne propose pas de support à son sujet<ref>[https://hello.vrchat.com/creator-guidelines VRChat Creator Guidelines] sous Utilisation de l’API / Bots ; consulté le 10 janvier 2025.</ref>. Cependant, des efforts menés par la communauté ont permis de rendre disponibles une documentation de l’API et des bibliothèques SDK pour différents langages de programmation. Vous pouvez trouver ces ressources ici :
+
+* [https://vrchat.community VRChat.community - Documentation de l’API et SDKs]
+* [https://github.com/vrchatapi GitHub]
+
+== Voir aussi ==
+*[[Special:MyLanguage/Instances|Instances]]
+*[[Special:MyLanguage/VRChat account|Compte VRChat]]
+
+==References==
+
+<references />

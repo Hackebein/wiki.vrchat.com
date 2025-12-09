@@ -1,0 +1,157 @@
+<languages/>
+{{Noticebox/Official}}
+本條目所說的「'''信用等級'''」（'''Trust Rank'''），為 VRChat [[Special:MyLanguage/Trust and Safety|安全]]系統的一部分，其用意是為了確保所有用戶都能享受安全且愉快的體驗。這個系統決定了用戶何時可以上傳內容，並根據用戶的行為進行評估，透過多種數據計算其「信用程度」。此外，這個系統可進行調整，並可根據需求微調設定。
+
+<span id="Ranks"></span>
+==等級==
+
+使用者的「信用程度」會影響其'''信用等級'''，這是一個反映用戶在 VRChat 中的遊玩時數、內容貢獻、好友數量以及其他因素的標準。 
+
+可以獲得的等級如下（從最低到最高）：
+{| class="wikitable"
+|+
+| style="background-color: #bababa" |
+!Visitor
+|起始等級。
+|-
+| style="background-color: #1678ff" |
+!New User
+|可以將[[Special:MyLanguage/Avatars|角色（Avatars）]]和[[Special:MyLanguage/Worlds|世界（Worlds）]]上傳到 VRChat。不過世界必須設置成私人才能上傳。
+|-
+| style="background-color: #2acf5b" |
+!User 
+|可以將[[Special:MyLanguage/Worlds|世界]]發佈到[[Special:MyLanguage/Community Labs|社群實驗室（Community Labs）]]，大多數功能會在這個等級後開放。
+|-
+| style="background-color: #ff7c42" |
+!Known User
+|可以選擇顯示為「User」等級。
+|-
+| style="background-color: #8143e6" |
+!Trusted User
+|可以選擇顯示為「User」等級。
+|}
+
+<span id="Special_ranks"></span>
+=== 特殊等級 ===
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable"
+|+
+| style="background-color: #efea17" |
+!'''Friends'''
+|任何成為你好友的用戶將獲取這個等級。其他用戶在這個等級的角色在「正常」（Normal）保護層級下會顯示，並且與其他信任等級一樣，可以自訂顯示設定。
+|-
+| style="background-color: #bababa" |
+!'''Nuisance'''
+|造成他人困擾的用戶將獲取這個等級。這個用戶的角色將被系統完全封鎖，無論保護層級為何，預設狀態下皆為靜音狀態。不過，仍可手動解除靜音或顯示其角色。
+|-
+| style="background-color: #b52626" |
+!'''VRChat Team'''
+|僅有 VRChat 官方團隊人員會獲取的等級。當這名官方人員啟用時，快速選單將顯示這個等級。若懷疑某人冒充 VRChat 官方團隊人員，可以在快速選單中選擇這個用戶，檢查其信用等級。
+|}
+</div>
+
+===已刪除的等級===
+請參閱[[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|已刪除的等級]]
+
+<span id="Gaining_ranks"></span>
+===獲取等級===
+
+信用等級系統內部運作被刻意隱藏，以避免遭到濫用。  
+
+不過，要提升信用等級，最好的方法就是在 VRChat 中保持活躍，例如： 
+
+*探索世界
+*結交朋友
+*創作內容
+
+提升信用等級的過程中，以下行為可能會影響你的進展：
+*只是站在房間裡或長時間處於掛機狀態 (AFK)
+*大量上傳不需要太多心力的內容
+*與過多的用戶成為朋友
+*對其他 VRChat 使用者進行騷擾行為
+此外，訂閱 [[Special:MyLanguage/VRC+|VRC+]] 或接受 VRC+ 訂閱贈送，可以將信用等級提升一次。<ref>[https://hello.vrchat.com/vrchatplus VRC+] 在 VRChat 官方網站的頁面，日期為2024年10月24日。</ref>
+
+不過在部分狀況下，信用等級不一定會立即獲得提升，但這仍會對升級有所助益。
+
+== 信用等級與安全性 ==
+[[File:Shield_level.webp|thumb|300px|保護層級可根據用戶的信用等級進行個人化。]]
+信用等級會影響用戶如何查看你的角色、聽到你的聲音或看到你的[[Special:MyLanguage/Gallery|相簿]]內容，如[[Special:MyLanguage/Stickers|貼紙]]和[[Special:MyLanguage/VRC+#Prints|拍立得]]；這一切會根據用戶的[[Special:MyLanguage/Trust and Safety#Personal%20safety|保護層級]]設定而有所不同。
+{| class="wikitable"
+!選項名稱
+!影響分類
+|-
+|語音
+|用戶
+|-
+|角色
+|角色
+|-
+|用戶頭像
+|社交
+|-
+|自訂圖像
+|社交
+|-
+|無人機
+|社交
+|-
+|音訊
+|角色
+|-
+|光源＆粒子特效
+|角色
+|-
+|著色器
+|角色
+|-
+|自訂動畫
+|角色
+|-
+|動態表情符號
+|社交
+|}
+系統也根據用戶對安全性和舒適度的偏好，提供了多種'''預設選項'''。
+
+<span id="Appearance_of_ranks_inside_VRChat"></span>
+==等級顯示方式==
+
+[[File:TrustRank_Example.png|right|frameless]]
+
+安全系統在設計上會以低調為主，因此用戶的信用等級只有在打開快速選單時才會顯示。你可以在「使用者介面（UI）」中的「名牌」中調整這個設定，或在[[Special:MyLanguage/Action Menu|動作選單]]的「選項」，當中的「名牌」裡更改設定。
+
+*[[Special:MyLanguage/Nameplates|名牌]]左上角顯示使用者的信用等級。
+*[[Special:MyLanguage/Nameplates|名牌]]右上角顯示角色的效能等級。
+
+===變化===
+*'''從「Visitor」升到「New User」：'''當用戶達到「New User」等級時，若使用 VRChat 帳號時，便能上傳內容至 VRChat。用戶會收到此變更的通知，並被引導至 VRChat 的內容創建的文章頁面。
+*'''從「New User」升到「New User」：''' 當用戶達到「User」等級時，便能將世界、群組、用戶或角色通報給審核小組進行審查。用戶會收到此變更的通知。
+*'''通知：''' 用戶會在信用等級轉換時收到通知。
+*'''等級顯示切換：'''擁有「Known User」等級或更高等級的用戶，可以選擇將自己的等級顯示為「User」，這會更改他們的信用圖示和文字為「User」等級，並改變安全系統對他們的處理方式。這個切換選項可以在個人資料頁面中的狀態下方，以及最底部的「個人資料區域」中找到。
+==官方資源==
+
+*在 ''docs.vrchat.com'' 上的[https://docs.vrchat.com/docs/vrchat-safety-and-trust-system 安全系統]。
+*在 Medium 上的 [https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 VRChat 安全系統：變更與反饋]。
+
+<span id="See_also"></span>
+==參見==
+
+* [[Special:MyLanguage/Trust and Safety|安全系統]]
+
+* [[Terms of Service|服務條款]]
+* [[Community Guidelines|社群條款]]
+* [[VRCWiki:Guidelines|VRChat Wiki 指南]]
+* [[VRCWiki:Disciplinary policy|VRChat Wiki 紀律政策]]
+
+VRChat 平台相關文章
+
+* [[通報]]
+* [[封鎖]]
+* [[二步驟驗證（2FA）]]
+
+<span id="References"></span>
+==參考資料==
+
+[[Category:Features{{#translation:}}]]
+
+<references />

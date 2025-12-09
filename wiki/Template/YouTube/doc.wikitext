@@ -1,0 +1,38 @@
+
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Video ID",
+			"description": "ID of the youtube video, found at the end of any video link (https://www.youtube.com/watch?v=PWLPw4RE9Ig)",
+			"example": "PWLPw4RE9Ig",
+			"type": "string",
+			"default": "PWLPw4RE9Ig",
+			"required": true
+		},
+		"2": {
+			"label": "Width",
+			"description": "Width in CSS units (e.g. 200px, 100%)",
+			"type": "number",
+			"suggested": true
+		},
+		"3": {
+			"label": "Height",
+			"description": "Height in CSS units (e.g. 200px, 100%)",
+			"type": "string",
+			"suggested": true
+		},
+		"4": {
+			"label": "CSS Style",
+			"description": "Custom CSS styles"
+		}
+	},
+	"description": "For embedding YouTube videos into articles.",
+	"paramOrder": [
+		"1",
+		"2",
+		"3",
+		"4"
+	]
+}
+</templatedata>

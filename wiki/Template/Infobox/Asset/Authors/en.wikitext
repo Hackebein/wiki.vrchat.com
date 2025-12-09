@@ -1,0 +1,13 @@
+<noinclude><languages/></noinclude><includeonly>{{Infobox/Asset/Author|{{{1|}}}}}{{#if:{{{2|}}}|, {{Infobox/Asset/Author|{{{2|}}}}}|}}{{#if:{{{3|}}}|{{#if:{{{4|}}}|, {{Infobox/Asset/Author|{{{3|}}}}}, and {{{4}}} others|, and {{Infobox/Asset/Author|{{{3|}}}}}}}|}}</includeonly><noinclude>
+=== One author ===
+{{Infobox/Asset/Authors|Tupper}}
+
+=== Two authors ===
+{{Infobox/Asset/Authors|Tupper|VRCat}}
+
+=== Three authors ===
+{{Infobox/Asset/Authors|Tupper|VRCat|VRRat}}
+
+=== Three authors with count ===
+{{Infobox/Asset/Authors|Tupper|VRCat|VRRat|14}}
+</noinclude>

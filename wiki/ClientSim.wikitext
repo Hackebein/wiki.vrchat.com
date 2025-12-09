@@ -1,0 +1,20 @@
+{{Noticebox/Official}}{{Stub}}'''ClientSim''' (Client Simulator) is an official tool in the [[Special:MyLanguage/VRChat SDK|Worlds SDK]] that allows to run [[Special:MyLanguage/Worlds|worlds]] inside the Unity editor, simulating the VRChat client behavior.
+
+== Usage ==
+
+* Click "Play" button in an opened world Unity project to start the simulator.
+* Press "Esc" key to access the Client Simulator window with actions and settings (while in "Game" Unity view).
+* Open "VRChat SDK" Unity tab and select one of "ClientSim [...]" options to access additional settings and debug tools such as PlayerData and PlayerObjects.
+
+== Gallery ==
+<gallery>
+File:VRChat Client Simulator window.png|VRChat Client Simulator window
+File:ClientSim Settings window.png|ClientSim Settings window
+File:ClientSim PlayerData window.png|ClientSim PlayerData window
+File:ClientSim PlayerObjects window.png|ClientSim PlayerObjects window
+</gallery>
+
+== Official resources ==
+
+* [https://creators.vrchat.com/worlds/clientsim/ ClientSim docs] on VRChat Creators
+* [https://github.com/vrchat-community/ClientSim ClientSim source code] for contributing on GitHub

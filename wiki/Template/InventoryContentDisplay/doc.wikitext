@@ -1,0 +1,129 @@
+{{InventoryContentDisplay
+|name=B3-7A Portal
+|image=Portal_B3-7A_Portal.png
+|seller=VRChat
+|type=Portal
+|price=800
+|price_vrcplus=720
+|description=Do you simply move from dimension to dimension, or do you rip through the fabric of reality itself?
+|productID=prod_62c97ce8-3541-4863-a97a-4f1e2afbdc30
+|inventoryID=invt_0569cefe-91d8-4577-beb9-55dc4bad64ba
+|width=500px
+}}
+{{InventoryContentDisplay
+|name=Halloween Stickers
+|author=VRChat
+|type=Sticker
+|price=Free
+|description=Contains four Spookality-themed stickers․ They're freeǃ And spooky․ Place them on any object with a collider․<br><br>
+No VRCats were harmed in the making of these stickers․ VRRats? Ehhh‚ probably not․
+|productID=prod_e0485dc5-7ff2-4b57-95f6-8ba7a0211c07
+}}
+{{InventoryContentDisplay
+|name=Trace Drone
+|image=Drone Trace Drone.png
+|author=VRChat
+|type=Drone
+|description=
+|productID=prod_62c97ce8-3541-4863-a97a-4f1e2afbdc30
+|inventoryID=invt_0569cefe-91d8-4577-beb9-55dc4bad64ba
+|width=300px
+}}
+
+==TemplateData Documentation==
+<templatedata>
+{
+	"params": {
+		"name": {
+			"label": "Name",
+			"description": "Name of the content",
+			"example": "name",
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"label": "Image",
+			"example": "Placeholder.webp",
+			"type": "string",
+			"suggested": true
+		},
+		"imagesize": {
+			"label": "Image Size",
+			"description": "Size of the image",
+			"example": "120px",
+			"type": "string"
+		},
+		"width": {
+			"label": "Width",
+			"description": "The width of the template",
+			"example": "235px",
+			"type": "string"
+		},
+		"seller": {
+			"label": "Seller",
+			"description": "If offered for VRC Credits, use this. Displays as: Sold by",
+			"example": "VRChat",
+			"type": "string"
+		},
+		"author": {
+			"label": "Author",
+			"description": "If not offered for VRC Credits, use this. Displays as: Created by",
+			"example": "VRChat",
+			"type": "string"
+        },
+		"type": {
+			"label": "Type",
+			"description": "Type of content, values can be either, `Emoji`, `Sticker`, `Item`, `Drone`, `Portal` or `WarpEffect`.",
+			"example": "Emoji",
+			"type": "string",
+			"suggested": true
+		},
+		"price": {
+			"label": "Price",
+			"description": "The price of the content",
+			"example": "800",
+			"type": "string"
+		},
+		"price_vrcplus": {
+			"label": "Price VRC+",
+			"description": "The price of the content if it has a VRC+ discount",
+			"example": "720",
+			"type": "string"
+		},
+		"description": {
+			"label": "Description",
+			"description": "The description of the content",
+			"example": "Get toasty",
+			"type": "string",
+			"suggested": true
+		},
+		"productID": {
+			"label": "productID",
+			"description": "productID of the content, for future proofing",
+			"example": "prod_62c97ce8-3541-4863-a97a-4f1e2afbdc30",
+			"type": "string"
+		},
+		"inventoryID": {
+			"label": "inventoryID",
+			"description": "inventoryID of the content, for future proofing",
+			"example": "invt_0569cefe-91d8-4577-beb9-55dc4bad64ba",
+			"type": "string"
+		}
+	},
+	"description": "Template to display Inventory content (e.g. Emoji, Sticker, Item) for use on certain pages or sections. This is meant to display for inline sections on pages (e.g. Galleries), Infoboxes should be used if the page is about a certain piece of content",
+	"paramOrder": [
+		"name",
+		"image",
+		"imagesize",
+		"width",
+		"seller",
+		"author",
+		"type",
+		"price",
+		"price_vrcplus",
+		"description",
+		"productID",
+		"inventoryID"
+	]
+}
+</templatedata>

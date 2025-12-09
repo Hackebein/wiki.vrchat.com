@@ -1,0 +1,157 @@
+<languages/>
+{{Noticebox/Official}}
+Le '''Rang de Confiance''' fait partie du [[Special:MyLanguage/Trust and Safety|Système de Confiance et de Sécurité]] de VRChat, ayant pour objectif de permettre une expérience de jeu sûre et agréable pour tous. Ce système détermine quand un utilisateur peut mettre en ligne du contenu et évalue son comportement pour calculer sa  « confiance », un amas de plusieurs variables.
+
+<span id="Ranks"></span>
+==Rangs==
+
+La « confiance » d'un utilisateur alimente son '''rang de confiance''', un indicateur de son temps passé sur VRChat, du contenu créé, des amitiés formées, et d'autres facteurs. 
+
+Les rangs obtenables sont (du plus bas au plus haut) :
+{| class="wikitable"
+|+
+| style="background-color: #bababa" |
+!Visiteur
+|Rang de départ.
+|-
+| style="background-color: #1678ff" |
+!Nouvel Utilisateur
+|Peut mettre en ligne des [[Special:MyLanguage/avatars|avatars]] et des [[Special:MyLanguage/worlds|mondes]]. Les mondes restent cependant privés.
+|-
+| style="background-color: #2acf5b" |
+!Utilisateur
+|Peut mettre en ligne des [[Special:MyLanguage/worlds|mondes]] vers les [[Special:MyLanguage/Community Labs|laboratoires communautaires]]. La plupart des fonctionnalités deviennent accessible à partir de ce rang.
+|-
+| style="background-color: #ff7c42" |
+!Utilisateur Régulier
+|Peut choisir d'apparaître en tant qu'Utilisateur.
+|-
+| style="background-color: #8143e6" |
+!Utilisateur Fidèle
+|Peut choisir d'apparaître en tant qu'Utilisateur.
+|}
+
+<span id="Special_ranks"></span>
+=== Rangs spéciaux ===
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable"
+|+
+| style="background-color: #efea17" |
+!'''Amis'''
+|Les utilisateurs que vous avez ajoutés en amis auront toutes les fonctionnalités de leurs avatars affichées avec le niveau de sécurité normal, et peuvent être modifié comme tout autre rang.
+|-
+| style="background-color: #bababa" |
+!'''Nuisance'''
+|Les utilisateurs problématiques auront une indication visible au dessus de leur cadre lorsque le menu rapide est ouvert. Leur avatars seront cachés et leur microphones désactivés, qu'importe le niveau de sécurité. Vous pouvez cependant manuellement réactiver leur microphone ou débloquer leur avatars.
+|-
+| style="background-color: #b52626" |
+!'''Administrateur'''
+|Ce rang est assigné aux membres de l'équipe VRChat. Le rang est masqué sur le client mais est visible sur le site web VRChat via un cadre rouge présent sur le profil de l'utilisateur sélectionné. Ceci est confirmé par le remplacement du rang de confiance de l'utilisateur par « Administrateur »
+|}
+</div>
+
+=== Rangs abandonnés ===
+Voir [[Removed_Features#Veteran%2FLegend_trust_rank|Fonctionnalités supprimées]]
+
+<span id="Gaining_ranks"></span>
+===Obtenir des rangs===
+
+Le fonctionnement du Système de Confiance et de Sécurité est intentionnellement caché pour empêcher toutes exploitations.  
+
+La meilleure manière d'améliorer votre rang est de vous engager dans de simples activités, comme : 
+
+* Explorer
+*Se faire des amis
+*Créer du contenu
+
+Les activités qui n'améliorent pas votre rang sont : 
+*Rester fixe dans un monde (AFK).
+*Mettre en ligne une grande quantité de contenu peu travaillé.
+*Ajouter un grand nombre d'utilisateurs en amis.
+*Harcèlement envers d'autres utilisateurs de VRChat.
+De plus, s'abonner à [[Special:MyLanguage/VRC+|VRC+]], ou recevoir un abonnement VRC+ en cadeau, peut augmenter votre niveau de confiance<ref>[https://hello.vrchat.com/vrchatplus VRC+] sur le site web de VRChat; consulté le 24 octobre 2024.</ref>. Cependant, cela n'augmentera le niveau de confiance qu'une seule fois.
+
+Cependant, dans certains cas, le niveau de confiance (Trust Rank) n'augmente pas nécessairement, mais il offre un coup de pouce pour atteindre le niveau suivant.
+
+==Rangs de confiance et sécurité==
+[[File:Shield_level.webp|thumb|300px|Le niveau de sécurité peut être personnalisés, en fonction du rang de confiance d’un utilisateur.]]
+Les rangs de confiance affectent la façon dont les utilisateurs peuvent voir votre avatar, vous entendre ou voir votre contenu [[Special:MyLanguage/Gallery|galerie]], comme les [[Special:MyLanguage/Stickers|autocollants]] et les [[VRC+#Prints|imprimés]] ; tout cela dépend des préférences du [[Special:MyLanguage/Trust and Safety#Personal%20safety|niveau de sécurité]] de l’utilisateur.
+{| class="wikitable"
+!Nom de l'option
+!Fonction impactée
+|-
+|Voix
+|Utilisateur
+|-
+|Avatar
+|Avatar
+|-
+|Icônes utilisateur
+|Social
+|-
+|Images personnalisées
+|Social
+|-
+|Drone
+|Social
+|-
+|Audio
+|Avatar
+|-
+|Lumières et particules
+|Avatar
+|-
+|Shaders
+|Avatar
+|-
+|Animations personnalisées
+|Avatar
+|-
+|Emojis animés
+|Social
+|}
+Plusieurs '''préréglages''' sont disponibles en fonction des préférences de sécurité et de confort de l’utilisateur.
+
+<span id="Appearance_of_ranks_inside_VRChat"></span>
+== Apparence des rangs dans VRChat ==
+
+[[File:TrustRank_Example.png|right|frameless]]
+
+Le Système de Confiance et de Sécurité est conçu pour être discret. Le rang d'un utilisateur n'est seulement visible lorsque le menu rapide est ouvert. Ce paramètre peut être modifié dans "Interface utilisateur" > "Cadre" ou dans le [[Special:MyLanguage/Action Menu|Menu d'action]] sous "Options" > "Cadres".
+
+*Le texte en haut à gauche du [[Special:MyLanguage/Nameplates|cadre]] indique le rang de l'utilisateur.
+*En haut à droite du cadre est affiché le rang de performance de l'avatar de l'utilisateur.
+
+===Changement de rang===
+*'''Visiteur à Nouvel Utilisateur :''' Lorsqu'un utilisateur atteint le rang de Nouvel Utilisateur, il obtient la possibilité de mettre en ligne du contenu sur VRChat s'il utilise un compte VRChat. Une notification lui est envoyée pour l'informer de cette transition et l'orienter vers la page de documentation VRChat dédiée à la création de contenu.
+*'''Nouvel Utilisateur à Utilisateur :''' En atteignant le rang d'Utilisateur, les utilisateurs obtiennent la possibilité de signaler des mondes, groupes, utilisateurs et avatars à l'équipe de modération pour examen. Une notification leur est envoyée pour les informer de cette transition.
+*'''Notifications :''' Les utilisateurs reçoivent une notification lorsqu'ils changent de rang de Confiance.
+*'''Affichage du Rang :''' Les utilisateurs ayant atteint le rang d'Utilisateur de confiance ou supérieur peuvent choisir d'afficher leur rang comme "Utilisateur". Cela modifie leur icône et texte de Confiance pour correspondre au rang d'Utilisateur et ajuste la façon dont le système de Sécurité les traite. L'option peut être trouvée sur la page de profil sous le statut, ainsi que dans l'onglet "Profil" tout en bas.
+==Ressources officielles==
+
+* [https://docs.vrchat.com/docs/vrchat-safety-and-trust-system Système de Confiance et de Sécurité] sur ''docs.vrchat.com'' 
+* [https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 Modifications et retours sur le Système de Confiance et de Sécurité de VRChat] sur Medium.
+
+<span id="See_also"></span>
+==À voir aussi==
+
+Règlements
+
+* [[Conditions d'utilisation]]
+* [[Règlement de la communauté]]
+* [[VRCWiki:Règlement]]
+* [[VRCWiki:Politique disciplinaire]]
+
+Articles VRChat
+
+* [[Signalement]]
+* [[Bans]]
+* [[Authentification à deux facteurs (A2F)]]
+
+<span id="References"></span>
+==Références==
+
+[[Category:Features|Traduction]]
+
+<references />

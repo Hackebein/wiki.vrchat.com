@@ -1,0 +1,3 @@
+* Ouvrir l'invite de commande en appuyant sur la touche « Windows », écrire « cmd », ce qui ouvre la console, puis appuyer sur « Éxecuter en tant qu'administrateur »
+* Écrire « netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 100 4 » et appuyer sur la touche « Entrée »
+* Cela accordera la priorité à l'IPv6 après redémarrage de l'ordinateur.

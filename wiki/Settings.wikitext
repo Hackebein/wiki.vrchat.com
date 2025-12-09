@@ -1,0 +1,1888 @@
+{{Noticebox/Official}}
+'''Settings''' are preferences to customize your VRChat experience. This article provides a verbose explanation for the amount of settings in VRChat. Menus for settings can be found in the [[Special:MyLanguage/Quick Menu|Quick Menu]], [[Special:MyLanguage/Main Menu|Main Menu]], and [[Special:MyLanguage/Action Menu|Action Menu]].
+
+== Action Menu ==
+The settings wheel in the [[Special:MyLanguage/Action Menu|Action Menu]] provide preferences only for the Action Menu itself.
+{| class="wikitable"
+|+
+!Name
+!Values
+|-
+|Menu Size
+|0-100%
+|-
+|Menu Opacity
+|0-100%
+|-
+|On Hud
+|On/Off
+|-
+|HUD Position
+|Up, Down, Left, Right
+|-
+|Flick Select
+|On/Off
+|-
+|One Handed Movement
+|On/Off
+|}
+
+==Quick Menu==
+These options can be found in the [[Special:MyLanguage/Quick Menu|Quick Menu]], providing coverage for Sharing, UI Elements, Your Avatar, Avatar Culling, [[Special:MyLanguage/Chatbox|Chatbox]], Display and Visual Adjustments, Comfort, Tracking & IK, Advanced Settings and Debugging.
+
+===Sharing===
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Allow Direct Sharing
+|On/Off
+|Allow users to [[Special:MyLanguage/Sharing|share]] content with you directly
+|-
+|Accept Sharing From
+|Everyone, Friends
+|'''[Everyone]''' Allow everyone to share content with you directly
+'''[Friends]''' Allow friends to share content with you directly
+|-
+|Allow Pedestal Sharing
+|On/Off
+| Allow users to share content with you via pedestals
+|-
+|View Pedestals From
+|Everyone, Friends
+|'''[Everyone]''' Allow everyone to share content with you via pedestals
+'''[Friends]''' Allow friends to share content with you via pedestals
+|}
+
+===UI Elements===
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Nameplate Visibility
+|Standard, Icon, Hidden
+|Set [[Special:MyLanguage/Nameplates|nameplate]] visibility.<br>
+'''[Standard]''' Show nameplate above every user<br>
+'''[Icon]''' Only show icons above each user<br>
+'''[Hidden]''' Don't show nameplates or icons
+|-
+|Show Group Banner
+|On/Off
+|Click to show/hide group nameplate banners
+|-
+|Show Additional Info On Nameplates
+|On/Off
+|Click to show/hide expanded information on nameplates when the Quick Menu is open. When combined with Nameplate Visibility Hidden, disables nameplates completely, even when opening menu.
+|-
+|HUD Detail Level 
+|Off, Minimal, Verbose
+|Change [[Special:MyLanguage/HUD|HUD]] detail level.<br>
+'''[Verbose]''' Show notification popups<br>
+'''[Minimal]''' Only show icons<br>
+'''[Off]''' Disable HUD
+|}
+
+===Your Avatar===
+''See also [[Special:MyLanguage/Avatars|Avatars]] for more detailed information.''
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Allow Avatar Cloning
+|On/Off
+|Allows other users to clone your current avatar
+|-
+|Auto Disable Avatar Cloning
+|On/Off
+|Click to turn on/off automatically disabling avatar cloning upon entering a world
+|-
+|Avatar Gestures
+| On/Off
+| When enabled, VRChat will attempt to match your current finger pose against the standard VRChat hand poses
+|-
+|Pause Avatar Interactions
+|On/Off
+|Click to pause ALL interactions, INCLUDING users you've overridden to allow
+|-
+|Avatar Allowed to Interact
+| Everyone, Nobody, Friends
+|Toggle interactions on or off
+|-
+|Avatar Self Interact
+|On/Off
+|Click to enable/disable Self Interaction
+|}
+
+===Avatar Culling===
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Hide Beyond
+|0-50m, On/Off
+|Improve performance by reducing the number of avatars displayed
+|-
+|Show Nearest
+| 0-80, On/Off
+|Improve performance by reducing the number of avatars displayed
+|-
+|Always Show Friend Avatars
+|On/Off
+|Toggle to always show friend avatars
+|-
+|Allow override with "Show Avatar" 
+|On/Off
+|Allow selected user's avatars to override culling settings
+|}
+
+===Chatbox===
+{| class="wikitable"
+! Name
+!Values
+!Tooltip
+|-
+|Chatbox Function
+|Clear Chatbox, New message
+|'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input
+|-
+|Local Chatbox Visibility
+|Mine, Friends, Everyone
+|Change chatbox visibility<br>
+'''[Mine]''' Only show your own chatbox<br>
+'''[Friends]''' Show chatboxes only from friends<br>
+'''[Everyone]''' Show chatboxes for everyone
+|-
+| colspan="3" style="text-align:center;" |Show Advanced Settings
+|-
+|Chatbox Position
+|Above, Forward
+|Set chatbox to [above head/forward] position
+|-
+|Chatbox Height
+|0-100%
+|Change chatbox height
+|-
+|Chatbox Size
+| 50-150%
+|Change chatbox size
+|-
+|Chatbox Opacity 
+|25-100%
+|Change chatbox opacity
+|-
+|Chatbox Display Duration
+| 2-60 seconds
+|Change chatbox display duration
+|-
+|Chatbox Notification Volume 
+|On/Off, 0-100%
+|Change chatbox notification volume
+|-
+|Show Own Chatbox
+|On/Off
+|Show or hide your own chatbox
+|-
+|Send Text Automatically
+|On/Off
+|Toggle chatbox auto send
+|}
+
+===Display and Visual Adjustments===
+{| class="wikitable"
+!Name
+!Values 
+!Tooltip
+|-
+|Screen Brightness
+|0-100%
+|Adjust screen brightness
+|-
+|Bloom Intensity
+|0-100%
+|Bloom multiplier. Set to 0% to disable bloom
+|-
+|Reduce Menu Animations
+|On/Off
+|Reduce Menu Animations is [enabled/disabled], click to [enable additional menu animations/reduce menu animations]
+|}
+
+===Color Blind Filters===
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Color Filters 
+|On/Off
+|Enable/Disable color filters and their settings
+|-
+|Filter Intensity
+|0-100%
+|Change the intensity of the current filter
+|-
+| Apply To World
+|On/Off
+|Apply Filter to World 
+|-
+| Color Filter 
+|No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT
+|Select the color filter you would like to apply<br>
+'''[None]''' No filter selected<br>
+'''[Protanopia]''' Red / Green Filter<br>
+'''[Deuteranopia]''' Green / Red Filter<br>
+'''[Tritanopia]''' Blue / Yellow Filter<br>
+'''[Grayscale]''' Monochrome Filter<br>
+'''[Retro LUT]''' I Live In The Past Filter
+|-
+|Simulate Color Blindness
+|On/Off
+|Simulate the selected color blindness option, rather than correcting for it.
+|}
+
+===Comfort===
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Holoport Locomotion ''[VR]''
+|On/Off
+| Enable third person locomotion (Holoport) 
+|-
+|Locomotion Tunneling ''[VR]''
+|None, Low, High
+|Choose movement style and tunneling to reduce motion sickness.<br>
+'''[None]''' Standard movement with no tunneling<br>
+'''[Low]''' Add a light tunneling effect while moving<br>
+'''[High]''' Add a heavy tunneling effect when moving 
+|-
+|Responsive Menu
+|On/Off
+|'''[On]''' Responsive Menu is enabled, click to keep Main Menu in its default position.
+'''[Off]''' Responsive Menu is disabled, click to always spawn the main menu in your eyeline.
+|}
+
+===Tracking & IK===
+{| class="wikitable"
+|+[VR Only]
+!Name
+!Values
+! Tooltip
+|-
+|User Real Height
+|(3'0"-8'0" ft)/(0.81m-2.44m) 
+|User Real Height should always be set to your height in real life. It's important for properly matching your avatar with your body.
+|-
+| colspan="2" |Measure Height
+|Automatically set your real height from your headset's standing position (must stand up and look straight ahead, cannot be used while seated)
+|-
+|Avatar Measurement 
+|Arm Span, Height
+|Toggle avatar measurement between height-based and arm-based
+'''[Arm Span]''' Arm Span mode will fit your avatar to your real body by matching arm length.
+'''[Height]''' Height mode will fit your avatar to your real body by matching height. 
+|}
+{| class="wikitable"
+|+[VR Only] [At least one full body tracker must be on]
+!Name
+!Values
+!Tooltip
+|-
+|Allow FullBody Tracking FBT
+|On/Off
+|Full body tracking is now [enabled/disabled]
+|-
+| colspan="2" |Calibrate FBT
+|Calibrate full body tracking. Stand in T-pose and pull both triggers to lock-in.
+|-
+|FBT Spine Mode
+|Lock Head, Lock Hip, Lock Both 
+|Changes to FBT Spine Mode will alter how your spine IK behaves with full body tracking.<br>
+'''[Lock Hip]''' Strict hip tracking. Avoids odd spine angles by allowing the head to drift.<br>
+'''[Lock Head]''' Strict head tracking. Avoids odd spine angles by allowing the hips to drift.<br>
+'''[Lock Both]''' Doesn't allow the head or hip to drift. 
+|-
+|FBT Locomotion Animation
+|On/Off
+|When enabled, your avatar will use its built-in animations for walking, overriding your leg tracking when moving via controllers. 
+|-
+| colspan="2" |Auto-center OSC Trackers
+|Auto-center OSC trackers. Use when head position and rotation is not being sent in over OSC.
+|-
+| colspan="3" style="text-align:center;" |Show Advanced Settings
+|-
+| colspan="2" |Adjust FBT: Move & Rotate
+| rowspan="3" |Starts Adjust FBT mode, allowing you to grab parts of your avatar to reposition calibration by hand. Adjusts [both position and rotation/position only/rotation only]. Re-open the quickmenu to complete.
+|-
+| colspan="2" | Adjust FBT: Move Only
+|-
+| colspan="2" |Adjust FBT: Rotate Only
+|-
+| colspan="2" |Adjust FBT: Reset
+|Resets the current FBT adjustment back to what was measured during Calibrate FBT 
+|}
+
+===Advanced Settings===
+{| class="wikitable"
+|+[VR Only]
+!Name
+!Values
+!Tooltip 
+|-
+|Allow Horizon Adjust
+|On/Off
+|'''[On]''' Disallow usage of the Horizon Adjust feature
+'''[Off]''' Allow using the Horizon Adjust feature
+
+
+Horizon Adjust may cause EXTREME VERTIGO! It's recommended to combine with other comfort options such as Holoport, tunneling, or comfort turning. Immediately discontinue use at first sign of discomfort. Use at your own risk. 
+|-
+|Horizon Adjust Snap
+|On/Off
+|Horizion adjustment snap mode is [enabled/disabled], click to [enable/disable]. Snap mode will lock the horizon adjustment offset to increments of 90 degrees.
+|-
+| colspan="2" |Set Horizon Adjust
+|Adjust the horizon so that current view direction is forward.
+|-
+| colspan="2" |Reset Horizon
+|Reset horizon adjustment
+|-
+| colspan="2" | Set Standing Height
+|Set your current head height as full standing height
+|}
+
+===Debug===
+''See also [[Special:MyLanguage/Debug Menu|Debug Menu]] for more detailed information.''
+{| class="wikitable"
+!Name
+! Values
+!Tooltip
+|-
+|FPS
+|Varies 
+|N/A
+|-
+|Ping
+|Varies
+|N/A
+|-
+|Build
+| Varies
+| N/A
+|-
+|Logging
+|Full, Errors Only, Off
+|Controls whether to write debug messages to a log file<br>
+'''[Full]''' Log all debug and error messages<br>
+'''[Errors Only]''' Log error messages only<br>
+'''[Off]''' Do not log any debug or error messages
+|-
+|Pin FPS and Ping
+|On/Off
+|'''[On]''' Stats are enabled, click to disable the FPS and Ping display<br>
+'''[Off]''' Stats are disabled, click to pin the FPS and Ping to the top of the Quick Menu
+|-
+|Report Bug
+|Report Bug
+|Logs when an issue is experienced<br>
+Click 'Continue' to create a timestamp in your active output log that can be included with your Bug Report (http://feedback.vrchat.com/bug-reports) or Support Ticket. 
+|-
+|Reset Hand Tracking tutorial
+|Reset Hand Tracking tutorial
+|N/A
+|-
+|Toggle Debug UI
+|Toggle Debug UI
+|Shows or hides the debug UI panel.
+|}
+
+==Main Menu==
+[[File:System and Settings.png|center|frameless]]
+These options can be found in the Settings tab of the [[Special:MyLanguage/Main Menu|Main Menu]]. They provide coverage for Audio & Voice, Comfort & Safety, Shield Levels, Graphics, [[Special:MyLanguage/Avatars|Avatars]], [[Special:MyLanguage/Mirrors|Mirrors]], User Interface, [[Special:MyLanguage/Controls|Controls]], Tracking & IK, Accessibility, and Debugging.
+
+===Audio & Voice===
+
+==== Audio Volume====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+| Master
+|0-125%, On/Off
+|Control the master volume for all audio
+|-
+|UI/Menu 
+|0-100%, On/Off
+|Control the menu sound volume
+|-
+| World
+|0-100%, On/Off
+|Control the volume of sounds in this world 
+|-
+|Voices
+|0-100%, On/Off
+|Control the volume of other user's voices
+|-
+|Avatars 
+|0-100%, On/Off
+|Control the volume of audio emitted from avatars
+|-
+|Items/Effects
+|0-100%, On/Off 
+|Control the volume of audio emitted from items, warp effects, gift drops, and portals
+|-
+|User Volume Overrides
+|Reset
+|Reset the volume of other users
+|}
+
+====Microphone====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Change Device
+|Microphone List
+| Change your current audio input device
+|-
+|Mic Output Volume
+|0-100%
+|Control the volume of your microphone
+|-
+|Noise Suppression
+|On/Off
+|Background Noise Suppression is enabled/disabled, click to disable/enable
+|-
+|Mic Activation Threshold
+|0-100%
+|Adjust the point where your microphone picks up your voice
+|-
+|Test Microphone
+|Start Test, New Test, Stop Playback, Play Again
+|'''[Start Test/New Test, Stop Playback]''' Test how you sound to others by recording a short clip from your microphone and then playing back what you said.
+'''[Play Again]''' Play the last microphone test clip again.
+|-
+|Microphone Behaviour
+|Push to Talk, Always Off, Always On, Toggle
+|Change how the microphone is activated.
+|-
+|World Join Behaviour
+|Default On, Default Off, Keep Last State
+|Change how your mic behaves when joining worlds
+|-
+|Mic Icon Visibility
+|On activity, When Muted, Always On
+|Change when the microphone icon on your HUD is visible.<br>
+'''[Always On]''' Microphone icon always stays visible<br>
+'''[On Activity]''' Microphone icon fades in when you speak<br>
+'''[When Muted]''' Microphone icon only fades in when you speak while muted
+|}
+
+====Earmuff Mode====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Earmuff Mode
+|On/Off
+| Reduce the volume of others outside of a distance.
+|-
+|Distance
+|0.0-10.0m
+|Reduce the volume of users outside of this range.
+|-
+|Falloff Distance
+|0.0-10.0m
+|The distance at which user volumes are fully reduced.
+|-
+|Outside Volume
+|0-100%
+|The lowest volume user voice will be reduced to.
+|-
+|Always Show Visual Aide
+|On/Off
+|'''[On]''' Showing Earmuff radius at all times. Toggle to only show when using sliders.<br>
+'''[Off]''' Only showing the Earmuff effect radius when using the sliders, click to show at all times
+|-
+|Include Avatar Audio
+|On/Off
+|'''[On]''' Including Avatar Audio, click to disable<br>
+'''[Off]''' Include Avatar Audio disabled, click to enable
+|-
+|Forward Cone
+|0-100%
+|The slider adjusts the shape of your earmuffs to favor users in front of you
+|-
+|Falloff Forward Shift
+|0-100%
+|Adjust the amount of forward offset that the directionality property applies to you earmuffs falloff zone 
+|-
+|Shape Follows Rotation of 
+|Camera, Avatar
+|Sets the type for following camera<br>
+The earmuffs shape follows your [camera's/avatar's] rotation 
+|-
+|Lock Shape Rotation 
+|On/Off 
+|[Unlock/Lock] the earmuff shape's rotation
+|}
+
+===Comfort & Safety ===
+
+====Comfort====
+{| class="wikitable"
+! Name
+!Values
+! Tooltip
+|-
+|Comfort Turning ''[VR]''
+|On/Off
+|Rotate your view by snapping which can help with motion sickness
+|-
+|Personal Space
+
+|On/Off
+|Avatars disappear if they get too close, friends are not affected
+|-
+|AFK Detection
+|On/Off
+|Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away
+|}
+
+====Sharing====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+| Allow Direct Sharing
+|On/Off
+|Allow users to [[Special:MyLanguage/VRChat+#Sharing|share]] content with you directly
+|-
+|Accept Sharing From
+|Everyone, Friends
+|'''[Everyone]''' Allow everyone to share content with you directly
+'''[Friends]''' Allow friends to share content with you directly 
+|-
+|Allow Pedestal Sharing
+|On/Off
+|Allow users to share content with you via pedestals
+|-
+|View Pedestals From
+|Everyone, Friends
+|'''[Everyone]''' Allow everyone to share content with you via pedestals
+'''[Friends]''' Allow friends to share content with you via pedestals
+|}
+
+====Prints====
+{| class="wikitable"
+!Name
+!Values
+
+!Tooltip
+|-
+|View Prints
+|On/Off 
+| Allow users to share photos as prints
+|-
+|View Prints From
+|Everyone, Friends 
+|'''[Everyone]''' Allow everyone to spawn prints
+'''[Friends]''' Allow friends to spawn prints
+|}
+
+====Safety====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+| Streamer Mode
+|On/Off
+|Friend requests will be auto-declined, user images and thumbnails will be disabled, and your location will be hidden<ref group="note">Streamer mode stays enabled after game restarts.</ref>
+|-
+|Show Community Labs
+|On/Off
+|Show [[Special:MyLanguage/Community Labs|Community Labs]] in the World and Search pages
+|-
+|Allow Untrusted URLs
+|On/Off
+|Worlds can load content remotely from URLs that are not [[Special:MyLanguage/Trusted_URLs|trusted]].
+|-
+|Chatbox Language Filter 
+|On/Off
+|Toggle chatbox language filter
+|-
+|Portal Prompt
+|On/Off
+|Portal Prompt is [enabled/disabled], click to [disable/enable]
+|-
+|Show Mutual Connections
+|On/Off
+|Mutual Connections [enabled/disabled]. You [will/won't] show your mutual Friends & Groups to others when they view your mutual connections.
+|-
+|Portal Mode
+|Drop in Front, Place Manually
+|Choose the portal mode.<br>
+Enables Portal [Placement/Drop]
+|-
+|Home Instance Type
+|Invite, Invite+, Friends, Friends+, Public
+|Set your home instance type.<br>
+Set your home instance to [Invite/Invite+/Friends/Friends+/Public]
+|-
+|Home Region
+|Automatic, US East, US West, Europe, Japan
+|Set the [[Special:MyLanguage/Worlds#Regions|region]] used by your home instance.<br>
+'''[Automatic]''' Let VRChat choose the best home region for you.<br>
+Set your home instance region to [US West/US East/Europe/Japan]
+|}
+<references group="note" />
+
+====Content Gating====
+''See also [[Special:MyLanguage/Content Gating|Content Gating]] for more detailed information.''
+
+{| class="wikitable"
+!Name
+!Values 
+!Tooltip
+|-
+|Filter Sexually Suggestive Content
+| On/Off
+|Enable to hide content labeled with this Content Warning.
+|-
+|Filter Adult Language and Themes
+|On/Off
+|Enable to hide content labeled with this Content Warning.
+|-
+|Filter Graphic Violence
+|On/Off
+|Enable to hide content labeled with this Content Warning.
+|-
+|Filter Excessive Gore
+|On/Off
+|Enable to hide content labeled with this Content Warning.
+|-
+| Filter Extreme Horror
+|On/Off 
+|Enable to hide content labeled with this Content Warning.
+|}
+'''''*Footnote regarding Content Gating:''''' Content Gating keeps you safe by filtering content you don't want to see. VRChat has User Generated Content and relies on its creators to label it appropriately. If you see something that you feel has not been labeled correctly, please navigate to the content details page and file an in-game report so that VRChat's Trust & Safety team can investigate.
+
+===Shield Levels===
+''See also [[Special:MyLanguage/Trust and Safety#Safety_Shield|Trust and Safety]] for more detailed information.''
+{| class="wikitable"
+!Name
+! Values
+!Tooltip
+
+|-
+|Change Shield Level
+| Maximum, Normal, None, Custom
+|'''[Maximum]''' This is the safest mode. It turns off most avatar features for all user Trust Ranks.
+<br />'''[Normal]''' Turns off avatar features for less trusted users and enables more features for trusted users.
+<br />'''[None]''' See almost all avatar features on all users, excluding nuisance users. WARNING: This mode is not recommended, as it exposes you to everything on all users!
+<br />'''[Custom]''' Customize which avatar features you want to see for each user Trust Rank.
+|}
+
+{| class="wikitable"
+|+ Visitor |Visitor | New User | User | Known User| Trusted | Friends | Safe Mode<br />"Custom" Shield Level is allowed to change values
+!Name
+!Values
+!Tooltip
+|-
+|Voice
+|On/Off
+|Voice mutes or unmutes audio that emits from a user's microphone input for the combined Safety Mode and User
+Trust Rank.
+|-
+|Avatar
+|On/Off
+|Avatar shows or hides the avatar for the combined Safety Mode and User Trust Rank.
+|-
+| User Icons
+|On/Off
+|User Icons shows or hides the custom User Icons for the combined Safety Mode and User Trust Rank.
+|-
+|Custom Images 
+| On/Off
+|Custom Images shows or hides the custom Emojis, Sharing, Prints and Stickers for the combined Safety Mode and
+User Trust Rank.
+|-
+|Drone
+
+|On/Off
+|Drone hides or reveals a user's drone for the combined Safetry Mode and User Trust Rank.
+|-
+|Audio
+|On/Off
+|Audio mutes or unmutes audio emitted from a user's avatar for the combined Safety Mode and User Trust Rank.
+|-
+|Lights & Particles
+|On/Off
+|Particles and Lights turns on or off particles and lights on a user's avatar for the combined Safety Mode and User
+Trust Rank. Particles are components that shoot out effects, like graphics, fire, etc. 
+|-
+|Shaders
+|On/Off
+|Shaders turns on or off shaders on a user's avatar for the combined Safety Mode and User Trust Rank.
+|-
+|Custom Animations 
+|On/Off
+|Custom Animations turns on or off custom animations on a user's avatar for the combined Safety Mode and User
+Trust Rank.
+|-
+|Animated Emojis
+| On/Off
+|Animated Emoji allows Custom and Premium Emoji to be animated for the combined Safety Mode and User Trust Rank. 
+|}
+
+===Graphics===
+
+====Basic ====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip 
+|-
+|Screen Resolution
+|''(Values differ depending on user's monitor resolution)''
+|Set screen resolution
+|-
+| Fullscreen
+|On/Off
+|Set full screen
+|-
+|Quality Preset 
+|Low, Medium, High, Custom
+|Current graphics quality preset
+|-
+|Anti-Aliasing 
+|Disabled, X2, X4, X8
+|Current anti-aliasing quality
+|-
+|Mirror Resolution
+|Quarter, Half, Full, Unlimited 
+|Set the mirror resolution.<br>
+Set mirror resolution to [quarter/half/full/unlimited] mode 
+|-
+|Shadows
+|Low, Medium, High
+|Set the shadow quality
+|-
+|Level of Detail
+|Low, Medium, High
+|Level of Detail (LOD) Quality
+|-
+|Vertical Field of View
+|50-100°, Reset
+|Change the field of view
+|-
+|Portrait FOV ''[Mobile]''
+|50-100°, Reset 
+|Change the field of view when in portrait mode
+|-
+|Landscape FOV ''[Mobile]'' 
+|50-100°, Reset
+|Change the field of view when in landscape mode
+|-
+|FPS
+|Capped, VSync, Unlimited
+|Controls the max fps for the system
+|-
+|FPS Limit
+|''[Mobile]'' 20, 30, 60; ''[PC]'' 10-240; Reset
+|Set a maximum frame rate.
+|}
+
+====Advanced====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Particle Physics Quality
+|Low, Medium, High
+|Set the particle physics quality
+|-
+|Particle Limiter
+|On/Off 
+|Limit avatar particles. 
+|-
+|Pixel Light Count
+|Off, Low, Medium, High
+|Set pixel light count to [off/low/medium/high]
+|-
+|Forced Camera Near Distance
+|Off, Dynamic, Forced
+|Overrides the camera near clip plane.<br>
+'''[OFF]''' Won't override the near clip value and will use the world's camera settings.<br>
+'''[Dynamic Mode]''' Will override camera near clip to 1mm view distance ow lowest possible with Unity's limits in regard to world far view distance. Resets at end of session.<br>
+'''[Forced Mode]''' Camera near distance will always be 1mm. WARNING: This can result in significant render issues in worlds with a high view distance. Resets on world change.
+|-
+|DPI Scale ''[Mobile]''
+|15-50%
+|The amount we scale down the devices DPI ''[sic]''
+|}
+
+===Avatars===
+''See also [[Special:MyLanguage/Avatars|Avatars]] for more detailed information.''
+
+====Your Avatar====
+{| class="wikitable"
+! Name
+!Values
+!Tooltip
+|-
+|Avatar Gestures
+|On/Off
+|When enabled, VRChat will attempt to match your current finger pose against the standard VRChat hand poses.
+|-
+|Allow Avatar Cloning
+
+|On/Off
+|Allows other users to clone your current avatar
+|-
+| Auto Disable Avatar Cloning
+|On/Off
+| Click to turn [on/off] automatically disabling avatar cloning upon entering a world
+|-
+|Use Impostor as Fallback
+|On/Off
+|Choose whether or not to use [[Special:MyLanguage/Impostors|Impostors]] as a fallback avatar (when available)
+|}
+
+====Avatar Interactions====
+{| class="wikitable"
+! Name
+!Values
+!Tooltip
+|-
+|Pause Avatar Interactions
+|On/Off
+|'''[On]''' Click to resume interactions and activate overrides.<br>
+'''[Off]''' Click to pause ALL interactions, INCLUDING users you've overridden to allow.
+|-
+|Avatar Allowed to Interact
+|Nobody, Friends, Everybody
+|Toggles interactions on or off.<br>
+'''[Friends]''' Allow Avatar Interactions with friends and users you've overridden to allow, except friends you've overridden to deny.<br>
+'''[Everyone]''' Allow Avatar Interactions with everyone, except users you've overridden to deny.<br>
+'''[Nobody]''' Deny Avatar Interactions with everyone, except users you've overridden to allow.
+|-
+|Avatar Self Interact
+|On/Off
+|Click to [enable/disable] Self Interaction
+|}
+
+====Avatar Optimization====
+{| class="wikitable"
+!Name 
+!Values
+!Tooltip
+|-
+|Block Poorly Optimized Avatars
+| ''[Mobile]'' Very Poor, Poor and Below
+''[PC]'' Very Poor, Poor and Below, Don't Block
+|Set what avatars to block.<br>
+'''[Very Poor]''' Very Poor avatars will automatically be hidden<br>
+'''[Poor and Below]''' Poor and worse avatars will automatically be hidden
+|-
+|Maximum Download Size
+| ''[Mobile]'' 0-10MB
+''[PC]'' 0-200MB
+|Set the maximum download size for slower connections or to save bandwidth
+|-
+|Maximum Uncompressed Size 
+|''[Mobile]'' 0-40MB
+''[PC]'' 0-500MB 
+|Set the maximum uncompressed size to prevent heavy avatars from loading.
+|}
+====Avatar Culling====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Hide Avatar Beyond
+|5-50m, On/Off
+|Improve performance by reducing the number of avatars displayed.<br>
+Enable or disable limit.
+|-
+|Maximum Shown Avatars
+|0-80, On/Off
+|Improve performance by reducing the number of avatars displayed.<br>
+Enable or disable limit.
+|-
+|Always Show Friend Avatars
+|On/Off
+| Toggle to always show friend avatars.
+|-
+|Allow override with "Show Avatar"
+|On/Off
+|Allow selected user's settings to override culling settings.
+|}
+
+==== Avatar Download Prioritization====
+Priorities will be considered in the order they are listed. If two downloads are otherwise of equal priority, the smallest size (fastest download) will come first. New downloads that are higher priority than all current downloads begin immediately.
+{| class="wikitable"
+! Name 
+!Values
+!Tooltip
+|-
+| Download Prioritize Distance
+|5-50m, On/Off
+| Download avatars within this range first.<br>
+Enable or disable limit.
+|-
+|Download Prioritize Manually Shown
+|On/Off
+|Click to prioritize downloading avatars from users you've manually shown.
+|-
+| Download Prioritize Friends
+|On/Off
+|Click to prioritize downloading avatars from friends.
+|}
+
+====OSC====
+{| class="wikitable"
+!Name 
+!Values
+!Tooltip
+|-
+|OSC
+|On/Off
+|Toggle [[Special:MyLanguage/OSC|OpenSoundControl]] on or off.
+|-
+|OSC Debug Panel
+|On/Off
+|Open a screen which will float in front of you and visualize any incoming OSC.
+|-
+|Reset Config
+|Reset
+|Reset the OSC configuration.
+|}
+
+===Mirrors ===
+''See also [[Special:MyLanguage/Mirrors|Mirrors]] for more detailed information.''
+
+====Personal Mirror====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+| Personal Mirror
+|On/Off
+|Turn the personal mirror on or off.
+|-
+|Grabbable 
+| On/Off
+|Allows grabbing the mirror to move its world location.
+|-
+|Tracking
+|World, Head, Playspace
+|Select the object which the mirror is anchored.<br>
+'''[World]''' Mirror tracks world<br>
+'''[Head]''' Mirror tracks user's head<br>
+'''[Playspace]''' Mirror tracks playspace
+|-
+|Opacity
+|0-100%
+|Set the opacity. [0%-100%]
+|-
+|Immersive Move
+|On/Off
+|Enable movement controls when grabbing the mirror.
+|-
+|Mirror Snap
+|On/Off
+|The mirror will snap to specific angles when enabled.
+|-
+|Calibration Mirror
+|On/Off 
+|When enabled shows a mirror while calibrating ''[sic]''
+|-
+|Border
+|On/Off
+|Toggle a border to the mirror.
+|-
+|Show Other Players
+|On/Off
+|When enabled, your personal mirror will reflect other players.
+|-
+|Show World
+|On/Off
+|When enabled, your personal mirror will reflect the world.
+|-
+|Show UI
+|On/Off
+|When enabled, your personal mirror will reflect the user interface.
+|-
+|Reset Personal Mirror
+|Reset
+
+|Resets all personal mirror changes
+|}
+
+==== Face Mirror====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Face Mirror
+|On/Off
+|Turn the face mirror on or off. 
+|-
+|Opacity
+|0-100%
+|Set the opacity. [0%-100%]
+|-
+|Size
+|0-100%
+|Adjust the size of the face mirror.
+|-
+|Zoom
+|0-100%
+|Adjust the zoom of the face mirror.
+|-
+|Reset Face Mirror
+|Reset
+|Resets all face mirror changes
+|-
+|Face Mirror Spout Stream
+|On/Off
+|Allow external applications to access your Face Mirror as a Spout stream. The stream stays active whether Face Mirror is on or off.
+|}
+
+===User Interface===
+
+====General UI Settings ====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Menu Tooltips
+|On/Off
+|Display tooltips under the menu.
+|-
+|Interactive Object Tooltips 
+|Highlight Only, Tether, Tooltip, Controller
+|Change how tooltips on interactive objects in the world appear.
+'''[Highlight Only]''' Only show the outline.
+'''[Tether]''' Show the outline and tether line.
+'''[Tooltip]''' Show the outline, tooltip and tether line.
+'''[Controller]''' Show the outline, tooltip, tether line and controller.
+|-
+|Show Desktop Reticle
+|On/Off
+|Show a small dot in the center of the view
+|-
+|Show Go Button On Load
+| On/Off
+|Show a "Go!" button before entering the world when it's ready
+|-
+|Slider-Snapping
+|On/Off
+|[Enable/Disable] snapping to fixed increments when adjusting sliders
+|-
+|Header Click Scrolls to Top of Page
+|On/Off
+|When enabled, clicking menu headers will scroll pages to the top
+|-
+|Wing Persistence
+|On/Off
+|When persistence is [enabled/disabled]. Quick menu and main menu [share the same/each have their own unique] wing state. Click to [enable/disable] persistence.
+|-
+| Preferred Language
+|See Tooltip
+|English, French, Spanish, Italian, Korean, Deutsch, Japanese, Polski, Russian, Portuguese (Brazil), Simplified Chinese, Traditional Chinese, toki pona
+|-
+|AFK Detection
+|On/Off 
+|Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away
+|-
+|One Handed Movement ''[VR]'' 
+|On/Off
+| Toggle one handed controls for avatar movement.
+|}
+
+==== Dates and Time ====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Hour Mode
+|12 Hours, 24 Hours, System Default
+|Changes between 12 and 24 hour clock<br>
+'''[12 Hours]''' Change the clock to 12 hour mode
+
+'''[24 Hours]''' Change the clock to 24 hour mode
+
+'''[System Default]''' Change the clock to the mode your operative system uses
+|-
+|Preferred Timezone 
+|System Default, and 141 others
+|Change the timezone used in dates and times calculations
+|}
+
+====Nameplate====
+{| class="wikitable"
+!Name
+!Value 
+!Tooltip
+|-
+|Nameplate Visibility
+|Standard, Icon, Hidden
+|Set nameplate visibility.<br>
+'''[Standard]''' Show nameplate above every user<br>
+'''[Icon]''' Only show icons above each user<br>
+'''[Hidden]''' Don't show nameplates or icons
+|-
+|Nameplate Scale
+|Tiny, Small, Normal, Medium, Large
+|Change the size of nameplates.<br>
+Shows [tiny/small/normal/medium/large] nameplates
+|-
+|Nameplate Opacity
+|0-100%
+|Change the opacity of the nameplates
+|-
+|Show Group Banner
+| On/Off
+|Click to [show/hide] group nameplate banners 
+|-
+|Show Additional Info on Nameplates
+|On/Off
+|Show Additional Info is [enabled/disabled], click to [stop showing/show] expanded information on nameplates when the Quick Menu is open
+|-
+|Show Fallback Icon
+|On/Off
+|Fallback icon is [enabled/disabled], click to [disable/enable] the Fallback icon on nameplates
+|-
+|Show Earmuffs Icon
+| On/Off
+|Toggle show earmuffs icon.
+|}
+
+====HUD====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|HUD Detail Level
+|Off, Minimal, Verbose
+|Change HUD detail level.<br>
+'''[Verbose]''' Show notification popups<br>
+'''[Minimal]''' Only show icons<br>
+'''[Off]''' Disable HUD
+|-
+|Play Notification Audio
+|On/Off
+|Play audio when you receive a new notification
+|-
+|Show Gesture Icons
+|On/Off
+|Gesture icons are [enabled/disabled], click to [disable/enable] them on HUD
+|-
+|HUD Smoothing ''[VR]''
+|On/Off
+|Toggle HUD Smoothing
+|-
+|HUD Opacity
+|0-100%
+| Change HUD Opacity
+|-
+|Mic Opacity
+|0-100%
+|Change Mic Opacity
+|-
+|Mic Toggle Volume
+|0-100%
+|Change Mic Toggle Volume
+|-
+|Experimental: Use Outline Microphone Icon ''[VR]''
+|On/Off
+|Experimental: Use an outline-only microphone icon on the HUD. Force-enabled on certain OLED headsets to avoid burn-in.
+|-
+|Experimental: Use Pixel Shifting HUD ''[VR]''
+|On/Off
+|Experimental: Use pixel-shifting to avoid OLED burn-in. HUD elements will move in a circle very slowly. Force-enabled on certain OLED headsets to avoid burn-in.
+|}
+
+====HUD Verbose Mode Settings====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Show Join Notifications 
+|On/Off
+|Show user join notifications
+|-
+|Show Leave Notifications
+
+|On/Off
+|Show user leave notifications
+|-
+|Show Portal Notifications
+|On/Off
+|Show portal created notifications
+|-
+|Only Show Friends Join/Leave/Portal Notifications
+|On/Off
+|Only show join/leave/portal notifications for friends
+|-
+|Show Invites
+|On/Off
+|Show the invite notification popup
+|-
+|Show Friend Requests
+|On/Off
+|Show the friend request notification popup
+|-
+| Notification Position
+|Center, Right, Left 
+|Choose the anchor position for the notification popups
+|}
+
+====Chatbox====
+Chatbox settings are also available in the Accessibility row.
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Local Chatbox Visibility
+|Mine, Friends, Everyone
+|Change chatbox visibility<br>
+'''[Mine]''' Only show your own chatbox<br>
+'''[Friends]''' Show chatboxes only from friends<br>
+'''[Everyone]''' Show chatboxes for everyone
+|-
+| Chatbox Position
+|Above, Forward
+|Set chatbox to [above head/forward] position
+|-
+|Chatbox Height
+|0-100%
+|Change chatbox height
+|-
+|Chatbox Size
+|50-150%
+|Change chatbox size
+|-
+|Chatbox Opacity
+|25-100%
+|Change chatbox opacity
+|-
+|Chatbox Display Duration
+|2-60 seconds
+|Change chatbox display duration
+|-
+|Chatbox Notification Volume
+|On/Off, 0-100%
+|Change chatbox notification volume
+|-
+| Show Own Chatbox
+| On/Off
+|Show or hide your own chatbox
+|-
+|Send Text Automatically
+|On/Off
+|Toggle chatbox auto send
+|-
+| Chatbox Function
+|Clear Chatbox, New message
+|'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input
+|}
+
+====Action Menu====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+| Action Menu Opacity
+| 0-100%
+|Changes action menu opacity
+|-
+|Action Menu Size
+|0-100%
+|Changes action menu size
+|-
+|Action Menu Left Opacity ''[VR]''
+|0-100%
+|Changes left action menu opacity
+|-
+|Action Menu Right Opacity ''[VR]''
+|0-100%
+|Changes right action menu opacity
+|-
+|Action Menu Left Size ''[VR]'' 
+|0-100%
+| Changes left action menu size
+|-
+|Action Menu Right Size ''[VR]''
+|0-100%
+|Changes right action menu size
+|-
+|Flick Select ''[VR]''
+|On/Off
+|Toggle flick select
+|}
+
+====Notifications====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+| Send and Receive Boops
+| On/Off
+|Toggles the ability to send and receive [[Booping|Boops]]
+|-
+|Boop Emoji Effect
+|On/Off
+|Toggles the emoji particle effect when you receive Boops
+|}
+
+===Controls===
+''See also [[Special:MyLanguage/Controls|Controls]] for more detailed information.''
+
+This menu will vary, depending on the device being used to access VRChat.
+
+====SteamVR====
+{| class="wikitable"
+|+Control Settings ''[VR]''
+!Name
+!Values
+!Tooltip 
+|-
+| Open SteamVR Input Bindings Panel
+|Edit SteamVR Bindings
+|Configuration for SteamVR Input is done through Steam Input Bindings
+|-
+|Finger Tracking Exclusive Mode
+|On/Off
+|Exclusive Mode automatically excludes Inputs sent by SteamVR drivers while hand tracking is enabled. This can avoid conflicting inputs such as double-clicks
+|-
+|Avatars Use Finger Tracking
+|On/Off
+|Avatars fingers will be animated by SteamVR skeletal data if enabled 
+|-
+|Double Tap Menu button opens Main menu
+|On/Off
+|Double tap the menu button to open the Main Menu
+|}
+
+====Desktop====
+{| class="wikitable"
+|+Control Settings ''[Desktop]''
+!Name
+!Values
+!Tooltip
+|-
+|Mouse Look Sensitivity
+|10-100%
+|Change how sensitive the mouse is when looking around the world
+|-
+| Invert Mouse Look
+|On/Off
+|Invert up and down movement when looking around the world
+|}
+
+====Mobile====
+{| class="wikitable"
+|+Touch Control Settings ''[Mobile]''
+!Name
+! Values
+!Tooltip
+|-
+|Look Sensitvity 
+| 0-100%
+|Change how sensitive the touch controls are 
+|-
+|Auto Rotate Speed
+|0-30
+|Change how fast your rotate when you touch the edge of the screen
+|-
+|Show Secondary UI
+|On/Off
+|[Show/Hide] the secondary UI on the left side of the screen
+|-
+| Enable Auto Walk 
+
+|On/Off 
+|Click to [enable/disable] auto walk
+|-
+|Invert Look
+|On/Off 
+|Invert up and down movement when looking around the world
+|-
+|Allow Focus View 
+|On/Off
+| Click to [enable/disable] focus view support
+|-
+| Interaction Mode
+|Direct Touch, Reticle Aim
+
+|Change your interaction mode<br>
+'''[Direct Touch]''' Equip pickups by tapping on them<br>
+'''[Reticle Aim]''' Aim at pickups and tap the select button 
+|}
+
+===Tracking & IK===
+
+====Camera Tracking ====
+''See also [[Special:MyLanguage/Selfie Expression|Selfie Expression]] for more detailed information.''
+{| class="wikitable"
+! Name
+!Values
+!Tooltip
+|-
+| Enable Selfie Expression
+|On/Off
+|Selfie Expression uses your camera to animate your avatar! No one will see your real face. Image data is processed locally on your divce, only used for animation, and never saved.
+|-
+|Auto-Adjust Selfie Expression Quality 
+|On/Off 
+|Automatically adjust Selfie Expression quality depending on current frame rate
+|-
+|Selfie Expression Quality Level
+|Best Quality/High Quality/Balanced/Performance/Off
+|'''[Best Quality]''' Quality - Selfie Expression uses camera with highest resolution and framerate<br />
+'''[High Quality]''' Quality - Selfie Expression uses camera with higher resolution and framerate<br />
+'''[Balanced]''' Balanced - Selfie Expression uses camera with medium resolution and framerate<br />
+'''[Performance]''' Performance - Selfie Expression disables hand tracking and uses minimum camera resolution and framerate<br />
+'''[Off]''' Off - Selfie Expression is disabled until frame rate improves
+|-
+|Selfie Expression Also Moves Hands
+|On/Off
+| While Selfie Expression is enabled, and the Quality setting is set to 'Balanced' or above, allow moving hands via your webcam
+|-
+|Auto Recentering Speed
+|0-100
+|Adjust how quickly your avatar will automatically recenter rotation (to compensate your camera offset)
+|-
+|Recenter
+|
+|Instantly recenter your avatar to compensate for camera offset
+|-
+|Reset
+|
+|Reset to default
+|-
+|Change Webcam Device
+|
+|Change your current webcam device. Makes sure your webcam is not being used by other software
+|}
+====Eye Tracking====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Force Eyetracking Raycast
+|On/Off
+|When eyetracking is active, force eyes to converge at a distance determined by raycast hit
+|-
+|Display Eyetracking Debug
+|On/Off
+|When eyetracking is active, display debug overlay information 
+|-
+|Disable Eye Look Tracking
+|On/Off
+|Disable tracking eye look direction
+|-
+|Disable Eye Lid Tracking
+|On/Off
+|Disable tracking eyelid closed amount
+|-
+|Mic Mute Disabled Eyetracking
+|On/Off
+|The in-app mic mute function will disable eyetracking as well (when not using push-to-talk mode)
+|}
+
+====Finger Tracking====
+{| class="wikitable"
+!Name
+!Values 
+!Tooltip 
+
+|-
+|Jump Gesture
+|On/Off 
+|Enable or Disable jump Gesture
+|-
+|Grab Gesture 
+|Grab/Pinch/Combined
+|Choose finger grab gesture
+|}
+====Calibration & Debug====
+{| class="wikitable"
+!Name 
+!Values
+!Tooltip
+|-
+|Legacy Calibration
+|On/Off 
+|Toggles using the old locked avatar position style of FBT calibration
+|-
+|One Handed Calibration
+| On/Off
+|Only require holding a single trigger rather than both when finalizing FBT calibration
+|-
+|Display Calibration Visuals 
+|On/Off
+|Display extra detail during FBT calibration, Adjust FBT mode, and eyetracking debug
+
+|-
+|IK Debug Logging
+|On/Off
+|Adds additional output to the log regarding IK
+|-
+|Per-Avatar Calibration Adjustment
+|On/Off
+|Changes made in Adjust FBT mode will be applied per-avatar
+|-
+|Allow Sending Head and Wrist VR Tracking OSC Data*
+|On/Off
+|Send VR system head and wrist OSC data
+
+|-
+|Calibration Range
+|0.05-2.00m
+|Determines the distance from predicted supported binding points that the caliibration will search (in meters). The closest binding point to the center of the search sphere will be used.
+|-
+|Confirm Calibration 
+|On/Off
+|Confirmation dialogs when clicking the "Calibrate FBT" button are [enabled/disabled], click to [disable/enable].
+|-
+| FBT Tracker Model
+|Sphere, System, Box, Axis
+|Switch tracker model<br>
+'''[Sphere]''' Sphere - Your trackers will display as the classic default white ball<br>
+'''[System]''' System - Your trackers will display using models provided by your VR system<br>
+'''[Box]''' Box - Your trackers will display as boxes with colored sides representing standard xyz axis colors (lighter colors for positive direction)<br>
+'''[Axis]''' Axis - Your trackers will display with axis aligned protrusions with colored tips representing standard xyz axis colors (lighter colors for positive direction) 
+|}
+'''''*Footnote regarding the Allow Sending Head and Wrist VR Tracking OSC Data option:''' Legal Disclaimer: You are enabling a feature that will share data about you with third-party services and devices using the OSC network protocol. if you proceed, you are expressly directing VRChat to share data from your headset and other accessories with services and devices that you configure to receive such data. You can turn off this feature at any time in the "Tracking & IK" main menu options page.''
+
+====Body Tracking====
+{| class="wikitable"
+!Name
+!Values 
+!Tooltip
+|-
+|User Real Height
+|(3'0"-8'0" ft)/(0.81m-2.44m)
+|User Real Height should always be set to your height in real life. its important for properly matching your avatar with your body.
+|-
+|Metric Units Adjustment
+|On/Off 
+|Adjustment arrows for User Real hight increment in cm instead of inches<br>
+Adjustment arrows for User Real hight increment in inches instead of cm
+|-
+|Use Legacy IK Solving
+|On/Off
+|'''[Off]''' Now using new IK2.0<br>
+'''[On]''' Now using old legacy IK      
+|-
+|Disable Shoulder Tracking
+|On/Off
+|Prevents arm trackers from affecting shoulders. Use this to avoid issues with some types of IMU-only based arm trackers
+|-
+|Freeze Tracking on Disconnect 
+|On/Off
+|Cause trackers to freeze in place relative to the user when they are disconnected   
+|-
+|Shoulder Width Compensation
+|On/Off
+|Assists in straightening the arm when reaching upwards on avatars with narrow shoulders
+|-
+| FBT Locomotion Animation
+|On/Off
+|FBT locomotion animation is [enabled/disabled] click to [enable/disable]
+
+|-
+|Tracker Motion Prediction 
+|0-100%
+|Set how much latency compensating moton prediciton to use on body trackers, only works for SteamVR trackers.
+|-
+|Wrist Angle
+| -45° to 45°
+|Offsets the angle of the wrist alignment toward or away from the thumb     
+
+|-
+|Arm vs Height Ratio
+|30-60%
+|Adjusts the ratio used to scale the avatar when using mesure-by-arms mode  
+|-
+|Knee Angle 
+| -180° to 180°
+|Offsets the knee-bend angle as predicted by the foot angle. Ignored if knee trackers are used.
+|}
+
+===Accessibility===
+
+====General Accessibility Settings====
+{| class="wikitable"
+|+[VR Only]
+!Name
+!Values
+!Tooltip
+|-
+|Holoport Locomotion
+|On/Off
+|Enable third person locomotion (Holoport)
+|-
+|Locomotion Tunneling
+|None, Low, High
+| Choose locomotion style and tunneling to reduce motion sickness.<br>
+'''[None]''' Standard movement with no tunneling<br>
+'''[Low]''' Add a light tunneling effect while moving<br>
+'''[High]''' Add a heavy tunneling effect when moving 
+|-
+|Third Person Rotation
+| On/Off
+|Reduces motion sickness while turning.
+|-
+|Responsive Menu
+|On/Off
+|'''[On]''' Responsive Menu is enabled, click to keep Main Menu in its default position.<br>
+'''[Off]''' Responsive Menu is disabled, click to always spawn the main menu in your eyeline. 
+|}
+
+====Display and Visual Adjustments====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Screen Brightness
+|0-100% 
+|Adjust screen brightness
+|-
+|Bloom Intensity 
+|0-100%
+|Bloom multiplier. Set to 0% to disable bloom
+|-
+|Reduce Menu Animations
+|On/Off
+|Reduce Menu Animations is [enabled/disabled], click to [enable additional menu animations/reduce menu animations]
+|}
+
+====Color Blind Filters====
+{| class="wikitable"
+!Name
+! Values
+!Tooltip
+|-
+|Color Filters
+| On/Off
+|Enable/Disable color filters and their settings
+|-
+| Filter Intensity
+|0-100%
+|Change the intensity of the current filter
+|-
+|Apply To World
+| On/Off
+|Apply Filter to World
+|-
+|Color Filter
+|No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT
+|Select the color filter you would like to apply<br>
+'''[None]''' No filter selected<br>
+'''[Protanopia]''' Red / Green Filter<br>
+'''[Deuteranopia]''' Green / Red Filter<br>
+'''[Tritanopia]''' Blue / Yellow Filter<br>
+'''[Grayscale]''' Monochrome Filter<br>
+'''[Retro LUT]''' I Live In The Past Filter 
+|-
+|Simulate Color Blindness
+|On/Off
+|Simulate the selected color blindness option, rather than correcting for it.
+|}
+
+====Haptics====
+{| class="wikitable"
+|+[VR and Mobile Only]
+!Name
+!Values
+!Tooltip
+|-
+|UI Haptics
+|On/Off
+|When enabled your controller will react when interacting with UI elements
+|-
+|Pickup Haptics
+|On/Off
+|Interact haptics are [enabled/disabled], click to [disable/enable]
+|-
+|Avatar Touch Haptics
+|On/Off
+|Avatar haptics are [enabled/disabled], click to [disable/enable] Avatar haptics
+|}
+''Warning: Haptics can result in faster battery drain''
+
+====Chatbox====
+Chatbox settings are also available in the User Interface row.
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Local Chatbox Visibility
+|Mine, Friends, Everyone
+|Change chatbox visibility<br>
+'''[Mine]''' Only show your own chatbox<br>
+'''[Friends]''' Show chatboxes only from friends<br>
+'''[Everyone]''' Show chatboxes for everyone 
+|-
+|Chatbox Position
+|Above, Forward
+|Set chatbox to [above head/forward] position
+|-
+|Chatbox Height
+|0-100%
+|Change chatbox height
+|-
+|Chatbox Size
+|50-150%
+|Change chatbox size
+|-
+|Chatbox Opacity
+|25-100%
+|Change chatbox opacity
+|-
+|Chatbox Display Duration
+|2-60 seconds
+|Change chatbox display duration
+|-
+|Chatbox Notification Volume
+|On/Off, 0-100%
+|Change chatbox notification volume
+|-
+|Show Own Chatbox
+|On/Off
+|Show or hide your own chatbox
+|-
+|Send Text Automatically
+|On/Off
+|Toggle chatbox auto send
+|-
+|Chatbox Function
+|Clear Chatbox, New message
+|'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input 
+|}
+
+===Debug===
+''See also [[Special:MyLanguage/Debug Menu|Debug Menu]] for more detailed information.''
+
+====Debug====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|FPS
+|N/A
+|N/A
+|-
+|Ping
+|N/A
+|N/A
+|-
+|Build
+|N/A
+|N/A
+|-
+|Report Bug
+|Report Bug
+|Logs when an issue is experienced<br>
+Click 'Continue' to create a timestamp in your active output log that can be included with your Bug Report (http://feedback.vrchat.com/bug-reports) or Support Ticket.
+|-
+|Clear Local Profile Data
+|Clear Local Profile Data
+|Clear the local profile data<br>
+The current user will be logged out.
+|-
+|Open Logs Folder
+|Open Logs Folder
+|Open the local logs folder
+|-
+|Logging
+|Full, Errors Only, Off
+|Controls whether to write debug messages to a log file<br>
+'''[Full]''' Log all debug and error messages<br>
+'''[Errors Only]''' Log error messages only<br>
+'''[Off]''' Do not log any debug or error messages
+|}
+
+====Avatar Debugging====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Avatar Overlay
+|None, Proximity Bones, All Bones, Contacts
+|Displays bone and contacts information when enabled.<br>
+'''[None]''' No avatar debug mode<br>
+'''[Proximity Bones]''' Avatar shows proximity bones<br>
+'''[All Bones]''' Avatar shows all bones<br>
+'''[Contacts]''' Avatar shows contacts
+|-
+|Avatar Debug
+|On/Off
+|Toggle the avatar debug console.
+|}
+
+====Managed Cached Data====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Clear Content Cache
+|Clear Content Cache
+|Remove all cached downloaded data<br>
+All cached downloaded content will be deleted. 
+|-
+|Clear Local Avatar Data
+|Clear Local Avatar Data
+|Clear your saved persistent avatar parameters<br>
+Your local avatar data will be deleted.
+|-
+|Clear Texture Cache
+|Clear Texture Cache
+|Reduce cache size by removing cached textures<br>
+All locally cached textures will be deleted. 
+|}
+
+====User Data====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|User Data
+|Reset All User Data
+|Reset your saved user data in all worlds you've visited (to reset a specific world's user data, visit that world's page).
+|}

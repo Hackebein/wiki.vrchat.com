@@ -1,0 +1,96 @@
+<languages/>
+{{Noticebox/Official}}
+
+
+VRChat es una plataforma que funciona con el motor de Unity. Los usuarios pueden crear y subir mundos y avatares utilizando el kit de desarrollo de software (SDK) de VRChat, iniciando un proyecto desde el [[Special:MyLanguage/VRChat Creator Companion|Creator Companion]].
+Los proyectos pueden estar destinados a [[Special:MyLanguage/Avatars|avatares]] o [[Special:MyLanguage/Worlds|mundos]], utilizando las versiones más recientes de Unity y del SDK, con la guía del Creator Companion.
+Puedes obtener el Creator Companion iniciando sesión en tu cuenta de VRChat en la página web y {{VRC link|https://vrchat.com/home/download|descargándolo}}.
+Tu cuenta debe tener al menos el [[Special:MyLanguage/Trust Rank|rango de confianza]] ''Nuevo usuario''  para acceder al software oficial de VRChat y poder subir contenido.
+
+Si es tu primera vez usando Unity, el {{VRC link|https://vcc.docs.vrchat.com/|Creator Companion}} o el {{VRC link|https://creators.vrchat.com/sdk/|SDK}}, existen varios tutoriales oficiales y creados por la comunidad que te ayudarán en el proceso de creación y subida del contenido que deseas.
+Usando el Creator Companion instalará Unity, así como también instalará y actualizará los SDK necesarios para mundos o avatares.
+
+{| class="wikitable"
+|+
+!Software
+!Versión
+|-
+|Compilación para VRChat
+|{{Template:Version|live}}
+|-
+|Compilación para el cliente
+|{{Template:Version/Build|live}}
+|-
+|SDK de mundos
+|{{Template:Version|sdk-worlds}}
+|-
+|SDK de avatares
+|{{Template:Version|sdk-avatars}}
+|-
+|VCC
+|{{Template:Version|creator-companion}}
+|-
+|Unity
+|{{Template:Version|unity-sdk}}
+|}
+
+<!--== Historial ==
+
+==== SDKs antiguos ====  
+Por favor, agrega información sobre versiones del SDK anteriores a VRCSDK 2.0.
+
+==== SDK 2.0 ====  
+¡Por favor, agrega información sobre el SDK 2.0 de VRChat!
+
+==== SDK 2.0 ====  
+¡Por favor, agrega información sobre el SDK 3.0!-->
+
+== SDK de mundos ==  
+[[File:Content Creator Tools SDK.webp|thumb|¡El SDK de VRChat puede usarse para crear avatares, mundos y código avanzado!]]
+El SDK de mundos de VRChat permite a los usuarios crear, subir y modificar distintos entornos en VRChat.
+
+=== Udon ===  
+[[Special:MyLanguage/Udon|Udon]] es el lenguaje de programación derivado de C# para VRChat, utilizado para crear experiencias avanzadas dentro de los mundos.
+
+== SDK de avatares ==  
+El SDK de avatares de VRChat permite a los usuarios crear, subir y modificar distintos avatares en VRChat.
+
+=== Dinámicas de avatar (Avatar Dynamics) ===  
+[[Special:MyLanguage/Avatar Dynamics|Dinámicas de avatar]], también llamadas ''interacciones'', son características avanzadas de un avatar que permiten a un usuario interactuar con su propio avatar o con los avatares de otros usuarios.
+
+=== PhysBones ===  
+Los [[Special:MyLanguage/Physbones|PhysBones]] son un componente del SDK para avatares que permite movimientos fluidos y avanzados en el sistema ''esquelético'' de un avatar, aplicando física a sus características.
+
+<span id="Official_resources"></span>
+==Recursos oficiales==
+
+*{{VRC link|https://creators.vrchat.com/|Conviértete en creador de VRChat}}
+*[https://docs.vrchat.com/ Documentos de VRChat]
+*[https://unity.com/releases/editor/whats-new/2022.3.22 Unity 2022.3.22]
+
+<span id="SDK-related_guides"></span>
+== Guías relacionadas con el SDK ==
+
+* [[Special:MyLanguage/Guides:Common SDK issues|Guides:Problemas comunes con el SDK]]
+* [[Special:MyLanguage/Guides:Udon guides|Guías:Guías para Udon]]
+* [[Special:MyLanguage/Guides:Constraint dampening|Guías:Amortiguación de restricciones]]
+* [[Special:MyLanguage/Guides:How to atlas your VRChat world|Guías:Cómo crear un atlas para tu mundo en VRChat]]
+* [[Special:MyLanguage/Guides:How to swap out baked lightmaps|Guías:Cómo reemplazar mapas de luz precalculados]]
+* [[Special:MyLanguage/Guides:Layers|Guías:Capas]]
+* [[Special:MyLanguage/Guides:Synchronization|Guías:Sincronización]]
+* [[Special:MyLanguage/Guides:World constraint|Guías:Restricciones de mundo]]
+* [[Special:MyLanguage/Guides:World thumbnails|Guías:Miniaturas para mundos]]
+
+<span id="See_also"></span>
+== Véase también ==
+
+* [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]]
+* [[Special:MyLanguage/VRC Quick Launcher|Lanzador rápido de VRChat]]
+* [[Special:MyLanguage/Worlds|Mundos]]
+* [[Special:MyLanguage/Avatars|Avatares]]
+* [[es.wikipedia:Unity_(motor_de_videojuego)|Unity (motor de videojuego)]] en ''Wikipedia''
+
+<span id="References"></span>
+== Referencias ==
+
+{{#translation:}}

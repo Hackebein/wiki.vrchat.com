@@ -1,0 +1,13 @@
+<noinclude><languages/></noinclude><includeonly>{{Infobox/Asset/Author|{{{1|}}}}}{{#if:{{{2|}}}|、{{Infobox/Asset/Author|{{{2|}}}}}|}}{{#if:{{{3|}}}|{{#if:{{{4|}}}|、{{Infobox/Asset/Author|{{{3|}}}}} 以及另外 {{{4}}} 位|和 {{Infobox/Asset/Author|{{{3|}}}}}}}|}}</includeonly><noinclude>
+=== 一位作者 ===
+{{Infobox/Asset/Authors|Tupper}}
+
+=== 两位作者 ===
+{{Infobox/Asset/Authors|Tupper|VRCat}}
+
+=== 三位作者 ===
+{{Infobox/Asset/Authors|Tupper|VRCat|VRRat}}
+
+=== 三位以上作者 ===
+{{Infobox/Asset/Authors|Tupper|VRCat|VRRat|14}}
+</noinclude>

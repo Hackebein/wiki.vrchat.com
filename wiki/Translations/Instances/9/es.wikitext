@@ -1,0 +1,2 @@
+==== Colas ====
+Las estancias pueden configurarse con una cola. Cuando se supera la capacidad, se forma una cola, indicada por un icono separado que muestra su longitud. Los botones de "Unirse" cambian a "Unirse a la cola". Los usuarios con el permiso de cola prioritaria del grupo se colocan al frente (detrás de cualquier usuario que ya esté allí con el mismo permiso); todos los demás se unen al final. El propietario del grupo evita la cola por completo.

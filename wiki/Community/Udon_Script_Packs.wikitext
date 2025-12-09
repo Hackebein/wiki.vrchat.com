@@ -1,0 +1,46 @@
+{{Noticebox/Community}}Found here are a selection of different Udon Script Packs. These Packs each contain a sizable assortment of Udon Behavior Scripts. They all aim to help equip creators with a solid toolkit to integrate World Interactions.
+
+== Udon Graph Triggers ==
+Udon Graph Triggers is a collection of Udon Graph Behaviours that cover all essentials to set up basic world interactions. They use [[Special:MyLanguage/Udon|Udon Graph]] and require no other dependencies other than the [[VRChat SDK]]. The Pack can be downloaded here:
+<br>
+https://github.com/Maebbie/Udon-Graph-Triggers[[File:Udon Graph Triggers List.jpg|thumb|List of all Behaviours in this pack as seen in Unity|300x300px]][[File:Udon Graph Triggers Blended.jpg|none|thumb|All Behaviours of this Pack blended together]]
+
+=== Functionality ===
+Each Behaviour acts as a single purpose trigger. To make this manageable they follow the following Naming Convention:
+<br>
+<code>Event Type - Affecting  - State</code>
+
+For Example:
+<br>
+<code>OnInteract - GameObject - Toggle</code> -> OnInteract-GameObject-Toggle.asset
+<br>
+<code>OnEnable   - GameObject - On</code>     -> OnEnable-GameObject-On.asset[[File:Udon Graph Triggers Node Layout.jpg|thumb|Highlighted here are how between very different Udon Graphs, nodes stay at their same coordinates]]
+
+Therefore each interaction only needs to be dragged to the "Program Source" field of the Udon Behaviour script to work. From there only the target/targets need to be selected.
+<br>
+[[File:Udon Graph Triggers Program Source.jpg|border|frameless]] 
+ 
+=== Node Layout ===
+Each script follows a standardized Node Layout. This means the Event Node has the same coordinates on all Behaviours. Same for other reoccurring nodes such as "Set Active" or the for loop node. This aims to help understand each behaviour better and potentially use it as a stepping stone to modify them.
+
+== CyanTrigger ==
+CyanTrigger is an Udon compiler, that aims to resemble the old SDK2 Trigger UI. It also adds more functionality on top of it. It does so accessing Udon directly and interpreting it in a way easy to grasp for the user. It requires CyanTrigger to work, meaning triggers that are set up with it may not run without it.
+
+It can be downloaded here: https://github.com/CyanLaser/CyanTrigger
+[[File:CyanTrigger Interface.png|none|thumb|206x206px|CyanTrigger interface, resembling the one used with SDK2]]
+
+== VUdon ==
+An extensive ecosystem of dependency-heavy Udon Scripts with complex functionality. The github found below serves as a repository linking to different Extensions of VUdon:
+
+The main repository can be found here: https://github.com/Varneon/VUdon
+[[File:VUdon-Noclip.png|none|thumb|The Noclip extension is one part of VUdon]]
+
+== Udon Starter Kit ==
+A collection of more advanced scripts: https://github.com/akalink/Udon-Starter-Kit
+
+It also comes with [https://garrett-mcpherson.gitbook.io/udon-starter-kit-wiki its own wiki] that details each script.
+
+== UdonToolkit ==
+Purpose-built scripts made with Udon Sharp: https://github.com/orels1/UdonToolkit
+[[Category:Resources]]
+[[Category:Community Content]]

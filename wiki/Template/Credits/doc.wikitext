@@ -1,0 +1,45 @@
+[[Category:Template Documentation]]
+== Examples ==
+====Just icon====
+<code><nowiki>{{credits}}</nowiki></code>
+
+{{credits}} 
+====Bigger icon====
+<code><nowiki>{{credits|size=64}}</nowiki></code>
+
+{{credits|size=32}} 
+====With value====
+<code><nowiki>{{credits|420}}</nowiki></code>
+
+{{credits|420}} 
+== TemplateData documentation==
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Value",
+			"description": "Value displayed next to the icon, so it can be used as a currency. Line break between the icon and text is prevented.",
+			"type": "string",
+			"example": "420"
+		},
+		"size": {
+			"label": "Size (in pixels)",
+			"description": "Defaults to 16px",
+			"type": "number",
+			"suggestedvalues": [
+				"16",
+				"32",
+				"64",
+				"128"
+			],
+			"default": "16"
+		}
+	},
+	"description": "Allows for the credits icon to be utilized in-line, as well as using it as a currency and displaying a value next to without any line breaking.",
+	"format": "inline",
+	"paramOrder": [
+		"1",
+		"size"
+	]
+}
+</templatedata>

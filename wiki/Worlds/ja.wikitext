@@ -1,0 +1,82 @@
+<languages/>
+''詳しくは[[Special:MyLanguage/Instances|インスタンス]] も参照。''{{Noticebox/Official}}
+
+ワールド（Worlds） とは、[[Special:MyLanguage/VRChat|VRChat]] 内でユーザーが活動する仮想空間である。ユーザーはワールド内で他のユーザーと交流し、環境やさまざまな機能・メカニクスと相互作用できる。ワールドはコミュニティの一員によって創られ、[[Special:MyLanguage/VRChat SDK|VRChat SDK]] を使用してパブリックまたはプライベートとしてアップロードされ、他のユーザーが入れるようにできる。ワールドは、それぞれの[[Special:MyLanguage/Platforms|プラットフォーム]]に対応するため、各プラットフォーム向けにアップロードする必要がある。
+
+ワールドの種類は様々であり、交流の場、ゲーム、アバター展示、美しい景色など、さまざまなテーマを持ったワールドがある。各ワールドには、同時に複数のセッションが存在することがあり、これらを[[Special:MyLanguage/Instances|インスタンス]]と呼ぶ。インスタンスには、紐づけられたグローバル地域、ワールド作成者が設定した最大ユーザー数、して誰が参加できるか・誰がそのインスタンスを管理できるかを制御するインスタンスタイプがある。
+<span id="Discovering_and_joining_worlds"></span>
+== ワールドの発見と参加 ==
+
+[[File:VRC Worlds Banner.png|thumb|ワールドのロゴの公式レンダリング
+ユーザーは、VRChatを初めて起動する前に、[https://vrchat.com/home VRChatウェブサイト]にログインするか、モバイルデバイスのVRChatのメインページを使用してワールドを発見できます。VRChatを初めて起動すると、ユーザーは自分のホームワールドに出現します。
+<span id="Home_world"></span>
+===ホームワールド ===
+
+ホームワールドとは、ユーザーがVRChatを起動した際に最初に参加するワールドのことです。デフォルトでは、ホームワールドは[[Special:MyLanguage/VRChat Home|VRChat Home]] に設定されていますが、VRChat内で利用可能な任意のワールド<ref group="note" name="any-world">ただし、プライベートワールドや[[Special:MyLanguage/Community_Labs|コミュニティラボ]]内のワールドはホームワールドに設定できません。</ref> に変更することができます。ワールドを選択し、アクションセクション内の'''「ホームに設定（Make Home）」''' をクリックすると、そのワールドをホームワールドとして設定できます。
+
+ホームワールドのインスタンスタイプと地域も変更できます。デフォルトでは、インスタンスタイプは「招待（Invite）」に設定され、地域は自動的に最適なものに設定されます。この設定は[[Special:MyLanguage/Settings#Safety|快適さと安全設定]]で変更できます。
+
+<!-- 技術的には、ホームワールドをプライベートやコミュニティラボワールドに設定することも可能ですが、それはAPIを通じてのみ機能します。クライアント内では、パブリックな非コミュニティラボワールドにしか設定できません。 --> <references group="note" />
+<span id="Using_the_menu"></span>
+===メニューの使用 ===
+
+[[Special:MyLanguage/Menus|メニュー]]を開くと、新しいワールドやインスタンスに参加するためにいくつかの異なる方法があります。
+
+<span id="&quot;Worlds&quot;_Quick_Link_/_tab"></span>
+===="ワールド"クイックリンク / タブ====
+
+[[Special:MyLanguage/Quick Menu|クイックメニュー]]を開くと、'''ワールド'''のクイックリンクボタンを使用することで、ユーザーは[[Special:MyLanguage/Main Menu|メインメニュー]]に移動します。デフォルトでは、VRCatのバラエティボックスが表示され、さまざまなワールドカテゴリからランダムに選ばれたワールドが紹介されます。メインメニューのどこにいても、ユーザーは画面下部のワールドタブを使用してこのページにアクセスすることもできます。
+
+ワールドタブの左側では、「トレンド（Trending）」「アバターワールド - トレンド（Avatar Worlds - Trending）」「ゲーム - アクティブ（Games - Active）」「新着 & 注目（New & Noteworthy）」など、特定のワールドカテゴリを選択できます。これにより、さまざまなカテゴリで人気のあるワールドを素早く見つけることができます。ここでワールドのタイルをクリックすると、そのワールドの詳細メニューページに移動し、既存のインスタンスに参加するか、新しいインスタンスを作成するか、直接参加するか、ワールドポータルを設置するオプションが表示されます。各ワールドは[[Special:MyLanguage/Community:World Thumbnail|サムネイル]]で表され、その内容についての概要が提供されます。
+<span id="Recently_visited,_and_favorite_worlds"></span>
+====最近訪れたワールドとお気に入りのワールド ====
+
+ワールドタブ内には、'''マイワールド（My Worlds）'''という折りたたまれたドロップダウンがあり、そこにはユーザーがアップロードしたワールド、最近訪れたワールド、お気に入りのワールドのリストが含まれています。
+<span id="Search"></span>
+====検索====
+
+ワールドタブから、ユーザーは「ワールドを検索（Search Worlds）」ボタンを使用して、タイトル、説明、タグ、作成者などで特定のワールドを検索できます。検索結果は、関連性、最終更新日、人気順で並べ替えることもできます。
+
+ユーザーは、メインメニューの検索タブも使用できます。このタブには、ワールドを発見するためのさまざまな検索項目が含まれており、2つの異なるカテゴリに分類されています：おすすめ検索（Recommended Searches）とクイックワールド検索（Quick World Searches）。クイックワールド検索は、異なる検索項目をランダムに表示することができます。
+<span id="Portals"></span>
+===ポータル ===
+
+''詳細については、[[Special:MyLanguage/Portals|ポータル]] を参照してください。''
+
+[[Special:MyLanguage/Portals|ポータル]]は、ユーザーが特定のワールドやインスタンスにアクセスするための簡単な方法を提供します。これにより、メニューを通じて個別に探し回る必要がなくなります。ポータルには、そのワールドの画像が表示され、通常、タイトルが上部に表示され、ユーザー容量や地域などの他の詳細も記載されます。デフォルトでは、ポータルに向かって歩いて進むと、関連するワールドに移動しますが、[[Special:MyLanguage/Settings#Comfort & Safety|設定]]を変更することで、ユーザー入力（ポータルプロンプト）を要求するように設定でき、意図しない移動を防ぐことができます。ポータルには2種類があります：
+<span id="Static_portals"></span>
+====静的ポータル====
+
+ワールドには、他のワールドへのリンクとして機能する「静的ポータル」を含めることができます。これらはワールドの一部であり、通常はその場に恒久的に存在し、他のユーザーがインタラクトできるようになっています。ユーザーが静的ポータルを通り抜けると、30秒から始まるカウントダウンが開始され、その後のユーザーはカウントダウンが終了するまで同じインスタンスに進むことができます。
+<span id="User-placed_portals"></span>
+====ユーザー設置ポータル====
+
+ユーザーは、ワールドタブでワールドを検索し、'''新しいインスタンス（New Instance）'''を選択し、インスタンスタイプを選んだ後、'''ポータルを設置（Drop Portal）'''することで、ワールドインスタンスへのポータルを設置できます。ポータルは、指定されたスポーン地点の近くを除くほとんどの表面に設置できます。これらは静的ポータルと同じように見えますが、ユーザーがポータルを設置すると、カウントダウンタイマーが開始され、30秒から始まります。タイマーは、他のユーザーがポータルに入ることで延長されます。タイマーが終了すると、ポータルは消えます。
+<span id="Creating_and_uploading_worlds"></span>
+==ワールドの作成とアップロード==
+
+VRChatのワールドを作成してアップロードするには、ユーザーが「ユーザー」信頼ランクに達している必要があります。
+
+ワールドの作成を始めるには、[[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]] をダウンロードしてください。これにより、VRChatに対応した最新のUnityバージョンのインストールがサポートされ、ワールドプロジェクトに[[Special:MyLanguage/VRChat SDK|VRChat SDK]] をインストールすることができます。ワールドを初めて公開アップロードする場合、正式に公開される前に[[Special:MyLanguage/Community Labs|コミュニティラボ]]に配置されます。 
+<span id="See_also"></span>
+==関連項目==
+
+* [[Special:MyLanguage/List of worlds created by VRChat|VRChat作成ワールド一覧]]
+
+* [[Special:MyLanguage/Community Labs|コミュニティラボ]]
+
+* [[Category:機能{{#translation:}}]]
+
+*[[Special:MyLanguage/Instances{{#translation:}}|インスタンス]]
+
+*[[Special:MyLanguage/Portals|ポータル]]
+<span id="Trivia"></span>
+==トリビア==
+
+* 最初のVRChatワールドはカフェでした。更新版は2024年1月16日にVRChatの10周年記念としてアップロードされました。<ref>[https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973 '''VRChat.''' ''VRChat Cafe.'' VRChat, 16 Jan. 2024. '''VRChat''', https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973]</ref>
+<span id="References"></span>
+==参考文献==
+
+<references />
+
+[[Category:Needs Images{{#translation:}}]]

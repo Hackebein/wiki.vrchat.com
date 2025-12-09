@@ -1,0 +1,26 @@
+<noinclude><languages/></noinclude><includeonly><infobox type="World" theme="community">
+	<title source="name"><default>'''Missing name!'''</default></title>
+	<image source="image"><default>[[File:Placeholder.webp|Missing thumbnail image!]]</default></image>
+	<group>
+        <data source="author"><label>Autore</label><default>'''Missing author!'''</default></data>
+        <data source="developers"><label>Sviluppatori</label></data>
+        <data source="capacity"><label>Capacità</label></data>
+        <data source="platforms"><label>Piattaforme</label></data>
+        <data source="tags"><label>Targhette</label></data>
+        <data source="languages"><label>Lingue</label></data>
+        <data source="id"><label>Link Mondo</label>
+           <default>'''Missing world ID!'''</default>
+           <format>{{World link|{{{id}}}|{{{name}}}}}</format></data>
+    </group>
+    <group>
+        <header>Storia mondo</header>
+        <data source="labs">
+            <label>Pubblicato al Laboratorio</label>
+            <format><span lang="en" dir="ltr" class="mw-content-ltr">{{#timel:F d, Y |{{{labs}}}}}</span></format>
+        </data>
+        <data source="published">
+            <label>Pubblicato</label>
+            <format><span lang="en" dir="ltr" class="mw-content-ltr">{{#timel:F d, Y |{{{published}}}}}</span></format>
+        </data>
+    </group>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}[[Category:Worlds{{#translation:}}]]</includeonly><noinclude>{{Documentation}}[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>

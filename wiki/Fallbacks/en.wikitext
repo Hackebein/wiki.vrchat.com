@@ -1,0 +1,70 @@
+{{Noticebox/Official}}'''Fallbacks''', or fallback [[Special:MyLanguage/avatars|avatars]], are optimized avatars that serve as a placeholder for when the user can't see another user's original avatar, such as when users are on different [[Special:MyLanguage/platforms|platforms]]. Fallback avatars work in tandem with the Avatar Fallback System.
+
+==Avatar Fallback System==
+The Avatar Fallback System (not to be confused with the [https://creators.vrchat.com/avatars/shader-fallback-system Shader Blocking and Fallback System]) is the way for users to select which fallback avatar is shown to others when they aren't able to see your original avatar. It also serves as an icon on your nameplate, letting users know that they're viewing a fallback and why.
+
+===Identifying fallbacks===
+You can identify if you're viewing another user's fallback by viewing their nameplate. If you see a blue feather icon, that user is in a fallback avatar.
+
+==== Fallback types ====
+In the bottom right corner of the blue feather icon, shows another icon explaining why the fallback avatar is showing. Here's what these icons mean:
+{| class="wikitable"
+!Type
+!Icon
+!Explanation
+|-
+|Performance Blocked
+|[[File:Perf fallback verypoor.png|frameless|32x32px]]
+[[File:Perf fallback poorAndBelow.png|frameless|32x32px]]
+|Appears when the user's avatar exceeds the [[Special:MyLanguage/Settings#Avatar Optimization|Minimum Avatar Performance Rank]] you've set.
+|-
+|File Size Blocked
+|[[File:Perf fallback fulldrive.png|frameless|32x32px]]
+|Appears when the user's avatar exceeds the Maximum Allowed Avatar Download Size or Uncompressed Size you've set.
+|-
+|Impostor
+|
+|Appears when viewing the user's [[Special:MyLanguage/Impostors|impostor]].
+|-
+|Filtered
+|
+|Appears when the user's avatar gets filtered by [[Special:MyLanguage/Content Gating|Content Gating]].
+|-
+|Missing Asset
+|[[File:Perf fallback missing.png|frameless|32x32px]]
+|Appears when the user's avatar isn't available on your platform.
+|-
+|Error
+|[[File:Perf fallback error.png|frameless|32x32px]]
+|Appears when the user's avatar hasn't loaded due to an error.
+|}
+There is another icon that can appear, this icon ([[File:Perf SafetyBlocked.png|frameless|22x22px]]) appears when looking at the placeholder default [[Special:MyLanguage/Robot|Robot]] avatar, when using viewing a fallback avatar is not possible. Here are the reasons why the icon would appear:
+{| class="wikitable"
+!Type
+!Explanation
+|-
+|Blocked via Safety
+|The user's avatar has been blocked by the [[Special:MyLanguage/Trust and Safety|Trust and Safety System]].
+|-
+|Manually Hidden
+|The user's avatar has been manually hidden by you using the "Hide Avatar" button in the [[Special:MyLanguage/Quick Menu|Quick Menu]].
+|-
+|Loading
+|The user's avatar is loading. Either if the avatar is still downloading or initializing.
+|}
+
+===Choosing a fallback===
+You can choose your fallback avatar by opening your Quick Menu, then select the Avatars quick link. On the left side of the Avatars page, scroll down and select the "Fallbacks" category. Once here, select on an avatar of your liking, and select "Set as Fallback" on the right side of the page.
+
+You only have 2 options for choosing a fallback:
+
+*Uploading a custom avatar as a fallback.
+*Using avatars from the Public fallbacks.
+
+====Custom fallbacks====
+If you aren't happy with the selection of avatars available, you can upload your own custom fallback avatar. There are a few conditions you have to follow in order to upload and use a custom fallback:
+
+*Be built for all available platforms.
+*Performance rank must be Good{{performance|good|22}} or better on the respective platform.
+*Have the Fallback flag set from the Android upload.
+[[Category:Needs Images]]

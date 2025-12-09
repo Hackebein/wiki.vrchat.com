@@ -1,0 +1,92 @@
+<languages/>
+Questa '''Guida allo Stile''' ('''GaS''' o '''GAS''') è una guida fatta ad aiutare gli utenti ad assumere un corretto stile durante la scrittura di articoli per la Wiki di VRChat.
+
+Generalmente:
+
+* Tutti i contenuti sulla Wiki di VRChat devono essere accurati e veritieri.
+* I contributori devono scrivere in maniere diretta, concisa, usando un registro linguistico medio e una struttura costante per ogni articolo, con impostazioni di pagina e formattazione tali da rendere la lettura agevole.
+* Se hai una domanda in merito a stile, struttura, o formattazione della Wiki di VRChat, contatta uno dei [https://wiki.vrchat.com/wiki/Special:ListUsers?username=&group=community-mod&wpsubmit=&wpFormIdentifier=mw-listusers-form&limit=50 Moderatori della Communità] per aiuto.
+
+Di seguito sono presenti alcune direttive specifiche allo stile.
+
+<span id="Article_titles"></span>
+== Titoli degli articoli ==
+
+Un titolo dovrebbe essere descrittivo del tema dalla pagina, suonando naturale, quindi sensato per il tema, sufficientemente preciso, conciso e coerente, con quelli degli articoli correlati.
+
+<div class="mw-translate-fuzzy">
+Per la guida alla formattazione consulta la prima sezione di Titoli degli articoli, notando quanto segue:
+* La prima lettera del titolo va in maiuscolo, con le restanti in minuscolo. VRChat applica questa regola anche per: titoli degli articoli, titoli delle sezioni, intestazioni delle tabelle, didascalie delle immagini, per quasi tutti gli elementi delle liste e elementi nelle infobox e template simili. 
+* Non usare articoli (''il'', ''lo'', ''la'', ''i'', ''gli'', ''le'') (''un'', ''uno'', ''una'') come prima parola di un titolo, esempio: ([[Special:MyLanguage/Creator Economy|Economia Dei Creatori]] e non [[Special:MyLanguage/Creator economy|L'Economia Dei Creatori]]), a meno che non sia parte integrante del nome, come per i nomi di mondi: ([[Special:MyLanguage/The Black Cat|The Black Cat]]), o anche il titolo di un progetto (''The VRChat Times'').
+* Usa i sostantivi per il plurale: "Menù", e non "I menù". Frasi come "I menù di VRChat" sono accettabili (ma non obbligatorie) come titoli di sezioni.
+* L'ultimo carattere di una frase non deve mai essere un carattere di punteggiatura, se non è parete di un titolo (''Ma gli androidi sognano pecore elettriche?''), o di un abbreviazione (VRChat Inc.), o quando una parentesi tonda o doppi apici (") sono richiesti (''Avatar Fantastici (e dove trovarli)'').
+* Quando sono presenti caratteri come i doppi apici o un accento, aggiungi un redirect per il titolo con gli apostrofi. Evita l'uso di virgolette tipografiche perché i doppi apici e gli apostrofi sono più semplici da digitare e mostrare accuratamente su molteplici piattaforme.
+</div>
+
+<span id="Section_headings"></span>
+==Titoli delle sezioni==
+
+I titoli delle sezioni devono seguire le stesse direttive e regole dei titoli degli articoli (la sezione soprastante) ricordando sempre che la prima lettera del titolo va in maiuscolo e tutte le restanti in minuscolo: "Una dieta sana per il tuo VRGatto", non "Una Dieta Sana Per Il Tuo VRGatto".
+
+Le intestazioni devono essere su una riga separata, con una riga vuota che la precede; una riga vuota che segue è opzionale e viene ignorata. 
+
+Nota: usare due righe vuote, prima o dopo, causa l'aggiunta di uno spazio vuoto indesiderato.
+
+Per ragioni tecniche, le intestazioni devono:
+
+* Avere un nome unico nella pagina, cosicché i link di sezione portino gli utenti alla sezione giusta.
+* Non contentere link, specialmente quando soltanto una parte del titolo è un collegamento.
+* Non contentere immagini, emoji o icone.
+* Non contenere citazioni o note a piè di pagina.
+* Usare correttamente markup di descrizione lista (";") per creare pseudo-intestazioni.
+* Non contenere transinclusione di template.
+
+In merito alla costanza di stile, le intestazioni di sezione dovrebbero:
+
+* Evitare riferimenti ridondanti al tema dell'articolo: scrivi "Primi Anni" e non "I Primi Anni Di Vita Di Alfonso" e nemmeno "I Suoi Primi Anni Di Vita".
+* Non riferirsi a sezioni soprastanti, a meno che non ne vada a nuocere la chiarezza e la concisione.
+* Evitare la presenza di numeri o lettere atti ad elecare o numerare la sezione.
+* Evitare di essere poste come domande, ad esempio: in un articolo sull'Italia, nella sezione inerente ai dialetti, evita titoli come: "Quali sono i dialetti d'Italia?", usa invece: "Dialetti".
+* Non usare colori e font che potrebbero dare problemi di accessibilità.
+* Evita di inserirle in un markup, perché potrebbe causare un'errata disposizione degli elementi della pagina, creando problemi di accesibilità.
+
+<span id="English_word_choice_and_capitalization"></span>
+== Scelta di parole italiane e capitalizzazione ==
+
+Per facilitare la localizzazione dei contenuti wiki a lungo termine, considera alcune scelte di stile come queste:
+
+* '''Le citazioni, i titoli di opere (libri, film, ecc.)''' dovrebbero essere capitalizzati come indicato nella fonte (vedi però la sezione Conformità tipografica, di seguito);
+* '''I nomi propri''' usano l'ortografia e la capitalizzazione del soggetto, ad esempio: "...progetto congiunto di VRChat Inc. e VRChat Community Labs..."; "International Avatar Federation";
+* Generalmente, non capitalizzare gli articoli a metà frase: scrivi "il Regno Unito", non "Il Regno Unito".
+* Impiega termini di uso comune piuttosto che quelli meno diffusi, specialmente nei titoli. Ad esempio, usa: "Non originale" invece di "Pedissequo".
+* Se una variante ortografica appare in un titolo, crea una pagina di reindirizzamento per includere le altre varianti, come con "prìncipi" e "princìpi", in modo che tutte le varianti possano essere utilizzate nelle ricerche e nei collegamenti.
+
+<span id="Links"></span>
+== Link ==
+
+Quando è necessario scegliere una risorsa per la scrittura, prova a usarne una interna all'ecosistema di VRChat, ed evita di usare link con parametri traccianti.
+
+<span id="Group_Links"></span>
+=== Link Gruppi ===
+
+Quando crei collegamenti ai tuoi gruppi, assicurati di aver fornito un link permanente. Il link deve mostrare il nome del gruppo, con il suo codice subito dopo.
+
+Esemio:
+* [https://vrchat.com/home/group/grp_7ccb6ca3-cd36-4dab-9ab1-7bcf08d794e4 Team VRChat] - VRCHAT.0000
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Categories ==
+When adding a category to a page, ensure you are adding <code><nowiki>{{#translation:}}</nowiki></code> within the category enclosing.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Example:
+* <code><nowiki>[[Category:Game worlds{{#translation:}}]]</nowiki></code>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This ensures that future pages that get marked for translation doesn't clog up the category list with language variants of the same page.
+</div>
+
+----
+{{Navbox/Wiki_policies}}

@@ -1,0 +1,106 @@
+{| class="wikitable"  
+|+  
+!Variante d’horloge  
+!Description  
+|-  
+|Horloge normale (Par défaut, Ennuyeuse)  
+|Affiche une horloge en haut du menu rapide.  
+|-  
+|Pas l’heure ! <sup>de parler ?</sup>  
+|Supprime complètement l’horloge du menu rapide, le laissant vide.  
+|-  
+|Horloge LGBTQ+  
+|Affiche une horloge arc-en-ciel colorée, en référence au [[wikipedia:Rainbow_flag_(LGBT)|drapeau de la fierté]].  
+|-  
+|Swatch Internet Time (.beats)  
+|Une mesure alternative du temps en base décimale ; affiche les [[wikipedia:Swatch_Internet_Time|.beats]]  
+|-  
+|Durée de session VRChat ⏱️  
+|Affiche depuis combien de temps vous êtes en ligne, au format HH:MM.  
+|-  
+|Horloge Ultra Premium VRChat+ ☆  
+|Fait passer l’horloge au jaune. ''Ceci est une horloge exclusive [[Special:MyLanguage/VRC+|VRC+]] !''  
+|-  
+|Date <sup>(invite-les, tu peux le faire !)</sup>  
+|Affiche le mois, le jour et l’année au format MM/JJ/AAAA.  
+|-  
+|Est-ce jeudi ?  
+|Répond « Non » tous les jours, sauf le jeudi où elle affiche « Oui ».  
+|-  
+|Grande horloge  
+|Identique à l’horloge normale, mais avec une police plus grande et plus lisible.  
+|-  
+|Petite horloge  
+|Identique à l’horloge normale, mais avec une police plus petite et plus difficile à lire.  
+|-  
+|HORLOGE BEAUCOUP TROP GRANDE  
+|Encore plus grande que la Grande horloge, déborde du menu rapide.  
+|-  
+|Horloge cassée  
+|Toujours rouge et clignotante à "12:00AM" ou "00:00", comme un réveil numérique.  
+|-  
+|Heure du shader  
+|Affiche l’heure actuelle, en rose. En référence à une erreur de shader manquant.  
+|-  
+|<blink />  
+|Fait clignoter l’heure actuelle.  
+|-  
+|<marquee />  
+|Fait défiler l’horloge comme un bandeau défilant numérique.  
+|-  
+|Horloge inversée 🔙  
+|L’horloge est à l’envers !  
+|-  
+|kcolC esreveR  
+|L’horloge est inversée !  
+|-  
+|Horloge de dos ???  
+|L’horloge passe derrière le menu rapide, et VRCat se retourne aussi.  
+|-  
+|ʇuǝɯǝʅɐɔᴉʇɹǝʌ ǝǝsɹǝʌuᴉ ǝɓoʅɹoH 
+|L’horloge est à l’envers (tête en bas) !  
+|-  
+|Date stellaire (TNG)  
+|Affiche la ''[[wikipedia:Stardate|date stellaire]]'' actuelle de Star Trek : La Nouvelle Génération. 🖖  
+|-  
+|Heure Unix ''(32 bits)''  
+|Secondes écoulées depuis le 1er janvier 1970, selon l’[[wikipedia:Unix_time|époque Unix]].  
+La valeur maximale d’un entier signé 32 bits expirera le 29 janvier 2038.  
+|-  
+|Heure Unix ''(64 bits)''  
+|Secondes écoulées depuis le 1er janvier 1970, selon l’époque Unix.  
+La valeur maximale d’un entier signé 64 bits expirera dans des milliards d’années.  
+|-  
+|Heure Unix ''(Nano)''  
+|  
+|-  
+|Horloge ''très'' précise  
+|Affiche les heures, minutes, secondes, et 10<sup>-7</sup> secondes.  
+|-  
+|''DateTimeFormat.ShortTimePattern''  
+|Affiche "'''h:mm tt'''".  
+|-  
+|Heure réseau Udon  
+|Affiche le {{VRC link|https://creators.vrchat.com/worlds/udon/networking/|temps réseau pour Udon}}, en millisecondes.  
+|-  
+|RFC3339  
+|  
+|-  
+|RFC3339Nano  
+|  
+|-  
+|UTC(-ish) ITU-R TF.460-6  
+|  
+|-  
+|Heure GPS  
+|  
+|-  
+|Heure binaire  
+|  
+|-  
+|Jours dans VRChat  
+|Affiche le nombre de jours depuis que l’utilisateur a rejoint VRChat.  
+|-  
+|Aléatoire !  
+|Choisit aléatoirement l’une des horloges ci-dessus.  
+|}

@@ -1,0 +1,373 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Murder 4
+|image=File:Murder4.webp
+|author=[https://vrchat.com/home/user/LyCh6jlK6X Jar]
+|capacity= 12 (24)
+|platforms=PC, Android
+|tags=game, udon, murder, Approved
+|id=wrld_858dfdfc-1b48-4e1e-8a43-f0edc611e5fe
+|labs=December 03, 2020
+|published=December 04, 2020
+}}
+<translate>
+<!--T:1-->
+{{Quote|A murderer is on the loose again! Help the detective by finding clues and tracking down the culprit․ Now with avatars! By jar}}
+
+<!--T:2-->
+'''Murder 4''' is a cross-compatible player-versus-player horror [[Special:MyLanguage/:Category:Game worlds|game world]], created by ''Jar'' in 2020. Up to twenty-four players can play at a time, but a minimum of three players must be present to begin. There are three possible roles to play as: The '''Detective''', '''Bystander(s)''', and '''Murderer'''. There are clues, photographs, weapons, and hazards that players will encounter. The objective of the Murderer is to eliminate every player in the mansion. The objective of the Detective is to find out and eliminate the murderer, and the Bystanders is to work together to identify and neutralize the Murderer.
+
+==Game modifiers== <!--T:3-->
+
+<!--T:4-->
+The instance master can optionally use Game Modifiers to change the rules.
+
+<!--T:5-->
+* '''Teams Enabled''' - summons twelve circles to stand on in the lobby. More than one player can inhabit the same circle, guaranteeing to pair them with the same role as everyone in the circle, allowing there to be more than one Detective or Murderer.
+* '''Scrambled Spawns''' - randomly selecting a room for players to start in the mansion, except the Detective always spawns in the Study.
+* '''One Unlock Only''' - spawns one unlockable weapon for the first player to collect all five clues, and no more clues will spawn for anyone else.
+* '''Invisible Knives''' is a game modifier that only allows the Murderer to see knives that are on the ground. Knives are still visible in the Murderer's hands.
+
+==Rooms== <!--T:6-->
+
+<!--T:7-->
+There are several rooms, and three floors in the mansion.
+
+<!--T:8-->
+{| class="wikitable sortable"
+!Room
+!Floor #
+!Knife?
+!Poison?
+!Beartrap?
+!Breaker?
+!Drawers/Cabinets
+|-
+|Bedroom
+|2
+|Yes
+|No
+|No
+|No
+|5
+|-
+|Ballroom
+|1
+|No
+|No
+|In closet
+|In closet
+|2
+|-
+|Billard Room
+|1
+|Yes
+|Yes
+|In closet
+|In closet
+|11
+|-
+|Cellar
+|B1
+|Yes 
+|Yes
+|No
+|Yes
+|2
+|-
+|Conservatory
+|1
+|No
+|No
+|No
+|No
+|0
+|-
+|Dining Room
+|1
+|No
+|No
+|No
+|No
+|8
+|-
+|Grand Hall
+|1
+|No
+|No
+|No
+|No
+|4
+|-
+|Kitchen
+|1
+|Yes
+|No
+|No
+|No
+|8
+|-
+|Lavatory
+|2
+|No
+|Yes
+|No
+|No
+|1
+|-
+|Library
+|1
+|Yes
+|No
+|No
+|No
+|2
+|-
+|Lounge
+|1
+|No
+|No
+|No
+|No
+|3
+|-
+|Upstairs Hall
+|2
+|No
+|No
+|No
+|In closet
+|0
+|-
+|Study 
+| 2
+|No
+|No
+|Yes
+|No
+|9
+|-
+|}
+
+==Clues== <!--T:9-->
+
+<!--T:10-->
+Clues are collectible sheets of paper or framed pictures, which will reward the player with one of four weapons after five clues have been collected. Any player in the game can collect clues, however, clues are networked locally, meaning that each player's own clues will appear in a different place from everyone else, and cannot be shared. Clues can be out in the open on shelves or behind doors but also may be hidden in drawers and cabinets. Opening drawers and cabinets may reward the player with a clue, so open as many as possible; opening drawers and cabinets helps the Detective and other Bystanders in the search for their clues. Two clues will spawn at a time, and when one clue is collected, then another clue will appear elsewhere on the map.
+
+<!--T:11-->
+Collecting all five clues will reward the player with one of four weapons:
+*'''Luger with suppressor''' - A handgun that can fire quietly. It can fire faster than the Detective's revolver.
+*'''Double-barrel shotgun''' - A shotgun that fires rounds very loudly. It can fire faster than the Detective's revolver.
+*'''Fragmentation grenade''' - A one-time-use grenade that will detonate and eliminate anyone within its blast radius.
+*'''Smoke grenade''' - A one-time use smoke bomb that obstructs vision, and slows down any player within the smoke's radius. The smoke clears after about thirty seconds.
+
+<!--T:12-->
+The pin of a grenade can be pulled by clicking the trigger, or the mouse button. The grenade will not detonate as long as it is being held.
+
+<!--T:35-->
+If a weapon is dropped, another player can pick it up and use it (unless a grenade's pin has already been pulled).
+
+</translate>
+
+[[File:M4Map.webp|thumb|<translate><!--T:13--> A "spectator" view of the Mansion. The purple gun shows where the detective spawns and the detective's revolver location, Hazards, and weapons are outlined. The cellar is hidden from view.</translate>]]
+
+<translate>
+
+==Photographs and camera== <!--T:14-->
+
+<!--T:15-->
+There are five collectible photographs to collect and sort out. These photographs can be sorted in the Study room. Finding all photographs and sorting them properly will reward the player with a flash-photography camera.
+
+<!--T:16-->
+The camera will stun anyone within the picture, forcing them to drop their held items. The camera has a very long cooldown. Ideally, the camera should be used to make an escape when its photographer feels threatened.
+
+==Roles== <!--T:17-->
+
+===The Murderer=== <!--T:18-->
+
+<!--T:19-->
+The Murderer's goal is to kill all other players in a round by utilizing various tools that can be found around the map. It is possible for there to be more than one Murderer via the 'Teams Enabled' modifier.
+
+<!--T:20-->
+The Murderer can control hazards around the map which can harm the Bystanders and Detective. These hazards can only be operated by the Murderer:
+
+<!--T:21-->
+*Knives are the most accessible and most concealable weapon for the Murderer. The Murderer can also throw knives at their victims. If a player touches a moving knife, they will be defeated. The Detective and Bystanders cannot pick up or use knives.
+
+<!--T:22-->
+*Opening a crate will release a snake (or cat, if the "Snake-phobia Safe" setting is enabled) to follow and attack other players. The snake (or cat) will make noises, which will alert it to nearby players. It can be defeated with an accurate shot or blast from a frag grenade. One crate will appear in a random room in each game.
+
+<!--T:23-->
+*There are bear traps in the Study, the Ballroom closet, and the Billiards closet that can be deployed anywhere by the Murderer. The only two ways to disarm the beartrap are for a player to activate it, eliminating them, or for the Murderer to disarm it.
+
+<!--T:24-->
+*Wine and glasses are props that any player can pick up and use, however, the Murderer can poison the wine, eliminating a player if they drink the beverage.
+
+<!--T:25-->
+*The power within the mansion can be cut off by the Murderer by pulling the breaker lever. The Detective and Bystanders will not be able to see easily in the dark, and nameplates will be disabled for them. The lights can be turned back on, by having a bystander or detective go back to the same breaker switch to turn it back on. These levers are upstairs in the closet, the closet in the Billiards room, one in the Cellar, and one in the Ballroom closet. When the power is off, the safest room to be in is outside in the Conservatory since the moon provides some lighting, and three methods of escape.
+
+===The Detective=== <!--T:26-->
+
+<!--T:27-->
+The Detective's goal is to cooperate with the Bystanders to identify and neutralize the Murderer. There can be more than one Detective via the 'Teams Enabled' modifier. All detectives will spawn in the Study room upstairs, but there will only be one revolver. The Detective should also assist Bystanders by opening drawers and cabinets to look for clues. The Detective can collect their own clues, and carry two weapons if in VR mode.
+
+<!--T:28-->
+The revolver is the slowest of the three guns, and the revolver will drop to the ground if the Detective or Bystander fires at an innocent player. This revolver can be picked up by anyone except for the Murderer, so it is also possible to ask Bystanders to pick up the revolver to prove their innocence. If a second firearm is found by the Detective, the smart strategy is to offer the revolver to the Bystander while the Detective keeps the Luger or shotgun.
+
+===The Bystander === <!--T:29-->
+
+<!--T:30-->
+The Bystander is a neutral party with the goal to survive. They can either help or hinder the Murderer or Detective, but the Bystander will win if they eliminate the Murderer. Ideally, the Bystander should look for clues or photographs to acquire a means of defence.
+
+<!--T:36-->
+==Achievements==
+Murder 4 has 52 achievements that can be unlocked by completing objectives. Achievements are saved using persistence.<center>
+===Normal achievements===
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Normal achievements
+!Achievement!!Description
+|-
+|Slaughterhouse||Win a game with 12 or more players.
+|-
+|Behind Closed Doors||Stab 25 players without witnesses.
+|-
+|Sheer Steel|| Kill 5 players with throwing knives from 5 meters away.
+|-
+| Bear Necessities|| Murder 10 players with bear traps.
+|-
+|Give 'em the Grizzly
+|Kill someone with a bear trap in the dark.
+|-
+|Knife to a Gun Fight||Use knives to kill a player who is holding a gun.
+|-
+|Outgunned||Use guns to murder 5 other players holding guns.
+|-
+|Point and Shoot|| Use guns to murder 15 victims.
+|-
+|Bitter End||Poison 5 players.
+|-
+|Sommelier||Poison a victim shortly after drinking poison yourself.
+|-
+|Free Noodle||Murder 3 players using the snake.
+|-
+|Hook, Line, and Slither||Murder a player right after they shoot the snake.
+|-
+|Lights Out
+|Switch off the lights 5 times.
+|-
+|Darkest Hour ||Turn off every light switch in a single game.
+|-
+|Shinobi||Murder a player from within a smoke cloud.
+|-
+|Hat Trick ||Murder 3 players with the silenced pistol in a single game.
+|-
+|Shotgun Spree||Murder 6 people with a shotgun in a single game.
+|-
+|The Long Con||As the murderer, collect enough clues to unlock an item.
+|-
+|Gonna Need a Bigger Morgue||Murder 100 players.
+|-
+|Opportune Moment|| Murder someone while they are blinded.
+|-
+|Secret Weapon||Kill using a knife stashed in the great hall grandfather clock.
+|-
+| Cat and Mouse||Murder the detective last. 
+|-
+|No Witnesses ||Kill 3 players who witnessed you turn off the lights.
+|-
+|Case Closed||As the detective, shoot the murderer 3 times.
+|-
+|My Favorite Deputy||Give your revolver to a bystander who shoots the murderer.
+|-
+|Legacy||Give your revolver to the detective from the previous round.
+|-
+|Super Sleuth ||As the detective, unlock an additional weapon.
+|-
+|Trigger Happy||Get 10 game-winning shots as a bystander.
+|-
+|Sharpshooter||Shoot the murderer from 12 meters away.
+|-
+| Everyone Stand Back||Blow up the murderer and nobody else.
+|-
+|Bombs Away ||Kill 4 or more players with a single explosion.
+|-
+|Smoke 'Em If You Got 'Em||Detonate a smoke grenade on 4 or more players.
+|-
+|Say Cheese||Blind 5 or more players with a camera flash.
+|-
+|Paparazzi||Photograph 12 players with the flash camera. 
+|-
+|Martyr||Blow up yourself and the murderer with the same grenade.
+|-
+|Contingency Plan||Blow up the murderer from beyond the grave.
+|-
+|Obtain Luger ||Collect clues to find the silenced pistol 3 times.
+|-
+|Obtain Sawed-Off||Collect clues to find a shotgun 3 times. 
+|-
+|Obtain Smoke||Collect clues to find a smoke grenade 3 times.
+|-
+| Obtain Frag||Collect clues to find a frag grenade 3 times.
+|-
+|Obtain Camera|| Solve the puzzle to unlock the flash camera.
+|-
+|Town Ain't Big Enough||Shoot the murderer in the final showdown.
+|-
+|Cold Case ||Win a game that lasts longer than 15 minutes.
+|}
+===Secret achievements===
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Secret achievements
+!Achievement!!Description
+|-
+|Not My Problem||Toss the revolver into the back garden.
+|-
+| Highly Suspect||Click the suspicious painting 50 times.
+|-
+|Meow||Get killed by a cat.
+|-
+|Flushed||Detonate smoke in the toilet.
+|-
+|Road Trip||Be in the car with 3 other players for a while.
+|-
+|Tilted|| Shoot the tilted sconce.
+|-
+|Fortissimo||Die while playing the piano.
+|-
+|Dressed to Impress ||Win 3 games after using a murder avatar pedestal.
+|-
+| Toss-Up||As the detective, throw the revolver for a bystander to catch.
+|}
+</center>
+
+==Trivia== <!--T:31-->
+
+<!--T:32-->
+*There is a framed portrait of actor [[Wikipedia:Will Smith|Will Smith]] in the Bedroom.
+*Many of Murder 4's sound effects are from Valve's [[Wikipedia:Left_4_Dead_(franchise)|Left 4 Dead]] series.
+*Murder 4 is statistically the most popular game in Jar's "Murder" series.
+*Clicking on a piece of paper in the upstairs closet, will emit a piano sound, allowing you to play a sample of songs from the piano in the Ballroom. The playable songs are at random, but are able to be played by repeatedly clicking on the piano keys. The list of available songs are as follows:
+**[https://www.youtube.com/watch?v=4Tr0otuiQuU Moonlight Sonata - Beethoven] (1801)
+**[https://www.youtube.com/watch?v=x6zypc_LhnM Linus & Lucy - Vince Guaraldi] (1964)
+**[https://www.youtube.com/watch?v=VOgFZfRVaww Imagine - John Lennon] (1971)
+**[https://www.youtube.com/watch?v=1k8craCGpgs Don't Stop Believin' - Journey] (1981)
+**[https://www.youtube.com/watch?v=PFW2uSCZ0uE Clocks - Coldplay] (2002)
+**[https://www.youtube.com/watch?v=TbN9ysVWhhY Seven Nation Army - The White Stripes] (2003)
+**[https://www.youtube.com/watch?v=0FCvzsVlXpQ Megalovania - Toby Fox] (2008)
+**[https://www.youtube.com/watch?v=0T-if-Vj2Xs The Office (Main Theme) - The Office Band] (2011)
+**[https://www.youtube.com/watch?v=U0TXIXTzJEY il vento d'oro - Yugo Kanno] (2018)
+**Unknown composition (????)
+
+==Community resources== <!--T:33-->
+
+<!--T:34-->
+*[https://www.youtube.com/watch?v=Bi-t7azupxE "Murder 4 in VRChat"] trailer on ''YouTube''
+*[https://www.youtube.com/watch?v=5S_XB4KWmBs "Murder 4 poison wine"] teaser on ''YouTube''
+*[https://www.youtube.com/watch?v=SYqwNWPj4gg "Murder 4 Partners in Crime (Valentine's Day)"] trailer on ''YouTube''
+*[https://www.youtube.com/watch?v=y96ViV_f0xo "Murder 4 Halloween Trailer"] on ''YouTube''
+*[https://www.youtube.com/watch?v=aOXgCLskUVU "Merry Murder 4"] trailer on ''YouTube''
+
+</translate>
+[[Category:Game worlds{{#translation:}}]]
+[[Category:PvP worlds{{#translation:}}]]

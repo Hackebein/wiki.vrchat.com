@@ -1,0 +1,47 @@
+<noinclude><languages/></noinclude>
+<onlyinclude>
+<infobox type="event" theme="community">
+	<title source="name"/>
+    <image source="image"/>
+    <group>
+    	<data source="event">
+        	<label>Evento</label>
+            <format>[[{{{event}}}]]{{If not template|[[Category:{{{event}}} Events{{#translation:}}]]}}</format>
+        </data>
+        <data source="organizer">
+        	<label>Organizador</label>
+            <format>[[{{{organizer}}}]]{{If not template|[[Category:Events by {{{organizer}}}{{#translation:}}]]}}</format>
+        </data>
+    	<data source="start">
+        	<label>Data de início</label>
+            <format>{{#timel:d, F, Y|{{{start}}}}}</format>
+        </data>
+    	<data source="end">
+        	<label>Data de término</label>
+            <format>{{#timel:d, F, Y|{{{end}}}}}</format>
+        </data>
+    </group>
+	<group layout="horizontal">
+    	<header>Cronologia</header>
+    	<data source="previous">
+        	<label><span style="text-align: left; width: 100%; display: block">[[File:Icons_Arrow_Left.png|frameless|12px|link=]] Evento anterior</span></label>
+        	<format><span style="text-align: left; width: 100%; display: block">[[Special:MyLanguage/{{{previous}}}|{{{previous}}}]]</span></format>
+		</data>
+        <data source="next">
+        	<label><span style="text-align: right; width: 100%; display: block">Próximo evento [[File:Icons_Arrow_Right.png|frameless|12px|link=]]</span></label>
+        	<format><span style="text-align: right; width: 100%; display: block">[[Special:MyLanguage/{{{next}}}|{{{next}}}]]</span></format>
+		</data>
+    </group>
+</infobox>{{If not template|[[Category:Events]]}}
+</onlyinclude>
+{{Infobox/Event
+|name=[[Spookality]] 2024
+|image=[[Spookality_2024_BlogHeader.png]]
+|event=Spookality
+|organizer=VRChat
+|start=October 1, 2024
+|end=October 14, 2024
+|winners_announced=October 21, 2024
+|previous=Spookality 2023
+|next=Spookality 2025}}
+<noinclude>

@@ -1,0 +1,8 @@
+== 公告板 ==
+=== 最近讨论 ===
+==== 内容 ====
+近期关于主版块、社区版块和指南版块命名空间的讨论将显示在此处：
+{{Special:RecentChanges/days=120,limit=5,namespace=1;3001;3101,hidebots=1}}
+==== 维基 ====
+VRCWiki、文件、MediaWiki及模板命名空间的近期讨论将显示于此：
+{{Special:RecentChanges/days=120,limit=5,namespace=5;7;9;11;,hidebots=1}}

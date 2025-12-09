@@ -1,0 +1,21 @@
+{| class="wikitable"
+!Réglage de l’horloge
+!Valeurs
+!Info-bulle
+|-
+|'''Mode Heure'''
+|Par défaut système, 12 heures, 24 heures, 18 heures
+|Change si l’horloge affiche un format 12 ou 24 heures<br>
+'''[Par défaut système]''' Change le mode heure de l’horloge selon le système<br>
+'''[12 heures]''' Passe l’horloge en mode 12 heures<br>
+'''[24 heures]''' Passe l’horloge en mode 24 heures<br>
+'''[18 heures]''' Passe l’horloge en mode 18 heures (quoi ?)
+|-
+|'''Fuseau horaire'''
+|Heure locale, UTC, GMT, Fuseau horaire aléatoire
+|Change le fuseau horaire utilisé par l’horloge pour tout mode nécessitant un fuseau<br>
+'''[Heure locale]''' Utilise le fuseau horaire local<br>
+'''[UTC]''' Utilise UTC (Temps universel coordonné, à blâmer les Français de ne pas l’appeler TUC)<br>
+'''[GMT]''' Utilise GMT (c’est UTC sauf quand Microsoft Windows™ décide que non)<br>
+'''[Fuseau horaire aléatoire]''' Utilise un fuseau horaire aléatoire (0,71 % de chances que ce soit le vôtre !)
+|}

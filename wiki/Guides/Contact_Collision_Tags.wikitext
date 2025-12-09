@@ -1,0 +1,235 @@
+{{Noticebox/Community}}
+{{Noticebox/wip|World dynamics are still in beta, things may change. Placeholder categories and tables. To be written and expanded soon. |ZenithVal}}
+
+[https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ VRChat Contact Senders & Receivers] can have custom tags. The VRCSDK comes with a [https://vrc-beta-docs.netlify.app/common-components/contacts/built-in-contact-tags built-in list] of tags and this page is a community driven expansion of them. 
+[[File:CollisionTags.png|none|thumb|Example usage of custom collision tags]]
+
+==Naming Conventions==
+
+* Use PascalCase
+* Avoid spaces, use _ if needed
+* Clarity is important but brevity is appreciated
+* Avoid using abbreviations/acronyms unless they are widely accepted
+* Avoid single letter tags
+
+== Collision Tags ==
+Broken down into general categories. Some of these will overlap with the [https://vrc-beta-docs.netlify.app/common-components/contacts/built-in-contact-tags built-in list.]<ref>https://vrc-beta-docs.netlify.app/common-components/contacts/built-in-contact-tags/</ref><!-- Replace this with the proper documentation link when beta ends. -->
+
+You may have up to # Tags on each Contact so using all applicable tags is usually good. (EG: Consumable and ConsumableFood together)
+
+=== Combat ===
+Tags used for combat systems, from melee to magic.
+{| class="wikitable sortable"
+!Tag
+!Description
+!Other Notes
+|-
+|Damage
+|Generic catch all for combat systems. Anything that should cause damage.
+|Built-in
+|-
+|Weapon
+|General tag for something usable as a weapon.
+|Built-in
+|-
+|DamageSharp
+|A specific variant of Damage for blunt weapons. (Club)
+|Built-in
+|-
+|DamageBlunt
+|A specific variant of Damage for sharp weapons. (Sword)
+|Built-in
+|-
+|DamageMagic
+|A specific variant of Damage for magic effects.
+|
+|-
+|Shield
+|General tag for something that can block/deny damage.
+|Built-in
+|-
+|Armor
+|Defense for melee or ranged. Could be literal armor or a force field
+|
+|-
+|Projectile
+|An object that moves through the air to deal damage, usually fired from a weapon.
+|Built-in
+|-
+|Bullet
+|A specific variant of a Projectile~ something fired from of a ranged weapon.
+|
+|-
+|Laser
+|A specific variant of a Projectile~ something fired from of a ranged weapon.
+|
+|-
+|Ammunition
+|An object treatable as ammunition for a ranged weapon.
+|Built-in
+|-
+|____________________
+|_______________________________________________________________________________________
+|______________________________
+|}
+
+=== Properties ===
+Tags describing elements, physical properties, surface conditions, or forces.
+
+{| class="wikitable sortable"
+!Tag
+!Description
+!Other Notes
+|-
+|Hot
+|A hot suface
+|Built-in
+|-
+|Cold
+|A cold surface
+|Built-in
+|-
+|Fire
+|Flames or an object on fire
+|Built-in
+|-
+|Igniter
+|Something to light flames. Sparks/Striker
+|
+|-
+|Freezer
+|Something that can freeze other things
+|Built-in
+|-
+|Electricity
+|Zap! A source for electricity to flow from
+|
+|-
+|Conductor
+|Something for electricity to react to/flow into
+|
+|-
+|Wet
+|Water or a wet surface
+|Built-in
+|-
+|Water
+|Liquid water
+|Built-in
+|-
+|Wind
+|An area that's applying wind forces
+|Built-in
+|-
+|____________________
+|_______________________________________________________________________________________
+|______________________________
+|}
+
+=== Interactions ===
+Tags used for niche or social interactions
+
+{| class="wikitable sortable"
+!Tag
+!Description
+!Other Notes
+|-
+|Cheers
+|A glass or can? For drink-clinky stuff!
+|
+|-
+|Consumable
+|Consumables of any kind. 
+|Built-in
+|-
+|ConsumableFood
+|Solid edible consumable
+|Built-in
+|-
+|ConsumableDrink
+|Liquid edible consumable
+|Built-in
+|-
+|Edible
+|For any consumable
+|
+|-
+|Brush
+|A brush that could affect hair, fur, ect
+|Built-in
+|-
+|Dye
+|An object that could change the color of another
+|Built-in
+|-
+|DyeColor
+|DyeRed, DyeBlue, ect. Specific dye colors.
+|
+|-
+|
+|
+|
+|-
+|____________________
+|_______________________________________________________________________________________
+|______________________________
+|}
+
+=== Placeholder ===
+Lorum Ipsum
+
+{| class="wikitable sortable"
+!Tag
+!Description
+!Other Notes
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|
+|
+|
+|-
+|____________________
+|_______________________________________________________________________________________
+|______________________________
+|}
+
+=== Specific Community Niche ===
+These tags may violate naming conventions but are prevalent enough already to warrant mentioning.
+
+{| class="wikitable sortable"
+!Tag
+!Description
+!Other Notes
+|-
+|Parry_Detect
+|For weapon clashes in melee combat systems.
+|From LiindyVR.
+|-
+|Blunt
+|A specific variant of Damage for blunt weapons. (Club)
+|From before built in tags
+|-
+|Sharp
+|A specific variant of Damage for sharp weapons. (Sword)
+|From before built in tags
+|-
+|Magic
+|A specific variant of Damage for magic effects.
+|From before built in tags
+|-
+|____________________
+|_______________________________________________________________________________________
+|______________________________
+|}
+<references />

@@ -1,0 +1,38 @@
+{| class="wikitable"
+!Element
+!Icon
+!Description 
+|-
+|'''Earmuff Mode'''
+|[[File:EarmuffModeIcon QM.png|frameless|32x32px]]
+|Appears when [[Special:MyLanguage/Earmuff Mode|Earmuff Mode]] is on, displays earmuff mode distance and a "Turn Off" button on the far right.
+|-
+| '''Streamer Mode'''
+|[[File:StreamerModeIcon QM.png|frameless|32x32px]]
+|Appears when Streamer Mode is active. "Turn Off" button on the far right.
+|-
+|'''Safe Mode'''
+|[[File:SafeModeIcon QM.png|frameless|32x32px]]
+|Appears when Safe Mode is active. "Turn Off" button on the far right.
+|-
+|'''Preloading World'''
+|N/A
+|Appears when preloading a world. The icon is the thumbnail of the world you are preloading. 
+When preloading, the name, and download size of the world displays, along with a status bar showing the progress of the preload. You can cancel the preload at anytime by clicking the "Cancel" button of the far right. 
+When the world is finished preloading, you can join the world by clicking the "Join" button on the far right. 
+|-
+|'''Instance Queue'''
+|[[File:InstanceQueueIcon QM.png|frameless|32x32px]]
+[[File:InstanceQueueReadyIcon QM.png|frameless|32x32px]]
+|Appears when a user is in a [[Special:MyLanguage/Instances#Queues|instance queue]]. 
+When waiting, it displays the queue position by default but this can be changed by clicking it. It can cycle between '''time in queue''', '''position in queue''', and '''hide info'''.
+When ready, the user has 1 minute to join the world by using the "Join" button on the far right, before you get kicked from the queue. 
+|-
+|'''Unfinished Report'''
+| [[File:UnfinishedReportIcon QM.png|frameless|32x32px]]
+|Appears when the user has a unfinished report. Click the "Open" button on the far right to resume the report.
+|-
+|'''Previewing Avatar'''
+|[[File:PreviewAvatarIcon QM.png|frameless|32x32px]]
+|Appears when a user changes into an avatar that is locally built or when previewing an [[Special:MyLanguage/Avatar Marketplace|Avatar Marketplace]] avatar. "Take Off" button on the far right.
+|}

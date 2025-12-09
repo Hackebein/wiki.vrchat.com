@@ -1,0 +1,12 @@
+El propietario de un grupo y aquellos con los permisos correctos pueden crear [[Special:MyLanguage/Instances|estancias]] de grupo. Existen tres tipos de [[Special:MyLanguage/instances|estancias]] de grupo.
+{| class="wikitable"
+!Grupo
+|Solo los miembros de un grupo (o ciertos roles dentro del grupo si se especifican) pueden unirse a la estancia.
+|-
+!Grupo+
+|Cualquier amigo de un usuario en la estancia puede unirse. No se requiere la membresía del grupo para unirse a la estancia.
+|-
+!Grupo Público
+|Una estancia listada públicamente alojada por un grupo al que cualquiera puede unirse. No se requiere la membresía del grupo para unirse a la estancia.
+|}
+Las estancias de grupo suelen ser '''moderadas por el grupo que aloja la estancia'''. El propietario del grupo y aquellos que reciben permisos de moderación a través de su rol pueden advertir, silenciar, expulsar o prohibir a un usuario dentro de la estancia. Prohibir a un usuario de un grupo de forma permanente le impide unirse a cualquier estancia creada por el grupo, así como unirse al grupo en sí.

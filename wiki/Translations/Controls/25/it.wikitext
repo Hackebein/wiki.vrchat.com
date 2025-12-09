@@ -1,0 +1,136 @@
+Il movimento è gestito con il . Your mouse adjusts your view position. Your head points in the direction you’re looking.
+{| class="wikitable"
+! Pulsante
+!Azione
+|-
+|W
+| Muove l'utente avanti
+|-
+| A
+|Muove l'utente a sinistra
+|-
+|S
+|Muove l'utente indietro
+|-
+|D
+|Muove l'utente a destra
+|-
+|Spazio
+|Salta (se nel mondo è concesso)
+|-
+|Z
+|Gattona
+|-
+|C
+|Accovaccia
+|-
+|R
+|Apre Menù Azione
+|-
+|Escape
+|Apre Menù Rapido
+|-
+|Shift
+|Fa correre l'utente
+|-
+|Click Sinistro
+|Interagisce/ Raccoglie
+|-
+|Click Destro (Tieni Premuto)
+|Mostra il mouse interazione
+|-
+|Click Destro
+|Rilascia l'oggetto raccolto
+|-
+| Click Destro (Tieni Premuto) (Oggetti afferrabili)
+|Lancia l'oggetto afferrato. Più tempo è premuto, più energia è posta nel lancio.
+|-
+| V (Tieni Premuto) (Se in modalità 'Premi Per Parlare')
+|Abilita il microfono finché è tenuto premuto
+|-
+| V (Se la modalità 'Premi Per Parlare' è disattivata)
+|Abilita/ Disabilita il microfono
+|-
+|Y
+|Apre la chatbox
+|-
+|Tab (Tieni Premuto)
+|Permette di muovere il cursore sullo schermo senza che l'avatar si muovi. (Utile per interagire con elementi della UI)
+|-
+| Fine
+|Abilita / Disabilita la modalità AFK
+|-
+|CTRL + N
+|Cicla fra le impostazioni di visibilità delle [[Special:MyLanguage/Nameplates|targhette]]
+|-
+|CTRL + H
+|Abilita / Disabilita visibilità per l'[[Special:MyLanguage/HUD|HUD]] (icone notifiche e microfono)
+|-
+|CTRL + \
+|Cambia l'[[Special:MyLanguage/avatar|avatar]] in [[Special:MyLanguage/Robot|Robot]] (Utile per accedere al menù o per quando l'avatar precendentemente indossato ostruiva la vista dell'utente).
+|-
+|Shift Destro + Backtick + 1<sup>†</sup>
+|Abilita / Disabilita la visibilità del menù trigger di debug
+|-
+|Shift Destro + Backtick + 2<sup>†</sup>
+|Abilita / Disabilita la visibilità del menù informazioni di debug
+|-
+|Shift Destro + Backtick + 3<sup>†</sup>
+|Abilita / Disabilita la visibilità del menù della console di debug
+|-
+|Shift Destro + Backtick + 4<sup>†</sup>
+|Abilita / Disabilita la visibilità del menù di debug del traffico di rete 
+|-
+|Shift Destro + Backtick + 5<sup>†</sup>
+|Abilita / Disabilita la visibilità del grafico di debug del traffico di rete 
+|-
+|Shift Destro + Backtick + 7<sup>†</sup>
+|Abilita / Disabilita la visibilità dell'overlay di debug del traffico di rete 
+|-
+|Shift Destro + Backtick + 8<sup>†</sup>
+|Abilita / Disabilita la visibilità dell'overlay di debug degli eventi
+|-
+|Shift Destro + Backtick + 9<sup>†</sup>
+|Abilita / Disabilita la visibilità dell'overlay di debug del traffico di rete utente
+|-
+|F12
+|Scatta uno screenshot, salvato nella cartella d'installazione di VRChat
+|-
+|CTRL + F12
+|Scatta uno screenshot al doppio della normale risoluzione, 4K (3840 × 2160) è il valore predefinito, salvato nella cartella Immagini/VRChat
+|-
+|Shift + F1*
+|Posa mano - Idle
+|-
+|Shift + F2*
+|Posa mano - Pugno
+|-
+|Shift + F3*
+|Posa mano - Mano Aperta
+|-
+|Shift + F4* 
+|Posa mano - Punta (Indice)
+|-
+|Shift + F5*
+|Posa mano - Vittoria (Pace)
+|-
+|Shift + F6*
+|Posa mano - Rock ’n Roll
+|-
+|Shift + F7*
+|Posa mano - Mano a pistola
+|-
+|Shift + F8*
+|Posa mano - Pollice in su
+|-
+|Shift + Esc
+|Abilita la modalità sicura.
+|-
+|< e >
+|Rotate the user left and right in
+|-
+|I / K
+| Modifica il beccheggio dell'oggetto in mano (rotea sull'asse X)
+|-
+|J / L
+|Modifica l'imbarata dell'oggetto in mano (rotea sull'asse Y)

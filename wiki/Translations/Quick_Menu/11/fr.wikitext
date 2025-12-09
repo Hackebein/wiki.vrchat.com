@@ -1,0 +1,38 @@
+{| class="wikitable"
+!Élément
+!Icône
+!Description 
+|-
+|'''Mode sourdine'''
+|[[File:EarmuffModeIcon QM.png|frameless|32x32px]]
+|Apparaît lorsque le [[Special:MyLanguage/Earmuff Mode|mode sourdine]] est activé, affiche la distance du mode sourdine et un bouton « Désactiver » à l’extrême droite.
+|-
+|'''Mode Streamer'''
+|[[File:StreamerModeIcon QM.png|frameless|32x32px]]
+|Apparaît lorsque le mode Streamer est actif. Bouton « Désactiver » à l’extrême droite.
+|-
+|'''Mode Sécurisé'''
+|[[File:SafeModeIcon QM.png|frameless|32x32px]]
+|Apparaît lorsque le mode Sécurisé est actif. Bouton « Désactiver » à l’extrême droite.
+|-
+|'''Préchargement du monde'''
+|N/A
+|Apparaît lors du préchargement d’un monde. L’icône est la miniature du monde en cours de préchargement.  
+Lors du préchargement, le nom et la taille du téléchargement du monde s’affichent, ainsi qu’une barre de progression. Le préchargement peut être annulé à tout moment en cliquant sur le bouton « Annuler » à l’extrême droite.  
+Lorsque le préchargement est terminé, il est possible de rejoindre le monde en cliquant sur le bouton « Rejoindre » à l’extrême droite.  
+|-
+|'''File d’attente d’instance'''
+|[[File:InstanceQueueIcon QM.png|frameless|32x32px]]
+[[File:InstanceQueueReadyIcon QM.png|frameless|32x32px]]
+|Apparaît lorsqu’un utilisateur est dans une [[Special:MyLanguage/Instances#Queues|file d'attente]].  
+Lors de l’attente, la position dans la file est affichée par défaut, mais peut être modifiée en cliquant dessus. Cela fait défiler entre '''temps dans la file''', '''position dans la file''', et '''cacher les infos'''.  
+Quand c’est prêt, l’utilisateur dispose d’une minute pour rejoindre le monde via le bouton « Rejoindre » à l’extrême droite, avant d’être expulsé de la file.  
+|-
+|'''Signalement non terminé'''
+|[[File:UnfinishedReportIcon QM.png|frameless|32x32px]]
+|Apparaît lorsqu’un utilisateur a un signalement non terminé. Cliquer sur le bouton « Ouvrir » à l’extrême droite pour reprendre le signalement.
+|-
+|'''Prévisualisation d’avatar'''
+|[[File:PreviewAvatarIcon QM.png|frameless|32x32px]]
+|Apparaît lorsqu'un utilisateur change pour un avatar de test local ou lorsqu'il prévisualise un avatar du [[Special:MyLanguage/Avatar Marketplace|Marché des avatars]]. Le bouton pour "retirer" la prévisualisation est tout à droite.
+|}

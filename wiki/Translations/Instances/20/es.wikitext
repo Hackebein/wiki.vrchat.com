@@ -1,0 +1,43 @@
+=== Gráfico de permisos ===
+{| class="wikitable"
+|+Permisos de moderación para estancias
+!Tipo de estancia
+|'''Pública'''
+|'''Amigos+'''
+|'''Amigos'''
+|'''Invitación+'''
+|'''Invitación'''
+|'''Grupo público'''
+|'''Grupo+'''
+|'''Grupo'''
+|-
+|'''Autor del mundo'''
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|No
+|No
+|-
+|'''Propietario del mundo'''
+|No
+|✔️
+|✔️
+|✔️
+|✔️
+|Si es moderador
+|Si es moderador
+|Si es moderador
+|-
+|'''Moderador del grupo'''
+|No
+|No
+|No
+|No
+|No
+|✔️
+|✔️
+|✔️
+|}

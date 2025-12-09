@@ -1,0 +1,9 @@
+'''Layers''' are used by Unity to determine how game objects in your scene interact with each other. These interactions are things like what physics objects collide with, what the player collides with, what is visible in a camera, and what objects are reflected in a mirror.
+
+== Using Layers ==
+An object's layer can be set by selecting the object in the Unity editor, and then clicking the "Layer" drop down in the top right of the Inspector window. Objects that interact with layers will have their own component to describe what they interact with. Mirrors define what layers of objects they reflect in their "Reflect Layers" setting. Cameras define what layers they render in the "Culling Mask" setting. The Collision Matrix describing how physics objects interact with each other can be found under the Physics tab of the Project Settings menu of your Unity project.
+
+== Resources ==
+
+* [https://creators.vrchat.com/worlds/layers/ VRChat Creator Documentation - Unity Layers in VRChat]
+* [https://docs.unity3d.com/Manual/Layers.html Unity Documentation - Layers]

@@ -1,0 +1,1068 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Terrors of Nowhere
+|image=ToN Final.webp
+|author=[https://vrchat.com/home/user/usr_8d3b6c9b-cd64-449a-8b39-a819057f5d3c Beyond]
+|capacity=16 (16)
+|languages=英語, 日本語
+|platforms=PC
+|tags=Horror, Survival, PvE
+|id=wrld_a61cdabe-1218-4287-9ffc-2a4d1414e5bd
+|published=23 Oct. 2023}}
+'''Terrors of Nowhere''' は、2023年10月に ''Beyond'' 氏によってリリースされた、PC 専用のPvE[[Special:MyLanguage/:Category:Game_Worlds|ゲームワールド]]である。このゲームでは最大16人のプレイヤーが、ランダムに切り替わるステージで敵 (ゲーム内では "'''Terror'''" と呼ばれる) から最大3分間生き残るという内容である。
+
+ゲームのテキストには、英語の他に日本語が使用可能で、初期スポーン地点にて日本語に切り替えることができる。
+
+ラウンド間の期間は'''休憩時間 (Intermission) '''と呼ばれ、ここで一息ついて'''エンケファリン (Enkephalin) '''クリスタル (ゲームの通貨、略して "Eph") を集めることができる。エンケファリンはコートの周囲で定期的に成長し、'''エンケファリンショップ''' で Eph を使って、自分や他のプレイヤーが今後のラウンドを生き残るのに役立つアイテムを購入することができる。
+
+Eph に加え、ラウンドを生き残ると'''サバイバルポイント (Survival Points)'''（SP）が与えられる。SP は'''サバイバルショップ'''で特別なアイテムと交換することができる。Eph と異なり、サバイバルポイントはアイテムを購入する際には消費されない。
+
+<span id="Round_types"></span>
+==ラウンドの種類==
+
+'''クラシックラウンド'''に加えて、'''スペシャルラウンド'''は50%の確率で2ラウンド目ごとに発生し、2ラウンド目もスペシャルラウンドが発生しなければ、3ラウンド目に100％発生する。
+
+* '''クラシック (Classic)''' - Terrors of Nowhere の標準ラウンドで、テラーは標準（クラシック）プールから選ばれます。プレイヤーは3分間生き残る必要があり、テラーによってはもう少し長くなることもあり、難易度は変動します。
+
+* '''霧 (Fog)''' - 濃い霧、非表示のプレイヤー数、そして「???」に置き換えられたテラー名が特徴のクラシックテラーラウンドです。視界はグロウ/サイココイルで改善でき、テラーはレーダーで表示されますが、経験豊富なプレイヤーはしばしば音で識別します。時折、オルタネイトが出現することもあります。
+
+* '''パニッシュ (Punished)''' - プレイヤーが全てのアイテムを失うクラシックテラーラウンド。これにより、逃走や反撃ができなくなります。アイテムはラウンド終了後にショップで再入手する必要があります。
+
+* '''オルタネイト (Alternate)''' - オルタネイトプールから、一般的に難易度の高いテラーが出現します。生き残るためには高度な連携が必要となることが多く、中には生き残るとアイテムを提供するテラーもいます。
+
+* '''ブラッドバス (Bloodbath)''' - クラシックプールから3体のテラーが出現します。難易度は、その組み合わせと選択されたアリーナによって、対処可能なレベルから不可能なレベルまで変動します。
+
+* '''ミッドナイト (Midnight)''' - 実質的にはブラッドバスですが、3体のうち1体がオルタネイトプールから出現するため、ラウンドの難易度が格段に上がります—多くの死亡が予想されます。
+
+* '''サボタージュ (Sabotage)''' - 通常プールからテラーが1体出現し、プレイヤーの1人がサボタージュ役となり、他者を即死させるナイフを装備します。テラーはサボタージュ（Arrivalを除く）を無視します。全てのプレイヤーをキルできなかった場合、サボタージュはラウンド終了直前に死亡し、ショップから元のアイテムを回収する必要があります。
+
+* '''8ページ (8 Pages)''' - プレイヤーはマップから光るページを一度に1つずつ、合計8枚収集する必要があります。最初のページが見つかるか、十分な時間が経過するとテラーが出現します。パニッシュのようにほとんどのアイテムは削除されますが、いくつかの低ティアアイテムは残ります。他のラウンドタイプとは異なり、8ページはデフォルトで190秒で開始されます。
+
+* '''[[ton:terrors/meatball_man|Run]]''' - 時間切れになる前にマップのもう一方の端までたどり着く。
+
+* '''クラックト (Cracked)''' - テラーの移動速度と攻撃アニメーションが大幅に高速化されるクラシックラウンド。このラウンドタイプはバランスに欠けており、一部のテラーが不公平なほど強力になり、クラックト形態では特定のテラーが奇妙な挙動を見せることがあります。
+
+* '''ダブルトラブル (Double Trouble)''' - このラウンドは基本的にブラッドバスですが、1体のテラーが2回出現しようとし、結果として2体の異なるテラーが出現します。そのうち1体は自身の強化版となります。
+
+<div class="mw-translate-fuzzy">
+* '''アンバウンド (Unbound)''' - 新しいプールから、プリセットのテラーが出現します。このプールには通常は不可能な、コミュニティから提案された多くの組み合わせが含まれており、結果として難易度は変動します。
+</div>
+
+* '''ゴースト (Ghost)''' - テラーが透明になるクラシックラウンド。レーダーのようなアイテムを使用しない限り、パーティクルと音だけが位置を示します。まれにオルタネイトが出現することがあります。
+
+* '''ムーン (Moons)''' - Terrors of Nowhereには、特定の要件を満たすことで有効化できる複数の月があります。アンロックされると、オーバーシーアがプレイヤーに迫りくる脅威を警告し、適切なアイテムで備えるよう助言します。月がプレイされた後は、各月が1/20の確率でスペシャル（非クラシック）ラウンドに置き換わることがあります。
+
+<span id="Terrors"></span>
+==テラー==
+
+Terrors of Nowhere には全部でおよそ'''198'''体の遭遇するテラーがいる。 (クラシック134体、オルタネイト37体、バリエーション23体、ボスムーン4体)
+
+<center><big>⚠️'''ネタバレ注意'''⚠️<br>
+'''以下の内容はネタバレを含む可能性がありますので、閲覧にはご注意ください。'''</big></center>
+
+<!-- Not a pretty table but made sure to list them in the order they are listed in the in-game Index. If someone wants to pretty the classic table for me go ahead, but they should generally be kept in the order currently listed.-->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Classic
+|-
+|[[ton:terrors/huggy|Huggy]]||[[ton:terrors/corrupted_toys|Corrupted Toys]]||[https://terror.moe/terrors/demented_spongebob Demented Spongebob]||[https://terror.moe/terrors/specimen_8 Specimen 8]||[https://terror.moe/terrors/her HER]||[https://terror.moe/terrors/tails_doll Tails Doll]||[https://terror.moe/terrors/black_sun Black Sun]||[https://terror.moe/terrors/aku_ball Aku Ball]||[https://terror.moe/terrors/ao_oni Ao Oni]||[https://terror.moe/terrors/torens_shadow Toren's Shadow]||[https://terror.moe/terrors/censored [CENSORED<nowiki>]</nowiki>]
+|
+|-
+|[https://terror.moe/terrors/whitenight WhiteNight]||[https://terror.moe/terrors/an_arbiter An Arbiter]||[https://terror.moe/terrors/specimen_5 Specimen 5]||[https://terror.moe/terrors/comedy Comedy]||[https://terror.moe/terrors/purple_guy Purple Guy]||[https://terror.moe/terrors/spongefly_swarm Spongefly Swarm]||[https://terror.moe/terrors/hush Hush]||[https://terror.moe/terrors/mopemope MopeMope]||[https://terror.moe/terrors/sawrunner Sawrunner]||[https://terror.moe/terrors/imposter Imposter]||[https://terror.moe/terrors/something Something]
+|[https://terror.moe/terrors/squidward Squidward]
+|-
+|[https://terror.moe/terrors/starved Starved]||[https://terror.moe/terrors/the_painter The Painter]||[https://terror.moe/terrors/the_guidance The Guidance]||[https://terror.moe/terrors/with_many_voices With Many Voices]||[https://terror.moe/terrors/nextbots Nextbots]||[https://terror.moe/terrors/harvest Harvest]||[https://terror.moe/terrors/smileghost Smileghost]||[https://terror.moe/terrors/karol_corpse Karol_Corpse]|| [https://terror.moe/terrors/mx MX]||[https://terror.moe/terrors/big_bird Big Bird]||[https://terror.moe/terrors/dev_bytes Dev Bytes]
+|[https://terror.moe/terrors/mario_has_logged_in Mario Has Logged In]
+|-
+|[https://terror.moe/terrors/luigi_and_luigi_dolls Luigi & Luigi Dolls]||[https://terror.moe/terrors/v2 V2]||[https://terror.moe/terrors/withered_bonnie Withered Bonnie]||[https://terror.moe/terrors/the_boys The Boys]||[https://terror.moe/terrors/something_wicked Something Wicked]||[https://terror.moe/terrors/seek Seek]||[https://terror.moe/terrors/rush Rush]||[https://terror.moe/terrors/sonic Sonic]||[https://terror.moe/terrors/bad_batter Bad Batter]||[https://terror.moe/terrors/signus Signus]||[https://terror.moe/terrors/mirror Mirror]
+|
+|-
+|[https://terror.moe/terrors/legs Legs]||[https://terror.moe/terrors/mona_and_the_mountain Mona & The Mountain]||[https://terror.moe/terrors/judgement_bird Judgement Bird]||[https://terror.moe/terrors/slender Slender]||[https://terror.moe/terrors/maul-a-child Maul-A-Child]||[https://terror.moe/terrors/garten_goers Garten Goers]||[https://terror.moe/terrors/dont_touch_me Don't Touch Me]||[https://terror.moe/terrors/specimen_2 Specimen 2]||[https://terror.moe/terrors/specimen_10 Specimen 10]||[https://terror.moe/terrors/the_lifebringer The Lifebringer]||[https://terror.moe/terrors/pale_association Pale Association]
+|[https://terror.moe/terrors/the_old_man The Old Man]
+|-
+|[https://terror.moe/terrors/toy_enforcer Toy Enforcer]||[https://terror.moe/terrors/tbh TBH]|| [https://terror.moe/terrors/doombox Doombox]||[https://terror.moe/terrors/christian_brutal_sniper Christian Brutal Sniper]||[https://terror.moe/terrors/nosk Nosk]||[https://terror.moe/terrors/apocrean_harvester Apocrean Harvester]||[https://terror.moe/terrors/arkus Arkus]||[https://terror.moe/terrors/cartoon_cat Cartoon Cat]||[https://terror.moe/terrors/wario_apparition Wario Apparition]||[https://terror.moe/terrors/shinto Shinto]||[https://terror.moe/terrors/hell_bell Hell Bell]
+|
+|-
+|[https://terror.moe/terrors/security Security]||[https://terror.moe/terrors/the_swarm The Swarm]||[https://terror.moe/terrors/shiteyanyo Shiteyanyo]||[https://terror.moe/terrors/bacteria Bacteria]||[https://terror.moe/terrors/tiffany Tiffany]||[https://terror.moe/terrors/hoovydundy HoovyDundy]||[https://terror.moe/terrors/haket Haket]||[https://terror.moe/terrors/akumii-kari Akumii-Kari]||[https://terror.moe/terrors/lunatic_cultist Lunatic Cultist]||[https://terror.moe/terrors/sturm Sturm]||[https://terror.moe/terrors/punishing_bird Punishing Bird]
+|
+|-
+|[https://terror.moe/terrors/prisoner Prisoner]||[https://terror.moe/terrors/red_bus Red Bus]||[https://terror.moe/terrors/waterwraith Waterwraith]||[https://terror.moe/terrors/astrum_aureus Astrum Aureus]||[https://terror.moe/terrors/snarbolax Snarbolax]||[https://terror.moe/terrors/all-around-helpers All-Around-Helpers]||[https://terror.moe/terrors/sakuya_izayoi Sakuya Izayoi]||[https://terror.moe/terrors/arrival Arrival]||[https://terror.moe/terrors/miros_birds Miros Birds]||[https://terror.moe/terrors/bff BFF]||[https://terror.moe/terrors/scavenger Scavenger]
+|
+|-
+|[https://terror.moe/terrors/tinky_winky Tinky Winky]
+|[https://terror.moe/terrors/tricky Tricky]
+|[https://terror.moe/terrors/yolm Yolm]
+|[https://terror.moe/terrors/red_fanatic Red Fanatic]
+|[https://terror.moe/terrors/dr_tox Dr.Tox]
+|[https://terror.moe/terrors/ink_demon Ink Demon]
+|[https://terror.moe/terrors/retep Retep]
+|[https://terror.moe/terrors/those_olden_days Those Olden Days]
+|[https://terror.moe/terrors/sos S.O.S]
+|[https://terror.moe/terrors/bigger_boot Bigger Boot]
+|[https://terror.moe/terrors/the_pursuer The Pursuer]
+|
+|-
+|[https://terror.moe/terrors/spamton Spamton]
+|[https://terror.moe/terrors/immortal_snail Immortal Snail]
+|[https://terror.moe/terrors/charlotte Charlotte]
+|[https://terror.moe/terrors/herobrine Herobrine]
+|[https://terror.moe/terrors/peepy Peepy]
+|[https://terror.moe/terrors/the_jester The Jester]
+|[https://terror.moe/terrors/wild_yet_curious_creature Wild Yet Curious Creature]
+|[https://terror.moe/terrors/manti Manti]
+|[https://terror.moe/terrors/horseless_headless_horsemann Horseless Headless Horsemann]
+|[https://terror.moe/terrors/ghost_girl Ghost Girl]
+|[https://terror.moe/terrors/cubors_revenge Cubor's Revenge]
+|
+|-
+|[https://terror.moe/terrors/the_origin The Origin]
+|[https://terror.moe/terrors/beyond Beyond]
+|[https://terror.moe/terrors/terror_of_nowhere Terror of Nowhere]
+|[https://terror.moe/terrors/deleted Deleted]
+|[https://terror.moe/terrors/poly Poly] 
+|[https://terror.moe/terrors/dog_mimic Dog Mimic]
+|[https://terror.moe/terrors/warden Warden] 
+|[https://terror.moe/terrors/express_train_to_hell Express Train To Hell]
+|[https://terror.moe/terrors/killer_fish Killer Fish]
+|[https://terror.moe/terrors/fox_squad FOX Squad]
+|[https://terror.moe/terrors/time_ripper Time Ripper]
+|[https://terror.moe/terrors/this_killer_does_not_exist This Killer Does Not Exist]
+|-
+|[https://terror.moe/terrors/malicious_twins Malicious Twins]
+|[https://terror.moe/terrors/parhelions_victims Parhelion's Victims]
+|[https://terror.moe/terrors/bed_mecha Bed Mecha]
+|[https://terror.moe/terrors/killer_rabbit Killer Rabbit]
+|[https://terror.moe/terrors/random_flying_knife Random Flying Knife]
+|[https://terror.moe/terrors/missingno MissingNo]
+|[https://terror.moe/terrors/living_shadow Living Shadow]
+|[https://terror.moe/terrors/the_plague_doctor The Plague Doctor]
+|[https://terror.moe/terrors/the_rat The Rat]
+|[https://terror.moe/terrors/waldo Waldo]
+|[https://terror.moe/terrors/clockey Clockey]
+|[https://terror.moe/terrors/lain lain]
+|}
+</center>
+<!-- Replaced with the new pyramid like table. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Alternate
+|-
+|[https://terror.moe/terrors/feddys Feddys]||[https://terror.moe/terrors/tbh_spy TBH Spy]||[https://terror.moe/terrors/tragedy Tragedy]||[https://terror.moe/terrors/voidwalker Voidwalker]||[https://terror.moe/terrors/paradise_bird Paradise Bird]
+|[https://terror.moe/terrors/restless_creator Restless Creator]||[https://terror.moe/terrors/lords_signal Lord's Signal]||[https://terror.moe/terrors/joy Joy]||[https://terror.moe/terrors/mr_mega MR. MEGA]||[https://terror.moe/terrors/eggmans_announcement Eggman's Announcement]||[https://terror.moe/terrors/knight_of_toren Knight of Toren]
+|-
+| ||[https://terror.moe/terrors/decayed_sponge Decayed Sponge]||[https://terror.moe/terrors/parhelion Parhelion]||[https://terror.moe/terrors/yan 얀샋ㄷ요무]||[https://terror.moe/terrors/army_in_black Army in Black]
+|[https://terror.moe/terrors/bliss Bliss]||[https://terror.moe/terrors/glaggle_gang Glaggle Gang]||[https://terror.moe/terrors/whiteface WHITEFACE]||[https://terror.moe/terrors/sm64_z64 SM64.Z64]||[https://terror.moe/terrors/the_red_mist The Red Mist]
+|
+|-
+| || ||[https://terror.moe/terrors/sanic Sanic]||[https://terror.moe/terrors/stgm S.T.G.M.]|| [https://terror.moe/terrors/convict_squad Convict Squad]
+|[https://terror.moe/terrors/fusion_pilot Fusion Pilot]||[https://terror.moe/terrors/dev_maulers Dev Maulers]||[https://terror.moe/terrors/lisa Lisa]
+|[https://terror.moe/terrors/apathy Apathy]
+|
+|
+|-
+| || || ||[https://terror.moe/terrors/angry_munci Angry Munci]||[https://terror.moe/terrors/ambush Ambush]
+|[https://terror.moe/terrors/roblander Roblander]
+|[https://terror.moe/terrors/walpurgisnacht Walpurgisnacht]
+|[https://terror.moe/terrors/sakuya_the_ripper Sakuya The Ripper]
+|
+|
+|
+|-
+| || ||
+|
+|[https://terror.moe/terrors/teuthida Teuthida]
+|[https://terror.moe/terrors/judas Judas]
+|[https://terror.moe/terrors/try_not_to_touch_me Try Not To Touch Me]
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|
+|[https://terror.moe/terrors/the_observation The Observation]
+|
+|
+|[https://terror.moe/terrors/rabid_snarbolax Rabid Snarbolax (Deleted)]
+|[https://terror.moe/terrors/furnace Furnace](Merged with [https://terror.moe/terrors/starved Starved])
+|[https://terror.moe/terrors/the_navigator The Navigator (Deleted)]
+|}
+</center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+バリエーション
+|-
+|[https://terror.moe/terrors/slendy Slendy]||[https://terror.moe/terrors/scrapyard_machine Scrapyard Machine]||[https://terror.moe/terrors/rewrite Rewrite]||[https://terror.moe/terrors/eyes Eyes]||[https://terror.moe/terrors/search_and_destroy Search & Destroy]||[https://terror.moe/terrors/the_batter The Batter]||[https://terror.moe/terrors/monarch Monarch]
+|[https://terror.moe/terrors/ruinborn_afton Ruinborn Afton]
+|[https://terror.moe/terrors/nameless ???]([https://terror.moe/terrors/crimboong Crimboong])
+|[https://terror.moe/terrors/kimera Kimera]
+|[https://terror.moe/terrors/blue_haket Blue Haket]
+|-
+|[https://terror.moe/terrors/inverted_roblander Inverted Roblander]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|[https://terror.moe/terrors/alternates Alternates]||[https://terror.moe/terrors/red_mist_apparition Red Mist Apparition]||[https://terror.moe/terrors/baldi Baldi]||[https://terror.moe/terrors/shadow_freddy Shadow Freddy]||[https://terror.moe/terrors/searchlights Searchlights]||[https://terror.moe/terrors/epic_bonnie Epic Bonnie]||[https://terror.moe/terrors/tbh_sans TBH Sans]
+|[https://terror.moe/terrors/transportation_trio_and_the_drifter Transportation Trio & The Drifter]
+|[https://terror.moe/terrors/freezer Freezer]
+|[https://terror.moe/terrors/hungry_home_invader Hungry Home Invader]
+|
+|}
+</center>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Unbound Rounds (WIP)
+!Index
+!Name
+!Terrors
+|-
+|1
+|Guidance & The Booboo's
+|
+|-
+|2
+|Red VS Blue
+|
+|-
+|3
+|Third Trumpet
+|
+|-
+|4
+|Higher Beings
+|
+|-
+|5
+|Forest Guardians
+|
+|-
+|6
+|Quadruple Sponge
+|
+|-
+|7
+|Your Best Friends
+|
+|-
+|8
+|Hotel Monsters
+|
+|-
+|9
+|Squibb Squad
+|
+|-
+|10
+|Garden Rejects
+|
+|-
+|11
+|Judgement Day
+|
+|-
+|12
+|Me and My Shadow
+|
+|-
+|13
+|Meltdown
+|
+|-
+|14
+|Faceless Mafia
+|
+|-
+|15
+|Mansion Monsters
+|
+|-
+|16
+|Copyright Infringement
+|
+|-
+|17
+|Purple Bros
+|
+|-
+|18
+|Scavengers
+|
+|-
+|19
+|Life & Death
+|
+|-
+|20
+|Labyrinth
+|
+|-
+|21
+|Spiteful Shadows
+|
+|-
+|22
+|Triple Munci
+|
+|-
+|23
+|Daycare
+|
+|-
+|24
+|Huggy Horde
+|
+|-
+|25
+|Infection
+|
+|-
+|26
+|Triple Hush
+|
+|-
+|27
+|[CENSORED]
+|
+|-
+|28
+|Byte Horde
+|
+|-
+|29
+|SawMarathon
+|
+|-
+|30
+|TAKE THE NAMI CHALLENGE
+|
+|-
+|31
+|Thunderstorm
+|
+|-
+|32
+|END OF THE WORLD
+|
+|-
+|33
+|Fragmented Memories
+|
+|-
+|34
+|Mona & Mona & Mona & Mona
+|
+|-
+|35
+|Seekers
+|
+|-
+|36
+|Nugget Squad
+|
+|-
+|37
+|Saul's Goodmen
+|
+|-
+|38
+|Something Old. Something New
+|
+|-
+|39
+|POV: Bug
+|
+|-
+|40
+|Punishing Birdemic
+|
+|-
+|41
+|Double Ao Oni
+|
+|-
+|42
+|Too Many Voices
+|
+|-
+|43
+|Memory Crypts
+|
+|-
+|44
+|Zumbo Sauce
+|
+|-
+|45
+|Freaks
+|
+|-
+|46
+|Lunatic Cult
+|
+|-
+|47
+|Transportation Trio 8 The Drifter
+|
+|-
+|48
+|Father Son Bonding
+|
+|-
+|49
+|WHAT IS MY NAME
+|
+|-
+|50
+|Glaggleland Cremators
+|
+|-
+|51
+|Triple Signus
+|
+|-
+|52
+|Triple Akumii Kari
+|
+|-
+|53
+|Black & White
+|
+|-
+|54
+|[LESSER CENSORED]
+|
+|-
+|55
+|Blue Monsters
+|
+|-
+|56
+|Drones
+|
+|-
+|57
+|Scrapyard Takers
+|
+|-
+|58
+|Luigi Dolls
+|
+|-
+|59
+|Meteor Shower
+|
+|-
+|60
+|Triple TBH
+|
+|-
+|61
+|Lost Souls
+|
+|-
+|62
+|Ballin
+|
+|-
+|63
+|Reunion
+|
+|-
+|64
+|Angels
+|
+|-
+|65
+|Ordinary Apocalypse Bird
+|
+|-
+|66
+|Pack of Wild Yet Curious
+|
+|-
+|67
+|ToN X SlashCo Collab
+|
+|-
+|68
+|Pack of Yolm
+|
+|-
+|69
+|Threepy
+|
+|-
+|70
+|???
+|
+|-
+|71
+|Delete He
+|
+|-
+|72
+|Spamton Spam
+|
+|-
+|73
+|Death From Above
+|
+|-
+|74
+|It Came From Bus To Nowhere
+|
+|-
+|75
+|Zombie Apocalypse
+|
+|-
+|76
+|Eating Contest
+|
+|-
+|77
+|Triple Clockeys
+|
+|-
+|78
+|Triple Killer Fish
+|
+|-
+|79
+|Lethal League
+|
+|-
+|80
+|Trollage
+|
+|-
+|81
+|Mopemopemopemopemopemope
+|
+|-
+|82
+|Triple Trouble
+|
+|-
+|83
+|Tirple Living Shadow
+|
+|-
+|84
+|Beyond's Masks
+|
+|}
+</center>
+</div>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ボスムーン
+|-
+|[https://terror.moe/terrors/mystic_moon Mystic Moon]||[https://terror.moe/terrors/blood_moon Blood Moon]||[https://terror.moe/terrors/twilight Twilight]||[https://terror.moe/terrors/solstice Solstice]
+|}
+</center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+季節のイベント
+|-
+|[https://terror.moe/terrors/cold_night Cold Night]
+|}
+</center>
+
+<span id="Locations"></span>
+==ロケーション==
+
+Terrors of Nowhere には全部で'''75'''個のロケーションがあり、そのうちの'''74'''個はラウンド中にランダムに配置されるアリーナである。
+
+<center><big>⚠️'''ネタバレ注意'''⚠️<br>
+
+'''以下の内容はネタバレを含む可能性がありますので、閲覧にはご注意ください。'''</big></center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ロケーション
+|-
+|[https://terror.moe/locations/hub Hub]||[https://terror.moe/locations/sewers Sewers]||[https://terror.moe/locations/construct Construct]||[https://terror.moe/locations/secret Secret]||[https://terror.moe/locations/innyume Innyume]||[https://terror.moe/locations/warehouse Warehouse]
+|[https://terror.moe/locations/sanctum Sanctum]
+|[https://terror.moe/locations/sea_base Sea Base]
+|[https://terror.moe/locations/astral Astral]
+|-
+|[https://terror.moe/locations/hell Hell]||[https://terror.moe/locations/fishbowl Fishbowl]||[https://terror.moe/locations/forest Forest]||[https://terror.moe/locations/neon_towers_p Pink Neon Towers]||[https://terror.moe/locations/playplace Playplace]||[https://terror.moe/locations/isolation Isolation]
+|[https://terror.moe/locations/pizzeria Pizzeria]
+|[https://terror.moe/locations/schoolhouse Schoolhouse]
+|[https://terror.moe/locations/ancient Ancient]
+|-
+|[https://terror.moe/locations/inner_towers Inner Towers]||[https://terror.moe/locations/blackspace Blackspace]||[https://terror.moe/locations/museum Museum]||[https://terror.moe/locations/throne Throne]||[https://terror.moe/locations/neon_towers_g Green Neon Towers]||[https://terror.moe/locations/pool Pool]
+|[https://terror.moe/locations/hole Hole]
+|[https://terror.moe/locations/iteration_0 Iteration_0]
+|[https://terror.moe/locations/dring_kings_citadel Dring King's Citadel]
+|-
+|[https://terror.moe/locations/car_park Car Park]||[https://terror.moe/locations/development Development]||[https://terror.moe/locations/hotel Hotel]|| [https://terror.moe/locations/elevator Elevator]||[https://terror.moe/locations/tbh TBH]||[https://terror.moe/locations/experimentation Experimentation]
+|[https://terror.moe/locations/scrapyard Scrapyard]
+|[https://terror.moe/locations/robland Robland]
+|[https://terror.moe/locations/backrooms Backrooms]
+|-
+|[https://terror.moe/locations/desktop Desktop]
+|[https://terror.moe/locations/slashco_hq SlashCo HQ]
+|[https://terror.moe/locations/harvest Harvest]
+|[https://terror.moe/locations/heaven Heaven]
+|[https://terror.moe/locations/hightower Hightower]
+|[https://terror.moe/locations/lounge Lounge]
+|[https://terror.moe/locations/baseplate Baseplate]
+|[https://terror.moe/locations/challenge_cube Challenge Cube]
+|[https://terror.moe/locations/have Have]
+|-
+|[https://terror.moe/locations/engine Engine]||[https://terror.moe/locations/orange Orange]|| [https://terror.moe/locations/wall Wall]||[https://terror.moe/locations/nexus Nexus]||[https://terror.moe/locations/colony Colony]||[https://terror.moe/locations/altar Alter]
+|[https://terror.moe/locations/gardens Gardens]
+|[https://terror.moe/locations/dust Dust]
+|[https://terror.moe/locations/dots Dots]
+|-
+|[https://terror.moe/locations/mall Mall]||[https://terror.moe/locations/nightlife Nightlife]||[https://terror.moe/locations/skyscraper Skyscrapers]||[https://terror.moe/locations/gaol Gaol]
+|[https://terror.moe/locations/chess Chess]
+|[https://terror.moe/locations/mineshaft Mineshaft]
+|[https://terror.moe/locations/escape_route Escape Route]
+|[https://terror.moe/locations/garten Garten]
+|[https://terror.moe/locations/black_forest Black Forest]
+|-
+|[https://terror.moe/locations/park Park]
+|[https://terror.moe/locations/wafflehouse Wafflehouse]
+|[https://terror.moe/locations/tunnels Tunnels]
+|[https://terror.moe/locations/subway Subway]
+|[https://terror.moe/locations/supply_route Supply Route]
+|[https://terror.moe/locations/vents Vents]
+|[https://terror.moe/locations/cheese_maze Cheese Maze]
+|[https://terror.moe/locations/snowfield Snowfield]
+|[https://terror.moe/locations/luna_hills Luna Hills]
+|-
+|[https://terror.moe/locations/court Court]
+|[https://terror.moe/locations/its_maze Its Maze (Deleted)]
+|
+|
+|
+|
+|
+|[https://terror.moe/locations/spaceless Spaceless (Hidden)]
+|[https://terror.moe/locations/this_map_does_not_exist This Map Does Not Exist (Hidden)]
+|}
+</center>
+
+<span id="Red_Merchant_Store"></span>
+==赤商人のショップ==
+
+赤商人のショップでは、'''エンケファリンショップ'''、'''サバイバルショップ'''、'''イベントショップ'''の3つのショップを見ることができる。
+
+<center><big>⚠️'''ネタバレ注意'''⚠️<br>
+
+'''以下の内容はネタバレを含む可能性がありますので、閲覧にはご注意ください。'''</big></center>
+
+<!-- Please refrain from proofreading the shop descriptions, as they are provided as-is from the game. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ エンケファリンショップ
+|-
+!アイテム名 !! 価格 !! 概要 !! ノート
+|-
+|[https://terror.moe/items/radar レーダ―] || 20 Eph || <small>使用者の命を守るために、脅威を検知してくれる便利物さ。<br>主な脅威を常に追跡しつつ、近くにいるものを全て警告してくれるぞ。</small> || <small>- 所持中、主に脅威となる存在との距離を表示する。<br>- 何かが近くにいると、それを警告する。<br>- 特定のラウンドタイプでテラーを開示できる。</small>
+|-
+|[https://terror.moe/items/medkit メッドキット] || 20 Eph || <small>複数の医薬品が入った箱だ。グリーンバスで訪れた色んなところでかき集めたのさ。<br>まあ量は多くないが、混戦を切り抜けられるようにはなるんじゃないか。</small> || <small>- 使用すると、自身と周囲の味方のHPを25%回復する。<br>- 再使用にチャージが必要。</small>
+|-
+|[https://terror.moe/items/haves_mysterious_brew Haveの秘密に包まれた酒] || 20 Eph || <small>森の何者かが醸造したおかしな酒だ。何が入ってるかわからん。ただ、匂いはひどいぞ。<br>これを飲むなら気狂いだと呼ぶが、お前さんは飲むんだろ？</small> || <small>- 使用すると、ランダムな効果を得る。<br>- 効果は良いときもあれば悪いときもある。</small>
+|-
+|[https://terror.moe/items/glow_coil グローコイル] || 75 Eph || <small>このコイルは、暗闇が苦手な罪人が怖がりすぎてる所に光を与えてくれるのさ。<br>あんまり使ってるところを見ないが、深い闇夜には役立つんじゃないか。</small> || <small>- 所持中、プレイヤーにスピードを2ポイント与える。<br>- コイルが暗闇でも視界が良くなるように、落ち着く明かりを与えてくれる。</small>
+|-
+|[https://terror.moe/items/teleporter テレポ―ター] || 125 Eph || <small>グリーンバスで訪れたとある場所から拾ってきた機器だ。<br>自然にできたものだろうから信頼はできないが、逃げるのには相当役立つんじゃないか。</small> || <small>-使用すると、マップのランダムな場所にテレポートする。<br>- 使用時、わずかな遅延がある。<br>- 再使用にチャージが必要。</small>
+|-
+|[https://terror.moe/items/speed_coil スピードコイル] || 125 Eph || <small>スピードコイルは一番のお供になるだろうよ、素早く駆け回れるぜ。<br>ノースがこれを作ってくれてな、元になったやつよりもかなり軽いんだ。</small> || <small>- 所持中、プレイヤーにスピードを3ポイント与える。これにより、テラーから逃げやすくなる。</small>
+|-
+|[https://terror.moe/items/regen_coil リジェネコイル] || 125 Eph || <small>このリジェネコイルは、所有者にスピードと回復をいいバランスで与えてくれるんだ。<br>性能的に少し遅くても、このコイルなら生きるのにそう苦労はしないはずだ。</small> || <small>- 所持中、プレイヤーにスピードを2ポイント与える。<br>- 所持中、プレイヤーのHPの回復速度が４倍に</small>
+|-
+|[https://terror.moe/items/metal_bat 金属バット] || 200 Eph || <small>バットはテラーに向き合う勇気を十分持っている人に向いてる武器だ。内蔵してある機構がテラーにダメージを与えるのを助けてくれるだろう。<br>強力なテラーや、実体を持たないテラーには効かないから気をつけろよ。</small> || <small>- 使用すると、バットを振りキラーをスタンする。<br>- スタンの効果がキラーによって明確に異なる。<br>- スタンが効いている場合は、黄色のパーティクルが発生する。<br>- スタンが効いていない場合は、赤色のパーティクルが発生する。<br>- 再使用にチャージが必要。</small>
+|-
+|[https://terror.moe/items/silver_kat_charm シルバーキャットチャーム] || 200 Eph || <small>この魔法のチャームは人類を消しさることしか目になかった魔女が作ったものだ。<br>チャームは彼女自身と彼女が愛した人を守るために作られた。まあつまり、お前さんのことを守ってくれるんじゃないか？</small> || <small>- 使用すると保護状態になり、スピードを2ポイント与える。<br>- この間に攻撃に当たると、プレイヤーを攻撃から保護しさらにノックバックさせる。<br>- 上記効果は6秒間持続する。<br>- チャームは再使用にチャージが必要。</small>
+|-
+|[https://terror.moe/items/chaos_coil カオスコイル] || 200 Eph || <small>カオスコイルは異次元のエネルギーで変形しちまっててな、あまり落ち着いて居座ることはできない。<br>このコイルはとてつもない速度を与えてくれるが、不安定であまり信用しない方がいい。</small> || <small>- 所持中、プレイヤーにスピードを4ポイント与える。<br>- 移動中、コイルが2-7秒間故障してしまうことがある。</small>
+|-
+|[https://terror.moe/items/glass_coil ガラスコイル] || 250 Eph || <small>ガラスでできた強力なコイルさ。他のどのコイルよりも大抵強いが、壊れやすいんだ。<br>このコイルはプレゼント用に作ったんだ。誰かは言いたくないが。</small> || <small>- 所持中、プレイヤーに3.5ポイントのスピードを与える。<br>- どんなダメージを受けても、ラウンド終了時までコイルが故障する。</small>
+|-
+|[https://terror.moe/items/corkscrew_coil コルクスクリューコイル] || 250 Eph || <small>コルクスクリューコイルは究極の戦闘性能、そして移動性能を持ち合わせているんだ。スピードと防御、両方を兼ね備えている。<br>使った後にチャージが必要だから使うときは注意しろよな。</small> || <small>- 所持中、プレイヤーにスピードを1ポイント与える。<br>- 使用すると、5秒間スピードを4ポイント上昇させる。またこの間コイルがキラーをスタン出来るようになる。再使用にチャージが必要。</small>
+|-
+|[https://terror.moe/items/antique_revolver アンティークリボルバー] || 250 Eph || <small>使い古されたリボルバーだ。今にも壊れそうに見える。<br>シリンダーが弾を1発しか入れられないようになってて、弾を入れるのにも一苦労する。<br>一発で仕留めるんだぞ。</small> || <small>- 使用すると、リボルバーを発泡しキラーをスタンする。<br>- スタンの効果がキラーによって明確に異なる。<br>- 弾は複数のキラーを貫通する。<br>- 再使用に長時間チャージが必要。</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+サバイバルショップ
+|-
+!アイテム名!!価格!!概要!!ノート
+|-
+|[https://terror.moe/items/burger ハンバーガー]||1 SP||<small>ハンバーガー、チーズバーガー、ビッグマック、ワッパー。<br>ハンバーガー、チーズバーガー、ビッグマック、ワッパー。<br>ハンバーガー、チーズバーガー、ビッグマック、ワッパー。</small>||<small>- 使用すると消費し、HPを全回復する。<br>- ラウンド終了時にアイテムを再度装備しなおす必要がある。</small>
+|-
+|[https://terror.moe/items/beyond_plush Beyond人形]||10 SP||<small>ある時おそらく重要な存在であった誰かさんの謎めいた人形だ。<br>かすかに古の力を感じる、がこんなもの使い物になるのか？</small>||<small>- 使用すると音を鳴らす。<br>- 色んな音が流れる可能性あり。<br>- 確率で何かしらの効果を発動する。<br>- クールダウン10秒</small>
+|-
+|[https://terror.moe/items/magic_conch 魔法のホラ貝]||25 SP||<small>深い海の中に沈んでいた儀式場から発見されたホラ貝。糸を引くと喋るぞ。<br>自然にできたもののはずなんだが、電子機器っぽいのが中に見えるんだよな。</small>||<small>- なにか聞いてから糸を引く。</small>
+|-
+|[https://terror.moe/items/radar_coil レーダーコイル]||50 SP||<small>スピードコイルとレーダーの融合物だ。<br>画面がついていないからどこからその脅威が来るのかは教えてくれないが、まあすぐに分かるだろう。</small>||<small>- 所持中、プレイヤーにスピードを2ポイント与える。<br>- 所持中、使用者から半径35m以内のキラーを検知する。0.8秒ごとに更新</small>
+|-
+|[https://terror.moe/items/rubber_mallet ゴム製のハンマー]||100 SP||<small>怪しい奴らにはよく効くゴムハンマーだ。<br>まあ人によっては親しみがあったり、金属バットよりかは使いやすいんじゃないか。<br>最低限仕事はしてくれる。</small>||<small>- 使用すると、ハンマーを振りキラーをスタンする。<br>- スタンの効果がキラーによって明確に異なる。<br>- スタンが効いている場合は、黄色のパーティクルが発生する。<br>- スタンが効いていない場合は、赤色のパーティクルが発生する。</small>
+|-
+|[https://terror.moe/items/banana バナナ]||250 SP||<small>バナナは、プレイヤーが床にバナナを落とすことができるアイテムです。一度落とすと再び拾うことはできず、新しいバナナを手に入れるにはショップで再購入する必要があります。レンガと同様に、呼び戻すこともできません。</small>||<small>-ラウンド中に一度だけ設置が可能。<br>設置されたバナナはプレイヤーが乗るとﾋﾟｮｰﾝと飛ばされ、テラーが上を通るとスタンされる。<br>バナナは設置後90秒経過で自然消滅する。環境にも優しい。<br>消えるまで何度でも使えるため場合によっては有効活用できる。</small>
+|-
+|[https://terror.moe/items/tbh TBH]||500 SP||<small>ちいさいあいつ、ちいさい生き物。<br>こいつは脳みそ持ってない。その、なんだ。<br>雰囲気だ。ちょっと強く握ってみろ、<br>音を鳴らせるはずだ。</small>||<small>- 使用すると、一時的にスピードを5ポイント得る。<br>- 自身に炎上効果を引き起こす。<br>- 再使用にチャージが必要。</small>
+|-
+|[https://terror.moe/items/darkgrey_plush Darkgrey人形]||750.5 SP||Darkgreyだよ！<br>なんてこった！<br>かっこよすぎる！<br>たまんねぇ！||<small>- Darkgreyのように！<br>- とてもかっこいい<br>- まじすげえ<br>- これを見な！！！！</small>
+|-
+|[https://terror.moe/items/delicate_coil デリケートコイル]||1000 SP||<small>ガラスコイルがリスキーだって言うなら、これはお前さんの手を粉々にしてしまうだろうよ。<br>何人かは爆発した時のガラスの破片で死んだよ。だからそのリスクを負う覚悟がないのなら使わないほうがいい。</small>||<small>- 所持中、プレイヤーにスピードを3.8ポイント与える。<br>- どんなダメージを受けても、使用者が死亡する。</small>
+|-
+|[https://terror.moe/items/emerald_coil エメラルドコイル]||2500 SP||<small>お前さんが集めてるものから開放されるものだ。つまり、エンケファリンの良い使い道になる。<br>燃料ほどそんなに長く使い物にはならない、だから生き残りたいなら賢く使いな。</small>||<small>- 使用すると、エンケファリンを5消費して2秒間コイルをチャージする。<br>- チャージ中、スピードを4ポイント与える。<br>- エンケファリンがない場合、機能しない。</small>
+|-
+|[https://terror.moe/items/pot_of_greed 強欲な壺]||5000 SP||<small>この壺が何なのか、見つけた記憶がないんだけど、本当に不気味だ。見ていないときにこっちを見ている気がして仕方ない。危険から遠ざけてくれるかもしれないけど、タダで助けてくれるとは思えない。</small>||<small>使用にはエンケファリン100が必要。<br>強欲の壺が近くにテラーを感知すると、自動的にプレイヤーをテレポートさせて回避させる。<br>-そのたびに壊れる確率が上昇し、エンケファリンを半分奪う可能性がある。<br>-強欲の壺はエンケファリンを半分奪う可能性があるため、エンケファリンを大量に集めるよりも、少量で使うのが推奨される。</small>
+|-
+|[https://terror.moe/items/brick レンガ]||10000 SP||<small>古くて頑丈なレンガ以外の何物でもねぇ。<br>投げるのに少し練習がいるかも知れないが、それをするだけの価値はあるぞ。ただ、落とさないようにな。返ってこないかもしれないぞ。</small>||<small>- 直接レンガを投げてテラーをスタンさせる。<br>- クールダウンは無いが、投げた後自分で回収しにいく必要がある。(リコール無効！)</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+イベントショップ
+|-
+!アイテム名!!概要!!ノート!!アンロックの条件
+|-
+|[https://terror.moe/items/luxury_coil ラグジュリーコイル]||<small>キンのようなもので作られた特別なコイルだ。<br>生き残るのに必要なもの全てを与えてくれるが、それ以上でもそれ以下でもない。見るよりも使ってみるのが良いさ。</small>||<small>- 所持中、プレイヤーにスピードを1.5ポイント与える。<br>- 所持中、HPの回復速度が2.5倍になる。</small>||<small>2023年4月までにフォームを提出したすべてのパトロン (Caretaker) に与えられる。</small>
+|-
+|[https://terror.moe/items/blue_medkit 青いメッドキット]||<small>複数の医薬品が入った箱だ。グリーンバスで訪れた色んな所でかき集めたんだが、なんで青いんだ？<br>まあ量は多くないが、混戦を切り抜けられるようにはなるんじゃないか。</small>||<small>- 使用すると、自身と周囲の味方のHPを25%回復する。<br>- 自身にランダムな効果を発生させる。<br>- 再使用にチャージが必要。</small>||<small>2023年4月までにフォームを提出したすべてのパトロン (Pilot) に与えられる。</small>
+|-
+|[https://terror.moe/items/sealed_sword 封印された剣]||<small>古の武器。布と護符で包まれてる。良いものも悪いものも吸収するように出来ている。<br>この武器は不格好で遅い、使うのはおすすめしないよ。</small>||<small>- 使用すると、剣を振りキラーをスタンする。また、自身に移動速度低下を与える。<br>- スタンの効果がキラーによって明確に異なる。<br>- スタンが効いている場合は、黄色のパーティクルが発生する。<br>- スタンが効いていない場合は、赤色のパーティクルが発生する。<br>- 再使用にチャージが必要。</small>||<small>ロケーション「Museum」にてガラスケースをスタン武器で破壊し、中身を盗み入手。</small>
+|-
+|[https://terror.moe/items/gran_faust グランファウスト]||<small>この剣は力が強すぎて所持者でも呪ってしまう。だが、それでもデビライトから貴重な休みを潰してでも手に入れようとしに来たものだ。<br>この武器は使い方を知らないやつにはろくに使えもしない代物だ。気をつけな。</small>||<small>- 使用すると、剣を振りキラーをスタンさせる。<br>- スタンの効果がキラーによって明確に異なる。<br>- 振りかぶる都度に自身を呪う可能性がある。呪われている状態で剣を振ると使用者にダメージを与え呪いを進行させる。<br>- 再使用に短時間のチャージが必要。</small>||<small>封印された剣を持ったままノーマルテラー「Arkus」を生存。</small>
+|-
+|[https://terror.moe/items/divine_avenger ディバインアベンジャー]||<small>別の世界線で裏世界の悪魔たちと戦う騎士たちのために作られた、聖なる剣だ。<br>こういう剣で倒すべき敵がこの世界にはまだ少し残ってる。それに立ち向かえる英雄さんなら持ってってもいいんじゃないか。</small>||<small>- 使用すると、剣を振りキラーをスタンさせる。<br>- スタンの効果がキラーによって明確に異なる。<br>- スタンが効いている場合は、黄色のパーティクルが発生する。<br>- スタンに成功した場合、HPの自動回復を得る。<br>- 再使用にチャージが必要。</small>||<small>封印された剣を持ったままノーマルテラー「Arkus」を2回スタンして生存。</small>
+|-
+|[https://terror.moe/items/maxwell マクスウェル]||<small>かつての神の創造物の一つ。<br>こいつはいろんな名前を持っているが、一つしか当てはまるものはねえな。<br>お前さんが絶望にひしがれたときに、こいつはお前さんが救ったようにそこから救ってくれるだろうよ。</small>||<small>- ラウンドごとに1度だけ、致命傷を負ったときにそのダメージを防ぎ、HP全快の状態でどこかにテレポートする。<br>- マクスウェルは上記効果を発動後消費されるため、ショップで再度装備する必要がある。</small>||<small>ロケーション「It's Maze」にて木箱の近くにいるマクスウェルを入手。</small>
+|-
+|[https://terror.moe/items/rock 岩石]||<small>俺はこんな石見たことねえぞ。<br>こいつは普通の石じゃねえ。<br>これをほしいなんて考えるなよ、<br>お前さんよ。時々、聞こえるんだよ。<br>俺にささやいてくるのが。</small>||<small>- 直接石を投げてテラーをスタンさせる。<br>- クールダウンは無いが、投げた後自分で回収しに行く必要がある。(リコール無効！)</small>||<small>オルタネイトテラー「Fusion Pilot」を生存。</small>
+|-
+|[https://terror.moe/items/illumina イルミナ]||<small>この世界の不純な心を取り除こうという決意を見せるものに姿を表す古代の武器だ。<br>闇の深い夜でさえ、こいつは<br>光を与えてくれるんだ。</small>||<small>-使用すると、剣を振りキラーをスタンする。<br>- スタンの効果がキラーによって明確に異なる。<br>- スタンが効いている場合、黄色のパーティクルが発生する。<br>- スタンが効いていない場合は、赤色のパーティクルが発生する。<br>- クールダウンが短いが、攻撃時の無敵効果(免疫)は発動しない。</small>||<small>オルタネイトテラー「Bliss」を生存。</small>
+|-
+|[https://terror.moe/items/redbull レッドブル]||<small>翼を授けるエナジードリンクだ、<br>まあというより心不全を引き起こすよな。<br><br>(RedBullがToNのスポンサーというわけではありません！)</small>||<small>- 使用すると、とてつもなく高いスピード増加効果を得る。<br>- スピード増加効果が終了後、ひどい移動速度低下を受ける。</small>||<small>オルタネイトテラー「Roblander」を生存。</small>
+|-
+|[https://terror.moe/items/omori_plush Omori人形]||<small>少し前にフリーマーケットでこやつを見つけたんだ。それ以来、ずっと握りしめてるよ。<br>これが生存確率を上げられるとは全く思わないが、でもギュってするの楽しいだろ！</small>||<small>- 握りしめて音を鳴らす<br>- ちょっとだけ、悪いことを全部忘れられる...かもしれない</small>||<small>ノーマルテラー「Something」を生存。</small>
+|-
+|[https://terror.moe/items/paradise_lost 失楽園]||<small>どこか不思議なブツ、正しい信仰をしてないと効果を発揮しないようだ。<br>どこの宗教のものかはわからないが、それがわかるのなら喜んでこれをくれてやる。</small>||<small>- 前方少しの距離にいるテラーをスタンする<br>- 命中したプレイヤーには回復を与える<br>- 使用時、所有者にはダメージを与える</small>||<small>ノーマルテラー「WHITENIGHT」にて、使徒を指定回数スタンさせ生存。</small>
+|-
+|-
+|[https://terror.moe/items/thorn_glognut ソーングロッグナッツ]
+|<small>元祖グロッグナッツ！ふわふわの小さなスポンジケーキに、明るい琥珀色の美味しいアイシングがかかっていて、砂糖は少なめ。<br>とても美味しくて中毒性が高い！ギグラーでもジェンボでも、誰でも一度はこれを食べたことがあるはず。</small>
+|<small>食べると**「グラグルビジョン」**状態になり、大幅なスピードブーストと15秒間の防御効果を得る。その代わり、HPが10％を残してすべて失われる。</small>
+|<small>オルタネイトテラー「Glaggle Gang」を生存。</small>
+|-
+|[https://terror.moe/items/jailbird ジェイルバード]
+|<small>意思を持つ機械の一部で、武器として使われることを楽しんでいるようだ。<br>爆発しやすい性質があるため、爆発しないよう補強しておいた。</small>
+|<small>使用するとジェイルバードをチャージし、3秒間強力な加速効果を得る。<br>再使用でスイング攻撃が可能になり、命中したテラーを2〜3秒間麻痺させる。<br>攻撃が外れた場合、逆に使用者が麻痺してしまう。<br>スタン無効のテラーにも使用できる点に注意。</small>
+|<small>全てのクラシックテラーを生存。</small>
+|-
+|[https://terror.moe/items/joyous_orb ジョイアスオーブ]
+|<small>遥か遠い太陽から回収された古代の遺物。考え事をしているようにも、眠っているようにも見える。<br>こんな物体はいったいどんな夢を見ているのだろうか？</small>
+|<small>ラウンド中に放つと、オーブはランダムに飛び回り、進路上のテラーをスタンさせた後に爆発する。ロビーでは使用不可。</small>
+|<small>オルタネイトテラー「Joy」を生存。</small>
+|-
+|[https://terror.moe/items/have_plush Have人形]
+|<small>暗い屋根付きの森に潜む生き物に似たぬいぐるみ。<br>その森が「森の王」を名乗る存在に守られていることを知る者は少ない。</small>
+|<small>手に持っている間、プレイヤーは一切のデバフ（Debuffs）を受けなくなる。<br>ただし、バフ（Buffs）も受けられなくなる。</small>
+|<small>オルタネイトテラー「The Observation」を生存。</small>
+|-
+|-
+|[https://terror.moe/items/silver_coil シルバーコイル]||<small>今日は気分がいいんだ、だから君にはこの素晴らしきコイルを使わせてあげようじゃないか。<br>こんなに良いもの、毎日は使わせてあげられないからな！</small>||<small>- 所持中、プレイヤーにスピードを3ポイント与える。これにより、テラーから逃げやすくなる。</small>||<small>インスタンス入場時に1/250の確率でイベントショップに出現。</small>
+|}
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Special Items<nowiki>*</nowiki>
+|-
+!アイテム名!!概要
+|-
+|[https://terror.moe/items/torch_of_obsession 松明]||<small>ウィンターフェス (Winterfest) でコールドナイト (Cold Night) を生き延びると手に入るアイテム。使用するとAoEスタンと回復、さらに光も与えてくれる。</small>
+|-
+|[https://terror.moe/items/snowy_speed_coil スノーコイル]||<small>ウィンターイベント期間中、ショップ横の雪山から採取することでアンロックできるアイテム。このアイテムは、ウィンターフェスが終わった後も、ずっと持っていることができる。名前とは裏腹に、通常のスピードコイルよりもほんの少しだけ、本当にほんの少しだけスピードが遅い。ただし、持っている人は無料。</small>
+|-
+|[https://terror.moe/items/carrot Carrot]||<small>MaraRizer氏 (ToN公式Wiki管理人) が所有するコントリビューターアイテムで、使用者を幸せにしてくれるだけでなく、通常のスピードコイルと同じ効果を与えてくれる。手に取ると、MaraRizer氏 のお気に入りのゲーム「スーパー魂斗羅」の効果音が流れる。ドロップすると、「Wiki Webmaster」というタイトルが付く。</small>
+|-
+|[https://terror.moe/items/overseer_plush Overseer 人形]||<small>Overseer のぬいぐるみは、バトルロイヤルを勝ち抜いたプレイヤーだけが手にすることができる、非常にレアなアイテム。Beyond はときどきテストプレイ中に本当に飽きてしまい、プレイヤーに命がけの戦いを強いることがある。このぬいぐるみ自体は、使用時に効果音が鳴り、Overseer の目が光る以外には何もしない。ただし、以下のリストの誰か（貢献者を除く）を観戦すると、名前の下に「Overseer はあなたが好き :) (Overseer loves you :))」という短い文字列が表示される。</small>
+|-
+|[https://terror.moe/items/judia Judia]||<small>ブリス、ジューダス、ロブランダーといったテラーで使用されているベースを作った「nkt_にこまる」氏が特別に所有しているコントリビューターアイテム。使用すると槍を向けたところに突進し、テラーを気絶させる。普通のスタン武器よりも攻撃アニメーションが長いという点ではコークスクリューコイルと同じような働きをする。しかし、テラーにヒットすると（パリィによる）ノックバックで突進が止まってしまうため、スタンさせてもヒットボックスが残っているテラーに対しては「nkt_にこまる」氏が弱くなる。また、Judiaを保持しているとスピードが約2上昇する。落とすとタイトルに持ち主の名前が表示される。</small>
+|}
+<nowiki>注: </nowiki>特別なアイテムは店内にないか、まったく手に入らない。
+</center>
+</div>
+
+<span id="Achievements"></span>
+==実績==
+
+Terrors of Nowhere には'''163'''個の実績があり、様々な目標を達成することでアンロックすることができる。
+
+<center><big>⚠️'''ネタバレ注意'''⚠️<br>
+
+'''以下の内容はネタバレを含む可能性がありますので、閲覧にはご注意ください。'''</big></center>
+
+<div class="mw-translate-fuzzy">
+<!-- iirc there's 96 achievements this table might take a while... . -->
+<!-- Gonna be slowly adding these achievements in order as listed on the in-game board, so yeah will take some time. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+実績
+|-
+!実績名!!フレーバーテキスト!!アンロックの条件
+|-
+|血液不足||え？まだまだ物足りないって！？||ラウンドタイプ「ブラッドバス」を生存
+|-
+|禁煙!||人間の肺には有害なんだぞ。||ラウンドタイプ「霧」を生存
+|-
+|一線を越える||どんな星でもいつかは燃え尽きる。||ラウンドタイプ「狂気」を生存
+|-
+|表と裏||みんな裏返しになっちゃった。||ラウンドタイプ「オルタネイト」を生存
+|-
+|脱出成功!||あなたは狂った殺人鬼から無事生き残った!え、あいつら知り合いだって？||ラウンドタイプ「サボタージュ」を生存
+|-
+|乗り越えた先||逃げれるだけじゃない。もうその血は君のものだ!||スピードコイルで「ブラッドバス」を生存
+|-
+|撲殺||お前が残した惨状を見てみろ!血だらけじゃねえか!||メタルバットで「ブラッドバス」を生存
+|-
+|献身的な犠牲||なぁ、君まともに話聞いてるか？||テレポーターで「ブラッドバス」を生存
+|-
+|ピカピカだね!||あなたはパイプを見つけた。おめでとう、かな。でもなんでそれが欲しいんだい？||メタルバットで「オルタネイト」を生存
+|-
+|ビジネスパートナー||スーツケースの中身が気になったことはある？ついにそれを知るときが来たかもしれない!||テレポーターで「オルタネイト」を生存
+|-
+|蒼白の仲間||おめでとうございます。あなたは無事採用されました!あの子たちに知らせが行ってるといいですね。||アンティークリボルバーで「オルタネイト」を生存
+|-
+|審判の時||剣の方がバットよりも効果的だと思ったんだな。||メタルバットで「ミッドナイト」を生存
+|-
+|可愛く彩ろう||私か、それともバットが色鮮やか過ぎたかな？||メタルバットで「狂気」を生存
+|-
+|夜明けの始まり||ミッドナイトから恐怖が出てきた!ミッドナイトホラーだ!||ラウンドタイプ「ミッドナイト」を生存
+|-
+|偽りの光||彼女の力の記憶でしかない。だが利用するには充分だ。||グローコイルでミスティックムーンを生存
+|-
+|全てを見通す目||彼らは黄昏に耐え、黎明を迎えた。||カオスコイルでトワイライトを生存
+|-
+|終戦||もう彼の行き場はない、君は彼に安全な場所を提供した。||メッドキットでブラッドムーンを生存
+|-
+|運命の出会い||全てはこの瞬間のためだった。||It's Mazeでマクスウェルを見つける
+|-
+|コラテラルダメージ||あれは事故だったんだ！剣は一体どこに行っちゃったんだろうね！||Museumで封印された剣を盗む
+|-
+|敵を知る||僕たち二人には狭すぎるよ||「Alternates」に遭遇する
+|-
+|許してくれ||代償は大きすぎた。やがて悲しみを乗り越え、彼女の意志を受け継ぐだろう。||Blissから生存
+|-
+|楽しめたかい？||君を受け入れる部屋はもうないんだ。||Roblanderから生存
+|-
+|華氏1万度||彼女は君への燃えるような憎しみでいっぱいだったのに、君はあろうことかその火を押しのけていった。||Fusion Pilotから生存
+|-
+|闇の中||またそこに、後ろ。見えるはずだよ、ほら。||Somethingから生存
+|-
+|消えゆく記憶||え、今何を相手にしてた？覚えてないんだけど。||ミスティックムーンを生存
+|-
+|終末の日||森には最初からかいぶつなんて居なかった。||トワイライトを生存
+|-
+|戦争||彼の戦いは決して終わらない。彼は何度でも帰ってくる。||ブラッドムーンを生存
+|-
+|付き添い人||振り返る理由なんてない。前に進むだけだ。||ソルスティスを生存
+|-
+|Gルート||サイアクなめにあった。それでもきみは這い上がってきた。||TBH Sansから生存
+|-
+|起こってしまった||このラウンドの後は、少し散歩しに行ってもいいかもね。||封印された剣を所持中に「パニッシュ」にて「Arkus」に遭遇
+|-
+|子供向けじゃないよ||ままー、この動画気になる。||MopeMopeから生存
+|-
+|ベストオブパープルガイ||今月のMVPは～、パープルガイ！||「狂気」のPurpleGuyから生存
+|-
+|異端者||あなたは誘惑を振り切り、恩寵を纏う使徒に対し戦いきった。||WhiteNightの使徒と戦闘を行う
+|-
+|時間切れ||「そこの直りなさい！行儀悪いでしょ！」||ラウンドタイプ「パニッシュ」を生存
+|-
+|古のチカラ||この武器は騎士の呪いを払いきっている。これから育ち、より強くなる。||封印された剣をディバインアベンジャーへと進化させる
+|-
+|全知全能||死にゆく皆を見ていたのにも関わらず、あなたは恐怖に屈しなかった。||ソルスティスでアイテムを装備せずに生存
+|-
+|サバイバー||初めて勝ったね！おめでとう！||初めて生存する
+|-
+|どっちだっけ？||多分迷子になった。でも大丈夫、グーグル先生に頼ろう。||The Navigatorから生存
+|-
+|ミュートされた？||AMBUSHは以下の理由でモデレーターによりミュートされました。理由：スパム||Ambushから生存
+|-
+|史上最高のパフォーマンス||今ショーは完結した。群衆はアンコールを待ちわびている。||Teuthidaから生存
+|-
+|衝突と解消||彼らは自らの名残を捨てようとした。それでも彼らの憎しむ思いは消せなかった。||Convict Squadから生存
+|-
+|継続性||君の人生は君のものだ。価値を見出すのなら、安全にね。||初めてセーブ機能を使用する
+|-
+|YOU DIED!||大丈夫さ、コツを掴むまではあと3回は死ぬだろうから！||初めて死亡する
+|-
+|恐怖を力に||これで生存の確率が50%上がったね！||初めてアイテムを購入する
+|-
+|家賃滞納||お金がない？安心しろ、お前の命で支払えるぞ。||Hideに殺される
+|-
+|大銀行||今日はよく頑張ったな、休むのも大事だぞ。||エンケファリンを1000以上所持する
+|-
+|侵入||あれはただの夢か？それともなにか、もっと…気にしても仕方ないか！||Interloperに殺される
+|-
+|あっ||君がしでかしたことを見てよ、彼女怒っちゃったよ！||Toren's Shadowを怒らせる
+|-
+|だんご三兄弟||多分もうこれ以上大きくならないと思う。でも、そもそも餌を与えないことだね。||笑う死体の山の最終形態に遭遇する
+|-
+|止まれ||渡る前に青信号なのかを常に確認すべきだね。||The Guidanceの赤信号で殺される
+|-
+|場所もタイミングも悪かった||まあ、少なくともこんな事が2回も起こる確率は0に近いよ。||MR.MEGAの雷撃に殺される
+|-
+|死んででも||破れたピースを戻そう、放置は一度に一人で充分だ。||Specimen 9に追いかけられている間に勝利する
+|-
+|博士号||知識が足りない間は経験で補うのさ！||1回のインスタンス内で全てのステータス効果を受ける
+|-
+|霧がやってくる||霧が赤いのは血で染まったから？||霧のSquidwardから生存
+|-
+|悪魔との契約||魂を売ったな？そんなのが必要なかったらよかったのにな！||ベルゼブブとの契約を行う
+|-
+|反乱||あの日受けた傷が治らなくても、先に進めば良い未来が待っている。||Glaggle Gangから生存
+|-
+|日頃の行い||その先に誰が待ち構えているか知ることは無いだろうね。||Angry Munciから生存
+|-
+|削除されました||君が居なくても世界は変わらず回り続ける。||sm64.z64から生存
+|-
+|いつもの作業||君は無事誘惑を振り切った。また明日会おう！||Don't Touch Meから生存
+|-
+|収容違反||誘惑に従った結果、自分以外のみんなも巻き込んだ。||Don't Touch Meを起動する
+|-
+|誇りを持って||やった！勝ったよ！みんな！…みんな？みんなどこいった？||最後の一人として生存
+|-
+|完璧主義||たくさん生き残ったね、傷一つ負わずに！||一切ダメージを負わずに10ラウンド連続で生存
+|-
+|クリスタルクリッカー||あの某放置ゲームみたいだね！||ロビーでエンケファリンクリスタルを砕く
+|-
+|観光客||全部一通り回ったね！||一つインスタンスで全てのマップに遭遇する
+|-
+|ディナーは何にしようか？||暴力では何も解決できない。||Starvedを誰もスタンせずに生存
+|-
+|復讐||最後に残った光は、全てを取り戻すという願望で満たされた。||Judasから生存
+|-
+|良い仕事ぶり||全員を裏切って怪物と手を組んだんだな。||『サボタージュ』にて全員殺害する。
+|-
+|始マリノ祭リ||楽シメタカナ？||Walpurgisnachtから生存
+|-
+|赤い霧が帰ってきます||彼女の相手が残したのは、赤く染まった血だまりだけだった。||The Red Mistから生存
+|-
+|OPテラー||こいつは余りにも別次元の強さを誇っている。||Sakuya The Ripperから生存
+|-
+|ジレンマ||怪しい生き物が目の前にいるね。何かしてみるかい？||ロビーにてNeco Arcに遭遇する
+|-
+|仕事に遅れちゃうよ||人々には仕事があるの！君は彼らの時間を無駄にしてるんだ！||Red Busを怒らせる
+|-
+|堕ちた王国||王は復讐に失敗し、闇へとまた堕ちた。||Monarchから生存
+|-
+|生き、そして学ぶ||あなたは恐怖を前にしても常に希望が見えることを証明した。||カウンターが200以上の「ミッドナイト」で生存
+|-
+|止まらない食欲||その永遠にも思える食欲は決して冷めることはない。||The Meatball Manから生存
+|-
+|研究者||このワールドをようやく一通り楽しんだね||ナイトメア図鑑を完成させる 
+|-
+|深淵を覗きし者||ここにある真実を全て見つけたんだな||オルタネイト図鑑を完成させる
+|-
+|天文学者||君は夜空を見すぎだ||ムーン図鑑を完成させる 
+|-
+|Ranの導き||これで、逃げ方がわかったね||Christian Brutal Sniper・Huggy・Akumii-Kariから生存
+|-
+|Ranのお気に入り||さあみんな、挨拶して！||The Boysから生存 
+|-
+|あの子のように！||彼女はこれをいともたやすくやってのける||「ブラッドバス」にて最後の一人として生存
+|-
+|スレンダーマンだ！||しかもコンロでホットドッグ作ってやがる！||the Hungry Home Invaderに遭遇する
+|-
+|勝利の3乗||まるで3回も勝ったみたい！だよね？算数苦手なんだ。||マップ「Challenge Cube」で勝利する
+|-
+|メモ泥棒||これらは一体誰が描いたものだったんだろう？||「8ページ」をクリア
+|-
+|心なき機械||しかし、悲しいな。奴はただの機械以外の何者でもないのだから。||No Nameから生存
+|-
+|通過儀礼||彼女はもう振り返らない、そう決めたのだから||テレポーターでソルスティスを生存
+|-
+|見知らぬ挑戦者||あれ、アプデ内容見過ごしてた？||レアな特殊テラーに遭遇する
+|-
+|隠れんぼ王||今度、同じ場所を取られないように祈ることだね。||RushかAmbush、どちらかが存在する「ブラッドバス」か「ミッドナイト」を生存
+|-
+|ザ・ワールド||彼らは彼女が「止めた」世界に入り込み、それだけでなく生き残ったというのか。||Sakuya Izayoiが存在する「ブラッドバス」か「ミッドナイト」を生存
+|-
+|エンパシー||全てのものには主人公になる権利がある。・・・あいつを除いては。||Apathyを生存
+|-
+|注目の的に！|このラウンドはあいつらが主人公みたいだな||占領ラウンドに遭遇する
+|-
+|ダブり||あの魔女に目をいじられたかも？||同じキラーを2体同時に目にする
+|-
+|楽園はそこにあった||私たちが思う楽園は、きっと主観の思い込みでしかない。だってみんなが鳥に食べられたいわけじゃないだろ？||Paradise Birdから生存
+|-
+|失われた魂||帰る家も、この先の運命も、彼女にはもう何一つ残っていない。||Kimeraから生存
+|-
+|恐怖の心||誰しも心のどこかに持っているものだ。だが結局、最後は無に還る。||ToNにてBeyondさんに遭遇する
+|-
+|バンバンたちが天国へ送るかのごとく||これを作った俺は一体何を考えてたんだ。||Garten Goersから生存 
+|-
+|冬祭り開催！||雪の中にプレゼントがあるよ！||スノースピードコイルを装備
+|-
+|彼らの居場所||君と一緒なら、いつまでも幸せになれた…かな||ラウンドタイプ「冷たい夜」を生存
+|}
+</center>
+</div>
+
+<span id="Gallery"></span>
+==ギャラリー==
+
+<gallery widths="260" heights="150">
+File:ToN Courtroom.png|Terrors of Nowhere のロビー、通称「コート (Court)」
+File:ToN Merchant Shop.png|市場商人のショップ
+File:ToN Index&Settings.png|テラーの索引と設定パネル
+File:ToN Achievements&Stats.png|実績ボードとプレイヤーの統計
+File:ToN SpectatorScreen.webp|コート後方にある観戦スクリーン。
+File:ToN RedCrystal.webp|赤いエンケファリンクリスタル。1-2 Eph ほどの価値がある。
+File:ToN BlueCrystal.webp|青いエンケファリンクリスタル。3-5 Eph ほどの価値がある。
+File:TON VellowCrystal.webp|黄色いエンケファリンクリスタル。17-19 Eph ほどの価値がある。
+File:TON HeadsUpDisplay.webp|ラウンドに必要な様々な情報を表示するヘッドアップディスプレイ。
+File:Terrors Tracker.webp|Terrors of Nowhereのトラッカー（空白状態）。[https://tontrack.me/ tontrack.me] で利用可能。
+</gallery>
+
+<span id="Trivia"></span>
+==トリビア==
+
+*Terrors of Nowhere は ''CaptainSpinxs'' 氏制作の Roblox ゲーム [https://www.roblox.com/games/2809844442/Midnight-Horrors Midnight Horrors] からインスピレーションを受けている。
+*ゲームには様々なメディアへの言及や引用が多く、その多くはゲーム内で説明されているが、そうでないものもある:  <!-- TODO: Reword this to sound better! -->
+**「エンケファリン」とは、Project Moon社のゲーム [https://store.steampowered.com/app/568220/ Lobotomy Corporation] と [https://store.steampowered.com/app/1973530/ Limbus Company] に登場するエネルギー資源を指す。
+**コイル系アイテムは、似たような名前の Roblox のアイテムを参考にしている。<!-- could be worded better -->
+
+<span id="Community_resources"></span>
+==コミュニティのリソース==
+
+*'''YouTube''' の [https://www.youtube.com/watch?v=-1x6ejPj9XM ''Terrors of Nowhere リリーストレーラー動画'']
+*'''YouTube''' の [https://youtu.be/pIc_FsSoM7M ''ToN 1.15 アップデート トレーラー'']
+*[https://vrc.group/TON.4826 ''Terrors of Nowhere 公式 VRChat グループ'']
+*[https://terror.menu/ terror.menu] - ''Terrors of Nowhere 公式 Wiki''
+*[https://github.com/Chriseline/ToNSaveManager ToN Save Manager] - セーブコードの管理に役立つシンプルなツール
+*[https://tontrack.me/ tontrack.me] - 進捗トラッカー
+*[https://youtube.com/playlist?list=PL691R76WemDwPACQTnfnW21fiLQKyWkzi-i_zxYmH99llutGR ''Terrors of Nowhere サウンドトラックプレイリスト'']
+
+==日本語コミュニティのリソース==
+*[https://vrc.group/TONJP.6510 TON 日本支部] (非公式)
+*[https://www.ton-jp.com ton-jp.com] - Terrors of Nowhere JP Fan Wiki (非公式)
+*[https://wikiwiki.jp/ton_jp/ wikiwiki.jp/ton_jp] - Terrors Of Nowhere非公式wiki (非公式)
+
+[[Category:Japanese{{#translation:}}]]

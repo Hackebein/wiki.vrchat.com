@@ -1,0 +1,21 @@
+<noinclude></noinclude><includeonly>
+{{#ifeq: {{#expr: {{#ifexist: Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}} | 1 | 0 }} and {{#ifexpr: {{PAGESIZE:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}}} > 0 | 1 | 0 }}}} | 1
+| {{Infobox/Asset
+|title={{{name|com.vrchat.worlds}}} v{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}}}
+|name={{{Displayname|{{#ifexist: Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/DisplayName |{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/DisplayName}}|}}}}}
+|license={{{license|{{#ifexist: Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/License |{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/License}}|}}}}}
+|vpm={{{vpm|{{#ifexist: Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/VPM |{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/VPM}}|}}}}}
+|image={{{image|}}}
+|youtube={{{youtube|}}}
+|author={{{author|{{#ifexist: Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author_1 |{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author_1}}|}}}}}
+|author_1={{{author_1|{{#ifexist: Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author_2 |{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author_2}}|}}}}}
+|author_2={{{author_2|{{#ifexist: Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author_3 |{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author_3}}|}}}}}
+|author_3={{{author_3|{{#ifexist: Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author_4 |{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author_4}}|}}}}}
+|status={{{status|}}}
+|documentation={{{documentation|}}}
+|booth={{{booth|}}}
+|gumroad={{{gumroad|}}}
+|github={{{github|}}}
+|gitlab={{{gitlab|}}}
+}}
+| Create a blank [[Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}|Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}]] page, to get updates for this VPM Package. It takes a bit to update. }}

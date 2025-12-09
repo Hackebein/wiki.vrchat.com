@@ -1,0 +1,205 @@
+{{Noticebox/Community}}
+[[File:Picture 28 - Atlas World Guide.jpg|border|right|frameless]]
+One of the most powerful tools to optimize your [[Special:MyLanguage/worlds|world]] for best performance is to use as few materials as possible. This is important, since each material has a compounding requirement of drawcalls/batches to render your scene. Simplified this means, each material generates 1 drawcall inherently per object or batched object. However each reflection probe and lightmap texture applied does add an additional one each. Other factors compound this even further, but the bottom line here is to highlight that each material added to your world will have a substantial performance impact.
+Reducing Materials used, means reducing drawcalls. This is crucial, because drawcalls are an instruction from a CPU to a Graphics Card to render something in a certain way. This is something that happens every single frame. VRChat is a CPU bottlenecked platform, where you GPU has a lot of free headroom, therefore the less strain you put on your CPU the more performance you gain.
+
+If you are striving to have visual fidelity combined with high performance, then making a single [[Special:MyLanguage/Atlas|Atlas Texture]] of all your textures used in your world will be the key to that. This advanced guide will go into great detail on how to best achieve this task. It showcases a small example to follow along, as well as how it was done in the [[Community:Eventide]] world.
+
+Please note that you should be [[Special:MyLanguage/Baked Light|baking light]] and marking all non-moving objects as [[Special:MyLanguage/Batching|static]], before you continue. These are 2 easy methods that also have a huge impact on performance.
+
+==Preparing Models==
+When applying a material in Unity it will project its texture the way its UV map is projected on the model. Often that means you will have the material tiling along the surface of the model. On the UV map this looks as though the UV face is going out of bounds of its texture.
+
+[[File:Picture_1_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+However this means, you are limited to to only having one texture per material. If you were to add multiple textures to one image, your scene's textures would fall apart quickly.
+
+[[File:Picture_2_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+This model can be adjusted to allow for tiling a single texture from an atlas however. All you would need to do is to add several vertical and horizontal edge cuts to your model where you would want to repeat your texture, so that each square can represent one instance of a texture tiling.
+
+[[File:Picture_3_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+The process of getting there however can be unintuitive, which makes this a somewhat advanced technique. You will want to ensure, that each square you cut into an object is roughly the same size.
+
+The best way to get these cuts is to use the Knife Project function in blender under Mesh -> Knife Project (or search it up via F3). To use this tool correctly You should prepare a large grid of edges with no faces. To do so subdivide a large plane, then Shortcut: X while in edit mode and select "Only Faces".
+
+[[File:Picture_4_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+Then select the Object you wish to cut through using this grid.
+
+Enter Edit Mode.
+
+Hold Ctrl while in edit mode of said object and only then select your grid, still holding Ctrl.
+
+With all this done head to Mesh -> Knife Project.
+
+Line it up so the grid of edges is in front of your model. Make sure to enable Orthographic view before, to remove perspective (Shortcut: Numpad 5). 
+
+[[File:Picture_5_-_Atlas_World_Guide.jpg|border|frameless|256x256px]]
+
+Execute Knife Project and check the "Cut Through" option on the bottom left of the viewport. (See below)[[File:Picture_6_-_Atlas_World_Guide.jpg|border|frameless|1024x1024px]]By toggling "Cut Through" you can update the cuts made before confirming. Just make sure it is checked at the end.
+
+==Setting up UV's for an Atlas==
+The model is now prepared to manually tile textures on. To make this easier, continue using your materials with a single texture and not a texture on your atlas.
+
+To start out, find a square with as little cuts as possible. UV map the texture on it so that it fills out the entire UV space from 0,0 to 1,1. As in only where the texture is shown within UV Editing.
+
+[[File:Picture_7_-_Atlas_World_Guide.jpg|border|frameless|1024x1024px]]
+
+This will serve as your base.
+
+Next use the blender plugin "Magic UV" to extend the UVs of this square onto adjacent squares. This can be done using UV -> Texture Wrap in the 3D viewport, set the options "Refer" and "Set" as quick favourites or keybinds. I set them to C and D.
+
+[[File:Picture_8_-_Atlas_World_Guide.jpg|border|frameless|256x256px]]
+
+Now use "Refer" on the face that has your texture uv-mapped on and "Set" on a face next to it.
+
+[[File:Picture_9_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+Do this until you have filled an entire adjacent square. Often a square will have other edges intersecting it or cut off part way through.
+
+As you see, your UV editing window now has 1 square filing out the original 0,0 to 1,1 UV space and one of a very similar size adjacent to it, overshooting.
+
+[[File:Picture_10_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+Since the goal is to use a texture from a texture atlas to tile everything, you should now move the newly UV mapped square from the adjacent UV space to your original 0,0 to 1,1 space. Stacking it on top of existing UV faces. Using Shortcut: Y will detach your selection into a separate island, use this before should it stick to adjacent faces.
+
+[[File:Picture_11_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+After you stacked it on the space, fix up minor discrepancies so that this newly UV mapped square is taking up the full 0,0 to 1,1 UV space. Ensure the correct alignment of each UV face, by moving it in 1 UV Texture increments only.
+
+Repeat this process for your entire model.
+
+[[File:Picture_12_-_Atlas_World_Guide.jpg|border|frameless|1024x1024px]]
+
+While the method described above will work for most parts of a model, this is not the only way to stack your UV maps. Smaller models may not need to have additional cuts at all.
+
+[[File:Picture_13_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+For long roads you could make a 4 by 4 meter section of it, which you UV map and then have an array modifier repeat, resulting in no additional work needed afterwards.
+
+[[File:Picture_14_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+Or sometimes it may just be worthwhile to manually UV map parts of a model again instead of using "Set" and "Refer".
+
+Experimenting with normal UV project and UV Cube Project can help too.
+
+As explained in the intro to this guide, the GPU has a lot of headroom available, meaning you can add many more polygons without any performance issues. This is what this method makes use of. The drawcalls saved by saving materials is far more beneficial than the polygons added to compensate.
+
+==Creating an Atlas Texture==
+After finishing UV mapping all models within your world this way and moving everything to occupy the 0,0 to 1,1 UV space, it is now time to make an atlas for this setup.
+
+This is as easy as selecting all individual textures and aligning them on a large texture.
+
+[[File:Picture_15_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+Ensure all textures are aligned accurately in a power of 2 configuration. This means, should you use a 4096 x 4096 (2^12) large atlas and 1024x1024 (2^10) textures, align your textures so that you could fit exactly 16 textures within your atlas. Should you have other textures or colors, place them where a 1024x1024 would have fit with some empty space around it. I.e Solid Colors are grouped in 2 1024x1024 Spaces on the top left of [[Eventide]]'s Texture Atlas.
+
+See the grid below as a helpful baseline for your arrangements.
+[[File:Picture 16 - Atlas World Guide.jpg|none|thumb|256x256px|Grid Layout for 16 textures on a 4k Atlas]]
+
+The same applies should you decide to use up to 64 512x512 on a 4096x4096 atlas.
+[[File:Picture 17 - Atlas World Guide.jpg|none|thumb|256x256px|Grid Layout for 64 textures on a 4k Atlas]]
+
+To accurately place textures on your atlas, it is important to keep mip-maps in mind. Mip mapping on single-texture materials help to have them display well at a distance by calculating the pixels shown, based on adjacent pixels. With this setup however, it would mean that mip-maps on the edge of each texture in your atlas are going to take pixels from other textures right next to them into account. This will produce a bad looking grid, especially in VR. This is highlighted right below.
+
+[[File:Picture_18_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+Take that into account by scaling each texture down by 4 pixels on each side, meaning your 1024x1024 texture should be scaled down to 1016x1016 instead. 512x512 should be scaled to 504x504 instead.
+
+After that repeat pixels on each edge of your textures by 4 pixels towards the outside. It will reclaim its original texture size of 1024x1024 by padding it.
+
+[[File:Picture_19_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+Now paste that texture onto your atlas. And repeat this process for all your other textures, while ensuring an accurate power of 2 placement on your atlas.
+
+Having such padding will ensure that mip mapping is calculated properly later.
+
+Repeat all this for your normal maps, emissive maps and the kinds as well, if you like. Mip mapping is less of a concern for maps other than albedo. Ideally you would do this process for all maps.
+
+== Replacing your individual textures with the Atlas Texture==
+With your models prepared at '''[[Special:MyLanguage/How to Atlas everything in your World#Setting up UV's for an Atlas|Setting up UV's for an Atlas]]''' and your atlas ready at '''[[Special:MyLanguage/How to Atlas everything in your World#Creating an Atlas Texture|Creating an Atlas Texture]]''' it is now time to bring it all together. Follow along closely:
+
+Make your atlas texture the texture of a new material in blender, so that your atlas can be selected as an image in your UV editing window.
+
+[[File:Picture_20_-_Atlas_World_Guide.jpg|border|frameless|768x768px]]
+
+Select every object in your blender scene in Object Mode. (Shortcut: A)
+
+[[File:Picture_21_-_Atlas_World_Guide.jpg|border|frameless|768x768px]]
+
+Enter Edit mode and make sure no faces are selected. (Shortcut: Alt+A will remove all selections)
+
+In your "Material Properties" select your first material and press the "Select" button. This will select all faces in your entire project that have that material applied.
+
+[[File:Picture_22_-_Atlas_World_Guide.jpg|border|frameless|768x768px]]
+
+In the UV Editing window, you should now see all those faces occupying the 0,0 by 1,1 space. If this is not the case, touch it up accordingly.
+
+As you want to have that occupy a small part of your atlas, scale it down to the real proportions in your atlas.
+
+Should you have used a 1024x1024 texture on a 4096x4096 atlas, this would mean you would want to scale it down to 1016x1016 instead.
+
+As explained in '''[[Special:MyLanguage/How to Atlas everything in your World#Creating an Atlas Texture|Creating an Atlas Texture]]''' the importance of having padding, requires scaling down your textures slightly.
+
+Therefore to calculate how far you need to scale down your UV selection to fit its space on your atlas is as follows:
+
+'''1016 (size of texture on your atlas: 1024 minus 8 pixels of total padding) / 4096 (total atlas size)'''
+
+in this case your scaling on all axis should be set to: 0.248046875
+
+Using a scale of 0.25 would be wrong!
+
+
+
+'''For 512x512 textures on a 4096x4096 the calculation would be: 504/4096 leading to 0.123046875'''
+
+''I understand you may be skipping through this guide as it is very extensive, but please be aware of how this calculation came to be from reading the whole guide before it.''
+
+Make a separate backup of your .blend file here before continuing.
+
+[[File:Picture_23_-_Atlas_World_Guide.jpg|border|frameless|768x768px]]
+
+You can also type these calculations as is in blender itself! As you can see on the bottom left on the screen above. Pasting pre-calculated decimals is alright too though.
+
+Move the scaled down UV selection to the corresponding texture on your atlas. If you aligned your textures in a clean power of 2 grid, i.e using the grid above, you should be able to just easily snap it on the right texture. Zoom in and ensure its perfectly centered and that only the 4 pixels of padding on each side remain untouched.
+
+[[File:Picture_24_-_Atlas_World_Guide.jpg|border|frameless|768x768px]]
+
+Repeat this process for all other materials, always ensuring that nothing else is selected before you start, otherwise you risk moving previously scaled down textures a second time.
+
+Once finished, do a sanity check by selecting everything in your scene while in edit mode and make sure all textures are filled with UV faces, except their sourronding 4 pixels of padding. Note the padding at the bottom center of the following picture.
+
+[[File:Picture_25_-_Atlas_World_Guide.jpg|border|frameless|768x768px]]
+
+Make another separate backup of your .blend file here.
+
+Now that your UV mapping is finished up, remove all materials from every object in your .blend file except your Atlas Material. If an object does not have your Atlas Material yet, add it.
+
+Your only material remaining should be the Atlas Material.
+
+[[File:Picture_26_-_Atlas_World_Guide.jpg|border|frameless|512x512px]]
+
+If all has worked out you should experience an immediate relief in framerates within blender, while your world still looks just the same.
+
+[[File:Picture_27_-_Atlas_World_Guide.jpg|border|frameless|1024x1024px]]
+
+In a real project, it would look something like that:[[File:Picture 28 - Atlas World Guide.jpg|none|thumb|Finished Atlas UV's of the Eventide world|1024x1024px]]
+
+Inspect your .blend file for any oddities in textures before finally importing it all into Unity, along with the Atlas texture.
+
+== Advantages of this Atlassing method==
+This is one of the most advanced techniques you can learn as a world creator. It can be done for your entire world project, unless you need a special shader for some textures. Water, Audio Link, video players, transparent things and the sorts would still need a separate material. On very large projects you may also apply this technique to use 2 or more atlases.
+
+Manually tiling your textures and condensing them all into one Atlas has many advantages;
+
+You will gain a massive performance boost, which leaves you with plenty spare headroom for visual fidelity and Udon programming. Even for Android and IOS!
+
+You are independent from any special shaders, you only need the Standard one. This means maintaining your work relies on no 3. Party. Very Easy! This also means you are completely platform and engine independent, as everything is in one .blend file. I am personally happy to report, that in my many years as a world creator I have never had any issues with things in my worlds breaking that a simple reupload did not fix.
+
+You can also flex your atlas in your world at no performance cost.
+[[File:Picture 29 - Atlas World Guide.jpg|none|thumb|A full world atlas showcased within Eventide|1024x1024px]]
+
+'''<big>Thanks for your interest in learning this secret art!</big>'''
+[[Category:Guides]]

@@ -1,0 +1,20 @@
+<noinclude><languages/></noinclude><includeonly><infobox type="World" theme="official">
+	<title source="name"/>
+	<image source="image">
+	    <caption source="imagecaption" />
+	</image>
+	<group>
+        <data source="developer"><label>Desarrollador</label></data>
+        <data source="publisher"><label>Editor</label></data>
+    	<data source="designer"><label>Diseñador</label></data>
+    	<data source="gen"><label>Generación</label></data>
+        <data source="platform"><label>Plataformas</label></data>
+        <data source="themes"><label>Temas</label></data>
+        <data source="link"><label>Enlace al mundo</label></data>
+    </group>
+    <group>
+        <header>Historia del mundo</header>
+        <data source="labs"><label>Laboratorios de la comunidad</label></data>
+        <data source="published"><label>Publicado</label></data>
+    </group>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Worlds{{#translation:}}]] [[Category:Official Content{{#translation:}}]]}}</includeonly><noinclude>{{Documentation}}[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>

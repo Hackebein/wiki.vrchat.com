@@ -1,0 +1,35 @@
+== Menu ==
+* '''Tirar Foto:''' Tira uma foto imediatamente.
+* '''Temporizador (5s):''' Tira uma foto após um atraso de 5 segundos com um som de contagem regressiva.
+* '''Modo da Câmera:''' Expande diferentes modos para a câmera.
+** Foto local, multicamadas, transmissão
+*** Exclusivo do [[Special:MyLanguage/VRChat+|VRC+]]: Foto da galeria, Ícone do usuário, Adesivo, Impressões, Emoji
+* '''Âncora:''' Determina onde a câmera está fixada.
+** '''Padrão:''' Fixada ao usuário.
+** '''Local:''' Segue o movimento do usuário, mas não o movimento da cabeça.
+** '''Mundo:''' Fixada ao mundo, independente do movimento do usuário.
+* '''Comportamento:''' Ajusta o desempenho da câmera.
+** '''Suavizar:''' Estabiliza o vídeo para imagens mais suaves.
+** '''Olhe-Para-Mim:''' A câmera segue para onde sua cabeça está voltada.
+** '''Nível Automático:''' Mantém a câmera nivelada, evitando inclinações.
+* '''Foco:''' Controla o modo de foco.
+** '''Totalmente Automático:''' Define automaticamente a abertura e a distância focal.
+** '''Semiautomático:''' Permite ajustar apenas a abertura.
+** '''Manual:''' Permite ajustar a abertura e a distância focal.
+* '''Posições:''' Configurações salvas para foco e configurações de filtro.
+* '''Máscara:''' Determina quais camadas são incluídas nas imagens.
+** '''Usuário Local:''' Inclui o usuário e seu avatar.
+** '''Usuário Remoto:''' Inclui outros usuários.
+** '''Mundo:''' Inclui o ambiente mundial.
+** '''Tela verde:''' Substitui o ambiente por uma tela verde.
+** '''IU:''' Inclui elementos da IU, como o menu radial e a interface da câmera.
+** '''Itens:''' Inclui itens colocados pelos usuários no mundo.
+* '''Visibilidade da Lente:''' Define como a câmera é renderizada no mundo.
+** '''Inativo:''' Mostra apenas uma pequena luz.
+** '''Fantasma:''' Exibe uma lente de câmera transparente azul clara.
+** '''Sólido:''' Exibe uma lente de câmera sólida.
+* '''Filtros:''' Adiciona filtros visuais à câmera. Apenas um filtro pode estar ativo por vez.
+* '''Resolução da Foto:''' Define a resolução da foto. Resoluções mais altas criam arquivos maiores e podem causar atrasos nos quadros.
+* '''Grade:''' Sobrepõe uma grade 3x3 na tela da câmera para assistência visual. A grade não aparece na imagem real.
+* '''Bloquear (somente VR):''' Bloqueia a câmera para que ela não possa ser segurada. Isso só pode ser usado em VR.
+* '''Modo Voar:''' A câmera pode ser controlada manualmente quando estiver próxima a você. Mantenha pressionada a roda de rolagem no desktop e use uma combinação de movimentos do mouse e das teclas ‘WASD’ para pilotar a câmera. Em VR, clicar no botão "Voar" e usar os joysticks esquerdo e direito após pressionar o gatilho alternará o movimento entre a câmera e seu avatar.

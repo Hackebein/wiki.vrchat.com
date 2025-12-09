@@ -1,0 +1,4 @@
+Les créateurs peuvent réduire les coûts en performances de plusieurs manières, telles que : 
+* Désactiver tous les miroirs par défaut. N'activer qu'un miroir lorsqu'un utilisateur appuie sur un bouton ou s'y approche physiquement.
+* Désactiver les miroirs lorsqu'un utilisateur quitte la zone. Cela réduira les coûts en performances lorsqu'un utilisateur ne l'utilise pas. Les utilisateurs ne le feront sûrement pas d'eux-mêmes, utilisez donc un script pour le faire à leur place.
+*Prenant en compte le placement des miroirs, un miroir qui ne fait pas face au centre du monde aura moins de rendu à effectuer.

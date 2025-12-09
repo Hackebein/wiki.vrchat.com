@@ -1,0 +1,184 @@
+<languages/>
+{{Noticebox/Official}}
+VRChat vient avec une panoplie d'outils sociaux pour les utilisateurs, tels que les amis, invitations, notes et plus !
+
+<span id="User_Profiles"></span>
+== Profils des utilisateurs ==
+[[File:UserProfile.webp|thumb|Profil d'un utilisateur VRChat.]]
+Introduit lors de la [https://docs.vrchat.com/docs/vrchat-202123 mise à jour identité], les profils d'utilisateur sont des espaces personnalisés où sont affichées les informations à propos d'un utilisateur. Les informations incluent le [[Special:MyLanguage/Social#Statuses|statut]], [[Special:MyLanguage/Trust_Rank|rang de confiance]], [[Special:MyLanguage/Social#Pronouns|pronoms]], biographie, [[Special:MyLanguage/Instances|instance]] actuelle (si applicable), langues parlées, liens sociaux, [[Special:MyLanguage/Badges|badges]] possédés, ainsi que les groupes dont ils font parti.
+
+Vous pouvez effectuer plusieurs [[Special:MyLanguage/Social#Actions|actions]] sous le profil d'un utilisateur - tel que lui envoyer une demande d'ami ou demander une invitation.
+
+<span id="Statuses"></span>
+=== Satuts ===
+
+Les statuts peuvent être définis dans le [[Special:MyLanguage/Quick Menu|menu rapide]], [[Special:MyLanguage/Main Menu|menu principal]] ou sur le {{VRC link|https://vrchat.com/home|site web VRChat}} et sont utilisés à ces fins : pour contrôler la facilité avec laquelle les amis d’un utilisateur peuvent rejoindre leur instance, pour modifier si les amis d’un utilisateur peuvent voir l’instance dans laquelle ils se trouvent actuellement, pour désactiver les notifications et pour communiquer une activité.
+
+Les statuts consistent en une couleur et courte phrase personnalisable (jusqu'à 32 caractères). Il y a 4 statuts différent dans VRChat :
+
+{| class="wikitable"
+! scope="col" style="width:13em" |Statut
+!Description
+|-
+|<div style="background-color:rgb(66, 202, 255);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Blue"></div>Rejoins-moi (Bleu)
+|Vos amis peuvent voir l'instance dans laquelle vous êtes et rejoindre librement, identique au statut « En ligne ». Cependant, si l'instance est privée ou non visible, toutes les demandes d'invitation de vos amis seront automatiquement acceptées tant que vous avez la permission de les accepter
+|-
+|<div style="background-color:rgb(81, 229, 126);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Green"></div>En ligne (Vert)
+|Vos amis peuvent voir et rejoindre l'instance dans laquelle vous êtes sans demander d'invitation. Cependant, vos amis peuvent ne pas voir ou rejoindre l'instance si celle-ci est considérée comme « privée ». Votre instance est visible et joignable par vos amis sans demander une invitation dans les cas suivants : 
+* L'instance est de type [[Special:MyLanguage/Worlds#Instance Types|Amis+]], [[Special:MyLanguage/Worlds#Instance Types|Groupe+]], [[Special:MyLanguage/Worlds#Instance Types|Publique]] ou [[Special:MyLanguage/Worlds#Instance Types|Groupe public]].
+* L'instance est de type [[Special:MyLanguage/Worlds#Instance Types|Amis]] et soit vous, ou un ami en commun a créé l'instance.
+* L'instance est de type [[Special:MyLanguage/Worlds#Instance Types|Groupe]] et vos amis sont membres du groupe avec la permission de rejoindre l'instance basée sur leur rôle de groupe. 
+* L'instance est de type [[Special:MyLanguage/Worlds#Instance Types|Invitation]] ou [[Special:MyLanguage/Worlds#Instance Types|Invitation+]] et vos amis reviennent dans une instance qu'ils ont créée.
+|-
+|<div style="background-color:rgb(232, 129, 52);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Orange"></div>Me demander (Orange)
+|Vos amis ne peuvent pas voir l'instance dans laquelle vous êtes. Ils doivent vous demander une invitation, qu'importe le type de l'instance.
+|-
+|<div style="background-color:rgb(91, 11, 11);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Red"></div>Ne pas déranger (Rouge)
+|Vos amis ne peuvent pas voir l'instance dans laquelle vous êtes. Ceux-ci peuvent demander à rejoindre, mais vous ne recevrez aucune notification. Vous ne pourrez tout simplement pas envoyer ou demander d'invitations à vos amis s'ils sont dans ce statut.
+* Les nouvelles demandes d'amis seront discrètement ajoutées dans la boîte de réception « Demandes d’amis ».
+* Une réponse à vos demandes sera affichée.
+* Les notifications de groupe sont désactivées
+|}
+<span id="Pronouns"></span>
+=== Pronoms ===
+
+Les [[fr.wikipedia:Pronom|pronoms]] peuvent être affichés sur la biographie afin d'indiquer comment se référer à un utilisateur. Lorsque défini, les pronoms seront affichés dans votre biographie, ainsi que sous le [[Special:MyLanguage/Nameplates|cadre]].
+<gallery>
+Pronouns1.webp|Affiché dans la bio sur le site web
+Pronouns3.webp|Affiché dans la bio en jeu
+Pronouns2.webp|Affiché en jeu dans le client mobile
+</gallery>
+
+<span id="Bio"></span>
+===Biographie (Bio)===
+
+La biographie (abrévié bio) est un paragraphe de texte écrit par l'utilisateur qui souhaite, en général, se décrire ou s'introduire, ou l'utiliser d'autres façons. La biographie peut faire jusqu'à 500 caractères.
+
+Actuellement, les émojis et certains symboles spéciaux (tels que les fractions) ne sont pas pris en charge. Certains caractères spéciaux connus sont autorisés :
+ ๑ -༊ ༄․ೃ࿔ ೋ 彡ღ ͟͟͞ ೄྀ ͙༉ ¸୨୧、˒˒ ֒ ˗ˏˋ ˎˊ˗ ̤̮ ̤̥ ＋+ ˙· ˚ ∗ン ィ ％ ！ ﹏ ？ ? ζ ২ १ ୫ ૪ ໒ ৎ ຊ ຯ ೨ ໑ ७ ५ ୭ ˚ ·˖ ˸ જ Թ Ծ ౿ ੭ ୬ ෧ ୪ ১ ﹅﹆ ჲ ᴥ ફ ળ ਨ ৬ ৫ ২ ণ ଽ ︶ ଲ ମ 〄֍ 〧 ౾ ౽ 〨 ㆐ ︳ ㄔ ഒ ＊ ٠ っ｡̀ ́૭ ֊ ˙ ˶﹏ აପ ๑ଓ ଘ ∗ ੈ ᵕ ˘͈ ․. ༘ ̀ ́ ৻ づᴗʚïɞ૮ ˙˙ ඞ ༒ ໒ྀི ๑ ´ ˘ ` ྀི ʕω ʔ و ヮಡ ง¬༼︿༽ 亞ト丁してﾌ￣＿ఌ༅ ᆺ 〜 ༺ ༻ Ө Տ Ӈ ₳ เ ђ ς<!--Add other supported characters?-->
+
+=== Actions ===
+
+Plusieurs actions peuvent être effectuées sous le profil d'un utilisateur, qui dépendent de si celui-ci est votre ami ou non.
+
+[[File:UserProfile_UserActions.webp|thumb|Actions disponibles pour un utilisateur non-ami.]]
+[[File:UserProfile_FriendActions.webp|thumb|Actions disponibles pour un utilisateur ami.]]
+
+
+{| class="wikitable"
+!Action
+!Description
+|-
+|Rejoindre <ref group="actions" name="friends-only">Ces actions ne peuvent être effectués que sur des amis</ref>
+|Rejoint l'instance de l'utilisateur
+|-
+|Demander une invitation<ref group="actions" name="friends-only"></ref>
+|Envoie une notification à l'utilisateur, lui informant que vous souhaitez rejoindre son instance. La notification inclut un message personnalisable, ainsi que la possibilité d'ajouter une photo avec [[Special:MyLanguage/VRC+|VRC+]].
+|-
+|Inviter<ref group="actions" name="friends-only"></ref>
+|Envoie une invitation à l'utilisateur. L'invitation inclut un message personnalisable, ainsi que la possibilité d'ajouter une photo avec [[Special:MyLanguage/VRC+|VRC+]].
+|-
+|Offrir VRC+
+|Ouvre un menu vous permettant d'acheter [[Special:MyLanguage/VRC+|VRC+]] à l'utilisateur. ''Voir [[Special:MyLanguage/VRC+#Gifting|Offrir]] pour plus d'informations.''
+|-
+|Demander en ami
+|Envoie une demander d'ami à l'utilisateur.
+|-
+|Supprimer des amis<ref group="actions" name="friends-only"></ref>
+|Supprime l'utilisateur des amis.
+|-
+|Ajouter aux favoris<ref group="actions" name="friends-only"></ref>
+|Vous permet d'ajouter l'utilisateur à une liste d'amis favoris, tels que les mondes et avatars
+|-
+|Retirer des favoris<ref group="actions" name="friends-only"></ref>
+|Retire l'utilisateur de votre liste d'amis favoris.
+|-
+|Modération
+|Ouvre un menu vous permettant de modérer l'utilisateur, pour, par exemple, le bloquer. ''Voir [[Special:MyLanguage/Trust and Safety#User Moderation tools|Outils de modération]] pour plus d'informations.''
+|-
+|Débloquer
+|Débloque un utilisateur précédemment bloqué ''(Seulement visible pour les utilisateurs bloqués)''.
+|-
+|Note
+|Vous permet d'ajouter quelques informations à propos de l'utilisateur que seul vous pouvez voir. Par exemple, ajouter comment vous avez rencontré l'utilisateur.
+|-
+|Inviter dans un groupe
+|Ouvre un menu vous permettant d'inviter l'utilisateur dans un groupe, à condition que vous ayant la permission de lefaire. ''Voir [[Special:MyLanguage/Groups|Groupes]] pour plus d'informations.''
+|-
+|Voir sur le site web
+|Ouvre le profil de l'utilisateur sur le {{VRC link|https://vrchat.com/home|site web VRChat}}
+|}
+<references group="actions"/>
+
+<span id="Uploaded_&amp;_Favorited_Worlds"></span>
+===Mondes mis en ligne et favoris===
+
+Sous les [[Special:MyLanguage/Social#Actions|actions]] peut se trouver une liste des mondes mis en ligne par l'utilisateur, ainsi que leur liste publique de mondes favoris. Ceux-ci peuvent être triés par date d'ajout, dernière mise à jour, nom et récemment visité.
+
+<span id="Social_Menu"></span>
+==Menu social==
+
+[[File:Social Menu.webp|thumb|alt=Image de l'onglet Social du menu principal dans VRChat.|L'onglet Social du menu principal dans VRChat.]]
+
+<span id="Friend_Locations"></span>
+===Emplacements des amis===
+
+Les '''emplacements des amis''' inclut une liste d'amis qui sont disponibles en statut « En ligne » (Vert) ou « Rejoins-moi » (Bleu), ainsi que présents dans une instance du monde accessible, tel que « Publique », « Amis+ », « Amis », « Groupe public » ou « Groupe+ ». Sous ces amis disponibles se trouvera aussi une liste de ceux actuellement en ligne dans des instances privées
+
+<span id="Group_Activity"></span>
+===Activité des groupes===
+
+L''''activité des groupes''' inclut une liste d'instances de [[Special:MyLanguage/Groups|groupe]] pour les groupes dont vous faites partie. Créer une instance de type « Groupe », « Groupe+ » ou « Groupe public » (Si vous en avez la permission), fera apparaître l'instance dans l'onglet « Activité des groupes » pour tous les utilisateurs y faisant partie. 
+
+<span id="Online_Friends"></span>
+===Tous les amis===
+
+ 
+'''Tous les amis''' affiche l'entièreté de vos amis actuellement en ligne, incluant les amis avec le statut « Me demander » (Orange) ou « Ne pas déranger » (Rouge). L'onglet affiche de même les amis actifs sur le site web ou ceux hors ligne.
+
+<span id="In_Instance"></span>
+===Dans l'instance===
+
+'''Dans l'instance''' affiche chaque utilisateur présent dans la même instance que vous. Les utilisateurs bloqués, bien que présents dans l'instance, ne seront pas affichés, à moins que vous soyez le propriétaire ou modérateur de [[Special:MyLanguage/Groups|groupe]] d'une instance. L'onglet « Ici » du menu rapide fonctionne de la même façon que décrit ci-dessus. 
+
+<span id="Favorite_Friends"></span>
+===Amis favoris===
+
+Les listes d''''amis favoris''' sont composées de trois listes d'amis que vous avez choisi d'ajouter aux favoris. Ils peuvent être ajoutés à une des listes. Chaque liste peut être renommée à une fin d'organisation. 
+
+<span id="Blocked"></span>
+===Bloqués===
+
+Les utilisateurs '''Bloqués''' sont des utilisateurs que vous avez décidé  de bloquer. Ils peuvent être sélectionnés dans cet onglet et débloqués si souhaité.
+
+<span id="Friends"></span>
+===Amis===
+
+{{Stub|Add quirks that have to do with friends and such.}}
+Les amis dans VRChat sont des utilisateurs à qui vous faites confiance, fonctionnant de la même façon que sur d'autres plateformes. Vous pouvez voir quand l'utilisateur est en ligne en jeu ou sur le site web, leur envoyer et recevoir des invitations, ainsi que leur ajouter des notes. Les amis présents dans la même instance verront leur nom ainsi que rang de confiance apparaître en jaune avec la mention (Ami).
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Mutuals==
+{{Stub|Expand on how to see, and disabling mutuals}}
+<!-- Do we want a feature infobox? -->
+{{Infobox/Feature
+|name=Mutuals
+|image=
+|platforms= PC, Android, iOS
+|branch_live_date = December 3, 2025
+|branch_live_version = 2025.4.2
+|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202542 2025.4.2]
+|branch_openbeta_date = November 10, 2025
+|branch_openbeta_version = 2025.4.2 Build 1761
+|branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202542-openbeta 2025.4.2 Open Beta]
+}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Mutuals are a feature that allows the user to view mutual friends or groups of other users. This feature is rolling out slowly over time.<ref>[https://docs.vrchat.com/docs/vrchat-202542#mutuals VRChat 2025.4.2]</ref>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==References==
+<references/>
+</div>

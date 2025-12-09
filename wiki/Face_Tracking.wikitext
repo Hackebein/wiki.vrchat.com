@@ -1,0 +1,70 @@
+{{Noticebox/Stub}}
+'''[[Face Tracking|Face tracking]] for VRChat''' refers to using hardware and software to capture a user's real-life facial expressions and map them onto their [[Avatars]] in real time. This makes avatars more expressive and lifelike, enhancing immersion and social interaction in VRChat.
+
+== How Face Tracking works ==
+Face Tracking works with the combination of Eye Tracking and Mouth Tracking (some headsets aren't supporting both) :
+
+* '''Capture your Eyes and Mouth :''' Your facial movements—like eye blinks, eyebrow raises, and mouth movements—are captured using:
+** '''Webcams''' (e.g., using [[Selfie Expression]] since 2025.1.3. Previously, users would use iFacialMocap on iPhone, VSeeFace on PC)
+** '''Depth cameras''' (e.g., Intel RealSense or iPhone Face ID sensors data)
+** '''Dedicated trackers''' (e.g., Apple ARKit, HTC Vive Facial Tracker or Full Face Tracker for XR Elite, Quest Pro, Varjo XR4, Pimax Crystal Mod, BigScreen Beyond 2)
+
+* '''Send Data to VRChat'''
+
+The facial data is converted into blendshape values (facial expression controls) and sent to VRChat using [[Open Sound Control|OSC]] or avatar-specific animations. Most commonly used OSC tool is [[Community:VRCFT|VRCFT]].
+
+* '''Drive your Avatar'''  The avatar must be set up with:
+** '''[[Visemes]]''' (for lip syncing)
+** '''Expression blendshapes''' (for emotions like happy, sad, surprised)
+** '''Eye and head tracking''' support
+
+== High-End VR Headsets with Built-in or Add-on Face Tracking ==
+{| class="wikitable"
+!Headset
+!Face Tracking Support
+!Notes
+|-
+|'''Meta Quest Pro'''
+|✅ Built-in
+|Tracks facial expressions + eye movement with inward-facing sensors
+|-
+|'''Meta Quest 3'''
+|🚫 Not built-in
+⚙️ Experimental (via phone/Webcam + OSC)
+|No native face tracking; requires external tools or mods
+|-
+|'''Apple Vision Pro'''
+|✅ Built-in (ARKit-based)
+|Full face + eye tracking, but '''not officially compatible''' with VRChat
+|-
+|'''HTC Vive Pro 2 + Facial Tracker'''
+|✅ Via add-on
+|Uses HTC Vive Facial Tracker (tracks lower face, jaw, lips)
+|-
+|'''HTC Vive XR Elite'''
+|⚙️ Add-on face tracking planned
+|Eye tracking built-in; face tracking requires future accessory
+|-
+|'''Pimax Crystal'''
+|⚙️ Optional
+|Eye tracking included, face tracking module sold separately
+|-
+|'''Varjo XR-4'''
+|✅ Professional-grade
+|Includes face + eye tracking; enterprise-focused (not ideal for consumer VRChat)
+|-
+|'''Valve Index'''
+|🚫 No built-in face tracking
+⚙️ Third-party mods possible
+|Some DIY users use '''SlimeVR''' or OSC with webcams
+|-
+|'''Bigscreen Beyond'''
+|🚫 No face tracking
+|No internal face/eye tracking hardware
+|}
+
+== See Also ==
+
+* [[Selfie Expression]]
+* [[Finger tracking]]
+* [[Full-Body Tracking]]

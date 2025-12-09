@@ -1,0 +1,3 @@
+* Ouvrir l'invite de commande en appuyant sur la touche « Windows », écrire « cmd », ce qui ouvre la console, puis appuyer sur « Éxecuter en tant qu'administrateur »
+* Écrire « netsh interface ipv6 reset » et appuyer sur la touche « Entrée ».
+* Cela devrait réinitialiser la priorité de l'IPv4 après redémarrage de l'ordinateur.

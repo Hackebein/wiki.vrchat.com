@@ -1,0 +1,225 @@
+<languages/>
+{{Noticebox/Community}}Hay varios métodos para solucionar [[Special:MyLanguage/Troubleshooting|problemas]] relacionados con mantener una conexión estable con [[Special:MyLanguage/VRChat|VRChat]].
+== Glosario ==
+Esta guía contiene terminología informática y menciona con frecuencia estas abreviaturas:
+
+* '''DNS''' - Domain Name System (Sistema de nombres de dominio): Un protocolo que localiza y conecta tu dispositivo a una dirección IP de una página web.
+* '''EDNS ECS''' - Extension Mechanisms for DNS Client Subnet (Mecanismo de extensión de subred para el cliente DNS): un mecanismo para que los servidores de resolución de DNS recursivos envíen información parcial de la dirección IP del cliente a los servidores de nombres DNS autorizados.
+* '''IP''' - Internet Protocol address (Dirección de protocolo de internet): Una dirección, asociada a la conexión a internet de tu dispositivo, que permite que tu dispositivo se conecte a una red, como una página web.
+* '''ISP''' - Internet Service Provider (Proveedor de servicios de internet ): Una empresa que permite que tu dispositivo se conecte a internet. Algunos ejemplos son: Vodafone, Movistar y Claro.
+* '''OS''' - Operating System (Sistema operativo).
+* '''Upstream provider''' (Proveedor de red principal) - Un servicio que ayuda en la infraestructura de una plataforma, en este caso, VRChat.
+* '''VPN''' - Virtual Private Network (Red privada virtual): Software que puede cifrar o proteger tu conexión, mediante el método de "túnel" usando diferentes direcciones IP.
+
+== Verificar canales oficiales de VRChat ==
+VRChat ofrece medios para que los usuarios verifiquen si VRChat ha confirmado inestabilidades en los servidores o cortes de servicio. 
+
+En internet:
+
+* https://status.vrchat.com/
+* https://x.com/VRChat_Status
+
+En Discord:
+
+* https://discord.com/channels/189511567539306508/400375734423781379
+
+=== Proveedores de red principal ===
+Además, VRChat cuenta con múltiples "proveedores de red principal" que afectan al inicio de sesión, a la autorización de cuentas y a la estabilidad de los servidores.
+
+==== Autorización de cuenta ====
+Estos proveedores de red principales gestionan los datos de tu "[[Special:MyLanguage/VRChat account|cuenta]] de [[Special:MyLanguage/Platforms|plataforma]]", así como los datos del juego alojados en sus respectivas tiendas de aplicaciones.
+
+* Meta
+* Steam
+* Google
+* PICO
+* Viveport
+
+==== Alojamiento de estancias ====
+VRChat aloja [[Special:MyLanguage/Instances|estancias]] en cuatro servidores diferentes a través de Photon, cada uno vinculado a su propia región. Ocasionalmente, puede requerirse mantenimiento en un servidor, lo que genera inestabilidad en una región durante un breve periodo de tiempo.
+
+* Motor Photon 
+** EE. UU. Oeste
+** EE. UU. Este
+** Europa
+** Japón
+
+==== Economía del creador y compras ====
+La [[Special:MyLanguage/Creator Economy|Economía del creador]] de VRChat depende de los servicios de Thunes, formalmente Tilia, para procesar transacciones y verificar la información de compra entre usuarios y vendedores.
+
+* Thunes (formalmente Tilia)
+
+==Conexión inestable==
+Compatibilidad limitada con IPv6 por parte del proveedor de servicios de internet (ISP)
+
+===Opción 1 - Usar una VPN===
+Si tienes problemas de conexión, puede ser buena idea utilizar una VPN para estabilizar tu conexión. Ten en cuenta que usar VPNs que ocultan tu IP o cambian tu ubicación geográfica virtual puede provocar errores y cierres de sesión frecuentes.
+
+# [https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/ WARP de Cloudflare] es una VPN que busca estabilizar tu conexión y encriptar tu tráfico usando los servidores de Cloudflare, lo que podría ayudar con problemas de conexión en VRChat.
+## [https://developers.cloudflare.com/1.1.1.1/setup/ 1.1.1.1 de Cloudflare] es un servidor de resolución DNS alternativo incluido con WARP. Está diseñado para seguridad y privacidad al encriptar parte del tráfico de tu dispositivo.
+
+===Opción 2 - Configurar un servidor DNS===
+*'''Windows 10''': https://docs.quad9.net/es/Gu%C3%ADas_de_configuraci%C3%B3n/Windows/Windows_10/
+*'''Windows 11''' (en inglés): https://docs.quad9.net/Setup_Guides/Windows/Windows_11_%28Encrypted%29/
+*'''Mac''' (en inglés): https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/
+*'''Linux''': https://docs.quad9.net/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/Ubuntu_22.04_%28Encriptado%29/
+
+Las guías para la configuración de DNS mencionadas arriba usarán, por defecto, direcciones IP que se conectan a los servidores DNS de "Quad9".
+En su lugar, utiliza las direcciones IP de Cloudflare proporcionadas.
+
+'''Debes configurar tanto IPv4 como IPv6 para que funcione sin problemas.'''
+<syntaxhighlight lang="bbcode" line="1">
+<IPv4>
+1.1.1.1
+1.0.0.1
+
+<IPv6>
+2001:4860:4860::8888
+2001:4860:4860::8844
+</syntaxhighlight>
+
+'''1.1.1.1''' (Servidor 1) debe ser tu dirección preferida, mientras que '''1.0.0.1''' (Servidor 2) debe ser tu dirección alternativa. 
+Sin embargo, puedes usar cualquiera de las otras opciones de DNS que aparecen a continuación. Puedes elegir cualquier proveedor de DNS; las opciones no se limitan solo a Cloudflare.
+
+{| class="wikitable"
+|+
+|-
+!Proveedor!!Servidor IPv4!!Servidor IPv6
+!Servidor IPv4 (EDNS ECS)!!Servidor IPv6 (EDNS ECS)
+|-
+|[https://developers.google.com/speed/public-dns Google]||8.8.8.8
+8.8.4.4
+|2001:4860:4860::8888
+2001:4860:4860::8844
+|Compatible por defecto
+|Compatible por defecto
+|-
+|[https://controld.com/free-dns Control D]||76.76.2.0
+76.76.10.0
+|2606:1a40::
+2606:1a40:1::
+|No compatible
+|No compatible
+|-
+|[https://www.quad9.net/service/service-addresses-and-features/ Quad9]||9.9.9.9
+149.112.112.112
+|2620:fe::fe
+2620:fe::9
+|9.9.9.11
+149.112.112.11
+|
+2620:fe::11
+
+2620:fe::fe:11
+|-
+|[https://www.opendns.com/setupguide/ OpenDNS Home]||208.67.222.222
+208.67.220.220
+|
+2620:119:35::35
+
+2620:119:53::53
+|Compatible por defecto
+|Compatible por defecto
+|-
+|[https://one.one.one.one/dns/ Cloudflare]||1.1.1.1
+1.0.0.1
+|2606:4700:4700::1111
+2606:4700:4700::1001
+|No compatible
+|No compatible
+|-
+|[https://adguard-dns.io/en/public-dns.html AdGuard DNS]||94.140.14.14
+94.140.15.15
+|2a10:50c0::ad1:ff
+
+2a10:50c0::ad2:ff
+|Compatible por defecto
+|Compatible por defecto
+|-
+|[https://cleanbrowsing.org/filters/ CleanBrowsing]||185.228.168.9
+185.228.169.9
+|2a0d:2a00:1::
+
+2a0d:2a00:2:: 
+|No compatible
+|No compatible
+|}
+Source: https://www.lifewire.com/free-and-public-dns-servers-2626062
+
+EDNS ECS proporciona hosts más cercanos que los servidores DNS tradicionales, lo que a veces resulta más fácil de usar en proveedores de servicios en nube que normalmente alojan en todo el mundo. 
+
+Referencia (en inglés): https://adguard-dns.io/en/blog/privacy-friendly-edns-client-subnet.html
+
+=== Opción 3 - Aumentar la prioridad de IPv4 sobre IPv6 en Windows ===
+Esto dará prioridad al uso de IPv4 sobre IPv6, sin desactivar IPv6 por completo.
+*Esta opción puede no funcionar si tu ISP deja de ofrecer IPv4 por completo.
+
+Para activarlo en Windows,
+
+* Abre la consola de comandos presionando la tecla Windows y escribiendo cmd, lo que abrirá el "Símbolo del sistema"; después selecciona con el clic derecho "Ejecutar como administrador".
+* Escribe: netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 100 4 y presiona la tecla "Enter".
+* Esto debería dar prioridad a IPv4, después de reiniciar tu PC.
+
+Para desactivar la priorización de IPv6,
+
+* Abre nuevamente la consola de comandos presionando la tecla Windows, escribiendo cmd, y seleccionando con el clic derecho "Ejecutar como administrador" otra vez.
+* Escribe: netsh interface ipv6 reset y presiona la tecla "Enter".
+* Esto debería revertir la priorización de IPv4 después de reiniciar tu PC.
+
+===Opción 4 - Desactivar IPv6 y forzar el uso de IPv4 (NO RECOMENDADO)===
+Muchos proveedores de internet (ISP) han empezado a eliminar la compatibilidad con IPv4 debido a la escasez mundial de direcciones IPv4.
+Si tu ISP ya hizo esto, este método puede no funcionar e incluso impedir que te conectes a internet.
+Existen algunas guías disponibles sobre cómo desactivar el protocolo IPv6, en caso de que sepas lo que estás haciendo:
+*'''Windows''' (en inglés): https://support.surfshark.com/hc/en-us/articles/360011550199-How-to-disable-IPv6-on-Windows
+*'''Mac''' (en inglés): https://support.surfshark.com/hc/en-us/articles/360012367560-How-to-disable-IPv6-on-macOS
+*'''Linux''' (en inglés): https://support.surfshark.com/hc/en-us/articles/360024470413-How-to-disable-IPv6-on-a-Linux-device
+
+==Solución de problemas==
+La inestabilidad de la conexión puede ocurrir debido a que los paquetes se envían fuera de orden o por tener una conexión a internet lenta o inestable. Existen varias razones por las que una conexión puede volverse inestable, sin embargo, aquí se presentan algunos de los métodos más comunes para solucionar el problema:
+
+=== Actualizar VRChat ===
+¡Puede que VRChat necesite actualizarse! Es posible que aparezca un mensaje pidiéndote actualizar tu cliente de VRChat en Steam o en la tienda de Meta.
+
+=== Reiniciar el router ===
+Reinicia tu router, apagándolo, esperando un par de minutos y volviéndolo a encender.
+
+=== Integridad del archivo ===
+Verifica la integridad del firmware de los controladores de tu GPU o del software de VRChat. Si es necesario, puede que tengas que reinstalar VRChat.
+
+=== Poner en lista blanca en tu antivirus o firewall ===
+Asegúrate de que tu firewall o tu antivirus no estén bloqueando tu conexión con VRChat. Si es necesario, VRChat y Easy Anti Cheat deben añadirse a la lista blanca en tu antivirus o firewall.
+*Puedes usar los comandos "ping/nslookup/tracert" en el símbolo del sistema (cmd) para comprobarlo, siempre que uses un sistema operativo y software compatibles.
+
+=== Registros de salida ===
+Por defecto, los registros de salida de VRChat se encuentran en la ruta "%USERNAME%\AppData\LocalLow\VRChat\vrchat" y tienen el nombre "output_log_(fecha)". Revisa el archivo con la fecha más reciente y busca posibles inestabilidades en tu conexión con VRChat. 
+
+{{VRC link|https://vrch.at/support|El soporte al usuario de VRChat}}, o la resolución de problemas en los [[Special:MyLanguage/Discord servers|servidores de Discord]] de VRChat, podrían ayudarte a encontrar el problema como último recurso.
+
+=== Hora del sistema ===
+Verifica nuevamente el reloj de tu sistema con la hora actual de tu zona horaria y asegúrate de que esté configurado correctamente.
+[[Category:Guides{{#translation:}}]]
+
+== Recursos útiles ==
+Downdetector puede usarse como una guía para comprobar indicios tempranos de problemas con tu proveedor de internet. Sin embargo, esto no siempre confirma problemas con un proveedor de red principal. Por favor, úsala a tu discreción como margen para juzgar.
+{| class="wikitable"
+|+ 
+|-
+| Downdetector US || https://downdetector.com/
+|-
+| Downdetector UK || https://downdetector.co.uk/
+|-
+| Downdetector DE || https://allestörungen.de/
+|-
+| Downdetector FR || https://downdetector.fr/
+|-
+| Downdetector ES || https://downdetector.es/
+|-
+| Downdetector JP || https://downdetector.jp/
+|}
+
+<span id="See_also"></span>
+== Véase también ==
+
+* [[Special:MyLanguage/Instances|Estancias]]
+
+[[Category:Guides{{#translation:}}]]

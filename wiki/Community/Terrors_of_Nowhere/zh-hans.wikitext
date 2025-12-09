@@ -1,0 +1,1353 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Terrors of Nowhere
+|image=ToN Final.webp
+|author=[https://vrchat.com/home/user/usr_8d3b6c9b-cd64-449a-8b39-a819057f5d3c Beyond]
+|capacity=16 (16)
+|languages=English, Japanese
+|platforms=PC
+|tags=恐怖, 生存, PvE
+|id=wrld_a61cdabe-1218-4287-9ffc-2a4d1414e5bd
+|published=2023年10月23日}}
+'''Terrors of Nowhere''' 是一个仅限 PC 的 PVE  [[Special:MyLanguage/:Category:Game_Worlds|游戏世界]]，由 ''Beyond'' 于2023年10月发布。在这款游戏中，最多16名玩家要在一个随机场景中与一个随机实体（游戏中称为'''Terror'''）进行长达三分钟的对抗。
+
+回合之间的时间称为 '''中场休息'''（Intermission），您可以在这段时间内休息一下，并收集更多的'''脑啡肽'''水晶（即游戏货币，缩写为Eph）。 脑啡肽水晶 会定期在大厅周围生长，您可以在'''脑啡肽商店'''中花费Eph购买物品，帮助自己或他人在之后的回合中生存。
+
+除了 Eph 之外，您还可以获得'''生存点数 (SP)'''。您可以在'''存活商店'''使用 SP 购买特殊物品。与 Eph 不同，购买物品时不会消耗生存点数。
+
+<span id="Round_types"></span>
+==回合类型==
+
+除了'''普通回合'''外，'''特殊回合'''在每第二轮有50%的几率出现，如果第二轮也是 “普通回合”，则保底每第三轮出现一次。
+
+* '''普通(Classic)''' - 这是Terrors of Nowhere的常规回合，实体从常规（普通）池中生成；玩家有180秒的时间存活，有时根据实体的不同会稍长一些，难度也各不相同。
+
+* '''迷雾(Fog)''' - 大雾弥漫的普通恐怖回合，玩家人数会被隐藏，恐怖名称由“???”代替；可以使用辉光/心病线圈提高能见度，或用雷达显示实体距离，不过有经验的玩家通常会通过声音来辨别，偶尔也会出现 异体。
+
+* '''惩戒(Punished)''' - 经典恐怖回合，但玩家会失去所有物品，无法逃跑或反击；回合结束后，必须在商店重新装备物品。
+
+* '''异体(Alternate)''' - 从异体池中生成难度更高的实体，它们通常需要大量配合才能存活，存活其中一部分后会获取奖励物品。
+
+* '''血浴(Bloodbath)''' - 从常规实体池中生成三个实体，根据实体的组合和所选的场地，难度从可应付到无解等。
+
+* '''午夜(Midnight)''' - 本质上是 “血浴”，但三个实体中有一个是从异体池中生成的，这使得本回合难度更高——预计会有很多人死亡。
+
+* '''内鬼(Sabotage)''' - 从常规池中产生一个实体，其中一名玩家成为内鬼，手持一把刀，可以立即杀死其他人；实体会忽略内鬼（“Arrival抵达”除外），如果内鬼(们)未能杀死所有玩家，就会在回合结束前死亡，并且必须从商店中装备他们原来的物品。
+
+* '''8页(8 Pages)''' - 玩家必须从地图上收集 8 张发光的书页，每次收集一张；找到第一张书页或一定的时间过去后，实体就会出现。与惩戒回合一样，大部分物品都不可携带，但仍会保留部分低级物品。与其他回合类型不同，8页的默认时间将会从 190 秒开始。
+
+<div class="mw-translate-fuzzy">
+* '''[https://terror.moe/terrors/meatball_man 快跑！(Run)]''' - 在时间耗尽前到达地图的另一端。
+</div>
+
+* '''癫狂(Cracked)''' - 普通回合，实体的速度和攻击动画都会明显加快；这种回合类型缺乏平衡，某些实体会破坏游戏平衡性，而且某些恐怖怪兽在其 “癫狂”形态下可能会表现怪异。
+
+* '''并乱(Double Trouble)''' - 本回合本应是 “血浴”，但其中一个实体试图生成两次，结果产生了两个不同的实体，二其中一个变成了该实体的加强版
+
+<div class="mw-translate-fuzzy">
+* '''不羁(Unbound)''' - 从新的池中生成预设的恐怖分子，其中包含许多社区建议，通常是无解的组合，从而导致难度不一致。
+</div>
+
+* '''幽魂(Ghost)''' - 常规回合，在这一回合中，除非使用雷达等道具，否则实体是隐形的，只有它们的粒子和声音能告示它们的位置；异体出现概率极少。
+
+* '''月亮(Moons)''' - Terrors of Nowhere中有多个月亮，满足特定条件即可激活；解锁后，监工长会警告玩家威胁即将到来，建议玩家准备好适当的物品。月亮出现后，每个月亮都有1/20的几率替换一个特殊（非常规）回合。
+
+<span id="Terrors"></span>
+==实体==
+
+Terrors of Nowhere中总共有大约有'''198'''个实体。(134个普通、37个异体、23个变体、4个月亮Boss*以及2个特殊Boss)。
+
+<center><big>⚠️'''剧透警告'''⚠️<br>
+'''以下内容可能包含剧透，请谨慎展开。
+'''</big></center>
+
+<div class="mw-translate-fuzzy">
+<!-- Not a pretty table but made sure to list them in the order they are listed in the in-game Index. If someone wants to pretty the classic table for me go ahead, but they should generally be kept in the order currently listed.-->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+常规
+|-
+|[https://terror.moe/terrors/huggy Huggy亨吉]||[https://terror.moe/terrors/corrupted_toys Corrupted Toys腐败玩具]||[https://terror.moe/terrors/demented_spongebob Demented Spongebob痴呆海绵宝宝]||[https://terror.moe/terrors/specimen_8 Specimen 8号实验体]||[https://terror.moe/terrors/her HER她]||[https://terror.moe/terrors/tails_doll Tails Doll塔尔斯娃娃]||[https://terror.moe/terrors/black_sun Black Sun黑太阳]||[https://terror.moe/terrors/aku_ball Aku Ball恶之球]||[https://terror.moe/terrors/ao_oni Ao Oni青鬼]||[https://terror.moe/terrors/torens_shadow Toren's Shadow托伦之影]||[https://terror.moe/terrors/censored [CENSORED<nowiki>]</nowiki>数据删除]
+|
+|-
+|[https://terror.moe/terrors/whitenight WhiteNight白夜]||[https://terror.moe/terrors/an_arbiter An Arbiter调律者]||[https://terror.moe/terrors/specimen_5 Specimen 5 5号实验体]||[https://terror.moe/terrors/comedy Comedy喜剧]||[https://terror.moe/terrors/purple_guy Purple Guy紫色的家伙(威廉·阿夫顿)]||[https://terror.moe/terrors/spongefly_swarm Spongefly Swarm海绵蝇群]||[https://terror.moe/terrors/hush Hush死寂]||[https://terror.moe/terrors/mopemope MopeMope美穗的花]||[https://terror.moe/terrors/sawrunner Sawrunner电锯恶鬼]||[https://terror.moe/terrors/imposter Imposter内鬼]||[https://terror.moe/terrors/something Something某个东西]
+|[https://terror.moe/terrors/squidward Squidward 悲泣章鱼哥(Deleted)]
+|-
+|[https://terror.moe/terrors/starved Starved饥荒]||[https://terror.moe/terrors/the_painter The Painter画家]||[https://terror.moe/terrors/the_guidance The Guidance指引者]||[https://terror.moe/terrors/with_many_voices With Many Voices千喉之兽]||[https://terror.moe/terrors/nextbots Nextbots]||[https://terror.moe/terrors/harvest Harvest丰收]||[https://terror.moe/terrors/smileghost Smileghost微笑幽灵]||[https://terror.moe/terrors/karol_corpse Karol_Corpse卡洛尔的尸身]|| [https://terror.moe/terrors/mx MX]||[https://terror.moe/terrors/big_bird Big Bird大鸟]||[https://terror.moe/terrors/dev_bytes Dev Bytes开发者字节小队]
+|[https://terror.moe/terrors/mario_has_logged_in Mario Has Logged In 马里奥已登入(Deleted)]
+|-
+|[https://terror.moe/terrors/luigi_and_luigi_dolls Luigi & Luigi Dolls路易吉与路易吉娃娃]||[https://terror.moe/terrors/v2 V2]||[https://terror.moe/terrors/withered_bonnie Withered Bonnie老邦尼]||[https://terror.moe/terrors/the_boys The Boys男孩们(南瓜兄弟)]||[https://terror.moe/terrors/something_wicked Something Wicked一个坏东西]||[https://terror.moe/terrors/seek Seek]||[https://terror.moe/terrors/rush Rush]||[https://terror.moe/terrors/sonic Sonic索尼克]||[https://terror.moe/terrors/bad_batter Bad Batter坏击球手]||[https://terror.moe/terrors/signus Signus讯号]||[https://terror.moe/terrors/mirror Mirror镜子]
+|
+|-
+|[https://terror.moe/terrors/legs Legs腿子]||[https://terror.moe/terrors/mona_and_the_mountain Mona & The Mountain莫娜和尸山]||[https://terror.moe/terrors/judgement_bird Judgement Bird审判鸟]||[https://terror.moe/terrors/slender Slender瘦长鬼影]||[https://terror.moe/terrors/maul-a-child Maul-A-Child屠戮儿童]||[https://terror.moe/terrors/garten_goers Garten Goers斑斑幼儿园]||[https://terror.moe/terrors/dont_touch_me Don't Touch Me别碰我]||[https://terror.moe/terrors/specimen_2 Specimen 2 2号实验体]||[https://terror.moe/terrors/specimen_10 Specimen 10 10号实验体]||[https://terror.moe/terrors/the_lifebringer The Lifebringer苏生机器]||[https://terror.moe/terrors/pale_association Pale Association苍白收尾人]
+|[https://terror.moe/terrors/the_old_man The Old Man老男人(Deleted)]
+|-
+|[https://terror.moe/terrors/toy_enforcer Toy Enforcer玩具执法员]||[https://terror.moe/terrors/tbh TBH坦白说]|| [https://terror.moe/terrors/doombox Doombox末日之盒]||[https://terror.moe/terrors/christian_brutal_sniper Christian Brutal Sniper残暴基督教狙击手]||[https://terror.moe/terrors/nosk Nosk诺斯克]||[https://terror.moe/terrors/apocrean_harvester Apocrean Harvester天启收割者]||[https://terror.moe/terrors/arkus Arkus阿库斯]||[https://terror.moe/terrors/cartoon_cat Cartoon Cat卡通猫]||[https://terror.moe/terrors/wario_apparition Wario Apparition瓦里奥幻影]||[https://terror.moe/terrors/shinto Shinto神道]||[https://terror.moe/terrors/hell_bell Hell Bell地狱之钟]
+|
+|-
+|[https://terror.moe/terrors/security Security警卫]||[https://terror.moe/terrors/the_swarm The Swarm蜂群]||[https://terror.moe/terrors/shiteyanyo Shiteyanyo腿音]||[https://terror.moe/terrors/bacteria Bacteria细菌]||[https://terror.moe/terrors/tiffany Tiffany蒂法尼]||[https://terror.moe/terrors/hoovydundy HoovyDundy胡维邓迪]||[https://terror.moe/terrors/haket Haket薄壳]||[https://terror.moe/terrors/akumii-kari Akumii-Kari阿库米-狩]||[https://terror.moe/terrors/lunatic_cultist Lunatic Cultist新月教徒]||[https://terror.moe/terrors/sturm Sturm突击甲兵]||[https://terror.moe/terrors/punishing_bird Punishing Bird惩戒鸟]
+|
+|-
+|[https://terror.moe/terrors/prisoner Prisoner囚犯]||[https://terror.moe/terrors/red_bus Red Bus(邪恶)红巴士]||[https://terror.moe/terrors/waterwraith Waterwraith胶雨小子]||[https://terror.moe/terrors/astrum_aureus Astrum Aureus黄色链球菌]||[https://terror.moe/terrors/snarbolax Snarbolax狼王]||[https://terror.moe/terrors/all-around-helpers All-Around-Helpers小帮手]||[https://terror.moe/terrors/sakuya_izayoi Sakuya Izayoi十六夜咲夜]||[https://terror.moe/terrors/arrival Arrival抵达]||[https://terror.moe/terrors/miros_birds Miros Birds钢鸟]||[https://terror.moe/terrors/bff BFF永远的好朋友]||[https://terror.moe/terrors/scavenger Scavenger拾荒者]
+|
+|-
+|[https://terror.moe/terrors/tinky_winky Tinky Winky丁丁]
+|[https://terror.moe/terrors/tricky Tricky小丑崔奇]
+|[https://terror.moe/terrors/yolm Yolm尤尔姆]
+|[https://terror.moe/terrors/red_fanatic Red Fanatic红狂热者]
+|[https://terror.moe/terrors/dr_tox Dr.Tox毒素博士]
+|[https://terror.moe/terrors/ink_demon Ink Demon恶魔班迪]
+|[https://terror.moe/terrors/retep Retep特皮]
+|[https://terror.moe/terrors/those_olden_days Those Olden Days那些往日时光]
+|[https://terror.moe/terrors/sos S.O.S]
+|[https://terror.moe/terrors/bigger_boot Bigger Boot大靴子]
+|[https://terror.moe/terrors/the_pursuer The Pursuer咒缚者]
+|
+|-
+|[https://terror.moe/terrors/spamton Spamton斯潘顿]
+|[https://terror.moe/terrors/immortal_snail Immortal Snail不死蜗牛]
+|[https://terror.moe/terrors/charlotte Charlotte糖果魔女夏洛特]
+|[https://terror.moe/terrors/herobrine Herobrine]
+|[https://terror.moe/terrors/peepy Peepy皮皮]
+|[https://terror.moe/terrors/the_jester The Jester八音盒]
+|[https://terror.moe/terrors/wild_yet_curious_creature Wild Yet Curious Creature狂野的奇特生物]
+|[https://terror.moe/terrors/manti Manti]
+|[https://terror.moe/terrors/horseless_headless_horsemann Horseless Headless Horsemann脱缰的无头骑士]
+|[https://terror.moe/terrors/ghost_girl Ghost Girl幽灵女孩]
+|[https://terror.moe/terrors/cubors_revenge Cubor's Revenge方块儿的复仇]
+|
+|-
+|[https://terror.moe/terrors/the_origin The Origin原件]
+|[https://terror.moe/terrors/beyond Beyond]
+|[https://terror.moe/terrors/terror_of_nowhere Terror of Nowhere无处的恐惧]
+|[https://terror.moe/terrors/deleted Deleted删除]
+|[https://terror.moe/terrors/poly Poly聚合体] 
+|[https://terror.moe/terrors/dog_mimic Dog Mimic仿制犬]
+|[https://terror.moe/terrors/warden Warden循声守卫] 
+|[https://terror.moe/terrors/express_train_to_hell Express Train To Hell黄泉列车]
+|[https://terror.moe/terrors/killer_fish Killer Fish杀手鱼]
+|[https://terror.moe/terrors/fox_squad FOX Squad狐狸小队]
+|[https://terror.moe/terrors/time_ripper Time Ripper时间杀人魔]
+|[https://terror.moe/terrors/this_killer_does_not_exist This Killer Does Not Exsit这个杀手不存在(隐藏)]
+|-
+|[https://terror.moe/terrors/malicious_twins Malicious Twins恶毒双胞胎]
+|[https://terror.moe/terrors/parhelions_victims Parhelion's Victims 幻日的受害者]
+|[https://terror.moe/terrors/bed_mecha Bed Mecha机甲战床]
+|[https://terror.moe/terrors/killer_rabbit Killer Rabbit杀手兔]
+|[https://terror.moe/terrors/random_flying_knife Random Flying Knife随机杀手飞刀]
+|[https://terror.moe/terrors/missingno MissingNo遗失号码]
+|[https://terror.moe/terrors/living_shadow Living Shadow生者之影]
+|[https://terror.moe/terrors/the_plague_doctor The Plague Doctor疫医]
+|[https://terror.moe/terrors/the_rat The Rat大老鼠]
+|[https://terror.moe/terrors/waldo Waldo沃尔多]
+|[https://terror.moe/terrors/clockey Clockey克洛奇]
+|[https://terror.moe/terrors/lain lain玲音]
+|}
+</center>
+<!-- Replaced with the new pyramid like table. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+异体
+|-
+|[https://terror.moe/terrors/feddys Feddys弗莱迪们]||[https://terror.moe/terrors/tbh_spy TBH Spy坦白说间谍]||[https://terror.moe/terrors/tragedy Tragedy悲剧]||[https://terror.moe/terrors/voidwalker Voidwalker虚空行者(戴維·米勒)]||[https://terror.moe/terrors/paradise_bird Paradise Bird天堂鸟]
+|[https://terror.moe/terrors/restless_creator Restless Creator不眠的作者]||[https://terror.moe/terrors/lords_signal Lord's Signal主的信号]||[https://terror.moe/terrors/joy Joy]||[https://terror.moe/terrors/mr_mega MR. MEGA]||[https://terror.moe/terrors/eggmans_announcement Eggman's Announcement艾格曼的公告]||[https://terror.moe/terrors/knight_of_toren Knight of Toren托伦骑士]
+|-
+| ||[https://terror.moe/terrors/decayed_sponge Decayed Sponge腐烂海绵宝宝]||[https://terror.moe/terrors/parhelion Parhelion幻日]||[https://terror.moe/terrors/yan 얀샋ㄷ요무rnfmabj]||[https://terror.moe/terrors/army_in_black Army in Black深黯「军团」]
+|[https://terror.moe/terrors/bliss Bliss极乐]||[https://terror.moe/terrors/glaggle_gang Glaggle Gang格拉格尔帮]||[https://terror.moe/terrors/whiteface WHITEFACE白脸]||[https://terror.moe/terrors/sm64_z64 SM64.Z64]||[https://terror.moe/terrors/the_red_mist The Red Mist殷红迷雾]
+|
+|-
+| || ||[https://terror.moe/terrors/sanic Sanic萨尼克]||[https://terror.moe/terrors/stgm S.T.G.M.]|| [https://terror.moe/terrors/convict_squad Convict Squad罪人小队]
+|[https://terror.moe/terrors/fusion_pilot Fusion Pilot聚核试验机]||[https://terror.moe/terrors/dev_maulers Dev Maulers屠戮开发者]||[https://terror.moe/terrors/lisa LISA丽莎]
+|[https://terror.moe/terrors/apathy Apathy冷漠症]
+|
+|
+|-
+| || || ||[https://terror.moe/terrors/angry_munci Angry Munci愤怒蒙西]||[https://terror.moe/terrors/ambush Ambush]
+|[https://terror.moe/terrors/roblander Roblander]
+|[https://terror.moe/terrors/walpurgisnacht Walpurgisnacht魔女之夜]
+|[https://terror.moe/terrors/sakuya_the_ripper Sakuya The Ripper开膛手咲夜]
+|
+|
+|
+|-
+| || ||
+|
+|[https://terror.moe/terrors/teuthida Teuthida]
+|[https://terror.moe/terrors/judas Judas犹大]
+|[https://terror.moe/terrors/try_not_to_touch_me Try Not To Touch Me试着别碰我]
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|
+|[https://terror.moe/terrors/the_observation The Observation观望者]
+|
+|
+|[https://terror.moe/terrors/rabid_snarbolax Rabid Snarbolax狂野的双狼王(Deleted)]
+|[https://terror.moe/terrors/furnace Furnace火狐](与 [https://terror.moe/terrors/starved Starved饥荒]合并)
+|[https://terror.moe/terrors/the_navigator The Navigator领航员(Deleted)]
+|}
+</center>
+</div>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+变体
+|-
+|[https://terror.moe/terrors/slendy Slendy瘦长怪影]||[https://terror.moe/terrors/scrapyard_machine Scrapyard Machine废品处理机]||[https://terror.moe/terrors/rewrite Rewrite重写]||[https://terror.moe/terrors/eyes Eyes]||[https://terror.moe/terrors/search_and_destroy Search & Destroy检索&销毁]||[https://terror.moe/terrors/the_batter The Batter击球手]||[https://terror.moe/terrors/monarch Monarch君主]
+|[https://terror.moe/terrors/ruinborn_afton Ruinborn Afton腐生阿夫顿]
+|[https://terror.moe/terrors/nameless ???]([https://terror.moe/terrors/crimboong Crimboong绯红])
+|[https://terror.moe/terrors/kimera Kimera奇美拉]
+|[https://terror.moe/terrors/blue_haket Blue Haket蓝薄壳]
+|-
+|[https://terror.moe/terrors/inverted_roblander Inverted Roblander反色Roblander]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|[https://terror.moe/terrors/alternates Alternates伪人]||[https://terror.moe/terrors/red_mist_apparition Red Mist Apparition红雾怨灵]||[https://terror.moe/terrors/baldi Baldi巴迪]||[https://terror.moe/terrors/shadow_freddy Shadow Freddy暗影弗莱迪]||[https://terror.moe/terrors/searchlights Searchlights探照灯]||[https://terror.moe/terrors/epic_bonnie Epic Bonnie史诗邦尼]||[https://terror.moe/terrors/tbh_sans TBH Sans Sans坦白说]
+|[https://terror.moe/terrors/transportation_trio_and_the_drifter Transportation Trio & The Drifter交通三重奏&漂泊者]
+|[https://terror.moe/terrors/freezer Freezer冻结]
+|[https://terror.moe/terrors/hungry_home_invader Hungry Home Invader饥饿的入侵者]
+|
+|}
+</center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+不羁回合(WIP施工中)
+!图鉴
+!名称
+!实体
+|-
+|1
+|Guidance & The Booboo's 指引者&布布们
+|
+|-
+|2
+|Red VS Blue 红蓝对战
+|
+|-
+|3
+|Third Trumpet 三重号
+|
+|-
+|4
+|Higher Beings 更高级的存在
+|
+|-
+|5
+|Forest Guardians 森林守护者
+|
+|-
+|6
+|Quadruple Sponge 四倍海绵
+|
+|-
+|7
+|Your Best Friends 你最好的朋友们
+|
+|-
+|8
+|Hotel Monsters 酒店的怪物们
+|
+|-
+|9
+|Squibb Squad Squibb小分队
+|
+|-
+|10
+|Garden Rejects 花园弃儿
+|
+|-
+|11
+|Judgement Day 审判日
+|
+|-
+|12
+|Me and My Shadow 我和我的影子
+|
+|-
+|13
+|Meltdown 熔断
+|
+|-
+|14
+|Faceless Mafia 无面黑手党
+|
+|-
+|15
+|Mansion Monsters 宅邸的实验体们
+|
+|-
+|16
+|Copyright Infringement 版权纠纷
+|
+|-
+|17
+|Purple Bros 紫色兄弟
+|
+|-
+|18
+|Scavengers 拾荒者们
+|
+|-
+|19
+|Life & Death 生与死
+|
+|-
+|20
+|Labyrinth 迷宮
+|
+|-
+|21
+|Spiteful Shadows 怀恨的影子们
+|
+|-
+|22
+|Triple Munci 三重蒙西
+|
+|-
+|23
+|Daycare 日间托管
+|
+|-
+|24
+|Huggy Horde 亨吉部落
+|
+|-
+|25
+|Infection 感染
+|
+|-
+|26
+|Triple Hush 三重死寂
+|
+|-
+|27
+|[CENSORED] [数据删除]
+|
+|-
+|28
+|Byte Horde 字节部落
+|
+|-
+|29
+|SawMarathon 电锯马拉松
+|
+|-
+|30
+|TAKE THE NAMI CHALLENGE 接受NAMI的考验！
+|
+|-
+|31
+|Thunderstorm 闪电风暴
+|
+|-
+|32
+|END OF THE WORLD 世界终结之日
+|
+|-
+|33
+|Fragmented Memories 残缺的记忆
+|
+|-
+|34
+|Mona & Mona & Mona & Mona 莫娜&莫娜&莫娜&莫娜
+|
+|-
+|35
+|Seekers
+|
+|-
+|36
+|Nugget Squad Nugget小分队
+|
+|-
+|37
+|Saul's Goodmen 风骚索尔
+|
+|-
+|38
+|Something Old. Something New 往事。新物
+|
+|-
+|39
+|POV: Bug 视角：Bug
+|
+|-
+|40
+|Punishing Birdemic 惩戒鸟灾
+|
+|-
+|41
+|Double Ao Oni 双重青鬼
+|
+|-
+|42
+|Too Many Voices 千喉之兽过量了
+|
+|-
+|43
+|Memory Crypts 记忆的墓穴
+|
+|-
+|44
+|Zumbo Sauce Zumbo酱
+|
+|-
+|45
+|Freaks 畸形人
+|
+|-
+|46
+|Lunatic Cult 新月教团
+|
+|-
+|47
+|Transportation Trio & The Drifter 交通三重奏和漂泊者
+|
+|-
+|48
+|Father Son Bonding 父子的纽带
+|
+|-
+|49
+|WHAT IS MY NAME 我的名字是什么
+|
+|-
+|50
+|Glaggleland Cremators 格拉格尔兰火葬场
+|
+|-
+|51
+|Triple Signus 三重讯号
+|
+|-
+|52
+|Triple Akumii Kari 三重狩猎
+|
+|-
+|53
+|Black & White 黑与白
+|
+|-
+|54
+|[LESSER CENSORED] [小小的数据删除]
+|
+|-
+|55
+|Blue Monsters 蓝色的怪物们
+|
+|-
+|56
+|Drones 无人机群
+|
+|-
+|57
+|Scrapyard Takers 废品收购者
+|
+|-
+|58
+|Luigi Dolls 路易吉娃娃们
+|
+|-
+|59
+|Meteor Shower 流星雨
+|
+|-
+|60
+|Triple TBH 坦白坦白坦白说
+|
+|-
+|61
+|Lost Souls 迷失的灵魂
+|
+|-
+|62
+|Ballin 进球
+|
+|-
+|63
+|Reunion 重聚
+|
+|-
+|64
+|Angels 大天使们
+|
+|-
+|65
+|Ordinary Apocalypse Bird 普通的天启鸟
+|
+|-
+|66
+|Pack of Wild Yet Curious 一群狂野又奇特的生物
+|
+|-
+|67
+|ToN X SlashCo Collab ToN X SlashCo合作项目
+|
+|-
+|68
+|Pack of Yolm 一群约尔姆
+|
+|-
+|69
+|Threepy 三皮
+|
+|-
+|70
+|???
+|
+|-
+|71
+|Delete He 删了他
+|
+|-
+|72
+|Spamton Spam 斯潘顿骚扰
+|
+|-
+|73
+|Death From Above 死从天降
+|
+|-
+|74
+|It Came From Bus To Nowhere 它来自无处可去的巴士
+|
+|-
+|75
+|Zombie Apocalypse 丧尸启示录
+|
+|-
+|76
+|Eating Contest 大胃王比赛
+|
+|-
+|77
+|Triple Clockeys 三重克洛奇
+|
+|-
+|78
+|Triple Killer Fish 三重杀手鱼
+|
+|-
+|79
+|Lethal League 致命同盟
+|
+|-
+|80
+|Trollage 巨魔
+|
+|-
+|81
+|Mopemopemopemopemopemope 小花小花小花小花
+|
+|-
+|82
+|Triple Trouble 三重祸乱
+|
+|-
+|83
+|Tirple Living Shadow 三重活影
+|
+|-
+|84
+|Beyond's Masks Beyond的马甲们
+|
+|}
+</center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+月亮Boss
+|-
+|[https://terror.moe/terrors/mystic_moon Mystic Moon谜月]||[https://terror.moe/terrors/blood_moon Blood Moon血月]||[https://terror.moe/terrors/twilight Twilight薄暝]||[https://terror.moe/terrors/solstice Solstice至日]
+|}
+</center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+季节活动
+|-
+|[https://terror.moe/terrors/cold_night Cold Night寒夜]
+|}
+</center>
+
+<span id="Locations"></span>
+==地点==
+
+Terrors of Nowhere一共有'''75'''个地点，其中'''74'''个是你在回合中会随机进入的场地。
+
+<center><big>⚠️'''剧透警告'''⚠️<br>
+
+'''以下内容可能包含剧透，请谨慎展开。'''</big></center>
+
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+地点
+|-
+|[https://terror.moe/locations/hub Hub老枢纽]||[https://terror.moe/locations/sewers Sewers下水道]||[https://terror.moe/locations/construct Construct实验田]||[https://terror.moe/locations/secret Secret秘密]||[https://terror.moe/locations/innyume Innyume梦中旅店]||[https://terror.moe/locations/warehouse Warehouse仓库]
+|[https://terror.moe/locations/sanctum Sanctum圣地]
+|[https://terror.moe/locations/sea_base Sea Base航海基地]
+|[https://terror.moe/locations/astral Astral星际]
+|-
+|[https://terror.moe/locations/hell Hell地狱]||[https://terror.moe/locations/fishbowl Fishbowl鱼缸]||[https://terror.moe/locations/forest Forest森林]||[https://terror.moe/locations/neon_towers_p Pink Neon Towers霓虹塔（粉）]||[https://terror.moe/locations/playplace Playplace游乐场]||[https://terror.moe/locations/isolation Isolation隔离]
+|[https://terror.moe/locations/pizzeria Pizzeria披萨店]
+|[https://terror.moe/locations/schoolhouse Schoolhouse校舍]
+|[https://terror.moe/locations/ancient Ancient遗迹]
+|-
+|[https://terror.moe/locations/inner_towers Inner Towers塔的内部]||[https://terror.moe/locations/blackspace Blackspace黑色空间]||[https://terror.moe/locations/museum Museum博物馆]||[https://terror.moe/locations/throne Throne王座]||[https://terror.moe/locations/neon_towers_g Green Neon Towers霓虹塔（绿）]||[https://terror.moe/locations/pool Pool泳池]
+|[https://terror.moe/locations/hole Hole深坑]
+|[https://terror.moe/locations/iteration_0 Iteration_0迭代_0]
+|[https://terror.moe/locations/dring_kings_citadel Dring King's Citadel德林王的城堡]
+|-
+|[https://terror.moe/locations/car_park Car Park停车场]||[https://terror.moe/locations/development Development开发中]||[https://terror.moe/locations/hotel Hotel酒店]|| [https://terror.moe/locations/elevator Elevator货梯]||[https://terror.moe/locations/tbh TBH坦白说]||[https://terror.moe/locations/experimentation Experimentation致命公司]
+|[https://terror.moe/locations/scrapyard Scrapyard垃圾场]
+|[https://terror.moe/locations/robland Robland]
+|[https://terror.moe/locations/backrooms Backrooms后室]
+|-
+|[https://terror.moe/locations/desktop Desktop桌面]
+|[https://terror.moe/locations/slashco_hq SlashCo HQ SlashCo总部]
+|[https://terror.moe/locations/harvest Harvest丰收]
+|[https://terror.moe/locations/heaven Heaven天堂]
+|[https://terror.moe/locations/hightower Hightower高塔]
+|[https://terror.moe/locations/lounge Lounge休息区]
+|[https://terror.moe/locations/baseplate Baseplate基础板块]
+|[https://terror.moe/locations/challenge_cube Challenge Cube挑战方块]
+|[https://terror.moe/locations/have Have]
+|-
+|[https://terror.moe/locations/engine Engine引擎室]||[https://terror.moe/locations/orange Orange起源引擎]|| [https://terror.moe/locations/wall Wall高墙]||[https://terror.moe/locations/nexus Nexus核心]||[https://terror.moe/locations/colony Colony太空殖民舱]||[https://terror.moe/locations/altar Alter覆写]
+|[https://terror.moe/locations/gardens Gardens裂隙花园]
+|[https://terror.moe/locations/dust Dust沙城]
+|[https://terror.moe/locations/dots Dots吃豆人]
+|-
+|[https://terror.moe/locations/mall Mall商场]||[https://terror.moe/locations/nightlife Nightlife夜生活]||[https://terror.moe/locations/skyscraper Skyscrapers摩天楼]||[https://terror.moe/locations/gaol Gaol牢笼]
+|[https://terror.moe/locations/chess Chess国际象棋]
+|[https://terror.moe/locations/mineshaft Mineshaft矿井]
+|[https://terror.moe/locations/escape_route Escape Route逃生路线]
+|[https://terror.moe/locations/garten Garten幼儿园]
+|[https://terror.moe/locations/black_forest Black Forest黑森林]
+|-
+|[https://terror.moe/locations/park Park公园]
+|[https://terror.moe/locations/wafflehouse Wafflehouse华夫饼屋]
+|[https://terror.moe/locations/tunnels Tunnels地道]
+|[https://terror.moe/locations/subway Subway地下铁]
+|[https://terror.moe/locations/supply_route Supply Route供应线]
+|[https://terror.moe/locations/vents Vents通风管道]
+|[https://terror.moe/locations/cheese_maze Cheese Maze芝士迷宫]
+|[https://terror.moe/locations/snowfield Snowfield雪原]
+|[https://terror.moe/locations/luna_hills Luna Hills月光山丘]
+|-
+|[https://terror.moe/locations/court Court审判庭]
+|[https://terror.moe/locations/its_maze Its Maze是迷宫哦(Deleted)]
+|
+|
+|
+|
+|
+|[https://terror.moe/locations/spaceless Spaceless无垠(隐藏)]
+|[https://terror.moe/locations/this_map_does_not_exist This Map Does Not Exist这个地图不存在(隐藏)]
+|}
+</center>
+
+<span id="Red_Merchant_Store"></span>
+==红商人的商店==
+
+在红商人的商店内，您可以浏览三家不同的商店，分别是：'''脑啡肽商店'''、'''特殊商店'''和'''活动商店''',。
+
+<center><big>⚠️'''剧透警告'''⚠️<br>
+
+'''以下内容可能包含剧透，请谨慎展开。'''</big></center>
+
+<!-- Please refrain from proofreading the shop descriptions, as they are provided as-is from the game. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ 脑啡肽商店
+|-
+!名称!! 价格 !!商店描述!!笔记
+|-
+|[https://terror.moe/items/radar Radar雷达]||20 Eph||<small>一款实用的物品，能够检测出对玩家有威胁的实体和物体。它会一直跟踪主要实体，同时提醒玩家附近的任何情况。</small>||<small>持有该物品时，雷达将显示玩家与主要实体的距离。如果附近有任何危险性的东西（们），它就会提醒玩家。在某些回合类型中，它可以显示杀手。
+</small>
+|-
+|[https://terror.moe/items/medkit Medkit医疗包]||20 Eph ||<small>一个装有多种医疗用品的箱子，这些医疗用品是从绿巴士到过的各个地方收集来的。虽然不多，但能让你度过一场混战。</small>||<small>使用时，可治疗自身和附近玩家25%的HP。使用后必须充能。使用医疗包从病毒（血月boss）中存活下来可获得红色医疗包。有了它，你可以完全治疗自己，但不能治疗其他人。</small>
+|-
+|[https://terror.moe/items/haves_mysterious_brew Have's Mysterious BrewHave的神秘酿造]||20 Eph||<small>一种由森林生物酿造的奇怪饮料。不知道里面是什么，但闻起来很难闻。如果你喝了它，我会说你喝这个和疯了没什么两样，但...欸，你自己喝吧</small>||<small>使用时会随机产生一种buff。效果可好可坏。效果包括迅捷、治疗、失明、灼烧、迟钝、传送等。</small>
+|-
+|[https://terror.moe/items/glow_coil Glow Coil辉光线圈]||75 Eph ||<small>这个线圈为那些害怕黑暗的罪人提供了光明。我不经常用它，但它能帮你度过一些最黑暗的夜晚。</small>||<small>当持有时，玩家可获得2点速度。该线圈能提供舒适的光线，让你在黑暗中看得更清楚。它在对付具有黑暗效果或迷雾效果的实体（如钢鸟或一个坏东西）时非常有用。辉光线圈是对付迷雾回合的主要方案，因为它能将雾气效果减半，并显示杀手的名字颜色（但不显示名字）。使用辉光线圈在精神错乱(谜月Boss)中存活下来会给你一个变体--心病线圈。它能比 辉光线圈提供更多速度，且仍然可以抵消迷雾效果，但不会发出任何光线。</small>
+|-
+|[https://terror.moe/items/teleporter Teleporter传送器]||125 Eph||<small>这个装置是从绿巴士到过的许多地方之一捡来的。它的性质使其成为一种不可靠但非常有效的逃生工具。</small>||<small>使用时，会传送到地图上的随机位置。使用时有少许延迟。使用后必须重新充能。拥有三种变体，都需要基础传送器才能解锁--从异体中生还获得的 “苍白手提箱”、从血浴中获得生还的 “浴血传送器”和从至日中生还获得的 “荆棘骇客”。苍白手提箱的冷却时间较长，但拥有更好、更长的迅捷buff。血腥传送器的充能速度更快，但使用时会消耗你的HP。荆棘骇客每次都会将你传送到荆棘（实体生成）处。
+|-
+|[https://terror.moe/items/speed_coil Speed Coil速度线圈]||125 Eph ||<small>速度线圈是玩家最好的伙伴，能让他们更快地移动。北面（红商人）制造的这些高速线圈比原来的同类产品要轻得多。</small>||<small>持有时，玩家可获得3点速度，使他们能够超越实体。使用 “速度线圈 ”从 “血浴 ”中存活，就能获得 “浴血线圈”。有了它，你就能在受到伤害后暂时加快移动速度。</small>
+|-
+|[https://terror.moe/items/regen_coil Regen Coil再生线圈]||125 Eph||<small>再生线圈可为持有者提供治疗，同时提供相当可观的速度。虽然速度较慢，但使用该线圈的乘客的生坏能力不容小觑。</small>||<small>持有时，玩家会获得2点速度。同时，HP 的再生速度是原来的4倍。</small>
+|-
+|[https://terror.moe/items/metal_bat Metal Bat金属球棒]||200 Eph||<small>这只球棒是给予勇于挑战实体的人的武器。其内部的电子元件可以使它眩晕实体。它可能无法对付更强大或无载体的实体。</small>||<small>使用时，可以挥击并眩晕一名实体。不同实体的眩晕效果差异很大。眩晕成功会产生黄色粒子。眩晕失败会出现红色粒子。使用后必须重新充能。它允许使用者眩晕特定的实体。挥动时可获得短暂的无敌帧，成功击中后可在短时间内提升速度，充电时间约为15秒。充能时间会随着房间中玩家数量的增加而增加。有四种变体，分别是染浴血球棒（存活血浴）、金属水管（存活异体）、正义（存活午夜）和彩色球棒（存活癫狂）。要获得这些变体，必须使用金属球棒、彩色球棒或橡胶锤子。玩家HP值越少，浴血球棒的充能速度越快，不过，它的初始冷却时间较长。金属水管的冷却时间稍长，但它能同时击中多个实体。正义的效果与浴血球棒相似，但在一个动画中会挥舞三次。彩色蝙蝠的作用与金属球棒完全相同，但顾名思义，你可以在商店里给它着色！</small>
+|-
+|[https://terror.moe/items/silver_kat_charm Silver Kat Charm银猫坠饰]||200 Eph||<small>据说是一个女巫创造的魔法坠饰，她只想消除人性。创造这个坠饰是为了保护她自己和她所爱的人。它或许也能保护你。</small>||<small>使用时会受到保护并获得2点速度。受保护时被击中会被格挡。效果持续时间为6秒。使用后需要重新充能。充能时间为30秒。</small>
+|-
+|[https://terror.moe/items/chaos_coil Chaos Coil混沌线圈]|| 200 Eph||<small>T混沌线圈被异世界的能量所扭曲，无法在一个地方停留太久。线圈虽然能大幅提升速度，但非常不稳定也不可靠。</small>||<small>持有时，玩家会获得4点速度。移动时，线圈有时会断裂2-7秒，3秒后会自动修复。使用混沌线圈在 “天启鸟（即薄暝）”中存活下来，就能获得暮光线圈。有了它，你的移动速度会比混沌线圈快，但断裂的频率也更高。</small>
+|-
+|[https://terror.moe/items/glass_coil Glass Coil玻璃线圈]||250 Eph||<small>由玻璃制成的强力线圈。虽然它比大多数线圈更坚固，但也很容易碎裂。这是我作为礼物制作的，但我不想说是送给谁的。</small>||<small>持有时，玩家会获得3.5点速度。受到任何伤害都会破坏线圈。60秒无损伤后，线圈会自动修复。</small>
+|-
+|[https://terror.moe/items/corkscrew_coil Corkscrew Coil螺旋线圈]||250 Eph||<small>螺旋线圈是 “要么战斗，要么逃跑 ”的终极实用工具，可同时提供速度和防御。不过，它必须在两次使用之间重新充能，因此请谨慎使用。</small>||<small>持有时，可获得1点速度。使用时，获得4点速度，持续3秒。在此期间，线圈可以眩晕实体。之后必须重新充能。充能时间约为 30 秒。使用时可获得短暂的持续时间。</small>
+|-
+|[https://terror.moe/items/antique_revolver Antique Revolver古董左轮手枪]||250 Eph ||<small>一把破旧的左轮手枪。它看起来随时都会散架。它的弹膛只能容纳一颗子弹，而且子弹很难打出去。只要一发就够了。</small>||<small>使用时，发射子弹并远距离眩晕实体。不同实体的眩晕效果差别很大。子弹可以穿透多个实体。使用后必须充能30秒。在使用该枪的异体回合中存活下来，即可拥有苍白手枪。使用 “苍白手枪”射击并击中实体可获得临时迅捷加成，但冷却时间较长。</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+SP商店
+|-
+!名称!!价格!!商店描述!!笔记
+|-
+|[https://terror.moe/items/burger Burger汉堡包]||1 SP||<small>汉堡 芝士汉堡 巨无霸汉堡 汉堡 芝士汉堡 巨无霸汉堡 汉堡 芝士汉堡 巨无霸汉堡</small>||<small>使用时会消耗该物品，恢复所有HP。使用后必须在商店重新装备。</small>
+|-
+|[https://terror.moe/items/beyond_plush Beyond Plush Beyond玩偶]||10 SP||<small>一个神秘的毛绒玩具，它的主人可能在某个时期非常尊贵。它蕴含着微弱的远古能量，谁知道它能做什么呢？</small>||<small>使用时，有几率播放随机声音和随机效果，效果包括格挡、传送或死亡。，10秒冷却时间，也有几率触发其他效果。</small>
+|-
+|[https://terror.moe/items/magic_conch Magic Conch神奇海螺]||25 SP||<small>在一个奇怪的水下祭祀地点打捞到的海螺壳。拉动绳子它就会说话。尽管它是由贝壳制成的，但里面似乎装有电子设备。</small>||<small>问它点什么，然后拉一下绳子。</small>
+|-
+|[https://terror.moe/items/radar_coil Radar Coil雷达线圈]||50 SP||<small>它是雷达和速度线圈的奇特混合物。由于没有屏幕，它很难判断威胁来自何方。不过，它会确保你知道。</small>||<small>持有时，玩家会获得2点速度。雷达会捕捉到用户周围35米内的实体。雷达会每0.8秒更新一次距离。雷达线圈在探测到实体时会明显提升速度。在迷雾回合中会显示恐怖生物的名字，在血浴或午夜回合中会显示所有三个恐怖生物的名字。</small>
+|-
+|[https://terror.moe/items/rubber_mallet Rubber Mallet橡胶锤子]||100 SP||<small>橡胶锤子对胆小的玩家很有效。但对某些人来说，可能会更熟悉它，或者使用起来比金属球棒更舒服；但从功能上讲，它们的作用是一样的。</small>||<small>持有时，挥击并眩晕一名实体。不同杀手的眩晕效果差异很大。成功眩晕会产生黄色粒子。眩晕失败会产生红色粒子。功能与金属球棒相同。您可以用橡胶锤子解锁金属球棒的变体。</small>
+|-
+|[https://terror.moe/items/banana Banana香蕉]
+|250 SP
+|<small>香蕉是一种可以让玩家......把香蕉皮扔到地上的道具。香蕉一旦掉在地上，就无法再捡起来，只能从商店里装备一个新的。和砖头一样，你也无法召回它。</small>
+|<small>当玩家踩到香蕉时，他们会获得类似‘滑一下’的效果，向随机方向移动。</small>
+|-
+|[https://terror.moe/items/tbh TBH坦白说]||500 SP||<small>一个小家伙，一个小动物。没有任何大脑活动，只是有点震动。如果你捏它，它可能还会发出声音。不过，我见过这些家伙爆炸，所以要小心。</small>|| <small>使用时，获得临时5点多的速度。会对自身造成烧伤。使用后必须充能。充能时间为30 秒起。</small>
+|-
+|[https://terror.moe/items/taser Taser泰瑟枪]
+|700 SP
+|<small>用这个对这个坏小子施以正义，它会暂时压制一切。我们保留了这个，以防Linzie在旅行时陷入混乱。</small>.
+|<small>使用时，发射短距离电击；暂时麻痹实体2-3秒。使用后会有较长的冷却时间。使用者可以在范围内电击几乎所有实体，包括不会被眩晕的实体。成功击中后，你可以看到实体周围有黄色粒子，表示它的移动速度变慢了。如果玩家仍在实体攻击范围内，实体仍会正常攻击，因此像V2这样的攻击仍会让人感到痛苦。</small>
+|-
+|[https://terror.moe/items/darkgrey_plush Darkgrey Plush Darkgrey玩偶]||750.5 SP||<small>是Darkgrey！哇哦！太酷了！Darkgrey的举止！</small>||<small>Darkgrey举止！太酷了！太不可思议了！看看他!!!!!!!</small>
+|-
+|[https://terror.moe/items/delicate_coil Delicate Coil精致线圈]||1000 SP||<small>如果你觉得玻璃线圈太危险了，那么这东西在你手里会直接碎掉。有些人会死于玻璃爆炸；所以我不建议使用它，除非你愿意冒这个险。</small>||<small>持有时，玩家会获得3.8点速度。但受到任何伤害都会导致使用者原地爆炸。</small>
+|-
+|[https://terror.moe/items/emerald_coil Emerald Coil翡翠线圈]||2500 SP||<small>这个线圈可以利用你一直在收集的东西。原来脑啡肽是一种非常有用的能源。虽然有用，但它并不是一个可持续的能源，所以如果你想活下去，就少用它。</small>||<small>使用时，可以为线圈充能2秒，并消耗5脑啡肽。充能时，将获得6点速度。如果没有脑啡肽则无法使用。</small>
+|-
+|[https://terror.moe/items/pot_of_greed Pot of Greed贪欲之壶]
+|5000 SP
+|<small>我不记得我找到过这个罐子，不过它让我很害怕。它可以让你远离危险，但我估计它不会免费帮你。</small>
+|<small>需要至少100脑啡肽才能使用。如果贪欲之壶发现你附近有实体，它会自动将你传送走。考虑到贪欲之壶将你的脑啡肽减半，建议使用较少的脑啡肽而不是收集大量的脑啡肽。</small>
+|-
+|[https://terror.moe/items/brick Brick砖头]||10000 SP||<small>没有什么事情是一块好砖头解决不了的。你可能需要练习扔砖头，但这是值得的。只是别弄丢了，你可能再也找不回来了。</small>||<small>物理投掷砖头眩晕实体。无冷却时间，但必须捡起砖头。(无法召回!)即使是轻微的力度也会造成眩晕。使用后必须手动拾起。</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+活动商店
+|-
+!名称!!商店描述!!Notes!!解锁条件
+|-
+|[https://terror.moe/items/luxury_coil Luxury Coil奢华线圈]||<small>一种用类似黄金的材料制成的特殊线圈。它能提供生存所需的一切，尽管做得不是最好。不过比起其他东西，它更像是个摆设。</small>||<small>持有时，玩家会获得1.5点速度，HP再生速度提高2.5倍，玩家获得的Eph增加1.5倍。 还能享有辉光线圈的清雾功能。</small>||<small>赠送给在2023年4月前Patreons的所有赞助者(看守人档位)。</small>
+|-
+|[https://terror.moe/items/blue_medkit Blue Medkit蓝色医疗包]|| <small>一个装有多种医疗用品的箱子，这些医疗用品是从绿巴士到过的许多地方收集来的。不知道为什么是蓝色的？虽然不多，但能让你度过一场混战。</small>||<small>使用时，治疗自身和附近玩家25%的 HP。对自己和附近的其他玩家随机施加一种buff或debuff。使用后必须充能。</small>||<small>赠送给在2023年4月前Patreons的所有赞助者(试验机档位)。</small>
+|-
+|[https://terror.moe/items/sealed_sword Sealed Sword封印剑]||<small>一件古老的武器。它布满了符咒，可以吸收祝福和诅咒。这武器笨重而缓慢。我不建议使用它。</small>||<small>使用时，挥击并眩晕一名实体。对你造成减速效果。不同实体的眩晕效果差别很大。成功眩晕会产生黄色粒子。眩晕失败会产生红色粒子。使用后必须重新充能。</small>||<small>可在博物馆内用武器敲碎展柜中取出。</small>
+|-
+|[https://terror.moe/items/gran_faust Gran Faust格兰-浮士德]||<small>它的蓄力攻击足以诅咒它的持有者，但这并没有阻止这个恶魔对这些稀有兵刃的珍视，甚至比他们微薄的假期时间还要珍贵。在不知道如何使用它的人手中，武器本身的威力要小得多。</small>||<small>使用时，挥动并眩晕一个实体。眩晕效果因实体而异。成功眩晕会产生黄色粒子。挥舞时有几率诅咒自己。在受到诅咒时挥动会对使用者造成伤害并再次施放诅咒。使用后充能更快。解锁后，无法再解锁神圣复仇者.</small>||<small>使用封印之剑面对Arkus阿库斯，在没有击中他们的情况下存活即可获得。</small>
+|-
+|[https://terror.moe/items/divine_avenger Divine Avenger神圣复仇者]||<small>这把圣剑诞生于另一个时代，用来武装对抗冥界军团的骑士。在这个世界上，只有少数的反派有资格被这样一把利刃击败，而有资格挥舞它的英雄更是少数。</small>||<small>使用时，挥动并眩晕一个实体。眩晕效果因实体而异。成功眩晕会产生黄色粒子。成功眩晕可获得再生buff。使用后必须重新充能。解锁后，无法再解锁格兰-浮士德。</small>||<small>使用封印之剑面对Arkus阿库斯，并在击中他们至少两次后存活即可获得。</small>
+|-
+|[https://terror.moe/items/maxwell Maxwell麦克斯韦]|| <small>古老的创世神之一。他有很多名字，但只有一个适合像他这样的人。他同情你的遭遇，会像你帮助他一样帮助你。</small>|| <small>O每回合一次，他吸收玩家致命伤害并让玩家以满值HP传送离开。之后麦克斯韦会被消耗掉，必须在商店重新装备。</small>||<small>在是迷宫哦!(现致命公司)中找到。(每轮出现一次)</small>
+|-
+|[https://terror.moe/items/rock Rock石头]||<small>它看起来不像是我以前见过的任何岩石。感觉也不像任何别的东西。你不会想要这个的 陌生人，有时我听到这东西对我耳语。</small>||<small>物理投掷石头来眩晕实体。它没有冷却时间，但你必须捡起石头。(无法召回!)功能与砖头相同。</small>||<small>存活Fusion Pilot聚核试验机后获得。</small>
+|-
+|[https://terror.moe/items/illumina Illumina希望之光剑]||<small>一种古老的武器，向那些决心清除世界上不纯洁心灵的人显现。即使在最黑暗的夜晚，也总会有一盏明灯。</small>||<small>使用时，挥动并眩晕一个实体。眩晕效果因实体而异。成功眩晕会产生黄色粒子。充能速度更快，但没有无敌帧。</small>||<small>存活Bliss极乐后获得。</small>
+|-
+|[https://terror.moe/items/redbull RedBull红牛]||<small>一款能让你飞起来的能量饮料的说，但它更可能让你心力衰竭。(ToN并非由红牛赞助)</small>||<small>使用时，会大幅提升速度。速度提升结束后，会获得严重的减速效果。</small>||<small>存活Roblander后获得。</small>
+|-
+|[https://terror.moe/items/omori_plush Omori PlushOmori玩偶]||<small>不久前，我在旧货市场找到了这个小家伙。从那时起就一直抱着它。我不认为这真的会增加你的生存机会，但他捏起来很有趣！</small>||<small>挤压时会发出声音。也许能帮你忘掉所有坏事。每次使用可获得1 HP。</small>||<small>存活Something某个东西后获得。</small>
+|-
+|[https://terror.moe/items/paradise_lost Paradise Lost失乐园]||<small>S有点奇怪的法杖，如果不信仰正确的神灵，似乎就会失去力量。但我不知道它属于哪个宗教，如果你能搞清楚，我很乐意把它送给你。</small>||<small>眩晕前方不远处的实体。治疗被粒子击中的其他玩家。使用时对使用者造成伤害。</small>||<small>在一回合内多次眩晕使徒获得。(金属球棒/彩色球棒/橡胶锤子：7次命中)(古董左轮手枪/苍白手枪：14次命中)(其他所有武器：12次命中)</small>
+|-
+|[https://terror.moe/items/thorn_glognut Thorn Glognut荆棘格洛纳特]
+|<small>原味格洛纳特! 松软的小海绵蛋糕，配以明亮的琥珀色和美味的低糖糖衣！每个格勒高或珍宝之类的人都至少吃过一次.</small>
+|<small>食用后，会获得 “格拉格视效”、巨大的速度提升和 15 秒的格挡保护。此外，除了剩余的10%的HP值外，你将失去其他所有HP。</small>
+|<small>存活Glaggle Gang格拉格尔帮后获得</small>
+|-
+|[https://terror.moe/items/jailbird Jailbird笼中之鸟]
+|<small>我对它进行了加固，以防止它爆炸，因为这些机器似乎都有爆炸的倾向。</small>
+|<small>使用时，为笼中之鸟充电，并在3秒内获得强大的迅捷buff。囚鸟可以再次用来挥舞，并使任何被其击中的恐怖生物瘫痪2-3秒。如果未能击中目标，则会使使用者瘫痪。.</small>
+|<small>存活所有常规图鉴的实体后获得</small>
+|-
+|[https://terror.moe/items/joyous_orb Joyous Orb欢乐球]
+|<small>从遥远的太阳上发现的古代遗迹。它看起来在沉思，或者只是睡着了。这样一个物体会做什么梦呢？</small>
+|<small>在回合中使用时，球体会随机飞来飞去，在引爆前会眩晕飞行路径上的怪物。不能在大厅中使用</small>
+|<small>存活Joy后获得</small>
+|-
+|[https://terror.moe/items/have_plush Have Plush Have玩偶]
+|<small>这款玩偶与潜伏在黑暗的穹顶森林中的生物十分相似。很少有人知道，穹顶森林正受到一位自称是森林之王的人的保护。</small>
+|<small>持有时，玩家将不再收到任何debuff，但也无法收到buff。</small>
+|<small>存活观望者后获得</small>
+|-
+|[https://terror.moe/items/silver_coil Silver Coil银色线圈]||<small>今天我感觉很亲切，所以决定由你来使用这款美丽的产品。你可不是每天都能用上这么漂亮的东西!</small>||<small>持有时，玩家可获得3点速度；使他们能够超越实体。功能类似于“速度线圈”。银色线圈是一种临时物品，离开房间时不会保存。</small>||<small>加入房间时，有 1/250(0.4%)的几率出现在活动商店中</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+特殊物品<nowiki>*</nowiki>
+|-
+!名称!!描述
+|-
+|[https://terror.moe/items/torch_of_obsession Torch of Obsession执迷火炬]||<small>这是您可以在冬季活动的寒夜中获得的物品。使用时，它能提供范围眩晕(AoE)和治疗效果以及一些额外的光照。</small>
+|-
+|[https://terror.moe/items/snowy_speed_coil Snowy Speed Coil雪速线圈]||<small>在冬季活动期间，您可以从商店旁边的雪堆中获得这个道具。拾取后，您可以在冬季活动结束后保留它。虽然它的名字里有 “速度线圈”，但它的速度比普通的 “速度线圈 ”慢了一丁点儿，真的是一丁点儿。不过，拥有它的人可以免费使用。</small>
+|-
+|[https://terror.moe/items/carrot Carrot胡萝卜]||<small>这是由MaraRizer（ToN官方维基站长）特别拥有的贡献者物品，它不仅能让使用者成为快乐的小bnnyu，还能为他们带来与普通速度线圈相同的好处。拾起时，它会播放MaraRizer 最喜欢的游戏之一《超级C》的音效。音效。当它不被持有时，会显示一个 “维基网站管理员”的小标题。</small>
+|-
+|[https://terror.moe/items/overseer_plush Overseer Plush监工长玩偶]|| <small>监工长玩偶是一种极其稀有的物品，只有极少数玩家能在大逃杀中幸存下来。是的，有时 Beyond会在测试过程中感到无聊，并让玩家为自己的生命而战。除了使用时会发出声音效果和点亮监工长的眼睛外，毛绒玩具本身没有任何作用。不过，如果你在监视器中查看列表中的某个人（贡献者除外），他们的名字下面会有一个短字符串：“监工长爱你：)”。</small>
+|-
+|[https://terror.moe/items/judia Judia犹蒂亚]|| <small>这是给予nkt_にこまる的特别贡献者物品，她制作了ToN中使用的基础模型，包括极乐、犹大和Roblander。使用时，它会向矛尖所指的地方猛刺，并使实体眩晕。它的工作原理与 “螺旋线圈”类似，其攻击动画比一般的眩晕武器要长。然而，当它击中实体时，产生的击退击退效果（由格挡造成）会使冲刺停止，这使得 nkt_にこまる即使在眩晕状态下也很容易被已命中的实体攻击。握住犹蒂亚时还能提升约2的速度。不被持有时，称号会显示主人的名字.</small>
+|-
+|[https://terror.moe/items/wispy_plush Wispy Plush Wispy玩偶]
+|<small>这是WispySpectre拥有的特殊物品。与 Beyond玩偶类似，它在使用时会发出各种独特的音效。这些声音以鬼魂为主题，包括：标准毛绒玩具的吱吱声、《超级马里奥64》中布的笑声、《暗黑物语》中玛菲特的咯咯笑声、《神奇宝贝》中米米奎的哭声、《皮克敏》中的死亡之音、小花的尖叫声。.</small>
+|-
+|[https://terror.moe/items/wave_coil Wave Coil波纹线圈]
+|<small>这是大多数 ToN 贡献者都拥有的贡献者物品。它是翡翠线圈的翻版，会播放一首小曲并发出一些气泡状粒子。它播放的歌曲是[https://www.youtube.com/watch?v=QgSsrCVGKP4 这首歌].</small>
+|-
+|[https://terror.moe/items/darkheart Darkheart黑暗之心]
+|<small>这是所有社区制图师独有的希望之光剑变体，其位置已添加到最终更新中。</small>
+|-
+|[https://terror.moe/items/subspace_tripmine Subspace Tripmine亚空间地雷]
+|<small>这是一个非常强大的道具，顾名思义，它的功能类似于三联地雷。亚空间会发出轻微的声音，然后完全隐形。如果玩家靠近它，地雷就会发出声音并爆炸，炸死任何靠近它的人。拥有银猫坠饰的玩家可以保护自己免受爆炸伤害。考虑到这一物品对他人体验的破坏程度，所以很少有人拥有它。</small>
+|-
+|[https://terror.moe/items/knife Knife杀手刀]
+|<small>该武器是内鬼在内鬼回合中的专属武器。当玩家成为内鬼时，他们的物品会被移除，杀手刀会在他们身边生成。杀手刀的命中检测过去偏向于其他玩家，但最近的更新则相反。作为交换，杀手刀的命中率被大幅降低。</small>
+|-
+|[https://terror.moe/items/first_shape First Shape初始之形]
+|<small>这个神秘的立方体是Joyous开发过程中只对大多数封闭测试者开放的道具。主攻击会在使用者前方发射一发爆裂弹，而副攻击的冷却时间较长，会直接向实体发射一发空袭弹。副攻击也可在大厅中使用，使其成为极其强大的辅助道具.。它的主要火源的初始形状既参考了《命运》（The Final Shape DLC），也参考了Blender的立方体，默认情况下，这是您在创建新 Blender项目时看到的第一种形状。Kittenji（ToN 保存码管理器的开发者）有一个独特的变体，具有完全不同的粒子效果。.</small>
+|-
+|[https://terror.moe/items/memoria Memoria记忆]
+|<small>Bakame（バ亀⁄bakame）的贡献者道具，功能与犹蒂亚相同，但外观不同。它与犹蒂亚使用完全相同的代码，因此在游戏中也被称为记忆。最初，记忆是 Bakame为Beyond的废案设计和制作的粉丝作品，后来在Joyous更新中作为给Bakame的惊喜而实装。</small>
+|}
+<nowiki>*</nowiki>特殊物品要么在商店里找不到，要么根本无法获得。
+</center>
+
+<span id="Achievements"></span>
+==成就==
+
+Terrors of Nowhere有'''163'''个成就，您可以通过完成各种目标来解锁这些成就。
+
+<center><big>⚠️'''剧透警告'''⚠️<br>
+
+'''以下内容可能包含剧透，请谨慎展开。'''</big></center>
+
+<div class="mw-translate-fuzzy">
+<!-- iirc there's 96 achievements this table might take a while... . -->
+<!-- Gonna be slowly adding these achievements in order as listed on the in-game board, so yeah will take some time. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+成就
+|-
+!名称!!特色文本!!解锁条件
+|-
+|Not Enough Blood 血还不够||什么，你还想要更多吗？!||在Bloodbath血浴回合中存活
+|-
+|No Smoking! 禁止吸烟！||这对你的肺部不好！||在Fog迷雾回合中存活
+|-
+|Broken Boundaries 破碎的边界||每颗恒星总有一天都会燃烧殆尽。||在Cracked癫狂回合中存活
+|-
+|The Other Side 另一侧||在另一边我们都交到了朋友。||在Alternate异体回合中存活
+|-
+|Escaped! 逃出！||你躲过了那个疯狂的癫佬！哦，等等，你认识他们吗？||作为平民在Sabotage内鬼回合中存活
+|-
+|Walk It Off 一走了之||你不仅可以为你的命而逃跑，现在还可以带着你的命一起跑！||携带速度线圈打通Bloodbath血浴回合
+|-
+|Slaughter 屠宰||你看看你搞的烂摊子！到处都是血！||携带球棒打通Bloodbath血浴回合
+|-
+|Sacrificial 牺牲||嘿，你一直缺一只耳朵吗？||携带传送器打通Bloodbath血浴回合
+|-
+|Oooo Shiny! 哦，闪闪发光！||你找到了一根钢管，祝贺你，让我想一下，你要钢管干什么？||携带球棒打通Alternate异体回合
+|-
+|Business Partner 合伙人||你有没有想过那些旅行箱里装的是什么？ 你的机会来了！||携带传送器打通Alternate异体回合
+|-
+|Pale Associate 苍白收尾||恭喜你，你被录用了！希望其他人也能收到通知。||携带左轮手枪打通Alternate异体回合
+|-
+|Judgement 审判||你将会觉得剑锋出鞘的时候剑会更有效。||携带球棒打通Midnight午夜回合
+|-
+|Am I tripping? 我被迷住了吗？||那个球棒看起来有点色彩斑斓。只有我这样觉得吗？||携带球棒打通Cracked癫狂回合
+|-
+|Crack of Dawn 黎明的曙光||午夜时分，恐怖出现了！他们是午夜恐怖！||在Midnight午夜回合中存活
+|-
+|The False Light 虚幻之光||这只是她力量的一份记忆，但已经够用了。||携带辉光线圈打通Mystic Moon谜月
+|-
+|Watchful Eyes 注视的眼睛||暮色已过，现在我们迎来黎明。||携带混沌线圈打通Twilight薄暝
+|-
+|The War is Over 战争结束了||他无处可去，而你提供了安全的一角。||携带医疗包在Blood Moon血月中存活
+|-
+|Fateful Encounter 命运的邂逅||从古至今的一切，都是为了这一刻。||找到麦克斯韦
+|-
+|Collateral Damage 附带损害||你发誓这只是个意外，而且你不知道剑去了哪里！||偷走封印剑
+|-
+|Know Your Enemy 了解你的敌人||我们俩的空间不够。||遭遇Alternates伪人
+|-
+|Forgive Us 原谅我们||代价太大了，悲伤战胜了她坚持的意志。||面对Bliss极乐时存活
+|-
+|Did You Have Fun? 玩得开心吗？||疯人院中没有你的位置了。||面对Roblander时存活
+|-
+|Fahrenheit 10K 华氏一万度||尽管她的燃烧烧穿了你，但你还是设法冲破火焰。||面对Fusion Pilot聚核试验机时存活
+|-
+|It´s Dark 好黑||它又出现了，在你身后。 你能看见它，对吗？||面对Something某个东西时存活
+|-
+|Fading Memory 褪色的记忆||等等，我们刚打败了什么？ 我不记得了。||在Mystic Moon谜月中存活
+|-
+|Darkest Day 至暗时刻||森林里没有这样的怪物。||在Twilight薄暝中存活
+|-
+|War 战争||他的战斗永无止境，他还会继续战斗下去。||在Blood Moon血月中存活
+|-
+|The Acolyte 圣徒||没有回头，我们只能向前迈步。||在Solstice至日中存活
+|-
+|Genocide 屠杀||你经历了一段坏时光，但还是成功了。||面对Sans坦白说时存活
+|-
+|It Happened. 这还是发生了||这把之后你可能需要出去走走。||携带封印剑时遭遇Punished惩戒回合中的Arkus阿库斯
+|-
+|Forget Me Not 可别忘了我||不用了，谢谢，我想我还是忘了这件事吧。||存活Mopemope美穗的花
+|-
+|The Purplest Guy 最紫的家伙||本月最佳员工... 紫色的家伙!||存活癫狂回合中的PurpleGuy紫色的家伙
+|-
+|Heresy 异端||你们抵制诱惑，与罪恶的教诲展开激烈的斗争。||与白夜的使徒们战斗
+|-
+|Time Out 时间到了||去角落里蹲着去，你这个淘气的家伙||存活惩戒回合
+|-
+|Ancient Power 遗迹之力||封印剑驱逐了骑士的诅咒，并变得更加强大。/封印剑吸收了骑士的诅咒, 但代价是什么呢?||升级封印剑
+|-
+|All Skill 六边形战士||哪怕眼睁睁看着所有人死去，你也不曾屈服于恐惧。 ||不携带任何物品存活Solstice至日
+|-
+|Survivor 幸存者||你活过了第一个回合! 恭喜!||存活一个回合
+|-
+|From The Ashes 自灰烬之语||我们将改革。我们将向世界展示我们的强大之处。||存活Glaggle Gang格拉格尔帮
+|-
+|Muted 静音||“AMBUSH”因为麦太炸了而被管理员静音。||存活Ambush
+|-
+|The Greatest Performance To Ever Be Held 史上最伟大的演出||演出结束了, 至少现在是。 群众在等待加演.||存活Teuthida
+|-
+|Conflict & Resolve 冲突与解法||即使他们放下了让他们活着的事物，他们仍然无法放下仇恨||存活Convict Squad罪人小队
+|-
+|Persistence 坚持住||你的生命就掌握在你手里。如果你珍重它的话，还请妥善保管。||第一次保存
+|-
+|You died 你死掉了!||没关系，在你掌握窍门之前，你至少还会死三次！||第一次死亡
+|-
+|Powered By Fear 惧使||现在你的生还几率提高了50%!||首次购买物品
+|-
+|Rent´s Due 租约到期||分文不剩? 不用担心, 你的生命可值不少钱呢!||被Closet壁橱杀死
+|-
+|Big Bank 大银行||你今天都赚这么多了, 是不是该歇息一下!||累积1000Eph
+|-
+|INTERLOPE 闯入||那个只是梦吗? 或者说还有别的什么. 算了还是不想这个了.||死于闯入者
+|-
+|Oh No 噢不||你看看你都做了些什么, 搞得她现在很生气!||激怒托伦之影
+|-
+|Dango Dango Dango 当啷-当啷-当啷||我不认为它还能变得更大。 但最好还是不要靠继续投喂它来找出是否如此。||遇到一大坨微笑的尸山
+|-
+|STOP 停下||你过马路之前都不看看是不是绿灯吗！||死于Guidance指引者的红灯
+|-
+|Wrong Place, Wrong Time 错误的时间，错误的地点||好吧，这件事发生两次的概率几乎为零。||死于MR MEGA被动雷击
+|-
+|To Take The Dead 夺取死亡||将破碎的碎片重新组合在一起，每回合只有一名玩家AFK||存活该回合并逃脱9号实验体的追击
+|-
+|Ph.D 全科医生||虽然你是个丈育，但你经验丰富啊!||在同一个房间中获得所有Buff和Debuff
+|-
+|Spending Spree 挥霍无度||我猜他得补货了。|| 购买脑啡肽商店中的所有商品
+|-
+|Deal With The Devil 与恶魔做交易||你买光了你残剩的灵魂!我希望你不会再用它做其他任何事!||签署 Beelzebub 的合同
+|-
+|Freedom 自由了||尽情享受当下吧，你也知道你不能永远呆在这里。||站在The Wall高墙的草地上 170 秒而不离开
+|-
+|Be Nice 做个好人||你永远不知道是谁在走廊尽头等待你。||存活Angry Munci愤怒蒙西
+|-
+|Deleted 删除||地球还是会照样转下去，只不过你已经不在这里了。||存活 SM64.Z64
+|-
+|Standard Procedure 标准化流程||你克制住了自己那入侵性的想法并迎来了新的一天!||存活Don't Touch Me别碰我
+|-
+|Rule Breaker 第一个吃螃蟹的人||你的入侵性思维占据了你的大脑，一并带走了所有人||按下Don't Touch Me别碰我
+|-
+|Stand Proud 不倒的骄傲||我活下来了! 伙计们! ...欸人呢? 大家都去哪儿了?||成为该回合中唯一存活的玩家
+|-
+|Perfection 无暇||经历了这么多回合，你还是毫发无损！||连续存活10个回合并不受任何伤
+|-
+|Crystal Clicker 水晶采集者||和那些无脑休闲小游戏一样！||捡起一个脑啡肽晶体
+|-
+|Sightseer 观光客||你已经去过所有地方了||在同一个房间内去过至少40个地点
+|-
+|What’s For Dinner? 晚餐吃什么？||暴力从来都不能解决问题。||在不眩晕Starved饥荒存活Starved饥荒
+|-
+|Vengeance 复仇||那唯一残存的光芒来自于夺回被夺走之物的渴望。||存活Judas犹大
+|-
+|No Cost Too Great 多大的代价都无所谓||你背叛了所有人, 和怪物成了一伙。||在内鬼回合中杀死所有人
+|-
+|The First Festival 第一个节日||我们希望你能永得安乐!||存活Walpurgisnacht魔女之夜
+|-
+|The Red Mist Returns 红雾归来||她的敌人身上沾满了红的的污渍。||存活The Red Mist殷红迷雾
+|-
+|Uber Cheap Killer 优步拼好杀手||X-Tier确实挺与众不同。||存活Sakuya The Ripper开膛手咲夜
+|-
+|Dilemma 困境||一个看起来很可疑的生物在你面前，你打算怎么办。||遇到Neko Arc猫姬
+|-
+|Late For Work 上班迟到||人们有地方要去！而你只是在浪费他们的时间！||激怒Red Bus红巴士
+|-
+|Primordial Signal 原始的讯号||它讲述了关于我们所在的世界的故事，但没有一个人愿意接受它的故事。||存活S.O.S
+|-
+|Live and Learn 活到老，学到死||你证明了直面恐惧总会有希望的。||存活一个能获得200Eph以上的午夜回合
+|-
+|Endless Appetite 无底的食欲||没有东西能满足她永无止境的饥饿。||存活The Meatball Man肉球人
+|-
+|Researcher 研究员||你已见识过这个世界所能呈现的一切。||常规实体图鉴全收集
+|-
+|Void Walker 虚空行者||你已知晓了现实所能提供的一切。||异体实体图鉴全收集
+|-
+|Stargazer 观星者||你已花了太多时间凝视深空。||月亮图鉴全收集
+|-
+|Ran´s Guidance Ran的指导||现在你已经学会了如何逃脱了！||存活 “Christian Brutal Sniper残暴基督教徒狙击手”、 “Huggy亨吉”和 “Akumii-Kari阿库米-狩”
+|-
+|Ran´s Favourite Ran的最爱||和他们打个招呼吧！||存活The Boys男孩们（南瓜兄弟）
+|-
+|Like She Do! 像她那样！||她总是能很轻松地做到这一点！||成为Bloodbath血浴的唯一幸存者
+|-
+|It´s the Slenderman! 是那个瘦长鬼影！||他还在炉子上烤热狗！||遇到Hungry Home Invader饥饿的入侵者
+|-
+|Victory^3 胜利方块||那就像是三倍胜利！我想是吧？我不懂数学。|| 在Challenge Cube挑战方块存活一回合
+|-
+|Page Thief 书页小偷||我寻思这些到底是谁画的？||存活8Pages8页
+|-
+|Mindless Machine 无脑机器||但可惜的是，他只不过是一台普通的机器。||存活No name无名氏 
+|-
+|Rite of Passage 通行仪式||一旦做出了选择，她就不再回头。||使用传送器存活Solstice至日
+|-
+|An Unknown Challenger 未知的挑战||我是否错过了什么更新？||遇到一个实体的变体
+|-
+|Hide & Seek Champion 躲猫猫冠军||你最好希望下次没人能抢占你的藏身之处！||在Bloodbath血浴或者Midnight午夜存活Rush或Ambush
+|-
+|The World 砸瓦鲁多！||他们入侵了她时间停止的世界，而你仍然设法幸存下来。||在Bloodbath血浴或者Midnight午夜存活Sakuya Izayoi十六夜咲夜
+|-
+|Empathy 同理心||所有的东西都可以用来强调，除了那件东西。||存活Apathy冷漠症
+|-
+|Showstar! 大明星！||看起来这一切都是关于他们的秀场！||观看监视器一回合
+|-
+|Seeing Double 两个一样的？||那个女巫对我的眼睛做了什么吗？||同一回合内看到两个相同的实体
+|-
+|Paradise Found 找到天堂||也许我们对天堂的认识对我们所有人来说都是主观的。我们中的一些人不想被鸟吃掉。||存活Paradise Bird天堂鸟
+|-
+|Lost Soul 迷失的灵魂||没有家，没有使命，她真的什么都没有了。||存活Kimera奇美拉
+|-
+|Heart of Horror 恐惧之心||一切都必定有出处，但到最后却无处可去。||在房间内遇到Beyond并进行一个回合
+|-
+|Like Banbans to Heaven 就像班班们到天堂了||我做这个东西真的是脑子有问题。||存活Garten Goers斑斑幼儿园
+|-
+|THIS IS NOT FUN 这不好笑
+|随便你怎么样，我要去找别人玩了。再见！
+|激怒Roblander
+|-
+|The Observer 观望者
+|我凝视深渊，深渊也凝视着我。别再盯着我看了！
+|存活The Observation观望者
+|-
+|Radiant Happiness 光芒四射的幸福感
+|我们唯一能期待的幸福就是最耀眼的幸福。
+|存活Joy
+|-
+|Scorched 焦糊
+|你的骨灰撒遍大地，最终又回归尘世。
+|被烧死
+|-
+|Yoink! 嗚汪！
+|看起来那个怪物拿走了你的物品，希望你不需要它。
+|让你的物品被盗
+|-
+|The Judge Has Decided. 法官已作出审判
+|你有罪，但你应该知道的对吧？
+|死于审判
+|-
+|#CONNECTION# LOST#连接#丢失#
+|#把目光移开。#把目光移开。#把目光移开。#把目光移开。#
+|盯着Akumii-Kari阿库米-狩.
+|-
+|Perfected Split 完美分裂
+|不，分成两半并不会使您的Eph翻倍。
+|被Red Mist殷红迷雾砍成两半
+|-
+|Shocker 恐惧震慑
+|如果你玩的是电击类型的话……
+|受到瘫痪Debuff
+|-
+|Homefield Advantage 主场优势
+|不公平，他们已经熟悉地图了！
+|遇到一个在其专属地图的实体
+|-
+|Unchained 解缚
+|这很有趣，所以请回到你原来被绑的地方。
+|存活一轮Unbound不羁回合
+|-
+|Close Encounter 近距离接触
+|大自然是美丽的。你知道，特别是当它没有杀死你的时候。
+|遇到Have维度的猫
+|-
+|Lost In Space 迷失于真空
+|当最后一丝空气离开肺部时，声音也从你的耳朵里消失了。
+|激活Colony太空殖民舱上的激光并逃跑。
+|-
+|Shutdown! 关机！
+|你们就继续玩吧，反正我退出了！
+|死于Desktop桌面的关机按钮
+|-
+|TBH 坦白说
+|坦白说，我很意外你拿到了这个。
+|在TBH坦白说遇到TBH坦白说
+|-
+|Loremaster 博学者
+|你不仅是个书呆子，还是个按按钮的人！
+|在一个回合内按下Museum博物馆中的所有按钮
+|-
+|Bus Pass 巴士通行票
+|它的有效期仅为一个月，因此请确保续订！
+|存活Transportation Trio & The Drifter交通三重奏与漂泊者
+|-
+|The Only Friend I Need 我唯一需要的朋友
+|当你拥有最畅销的玩具时，你就不需要朋友了。
+|使用任意玩偶存活Alternate异体回合
+|-
+|Ruined 耻辱
+|随着火焰再次熄灭，他的军团的最后一支部队也崩溃了。
+|存活Monarch君主
+|-
+|An Alternate Exit 另一个出口
+|谁知道肉丸只是Robland的一部分？
+|通过打破门存活肉球人
+|-
+|HEY STOP THAT! 嘿，别这样！
+|那些很贵！如果我把你的屏幕打碎了你会怎么样？
+|在一个回合内打碎所有Robland的屏幕
+|-
+|Responsible Pet Owner 负责任的宠物主人
+|在大家的喂养下，Swim Shady将会变得长寿。
+|喂Swim Shady
+|-
+|Depressing Prize 抑郁奖品
+|您从抓娃娃机中赢得了令人惊叹的奖品！
+|从Fishbowl鱼缸的抓娃娃机中抓到Nora玩偶
+|-
+|Chaotic Prize 混沌奖品
+|您从抓娃娃机中赢得了令人惊叹的奖品！
+|从Fishbowl鱼缸的抓娃娃机中抓到Roblander玩偶
+|-
+|Sefless Prize 无私奖品
+|您从抓娃娃机中赢得了令人惊叹的奖品！
+|从Fishbowl鱼缸的抓娃娃机中抓到观望者玩偶
+|-
+|Astral Burial 星际葬礼
+|殊不知，这个坟墓下面其实什么都没有，连地面都没有。
+|任何人将Darkgrey玩偶带到Astral星际的 Darkgrey's Hole's Grave。
+|-
+|Henry114's Secret Henry114 的秘密
+|你听了这个疯子的胡言乱语。
+|按照 Henry114 的指示操作
+|-
+|Om Nom Nom 吧唧吧唧吧唧
+|你是一个汉堡，恭喜！
+|吃个汉堡
+|-
+|143
+|无论你在哪里，我都会一直照顾着你的。
+|死于Blackspace黑色空间的Hellmari地狱玛莉
+|-
+|Whale Watcher 观鲸者
+|真是太棒了。不是每天都能看到这样的场景。
+|在Sea Base航海基地的窗边等待鲸鱼
+|-
+|Massive W 超大的W
+|当你得到这个超大号的W的时候，有没有想过自己根本拿不住
+|被Wafflehouse华夫饼屋的广告牌砸死
+|-
+|This Item Sucks! 这东西逊爆了
+|也许下次你会买点更有用的东西。
+|丢弃一个物品
+|-
+|Peek-A-Boo! 躲猫猫！
+|嘿嘿，我看到你了！但你身后是什么？
+|从Hotel酒店的裂缝里往外看
+|-
+|The♂Deep♂Dark 深邃的黑暗
+|找到所有的书页并且不发出任何声音，这一定很困难！
+|存活8Pages8页的Warden循声守卫
+|-
+|NICE TO MEET YOU 很高兴见到你
+|这真有趣。有时间我们再玩吧。
+|存活8Pages8页的Angry Munci愤怒蒙西
+|-
+|ROAD ROLLAR DA! 是压路机哒！
+|这不是 Jojo 的参照物；但我把它改成了一个类似的。
+|在回合开始时被Waterwraith胶雨小子压死
+|-
+|Red Defender 腥红捍卫者
+|当你保护自己时，那些阵亡者的鲜血玷污了你的盾牌。
+|使用Silver Kat Charm银猫坠饰存活Bloodbath血浴
+|-
+|Super Ghost Burgers 超级幽灵汉堡
+|那些幽灵，他们想控制我口阿！救命啊，呃啊啊啊啊！！
+|使用Burger汉堡包存活Ghost幽魂回合
+|-
+|Deadman's Iron 亡者之铁
+|朋友什么的五个就够了。不多也不少。
+|使用Antique Revolver古董左轮手枪存活Bloodbath血浴
+|-
+|Better With Friends! 最好是团建！
+|人多力量大！
+|进行一个满员的回合
+|-
+|All Her Fault 都是她的错！
+|你对她也做不了什么了。你已经伤透了了她的心。
+|存活Restless Creator不眠的作者
+|-
+|Followed 其次
+|声音越来越大，越来越震撼，但你保持冷静并逃脱了。
+|存活Shadow Freddy暗影弗莱迪
+|-
+|Stayin Alive 还剩一口气呢
+|你可能已经失血过多并且遭受了巨大的痛苦，但你活了下来！
+|在生命值低于3的情况下存活一轮
+|-
+|Who Needs Pain? 何人愿苦
+|疼痛只是身体的一种物理反应，所以，我完全可以忽略掉它！
+|使用再生线圈存活Alternate异体回合
+|-
+|It Grows Within 内部蔓延
+|你真的该去看看医生了。
+|在拥有Arrival抵达的感染debuff后并在第三阶段时存活下来
+|-
+|One Way Ticker 单程票
+|你最好确定你不会再回来。
+|购买来自Express Train To Hell.黄泉列车的车票
+|-
+|Anomalous Discovery 异常发现
+|武器对你绝对忠诚，而你一定不会背叛它的信任。
+|存活每个实体至少一次(Alternates异体&Moons月亮不包含在内)
+|-
+|Remember Me 还请你不要忘记我
+|当电视关掉的时候，请记住我们在一起的时光。
+|存活Those Olden Days那些旧日时光
+|-
+|A Shiny Quarter 耀眼的二十五美分
+|你太厉害了，这是你的奖品！一枚闪亮的 25 美分硬币！
+|存活Baldi巴迪
+|-
+|The Force 原力
+|你刚刚打中什么东西了，对吧！
+|使用金属球棒存活Ghost幽魂回合
+|-
+|Something Strange 好像有什么怪怪的
+|我们最好打电话给某人，但找谁好呢？
+|存活一个Ghost幽魂回合
+|-
+|Cheese'd to Meet You 见到你很芝士
+|你做到了！你找到了所有芝士！
+|在Cheese Maze芝士迷宫中找到所有6块芝士
+|-
+|:3
+|我会一直在这儿注视着。
+|存活Parhelion幻日
+|-
+|Don't Ask Me Why 别问我为何
+|我如此想融入这都市的夜晚。
+|存活얀샋ㄷ요무.
+|-
+|AAAAAAAAAAAAAAA
+|AAAAAAAAAAAAAAAAAAAA
+|遇到Golden Freddy 黄金弗莱迪
+|-
+|Oh, So Sleepy 噢，好困nu
+|我想他不会介意我用这个当床。
+|在Bed Mecha机甲战床倒塌后，与其互动
+|-
+|Destroyer of Worlds 世界的毁灭者
+|从现在起，我就是死亡的代名词。
+|使用螺旋线圈存活Midnight午夜
+|-
+|Linked 羁绊
+|你不再孤身一人!
+|使用传送器存活任意Unbond不羁
+|-
+|Thrilling Gameplay 刺激的游戏
+|他们为你制作了一个微小版本的实体！
+|使用Have的神秘酿造存活任意Unbound不羁
+|-
+|Pressured 强气压
+|你很幸运，Urbanshade无法在这里找到你。
+|存活Searchlights探照灯
+|-
+|Happy Winterfest! 冬日快乐!||我在雪堆里放了一个给你礼物！||找到雪速线圈
+|-
+|Their Garden 他们的花园||如果我那天跟你走了，我们或许会过上幸福的生活?||存活Cold Night寒夜
+|-
+|Which Way? 走哪条？(不可获取)
+|我想我迷路了，行吧，我还是去谷歌一下好了。
+|存活The Navigator
+|-
+|Insurrection 叛乱(不可获取)
+|虽然我们无法抹去那天带来的损害，但通往美好未来的大门已经打开。
+|存活Glaggle Gang格拉尔帮
+|-
+|The Fog Is Coming 大雾将至(不可获取)
+|这大雾是用血构成的吗?
+|存活Red Mist Squidward红雾章鱼哥
+|-
+|Fallen Kingdom 失落王国(不可获取)
+|王未能复仇，再次归于黑暗。
+|存活Monarch君主
+|-
+|Test Subject测试
+|希望事情没那么糟!
+|和Beyond一起进行测试.
+|}
+</center>
+</div>
+
+<span id="Gallery"></span>
+==画廊==
+
+<gallery widths="260" heights="150">
+File:ToN Courtroom.png|被称为审判庭的ToN大厅区域
+File:ToN Merchant Shop.png|红商人的商店
+File:ToN Index&Settings.png|实体图鉴和设置面板
+File:ToN Achievements&Stats.png|成就板和玩家统计
+File:ToN SpectatorScreen.webp|监视器屏幕，位于审判庭后部
+File:ToN RedCrystal.webp|红色 “脑啡肽晶体”。价值约1-2 Eph
+File:ToN BlueCrystal.webp|蓝色 “脑啡肽晶体”。价值约3-5Eph
+File:ToN YellowCrystal.webp|黄色 “脑啡肽晶体”。价值约17-19Eph
+File:ToN HeadsUpDisplay.webp|HUD，显示本回合所需的各种信息
+File:Terrors Tracker.webp|处于空白状态的ToN进程追踪器，访问 [https://tontrack.me/tontrack.me ToN进程追踪]使用
+</gallery>
+
+<span id="Trivia"></span>
+==小知识==
+
+*Terrors of Nowhere的最初灵感来源于''CaptainSpinxs''制作的Roblox游戏[https://www.roblox.com/games/2809844442/Midnight-Horrors Midnight Horrors]。
+*游戏中引用了许多不同媒体的内容和典故，其中许多在游戏中都有解释，但也有一些没有解释：<!-- TODO: Reword this to sound better! -->
+**"脑啡肽"指的是 Project Moon 的游戏 Lobotomy Corporation 和 Limbus Company 中的能源。
+**线圈物品参考了 Roblox 中名称相似的物品。<!-- could be worded better -->
+
+<span id="Community_resources"></span>
+==相关社区资源==
+
+*在 ''YouTube''上的[https://www.youtube.com/watch?v=-1xGejjPiXM ToN Release Trailer ToN发布预告片] 
+*在 ''YouTube''上的[https://youtu.be/p3c_fxSdn7M ToN 1.15 Update Trailer ToN 1.15更新预告片] 
+*[https://vrc.group/TON.4826 Official ToN VRC Group ToN官方VRC群组]
+*[https://terror.moe/ terror.moe] - 官方维基
+*[https://github.com/ChrisFeline/ToNSaveManager ToN Save ManagerToN保存码管理器] - 帮助跟踪和保存代码的简单工具
+*[https://tontrack.me/ tontrack.me] - 进程跟踪器
+*[https://youtube.com/playlist?list=PL691R7EWbmCNpoPACOfnTjSwA2LFIJqkY&si=i_zxYnHDP9ltqtGR ToN Soundtrack Playlist ToN原声播放列表]
+
+[[Category:Japanese{{#translation:}}]]
