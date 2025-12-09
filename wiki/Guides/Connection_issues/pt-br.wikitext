@@ -164,11 +164,9 @@ Para ativar no Windows,
 
 Para desativar a priorização IPv6,
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Open the command prompt again, by pressing the "Windows Key", and typing "cmd", and "Run as Administrator" again.
-* Type "netsh interface ipv6 reset" and press the Enter key.
-* This should revert the IPv4 prioritization after restarting your PC.
-</div>
+* Abra o prompt de comando novamente, pressionando a tecla "Windows", digitando "cmd" e selecionando "Executar como administrador" mais uma vez.
+* Digite "netsh interface ipv6 reset" e pressione a tecla Enter.
+* Isso deverá reverter a priorização do IPv4 após reiniciar o seu computador.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Option 4 - Disabling IPv6 and forcing IPv4 use (DO NOT USE)===
