@@ -66,9 +66,7 @@ Ignora essas transformações ao capturar dados para o impostor. Isso irá ocult
 
 Isso é útil para coisas como asas e caudas, pois instrui o Impostorizador a criar um sprite separado para o osso em que este script está.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As an example of what not to do - you ''could'' put one of these on each finger to turn them into independent sprites. However, since all sprites share a single texture sheet, filling it with things like fingers will cause quality to decrease elsewhere - it's a balancing act.
-</div>
+Como exemplo do que não fazer, você ''poderia'' colocar um desses em cada dedo para transformá-los em sprites independentes. No entanto, como todos os sprites compartilham uma única folha de textura, preenchê-la com coisas como dedos fará com que a qualidade diminua em outros lugares - é uma questão de equilíbrio.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''This is independent of the bone that VRCImpostorSettings is placed on.''
