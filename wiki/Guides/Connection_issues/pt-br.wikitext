@@ -162,9 +162,7 @@ Para ativar no Windows,
 * Digite "netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 100 4" e pressione a tecla Enter.
 * Isso deve priorizar o IPv4 após reiniciar o seu PC.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To disable IPv6 prioritization,
-</div>
+Para desativar a priorização IPv6,
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Open the command prompt again, by pressing the "Windows Key", and typing "cmd", and "Run as Administrator" again.
