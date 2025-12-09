@@ -1,0 +1,245 @@
+<languages/>
+{{Noticebox/Official}}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat comes with a whole host of social tools for users. Such as friends, invites, notes, and more!
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== User Profiles ==
+</div>
+[[File:UserProfile.webp|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat's User Profile.</span>]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Introduced in the [https://docs.vrchat.com/docs/vrchat-202123 Identity Update], user profiles are a personalized space where information is displayed about a user. Information on a user's profile includes [[Special:MyLanguage/Social#Statuses|status]], [[Special:MyLanguage/Trust_Rank|trust rank]], [[Special:MyLanguage/Social#Pronouns|pronouns]], bio, current [[Special:MyLanguage/Instances|instance]] (if applicable), languages they speak, social links, [[Special:MyLanguage/Badges|badges]] they own, and the [[Special:MyLanguage/Groups|groups]] they're in.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Under a user's profile, there are several [[Special:MyLanguage/Social#Actions|actions]] you can take - such as sending a friend request or an invite to an instance.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Statuses ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Statuses can be set in the [[Special:MyLanguage/Quick Menu|Quick Menu]], [[Special:MyLanguage/Main Menu|Main Menu]], or on the {{VRC link|https://vrchat.com/home|VRChat Website}} and are used for the following: to control how easily a user's friends can join their instance, to vary whether a user's friends can see the instance they are currently in, to silence notifications, and to communicate an activity.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Statuses consist of a color and a customizable short sentence (up to 32 characters). There are four different statuses in VRChat:
+</div>
+
+{| class="wikitable"
+! scope="col" style="width:13em" |<span lang="en" dir="ltr" class="mw-content-ltr">Status</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
+|-
+|<div style="background-color:rgb(66, 202, 255);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Blue"></div><span lang="en" dir="ltr" class="mw-content-ltr">Join Me (Blue)</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Your friends can see the instance you are in and may join freely with identical rules to [[Special:MyLanguage/Social#Statuses|Online]] status.
+However, if the [[Special:MyLanguage/Instances|instance]] is private and unviewable, all invite requests from friends are automatically accepted as long as you have permission to accept them.
+</div>
+|-
+|<div style="background-color:rgb(81, 229, 126);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Green"></div><span lang="en" dir="ltr" class="mw-content-ltr">Online (Green)</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Your friends can see the instance you are in and can join your instance without an invitation.
+However, your friends may not see or join the instance without an invite if the instance is deemed "private".
+Your instance is viewable and joinable by friends without requesting an invite in the following cases:
+*The instance is [[Special:MyLanguage/Worlds#Instance Types|Friends+]], [[Special:MyLanguage/Worlds#Instance Types|Group+]], [[Special:MyLanguage/Worlds#Instance Types|Public]], or [[Special:MyLanguage/Worlds#Instance Types|Group Public]].
+*The instance is [[Special:MyLanguage/Worlds#Instance Types|Friends]] and either you or a mutual friend are the instance creator.
+*The instance is [[Special:MyLanguage/Worlds#Instance Types|Group]] and your friends are a member of the group with permission to join the instance based on their group roles.
+*The instance is [[Special:MyLanguage/Worlds#Instance Types|Invite]] or [[Special:MyLanguage/Worlds#Instance Types|Invite+]] and your friends are returning to the instance they created.
+</div>
+|-
+|<div style="background-color:rgb(232, 129, 52);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Orange"></div><span lang="en" dir="ltr" class="mw-content-ltr">Ask Me (Orange)</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Your friends cannot see the instance you are in.
+They must request an invite from you to be able to join, regardless of the instance's privacy.
+</div>
+|-
+|<div style="background-color:rgb(91, 11, 11);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Red"></div><span lang="en" dir="ltr" class="mw-content-ltr">Do Not Disturb (Red)</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Your friends cannot see the instance you are in. They may request to join, but you will not receive any notifications. In fact, you won't be able to send or request any invites to your friends within the game if they are in that status.
+* Incoming friend requests are delivered quietly to the "Friend Requests" Inbox.
+* A response for a request (ex. invite request) you send out, will be displayed.
+* Group notifications are disabled.
+</div>
+|}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Pronouns ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[wikipedia:Pronoun|Pronouns]] can be displayed on one's bio to indicate to others how to refer to them. When set, pronouns will be displayed on your bio, and also displayed under your [[Special:MyLanguage/Nameplates|nameplate]].
+<gallery>
+Pronouns1.webp|Displayed in the bio on the website
+Pronouns3.webp|Displayed in the bio in game
+Pronouns2.webp|Displayed in the bio on mobile client
+</gallery>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Bio===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The bio (abbreviation for biography) is a paragraph of text written by the user that is generally used to describe or introduce themselves but can be used for any purpose. The bio can be up to 500 characters long.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Currently, emoji and some special symbols(e.g. fractions) are not supported. Some known special characters that are allowed are:
+</div>
+ ๑ -༊ ༄․ೃ࿔ ೋ 彡ღ ͟͟͞ ೄྀ ͙༉ ¸୨୧、˒˒ ֒ ˗ˏˋ ˎˊ˗ ̤̮ ̤̥ ＋+ ˙· ˚ ∗ン ィ ％ ！ ﹏ ？ ? ζ ২ १ ୫ ૪ ໒ ৎ ຊ ຯ ೨ ໑ ७ ५ ୭ ˚ ·˖ ˸ જ Թ Ծ ౿ ੭ ୬ ෧ ୪ ১ ﹅﹆ ჲ ᴥ ફ ળ ਨ ৬ ৫ ২ ণ ଽ ︶ ଲ ମ 〄֍ 〧 ౾ ౽ 〨 ㆐ ︳ ㄔ ഒ ＊ ٠ っ｡̀ ́૭ ֊ ˙ ˶﹏ აପ ๑ଓ ଘ ∗ ੈ ᵕ ˘͈ ․. ༘ ̀ ́ ৻ づᴗʚïɞ૮ ˙˙ ඞ ༒ ໒ྀི ๑ ´ ˘ ` ྀི ʕω ʔ و ヮಡ ง¬༼︿༽ 亞ト丁してﾌ￣＿ఌ༅ ᆺ 〜 ༺ ༻ Ө Տ Ӈ ₳ เ ђ ς<!--Add other supported characters?-->
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Actions ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Under a user's profile, there are several actions that you can take, these will vary depending on whether you have the user added as a friend or not.
+</div>
+
+[[File:UserProfile_UserActions.webp|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">Actions available for a non-friended user.</span>]]
+[[File:UserProfile_FriendActions.webp|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">Actions available for a friended user.</span>]]
+
+
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Action</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Join<ref group="actions" name="friends-only">These actions can only be performed on friends.</ref></span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Joins the user's instance.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Request Invite<ref group="actions" name="friends-only"></ref></span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Sends the user a notification informing them that you would like to join their instance. The notification includes a customizable message and with [[Special:MyLanguage/VRC+|VRC+]] a photo can also be added to the notification.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Send Invite<ref group="actions" name="friends-only"></ref></span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Sends the user an invitation to join your instance. The invite includes a customizable message and with [[Special:MyLanguage/VRC+|VRC+]] a photo can also be added to the invitation.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Gift VRC+</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Opens a menu that allows you to buy [[Special:MyLanguage/VRC+|VRC+]] for the user. ''See [[Special:MyLanguage/VRC+#Gifting|Gifting]] for more detailed information.''</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Friend Request</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Sends the user a friend request they can accept or decline.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Unfriend<ref group="actions" name="friends-only"></ref></span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Removes the user as a friend.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Favorite Friend<ref group="actions" name="friends-only"></ref></span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allows you to add the user to a list of favorite friends, like with avatars and worlds.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Unfavorite Friend<ref group="actions" name="friends-only"></ref></span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Removes the user from your Favorite Friends list.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Moderate User</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Opens a menu that allows you to moderate the user by, for example, blocking them. ''See [[Special:MyLanguage/Trust and Safety#User Moderation tools|User Moderation tools]] for more detailed information.''</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Unblock</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Unblocks a blocked user ''(Only shown for blocked users)''.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Add Note</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allows you to attach a snippet of information to the user that only you can see, this can be used for anything. An example of the kind of information you could put in is how you met a user, any names they go by, or their username on other platforms.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Invite to Group</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Opens a menu that allows you to invite the user to a group, as long as you have the permissions required to do so. ''See [[Special:MyLanguage/Groups|Groups]] for more detailed information.''</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">View On Website</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Opens the user's profile on the {{VRC link|https://vrchat.com/home|VRChat Website}}.</span>
+|}
+<references group="actions"/>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Uploaded & Favorited Worlds===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Below [[Special:MyLanguage/Social#Actions|actions]] can be found a list of worlds uploaded by the user as well as any publicly viewable lists of favorite worlds. These can be sorted by date added, last updated, name, and recently used.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Social Menu==
+</div>
+
+[[File:Social Menu.webp|thumb|alt=<span lang="en" dir="ltr" class="mw-content-ltr">An image of the social tab of the main menu in VRChat.</span>|<span lang="en" dir="ltr" class="mw-content-ltr">The social tab of the main menu in VRChat.</span>]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Friend Locations===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Friend Locations''' includes a list of friends who are available on "Online" (green) status, or "Join Me" (blue) statuses, and are present in an accessible world such as Public, Friends+, Friends, Group Public, Group+ instances. Below these available users will also display a list of all Friends currently online in Private Instances.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Group Activity===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Group Activity''' includes a list of available [[Special:MyLanguage/Groups|Group]] instances, for Groups that you have joined. Creating a Group, Group+, or Group Public instance, if you have the ability, will result in it appearing on the Group Activity tab for users in that group.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Online Friends===
+</div>
+
+ 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Online Friends''' shows the entire list of your friends who are currently online, including Friends on "Ask Me" (orange) or "Do Not Disturb" (red) statuses. It also shows your friends active on the website or friends that are currently offline.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===In Instance===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''In Instance''' displays each user who is currently present in the instance you are in; users who have you blocked, while still inside of the instance with you may not appear on this tab, unless you are a Host or a [[Special:MyLanguage/Groups|Group]] Instance Moderator. The "Here" tab on the Quick Menu functions the same as this row.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Favorite Friends===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Favorite Friends''' lists are three rows of friends who you have chosen to 'Favorite'. It can be placed in one of the three rows. Each list can be renamed to help with organization.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Blocked===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Blocked''' users are other users who you decided to block. They can be clicked upon in this tab, and unblocked if desired.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Friends==
+</div>
+
+{{Stub|Add quirks that have to do with friends and such.}}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Friends on VRChat are other users that you trust, it acts much like how friending users on other platforms work, you can see whenever that user is online or on the website, send and receive invites from them, and add notes to them. Friends inside of your instance will have their name appear in yellow, and will also have their rank appear in yellow with a (Friend) indicator.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Mutuals==
+{{Stub|Expand on how to see, and disabling mutuals}}
+<!-- Do we want a feature infobox? -->
+{{Infobox/Feature
+|name=Mutuals
+|image=
+|platforms= PC, Android, iOS
+|branch_live_date = December 3, 2025
+|branch_live_version = 2025.4.2
+|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202542 2025.4.2]
+|branch_openbeta_date = November 10, 2025
+|branch_openbeta_version = 2025.4.2 Build 1761
+|branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202542-openbeta 2025.4.2 Open Beta]
+}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Mutuals are a feature that allows the user to view mutual friends or groups of other users. This feature is rolling out slowly over time.<ref>[https://docs.vrchat.com/docs/vrchat-202542#mutuals VRChat 2025.4.2]</ref>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==References==
+<references/>
+</div>
