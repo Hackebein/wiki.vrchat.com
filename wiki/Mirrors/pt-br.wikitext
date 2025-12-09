@@ -56,9 +56,7 @@ Um espelho transparente geralmente reflete os avatares ao seu redor enquanto age
 <span id="Performance_issues"></span>
 == Problemas de desempenho ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Every object reflected in a mirror has to be rendered again, separately from what the user sees in the playable world. A mirror reflecting the whole world will double the performance cost of rendering the world. Occlusion culling does not work in mirror reflections, so a mirror facing a wall will still try to render everything behind the wall too.
-</div>
+Cada objeto refletido em um espelho precisa ser renderizado novamente, separadamente do que o usuário vê no mundo jogável. Um espelho que reflete o mundo inteiro duplicará o custo de desempenho da renderização do mundo. A ocultação por oclusão não funciona em reflexos de espelho, portanto, um espelho voltado para uma parede ainda tentará renderizar tudo o que está atrás da parede também.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Creators can reduce the performance cost for mirrors in many ways, such as:
