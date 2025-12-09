@@ -61,9 +61,7 @@ Os parâmetros de expressão são usados ​​para controlar as funcionalidades
 <span id="Expression_Parameter_Mismatching"></span>
 == Divergências de parâmetros de expressão==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Expression Parameter Mismatching refers to the practice of using different parameter types between your Expression Parameters and your local Animator Controller parameters. While it is recommended to keep parameter types consistent, mismatching is supported and the system will convert values between types according to specific rules. Which can be useful in certain <u>advanced</u> setups.
-</div>
+A divergência de parâmetros de expressão refere-se à prática de usar tipos de parâmetros diferentes entre os parâmetros de expressão e os parâmetros do controlador de animação local. Embora seja recomendável manter a consistência dos tipos de parâmetros, existe suporte para essa divergência e o sistema converterá os valores entre os tipos de acordo com regras específicas. Isso pode ser útil em certas configurações <u>avançadas</u>.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Unity's Animator system uses floats on the backend for all parameter types, while VRChat internally uses SBytes for parameter storage. The user interface in Unity and the VRCSDK allows you to select parameter types for convenience, but under the hood, conversions are possible. This means that parameters are not being cast, but rather mismatched. This behavior is also supported by popular tools such as Av3Emulator and Gesture Manager.
