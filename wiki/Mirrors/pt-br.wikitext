@@ -64,10 +64,8 @@ Os criadores podem reduzir o custo de desempenho dos espelhos de várias maneira
 * Considerar a localização dos espelhos. Um espelho voltado para longe do centro do mundo terá que renderizar menos do que um voltado para dentro.
 * Alterar as [[Special:MyLanguage/Layers{{#translation:}}|Camadas]]
 
- <div lang="en" dir="ltr" class="mw-content-ltr">
-a mirror reflects. A mirror only renders objects on the defined layers. For example, if you have a large outdoor world with a house in the middle, you could set the outdoor environment objects to the environment layer, and then disable the environment layer on the mirrors inside the house. This will stop the mirrors from trying to render the environment that they can't see.
-When interacting with a Mirror in a world, users will be able to enable or toggle different options to save on performance, such as:
-</div>
+ um espelho reflete. Um espelho apenas renderiza objetos nas camadas definidas. Por exemplo, se você tiver um grande mundo externo com uma casa no meio, poderá definir os objetos do ambiente externo para a camada de ambiente e, em seguida, desativar a camada de ambiente nos espelhos dentro da casa. Isso impedirá que os espelhos tentem renderizar o ambiente que não podem ver.
+Ao interagir com um espelho em um mundo, os usuários poderão ativar ou alternar diferentes opções para economizar desempenho, tais como:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Using only one mirror at a time.
