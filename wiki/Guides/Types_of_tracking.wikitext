@@ -16,13 +16,19 @@ There are multiple types of ways to track movement and health on the human body,
 Depending on the type of tracking that is desired, extra hardware may be required.
 
 ===Camera-based tracking===
-By using camera-based tracking, you can use software within VRChat ([[Selfie Expression]]), or community-created software to animate your avatar. When using a camera-based tracker, users will not be able to see your real face. Image data is locally processed on your device, only used for animation. This data is never shared, saved or stored.
-====On mobile devices====
-On the [[Platforms|mobile]] adaptation of VRChat, there are built-in options within the client to enable the camera on your device, and translate '''head and face movements''' onto your avatar. This is called '''Selfie Expression''', and can be found by opening the [[Settings]] page on the [[Main Menu]], and clicking on the '''Tracking & IK''' tab.
-====On PC====
-Selfie Expression is also built into the PC version of VRChat, currently in [[Open Beta]] and available to [[VRC+]] subscribers; information may be subject to change. In addition to tracking '''head and facial movement''', '''hands''' are also able to be tracked and posed, similar to [[finger tracking]]. A laptop camera, or web-camera will need to be detected by your operating system to be able to use this feature. Selfie Expression can be found by opening the Settings page on the Main Menu, and clicking on the '''Tracking & IK''' tab.
 
-Another method of using a camera-based tracker on PC, is through the use of a [[wikipedia:Kinect|Kinect]] camera, [[wikipedia:PlayStation Move|PSMove]] camera, or a device using owoTrack<ref>[https://docs.k2vr.tech/en/owo/setup/ 'How to configure and use owoTrack'] on ''docs.k2vr.tech''; retrieved March 15, 2025.</ref>, and community software known as Amethyst<ref>[https://k2vr.tech 'Amethyst by K2VR'] on ''www.k2vr.tech''; retrieved March 15, 2025.</ref> (formerly known as KinectToVR), AprilTag and PSMoveServiceEx<ref>[https://github.com/Timocop/PSMoveServiceEx-Virtual-Device-Manager PSMoveServiceEx by Externet] at g''ithub.com''; retrieved June 14, 2025.</ref>. With the right hardware, these apps are able to provide the user with '''optical full-body tracking''', even while the user is in VR.
+* The main form of camera-based tracking for VRChat is known as [[Selfie Expression]].
+
+* By using camera-based tracking, you can use software within VRChat or community-created software to animate your avatar. When using a camera-based tracker, users will '''not be able to see your real face'''. Image data is locally processed on your device, only used for animation. This data is never shared, saved or stored.
+
+Selfie Expression is available on most adaptations of VRChat.
+
+====On mobile devices====
+On the [[Platforms|mobile]] adaptation of VRChat, there are built-in options within the client to enable the camera on your device, and translate '''head and face movements''' onto your avatar. This is mobile's version of '''Selfie Expression''', and can be found by opening the [[Settings]] page on the [[Main Menu]], and clicking on the '''Tracking & IK''' tab.
+====On PC====
+Selfie Expression is also built into the PC version of VRChat. In addition to tracking '''head and facial movement''', '''hands''' are also able to be tracked and posed, similar to [[finger tracking]]. A laptop camera, or web-camera will need to be detected by your operating system to be able to use this feature. Selfie Expression can be found by opening the Settings page on the Main Menu, and clicking on the '''Tracking & IK''' tab.
+
+Another method of using a '''camera-based tracker''' on PC is through the use of a [[wikipedia:Kinect|Kinect]] camera, [[wikipedia:PlayStation Move|PSMove]] camera, or a device using owoTrack<ref>[https://docs.k2vr.tech/en/owo/setup/ 'How to configure and use owoTrack'] on ''docs.k2vr.tech''; retrieved March 15, 2025.</ref>, and community software known as Amethyst<ref>[https://k2vr.tech 'Amethyst by K2VR'] on ''www.k2vr.tech''; retrieved March 15, 2025.</ref> (formerly known as KinectToVR), AprilTag and PSMoveServiceEx<ref>[https://github.com/Timocop/PSMoveServiceEx-Virtual-Device-Manager PSMoveServiceEx by Externet] at g''ithub.com''; retrieved June 14, 2025.</ref>. With the right hardware, these apps are able to provide the user with '''optical full-body tracking''', even while the user is in VR.
 
 ===Base station tracking===
 Base station tracking, also known as ''lighthouse'' tracking or sensors, is hardware compatible only with [[wikipedia:SteamVR|SteamVR]] software. Base stations are compatible with some [[Controls|controllers]] and types of full-body tracker peripherals, such as [[wikipedia:HTC_Vive#Hardware_and_accessories|VIVE trackers]], and Tundra trackers<ref>[https://tundra-labs.com/ Tundra Labs website] at ''tundra-labs.com''; retrieved March 15, 2025.</ref>.
@@ -32,8 +38,8 @@ It is recommended to acquire at least two '''2.0''' base stations, as these base
 ==== Purchasing base stations====
 ''Prices for new base stations may fluctuate and vary.''
 *[https://store.steampowered.com/app/1059570/Valve_Index_Base_Station/ 'Valve Index Base Station'] on Steampowered, for $149 (USD)
-*[https://www.vive.com/us/accessory/base-station2/ 'SteamVR Base Station 2.0'] on ''vive.com'', for $199 (USD)
-*[https://www.knoxlabs.com/products/htc-steamvr-base-station-2 'HTC SteamVR Base Station 2.0'] on ''knoxlabs.com'', for $199 (USD)
+*[https://www.vive.com/us/accessory/base-station2/ 'SteamVR Base Station 2.0'] on ''vive.com'', for $229 (USD)
+*[https://www.knoxlabs.com/products/htc-steamvr-base-station-2 'HTC SteamVR Base Station 2.0'] on ''knoxlabs.com'', for $229 (USD)
 *You can additionally purchase used base stations from second-hand outlets from various sellers for varying prices.
 
 ===IMU tracking ===
