@@ -52,9 +52,7 @@ Pour personnaliser votre imposteur, ajoutez le composant « VRCImpostorSettings 
 
 Modifie la quantité d’espace sur l’atlas de textures de l’imposteur qui est dédiée à la texture de cette partie du corps. Par exemple, vous pouvez placer ce script sur l’os de la tête et changer cette valeur pour que la tête occupe plus ou moins de l’atlas de textures, augmentant ou diminuant ainsi la qualité de texture globale. Notez que cela peut réduire d’autres parties du corps sur l’atlas si nécessaire.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''This is relative to the bone that VRCImpostorSettings is placed on.''
-</div>
+''Ceci est relatif à l’os sur lequel VRCImpostorSettings est placé.''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Transforms To Ignore===
