@@ -65,9 +65,8 @@ La non-correspondance des paramètres d’Expression fait référence à la prat
 
 Le système Animator de Unity utilise des flottants en interne pour tous les types de paramètres, tandis que VRChat utilise des SBytes pour le stockage des paramètres. L’interface utilisateur dans Unity et le VRCSDK vous permet de sélectionner des types de paramètres par commodité, mais sous le capot, des conversions sont possibles. Cela signifie que les paramètres ne sont pas convertis (cast), mais plutôt non correspondants. Ce comportement est également pris en charge par des outils populaires tels que Av3Emulator et Gesture Manager.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Expression Parameter Bool===
-</div>
+<span id="Expression_Parameter_Bool"></span>
+===Paramètre d’Expression Bool===
 {| class="wikitable"
 |+<span lang="en" dir="ltr" class="mw-content-ltr">Animator Controller Parameter</span>
 !<span lang="en" dir="ltr" class="mw-content-ltr">Type</span>
