@@ -93,7 +93,7 @@ Le système Animator de Unity utilise des flottants en interne pour tous les typ
 !Comportement
 |-
 |Int → Bool
-|<span lang="en" dir="ltr" class="mw-content-ltr">Any Int value that isn’t 0 sets bool to True</span>
+|Toute valeur Int qui n’est pas 0 définit le bool à True
 |-
 |Int → Int
 |<span lang="en" dir="ltr" class="mw-content-ltr">Expected Behaviour</span>
