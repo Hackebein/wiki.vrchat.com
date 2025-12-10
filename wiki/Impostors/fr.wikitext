@@ -68,9 +68,7 @@ C’est utile pour des éléments comme les ailes et les queues : cela indiquera
 
 Comme exemple de ce qu’il ne faut pas faire — vous ''pourriez'' en mettre un sur chaque doigt pour les transformer en sprites indépendants. Cependant, comme tous les sprites partagent une seule feuille de texture, la remplir avec des éléments comme les doigts fera diminuer la qualité ailleurs — c’est un exercice d’équilibre.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-''This is independent of the bone that VRCImpostorSettings is placed on.''
-</div>
+''Ceci est indépendant de l’os sur lequel VRCImpostorSettings est placé.''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Re-parent Here===
