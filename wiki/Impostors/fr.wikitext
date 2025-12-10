@@ -64,9 +64,7 @@ Ignore ces transforms lors de la capture des données pour l’imposteur. Cela l
 <span id="Extra_Child_Transforms"></span>
 ===Transforms enfants supplémentaires===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This is good for things like wings and tails, it will tell the Impostorizer to make a separate sprite for the bone this script is on.
-</div>
+C’est utile pour des éléments comme les ailes et les queues : cela indiquera à l’Impostorizer de créer un sprite séparé pour l’os sur lequel ce script est placé.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 As an example of what not to do - you ''could'' put one of these on each finger to turn them into independent sprites. However, since all sprites share a single texture sheet, filling it with things like fingers will cause quality to decrease elsewhere - it's a balancing act.
