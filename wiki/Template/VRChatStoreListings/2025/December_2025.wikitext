@@ -15,6 +15,7 @@ We enter winter once again…
 {{InventoryContentDisplay|name=Frosted Scribe
 |image=ListingImage Frosted Scribe.png
 |seller=VRChat
+|type=Item
 |price=1000
 |price_vrcplus=900
 |availabilityDate=Dec 8, 2025 - Feb 5, 2026
@@ -26,6 +27,7 @@ Please don’t try to eat the enchanted snow.
 {{InventoryContentDisplay|name=Glacial Construct
 |image=ListingImage Glacial Construct.png
 |seller=VRChat
+|type=Portal
 |price=900
 |price_vrcplus=810
 |availabilityDate=Dec 8, 2025 - Feb 5, 2026
@@ -37,6 +39,7 @@ Do not lick the Glacial Construct. I mean, don’t lick any portal, but especial
 {{InventoryContentDisplay|name=Frost’s Bite
 |image=ListingImage Frost’s Bite.png
 |seller=VRChat
+|type=WarpEffect
 |price=900
 |price_vrcplus=810
 |availabilityDate=Dec 8, 2025 - Feb 5, 2026
@@ -45,18 +48,22 @@ Do not lick the Glacial Construct. I mean, don’t lick any portal, but especial
 VRChat freezing while moving between instances? Working as intended.
 |productID=prod_81e0541b-862c-41c0-b8b0-0a2e2c6c4892
 }}
+<!-- CONSUMABLE VERSION
 {{InventoryContentDisplay|name=Portable Winterizer
 |image=ListingImage Portable Winterizer.png
 |seller=VRChat
+|type=Item
 |price=500
 |price_vrcplus=450
-|availabilityDate=Dec 8, 2025 - Feb 5, 2026
+|availabilityDate=Dec 8, 2025 - Dec 10, 2025
 |description=When activated, the Portable Winterizer generates snow, roughly centered around its location for 3 minutes. This is a consumable item that has 5 charges. Spawning and activating this item consumes 1 charge. Once all charges are used, it will be removed from your inventory.
 |productID=prod_dcffbebb-cf86-4d09-93a8-c364dd3c95bb
 }}
+-->
 {{InventoryContentDisplay|name=Winter Emoji Pack
 |image=ListingImage Winter Emoji Pack.png
 |seller=VRChat
+|type=Emoji
 |price=500
 |price_vrcplus=450
 |availabilityDate=Dec 8, 2025 - Feb 5, 2026
@@ -69,10 +76,22 @@ All the snow, none of the frostbite.
 {{InventoryContentDisplay|name=Cozy Snowman Pack
 |image=ListingImage Cozy Snowman Pack.png
 |seller=VRChat
+|type=Sticker
 |price=200
 |price_vrcplus=180
 |availabilityDate=Dec 8, 2025 - Feb 5, 2026
 |description=Contains three Cozy Snowman Stickers: SNOWBALL FIGHT!, Thawing Out! and … Too Much Thawing.
 |productID=prod_b4d3d7bf-4f39-461b-b624-315f22df2750
 }}
+{{InventoryContentDisplay|name=Portable Winterizer
+|image=ListingImage Portable Winterizer.png
+|seller=VRChat
+|type=Item
+|price=500
+|price_vrcplus=450
+|availabilityDate=Dec 10, 2025 - Feb 5, 2026
+|description=When activated, the Portable Winterizer generates snow, roughly centered around its location for 3 minutes.
+|productID=prod_4623c70d-fc98-43cf-8b2e-99c1fb4c433f
+}}
+
 </div>
