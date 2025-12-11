@@ -30,10 +30,11 @@ See also, '''VRChat Learning Channel's''' [https://www.youtube.com/watch?v=8hqDq
 Displays incoming OSC messages to VRChat, and their values. The OSC console can be found in the [[Special:MyLanguage/Action Menu|Action Menu]] in <code>Options &gt; OSC &gt; OSC Debug</code>. To scroll up and down, you can press <code>Page Up</code>, and <code>Page Down</code> on desktop, or use the scroll bar in VR mode. See also VRChat's [https://docs.vrchat.com/docs/osc-debugging| OSC Debugging page].
 
 ==World Debug Console==
+{{Noticebox/Update|type=section|Images and information such as using launch options to access are outdated.}}
 
-This console is used to debug your worlds in-game.
+This console is used to debug your worlds in-game. The Debug UI can be opened by:
 
-*In order to access, you must add the launch parameter <code>--enable-debug-gui</code>.
+*Pressing the <code>Toggle Debug UI</code> button in the Debug section of the Quick Menu settings page.
 *Press <code>Right Shift + Tilde (~) + 1-9</code> with the number corresponding to the menu number <span id="debug-menu-1"></span>you want.
 
 More information can be accessed at {{VRC link|https://creators.vrchat.com/worlds/udon/world-debug-views/|World Debug View}} on ''creators.vrchat.com''.
@@ -112,8 +113,6 @@ Debug Menu 8 displays a panel on top of every synced object in the world. Each p
 
 Debug Menu 9 displays a panel near players to display their networking stats.
 [[File:World Debug Menu 9.png|none|thumb|Screenshot of World Debug Menu 9]]
-
-
 ==Official Resources==
 *{{VRC link|https://creators.vrchat.com/worlds/udon/world-debug-views|World Debug View}} page in the VRChat Documentation
 *[https://docs.vrchat.com/docs/osc-debugging| OSC Debugging] page in the VRChat Documentation
