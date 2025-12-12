@@ -1,1 +1,77 @@
-function e(e){let[t,n]=mw.config.get(`wgPageName`).split(`/`);return!(!t||!e.includes(t)||!n||mw.config.get(`wgPageContentLanguage`)!=n)}e([`Template:MainPageInfopush`,`Main_Page`])&&mw.loader.using([`oojs-ui-core`,`oojs-ui-windows`]).done(()=>{var e=new OO.ui.WindowManager;$(document.body).append(e.$element);function t(t){var{articleTitle:n,articleContent:r}=t.dataset;function i(e){i.super.call(this,e),this.config=e||{}}OO.inheritClass(i,OO.ui.ProcessDialog),i.static.name=`ArticleDialog`,i.static.title=n,i.static.size=`large`,i.static.actions=[{action:`close`,flags:`safe`,icon:`close`,label:`Close`}],i.prototype.initialize=function(){i.super.prototype.initialize.apply(this,arguments),this.content=new OO.ui.PanelLayout({$content:atob(r),expanded:!1,padded:!0,scrollable:!0}),this.$body.append(this.content.$element)},i.prototype.getActionProcess=function(e){return e===`close`?new OO.ui.Process(function(){this.close({action:`close`})},this):i.super.prototype.getActionProcess.call(this,e)};var a=new i;e.addWindows([a]),e.openWindow(a)}let n=document.querySelectorAll(`.tpl-infopush`);for(let e of n){let n=e.querySelector(`.tpl-infopush-content`),r=n.querySelectorAll(`.tpl-infopush-item`),i=r.length;for(let e of r){let{articleId:n}=e.dataset;!n||e.querySelector(`a`)||(e.style.cursor=`pointer`,e.addEventListener(`click`,()=>t(e)))}let a=e.querySelector(`.tpl-infopush-navigation`),o=0;function s(e){o=(e+i)%i,n.style.transform=`translateX(-${o*100}%)`}let c;function l(){c&&clearInterval(c),c=setInterval(function(){s(o+1)},5e3)}a.querySelector(`.tpl-infopush-navigation-previous`).addEventListener(`click`,()=>{s(o-1),l()}),a.querySelector(`.tpl-infopush-navigation-next`).addEventListener(`click`,()=>{s(o+1),l()}),l(),s(0)}}),[...document.querySelectorAll(`.spoiler`)].map(e=>{e.querySelector(`.spoiler-overlay`)?.addEventListener(`click`,()=>{e.dataset.open=``})}),[...document.querySelectorAll(`.youtube`)].map(e=>{let{videoId:t,...n}=e.dataset,r=document.createElement(`iframe`);r.setAttribute(`width`,`560`),r.setAttribute(`height`,`315`),r.setAttribute(`frameborder`,`0`),r.setAttribute(`allow`,[`accelerometer`,`autoplay`,`clipboard-write`,`encrypted-media`,`gyroscope`,`picture-in-picture`,`web-share`].join(`; `)),r.setAttribute(`referrerpolicy`,`strict-origin-when-cross-origin`),r.setAttribute(`allowfullscreen`,`true`),Object.entries(n).map(([e,t])=>t&&r.setAttribute(e,t)),r.setAttribute(`style`,e.getAttribute(`style`)||``),r.src=`https://www.youtube-nocookie.com/embed/${t}?rel=0`,e.replaceWith(r)});var t=document.createElement(`script`);t.setAttribute(`defer`,`defer`),t.setAttribute(`data-domain`,`wiki.vrchat.com`),t.setAttribute(`event-page-name`,mw.config.get(`wgTitle`)),t.setAttribute(`event-page-language`,mw.config.get(`wgPageContentLanguage`));const n=mw.config.get(`wgFormattedNamespaces`);t.setAttribute(`event-page-namespace`,n[mw.config.get(`wgNamespaceNumber`)]),t.setAttribute(`event-theme`,mw.config.get(`skin`)),t.setAttribute(`event-action`,mw.config.get(`wgAction`)),t.setAttribute(`event-is-logged-in`,String(mw.config.get(`wgUserName`)!==null));const r=mw.config.get(`wgUserGroups`),i=r.includes(`community-mod`)||r.includes(`moderator`)||r.includes(`sysop`);t.setAttribute(`event-is-maintainer`,String(i)),t.src=`https://plausible.io/js/script.pageview-props.outbound-links.js`,document.head.appendChild(t);
+function e(e) {
+	let [t, n] = mw.config.get("wgPageName").split("/");
+	return !(!t || !e.includes(t) || !n || mw.config.get("wgPageContentLanguage") != n);
+}
+e(["Template:MainPageInfopush", "Main_Page"]) && mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).done(() => {
+	var e = new OO.ui.WindowManager();
+	$(document.body).append(e.$element);
+	function t(t) {
+		var { articleTitle: n, articleContent: r } = t.dataset;
+		function i(e) {
+			i.super.call(this, e), this.config = e || {};
+		}
+		OO.inheritClass(i, OO.ui.ProcessDialog), i.static.name = "ArticleDialog", i.static.title = n, i.static.size = "large", i.static.actions = [{
+			action: "close",
+			flags: "safe",
+			icon: "close",
+			label: "Close"
+		}], i.prototype.initialize = function() {
+			i.super.prototype.initialize.apply(this, arguments), this.content = new OO.ui.PanelLayout({
+				$content: atob(r),
+				expanded: !1,
+				padded: !0,
+				scrollable: !0
+			}), this.$body.append(this.content.$element);
+		}, i.prototype.getActionProcess = function(e) {
+			return e === "close" ? new OO.ui.Process(function() {
+				this.close({ action: "close" });
+			}, this) : i.super.prototype.getActionProcess.call(this, e);
+		};
+		var a = new i();
+		e.addWindows([a]), e.openWindow(a);
+	}
+	let n = document.querySelectorAll(".tpl-infopush");
+	for (let e of n) {
+		let n = e.querySelector(".tpl-infopush-content"), r = n.querySelectorAll(".tpl-infopush-item"), i = r.length;
+		for (let e of r) {
+			let { articleId: n } = e.dataset;
+			!n || e.querySelector("a") || (e.style.cursor = "pointer", e.addEventListener("click", () => t(e)));
+		}
+		let a = e.querySelector(".tpl-infopush-navigation"), o = 0;
+		function s(e) {
+			o = (e + i) % i, n.style.transform = `translateX(-${o * 100}%)`;
+		}
+		let c;
+		function l() {
+			c && clearInterval(c), c = setInterval(function() {
+				s(o + 1);
+			}, 5e3);
+		}
+		a.querySelector(".tpl-infopush-navigation-previous").addEventListener("click", () => {
+			s(o - 1), l();
+		}), a.querySelector(".tpl-infopush-navigation-next").addEventListener("click", () => {
+			s(o + 1), l();
+		}), l(), s(0);
+	}
+}), [...document.querySelectorAll(".spoiler")].map((e) => {
+	e.querySelector(".spoiler-overlay")?.addEventListener("click", () => {
+		e.dataset.open = "";
+	});
+}), [...document.querySelectorAll(".youtube")].map((e) => {
+	let { videoId: t, ...n } = e.dataset, r = document.createElement("iframe");
+	r.setAttribute("width", "560"), r.setAttribute("height", "315"), r.setAttribute("frameborder", "0"), r.setAttribute("allow", [
+		"accelerometer",
+		"autoplay",
+		"clipboard-write",
+		"encrypted-media",
+		"gyroscope",
+		"picture-in-picture",
+		"web-share"
+	].join("; ")), r.setAttribute("referrerpolicy", "strict-origin-when-cross-origin"), r.setAttribute("allowfullscreen", "true"), Object.entries(n).map(([e, t]) => t && r.setAttribute(e, t)), r.setAttribute("style", e.getAttribute("style") || ""), r.src = `https://www.youtube-nocookie.com/embed/${t}?rel=0`, e.replaceWith(r);
+});
+var t = document.createElement("script");
+t.setAttribute("defer", "defer"), t.setAttribute("data-domain", "wiki.vrchat.com"), t.setAttribute("event-page-name", mw.config.get("wgTitle")), t.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
+const n = mw.config.get("wgFormattedNamespaces");
+t.setAttribute("event-page-namespace", n[mw.config.get("wgNamespaceNumber")]), t.setAttribute("event-theme", mw.config.get("skin")), t.setAttribute("event-action", mw.config.get("wgAction")), t.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
+const r = mw.config.get("wgUserGroups"), i = r.includes("community-mod") || r.includes("moderator") || r.includes("sysop");
+t.setAttribute("event-is-maintainer", String(i)), t.src = "https://plausible.io/js/script.pageview-props.outbound-links.js", document.head.appendChild(t);
