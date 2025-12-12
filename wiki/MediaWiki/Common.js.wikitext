@@ -1,66 +1,113 @@
-(function () {
-	function e(e) {
-		let [t, n] = mw.config.get("wgPageName").split("/");
-		return !(!t || !e.includes(t) || !n || mw.config.get("wgPageContentLanguage") != n);
+(function() {
+
+
+//#region src/whitelist.ts
+	function isWhitelistedPage(pages) {
+		const [pageName, pageLanguage] = mw.config.get("wgPageName").split("/");
+		if (!pageName || !pages.includes(pageName)) return false;
+		if (!pageLanguage || mw.config.get("wgPageContentLanguage") != pageLanguage) return false;
+		return true;
 	}
-	e(["Template:MainPageInfopush", "Main_Page"]) && mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).done(() => {
-		var e = new OO.ui.WindowManager();
-		$(document.body).append(e.$element);
-		function t(t) {
-			var { articleTitle: n, articleContent: r } = t.dataset;
-			function i(e) {
-				i.super.call(this, e), this.config = e || {};
+
+//#endregion
+//#region src/templates/infopush.ts
+	(() => {
+		if (!isWhitelistedPage(["Template:MainPageInfopush", "Main_Page"])) return;
+		mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).done(() => {
+			var windowManager = new OO.ui.WindowManager();
+			$(document.body).append(windowManager.$element);
+			function showArticle(element) {
+				var { articleTitle, articleContent } = element.dataset;
+				function ArticleDialog(config) {
+					ArticleDialog.super.call(this, config);
+					this.config = config || {};
+				}
+				OO.inheritClass(ArticleDialog, OO.ui.ProcessDialog);
+				ArticleDialog.static.name = "ArticleDialog";
+				ArticleDialog.static.title = articleTitle;
+				ArticleDialog.static.size = "large";
+				ArticleDialog.static.actions = [{
+					action: "close",
+					flags: "safe",
+					icon: "close",
+					label: "Close"
+				}];
+				ArticleDialog.prototype.initialize = function() {
+					ArticleDialog.super.prototype.initialize.apply(this, arguments);
+					this.content = new OO.ui.PanelLayout({
+						$content: atob(articleContent),
+						expanded: false,
+						padded: true,
+						scrollable: true
+					});
+					this.$body.append(this.content.$element);
+				};
+				ArticleDialog.prototype.getActionProcess = function(action) {
+					if (action === "close") return new OO.ui.Process(function() {
+						this.close({ action: "close" });
+					}, this);
+					return ArticleDialog.super.prototype.getActionProcess.call(this, action);
+				};
+				var dialog = new ArticleDialog();
+				windowManager.addWindows([dialog]);
+				windowManager.openWindow(dialog);
 			}
-			OO.inheritClass(i, OO.ui.ProcessDialog), i.static.name = "ArticleDialog", i.static.title = n, i.static.size = "large", i.static.actions = [{
-				action: "close",
-				flags: "safe",
-				icon: "close",
-				label: "Close"
-			}], i.prototype.initialize = function () {
-				i.super.prototype.initialize.apply(this, arguments), this.content = new OO.ui.PanelLayout({
-					$content: atob(r),
-					expanded: !1,
-					padded: !0,
-					scrollable: !0
-				}), this.$body.append(this.content.$element);
-			}, i.prototype.getActionProcess = function (e) {
-				return e === "close" ? new OO.ui.Process(function () {
-					this.close({ action: "close" });
-				}, this) : i.super.prototype.getActionProcess.call(this, e);
-			};
-			var a = new i();
-			e.addWindows([a]), e.openWindow(a);
-		}
-		let n = document.querySelectorAll(".tpl-infopush");
-		for (let e of n) {
-			let n = e.querySelector(".tpl-infopush-content"), r = n.querySelectorAll(".tpl-infopush-item"), i = r.length;
-			for (let e of r) {
-				let { articleId: n } = e.dataset;
-				!n || e.querySelector("a") || (e.style.cursor = "pointer", e.addEventListener("click", () => t(e)));
+			const infopushes = document.querySelectorAll(".tpl-infopush");
+			for (const infopush of infopushes) {
+				const content = infopush.querySelector(".tpl-infopush-content");
+				const items = content.querySelectorAll(".tpl-infopush-item");
+				const total = items.length;
+				for (const item of items) {
+					const { articleId } = item.dataset;
+					if (!articleId || !!item.querySelector("a")) continue;
+					item.style.cursor = "pointer";
+					item.addEventListener("click", () => showArticle(item));
+				}
+				const navigation = infopush.querySelector(".tpl-infopush-navigation");
+				let currentOffset = 0;
+				function showSlide(index) {
+					currentOffset = (index + total) % total;
+					content.style.transform = `translateX(-${currentOffset * 100}%)`;
+				}
+				const autoAdvanceEvery = 5e3;
+				let autoAdvanceInterval;
+				function resetAutoAdvance() {
+					if (autoAdvanceInterval) clearInterval(autoAdvanceInterval);
+					autoAdvanceInterval = setInterval(function() {
+						showSlide(currentOffset + 1);
+					}, autoAdvanceEvery);
+				}
+				navigation.querySelector(".tpl-infopush-navigation-previous").addEventListener("click", () => {
+					showSlide(currentOffset - 1);
+					resetAutoAdvance();
+				});
+				navigation.querySelector(".tpl-infopush-navigation-next").addEventListener("click", () => {
+					showSlide(currentOffset + 1);
+					resetAutoAdvance();
+				});
+				resetAutoAdvance();
+				showSlide(0);
 			}
-			let a = e.querySelector(".tpl-infopush-navigation"), o = 0;
-			function s(e) {
-				o = (e + i) % i, n.style.transform = `translateX(-${o * 100}%)`;
-			}
-			let c;
-			function l() {
-				c && clearInterval(c), c = setInterval(function () {
-					s(o + 1);
-				}, 5e3);
-			}
-			a.querySelector(".tpl-infopush-navigation-previous").addEventListener("click", () => {
-				s(o - 1), l();
-			}), a.querySelector(".tpl-infopush-navigation-next").addEventListener("click", () => {
-				s(o + 1), l();
-			}), l(), s(0);
-		}
-	}), [...document.querySelectorAll(".spoiler")].map((e) => {
-		e.querySelector(".spoiler-overlay").addEventListener("click", () => {
-			e.dataset.open = "";
 		});
-	}), [...document.querySelectorAll(".youtube")].map((e) => {
-		let { videoId: t, ...n } = e.dataset, r = document.createElement("iframe");
-		r.setAttribute("width", "560"), r.setAttribute("height", "315"), r.setAttribute("frameborder", "0"), r.setAttribute("allow", [
+	})();
+
+//#endregion
+//#region src/templates/spoiler.ts
+	[...document.querySelectorAll(".spoiler")].map((container) => {
+		container.querySelector(".spoiler-overlay")?.addEventListener("click", () => {
+			container.dataset.open = "";
+		});
+	});
+
+//#endregion
+//#region src/templates/youtube.ts
+	[...document.querySelectorAll(".youtube")].map((element) => {
+		const { videoId, ...attributes } = element.dataset;
+		const iframe = document.createElement("iframe");
+		iframe.setAttribute("width", String(560));
+		iframe.setAttribute("height", String(315));
+		iframe.setAttribute("frameborder", String(0));
+		iframe.setAttribute("allow", [
 			"accelerometer",
 			"autoplay",
 			"clipboard-write",
@@ -68,12 +115,32 @@
 			"gyroscope",
 			"picture-in-picture",
 			"web-share"
-		].join("; ")), r.setAttribute("referrerpolicy", "strict-origin-when-cross-origin"), r.setAttribute("allowfullscreen", "true"), Object.entries(n).map(([e, t]) => t && r.setAttribute(e, t)), r.setAttribute("style", e.getAttribute("style") || ""), r.src = `https://www.youtube-nocookie.com/embed/${t}?rel=0`, e.replaceWith(r);
+		].join("; "));
+		iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+		iframe.setAttribute("allowfullscreen", String(true));
+		Object.entries(attributes).map(([key, value]) => value && iframe.setAttribute(key, value));
+		iframe.setAttribute("style", element.getAttribute("style") || "");
+		iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?rel=0`;
+		element.replaceWith(iframe);
 	});
-	var t = document.createElement("script");
-	t.setAttribute("defer", "defer"), t.setAttribute("data-domain", "wiki.vrchat.com"), t.setAttribute("event-page-name", mw.config.get("wgTitle")), t.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
-	let n = mw.config.get("wgFormattedNamespaces");
-	t.setAttribute("event-page-namespace", n[mw.config.get("wgNamespaceNumber")]), t.setAttribute("event-theme", mw.config.get("skin")), t.setAttribute("event-action", mw.config.get("wgAction")), t.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
-	let r = mw.config.get("wgUserGroups"), i = r.includes("community-mod") || r.includes("moderator") || r.includes("sysop");
-	t.setAttribute("event-is-maintainer", String(i)), t.src = "https://plausible.io/js/script.pageview-props.outbound-links.js", document.head.appendChild(t);
+
+//#endregion
+//#region src/plausible.ts
+	var script = document.createElement("script");
+	script.setAttribute("defer", "defer");
+	script.setAttribute("data-domain", "wiki.vrchat.com");
+	script.setAttribute("event-page-name", mw.config.get("wgTitle"));
+	script.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
+	const namespaces = mw.config.get("wgFormattedNamespaces");
+	script.setAttribute("event-page-namespace", namespaces[mw.config.get("wgNamespaceNumber")]);
+	script.setAttribute("event-theme", mw.config.get("skin"));
+	script.setAttribute("event-action", mw.config.get("wgAction"));
+	script.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
+	const wgUserGroups = mw.config.get("wgUserGroups");
+	const maintainer = wgUserGroups.includes("community-mod") || wgUserGroups.includes("moderator") || wgUserGroups.includes("sysop");
+	script.setAttribute("event-is-maintainer", String(maintainer));
+	script.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
+	document.head.appendChild(script);
+
+//#endregion
 })();
