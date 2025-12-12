@@ -1,4 +1,4 @@
-(function() {
+(function () {
 	function e(e) {
 		let [t, n] = mw.config.get("wgPageName").split("/");
 		return !(!t || !e.includes(t) || !n || mw.config.get("wgPageContentLanguage") != n);
@@ -16,15 +16,15 @@
 				flags: "safe",
 				icon: "close",
 				label: "Close"
-			}], i.prototype.initialize = function() {
+			}], i.prototype.initialize = function () {
 				i.super.prototype.initialize.apply(this, arguments), this.content = new OO.ui.PanelLayout({
 					$content: atob(r),
 					expanded: !1,
 					padded: !0,
 					scrollable: !0
 				}), this.$body.append(this.content.$element);
-			}, i.prototype.getActionProcess = function(e) {
-				return e === "close" ? new OO.ui.Process(function() {
+			}, i.prototype.getActionProcess = function (e) {
+				return e === "close" ? new OO.ui.Process(function () {
 					this.close({ action: "close" });
 				}, this) : i.super.prototype.getActionProcess.call(this, e);
 			};
@@ -44,7 +44,7 @@
 			}
 			let c;
 			function l() {
-				c && clearInterval(c), c = setInterval(function() {
+				c && clearInterval(c), c = setInterval(function () {
 					s(o + 1);
 				}, 5e3);
 			}
@@ -55,7 +55,7 @@
 			}), l(), s(0);
 		}
 	}), [...document.querySelectorAll(".spoiler")].map((e) => {
-		e.querySelector(".spoiler-overlay")?.addEventListener("click", () => {
+		e.querySelector(".spoiler-overlay").addEventListener("click", () => {
 			e.dataset.open = "";
 		});
 	}), [...document.querySelectorAll(".youtube")].map((e) => {
