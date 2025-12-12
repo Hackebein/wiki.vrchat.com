@@ -94,15 +94,41 @@
 //#endregion
 //#region src/templates/spoiler.ts
 	[...document.querySelectorAll(".spoiler")].map((container) => {
-		container.querySelector(".spoiler-overlay")?.addEventListener("click", () => {
+		const overlay = container.querySelector(".spoiler-overlay");
+		overlay === null || overlay === void 0 || overlay.addEventListener("click", () => {
 			container.dataset.open = "";
 		});
 	});
 
 //#endregion
+//#region \0@oxc-project+runtime@0.102.0/helpers/objectWithoutPropertiesLoose.js
+	function _objectWithoutPropertiesLoose(r, e) {
+		if (null == r) return {};
+		var t = {};
+		for (var n in r) if ({}.hasOwnProperty.call(r, n)) {
+			if (e.includes(n)) continue;
+			t[n] = r[n];
+		}
+		return t;
+	}
+
+//#endregion
+//#region \0@oxc-project+runtime@0.102.0/helpers/objectWithoutProperties.js
+	function _objectWithoutProperties(e, t) {
+		if (null == e) return {};
+		var o, r, i = _objectWithoutPropertiesLoose(e, t);
+		if (Object.getOwnPropertySymbols) {
+			var s = Object.getOwnPropertySymbols(e);
+			for (r = 0; r < s.length; r++) o = s[r], t.includes(o) || {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]);
+		}
+		return i;
+	}
+
+//#endregion
 //#region src/templates/youtube.ts
+	const _excluded = ["videoId"];
 	[...document.querySelectorAll(".youtube")].map((element) => {
-		const { videoId, ...attributes } = element.dataset;
+		const _element$dataset = element.dataset, { videoId } = _element$dataset, attributes = _objectWithoutProperties(_element$dataset, _excluded);
 		const iframe = document.createElement("iframe");
 		iframe.setAttribute("width", String(560));
 		iframe.setAttribute("height", String(315));
