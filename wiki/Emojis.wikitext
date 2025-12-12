@@ -154,7 +154,7 @@ File:Emoji_Magic_Missile.png|Magic Missile (Effects, Premium)
 </gallery>
 
 ==== Vketchan Emoji ====
-This group of emoji is a part of the "[[List of Shop listings#Vket Winter 2025|Vketchan Emoji Pack]]" shop listing, available for {{Credits|400}} or {{Credits|360}} with VRC+ from December 5, 2025 to ???.
+This group of emoji is a part of the "[[List of Shop listings#Vket Winter 2025|Vketchan Emoji Pack]]" shop listing, available for {{Credits|400}} or {{Credits|360}} with VRC+ from December 5, 2025 to December 21, 2025.
 <gallery mode="nolines" heights="128">
 File:Emoji_Muy Muyiii.png|Muy Muyiii
 File:Emoji_Muy Yabai.png|Muy Yabai
@@ -179,7 +179,7 @@ File:Emoji_Snowball.png|Snowball (Effects, Premium)
 </gallery>
 
 ==Custom emoji==
-{{Infobox/Feature|name=Custom Emoji|platforms=|branch_live_date=27 Jun 2023|branch_live_version=2023.2.3p2|branch_live_releasenote=https://docs.vrchat.com/docs/vrchat-202323p2|branch_openbeta_date=22 Jun 2023|branch_openbeta_version=2023.2.4, build 1311}}
+{{Infobox/Feature|name=Custom Emoji|platforms=|branch_live_date=27 Jun 2023|branch_live_version=2023.2.3p2|branch_live_releasenote=[https://docs.vrchat.com/docs/vrchat-202323p2 2023.2.3p2] ([https://web.archive.org/web/20230627201753/https://docs.vrchat.com/docs/vrchat-202323p2 Archive.org])|branch_openbeta_date=22 Jun 2023|branch_openbeta_version=2023.2.4, build 1311|branch_openbeta_releasenote=[https://discord.com/channels/189511567539306508/503009489486872583/1121559508070707332 2023.2.4 Open Beta (Discord)]}}
 
 '''Custom Emoji''' is a feature through which users may upload up to 18 images and use them as emojis. Images, either taken within the client, from the user's gallery or uploaded from their machine, may be used to create emojis. After either taking or choosing an image, the user will be prompted to customize its appearance by editing various aspects of it, such as: the zoom, the rotation, and the panning.
 
@@ -226,6 +226,19 @@ Sprite sheets should be 1024px x 1024px with square frames in a uniform grid, or
 Once uploaded, the user can select the number of frames and the FPS. The number of frames selected will determine how the image is sliced: for 4 or fewer frames they are assumed to be 512x512, for 16 or fewer frames they are assumed to be 256x256, etc. If the sprite sheet has an irregular number of frames (e.g. 17) the sprite sheet must still be formatted with one of the above arrangements, and any additional unused frames (in this case, 64 - 17 = 47 of them) will not be shown.
 
 Default values for the number of frames and FPS can be set in the filename for easier sharing, for example "VRRatEmoji_14frames_20fps.png" (where the number of frames must be a number between 1 and 64).
+
+== Accessing emojis ==
+There are multiple ways to access emojis depending on the use case.
+
+===Placing emojis===
+Users can use emojis either by:
+* Opening the [[Action Menu]], then navigating through <code>Emojis & Stickers</code> '''>''' <code>Emojis</code> '''>''' <code>"Default Emoji"</code> or <code>"Custom Emojis"</code>, then select a emoji.
+* Using the wings on either the [[Main Menu]] or [[Quick Menu]], select <code>Emojis</code>, then select a emoji.
+
+===Managing emojis===
+Users can manage emojis either by:
+* Opening the Quick Menu, select the VRC+ tab, and then select the <code>Emoji</code> button.
+* Opening the Main Menu, select the <code>Inventory</code> tab, and then select the <code>Emoji</code> button.
 
 == Community resources ==
 {{Noticebox/Community}}
