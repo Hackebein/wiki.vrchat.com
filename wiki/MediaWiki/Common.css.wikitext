@@ -1,14 +1,3 @@
-/* CSS placed here will be applied to all skins */
-
-/* T-style like css. no longer needed: https://wiki.vrchat.com/index.php?title=Template:Infobox/styles.css&oldid=544
-@import url("/index.php?title=Template:Infobox/styles.css&action=raw&ctype=text/css");
-*/
-
-/* MAKE SURE THESE ARE NATIVE AT SOME POINT */
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("/index.php?title=Template:MainPageInfopush.css&action=raw&ctype=text/css");
-@import url("/index.php?title=MediaWiki:Spoiler.css&action=raw&ctype=text/css");
-
 a:not(.icon-none)[href^="https://ask.vrchat.com"], a:not(.icon-none)[href^="https://docs.vrchat.com/"] {
   background-image: var(--icon-url) !important;
   background-position: center left !important;
@@ -316,4 +305,100 @@ figure[typeof~="mw:File/Thumb"] > figcaption {
     .tux-messagetable-header {
         background: transparent;
     }
+}
+.tpl-infopush {
+	position: relative;
+	padding: 0 !important;
+	overflow: hidden;
+	aspect-ratio: 1024 / 312;
+	transform: translateX(0%);
+	grid-column: span 2 / span 2;
+}
+
+.tpl-infopush-content {
+	display: flex;
+	transition: transform 0.3s;
+	transform: translateX(0%);
+}
+
+.tpl-infopush-item, .tpl-infopush-item p {
+	margin: 0;
+	display: contents;
+}
+
+.tpl-infopush-item a {
+	width: 100%;
+	flex-shrink: 0;
+	background: none !important;
+	padding: 0 !important;
+}
+
+.tpl-infopush-item img {
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.tpl-infopush-navigation {
+	display: flex;
+	justify-content: space-between;
+	pointer-events: none;
+	position: absolute;
+	inset: 0;
+}
+
+.tpl-infopush-navigation-item {
+	height: 100%;
+	width: 15%;
+	cursor: pointer;
+	pointer-events: all;
+	background-size: 2rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0%;
+	transition: opacity 200ms;
+	background-color: #0006; /* 😺 darken section on hover */
+}
+
+.tpl-infopush-navigation-item:hover {
+	opacity: 100%;
+}
+
+.tpl-infopush-navigation-previous {
+	background-image: url("https://wiki-files.vrchat.com/Icons_Arrow_Left.png");
+}
+
+.tpl-infopush-navigation-next {
+	background-image: url("https://wiki-files.vrchat.com/Icons_Arrow_Right.png");
+}
+.spoiler {
+	position: relative;
+}
+
+.spoiler .spoiler-overlay {
+	position: absolute;
+	inset: 0;
+	background-color: var(--very-dark-grey);
+	display: flex;
+	border-radius: 8px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.spoiler .spoiler-overlay span {
+	margin: auto;
+	font-weight: 600;
+}
+
+.spoiler .spoiler-overlay, .spoiler .spoiler-content {
+	transition: opacity .25s;
+}
+
+.spoiler .spoiler-overlay, .spoiler[data-open] .spoiler-content {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.spoiler[data-open] .spoiler-overlay, .spoiler .spoiler-content {
+	opacity: 0;
+	pointer-events: none;
 }
