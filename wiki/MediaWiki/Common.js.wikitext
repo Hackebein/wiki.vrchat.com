@@ -1,53 +1,43 @@
 (() => {
-	var __defProp = Object.defineProperty;
-	var __esmMin = (fn, res) => () => (fn && (res = fn(fn = 0)), res);
-	var __export = (all, symbols) => {
-		let target = {};
-		for (var name in all) __defProp(target, name, {
-			get: all[name],
-			enumerable: true
+	var e = Object.defineProperty, __esmMin = (e, t) => () => (e && (t = e(e = 0)), t), __export = (t, n) => {
+		let r = {};
+		for (var i in t) e(r, i, {
+			get: t[i],
+			enumerable: !0
 		});
-		if (symbols) __defProp(target, Symbol.toStringTag, { value: "Module" });
-		return target;
+		return n && e(r, Symbol.toStringTag, { value: "Module" }), r;
 	};
-	function isPage(pages) {
-		const [pageName, pageLanguage] = mw.config.get("wgPageName").split("/");
-		if (!pageName || !pages.includes(pageName)) return false;
-		if (pageLanguage && mw.config.get("wgPageContentLanguage") != pageLanguage) return false;
-		return true;
+	function isPage(e) {
+		let [t, n] = mw.config.get("wgPageName").split("/");
+		return !(!t || !e.includes(t) || n && mw.config.get("wgPageContentLanguage") != n);
 	}
-	[...document.querySelectorAll(".spoiler")].map((container) => {
-		const overlay = container.querySelector(".spoiler-overlay");
-		overlay === null || overlay === void 0 || overlay.addEventListener("click", () => {
-			container.dataset.open = "";
+	[...document.querySelectorAll(".spoiler")].map((e) => {
+		e.querySelector(".spoiler-overlay")?.addEventListener("click", () => {
+			e.dataset.open = "";
 		});
 	});
-	function _objectWithoutPropertiesLoose(r, e) {
-		if (null == r) return {};
-		var t = {};
-		for (var n in r) if ({}.hasOwnProperty.call(r, n)) {
-			if (e.includes(n)) continue;
-			t[n] = r[n];
+	function _objectWithoutPropertiesLoose(e, t) {
+		if (e == null) return {};
+		var n = {};
+		for (var r in e) if ({}.hasOwnProperty.call(e, r)) {
+			if (t.includes(r)) continue;
+			n[r] = e[r];
 		}
-		return t;
+		return n;
 	}
 	function _objectWithoutProperties(e, t) {
-		if (null == e) return {};
-		var o, r, i = _objectWithoutPropertiesLoose(e, t);
+		if (e == null) return {};
+		var n, r, i = _objectWithoutPropertiesLoose(e, t);
 		if (Object.getOwnPropertySymbols) {
-			var s = Object.getOwnPropertySymbols(e);
-			for (r = 0; r < s.length; r++) o = s[r], t.includes(o) || {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]);
+			var a = Object.getOwnPropertySymbols(e);
+			for (r = 0; r < a.length; r++) n = a[r], t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (i[n] = e[n]);
 		}
 		return i;
 	}
-	var _excluded = ["videoId"];
-	[...document.querySelectorAll(".youtube")].map((element) => {
-		const _element$dataset = element.dataset, { videoId } = _element$dataset, attributes = _objectWithoutProperties(_element$dataset, _excluded);
-		const iframe = document.createElement("iframe");
-		iframe.setAttribute("width", String(560));
-		iframe.setAttribute("height", String(315));
-		iframe.setAttribute("frameborder", String(0));
-		iframe.setAttribute("allow", [
+	var t = ["videoId"];
+	[...document.querySelectorAll(".youtube")].map((e) => {
+		let n = e.dataset, { videoId: r } = n, i = _objectWithoutProperties(n, t), a = document.createElement("iframe");
+		a.setAttribute("width", "560"), a.setAttribute("height", "315"), a.setAttribute("frameborder", "0"), a.setAttribute("allow", [
 			"accelerometer",
 			"autoplay",
 			"clipboard-write",
@@ -55,168 +45,120 @@
 			"gyroscope",
 			"picture-in-picture",
 			"web-share"
-		].join("; "));
-		iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
-		iframe.setAttribute("allowfullscreen", String(true));
-		Object.entries(attributes).map(([key, value]) => value && iframe.setAttribute(key, value));
-		iframe.setAttribute("style", element.getAttribute("style") || "");
-		iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?rel=0`;
-		element.replaceWith(iframe);
+		].join("; ")), a.setAttribute("referrerpolicy", "strict-origin-when-cross-origin"), a.setAttribute("allowfullscreen", "true"), Object.entries(i).map(([e, t]) => t && a.setAttribute(e, t)), a.setAttribute("style", e.getAttribute("style") || ""), a.src = `https://www.youtube-nocookie.com/embed/${r}?rel=0`, e.replaceWith(a);
 	});
-	const __vitePreload = function preload(baseModule, deps, importerUrl) {
-		let promise = Promise.resolve();
-		function handlePreloadError(err$2) {
-			const e$1 = new Event("vite:preloadError", { cancelable: true });
-			e$1.payload = err$2;
-			window.dispatchEvent(e$1);
-			if (!e$1.defaultPrevented) throw err$2;
+	let __vitePreload = function(e, t, n) {
+		let r = Promise.resolve();
+		function handlePreloadError(e) {
+			let t = new Event("vite:preloadError", { cancelable: !0 });
+			if (t.payload = e, window.dispatchEvent(t), !t.defaultPrevented) throw e;
 		}
-		return promise.then((res) => {
-			for (const item of res || []) {
-				if (item.status !== "rejected") continue;
-				handlePreloadError(item.reason);
-			}
-			return baseModule().catch(handlePreloadError);
+		return r.then((t) => {
+			for (let e of t || []) e.status === "rejected" && handlePreloadError(e.reason);
+			return e().catch(handlePreloadError);
 		});
 	};
-	function getArticleFromElement(element) {
-		const { articleId, articleTitle, articleContent } = element.dataset;
-		if (!articleId || !articleTitle || !articleContent) return null;
-		return {
-			id: articleId,
-			title: articleTitle,
-			content: atob(articleContent)
+	function getArticleFromElement(e) {
+		let { articleId: t, articleTitle: n, articleContent: r } = e.dataset;
+		return !t || !n || !r ? null : {
+			id: t,
+			title: n,
+			content: atob(r)
 		};
 	}
-	var ArticleDialog;
-	var init_article = __esmMin((() => {
+	var ArticleDialog, n = __esmMin((() => {
 		ArticleDialog = class extends OO.ui.ProcessDialog {
-			constructor(article) {
-				super({ size: "large" });
-				this.article = article;
+			constructor(e) {
+				super({
+					size: "large",
+					data: { title: e.title }
+				}), this.article = e;
 			}
 			initialize() {
 				super.initialize();
-				const content = new OO.ui.PanelLayout({
-					expanded: false,
-					padded: true,
-					scrollable: true
+				let e = new OO.ui.PanelLayout({
+					expanded: !1,
+					padded: !0,
+					scrollable: !0
 				});
-				content.$element.append(this.article.htmlContent);
-				this.$content.append(content.$element);
-				return this;
+				return e.$element.append(this.article.content), this.$body.append(e.$element), this;
 			}
-			getActionProcess(action) {
-				switch (action) {
+			getActionProcess(e) {
+				switch (e) {
 					case "close": return new OO.ui.Process(() => {
 						this.close({ action: "close" });
 					});
 				}
-				return super.getActionProcess(action);
+				return super.getActionProcess(e);
 			}
-		};
-		ArticleDialog.static.name = ArticleDialog.name;
-		ArticleDialog.static.title = "Article Aaa";
-		ArticleDialog.static.actions = [{
+		}, ArticleDialog.static.name = ArticleDialog.name, ArticleDialog.static.actions = [{
 			action: "close",
 			flags: "safe",
 			icon: "close",
 			label: "Close"
 		}];
-	}));
-	var init_infopush$1 = __esmMin((() => {}));
-	function asyncGeneratorStep(n, t, e, r, o, a, c) {
+	})), r = __esmMin((() => {}));
+	function asyncGeneratorStep(e, t, n, r, i, a, o) {
 		try {
-			var i = n[a](c), u = i.value;
-		} catch (n$1) {
-			e(n$1);
+			var s = e[a](o), c = s.value;
+		} catch (e) {
+			n(e);
 			return;
 		}
-		i.done ? t(u) : Promise.resolve(u).then(r, o);
+		s.done ? t(c) : Promise.resolve(c).then(r, i);
 	}
-	function _asyncToGenerator(n) {
+	function _asyncToGenerator(e) {
 		return function() {
-			var t = this, e = arguments;
-			return new Promise(function(r, o) {
-				var a = n.apply(t, e);
-				function _next(n$1) {
-					asyncGeneratorStep(a, r, o, _next, _throw, "next", n$1);
+			var t = this, n = arguments;
+			return new Promise(function(r, i) {
+				var a = e.apply(t, n);
+				function _next(e) {
+					asyncGeneratorStep(a, r, i, _next, _throw, "next", e);
 				}
-				function _throw(n$1) {
-					asyncGeneratorStep(a, r, o, _next, _throw, "throw", n$1);
+				function _throw(e) {
+					asyncGeneratorStep(a, r, i, _next, _throw, "throw", e);
 				}
 				_next(void 0);
 			});
 		};
 	}
-	var init_asyncToGenerator = __esmMin((() => {}));
-	var infopush_exports = /* @__PURE__ */ __export({}, 1);
-	var infopushes, windowManager;
-	var init_infopush = __esmMin((() => {
-		init_article();
-		init_infopush$1();
-		init_asyncToGenerator();
-		infopushes = document.querySelectorAll(".tpl-infopush");
-		console.log({ infopushes });
-		windowManager = new OO.ui.WindowManager();
-		$(document.body).append(windowManager.$element);
-		for (const infopush of infopushes) {
-			const content = infopush.querySelector(".tpl-infopush-content");
-			const items = content.querySelectorAll(".tpl-infopush-item");
-			const total = items.length;
-			for (const item of items) {
-				if (!!item.querySelector("a")) continue;
-				const article = getArticleFromElement(item);
-				if (!article) continue;
-				item.style.cursor = "pointer";
-				item.addEventListener("click", _asyncToGenerator(function* () {
-					if (!windowManager.getWindow(article.id)) {
-						const articleDialog = new ArticleDialog(article);
-						windowManager.addWindows({ [article.id]: articleDialog });
+	var i = __esmMin((() => {})), a = /* @__PURE__ */ __export({}, 1), o, s, c = __esmMin((() => {
+		n(), r(), i(), o = document.querySelectorAll(".tpl-infopush"), console.log({ infopushes: o }), s = new OO.ui.WindowManager(), $(document.body).append(s.$element);
+		for (let e of o) {
+			let t = e.querySelector(".tpl-infopush-content"), n = t.querySelectorAll(".tpl-infopush-item"), r = n.length;
+			for (let e of n) {
+				if (e.querySelector("a")) continue;
+				let t = getArticleFromElement(e);
+				t && (e.style.cursor = "pointer", e.addEventListener("click", _asyncToGenerator(function* () {
+					if (!(yield s.getWindow(t.id).then(() => !0).catch(() => !1))) {
+						let e = new ArticleDialog(t);
+						s.addWindows({ [t.id]: e });
 					}
-					yield windowManager.openWindow(article.id);
-				}));
+					yield s.openWindow(t.id).opening;
+				})));
 			}
-			const navigation = infopush.querySelector(".tpl-infopush-navigation");
-			let currentOffset = 0;
-			function showSlide(index) {
-				currentOffset = (index + total) % total;
-				content.style.transform = `translateX(-${currentOffset * 100}%)`;
+			let i = e.querySelector(".tpl-infopush-navigation"), a = 0;
+			function showSlide(e) {
+				a = (e + r) % r, t.style.transform = `translateX(-${a * 100}%)`;
 			}
-			const autoAdvanceEvery = 5e3;
-			let autoAdvanceInterval;
+			let o;
 			function resetAutoAdvance() {
-				if (autoAdvanceInterval) clearInterval(autoAdvanceInterval);
-				autoAdvanceInterval = setInterval(function() {
-					showSlide(currentOffset + 1);
-				}, autoAdvanceEvery);
+				o && clearInterval(o), o = setInterval(function() {
+					showSlide(a + 1);
+				}, 5e3);
 			}
-			navigation.querySelector(".tpl-infopush-navigation-previous").addEventListener("click", () => {
-				showSlide(currentOffset - 1);
-				resetAutoAdvance();
-			});
-			navigation.querySelector(".tpl-infopush-navigation-next").addEventListener("click", () => {
-				showSlide(currentOffset + 1);
-				resetAutoAdvance();
-			});
-			resetAutoAdvance();
-			showSlide(0);
+			i.querySelector(".tpl-infopush-navigation-previous").addEventListener("click", () => {
+				showSlide(a - 1), resetAutoAdvance();
+			}), i.querySelector(".tpl-infopush-navigation-next").addEventListener("click", () => {
+				showSlide(a + 1), resetAutoAdvance();
+			}), resetAutoAdvance(), showSlide(0);
 		}
 	}));
-	if (isPage(["Template:MainPageInfopush", "Main_Page"])) mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).then(() => __vitePreload(() => Promise.resolve().then(() => (init_infopush(), infopush_exports)), void 0, {}.url));
-	var script = document.createElement("script");
-	script.setAttribute("defer", "defer");
-	script.setAttribute("data-domain", "wiki.vrchat.com");
-	script.setAttribute("event-page-name", mw.config.get("wgTitle"));
-	script.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
-	var namespaces = mw.config.get("wgFormattedNamespaces");
-	script.setAttribute("event-page-namespace", namespaces[mw.config.get("wgNamespaceNumber")]);
-	script.setAttribute("event-theme", mw.config.get("skin"));
-	script.setAttribute("event-action", mw.config.get("wgAction"));
-	script.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
-	var wgUserGroups = mw.config.get("wgUserGroups");
-	var maintainer = wgUserGroups.includes("community-mod") || wgUserGroups.includes("moderator") || wgUserGroups.includes("sysop");
-	script.setAttribute("event-is-maintainer", String(maintainer));
-	script.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
-	document.head.appendChild(script);
+	isPage(["Template:MainPageInfopush", "Main_Page"]) && mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).then(() => __vitePreload(() => Promise.resolve().then(() => (c(), a)), void 0, {}.url));
+	var l = document.createElement("script");
+	l.setAttribute("defer", "defer"), l.setAttribute("data-domain", "wiki.vrchat.com"), l.setAttribute("event-page-name", mw.config.get("wgTitle")), l.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
+	var u = mw.config.get("wgFormattedNamespaces");
+	l.setAttribute("event-page-namespace", u[mw.config.get("wgNamespaceNumber")]), l.setAttribute("event-theme", mw.config.get("skin")), l.setAttribute("event-action", mw.config.get("wgAction")), l.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
+	var d = mw.config.get("wgUserGroups"), f = d.includes("community-mod") || d.includes("moderator") || d.includes("sysop");
+	l.setAttribute("event-is-maintainer", String(f)), l.src = "https://plausible.io/js/script.pageview-props.outbound-links.js", document.head.appendChild(l);
 })();
