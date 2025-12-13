@@ -1,1 +1,222 @@
-(()=>{var e=Object.defineProperty,t=(e,t)=>()=>(e&&(t=e(e=0)),t),n=(t,n)=>{let r={};for(var i in t)e(r,i,{get:t[i],enumerable:!0});return n&&e(r,Symbol.toStringTag,{value:`Module`}),r};function r(e){let[t,n]=mw.config.get(`wgPageName`).split(`/`);return!(!t||!e.includes(t)||n&&mw.config.get(`wgPageContentLanguage`)!=n)}[...document.querySelectorAll(`.spoiler`)].map(e=>{let t=e.querySelector(`.spoiler-overlay`);t==null||t.addEventListener(`click`,()=>{e.dataset.open=``})});function i(e,t){if(e==null)return{};var n={};for(var r in e)if({}.hasOwnProperty.call(e,r)){if(t.includes(r))continue;n[r]=e[r]}return n}function a(e,t){if(e==null)return{};var n,r,a=i(e,t);if(Object.getOwnPropertySymbols){var o=Object.getOwnPropertySymbols(e);for(r=0;r<o.length;r++)n=o[r],t.includes(n)||{}.propertyIsEnumerable.call(e,n)&&(a[n]=e[n])}return a}var o=[`videoId`];[...document.querySelectorAll(`.youtube`)].map(e=>{let t=e.dataset,{videoId:n}=t,r=a(t,o),i=document.createElement(`iframe`);i.setAttribute(`width`,`560`),i.setAttribute(`height`,`315`),i.setAttribute(`frameborder`,`0`),i.setAttribute(`allow`,[`accelerometer`,`autoplay`,`clipboard-write`,`encrypted-media`,`gyroscope`,`picture-in-picture`,`web-share`].join(`; `)),i.setAttribute(`referrerpolicy`,`strict-origin-when-cross-origin`),i.setAttribute(`allowfullscreen`,`true`),Object.entries(r).map(([e,t])=>t&&i.setAttribute(e,t)),i.setAttribute(`style`,e.getAttribute(`style`)||``),i.src=`https://www.youtube-nocookie.com/embed/${n}?rel=0`,e.replaceWith(i)});let s=function(e,t,n){let r=Promise.resolve();function i(e){let t=new Event(`vite:preloadError`,{cancelable:!0});if(t.payload=e,window.dispatchEvent(t),!t.defaultPrevented)throw e}return r.then(t=>{for(let e of t||[])e.status===`rejected`&&i(e.reason);return e().catch(i)})};function c(e){let{articleId:t,articleTitle:n,articleContent:r}=e.dataset;return!t||!n||!r?null:{id:t,title:n,content:atob(r)}}var l,u=t((()=>{l=class extends OO.ui.ProcessDialog{constructor(e){super({size:`large`}),this.article=e}initialize(){super.initialize();let e=new OO.ui.PanelLayout({expanded:!1,padded:!0,scrollable:!0});return e.$element.append(this.article.htmlContent),this.$content.append(e.$element),this}getActionProcess(e){switch(e){case`close`:return new OO.ui.Process(()=>{this.close({action:`close`})})}return super.getActionProcess(e)}},l.static.name=l.name,l.static.title=`Article Aaa`,l.static.actions=[{action:`close`,flags:`safe`,icon:`close`,label:`Close`}]})),d=t((()=>{}));function f(e,t,n,r,i,a,o){try{var s=e[a](o),c=s.value}catch(e){n(e);return}s.done?t(c):Promise.resolve(c).then(r,i)}function p(e){return function(){var t=this,n=arguments;return new Promise(function(r,i){var a=e.apply(t,n);function o(e){f(a,r,i,o,s,`next`,e)}function s(e){f(a,r,i,o,s,`throw`,e)}o(void 0)})}}var m=t((()=>{})),h=n({},1),g,_,v=t((()=>{u(),d(),m(),g=document.querySelectorAll(`.tpl-infopush`),_=new OO.ui.WindowManager,$(document.body).append(_.$element);for(let e of g){let t=e.querySelector(`.tpl-infopush-content`),n=t.querySelectorAll(`.tpl-infopush-item`),r=n.length;for(let e of n){if(e.querySelector(`a`))continue;let t=c(e);t&&(e.style.cursor=`pointer`,e.addEventListener(`click`,p(function*(){if(!_.getWindow(t.id)){let e=new l(t);_.addWindows({[t.id]:e})}yield _.openWindow(t.id)})))}let i=e.querySelector(`.tpl-infopush-navigation`),a=0;function o(e){a=(e+r)%r,t.style.transform=`translateX(-${a*100}%)`}let s;function u(){s&&clearInterval(s),s=setInterval(function(){o(a+1)},5e3)}i.querySelector(`.tpl-infopush-navigation-previous`).addEventListener(`click`,()=>{o(a-1),u()}),i.querySelector(`.tpl-infopush-navigation-next`).addEventListener(`click`,()=>{o(a+1),u()}),u(),o(0)}}));r([`Template:MainPageInfopush`,`Main_Page`])&&mw.loader.using([`oojs-ui-core`,`oojs-ui-windows`]).then(()=>s(()=>Promise.resolve().then(()=>(v(),h)),void 0,{}.url));var y=document.createElement(`script`);y.setAttribute(`defer`,`defer`),y.setAttribute(`data-domain`,`wiki.vrchat.com`),y.setAttribute(`event-page-name`,mw.config.get(`wgTitle`)),y.setAttribute(`event-page-language`,mw.config.get(`wgPageContentLanguage`));var b=mw.config.get(`wgFormattedNamespaces`);y.setAttribute(`event-page-namespace`,b[mw.config.get(`wgNamespaceNumber`)]),y.setAttribute(`event-theme`,mw.config.get(`skin`)),y.setAttribute(`event-action`,mw.config.get(`wgAction`)),y.setAttribute(`event-is-logged-in`,String(mw.config.get(`wgUserName`)!==null));var x=mw.config.get(`wgUserGroups`),S=x.includes(`community-mod`)||x.includes(`moderator`)||x.includes(`sysop`);y.setAttribute(`event-is-maintainer`,String(S)),y.src=`https://plausible.io/js/script.pageview-props.outbound-links.js`,document.head.appendChild(y)})();
+(() => {
+	var __defProp = Object.defineProperty;
+	var __esmMin = (fn, res) => () => (fn && (res = fn(fn = 0)), res);
+	var __export = (all, symbols) => {
+		let target = {};
+		for (var name in all) __defProp(target, name, {
+			get: all[name],
+			enumerable: true
+		});
+		if (symbols) __defProp(target, Symbol.toStringTag, { value: "Module" });
+		return target;
+	};
+	function isPage(pages) {
+		const [pageName, pageLanguage] = mw.config.get("wgPageName").split("/");
+		if (!pageName || !pages.includes(pageName)) return false;
+		if (pageLanguage && mw.config.get("wgPageContentLanguage") != pageLanguage) return false;
+		return true;
+	}
+	[...document.querySelectorAll(".spoiler")].map((container) => {
+		const overlay = container.querySelector(".spoiler-overlay");
+		overlay === null || overlay === void 0 || overlay.addEventListener("click", () => {
+			container.dataset.open = "";
+		});
+	});
+	function _objectWithoutPropertiesLoose(r, e) {
+		if (null == r) return {};
+		var t = {};
+		for (var n in r) if ({}.hasOwnProperty.call(r, n)) {
+			if (e.includes(n)) continue;
+			t[n] = r[n];
+		}
+		return t;
+	}
+	function _objectWithoutProperties(e, t) {
+		if (null == e) return {};
+		var o, r, i = _objectWithoutPropertiesLoose(e, t);
+		if (Object.getOwnPropertySymbols) {
+			var s = Object.getOwnPropertySymbols(e);
+			for (r = 0; r < s.length; r++) o = s[r], t.includes(o) || {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]);
+		}
+		return i;
+	}
+	var _excluded = ["videoId"];
+	[...document.querySelectorAll(".youtube")].map((element) => {
+		const _element$dataset = element.dataset, { videoId } = _element$dataset, attributes = _objectWithoutProperties(_element$dataset, _excluded);
+		const iframe = document.createElement("iframe");
+		iframe.setAttribute("width", String(560));
+		iframe.setAttribute("height", String(315));
+		iframe.setAttribute("frameborder", String(0));
+		iframe.setAttribute("allow", [
+			"accelerometer",
+			"autoplay",
+			"clipboard-write",
+			"encrypted-media",
+			"gyroscope",
+			"picture-in-picture",
+			"web-share"
+		].join("; "));
+		iframe.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+		iframe.setAttribute("allowfullscreen", String(true));
+		Object.entries(attributes).map(([key, value]) => value && iframe.setAttribute(key, value));
+		iframe.setAttribute("style", element.getAttribute("style") || "");
+		iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?rel=0`;
+		element.replaceWith(iframe);
+	});
+	const __vitePreload = function preload(baseModule, deps, importerUrl) {
+		let promise = Promise.resolve();
+		function handlePreloadError(err$2) {
+			const e$1 = new Event("vite:preloadError", { cancelable: true });
+			e$1.payload = err$2;
+			window.dispatchEvent(e$1);
+			if (!e$1.defaultPrevented) throw err$2;
+		}
+		return promise.then((res) => {
+			for (const item of res || []) {
+				if (item.status !== "rejected") continue;
+				handlePreloadError(item.reason);
+			}
+			return baseModule().catch(handlePreloadError);
+		});
+	};
+	function getArticleFromElement(element) {
+		const { articleId, articleTitle, articleContent } = element.dataset;
+		if (!articleId || !articleTitle || !articleContent) return null;
+		return {
+			id: articleId,
+			title: articleTitle,
+			content: atob(articleContent)
+		};
+	}
+	var ArticleDialog;
+	var init_article = __esmMin((() => {
+		ArticleDialog = class extends OO.ui.ProcessDialog {
+			constructor(article) {
+				super({ size: "large" });
+				this.article = article;
+			}
+			initialize() {
+				super.initialize();
+				const content = new OO.ui.PanelLayout({
+					expanded: false,
+					padded: true,
+					scrollable: true
+				});
+				content.$element.append(this.article.htmlContent);
+				this.$content.append(content.$element);
+				return this;
+			}
+			getActionProcess(action) {
+				switch (action) {
+					case "close": return new OO.ui.Process(() => {
+						this.close({ action: "close" });
+					});
+				}
+				return super.getActionProcess(action);
+			}
+		};
+		ArticleDialog.static.name = ArticleDialog.name;
+		ArticleDialog.static.title = "Article Aaa";
+		ArticleDialog.static.actions = [{
+			action: "close",
+			flags: "safe",
+			icon: "close",
+			label: "Close"
+		}];
+	}));
+	var init_infopush$1 = __esmMin((() => {}));
+	function asyncGeneratorStep(n, t, e, r, o, a, c) {
+		try {
+			var i = n[a](c), u = i.value;
+		} catch (n$1) {
+			e(n$1);
+			return;
+		}
+		i.done ? t(u) : Promise.resolve(u).then(r, o);
+	}
+	function _asyncToGenerator(n) {
+		return function() {
+			var t = this, e = arguments;
+			return new Promise(function(r, o) {
+				var a = n.apply(t, e);
+				function _next(n$1) {
+					asyncGeneratorStep(a, r, o, _next, _throw, "next", n$1);
+				}
+				function _throw(n$1) {
+					asyncGeneratorStep(a, r, o, _next, _throw, "throw", n$1);
+				}
+				_next(void 0);
+			});
+		};
+	}
+	var init_asyncToGenerator = __esmMin((() => {}));
+	var infopush_exports = /* @__PURE__ */ __export({}, 1);
+	var infopushes, windowManager;
+	var init_infopush = __esmMin((() => {
+		init_article();
+		init_infopush$1();
+		init_asyncToGenerator();
+		infopushes = document.querySelectorAll(".tpl-infopush");
+		console.log({ infopushes });
+		windowManager = new OO.ui.WindowManager();
+		$(document.body).append(windowManager.$element);
+		for (const infopush of infopushes) {
+			const content = infopush.querySelector(".tpl-infopush-content");
+			const items = content.querySelectorAll(".tpl-infopush-item");
+			const total = items.length;
+			for (const item of items) {
+				if (!!item.querySelector("a")) continue;
+				const article = getArticleFromElement(item);
+				if (!article) continue;
+				item.style.cursor = "pointer";
+				item.addEventListener("click", _asyncToGenerator(function* () {
+					if (!windowManager.getWindow(article.id)) {
+						const articleDialog = new ArticleDialog(article);
+						windowManager.addWindows({ [article.id]: articleDialog });
+					}
+					yield windowManager.openWindow(article.id);
+				}));
+			}
+			const navigation = infopush.querySelector(".tpl-infopush-navigation");
+			let currentOffset = 0;
+			function showSlide(index) {
+				currentOffset = (index + total) % total;
+				content.style.transform = `translateX(-${currentOffset * 100}%)`;
+			}
+			const autoAdvanceEvery = 5e3;
+			let autoAdvanceInterval;
+			function resetAutoAdvance() {
+				if (autoAdvanceInterval) clearInterval(autoAdvanceInterval);
+				autoAdvanceInterval = setInterval(function() {
+					showSlide(currentOffset + 1);
+				}, autoAdvanceEvery);
+			}
+			navigation.querySelector(".tpl-infopush-navigation-previous").addEventListener("click", () => {
+				showSlide(currentOffset - 1);
+				resetAutoAdvance();
+			});
+			navigation.querySelector(".tpl-infopush-navigation-next").addEventListener("click", () => {
+				showSlide(currentOffset + 1);
+				resetAutoAdvance();
+			});
+			resetAutoAdvance();
+			showSlide(0);
+		}
+	}));
+	if (isPage(["Template:MainPageInfopush", "Main_Page"])) mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).then(() => __vitePreload(() => Promise.resolve().then(() => (init_infopush(), infopush_exports)), void 0, {}.url));
+	var script = document.createElement("script");
+	script.setAttribute("defer", "defer");
+	script.setAttribute("data-domain", "wiki.vrchat.com");
+	script.setAttribute("event-page-name", mw.config.get("wgTitle"));
+	script.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
+	var namespaces = mw.config.get("wgFormattedNamespaces");
+	script.setAttribute("event-page-namespace", namespaces[mw.config.get("wgNamespaceNumber")]);
+	script.setAttribute("event-theme", mw.config.get("skin"));
+	script.setAttribute("event-action", mw.config.get("wgAction"));
+	script.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
+	var wgUserGroups = mw.config.get("wgUserGroups");
+	var maintainer = wgUserGroups.includes("community-mod") || wgUserGroups.includes("moderator") || wgUserGroups.includes("sysop");
+	script.setAttribute("event-is-maintainer", String(maintainer));
+	script.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
+	document.head.appendChild(script);
+})();
