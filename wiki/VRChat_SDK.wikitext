@@ -5,18 +5,17 @@
 
 
 <!--T:1-->
-VRChat is a platform that runs off of the Unity engine. Users can create and upload worlds and avatars using the VRChat Software Development Kit (SDK), by starting a project from within the [[Special:MyLanguage/VRChat Creator Companion|Creator Companion]]. Projects can be made for either [[Special:MyLanguage/Avatars|Avatars]] or [[Special:MyLanguage/Worlds|Worlds]] using the latest Unity and SDK versions, guided by the Creator Companion. You can acquire the Creator Companion by signing into your VRChat account on the website, and {{VRC link|https://vrchat.com/home/download|downloading it}}. Your account must be at the ''New User'' [[Special:MyLanguage/Trust Rank|Trust Rank]], or greater to gain access to the official VRChat software, and to upload any content.
+VRChat is a platform that runs off of the Unity engine. Users can create and upload worlds and avatars using the VRChat Software Development Kit (SDK), by starting a project from within the [[Special:MyLanguage/VRChat Creator Companion|Creator Companion]]. Projects can be made for either [[Special:MyLanguage/Avatars|Avatars]] or [[Special:MyLanguage/Worlds|Worlds]] using the latest Unity and SDK versions, guided by the Creator Companion. You can acquire the Creator Companion by signing into your VRChat account on the website, and {{VRC link|https://vrchat.com/home/download|downloading it}}. Your account must be at the ''"New User''" [[Special:MyLanguage/Trust Rank|Trust Rank]], or greater to upload any content.
 
 <!--T:2-->
 If it's your first time using Unity, the {{VRC link|https://vcc.docs.vrchat.com/|Creator Companion}}, or the {{VRC link|https://creators.vrchat.com/sdk/|SDK}}, there are several official and community tutorials to follow, which aid the process on creating and uploading the content that you want. Using the Creator Companion will install Unity, as well as install and update the required World or Avatar SDKs.
 
 <!--T:3-->
 {| class="wikitable"
-|+
 !Software
 !Version
 |-
-|VRChat build
+|VRChat
 |{{Template:Version|live}}
 |-
 |Client build
@@ -28,7 +27,7 @@ If it's your first time using Unity, the {{VRC link|https://vcc.docs.vrchat.com/
 |Avatars SDK
 |{{Template:Version|sdk-avatars}}
 |-
-|VCC
+|Creator Companion
 |{{Template:Version|creator-companion}}
 |-
 |Unity
