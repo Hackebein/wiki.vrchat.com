@@ -1,53 +1,72 @@
-{{Stub|Not much information here! Please expand and proofread, in reference to [[VRCWiki:Manual_of_Style|Manual of Style]].}}
 [[File:Station in unity.webp|thumb|Station example in unity.]]
-'''Stations''', or colloquially known as ''seats'', or ''chairs'' are interactive assets in the VRChat World, and Avatar [[SDK]], allowing a user to be seated in the assigned spot. Stations primarily serve the function of being used as chairs but can also be used to build vehicles, manipulate the player's position and rotation or override the player's animations with a custom animation controller.
+'''Stations''' (often called '''seats''' or '''chairs''') are interactive objects that place a user at a defined position and rotation, optionally applying seated IK and/or custom animations. Stations are commonly used in [[worlds]], and can also be used on [[avatars]] to create attachable seats. 
 
-== Parameters ==
+== Overview ==
+A Station is typically implemented with a creator component that users interact with to "sit" (enter the station). When a user enters a station, the station can:
+* Move the user to a defined entry transform.
+* Optionally treat the user as seated (seated IK) and/or apply a custom animation controller.
+* Optionally restrict movement/exit or allow switching between stations.
+
+== General behavior ==
+=== Entering ===
+Stations require an interactable area. A Collider on the same GameObject is used as the click/interaction area. A Box Collider may be added automatically if none exists.
+
+=== Exiting ===
+By default, users can typically leave a station by moving. Disabling the Station's GameObject will remove (unseat) users currently using it. Disabling only the Collider prevents new users from entering, but does not remove the current user.
+
+== World ==
+=== Adding a Station in a world ===
+In worlds, Stations are commonly used for chairs, ride seats, and vehicle/ride systems that reposition the user. 
+
+=== Component options ===
+The VRC_Station component provides the following commonly used options:
 {| class="wikitable"
-|+
-!Parameter
-!Description
-!Options
+! Option
+! Description
 |-
-|Player Mobility
-|Determines if the Player can move while seated.
-|Mobile, Immobilize, Immobilize for Vehicle
+| Player Mobility
+| Controls whether the user can move while in the station (Mobile / Immobilize / Immobilize For Vehicle).
 |-
-|Can use Station from Station
-|Allows the user to switch stations whilst seated.
-|True/False
+| Can Use Station From Station
+| Whether a user can switch directly into another station while currently seated.
 |-
-|Animation Controller (optional)
-|Overrides the player's animations whilst seated.
-|Animation Controller
+| Animation Controller (optional)
+| Overrides the default seating animation with a custom controller.
 |-
-|Disable Station Exit
-|Disallows the player from exiting by normal means.
-|True/False
+| Disable Station Exit
+| Prevents exiting by usual means; creators must provide an explicit way to unseat.
 |-
-|Seated
-|Should the player be seated in the station
-|True/False
+| Seated
+| Enables seated behavior (also affects the avatar `Seated` parameter when used).
 |-
-|Station Enter Player Location
-|Transform that determines where the player should be seated.
-|Transform
+| Station Enter Player Location
+| Transform used as the user's position when entering.
 |-
-|Station Exit Player Location
-|Transform that determines where the player should be unseated.
-|Transform
+| Station Exit Player Location
+| Transform used as the user's position when exiting.
 |-
-|Controls Object
-|Determine an object controlled by the station such as a vehicle
-|GameObject
+| Controls Object
+| Allows the seated user to control a target object (for example, a vehicle seat).
 |}
 
-== Trivia ==
+=== Animator integration ===
+Stations can drive Animator logic using built-in parameters:
+* `InStation`: true when the avatar is using a station (even if seated [[IK]] is not enabled).
+* `Seated`: true when seated [[IK]] is enabled (only when the station's ''Seated'' option is enabled).
+* `AvatarVersion`: may be used to branch behavior for SDK2 avatars vs SDK3 avatars.<ref>VRChat's documentation notes that stations behave differently for avatars uploaded with older [[SDK]] versions, and recommends using `AvatarVersion` and `InStation` to branch seated animation logic. See {{VRC link|https://creators.vrchat.com/worlds/components/vrc_station/#detecting-sdk2-avatars| VRC Station - Detecting SDK2 Avatars}} - on [[Creators.vrchat.com|''creators.vrchat.com'']]</ref>
 
-* Stations were mistakenly enabled on avatars sometime before May 11th 2018, before being disabled on the May 12th 2018 update (2018.1.2) as it was a planned feature released early<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297815713 "VRChat 2018.1.2"] on ''[https://store.steampowered.com/news/app/438100 Steam News Hub]''. Dated May 10 2018. Retrieved December 7, 2024.</ref>
+== Avatar ==
+Stations can also be placed on avatars to create "seats" that move with the avatar. 
+
+=== Notes and limitations ===
+* Avatars can have up to 6 stations; additional stations are disabled.
+* Some station settings are less useful on avatars because walking typically exits the station, and "Disable Station Exit" may not behave as expected on avatar stations.
+
+== See also ==
+* [[Udon]]
 
 == Official resources ==
-
 * {{VRC link|https://creators.vrchat.com/worlds/components/vrc_station| VRC Station}} - on [[Creators.vrchat.com|''creators.vrchat.com'']]
 
 == References ==
+<references/>
