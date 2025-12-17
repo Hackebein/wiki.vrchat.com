@@ -388,6 +388,10 @@ They must also be reset to false before they can be used again: sending a <code>
 | <code>,T</code>
 | Toggle Microphone (in Push-To-Talk Mode, false = "muted" and true = "unmuted")
 |-
+| <code>/input/ShowDebugInfo0</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
+| <code>,T</code>
+| Displays some debugging visualizations for VRC_UiShapes (interactable UIs) [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+|-
 | <code>/input/ShowDebugInfo1</code>
 | <code>,T</code>
 | Displays information about loaded asset bundles (mostly irrelevant to world development)
@@ -418,13 +422,13 @@ They must also be reset to false before they can be used again: sending a <code>
 |-
 | <code>/input/ShowDebugInfo8</code>
 | <code>,T</code>
-| Overlays a panel on top of every synced object in the world; ach panel displays various stats about that specific object [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| Overlays a panel on top of every synced object in the world; Each panel displays various stats about that specific object [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
 |-
 | <code>/input/ShowDebugInfo9</code>
 | <code>,T</code>
 | Displays debug stats for every player in the instance at their feet [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
 |}
-The <code>/input/ShowDebugInfo[1-9]</code> endpoints are for [https://creators.vrchat.com/worlds/udon/world-debug-views/ World Debug Views]
+The <code>/input/ShowDebugInfo[0-9]</code> endpoints are for [https://creators.vrchat.com/worlds/udon/world-debug-views/ World Debug Views]
 
 <span id="input-smooth">'''&ast;'''</span> ''smooth-turn in Desktop; will snap-turn in VR when value 1 or true if Comfort Turning is on''
 
@@ -931,7 +935,7 @@ All [[Camera Dolly#OSC integration|Dolly]] OSC endpoints are write-only unless o
 <span id="osc-limbo">'''&Dagger;'''</span> ''Present on the VRChat Docs page, but missing from the client OSCQuery response''
 
 == OSC ports ==
-VRChat uses [https://docs.vrchat.com/docs/osc-overview#vrchat-ports two UDP ports] for OSC communication and one TCP port for OSCQuery on localhost (<code>127.0.0.1</code>):
+VRChat uses [https://docs.vrchat.com/docs/osc-overview#vrchat-ports two UDP ports] for OSC communication, one TCP port for an OSCQuery HTTP server on localhost (<code>127.0.0.1</code>), and one UDP port for mDNS Service Discovery:
 {| class="wikitable"
 ! Port
 ! Direction
@@ -948,6 +952,10 @@ VRChat uses [https://docs.vrchat.com/docs/osc-overview#vrchat-ports two UDP port
 | TCP '''variable'''
 | HTTP ↔ VRChat
 | Your application gets OSCQuery data from VRChat
+|-
+| UDP '''5353'''
+| mDNS ↔ VRChat
+| multicastDNS Service Discovery<ref>https://www.rfc-editor.org/info/rfc6763</ref>
 |}
 You can manually find the port numbers for these features by searching the current log file for a line that looks like <br><code>2025.01.02 03:04:05 Debug      -  Advertising Service VRChat-Client-A1B2C3 of type OSCQuery on 42069</code> or <br><code>2025.01.02 03:04:05 Debug      -  Advertising Service VRChat-Client-A1B2C3 of type OSC on 9000</code>
 
