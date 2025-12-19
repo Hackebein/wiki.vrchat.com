@@ -1,12 +1,8 @@
 {{Noticebox/Community}}
-{{Stub|Need input from more popular controller types}}
-{{Noticebox/wip|}}
+{{Stub|Need input from more popular controller types}}SteamVR input is a universal keybind system for all [[Special:MyLanguage/Controls|controllers]] usable in SteamVR. Instead of binding keys like "space" to jump, VR game developers provide '''actions''' we can directly bind to '''inputs''' on SteamVR controllers. The UI also provides a way for users to find or share community bindings. <ref name=":0">https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings/blob/master/docs/SteamVRInputGuide.md</ref> 
 
-SteamVR input is a universal keybind system for all controllers usable in SteamVR. Instead of binding keys like "space" to jump, VR game developers provide '''actions''' we can directly bind to '''inputs''' on SteamVR controllers. The UI also provides a way for users to find or share community bindings. <ref name=":0">https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings/blob/master/docs/SteamVRInputGuide.md</ref> 
-
-[https://docs.vrchat.com/docs/steamvr-input-20 Official VRChat SteamVR Input 2.0 documentation]<ref>https://docs.vrchat.com/docs/steamvr-input-20</ref>
-
-[https://docs.vrchat.com/docs/input-20-faq Official VRChat SteamVR input 2.0 FAQ]<ref>https://docs.vrchat.com/docs/input-20-faq</ref>
+* [https://docs.vrchat.com/docs/steamvr-input-20 Official VRChat SteamVR Input 2.0 documentation]<ref>https://docs.vrchat.com/docs/steamvr-input-20</ref>
+* [https://docs.vrchat.com/docs/input-20-faq Official VRChat SteamVR input 2.0 FAQ]<ref>https://docs.vrchat.com/docs/input-20-faq</ref>
 
 ==Where==
 
@@ -850,8 +846,6 @@ Due to how Community Bindings sort by usage time, it can be difficult to share a
 #Select the binding from the list of <code>"Bindings in the documents directory"</code> <small>(You do not need to close SteamVR)</small>
 <blockquote>[[File:SteamVR Input - Importing Bindings.png|800x800px]]<br /></blockquote>
 </blockquote>
-
-
 ==Don'ts==
 There's certain things you can do to bindings that can cause issues. Try to avoid them when possible
 
@@ -961,9 +955,11 @@ If you're struggling with stick drift, adjusting the [[Guides:SteamVR Bindings#D
 </blockquote>
 
 ===HP Reverb G2===
-<blockquote>TODO</blockquote>
+<blockquote>TODO: More controller types.</blockquote>
 
-TODO: More controller types.
+== See also ==
+
+* [[Special:MyLanguage/Controls|Controls]]
 
 ==References==
 <references />
