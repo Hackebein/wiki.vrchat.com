@@ -72,47 +72,46 @@
 
 ただし、場合によってはトラストランクが直接上昇しないこともあるが、次のランクへ到達するための進行度が加算される。
 
-==信頼ランクと安全性 ==
-[[File:Shield_level.webp|thumb|300px|シールドレベルは、ユーザーの信頼ランクに応じてカスタマイズ可能です。]]
-信頼ランクは、ユーザーがあなたのアバターを閲覧したり、あなたの声を聞いたり、[[Special:MyLanguage/Gallery|ギャラリー]]コンテンツ（[[Special:MyLanguage/Stickers|ステッカー]]や[[VRC+#Prints|プリント]]など）を閲覧できるかどうかに影響します。これらはすべて、ユーザーの[[Special:MyLanguage/Trust and Safety#Personal%20safety|安全シールドレベル]]設定に依存します。
-
+==トラストランクとセーフティ ==
+[[File:Shield_level.webp|thumb|300px|シールドレベルは、ユーザーのトラストランクに応じてカスタマイズ可能である。]]
+トラストランクは、他のユーザーがあなたのアバターをどのように表示するか、声を聴くことができるか、また[[Special:MyLanguage/Stickers|ステッカー]]や[[VRC+#Prints|プリント]]などの[[Special:MyLanguage/Gallery|ギャラリー]]コンテンツを閲覧できるかといった点に影響する。これらの挙動は、各ユーザーの[[Special:MyLanguage/Trust and Safety#Personal%20safety|セーフティのシールドレベル]]の設定に依存する。
 
 {| class="wikitable"
 !オプション名
 !影響を受ける機能
 |-
-|Voice
-|User
+|声
+|ユーザー
 |-
-|Avatar
-|Avatar
+|アバター
+|アバター
 |-
-|User Icons
-|Social
+|ユーザーアイコン
+|ソーシャル
 |-
-|Custom Images
-|Social
+|カスタム画像
+|ソーシャル
 |-
-|Drone
-|Social
+|ドローン
+|ソーシャル
 |-
-|Audio
-| Avatar
+|オーディオ
+|アバター
 |-
-|Lights & Particles 
-|Avatar
+|ライトとパーティクル
+|アバター
 |-
-|Shaders
-|Avatar
+|シェーダー
+|アバター
 |-
-| Custom Animations
-|Avatar
+|カスタムアニメーション
+|アバター
 |-
-|Animated Emojis
-|Social 
+|アニメーション絵文字
+|ソーシャル 
 |}
 
-セキュリティと快適性に関するユーザーの好みに応じて、複数の'''プリセット'''が利用可能です。
+セキュリティや快適性に対するユーザーの好みに応じて、複数の'''プリセット'''が用意されている。
 
 <span id="Appearance_of_ranks_inside_VRChat"></span>
 ==VRChat 内でのランクの表示==
