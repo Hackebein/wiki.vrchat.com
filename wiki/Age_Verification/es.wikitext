@@ -11,7 +11,9 @@
 {{Thumb|{{YouTube|odiNjIFUNvw}}}}
 [[File:Age_verified_profile.webp|thumb|Marcadores de perfil]]
 
+<div class="mw-translate-fuzzy">
 La '''verificación de edad''' es una función social que permite a los usuarios verificar su edad mediante el servicio de terceros [https://withpersona.com/ Persona]. Los usuarios que estén verificados con 18 años o más pueden mostrar un marcador de verificación de edad en su perfil y pueden obtener acceso a [[Special:MyLanguage/instances|estancias]] con restricción de edad. Se anunció el 27 de noviembre de 2024 en el canal oficial de VRChat en YouTube<ref name=":0">"Presentación de la verificación de edad | Actualización para desarrolladores #vrchat". YouTube, subido por VRChat, 27 de noviembre de 2024, https://www.youtube.com/watch?v=odiNjIFUNvw. Consultado el 27 de noviembre de 2024.</ref>.
+</div>
 
 El proceso de verificación está disponible actualmente en acceso anticipado para todos los suscriptores de [[Special:MyLanguage/VRC+|VRC+]] a partir del 28 de enero de 2025<ref>VRChat. "¡La verificación de edad ya está disponible para los suscriptores de VRC+!..." Bluesky, 28 de enero de 2025, https://bsky.app/profile/vrchat.com/post/3lgtoi5ho2227.</ref>.
 
@@ -28,6 +30,10 @@ Se puede utilizar prácticamente cualquier tipo de identificación gubernamental
 * Permiso de residencia
 * Permiso de trabajo
 <!-- Esta lista puede variar según el país, se recomienda a los traductores que comprueben qué documentos de identidad están disponibles en sus respectivos países para que la lista sea precisa para la mayoría de los usuarios -->
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Users can age verify on the VRChat website through this [https://vrchat.com/home/ageverification link].
+</div> 
 
 ''Persona procesa la identificación y la biometría del usuario de acuerdo con su política de privacidad<ref>Persona. Política de privacidad. https://withpersona.com/legal/privacy-policy. Consultado el 27 de noviembre de 2024.</ref>, garantizando que se cumplan el [[es.wikipedia:Reglamento_General_de_Protección_de_Datos|RGPD]], la [[wikipedia:California_Consumer_Privacy_Act|CCPA]] y otros estándares de cumplimiento<ref>Persona. Seguridad. https://withpersona.com/security. Consultado el 28 de noviembre de 2024.</ref>. VRChat no recibe ni almacena información personal del proceso de verificación, excepto la fecha de nacimiento verificada del usuario. Persona opera bajo un Acuerdo de Procesamiento de Datos (DPA) con VRChat, que requiere que Persona opere bajo el RGPD/CCPA para todos los usuarios independientemente de su ubicación<ref>Tupper (2024, 2 de diciembre). ''Preguntas frecuentes sobre verificación de edad''. Foro de VRChat. Recuperado el 9 de diciembre de 2024, de https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-if-i-dont-live-in-the-eu-or-california-10</ref>.''
 
@@ -58,9 +64,11 @@ Las estancias restringidas para mayores de 18 años siempre se mostrarán en la 
 ===Bloqueo de contenido===
 
 
-{{noticebox/unreleased}}
+{{noticebox/unreleased|{{Upcoming_inline|H1 2026|hello.vrchat.com/blog/trust-safety-update-2025}}}}
 
+<div class="mw-translate-fuzzy">
 ''Se está considerando la posibilidad de que la verificación de edad funcione junto con el [[Special:MyLanguage/Content_Gating|bloqueo de contenido]] para evitar que los usuarios no verificados y los usuarios verificados menores de 18 años accedan a contenido etiquetado con "Sexualmente sugerente" y "Lenguaje y temas para adultos". Sin embargo, no se ha confirmado cuándo ni cómo se realizará.<ref>Tupper (3 de diciembre de 2024). ''Preguntas frecuentes sobre verificación de edad''. Foro de VRChat. Consultado el 9 de diciembre de 2024 en https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-when-will-content-gating-be-affected-by-age-verification-39</ref><ref>Tupper (3 de diciembre de 2024). ''Preguntas frecuentes sobre verificación de edad''. Foro de VRChat. Recuperado el 9 de diciembre de 2024, de https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-other-content-or-systems-will-be-affected-by-age-verification-35</ref>.''
+</div>
 
 <span id="Rollout"></span>
 ==Implementación==
