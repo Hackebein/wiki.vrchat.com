@@ -384,7 +384,7 @@ a:not(.external)[href^="/wiki/Special:MyLanguage/Guides_talk:"]:hover {
   color: color-mix(in oklab,var(--ns-3101-color),#000 10%)!important
 }
 .mw-first-heading {
-  display: flex;
+  display: flex!important;
   flex-direction: column;
   padding-bottom: .25em;
   color: var(--ns-current-color)!important;
@@ -399,12 +399,6 @@ a:not(.external)[href^="/wiki/Special:MyLanguage/Guides_talk:"]:hover {
 .tools-inline li.selected {
   border-color: var(--ns-current-color);
   padding-bottom: .25rem
-}
-#ca-talk a,
-#ca-watch a,
-.tools-inline li[id^=ca-nstab-] a {
-  background: 0 0!important;
-  padding: 0 0 .25rem!important
 }
 #localNotice {
   background: var(--less-dark-grey);
