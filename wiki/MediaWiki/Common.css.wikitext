@@ -1,1 +1,590 @@
-a:not(.icon-none)[href^="https://ask.vrchat.com"],a:not(.icon-none)[href^="https://docs.vrchat.com/"]{padding-left:1.5em;background-image:var(--icon-url)!important;background-position:0!important;background-repeat:no-repeat!important;background-size:contain!important;padding-right:0!important}a[href^="https://ask.vrchat.com"]{--icon-url:url(https://upload.wikimedia.org/wikipedia/commons/1/17/Discourse_icon.svg)}a:not(.icon-none)[href^="https://docs.vrchat.com"]{--icon-url:url(https://docs.vrchat.com/favicon.ico);padding-left:1.6em}[alt*=vrcat i],[alt*=vrrat i]{cursor:grab;transform-origin:bottom;transition:transform .1s}[alt*=vrcat i]:active,[alt*=vrrat i]:active{cursor:grabbing;transform:scaleY(.9)scaleX(1.1)}#localNotice{background:var(--less-dark-grey);border:3px solid var(--less-dark-grey-border);border-radius:12px}.wikitable.navbox{text-align:center;width:100%}.hlist ul{margin:0}.hlist li{display:inline}.hlist li:before{content:" · ";margin:0 .25em 0 .3em;font-weight:700}.hlist li:first-child:before{content:none}@keyframes pulse{0%{transform:scale(1)}50%{transform:scale(1.3)}to{transform:scale(1)}}.mw-gallery-traditional .gallerybox>.thumb:before{content:unset}#mw-content-text>div>ul>li{padding-top:unset!important}.mw-body li.gallerybox div.thumb{overflow:hidden;height:auto!important}li.gallerybox div.thumb img{width:100%}.mw-gallery-traditional .gallerybox>.thumb>*{display:block}figure[typeof~="mw:File/Thumb"]>:not(figcaption) .mw-file-element,figure[typeof~="mw:File/Frame"]>:not(figcaption) .mw-file-element{margin:0}.mw-body-content figure[typeof~="mw:File/Thumb"]>a,.mw-body-content figure[typeof~="mw:File/Frame"]>a{background:var(--less-dark-grey);border:solid var(--less-dark-grey-border);border-radius:10px;min-width:256px;max-width:384px;padding:0;display:inline-block;overflow:hidden}figure[typeof~="mw:File/Thumb"],figure[typeof~="mw:File/Thumb"]>figcaption{background:0 0!important;border:none!important}figure[typeof~="mw:File/Thumb"]>figcaption{padding:.5em}@media screen{.mw-body h1.firstHeading{flex-direction:column;padding-bottom:.25em;display:flex}.mw-page-title-separator{display:none}.mw-page-title-namespace{font-size:.7em}.ns-2 .mw-body h1.firstHeading,.ns-3 .mw-body h1.firstHeading,.ns-3000 .mw-body h1.firstHeading,.ns-3100 .mw-body h1.firstHeading{border-color:#2ace5b}.ns-2 .mw-body h1.firstHeading,.ns-3 .mw-body h1.firstHeading,.ns-3000 .mw-body h1.firstHeading,.ns-3100 .mw-page-title-namespace{color:#2ace5b}}[class*=\ page-Main_Page] #firstHeading,[class*=\ page-Main_Page] .mw-editsection{display:none}[class*=\ page-Main_Page] .mw-body .mw-parser-output h2{margin:.9em .7em 0;padding:0}[class*=\ page-Main_Page] .mw-body .mw-parser-output h2:after{border-bottom:0}[class*=\ page-Main_Page] .mw-body .mw-parser-output h3{margin:0 .3em .3em;padding:0}.qm-icon:before{content:"";background-size:.85em;width:.85em;height:.85em;margin-right:.4em;display:inline-block;position:relative;top:.1em}@media screen and (width<=600px){[class*=\ page-Main_Page] .mw-body .mw-parser-output h3{margin:0 0 .3em;font-size:1.4em}.qm-icon:before{background-size:.75em;width:.75em;height:.75em}}.qm-icon.version:before{background-image:url(https://wiki-files.vrchat.com/Icons_PinFPS_25.png)}.qm-icon.news:before{background-image:url(https://wiki-files.vrchat.com/Icons_Announcement_25.png)}.qm-icon.basics:before{background-image:url(https://wiki-files.vrchat.com/Icons_LaunchPad_25.png)}.qm-icon.social:before{background-image:url(https://wiki-files.vrchat.com/Icons_Social_25.png)}.qm-icon.economy:before{background-image:url(https://wiki-files.vrchat.com/Icons_VRCPlus_25.png)}.qm-icon.worlds:before{background-image:url(https://wiki-files.vrchat.com/Icons_Worlds_25.png)}.qm-icon.avatars:before{background-image:url(https://wiki-files.vrchat.com/Icons_Avatars_25.png)}.qm-icon.creation:before{background-image:url(https://wiki-files.vrchat.com/Icons_CommunityLabs_25.png)}.qm-icon.help:before{background-image:url(https://wiki-files.vrchat.com/Icons_HelpInfo_25.png)}.qm-icon.community:before{background-image:url(https://wiki-files.vrchat.com/Icons_Favorite_25.png)}.qm-container{flex-flow:wrap;justify-content:space-around;gap:1.5em;margin:.75em 0 1.5em;display:flex}.qm-box{background-color:#325a781a;border:3px solid #14468c80;border-radius:1em;flex:15%;min-width:180px;padding:1.5em;font-size:1em}.qm-box.community{background-color:#288c281a;border-color:#28782880}.qm-box.flex{min-width:inherit;max-width:inherit;flex-flow:wrap;justify-content:space-around;gap:.75em;display:flex}@media screen and (width<=600px){.qm-container{gap:.75em}.qm-box{min-width:120px;padding:.75em}}@media screen and (width<=1099px){.desktop-only{display:none!important}}@media screen and (width>=1100px){.mobile-only{display:none!important}}[data-ooui*=Real\ name]{pointer-events:none;display:none}.reflist-upper-alpha ol{list-style-type:upper-alpha}.reflist-upper-roman ol{list-style-type:upper-roman}.reflist-lower-alpha ol{list-style-type:lower-alpha}.reflist-lower-roman ol{list-style-type:lower-roman}@media screen and (height>=600px){.tux-messagetable-header{background:0 0}}.spoiler{position:relative}.spoiler .spoiler-overlay{background-color:var(--very-dark-grey);cursor:pointer;z-index:1;border-radius:8px;display:flex;position:absolute;inset:0}.spoiler .spoiler-overlay span{margin:auto;font-weight:600}.spoiler .spoiler-overlay,.spoiler .spoiler-content{transition:opacity .25s}.spoiler .spoiler-overlay,.spoiler[data-open] .spoiler-content{opacity:1;pointer-events:auto}.spoiler[data-open] .spoiler-overlay,.spoiler .spoiler-content{opacity:0;pointer-events:none}.tpl-infopush{aspect-ratio:1024/312;grid-column:span 2/span 2;position:relative;overflow:hidden;transform:translate(0%);padding:0!important}.tpl-infopush-content{transition:transform .3s;display:flex;transform:translate(0%)}.tpl-infopush-item,.tpl-infopush-item p{margin:0;display:contents}.tpl-infopush-item a{flex-shrink:0;width:100%;background:0 0!important;padding:0!important}.tpl-infopush-item img{flex-shrink:0;width:100%}.tpl-infopush-navigation{pointer-events:none;justify-content:space-between;display:flex;position:absolute;inset:0}.tpl-infopush-navigation-item{cursor:pointer;pointer-events:all;opacity:0;background-color:#0006;background-position:50%;background-repeat:no-repeat;background-size:2rem;width:15%;height:100%;transition:opacity .2s}.tpl-infopush-navigation-item:hover{opacity:1}.tpl-infopush-navigation-previous{background-image:url(https://wiki-files.vrchat.com/Icons_Arrow_Left.png)}.tpl-infopush-navigation-next{background-image:url(https://wiki-files.vrchat.com/Icons_Arrow_Right.png)}
+@charset "UTF-8";
+.spoiler,
+.tpl-infopush {
+  position: relative
+}
+.mw-first-heading .mw-page-title-separator,
+[class*=" page-Main_Page"] #firstHeading,
+[class*=" page-Main_Page"] .mw-editsection {
+  display: none
+}
+[class*=" page-Main_Page"] .mw-body .mw-parser-output h2 {
+  margin: .9em .7em 0;
+  padding: 0
+}
+[class*=" page-Main_Page"] .mw-body .mw-parser-output h2:after {
+  border-bottom: 0
+}
+[class*=" page-Main_Page"] .mw-body .mw-parser-output h3 {
+  margin: 0 .3em .3em;
+  padding: 0
+}
+[class*=" page-Main_Page"] .qm-icon:before {
+  display: inline-block;
+  content: "";
+  background-size: .85em;
+  width: .85em;
+  height: .85em;
+  margin-right: .4em;
+  position: relative;
+  top: .1em
+}
+[class*=" page-Main_Page"] .qm-icon.version:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_PinFPS_25.png")
+}
+[class*=" page-Main_Page"] .qm-icon.news:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_Announcement_25.png")
+}
+[class*=" page-Main_Page"] .qm-icon.basics:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_LaunchPad_25.png")
+}
+[class*=" page-Main_Page"] .qm-icon.social:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_Social_25.png")
+}
+[class*=" page-Main_Page"] .qm-icon.economy:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_VRCPlus_25.png")
+}
+[class*=" page-Main_Page"] .qm-icon.worlds:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_Worlds_25.png")
+}
+[class*=" page-Main_Page"] .qm-icon.avatars:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_Avatars_25.png")
+}
+[class*=" page-Main_Page"] .qm-icon.creation:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_CommunityLabs_25.png")
+}
+[class*=" page-Main_Page"] .qm-icon.help:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_HelpInfo_25.png")
+}
+[class*=" page-Main_Page"] .qm-icon.community:before {
+  background-image: url("https://wiki-files.vrchat.com/Icons_Favorite_25.png")
+}
+[class*=" page-Main_Page"] .qm-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+  margin: .75em 0 1.5em
+}
+[class*=" page-Main_Page"] .qm-box {
+  flex: 1 1 15%;
+  min-width: 180px;
+  padding: 1.5em;
+  font-size: 1em;
+  background-color: rgba(50,90,120,.1);
+  border: 3px solid rgba(20,70,140,.5);
+  border-radius: 1em
+}
+a:not(.icon-none,.icon-none *).external::before,
+a:not(.icon-none,.icon-none *)[href="https://archive.org"]::before,
+a:not(.icon-none,.icon-none *)[href="https://discord.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://discord.gg"]::before,
+a:not(.icon-none,.icon-none *)[href="https://github.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://medium.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://steamcommunity.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://steamdb.info"]::before,
+a:not(.icon-none,.icon-none *)[href="https://store.steampowered.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://tiktok.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://twitch.tv"]::before,
+a:not(.icon-none,.icon-none *)[href="https://twitter.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://web.archive.org"]::before,
+a:not(.icon-none,.icon-none *)[href="https://www.tiktok.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://www.twitch.tv"]::before,
+a:not(.icon-none,.icon-none *)[href="https://www.youtube.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://x.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://youtu.be"]::before,
+a:not(.icon-none,.icon-none *)[href="https://youtube.com"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://archive.org/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://discord.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://discord.gg/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://github.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://medium.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://steamcommunity.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://steamdb.info/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://store.steampowered.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://tiktok.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://twitch.tv/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://twitter.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://web.archive.org/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://www.tiktok.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://www.twitch.tv/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://www.youtube.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://x.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://youtu.be/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://youtube.com/"]::before {
+  content: ""!important;
+  display: inline-block!important;
+  width: 1.25em!important;
+  height: 1.25em!important;
+  margin-right: .5em!important;
+  transform: translateY(4.5px);
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  background-size: contain!important;
+  border-radius: .25em
+}
+[class*=" page-Main_Page"] .qm-box.community {
+  background-color: rgba(40,140,40,.1);
+  border-color: rgba(40,120,40,.5)
+}
+[class*=" page-Main_Page"] .qm-box.flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  column-gap: .75em;
+  row-gap: .75em;
+  min-width: inherit;
+  max-width: inherit
+}
+@media screen and (max-width:600px) {
+  [class*=" page-Main_Page"] [class*=" page-Main_Page"] .mw-body .mw-parser-output h3 {
+    margin: 0 0 .3em;
+    font-size: 1.4em
+  }
+  [class*=" page-Main_Page"] .qm-icon:before {
+    background-size: .75em;
+    width: .75em;
+    height: .75em
+  }
+  [class*=" page-Main_Page"] .qm-container {
+    column-gap: .75em;
+    row-gap: .75em
+  }
+  [class*=" page-Main_Page"] .qm-box {
+    min-width: 120px;
+    padding: .75em
+  }
+}
+[alt*=vrcat i],
+[alt*=vrrat i] {
+  cursor: grab;
+  transform-origin: bottom center;
+  transition: transform .1s
+}
+[alt*=vrcat i] :active,
+[alt*=vrrat i] :active {
+  cursor: grabbing;
+  transform: scaleY(.9) scaleX(1.1)
+}
+.link-audio,
+.link-document,
+.link-ftp,
+.link-irc,
+.link-mailto,
+.link-video,
+.mw-parser-output a.external {
+  background: 0 0!important;
+  padding: 0!important
+}
+a:not(.icon-none,.icon-none *).external::before {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtZXh0ZXJuYWwtbGluayI+PHBhdGggZD0iTTE1IDNoNnY2Ii8+PHBhdGggZD0iTTEwIDE0IDIxIDMiLz48cGF0aCBkPSJNMTggMTN2NmEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY4YTIgMiAwIDAgMSAyLTJoNiIvPjwvc3ZnPg==")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://twitter.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://x.com"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://twitter.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://x.com/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/x.com.ico")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://www.youtube.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://youtu.be"]::before,
+a:not(.icon-none,.icon-none *)[href="https://youtube.com"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://www.youtube.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://youtu.be/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://youtube.com/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/youtube.com.ico")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://twitch.tv"]::before,
+a:not(.icon-none,.icon-none *)[href="https://www.twitch.tv"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://twitch.tv/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://www.twitch.tv/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/twitch.tv.ico")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://tiktok.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://www.tiktok.com"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://tiktok.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://www.tiktok.com/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/tiktok.com.ico")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://steamdb.info"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://steamdb.info/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/steamdb.info.ico")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://steamcommunity.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://store.steampowered.com"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://steamcommunity.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://store.steampowered.com/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/steamcommunity.com.ico")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://discord.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://discord.gg"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://discord.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://discord.gg/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/discord.com.ico")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://github.com"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://github.com/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/github.com.ico")!important;
+  filter: invert(1)!important
+}
+a:not(.icon-none,.icon-none *)[href="https://medium.com"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://medium.com/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/medium.com.ico")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://archive.org"]::before,
+a:not(.icon-none,.icon-none *)[href="https://web.archive.org"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://archive.org/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://web.archive.org/"]::before {
+  background-image: url("https://icons.duckduckgo.com/ip3/archive.org.ico")!important
+}
+a:not(.icon-none,.icon-none *)[href="https://ask.vrchat.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://creators.vrchat.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://docs.vrchat.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://feedback.vrchat.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://hello.vrchat.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://help.vrchat.com"]::before,
+a:not(.icon-none,.icon-none *)[href="https://medium.com/@vrchat"]::before,
+a:not(.icon-none,.icon-none *)[href="https://medium.com/vrchat"]::before,
+a:not(.icon-none,.icon-none *)[href="https://vrch.at"]::before,
+a:not(.icon-none,.icon-none *)[href="https://vrchat.com"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://ask.vrchat.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://creators.vrchat.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://docs.vrchat.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://feedback.vrchat.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://hello.vrchat.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://help.vrchat.com/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://medium.com/@vrchat/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://medium.com/vrchat/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://vrch.at/"]::before,
+a:not(.icon-none,.icon-none *)[href^="https://vrchat.com/"]::before {
+  content: ""!important;
+  display: inline-block!important;
+  width: 1.25em!important;
+  height: 1.25em!important;
+  margin-right: .5em!important;
+  transform: translateY(4.5px);
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  background-size: contain!important;
+  background-image: url("https://icons.duckduckgo.com/ip3/vrchat.com.ico")!important;
+  border-radius: .25em
+}
+:root {
+  --ns-0: "";
+  --ns-0-color: #6bd4ff;
+  --ns-1: "Talk";
+  --ns-1-color: #6bd4ff;
+  --ns-2: "User";
+  --ns-2-color: rgb(206, 203, 42);
+  --ns-3: "User_talk";
+  --ns-3-color: rgb(206, 203, 42);
+  --ns-3000: "Community";
+  --ns-3000-color: oklch(74.71% 0.2037 147.96deg);
+  --ns-3001: "Community_talk";
+  --ns-3001-color: oklch(74.71% 0.2037 147.96deg);
+  --ns-3100: "Guides";
+  --ns-3100-color: rgb(223, 113, 246);
+  --ns-3101: "Guides_talk";
+  --ns-3101-color: rgb(223, 113, 246)
+}
+.ns-0 {
+  --ns-current: var(--ns-0);
+  --ns-current-color: var(--ns-0-color)
+}
+a:not(.external)[href^="/wiki/"],
+a:not(.external)[href^="/wiki/Special:MyLanguage/"] {
+  color: var(--ns-0-color)!important
+}
+a:not(.external)[href^="/wiki/"]:hover,
+a:not(.external)[href^="/wiki/Special:MyLanguage/"]:hover {
+  color: color-mix(in oklab,var(--ns-0-color),#000 10%)!important
+}
+.ns-1 {
+  --ns-current: var(--ns-1);
+  --ns-current-color: var(--ns-1-color)
+}
+a:not(.external)[href^="/wiki/Special:MyLanguage/Talk:"],
+a:not(.external)[href^="/wiki/Talk:"] {
+  color: var(--ns-1-color)!important
+}
+a:not(.external)[href^="/wiki/Special:MyLanguage/Talk:"]:hover,
+a:not(.external)[href^="/wiki/Talk:"]:hover {
+  color: color-mix(in oklab,var(--ns-1-color),#000 10%)!important
+}
+.ns-2 {
+  --ns-current: var(--ns-2);
+  --ns-current-color: var(--ns-2-color)
+}
+a:not(.external)[href^="/wiki/Special:MyLanguage/User:"],
+a:not(.external)[href^="/wiki/User:"] {
+  color: var(--ns-2-color)!important
+}
+a:not(.external)[href^="/wiki/Special:MyLanguage/User:"]:hover,
+a:not(.external)[href^="/wiki/User:"]:hover {
+  color: color-mix(in oklab,var(--ns-2-color),#000 10%)!important
+}
+.ns-3 {
+  --ns-current: var(--ns-3);
+  --ns-current-color: var(--ns-3-color)
+}
+a:not(.external)[href^="/wiki/Special:MyLanguage/User_talk:"],
+a:not(.external)[href^="/wiki/User_talk:"] {
+  color: var(--ns-3-color)!important
+}
+a:not(.external)[href^="/wiki/Special:MyLanguage/User_talk:"]:hover,
+a:not(.external)[href^="/wiki/User_talk:"]:hover {
+  color: color-mix(in oklab,var(--ns-3-color),#000 10%)!important
+}
+.ns-3000 {
+  --ns-current: var(--ns-3000);
+  --ns-current-color: var(--ns-3000-color)
+}
+a:not(.external)[href^="/wiki/Community:"],
+a:not(.external)[href^="/wiki/Special:MyLanguage/Community:"] {
+  color: var(--ns-3000-color)!important
+}
+a:not(.external)[href^="/wiki/Community:"]:hover,
+a:not(.external)[href^="/wiki/Special:MyLanguage/Community:"]:hover {
+  color: color-mix(in oklab,var(--ns-3000-color),#000 10%)!important
+}
+.ns-3001 {
+  --ns-current: var(--ns-3001);
+  --ns-current-color: var(--ns-3001-color)
+}
+a:not(.external)[href^="/wiki/Community_talk:"],
+a:not(.external)[href^="/wiki/Special:MyLanguage/Community_talk:"] {
+  color: var(--ns-3001-color)!important
+}
+a:not(.external)[href^="/wiki/Community_talk:"]:hover,
+a:not(.external)[href^="/wiki/Special:MyLanguage/Community_talk:"]:hover {
+  color: color-mix(in oklab,var(--ns-3001-color),#000 10%)!important
+}
+.ns-3100 {
+  --ns-current: var(--ns-3100);
+  --ns-current-color: var(--ns-3100-color)
+}
+a:not(.external)[href^="/wiki/Guides:"],
+a:not(.external)[href^="/wiki/Special:MyLanguage/Guides:"] {
+  color: var(--ns-3100-color)!important
+}
+a:not(.external)[href^="/wiki/Guides:"]:hover,
+a:not(.external)[href^="/wiki/Special:MyLanguage/Guides:"]:hover {
+  color: color-mix(in oklab,var(--ns-3100-color),#000 10%)!important
+}
+.ns-3101 {
+  --ns-current: var(--ns-3101);
+  --ns-current-color: var(--ns-3101-color)
+}
+a:not(.external)[href^="/wiki/Guides_talk:"],
+a:not(.external)[href^="/wiki/Special:MyLanguage/Guides_talk:"] {
+  color: var(--ns-3101-color)!important
+}
+a:not(.external)[href^="/wiki/Guides_talk:"]:hover,
+a:not(.external)[href^="/wiki/Special:MyLanguage/Guides_talk:"]:hover {
+  color: color-mix(in oklab,var(--ns-3101-color),#000 10%)!important
+}
+.mw-first-heading {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: .25em;
+  color: var(--ns-current-color)!important;
+  border-bottom: solid 4px var(--ns-current-color)!important
+}
+.mw-first-heading .mw-page-title-namespace,
+.mw-first-heading:not(:has(.mw-page-title-namespace))::before {
+  content: var(--ns-current);
+  color: color-mix(in oklab,var(--ns-current-color),#000 10%);
+  font-size: .7em
+}
+.tools-inline li.selected {
+  border-color: var(--ns-current-color);
+  padding-bottom: .25rem
+}
+#ca-talk a,
+#ca-watch a,
+.tools-inline li[id^=ca-nstab-] a {
+  background: 0 0!important;
+  padding: 0 0 .25rem!important
+}
+#localNotice {
+  background: var(--less-dark-grey);
+  border: 3px solid var(--less-dark-grey-border);
+  border-radius: 12px
+}
+.wikitable.navbox {
+  width: 100%;
+  text-align: center
+}
+.hlist ul,
+figure[typeof~="mw:File/Frame"]>:not(figcaption) .mw-file-element,
+figure[typeof~="mw:File/Thumb"]>:not(figcaption) .mw-file-element {
+  margin: 0
+}
+.hlist li {
+  display: inline
+}
+.hlist li::before {
+  content: " · ";
+  font-weight: 700;
+  margin: 0 .25em 0 .3em
+}
+.hlist li:first-child::before {
+  content: none
+}
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1)
+  }
+  50% {
+    transform: scale(1.3)
+  }
+}
+.mw-gallery-traditional .gallerybox > .thumb::before {
+  content: unset
+}
+#mw-content-text > div > ul > li {
+  padding-top: unset!important
+}
+.mw-body li.gallerybox div.thumb {
+  height: auto!important;
+  overflow: hidden
+}
+li.gallerybox div.thumb img {
+  width: 100%
+}
+.mw-gallery-traditional .gallerybox > .thumb > * {
+  display: block
+}
+.mw-body-content figure[typeof~="mw:File/Frame"] > a,
+.mw-body-content figure[typeof~="mw:File/Thumb"] > a {
+  background: var(--less-dark-grey);
+  border: solid var(--less-dark-grey-border);
+  border-radius: 10px;
+  padding: 0;
+  min-width: 256px;
+  max-width: 384px;
+  display: inline-block;
+  overflow: hidden
+}
+figure[typeof~="mw:File/Thumb"],
+figure[typeof~="mw:File/Thumb"] > figcaption {
+  border: none!important;
+  background: 0 0!important
+}
+figure[typeof~="mw:File/Thumb"] > figcaption {
+  padding: .5em
+}
+@media screen and (max-width:1099px) {
+  .desktop-only {
+    display: none!important
+  }
+}
+@media screen and (min-width:1100px) {
+  .mobile-only {
+    display: none!important
+  }
+}
+[data-ooui*="Real name"] {
+  pointer-events: none;
+  display: none
+}
+.reflist-upper-alpha ol {
+  list-style-type: upper-alpha
+}
+.reflist-upper-roman ol {
+  list-style-type: upper-roman
+}
+.reflist-lower-alpha ol {
+  list-style-type: lower-alpha
+}
+.reflist-lower-roman ol {
+  list-style-type: lower-roman
+}
+@media screen and (min-height:600px) {
+  .tux-messagetable-header {
+    background: 0 0
+  }
+}
+.spoiler .spoiler-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: var(--very-dark-grey);
+  display: flex;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1
+}
+.spoiler .spoiler-overlay span {
+  margin: auto;
+  font-weight: 600
+}
+.spoiler .spoiler-content,
+.spoiler .spoiler-overlay {
+  transition: opacity .25s
+}
+.spoiler .spoiler-overlay,
+.spoiler[data-open] .spoiler-content {
+  opacity: 1;
+  pointer-events: auto
+}
+.spoiler .spoiler-content,
+.spoiler[data-open] .spoiler-overlay {
+  opacity: 0;
+  pointer-events: none
+}
+.tpl-infopush {
+  padding: 0!important;
+  overflow: hidden;
+  aspect-ratio: 1024/312;
+  transform: translateX(0);
+  grid-column: span 2/span 2
+}
+.tpl-infopush-content {
+  display: flex;
+  transition: transform .3s;
+  transform: translateX(0)
+}
+.tpl-infopush-item,
+.tpl-infopush-item p {
+  margin: 0;
+  display: contents
+}
+.tpl-infopush-item a {
+  width: 100%;
+  flex-shrink: 0;
+  background: 0 0!important;
+  padding: 0!important
+}
+.tpl-infopush-item img {
+  width: 100%;
+  flex-shrink: 0
+}
+.tpl-infopush-navigation {
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none;
+  position: absolute;
+  inset: 0
+}
+.tpl-infopush-navigation-item {
+  height: 100%;
+  width: 15%;
+  cursor: pointer;
+  pointer-events: all;
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0%;
+  transition: opacity .2s;
+  background-color: #0006
+}
+.tpl-infopush-navigation-item:hover {
+  opacity: 100%
+}
+.tpl-infopush-navigation-previous {
+  background-image: url("https://wiki-files.vrchat.com/Icons_Arrow_Left.png")
+}
+.tpl-infopush-navigation-next {
+  background-image: url("https://wiki-files.vrchat.com/Icons_Arrow_Right.png")
+}
