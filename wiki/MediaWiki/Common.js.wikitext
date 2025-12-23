@@ -3,31 +3,27 @@
 	var __esmMin = (e, t) => () => (e && (t = e(e = 0)), t);
 	var __export = (t, n) => {
 		let r = {};
-		for (var i in t) {
-			e(r, i, {
-				get: t[i],
-				enumerable: true
-			});
-		}
-		if (n) {
-			e(r, Symbol.toStringTag, { value: "Module" });
-		}
+		for (var i in t) e(r, i, {
+			get: t[i],
+			enumerable: !0
+		});
+		n && e(r, Symbol.toStringTag, { value: "Module" });
 		return r;
 	};
 	function isPage(e) {
-		const [t, n] = mw.config.get("wgPageName").split("/");
-		if (!t || !e.includes(t)) return false;
-		if (n && mw.config.get("wgPageContentLanguage") != n) return false;
-		return true;
+		let [t, n] = mw.config.get("wgPageName").split("/");
+		if (!t || !e.includes(t)) return !1;
+		if (n && mw.config.get("wgPageContentLanguage") !== n) return !1;
+		return !0;
 	}
-	[...document.querySelectorAll(".spoiler")].map((e) => {
-		const t = e.querySelector(".spoiler-overlay");
-		t === null || t === void 0 || t.addEventListener("click", () => {
+	document.querySelectorAll(".spoiler").forEach((e) => {
+		let t = e.querySelector(".spoiler-overlay");
+		t == null || t.addEventListener("click", () => {
 			e.dataset.open = "";
 		});
 	});
 	function _objectWithoutPropertiesLoose(e, t) {
-		if (null == e) return {};
+		if (e == null) return {};
 		var n = {};
 		for (var r in e) if ({}.hasOwnProperty.call(e, r)) {
 			if (t.includes(r)) continue;
@@ -36,7 +32,7 @@
 		return n;
 	}
 	function _objectWithoutProperties(e, t) {
-		if (null == e) return {};
+		if (e == null) return {};
 		var n, r, i = _objectWithoutPropertiesLoose(e, t);
 		if (Object.getOwnPropertySymbols) {
 			var a = Object.getOwnPropertySymbols(e);
@@ -45,12 +41,14 @@
 		return i;
 	}
 	var t = ["videoId"];
-	[...document.querySelectorAll(".youtube")].map((e) => {
-		const n = e.dataset, { videoId: r } = n, i = _objectWithoutProperties(n, t);
-		const a = document.createElement("iframe");
-		a.setAttribute("width", String(560));
-		a.setAttribute("height", String(315));
-		a.setAttribute("frameborder", String(0));
+	document.querySelectorAll(".youtube").forEach((e) => {
+		let n = e.dataset, { videoId: r } = n, i = _objectWithoutProperties(n, t);
+		let a = document.createElement("iframe");
+		a.setAttribute("width", "560");
+		a.setAttribute("height", "315");
+		a.setAttribute("frameborder", "0");
+		a.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+		a.setAttribute("allowfullscreen", "true");
 		a.setAttribute("allow", [
 			"accelerometer",
 			"autoplay",
@@ -60,68 +58,25 @@
 			"picture-in-picture",
 			"web-share"
 		].join("; "));
-		a.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
-		a.setAttribute("allowfullscreen", String(true));
-		Object.entries(i).map(([e, t]) => t && a.setAttribute(e, t));
+		for (let e in i) {
+			let t = i[e];
+			if (!t) continue;
+			a.setAttribute(e, t);
+		}
 		a.setAttribute("style", e.getAttribute("style") || "");
 		a.src = `https://www.youtube-nocookie.com/embed/${r}?rel=0`;
 		e.replaceWith(a);
 	});
-	var n = /* @__PURE__ */ (function detectScriptRel() {
-		const e = typeof document !== "undefined" && document.createElement("link").relList;
-		return e && e.supports && e.supports("modulepreload") ? "modulepreload" : "preload";
-	})();
-	var assetsURL = function(e, t) {
-		return new URL(e, t).href;
-	};
-	var r = {};
-	const i = function preload(e, t, i) {
-		let a = Promise.resolve();
-		if (false && t && t.length > 0) {
-			const e = document.getElementsByTagName("link");
-			const o = document.querySelector("meta[property=csp-nonce]");
-			const s = (o === null || o === void 0 ? void 0 : o.nonce) || (o === null || o === void 0 ? void 0 : o.getAttribute("nonce"));
-			function allSettled(e) {
-				return Promise.all(e.map((e) => Promise.resolve(e).then((e) => ({
-					status: "fulfilled",
-					value: e
-				}), (e) => ({
-					status: "rejected",
-					reason: e
-				}))));
-			}
-			a = allSettled(t.map((t) => {
-				t = assetsURL(t, i);
-				if (t in r) return;
-				r[t] = true;
-				const a = t.endsWith(".css");
-				const o = a ? "[rel=\"stylesheet\"]" : "";
-				if (!!i) for (let n = e.length - 1; n >= 0; n--) {
-					const r = e[n];
-					if (r.href === t && (!a || r.rel === "stylesheet")) return;
-				}
-				else if (document.querySelector(`link[href="${t}"]${o}`)) return;
-				const c = document.createElement("link");
-				c.rel = a ? "stylesheet" : n;
-				if (!a) c.as = "script";
-				c.crossOrigin = "";
-				c.href = t;
-				if (s) c.setAttribute("nonce", s);
-				document.head.appendChild(c);
-				if (a) return new Promise((e, n) => {
-					c.addEventListener("load", e);
-					c.addEventListener("error", () => n(/* @__PURE__ */ new Error(`Unable to preload CSS for ${t}`)));
-				});
-			}));
-		}
+	let __vitePreload = function(e, t, n) {
+		let r = Promise.resolve();
 		function handlePreloadError(e) {
-			const t = new Event("vite:preloadError", { cancelable: true });
+			let t = new Event("vite:preloadError", { cancelable: !0 });
 			t.payload = e;
 			window.dispatchEvent(t);
 			if (!t.defaultPrevented) throw e;
 		}
-		return a.then((t) => {
-			for (const e of t || []) {
+		return r.then((t) => {
+			for (let e of t || []) {
 				if (e.status !== "rejected") continue;
 				handlePreloadError(e.reason);
 			}
@@ -129,7 +84,7 @@
 		});
 	};
 	function getArticleFromElement(e) {
-		const { articleId: t, articleTitle: n, articleContent: r } = e.dataset;
+		let { articleId: t, articleTitle: n, articleContent: r } = e.dataset;
 		if (!t || !n || !r) return null;
 		return {
 			id: t,
@@ -138,7 +93,7 @@
 		};
 	}
 	var ArticleDialog;
-	var a = __esmMin((() => {
+	var n = __esmMin((() => {
 		ArticleDialog = class extends OO.ui.ProcessDialog {
 			constructor(e) {
 				super({
@@ -149,10 +104,10 @@
 			}
 			initialize() {
 				super.initialize();
-				const e = new OO.ui.PanelLayout({
-					expanded: false,
-					padded: true,
-					scrollable: true
+				let e = new OO.ui.PanelLayout({
+					expanded: !1,
+					padded: !0,
+					scrollable: !0
 				});
 				e.$element.append(this.article.content);
 				this.$body.append(e.$element);
@@ -175,7 +130,7 @@
 			label: "Close"
 		}];
 	}));
-	var o = __esmMin((() => {}));
+	var r = __esmMin((() => {}));
 	function asyncGeneratorStep(e, t, n, r, i, a, o) {
 		try {
 			var s = e[a](o), c = s.value;
@@ -200,47 +155,45 @@
 			});
 		};
 	}
-	var s = __esmMin((() => {}));
-	var c = /* @__PURE__ */ __export({}, 1);
-	var l, u;
-	var d = __esmMin((() => {
-		a();
-		o();
-		s();
-		l = document.querySelectorAll(".tpl-infopush");
-		console.log({ infopushes: l });
-		u = new OO.ui.WindowManager();
-		$(document.body).append(u.$element);
-		for (const e of l) {
-			const t = e.querySelector(".tpl-infopush-content");
-			const n = t.querySelectorAll(".tpl-infopush-item");
-			const r = n.length;
-			for (const e of n) {
-				if (!!e.querySelector("a")) continue;
-				const t = getArticleFromElement(e);
+	var i = __esmMin((() => {}));
+	var a = /* @__PURE__ */ __export({}, 1);
+	var o, s;
+	var c = __esmMin((() => {
+		n();
+		r();
+		i();
+		o = document.querySelectorAll(".tpl-infopush");
+		s = new OO.ui.WindowManager();
+		$(document.body).append(s.$element);
+		for (let e of o) {
+			let t = e.querySelector(".tpl-infopush-content");
+			let n = t.querySelectorAll(".tpl-infopush-item");
+			let r = n.length;
+			for (let e of n) {
+				if (e.querySelector("a")) continue;
+				let t = getArticleFromElement(e);
 				if (!t) continue;
 				e.style.cursor = "pointer";
 				e.addEventListener("click", _asyncToGenerator(function* () {
-					if (!(yield u.getWindow(t.id).then(() => true).catch(() => false))) {
-						const e = new ArticleDialog(t);
-						u.addWindows({ [t.id]: e });
+					if (!(yield s.getWindow(t.id).then(() => !0).catch(() => !1))) {
+						let e = new ArticleDialog(t);
+						s.addWindows({ [t.id]: e });
 					}
-					yield u.openWindow(t.id).opening;
+					yield s.openWindow(t.id).opening;
 				}));
 			}
-			const i = e.querySelector(".tpl-infopush-navigation");
+			let i = e.querySelector(".tpl-infopush-navigation");
 			let a = 0;
 			function showSlide(e) {
 				a = (e + r) % r;
 				t.style.transform = `translateX(-${a * 100}%)`;
 			}
-			const o = 5e3;
-			let s;
+			let o;
 			function resetAutoAdvance() {
-				if (s) clearInterval(s);
-				s = setInterval(function() {
+				o && clearInterval(o);
+				o = setInterval(() => {
 					showSlide(a + 1);
-				}, o);
+				}, 5e3);
 			}
 			i.querySelector(".tpl-infopush-navigation-previous").addEventListener("click", () => {
 				showSlide(a - 1);
@@ -254,20 +207,20 @@
 			showSlide(0);
 		}
 	}));
-	if (isPage(["Template:MainPageInfopush", "Main_Page"])) mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).then(() => i(() => Promise.resolve().then(() => (d(), c)), void 0, {}.url));
-	var f = document.createElement("script");
-	f.setAttribute("defer", "defer");
-	f.setAttribute("data-domain", "wiki.vrchat.com");
-	f.setAttribute("event-page-name", mw.config.get("wgTitle"));
-	f.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
-	var p = mw.config.get("wgFormattedNamespaces");
-	f.setAttribute("event-page-namespace", p[mw.config.get("wgNamespaceNumber")]);
-	f.setAttribute("event-theme", mw.config.get("skin"));
-	f.setAttribute("event-action", mw.config.get("wgAction"));
-	f.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
-	var m = mw.config.get("wgUserGroups");
-	var h = m.includes("community-mod") || m.includes("moderator") || m.includes("sysop");
-	f.setAttribute("event-is-maintainer", String(h));
-	f.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
-	document.head.appendChild(f);
+	isPage(["Template:MainPageInfopush", "Main_Page"]) && mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).then(() => __vitePreload(() => Promise.resolve().then(() => (c(), a)), void 0, {}.url));
+	var l = document.createElement("script");
+	l.setAttribute("defer", "defer");
+	l.setAttribute("data-domain", "wiki.vrchat.com");
+	l.setAttribute("event-page-name", mw.config.get("wgTitle"));
+	l.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
+	var u = mw.config.get("wgFormattedNamespaces");
+	l.setAttribute("event-page-namespace", u[mw.config.get("wgNamespaceNumber")]);
+	l.setAttribute("event-theme", mw.config.get("skin"));
+	l.setAttribute("event-action", mw.config.get("wgAction"));
+	l.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
+	var d = mw.config.get("wgUserGroups");
+	var f = d.includes("community-mod") || d.includes("moderator") || d.includes("sysop");
+	l.setAttribute("event-is-maintainer", String(f));
+	l.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
+	document.head.appendChild(l);
 })();
