@@ -12,7 +12,8 @@
 The [[Special:MyLanguage/VRChat SDK|VRChat SDK]] contains a prefab for a ready-to-use mirror that can be dragged into a scene. This prefab is found at the following path:</translate><br>
 <code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code><translate>
 
-=== Types of mirror === <!--T:5-->
+=== Types of mirror ===
+[[File:Mirror actionmenu.webp|thumb]]<!--T:5-->
 
 ==== Personal Mirror ==== <!--T:6-->
 
@@ -22,7 +23,8 @@ A personal mirror is a type of mirror that can be summoned and moved by a user t
 <!--T:8-->
 It can be enabled and configured via the [[Special:MyLanguage/Action Menu|Action Menu]] or the [[Special:MyLanguage/Main Menu|Main Menu]]'s [[Special:MyLanguage/Settings|Settings]] page.
 
-==== Face Mirror ==== <!--T:9-->
+==== Face Mirror ====
+[[File:Mirrorsettings actionmenu.webp|thumb]][[File:Facemirrorsettings actionmenu.webp|thumb]]<!--T:9-->
 
 <!--T:10-->
 A face mirror is a type of mirror that displays the face of a user's avatar in their [[Special:MyLanguage/HUD|HUD]]. Face mirrors are designed to help a user stay aware of their avatar's facial expressions, especially if they're controlled by gestures. Unlike a traditional mirror, the face mirror does not portray depth.
