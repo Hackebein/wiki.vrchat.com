@@ -249,9 +249,9 @@ span.comment {
   opacity: .75
 }
 @media screen {
-  .new a,
-  a.new {
-    color: var(--red)
+  .new.new a,
+  a.new.new {
+    color: var(--red)!important
   }
 }
 #p-logo-text,
