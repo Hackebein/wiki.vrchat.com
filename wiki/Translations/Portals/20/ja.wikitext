@@ -1,7 +1,7 @@
-ワールド作成者は、[[Special:MyLanguage/VRChat SDK|VRChat SDK]]の[https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker]プレハブを使用して、自身のワールドにポータルを追加できます。
+ワールド作者は、[[Special:MyLanguage/VRChat SDK|VRChat SDK]]の[https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker]プレファブを使って、自分のワールドにポータルを置くことができる。
 
-<code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code> に配置されています。
+<code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code> にポータルのプレファブがある。
 
-ワールドIDと任意のカスタムポータル名を指定可能です。
+ワールド ID と任意のカスタムポータル名を設定できる。
 
-あるいは、ポータルマーカーを公式のVRChatハブまたはホームワールドに設定することもできます。
+また、Portal Marker は公式の VRChat ハブワールドまたはホームワールドに設定することもできる。
