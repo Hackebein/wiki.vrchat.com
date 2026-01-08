@@ -83,9 +83,7 @@ La caméra est utilisée pour prendre des photos dans VRChat. Elle peut être ac
 
 ''Voir [[Special:MyLanguage/Debug Menu|Menu de débogage]] pour plus d'informations.''
 
-<div class="mw-translate-fuzzy">
-Ces outils permettent d'aider au débogage des mondes, avatars et de l'OSC en jeu. Afin d'y accéder, le jeu doit être lancé en utilisant le paramètre suivant : <code>--enable-debug-gui</code>. Il existe 9 vues de débogage différentes pour aider les créateurs à régler les erreurs ou tester les optimisations ainsi que leur impact en jeu.
-</div>
+Les menus de débogage permettent d'aider au débogage des mondes, avatars et de l'[[Special:MyLanguage/Open Sound Control|OSC]] en jeu. Afin d'accéder à ces menus, VRChat doit être lancé en utilisant le paramètre suivant : <code>--enable-debug-gui</code>. De nombreuses vues de débogage différentes sont disponibles afin d'assister les créateurs à l'identification des erreurs, tester les optimisations ainsi qu'évaluer l'impact sur les performances.
 
 VRChat utilise plusieurs types de menus permettant d'interagir avec différents aspects de la plateforme. Les plus notables sont le [[Special:MyLanguage/Quick Menu|Menu Rapide]], le [[Special:MyLanguage/Main Menu|Menu Principal]] et le [[Special:MyLanguage/Action Menu|Menu d'Action]]. Bien que ces menus aient des objectifs distincts et offrent des fonctionnalités exclusives, ils partagent souvent les mêmes fonctions et paramètres, présentés simplement sous différents formats, mieux adaptés à divers contextes.
 
