@@ -1,0 +1,24 @@
+
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Reason",
+			"description": "Provide the reason why the page is a work in progress",
+			"type": "string",
+			"suggested": true
+		},
+		"2": {
+			"type": "wiki-user-name",
+			"autovalue": "~~~",
+			"label": "Author",
+			"suggested": true
+		}
+	},
+	"description": "For work-in-progress pages",
+	"paramOrder": [
+		"1",
+		"2"
+	]
+}
+</templatedata>

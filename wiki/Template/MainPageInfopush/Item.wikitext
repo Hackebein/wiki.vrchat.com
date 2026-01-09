@@ -1,0 +1,32 @@
+<onlyinclude>{{#ifexist:Template:MainPageInfopush/Excluded items/{{{id|}}}||<div class="tpl-infopush-item" data-id="{{{id|}}}" {{ #if:{{{article-id|}}} | data-article-id="{{{article-id|}}}" data-article-title="{{{article-title|}}}" data-article-image="{{{article-image|}}}" data-article-content="{{{article-content|}}}" | }}>{{#ifexist:Template:MainPageInfopush/Link overrides/{{{id|}}}|[{{MainPageInfopush/Link overrides/{{{id|}}}}} {{{image}}}]|{{ #if:{{{url|}}} | [{{{url}}} {{{image}}}] | {{{image}}} }}}}</div>}}</onlyinclude>
+
+<noinclude>
+== Example ==
+
+=== With action ===
+<pre>
+{{MainPageInfopush/Item
+|image=https://assets.vrchat.com/ips/assets/c9bb5ca0943d090263c4f6bf7b25191a0330f34e6a0bf53cf742ea587a319048.png
+|url=https://feedback.vrchat.com/}}
+</pre>
+{{MainPageInfopush/Item
+|image=https://assets.vrchat.com/ips/assets/c9bb5ca0943d090263c4f6bf7b25191a0330f34e6a0bf53cf742ea587a319048.png
+|url=https://feedback.vrchat.com/}}
+
+=== Without action ===
+<pre>
+{{MainPageInfopush/Item
+|image=https://assets.vrchat.com/ips/assets/c9bb5ca0943d090263c4f6bf7b25191a0330f34e6a0bf53cf742ea587a319048.png}}
+</pre>
+{{MainPageInfopush/Item
+|image=https://assets.vrchat.com/ips/assets/c9bb5ca0943d090263c4f6bf7b25191a0330f34e6a0bf53cf742ea587a319048.png}}
+</noinclude>
+
+{{MainPageInfopush/Item
+|id=ips_56bcef1d-b97a-4b67-9a7c-dcf17f97ab63
+|image=https://assets.vrchat.com/ips/assets/1da1e49e888bcc5ed2503d97442d32d2208aaf5802df08f0e71c664c8ebbbfad.png
+|article-content=PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxNDAlIj48c3Ryb25nPldlbGNvbWUgdG8gVlJDaGF0ITwvc3Ryb25nPjwvc3Bhbj48YnIvPkxvb2tpbmcgdG8gZXhwbG9yZSB0aGUgVlJDaGF0IGNvbW11bml0eSBhbmQgZmluZCBhIGRpZ2l0YWwgaG9tZSBvZiB5b3VyIG93bj88YnIvPjxici8+Rm9yIHN0YXJ0ZXJzLCB0cnkgY2hlY2tpbmcgb3V0IG91ciA8YSBocmVmPSJodHRwczovL2Rpc2NvcmQuZ2cvdnJjaGF0IiB0aXRsZT0iRGlzY29yZCI+PHNwYW4gc3R5bGU9ImNvbG9yOiM3Nzc3ZmMiPjx1PkRpc2NvcmQ8L3U+PC9zcGFuPjwvYT4hIFlvdeKAmWxsIGFsc28gYmUgYWJsZSB0byBmaW5kIGluZm9ybWF0aW9uIHRoZXJlIGFib3V0IGFsbCB0aGUgbGF0ZXN0IFZSQ2hhdCB1cGRhdGVzLjxici8+PGJyLz5MaWtld2lzZSwgaWYgeW91IHdhbnQgdG8gc3RheSB1cC10by1kYXRlIG9uIHdoYXTigJlzIGdvaW5nIG9uIGluIFZSQ2hhdCwgeW91IHNob3VsZCBmb2xsb3cgb3VyIDxhIGhyZWY9Imh0dHBzOi8vdHdpdHRlci5jb20vdnJjaGF0IiB0aXRsZT0iVHdpdHRlciI+PHNwYW4gc3R5bGU9ImNvbG9yOiM3Nzc3ZmMiPjx1PlR3aXR0ZXI8L3U+PC9zcGFuPjwvYT4gYWNjb3VudC48YnIvPjxici8+QWRkaXRpb25hbGx5LCB5b3UgY2FuIGpvaW4gdGhlIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS9ncm91cHMvdnJjaGF0IiB0aXRsZT0iRmFjZWJvb2siPjxzcGFuIHN0eWxlPSJjb2xvcjojNzc3N2ZjIj48dT5WUkNoYXQgRmFjZWJvb2sgR3JvdXA8L3U+PC9zcGFuPjwvYT4gdG8gaW50ZXJhY3Qgd2l0aCBvdGhlcnMgZnJvbSB0aGUgY29tbXVuaXR5Ljxici8+PGJyLz5Bbm90aGVyIHdheSB0byBnZXQgaGVscCBhbmQgaW50ZXJhY3Qgd2l0aCB0aGUgY29tbXVuaXR5IGlzIHZpYSBvdXIgPGEgaHJlZj0iaHR0cHM6Ly9hc2sudnJjaGF0LmNvbS8iIHRpdGxlPSJWUkNoYXQgQXNrIEZvcnVtcyI+PHNwYW4gc3R5bGU9ImNvbG9yOiM3Nzc3ZmMiPjx1PlZSQ2hhdCBBc2sgRm9ydW1zPC91Pjwvc3Bhbj48L2E+ISBZb3UgY2FuIGZpbmQgb2ZmaWNpYWwgbWVzc2FnaW5nIHRoZXJlIGFsb25nIHdpdGggaW5mb3JtYXRpb24gb24gd29ybGQgYW5kIGF2YXRhciBjcmVhdGlvbi48YnIvPjxici8+V2hpbGUgdXNpbmcgVlJDaGF0IGlmIHlvdSB3b3VsZCBsaWtlIHRvIHNoYXJlIGFueSBmZWVkYmFjayBwbGVhc2UgaGVhZCBvdmVyIHRvIG91ciA8YSBocmVmPSJodHRwczovL2ZlZWRiYWNrLnZyY2hhdC5jb20vZmVhdHVyZS1yZXF1ZXN0cyIgdGl0bGU9IlZSQ2hhdCBGZWVkYmFjayBCb2FyZCI+PHNwYW4gc3R5bGU9ImNvbG9yOiM3Nzc3ZmMiPjx1PlZSQ2hhdCBGZWVkYmFjayBCb2FyZHM8L3U+PC9zcGFuPjwvYT4gcGFnZSB0byBkbyBzby48YnIvPjxici8+V2UgdXNlIENyb3dkaW4gdG8gYWxsb3cgPHN0cm9uZz55b3U8L3N0cm9uZz4gdG8gcHJvdmlkZSBsb2NhbGl6YXRpb24gc3VnZ2VzdGlvbnMuIExlYXJuIG1vcmUgYXQgb3VyIDxhIGhyZWY9Imh0dHBzOi8vZG9jcy52cmNoYXQuY29tL2RvY3Mvc3VnZ2VzdGluZy1sb2NhbGl6YXRpb24tY2hhbmdlcyIgdGl0bGU9IkNyb3dkaW4gRG9jcyI+PHNwYW4gc3R5bGU9ImNvbG9yOiM3Nzc3ZmMiPjx1PkNyb3dkaW4gRG9jdW1lbnRhdGlvbjwvdT48L3NwYW4+PC9hPiBwYWdlLg==
+|article-id=ips_1f542a96-90b9-4e9a-9bff-0228f8f94289
+|article-image=https://assets.vrchat.com/ips/assets/d42de585fb6f64ed92e5183e3e7143d56b74e809a28acddc2c22755cc07beb75.png
+|article-title=The VRChat Community
+}}

@@ -1,0 +1,12 @@
+<noinclude><languages/></noinclude>{{#switch:{{SUBPAGENAME}}
+| {{PAGENAME}}
+| en =
+| #default = {{Noticebox
+|template=Noticebox/Guidelines_translation
+|image=VRChatTranslatorBadge.png
+|title= このページの [[{{#titleparts:{{FULLPAGENAME}}|-1}}/en| 英語版]] が、記事の決定版です。
+|description= モデレーションの対応は、VRChat Wiki英語版のルールおよびポリシーに基づき、裁量で行われます。
+|border-color=#207dd4
+|background-color=#151d29
+}}
+}}

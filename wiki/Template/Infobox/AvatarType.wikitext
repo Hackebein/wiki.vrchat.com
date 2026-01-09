@@ -1,0 +1,8 @@
+<includeonly><infobox type="AvatarType" theme="community">
+	<title source="name"><default>'''Missing name!'''</default></title>
+	<image source="image"><default>[[File:Placeholder.webp|Missing thumbnail image!]]</default></image>
+    <group>
+        <data source="author"><label>Author</label></data>
+        <data source="published"><label>Published</label></data>
+    </group>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Avatars{{#translation:}}]] [[Category:Community Content]]}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Avatars{{#translation:}}]]}}</includeonly><noinclude>{{Documentation}}[[Category:Infobox Templates]][[Category:Templates]]</noinclude>

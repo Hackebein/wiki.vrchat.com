@@ -1,0 +1,416 @@
+<languages/>
+{{Noticebox/Official}}
+'''Controls''' are arrays of inputs on controllers and devices to navigate [[Special:MyLanguage/VRChat|VRChat]], across different [[Special:MyLanguage/platforms|platforms]]. VRChat supports several operating systems, with multiple combinations of devices and controllers. Some of these controls can be configured in the [[Special:MyLanguage/Settings#Controls|Settings]] Menu. Depending on the platform you are using VRChat on, you may be able to customize controls further by using the Settings menu in VRChat, or your device's dashboard.
+
+The Settings Menu within VRChat details the button mappings for the device you’re currently using. Below are the default configurations:
+
+==Primary controls==
+
+These are the basic controls for navigating and interacting within VRChat that apply to the different input types:
+{| class="wikitable" style="text-align:center;"
+! style="text-align:center;" |Action
+! style="text-align:center;" |Keyboard/Mouse
+! style="text-align:center;" |VR Controller
+! style="text-align:center;" |Gamepad (Xbox)
+! style="text-align:center;" |Mobile
+|-
+! scope="row" style="text-align:center;" |Move
+|WASD
+| colspan="2" |Left Thumbstick
+|Virtual Thumbstick
+|-
+! scope="row" style="text-align:center;" |Turn
+|Mouse Move
+| colspan="2" | Right Thumbstick
+|Hold and drag screen 
+|-
+! scope="row" style="text-align:center;" |Jump
+|Space
+|A (right hand, bottom button)
+|A
+|Jump Button
+|-
+! scope="row" style="text-align:center;" |Crouch
+|C
+| colspan="1" rowspan="2" |''−−''
+| rowspan="1" |Left Thumbstick (Click)
+| rowspan="2" |Jump Button (Hold)
+|-
+! scope="row" style="text-align:center;" |Prone / Crawl
+|Z
+|Left Thumbstick (Hold)
+|-
+! scope="row" style="text-align:center;" |Sprint
+|Left Shift
+| colspan="3" |''−−''
+|-
+! scope="row" style="text-align:center;" |Use / Interact
+|E
+|Trigger / Index finger pull
+| rowspan="2" |Trigger
+| rowspan="2" | Tap
+|-
+! scope="row" style="text-align:center;" |Grab / Pick Up
+|Left Mouse Button
+|Grip / Middle finger pull
+|-
+! scope="row" style="text-align:center;" |Quick Menu
+|Escape
+|B / Y (either hand, top button)
+| colspan="2" |Menu Button
+|-
+! scope="row" style="text-align:center;" | Action Menu
+|R
+|B / Y (Hold) (either hand, top button)
+| Right Thumbstick (Press)
+|Menu Button (Hold)
+|-
+! scope="row" style="text-align:center;" |Mute/Unmute
+|V
+|X (left hand, bottom button)
+|Y
+| Microphone Button
+|}
+
+==Additional controls==
+
+===VR===
+
+VRChat officially supports the following headsets and their corresponding control schemes.
+
+*Meta Quest headsets
+**Meta Quest 2
+**Meta Quest 3(S)
+**Meta Quest Pro
+* HTC Vive XR Elite
+*Pico 4
+
+In addition, VRChat supports these headsets in PCVR mode, where your headset is connected to a Windows gaming PC.
+
+*All SteamVR-compatible headsets, including (but not limited to)
+**Valve Index
+**HTC Vive series
+**Bigscreen Beyond
+**Tethered Pimax HMDs
+**Any Steam Link-compatible HMD
+**Any Virtual Desktop-compatible HMD
+**Most ALVR-compatible HMDs
+
+On PC, we also support gamepad input via Steam’s Input Manager.
+
+====Controller buttons====
+
+Most VR controllers are laid out similarly. Each controller has a joystick and two main buttons, a system button, a trigger, and a grip button.
+{| class="wikitable"
+!Button
+!Assignment
+|-
+|A - right hand, bottom button
+|Jump
+|-
+|B - right hand, top button
+| Press: Quick Menu Hold: Action Menu 
+|-
+|X - left hand, button button
+|Press: Mute/Unmute
+|-
+|Y - left hand, top button
+| Press: Quick Menu Hold: Action Menu 
+|-
+|Grip - Middle finger pull
+
+|Pick up
+|-
+|Trigger - Index finger pull 
+|Use
+|-
+|Right Thumbstick
+| Turn
+|-
+|Left Thumbstick
+|Move / Locomote
+|-
+|Both Triggers + Both Menu Buttons
+| Enable Safe Mode
+|-
+|Hold Both Menu Buttons During World Load
+|Locally change avatar to error robot (Useful when your avatar causes crashes or prevents you from using your menu)
+|}
+
+====Hand tracking====
+''See also [[Special:MyLanguage/Finger tracking|Finger tracking]] for more detailed information.''
+{{Thumb|{{YouTube|oopovk3BPaw}}}}
+[[File:Handtracking controls vrcmenu.webp|thumb|250px|Controls for finger tracking, within the [[Special:MyLanguage/Main Menu|main menu]] settings.]]
+
+VRChat also offers a {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|tutorial world}}, and [https://www.youtube.com/watch?v=oopovk3BPaw tutorial video] on setting up hand tracking on Meta Quest systems, and to learn hand tracking gestures within VRChat.
+
+Enable hand tracking on the Quest settings dashboard. To use hand tracking, place your controllers down on a flat surface, and hold your hands out so the Quest hand tracking system can detect them. Make sure there is ample lighting in the room, for the Quest cameras to see your hands. Please note that hand tracking ''cannot be utilized over wired Quest Link'' methods at this time.
+
+'''To move around the [[Special:MyLanguage/Worlds|world]]''', hold your '''left hand''' up, palm facing upwards, towards your face. Touch your middle finger to your thumb in a "pinch" motion, and a small blue sphere will appear. While still pinching, move your fingers away from that sphere, and your avatar will move in that direction.
+
+'''To turn left and right''', pinch your middle finger to your thumb with your '''right hand'''. While still pinching, move your hand left or right from its original position.
+
+You can also turn with Comfort Turning (snap turning) on or off. If you have Comfort Turning on, you will need to move your pinched finger past the turn point each time you turn. It might be easier to use this locomotion method with Comfort Turning disabled in your [[Special:MyLanguage/Settings|settings]].
+
+'''Open your [[Special:MyLanguage/Quick Menu|quick menu]]''' by pinching your index finger and your thumb on your '''left hand'''. This is a default gesture on Meta systems, and you will see a small menu icon floating over your hand, which fills a gauge as you long-pinch. There are three methods you can use to open your Quick Menu:
+
+* Palm Facing Pinch
+* Circle Key
+* Push Button
+
+'''To interact with the user interface and [[Special:MyLanguage/menus|menus]]''', point at it with either hand, and select things by pinching your index and thumb together.
+
+'''You can mute yourself''' by holding your thumb and ring finger together for a moment on your left hand.
+
+'''Picking up world objects''' can be done by going near the object, and clenching your fist. Additionally, you can '''use objects''' by keeping your middle, ring, and little fingers clenched, but separately pinching your index and thumb together.
+
+'''Note:'''  Hand tracking does not work with Quest Link.
+Finger tracking controls can be viewed in the Controls tab of the [[Special:MyLanguage/Main Menu|main menu]], while finger tracking is enabled.
+
+===Desktop===
+
+You can play VRChat using a keyboard and mouse.
+
+Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts your view position. Your head points in the direction you’re looking.
+{| class="wikitable"
+! Key
+!What it does 
+|-
+|W
+| Moves user forward
+|-
+| A
+|Moves user left
+|-
+|S
+|Moves user back
+|-
+|D
+|Moves user right
+|-
+|Space
+|Makes user jump (if it is enabled in the room)
+|-
+|Z
+|Crawl/Go Prone
+|-
+|C
+|Crouch
+|-
+|R
+|Opens Action Menu
+|-
+|Escape
+|Opens Quick Menu
+|-
+|Shift
+|Sprint
+|-
+|Left Click
+|Interact / Pickup
+|-
+|Right Click (Hold)
+|Shows interaction mouse
+|-
+|Right Click
+|Drop pickup
+|-
+| Right Click (Hold) (Pickups)
+|Allows you to throw held pickups. The longer you hold, the further the object goes.
+|-
+| V (Hold) (If using push to talk)
+|Enables microphone as long as it’s held
+|-
+| V (If using toggle talk)
+|Enables / Disables microphone
+|-
+|Y
+|Opens chatbox text input
+|-
+|Tab (Hold)
+|Allows you to move your mouse around the screen without moving your avatar. (Useful for clicking UI elements)
+|-
+| End
+|Toggles AFK mode
+|-
+|Control + N
+|Cycles through visibility options of [[Special:MyLanguage/Nameplates|nameplates]]
+|-
+|Control + H
+|Toggles visibility of the [[Special:MyLanguage/HUD|HUD]] (microphone and notification icons)
+|-
+|Control + \
+|Local switch to default [[Special:MyLanguage/Robot|Robot]] [[Special:MyLanguage/avatar|avatar]] (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|RShift + Backtick + 1<sup>†</sup>
+|Toggles visibility of trigger debug menu
+|-
+|RShift + Backtick + 2<sup>†</sup>
+|Toggles visibility of information debug menu
+|-
+|RShift + Backtick + 3<sup>†</sup>
+|Toggles visibility of console debug menu
+|-
+|RShift + Backtick + 4<sup>†</sup>
+|Toggles visibility of networking debug menu
+|-
+|RShift + Backtick + 5<sup>†</sup>
+|Toggles visibility of networking graph debug menu
+|-
+|RShift + Backtick + 7<sup>†</sup>
+|Toggles visibility of networking debug overlay
+|-
+|RShift + Backtick + 8<sup>†</sup>
+|Toggles visibility of event debug overlay
+|-
+|RShift + Backtick + 9<sup>†</sup>
+|Toggles visibility of user networking debug overlay
+|-
+|F12
+|Takes screenshot, saved to the folder VRChat is installed
+|-
+|Control + F12
+|Takes screenshot at double the normal resolution, by default 4K (3840 × 2160), saved to the User’s Pictures/VRChat folder
+|-
+|Shift + F1*
+|Hand gesture - Idle
+|-
+|Shift + F2*
+|Hand gesture - Fist
+|-
+|Shift + F3*
+|Hand gesture - Open Hand
+|-
+|Shift + F4* 
+|Hand gesture - Point
+|-
+|Shift + F5*
+|Hand gesture - Victory (Peace)
+|-
+|Shift + F6*
+|Hand gesture - Rock ’n Roll
+|-
+|Shift + F7*
+|Hand gesture - Finger-gun
+|-
+|Shift + F8*
+|Hand gesture - Thumbs up
+|-
+|Shift + Escape
+|Enables Safe Mode.
+|-
+|Hold Escape During World Load
+|Locally change avatar to error robot (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|< and >
+|Rotate the user left and right in. 
+|-
+|I / K
+| Adjusts pitch of the held object (rotate along X axis)
+|-
+|J / L
+|Adjusts yaw of the held object (rotate along Y axis)
+
+|-
+| U / O
+|Adjusts roll of the held object (rotate along Z axis)
+|-
+|Mouse Wheel
+|Moves the held object forward/back (translate along Z axis)
+|-
+|Middle Mouse Button (Hold)
+|Adjusts object rotation by moving the mouse
+|}
+
+<nowiki>*</nowiki> Use left shift to control your left hand, use right shift to control your right hand.
+
+<sup>†</sup> On a standard English US QWERTY layout keyboard, “backtick” is the key in the top left, next to the <code>1</code> key. It shares a key with the tilde (<code>~</code>) character.
+
+Debug options are disabled unless you launch VRChat with the <code>--enable-debug-gui</code> launch option.
+
+===Mobile===
+
+On the left side of the screen is a virtual joystick, which will move your avatar around. Tapping and dragging on the screen will move your point of view. Double tapping and holding anywhere on the screen will let you walk around and move your viewpoint simultaneously.
+
+The right side of the screen has buttons for jumping, picking up items, and interacting with the world. Holding down the button will allow for further options, such as an action menu, or crouching.
+
+Tapping on another user or a [[Special:MyLanguage/portals|portal]] will instantly bring up a secondary [[Special:MyLanguage/Menus|menu]].
+
+===Gamepad ===
+
+You can play VRChat using a gamepad on PC and Mobile.
+
+Typical controllers supported include Xbox controllers, PlayStation controllers, and Nintendo Switch controllers. The below table uses the "Xbox" controller layout for reference.
+{| class="wikitable"
+!Buttons (Based on Xbox Controller) 
+!Assignment
+|-
+|A
+|Makes user jump (if it is enabled in the room)
+|-
+| B / X
+|Drop pickup
+|-
+|Y (Hold) (If using push to talk)
+|Enables microphone as long as it’s held
+|-
+|Y (If using toggle talk)
+|Enables / Disables microphone
+|-
+|D-pad Up
+|Toggles visibility of user nametags
+|-
+|D-pad Down
+|Toggles visibility of the HUD (microphone and notification icons)
+|-
+|LB (Hold) + Left Joystick
+|Moves the held object forward/back (translate along Z axis)
+|-
+|LB (Hold) + Right Joystick
+|Rotates the held object
+|-
+|RB (Hold) + Left Joystick
+
+|Select left hand gesture (Only Available on Steam) 
+|-
+|RB (Hold) + Right Joystick
+|Select right hand gesture (Only Available on Steam)
+|-
+|LT/RT
+|Interact / Pickup
+|-
+|Left Joystick
+|Moves user
+|-
+|Left Joystick Click
+|Crouch
+|-
+|Left Joystick Hold
+|Crawl/Go Prone
+|-
+|Right Joystick
+|Looks around
+|-
+|Right Joystick Click
+|Opens Action Menu
+|-
+|View
+|Takes screenshot, saved to the folder VRChat is installed
+|-
+|Menu
+|Opens Quick Menu
+|-
+|A / RT (In Menu)
+|Click in Menu
+|-
+|B (In Menu)
+|Closes Menu 
+|}
+
+==Resources==
+
+*[https://www.youtube.com/watch?v=F0I2Ec4JsrE "Quest 2 Finger Tracking"] by VRChat on ''YouTube''
+*[https://docs.vrchat.com/docs/vrchat-202241 "VRChat 2022.4.1"] on Hand Tracking
+*[https://www.youtube.com/watch?v=oopovk3BPaw "Beginner's Guide to VRChat Hand/Finger Tracking"] by VRChat on ''YouTube''
+{{Start-navbox}}
+[[Category:Needs images{{#translation:}}]]

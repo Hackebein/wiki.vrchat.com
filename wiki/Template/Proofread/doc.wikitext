@@ -1,0 +1,29 @@
+== Documentation ==
+This is to be used when edits to a page may need proofreading.
+=== Example Usage ===
+<nowiki>{{Proofread|Section 2 needs to be checked}}</nowiki>
+
+will make:
+{{Proofread|Section 2 needs to be checked}}
+
+=== Template parameters ===
+{| class="wikitable"
+|-
+! Name !! Variable !! Description
+|-
+| Reason || <code>1</code>|| Gives the reason as to what needs proofreading.
+|}
+<noinclude>[[Category:Template Documentation]]</noinclude>
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Reason",
+			"description": "What needs to be proofread?",
+			"type": "string",
+			"suggested": true
+		}
+	},
+	"description": "For when a page/section needs proofreading"
+}
+</templatedata>

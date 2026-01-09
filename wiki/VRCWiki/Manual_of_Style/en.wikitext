@@ -1,0 +1,78 @@
+<languages/>
+This '''Manual of Style''' ('''MoS''' or '''MOS''') is a suggested style manual for the VRChat Wiki.
+
+In general:
+
+* All content on the VRChat Wiki should be truthful and accurate.
+* Contributors should write articles using straightforward, succinct, easily understood language and structure articles with consistent, reader-friendly layouts and formatting.
+* If you have any questions about style, layout, or formatting the VRChat Wiki, contact one of the [https://wiki.vrchat.com/wiki/Special:ListUsers?username=&group=community-mod&wpsubmit=&wpFormIdentifier=mw-listusers-form&limit=50 Community Moderators] for help.
+
+A few specific guidelines for style are detailed below:
+
+== Article titles ==
+
+A title should be a recognizable name or description of the topic, balancing the criteria of being natural, sufficiently precise, concise, and consistent with those of related articles.
+
+For formatting guidance see the Article title format section, noting the following:
+* Capitalize the initial letter, but otherwise follow sentence case. VRChat uses sentence case for sentences, article titles, section titles, table headers, image captions, list entries (in most cases), and entries in infoboxes and similar templates, among other things. 
+* Do not use articles (''a'', ''an'', or ''the'') as the first word (''[[Special:MyLanguage/Creator Economy|Creator Economy]]'', not ''The Creator Economy''), unless it is an inseparable part of a name ([[Special:MyLanguage/The Black Cat|The Black Cat]]) or title of a work (''The VRChat Times'').
+* Normally use nouns or noun phrases: Early life, not In early life. Phrases such as In early life are acceptable (though not required) as section headings. They are also used frequently as part of longer article titles such as ''VRChat Events'', especially when a shorter construction (''Events'') may have ambiguity issues.
+* The final character should not be punctuation unless it is an inseparable part of a name (such as ''Do Androids Dream of Electric Sheep?''), or an abbreviation (VRChat Inc.), or when a closing round bracket or quotation mark is required (''Fantastic Avatars (and where to find them)'').
+* Whenever quotation marks or apostrophes appear, add a redirect for the same title using apostrophes. Avoid use of curly quotes ("smart quotes") because straight quotation marks and apostrophes are easier to type and display reliably on most platforms.
+
+==Section headings==
+
+Section headings should generally follow the guidance for article titles (above), and should be presented in sentence case (How to feed your VRCat), not title case (How To Feed Your VRCat).
+
+The heading must be on its own line, with one blank line just before it; a blank line just after is optional and ignored (but do not use two blank lines, before or after, because that will add unwanted visible space).
+
+For technical reasons, section headings should:
+
+* Be unique within a page, so that section links lead to the right place.
+* Not contain links, especially where only part of a heading is linked.
+* Not contain images, emoji or icons.
+* Not contain citations or footnotes.
+* Not misuse description list markup (";") to create pseudo-headings.
+* Not contain template transclusions.
+
+As a matter of consistent style, section headings should:
+
+* Not redundantly refer back to the subject of the article, e.g., Early life, not Smith's early life or His early life.
+* Not refer to a higher-level heading, unless doing so is shorter or clearer.
+* Not be numbered or lettered as an outline.
+* Not be phrased as a question, e.g., Languages, not What languages are spoken in Mexico?.
+* Not use color or unusual fonts that might cause accessibility problems.
+* Not be wrapped in markup, which may break their display and cause other accessibility issues
+
+== English word choice and capitalization ==
+
+In order to make localization of the wiki content easier in the long run, consider a few style choices such as these:
+
+* '''Quotations, titles of works (books, films, etc.)''' should be capitalized as given in the source (but see Typographic conformity, below);
+* '''Proper names''' use the subject's own spelling and capitalization, e.g., "...joint project of VRChat Inc. and VRChat Community Labs..."; "International Avatar Federation"
+* Generally, do not capitalize the word the in mid-sentence: throughout the United Kingdom, not throughout The United Kingdom.
+* Use universally accepted terms rather than those less widely distributed, especially in titles. For example, "glasses" is preferred to the national varieties spectacles (British English) and eyeglasses (American English); "Ten million" is preferable to "one crore" (Indian English).
+* If a variant spelling appears in a title, make a redirect page to accommodate the others, as with "artefact" and "artifact", so that all variants can be used in searches and linking.
+* Use a commonly understood word or phrase in preference to one that has a different meaning because of national differences (rather than "alternate", use "alternative" or "alternating", as appropriate), except in technical contexts where such substitution would be inappropriate ("alternate reality"; "alternate universe").
+
+== Links ==
+
+Please make an effort to use internal links whenever possible and avoid including tracking parameters in your URLs.
+
+=== Group Links ===
+
+When linking to your group, ensure that you use a permanent link. The link should clearly display the group name followed by its short code.
+
+Example:
+* [https://vrchat.com/home/group/grp_7ccb6ca3-cd36-4dab-9ab1-7bcf08d794e4 VRChat Team] - VRCHAT.0000
+
+== Categories ==
+When adding a category to a page, ensure you are adding <code><nowiki>{{#translation:}}</nowiki></code> within the category enclosing.
+
+Example:
+* <code><nowiki>[[Category:Game worlds{{#translation:}}]]</nowiki></code>
+
+This ensures that future pages that get marked for translation doesn't clog up the category list with language variants of the same page.
+
+----
+{{Navbox/Wiki_policies}}

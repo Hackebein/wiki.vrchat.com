@@ -1,0 +1,1 @@
+fetch("https://vrchat.com/api/1/infopush?require=quick-menu-banner&include=quick-menu-banner").then(console.log)

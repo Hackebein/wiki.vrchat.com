@@ -1,0 +1,91 @@
+<languages/>
+{{Noticebox/Official}}
+在 [[Special:MyLanguage/VRChat|VRChat]] 中，'''虚拟形象'''指的是玩家所使用的模型。虚拟形象是玩家在 VR 环境中互动和表达自己的主要方式。通过虚拟形象，玩家可以展现自己的个性，与[[Special:MyLanguage/Worlds|世界]]互动，或以富有创意和沉浸感的方式探索新身份。虚拟形象有多种形状和大小，VRchat 社区开发了各种各样的虚拟形象，每个都有独特的风格和美感。玩家可以根据自己的个人喜好来决定哪种虚拟形象最适合自己，或者利用 [[Special:MyLanguage/VRChat SDK|VRChat SDK]] 创建自己的虚拟形象。
+
+== 更改虚拟形象 ==
+当用户第一次进入 VRChat 时，他们会使用默认的 [[Special:MyLanguage/Robot|Robot]] 虚拟形象。当然，他们也可以选择使用 VRChat 官方提供的各种角色。不过，这些选择仅是虚拟形象的冰山一角。用户可以通过多种方法更换虚拟形象。
+
+=== 功能列表 ===
+VRChat 维护着一个精选的具有各种特色的[[Special:MyLanguage/Public Avatars|公共虚拟形象]]列表，这些虚拟形象经过性能优化，旨在迎合各种风格和偏好。用户可以随时浏览和试用这些虚拟形象，只需在[[Special:MyLanguage/Main Menu|主菜单]]中的 “虚拟形象”选项卡选择“公开”或“旧版”分类即可。
+
+<div class="mw-translate-fuzzy">
+一旦找到你想使用的虚拟形象，选择它并点击“更换模型”按钮进行确认。
+
+<!-- This images is placed here on purpose, it doesnt seem to have updated to the current version of the image, ill give it some time to see if its delayed. -->
+[[File:Publicavatarclone.webp|thumb|right|显示用户详细页面的快速菜单，用户可在“玩家选项”部分点击“克隆此模型”和“收藏模型”按钮。]]
+
+=== 克隆 ===
+用户可以直接从其他用户那里克隆虚拟形象。这个功能允许用户通过选择另一用户，并在[[Special:MyLanguage/Quick Menu|快速菜单]]中点击“克隆此模型”按钮，来使用相同的虚拟形象。如果这个选项不可用，可能意味着对方已经禁用了克隆功能，或者正在使用自行上传到其账号的私人虚拟形象。
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Cloning===
+[[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, "Clone Avatar" and "Favorite Avatar" buttons found under "User Actions" section.]]
+Users have the option to clone avatars directly from other users. This feature allows users to adopt the same avatar they see another user using by selecting the user and utilizing the "Clone Avatar" button within the [[Special:MyLanguage/Quick Menu|Quick Menu]]. If this option is unavailable, it indicates that the other user has disabled the cloning feature, or is using an avatar marked as private.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To disable the cloning of avatars one can go to [[Special:MyLanguage/Settings|Settings]] in the Main Menu, click on the '''Avatars''' tab, and turn off '''Allow Avatar Cloning'''.
+</div>
+
+=== 虚拟形象展台和模型世界 ===
+你也可以使用虚拟形象展台上的虚拟形象。这些虚拟形象展台通常位于“模型世界”类别下的世界中。这些虚拟形象展台会显示虚拟形象的预览图，用户可以通过与之互动克隆虚拟形象。 
+
+<div class="mw-translate-fuzzy">
+==收藏虚拟形象==
+用户可以收藏虚拟形象，以便以后使用。收藏的虚拟形象将显示在虚拟形象选项卡的“收藏模型”分类中。每个收藏分类最多可保存 50 个虚拟形象。如果订阅了 [[Special:MyLanguage/VRChat+|VRChat+]]，你将还可以多使用 5 个虚拟形象收藏分类。
+</div>
+
+<div class="mw-translate-fuzzy">
+有多种方法可以收藏虚拟形象。如果你正在使用想要收藏的虚拟形象，请进入虚拟形象页面，点击右下角虚拟形象预览下方的“收藏模型”按钮。如果你想收藏的虚拟形象是别人正在使用的，请选择该用户并点击[[Special:MyLanguage/Quick Menu|快速菜单]]中的“收藏模型”按钮。
+</div>
+
+==平台兼容性==
+''更多详细信息，请参阅[[Special:MyLanguage/Platforms|平台]]''。
+
+<div class="mw-translate-fuzzy">
+由于 Oculus Quest、安卓和 iOS 等不同系统设备的限制，VRChat 虚拟形象针对 PC 和移动平台的限制有所不同。因此，有些虚拟形象可能无法在所有设备上使用。有关这些限制的详细信息，请参阅以下资源：
+</div>
+
+*[https://creators.vrchat.com/platforms/android/quest-content-limitations/ Quest 内容限制]
+*[https://creators.vrchat.com/platforms/android/android-best-practices/ 安卓最佳范例]
+
+创作者可以通过给同一虚拟形象 ID 上传多个版本来使该虚拟形象兼容多个平台。如果一个虚拟形象无法在用户的平台上显示，它会首先尝试显示该虚拟形象的[[Special:MyLanguage/Impostor|模型替身]]。如果没有已生成的替身，则会显示[[Special:MyLanguage/Fallbacks|备用模型]]。
+
+<div class="mw-translate-fuzzy">
+用户的备用模型可以在“虚拟形象”菜单中更改。
+</div>
+
+==性能评级==
+虚拟形象会根据其性能的开销进行评级。它们分别是：
+极高负载{{performance|verypoor|22}}
+高负载{{performance|poor|22}}
+中负载{{performance|medium|22}}
+低负载{{performance|good|22}}
+极低负载{{performance|excellent|22}}。
+该分类有助于用户了解其虚拟形象对整个 VRChat 体验的性能影响。影响虚拟形象性能评级的因素包括网格多边形数、材质数、纹理分辨率、动画控制器复杂度；以及虚拟形象组件，如[[Special:MyLanguage/Physbones|物理骨骼]]或约束。 
+
+你可以在官方文档[https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ 虚拟形象性能评级系统]中找到更多详细信息。
+
+<div class="mw-translate-fuzzy">
+== 创建和上传==
+只要遵守 VRChat 的[[Special:MyLanguage/Terms of Service|服务条款]]，用户就可以通过创建和上传自定义虚拟形象来获得更好的 VRChat 体验。要上传虚拟形象，用户必须首先达到“萌新”等级并安装必要的工具，如推荐的 Unity 版本和[[Special:MyLanguage/VRChat SDK|VRChat SDK]]。
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+With the release of [https://creators.vrchat.com/releases/release-3-9-0#fixes--changes SDK 3.9.0], the trust rank requirement for users to build & test their avatars have been removed. Previous SDK versions require trust rank "New User" or higher to build & test avatars.
+</div>
+
+上传虚拟形象后，你就可以在虚拟形象列表的“已上传”分类找到它们。
+
+有关SDK可以做些什么的'''详细指南'''可以在创作者文档[https://creators.vrchat.com/avatars/creating-your-first-avatar/ 创建你的第一个虚拟形象]找到，
+
+<span id="Official_resources"></span>
+== 官方资源 ==
+
+* VRChat Creators 上的[https://creators.vrchat.com/avatars/ 虚拟形象]。
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Trivia==
+*Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
+</div>

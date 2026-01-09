@@ -1,0 +1,423 @@
+<languages/>
+{{Noticebox/Official}}
+「'''控制'''」（'''Controls'''），是指用戶透過控制器和相關設備，在不同[[Special:MyLanguage/platforms|平台]]上遊玩 [[Special:MyLanguage/VRChat|VRChat]] 的操作方式。VRChat 支援多種作業系統，並可與多種裝置和控制器組合使用。其中一些控制方式可在[[Special:MyLanguage/Settings#Controls|設定]]選單中進行調整。另外，根據你所使用的平台，你或許可以透過 VRChat 的設定選單，或裝置本身的儀表板來自訂控制方式。
+
+在 VRChat 的設定選單當中，會顯示你目前正在使用的裝置，並顯示裝置上按鍵的對應功能。以下為預設配置：
+
+<span id="Primary_controls"></span>
+==主要控制方式==
+
+下方表格顯示了在 VRChat 中，使用不同控制器及設備時，其預設的配置：
+{| class="wikitable" style="text-align:center;"
+! style="text-align:center;" |功能
+! style="text-align:center;" |鍵盤及滑鼠
+! style="text-align:center;" |VR 控制器
+! style="text-align:center;" |遊戲手把（Xbox）
+! style="text-align:center;" |行動裝置
+|-
+! scope="row" style="text-align:center;" |移動
+|WASD 鍵
+| colspan="2" |左搖桿
+|虛擬搖桿
+|-
+! scope="row" style="text-align:center;" |轉向
+|移動滑鼠
+| colspan="2" |右搖桿
+|按住螢幕並拖動 
+|-
+! scope="row" style="text-align:center;" |跳躍
+|空白鍵
+|A 鍵／右手的下方按鈕
+|A 鍵
+|跳躍按鈕
+|-
+! scope="row" style="text-align:center;" |蹲下
+|C 鍵
+| colspan="1" rowspan="2" |''不適用''
+| rowspan="1" |左搖桿（按下）
+| rowspan="2" |跳躍按鈕（長按）
+|-
+! scope="row" style="text-align:center;" |趴下／爬行
+|Z 鍵
+|左搖桿（長按）
+|-
+! scope="row" style="text-align:center;" |奔跑
+|左 Shift 鍵
+| colspan="3" |''不適用''
+|-
+! scope="row" style="text-align:center;" |使用／互動
+|E 鍵
+|扳機鍵／食指按鈕
+| rowspan="2" |扳機鍵
+| rowspan="2" |點擊
+|-
+! scope="row" style="text-align:center;" |抓取／拿取
+|滑鼠左鍵
+|握把鍵／中指按紐
+|-
+! scope="row" style="text-align:center;" |快速選單
+|ESC 鍵
+|B 鍵／Y鍵／雙手的上方按鈕
+| colspan="2" |選單按鈕
+|-
+! scope="row" style="text-align:center;" |動作選單
+|R 鍵
+|B 鍵／Y鍵／雙手的上方按鈕（長按）
+|右搖桿（按下）
+|選單按鈕（長按）
+|-
+! scope="row" style="text-align:center;" |開麥／關麥
+|V 鍵
+|X 鍵／左手的下方按鈕
+|Y 鍵
+|麥克風按鈕
+|}
+
+<span id="Additional_controls"></span>
+==其他控制方式==
+
+<span id="VR"></span>
+===VR 模式===
+
+VRChat 官方支援以下頭戴式顯示器及其相應的控制方案。
+
+* Meta Quest 的頭戴式顯示器
+** Meta Quest 2
+** Meta Quest 3(S)
+** Meta Quest Pro
+* HTC Vive XR Elite
+* Pico 4
+
+另外，VRChat 同時支援透過這些頭戴式顯示器執行的 PCVR 模式，也就是將你的裝置連接至電腦遊玩 VRChat 時。
+
+*所有與 SteamVR 相容的頭戴式顯示器，包括（但不限於）：
+**Valve Index
+**HTC Vive 系列
+**Bigscreen Beyond
+**有線連接 Pimax HMDs
+**任何相容 Steam Link 的頭戴式顯示器
+**任何相容 Virtual Desktop-compatible 的頭戴式顯示器
+**大多數相容 ALVR 的頭戴式顯示器
+
+在 PC 模式，我們也支援透過 Steam 的輸入管理器所操作的控制器。
+
+<span id="Controller_buttons"></span>
+====控制器按鍵====
+
+大多數的 VR 控制器所附的按鍵都很相似，通常都會設有搖桿、兩個主要按鍵、系統按鈕、扳機鍵、握把鍵。
+{| class="wikitable"
+!功能
+!按鍵
+|-
+|跳躍
+|A 鍵／右手的下方按鈕
+|-
+|快速選單（點擊） 動作選單（長按）
+|B 鍵／右手的上方按鈕 
+|-
+|靜音／解除靜音
+|X 鍵／左手的下方按鈕
+|-
+|快速選單（點擊） 動作選單（長按）
+|Y 鍵／左手的上方按鈕
+|-
+|抓取／拿取物件
+
+|握把鍵／中指按鈕
+|-
+|互動／使用物件
+|扳機鍵／食指按鈕
+|-
+|轉向
+|右搖桿
+|-
+|移動
+|左搖桿
+|-
+|啟用安全模式
+|同時按下兩個扳機鍵及兩個快速選單按鈕
+|-
+|載入世界時按下兩個快速選單按鈕
+|切換你的[[Special:MyLanguage/avatar|角色（Avatar）]]為錯誤[[Special:MyLanguage/Robot|機器人]]（當你的角色導致程式閃退或無法打開選單時非常有用）
+|}
+
+====手勢追蹤====
+''詳細資訊請參考[[Special:MyLanguage/Finger_tracking|手勢追蹤]]的條目。''
+{{Thumb|{{YouTube|oopovk3BPaw}}}}
+[[File:Handtracking controls vrcmenu.webp|thumb|250px|在[[Special:MyLanguage/Main_Menu|主選單]]中，手勢追蹤的設定頁面。]]
+
+VRChat 官方在遊戲中設置了一個{{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|教學世界}}，讓你能夠在親自操作的環境下學習手勢追蹤。
+
+如果要開始使用手勢追蹤，那請將控制器放在平坦處，在確認有足夠的光線之下，伸出雙手讓 Quest 的手勢追蹤系統以鏡頭偵測。''請注意，目前尚無法在使用 Quest Link 時啟用手勢追蹤。''
+
+如果要在[[Special:MyLanguage/Worlds|世界（Worlds）]]當中移動，請舉起你的左手，並將手掌面向自己，接著將中指及大拇指輕捏，作出「捏合」的手勢，此時會出現一個小型藍色球體，而在保持捏合的狀態下，朝你想前進方向，將手掌離開球體，你便能夠讓你的角色朝這個方向移動！
+
+至於向左或向右轉動，則請舉起你的右手，像移動時的操作一樣，用中指及大拇指作出「捏合」的手勢，而在保持捏合狀態下，將手掌從原本的位置，朝左或朝右移動離開球體，你便可以朝這個方向轉動。
+
+另外，你也可以開啟在[[Special:MyLanguage/Settings|設定]]中的「舒適轉向」功能。在開啟舒適轉向後，每次轉向你都需要將捏合的手指移動到超過轉向點後，才能夠完成轉向。關閉這項功能，可能會讓你更容易透過手部追蹤進行操作。
+
+當你想要開啟[[Special:MyLanguage/Quick_Menu|快速選單（Quick Menu）]]時，請用左手的大食指與拇指作出「捏合」手勢，這是 Oculus 的「預設」手勢。在捏合後，會出現一個小型的選單圖示浮在手上，而持續捏合會讓圖示逐漸「填滿」，待圖示填滿後即可開啟快速選單。你可以透過三種方法來開啟快速選單：
+
+* 手掌朝向捏合
+* 圓形鍵
+* 按下按鈕
+
+若要操作[[Special:MyLanguage/menus|選單]]介面，請任一隻手指指向目標，並捏合你的食指與大拇指來選取目標。
+
+如果要關閉麥克風，你只需要舉起左手將大拇指與無名指併攏一小段時間。
+
+若要「'''拾取世界物件'''」，可以透過靠近物件並握拳來完成。此外，若要「'''使用物件'''」，請維持握住中指、無名指與小指的手勢，同時將食指與拇指互相捏合。
+
+'''備註'''：手勢追蹤功能無法與 Quest Link 搭配使用。當啟用手勢追蹤時，你可以在[[Special:MyLanguage/Main Menu|主選單]]設定中的控制欄位裡，查看手指追蹤的控制方式。
+
+<span id="Desktop"></span>
+===PC 模式===
+
+你可以透過鍵盤與滑鼠來遊玩 VRChat。
+
+VRChat 的移動方式與其他 FPS 遊戲一樣以 WASD 鍵操作，滑鼠則能夠調整視角，頭會隨著你看的方向轉動。
+{| class="wikitable"
+!功能
+!按鍵 
+|-
+|向前移動
+|W 鍵
+|-
+|向左移動
+|A 鍵
+|-
+|向後移動
+|S 鍵
+|-
+|向右移動
+|D 鍵
+|-
+|跳躍（當所在世界設定允許時）
+|空白鍵
+|-
+|趴下／爬行
+|Z 鍵
+|-
+|蹲下
+|C 鍵
+|-
+|開啟動作選單
+|R 鍵
+|-
+|開啟快速選單
+|ESC 鍵
+|-
+|奔跑
+|左側 Shift 鍵
+|-
+|互動／拿取物件
+|左鍵
+|-
+|顯示準星
+|右鍵（長按）
+|-
+|放下物件
+|右鍵
+|-
+|持有物件時，可以按住蓄力，放開後投擲，越久越遠
+|右鍵（長按並放開）
+|-
+|持續開啟麥克風（啟用按鍵發話時）
+|V 鍵（長按）
+|-
+|開啟／關閉麥克風（啟用開關切換時）
+|V 鍵
+|-
+|開啟對話框輸入欄
+|Y 鍵
+|-
+|能在不移動視角的情況下移動游標，並可以點擊介面按紐
+|TAB 鍵（長按）
+|-
+|開啟／關閉 AFK 模式
+|END 鍵
+|-
+|顯示[[Special:MyLanguage/Nameplates|名牌]]／隱藏[[Special:MyLanguage/Nameplates|名牌]]上的名字／隱藏[[Special:MyLanguage/Nameplates|名牌]]上的頭像及名字
+|Ctrl + N 鍵
+|-
+|顯示／隱藏 [[Special:MyLanguage/HUD|HUD]]，可以隱藏麥克風及通知圖示
+|Ctrl + H 鍵
+|-
+|切換你的[[Special:MyLanguage/avatar|角色]]為錯誤[[Special:MyLanguage/Robot|機器人]]
+|Ctrl + \ 鍵
+|-
+|顯示／隱藏觸發器除錯選單
+|右側 Shift + Backtick + 1<sup>†</sup> 鍵
+|-
+|顯示／隱藏資訊除錯選單
+|右側 Shift + Backtick + 2<sup>†</sup> 鍵
+|-
+|顯示／隱藏控制台除錯選單
+|右側 Shift + Backtick + 3<sup>†</sup> 鍵
+|-
+|顯示／隱藏網路除錯選單
+|右側 Shift + Backtick + 4<sup>†</sup> 鍵
+|-
+|顯示／隱藏網路圖表除錯選單
+|右側 Shift + Backtick + 5<sup>†</sup> 鍵
+|-
+|顯示／隱藏網路除錯覆蓋層
+|右側 Shift + Backtick + 7<sup>†</sup> 鍵
+|-
+|顯示／隱藏事件除錯覆蓋層
+|右側 Shift + Backtick + 8<sup>†</sup> 鍵
+|-
+|顯示／隱藏使用者網路除錯覆蓋層
+|右側 Shift + Backtick + 9<sup>†</sup> 鍵
+|-
+|螢幕截圖
+|F12 鍵
+|-
+|螢幕截圖（4K 解析度）
+|Ctrl + F12 鍵
+|-
+|手勢 - 閒置（Idle）
+|Shift + F1* 鍵
+|-
+|手勢 - 拳頭（Fist）
+|Shift + F2* 鍵
+|-
+|手勢 - 張開手（Open Hand）
+|Shift + F3* 鍵
+|-
+|手勢 - 指向（Point）
+|Shift + F4* 鍵
+|-
+|手勢 - 勝利或和平（Victory or Peace）
+|Shift + F5* 鍵
+|-
+|手勢 - 搖滾（Rock ’n Roll）
+|Shift + F6* 鍵
+|-
+|手勢 - 手槍（Finger-gun）
+|Shift + F7* 鍵
+|-
+|手勢 - 比讚（Thumbs up）
+|Shift + F8* 鍵
+|-
+|開啟安全模式
+|Shift + Esc 鍵
+|-
+|切換你的[[Special:MyLanguage/avatar|角色]]為錯誤[[Special:MyLanguage/Robot|機器人]]
+|載入世界時按住 Esc 鍵
+|-
+|旋轉自己向左或向右
+|< 及 > 鍵
+|-
+|持有物件時，以 X 軸為圓心旋轉
+|I 及 K 鍵
+|-
+|持有物件時，以 Y 軸為圓心旋轉
+|J 及 L 鍵
+
+|-
+|持有物件時，以 Z 軸為圓心旋轉
+|U 及 O 鍵
+|-
+|持有物件時，以 Z 軸為基底拉近或拉遠
+|滑鼠滾輪
+|-
+|持有物件時，移動滑鼠將其旋轉
+|滑鼠中鍵
+|}
+
+<nowiki>*</nowiki> 當你使用左側 Shift 鍵時，會控制到你的左手；而在你使用右側 Shift 鍵時，則會控制你的右手。
+
+<sup>†</sup> 在標準的「美式英語 QWERTY」鍵盤中，「Backtick（`）」鍵位於鍵盤左上角，緊鄰「1」鍵，並與 Tilde（~）符號共用同一按鍵。
+
+請注意，除非在啟動 VRChat 時，在啟動選項中輸入 <code>--enable-debug-gui</code> 代碼，否則除錯選項將預設為關閉。
+
+<span id="Mobile"></span>
+===行動裝置===
+
+在手機螢幕的左側有個虛擬搖桿，可以用來移動你的角色，而點擊並拖動螢幕可以調整視角，點擊兩次並長按螢幕任意位置，則能夠在移動角色的情況下，同時調整視角。
+
+在螢幕右側有個按鈕可以跳躍、拾取物品及與世界互動，而長按按鈕能夠開啟更多選項，例如開啟動作選單或蹲下。
+
+點選其他用戶或[[Special:MyLanguage/portals|傳送門（Portals）]]，則會立即出現第二個[[Special:MyLanguage/Menus|選單]]。
+
+<span id="Gamepad"></span>
+===遊戲手把===
+
+你可以在 PC 模式或行動裝置上，使用遊戲手把來遊玩 VRChat。
+
+常見的遊戲手把包括 Xbox 手把、PlayStation 手把、Nintendo Switch 手把。下方表格是以 Xbox 手把的配置作為參考。
+{| class="wikitable"
+!功能
+!按鍵（以 Xbox 手把示範）
+|-
+|跳躍（當所在世界設定允許時）
+|A 鍵
+|-
+|放開物件
+|B／X 鍵
+|-
+|持續開啟麥克風（啟用按鍵發話時）
+|Y 鍵（長按）
+|-
+|開啟／關閉麥克風（啟用開關切換時）
+|Y 鍵
+|-
+|顯示名牌／隱藏名牌上的名字／隱藏名牌上的頭像及名字
+|D-pad 十字上鍵
+|-
+|顯示／隱藏 HUD，可以隱藏麥克風及通知圖示
+|D-pad 十字下鍵
+|-
+|持有物件時，以 Z 軸為基底拉近或拉遠
+|LB 鍵（長按） + 左搖桿
+|-
+|持有物件時，移動搖桿將其旋轉
+|LB 鍵（長按） + 右搖桿
+|-
+|選擇左手手勢（僅限 Steam 版）
+
+|RB 鍵（長按）+ 左搖桿
+|-
+|選擇右手手勢（僅限 Steam 版）
+|RB 鍵（長按）+ 左搖桿
+|-
+|互動／拿取物件
+|LT／RT 鍵
+|-
+|移動
+|左搖桿
+|-
+|蹲下
+|左搖桿（按下）
+|-
+|趴下／爬行	
+|左搖桿（長按）
+|-
+|轉向
+|右搖桿
+|-
+|開啟動作選單
+|右搖桿（按下）
+|-
+|螢幕截圖
+|View 鍵
+|-
+|開啟快速選單
+|Menu 鍵
+|-
+|開啟選單時，操作選單介面
+|A／RT 鍵
+|-
+|開啟選單時，關閉選單
+|B 鍵
+|}
+
+<span id="Resources"></span>
+==官方資源==
+
+*[https://www.youtube.com/watch?v=F0I2Ec4JsrE 「Quest 2 手勢追蹤」]（VRChat 官方發布在 YouTube 的影片）
+*[https://docs.vrchat.com/docs/vrchat-202241 「VRChat 2022.4.1」]（關於手勢追蹤的官方說明）
+*[https://www.youtube.com/watch?v=oopovk3BPaw 「VRChat 手勢追蹤的新手教學」] by VRChat on ''YouTube''
+{{Start-navbox}}
+[[Category:Needs images{{#translation:}}]]

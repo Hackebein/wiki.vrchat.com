@@ -1,0 +1,131 @@
+<noinclude>[[Category:Template Documentation]]</noinclude>
+{{Infobox/Official World
+|name=VRChat Home
+|image=VrcHomeThumb.png
+|imagecaption=
+|developer=VRChat
+|platform= PC, Android
+|link={{World link|wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd|VRChat Home}}
+|published=Sep 30 2022
+}}
+==Example==
+<pre>
+<nowiki>{{</nowiki>VRChat world
+|name=Example World
+|image=ExampleImage.jpg
+|imagecaption=An example VRChat world
+|developer=Example Developer
+|publisher=Example Publisher
+|designer=Example Designer
+|gen=1st Generation
+|platform=PC, VR
+|themes=Adventure, Exploration
+|link=https://vrchat.com/home/world/wrld_example
+|labs=Yes
+|published=2024-01-01
+<nowiki>}}</nowiki>
+</pre>
+==TemplateData Documentation==
+<templatedata>
+{
+	"params": {
+		"name": {
+			"label": "Name",
+			"description": "The name of the VRChat world.",
+			"example": "Example World",
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"label": "Image",
+			"description": "An image representing the world.",
+			"example": "ExampleImage.jpg",
+			"type": "wiki-file-name",
+			"required": true
+		},
+		"imagecaption": {
+			"label": "Image caption",
+			"description": "A caption for the image.",
+			"example": "An example VRChat world",
+			"type": "string"
+		},
+		"developer": {
+			"label": "Developer",
+			"description": "The developer of the VRChat world.",
+			"example": "Example Developer",
+			"type": "string"
+		},
+		"publisher": {
+			"label": "Publisher",
+			"description": "The publisher of the VRChat world.",
+			"example": "Example Publisher",
+			"type": "string"
+		},
+		"designer": {
+			"label": "Designer",
+			"description": "The designer of the VRChat world.",
+			"example": "Example Designer",
+			"type": "string"
+		},
+		"gen": {
+			"label": "Generation",
+			"description": "The generation of the VRChat world.",
+			"example": "1st Generation",
+			"type": "string"
+		},
+		"platform": {
+			"label": "Platform",
+			"description": "The platforms on which the VRChat world is available.",
+			"example": "PC, Android, iOS",
+			"type": "string",
+			"suggestedvalues": [
+				"PC",
+				"Android",
+				"iOS"
+			],
+			"required": true
+		},
+		"themes": {
+			"label": "Themes",
+			"description": "The themes of the VRChat world.",
+			"example": "Adventure, Exploration",
+			"type": "string"
+		},
+		"link": {
+			"label": "Link",
+			"description": "The link to the VRChat world.",
+			"example": "https://vrchat.com/home/world/wrld_example",
+			"type": "url"
+		},
+		"labs": {
+			"label": "Labs",
+			"description": "Indicates if the world is part of the Community Labs.",
+			"example": "Yes",
+			"type": "string",
+			"suggestedvalues": [
+				"Yes"
+			]
+		},
+		"published": {
+			"label": "Published",
+			"description": "The date when the VRChat world was published.",
+			"example": "2024-01-01",
+			"type": "date"
+		}
+	},
+	"paramOrder": [
+		"name",
+		"image",
+		"imagecaption",
+		"developer",
+		"publisher",
+		"designer",
+		"gen",
+		"platform",
+		"themes",
+		"link",
+		"labs",
+		"published"
+	]
+}
+</templatedata>

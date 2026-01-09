@@ -1,0 +1,79 @@
+<languages/>
+{{Noticebox/Official}}
+'''Awatary''' to modele reprezentujące użytkowników w [[Special:MyLanguage/VRChat|VRChat]]. Są one głównym sposobem interakcji i wyrażania siebie przez użytkowników w wirtualnej rzeczywistości. Dzięki awatarom użytkownicy mogą odzwierciedlać swoje osobowości, wchodzić w interakcje ze [[Special:MyLanguage/Worlds|światami]] lub odkrywać nowe tożsamości na kreatywne i immersyjne sposoby. Awatary mogą prezentować się w przeróżnych formach, a społeczność VRChat opracowała szeroką ich gamę, o unikalnych stylach i estetykach. To od osobistych upodobań użytkownika zależy, który awatar najbardziej mu odpowiada lub czy nie chce stworzyć swojego własnego przy użyciu [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
+
+== Zmienianie awatarów ==
+Kiedy użytkownik po raz pierwszy dołącza do VRChatu, posiada domyślny awatar [[Special:MyLanguage/Robot|Robota]]. Prezentowany jest mu również zbiór oficjalnych awatarów VRChatu, oferujących różne postacie do wyboru. Te startowe opcje stanowią jednak tylko ułamek dostępnych awatarów. Użytkownicy mogą zmieniać awatary na wiele sposobów.
+
+=== Wyróżnione awatary ===
+VRChat zapewnia wyselekcjonowaną listę wyróżnionych [[Special:MyLanguage/Public Avatars|publicznych awatarów]], które są zoptymalizowane pod kątem wydajności i przemyślane tak, aby zaspokoić różne style i preferencje. Użytkownicy mogą przeglądać i wypróbować te awatary w dowolnym momencie, przechodząc do strony "Awatary" w [[Special:MyLanguage/Main Menu|Menu Głównym]] i wybierając zakładkę "Publiczne" lub "Stare".
+
+<div class="mw-translate-fuzzy">
+Po znalezieniu awatara, którego chcesz użyć, wybierz go i potwierdź przyciskiem "Zmień awatar".
+<!-- This images is placed here on purpose, it doesnt seem to have updated to the current version of the image, ill give it some time to see if its delayed. -->
+[[File:Publicavatarclone.webp|thumb|right|Menu Szybkie z wybranym użytkownikiem i przyciskami "Sklonuj awatar" oraz "Dodaj awatar do ulubionych" w sekcji "Akcje użytkownika" poniżej]]
+=== Klonowanie ===
+Możliwe jest sklonowanie awatara bezpośrednio od innego użytkownika. Ta funkcja pozwala zmienić się w ten sam awatar, wybierając kogoś i używając przycisku "Sklonuj awatar" w [[Special:MyLanguage/Quick Menu|Menu Szybkim]]. Jeśli ta opcja jest niedostępna, oznacza to, że inny użytkownik wyłączył możliwość klonowania lub używa awatara oznaczonego jako prywatny.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Cloning===
+[[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, "Clone Avatar" and "Favorite Avatar" buttons found under "User Actions" section.]]
+Users have the option to clone avatars directly from other users. This feature allows users to adopt the same avatar they see another user using by selecting the user and utilizing the "Clone Avatar" button within the [[Special:MyLanguage/Quick Menu|Quick Menu]]. If this option is unavailable, it indicates that the other user has disabled the cloning feature, or is using an avatar marked as private.
+</div>
+
+Aby wyłączyć możliwość klonowania awatarów, użytkownik może przejść do [[Special:MyLanguage/Settings|Ustawień]] w Menu Głównym, następnie zakładki '''Awatary''' i wyłączyć opcję '''Zezwalaj na klonowanie awatara'''.
+
+===Piedestały i światy z awatarami===
+Awatary można również znaleźć na piedestałach awatarów. Zazwyczaj znajdują się one na światach w kategorii "Światy z awatarami". Piedestały te wyświetlają podglądy awatarów, które użytkownicy mogą kliknąć, aby je sklonować. 
+
+<div class="mw-translate-fuzzy">
+==Ulubione==
+Użytkownicy mogą zapisywać awatary do listy ulubionych, aby zachować je na później. Ulubione awatary pojawią się w zakładkach "Ulubione" na stronie "Awatary". Każda zakładka może pomieścić do 50 awatarów. Z aktywną subskrypcją [[Special:MyLanguage/VRChat+|VRChat+]], można uzyskać dostęp do 5 dodatkowych list ulubionych awatarów.
+</div>
+
+<div class="mw-translate-fuzzy">
+Istnieje kilka sposobów na dodanie awatara do ulubionych. Jeśli korzystasz z awatara, który chcesz zapisać, przejdź do strony "Awatary" i kliknij przycisk "Do ulubionych" w prawym dolnym rogu, poniżej podglądu awatara. Jeśli chcesz zapisać awatar kogoś innego to wybierz użytkownika i naciśnij przycisk "Ulubiony awatar" w [[Special:MyLanguage/Quick Menu|Menu Szybkim]].
+</div>
+
+==Kompatybilność z platformami==
+''Zobacz także [[Special:MyLanguage/Platforms|Platformy]] po więcej informacji.''
+
+Awatary przygotowywane są inaczej dla PC i platform mobilnych, głównie ze względu na ograniczenia urządzeń takich jak Meta (Oculus) Quest, Android i iOS. W związku z tym niektóre awatary mogą nie być widoczne lub używalne na wszystkich platformach. Szczegółowe informacje na temat tych ograniczeń można znaleźć w następujących zasobach:
+
+*[https://creators.vrchat.com/platforms/android/quest-content-limitations/ Quest Content Limitations]
+*[https://creators.vrchat.com/platforms/android/android-best-practices/ Android Best Practices]
+
+Twórcy mogą skonfigurować awatar tak, aby był kompatybilny z wieloma platformami, przesyłając różne jego wersje pod tym samym ID. Jeśli awatar nie może zostać wyświetlony, najpierw zostanie podjęta próba załadowania jego [[Special:MyLanguage/Impostor|impostora]]. Jeśli impostor nie został wygenerowany, wyświetlony będzie [[Special:MyLanguage/Fallbacks|awatar zastępczy]].
+
+<div class="mw-translate-fuzzy">
+Awatar zastępczy użytkownika może zostać zmieniony w menu "Awatary".
+</div>
+
+==Rangi wydajności==
+Awatary są klasyfikowane według progów wydajności. Począwszy od Bardzo Ciężkiego{{performance|verypoor|22}}, przez Ciężki{{performance|poor|22}}, Średni{{performance|medium|22}}, Dobry{{performance|good|22}}, po Świetny{{performance|excellent|22}}. Klasyfikacja ta pomaga użytkownikom zrozumieć wpływ wydajności ich awatarów na ogólne wrażenia z korzystania z VRChatu. Przykłady rzeczy, które wpływają na ranking wydajności awatara to: liczba wielokątów, materiałów, rozdzielczość tekstur, złożoność Animatora; oraz komponenty awatara, takie jak [[Special:MyLanguage/Physbones|PhysBones]] czy Constraints. 
+
+Więcej szczegółów można znaleźć w oficjalnej dokumentacji na stronie [https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ Avatar Performance Ranking System].
+
+<div class="mw-translate-fuzzy">
+== Tworzenie i przesyłanie==
+Użytkownicy mogą pogłębić swoją immersję z VRChatem poprzez tworzenie i wgrywanie własnych awatarów, pod warunkiem, że przestrzegają one [[Special:MyLanguage/Terms of Service|Warunków świadczenia usług]] VRChatu. Aby przesłać awatar, użytkownik musi najpierw osiągnąć rangę "Nowy" i pobrać niezbędne oprogramowanie, takie jak zalecana wersja Unity i [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+With the release of [https://creators.vrchat.com/releases/release-3-9-0#fixes--changes SDK 3.9.0], the trust rank requirement for users to build & test their avatars have been removed. Previous SDK versions require trust rank "New User" or higher to build & test avatars.
+</div>
+
+Po przesłaniu awatara będzie można go znaleźć w sekcji "Przesłane" na liście awatarów.
+
+Bardziej '''szczegółowy przewodnik''' o tym co można zrobić za pomocą SDK, jest dostępny w dokumentacji dla twórców na [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Creating Your First Avatar].
+
+<span id="Official_resources"></span>
+== Oficjalne źródła ==
+
+* Strona [https://creators.vrchat.com/avatars/ Awatary] na VRChat Creators.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Trivia==
+*Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
+</div>

@@ -1,0 +1,122 @@
+{{Noticebox/Official}}
+By default, [[Special:MyLanguage/Worlds|worlds]] in [[Special:MyLanguage/VRChat|VRChat]] cannot make requests to untrusted URLs unless the user enables the "[[Special:MyLanguage/Untrusted_URLs|Allow Untrusted URLs]]" [[Special:MyLanguage/Settings|setting]]. Public [[Special:MyLanguage/Instances|instances]] are additionally secured by a list of up to 10 hosts, which can be set by the world creator. This is an intentional measure for security purposes. There is however an allowlist of trusted domains that are the exception to this rule, and are specific to the type of content being loaded. Below are the different allowlists by type.
+
+== Video player allowlist ==
+The following domains are allowlisted for public {{VRC link|https://creators.vrchat.com/worlds/udon/video-players/www-whitelist/|video}} content use in [[Special:MyLanguage/Video_players|video players]].
+{| class="wikitable"
+!Service
+!Domain
+|-
+|Akamai CDN
+|<code>vod-progressive.akamaized.net</code>
+|-
+|Facebook Video
+|<code>*.facebook.com</code>,<code>*.fbcdn.net</code>
+|-
+|Google Video
+|<code>*.googlevideo.com</code>
+|-
+|Hyperbeam
+|<code>*.hyperbeam.com</code>,<code>*.hyperbeam.dev</code>
+|-
+|Mixcloud
+|<code>*.mixcloud.com</code>
+|-
+|NicoNico
+|<code>*.nicovideo.jp</code>
+|-
+|Soundcloud
+|<code>soundcloud.com</code>,<code>*.sndcdn.com</code>
+|-
+|Topaz Chat
+|<code>*.topaz.chat</code>
+|-
+|Twitch.TV
+|<code>*.twitch.tv</code>,<code>*.ttvnw.net</code>,<code>*.twitchcdn.net</code>
+|-
+|VRCDN
+|<code>*.vrcdn.live</code>,<code>*.vrcdn.video</code>,<code>*.vrcdn.cloud</code>
+|-
+|Vimeo
+|<code>*.vimeo.com</code>
+|-
+|Youku
+|<code>*.youku.com</code>
+|-
+|YouTube
+|<code>*.youtube.com</code>,<code>youtu.be</code>
+|}
+
+== String loading allowlist ==
+The following domains are allowlisted for public use with {{VRC link|https://creators.vrchat.com/worlds/udon/string-loading/|string loading}} using [[Special:MyLanguage/Udon|Udon]].
+{| class="wikitable"
+!Service
+!Domain
+|-
+|DisBridge
+|<code>*.disbridge.com</code>
+|-
+|GitHub
+|<code>*.github.io</code>
+|-
+|GitHub Gist
+|<code>gist.githubusercontent.com</code>
+|-
+|Pastebin
+|<code>pastebin.com</code>
+|-
+|VRCDN
+|<code>*.vrcdn.cloud</code>
+|}
+
+== Image loading allowlist ==
+The following domains are allowlisted for public use in {{VRC link|https://creators.vrchat.com/worlds/udon/image-loading/|image loading}} using Udon.
+{| class="wikitable"
+!Service
+!Domain
+|-
+|Discord
+|<code>cdn.discordapp.com</code>
+|-
+|DisBridge
+|<code>*.disbridge.com</code>
+|-
+|Dropbox
+|<code>dl.dropbox.com</code>,<code>dl.dropboxusercontent.com</code>
+|-
+|GitHub
+|<code>*.github.io</code>
+|-
+|ImageBam
+|<code>images4.imagebam.com</code>
+|-
+|ImgBB
+|<code>i.ibb.co</code>
+|-
+|imgbox
+|<code>images2.imgbox.com</code>
+|-
+|Imgur
+|<code>i.imgur.com</code>
+|-
+|Postimages
+|<code>i.postimg.cc</code>
+|-
+|Reddit
+|<code>i.redd.it</code>
+|-
+|Twitter
+|<code>pbs.twimg.com</code>
+|-
+|VRCDN
+|<code>*.vrcdn.cloud</code>
+|-
+|VRChat
+|<code>assets.vrchat.com</code>
+|}
+
+== See also ==
+
+* [[Video players]]
+
+[[Category:Video_Players]]

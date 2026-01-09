@@ -1,0 +1,428 @@
+{{Noticebox/Official}}
+{{Infobox/Feature
+|name=Items
+|image=Items_Icon.png
+|platforms= PC, Android, iOS
+|branch_live_date = 24 Jun 2025
+|branch_live_version = 2025.2.3 Build 1664
+|branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202523
+|branch_openbeta_date = 12 Jun 2025
+|branch_openbeta_version = 2025.2.3 Build 1662
+|branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202523-openbeta#june-12-build-1661
+}}
+'''Items''' are objects that users can spawn within a world, e.g. toys, tools, gadgets. They can be managed in the [[Inventory]].
+
+== Spawning ==
+[[File:Items submenu in Action Menu.png|thumb|Items submenu in [[Action Menu]]|200x200px]]Items can be spawned from the Items submenu in the [[Action Menu]] or from the [[Inventory]]. Users can spawn only one of each item they have. All items spawned by a user are removed after they leave the instance. 
+
+Item spawning or visibility can be affected by being:
+
+* Disabled by the world.
+* Disabled by a group moderator in a group instance (but can't be forced on if disabled by the world).
+* Hidden locally by an individual user.
+
+== Types ==
+[[File:THE_REFERENCE_CUBE_item_original.png|thumb|200x200px|A image of "THE REFERENCE CUBE" item.]]
+While offering a range of different features, items can be artificially grouped by their properties:
+
+'''Placeable items'''
+
+A placeable item can be placed on a floor in a world. It cannot be spawned on walls, ceilings or on other users.
+
+'''Pickup items'''
+
+A pickupable item can be grabbed by the user and sometimes other users too.
+
+'''Consumable items'''
+
+A consumable item gets destroyed after being placed and activated. It can stack in the inventory.
+
+'''Companion'''
+
+A pet-type item that follows the user around. These items have a distinct "Companion" label in the [[Special:MyLanguage/Shop|Shop]].
+
+== Worlds ==
+''See also [https://creators.vrchat.com/worlds/items Items in Udon Worlds] for more detailed information.''
+
+==== Content settings ====
+World creators can disable items in the "Default Content Settings" section by editing a world on the website, in case they are causing issues or are undesirable.
+
+==== Unity layer ====
+''See also [https://creators.vrchat.com/worlds/layers/ Unity Layers in VRChat] for more detailed information.''
+
+A dedicated "Item" Unity layer is where items spawn. Previously named "reserved3" in older SDK versions.
+
+== List of items ==
+{| class="wikitable"
+!Image
+!Name
+!Type
+!Release date
+!Available until
+!Acquisition Method
+![[Inventory#Collections|Collection]] / [[Shop#Shelves|Shelf]]
+!Requirement
+!Description
+|-
+|[[File:THE REFERENCE CUBE item original.png|frameless|70x70px]]
+|THE REFERENCE CUBE
+|Placeable
+Pickup
+|June 13, 2025
+|No longer available.
+Date unknown.
+|Inventory: [[Inventory#Bundles & Packs|Items Open Beta Bundle]]
+| -
+| -
+|''"IT KNOWS"''
+A cube.
+|-
+|[[File:RainbowRibbon.png|frameless|70x70px]]
+|Rainbow Ribbon
+|Pickup
+|June 25, 2025
+|No longer available.
+Date unknown.
+|Inventory: [[Inventory#Bundles & Packs|Pride Community Gift Bundle]]
+|Collection: Pride Month 2025
+|Community reaches 50,000$ during the [[Pride Month 2025#Pride campaign|Pride Campaign 2025]]. <ref>[https://x.com/VRChat/status/1938411397555061065/video/1 "We raised 100k for Trans Lifeline! Claim your rewards! #VRCPride2025 #VRChat"] posted by ''[https://x.com/VRChat @VRChat on X.com]''. Dated June 26, 2025. Retrieved July 25, 2025.</ref>
+|''"Show your Pride by waving this ribbon!"''
+A rainbow wand that has interchangeable flag trails.
+|-
+||[[File:Item_Bigscreen_Beyond_2e_VRChat_Edition.png|frameless|70x70px]]
+|Bigscreen Beyond 2e: VRChat Edition
+|Pickup
+|July 16, 2025
+| -
+|Website redemption
+|?
+|Buy the Beyond 2e: VRChat Edition
+|''"woah is that a bigscreen beyond"''
+A unique bonus designed in collaboration with Bigscreen.<ref>[https://hello.vrchat.com/blog/announcing-the-bigscreen-beyond-2-vrchat-edition "Announcing the Bigscreen Beyond 2e: VRChat Edition!"] posted on ''[hello.vrchat.com/blog VRChat's Blog]'' at ''[[hello.vrchat.com]]''. Dated July 16, 2025. Retrieved July 25, 2025.</ref>
+|-
+|[[File:BubbleBlaster.png|frameless|70x70px]]
+|Bubble Blaster
+|Pickup
+|July 23, 2025
+|August 24, 2025
+|Inventory: [[Inventory#Bundles & Packs|Summer VRC+ Limited Bundle]]
+|Collection: Summer 2025
+|VRC+
+|''"Bubbles. BUBBLES!!"''
+A gun that blows bubbles.
+|-
+||[[File:Item_Mori_Calliope_Penlight.png|frameless|70x70px]]
+|Mori Calliope Penlight
+|Pickup
+|September 13, 2025
+|September 15, 2025
+| Website redemption
+| -
+|Redeem the code "[https://vrch.at/redeem?code=MORILIVE MORILIVE]" on the VRChat website.<ref name=":0">[https://x.com/moricalliope/status/1966671502712897710 "Dead beats!! We have a special goodie to celebrate 5 years together!!"] posted by ''[https://x.com/moricalliope "@moricalliope on X.com"]''. Dated September 12, 2025. Retrieved September 13, 2025.</ref>
+|''"The Story Thus Far"''
+|-
+|[[File:Campfire item.png|frameless|70x70px]]
+|Campfire
+|Placeable
+|September 15, 2025
+|October 31, 2025
+|Inventory: [[Inventory#Bundles & Packs|September VRC+ Content Drop]]<ref name ="Campfire">[https://www.youtube.com/watch?v=W4GVk0J2iSI "Campfire & Marshmallows item drops in VRChat! #vr #vrc #virtualreality #camping"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated September 16, 2025. Retrieved September 17, 2025.</ref>
+| -
+|VRC+
+|''"Get toasty."''
+Has a "Fire" [[Special:MyLanguage/Avatar Dynamics#Contacts|contact]] sender.
+|-
+|[[File:Marshmallow on a Stick.png|frameless|70x70px]]
+|Marshmallow on a Stick
+|Pickup
+|September 15, 2025
+|October 31, 2025
+|Inventory: [[Inventory#Bundles & Packs|September VRC+ Content Drop]]<ref name="Campfire"/>
+| -
+|VRC+
+|''"Don't burn it!"''
+Changes states on click and is consumed near user's mouth. Has a "Fire" [[Special:MyLanguage/Avatar Dynamics#Contacts|contact]] receiver.
+|-
+|[[File:Kath - Companion Item from Spookality 2025.png|frameless|70x70px]]
+|Kath
+|Companion
+|October 14, 2025
+|November 6, 2025
+|Shop: [[Shop#Current offers|Spookality Bundle, Companion Bundle, Kath.]]
+|Shelf: [[List of Shop listings#Spookality 2025|Spookality 2025]]
+|Buy from the [[Special:MyLanguage/Shop|Shop]] during Spookality 2025
+|''"A relic, from a more civilized age."''
+Some parts are random and come in different patterns and colors. The body color is customizable.
+|-
+|[[File:Treats - Companion Item from Spookality 2025.png|frameless|70x70px]]
+|Treats
+|Companion
+|October 14, 2025
+|November 6, 2025
+|Shop: [[Special:MyLanguage/Shop#Current offers|Spookality Bundle, Companion Bundle, Treats.]]
+|Shelf: [[Special:MyLanguage/List of Shop listings#Spookality 2025|Spookality 2025]]
+|Buy from the [[Special:MyLanguage/Shop|Shop]] during Spookality 2025
+|''"...wait, where does the candy come from!?"''
+The wings are random and come in different patterns and colors.
+|-
+|[[File:Candy Codex - Item from Spookality 2025.png|frameless|70x70px]]
+|Candy Codex<ref group="note">Item has been removed from user's inventories.</ref>
+|Other
+|October 14, 2025
+|November 6, 2025 
+|Shop: [[Special:MyLanguage/Shop#Current offers|Spookality Bundle, Companion Bundle, Candy Codex.]]
+|Shelf: [[Special:MyLanguage/List of Shop listings#Spookality 2025|Spookality 2025]]
+|Get for free from the [[Special:MyLanguage/Shop|Shop]] during Spookality 2025
+|''"Do NOT eat the [REDACTED] candy."''
+|-
+|[[File:Twitch_Coin_Prop.png|frameless|70x70px]]
+|TwitchCon25 Coin
+|Pickup
+|October 17, 2025
+|October 17, 2025
+| Website redemption
+| -
+|Attend the VRChat Community MeetUp during TwitchCon 2025 in San Diego<ref name="TwitchCon2025Item">[https://x.com/LittleMiri_CZ/status/1979351584929910828 "VRChat was giving Free Item on Twitchcon San Diego in Meet & Greets."] posted by ''[https://x.com/LittleMiri_CZ "@LittleMiri_CZ on X.com"]''. Dated October 17, 2025. Retrieved October 17, 2025.</ref>
+|''"A commemmorative coin for attending TwitchCon 2025 in San Diego"''
+|-
+|[[File:Item Groan Tube.png|frameless|70x70px]]
+|Groan Tube
+|Pickup
+|November 6, 2025
+|December 4th, 2025
+|Inventory: [[Inventory#Bundles & Packs|November VRC+ Content Drop]]
+| -
+|VRC+
+|''"A Groan Tube. Flip it around."''
+Its color can be customized.
+|-
+|[[File:Item_VRChat_Penlight.png|frameless|70x70px]]
+|VRChat Penlight
+|Pickup
+|November 6, 2025
+|December 8th, 2025
+|Shop: [[Special:MyLanguage/Shop|A Magician's Bundle, VRChat Penlight]]
+| Shelf: [[Special:MyLanguage/List of Shop listings#November 2025|November 2025]]
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"A color-changing penlight. Cycle through multiple colors."''
+|-
+|[[File:Item_Flask_of_Effervescence.png|frameless|70x70px]]
+|Flask of Effervescence
+|Pickup
+|November 6, 2025
+|December 8th, 2025
+|Shop: [[Special:MyLanguage/Shop|A Magician's Bundle, Flask of Effervescence]]
+|Shelf: [[Special:MyLanguage/List of Shop listings#November 2025|November 2025]]
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"A swirling, magical concoction contained in an ornate bottle. The colors keep changing..."''
+|-
+|[[File:Item_Unstable_Reference_Cube.png|frameless|70x70px]]
+|Unstable Reference Cube
+|Placeable,
+Consumable
+|November 11, 2025
+|December 3, 2025
+|Shop: [[Special:MyLanguage/Shop|Unstable Reference Cube]]
+|Shelf: [[Special:MyLanguage/List of Shop listings#Beta|Beta]]
+|Get for free from the [[Special:MyLanguage/Shop|Shop]] while on the [[Open Beta]] branch during the 2025.4.2 Open Beta cycle
+|''"This Reference Cube seems unstable. When placed in a world and activated, it is permanently destroyed."''
+|-
+|[[File:Item_VketChan_Photo_Frame.png|frameless|70x70px]]
+|Vketchan Photo Frame
+|Pickup
+|December 5, 2025
+|December 21, 2025
+||Shop: [[Special:MyLanguage/Shop|Vketchan Bundle 2025 Winter, Vketchan Photo Frame]]
+|Shelf: [[Special:MyLanguage/List of Shop listings#Vket Winter 2025|Vket Winter 2025]]
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"NOT AN ACTUAL CAMERA! VketChan Photo Frame is a placeable decorative item to liven up your photographs. Take photo with VketChan 01, 02, and Vket-Nyan anywhere!"''
+|-
+|[[File:Item_Frosted Scribe.png|frameless|70x70px]]
+|Frosted Scribe
+|Pickup
+|December 8, 2025
+|February 5, 2026
+||Shop: [[Special:MyLanguage/Shop|Winter’s Blessing, Frosted Scribe]]
+|Shelf: [[Special:MyLanguage/List of Shop listings#December 2025|December 2025]]
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"An icicle! It leaves a trail of snow when used."''
+|-
+|[[File:Item_Portable Winterizer.png|frameless|70x70px]]
+|Portable Winterizer
+|Placeable, Consumable
+|December 8, 2025
+|December 10, 2025
+|Shop: [[Special:MyLanguage/Shop|Winter’s Blessing, Portable Winterizer]]
+|Shelf: [[Special:MyLanguage/List of Shop listings#December 2025|December 2025]]
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"Portable Winterizer! Generates snow when activated. Consumed when activated."''
+|-
+|[[File:Item_Portable Winterizer.png|frameless|70x70px]]
+|Portable Winterizer
+|Placeable
+|December 10, 2025
+|February 5, 2026
+||Shop: [[Special:MyLanguage/Shop|Winter’s Blessing, Portable Winterizer]]
+|Shelf: [[Special:MyLanguage/List of Shop listings#December 2025|December 2025]]
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"Portable Winterizer! Generates snow when activated."''
+|-
+|[[File:Item Winter Cheerizer.png|frameless|70x70px]]
+|Winter Cheerizer
+|Pickup
+|January 5, 2026
+|February 5, 2026
+|Inventory: [[Inventory#Bundles & Packs|Community Spirit Reward]]
+| -
+|Unlocked for everyone when the Community Gifting goal during the [[Holiday Event 2025]] event is completed
+|''"The Winter Cheerizer! Blast your friends with some cheer… and a lot of snowflakes."''
+|-
+|[[File:Item_Gold-plated Lighter.png|frameless|70x70px]]
+|[[Gold-plated Lighter]]
+|Pickup
+|December 29, 2025
+|February 5, 2026
+|Shop: [[Special:MyLanguage/Shop|NYE Celebratory Bundle, Gold-plated Lighter]]
+| Shelf:
+[[Special:MyLanguage/List of Shop listings#New Year's Celebration|New Year's Celebration]]
+|Buy from the [[Shop]]
+|''"A flip-style lighter, for pyrotechnical ignition... or anything else you could use a flame for. Interacts with flame-sensitive Contacts. Light 'em up."''
+|-
+|[[File:Item_Blazing Sparkler.png|frameless|70x70px]]
+|Blazing Sparkler
+|Pickup
+|December 29, 2025
+|February 5, 2026
+|Shop: [[Special:MyLanguage/Shop|NYE Celebratory Bundle, Blazing Sparkler]]
+| Shelf:
+[[Special:MyLanguage/List of Shop listings#New Year's Celebration|New Year's Celebration]]
+|Buy from the [[Shop]]
+|''"Light it up! Lasts around 45 seconds before it burns out."''
+|-
+|[[File:Item_Roman Candle.png|frameless|70x70px]]
+|Roman Candle
+|Pickup
+|December 29, 2025
+|February 5, 2026
+|Shop: [[Special:MyLanguage/Shop|NYE Celebratory Bundle, Roman Candle]]
+| Shelf:
+[[Special:MyLanguage/List of Shop listings#New Year's Celebration|New Year's Celebration]]
+|Buy from the [[Shop]]
+|''"Blasts fireballs!"''
+|-
+|[[File:Item_Wooden Fortune Box.png|frameless|70x70px]]
+|Wooden Fortune Box
+|Pickup
+|December 29, 2025
+|February 5, 2026
+|Shop: [[Special:MyLanguage/Shop|NYE Celebratory Bundle, Wooden Fortune Box]]
+| Shelf:
+[[Special:MyLanguage/List of Shop listings#New Year's Celebration|New Year's Celebration]]
+|Buy from the [[Shop]]
+|''"Produces a random fortune when activated!"''
+|-
+|[[File:Item_Fiery Sky Fireworks Show.png|frameless|70x70px]]
+|Fiery Sky Fireworks Show
+|Placeable
+|December 29, 2025
+|February 5, 2026
+|Shop: [[Special:MyLanguage/Shop|NYE Celebratory Bundle]]
+| Shelf:
+[[Special:MyLanguage/List of Shop listings#New Year's Celebration|New Year's Celebration]]
+|Buy from the [[Shop]]
+|''"A fireworks display... in a box!"''
+|-
+|[[File:Item_Party_Popper.png|frameless|70x70px]]
+|Party Popper
+|Pickup
+|December 29, 2025
+|February 5, 2026
+|Inventory: [[Inventory#Bundles & Packs|New Year's 2026 Bundle]]
+| -
+|VRC+
+|''"When activated, launches an explosion of confetti!"''
+|-
+|[[File:Item_2026 Glasses on a Stick.png|frameless|70x70px]]
+|2026 Glasses on a Stick
+|Pickup
+|December 29, 2025
+|February 5, 2026
+|Inventory: [[Inventory#Bundles & Packs|New Year's 2026 Bundle]]
+| -
+|VRC+
+|''"Festive NYE glasses!"''
+|-
+|[[File:Item_MAGFest26_Coin.png|frameless|70x70px]]
+|MAGFest26 Coin
+|Pickup
+|January 9, 2026
+|January 9, 2026
+|
+| -
+|Attend the VRChat Community Meetup during MAGFest 2026 in Baltimore
+|''"A commemorative coin for attending MAGFest 2026"''
+|}
+
+<references group="note" />
+
+== Notable items ==
+
+=== THE REFERENCE CUBE ===
+The '''"THE REFERENCE CUBE"''' is the first item that was released when the items first arrived in the Open Beta.
+
+It has undergone multiple updates:
+{| class="wikitable"
+|+"THE REFERENCE CUBE" list of updates
+!Image
+!Description
+!Notes
+|-
+|[[File:THE REFERENCE CUBE item original.png|frameless|73x73px]]
+|''YOU MAY BE SEATED''
+|Original version. Featuring seats.
+|-
+|[[File:THE REFERENCE CUBE item with Audiolink.mp4|frameless|70x70px]]
+|''I'M LISTENING''
+|[[Community:AudioLink|AudioLink]]<nowiki/>ed version.
+|-
+|[[File:Smaller The Reference Cube item.png|frameless|70x70px]]
+|''IT KNOWS''
+|Smaller and pickupable version. Moves towards user and makes sliding sound when not being looked at. 
+|-
+|[[File:Smaller AudioLinked The Reference Cube item.png|frameless|70x70px]]
+|''IT KNOWS''
+|Smaller version with AudioLink.
+|}
+
+=== Portable Winterizer ===
+The '''"Portable Winterizer"''' was the first consumable item that was available for purchase with VRChat Credits. On December 10, 2025, the item was changed to be a permanent, infinite use item instead of a consumable, after community feedback was taken into consideration.<ref>[https://docs.vrchat.com/docs/vrchat-202542p1 VRChat 2025.4.2p1] on ''[https://docs.vrchat.com docs.vrchat.com]''. Dated December 10, 2025. Retrieved December 10, 2025.</ref>
+
+Users that purchased, or were gifted, the "Portable Winterizer" were granted a non-consumable version of the item. The consumable version of the item is still available in user's inventories.
+{| class="wikitable"
+|+"Portable Winterizer" versions
+!Image
+!Description
+!Notes
+|-
+|[[File:Item_Portable Winterizer.png|frameless|70x70px]]
+|''Portable Winterizer! Generates snow when activated. Consumed when activated.''
+|Original version. Featuring 5x Consumables.
+|-
+|[[File:Item_Portable Winterizer.png|frameless|70x70px]]
+|''Portable Winterizer! Generates snow when activated.''
+|Revamped <nowiki/>version. Infinite Uses.
+|}
+
+== Trivia ==
+* Items were initially called "Props".
+* A user can spawn up to 15 items in a world at a time.
+
+== See also ==
+* [https://creators.vrchat.com/worlds/items Items in Udon Worlds] on ''[[creators.vrchat.com]]''
+* [https://ask.vrchat.com/t/developer-update-26-june-2025/44933#p-81953-a-little-more-on-items-8 "A Little More on Items": Developer Update - 26 June 2025] on ''[[ask.vrchat.com]]''
+
+== References ==
+<references/>
+
+== Navigation ==
+{{Navbox/Inventory}}

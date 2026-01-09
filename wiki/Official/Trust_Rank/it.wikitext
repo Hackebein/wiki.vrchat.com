@@ -1,0 +1,182 @@
+<languages/>
+{{Noticebox/Official}}
+<div class="mw-translate-fuzzy">
+Il '''Grado di Reputazione''' fa parte del [[Special:MyLanguage/Trust and Safety|Sistema di Fiducia e Sicurezza]] in VRChat, progettato per garantire un'esperienza sicura e gradevole per tutti gli utenti. Questo sistema determina se e quando un utente è idoneo al caricare contenuti e valuta il suo comportamento per calcolarne la "Fiducia", determinata da molte variabili. Il sistema è modificabile e può essere aggiustato in base alle necessità.
+</div>
+
+<span id="Ranks"></span>
+==Gradi==
+
+La Fiducia di un utente determina il suo '''Grado di Reputazione''', un indicatore del tempo speso su VRChat, dei contenuti pubblicati, amicizie instaurate, ed altri fattori. 
+
+<div class="mw-translate-fuzzy">
+I gradi che ottengono sono i seguenti (in ordine crescente):
+{| class="wikitable"
+|+
+| style="background-color: #bababa" |
+!Visitatore
+|Grado Iniziale.
+|-
+| style="background-color: #1678ff" |
+!Nuovo Utente
+|Può caricare [[Special:MyLanguage/avatars|avatar]] e [[Special:MyLanguage/worlds|mondi]] su VRChat. I mondi caricati rimangono privati.
+|-
+| style="background-color: #2acf5b" |
+!Utente
+|Può pubblicare [[Special:MyLanguage/worlds|mondi]] sul [[Special:MyLanguage/Community Labs|Laboratorio della Community]]. Arrivati a questo grado la maggior parte delle funzioni diventa disponibile.
+|-
+| style="background-color: #ff7c42" |
+!Utente Rinomato
+|Può scegliere di apparire come “Utente”.
+|-
+| style="background-color: #8143e6" |
+!Utente Fidato
+|Può scegliere di apparire come “Utente”.
+|}
+</div>
+
+<span id="Special_ranks"></span>
+<div class="mw-translate-fuzzy">
+=== Gradi speciali ===
+</div>
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable"
+|+
+| style="background-color: #efea17" |
+!'''Amici'''
+|Utenti che hai nella lista amici avranno le loro caratteristiche avatar mostrate nel Livello Normale di Protezione, e potrai modificarle come con qualsiasi altro Grado di Reputazione.
+|-
+| style="background-color: #bababa" |
+!'''Fastidioso'''
+| Utenti che hanno causato disagi precedentemente avranno un indicatore sopra la loro targhetta quando il Menù Rapido è aperto. Il loro avatar sarà bloccato, e saranno silenziati, a discapito del Livello di Protezione. Potrai sempre scegliere di riattivare l'audio dell'utente o mostrare il loro avatar.
+|-
+| style="background-color: #b52626" |
+!'''Amministratore'''
+|Assegnato ai membri del Team di Sviluppo di VRChat. Questo grado di reputazione è nascosto in gioco, ma appare visibile sul sito di VRChat, quando sul bordo del profilo utente è presente un contorno rosso. Questo è appurabile se l'utente "Amministratore" al posto del loro grado di reputazione.
+|}
+</div>
+
+===Gradi rimossi===
+''Leggi [[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|Funzionalità Rimosse]] per ulteriori informazioni.''
+
+<span id="Gaining_ranks"></span>
+===Salire di grado===
+
+Il funzionamento del sistema di Fiducia è tenuto celato per evitare sfruttamenti da utenti malintenzionati.  
+
+Ma, il miglior modo per aumentare il tuo Grado di Reputazione è quello di intraprendere normali attività in VRChat, come: 
+
+* Esplorare
+* Farsi degli Amici
+* Creare Contenuti
+
+<div class="mw-translate-fuzzy">
+Alcune attività che non contribuiscono a salire di Grado sono: 
+*Rimanere immobile in una stanza a far niente (essere AFK).
+*Cercare di raggirare il sistema pubblicando molti contenuti di bassa qualità.
+*Inviare richieste d'amicizia di massa ad un gran numero di persone (non farlo è fastidioso).
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+However, in some cases, the Trust Rank does not necessarily increase, but it does provide a boost in reaching the next rank.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Trust ranks and safety ==
+[[File:Shield_level.webp|thumb|300px|Shield levels can be customized, depending on a user's Trust Rank.]]
+Trust ranks affect how users can view your avatar, hear you, or see your [[Special:MyLanguage/Gallery|gallery]] content, such as [[Special:MyLanguage/Stickers|stickers]] and [[VRC+#Prints|prints]]; this all depends on their [[Special:MyLanguage/Trust and Safety#Personal%20safety|Safety Shield level]] preferences.
+{| class="wikitable"
+!Option Name
+!Impacted Feature
+|-
+|Voice
+|User
+|-
+|Avatar
+|Avatar
+|-
+|User Icons
+|Social
+|-
+|Custom Images
+|Social
+|-
+|Drone
+|Social
+|-
+|Audio
+| Avatar
+|-
+|Lights & Particles 
+|Avatar
+|-
+|Shaders
+|Avatar
+|-
+| Custom Animations
+|Avatar
+|-
+|Animated Emojis
+|Social 
+|}
+Multiple '''Presets''' are available depending on user's preference for security and comfort.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Appearance of ranks inside VRChat ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:TrustRank_Example.png|right|frameless]]
+</div>
+
+Il sistema di Fiducia e Sicurezza è progettato per essere non intrusivo. Il Grado di un utente è visibile soltanto quando il Menù Rapido è aperto. Questa impostazione può essere cambiata andando in "Interfaccia Utente" > "Targhette" o nel menù radiale in "Opzioni" > "Targhette."
+
+<div class="mw-translate-fuzzy">
+*Il testo in alto a sinistra della targhetta indica il Grado di reputazione di un utente.
+*In alto a destra, invece, è mostrato il grado di prestazioni dell'avatar.
+</div>
+
+<div class="mw-translate-fuzzy">
+===Transizione di Grado===
+</div>
+
+<div class="mw-translate-fuzzy">
+[https://docs.vrchat.com/docs/vrchat-safety-and-trust-system Sistema di Sicurezza e Fiducia] su ''docs.vrchat.com''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==See also==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Rules and Guidelines
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Terms of Service]]
+* [[Community Guidelines]]
+* [[VRCWiki:Guidelines]]
+* [[VRCWiki:Disciplinary policy]]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat platform articles
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Reporting]]
+* [[Bans]]
+* [[Two-Factor Authentication (2FA)]]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==References==
+</div>
+
+<div class="mw-translate-fuzzy">
+[[Category:Features]]
+</div>
+
+<references />

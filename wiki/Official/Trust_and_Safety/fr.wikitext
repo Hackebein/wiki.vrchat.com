@@ -1,0 +1,358 @@
+<languages/>
+{{Noticebox/Official}}
+Le système de '''confiance et sécurité'''<ref>[https://docs.vrchat.com/docs/vrchat-safety-and-trust-system 'Système de confiance et de sécurité de VRChat'] sur ''docs.vrchat.com''; récupéré le 23 décembre 2024</ref> dans [[Special:MyLanguage/VRChat|VRChat]] est conçu pour protéger les utilisateurs des nuisances, du contenu abject, ainsi qu'améliorer l'expérience de jeu générale.
+
+Le processus du système de modération interne de VRChat est basé sur les {{VRC link|https://hello.vrchat.com/legal|conditions d'utilisation}}, ainsi que sur le {{VRC link|https://hello.vrchat.com/community-guidelines|règlement de la communauté}} de VRChat. Toutes les actions de modération sont interprétées et jugées en accordance avec ce document, en faisant la référence absolue pour tous les comportements et contenus attendus sur la plateforme.
+
+<span id="Guidelines"></span>
+== Règlement ==
+
+Le {{VRC link|https://hello.vrchat.com/community-guidelines|règlement de la communauté}} de VRChat fournit une interprétation accessible des conditions d'utilisation et s'étend sur les scénarios le dépassant. Ce règlement sert de ressource importante pour guider les utilisateurs durant leur expérience sur la plateforme.
+
+Le {{VRC link|https://hello.vrchat.com/creator-guidelines|règlement des créateurs}} de VRChat offre des informations détaillées concernant la création de [[Special:MyLanguage/Worlds|mondes]] et [[Special:MyLanguage/Avatars|avatars]]. Il fournit aussi un règlement pour les utilisateurs qui créent du contenu audiovisuel pour les plateformes, telles que YouTube et Twitch. Il contient de plus des avertissements de contenu pour divers supports dans VRChat.
+
+<span id="Personal_safety"></span>
+==Sécurité personnelle==
+
+[[File:VRC Safety Banner.png|frame|right]]
+Les fonctionnalités de sécurité de VRChat sont un aspect important de la plateforme. Fournissant de nombreuses fonctionnalités permettant une expérience sûre et personnalisable. Les paramètres de sécurité avancés peuvent être configurés dans les '''Paramètres'''. Pour plus d'informations, veuillez vous référer à l'article [[Special:MyLanguage/Settings|Paramètres]].
+
+===Niveaux de sécurité [[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]]===
+Les niveaux de sécurité sont la première ligne de protection lorsque vous rencontrez de nouveaux utilisateurs, faites face à leur avatar et d'autres contenus.  Ils activent ou désactivent certaines fonctionnalités en fonction du [[Special:MyLanguage/Trust Rank|rang de confiance]] de l'utilisateur ou de son avatar. 
+
+Il existe plusieurs configurations prédéfinies que les utilisateurs peuvent sélectionner dans les paramètres des niveaux de sécurité, allant de Maximum, Normal, Aucun à Personnalisé. Ils sont accessibles depuis le [[Special:MyLanguage/Quick Menu|menu rapide]]. Appuyer sur le bouton '''Mode sécurisé''' "[[File:Icons SafeMode 25.png|frameless|16x16px]]" en bas à gauche du menu rapide activera instantanément le niveau de sécurité maximum. 
+
+Il est recommandé pour les nouveaux utilisateurs d'utiliser le niveau '''Normal''' ou '''Maximum'''. Pour ceux qui souhaitent voir l'avatar d'un utilisateur sans restriction, il sera nécessaire d'ouvrir le menu rapide, sélectionner l'utilisateur et sélectionner « Afficher l'avatar », indiqué par l'œil sous « Affichage de l'avatar ».
+
+Utiliser un niveau de sécurité '''Personnalisé''' permet à l'utilisateur de configurer les restrictions pour chaque rang de confiance. Ceci peut être fait dans la section du niveau de sécurité dans les paramètres.
+
+Voici une liste des options personnalisables :
+[[File:Safety VrchatMenu.png|thumb|Les niveaux de sécurité peuvent être personnalisés, dépendant du rang de confiance d'un utilisateur.]]
+
+{| class="wikitable"
+!Nom de l'option
+!Fonctionnalité impactée
+|-
+|Voix
+|Utilisateur
+|-
+|[[Special:MyLanguage/Avatars|Avatar]]
+|Avatar
+|-
+|Icônes d'utilisateur
+| rowspan="3" |Inventaire
+|-
+|Images personnalisées <ref group="note" name="custom-images">Les images personnalisées incluent certains éléments de l'inventaire, tels que les émojis personnalisés, imprimés et autocollants</ref>.
+|-
+|[[Special:MyLanguage/Camera Drone|Drone]]
+|-
+|Audio
+| rowspan="4" |Avatar
+|-
+|Lumières et particules
+|-
+|Shaders
+|-
+|Animations
+|-
+|Émojis animés
+|Inventaire
+|}
+<references group="note" />
+De nombreux '''préréglages''' sont disponibles en fonction des préférences des utilisateurs en matière de sécurité et confort.
+
+====Sécurité maximum [[File:Icons ShieldLevel Max 25.png|frameless|28x28px]]====
+Ce préréglage est le plus sûr et active les fonctionnalités uniquement pour les amis. Il s'agit du meilleur pour les nouveaux ou dans les espaces peu familiers.
+{| class="wikitable"
+!Nom de l'option
+!Visiteur
+!Nouvel Utilisateur
+!Utilisateur
+!Utilisateur Régulier
+!Utilisateur Fidèle
+!Amis
+|-
+|Voix
+|Activé
+|Activé
+|Activé
+| rowspan="5" |Activé
+| rowspan="5" |Activé
+| rowspan="10" |Activé
+|-
+|Avatar
+| rowspan="9" |Désactivé
+| rowspan="9" |Désactivé
+| rowspan="9" |Désactivé
+|-
+|Icônes d'utilisateur
+|-
+|Images personnalisées
+|-
+|Drone
+|-
+|Audio
+| rowspan="5" |Désactivé
+| rowspan="5" |Désactivé
+|-
+|Lumières et particules
+|-
+|Shaders
+|-
+|Animations
+|-
+|Émojis animés
+|}
+====Sécurité normale  [[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]]====
+Ce préréglage est adapté à un usage quotidien.
+{| class="wikitable"
+!Nom de l'option
+!Visiteur
+!Nouvel Utilisateur
+!Utilisateur
+!Utilisateur Régulier
+!Utilisateur Fidèle
+!Amis
+|-
+|Voix
+| rowspan="5" |Activé
+| rowspan="5" |Activé
+| rowspan="5" |Activé
+| rowspan="6" |Activé
+| rowspan="10" |Activé
+| rowspan="10" |Activé
+|-
+|Avatar
+|-
+|Icônes d'utilisateur
+|-
+|Images personnalisées
+|-
+|Drone
+|-
+|Audio
+| rowspan="5" |Désactivé
+| rowspan="5" |Désactivé
+| rowspan="3" |Désactivé
+|-
+|Lumières et particules
+| rowspan="2" |Désactivé
+|-
+|Shaders
+|-
+|Animations
+|Activé
+|Activé
+|-
+|Émojis animés
+|Désactivé
+|Désactivé
+|}
+====Aucune sécurité [[File:Icons ShieldLevel None 25.png|frameless|28x28px]]====
+Utilisez ce préréglage avec '''précauction'''. Il désactive la plupart des fonctionnalités de sécurité, qu'importe le [[Special:MyLanguage/Trust Rank|rang de confiance]]. Les utilisateurs qui utilisent ce niveau de sécurité risquent d'être perturbés par des utilisateurs tentant de faire « Crash » les utilisateurs.
+
+====Sécurité personnalisée [[File:Icons ShieldLevel Custom 25.png|frameless|28x28px]]====
+Les utilisateurs peuvent définir leurs propres paramètres de sécurité en fonction des fonctionnalités souhaitées.
+[[File:Safemode.png|thumb|The "Safe Mode" [[File:Icons SafeMode 25.png|frameless|12x12px]] icon is at the bottom-right of the [[Special:MyLanguage/Quick Menu|Menu rapide]]
+.]]
+
+===Mode sécurisé [[File:SafeModeIcon QM.png|frameless|36x36px]]===
+Si un utilisateur se sent submergé ou subit une latence élevée, un bouton d'urgence « Mode sécurisé » est accessible à n'importe quel moment dans le [[Special:MyLanguage/Quick Menu|menu rapide]]. Celui-ci désactive la plupart des avatars, voix et autres fonctionnalités pouvant causer de la latence ou être la source d'une urgence. Les performances devraient retourner à un état stable dans ce mode. Les amis ne sont pas affectés. Lorsque activé, le mode sécurisé fera basculer tous les avatars vers une version d'un [[Special:MyLanguage/Robot|robot]] sans jambe jusqu'à ce que le mode soit désactivé.
+
+Le mode sécurisé peut être activé rapidement en pressant les deux gâchettes et boutons du menu rapide en même temps en VR, ou en appuyant sur Shift + Esc en même temps sur le clavier. 
+
+Pour quitter le mode sécurisé, ouvrez le menu rapide et appuyez à nouveau sur le bouton du mode sécurisé. Autrement, appuyez sur le bouton '''Monde d'accueil''' pour quitter l'instance.
+{| class="wikitable"
+!Nom de l'option
+!Visiteur
+!Nouvel Utilisateur
+!Utilisateur
+!Utilisateur Régulier
+!Utilisateur Fidèle
+!Amis
+|-
+|Voix
+| rowspan="10" |Désactivé
+| rowspan="10" |Désactivé
+| rowspan="10" |Désactivé
+| rowspan="10" |Désactivé
+| rowspan="10" |Désactivé
+| rowspan="10" |Activé
+|-
+|Avatar
+|-
+|Icônes d'utilisateur
+|-
+|Images personnalisées
+|-
+|Drone
+|-
+|Audio
+|-
+|Lumières et particules
+|-
+|Shaders
+|-
+|Animations
+|-
+|Émojis animés
+|}
+<span id="User_moderation_tools"></span>
+==Outils de modération==
+
+[[File:How to Block and Report.png|border|right|frameless]]
+VRChat s'appuie sur l'auto-modération pour régler la plupart des soucis concernant les utilisateurs, mondes, avatars et groupes. VRChat offre des outils de modération personnels que les utilisateurs peuvent utiliser comme bon leur semble durant leur expérience de jeu, comme bloquer, désactiver le microphone, masquer l'avatar ou signaler un utilisateur.
+
+<span id="Managing_users"></span>
+=== Gérer les utilisateurs ===
+
+Il existe de nombreux outils permettant de gérer les utilisateurs qui vous entourent. Vous pouvez sélectionner les utilisateurs dans la même instance ou chercher leur nom dans l'onglet '''Rechercher''' du [[Special:MyLanguage/Main Menu|menu principal]] pour effectuer des actions de modération. Il est aussi possible de parcourir les utilisateurs dans la section '''Vu récemment''' dans l'onglet « Social » du menu principal et d'y effectuer plus d'actions.
+
+====Désactiver le microphone d'un utilisateur [[File:NameplateMuteIcon.png|frameless|28x28px]]====
+Lorsqu'un utilisateur vous dérange ou est trop bruyant, sélectionnez-le afin de baisser le volume de son microphone ou simplement le désactiver. Si vous vous trouvez dans la même instance qu'un utilisateur dont vous avez désactivé le microphone, l'indicateur « Sourdine » [[File:NameplateMuteDeafen.png|frameless|28x28px]] leur sera visible sur votre cadre, indiquant votre action.
+
+Autrement, vous pouvez baisser leur volume à un minimum de 5%, empêchant l'apparition de l'indicateur.
+
+<span id="Muting_a_user&#039;s_chatbox"></span>
+====Désactiver la bulle de discussion d'un utilisateur====
+
+Si un utilisateur vous dérange avec sa [[Special:MyLanguage/chatbox|bulle de discussion]], sélectionnez-le et défilez jusqu'à trouver le bouton afin de désactiver la bulle de discussion. Lorsque l'utilisateur écrira, l'indicateur sera rouge et son message envoyé ne sera pas affiché.
+
+====Bloquer un utilisateur [[File:Icons BlockUser 25.png|frameless|28x28px]] ====
+Si l'utilisateur vient à continuer de vous déranger, vous avez la possibilité de le bloquer. Cela vous empêchera de vous voir mutuellement. Un utilisateur bloqué sera incapable de le confirmer, à moins que celui-ci ne possède des permissions dans l'instance. Vous pouvez parcourir votre liste d'utilisateurs bloqués en vous rendant dans l'onglet [[Special:MyLanguage/Social|Social]] du menu principal et vous défiler jusqu'à la section '''Bloqués''' afin de les signaler ou débloquer.
+
+Note : Certains scripts Udon ou préfabs peuvent afficher votre présence globale, même aux utilisateurs bloqués.
+
+====Signaler un utilisateur [[File:Icons Report 25.png|frameless|28x28px]] ====
+Si nécessaire, vous pouvez [[Special:MyLanguage/Reporting#Reporting a user|signaler un utilisateur]] pour un comportement en particulier en le sélectionnant ou en recherchant son nom. Lorsqu'un utilisateur est signalé, celui-ci est envoyé à l'équipe de confiance et sécurité de VRChat, qui pourra prendre des actions supplémentaires. Dans un but de préservation, les actions entreprises par l'équipe ne seront pas partagées.
+
+====Expulser un utilisateur [[File:Icons KickUser 25.png|frameless|28x28px]] ====
+Un utilisateur peut être expulsé d'une instance en démarrant un vote. L'ensemble des utilisateurs de l'instance ayant le [[Special:MyLanguage/Trust Rank|rang de confiance]] « Nouvel Utilisateur » ou au-dessus recevront la notification avec la possibilité de voter « Oui » ou « Non ». Si une majorité d'utilisateurs votent « Oui », l'utilisateur concerné se verra expulsé de l'instance et sera incapable de rejoindre pendant 1 heure.
+
+Les utilisateurs en capacité de modérer dans une instance peuvent ignorer ce processus et expulser à leur discrétion un utilisateur. Dans les instances de groupe, les utilisateurs ayant des permissions d'administrateur ont aussi la possibilité d'expulser ou bannir immédiatement d'un groupe ou instance, empêchant un futur retour dans les instances gérées par ce groupe.
+
+===Gérer les avatars [[File:Icons Avatars 25.png|frameless|28x28px]] ===
+Il est possible de gérer les avatars qui vous entourent. Vous pouvez utiliser des options, telles qu'afficher, masquer, masquer globalement ou signaler des avatars.
+
+<span id="Showing,_hiding,_and_blocking_an_avatar"></span>
+====Afficher, masquer et bloquer un avatar====
+
+[[File:AvatarDisplay.webp|thumb|Paramètre du menu rapide pour l'affichage des avatars.]]
+
+Si un [[Special:MyLanguage/Avatars|avatar]] avatar vous cause des gènes ou des problèmes de performances, vous avez la possibilité de le masquer. Vous pouvez aussi '''masquer globalement''' un avatar, ce qui bloque son '''ID''', l'empêchant d'être affiché , qu'importe l'utilisateur qui l'utilise.
+
+Les avatars peuvent être affichés ou masqués en fonction de votre niveau de sécurité et de vos préférences en matière de performances d'avatar. Vous pouvez modifier vos préférences dans les [[Special:MyLanguage/Settings|paramètres]].
+
+<span id="Showing_an_avatar"></span>
+===== Afficher un avatar =====
+
+Lors de la sélection d'un utilisateur, il est possible d'afficher une version alternative de leur avatar en appuyant sur l'icône « Œil » de la section « Affichage de l'avatar ». Il passera d'une version de secours, imposteur ou partiellement masqué à sa version complète.
+
+<span id="Hiding_an_avatar"></span>
+=====Masquer un avatar=====
+
+En appuyant sur l'icône « œil barré » de la section « Affichage de l'avatar », l'avatar utilisé passera de la version complète à un [[Special:MyLanguage/Robot|robot]] sans jambes appelé [https://vrchat.com/home/avatar/avtr_5e0b520f-f221-4f20-82e8-9cf59ba30277 Utility BLOCKED].
+
+<span id="Globally_hiding_an_avatar"></span>
+====== Masquer globalement un avatar======
+
+Choisir de '''masquer globalement un avatar''' ajoutera son identifiant à une liste, empêchant de l'afficher sur quiconque utilise celui-ci. C'est l'équivalent de « bloquer » un avatar.
+
+'''Note :''' Si un ami utilise un avatar masqué globalement, celui-ci peut s'afficher. Modifier l'affichage sur l'icöne « Bouclier »
+ dans « Affichage de l'avatar » empêchera celui-ci de s'afficher.
+
+=====Avatar sécurisé [[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]] =====
+L'icône « Bouclier » dans la section « Affichage de l'avatar » fera passer l'avatar à une variante définie par votre niveau de sécurité, ainsi qu'en fonction de vos préférences en matière de performance des avatars.
+
+====Signaler un avatar [[File:Icons Report 25.png|frameless|28x28px]]====
+Cette option doit être sélectionnée afin de signaler du contenu présent sur un [[Special:MyLanguage/avatars|avatar]]. Vous pouvez appuyer sur '''Voir les détails de l'avatar''' après afin de sélectionner un utilisateur afin de signaler son avatar. S'il est incertain que le contenu enfreint le règlement de la communauté, veuillez signaler un « avertissement de contenu » lorsque vous signalez l'avatar ou s'il n'est pas proprement déclaré.
+
+===Gérer les groupes [[File:Icons Groups 25.png|frameless|28x28px]]===
+Les [[Special:MyLanguage/Groups|groupes]] peuvent être submergeants. Il existe cependant quelques moyens de gérer vos expériences avec ceux-ci. Ces moyens impliquent de signaler ou bloquer les groupes, vous désinscrire des annonces ou masquer les bannières des cadres.
+
+====Signaler un groupe [[File:Icons Report 25.png|frameless|28x28px]]====
+Vous pouvez en recherchant un groupe ou en parcourant ceux d'un utilisateur [[Special:MyLanguage/Reporting#Reporting a group|signaler]] ceux qui enfreignent le règlement de la communauté sur la page de Confiance et Sécurité de VRChat.
+
+====Bloquer un groupe [[File:Icons BlockUser 25.png|frameless|28x28px]]====
+Lorsque vous recevez une invitation d'un groupe, vous pouvez empêcher celui-ci de continuer à le faire. Vous serez cependant toujours en capacité de voir la bannière sur les cadres des utilisateurs.
+
+<span id="Unsubscribing_from_announcements"></span>
+====Se désinscrire des annonces====
+
+Si vous faites partie d'un groupe et ne souhaitez pas voir les notifications d'annonces ou de postes, vous pouvez naviguer vers la page du groupe, vous rendre dans les paramètres et appuyer sur '''Se désabonner des annonces'''. Pour réactiver celles-ci, rendez-vous à nouveau dans les paramètres du groupe et appuyez sur '''S'abonner aux annonces'''.
+
+<span id="Disabling_group_banners_on_nameplates"></span>
+====Désactiver les bannières de groupe sur les cadres====
+
+Il est possible d'empêcher les bannières de groupe de s'afficher sur les [[Special:MyLanguage/nameplates|cadres]].
+
+*Rendez-vous dans l'onglet '''Interface Utilisateur''' des paramètres du menu principal. Vous pouvez désactiver dans la section '''Cadres''' le paramètre '''Afficher la bannière de groupe'''.
+
+*Autrement, vous pouvez en ouvrant le [[Special:MyLanguage/Action Menu|menu d'action]] vous rendre dans le menu « Options » afin d'y trouver le sous menu « Cadres ». Vous pourrez y désactiver les '''Bannières de groupe'''.
+
+=== Signaler un monde [[File:Icons anchor world 25.png|frameless|28x28px]]===
+La plupart des mondes ne contiennent pas de contenu qui enfreint le règlement de la communauté. Tous les mondes mis en ligne sont placés sous le programme des [[Special:MyLanguage/Community Labs|laboratoires communautaire]] avant d'être mis en public. Cependant, certains peuvent trouver du contenu jugé inapproprié et signaler le monde. S'il est incertain que le monde enfreint le règlement de la communauté, il est conseillé de signaler l'avertissement de contenu lors du signalement du monde.
+
+<span id="Reporting_an_instance"></span>
+=== Signaler une instance ===
+
+Lorsque vous parcourez le menu des mondes ou faites partie d'une instance et que le contenu en son sein enfreint le règlement de la communauté, celle-ci peut être signalée via un bouton.
+
+<span id="Instance_moderation"></span>
+===Modération d'instance===
+
+[[File:Moderator action.png|thumb|Actions de modération pour les instances dans les paramètres du menu rapide.]]
+Les actions de modération sont disponibles lorsque vous êtes le propriétaire d'une instance ou le propriétaire, modérateur ou administrateur d'une instance de groupe. Ils vous permettent de modérer vos instances de ces façons :
+
+<span id="User_actions"></span>
+==== Actions de l'utilisateur ====
+
+[[File:Here tab.webp|thumb|L'onglet « Ici » du menu rapide, affichant les informations de l'instance, ainsi que les boutons d'activation des différentes fonctionnalités de l'inventaire.]]
+Vous pouvez sélectionner un utilisateur et effectuer les actions de modération suivantes :
+* [[File:Icons Report 25.png|frameless|28x28px]] '''Avertir l'utilisateur :''' Envoie un message indiquant à l'utilisateur qu'il a été avertit.
+* [[File:Icons KickUser 25.png|frameless|28x28px]] '''Expulser l'utilisateur :''' Expulse l'utilisateur de l'instance, l'empêchant de rejoindre pendant 1 heure.
+* [[File:MicrophoneMuted HUD.png|frameless|28x28px]] '''Forcer la désactivation du microphone :''' Désactive le microphone de l'utilisateur. Il sera toujours en capacité de le réactiver.
+* '''[[File:Icons Groups 25.png|frameless|28x28px]]''' '''Bannir du groupe :''' L'utilisateur sera banni du groupe ayant ouvert l'instance. L'utilisateur ne sera plus en capacité de rejoindre les instances du groupe, ni de le rejoindre.
+
+<span id="Instance_toggles"></span>
+==== Boutons d'activation ====
+
+Via l'onglet « Ici » du menu rapide, les modérateurs d'instance peuvent activer les objets suivants selon leur volonté :
+*[[Special:MyLanguage/Emojis|Émojis]]
+*[[Special:MyLanguage/Stickers|Autocollants]]
+*Piédestaux de partage
+*[[Special:MyLanguage/Prints|Imprimés]]
+*[[Special:MyLanguage/Camera Drone|Drones]]
+*[[Special:MyLanguage/Items|Objets]]
+
+<span id="Official_resources"></span>
+== Ressources officielles ==
+
+* [https://docs.vrchat.com/docs/vrchat-safety-and-trust-system|Système de confiance et sécurité] sur ''docs.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us|Centre d'aide VRChat}} sur ''help.vrchat.com''
+** {{VRC link|https://help.vrchat.com/hc/en-us/categories/33315111286931-Safety-in-VRChat|Guide de sécurité dans VRChat}} sur ''help.vrchat.com''
+* {{VRC link|https://hello.vrchat.com/community|Règlement de la communauté}} sur ''hello.vrchat.com''
+* {{VRC link|https://hello.vrchat.com/legal|Conditions d'utilisation}} sur ''hello.vrchat.com''
+
+<span id="See_also"></span>
+==Voir aussi==
+
+Règlements
+
+* [[Special:MyLanguage/Terms of Service|Conditions d'utilisation]]
+* [[Special:MyLanguage/Community Guidelines|Règlement de la communauté]]
+* [[VRCWiki:Guidelines|VRCWiki : Règlement]]
+* [[VRCWiki:Disciplinary policy|VRCWiki : Politique disciplinaire]]
+
+Articles VRChat
+
+* [[Special:MyLanguage/Reporting|Signaler]]
+* [[Special:MyLanguage/Trust Rank|Rangs de confiance]]
+* [[Special:MyLanguage/Bans|Bans]]
+* [[Special:MyLanguage/Two-Factor Authentication (2FA)|Authentification à deux facteurs (A2F)]]
+
+<span id="References"></span>
+==Références==
+
+{{reflist}}
+{{Start-navbox}}

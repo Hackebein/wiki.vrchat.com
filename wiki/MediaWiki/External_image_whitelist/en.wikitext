@@ -1,0 +1,10 @@
+ #Leave this line exactly as it is<pre>
+#Put regular expression fragments (just the part that goes between the //) below
+#These will be matched with the URLs of external (hotlinked) images
+#Those that match will be displayed as images, otherwise only a link to the image will be shown
+#Lines beginning with # are treated as comments
+#This is case-insensitive
+
+^https://((assets|files|api)\.)?vrchat\.(com|cloud)
+
+#Put all regex fragments above this line. Leave this line exactly as it is</pre>

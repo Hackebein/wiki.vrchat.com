@@ -1,0 +1,83 @@
+<languages/>
+{{Noticebox/Official}}
+'''Avatare''' dienen als Charaktere, die den Nutzer in [[Special:MyLanguage/VRChat|VRChat]] repräsentieren. Sie sind für die Nutzer das primäre Mittel zur Interaktion und zum Ausdruck innerhalb der VR-Umgebung. Durch Avatare können Benutzer ihre Persönlichkeit zum Ausdruck bringen, mit der [[Special:MyLanguage/Worlds|Welt]] interagieren sowie neue Identitäten und Rollen auf einem immersiven Weg ausdrücken. Es gibt sie in verschiedenen Formen sowie Größen und die VRChat-Community hat eine große Palette an Avataren mit jeweils einzigartigem Stil und Ästhetik entwickelt. Es liegt an den persönlichen Vorlieben des Benutzers, sich zu entscheiden, welcher Avatar am besten zu ihm passt, oder seinen eigenen mit dem [[Special:MyLanguage/VRChat SDK|VRChat SDK]] zu erstellen.
+
+== Wechseln eines Avatars ==
+Wenn Benutzer VRChat zum ersten Mal betreten, sind sie zunächst mit dem Standard-Avatar [[Special:MyLanguage/Robot|Robot]] ausgestattet. Ihnen wird außerdem eine Auswahl an offiziellen VRChat-Avataren angeboten, sodass sie aus einer Vielzahl von Charakteren wählen können. Allerdings stellen diese ersten Auswahlmöglichkeiten nur einen Bruchteil der verfügbaren Avatare dar. Benutzer können den ausgewählten Avatar auf verschiedene Art und Weise ändern.
+
+=== Liste empfohlener Avatare ===
+VRChat pflegt eine kuratierte Liste vorgestellter [[Special:MyLanguage/Public Avatars|öffentlicher Avatare]], die auf Leistung optimiert und auf verschiedene Stile und Vorlieben zugeschnitten sind. Benutzer können diese Avatare jederzeit durchsuchen und ausprobieren, indem sie über das [[Special:MyLanguage/Main Menu|Hauptmenü]] zum Untermenü "Avatare" navigieren und "Öffentlich" oder "Legacy" auswählen.
+
+<div class="mw-translate-fuzzy">
+Wenn du einen Avatar gefunden hast, den du verwenden möchtest, wähle diesen aus und bestätige mit der Schaltfläche "Wechsel zu Avatar".
+<!-- This images is placed here on purpose, it doesnt seem to have updated to the current version of the image, ill give it some time to see if its delayed. -->
+[[File:Publicavatarclone.webp|thumb|right|Schnellmenü bei angewähltem Nutzer, "Favorisiere Avatar" und "Avatar klonen" Schaltflächen sichtbar unter "Benutzer-Aktionen".]]
+=== Klonen ===
+Benutzer haben die Möglichkeit, Avatare direkt von anderen Nutzern zu klonen. Mit dieser Funktion können Benutzer das Aussehen des gleichen Avatars annehmen, den ein anderer Nutzer benutzt, indem sie den Benutzer anwählen und im [[Special:MyLanguage/Quick Menu|Schnellmenü]] die Schaltfläche "Avatar klonen" anwählen. Wenn diese Option ausgegraut ist, bedeutet dies, dass der andere Benutzer die Klonfunktion deaktiviert hat oder einen als privat gekennzeichneten Avatar verwendet.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Cloning===
+[[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, "Clone Avatar" and "Favorite Avatar" buttons found under "User Actions" section.]]
+Users have the option to clone avatars directly from other users. This feature allows users to adopt the same avatar they see another user using by selecting the user and utilizing the "Clone Avatar" button within the [[Special:MyLanguage/Quick Menu|Quick Menu]]. If this option is unavailable, it indicates that the other user has disabled the cloning feature, or is using an avatar marked as private.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To disable the cloning of avatars one can go to [[Special:MyLanguage/Settings|Settings]] in the Main Menu, click on the '''Avatars''' tab, and turn off '''Allow Avatar Cloning'''.
+</div>
+
+===Podeste und Avatar-Welten ===
+Außerdem können Avatare auch über Avatar-Podeste gefunden werden. Diese sind normalerweise in Welten der Kategorie "Avatar Worlds" zu finden. Über den Podesten wird eine Vorschau vom Avatar angezeigt, mit der die Benutzer interagieren und so diesen klonen können. 
+
+<div class="mw-translate-fuzzy">
+==Avatare als Favoriten markieren==
+Benutzer können Avatare als Favoriten markieren, um sie für die spätere Benutzung einzuspeichern. Als Favoriten markierte Avatare werden im Abschnitt "Favorites" im Avatar-Menü angezeigt. Jeder Abschnitt bietet Platz für bis zu 50 Avatare. Mit einem aktiven [[Special:MyLanguage/VRChat+|VRChat+ Abonnement]] hast du Zugriff auf 5 weitere Avatar-Abschnitte.
+</div>
+
+<div class="mw-translate-fuzzy">
+Es gibt mehrere Möglichkeiten, einen Avatar als Favoriten zu markieren. Wenn du den Avatar aktiv benutzt, den du als Favoriten markieren möchtest, navigiere zum Avatar-Menü und klicke unten rechts unter der Avatar-Vorschau auf die Schaltfläche "Favorisieren". Wenn jemand anderes einen Avatar benutzt, den du als Favoriten markieren möchtest, wähle den Benutzer aus und drücke im [[Special:MyLanguage/Quick Menu|Schnellmenü]] die Schaltfläche "Favorisiere Avatar".
+</div>
+
+==Plattform-Kompatibilität==
+''Siehe auch [[Special:MyLanguage/Platforms|Plattformen]] für mehr detaillierte Informationen.''
+
+<div class="mw-translate-fuzzy">
+VRChat-Avatare werden für PC und mobile Plattformen unterschiedlich erstellt, hauptsächlich aufgrund der Einschränkungen von Geräten wie die Oculus Quest sowie Android- und iOS-Systemen. Daher sind einige Avatare möglicherweise nicht auf allen Geräten sicht- oder nutzbar. Detaillierte Informationen zu diesen Einschränkungen findest du innerhalb der folgenden Ressourcen:
+</div>
+
+*[https://creators.vrchat.com/platforms/android/quest-content-limitations/ Quest Content Limitations]
+*[https://creators.vrchat.com/platforms/android/android-best-practices/ Android Best Practices]
+
+Avatar-Ersteller können diesen so konfigurieren, dass er mit mehreren Plattformen kompatibel ist, indem sie mehrere Versionen mit der gleichen Avatar-ID hochladen. Wenn ein Avatar dem Benutzer nicht angezeigt werden kann, wird zunächst versucht, diesem einen [[Special:MyLanguage/Impostor|Impostor]] des Avatars anzuzeigen. Falls kein Impostor generiert wurde, wird der Benutzer stattdessen als [[Special:MyLanguage/Fallbacks|Fallback-Avatar]] angezeigt.
+
+<div class="mw-translate-fuzzy">
+Der Fallback-Avatar des Benutzers kann im Avatar-Menü geändert werden.
+</div>
+
+==Performance-Ranking==
+Avatare werden nach Performanceschwellen eingestuft. Sie reichen von Very Poor{{performance|verypoor|22}} über Poor{{performance|poor|22}}, Medium{{performance|medium|22}}, Good{{performance|good|22}} bis hin zu Excellent{{performance|excellent|22}}. Diese Einstufung hilft Benutzern, die Performanceauswirkungen ihrer Avatare auf das gesamte VRChat-Erlebnis zu verstehen. Beispiele für Faktoren, die die Performancebewertung von Avataren beeinflussen, sind die Anzahl der Mesh-Polygone, die Anzahl der Materialien, die Texturauflösung, die Komplexität des Animators und Avatar-Komponenten wie Physbones oder Constraints. 
+
+Weitere Einzelheiten findest du in der offiziellen Dokumentation bei [https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ Avatar Performance Ranking System].
+
+<div class="mw-translate-fuzzy">
+== Erstellen und Hochladen==
+Benutzer können ihr VRChat-Erlebnis verbessern, indem sie benutzerdefinierte Avatare erstellen und hochladen, sofern sie die [[Special:MyLanguage/Terms of Service|Terms of Service]] von VRChat einhalten. Um einen Avatar hochzuladen, müssen Benutzer zunächst den Rang "New User" erreichen und sich die erforderlichen Werkzeuge aneignen, beispielsweise die empfohlene Version von Unity und das [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+With the release of [https://creators.vrchat.com/releases/release-3-9-0#fixes--changes SDK 3.9.0], the trust rank requirement for users to build & test their avatars have been removed. Previous SDK versions require trust rank "New User" or higher to build & test avatars.
+</div>
+
+Sobald du einen hochgeladenen Avatar besitzt, kannst du diesen im Abschnitt "Hochgeladen" in deiner Avatarliste finden.
+
+Eine '''ausführlichere Anleitung''' zu den Möglichkeiten des SDK ist verfügbar in der Creation-Dokumentation bei [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Creating Your First Avatar].
+
+<span id="Official_resources"></span>
+== Offizielle Ressourcen ==
+
+* [https://creators.vrchat.com/avatars/ Avatars] bei VRChat Creators.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Trivia==
+*Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
+</div>

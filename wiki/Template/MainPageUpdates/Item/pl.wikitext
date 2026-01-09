@@ -1,0 +1,15 @@
+<onlyinclude>* <span style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden; width: 100%; display: block;">{{#timel: j M | {{{date|}}} }} - [{{{url}}} {{{title}}}]</span></onlyinclude>
+
+<noinclude>
+== Example ==
+<pre>
+{{MainPageUpdates/Item
+|date=@1722994097
+|title=In Memoriam: Gold
+|url=https://hello.vrchat.com/blog/in-memoriam-gold}}
+</pre>
+{{MainPageUpdates/Item
+|date=@1722994097
+|title=In Memoriam: Gold
+|url=https://hello.vrchat.com/blog/in-memoriam-gold}}
+</noinclude>

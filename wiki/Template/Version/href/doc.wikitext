@@ -1,0 +1,89 @@
+This template displays versions of clients, SDK's, and other notable versioned tools/features. This template parameters should be in-sync with the [[Template:Version|<nowiki>{{Version}}</nowiki>]] and [[Template:Version/Build|<nowiki>{{Version/Build}}</nowiki>]] templates.
+
+{| class="wikitable"
+!Version
+!Example
+!Template code
+|-
+| style="text-align:center;" colspan="3" |'''<big>Client</big>'''
+|-
+|Live Main Page
+|{{Version/href|live-mainpage}}
+|<code><nowiki>{{Version/href|live-mainpage}}</nowiki></code>
+|-
+|Live
+|{{Version/href|live}}
+|<code><nowiki>{{Version/href|live}}</nowiki></code>
+|-
+|Live (Windows)
+|{{Version/href|live-windows}}
+|<code><nowiki>{{Version/href|live-windows}}</nowiki></code>
+|-
+|Live (Android)
+|{{Version/href|live-android}}
+|<code><nowiki>{{Version/href|live-android}}</nowiki></code>
+|-
+|Live (iOS)
+|{{Version/href|live-ios}}
+|<code><nowiki>{{Version/href|live-ios}}</nowiki></code>
+|-
+|Open Beta
+|{{Version/href|open-beta}}
+|<code><nowiki>{{Version/href|open-beta}}</nowiki></code>
+|-
+|Open Beta (Windows)
+|{{Version/href|open-beta-windows}}
+|<code><nowiki>{{Version/href|open-beta-windows}}</nowiki></code>
+|-
+|Open Beta (Quest)
+|{{Version/href|open-beta-quest}}
+|<code><nowiki>{{Version/href|open-beta-quest}}</nowiki></code>
+|-
+|Unity (Live)
+|{{Version/href|unity-live}}
+|<code><nowiki>{{Version/href|unity-live}}</nowiki></code>
+|-
+| style="text-align:center;" colspan="3" |'''<big>SDK</big>'''
+|-
+|SDK
+|{{Version/href|sdk}}
+|<code><nowiki>{{Version/href|sdk}}</nowiki></code>
+|-
+|SDK - Worlds
+|{{Version/href|sdk-worlds}}
+|<code><nowiki>{{Version/href|sdk-worlds}}</nowiki></code>
+|-
+|SDK - Avatars
+|{{Version/href|sdk-avatars}}
+|<code><nowiki>{{Version/href|sdk-avatars}}</nowiki></code>
+|-
+|SDK beta
+|{{Version/href|sdk-beta}}
+|<code><nowiki>{{Version/href|sdk-beta}}</nowiki></code>
+|-
+|Package Resolver
+|{{Version/href|package-resolver}}
+|<code><nowiki>{{Version/href|package-resolver}}</nowiki></code>
+|-
+|Unity (SDK)
+|{{Version/href|unity-sdk}}
+|<code><nowiki>{{Version/href|unity-sdk}}</nowiki></code>
+|-
+| style="text-align:center;" colspan="3" |'''<big>Other</big>'''
+|-
+|Creator Companion
+|{{Version/href|creator-companion}}
+|<code><nowiki>{{Version/href|creator-companion}}</nowiki></code>
+|-
+|Creator Companion beta
+|{{Version/href|creator-companion-beta}}
+|<code><nowiki>{{Version/href|creator-companion-beta}}</nowiki></code>
+|-
+|Quick Launcher
+|{{Version/href|quick-launcher}}
+|<code><nowiki>{{Version/href|quick-launcher}}</nowiki></code>
+|-
+|Impostors
+|{{Version/href|impostors}}
+|<code><nowiki>{{Version/href|impostors}}</nowiki></code>
+|}

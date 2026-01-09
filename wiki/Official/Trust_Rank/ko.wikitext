@@ -1,0 +1,159 @@
+<languages/>
+{{Noticebox/Official}}
+'''신뢰 등급'''은 VRChat의 [[Special:MyLanguage/Trust and Safety|신뢰 및 안전]] 시스템의 일부로, 모든 유저가 안전하고 즐거운 경험을 할 수 있도록 설계되었습니다. 이 시스템은 유저가 콘텐츠를 업로드할 수 있는 시점을 결정하며, 유저의 행동을 평가하여 다양한 변수의 집계를 통해 "신뢰도"를 계산합니다.
+
+<span id="Ranks"></span>
+==등급==
+
+유저의 신뢰도는 '''신뢰 등급'''에 반영되며, 이는 VRChat에서 보낸 시간, 콘텐츠 기여도, 맺은 친구 관계 및 기타 요소를 반영하는 지표입니다. 
+
+유저 신뢰 등급은 다음과 같습니다 (낮은 등급에서 높은 등급)
+{| class="wikitable"
+|+
+| style="background-color: #bababa" |
+!Visitor
+|초기 등급.
+|-
+| style="background-color: #1678ff" |
+!New User
+|[[Special:MyLanguage/Avatars|아바타]]와 [[Special:MyLanguage/Worlds|월드]]를 VRChat에 업로드할 수 있습니다. 업로드된 월드는 반드시 private 상태로 유지됩니다.
+|-
+| style="background-color: #2acf5b" |
+!User 
+|[[Special:MyLanguage/Worlds|월드]]를 [[Special:MyLanguage/Community Labs|커뮤니티 랩스]]에 게시할 수 있습니다. 이 등급에서 대부분의 기능이 사용 가능해집니다.
+|-
+| style="background-color: #ff7c42" |
+!Known User
+|"User"로 표시되도록 선택할 수 있습니다.
+|-
+| style="background-color: #8143e6" |
+!Trusted User
+|"User"로 표시되도록 선택할 수 있습니다.
+|}
+
+<span id="Special_ranks"></span>
+===특별 등급===
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable"
+|+
+| style="background-color: #efea17" |
+!'''Friends'''
+|유저를 친구 추가 하면 이 신뢰 등급을 받습니다. 아바타 기능은 일반 실드 레벨에서 모두 표시되며, 다른 신뢰 등급과 마찬가지로 맞춤 설정할 수 있습니다. 
+|-
+| style="background-color: #bababa" |
+!'''Nuisance'''
+|다른 유저에게 피해를 끼치면 이 신뢰 등급을 받습니다. 퀵 메뉴가 열려 있을 때 이름표 위에 이 신뢰 등급이 표시됩니다. 
+아바타는 완전히 차단되며, 실드 레벨과 무관하게 기본적으로 음소거됩니다. 그러나 수동으로 음소거를 해제하거나 아바타를 표시할 수 있습니다.
+|-
+| style="background-color: #b52626" |
+!Administrator
+|VRChat Team에 소속되면, 이 신뢰 등급을 받습니다. 
+이 신뢰 등급은 VRChat 클라이언트에서는 숨겨져 있지만, VRChat 웹사이트에서 유저 프로필을 확인할 때 신뢰 등급 대신 빨간색 테두리로 "Administrator"가 표시됩니다.
+|}
+</div>
+
+===폐지된 등급===
+''[[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|폐지된 기능]]을 확인하세요.''
+
+<span id="Gaining_ranks"></span>
+===등급 올리기===
+
+신뢰 시스템의 내부 작동 원리는 악용을 방지하기 위해 의도적으로 숨겨져 있습니다.  
+
+하지만, 신뢰 등급을 높이는 가장 좋은 방법은 VRChat에서 아래의 활동을 하는 것입니다. 
+
+* 월드 탐험
+* 친구 사귀기
+* 콘텐츠 제작
+
+신뢰 등급을 높이지 않는 활동에는 다음과 같은 것이 포함됩니다:  
+*방에 서 있거나 가만히 있는 것 (AFK).  
+*저품질 콘텐츠를 대량으로 업로드하는 것.  
+*대량의 유저와 친구 관계를 맺는 것.  
+*다른 VRChat 유저에게 괴롭히는 것.
+추가적으로, [[Special:MyLanguage/VRC+|VRC+]]에 가입하거나 VRC+ 구독권을 선물받는 것은 신뢰 등급을 높일 수 있습니다<ref>[https://hello.vrchat.com/vrchatplus VRC+]VRChat 웹사이트, 2024년 10월 24일 확인.</ref>그러나 단 한번만 신뢰 등급이 올라갑니다.
+
+하지만, 신뢰 등급이 증가하지 않는 경우가 있을 수 있습니다. 그러나 다음 등급으로 올라가는 데 도움을 줍니다.
+
+==신뢰 등급 및 안전==
+[[File:Shield_level.webp|thumb|300px|실드 레벨은 사용자의 신뢰 등급에 따라 맞춤 설정 가능합니다.]]
+신뢰 등급은 다른 유저가 자신의 아바타를 보거나, 목소리를 듣거나, [[Special:MyLanguage/Stickers|스티커]] 및 [[VRC+#Prints|프린트]]를 포함하는 [[Special:MyLanguage/Gallery|갤러리]] 콘텐츠를 보는 방식에 영향을 미칩니다. 이는 모두 유저의 [[Special:MyLanguage/Trust and Safety#Personal%20safety|실드 레벨]] 설정에 따라 결정됩니다.
+{| class="wikitable"
+!옵션 이름
+!영향받는 기능
+|-
+|음성
+|유저
+|-
+|아바타
+|아바타
+|-
+|유저 아이콘
+|소셜
+|-
+|커스텀 이미지
+|소셜
+|-
+|드론
+|소셜
+|-
+|오디오
+|아바타
+|-
+|조명 및 파티클 
+|아바타
+|-
+|셰이더
+|아바타
+|-
+|사용자 지정 애니메이션
+|아바타
+|-
+|애니메이션 이모지
+|소셜 
+|}
+사용자의 보안 및 편의 선호도에 따라 여러 가지 '''프리셋'''이 제공됩니다.
+
+<span id="Appearance_of_ranks_inside_VRChat"></span>
+==VRChat에서의 등급 표시 ==
+
+[[File:TrustRank_Example.png|right|frameless]]
+
+안전 및 신뢰 시스템은 유저에게 방해가 되지 않도록 설계되었습니다. 각 유저의 신뢰 등급은 퀵 메뉴가 열려 있을 때만 표시됩니다. 이 설정은 "유저 인터페이스" > "이름표"에서 변경할 수 있으며, [[Special:MyLanguage/Action Menu|액션 메뉴]]의 "옵션" > "이름표"에서도 변경 가능합니다.
+
+*이름표의 왼쪽 상단에 표시된 텍스트는 각 유저의 신뢰 등급을 나타냅니다.
+*이름표의 오른쪽 상단에는 각 유저의 아바타 성능 등급이 표시됩니다.
+
+===등급 전환 ===
+* '''Visitor에서 New User:''' New User 등급에 도달하면 VRChat 계정을 사용하는 사용자는 VRChat에 콘텐츠를 업로드할 수 있는 권한을 얻게 됩니다. 유저는 이 전환에 대해 통지받으며, 콘텐츠 생성 관련 VRChat 문서 페이지로 안내됩니다.
+*'''New User에서 User:''' User 등급에 도달하면 유저는 관리 팀에 월드, 그룹, 유저, 아바타를 신고하여 검토를 요청할 수 있는 권한을 얻습니다. 유저는 이 전환에 대해 통지받습니다.
+*'''알림:''' 유저는 신뢰 등급이 전환될 때 알림을 받습니다.
+*'''등급 표시 토글:''' Known User 등급 이상인 유저는 자신의 등급을 "User "로 표시하도록 선택할 수 있습니다. 이 설정은 신뢰 아이콘과 텍스트를 User 등급으로 변경하며, 안전 시스템이 해당 유저를 처리하는 방식에도 영향을 미칩니다. 이 토글은 프로필 페이지의 상태 아래와 '프로필 윙'의 가장 아래 부분에 위치해 있습니다.
+==공식 리소스==
+
+*''docs.vrchat.com''의 [https://docs.vrchat.com/docs/vrchat-safety-and-trust-system 안전 및 신뢰 시스템]
+*Medium 의 [https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 VRChat 안전 및 신뢰 시스템: 변경 사항 및 피드백]
+
+<span id="See_also"></span>
+==참고 사항==
+
+규칙 및 가이드라인
+
+* [[Terms of Service|이용약관]]
+* [[Community Guidelines|커뮤니티 가이드라인]]
+* [[VRCWiki:Guidelines|VRCWiki:가이드라인]]
+* [[VRCWiki:Disciplinary policy|VRCWiki:징계 정책]]
+
+VRChat 플랫폼 문서
+
+* [[Reporting|신고하기]]
+* [[Bans|차단]]
+* [[Two-Factor Authentication (2FA)|2단계 인증]]
+
+<span id="References"></span>
+==참고문헌==
+
+[[Category:Features{{#translation:}}]]
+
+<references />

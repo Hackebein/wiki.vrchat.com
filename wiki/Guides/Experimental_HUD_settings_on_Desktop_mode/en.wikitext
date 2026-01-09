@@ -1,0 +1,36 @@
+{{Noticebox/Community}}
+{{Noticebox|image=CautionTriangle.png|title=This guide describes processes that are catered to a specific operating system.|description=This guide is catered to users that use the Windows operating system.|border-color=#ffbf00|background-color=#202114}}
+{{Noticebox|image=CautionTriangle.png|title=This guide describes processes that may cause system instability or errors.|description=Make sure you backup your registry settings before proceeding. Editing incorrect registry settings could cause problems on your system. Proceed at your own risk.|border-color=black|background-color=#260707}}
+
+VRChat has two experimental [[HUD]] [[settings]] that are currently only shown to users that are in VR mode. These settings do save and work in Desktop-mode after turning them on while in VR-mode, but users that exclusively play on Desktop, cannot access these settings. This guide aims to solve that issue.
+
+== Experimental settings ==
+The two experimental HUD settings are the following:
+
+* Use Outline Microphone Icon
+* Use Pixel Shifting HUD
+
+These settings were added in update [https://docs.vrchat.com/docs/vrchat-202342 2023.4.2] to prevent [[wikipedia:Screen_burn-in|burn-in]] on OLED VR headsets. But are equally important to OLED monitors as well. The "Outline Microphone Icon" settings removes the inside of the microphone icon, leaving only the outline. And the "Pixel Shifting HUD" option moves the HUD a small amount of pixels over time, users shouldn't notice it moving.
+
+The Bigscreen Beyond and Somnium VR-1 VR headsets have these options enabled by default.
+
+== Enabling the settings ==
+
+=== Navigating ===
+Start by opening up the Registry Editor, by either searching in the Start Menu or using the run dialog (Windows + R) and typing in <code>regedit</code>.
+
+VRChat's registry keys are located under <code>Computer\HKEY_CURRENT_USER\Software\VRChat\VRChat</code>. Either navigate there using the drop-downs on the left side of the window, or copy and paste the string highlighted above into the search box at the top.
+
+=== Adding / Changing ===
+Under this folder, there are hundreds of different keys. The ones you're looking for are <code>VRC_USE_OUTLINE_MIC_ICON_h3135516813</code> for the "Use Outline Microphone Icon" settings and <code>VRC_USE_PIXEL_SHIFTING_HUD_h2883719856</code> for the "Use Pixel Shifting HUD" setting.
+
+These settings may or may not be here already, if they are not already there, right-click into empty space and select "DWORD (32-bit Value)" option to add a key and in the New Value key that got added, rename it to one of the keys above. Repeat the same step for another setting, only one key per setting.
+
+Once you have the key(s) added, right-click on the key and select "Modify". A window will appear, change the "Value data" section to either, <code>0</code> for turning the setting off or <code>1</code> for turning the setting on. Make sure the option "Hexadecimal" under the "Base" section on the right side of the window is selected. After, typing either <code>0</code> or <code>1</code> click "OK" to save the value.
+
+After launching the client, you should see the setting applied. 
+
+== Other notes ==
+While this guide is specifically aimed for turning on and off Experimental HUD settings on Desktop, the same method can be applied to any setting in the game. The full list of registry keys can be located [https://github.com/book000/memo/blob/main/docs/game/vrchat/registory.md here]. Some of these setting do nothing and/or could result in problems with using VRChat. Change at your own risk.
+
+[[Category:Guides]]

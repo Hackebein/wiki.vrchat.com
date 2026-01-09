@@ -1,0 +1,69 @@
+<languages/>
+
+'''VRChatのアプリケーションプログラマーインターフェース'''（API）は、VRChatのサーバーからの公式VRChatデータであり、VRChatクライアント、VRChatウェブサイト、またはVRChatアプリを使用して、アカウントに合理化されます。 APIは外部から照会することもできます。
+
+==VRChat APIについて==
+[[File:API Team2021.webp|thumb|7人のAPIチームメンバーが、サーバールームでゲーム内写真のためにポーズをとっています。2021年の写真。]]
+
+VRChatは、2019年の開発者ブログ<ref>[https://medium.com/vrchat/developer-blog-websockets-b5f0b4d379 Developer Blog — Websockets]で、アプリケーションプログラマーインターフェイスが何をするかを簡単に説明し、維持する情報の例を提供します。VRChatが「Medium」で公開しました。2024年11月28日閲覧。</ref>：
+
+{{Quote|''VRChatには、すべての楽しいバーチャルリアリティを処理するクライアント、仮想領域のユーザー間の高速低ドラッグ通信を処理するネットワーク層、および「ユーザーが誰であるか」や「ユーザーがどこにいるか」などの永続的な情報ストレージを担当するAPI、「ペタバイトのアバターの真に壮大なコレクション、動的なボーンとパーティクルアニメーションの緩い集合体を維持する」''}}
+
+<span id="Data"></span>
+==データ==
+
+VRChatのAPIからの情報には以下が含まれます。
+
+*ログインと認証
+
+**Steam、Meta、PICOなどからサインインできること。
+
+**VRChatアカウントから直接署名する
+
+*ソーシャルと友達リスト
+
+**ライブインスタンスデータ（およびスイッチングインスタンス）
+
+**招待と通知に関するデータ
+
+**インスタンスの参加と離脱
+
+**お気に入りの友達リスト
+
+*SDKアセットのアップロード
+
+**あなたの世界とアバター
+
+**お気に入りのアバター、世界など。
+
+**世界とアバターの検索
+
+*リアルタイムのプレイヤー状態の変化
+
+**ステータスの更新、バイオの変更
+
+**アカウントに関連するものはすべて
+
+**アバターの変更
+
+**スイッチングインスタンス（およびライブインスタンスデータ）
+
+==公式リソース==
+VRChatのAPIステータスはここで正式に照会できます。
+{{VRC link|https://status.vrchat.com/|VRChatサーバーステータス}}
+
+== ドキュメント ==
+VRChatは、APIの使用/ボットの下で、APIを公式に文書化したり、サポートしたりしていません<ref>[https://hello.vrchat.com/creator-guidelines VRChat Creator Guidelines]; 2025年1月10日取得。</ref>。しかし、コミュニティ主導の取り組みにより、さまざまなプログラミング言語でAPIドキュメントとSDKライブラリが利用可能になりました。これらのリソースは、次の項目で見つけることができます。
+
+* [https://vrchat.community VRChat.community - APIドキュメントとSDK]
+
+* [https://github.com/VRChatApi GitHub]
+
+==関連情報==
+*[[Special:MyLanguage/Instances|インスタンス]]
+*[[Special:MyLanguage/VRChat account|VRChatアカウント]]
+
+<span id="References"></span>
+== 出典 ==
+
+<references />

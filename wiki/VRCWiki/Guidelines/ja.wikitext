@@ -1,0 +1,168 @@
+{{Noticebox/Guidelines_translation}}
+<languages/>
+<span id="VRChat_Wiki_Rules_and_Guidelines"></span>
+== VRChat Wikiのルールとガイドライン ==
+
+<div class="mw-translate-fuzzy">
+VRChatの公式ナレッジベースへようこそ！
+コンテンツの公開には、VRChatの他のポリシーおよびWikiに加えて、[[Special:MyLanguage/Terms of Service|利用規約]] と [[Special:MyLanguage/Community Guidelines|コミュニティガイドライン]] が適用されます。
+このVRChat Wikiは、VRChat, Inc. によって任命された [[Special:MyLanguage/VRCWiki:Roles|ボランティアのメンテナーおよびオーガナイザー]] のグループによって運営されています。
+</div>
+
+Wikiを学術的で専門的、そして読みやすいものに保つために、これらのルールとガイドラインに従ってください。記事やページに貢献する際は、常にこれらを念頭に置いてください。
+VRChat Wikiのガイドラインに関する質問や懸念がある場合は、このページの [[Special:MyLanguage/VRCWiki talk:Guidelines|ディスカッションページ]] または VRChat Wikiの [[Special:MyLanguage/Discord servers#VRChat Wiki|Discordサーバー]] にて問い合わせることができます。
+
+<span id="Type_of_permitted_content"></span>
+== 許可されるコンテンツの種類 ==
+
+<div class="mw-translate-fuzzy">
+すべての編集は、[[Special:MyLanguage/VRCWiki:Neutral point of view|中立的な観点]]（NPOV）に従い、[[Special:MyLanguage/VRCWiki:Manual of Style|スタイルマニュアル]]（MOS）を遵守する必要があります。
+記事の内容の作成、開発、管理に直接関与している場合（一次情報に該当する場合）は、その記事を編集することは禁じられています。
+詳細については、VRChat Wikiの [[Special:MyLanguage/VRCWiki:Conflicts of interest|利益相反]]（COI）ポリシーをご覧ください。
+</div>
+
+<div class="mw-translate-fuzzy">
+VRChatは13歳以上のユーザーを対象としたプラットフォームです。
+
+'''すべてのコンテンツは年齢に適したものである必要があります。不適切または性的に示唆的な表現は避けてください。'''
+</div>
+
+このWikiで許可されているコンテンツの種類は以下の通りです。
+
+<span id="Official_pages"></span>
+== 公式ページ ==
+
+<div class="mw-translate-fuzzy">
+'''公式ページ''' はVRChat Wikiチームによって管理されており、公式のVRChatワールド、機能、その他プラットフォームから提供されるトピックに関する情報を含みます。
+ユーザーは編集を提案できますが、公開後はメンテナーの承認が必要です。
+どのユーザーも、記事の「トーク」ページで自由にトピックを開始したり議論したりできます。
+</div>
+
+これらの公式ページには、ページ上部に次のような ''通知ボックス'' が表示されます。
+
+{{Noticebox/Official}}
+
+公式VRChat記事には、以下のような情報や出典が含まれます。
+
+* パッチノート
+* 機能に関するドキュメント
+* 「ユーザーマニュアル」に関する情報（操作方法、システム要件、UI、メニュー構成）
+
+<div class="mw-translate-fuzzy">
+公式ページの情報は、最終編集時点で可能な限り正確なものとなっています。記事の情報が古い、または不足している場合は、編集を行ってください。
+
+公式ページに編集を送信した場合、変更が反映される前に承認が必要となることがあります。
+</div>
+
+<span id="Community_pages"></span>
+=== コミュニティページ ===
+
+<div class="mw-translate-fuzzy">
+'''コミュニティページ''' は、どのユーザーでも作成・編集できます。これらの記事は、VRChatのコミュニティコンテンツをまとめたものです。
+まず、検索バーで「Community:」に続けてテーマを入力し、コミュニティ記事を検索してください。
+まだページが存在せず、コンテンツが [[Special:MyLanguage/VRCWiki:Notability|注目基準]] を満たしている場合は、新しく作成することができます。
+</div>
+
+コミュニティ記事には、ページ上部に次のような通知ボックスが表示されます。
+{{Noticebox/Community}}
+
+この通知ボックスは、次のように入力して追加できます：<nowiki>{{Noticebox/Community}}</nowiki>。
+
+<span id="Guides"></span>
+==== ガイド ====
+
+'''ガイド''' は、ユーザーが特定のテーマについて学んだり、手順を追ってタスクを実行したりするのに役立つ情報記事です。
+ガイドは、名前に ''Guides:'' を含むページで、ソースコードには <nowiki>[[Category:Guide{{#translation:}}]]</nowiki> が含まれています。
+
+<span id="Files"></span>
+=== ファイル ===
+
+<div class="mw-translate-fuzzy">
+'''ファイル''' は、記事を視覚的に補強するためにページに追加できる画像やメディアです。
+どのユーザーでも [[Special:Upload]] でファイルをアップロードできますが、追加される前にVRChat Wikiチームの承認が必要です。
+一般的な推奨事項として、画像は '''.webp形式''' でアップロードするのが望ましいです。
+</div>
+
+アップロードするファイルは、VRChatやページの内容に関連するものに限ってください。
+画像内のユーザー名や [[Special:MyLanguage/Groups|グループ]] は削除またはぼかしてください。
+機密情報、不適切な内容、または性的に示唆的なコンテンツをアップロードしてはいけません。
+
+<span id="Verification"></span>
+== 検証 ==
+
+VRChat Wikiの情報は正確である必要があり、読者を誤解させないようにしてください。
+
+外部情報を引用するか、関連情報へのリンクとしてWikipediaのリンクを使用してください。
+
+必要に応じて、{{VRC link|https://creators.vrchat.com|VRChat Creator Documentation}}  または [https://docs.unity.com Unity Documentation] へリンクしてください。
+
+==== 未公開コンテンツ ====
+{{Noticebox/unreleased|これは理由表示のデモです。理由があれば、このように表示されます。}}
+
+今後の機能や仕様に関する情報は、噂や推測に基づく場合は記載しないでください。
+機能や仕様がVRChatによって公式に文書化されている場合（例：[[Special:MyLanguage/Developer Update|開発者向けアップデート]]）、必ず出典として引用してください。
+[[Special:MyLanguage/VRChat API|VRChat API]] や Crowdin などのローカライズツール内に存在するコンテンツは、[[Special:MyLanguage/Community:Leaks|Community:Leaks]] ページに掲載可能な場合があります。
+
+
+この通知ボックスを追加するには、以下のように入力してください。
+
+<nowiki>{{Noticebox/unreleased|ここに理由を書くと、その理由が表示されます}}</nowiki>
+
+== 議論ページ ==
+
+議論ページ（トークページとも呼ばれます）は、記事の「議論」セクションで利用可能です。
+議題の見出しをつけ、その後に内容を記入してください。
+投稿の最後にはチルダ4つ <code><nowiki>~~~~</nowiki></code>を付けて終了します。
+
+この四つのチルダは、投稿に次のように署名します。
+
+-[[Special:MyLanguage/User:Screenname|あなたの名前]] ([[Special:MyLanguage/User talk:あなたの名前|トーク]]) HH:MM, DD 月 YYYY (UTC)
+
+== ユーザーページ ==
+ユーザーページは、自己紹介や自分の活動に関する情報を共有するためのページです。
+
+これらのページは一般的なWikiポリシーに従う必要がありますが、利益相反やバイアスのガイドラインは適用されません。
+ただし、以下の点に注意してください。
+
+* 他者を攻撃する目的でユーザーページを使用せず、敬意を持って作成してください。
+
+* ユーザーページを宣伝ページとして使用しないでください。個人ページとしての内容にとどめ、サービスの商業的宣伝は避けてください。
+
+* ページに自動リダイレクトを設置しないでください。モデレーションの目的上、ユーザーページは最終目的地である必要があり、他のページへのリダイレクトはモデレーションツールに干渉するため許可されていません。
+
+ページタイトルとしてユーザー名を表示したい場合は、以下のコードを使用してください。
+
+<code><nowiki>{{DISPLAYTITLE:User: YOURNAMEHERE}}</nowiki></code>
+
+== 個人の行動および紛争 ==
+変更に関する意見の不一致から、編集のやり取りや取り消しが発生し、短期間で繰り返し元に戻されることがあります。
+
+<div class="mw-translate-fuzzy">
+紛争が発生することもあります。しかし、VRChat Wikiは他のナレッジベースと同様に、常に礼儀正しくある必要があります。
+
+対立を避けるために、明確な編集要約を使用し、記事の議論ページで中立的な解決を目指してください。
+</div>
+
+あるいは、ユーザーページで妥協案について議論してください。
+
+Wiki内のどこでも、議論ページを含めて、嫌がらせや無礼な行為を行わないでください。
+合意が得られるまでは、争点となっている箇所を変更しないでください。
+
+ほとんどの貢献者はWikiを改善したいと考えており、視点の違いがあるだけであると理解して、善意で対応してください。
+
+''行動に関する詳細は、以下も参照してください:''
+
+* [[:Wikipedia:Wikipedia:Assume_good_faith |Wikipedia:Assume good faith（善意に取る）]]
+* [[:Wikipedia:Dispute_resolution |Wikipedia:Dispute resolution（紛争解決）]]
+* [[Special:MyLanguage/VRCWiki:Backseat_moderation|VRCWiki:バックシートモデレーション]]
+
+<span id="See_also"></span>
+==関連項目==
+
+* [[VRCWiki:Contributor hub|貢献者ハブ]]
+* [[Special:MyLanguage/VRCWiki:How to Contribute|貢献の方法]]
+* [[Special:MyLanguage/VRCWiki:Disciplinary_policy|懲戒ポリシー]]
+* [[Special:MyLanguage/Community Guidelines|コミュニティガイドライン]]
+[[Category:VRCWiki policies{{#translation:}}]]
+----
+{{Navbox/Wiki_policies}}

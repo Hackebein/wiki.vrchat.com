@@ -1,0 +1,68 @@
+{{DISPLAYTITLE:vrc-get}}
+{{Noticebox/Community}}
+'''vrc-get''' is an open-source, cross-platform command-line client for the [[VRChat Package Manager|VRChat Package Manager]].
+It acts as a fast, script-friendly alternative to the official [[VRChat Creator Companion|VRChat Creator Companion (VCC)]] while staying fully compatible with VCC project layouts and `vpm-manifest.json`. It's often used with [[Community:ALCOM|ALCOM]]
+
+Released under the MIT Licence and actively maintained on GitHub by ''anatawa12'' with community contributions.
+
+==Features==
+
+* Drop-in CLI for VPM with extra quality-of-life commands
+* Ships as single static binaries → zero external runtimes
+* Package management,  `install`, `upgrade`, `remove`, `outdated`, `reinstall`, user-package support
+* Repository control, `repo add/remove/list/cleanup/packages`, `repo import/export`
+* Automation, Non-interactive. Includes GitHub Actions steps for CI
+* Performance, Written in Rust. Faster than VCC on large projects
+
+==Supported Platforms==
+
+*Windows (x86-64 & ARM64)
+*macOS (Intel & Apple Silicon)
+*Linux (glibc + musl)
+
+==Installation==
+{| class="wikitable"
+!Platform
+!Method
+!Command
+|-
+|Windows 10/11
+|'''WinGet'''
+|<code>winget install anatawa12.vrc-get</code>
+|-
+|Windows
+|'''Scoop'''
+|<code>scoop bucket add xrtools <nowiki>https://github.com/babo4d/scoop-xrtools</nowiki> && scoop install vrc-get</code>
+|-
+|macOS
+|'''Homebrew'''
+|<code>brew install vrc-get</code>
+|-
+|macOS
+|'''MacPorts'''
+|<code>sudo port install vrc-get</code>
+|-
+|Arch Linux
+|'''AUR'''
+|<code>yay -S vrc-get</code>
+|-
+|Any
+|'''Cargo binstall'''
+|<code>cargo binstall vrc-get</code>
+|-
+|Any
+|'''Cargo'''
+|<code>cargo install vrc-get</code>
+|-
+|Any
+|'''Pre-built'''
+|Download from the GitHub Releases page
+|}
+
+==Resources==
+
+*[https://vrc-get.anatawa12.com/en/cli/ Project Homepage] at anatawa12.com
+*[https://github.com/vrc-get/vrc-get Project Repository] at github.com
+
+[[Category:Third-party applications]]
+[[Category:Needs images]]

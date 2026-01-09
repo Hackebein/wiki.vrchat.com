@@ -1,0 +1,13 @@
+<noinclude><languages/></noinclude><includeonly>{{Infobox/Asset/Author|{{{1|}}}}}{{#if:{{{2|}}}|, {{Infobox/Asset/Author|{{{2|}}}}}|}}{{#if:{{{3|}}}|{{#if:{{{4|}}}|, {{Infobox/Asset/Author|{{{3|}}}}}, e altri {{{4}}}|, e {{Infobox/Asset/Author|{{{3|}}}}}}}|}}</includeonly><noinclude>
+=== Un autore ===
+{{Infobox/Asset/Authors|Tupper}}
+
+===Due autori ===
+{{Infobox/Asset/Authors|Tupper|VRCat}}
+
+=== Tre autori ===
+{{Infobox/Asset/Authors|Tupper|VRCat|VRRat}}
+
+=== I tre autori con il conteggio ===
+{{Infobox/Asset/Authors|Tupper|VRCat|VRRat|14}}
+</noinclude>

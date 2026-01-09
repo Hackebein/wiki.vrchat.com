@@ -1,0 +1,8 @@
+<onlyinclude>{{#switch: {{{1|windows}}}
+ |windows = [[File:PlatformIndicator_Windows.png|alt=|{{{2|32}}}px|link=||top]]
+ |android = [[File:PlatformIndicator_Android.png|alt=|{{{2|32}}}px|link=|top]]
+ |ios = [[File:PlatformIndicator_Apple.png|alt=|{{{2|32}}}px|link=|top]]
+ |crossplatform = [[File:PlatformIndicator_CrossPlatform.png|alt=|{{{2|32}}}px|link=|middle]]
+}}</onlyinclude>
+<noinclude>{{Documentation}}[[Category:Templates{{#translation:}}]] [[Category:Templates/inline icons{{#translation:}}]]
+</noinclude>

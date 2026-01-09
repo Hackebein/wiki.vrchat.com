@@ -1,0 +1,226 @@
+(() => {
+	var e = Object.defineProperty;
+	var __esmMin = (e, t) => () => (e && (t = e(e = 0)), t);
+	var __export = (t, n) => {
+		let r = {};
+		for (var i in t) e(r, i, {
+			get: t[i],
+			enumerable: !0
+		});
+		n && e(r, Symbol.toStringTag, { value: "Module" });
+		return r;
+	};
+	function isPage(e) {
+		let [t, n] = mw.config.get("wgPageName").split("/");
+		if (!t || !e.includes(t)) return !1;
+		if (n && mw.config.get("wgPageContentLanguage") !== n) return !1;
+		return !0;
+	}
+	document.querySelectorAll(".spoiler").forEach((e) => {
+		let t = e.querySelector(".spoiler-overlay");
+		t == null || t.addEventListener("click", () => {
+			e.dataset.open = "";
+		});
+	});
+	function _objectWithoutPropertiesLoose(e, t) {
+		if (e == null) return {};
+		var n = {};
+		for (var r in e) if ({}.hasOwnProperty.call(e, r)) {
+			if (t.includes(r)) continue;
+			n[r] = e[r];
+		}
+		return n;
+	}
+	function _objectWithoutProperties(e, t) {
+		if (e == null) return {};
+		var n, r, i = _objectWithoutPropertiesLoose(e, t);
+		if (Object.getOwnPropertySymbols) {
+			var a = Object.getOwnPropertySymbols(e);
+			for (r = 0; r < a.length; r++) n = a[r], t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (i[n] = e[n]);
+		}
+		return i;
+	}
+	var t = ["videoId"];
+	document.querySelectorAll(".youtube").forEach((e) => {
+		let n = e.dataset, { videoId: r } = n, i = _objectWithoutProperties(n, t);
+		let a = document.createElement("iframe");
+		a.setAttribute("width", "560");
+		a.setAttribute("height", "315");
+		a.setAttribute("frameborder", "0");
+		a.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+		a.setAttribute("allowfullscreen", "true");
+		a.setAttribute("allow", [
+			"accelerometer",
+			"autoplay",
+			"clipboard-write",
+			"encrypted-media",
+			"gyroscope",
+			"picture-in-picture",
+			"web-share"
+		].join("; "));
+		for (let e in i) {
+			let t = i[e];
+			if (!t) continue;
+			a.setAttribute(e, t);
+		}
+		a.setAttribute("style", e.getAttribute("style") || "");
+		a.src = `https://www.youtube-nocookie.com/embed/${r}?rel=0`;
+		e.replaceWith(a);
+	});
+	let __vitePreload = function(e, t, n) {
+		let r = Promise.resolve();
+		function handlePreloadError(e) {
+			let t = new Event("vite:preloadError", { cancelable: !0 });
+			t.payload = e;
+			window.dispatchEvent(t);
+			if (!t.defaultPrevented) throw e;
+		}
+		return r.then((t) => {
+			for (let e of t || []) {
+				if (e.status !== "rejected") continue;
+				handlePreloadError(e.reason);
+			}
+			return e().catch(handlePreloadError);
+		});
+	};
+	function getArticleFromElement(e) {
+		let { articleId: t, articleTitle: n, articleContent: r } = e.dataset;
+		if (!t || !n || !r) return null;
+		return {
+			id: t,
+			title: n,
+			content: atob(r)
+		};
+	}
+	var ArticleDialog;
+	var n = __esmMin((() => {
+		ArticleDialog = class extends OO.ui.ProcessDialog {
+			constructor(e) {
+				super({
+					size: "large",
+					data: { title: e.title }
+				});
+				this.article = e;
+			}
+			initialize() {
+				super.initialize();
+				let e = new OO.ui.PanelLayout({
+					expanded: !1,
+					padded: !0,
+					scrollable: !0
+				});
+				e.$element.append(this.article.content);
+				this.$body.append(e.$element);
+				return this;
+			}
+			getActionProcess(e) {
+				switch (e) {
+					case "close": return new OO.ui.Process(() => {
+						this.close({ action: "close" });
+					});
+				}
+				return super.getActionProcess(e);
+			}
+		};
+		ArticleDialog.static.name = ArticleDialog.name;
+		ArticleDialog.static.actions = [{
+			action: "close",
+			flags: "safe",
+			icon: "close",
+			label: "Close"
+		}];
+	}));
+	var r = __esmMin((() => {}));
+	function asyncGeneratorStep(e, t, n, r, i, a, o) {
+		try {
+			var s = e[a](o), c = s.value;
+		} catch (e) {
+			n(e);
+			return;
+		}
+		s.done ? t(c) : Promise.resolve(c).then(r, i);
+	}
+	function _asyncToGenerator(e) {
+		return function() {
+			var t = this, n = arguments;
+			return new Promise(function(r, i) {
+				var a = e.apply(t, n);
+				function _next(e) {
+					asyncGeneratorStep(a, r, i, _next, _throw, "next", e);
+				}
+				function _throw(e) {
+					asyncGeneratorStep(a, r, i, _next, _throw, "throw", e);
+				}
+				_next(void 0);
+			});
+		};
+	}
+	var i = __esmMin((() => {}));
+	var a = /* @__PURE__ */ __export({}, 1);
+	var o, s;
+	var c = __esmMin((() => {
+		n();
+		r();
+		i();
+		o = document.querySelectorAll(".tpl-infopush");
+		s = new OO.ui.WindowManager();
+		$(document.body).append(s.$element);
+		for (let e of o) {
+			let t = e.querySelector(".tpl-infopush-content");
+			let n = t.querySelectorAll(".tpl-infopush-item");
+			let r = n.length;
+			for (let e of n) {
+				if (e.querySelector("a")) continue;
+				let t = getArticleFromElement(e);
+				if (!t) continue;
+				e.style.cursor = "pointer";
+				e.addEventListener("click", _asyncToGenerator(function* () {
+					if (!(yield s.getWindow(t.id).then(() => !0).catch(() => !1))) {
+						let e = new ArticleDialog(t);
+						s.addWindows({ [t.id]: e });
+					}
+					yield s.openWindow(t.id).opening;
+				}));
+			}
+			let i = e.querySelector(".tpl-infopush-navigation");
+			let a = 0;
+			function showSlide(e) {
+				a = (e + r) % r;
+				t.style.transform = `translateX(-${a * 100}%)`;
+			}
+			let o;
+			function resetAutoAdvance() {
+				o && clearInterval(o);
+				o = setInterval(() => {
+					showSlide(a + 1);
+				}, 5e3);
+			}
+			i.querySelector(".tpl-infopush-navigation-previous").addEventListener("click", () => {
+				showSlide(a - 1);
+				resetAutoAdvance();
+			});
+			i.querySelector(".tpl-infopush-navigation-next").addEventListener("click", () => {
+				showSlide(a + 1);
+				resetAutoAdvance();
+			});
+			resetAutoAdvance();
+			showSlide(0);
+		}
+	}));
+	isPage(["Template:MainPageInfopush", "Main_Page"]) && mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).then(() => __vitePreload(() => Promise.resolve().then(() => (c(), a)), void 0, {}.url));
+	var l = document.createElement("script");
+	l.setAttribute("defer", "defer");
+	l.setAttribute("data-domain", "wiki.vrchat.com");
+	l.setAttribute("event-page-name", mw.config.get("wgTitle"));
+	l.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
+	var u = mw.config.get("wgFormattedNamespaces");
+	l.setAttribute("event-page-namespace", u[mw.config.get("wgNamespaceNumber")]);
+	l.setAttribute("event-theme", mw.config.get("skin"));
+	l.setAttribute("event-action", mw.config.get("wgAction"));
+	l.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
+	var d = mw.config.get("wgUserGroups");
+	var f = d.includes("community-mod") || d.includes("moderator") || d.includes("sysop");
+	l.setAttribute("event-is-maintainer", String(f));
+	l.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
+	document.head.appendChild(l);
+})();

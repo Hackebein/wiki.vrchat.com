@@ -1,0 +1,72 @@
+<languages/>
+{{Noticebox/Official}}
+{{Thumb|{{YouTube|ReZ1wfI3P-8}}}}
+
+Cet article explique le processus de '''liaison''' d'un compte de plateforme existant à un [[Special:MyLanguage/VRChat account|compte VRChat]] régulier. 
+
+Les comptes de plateforme incluent les comptes préexistants sur les appareils suivants : 
+
+* Steam
+* Meta
+* PICO
+* Viveport
+* Google
+* Discord
+
+== Avantages d'un compte VRChat complet ==
+Un compte VRChat complet permet aux utilisateurs de :
+* Gagner des [[Special:MyLanguage/Trust Ranks|niveaux de confiance]]
+* Conserver la simplicité des connexions en un clic
+* Postuler pour s'inscrire au programme [[Special:MyLanguage/Creator Economy|Économie des créateurs]]
+* Changer leur pseudo
+** Supprime le code généré à quatre chiffres '[[wikipedia:Discriminator|discriminateur]]' à la fin de leur pseudo
+* Accéder à la connexion
+** {{VRC link|https://vrchat.com/home|Site Web VRChat}}
+** [[Special:MyLanguage/VRChat SDK|SDK VRChat]]
+* Obtenir l'autorisation d'accès sur les plateformes avec SSO VRChat
+** {{VRC link|https://wiki.vrchat.com/|Wiki VRChat}}
+** {{VRC link|https://feedback.vrchat.com/|Tableau de feedback VRChat}}
+** [https://ask.vrchat.com/|Forums VRChat Ask]
+** Vendeurs tiers utilisant le SSO VRChat
+
+== Points à considérer avant la liaison ==  
+=== Limite de favoris ===  
+Lors de la fusion, si le nombre total de favoris des deux comptes dépasse la limite maximale autorisée par la plateforme, les utilisateurs peuvent conserver plus de favoris que normalement permis. Cependant, pour ajouter de nouveaux favoris, ils devront supprimer des favoris existants afin de respecter la limite. Il est généralement conseillé de lier un compte vierge.
+
+=== Restrictions d'achat ===  
+Les utilisateurs ayant effectué des achats via l'[[Special:MyLanguage/Creator Economy|Économie des créateurs]] sur n'importe quelle plateforme (Steam, Meta, Pico, Viveport, Google) ne peuvent pas lier leurs comptes à un compte VRChat complet. Cette restriction est temporaire et devrait être levée prochainement.
+
+== Processus de liaison ==
+[[File:MainMenuLinkAccountButton.png|alt=Une capture d'écran du menu VRChat avec un bouton "Lier le compte" visible.|thumb|Menu avec le bouton "Lier le compte".]]
+Pour fusionner un compte de plateforme avec un compte VRChat complet, suivez ces étapes :
+# Connectez-vous au compte Steam, Meta, Pico, Google ou Viveport que vous souhaitez lier.
+# Ouvrez le menu principal dans VRChat.
+# Accédez à '''Paramètres'''.
+# Localisez et cliquez sur le bouton '''Lier le compte''' en dessous de l'option Quitter.
+#* Si le bouton '''Lier le compte''' n'est pas visible, vous êtes probablement déjà connecté à un compte VRChat complet.
+# Suivez les instructions à l'écran pour lier votre compte.
+Si vous rencontrez toujours des difficultés pour lier votre compte, contactez l'assistance VRChat à {{VRC link|https://vrch.at/support|Assistance VRChat}}.
+
+== Post-liaison ==
+La liaison est permanente et irréversible. Chaque compte VRChat complet peut être lié simultanément à un compte de chaque plateforme prise en charge. La fusion complète des données de compte peut prendre jusqu'à un jour. En cas de problème pendant ou après le processus, contactez l'assistance VRChat à {{VRC link|https://vrch.at/support|Assistance VRChat}}.
+
+== Liaison de comptes Discord ==
+[[File:VRC_Discordaccountlink.webp|thumb|Démonstration d'un élement de l'interface montrant qu'un utilisateur peut lier Discord à son compte VRChat.]] [[File:VRC_loginscreenDiscord.webp|thumb|Menu de connexion de VRChat montrant la possibilité de se connecter avec Discord.]]
+Le 25 septembre 2025, <ref>[https://ask.vrchat.com/t/developer-update-25-september-2025 "Developer Update - September 25, 2025"] on ''[https://hello.vrchat.com/blog VRChat's Blog]'' at ''[[hello.vrchat.com]]''. Dated September 25, 2025. Retrieved September 25, 2025.</ref>, une [[mise à jour des développeurs]] manifeste la future capacité à pouvoir lier un compte VRChat et Discord ensemble. Les utilisateurs auront aussi la capacité de créer un [[compte VRChat]] plateforme, et auront la possibilité de s'y connecter via Discord. Les utilisateurs pourront de plus délier leurs comptes à n'importe quel moment, que ce soit via Discord ou VRChat.
+
+Depuis le 16 octobre 2025, la [[bêta ouverte]] [https://docs.vrchat.com/docs/vrchat-202541-openbeta 2025.4.1] a introduit la possibilité de se connecter dans VRChat en utilisant Discord, ainsi qu'y lier son compte
+
+== Ressources officielles ==
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/360062659053-I-want-to-turn-my-platform-account-through-Steam-Meta-Pico-or-Viveport-into-a-VRChat-account|"Je veux transformer mon compte de plateforme Steam, Meta, Pico ou Viveport en un compte VRChat"}} sur ''help.vrchat.com''
+* {{VRC link|https://vrch.at/support|Support VRChat}}
+
+<span id="See_also"></span>
+==À voir aussi==
+
+* [[Special:MyLanguage/VRChat account|Compte VRChat]]
+* [[Special:MyLanguage/Getting Started|Premiers pas]]
+
+==Références==
+<references/>
+{{Start-navbox}}
+[[Category:Guides{{#translation:}}]]

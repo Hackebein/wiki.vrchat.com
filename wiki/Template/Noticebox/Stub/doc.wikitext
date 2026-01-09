@@ -1,0 +1,29 @@
+== Documentation ==
+This is to be used when a page is a stub and needs more additions.
+=== Example Usage ===
+<nowiki>{{Stub|Some sections are missing content}}</nowiki>
+
+will make:
+{{Stub|Some sections are missing content}}
+
+=== Template parameters ===
+{| class="wikitable"
+|-
+! Name !! Variable !! Description
+|-
+| Reason || <code>1</code>|| Gives the reason as to why the page is considered a stub.
+|}
+<noinclude>[[Category:Template Documentation]]</noinclude>
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Reason",
+			"description": "Why is this page a stub?",
+			"type": "string",
+			"suggested": true
+		}
+	},
+	"description": "When a page needs more information"
+}
+</templatedata>

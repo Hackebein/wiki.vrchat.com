@@ -1,0 +1,47 @@
+<noinclude><languages/></noinclude>
+<onlyinclude>
+<infobox type="event" theme="community">
+	<title source="name"/>
+    <image source="image"/>
+    <group>
+    	<data source="event">
+        	<label><translate><!--T:1--> Event</translate></label>
+            <format>[[{{{event}}}]]{{If not template|[[Category:{{{event}}} Events{{#translation:}}]]}}</format>
+        </data>
+        <data source="organizer">
+        	<label><translate><!--T:2--> Organizer</translate></label>
+            <format>[[{{{organizer}}}]]{{If not template|[[Category:Events by {{{organizer}}}{{#translation:}}]]}}</format>
+        </data>
+    	<data source="start">
+        	<label><translate><!--T:3--> Start date</translate></label>
+            <format><translate><!--T:4--> {{#timel:F d, Y|<tvar name="date">{{{start}}}</tvar>}}</translate></format>
+        </data>
+    	<data source="end">
+        	<label><translate><!--T:5--> End date</translate></label>
+            <format><translate><!--T:6--> {{#timel:F d, Y|<tvar name="date">{{{end}}}</tvar>}}</translate></format>
+        </data>
+    </group>
+	<group layout="horizontal">
+    	<header><translate><!--T:7--> Chronology</translate></header>
+    	<data source="previous">
+        	<label><span style="text-align: left; width: 100%; display: block">[[File:Icons_Arrow_Left.png|frameless|12px|link=]] <translate><!--T:8--> Previous event</translate></span></label>
+        	<format><span style="text-align: left; width: 100%; display: block">[[Special:MyLanguage/{{{previous}}}|{{{previous}}}]]</span></format>
+		</data>
+        <data source="next">
+        	<label><span style="text-align: right; width: 100%; display: block"><translate><!--T:9--> Next event</translate> [[File:Icons_Arrow_Right.png|frameless|12px|link=]]</span></label>
+        	<format><span style="text-align: right; width: 100%; display: block">[[Special:MyLanguage/{{{next}}}|{{{next}}}]]</span></format>
+		</data>
+    </group>
+</infobox>{{If not template|[[Category:Events]]}}
+</onlyinclude>
+{{Infobox/Event
+|name=[[Spookality]] 2024
+|image=[[Spookality_2024_BlogHeader.png]]
+|event=Spookality
+|organizer=VRChat
+|start=October 1, 2024
+|end=October 14, 2024
+|winners_announced=October 21, 2024
+|previous=Spookality 2023
+|next=Spookality 2025}}
+<noinclude>

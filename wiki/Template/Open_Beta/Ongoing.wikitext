@@ -1,0 +1,14 @@
+{{#if: {{Template:Version|open-beta}}
+ | {{#if: {{Template:Version|creator-companion-beta}}
+     | There is currently ongoing open betas: <!-- both true -->
+*[{{Version/href|open-beta}} VRChat {{Version|open-beta}}]
+*[{{Version/href|creator-companion-beta}} Creator Companion {{Version|creator-companion-beta}}]
+     | There is currently an ongoing open beta: <!-- open beta true, cc false -->
+*[{{Version/href|open-beta}} VRChat {{Version|open-beta}}]
+   }}
+ | {{#if: {{Template:Version|creator-companion-beta}}
+     | There is currently an ongoing open beta: <!-- open beta false, cc true -->
+*[{{Version/href|creator-companion-beta}} Creator Companion {{Version|creator-companion-beta}}]
+     | There is currently no ongoing open beta. <!-- both false -->
+   }}
+}}

@@ -1,0 +1,9 @@
+== Documentation ==
+This template is used to denote when the contents of a page or section is outdated and needs updating.<br>
+
+<code><nowiki>{{type=}}</nowiki></code> is used to change the type of area that needs updating (page/section, etc.)
+
+=== Example Usage ===
+* <code><nowiki>{{Noticebox/Update|type=page}}</nowiki></code>
+* <code><nowiki>{{Noticebox/Update|type=section|Images are out of date.}}</nowiki></code>
+<noinclude>[[Category:Template Documentation]]</noinclude>

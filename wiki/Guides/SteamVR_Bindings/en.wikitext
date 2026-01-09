@@ -1,0 +1,966 @@
+{{Noticebox/Community}}
+{{Stub|Need input from more popular controller types}}SteamVR input is a universal keybind system for all [[Special:MyLanguage/Controls|controllers]] usable in SteamVR. Instead of binding keys like "space" to jump, VR game developers provide '''actions''' we can directly bind to '''inputs''' on SteamVR controllers. The UI also provides a way for users to find or share community bindings. <ref name=":0">https://github.com/OpenVR-Advanced-Settings/OpenVR-AdvancedSettings/blob/master/docs/SteamVRInputGuide.md</ref> 
+
+* [https://docs.vrchat.com/docs/steamvr-input-20 Official VRChat SteamVR Input 2.0 documentation]<ref>https://docs.vrchat.com/docs/steamvr-input-20</ref>
+* [https://docs.vrchat.com/docs/input-20-faq Official VRChat SteamVR input 2.0 FAQ]<ref>https://docs.vrchat.com/docs/input-20-faq</ref>
+
+==Where==
+
+===Standard method===
+
+#Open SteamVR
+#Find '''Settings'''
+#Select '''Controllers'''
+#Set '''Advanced Setting''' to '''Show'''
+#Select '''Show Binding UI'''
+#Select '''VRChat''' from the list of applications
+
+[[File:SteamVR Input - Accessing VRChat Bindings.png]]
+
+===Via web browser ===
+
+#Go to http://localhost:27062/dashboard/controllerbinding.html while S'''teamVR is running'''
+#Select '''<code>VRChat</code>''' from the list of applications
+
+===Via VRChat===
+
+#Open the main menu
+# Navigate to [[Settings]]
+#Go to [[Settings#Controls|Controls]]
+#Select '''<code>Open SteamVR Input Bindings Panel</code>'''
+
+==Glossary==
+{| class="wikitable"
+!Terms
+!Explanation
+|-
+|Bindings
+|A complete set of bindings between inputs and actions that can be saved and shared in the Steam Workshop.
+|-
+|Action
+|Behavior that can be bound to inputs or chords, like movement, selection, or bringing up the camera or personal mirror. 
+|-
+|Action set
+|A group of actions that corresponds to a specific context, like using the menu or action menu, or global actions that are available in any context.
+|-
+|Control source
+|A specific '''physical''' actuator on a controller, like a joystick, trigger, button, or trackpad.
+|-
+|Control source mode
+''(Use control as)''
+|A mapping that defines how a control source's movements or sensors are interpreted as inputs. 
+For example, a trackpad can be mapped as dpad or a button, and a joystick can be mapped as joystick or scroll wheel. 
+|-
+|Input
+
+|A specific movement or sensor reading from a control, interpreted through a control source mode. 
+For example, a button's control source mode might provide touch, press, hold, or double-press inputs. 
+|-
+|Chords
+|Bindings that combine two or more inputs to execute one action
+|}
+<sup>Mostly from the [https://docs.vrchat.com/docs/steamvr-input-20#bindings-glossary official docs] but with some edits for clarity.</sup>
+
+===Control Source Modes===
+{| class="wikitable mw-collapsible mw-collapsed"
+!Control Source Mode
+! Provided Inputs
+|-
+|Button
+|Touches, Clicks, Holds, Double clicks, and Long presses
+|-
+|Trigger
+|Touch (or any press), Click if there is a physical click at the end of the trigger, and the ammount (0-1) the trigger is depressed)
+|-
+|Joystick
+|XY Positioning, touches, and presses 
+|-
+|Trackpad
+|XY Positioning, touches, and presses 
+|-
+|DPAD
+|Splits the the XY control source into North, East, South, and West quadrants. Can be used in touch or click mode.
+|-
+|Grab
+|Combines capacitive sensors and force sensors to report a more reliable grab
+|-
+|Force Sensor
+|Gives analog actions a 0-1 value indicating how much force the user is applying to the control
+
+|-
+| Set analog Action
+|Allows you to use a digital (on/off) control to a set an analog (0-1) value
+|-
+|Toggle Button
+|One press for on, one press for off
+|-
+|Radial Menu
+| (?)
+|}
+
+===Input Methods===
+{| class="wikitable mw-collapsible mw-collapsed"
+!Input
+!Usage
+!Types
+!Control Source
+|-
+|Click
+|Pressing the control
+|boolean
+|Any
+|-
+|Touch
+|Touching the assigned control (If it has a touch sensor)
+|boolean
+|Any
+|-
+|Single
+|Pressing the control once
+| boolean
+|Button
+|-
+|Double
+|A quick double press of the control 
+|boolean
+|Button
+|-
+|Long
+|Hold the control for 0.5 seconds (?)
+|boolean
+|Button
+|-
+|Held
+|Sets the action to true while the button is held after the long duration.
+|boolean
+|Button
+|-
+|Pull
+|Value 0-1 representing what percentage the trigger is depressed
+|vector1
+|Trigger
+|-
+|Position
+|The position you are touching on a touchpad or the position you've pushed a joystick to.
+|vector2
+|Trackpad / Joystick
+|}
+
+===Actions===
+Every bindable Action for SteamVR controllers in VRChat. Found in <code>VRChat\VRChat_Data\StreamingAssets\SteamVR\actions.json</code> (Descriptions are community created)
+{| class="wikitable mw-collapsible mw-collapsed"
+!Action
+!Action Set
+!Description
+!Type
+!Requirement
+|-
+|Menu
+|Global, 1H
+|Dual purpose. One activation opens quick menu. Holding it opens the action menu. Double press opens the main menu (If enabled)
+|boolean
+|suggested
+|-
+|Main Menu
+| Global
+|[[Main Menu|Opens the Main Menu]]
+|boolean
+|optional
+|-
+|Quick Menu
+| Global
+|[[Quick Menu|Opens the Quick Menu]]
+|boolean
+|optional
+|-
+|Action Menu
+| Global
+|[[Action Menu|Opens the Action Menu]]
+|boolean
+|optional
+|-
+|Interact
+|Global, 1H
+|Interact with world objects and poses physbones
+|boolean
+|suggested
+|-
+|Grab
+|Global, 1H
+|Picks up grabbable world objects
+|boolean
+|suggested
+|-
+|Drop
+|Global, 1H
+|Drops held item. Enables Auto Hold. (Prevents item drop unless triggered)
+|boolean
+|optional
+|-
+|Move
+|Global, 1H
+|Player movement
+|vector2
+|
+|-
+|Jump
+|Global, 1H
+|Jump!
+
+|boolean
+|
+|-
+|Rotate
+|Global
+|Player rotation
+|vector2
+|
+|-
+! colspan="2" |Advanced Controls
+! colspan="3" |Alternative movement for touchpads that share the Gesture Wheel
+|-
+|Start Move (Advanced)
+|Global
+|When this is clicked, begin moving.
+|boolean
+|optional
+|-
+|Start Rotate (Advanced)
+|Global
+|When this is clicked, begin rotating
+|boolean
+|optional
+|-
+|Continue Move (Advanced)
+|Global
+|If Start move is released, as long as this is active, movement will continue.
+|boolean
+|optional
+|-
+|Continue Rotate (Advanced)
+|Global
+|If Start rotate is released, as long as this is active, rotation will continue.
+|boolean
+|optional
+|-
+|No Gesture After Move
+| Global
+|Prevents Gesture Wheel touches after Start move click is released
+|boolean
+|optional
+|-
+|No Gesture After Rotate
+|Global
+|Prevents Gestures Wheel touches after Start rotate click is released
+|boolean
+|optional
+|-
+|Physbone Grab (Left/Right)
+|Global
+|When bound, Grab will no longer hold Physbones and this will instead.
+|boolean
+|optional
+|-
+|Physbone Freeze (Left/Right)
+|Global
+|When bound, Interact will no longer pose Physbones and this will instead.
+|boolean
+|optional
+|-
+! colspan="2" |Miscellaneous
+! colspan="3" |Other optional functionalities
+|-
+|Toggle Microphone
+|Global, 1H
+|Toggles [[Microphone]]
+|boolean
+|optional
+|-
+|Gesture Toggle
+|Global, 1H
+|Toggles [[Gestures]]
+|boolean
+|optional
+|-
+|Activate Safe Mode
+| Global
+|Activates [[Main Menu#Safety|Safe mode]]
+|boolean
+|suggested
+|-
+|Toggle HUD
+|Global, 1H
+|Toggles [[HUD]] 
+|boolean
+|optional
+|-
+|Cycle Nameplate Mode
+|Global, 1H
+|Cycles through [[Nameplates#Nameplate element visibility|Nameplates Modes]] 
+|boolean
+|optional
+|-
+|Open Chatbox 
+|Global, 1H
+|Opens [[Chatbox]]
+|boolean
+|optional
+|-
+|Open Camera
+|Global, 1H
+|Toggles [[Camera]]
+|boolean
+|optional
+|-
+|Open Stream Camera
+|Global, 1H
+|Toggles [[Camera#Types|Stream Camera]]
+|
+|
+|-
+|Toggle Earmuffs
+|Global, 1H
+|Toggles [[Earmuff Mode|Earmuffs]]
+|boolean
+|optional
+|-
+|Proximity Sensor 
+|Global
+|When active, trigger AFK in VRChat
+|boolean
+|optional
+|-
+|Toggle Personal Mirror
+|Global
+|Toggles [[Mirrors#Personal Mirror|Personal Mirror]]
+|boolean
+|optional
+|-
+|Toggle Personal Mirror Grabbing
+|Global
+|Toggles grabbing on [[Mirrors#Personal Mirror|Personal Mirror]]
+|boolean
+|optional
+|-
+|Toggle Face Mirror
+|Global, 1H
+|Toggles [[Mirrors|Face Mirror]]
+|boolean
+|optional
+|-
+|Confirm FBT Calibration
+|Global, 1H
+|If bound, replaces the default trigger press to lock FBT binding.
+|boolean
+|optional
+|-
+|Toggle Avatar Debug Screen
+|Global, 1H
+|Toggles [[Debug Menu|Avatar Debug Screen]]
+|boolean
+|optional
+|-
+|Toggle OSC Debug Screen" 
+|Global, 1H
+|Toggles [[Debug Menu|OSC Debug Console]]
+|boolean
+|optional
+|-
+|Disable Gesture Tracked 
+|Global, Action
+|Stops gestures via pose from running if bound.
+|boolean
+|optional
+|-
+! colspan="2" |One Handed (1H)
+! colspan="3" |Specifically for the one handed action set
+|-
+|Move & Rotate
+|One_Hand
+|Combined movement & rotation
+|vector2
+|suggested
+|-
+|Start Move & Rotate
+|One_Hand
+|When clicked begin Move & Rotate
+|boolean
+|optional
+|-
+|Continue Move & Rotate
+|One_Hand
+|When Start Move & Rotate released, continue as long as this is active.
+|boolean
+|optional
+|-
+|No Gesture After Move & Rotate
+|One_Hand
+|Prevents gestures afterMove & Rotate is released
+|boolean
+|optional
+|-
+! colspan="2" |Drone
+! colspan="3" |For the [[Camera Drone|VRC Camera Drone]]
+|-
+|Drone Left Joystick Control
+|Drone
+|
+|vector2
+|suggested
+|-
+|Drone Right Joystick Control
+|Drone
+|
+|vector2
+|suggested
+|-
+|Self-Leveling Modifier
+|Drone
+|
+|boolean
+|optional
+|-
+|Hold Altitude Modifier
+|Drone
+|
+|boolean
+|optional
+|-
+|Toggle First-Person View
+|Drone
+|
+|boolean
+|optional
+|-
+|Flip Drone
+|Drone
+|
+|boolean
+|optional
+|-
+|Take Picture
+|Drone
+|
+|boolean
+|optional
+|-
+|Cycle Flight Preset
+|Drone
+|
+|boolean
+|optional
+|-
+|Toggle Self-Leveling
+|Drone
+|
+|boolean
+|optional
+|-
+|Respawn Drone
+|Drone
+|
+|boolean
+|optional
+|-
+|Select Micro Flight Preset
+|Drone
+|
+|boolean
+|optional
+|-
+|Select Cinematic Flight Preset
+|Drone
+|
+|boolean
+|optional
+|-
+|Select Racing Flight Preset
+|Drone
+|
+|boolean
+|optional
+|-
+|Select Freestyle Flight Preset
+|Drone
+|
+|boolean
+|optional
+|-
+! colspan="2" |Udon
+! colspan="3" |Actions usable by Udon worlds
+|-
+|Udon Menu
+| Global, 1H
+|Registerable by VRChat worlds with Udon.
+|boolean
+|optional
+|-
+|Udon Trigger Axis
+| Global, 1H
+|Registerable by VRChat worlds with Udon.
+|vector1
+|optional
+|-
+|Udon Grip Axis
+| Global, 1H
+|Registerable by VRChat worlds with Udon.
+|vector1
+|optional
+|-
+|Udon Stick Click
+|Global, 1H
+|Registerable by VRChat worlds with Udon.
+|boolean
+|optional
+|-
+! colspan="2" |Menu
+! colspan="3" |Specifically for the menu action set
+|-
+|Confirm
+|Menu
+|Clicks on menu items
+|boolean
+|suggested
+|-
+|Back
+|Menu
+|Returns to the previous page (or closes the menu?) 
+|boolean
+|optional
+|-
+|Tab
+|Menu
+|(?)
+|boolean
+|optional
+|-
+|Scroll
+|Menu
+|Scrolls in the menu
+| vector2
+|
+|-
+|Close Quick Menu
+| Menu
+| [[Quick Menu|Closes the Quick Menu]]
+|boolean
+|optional
+|-
+|Drag
+|Menu
+|(?)
+|boolean
+|optional
+|-
+! colspan="2" |Action Menu
+! colspan="3" |Specifically for the action menu action set
+|-
+|Axis
+|Action
+|Directional control in the action menu
+| vector2
+|suggested
+|-
+|Select
+|Action
+|Select hovering item in the action menu
+| boolean
+|
+|-
+! colspan="2" |(?)
+! colspan="3" |(?)
+|-
+|Pose Data
+| Global
+|The 6-DOF position and orientation of a device tracked device.
+|pose
+|
+|-
+|SkeletonLeftHand
+|Global
+| rowspan="2" |Used to retrieve bone transform data from the related controllers
+|skeleton
+|suggested
+|-
+|SkeletonRightHand
+|Global
+|skeleton
+|
+|-
+|Haptics
+|Global, 1H
+|Used to apply various haptics to the device. (Such as when hovering over menu elements or the personal mirror)
+|vibration
+|
+|-
+! colspan="2" |Gesture Activator (GA)
+! colspan="3" |Activators for (?)
+|-
+|GA (Thumb)
+|Global
+|
+|boolean
+|optional
+|-
+|GA (Thumb Inner-Upper)
+|Global
+|
+|boolean
+|optional
+|-
+|GA (Thumb, Inner-Lower)
+|Global
+|
+|boolean
+|optional
+|-
+|GA (Thumb, Outer)
+|Global
+|
+|boolean
+|optional
+|-
+|GA (Index Finger)
+|Global
+|
+|boolean
+|optional
+|-
+|GA (Grip)
+|Global
+|
+|boolean
+|optional
+|-
+|GA (Stick Deflection)
+|Global
+|
+|vector2
+|optional
+|-
+! colspan="2" |Gesture
+! colspan="3" |(?)
+|-
+|Gesture - Trigger Axis
+| Global
+|
+|vector1
+|optional
+|-
+|Gesture - Grip Axis
+| Global
+|
+|vector1
+|optional
+|-
+! colspan="2" |Use Gesture (UG)<!-- Prev Gesture Direct -->
+! colspan="3" |Used to directly set the integer values of [https://creators.vrchat.com/avatars/animator-parameters/#gestureleft-and-gestureright-values GestureLeft/GestureRight]
+|-
+|UG - Neutral (Left/Right)
+|Global
+|Sets Gesture(Left/Right) to <code>0 (Neutral)</code>
+|boolean
+|optional
+|-
+|UG - Fist (Left/Right)
+|Global
+|Sets Gesture(Left/Right) to <code>1 (Fist)</code>
+|boolean
+|optional
+|-
+|UG - Open (Left/Right)
+|Global
+|Sets Gesture(Left/Right) to <code>2 (HandOpen)</code>
+|boolean
+|optional
+|-
+|UG - Point (Left/Right)
+|Global
+|Sets Gesture(Left/Right) to <code>3 (FingerPoint)</code>
+|boolean
+|optional
+|-
+|UG - Peace (Left/Right)
+|Global
+|Sets Gesture(Left/Right) to <code>4 (Victory)</code>
+|boolean
+|optional
+|-
+|UG - Horns (Left/Right)
+|Global
+|Sets Gesture(Left/Right) to <code>5 (RockNRoll)</code>
+|boolean
+|optional
+|-
+|UG - Finger Gun (Left/Right)
+|Global
+|Sets Gesture(Left/Right) to <code>6 (HandGun)</code>
+|boolean
+|optional
+|-
+|UG - Thumbs Up (Left/Right)
+|Global
+|Sets Gesture(Left/Right) to <code>7 (Thumbsup)</code>
+|boolean
+|optional
+|-
+! colspan="2" |Gesture Wheel (GW)
+! colspan="3" |Gesture wheel of emotes based on pre-input 2.0 Vive touchpad Gesture control
+|-
+|GW (Left/Right)
+|Global, Act, 1H
+|The XY position of the gesture wheel
+|vector2
+|optional
+|-
+|GW Select (Left/Right)
+|Global, Act, 1H
+|Selects a gesture that will be released after activation stops
+|boolean
+|optional
+|-
+|GW Held (Left/Right)
+|Global, Act, 1H 
+|Selects a gesture that will remain after activation stops
+|boolean
+|optional
+|-
+|GW Direct (Left/Right)
+|Global, Act, 1H
+|(?)
+|boolean
+|optional
+|-
+|GW Direct Stay (Left/Right)
+|Global, Act, 1H
+|(?)
+|boolean
+|optional
+|-
+|GW Soft Select (Left/Right)
+|Global, Act, 1H 
+|Selects a gesture which can be used with Gesture wheel Weight
+|vector1
+|optional
+|-
+|GW Weight (Left/Right)
+|Global, Act, 1H
+|Analog driving value of the current gesture
+|vector1
+|optional
+|-
+|GW Cancel (Left/Right)
+|Global, Act, 1H
+|Sets the current gesture to <code>1 (Fist)</code> and <code>0 (neutral)</code> after release
+|boolean
+|optional
+|-
+|GW Cancel Open (Left/Right)
+|Global, Act, 1H
+|Sets the current gesture to <code>2 (HandOpen)</code> and <code>0 (neutral)</code> after release
+|boolean
+|optional
+|-
+|GW Disable Move (Left/Right)
+|Global, Act, 1H 
+|Disables gesture wheel while clicked (prevents emotes while walking)
+|boolean
+|optional
+|-
+|GW Disable Rotate (Left/Right)
+|Global, Act, 1H 
+|Disables gesture wheel while clicked (prevents emotes while rotating)
+|boolean
+|optional
+|-
+|________________________________
+|________________
+|
+|
+|
+|} 
+
+==Walkthroughs==
+These walkthroughs require you to navigate to the [[Guides:SteamVR_Bindings#Where|VRChat SteamVR Bindings page]].
+
+===Default Bindings===
+To reset your bindings to default, navigate to the [[Guides:SteamVR_Bindings#Where|VRChat SteamVR Bindings page]] and select <code>Activate</code> on the official Default Bindings available for your controller. 
+
+[[File:SteamVR Input - Default Bindings.png|1100x1100px]]
+
+===Binding editing page===
+Navigate to the [[Guides:SteamVR_Bindings#Where|VRChat SteamVR Bindings page]] and select <code>Edit</code> on the current Binding.
+
+[[File:SteamVR Input - Editing Bindings.png|950x950px]]
+
+===Changing input settings===
+Almost all inputs can be configured. Find the input you'd like to configure and hover over it, you'll see a pencil icon you can click. After clicking the pencil you'll find a cogwheel on the right side of the input which will bring up dialogue box with input settings.
+
+[[File:SteamVR Input - Accessing Input Settings.png|border|800x800px]]
+
+===Additional input methods===
+To use additional [[Guides:SteamVR Bindings|input methods]] such as double click, find the input you'd like to configure and hover over it to click the pencil icon for editing. Next click <code>More Options</code> and then you'll have access to additional input methods besides click. 
+
+[[File:SteamVR Input - Additional Input Methods.png|1180x1180px]]
+
+===Creating new inputs / Control sources ===
+On any of a controller's existing control sources, you can create new inputs with a specific [[Guides:SteamVR Bindings|control source modes]]. To do this, click the plus button to the right of any of the control sources and select a control source mode from the available list. 
+
+[[File:SteamVR Input - New Control Sources.png|1000x1000px]]
+
+===Creating Chords===
+<!-- Images needed + revisional or additional information need/wanted. -->First, ensure you selected the game or program you wish to edit the bindings of. To create a [[Guides:SteamVR Bindings#Glossary|chord]], select ''Chords'' -->  ''Add Chord. S''elect additional input(s) from the dropdown that you would like. These inputs must register at the same time for the output to work. After, select your output you desire.
+
+===Deadzones===
+To change the deadzones on control sources like Trackpads & Joysticks, open their [[Guides:SteamVR Bindings#Changing Input Settings|input settings]] and adjust the values to your liking. <code>DeadZone</code> is what you'd expect and <code>Max Zone Percentage</code> determines how far from the center of the control source is 100% value. 
+
+[[File:SteamVR Input - Deadzones.png|900x900px]] 
+
+<blockquote>
+====Curve Exponent====
+This exponent value is applied to change how speed scales on the final relative position between the Deadzone and Max Zone. <code>Speed = Value^<sup>Exponent</sup></code>
+
+[[File:SteamVR Input - Curve Exponent.png|400x400px]]
+</blockquote>
+
+===Trigger thresholds===
+TODO
+
+===Changing haptics ===
+Most control sources on the default bindings have an [[Guides:SteamVR Bindings#Changing Input Settings|input setting]] for <code>Haptic Amplitude</code>. To turn haptics off, you'll need to go through '''every''' control source [[Guides:SteamVR Bindings#Changing Input Settings|input setting]] on the controller and set <code>Haptic Amplitude</code> to '''0'''. Make sure to also check the control sources in other action sets besides global. If you want to remove the haptics upon hovering over menu items in VRChat, select the <code>Haptics</code> button in the center of the Global action set & change <code>Left/Right Hand Haptics</code> to '''Unused.'''
+
+===DPAD overlap percentage===
+TODO
+
+===Manual Binding export/import===
+Due to how Community Bindings sort by usage time, it can be difficult to share a newly created binding with others. Manual methods use a .json file for sharing. 
+<blockquote>
+====Export====
+#Navigate to [[Guides:SteamVR Bindings|bindings Editing page]] select <code>Export Binding File</code>
+#Navigate to <code>(Your Documents)\steamvr\input\exports</code> to find the .json file.
+#Share as needed!
+
+====Import====
+#Place the binding .json file in <code>(Your Documents)\steamvr\input\imports</code> <small>(create folder if it doesn't exist)</small>
+#Navigate to the [[Guides:SteamVR Bindings|Bindings config]] for the app the Binding is for. <small>(VRChat likely in this case)</small>
+#Select the binding from the list of <code>"Bindings in the documents directory"</code> <small>(You do not need to close SteamVR)</small>
+<blockquote>[[File:SteamVR Input - Importing Bindings.png|800x800px]]<br /></blockquote>
+</blockquote>
+==Don'ts==
+There's certain things you can do to bindings that can cause issues. Try to avoid them when possible
+
+===Multiple actions per control source===
+When you bind multiple actions like this, it stops them from functioning instantaneously and can make them unpredictable. <ref name=":0" />
+
+[[File:SteamVR Input - Multiple actions per controller.png|alt=Bad vs Good method for multiple actions via one control source|800x800px]]
+
+A functional use case would be setting '''action menu''' to <code>Single</code> and '''quick menu''' to <code>Double</code>; this will introduces a small delay after the <code>single</code> press input which can be interrupted by a <code>double</code> click to open the '''quick menu''' without accidentally opening the '''action menu'''.
+
+
+==Controller info & fixes ==
+
+===All controllers===
+Various fixes that are potentially globally applicable.
+<blockquote>
+
+====Can't do gestures at all====
+By default coming into the Input 2.0 update, gestures were set to disabled. You can enable them in them in the [[Action Menu]].
+<code>Path: [[Action Menu]] ➜ [[Action Menu|Options]] ➜ [[Action Menu|Avatar]] ➜ Gestures</code>
+<blockquote>TODO: GIF navigating to toggle in action menu</blockquote>
+
+====Double tap is opening the Main Menu====
+This feature was introduced with Input 2.0. You can disable it in the [[Settings#Controls|Controls]] section of the [[Main Menu]]
+
+====Disabling finger tracking====
+Skeletal based finger tracking is enabled by default for all controller types. You can disable it in the [[Settings#Controls|Controls]] section of the [[Main Menu]]
+
+====Reverting to old finger tracking====
+If you prefer the old finger tracking method, navigate to the [[Action Menu#Quick Actions|Quick Actions]] section of the [[Action Menu]] and enabling Legacy fingers. <sup>(per-avatar basis)</sup>
+
+<code>Path: [[Action Menu]] ➜ [[Expressions]] ➜ [[Action Menu|Quick Actions]] ➜ Legacy Fingers</code>
+<blockquote>TODO: GIF navigating to toggle in action menu
+</blockquote>
+
+====Explicit input Gestures only====
+On controllers with Gesture Activators, such as Index, Open hand is triggered by a lack of input. If you want to only do Explicit gesture inputs on these controllers, you'll need to add the <code>Disable Gesture Tracked</code> Action anywhere to your binds. It doesn't matter where.
+
+====Tracking breaking in SteamVR Dashboard====
+This is due to SteamVR Keyboard privacy introduced in [https://store.steampowered.com/news/app/250820/view/4371390626087848465 version 2.7] which stops applications from seeing device positions while the Steam keyboard is visible. In SteamVR settings, navigate to <code>Dashboard</code> and set <code>Keyboard Privacy</code> to '''Disabled.'''
+
+====Hard Bindings reset====
+In rare cases, a full hard reset of your Bindings for VRChat may help solve unknown issues. Navigating to <code>(username)/Documents/steamvr/input</code> and delete the <code>steam.app.438100_controlType.json</code> of the affected controller type. Restart VRChat to generate new files.  
+</blockquote>
+
+=== Vive Wands===
+<blockquote>
+
+====Advanced Controls====
+Under the Official Bindings for Vive Controllers you can choose between '''<code>Default Bindings</code>''' & '''<code>Default Advanced Bindings</code>.''' 
+
+Default Vive & Default Advanced Vive vary in gesture control & movement. In Advanced mode, you can click the trackpad to move then release click but continue touching the trackpad to continue moving. Advanced Vive also has a different way of handling gestures with support for soft gesture select behavior. 
+====No touch to move / Emotes are "sticky"====
+It's likely that you previously used Vive [[Guides:SteamVR Bindings|Advanced controls]] before Input 2.0. Try switching.
+
+====Difficulty moving ====
+The default thresholds for movement on Vive controllers require you to hit the edges of the touchpad. You can adjust the trackpad [[Guides:SteamVR Bindings#Deadzones|Deadzones]] to change this.
+====Accidental jumping ====
+With a mix of adjustments to [[Guides:SteamVR Bindings|Overlap percentage]] & [[Guides:SteamVR Bindings#Deadzones|Deadzones]] on the Trackpad DPADs, you can restore the pre-Input 2.0 zone for jumping.
+====Restore posing with grip / Can't pickup Physbones====
+At time of writing (8/30/24) Physbone posing is part to the <code>interact</code> action and there's is no way to restore pre-input 2.0 functionality of pose via Grip without sacrificing other functionalities. You may be dropping Physbones at the moment because fully pulling the trigger activates the <code>interact</code> action, posing the physbone (or dropping it if posing is disabled) 
+<blockquote>[https://feedback.vrchat.com/open-beta/p/1501-vive-controllers-unwanted-gesture-behavior-in-action-menu Related Canny]</blockquote>(Fixed in Open beta 1647, remove above content when it moves live)
+
+You're likely using an old Vive wand binding.  You may reset your bindings to the default or manually add <code>Physbone Grab</code> and <code>Physbone Freeze</code> bindings.
+
+====Unwanted Action Menu gestures====
+This is because the Action Menu action set is a copy of the Global action set. If you wish to keep Fist/Open hand functional but prevent the trackpad from firing emotes, you can migrate the actions of <code>Gesture Wheel - Disable Move</code> And <code>Gesture Wheel - Disable Rotate</code> to Touch on their respective Buttons instead of Click. If you want to disable ALL gestures (including fist/open hand) while the action menu is open, you can delete all Gesture Wheel actions from the Action menu action set all together. 
+<blockquote>[https://feedback.vrchat.com/open-beta/p/1501-vive-controllers-unwanted-gesture-behavior-in-action-menu Related Canny]</blockquote>
+
+====Grip isn't doing hand open / Isn't clearing gestures====
+You're likely missing the <code>Gesture Wheel Cancel Open (Left/Right)</code> actions on your grips as a Button clicks.
+</blockquote>
+
+
+===Index===
+<blockquote>
+====Easier object holding ====
+To make it easier to grab and or harder to drop, find the `Grip` Control Source then look for `Grab` & [[Guides:SteamVR Bindings|adjust the input settings]]. Increasing the Grab Threshold will increase the amount of force you must apply to initially pick up the object and the Release Threshold will change the amount of force it must be less than to drop.
+
+====Explicit object dropping====
+To only drop objects with a specific button add the `Drop` action as an input.
+
+====Disabling pose gestures====
+Add the <code>Disable Gesture Tracked</code> action anywhere controller to disable all skeletal hand pose gestures.   
+
+==== Viveified gestures====
+Using the Touchpad of Index Controllers for gestures like Vive is possible with SteamVR bindings. 
+
+You'll need to migrate over all of the actions and buttons from Vive's setup to Index and add the <code>Disable Gesture Tracked</code> function. [https://github.com/ZenithVal/SteamVR-Bindings/blob/main/VRChat/VRChat_Index%20-%20Viveified.json Binding File via Github]. (See install guide)
+
+==== Stick drift mitigations====
+If you're struggling with stick drift, adjusting the [[Guides:SteamVR Bindings#Deadzones|Deadzones]] of your joysticks may improve your experience.
+<blockquote>
+{| class="wikitable"
+|+ Recommended Values<ref>[https://x.com/SalbugVR/status/1945611969718853905 https://twitter.com/SalbugVR/status/1945611969718853905]</ref>
+|-
+! Setting !! Value
+|-
+| DeadZone || 25
+|-
+| Max Zone || 90
+|-
+| Curve Exponent || 1.25
+|}
+</blockquote>
+
+</blockquote>
+
+===HP Reverb G2===
+<blockquote>TODO: More controller types.</blockquote>
+
+== See also ==
+
+* [[Special:MyLanguage/Controls|Controls]]
+
+==References==
+<references />
+[[Category:Guides]]

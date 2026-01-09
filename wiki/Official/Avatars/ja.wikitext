@@ -1,0 +1,74 @@
+<languages/>
+{{Noticebox/Official}}
+アバターは、[[Special:MyLanguage/VRChat|VRChat]] 内でユーザーを表すモデルとして機能し、ユーザーがVR環境内で交流して、自分自身を表現するための主な手段である。アバターを通じて、ユーザーは自分の個性を投影し、[[Special:MyLanguage/Worlds|ワールド]]で交流したり、創造的で没入感のある方法で新しいアイデンティティを探求したりすることができる。アバターには様々な形や大きさがあり、VRChat のコミュニティはそれぞれ独自のスタイルと美学を持つ多種多様なアバターを開発してきた。どのアバターが自分に最も合うかを決めるか、[[Special:MyLanguage/VRChat SDK|VRChat SDK]] を使用して独自のアバターを作成するかは、ユーザー自身の好み次第である。
+
+== アバターの変更 ==
+VRChatに初めて参加したユーザーのアバターは、デフォルトの[[Special:MyLanguage/Robot|ロボット]]アバターとなっている。また、VRChat公式のアバターもいくつか用意されていて、さまざまなキャラクターを選択できる。ただし、これらは、利用可能なアバターのほんの一部であり、ユーザーはさまざまな方法でアバターを変えることができる。
+
+=== 特集リスト ===
+VRChat には、パフォーマンスが最適化され、様々なスタイルや好みに対応できるようにデザインされた、厳選された[[Special:MyLanguage/Public Avatars|パブリックアバター]]のリストがある。
+
+[[Special:MyLanguage/Main Menu|メインメニュー]]内の「アバター」メニューに移動して、「パブリック」または「レガシー」のいずれかのリストから、いつでもパブリックアバターを見て試すことができる。
+
+使用したいアバターを見つけたら、それを選択し、「適用」ボタンを押して確定する。
+
+=== クローン ===
+[[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, 「アバターをクローン」および「アバターをお気に入りに加える」ボタンは、「ユーザーアクション」セクション内に配置されている。]]
+ユーザーは、他のユーザーが使用しているアバターを直接クローンすることができる。この機能により、対象のユーザーを選択し、[[Special:MyLanguage/Quick Menu|クイックメニュー]]内の「アバターをクローン」ボタンを使用することで、同じアバターを使用することができる。
+このオプションが表示されない場合、相手のユーザーがアバターのクローンを無効にしているか、使用中のアバターが非公開 (Private) に設定されていることを示している。
+
+アバターのクローンを無効にするには、メインメニューの[[Special:MyLanguage/Settings|設定]]を開き、'''アバター'''タブから'''アバターのクローン許可'''をオフにする。
+
+=== ペデスタルとアバターワールド ===
+アバターはアバターペデスタルからでも見つけることができる。これらは通常、「アバターワールド」カテゴリのワールド内に置いてあり、これらのペデスタルにはアバターのプレビューが表示されていて、ユーザーはそのペデスタルをインタラクトすることで、クローンすることができる。 
+
+<div class="mw-translate-fuzzy">
+==アバターのお気に入り追加==
+ユーザーは、アバターをお気に入りに追加して、後から使用できるようにすることができる。お気に入りに追加されたアバターは、アバターページ内の「お気に入り」リストに表示される。各行には最大50体のアバターを追加できる。[[Special:MyLanguage/VRChat+|VRC+ のサブスクリプション]]が有効な場合、追加で5個のアバターリストを使用できる。
+</div>
+
+アバターをお気に入りに登録する方法はいくつか存在する。
+使用中のアバターを登録する場合は、アバターページを開き、アバタープレビューの右下にある「お気に入りに加える」ボタンを選択する。他のユーザーが使用しているアバターを登録する場合は、そのユーザーを選択し、[[Special:MyLanguage/Quick Menu|クイックメニュー]]内の「アバターをお気に入りに加える」ボタンを使用する。
+
+==プラットフォーム間の互換性==
+''詳しくは[[Special:MyLanguage/Platforms|プラットフォーム]]も参照。''
+
+VRChat のアバターは、主に Meta (Oculus) Quest、Android、iOS システムなどのデバイスの制限によって、PC とモバイル プラットフォームで異なる見た目になっている。そのため、一部のアバターはすべてのデバイスでは表示または使用できない場合がある。これらの制限に関する詳細情報は、次のリソースで確認できる。
+
+*[https://creators.vrchat.com/platforms/android/quest-content-limitations/ Quest におけるコンテンツの制限] (英語)
+*[https://creators.vrchat.com/platforms/android/android-best-practices/ Android におけるコンテンツの制限] (英語)
+
+クリエイターは、同じアバター ID を使って異なるプラットフォームのバージョンをアップロードすることで、複数のプラットフォームと互換性のあるアバターにすることができる。アバターをユーザーに表示できない場合は、代わりにアバターの[[Special:MyLanguage/Impostor|インポスター]]が表示される。インポスターが生成されていない場合は、代わりにユーザーが設定した[[Special:MyLanguage/Fallbacks|フォールバックアバター]]が表示される。
+
+ユーザーのフォールバックアバターは、VRChatのウェブサイト上で変更できる。
+
+==パフォーマンスのランク付け==
+アバターはパフォーマンスのしきい値によってランク付けされる。ランクの評価は低い順から Very Poor{{performance|verypoor|22}}、Poor{{performance|poor|22}}、Medium{{performance|medium|22}}、Good{{performance|good|22}}、Excellent{{performance|excellent|22}} の順になっていて、この分類はユーザーが自分のアバターが VRChat のエクスペリエンス全体に与えるパフォーマンスの影響を理解するのに役立つ。
+
+アバターのパフォーマンスのランク付けに影響を与えるものの例として、メッシュのポリゴン数、マテリアル数、テクスチャの解像度、アニメーターの複雑さ、[[Special:MyLanguage/Physbones|PhysBones]] やコンストレイントなどのアバターコンポーネントの多さが挙げられる。 
+
+公式ドキュメントの[https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ アバターのパフォーマンスのランク付けシステム] (英語) から詳しい詳細を見ることができる。
+
+== 作成とアップロード==
+ユーザーは、VRChat の[[Special:MyLanguage/Terms of Service|利用規約]]に準拠することで、カスタムアバターを作成・アップロードし、VRChat の体験を拡張することができる。
+アバターをアップロードするには、事前に[[Special:MyLanguage/Trust Rank|トラストランク]]が「New User」に到達している必要があり、あわせて推奨されているバージョンの Unity および [[Special:MyLanguage/VRChat SDK|VRChat SDK]] などの必要なツールを導入する必要がある。
+
+
+[https://creators.vrchat.com/releases/release-3-9-0#fixes--changes SDK 3.9.0]のリリースにより、アバターのビルドおよびテストを行うためのトラストランク要件は撤廃された。
+それ以前の SDK バージョンでは、アバターのビルドおよびテストを行うために、ユーザーのトラストランクが「New User」に到達している必要があった。
+
+なお、アバターをアップロードするには、引き続きトラストランクが「New User」に到達している必要がある。
+
+アバターをアップロードすると、アバターリストの「アップロードされたもの」セクションで確認できるようになる。
+
+SDK でできることについての'''詳しいガイド'''は、クリエイター向けドキュメントの[https://creators.vrchat.com/avatars/creating-your-first-avatar/ はじめてのアバター作成]で確認できる。
+
+<span id="Official_resources"></span>
+== 公式リソース ==
+
+* VRChat Creators より [https://creators.vrchat.com/avatars/ アバター]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Trivia==
+*Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
+</div>

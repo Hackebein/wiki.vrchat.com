@@ -1,0 +1,117 @@
+<languages/>
+{{Noticebox/Official}}
+[[File:Action_Menu.png|thumb|Une image du menu d'action]]
+Le '''Menu d'action''' est le principal moyen d'accéder aux contrôles de votre avatar et à diverses fonctions d'accès rapide. Lors de l'utilisation d'un avatar Avatars 3.0, ces contrôles peuvent être entièrement personnalisés et prendre différentes formes. Ce menu vous permet de gérer divers paramètres, indiquant à votre avatar comment réagir en fonction de la configuration de vos 'animators' dans Unity.
+
+Vous pouvez ouvrir un maximum de 2 menus d'action pour contrôler votre expérience avec plus de flexibilité.<small>*</small>
+
+<span id="Opening_the_Action_Menu"></span>
+==Ouverture du Menu d'action==
+
+L'ouverture du menu d'action varie en fonction du type de contrôle que vous utilisez. 
+
+*'''Clavier/Souris :''' Appuyez sur '''R''' pour ouvrir.
+*'''Contrôleur VR :''' Maintenez le bouton qui ouvre votre [[Special:MyLanguage/Quick Menu|menu rapide]]. Selon la main utilisée, le menu d'action s'ouvrira à gauche ou à droite.
+*'''Manette :''' Appuyez sur le stick droit pour ouvrir.
+*'''Mobile :''' Maintenez enfoncé le bouton de menu.
+
+<sup>*Les types de contrôle Clavier/Souris, Manette et Mobile n'ouvrent qu'un seul menu d'action (gauche). L'utilisation des deux menus d'action n'est pas possible avec ces types de contrôle.</sup>
+
+==Layout==
+
+Lors de la première ouverture du menu d'action, ce dernier est divisé en 5 sections : Expressions, Émojis & Autocollants, Objets, Outils et Options.
+
+===Expressions===
+
+''Voir aussi [[Special:MyLanguage/Expressions|Expressions]] pour plus d'informations détaillées.''
+
+Ce menu est utilisé pour modifier différentes fonctionnalités de votre avatar, le menu d'expressions varie pour chaque avatar.
+
+<span id="Quick_Actions"></span>
+====Actions Rapides====
+
+Le menu d'Actions Rapides, situé sous le menu Expressions, vous permet de contrôler divers aspects de votre avatar. Les options disponibles dans ce menu sont :  
+*'''Taille de l'avatar :''' Modifie la hauteur de votre avatar entre 0,20 m et 5,00 m.  
+*'''Réinitialiser la taille :''' Rétablit la hauteur de votre avatar à la valeur par défaut définie dans Unity.  
+*'''Relâcher les Physbones :''' Réinitialise les poses pour les [[Special:MyLanguage/Physbones|Physbones]].  
+*'''Réinitialiser l'avatar :''' Réinitialise toutes les parties de votre avatar, y compris les Physbones et les commutateurs sauvegardés.  
+*'''Doigts par défaut:''' Si désactivé, les doigts des avatars seront animés par les données (skeletal data) de SteamVR.
+
+<span id="Emojis_&amp;_Stickers"></span>
+===Émojis & Autocollants===
+
+''Voir aussi [[Special:MyLanguage/Emojis|Émojis]] & [[Special:MyLanguage/Stickers|Autocollants]] pour plus d'informations détaillées.''
+
+Le sous-menu Émojis & Autocollants est destiné aux émojis, qui apparaissent dans l'air environnant, ou aux autocollants, que vous pouvez placer dans le [[Special:MyLanguage/Worlds|monde]] où vous vous trouvez.
+
+===Objets===
+''Voir aussi [[Special:MyLanguage/Items|Objets]] pour plus d'informations détaillées.''
+
+Le sous-menu « Objets » (Items) est destiné aux objets ; ceux-ci peuvent apparaître ou être placés dans le monde.
+
+<span id="Tools"></span>
+===Outils===
+
+Le sous-menu des outils est l'endroit où se trouvent les fonctionnalités couramment utilisées. Ces outils incluent :
+
+*[[Special:MyLanguage/Mirrors#Personal Mirror|Miroir personnel]]
+*[[Special:MyLanguage/Mirrors#Face Mirror|Miroir facial]]
+*[[Special:MyLanguage/Chatbox|Bulle de dialogue]]
+*[[Special:MyLanguage/Camera|Caméra]]
+
+===Options===
+
+Le sous-menu Options propose une multitude d'options, comprenant le Menu d'Action, les [[Special:MyLanguage/Nameplates|cadres]], les options d'avatar et bien plus encore.
+
+<span id="Using_the_Action_Menu"></span>
+==Utiliser le Menu d'Actions==
+
+[[File:PuppetMenu.gif|thumb|Exemple d'utilisation du menu d'actions]]
+
+<span id="Selection_Methods"></span>
+===Méthodes de sélections===
+
+Vous pouvez activer/désactiver les méthodes de sélection en ouvrant votre Menu d'actions > Options > Menu d'actions > Sélection par mouvement de balayage.
+
+<span id="Flick_Select"></span>
+====Sélection par mouvement de balayage====
+
+En mode sélection par mouvement de balayage, poussez le joystick dans la direction de la tranche de cercle que vous souhaitez déclencher. Puis recentrer le joystick afin de valider la sélection.
+
+<span id="Pick_Select"></span>
+====Sélection par clic====
+
+Le mode « Sélection par clic » consiste à pousser le joystick vers la tranche de cercle et à confirmer la sélection avec la gâchette(Trigger) du contrôleur (ou un clic de souris sur le Bureau).
+
+<span id="Closing_and_Saving"></span>
+===Fermeture et Sauvegarde===
+
+Pour fermer le Menu d'Actions ou le Menu d'Expressions, ou l'un de leurs sous-menus, choisissez l'option « Retour » en haut du menu radial. Faire l'inverse de l'ouverture du menu d'action fermera le menu tout en mémorisant votre position. Inversez ce processus pour revenir à l'endroit où vous vous êtes arrêté.
+
+<span id="Gallery"></span>
+==Galerie==
+
+<gallery heights="100">
+File:Menu d'action FR.webp|Page principale du menu
+File:Page autocollants et émojis FR.webp |Page des Émoji's & Autocollants
+File:Page émojis FR.webp |Page des émojis
+File:Page outils FR.webp |Page des outils
+File:Page actions rapides FR.webp |Page des actions rapides
+File:Page expressions FR.webp |Page des expressions
+File:Page cadres FR.webp |Page des cadres
+File:Page réglages miroir FR.webp |Page des réglages des miroirs personnels
+File:Page réglages MA FR.webp |Paramètres du menu d'action dans le menu d'action.
+</gallery>
+
+<span id="Resources"></span>
+==Ressources==
+
+  
+
+*La page [https://docs.vrchat.com/docs/action-menu Action Menu] sur 'docs.vrchat.com'
+*La vidéo [https://www.youtube.com/shorts/PZsOQTLvPAc What is the Action Menu?] sur 'YouTube'
+
+== Navigation ==
+{{Navbox/Menus}}
+[[Category:User Interface{{#translation:}}]]
+[[Category:Menus{{#translation:}}]]

@@ -1,0 +1,58 @@
+{{Noticebox/Community}}
+
+'''Leaks''' are potential unreleased or unannounced features or information found through various credible or non-credible means, such as the [[VRChat API]] or platforms like Crowdin. Anything on this page should be taken with a grain of salt; just because something is on this page, does not confirm that it is something that will be added in the future.
+
+Leaks will typically be removed from this page when they are either confirmed (through being given an applicable testing branch on [[Open Beta]], or being fully released) then after [[VRCWiki:How to Contribute|receiving an article]] on the [[VRCWiki:About|VRChat Wiki]], or assigned within the proper existing articles; or removed after being denied through official VRChat sources.
+
+== Badges ==
+These are [[badges]] that have been discovered.
+{| class="wikitable"
+|+
+!
+!Name
+!Description
+!Introduced
+!Requirements
+|-
+|TBA
+|World Explorer<ref name="WorldExplorer">`World Explorer`, `Badgge Settings` - [https://crowdin.com/editor/vrchat-application/19#130530 Crowdin]</ref>
+|TBA
+|TBA
+|Challenge Completed: When a player visit X number of worlds.<ref name="crowdin130860" />
+|-
+|TBA
+|TBA
+|TBA
+|TBA
+|Complete an invite-only survey. Opt-In for the Badge. Survey window closed.<ref>From a survey about [[Special:MyLanguage/Avatars|Avatars]]</ref>
+|}
+
+== Challenges ==
+
+A feature which lets you complete challenges<ref>`Complete!` `When the player completes all their challenges` [https://crowdin.com/editor/vrchat-application/19#130850 Crowdin]</ref><ref>`All Challenges Completed!` `When the player completes all their assigned challenges` [https://crowdin.com/editor/vrchat-application/19#130854 Crowdin]</ref>. First discovery on December 13, 2024. Last new discovery on December 16, 2024. This feature is not yet accessible to all users, and seems to only be available for some VRChat accounts.
+
+Challenges:
+* Make X Friends<ref>`Make {0} Friends`, `A challenge for players to make {0} number of friends.` - [https://crowdin.com/editor/vrchat-application/19#130852 Crowdin]</ref>
+* Visit X Friends<ref>`Visit {0} Worlds`, `Challenge description: When a player visit X number of worlds.` - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref>
+* Visit X Worlds<ref name="crowdin130860">`Visit {0} Worlds`, `Challenge description: When a player visit X number of worlds.` - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref> (Reward [[Special:MyLanguage/Badges|badge]]: World Explorer<ref name="WorldExplorer />)
+* Try VRChat on Another Platform<ref>`Try VRChat on Another Platform`, `Challenge description: When a player plays VRC on another platform` - [https://crowdin.com/editor/vrchat-application/19#130856 Crowdin]</ref>
+* Log in X Days in a Row<ref>`Log in {0} Days in a Row`, `Challenge description: When a player logs in X number of days in a row.` - [https://crowdin.com/editor/vrchat-application/19#130858 Crowdin]</ref>
+
+== ToxMod ==
+ToxMod is an AI-assisted voice chat moderation product made by Modulate, intended to detect and flag toxic or abusive voice behavior.
+
+In 2022 ToxMod got partially integrated. VRChat later stated that the team had previously been in discussions with Modulate, and that VRChat was inadvertently listed as a ToxMod customer<ref>[https://web.archive.org/web/20220424073126/https://www.modulate.ai/ modulate.ai from 2022] at archive.org</ref>, but that VRChat has no current or future plans to implement ToxMod<ref>[https://ask.vrchat.com/t/developer-update-1-december-2022/15263?page=3#p-30487-toxicity-in-vrchat-15 VRChat Blog Post]</ref>.
+
+== Automatic Groups Instance invites ==
+
+The VRChat community developed local programs and bots to self invite. VRCDN with their bots where the first big successor of request-to-queue principle which later got replaced with a queue system for groups. While the community continued maintaining automatic invite systems. Espacially to invite on instance creation to not be stuck in queue. VRChat started an A/B test to support this feature for everyone.<ref>`Toggle the ability for group instances to send you automatic invitation notifications`, `Toggle the ability for group instances to send you automatic invitation notifications
+Settings->User Interface->Notifications->Enable Automatic Group Invitations. Appears only if you are a part of an A/B test.` - [https://crowdin.com/editor/vrchat-application/19#139579 Crowdin]</ref>
+
+== 3th Person view distance ==
+
+Allows to set view distance of 3th person camera with ALT + scroll. <ref>`ALT + scroll: adjust distance`, `ALT + scroll: adjust distance
+HUD notification when attempting to scroll to move a held item` - [https://crowdin.com/editor/vrchat-application/19#139613 Crowdin]</ref>
+
+== References ==
+
+<references/>

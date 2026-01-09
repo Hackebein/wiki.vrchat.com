@@ -1,0 +1,9 @@
+<noinclude>
+<languages/>
+ <nowiki>{{Reason}}</nowiki> {{Reason}}
+ <nowiki>{{Reason|required=1}}</nowiki> {{Reason|required=1}}
+ <nowiki>{{Reason||~~~}}</nowiki> {{Reason||[[User:Usr 578aa632-439b-4c41-9266-776323ba9ad2|Usr 578aa632-439b-4c41-9266-776323ba9ad2]] ([[User talk:Usr 578aa632-439b-4c41-9266-776323ba9ad2|talk]])}}
+ <nowiki>{{Reason|Rat stinky}}</nowiki> {{Reason|Rat stinky}}
+ <nowiki>{{Reason|Rat stinky|~~~}}</nowiki> {{Reason|Rat stinky|[[User:Usr 578aa632-439b-4c41-9266-776323ba9ad2|Usr 578aa632-439b-4c41-9266-776323ba9ad2]] ([[User talk:Usr 578aa632-439b-4c41-9266-776323ba9ad2|talk]])}}
+ <nowiki>{{Reason|Rat stinky|~~~~}}</nowiki> {{Reason|Rat stinky|[[User:Usr 578aa632-439b-4c41-9266-776323ba9ad2|Usr 578aa632-439b-4c41-9266-776323ba9ad2]] ([[User talk:Usr 578aa632-439b-4c41-9266-776323ba9ad2|talk]]) 09:29, 1 December 2024 (UTC)}}
+</noinclude><includeonly><span class="comment">[Raison: {{#if:{{{1|}}}|{{{1}}}|{{#if:{{{required|}}}|<span class="error">Une raison doit être renseignée.</span>|Aucune raison fournie.}}}}{{#if:{{{2|}}}|&nbsp;— {{{2|}}}}}]</span></includeonly>

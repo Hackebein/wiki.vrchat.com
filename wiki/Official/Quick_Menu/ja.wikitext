@@ -1,0 +1,397 @@
+<languages/>
+{{Noticebox/Official}}
+
+[[File:Quick Menu.webp|thumb|alt=VRChatのクイックメニューの画像|VRChatのクイックメニューの画像]]
+'''クイックメニュー''' は、VRChatで最も利用されるメニューで、その多用途性が特徴です。
+他のメニューを開くためのタイルや、一目で情報を確認できる機能など、さまざまな機能を瞬時に提供します。  
+
+クイックメニューを開くと、常に下部の「ロケット」アイコンで示される '''ランチパッド''' タブが表示されます。
+ランチパッドの主な機能は、'''バナー''' と、タイルに表示されているように '''クイックリンク''' および '''クイックアクション''' への簡単なアクセスです。
+クイックメニュー下部のタブを切り替えたり、'''ウィング''' を展開・閉じたり、'''時計''' を変更したり、その他のボタンにアクセスすることもできます。 
+
+== Launch Padのバナー ==
+Launch Padに表示されるバナーは、VRChatのイベント、新機能、または新規プレイヤー向けのリソースを通知することがあります。
+
+まれに、Launch Padのバナーが、システム機能の新しいアップデートを適用するようメッセージを表示したり、現在 [[Special:MyLanguage/Open Beta|オープンベータ]] 版のVRChatを使用している場合に、異なるバージョンでプレイしている友達と分離される可能性があることを知らせることもあります。
+
+== タイル ==
+Launch Pad内には、クイックメニュー中央に配置された12個のボタン（タイル）があります。
+これらのタイルは、VRChatセッション中にワールドやアバター、設定を変更する際によく使用されます。 
+
+{| class="wikitable"
+|+
+!タイル
+!ツールチップ
+!機能
+|-
+|''' Live Now '''
+|ライブイベントを確認したり、グループの活動状況や友達の様子を確認できます。
+|メインメニューの「 Live Now 」タブを開きます。
+|-
+|'''ワールド'''
+|新しいワールドを探索・訪問できます
+|メインメニューの「ワールド」タブを開きます。
+|-
+|'''アバター'''
+|アバターを変更できます
+|メインメニューの「アバター」タブを開きます。
+|-
+|'''ソーシャル'''
+|インスタンス内のユーザーや友達を確認できます
+|メインメニューの「ソーシャル」タブを開きます。
+|-
+|'''グループ'''
+|クリックしてグループページを表示します
+|メインメニューの「グループ」タブを開きます。
+|-
+|'''マーケットプレイス'''
+|公式VRChatマーケットプレイスおよびコミュニティからコンテンツを購入できます
+|メインメニューの「マーケットプレイス」タブを開きます。
+|-
+|'''ホーム'''
+|自分のホームワールドに移動します
+|サブメニューを開き、「はい」を選択するとホームワールド、「デフォルト」を選択すると [[Special:MyLanguage/VRChat Home|VRChatホーム]] へ移動します。
+|-
+|'''リスポーン'''
+|このワールドの開始地点へテレポートします
+|ユーザーをスポーンポイントにテレポートします。
+|-
+|'''セレクト (PC/Mobile)'''
+|ユーザーを自由に選択できます。あるいは [Shift] を押しながら選択
+|ユーザーがデスクトップモードまたはモバイルクライアントを使用している場合に表示されます。
+|-
+|'''座る／立つ (VR)'''
+|座る・立つモードに変更
+|ユーザーがVRモードのときに表示されます。このタイルをクリックすると視点が上下に移動します。
+アバターがしゃがむ、伏せる、または立ち上がるのを補助します。
+|-
+|'''FBTキャリブレーション (VR)'''
+|フルボディトラッキングをキャリブレーションします
+|ユーザーがVRモードのときに表示され、ボディトラッカーをペアリングします。
+|-
+|'''セーフティー'''
+|他ユーザーから見たり聞いたりする内容を調整します
+|サブメニューを開き、シールドを最大、通常、なし、またはカスタムに変更できます。
+''参照: [[Special:MyLanguage/Trust and Safety|セーフティ]]''
+|}
+
+== タブ ==
+クイックメニューの下部には「タブ」と呼ばれるボタンがあり、クリックまたはダブルクリックすることで、さらに多くのオプションにアクセスできます。
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable"
+|+
+!タブ
+!アイコン
+!ツールチップ
+!機能
+|-
+|'''Launch Pad'''
+|🚀
+|クイックリンクやクイックアクションにアクセスします。ダブルクリックでメインメニューに表示されます。
+|Launch Padは、よく使用される機能へのクイックリンクおよびクイックアクションを提供します。
+|-
+|'''通知'''
+|🔔
+|通知を表示します。ダブルクリックでメインメニューに表示されます。
+|通知タブでは、フレンドリクエストや招待、グループ・システム・インスタンス関連のアナウンスを表示します。
+|-
+|'''Here'''
+|📍
+|現在のインスタンスに関する情報を表示します。ダブルクリックでメインメニューに表示されます。
+|「Here」タブでは、基本的なワールド情報、インスタンスに再参加するワールド操作、ワールドのお気に入り登録/解除、ホストの場合はインスタンスの閉鎖、現在インスタンスにいるユーザーの一覧（モデレーション権限がある場合はブロックユーザーも含む）を表示します。
+|-
+|'''カメラ'''
+|📷
+|[[Special:MyLanguage/camera|カメラ]] オプションを表示します。ダブルクリックでフォトカメラを起動します。
+|カメラタブでは、フォトカメラ、ストリームカメラ、アイコンカメラ、ギャラリーカメラを選択できます。高度なオプションには、スクリーンショット、マルチレイヤー写真、デバイスのストレージ内の写真へのアクセスが含まれます。
+''参照: [[Special:MyLanguage/Camera|カメラ]]''
+|-
+|'''オーディオ'''
+|🔊
+|マイクおよびオーディオ設定を調整します。ダブルクリックで [[Special:MyLanguage/Earmuffs|イヤーマフ]] のオン・オフを切り替えます。
+|オーディオタブでは、マスターボリューム、UI/メニュー、ワールド、ボイスの各音量にアクセスできます。PCまたはPCVRの場合は、アバターの音量スライダーもあります。
+自分のマイクオプションには、出力音量、ノイズ抑制、アクティベーションの閾値、マイクの切替、プッシュトゥトークの有効化、常時オン/常時オフの設定が含まれます。
+さらに、イヤーマフが有効な場合は、範囲やバブル内外の音量を調整する高度なオプションもあります。 ''参照: 音量設定''
+|-
+|'''VRC+'''
+|[[File:Icon VRC Plus Icon.png|frameless|16x16px]]
+| VRC+ 
+|[[Special:MyLanguage/VRC+|VRC+]] タブは、VRC+ 非会員の場合にVRC+ の機能を紹介します。
+アクティブなサブスクリプションを持っている場合は、各種VRC+ 機能へのクイックリンクタイルが表示されます。
+|-
+| '''設定'''
+|⚙️
+|UI、アクセシビリティなどの設定を調整します。ダブルクリックでメインメニューに表示されます。
+|設定タブでは、UI要素、自分のアバター、アバターカリング、チャットボックス、表示およびビジュアル調整、快適性、トラッキング＆IK、ホライズン調整の高度なオプション、デバッグなど、さまざまな項目を扱います。
+[[Special:MyLanguage/Settings|設定]] の詳細については、より多くのオプションを提供する [[Special:MyLanguage/Main Menu|メインメニュー]] を開くことができます。
+|}
+</div>
+
+== ウィング ==
+[[File:Quick Menu Winged.webp|thumb|alt=ウィングを展開したVRChatのクイックメニューの画像|ウィングを展開したVRChatのクイックメニューの画像]]
+ウィングは、クイックメニューおよびメインメニューの両側に表示される、拡張可能でカスタマイズ可能なウィジェットメニューです。
+お気に入りのVRChatコンテンツの設定に瞬時にアクセスする簡単な方法を提供します。
+
+{| class="wikitable"
+|+
+!オプション
+!ツールチップ
+! 機能
+|-
+|'''プロフィール'''
+|自分のユーザー情報を表示します
+|名前、プロフィールバナーとアイコン、ネームプレートのステータス、現在のアバター、現在のワールド、オンラインのフレンド数、トラストランクの外観などのタブが含まれます。
+|-
+|'''フレンド'''
+|オンラインのフレンドを表示します
+|オンライン状態の友達リストを表示します。アルファベット順、利用可能状況、場所別、またはお気に入りの友達のみを表示することができます。 
+|-
+|'''グループ'''
+|グループを表示します
+|グループを選択でき、アクティブなインスタンスを表示します。
+|-
+| '''アバター'''
+|アバターを表示します
+|お気に入りに登録した、または最近使用したアバターの縮小グリッドを表示します。
+|-
+|'''ワールド'''
+|ワールドを閲覧します
+|最近訪れたワールド、自分がアップロードしたワールド、またはお気に入りワールドのリストを表示します。
+|-
+|'''絵文字'''
+|絵文字で自己表現をします
+|他のユーザーに表示する [[Special:MyLanguage/Emojis|絵文字]] を選択できます。VRC+ ユーザーはカスタム絵文字も使用できます。
+|-
+|'''ステッカー'''
+|ステッカーで自己表現をします
+|ワールド内に配置する [[Special:MyLanguage/Stickers|ステッカー]] を選択できます。VRC+ 限定機能です。
+|-
+|'''アイテム'''
+|アイテムを表示します
+|ワールド内に配置する [[Special:MyLanguage/Items|アイテム]] を選択できます。
+|-
+|'''表情'''
+|アバターを手を振る、ダンスなどの動作をさせます。
+
+|現在のアバターに装備されているカスタムアニメーション、プロップ、その他の機能を使用します。
+''参照: [[Special:MyLanguage/Expressions|表情]]''
+|-
+|'''探索'''
+|VRChatでできることを探します。
+|ヘルプおよび情報メニューからVRChatのチュートリアルを読むことができます！
+|}
+
+== ウィジェット ==
+ウィジェットは、ソーシャルステータス、時計、VRChatクレジットの上に表示される要素です。
+このエリアでは、オンになっている特定の機能やワールド関連の機能のステータスに関する情報が表示されます。
+
+{| class="wikitable"
+!Element
+!Icon
+!Description 
+|-
+|'''Earmuff Mode'''
+|[[File:EarmuffModeIcon QM.png|frameless|32x32px]]
+|Appears when [[Special:MyLanguage/Earmuff Mode|Earmuff Mode]] is on, displays earmuff mode distance and a "Turn Off" button on the far right.
+|-
+| '''Streamer Mode'''
+|[[File:StreamerModeIcon QM.png|frameless|32x32px]]
+|Appears when Streamer Mode is active. "Turn Off" button on the far right.
+|-
+|'''Safe Mode'''
+|[[File:SafeModeIcon QM.png|frameless|32x32px]]
+|Appears when Safe Mode is active. "Turn Off" button on the far right.
+|-
+|'''Preloading World'''
+|N/A
+|Appears when preloading a world. The icon is the thumbnail of the world you are preloading. 
+When preloading, the name, and download size of the world displays, along with a status bar showing the progress of the preload. You can cancel the preload at anytime by clicking the "Cancel" button of the far right. 
+When the world is finished preloading, you can join the world by clicking the "Join" button on the far right. 
+|-
+|'''Instance Queue'''
+|[[File:InstanceQueueIcon QM.png|frameless|32x32px]]
+[[File:InstanceQueueReadyIcon QM.png|frameless|32x32px]]
+|Appears when a user is in a [[Special:MyLanguage/Instances#Queues|instance queue]]. 
+When waiting, it displays the queue position by default but this can be changed by clicking it. It can cycle between '''time in queue''', '''position in queue''', and '''hide info'''.
+When ready, the user has 1 minute to join the world by using the "Join" button on the far right, before you get kicked from the queue. 
+|-
+|'''Unfinished Report'''
+| [[File:UnfinishedReportIcon QM.png|frameless|32x32px]]
+|Appears when the user has a unfinished report. Click the "Open" button on the far right to resume the report.
+|-
+|'''Previewing Avatar'''
+|[[File:PreviewAvatarIcon QM.png|frameless|32x32px]]
+|Appears when a user changes into an avatar that is locally built or when previewing an [[Special:MyLanguage/Avatar Marketplace|Avatar Marketplace]] avatar. "Take Off" button on the far right.
+|}
+
+== ヘッダー ==
+ヘッダーは、メニューの上部に位置し、よりユーザー向けにカスタマイズされた要素で構成されています。
+
+=== プロフィール ===
+''詳細は [[Special:MyLanguage/Social#User Profiles|ソーシャル]] を参照してください。''
+
+ヘッダーの左側には '''プロフィール''' があります。
+クリックすると、[[Special:MyLanguage/Nameplates|ネームプレート]] のステータスや利用可能状況を変更したり、自己紹介文、使用言語、自己紹介に紐づけたURLを編集したりできます。
+
+=== 時計 ===
+[[File:Clock Settings.webp|thumb|alt=VRChatの時計設定の画像|VRChatの時計設定の画像]]
+
+オプションとして、クイックメニューの上部に異なる時計を表示できます。
+
+時計機能は [https://www.youtube.com/watch?v=wt6MOiLjFVY 公開] され、[[Special:MyLanguage/List of April Fools' Day jokes#2024|2024年エイプリルフール]] にクイックメニューに追加されました。
+
+当初はエイプリルフール限定の一時的な機能とされていましたが、コミュニティからの強い支持により、クイックメニューの恒久的な追加機能として維持されることになりました。
+
+ユーザーは、時刻表示形式やタイムゾーンなどの時計設定を変更できます。
+また、時計のデザインバリアントも選択可能で、33種類のバリアントから選べます。 
+
+以下は時計のデザインバリアントの一覧です。
+
+{| class="wikitable"
+|+
+!Clock variant
+!Description
+|-
+|Normal Clock (Default, Boring)
+|Displays a clock at the top of the Quick Menu.
+|-
+| No Time! <sup>to talk?</sup>
+|Removes the clock entirely from the Quick Menu, leaving it blank.
+|-
+|LGBTQ+ Clock
+|Puts up a colorful rainbow clock, in reference to the [[wikipedia:Rainbow_flag_(LGBT)|Pride Flag]].
+|-
+|Swatch Internet Time (.beats)
+| An alternate decimal-based time measurement; displays [[wikipedia:Swatch_Internet_Time|.beats]]
+|-
+|VRChat Session Time ⏱️
+|Shows how long you have been online for, in HH:MM.
+|-
+|VRChat+ Ultra Premium Time ☆
+|Turns the clock yellow. ''This is a [[Special:MyLanguage/VRC+|VRC+]] exclusive clock!''
+|-
+|Date Time <sup>(ask them out, you got this!)</sup>
+|The month, date, and year in MM/DD/YYYY format appears.
+|-
+| Is It Thursday?
+|Replies "No" every day, except Thursdays where it says "Yes".
+|-
+|Large Clock
+|The same as the Normal Clock, but in a larger, easier to see font.
+|-
+|Tiny Clock
+|The same as the Normal Clock, but in a smaller, harder to see font.
+|-
+|WAY TOO LARGE CLOCK
+|Larger than the Large Clock, which exceeds the boundaries of the Quick Menu.
+|-
+|Broken Clock
+|Always red and blinking "12:00AM" or "00:00", like an LCD alarm clock.
+|-
+|Shader Time
+|Displays the current time, in pink. In reference to a Missing Shader error.
+|-
+|<blink />
+|Allows the current time to blink.
+|-
+|<marquee />
+|Causes the clock to 'scroll', as if it were a digital marquee.
+|-
+|Backwards Clock 🔙
+|The clock is backwards!
+|-
+|kcolC esreveR
+|The clock is reversed!
+|-
+|Backfacing Clock???
+|The clock goes behind the Quick Menu, and VRCat also flips around.
+|-
+|ʞɔolƆ uʍop ǝpᴉsd∩
+|The clock is upside down!
+|-
+|Star Date (TNG)
+|Displays the current ''[[wikipedia:Stardate|Star Date]]'' from Star Trek: The Next Generation. 🖖
+|-
+|Unix Time ''(32-bit)''
+|Seconds since January 1, 1970, in relation to the [[wikipedia:Unix_time|Unix Epoch]].
+The maximum signed integer for 32-bit will expire on January 29, 2038. 
+|-
+|Unix Time ''(64-bit)''
+|Seconds since January 1, 1970, in relation to the Unix Epoch.
+The maximum signed integer for 64-bit will expire in billions of years.
+|-
+|Unix Time ''(Nano)''
+|
+|-
+|''Very'' Accurate Clock
+|Shows hours, minutes, seconds, and 10<sup>-7</sup> in seconds.
+|-
+|''DateTimeFormat.ShortTimePattern''
+|Displays "'''h:mm tt'''".
+|-
+|Udon Network Time
+|Shows the {{VRC link|https://creators.vrchat.com/worlds/udon/networking/|network time for Udon}}, in milliseconds.
+|-
+|RFC3339
+|
+|-
+|RFC3339Nano
+|
+|-
+|ITU-R TF.460-6 UTC(-ish)
+|
+|-
+|GPS Time
+|
+|-
+|Binary Time
+|
+|-
+|Days in VRChat
+|Shows the amount of days since the user joined VRChat.
+|-
+|Random!
+|Chooses any of the above clocks at random.
+|}
+
+=== VRChatクレジット ===
+''詳細は [[Special:MyLanguage/Creator Economy|クリエイターエコノミー]] を参照してください。''
+
+VRChatクレジット（''VRCクレジット''とも呼ばれる）要素では、ユーザーの現在のVRChatクレジット残高を一目で確認できます。
+選択すると [[#Marketplace|マーケットプレイス]] ページが開きます。
+ストリーマーモードを有効にすると、VRChatクレジットの残高を非表示にすることも可能です。
+
+<span id="Other_buttons_and_elements"></span>
+== その他のボタンと要素 ==
+
+*'''FPS & Ping:''' デフォルトではオフになっています。ランチパッド設定タブのデバッグセクションで有効化できます。
+ヘッダーの上に表示され、現在のFPSおよびピングを確認できます。
+
+*'''VRCat''' (VRC+限定)''': ヘッダーの上に表示されます。
+VRChatのマスコット [[Special:MyLanguage/VRCat|VRCat]] を表示し、クリックすると吹き出し内に [[Special:MyLanguage/VRCat#Appearances|セリフ]] が表示されます。
+
+*'''カレンダー''' (Launch Padタブ)''': 右上に表示されます。クリックすると [[Special:MyLanguage/Calendar|カレンダー]] が開きます。
+
+*'''インベントリ''' (Launch Padタブ)''': 右上に表示されます。クリックすると [[Special:MyLanguage/Inventory|インベントリ]] が開きます。
+
+*'''通報''' (Launch Pad、Hereタブ)''': 右上に表示されます。
+クリックすると、現在ユーザーがいるインスタンス内のユーザー、アバター、ワールド、またはグループを通報できます。
+
+*'''展開:''' 各タブの右上に表示されます。
+クリックすると、該当するクイックメニューのタブをメインメニューの対応タブに展開します。
+
+*'''マイク:''' タブの下、左下に表示されます。
+クリックするとマイクのオン/オフを切り替えます。このボタンは「マイク動作設定」を反映しません。
+
+*'''セーフモード:''' タブの下、右下に表示されます。
+クリックすると、フレンド以外のアバターを非表示にし、フレンド以外の音声を即座にミュートします。セーフモードを無効にするには、再度ボタンをクリックするか、Launch Padの「シールド設定を変更」タイルをクリックします。
+
+*'''終了''' (設定タブ)''': 右上に表示されます。
+クリックすると、VRChatを閉じるかどうかの確認が表示されます。
+
+== ナビゲーション ==
+
+{{Navbox/Menus}}
+[[Category:User Interface{{#translation:}}]]
+[[Category:Menus{{#translation:}}]]

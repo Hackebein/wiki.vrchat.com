@@ -1,0 +1,232 @@
+<!--Hello. Anyone is free to edit this guide at will!-->
+{{Noticebox/Community}}
+{{Noticebox/wip|This page has recently been created! You can contribute by expanding and proofreading this article.|[[User:Usr 8ee44c1a-f905-4e08-bb61-e1cd34e09fc0|Usr 8ee44c1a-f905-4e08-bb61-e1cd34e09fc0]] ([[User talk:Usr 8ee44c1a-f905-4e08-bb61-e1cd34e09fc0|talk]])}}
+{{Stub|Not much information here! You can help [[VRCWiki:How to Contribute|contribute]] by expanding and proofreading this article, in accordance with the [[VRCWiki:Manual of Style|Manual of Style]].}}
+
+There are multiple types of ways to track movement and health on the human body, and translate it through an [[avatar]] in VRChat. There are numerous consumer peripherals and community-created software to enhance a user's tracking.
+
+==Types of tracking==
+*'''Half-body tracking''' [3-point tracking]: This is a standard VR set-up, where the headset resembles one point of tracking, and each controller is adds an extra point of tracking. Lower body movements are not tracked.
+*'''Full-body tracking''' <nowiki>[5+ point tracking]</nowiki>: Also known as ''[[FBT]]''. By adding extra trackers, a minimum of five points of tracking will track the head, hands and both feet. Additional trackers can be added to simulate movement of the chest, waist, knees, shoulders, and/or elbows using VRChat's [[Inverse Kinematics]] system.
+*'''Face tracking''': Simulates '''head and facial movements''', such as head tilting, retinal positioning (eye look), blinking, winking, and jaw, mouth, tongue, or cheek movement. Face tracking can be used with or without a VR headset. An avatar will also need to be properly set up using the [[VRChat SDK]] to utilize face tracking in its fullest.
+*'''Hand tracking''': Also known as ''[[Finger tracking|finger tracking]]''. '''Hands and fingers''' can be tracked, through the use of VR controllers, or cameras. All Meta Quest devices have built-in cameras and software to track hand and finger movement. There are various experimental consumer peripherals, such as '''gloves''' to add features such as better hand tracking, as well as tactile and [[wikipedia:Haptic_technology|haptic feedback]].
+*'''Vitals''': Some users may add peripherals to track their vital signs, such as a heart rate monitor, and can be paired to VRChat through an avatar using [[OSC|Open Sound Control (OSC)]].
+
+==Hardware==
+Depending on the type of tracking that is desired, extra hardware may be required.
+
+===Camera-based tracking===
+
+* The main form of camera-based tracking for VRChat is known as [[Selfie Expression]].
+
+* By using camera-based tracking, you can use software within VRChat or community-created software to animate your avatar. When using a camera-based tracker, users will '''not be able to see your real face'''. Image data is locally processed on your device, only used for animation. This data is never shared, saved or stored.
+
+Selfie Expression is available on most adaptations of VRChat.
+
+====On mobile devices====
+On the [[Platforms|mobile]] adaptation of VRChat, there are built-in options within the client to enable the camera on your device, and translate '''head and face movements''' onto your avatar. This is mobile's version of '''Selfie Expression''', and can be found by opening the [[Settings]] page on the [[Main Menu]], and clicking on the '''Tracking & IK''' tab.
+====On PC====
+Selfie Expression is also built into the PC version of VRChat. In addition to tracking '''head and facial movement''', '''hands''' are also able to be tracked and posed, similar to [[finger tracking]]. A laptop camera, or web-camera will need to be detected by your operating system to be able to use this feature. Selfie Expression can be found by opening the Settings page on the Main Menu, and clicking on the '''Tracking & IK''' tab.
+
+Another method of using a '''camera-based tracker''' on PC is through the use of a [[wikipedia:Kinect|Kinect]] camera, [[wikipedia:PlayStation Move|PSMove]] camera, or a device using owoTrack<ref>[https://docs.k2vr.tech/en/owo/setup/ 'How to configure and use owoTrack'] on ''docs.k2vr.tech''; retrieved March 15, 2025.</ref>, and community software known as Amethyst<ref>[https://k2vr.tech 'Amethyst by K2VR'] on ''www.k2vr.tech''; retrieved March 15, 2025.</ref> (formerly known as KinectToVR), AprilTag and PSMoveServiceEx<ref>[https://github.com/Timocop/PSMoveServiceEx-Virtual-Device-Manager PSMoveServiceEx by Externet] at g''ithub.com''; retrieved June 14, 2025.</ref>. With the right hardware, these apps are able to provide the user with '''optical full-body tracking''', even while the user is in VR.
+
+===Base station tracking===
+Base station tracking, also known as ''lighthouse'' tracking or sensors, is hardware compatible only with [[wikipedia:SteamVR|SteamVR]] software. Base stations are compatible with some [[Controls|controllers]] and types of full-body tracker peripherals, such as [[wikipedia:HTC_Vive#Hardware_and_accessories|VIVE trackers]], and Tundra trackers<ref>[https://tundra-labs.com/ Tundra Labs website] at ''tundra-labs.com''; retrieved March 15, 2025.</ref>.
+
+It is recommended to acquire at least two '''2.0''' base stations, as these base stations are compatible with more modern hardware. It is also good practice to determine whether any desired hardware requires base stations before use.
+
+==== Purchasing base stations====
+''Prices for new base stations may fluctuate and vary.''
+*[https://store.steampowered.com/app/1059570/Valve_Index_Base_Station/ 'Valve Index Base Station'] on Steampowered, for $149 (USD)
+*[https://www.vive.com/us/accessory/base-station2/ 'SteamVR Base Station 2.0'] on ''vive.com'', for $229 (USD)
+*[https://www.knoxlabs.com/products/htc-steamvr-base-station-2 'HTC SteamVR Base Station 2.0'] on ''knoxlabs.com'', for $229 (USD)
+*You can additionally purchase used base stations from second-hand outlets from various sellers for varying prices.
+
+===IMU tracking ===
+'''Inertial Measurement Unit''' (IMU) tracking consist of standalone '''full-body''' trackers that do not require base stations or external sensors, but is likely to require a smartphone application, or computer application to run alongside your headset, or VRChat. There are multiple consumer-geared IMU trackers that are compatible with VRChat:
+*[https://electronics.sony.com/more/mocopi/all-mocopi/p/qmss1-uscx Sony mocopi] - VRChat has officially promoted Sony mocopi trackers.
+*[https://www.picoxr.com/global/products/pico-motion-tracker PICO Motion Tracker]
+*[https://en.shiftall.net/products/haritorax2 HaritoraX 2]
+*[https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker#products SlimeVR]
+===Pulse monitors===
+<small>''Per VRChat's [https://hello.vrchat.com/community-guidelines Community Guidelines]: "Do not use VRChat as a medical or therapeutic tool, device, or methodology". Please consult with a licensed medical professional for questions or counsel; this Wiki is not legal or medical advice.''</small>
+
+Through the use of a heart rate monitor, a user can track their pulse. Information such as this, can be transmitted to an avatar or a [[Chatbox]], through the use of [[Open Sound Control]].
+
+==Comparison table==
+
+
+This comparison table of various full-body tracking devices was pulled from SlimeVR's product page<ref>[https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker#products 'SlimeVR Full-Body Tracker'] product page, on ''crowdsupply.com''; retrieved March 20, 2025.</ref>.
+{| class="wikitable"
+!
+!SlimeVR
+! Vive (3.0)<ref>[https://www.vive.com/us/accessory/tracker3/ 'VIVE Tracker (3.0)'] product page on ''vive.com''; retrieved March 20, 2025.</ref>
+!Tundra
+!AprilTag
+!Amethyst
+!HaritoraX 
+!mocopi
+!PSMoveServiceEx
+|-
+|'''Developer'''
+|SlimeVR
+| HTC
+| Tundra
+|Ju1ce, DIY
+|K2VR Team
+| Shiftall
+|Sony
+|Externet
+|-
+|'''Form factor'''
+|5x 50 g trackers
+|3x 75 g trackers
+|3x 50 g trackers
+|QR codes & central camera
+|Central camera
+|5 trackers connected by wires
+|6x 8g trackers
+|3x PSmoves 135g '''³'''
+|-
+|'''Battery Life'''
+|15 h
+|7.5 h
+|7 h
+|∞
+|∞
+|10 h
+|10 h
+|10 h
+|-
+|'''Base stations?'''
+|No (Wi-Fi)
+|SteamVR Lighthouse
+|SteamVR Lighthouse
+|Any camera
+|Kinect, PSMove, owoTrack
+|No (Bluetooth)
+|No (Bluetooth)
+|PSEye, 
+Webcam,
+
+PS4 Camera
+|-
+|'''Prone to occlusion'''
+|No
+| Yes
+|Yes
+|Yes
+|Yes
+|No
+|No 
+|Yes
+|-
+|'''Coverage'''
+| 360°
+|360°
+|360°
+|360° '''²'''
+|360°
+|360°
+|360°
+| 360°
+|-
+|'''Precision'''
+|1-10 cm '''¹'''
+|< 1 mm
+|< 1 mm
+|< 1 cm
+|1-10 cm
+|1-10 cm '''¹'''
+|1-20 cm
+|1-10 cm
+|-
+|'''Latency'''
+|~15 ms
+|~15 ms
+|~15 ms
+|30+ ms
+| ~20 ms
+|>15 ms
+|50+ ms
+|~20 ms
+|-
+|'''Update rate'''
+|100 Hz
+|90-144 Hz
+|90-144 Hz
+|Camera framerate
+|30 Hz
+|50-100 Hz
+|50 Hz 
+|30-183 Hz
+|-
+|'''Range'''
+|Wi-Fi coverage
+|10 m
+|10 m
+|2-3 m
+|2-4 m
+|Bluetooth coverage
+|Bluetooth coverage 
+|Bluetooth
+coverage 
+|-
+|'''Can track any object'''
+|No
+|Yes
+|Yes
+|Yes
+| No
+|No
+|No
+|Yes
+|-
+|'''Open Source'''
+|SW + HW
+|No
+|No
+|SW + HW
+|SW
+| No
+|No
+| SW
+|-
+|'''Price'''
+| $195
+|$390 + ~$400 Lighthouse
+|$360 + ~$400 Lighthouse
+|Printer & camera
+|~$30 (used Kinect)
+|$299
+|$450
+|~$150 (used PSEyes and PSmoves) '''³'''
+|}
+'''¹''' ''The precision of SlimeVR and HaritoraX tracking technology depends on your setup, on the plane used for measurement, and on how your back bends.''
+
+'''²''' ''AprilTag requires additional waist tracker with a phone or other tracking technology (has reliable 180° coverage without).''
+
+³ ''PSMoveServiceEx supports wide range of custom third-party devices which can be optically tracked (such as SlimeVR and owoTrack).''
+
+==Software==
+There are different types of software made by the VR community to improve and enhance tracking! 
+===Community software===
+This is a list of software that can be downloaded externally, and either uses its own software, or OSC to locally transmit tracking data to your VRChat avatar:
+===SteamVR overlays===
+This software can be downloaded on the Steam store, and run alongside SteamVR:
+
+==Setting tracking up on VRChat==
+===In the VRChat SDK===
+===Through OSC===
+
+==See also==
+*[[Controls]]
+*[[Selfie Expression]]
+*[[Full-Body Tracking]]
+*[[Finger Tracking]]
+*[[Face Tracking]]
+
+==References==
+[[Category:Guides]]
+
+<references />

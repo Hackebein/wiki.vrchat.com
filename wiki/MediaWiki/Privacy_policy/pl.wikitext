@@ -1,0 +1,1 @@
+Polityka prywatności

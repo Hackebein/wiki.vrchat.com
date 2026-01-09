@@ -1,0 +1,192 @@
+{{Noticebox/Community}}
+
+=Introduction=
+This is a writeup on the performance (mostly focused on frame time) of components in VRChat.
+
+The general methodology used to generate this data is to not look at the performance of a single instance of a Component, but to add more and more components and extract the formula for the performance from this data. For example: To know how much frame time it costs to have one extra layer on an FX controller, 1, 8, 64 and 256 layers are benchmarked, those times are plotted on a graph, a line is fit to this data, and the formula of this line is used to see how much frame time a single extra layer costs.
+
+The goal of this article is to display the performance of every single component that can be used in VRChat to give a rough estimate of how heavy they are to run compared to each other, to help the community choose more optimized methods of building avatars.
+
+Throughout this article, the results are given in ms of frame time. To interpret this, one way to think about it is like this:
+
+If the goal is to have 90 fps, you have approximately 11 ms (so 0.011 seconds) to render each frame. This is the frame time budget. Some of this time will be spent on PhysBones, some of it will be spent on Animators, some of it will be spent on Materials, etc. So if a component takes 1 ms, you can see this as taking about 9.1% of your “budget”.
+
+Do note that this frame time is used for processing every single avatar and the world, so if something on a single avatar takes 9.1% of the total budget, that is quite a lot, and should probably be a point of optimization.
+
+To have 60 fps, your frame time budget is approximately 16 ms. To have 40 fps, your frame time budget is 25 ms.
+
+The graphs used in this document are generated on a computer with the following specs (though the numbers should mostly be used to compare to other components, so absolute numbers aren't as important):
+
+CPU: AMD Ryzen 7 5800X
+Memory: DDR4 2x16GB 3200 MHz CL18
+GPU: NVIDIA GeForce RTX 4090
+
+The data used throughout this page is generated using https://github.com/jellejurre/UnityBenchmark
+
+=Animator Controllers=
+
+To put the numbers in this section into perspective, here are two points of clarification:
+
+* Every test here is done without any state behaviours. Having one or more state behaviours on any layer of any controller increases the runtime of all controllers on that avatar by 50%. This happens regardless which state behaviour you are using, and since there are state behaviours on the default Action & Gesture layer, this cost is probably incurred on every single avatar that gets used. Because this cost is always there, they are not included in the tests, since the tests are supposed to be comparative, but do note that if you’re looking at any of the raw numbers, a 50% should be added on top of them to get more accurate numbers.
+* Animator controllers don’t scale linearly. This is elaborated upon later, but having two avatars with 100 layers is not as frame time heavy as having a single avatar with 200 layers. It is useful to optimize controllers, since less frametime is still a good thing, but this would explain absurdly high numbers (like the fact that if it scaled linearly, having 40 avatars with 50 layers would take 68 ms, but in reality it takes 6.4 ms).
+
+First, single controller frame time performance will be discussed, and then how this scales with having multiple controllers.
+
+==Single Controller Performance==
+
+===Baseline: Two State Toggle===
+For our baseline, we are going to look at the simple 2 state toggle.
+
+[[File:Unity Benchmark Two State Toggle.png|none|frame|alt=An animator controller layer showing a toggle consisting of two states|The default toggle we will be comparing against. Two animations, each with two frames, both with the same value. Write defaults on.]]
+
+In every layer count test, the graph for layers vs frame time is quadratic. this means that the more layers you have, the worse adding an extra layer becomes. However, the quadratic term isn’t very strong, so for low layer counts, it can be approximated by a linear graph. For the basic toggle, this will be 0.01 ms per layer. This is our baseline to compare against.
+
+[[File:Unity Benchmark Two State Toggle Static Graph.png|none|frame|alt=The frame time to layer count graph for the basic toggle without being actively toggled. It shows about 12 ms per 700 layers|The frame time to layer count graph for the basic toggle without being actively toggled]]
+If this same benchmark is ran again, but while actively animating the layers, this produces the following graph:
+
+[[File:Unity Benchmark Two State Toggle Active Graph.png|none|frame|alt=The frame time to layer count graph for the basic toggle while being actively toggled. It shows about 15 ms per 700 layers|The frame time to layer count graph for the basic toggle while being actively toggled]]
+
+This graph shows us that there is an approximately 20-30% higher cost for toggles that are constantly toggled, compared to ones that aren’t. This would be the case for face/eye tracking for example. This 20-30% higher cost seems to be consistent with all of the setups (AnyState, AnyState self transition, multiple animators, etc.), except for direct Blend Trees, where it depends on the setup.
+
+===AnyState===
+AnyState seems to be similar in performance to non-AnyState toggles, no matter the amount of AnyState toggles. This indicates the amount of transitions checks is not a significant contributing factor to frame time, which is confirmed by other tests.
+
+The only notable exception here is an AnyState toggle with “Can Transition to Self” active, as this does incur a 20% penalty over non-can-transition-to-self, even with the active toggling comparison.
+
+===Direct Blend Trees===
+When the surprisingly large cost of layers was first discovered, people called for Direct Blend Trees as the one magical solution that would cut frame time by orders of magnitude. These results indicate that, while they don’t take zero time, they are an excellent tool in reducing frame time.
+
+For a basic Direct Blend Tree setup, a single Direct Blend Tree is used with many 1D Blend Trees as children. All the children have weight one, but the 1D Blend Tree blend value would be the toggle parameter.
+
+[[File:Unity_Benchmark_Two_State_Toggle_Static_Graph.png|frame|none|alt=Direct Blend Tree frame time without active toggling. It shows 4.5 ms for 700 toggles.|Direct Blend Tree frame time without active toggling]]
+
+These results shown a 3/4ths cut to our frame time. Especially with large amounts of toggles, this can help a lot with performance.
+
+To find out how to make one of these Blend Trees, the following article could be useful: [https://vrc.school/docs/Other/DBT-Combining/ VRC School's Direct Blend Trees Layer Combining Article].
+
+===Miscellaneous Layer Information===
+* State count per layer and transition count don’t seem to matter much (which might be why AnyState is so cheap)
+* Using empty layers on humanoid rigs, using non-humanoid rigs and using no avatar all seem to cut frame time per layer by about 50% compared to the two state setup
+* Masking seems to have little to no effect on frame time
+* Using sub-state machines seems to have little to no effect on frame time
+* Nesting blendtrees for clarity seems to have little to no effect on frame time
+* For Direct Blend Trees, WD off seems to not change frame times by much
+* For layer toggles, WD off seems to increase frame time by around 50%
+* Parameters on the local avatar seem to cost 1.5 ms per 1000, but this cost doesn’t apply to remote avatars
+
+==Multiple Controller Performance==
+
+Having multiple controllers does not scale linearly (that is, having 2 controllers with 100 layers causes a lot less frame time than 1 controller with 200 layers).
+
+The actual relationship is hard to describe, but here is a visual to maybe help with this. Where every line is a constant frame time. So for example 5 controllers with 580 layers are as laggy as 15 controllers with 300 layers.
+
+[[File:Unity Benchmark Multiple Controllers Graph.png|frame|none|alt=Frame time for controllers vs layers per controller with WD on two toggle states without active toggling.|Frame time for controllers vs layers per controller with WD on two toggle states without active toggling.]]
+
+Two observations can be taken from this graph:
+* Big controllers cause a lot of frame time compared to many small ones. Optimization is especially necessary if you have many layers. (1 100 layer controller takes as much frame time as 10 30 layer controllers).
+* Even with many controllers, if you halve the layer count on all of them, your total frame time still goes down by 50%. So if everyone optimized their layer count/layer setup, this would increase performance for everyone.
+
+This relation seems the same for all controller types/layer configurations.
+
+=Constraints=
+Note: VRChat is adding a new component, VRCConstraint, that will replace constraints in VRChat. The section on these components is below this one.
+
+Constraints' frame time behaves quite irregularly, but in a way that is understandable.
+
+[[File:Unity Benchmark Constraints Graph.png|frame|none|alt=Frame time of constraints. It shows many jumps every few 100 constraints.|Frame time of constraints]]
+
+If given the total amount of enabled constraints (type doesn’t matter), this graph can be used to get the frame time. You can see that there are slow inclines, with big jumps inbetween.
+
+An approximation for their performance would be 3 ms per 1000 constraints, though this is assuming there aren't over 1250 constraints total enabled at the same time, since it goes up fast after that.
+
+Disabled constraints do not count towards this total graph. Disabled here means either:
+* GameObject is disabled
+* Constraint component is disabled
+* Constraint is set to “disabled”
+
+However, setting the weight to 0 still makes it count for performance.
+
+=VRC Constraints=
+VRC Constraints are components added by VRChat that replace Unity Constraints in VRChat. They are meant to be more optimized and more feature complete versions of Unity Constraints, while still being a drop-in replacement. There is an auto conversion feature at the bottom of the VRCSDK.
+
+Their frame time is a lot worse in the unity editor than in game, which is why there are no graphs shown, since they are generated in editor, but here is the relevant data:
+
+* VRC Constraints cost about 0.25 ms of frame time per 1000 active VRC Constraints, no matter how many sources there are.
+** Note that this number is at a depth of 1. At a depth of 20, it would be about 0.27 ms, and at a depth of 100 it would be 0.5 ms. Most people won’t have issues with depth getting this high, but be mindful that high depth can slow things down.
+* Unity Constraints that are auto converted to VRC Constraints in game cost about 0.75 ms per 1000 active Constraints. This means they are still better than Unity Constraints without conversion, but converting to VRC Constraints in editor is worth it for the frame time improvement.
+
+=Audio Sources=
+Audio Sources don't have much of a performance impact at all, though the audio files themselves can cause a hitch when being loaded due to the file having to be decompressed. This is hard to measure and sadly no numbers on this are known at the time.
+
+=Contact Senders/Receivers=
+Contacts have a max limit of 4096 per instance. If you have more than 4096 contacts in one instance, the last enabled ones will stop working.
+
+Contact senders and receivers are pretty straightforward, costing:
+
+* 0.5 ms of frame time for every 1000 senders/receivers while they aren’t actively being toggled
+* 0.75 ms of frame time for every 1000 receivers while they are actively being toggled
+
+These values seems to be roughly the same no matter the shape, type, parameter count, and collision tags
+caution
+
+Do note that this isn’t factoring in the time of parameters on the local avatar. Parameters on the local avatar have an extra cost of 1.5 ms per 1000 parameters
+
+=Cloth=
+Cloth components are very heavy and should be used very sparingly.
+
+For any reasonable amount of vertices (up to ~200k vertices), a cloth component will add around 0.2 ms per 1000 vertices. Above this, the frame time shoots up hard before tapering off.
+
+[[File:Unity Benchmark Cloth Graph.png|frame|none|alt=Frame time of cloth with changing vertex count|Frame time of cloth with changing vertex count]]
+
+Note that this 200k vertices limit is for the entire lobby. The amount of cloth components does not seem to matter for the lag, just the amount of cloth vertices.
+
+Note that due to mirror and shadow clones, the local avatar’s cloth is simulated three times, and therefore its vertices should be counted thrice
+
+Colliders will make a cloth component take about twice as much frame time per 10 colliders. So per collider, it will take about 7% more frame time.
+
+=Physbones=
+Physbones are quite well optimized, and within reason can be considered pretty cheap. It seems that the frame time of Physbones is mostly reliant on how many transforms they animate, at a rate of 0.66 ms per 1000 affected Physbone transforms.
+
+The component hierarchy shape (what is parented to what) and amount of components seem to have a slight effect on this, giving me a 33% difference between extremes, where fewer components is better.
+
+Collider count has a very slight impact on frame time, and the other settings seem to have no noticeable effect.
+
+[[File:Unity Benchmarks Physbones Graph.png|frame|none|alt=Frame time of Physbone Transforms|Frame time of Physbone Transforms]]
+
+=Skinned Mesh Renderers=
+Skinned Mesh Renderers are quite the important topic for optimization, as material count and vertex count can be one of the most difficult things to optimize on an avatar. They are mostly reliant on the GPU, so it is important to mention that these results have been obtained on a RTX 4090, however the general trends have been verified on a RTX 3080 and a GTX 1080Ti.
+
+Note: These benchmarks only look at frame time, not VRAM, which is another performance metric heavily affected by meshes and their properties (especially blendshapes).
+
+==Materials==
+
+A “Draw Call” is when your CPU tells your GPU to render a mesh. Every material gets seen as a separate mesh and therefore gets its own draw call. 1 mesh with 3 materials is 3 draw calls, and 3 meshes with 1 material is also 3 draw calls.
+
+It is generally understood that more draw calls = more frame time, and these benchmarks seem to support this.
+
+So, 100 skinned mesh renderers using 1 material have about equal frame time as 1 skinned mesh renderer with 100 materials.
+
+As for concrete time numbers: 1000 draw calls seem to take about 2 ms.
+
+[[File:Unity Benchmarks Skinned Mesh Renderer Material Count Graph.png|frame|none|alt=Frame times of Material Count vs Mesh Count. Note that the graph is quite symmetrical across the red line, meaning that 40 meshes with 60 materials has nearly the same frame time as 60 meshes with 40 materials.|Frame times of Material Count vs Mesh Count. Note that the graph is quite symmetrical across the red line, meaning that 40 meshes with 60 materials has nearly the same frame time as 60 meshes with 40 materials.]]
+
+==Bones==
+
+Adding more bones to a skinned mesh renderer showed they seem to take about 0.32 ms per 1000 bones (while moving, however all bones move almost all the time). Do note that if you use Physbones to move that many bones, the Physbones would cost another 0.66 ms per 1000 bones.
+tip
+
+Vertex count did not seem to matter much for Bone or Material tests, but the Standard shader was used for all of these, so it might matter more for more intensive shaders that do heavy per-vertex calculations.
+
+[[File:Unity Benchmark Skinned Mesh Renderer Bones Graph.png|frame|none|alt= Frame time of bones on a Skinned Mesh Renderer| Frame time of bones on a Skinned Mesh Renderer]]
+
+==Blendshapes==
+
+Blendshapes are the one test where vertex count mattered, but not by a lot. Blendshapes seem to take 0.005 ms per million vertices per blendshape, if all blendshapes are actively being changed.
+
+Some interesting information:
+
+* For frame time, It doesn’t seem to matter if only one vertex, or all vertices are being changed by a blendshape
+* For frame time, Inactive blendshapes seem practically free
+
+Blendshapes still have a VRAM cost, even when not changed, so they should still be eliminated where-ever possible.
+[[Category:Resources]]

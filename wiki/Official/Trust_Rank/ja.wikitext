@@ -1,0 +1,160 @@
+<languages/>
+{{Noticebox/Official}}
+'''トラストランク'''は VRChat の[[Special:MyLanguage/Trust and Safety|トラスト＆セーフティ]]システムの一部であり、すべてのユーザーが安全で楽しい時間を過ごせるように設計されている。このシステムは、ユーザーがいつコンテンツをアップロードできるかを決定し、ユーザーの行動を評価して、多くの変数の集合体を用いて「信頼度」を計算する。
+
+<span id="Ranks"></span>
+==ランク==
+
+ユーザーの信頼度は、VRChat の使用時間、コンテンツへの貢献度、交友関係などの指標である'''トラストランク'''に反映される。 
+
+ユーザーが得るランクは次のとおりである (低い順から):
+{| class="wikitable"
+|+
+| style="background-color: #bababa" |
+!Visitor
+|始まりのランク。
+|-
+| style="background-color: #1678ff" |
+!New User
+|[[Special:MyLanguage/avatars|アバター]]と[[Special:MyLanguage/worlds|ワールド]] を VRChat へアップロードできるようになる。ただし、ワールドは非公開でのみアップロードできる。
+|-
+| style="background-color: #2acf5b" |
+!User
+|[[Special:MyLanguage/worlds|ワールド]]を[[Special:MyLanguage/Community Labs|コミュニティラボ]]へ公開できるようになる。ほとんどの機能は、このランクで使用できるようになる。
+|-
+| style="background-color: #ff7c42" |
+!Known User
+|「User」ランクとして扱われるようにすることができる。
+|-
+| style="background-color: #8143e6" |
+!Trusted User
+|「User」ランクとして扱われるようにすることができる。
+|}
+
+<span id="Special_ranks"></span>
+===特殊なランク===
+
+{| class="wikitable"
+|+
+| style="background-color: #efea17" |
+!'''Friends'''
+|フレンドになったユーザーは、ノーマルシールドレベルにおいて、アバターのすべての機能が表示される。また、他の信頼ランクと同様に、表示内容を個別にカスタマイズすることができる。
+|-
+| style="background-color: #bababa" |
+!'''Nuisance'''
+|他のユーザーに問題を引き起こしたことがあるユーザーには、クイックメニューを開いた際に、ネームプレート上にインジケーターが表示される。これらのユーザーは、シールドレベルに関係なく、アバターが完全にブロックされ、デフォルトでミュート状態となる。ただし、手動でミュートを解除したり、アバター表示を有効にしたりすることは可能である。
+|-
+| style="background-color: #b52626" |
+!VRChat Team
+|このランクは、VRChat チーム (社員) のメンバーに付与されるものである。VRChatクライアント内で表示されるほか、VRChat アプリにおいてユーザープロフィールを閲覧した際や、アプリ内で信頼ランクの代わりにユーザーの頭上に表示される。また、VRChat のウェブサイト上でも、ユーザープロフィールや検索結果において、赤い枠線として表示される。
+|}
+
+=== 削除されたランク ===
+詳しくは[[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|削除された機能]]を参照。
+
+<span id="Gaining_ranks"></span>
+===ランクを上げる===
+
+トラストシステムの内部構造は、悪用を防ぐために意図的に隠されている。  
+
+しかし、トラストランクを上げる最善の方法は、VRChat で以下のような通常の活動をすることである: 
+
+*探検する
+*フレンドを作る
+*コンテンツを作る
+
+トラストランクが上がらない行為には以下が含まれる:
+*部屋でただ立っているだけや長時間の放置 (AFK)
+*労力の少ないコンテンツを大量にアップロードする
+*たくさんのユーザーとフレンドになりすぎる
+*他の VRChat ユーザーに対する嫌がらせ
+さらに、[[Special:MyLanguage/VRC+|VRC+]]に加入したり、VRC+のサブスクリプションを贈られたりすることで、トラストランクを一度だけ上げることも可能である。<ref>[https://hello.vrchat.com/vrchatplus VRC+]  VRChat 公式サイト; 2024年10月24日閲覧</ref>
+
+ただし、場合によってはトラストランクが直接上昇しないこともあるが、次のランクへ到達するための進行度が加算される。
+
+==トラストランクとセーフティ ==
+[[File:Shield_level.webp|thumb|300px|シールドレベルは、ユーザーのトラストランクに応じてカスタマイズ可能である。]]
+トラストランクは、他のユーザーがあなたのアバターをどのように表示するか、声を聴くことができるか、また[[Special:MyLanguage/Stickers|ステッカー]]や[[VRC+#Prints|プリント]]などの[[Special:MyLanguage/Gallery|ギャラリー]]コンテンツを閲覧できるかといった点に影響する。これらの挙動は、各ユーザーの[[Special:MyLanguage/Trust and Safety#Personal%20safety|セーフティのシールドレベル]]の設定に依存する。
+
+{| class="wikitable"
+!オプション名
+!影響を受ける機能
+|-
+|声
+|ユーザー
+|-
+|アバター
+|アバター
+|-
+|ユーザーアイコン
+|ソーシャル
+|-
+|カスタム画像
+|ソーシャル
+|-
+|ドローン
+|ソーシャル
+|-
+|オーディオ
+|アバター
+|-
+|ライトとパーティクル
+|アバター
+|-
+|シェーダー
+|アバター
+|-
+|カスタムアニメーション
+|アバター
+|-
+|アニメーション絵文字
+|ソーシャル 
+|}
+
+セキュリティや快適性に対するユーザーの好みに応じて、複数の'''プリセット'''が用意されている。
+
+<span id="Appearance_of_ranks_inside_VRChat"></span>
+==VRChat 内でのランクの表示==
+
+[[File:TrustRank_Example.png|right|frameless]]
+
+セーフティおよびトラストシステムは、ユーザー体験を妨げないよう配慮して設計されている。ユーザーのトラストランクは、クイックメニューを開いている間のみ表示される。
+この表示設定は、「ユーザーインターフェース」>「ネームプレート」、または[[Special:MyLanguage/Action Menu|アクションメニュー]]内の「オプション」>「ネームプレート」から変更することができる。
+
+*[[Special:MyLanguage/Nameplates|ネームプレート]]左上には、ユーザーのトラストランクが表示される。
+*ネームプレート右上には、アバターのパフォーマンスランクが表示される。
+
+=== ランクの移行 ===
+
+*'''Visitor から New User:'''「New User」ランクに到達すると、VRChat アカウントを使用している場合に限り、コンテンツを VRChat へアップロードできるようになる。このランク移行時には通知が表示され、コンテンツ制作に関する VRChat のドキュメントページへ案内される。
+*'''New User から User:'''「User」ランクに到達すると、ワールド、グループ、ユーザー、アバターをモデレーションチームに報告できるようになる。このランク移行時にも通知が表示される。
+*'''通知:'''ユーザーは、トラストランクが移行した際に通知を受け取る。
+*'''ランク表示の切り替え:'''「Known User」ランク以上のユーザーは、自身のランク表示を「User」として表示することを選択できる。この設定を有効にすると、トラストランクのアイコンおよびテキストが「User」ランクのものに変更され、セーフティシステム上の扱いも「User」ランクとして処理される。この切り替えは、プロフィールページのステータス下部、またはウィング内の「プロフィール」表示の最下部から設定可能である。
+
+== 公式リソース ==
+
+*[https://docs.vrchat.com/docs/vrchat-safety-and-trust-system Safety and Trust System] on ''docs.vrchat.com''
+*[https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 VRChat Safety and Trust System: Changes and Feedback] on Medium.
+
+<span id="See_also"></span>
+==関連項目==
+
+*[[Special:MyLanguage/Trust and Safety|トラスト＆セーフティ]]
+
+* [[Terms of Service]]
+* [[Community Guidelines]]
+* [[VRCWiki:Guidelines]]
+* [[VRCWiki:Disciplinary policy]]
+
+VRChat platform articles
+
+* [[Reporting]]
+* [[Bans]]
+* [[Two-Factor Authentication (2FA)]]
+
+<span id="References"></span>
+== 出典 ==
+
+[[Category:Features{{#translation:}}]]
+
+<references />

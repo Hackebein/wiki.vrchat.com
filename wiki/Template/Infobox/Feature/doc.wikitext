@@ -1,0 +1,134 @@
+{{Infobox/Feature
+|name= Example feature
+|image= VrcHomeThumb.png
+|platforms= All
+|vr= Yes
+|vrchatplus= Required
+|branch_live_date = 10 Dec 2010
+|branch_live_version = 2000.2.2
+|branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202433
+|branch_openbeta_date = 01 Dec 1970
+|branch_openbeta_version = 1970.1.1
+|branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202433-openbeta
+|branch_announcement_date = 01 Dec 1970
+|branch_announcement_link = https://ask.vrchat.com/t/developer-update-15-june-2023/18473
+}}
+{{Infobox/Feature
+|name= Example feature
+|image= VrcHomeThumb.png
+|platforms= Android
+|branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202441openbeta
+}}
+{{Infobox/Feature
+|name= Example feature
+|platforms= PC
+}}
+<noinclude>[[Category:Template Documentation]]</noinclude>
+<templatedata>
+{
+	"params": {
+		"name": {
+			"label": "Name",
+			"type": "string",
+			"required": true,
+			"description": "Name of the feature"
+		},
+		"image": {
+			"label": "Image",
+			"example": "thumbnail.webp",
+			"type": "wiki-file-name",
+			"suggested": true,
+			"description": "Representative image of the feature"
+		},
+		"platforms": {
+			"type": "string",
+			"required": true,
+			"label": "Platforms",
+			"suggestedvalues": [
+				"All",
+				"PC",
+				"Android",
+				"iOS"
+			],
+			"description": "Platforms supported by the feature."
+		},
+		"branch_openbeta_date": {
+			"label": "Branch | Open Beta - Date",
+			"type": "date",
+			"description": "Open Beta first appearance date of the feature"
+		},
+		"vrchatplus": {
+			"label": "VRC+",
+			"type": "string",
+			"suggestedvalues": [
+				"Required"
+			],
+			"description": "Whether VRC+ is required to use/access the feature"
+		},
+		"branch_openbeta_version": {
+			"label": "Branch | Open Beta - Version",
+			"example": "2024.3.3",
+			"description": "VRChat Open Beta version introducing the feature",
+			"type": "string"
+		},
+		"branch_openbeta_releasenote": {
+			"label": "Branch | Open Beta - Release Note",
+			"description": "Link to the VRChat Docs release note",
+			"example": "https://docs.vrchat.com/docs/vrchat-202441openbeta",
+			"type": "url"
+		},
+		"vr": {
+			"label": "VR only",
+			"description": "Whether VR is required to use/access the feature",
+			"suggestedvalues": [
+				"Yes"
+			],
+			"type": "string"
+		},
+		"branch_live_date": {
+			"label": "Branch | Live - Date",
+			"description": "Release date of the feature",
+			"type": "date"
+		},
+		"branch_live_version": {
+			"label": "Branch | Live - Version",
+			"description": "VRChat version introducing the feature",
+			"example": "2024.3.3",
+			"type": "string"
+		},
+		"branch_live_releasenote": {
+			"label": "Branch | Live - Release Note",
+			"description": "Link to the VRChat Docs release note",
+			"example": "https://docs.vrchat.com/docs/vrchat-202432",
+			"type": "url"
+		},
+		"branch_announcement_date": {
+			"label": "Branch | Announcement - Date",
+			"description": "Date of the first announcement",
+			"example": "20 Jun 2025",
+			"type": "date"
+		},
+		"branch_announcement_link": {
+			"label": "Branch | Announcement - Link",
+			"description": "Link to the first announcement",
+			"type": "url"
+		}
+	},
+	"description": "Template for major features (e.g. Stickers, Camera Drone, Selfie Expression) for use on their pages or sections, but not minor features like e.g. specific setting options or some subfeatures of a larger one.\nDoes the feature have its own distinctive and capitalized proper name and preferably own section in the release notes, or maybe is only for VRC+? It might be a major feature!",
+	"paramOrder": [
+		"name",
+		"image",
+		"platforms",
+		"vr",
+		"vrchatplus",
+		"branch_live_date",
+		"branch_live_version",
+		"branch_live_releasenote",
+		"branch_openbeta_date",
+		"branch_openbeta_version",
+		"branch_openbeta_releasenote",
+		"branch_announcement_date",
+		"branch_announcement_link"
+	]
+}
+</templatedata>

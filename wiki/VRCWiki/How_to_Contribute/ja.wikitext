@@ -1,0 +1,135 @@
+<languages/>
+VRChat Wikiへようこそ。
+
+私たちのナレッジベースの作成に興味を持っていただき、嬉しく思います。
+
+ここでは、以下のような内容を扱っています。
+
+* VRChatの使い方は？
+* VRChatの操作方法は？
+* VRChatでXを行うにはどうすればよい？
+* VRChatでワールドやアバターの作成を始めるには？
+
+すべてがワールドやアバターに関することではありません！
+
+コミュニティの貢献も[[Special:MyLanguage/VRCWiki:Community Hub|Community Hub]]で受け付けています。
+
+そこでは、さまざまなガイドや情報を見つけることができます。Hubにアクセスして探索してみましょう！
+
+また、クリエイターの方やVRChatのCreator CompanionやSDKの使用に興味がある方は、 {{VRC link|https://creators.vrchat.com/|Creator Documentation}} もおすすめです。
+
+このウェブページでは、VRChatでコンテンツを作成するための技術ドキュメントを確認できます。
+
+== Wikiへの貢献 ==
+VRChatアカウントでログインすれば、アカウントが良好な状態である限り、このWikiに貢献できます！
+
+まずは必ず[[Special:MyLanguage/VRCWiki:Guidelines|ガイドライン]]を読み、[[Special:MyLanguage/VRCWiki:Neutral_point_of_view|中立的な視点]]で執筆することの意味を理解してください。
+
+<u>自分自身のコンテンツ</u>や、会社・組織を代表して記事を作成・編集する場合は、公開前に必ずVRCWikiの[[Special:MyLanguage/VRCWiki:Conflicts of interest|利益相反ポリシー]]を確認する必要があります。
+
+== 名前空間 ==
+VRChat Wikiには、編集者が知っておくべき名前空間があります。
+これらの名前空間を理解しておくと、記事の作成や検索に役立ちます。
+
+* '''VRChat''' - <code>プレフィックスなし</code> - 公式VRChat Wikiページ。
+
+あなたや他の編集者によるVRChat記事の変更は、モデレーションの承認が必要で、レビュー後に反映されます。
+
+これらの記事は主にVRChat自身が作成したコンテンツ、または一般的なトピックを扱っています。
+
+また、[[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]]や[[Special:MyLanguage/VRChat SDK|VRChat SDK]]などの公式アプリケーションやソフトウェアも対象です。
+
+* '''Community''' - プレフィックス: <code>Community:</code> - コミュニティ用名前空間。
+
+ここにあるページは、コミュニティページ、ハブ、クリエイションに焦点を当てるべきです。
+
+また、Unity、Blender、プレハブなどのコミュニティ用アプリケーションやソフトウェアも対象です。
+
+これらのページは誰でも直接編集できます。
+
+[[Special:MyLanguage/:Category:Worlds|ワールドページ]]、[[Special:MyLanguage/:Category:Avatars|アバターページ]]、[[Special:MyLanguage/:Category:Guides|ガイド]]、[[Special:MyLanguage/:Category:Resources|リソース]]はここに含まれます。
+
+* '''Guides''' - プレフィックス: <code>Guides:</code> - ガイド記事用
+
+ガイド名前空間の記事は、タスクの達成方法、問題のトラブルシューティング、または高度なトピックの解説に焦点を当てています。
+
+ガイドは積極的かつVRChat、Unity、その他類似のソフトウェアに関連した内容であるべきです。
+
+* '''Category''' - プレフィックス: <code>Category:</code> - 曖昧な項目
+
+この名前空間は分類用で、曖昧な項目を整理されたリストにまとめるために使用されます。
+例: <nowiki>''Category:Community Content''</nowiki>
+
+* '''VRCWiki''' - プレフィックス: <code>VRCWiki:</code> - VRChat Wikiに関連するページ用の名前空間。
+
+* '''User''' - プレフィックス: <code>User:</code> - ユーザー名前空間
+
+ユーザー名前空間は編集者の「ホームページ」です。
+
+自分のユーザーページは、VRChatのガイドラインに従っていれば編集可能です。
+
+他の編集者のトークページに書き込むことは、公開メッセージを送ることと同等です。
+
+* '''Special''' - プレフィックス: <code>Special:</code> - 特殊ページ用の名前空間。
+
+== 新しいページの作成 ==
+新しいページを作成するには、ログインしてから、作成したいページのタイトルを[https://wiki.vrchat.com/index.php?search= 検索] してください。
+
+そのタイトルのページがまだ存在しない場合、新しいページを作成するオプションが表示されます。
+
+<blockquote>このWikiで "<span style="color:red">あなたの検索クエリ</span>" ページを作成する！</blockquote>  
+
+この赤いリンクをクリックすると、新しいページの作成画面に移動します。
+
+Community名前空間でページを作成するには、ページタイトルに<code>Community:</code>をプレフィックスとして付ける必要があります。
+
+例: <code>Community:World Name</code>。
+
+どの名前空間を使用すべきかの詳細については、[[Special:MyLanguage/VRCWiki:How_to_Contribute#Namespaces|上記]]を参照してください。
+
+== 画像のアップロード ==
+VRChat Wikiに画像をアップロードするには、[[Special:Upload|ファイルのアップロード]]ページにアクセスしてください。
+
+アップロードした画像は、編集する任意の記事に埋め込むことができます。
+
+「概要（Summary）」には画像の簡単な説明やキャプションを必ず記入してください。
+
+さらに重要なのは、適切なライセンスを選択することです。
+
+サポートされているファイル形式は「png、gif、jpg、jpeg、webp」ですが、
+
+静止画像をアップロードする場合は、画質を保ちつつ最適化された.web形式でのアップロードが一般的なベストプラクティスです。
+
+.png形式は容量が大きくなるため注意してください。
+
+なお、Wikiにアップロードできる画像の最大サイズは1枚あたり20メガバイトです。可能であれば、画像を.webp形式に変換してアップロードしてください。
+
+== 自分自身や他のユーザーについての記事は書かない ==
+VRChat Wikiは、機能、プレハブ、ワールドなど、VRChatのコンテンツに関する知識ベースです。
+
+このWikiは、自分自身や他のユーザーの個人情報を投稿する場所ではありません。
+
+自分のページには自由に作成・追記できますし、他の編集者とやり取りする場合は、
+別のユーザーのUser:ページのトーク/ディスカッションページを利用してください。
+
+== VRChatにはコンテンツ制限があります ==
+VRChatは{{VRC link|https://hello.vrchat.com/legal | 利用規約}}に基づき、13歳以上のユーザーを対象としたプラットフォームです。
+
+このWikiも同様です。
+
+性的描写や暴力的なコンテンツに関する記述は控え、内容には十分配慮してください。
+
+== ディスカッションページ ==
+[[File:DiscussionPageHighlighted.webp|thumb|ディスカッションタブへのリンクは、すべてのページの左上に表示されます。]]
+各ページにはディスカッションページもあり、ページの内容について話し合うために使用されます。
+
+議題ごとに新しい見出しを作成し、タイトルと議論したい内容を記入してください。
+
+投稿が完了したら、本文の直後に<code><nowiki>~~~~</nowiki></code>を追加します。
+これにより、段落の末尾に自動的にユーザー名とタイムスタンプが挿入されます。
+
+例:<br> <code>== 新しい議題 ==</code><br> 
+
+<code>何かについての議論の本文。 --Another User (talk) 00:00, 2024年6月22日 (UTC)</code><br> 
+
+<code>: 議題への返信。 <nowiki>~~~~</nowiki></code>

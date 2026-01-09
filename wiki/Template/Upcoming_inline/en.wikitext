@@ -1,0 +1,5 @@
+<includeonly>{{#if:{{{1|}}}
+ | {{#if:{{{2|}}}
+    | <sup>[upcoming [https://{{{2}}} {{{1}}}]]</sup>
+    | <sup>[upcoming {{{1}}}]</sup>}}
+    | <sup>[upcoming]</sup>}} [[Category:Upcoming{{#translation:}}]]</includeonly><noinclude>{{Documentation}}[[Category:Templates{{#translation:}}]][[Category:Inline_Templates{{#translation:}}]]</noinclude>

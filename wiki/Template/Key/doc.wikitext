@@ -1,0 +1,38 @@
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Text",
+			"description": "The text to display inside the button",
+			"example": "Ctrl",
+			"type": "string",
+			"required": true
+		},
+		"2": {
+			"label": "Hover-text",
+			"description": "(Optional) the full name of the button to show when hovered (defaults to whatever Text is set to)",
+			"example": "Control",
+			"type": "string",
+			"suggested": true
+		},
+		"3": {
+			"label": "Shape",
+			"description": "(Optional) shape of the button. rect/circle (defaults to rect)",
+			"example": "circle",
+			"type": "string",
+			"suggestedvalues": [
+				"rect",
+				"circle"
+			],
+			"default": "rect",
+			"suggested": true
+		}
+	},
+	"description": "For displaying a keybind as a rectangle or circle",
+	"paramOrder": [
+		"1",
+		"2",
+		"3"
+	]
+}
+</templatedata>

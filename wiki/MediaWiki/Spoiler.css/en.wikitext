@@ -1,0 +1,32 @@
+.spoiler {
+	position: relative;
+}
+
+.spoiler .spoiler-overlay {
+	position: absolute;
+	inset: 0;
+	background-color: var(--very-dark-grey);
+	display: flex;
+	border-radius: 8px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.spoiler .spoiler-overlay span {
+	margin: auto;
+	font-weight: 600;
+}
+
+.spoiler .spoiler-overlay, .spoiler .spoiler-content {
+	transition: opacity .25s;
+}
+
+.spoiler .spoiler-overlay, .spoiler[data-open] .spoiler-content {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.spoiler[data-open] .spoiler-overlay, .spoiler .spoiler-content {
+	opacity: 0;
+	pointer-events: none;
+}

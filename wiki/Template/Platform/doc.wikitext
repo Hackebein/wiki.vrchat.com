@@ -1,0 +1,48 @@
+== Documentation ==
+Allows for the usage of platform indicator icons.
+=== Example Usage ===
+<nowiki>{{Platform|windows|64px}}</nowiki>
+
+will make: {{Platform|windows|32px}}
+
+=== Template parameters ===
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Platform",
+			"type": "string",
+			"suggestedvalues": [
+				"windows",
+				"android",
+				"ios",
+				"crossplatform"
+			],
+			"default": "windows",
+			"suggested": true,
+			"description": "What platform indicator you want displayed",
+			"example": "android"
+		},
+		"2": {
+			"label": "Icon size (in pixels)",
+			"description": "Changes the size of the icon in pixels.",
+			"type": "number",
+			"suggestedvalues": [
+				"16",
+				"32",
+				"64",
+				"128"
+			],
+			"default": "32",
+			"suggested": true
+		}
+	},
+	"paramOrder": [
+		"1",
+		"2"
+	],
+	"format": "inline",
+	"description": "Platform indicator icon"
+}
+</templatedata>
+<noinclude>[[Category:Template Documentation]]</noinclude>

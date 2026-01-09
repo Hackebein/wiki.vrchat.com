@@ -1,0 +1,154 @@
+<languages/>
+{{Noticebox/Official}}
+'''Kamera''' ist ein In-Game-Tool, mit dem Nutzer Fotos aufnehmen können, um ihre Erlebnisse in VRChat festzuhalten
+
+== Zugriffsmöglichkeiten ==
+Es gibt mehrere Wege, die Kamera in VRChat zu öffnen:
+* Öffne das [[Special:MyLanguage/Action Menu|Aktionsmenü]], wähle '''Werkzeuge''' und dann '''Kamera'''.
+* Öffne das [[Special:MyLanguage/Quick Menu|Schnellmenü]] und klicke auf den Kamera-Reiter unten. Das Schnellmenü bietet Zugriff auf alle Kameramodi.
+* Doppelklicke den Kamera-Button am unteren Rand des Schnellmenüs, um die Kamera sofort auszurufen oder wegzustecken.
+
+== Arten ==
+[[File:Camera menu.webp|thumb|Kamera-Reiter im Schnellmenü.]]
+'''Fotokamera:'''
+Eine Standardkamera zum Aufnehmen von Bildern.
+'''Stream-Kamera:'''
+Wird für Streams oder Aufnahmen verwendet und zeigt dabei nicht deine direkte Sicht, sondern einen eigenen Kamerabildschirm. 
+
+Dabei wird im VRChat-Desktop-Fenster die Perspektive der Kamera angezeigt, nicht die Sicht des Nutzers.
+** Sofortbild-Kamera:**
+Funktioniert wie die Fotokamera, erlaubt aber zusätzlich das Ausdrucken des aufgenommenen Bildes.
+Icon-Kamera (nur für [[Special:MyLanguage/VRChat+|VRC+]]-Mitglieder):
+Hiermit lässt sich ein Foto aufnehmen, das in der eigenen Galerie gespeichert und später für Namensplättchen- oder Gruppen-Symbole verwendet wird.
+Galerie-Kamera (nur für VRC+):
+Dient dazu, Fotos zu schießen, die in der persönlichen Galerie landen und anschließend im Profil, auf Gruppenbannern oder in Einladungen angezeigt werden können.
+Screenshot:
+Desktop-Nutzer können hier einen Screenshot erstellen, der automatisch im VRChat-Fotos-Ordner auf der Festplatte abgelegt wird. 
+
+Multilayer-Kamera:
+Nimmt mehrere Bilder in schneller Folge mit unterschiedlichen Ebenen auf; unterstützt jedoch keine Fokussierung oder Filter und kann zu Bildraten-Einbrüchen führen.
+
+<div class="mw-translate-fuzzy">
+Dabei werden drei Foto-Typen erzeugt:
+„All-in-One“ – vollständiges Bild
+„Nur Umgebungsebene“ – nur die Welt ohne Avatare
+„Nur Lokale Spieler + Entfernte Spieler“ – nur die Avatare ohne Welt
+Einladungsfoto-Kamera (nur für VRC+):
+Ermöglicht es, ein Foto zu schießen, das optional mit einer Einladung oder Antwort versendet wird.
+</div>
+
+== Benutzeroberfläche ==
+[[File:Camera.png|thumb|Übersicht der VRChat-Kamera.]]
+Die Kamera-UI enthält mehrere Symbole und Anzeigen:
+'''X oben links:''' Beendet die Kamera.
+'''Kamera- und Foto-Symbole:''' Zeigen an, welche Kamera aktiv ist.
+'''Pin-Symbol:''' Zeigt den aktiven Pin (gespeicherte Einstellungen) an.
+'''Fokus-Symbol:''' Zeigt an, ob Fokus verwendet wird und welcher Fokusmodus ausgewählt ist.
+'''Filter-Kreise:''' Zeigen an, ob ein Filter angewendet ist und welcher Filter ausgewählt ist.
+'''Drehkreis oben in der Mitte:''' Zeigt an, ob die Kamera von dir weg oder zu dir hin ausgerichtet ist.
+'''Drehpfeil rechts:''' Setzt den Zoom zurück.
+'''Zoom-Leiste rechts:''' Passt den Zoom an; nach unten bewegen für Zoom-out (Fischaugenobjektiv), nach oben für Zoom-in.
+'''Pfeil unten:''' Minimiert das Menü.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Menu ==
+* '''Take Photo:''' Takes a photo immediately.
+* '''Timed (5s):''' Takes a photo after a 5-second delay with a countdown sound.
+* '''Camera Mode:''' Expands different modes for the camera.
+** Local Photo, Multi Layer, Stream
+*** [[Special:MyLanguage/VRChat+|VRC+]] exclusive: Gallery Photo, User Icon, Sticker, Prints, Emoji
+* '''Anchor:''' Determines where the camera is attached.
+** '''Default:''' Attached to the user.
+** '''Local:''' Follows user movement but not head movement.
+** '''World:''' Attached to the world, independent of user movement.
+* '''Behavior:''' Adjusts camera performance.
+** '''Smoothed:''' Stabilizes video for smoother footage.
+** '''Look at Me:''' Camera follows where your head is facing.
+** '''Auto Level:''' Keeps the camera level, preventing tilting.
+* '''Focus:''' Controls the focus mode.
+** '''Full Auto:''' Automatically sets the aperture and focal distance.
+** '''Semi Auto:''' Allows adjustment of aperture only.
+** '''Manual:''' Allows adjustment of both aperture and focal distance.
+* '''Pins:''' Saved settings for focus and filter configurations.
+* '''Mask:''' Determines which layers are included in pictures.
+** '''Local User:''' Includes the user and their avatar.
+** '''Remote User:''' Includes other users.
+** '''Environment:''' Includes the world environment.
+** '''Green Screen:''' Replaces the environment with a green screen.
+** '''UI:''' Includes UI elements like the radial menu and camera interface.
+** '''Items:''' Includes items placed by users in the world.
+* '''Lens Visibility:''' Sets how the camera is rendered within the world.
+** '''Off:''' Shows only a small light.
+** '''Ghost:''' Displays a light blue transparent camera lens.
+** '''Solid:''' Displays a solid camera lens.
+* '''Filters:''' Adds visual filters to the camera. Only one filter can be active at a time.
+* '''Photo Resolution:''' Sets the photo resolution. Higher resolutions create larger files and may cause frame lag.
+* '''Grid:''' Overlays a 3x3 grid on the camera screen for visual assistance. The grid does not appear in the actual picture.
+* '''Lock (VR Only):''' Lock the camera so that it cannot be held. This can only be used in VR.
+* '''Fly Mode:''' The camera can be manually controlled within proximity to yourself. Holding down the scroll wheel on desktop, and using a combination of mouse movement and 'WASD' keys will pilot the camera around. In VR, clicking the "Fly" button and using the left and right joysticks after pressing the trigger will toggle movement between the camera, and your avatar.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Manual controls ===
+When focus is put to semi auto or manual additional controls show up.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''Focal Distance:''' At which distance the camera is focused to.
+* '''Aperture:''' How open the aperture is, the lower this number the more blur appears on everything that is not in focus.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Camera Dolly ==
+''See also [[Special:MyLanguage/Camera Dolly|Camera Dolly]] for more detailed information.''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The camera dolly is a [[Special:MyLanguage/VRChat+|VRC+]] exclusive system that allows you to create and play animations for the VRChat camera.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Hint:''' Access to the Camera Dolly, allows you to unlock a further camera fly range after you toggle the camera dolly on and off once.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Camera Drone ==
+''See also [[Special:MyLanguage/Camera Drone|Camera Drone]] for more detailed information.''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The camera drone is [[Special:MyLanguage/VRChat+|VRC+]] exclusive. It serves as a fully-functional drone that you can pilot within VRChat, either for recording purposes or simply to fly around and have fun with friends.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Accessing saved photos ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''Windows operating systems''' will store VRChat photos using the default file path of the Pictures folder <code>''C:/Users/(Owner)/Pictures/VRChat''</code>. Photographs will be sorted by month and year. On desktop and PCVR versions of VRChat, opening the Camera tab in the Quick Menu and choosing "Open Photos Folder" will directly open the File Explorer to that file path.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''Steam''' users can access their '''Steam screenshots''', separate from VRChat photos using the default file path <code>''C:/Program Files (x86)/Steam/userdata/XXXXXXXXX/760/remote/438100/screenshots''</code>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''Standalone Quest''' users can access their photos through the Quest's Files app on the system dashboard or through the Oculus app on their phone or other device if synced.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''Mobile Android and iOS''' devices can access their VRChat photos through the Gallery app, or from the Files app on their device.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== See also ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Special:MyLanguage/Camera Dolly|Camera Dolly]]
+* [[Special:MyLanguage/Camera Drone|Camera Drone]]
+* [[Special:MyLanguage/Gallery|Gallery]]
+</div>
+{{Start-navbox}}
+[[Category:User Interface{{#translation:}}]]
+[[Category:Features{{#translation:}}]]

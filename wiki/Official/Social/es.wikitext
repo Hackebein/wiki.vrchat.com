@@ -1,0 +1,186 @@
+<languages/>
+{{Noticebox/Official}}
+VRChat viene con una gran cantidad de herramientas sociales para los usuarios. ¡Como amigos, invitaciones, notas y más!
+
+<span id="User_Profiles"></span>
+== Perfiles de usuario ==
+[[File:UserProfile.webp|thumb|Perfil de un usuario de VRChat]]
+Introducido en la [https://docs.vrchat.com/docs/vrchat-202123 actualización de identidad], los perfiles de usuario son un espacio personalizado donde se muestra información sobre un usuario. La información en el perfil incluye: [[Special:MyLanguage/Social#Statuses|estado]], [[Special:MyLanguage/Trust_Rank|rango de confianza]], [[Special:MyLanguage/Social#Pronouns|pronombres]], biografía, [[Special:MyLanguage/Instances|estancia]] actual (si aplica), idiomas que habla, enlaces sociales, [[Special:MyLanguage/Badges|insignias]] que posee y los [[Special:MyLanguage/Groups|grupos]] a los que pertenece.
+
+En el perfil de un usuario, hay varias [[Special:MyLanguage/Social#Actions|acciones]] que puedes realizar, como enviar una solicitud de amistad o una invitación a una estancia.
+
+<span id="Statuses"></span>
+=== Estados ===
+
+Los estados se pueden establecer en el [[Special:MyLanguage/Quick Menu|menú rápido]], [[Special:MyLanguage/Main Menu|menú principal]] o en la {{VRC link|https://vrchat.com/home|página web de VRChat}} y se usan para lo siguiente: controlar qué tan fácil es para los amigos de un usuario unirse a su estancia, variar si los amigos pueden ver la estancia en la que está actualmente el usuario, silenciar notificaciones y comunicar una actividad.
+
+Los estados consisten de un color y una frase corta personalizable (hasta 32 caracteres). Hay cuatro estados diferentes en VRChat:
+
+{| class="wikitable"
+! scope="col" style="width:13em" |Estado
+!Descripción
+|-
+|<div style="background-color:rgb(66, 202, 255);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Blue"></div>Únete a mi (azul)
+|Tus amigos pueden ver la estancia en la que te encuentras y pueden unirse libremente con las mismas reglas que el estado [[Special:MyLanguage/Social#Statuses|en línea]].
+Sin embargo, si la [[Special:MyLanguage/Instances|estancia]] es privada y no visible, todas las solicitudes de invitación de amigos se aceptan automáticamente, siempre que tengas permiso para aceptarlas.
+|-
+|<div style="background-color:rgb(81, 229, 126);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Green"></div>En línea (verde)
+|Tus amigos pueden ver la estancia en la que te encuentras y pueden unirse a ella sin necesidad de invitación.
+Sin embargo, tus amigos no podrán ver ni unirse a la estancia sin una invitación si esta se considera "privada".
+Tu estancia es visible y accesible para tus amigos sin solicitar una invitación en los siguientes casos:
+*La estancia es de tipo [[Special:MyLanguage/Worlds#Instance Types|Amigos+]], [[Special:MyLanguage/Worlds#Instance Types|Grupo+]], [[Special:MyLanguage/Worlds#Instance Types|Pública]] o [[Special:MyLanguage/Worlds#Instance Types|Grupo público]].
+*La estancia es de tipo [[Special:MyLanguage/Worlds#Instance Types|Amigos]] y tú o un amigo en común son el creador de la estancia.
+*La estancia es de tipo [[Special:MyLanguage/Worlds#Instance Types|Grupo]] y tus amigos son miembros del grupo y tienen permiso para unirse a la estancia según sus roles dentro del grupo.
+*La estancia es de tipo [[Special:MyLanguage/Worlds#Instance Types|Invitación]] o [[Special:MyLanguage/Worlds#Instance Types|Invitación+]] y tus amigos están regresando a la estancia que ellos crearon.
+|-
+|<div style="background-color:rgb(232, 129, 52);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Orange"></div>Pregúntame (naranja)
+|Tus amigos no pueden ver la estancia en la que te encuentras.
+Deben solicitarte una invitación para poder unirse, independientemente de la privacidad de la estancia.
+|-
+|<div style="background-color:rgb(91, 11, 11);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Red"></div>No molestar (rojo)
+|Tus amigos no pueden ver la estancia en la que te encuentras. Pueden solicitar unirse, pero no recibirás ninguna notificación. De hecho, no podrás enviar ni solicitar invitaciones a tus amigos dentro del juego si están en ese estado.
+* Las solicitudes de amistad entrantes se reciben de forma silenciosa en la bandeja de entrada de "Solicitudes de amistad".
+* La respuesta a una solicitud que envíes (por ejemplo, una solicitud de invitación) sí se mostrará.
+* Las notificaciones de grupos están desactivadas.
+|}
+<span id="Pronouns"></span>
+=== Pronombres ===
+
+Los [[es.wikipedia:Pronombre|pronombres]] se pueden mostrar en la biografía para indicar a los demás cómo referirse a ellos. Al establecerlo, los pronombres se mostrarán en la biografía y también debajo de la [[Special:MyLanguage/Nameplates|placa de nombres]].
+<gallery>
+Pronouns1.webp|Visible en la biografía de la página web
+Pronouns3.webp|Visible en la biografía en el juego
+Pronouns2.webp|Visible en la biografía en el teléfono
+</gallery>
+
+<span id="Bio"></span>
+===Biografía===
+
+La biografía es un párrafo de texto escrito por el usuario que se usa generalmente para describirse o presentarse, aunque puede utilizarse con cualquier propósito. La biografía puede tener hasta 500 caracteres.
+
+Actualmente, los emojis y algunos símbolos especiales (por ejemplo, fracciones) no son compatibles. Algunos caracteres especiales conocidos que sí están permitidos son:
+ ๑ -༊ ༄․ೃ࿔ ೋ 彡ღ ͟͟͞ ೄྀ ͙༉ ¸୨୧、˒˒ ֒ ˗ˏˋ ˎˊ˗ ̤̮ ̤̥ ＋+ ˙· ˚ ∗ン ィ ％ ！ ﹏ ？ ? ζ ২ १ ୫ ૪ ໒ ৎ ຊ ຯ ೨ ໑ ७ ५ ୭ ˚ ·˖ ˸ જ Թ Ծ ౿ ੭ ୬ ෧ ୪ ১ ﹅﹆ ჲ ᴥ ફ ળ ਨ ৬ ৫ ২ ণ ଽ ︶ ଲ ମ 〄֍ 〧 ౾ ౽ 〨 ㆐ ︳ ㄔ ഒ ＊ ٠ っ｡̀ ́૭ ֊ ˙ ˶﹏ აପ ๑ଓ ଘ ∗ ੈ ᵕ ˘͈ ․. ༘ ̀ ́ ৻ づᴗʚïɞ૮ ˙˙ ඞ ༒ ໒ྀི ๑ ´ ˘ ` ྀི ʕω ʔ و ヮಡ ง¬༼︿༽ 亞ト丁してﾌ￣＿ఌ༅ ᆺ 〜 ༺ ༻ Ө Տ Ӈ ₳ เ ђ ς<!--Add other supported characters?-->
+
+<span id="Actions"></span>
+=== Acciones ===
+
+Dentro del perfil de un usuario hay varias acciones que puedes realizar, estas variarán dependiendo si tienes al usuario agregado como amigo o no.
+
+[[File:UserProfile_UserActions.webp|thumb|Acciones disponibles para un usuario no amigo.]]
+[[File:UserProfile_FriendActions.webp|thumb|Acciones disponibles para un usuario amigo.]]
+
+
+{| class="wikitable"
+!Acción
+!Descripción
+|-
+|Unirse<ref group="actions" name="friends-only">Estas acciones solo se pueden realizar con amigos.</ref>
+|Te unes a la estancia del usuario.
+|-
+|Solicitar invitación<ref group="actions" name="friends-only"></ref>
+|Envías al usuario una notificación informándole que te gustaría unirte a su estancia. La notificación incluye un mensaje personalizable y, con [[Special:MyLanguage/VRC+|VRC+]], también se puede añadir una foto a la notificación.
+|-
+|Enviar invitación<ref group="actions" name="friends-only"></ref>
+|Envías al usuario una notificación informándole que te gustaría unirte a su estancia. La notificación incluye un mensaje personalizable y, con [[Special:MyLanguage/VRC+|VRC+]], también se puede añadir una foto a la notificación.
+|-
+|Regalar VRC+
+|Abres un menú que te permite comprar [[Special:MyLanguage/VRC+|VRC+]] para el usuario. ''Consulta [[Special:MyLanguage/VRC+#Regalar_VRC+|Regalar]] para información más detallada.''
+|-
+|Solicitar amistad
+|Envías al usuario una solicitud de amistad que puede aceptar o rechazar.
+|-
+|Eliminar de amigos<ref group="actions" name="friends-only"></ref>
+|Eliminas al usuario como amigo.
+|-
+|Añadir amigo a favoritos<ref group="actions" name="friends-only"></ref>
+|Te permite agregar al usuario a una lista de amigos favoritos, como con avatares y mundos.
+|-
+|Eliminar amigo de favoritos<ref group="actions" name="friends-only"></ref>
+|Eliminas al usuario de tu lista de amigos favoritos.
+|-
+|Moderar usuario
+|Abres un menú que te permite moderar al usuario para, por ejemplo, bloquearlo. ''Consulta [[Special:MyLanguage/Trust and Safety#User Moderation tools|herramientas de moderación de usuarios]] para información más detallada.''
+|-
+|Desbloquear
+|Desbloqueas a un usuario bloqueado ''(solo se muestra para los usuarios bloqueados)''.
+|-
+|Añadir nota
+|Te permite añadir un fragmento de información al usuario que solo tú puedes ver; puede usarse para cualquier propósito. Por ejemplo, puedes anotar cómo conociste a ese usuario, los nombres por los que se le conoce o su nombre de usuario en otras plataformas.
+|-
+|Invitar al grupo
+|Abres un menú que te permite invitar al usuario a un grupo, siempre que tengas los permisos necesarios para hacerlo. ''Consulta [[Special:MyLanguage/Groups|Grupos]] para información más detallada.''
+|-
+|Mostrar en la página web
+|Te abre el perfil del usuario en la {{VRC link|https://vrchat.com/home|página web de VRChat}}.
+|}
+<references group="actions"/>
+
+<span id="Uploaded_&amp;_Favorited_Worlds"></span>
+===Subir y añadir mundos a favoritos===
+
+Debajo de las [[Special:MyLanguage/Social#Actions|acciones]] se puede encontrar una lista de mundos subidos por el usuario, así como cualquier lista de mundos favoritos visible públicamente. Estos pueden ordenarse por fecha en la que se añadió, última actualización, nombre y recientemente usado.
+
+<span id="Social_Menu"></span>
+==Menú social==
+
+[[File:Social Menu.webp|thumb|alt=Una imagen de la pestaña social en el menú principal en VRChat.|La pestaña social en el menú principal en VRChat.]]
+
+<span id="Friend_Locations"></span>
+===Ubicaciones de amigos===
+
+Las '''ubicaciones de amigos''' incluye una lista de amigos que están disponibles con el estado "En línea" (verde) o "Únete a mí" (azul), y que se encuentran en un mundo accesible, como estancias Públicas, Amigos+, Amigos, Grupo público o Grupo+.
+Debajo de estos usuarios disponibles, también se mostrará una lista de todos los amigos que están actualmente en estancias privadas.
+
+<span id="Group_Activity"></span>
+===Actividad del grupo===
+
+La '''actividad del grupo''' incluye una lista de estancias de [[Special:MyLanguage/Groups|grupos]] disponibles para los grupos a los que te has unido. Al crear una estancia de tipo Grupo, Grupo+ o Grupo público, si tienes la capacidad para hacerlo, esta aparecerá en la pestaña de "Actividad del grupo" para los usuarios de ese grupo. 
+
+<span id="Online_Friends"></span>
+===Amigos en línea===
+
+ 
+Los '''amigos en línea''' muestra la lista completa de tus amigos que están actualmente en línea, incluyendo a los amigos con estado "Pregúntame" (naranja) o "No molestar" (rojo). También muestra a tus amigos activos en la página web o a aquellos que están desconectados.
+
+<span id="In_Instance"></span>
+===En la estancia===
+
+'''En la estancia''' muestra a cada usuario que está presente actualmente en la estancia en la que te encuentras; los usuarios que te tengan bloqueado, aunque estén dentro de la misma estancia contigo, pueden no aparecer en esta pestaña, a menos que seas el anfitrión o un moderador de estancia de [[Special:MyLanguage/Groups|grupo]]. La pestaña "Aquí" en el menú rápido funciona igual que esta sección. 
+
+<span id="Favorite_Friends"></span>
+===Amigos favoritos===
+
+Los '''amigos favoritos''' son tres filas de amigos que has elegido como 'Favoritos'. Pueden colocarse en una de las tres filas. Cada lista puede ser renombrada para facilitar la organización. 
+
+<span id="Blocked"></span>
+===Bloqueados===
+
+Los '''bloqueados''' son los usuarios que has decidido bloquear. Se pueden seleccionar en esta pestaña y desbloquear si lo deseas.
+
+<span id="Friends"></span>
+==Amigos==
+
+{{Stub|Add quirks that have to do with friends and such.}}
+Los amigos en VRChat son otros usuarios en quienes confías; funciona de manera similar a cómo se agregan amigos en otras plataformas. Puedes ver cuándo ese usuario está en línea o en la página web, enviar y recibir invitaciones de ellos, y añadirles notas. Los amigos dentro de tu estancia tendrán su nombre en amarillo, y también aparecerá su rango en amarillo con un indicador de (Amigo).
+
+==En común==
+{{Stub|Expand on how to see, and disabling mutuals}}
+<!-- Do we want a feature infobox? -->
+{{Infobox/Feature
+|name=En común
+|image=
+|platforms= PC, Android, iOS
+|branch_live_date = December 3, 2025
+|branch_live_version = 2025.4.2
+|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202542 2025.4.2]
+|branch_openbeta_date = November 10, 2025
+|branch_openbeta_version = 2025.4.2 Build 1761
+|branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202542-openbeta 2025.4.2 Open Beta]
+}}
+
+"En común" es una función que permite al usuario ver amigos o grupos en común con otros usuarios. Esta función se está implementando de forma gradual.<ref>[https://docs.vrchat.com/docs/vrchat-202542#mutuals VRChat 2025.4.2]</ref>
+
+Hay dos formas de ver la opción "En común", en el menú rápido o en el menú principal con un botón llamado "Mostrar X en común". En el menú rápido, el botón se encuentra arriba de las acciones del usuario. En el menú principal, el botón está en la parte superior derecha, junto al botón de denunciar. Si deseas evitar que otros usuarios vean tus amigos y grupos en común o que aparezcas como en común para otros, puedes desactivar "Mostrar en común" en la sección '''Confort y seguridad''' de tus ajustes en el menú principal. Al hacer esto, el texto del botón cambiará de "Mostrar X en común" a "Sin en común conocidos". Además, tu icono de usuario se ocultará y tu nombre aparecerá como "En común oculto" cuando aparezcas en los en común de alguno de tus amigos.
+
+==Referencias==
+<references />

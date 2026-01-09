@@ -1,0 +1,222 @@
+{{Noticebox/Official}}{{Noticebox/Stub|This page is not yet complete! You can contribute, by expanding and proofreading, in accordance with the [[VRCWiki:Manual of Style|Manual of Style]].}}
+
+'''Video players''' are [[Prefabs|prefabs]] in VRChat [[Worlds|worlds]], using [[Udon]], that allow users to share, or stream video content simultaneously. VRChat officially uses two types of video players in their [[VRChat SDK|SDK]], ''VRCAVProVideoPlayer'', and ''VRCUnityVideoPlayer''<ref>[https://creators.vrchat.com/worlds/udon/video-players/ Video Players | VRChat Creation] on ''creators.vrchat.com; retrieved December 7, 2024</ref>. However, there are different [[Community:Video players|community-created]] video player prefabs, with different user interfaces, and preferences. All video players utilize world audio, and most video players have a volume slider on the user interface.
+
+==Video compatibility==
+Using VRChat's default [[Settings|settings]], video players can play videos from their list of [[Trusted URLs|trusted sources]], such as YouTube and Twitch. However, by toggling "Allow Untrusted URLs" in your settings, videos from most sources should be able to play and be watched, and as long as it's a supported video format, or stream codec, by the player.
+
+Playing videos not from the video player allowlist<ref>[https://creators.vrchat.com/worlds/udon/video-players/www-whitelist/ Video Player Allowlist] on ''creators.vrchat.com''; retrieved December 7, 2024.</ref> in Public [[Instances|instances]] may be limited, unless the world creator has that domain or host whitelisted.
+
+=== Video codecs and containers ===
+If hosting video yourself, VRChat may or may not be able to play various filetypes, depending on the user's platform.  This also varies depending on whether the player is using AVPro or Unity video player.
+
+(This table is a work in progress, please fill in other platforms as you're able. Platform compatibility can be tested within this [https://vrchat.com/home/world/wrld_bcc3fb8b-6bbd-4ea8-991b-7f7da49c1a56/info community world].) 
+{| class="wikitable"
+|+
+!
+!
+!Win 10
+!Win 11
+!Steam Deck
+!Quest 2
+!Quest 3
+!Android<ref group="note">needs always to be served over https</ref>
+!iOS
+|-
+|Codec
+|Container
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+|-
+!H.264
+!MP4
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+|-
+!H.265
+!MP4
+| align="center" |? <ref group="note" name="hevc_video_extentions">Requires [https://apps.microsoft.com/detail/9nmzlz57r3t7 HEVC Video Extensions] to be installed</ref>
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+|-
+!VP8
+!WebM
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+|-
+!VP9
+!WebM
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+|-
+!VP9
+!MKV
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+|-
+!AV1
+!MP4
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+|-
+!AV1
+!WebM
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+|-
+!AV1
+!MKV
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+|-
+|colspan=2|Audio Only:
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+|-
+!AAC
+!M4A
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+|-
+!AAC
+!MP4
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+|-
+!FLAC
+!FLAC
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+|-
+!FLAC
+!MP4
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+|-
+!MP3
+!MP3
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+|-
+!MP3
+!MP4
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+|-
+!OGG
+!OGG
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+|-
+!OGG
+!MKV
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+|}
+<references group="note" />
+
+==In the SDK==
+You can add video players to your VRChat world with the SDK's VRCAVProVideoPlayer or VRCUnityVideoPlayer. The easiest way to put a Video Player in your Udon world is by using one of the Prefabs, which you can find in: ''Packages/VRChat SDK - Worlds/Samples/UdonExampleScene/Prefabs/VideoPlayers''.
+
+==Official resources==
+* {{VRC link|https://creators.vrchat.com/worlds/udon/video-players |Video Players}} on ''creators.vrchat.com''
+* {{VRC link|https://creators.vrchat.com/worlds/udon/video-players/www-whitelist/ |Video Player Allowlist}} on ''creators.vrchat.com''
+* {{VRC link|https://creators.vrchat.com/worlds/examples/udon-example-scene/udon-video-sync-player/ |Udon Video Sync Player}} on ''creators.vrchat.com''
+
+==See also==
+* [[Trusted URLs]]
+* [[Udon]]
+* 
+==References==
+
+[[Category:Video players]]
+[[Category:Needs images]]

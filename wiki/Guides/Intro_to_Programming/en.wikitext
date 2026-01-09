@@ -1,0 +1,99 @@
+
+{{Noticebox/Community}}
+{{Noticebox/wip}}
+
+== About this guide ==
+
+[[Udon]] is a programming language for adding interactivity to VRChat worlds. UdonSharp is a tool for creating Udon scripts by writing in C#, which is the programming language most Unity games are made in. This guide aims to teach the basics of programming so that someone who has never programmed before can create their own Udon scripts with UdonSharp.
+
+This is not meant to be a comprehensive programming guide; its aim is to just teach enough to help people create interactive VRChat worlds.
+
+== Computer Science 101 ==
+=== Hardware ===
+{{Noticebox
+|image=CautionTriangle.png
+|title=Simplified Explanation Ahead
+|description=You don't need to know how CPU chips work to write code so I'm going to be simplifying all my explanations to get through it as quickly as possible.
+}}
+
+==== Silicon to Transistors ====
+Silicon is a '''semi-conductor''' -- a material that isn't a conductor and isn't an insulator, but somewhere in between.
+
+There are two ways to nudge the conductivity of silicon one way or another:
+
+# By mixing it with other materials (known as doping<ref>https://en.wikipedia.org/wiki/Doping_(semiconductor)</ref>).
+# By placing it in the electric field of a nearby charged piece of metal (known as the field effect<ref>https://en.wikipedia.org/wiki/Field_effect_(semiconductor)</ref>).
+
+If you apply an electric current to a pure silicon wafer and dope it so that some of it is more conductive is more than other parts, the electric current will only travel through the slightly more conductive parts because it's the path of least resistance. CPU manufacturers take advantage of this phenomenon to essentially print out a maze of pathways that electricity can take through your CPU, and then they add transistors to control which pathways are opened or closed.
+
+A transistor is a tiny microscopic device that utilizes the field effect to change the conductivity of a piece of silicon. Doping changes silicon's conductivity by adding materials that have either too many or too few free electrons. If you place an electric charge next to this piece of silicon, the electric field from the charge will either attract or repel the free electrons and you will be able to temporarily change the amount of free electrons.
+
+The diagram below shows a transistor that was doped to be non-conductive, but the electric charge applied to the top part known as the "gate" makes it conductive again. You can also make transistors that do the reverse. You can think of it as opening and closing a gate to allow a current through and some transistors default to the closed state and some transistors default to the open state.
+
+[[File:Transistor-diagram-with-rats.gif|1920x1080px|frameless|Diagram of a transistor using the field effect to change its conductivity. The charges in the diagram are represented with rats.]]
+
+==== Transistors to Computers ====
+[[File:AMD3500X pins.webp|1280x720px|frameless|Closeup of the CPU pins on the back of my old AMD Ryzen 7 3800x]]
+
+There are a bunch of pins on the back of your CPU that plug into your motherboard; some are input pins, and some are output pins. Every CPU cycle, your computer applies electrical currents to some combination of the input pins at the same time. A portion of these input pins will connect to transistors that will open or close some pathways through your CPU. The currents from the remaining input pins will then travel along these pathways and come out through an output pin.
+
+This was an immensely simplified explanation. In reality, the pathways have a million different branches and each pin toggles a bunch of different transistors that affect all of its neighbors. Modern CPUs have billions of transistors switching between a massive amount of different circuits that all serve different purposes.
+
+=== Computer Instructions ===
+The combination of input pins that get lit up each cycle is determined by the instruction being executed. Computer instructions have two parts: the opcode and the operand.
+
+The opcode (operation code) tells the CPU what kind of operation to perform. The operand provides the data for the operation.
+
+For example, the instruction for adding two numbers would be the opcode for addition, followed by the binary value of the two numbers you want to add. The electrical signals of the opcode will activate precisely the correct transistors to route the electrical signals of the operand to the addition circuit and to route the electrical signals of the resulting answer to the output pins.
+
+There's a unique opcode for every math operation as well as operations like sending commands to your GPU or accessing memory. You can see a complete list of all the opcodes for x86 CPUs on their [[wikipedia:X86_instruction_listings|Wikipedia page]].
+
+Opcodes are typically expressed in binary or hexadecimal, but a slightly more human-readable format is assembly. The wikipedia page I linked to shows the equivalent assembly instruction under the "Instruction" column. For example, the assembly for addition is "ADD".
+
+==== Computer Cycles ====
+Your CPU is constantly running what's known as the fetch-execute cycle. There is a memory address register (MAR) which holds the memory address of a specific instruction in RAM. Every cycle, your computer fetches the instruction from that address in RAM, executes it, and then increments the address by one. The CPU is essentially just blindly executing each instruction one after another in a linear fashion unless one of the instructions edits the value of the MAR.
+
+If you string together the correct sequence of instructions, you get an algorithm. And if you combine enough algorithms you get a whole computer program.
+
+=== Programming Languages ===
+CPUs only understand raw binary instructions, and all code that you write has to get translated to binary before it can be run.
+
+Assembly is what is known as a low-level language. That means it's only a short hop away from raw binary and requires very minimal translation. Some people don't even consider it a programming language because it's essentially a one-to-one mapping of binary opcodes and operands. You can write entire programs in assembly -- that's how Roller Coaster tycoon was made -- However, most programmers find assembly too difficult to work with.
+
+Instead, most programmers choose to write their programs with higher-level languages. The higher the level, the closer the language is to "natural language" which are languages like English or Japanese. Very high-level languages provide a lot of tools (that we'll take a look at later) that make expressing abstract ideas easier and mistakes less likely.
+
+However, all this comes at a cost. These languages either need to be compiled to assembly/binary ahead of time or require an interpreter program that can perform the translation on the fly. And this translation layer adds overhead. This typically means that the further you get from writing raw binary, the slower your code runs.
+
+Udon is the language that VRChat uses and it requires several layers of translation. When you make an UdonSharp script or an UdonGraph asset, an accompanying Udon Sharp Program Asset gets created.
+
+That asset holds the compiled assembly of your script, but these assembly instructions don't get executed on your CPU, they're executed on a virtual CPU -- the Udon virtual machine. The virtual machine can do some calculations itself, but most instructions are going to be translated to C# which has its own interpreter.
+
+More information on how UdonSharp works can be found in [https://creators.vrchat.com/worlds/udon/vm-and-assembly/ the official docs].
+
+== Structure of an UdonSharp script ==
+=== Namespaces ===
+<TODO>
+=== Classes ===
+<TODO>
+=== Functions ===
+<TODO>
+=== Variables ===
+<TODO>
+
+== Unity SDK ==
+=== Events ===
+<TODO>
+
+== VRChat SDKs ==
+=== Players ===
+<TODO>
+
+== Coding Tutorial ==
+<TODO>
+
+== Advanced Concepts ==
+=== Networking ===
+=== Optimization ===
+<TODO>
+
+[[Category:Guides]]

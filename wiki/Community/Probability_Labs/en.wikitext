@@ -1,0 +1,383 @@
+{{Noticebox/Community}}{{Stub|Expand relevant information according to the [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]]; Add the rest of events and their descriptions}}{{Infobox/World
+|name=Probability Labs
+|image=World Probability Labs Thumbnail.webp
+|author=[https://vrchat.com/home/user/usr_4db73ec0-ff16-403b-bdda-faad22fad272 JohnD0E]
+|platforms=PC, Mobile
+|tags=Game, Multiplayer, Survival
+|id=wrld_c101c803-7d1a-42d8-9a5e-00a0ccfb2b2f
+|published=Mar 31 2024
+}}
+
+'''Probability Labs''' is a cross-platform game [[Special:MyLanguage/Worlds|world]] published by JohnD0E in March 2024.
+
+==Gameplay==
+3-14 players spawn in an enclosed arena on separate plates, separated by gaps with a void below. Every 5 seconds, random events occur that may be either good or bad. These events can affect player stats, plates, surroundings, spawn hazards, or prizes, among other things. The goal is to be the last player standing. Players earn points for participating in games, which can be spent on upgrades or to trigger arena events.
+
+==Player stats ==
+[[File:Probability Labs world - stats board.webp|thumb|Stats at the Upgrades booth]]
+'''Points''' - Earned by participating in rounds. They affect your leaderboard position and can be spent at the Upgrades booth.
+
+'''HP ('''Health Points) - Reset each round.
+
+'''JP''' (Jump Power) - How high can you jump.
+
+'''RS''' (Run Speed) - How fast can you run.
+
+==Upgrades==
+[[File:Probability Labs world - Upgrades booth.webp|thumb|Upgrades booth]]
+{| class="wikitable"
+|+
+|-
+!Icon!!Name
+!Price
+!Type!!Description
+|-
+|[[File:Probability Labs world speed upgrade.png|frameless|80x80px]]||'''Speed Upgrade'''
+|''$250''
+|Upgrade||
+*Increases run speed
+*Can be stacked
+*Lasts one round
+|-
+|[[File:Probability-Labs-world-jump-upgrade.png|frameless|80x80px]]||'''Jump Upgrade'''
+|''$250''
+|Upgrade||
+* Increase jump power
+*Can be stacked
+*Lasts one round 
+|-
+|[[File:Probability Labs world revive.png|frameless|80x80px]]
+|'''Revive'''
+|''$500'' 
+|Upgrade
+| 
+*Activates on death
+*Restores full HP
+*Lasts one round
+|-
+|[[File:Probability Labs world orbital strike.png|frameless|80x80px]]
+|'''Orbital Strike'''
+|''$500''
+|Arena
+Event
+|
+*Target a random plate
+*Over 9000 DMG
+|-
+|[[File:Probability Labs world rocket turret.png|frameless|80x80px]]
+|'''Rocket Turret'''
+|''$500''
+|Arena
+Event
+|
+*Targets random plates
+*Fires 3x rockets
+*100 DMG
+|}
+==Events==
+
+===Players ===
+Effects affect players directly.
+{| class="wikitable"
+|+
+!Effect
+! style="width:250px" |Description 
+!Prompts
+|-
+|'''Random stat change'''
+|
+|
+*''All players will receive a random stat change''  
+|-
+|'''Restore health'''
+|Restores all players back to maximum health.
+|
+*''Returning all players to base health levels''
+|-
+|'''Speed change'''
+|One or more players will receive an increase/decrease in their movement speed.
+|
+*''One player will receive a speed boost'' 
+*''All players will become slower''
+|-
+|'''Jump change'''
+|One or more players will receive an increase/decrease in their jumping capabilities.
+|
+*''One player will receive a jump boost''
+*''<nowiki>#</nowiki> players will receive a jump increase or decrease''
+|-
+|'''Relocation'''
+|One player will be teleported to a random plate. / All players will be teleported back to their own plate.
+|
+*''One player will be randomly relocated''
+*''Returning all players to their origin plates''
+
+|-
+|'''Item dropping'''
+|Makes a player periodically drop whatever item they are grabbing.
+|
+*''Uh-oh, looks like one player's coming down with a case of the dropsies''
+|-
+|'''Sleep'''
+| Freezes a player in place for a certain amount of time.
+|
+*''One player is feeling sleepy''
+|}
+
+=== Plates===
+Effects affecting specific plates.
+{| class="wikitable"
+|+
+!Effect
+! style="width:250px" | Description
+!Prompts
+|-
+|'''Size change'''
+|Changes the size of a plate, either decreasing or increasing it.
+|
+*''Randomly resizing #x plates''
+*''One plate will randomly change size''
+*''Randomly altering the size of # plates''
+*''Preparing #x plates for magnification''
+*''One plate will shrink''
+* ''<nowiki>#</nowiki> plates set for a dimensional decrease''
+*''1x plate's about to go through a growth spurt''
+*''Activating shrinking protocol for #x plates''
+|-
+|'''Position change'''
+|Changes the position of a plate, moving it up, down, or in a random direction.
+|
+*''<nowiki>#</nowiki>x plates set to change their vertical position''
+*''# plates will be raised'' 
+*''<nowiki>#</nowiki> plates will move in random directions''
+*''<nowiki>#</nowiki> plates will be moved in random directions'' 
+*''<nowiki>#</nowiki> plates will receive a change in altitude''
+*''One plate is moving up in the world''
+|-
+|'''Rotation''' 
+|Makes a plate spin.
+|
+*''Setting # plates to rotate''
+*''One plate will begin to rotate''
+|-
+| '''Vacation mode'''
+|Adds a deckchair and a beach umbrella to a plate.
+|
+*''Preparing #x plates for vacation mode. Relax responsibly!''
+* ''Activating vacation mode for three lucky plates''
+|-
+|'''Healing'''
+|Makes a plate heal players standing on it.
+|
+*''Activating #x healing modules''
+*''1x plate will receive healing properties''
+*''# plates will heal players''
+|-
+|'''Fire'''
+|Sets the plate on fire, dealing damage every few seconds to players standing on it.
+|
+*''WARNING: # plates are about to get Lit''
+*''<nowiki>#</nowiki> plates will experience increased heat''
+*''One plate will be set on fire''
+|-
+|'''Frost traps'''
+|
+|
+*''Installing frost traps on #x plates''
+|-
+|'''Bear traps''' 
+|
+|
+*''<nowiki>#</nowiki>x plate is about to receive a bear trap''
+|-
+|'''Landmine'''
+|
+|
+*''One plate will receive a landmine''
+*''Activating Mines on #x plates''  
+|-
+| '''Bomb bots'''
+|Adds a bomb bot on a plate which explodes after a few seconds.
+|
+*''ALERT: Deploying bomb bots to three locations''
+
+* ''Activating Bomb Bots on #x plates''
+|-
+|'''Treasure chests'''
+|
+|
+*''Treasure ahead! One plate will receive a treasure chest''
+*''Dispatching treasure chests to #x plates''
+|-
+|'''Weapons crates''' 
+|
+|
+*''1x plate will receive a weapons crate''
+|-
+|'''Storm clouds'''
+|
+|
+*''Prepare for rain, one plate is about to get its own storm cloud''
+*''Weather Alert: Storm clouds forming over 2x plates''
+|-
+|'''Toxic waste'''
+|
+|
+*''Warning: Toxic waste may distort your perception of reality''
+*''1x plate's about to receive a barrel of toxic waste''
+|-
+| '''Laser spinners'''
+|Adds a spinning laser to a plate that deals damage.
+|
+*''Installing laser spinners on #x plates''
+|-
+|'''Canine companion'''
+|
+|
+*''Analysis: morale boost required. Activating canine companion''
+|-
+|'''Tree'''
+|Adds a tree to a plate.
+|
+*''One player decided to grow a tree'' 
+*''<nowiki>#</nowiki> plates will receive a tree update''
+* ''Improving air quality, Installing trees on #x plates''
+|-
+|'''Radio'''
+|Adds a radio to a plate that plays tunes.
+|
+*''One plate is getting ready to play some tunes''
+|-
+|'''Portal'''
+|
+|
+*''# plates selected for portal experimentation''
+*''One plate is about to receive a one-way portal''
+|-
+|'''Containment''' 
+|Cages a plate, preventing the player from leaving it. 
+|
+*''Lockdown protocol activated. Three plates entering containment''
+|-
+|'''Meteor Alert'''
+|
+|
+* ''# plates in trajectory path''
+*''One plate will be targeted by a meteor''
+* ''#x plates will be targeted by falling meteors''
+|}
+
+* ''Special delivery''
+
+* ''Remember to stay hydrated, install a liquid dispenser''
+*''# plates selected for supply drops'' 
+
+=== Arena===
+Effects affecting the arena, not a specific target.
+{| class="wikitable"
+|+
+!Effect
+! style="width:250px" |Description
+!Prompts
+|-
+|'''Fog'''
+|Adds a decorative fog
+|
+* ''Mist generators online, Generating fog''
+|-
+| '''Thermonuclear bomb'''
+|
+| 
+*''ALERT: Multiple thermonuclear bombs detected. Seek cover''
+*''WARNING: Incoming thermonuclear bomb''
+|-
+|'''Arena laser'''
+|
+|
+*''Activating arena laser''
+*''Arena lasers are booting up. Get ready to jump''
+|-
+| '''Spiked wall'''
+|
+|
+*''A spiked wall will make its way through the arena''
+*''Activating #x wall hazards''
+|-
+|'''Extra plates'''
+|
+|
+*''Adding extra plates to the arena''
+|-
+|'''Golden Snitch'''
+|Adds a Golden Snitch zooming around the arena. The player who catches it wins immediately.
+|
+*''A Golden Snitch is on the loose. Catch it to win!''
+|-
+|'''Ghost'''
+|
+|
+*''ZOINKS! A G-G-GHOST?!''
+|-
+|'''HoloDome''' 
+|
+|
+*''HoloDome online... preparing for a change in scenery''
+|-
+|'''Wave'''
+|
+|
+*''WARNING: Wave formation detected inside the arena'' 
+* ''ALERT: hydrodynamic activity detected''
+|-
+|'''Excavator'''
+|
+|
+*''Deploying orbital Excavator''
+|-
+|'''Rocket turret'''
+|
+|
+*''ARENA: Deploying rocket turret''
+|-
+|'''Gravity change'''
+|
+|
+*''Introducing more gravity to the arena''
+|-
+|'''Holo-Maze'''
+|
+|
+*''Holo-Maze generation in progress. Prepare for a navigational challenge''
+|-
+|'''Voids'''
+|
+|
+*''DANGER: Multiple interdimensional voids detected''
+*''ERROR: Hard light failure. Beware of unstable holographic areas''
+|-
+|'''Tornado'''
+|
+|
+*''ALERT: Extreme weather detected''
+|}
+
+*''Warning: Unidentified flying object detected in the arena''
+
+*''Scanning arena... Unregistered test subject detected''
+
+===Easter eggs===
+{| class="wikitable"
+|+
+!Effect
+! style="width:250px" |Description
+!Prompts
+|-
+|'''Cake'''
+|Has no effects. Reference to the cake from Portal.[https://en.wikipedia.org/wiki/The_cake_is_a_lie]
+|
+*''One player will receive a delicious cake''
+|}
+
+[[Category:Worlds]]
+[[Category:Game worlds]]
+[[Category:PvP worlds]]

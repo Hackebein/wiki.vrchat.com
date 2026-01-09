@@ -1,0 +1,45 @@
+<noinclude>{{Noticebox/wip|Type images, collections/bundles?, etc}}</noinclude>
+<onlyinclude><div class="pi-theme-community" style="background:var(--pi-background); vertical-align: top; display: inline-block; width: {{{width|235px}}}; padding: 1rem;">
+<div style="margin-bottom: 10px;"><span style="font-size:x-large;">{{{name|Name}}}</span></div>
+<div style="margin-bottom: 10px;">[[File:{{{image|Placeholder.webp}}}|{{{imagesize|120px}}}]]</div>
+<div style="margin-bottom: 10px;">{{#if:{{{seller|}}}|
+<b>Sold by</b><br>{{{seller|}}} }}</div>
+<div style="margin-bottom: 10px;">{{#if:{{{author|}}}|
+<b>Created by</b><br>{{{author|}}} }}</div>
+<!--TODO: Add categories per type--> 
+<div style="margin-bottom: 10px;">{{#if:{{{type|}}}|
+<b>Type</b><br>{{#switch: {{{type|}}}
+ |Emoji = [[File:Icon_Emoji.png|20px]] [[Special:MyLanguage/Emojis|Emoji]]
+ |Sticker = [[File:Icon_Stickers.png|20px]] [[Special:MyLanguage/Stickers|Sticker]]
+ |Item = [[File:Items_Icon.png|20px]] [[Special:MyLanguage/Items|Item]]
+ |Drone = [[File:Icon_Cosmetics.png|20px]] [[Special:MyLanguage/Camera Drone|Drone]]
+ |Portal = [[File:Icon_Cosmetics.png|20px]] [[Special:MyLanguage/Portals|Portal]]
+ |WarpEffect = [[File:Icon_Cosmetics.png|20px]] [[Special:MyLanguage/Warp Effects|Warp Effect]]
+}}}}</div>
+<div style="margin-bottom: 10px;">{{#if:{{{price|}}}|
+<b>Price</b><br>{{#if:{{{price_vrcplus|}}}| {{Credits|{{{price|}}}}} <nowiki>|</nowiki> {{Credits|{{{price_vrcplus}}}}} with VRC+ {{VRC+}}| {{#if:{{{price|}}}| {{Credits|{{{price}}}}} }}}}}}</div>
+<div style="margin-bottom: 10px;">{{#if:{{{availabilityDate|}}}|
+<b>Available from</b><br>{{{availabilityDate|}}} }}</div>
+<div style="margin-bottom: 10px;">{{#if:{{{description|}}}|
+<div class="mw-collapsible mw-collapsed">
+<div style="font-weight:bold;">
+<div style="display:inline;">Description</div>
+<div style="display:inline-block; vertical-align: middle;">
+<div class="mw-collapsible-toggle-placeholder"></div>
+</div>
+</div>
+<div class="mw-collapsible-content">
+{{{description|}}}
+</div>
+</div>
+ }}
+</div>
+</div>
+<!--div is hidden until VRChat adds a user-friendly way to view products, but still included to futureproof productID-->
+<div style="margin-bottom: 10px; display: none">{{#if:{{{productID|}}}|
+<b>[https://vrchat.com/api/1/listing/{{{productID|}}} View product]</b> }}</div>
+<!--div is hidden until VRChat adds a user-friendly way to view inventory content, but still included to futureproof inventoryID-->
+<div style="margin-bottom: 10px; display: none">{{#if:{{{inventoryID|}}}|
+<b>[https://vrchat.com/api/1/inventory/template/{{{inventoryID|}}} View inventory content]</b> }}</div>
+</div></onlyinclude>
+<noinclude>{{Documentation}}[[Category:Templates{{#translation:}}]]</noinclude>

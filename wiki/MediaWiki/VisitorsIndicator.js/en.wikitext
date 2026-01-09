@@ -1,0 +1,38 @@
+$(
+  (function () {
+  	const container = document.querySelector("#mw-indicator-visitors-container");
+    const element = document.querySelector("#mw-indicator-visitors-count");
+    if (!container || !element) return;
+
+    const language = mw.config.get("wgPageContentLanguage");
+    const pathname = location.pathname.replace(`/${language}`, "");
+    const languages = [...document.querySelectorAll(".mw-pt-languages-list a")].map(({ lang }) => lang.toLowerCase());
+    const alternatives = [pathname, `${pathname}/${language}`, ...languages.map((language) => `${pathname}/${language}`)];
+
+    async function refresh() {
+      const filters = [["is", "event:page", alternatives]];
+      const query = new URLSearchParams({
+        period: "realtime",
+        filters: JSON.stringify(filters)
+      });
+
+      const value = (await fetch(`https://plausible.io/api/stats/wiki.vrchat.com/pages/?${query.toString()}`)
+        .then((response) => response.json())
+        .catch(() => null));
+
+      if (!value || typeof value !== "object" || !("results" in value) || !Array.isArray(value.results)) {
+      	container.style.opacity = 0;
+      	return;
+      }
+
+	  container.style.opacity = 1;
+      element.textContent = value.results.reduce((prev, curr) => {
+        prev += curr.visitors;
+        return prev;
+      }, 0);
+    }
+
+    refresh();
+    setInterval(refresh, 1000)
+  })()
+);

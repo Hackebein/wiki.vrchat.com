@@ -1,0 +1,81 @@
+<languages/>
+{{Noticebox/Official}}
+'''Аватары''' служат моделями, представляющими пользователей внутри [[Special:MyLanguage/VRChat|VRChat]]. Они являются для пользователей основным средством взаимодействия и самовыражения в среде виртуальной реальности. С помощью аватаров пользователи могут проецировать свою личность, взаимодействовать с [[Special:MyLanguage/Worlds|миром]], или исследовать новые идентичности творческим и захватывающим способом. Аватары бывают разных форм и размеров, и сообщество VRChat разработало огромное количество аватаров, каждый из которых обладает уникальным стилем и эстетикой. Пользователь сам решает, какой аватар ему больше подходит, или создает свой собственный, используя [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
+
+== Смена аватара ==
+Когда пользователи впервые присоединяются к VRChat, им предоставляется аватар [[Special:MyLanguage/Robot|робота]] по умолчанию. Им также представлена подборка официальных аватаров VRChat, предлагающих на выбор множество персонажей. Однако эти начальные варианты представляют лишь часть доступных аватаров. Пользователи могут менять аватары различными способами.
+
+=== Избранный список ===
+VRChat ведет тщательно подобранный список популярных [[Special:MyLanguage/Public Avatars|публичных аватаров]], которые оптимизированы для производительности и разработаны с учетом различных стилей и предпочтений. Пользователи могут просматривать и пробовать эти аватары в любое время, перейдя в раздел Аватары в [[Special:MyLanguage/Main Menu|главном меню]] и выбрав "Публичные" или "Устаревшие".
+
+<div class="mw-translate-fuzzy">
+После того, как вы нашли аватар, который вы хотите использовать, выберите его и подтвердите кнопкой «Изменить в аватар».
+
+
+===Клонирование===
+У пользователей есть возможность клонировать аватары других пользователей. Эта функция позволяет пользователям использовать тот же аватар, который они увидели на другом пользователе, нажав на него и использовав кнопку «клонировать аватара» в быстром меню. Если эта опция недоступна, это указывает на то, что другой пользователь отключил функцию клонирования или использует аватар, помеченный как частный.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Cloning===
+[[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, "Clone Avatar" and "Favorite Avatar" buttons found under "User Actions" section.]]
+Users have the option to clone avatars directly from other users. This feature allows users to adopt the same avatar they see another user using by selecting the user and utilizing the "Clone Avatar" button within the [[Special:MyLanguage/Quick Menu|Quick Menu]]. If this option is unavailable, it indicates that the other user has disabled the cloning feature, or is using an avatar marked as private.
+</div>
+
+Чтобы отключить клонирование аватаров, можно перейти к [[Special:MyLanguage/Settings|настройкам]] в главном меню, нажмите на вкладку «Аватары» и выключить "Разрешить клонирование аватара".
+
+=== Пьедесталы и миры аватаров ===
+Аватары также можно найти на пьедесталах для аватаров. Обычно они находятся в мирах из категории "Миры с аватарами". На этих пьедесталах отображаются предварительные изображения аватаров, с которыми пользователи могут взаимодействовать для клонирования. 
+
+<div class="mw-translate-fuzzy">
+==Добавление аватаров в избранное==
+Пользователи могут добавлять аватары в избранное, чтобы сохранить их для дальнейшего использования. Добавленные в избранное аватары появятся в строке "Избранное" на странице аватара. В каждом разделе может быть размещено до 50 аватаров. С активной [[Special:MyLanguage/VRChat+|подпиской на VRChat+]] вы получите доступ к 5 дополнительным разделам для аватаров.
+</div>
+
+<div class="mw-translate-fuzzy">
+Есть несколько способов добавить аватар в избранное. Если вы хотите добавить аватар в избранное, который в данный момент используете, перейдите на страницу аватаров и нажмите кнопку "В избранное" в правом нижнем углу, под предварительным просмотром аватара. Если аватар, который вы хотите добавить в избранное, использует кто-то другой, выберите пользователя и нажмите кнопку "Добавить аватар в избранное" в [[Special:MyLanguage/Quick Menu|быстром меню]].
+</div>
+
+==Совместимость платформ==
+''Более подробную информацию смотрите в разделе [[Special:MyLanguage/Platforms|Платформы]].''
+
+<div class="mw-translate-fuzzy">
+Аватары VRChat разработаны по-разному для ПК и мобильных платформ, в первую очередь из-за ограничений таких устройств, как Oculus Quest, Android и iOS. Следовательно, некоторые аватары могут быть недоступны для просмотра или использования на некоторых устройствах. Подробную информацию об этих ограничениях можно найти в следующих ресурсах:
+</div>
+
+*[https://creators.vrchat.com/platforms/android/quest-content-limitations/ Quest Content Limitations]
+*[https://creators.vrchat.com/platforms/android/android-best-practices/ Android Best Practices]
+
+Создатели могут настроить аватар так, чтобы он был совместим с несколькими платформами, путем загрузки нескольких версий одного и того же идентификатора аватара. Если аватар не может быть показан пользователю, сначала будет предпринята попытка отобразить [[Special:MyLanguage/Impostor|импостор]] этого аватара. Если импостор не был сгенерирован, пользователь будет отображаться с помощью [[Special:MyLanguage/Fallbacks|резервного аватара]].
+
+<div class="mw-translate-fuzzy">
+Резервный аватар можно изменить в меню "Аватары".
+</div>
+
+==Рейтинг производительности==
+Аватары ранжируются по пороговым значениям производительности. Они идут от Very Poor{{performance|verypoor|22}}, к Poor{{performance|poor|22}}, к Medium{{performance|medium|22}}, к Good{{performance|good|22}}, к Excellent{{performance|excellent|22}}. Эта классификация помогает пользователям понять влияние их аватаров на производительность и в целом на работу VRChat. Примерами факторов, влияющих на рейтинг производительности аватара, являются количество полигонов сетки, количество материалов, разрешение текстуры, сложность аниматора, а также компоненты аватара, такие как [[Special:MyLanguage/Physbones|PhysBones]] или constraints. 
+
+Более подробную информацию можно найти в официальной документации по адресу [https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ Avatar Performance Ranking System].
+
+<div class="mw-translate-fuzzy">
+== Создание и загрузка==
+Пользователи могут расширить возможности своего опыта в VRChat, создавая и загружая собственные аватары, при соблюдении ими [[Special:MyLanguage/Terms of Service|условий предоставления услуг]] VRChat. Чтобы загрузить аватар, пользователи должны сначала получить статус "New User" и приобрести необходимые инструменты, такие как рекомендуемая версия Unity и [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+With the release of [https://creators.vrchat.com/releases/release-3-9-0#fixes--changes SDK 3.9.0], the trust rank requirement for users to build & test their avatars have been removed. Previous SDK versions require trust rank "New User" or higher to build & test avatars.
+</div>
+
+После загрузки аватара вы сможете найти его в разделе "Загруженные" вашего списка аватаров.
+
+Более '''подробное руководство''' о том, что вы можете делать с помощью SDK, доступно в документации Creators по адресу [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Creating Your First Avatar. ].
+
+<span id="Official_resources"></span>
+== Официальные ресурсы ==
+
+* [https://creators.vrchat.com/avatars/ Аватары] на Творцы VRChat.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Trivia==
+*Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
+</div>

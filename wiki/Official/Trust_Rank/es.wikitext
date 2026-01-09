@@ -1,0 +1,156 @@
+<languages/>
+{{Noticebox/Official}}
+El '''rango de confianza''' es parte del sistema de [[Special:MyLanguage/Trust and Safety|Confianza y seguridad]] en VRChat, diseñado para asegurar una experiencia segura y agradable para todos los usuarios. Este sistema determina cuando un usuario puede subir contenido y evalúa el comportamiento del usuario para calcular la "confianza", utilizando una suma de muchas variables.
+
+<span id="Ranks"></span>
+==Rangos==
+
+La confianza de un usuario influye en su '''Rango de confianza''' que actúa como un indicador del tiempo que se ha pasado en VRChat, la distribución de contenido, las amistades hechas y otros factores. 
+
+Los rangos que se obtienen son los siguientes (de menor a mayor):
+{| class="wikitable"
+|+
+| style="background-color: #bababa" |
+!Visitante
+|Rango inicial.
+|-
+| style="background-color: #1678ff" |
+!Nuevo usuario
+|Puede subir [[Special:MyLanguage/Avatars|avatares]] y [[Special:MyLanguage/Worlds|mundos]] a VRChat. Los mundos subidos deben ser privados.
+|-
+| style="background-color: #2acf5b" |		
+!Usuario  
+|Pueden publicar [[Special:MyLanguage/Worlds|mundos]] en los [[Special:MyLanguage/Community Labs|Laboratorios de la comunidad]]. Muchas funciones se habilitan en este rango.
+|-
+| style="background-color: #ff7c42" |
+!Usuario habitual
+|Pueden elegir aparecer como "Usuario".
+|-
+| style="background-color: #8143e6" |
+!Usuario experimentado
+|Pueden elegir aparecer como "Usuario".
+|}
+
+<span id="Special_ranks"></span>
+===Rangos especiales===
+
+{| class="wikitable"
+|+
+| style="background-color: #efea17" |
+!'''Amigos'''
+|Los amigos que hayas agregado pueden tener las características de su avatar mostradas en el Nivel de seguridad normal, y podrás personalizar este nivel como lo harías con cualquier otro rango de confianza.
+|-
+| style="background-color: #bababa" |
+!'''Problemático'''
+|Los usuarios que hayan causado problemas a otros tendrán un indicador sobre su placa de nombre cuando el menú rápido esté abierto.
+Su avatar estará completamente bloqueado y estarán silenciados de forma predeterminada, independientemente del nivel de escudo. Sin embargo, aún puedes silenciarlos manualmente o mostrar su avatar.
+|-
+| style="background-color: #b52626" |
+!Equipo de VRChat
+|Este rango se asigna a los miembros del equipo VRChat.
+Se muestra en el cliente de VRChat y aparece en la aplicación al ver el perfil de un usuario, sobre su cabeza en lugar de su rango de confianza. También aparece en la página web de VRChat al ver el perfil de un usuario o como un resultado de búsqueda, con un borde rojo.
+|}
+
+=== Rangos descontinuados ===
+''Véase [[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|Funciones eliminadas]].''
+
+<span id="Gaining_ranks"></span>
+===Conseguir rangos===
+
+El funcionamiento interno del sistema de confianza está oculto intencionalmente para evitar su explotación.  
+
+Sin embargo, la mejor manera de aumentar tu rango de confianza es participar en actividades normales en VRChat, como: 
+
+*Explorar
+*Hacer amigos
+*Crear contenido
+
+Las actividades que no aumentan tu rango de confianza incluyen:
+*Estar de pie o inactivo en una sala (estar ausente).
+*Subir una gran cantidad de contenido de poco esfuerzo.
+*Enviar solicitudes de amistad a un número masivo de usuarios.
+*Acosar a otros usuarios de VRChat.
+Además, suscribirse a [[Special:MyLanguage/VRC+|VRC+]] o recibir una suscripción a VRC+ como regalo puede aumentar tu rango de confianza<ref>[https://hello.vrchat.com/vrchatplus VRC+] en el sitio web de VRChat; consultado el 24 de octubre de 2024.</ref>. Sin embargo, solo lo aumentará una vez.
+
+Sin embargo, en algunos casos, el rango de confianza no necesariamente aumenta, pero sí proporciona un impulso para alcanzar el siguiente rango.
+
+[[File:Nivel de seguridad ES.webp|thumb|300px|Los niveles de escudo se pueden personalizar, según el rango de confianza del usuario.]]
+Los rangos de confianza afectan en la forma en que los usuarios pueden ver tu avatar, escucharte o ver tu contenido de la [[Special:MyLanguage/Gallery|galería]], como las [[Special:MyLanguage/Stickers|pegatinas]] y las instantáneas; todo esto depende de sus preferencias según su [[Special:MyLanguage/Trust and Safety#Personal%20safety|nivel de seguridad]].
+{| class="wikitable"
+!Nombre de la opción
+!Función afectada
+|-
+|Voz
+|Usuario
+|-
+|Avatar
+|Avatar
+|-
+|Iconos de usuario
+|Social
+|-
+|Imágenes personalizadas
+|Social
+|-
+|Dron
+|Social
+|-
+|Audio
+|Avatar
+|-
+|Luces y partículas
+|Avatar
+|-
+|Shaders (sombreadores)
+|Avatar
+|-
+| Animaciones personalizadas
+|Avatar
+|-
+|Emojis animados
+|Social
+|}
+Hay varios '''predefinidos''' disponibles según las preferencias del usuario en cuanto a seguridad y comodidad.
+
+<span id="Appearance_of_ranks_inside_VRChat"></span>
+==Apariencia de los rangos dentro de VRChat ==
+
+[[File:TrustRank_Example.png|right|frameless]]
+
+El Sistema de seguridad y confianza está diseñado para ser discreto. El rango de confianza de un usuario solo es visible cuando se abre el Menú rápido. Este ajuste puede cambiarse en "Interfaz de usuario" > "Placas de nombre" o en el [[Special:MyLanguage/Action Menu|Menú de acción]] bajo "Opciones" > "Placas de nombre".
+
+*El texto en la parte superior izquierda de la [[Special:MyLanguage/Nameplates|placa de nombres]] indica el rango de confianza del usuario.
+*La parte superior derecha de la placa de nombres muestra el rendimiento del avatar del usuario.
+
+===Transición de rangos===
+*De '''visitante a nuevo usuario:''' Al alcanzar el rango de nuevo usuario, los usuarios obtienen la capacidad de subir contenido a VRChat si están usando una cuenta de VRChat. Se notifica a los usuarios sobre esta transición y se los dirige a la página de documentación de VRChat para la creación de contenido.
+*De '''nuevo usuario a usuario:''' Al alcanzar el rango de usuario, los usuarios obtienen la capacidad de denunciar mundos, grupos, usuarios y avatares al equipo de moderación para su revisión. Se notifica a los usuarios sobre esta transición.
+*'''Notificaciones:''' Los usuarios reciben notificaciones cuando cambian de rango de confianza.
+*'''Alternar visualización del rango:''' Los usuarios con el rango de usuario habitual o superior pueden elegir mostrar su rango como "Usuario". Esto cambia el icono y el texto del rango de confianza del usuario, y altera la forma en que el sistema de seguridad los trata. La alternancia se puede encontrar en la página del perfil debajo del estado y también en el "menú lateral" en la pestaña "perfil", en la parte inferior.
+==Recursos oficiales==
+
+* [https://docs.vrchat.com/docs/vrchat-safety-and-trust-system Sistema de seguridad y confianza] en ''docs.vrchat.com''
+*[https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 Sistema de seguridad y confianza de VRChat: cambios y comentarios] en Medium.
+
+<span id="See_also"></span>
+== Véase también ==
+
+Reglas y normas
+
+* [[Terms of Service|Términos de servicio]]
+* [[Community Guidelines| Normas de la comunidad]]
+* [[VRCWiki:Guidelines|VRCWiki:Normas]]
+* [[VRCWiki:Disciplinary policy|VRCWiki:Política disciplinaria]]
+
+Artículos sobre la plataforma de VRChat
+
+* [[Reporting|Denuncias]]
+* [[Bans|Baneos]]
+* [[Two-Factor Authentication (2FA)|Verificación en dos pasos (2FA)]]
+
+<span id="References"></span>
+==Referencias==
+
+[[Category:Features{{#translation:}}]]
+
+<references />

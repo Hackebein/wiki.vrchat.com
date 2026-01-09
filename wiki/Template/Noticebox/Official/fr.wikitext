@@ -1,0 +1,12 @@
+<noinclude><languages/></noinclude><onlyinclude>{{Noticebox
+|template=Noticebox/Official
+|image=VRLogo.png
+|title=C'est une page officielle d'informations VRChat !
+|description=Elle est examinée et approuvée par [[VRCWiki:Team|l'équipe VRCWiki]].
+Apprenez comment contribuer à cette page en consultant le [[Special:MyLanguage/VRCWiki:Contributor_hub|Guide du contributeur]].
+|border-color=var(--less-dark-green-border)
+|background-color=#162230}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Official Pages{{#translation:}}]][[Category:Official Content{{#translation:}}]]}}</onlyinclude>
+
+{{templatedocs}}
+[[Category:Templates{{#translation:}}]]
+[[Category:Templates/Noticeboxes{{#translation:}}]]

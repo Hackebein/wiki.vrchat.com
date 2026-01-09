@@ -1,0 +1,46 @@
+{{Noticebox/Official}}
+'''VRChat Creator Companion''' ('''VCC''') is the official tool provided by VRChat for creating and managing Unity projects intended for VRChat. It integrates the [[Special:MyLanguage/VRChat Package Manager|VRChat Package Manager]], manages your projects, and facilitates access to official and community packages, tools, and resources. VCC serves as the primary platform for developers to build VRChat [[Special:MyLanguage/avatars|avatars]] and [[Special:MyLanguage/worlds|worlds]].
+
+== System requirements ==
+* A PC meeting the Unity Editor system requirements
+** [https://docs.unity3d.com/2019.4/Documentation/Manual/system-requirements.html System requirements 2019.4]
+** [https://docs.unity3d.com/2022.3/Documentation/Manual/system-requirements.html System requirements 2022.3]
+* Operating system
+** Windows 10 and newer (Windows 11 is not fully tested)
+** Linux (limited to CLI functionality)
+** MacOS (limited to CLI functionality)
+* Internet connection
+
+== Download ==
+* Download page: {{VRC link|https://vrchat.com/home/download|VRChat Downloads}}
+* Direct download: {{VRC link|https://vrchat.com/download/vcc|VCC Download}}
+
+== Features ==
+* [[Special:MyLanguage/VRChat Package Manager|VRChat Package Manager]]
+* Automatic detection and installation of the supported Unity versions
+* Upgrading the Unity version of projects
+* Creation of new projects with [[VRChat SDK|VRChat SDKs]] integrated
+* Import of Projects
+* Support for GUI and CLI
+* Project backup
+* Learn section with Links to VRChat docs
+
+== Tools ==
+* [[Special:MyLanguage/VRC Quick Launcher|VRC Quick Launcher]]
+
+== Documentation ==
+{{VRC link|https://vcc.docs.vrchat.com|The documentation for VCC}} is hosted on {{VRC link|https://github.com/vrchat-community/creator-companion|GitHub}} and open for community contributions. Users can suggest changes by creating a fork and submitting pull requests.
+
+== Paths ==
+Installation (Default) Path: ''%LOCALAPPDATA%\Programs\VRChat Creator Companion''<br>
+E.g. ''C:\Users\UserName\AppData\Local\Programs\VRChat Creator Companion''
+
+Configuration Path: ''%LOCALAPPDATA%\VRChatCreatorCompanion''<br>
+E.g. ''C:\Users\UserName\AppData\Local\VRChatCreatorCompanion''
+
+== Cool Mode ==
+Cool Mode gives you access to special debug options, to clear your cache and reset VCC.
+[[File:VCC Cool Mode.png|thumb|Unlocked VCC Cool Mode]]
+=== Cheat code ===
+To enter the cheat code open the 'Settings' tab and enter the 'Konami Code' by pressing the following buttons:<br>
+up, up, down, down, left, right, left, right, b, a, enter.

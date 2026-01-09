@@ -1,0 +1,118 @@
+<languages/>
+{{Noticebox/Official}}
+[[File:VRChat_Portals.png|thumb|Un portal que conduce a una nueva estancia, con un texto que muestra estadísticas.]]
+
+Los '''portales''' son un método para viajar a diferentes [[Special:MyLanguage/Worlds|mundos]] y [[Special:MyLanguage/Instances|estancias]]. Los portales pueden estar presentes estáticamente en los mundos o ser 'soltados' por los usuarios.
+
+<span id="Creating_a_portal"></span>
+==Crear un portal==
+
+Se puede crear un portal seleccionando un mundo en el menú "Mundo", eligiendo '''Nueva estancia''', seguido del tipo de estancia y la región en la que se alojará. Después de esta selección, aparecerá una segunda pantalla con un botón que dice '''Soltar portal''' y un botón de bloqueo junto a él. Si se deja desbloqueado, cualquier usuario podrá ver el portal; si el portal está bloqueado, solo aparecerá para tus amigos y para ti.
+
+<span id="Dropping_a_portal"></span>
+==Soltar un portal==
+
+Una vez que se elige el botón '''Soltar portal''', aparece un marcador visual para seleccionar el área donde quieres colocar el portal. Los portales deben colocarse sobre una superficie plana que no interfiera con el mundo ni con los jugadores. Además, el portal no puede colocarse cerca de ningún punto de aparición.
+
+Para confirmar la colocación de un portal, haz clic con el botón izquierdo del ratón, presiona el gatillo del mando, toca la pantalla o junta el pulgar y el índice, según el método de entrada que estés usando. Un usuario de RV también puede cambiar la mano con la que suelta el portal presionando el botón de agarre en el mando que desea utilizar.
+
+Si los ajustes del "Modo de portal" está en "Soltar delante", el portal aparecerá frente a ti tan pronto como se seleccione el botón "Soltar portal".
+
+El portal aparecerá entonces para los demás, mostrando el nombre del mundo, el usuario que colocó el portal, la región, el número de la estancia, el tipo de estancia, el grupo que aloja la estancia (si aplica), la capacidad de la estancia, la compatibilidad con plataformas, así como un temporizador. El temporizador contará regresivamente desde treinta hasta cero segundos. Cuando el portal llegue a cero, desaparecerá. El temporizador se reinicia a treinta segundos después de que un usuario entre al portal.
+
+Si un portal conduce a un mundo que no es compatible con cierta plataforma, los usuarios que vean el portal desde una plataforma incompatible no podrán entrar en la estancia. En su lugar, el portal mostrará un icono de una "X" roja alrededor. Generalmente se considera prudente tener en cuenta a amigos y conocidos que puedan estar en otras plataformas antes de ir a otra estancia, para que no se queden atrás debido a esto.
+
+Los portales a estancias Públicas/Grupo público pueden ser colocados por cualquier usuario. Los portales a estancias Grupo+ pueden ser colocados por el propietario del grupo o por quienes tengan el permiso "Portal a estancias Grupo+". Los portales a estancias Amigos+/Amigos/Invitación+/Invitación solo pueden ser colocados por el propietario de la estancia.
+
+<span id="Clicking_on_a_portal"></span>
+==Clicar en un portal==
+
+Cuando un portal está disponible, se puede hacer clic en él, igual que en otros usuarios. Al abrir el "Menú rápido" y al hacer clic en la cápsula de un portal, se abrirá la página de su mundo y la información de la estancia. Esto permite precargar la estancia del mundo sin necesidad de entrar al portal, así como consultar el tamaño de descarga del mundo o marcarlo como favorito.
+
+<span id="Static_portals"></span>
+====Portales estáticos====
+
+Los portales pueden aparecer precolocados en los mundos, conduciendo a otros mundos. Estos se llaman "portales estáticos". Cuando un usuario atraviesa un portal estático, este mostrará una identificación de  la estancia recién generada. Durante treinta segundos, cualquier usuario puede seguir hacia la estancia de ese portal. Los portales estáticos no desaparecen.
+
+<span id="Settings"></span>
+==Ajustes==
+
+Hay una variedad de ajustes disponibles para personalizar los portales. Se pueden acceder y modificar entrando al menú de ajustes y escribiendo '''''portal''''' en la barra de búsqueda. 
+
+*'''Confirmación de entrada al portal''' - Alterna el requisito de confirmación de entrada de un mando antes de entrar a un portal.
+*'''Modo del portal''' - Colocar manualmente, soltar delante. 
+**'''Colocar manualmente''' permite a un usuario controlar dónde se coloca su portal.
+**'''Soltar delante''' hace que el portal aparezca instantáneamente frente al usuario.
+*'''Mostrar notificaciones de portales''' - Aparecerán notificaciones en tu HUD cuando se abra un portal.
+*'''Mostrar solo notificaciones de entrada/salida/portal de amigos''' - Si se activa restringirá las notificaciones del portal para que solo se muestren cuando los amigos creen un portal.
+
+<div class="mw-translate-fuzzy">
+== Aspectos ==
+Los aspectos de portales son un tipo cosmético que se puede usar para cambiar la apariencia de los portales. Además de su diseño único, pueden incluir diferentes animaciones de apertura y cierre, así como efectos de sonido. El aspecto de portal puede seleccionarse en la pestaña "Cosméticos" del [[Inventory|inventario]].
+{| class="wikitable"
+|+Lista de aspectos de portales conocidos
+!Imagen
+!Nombre
+!Publicación
+!Requisito
+!Descripción
+|-
+|[[File:Portal Default Portal.png|frameless|center|70x70px]]
+|Portal por defecto
+|14 de agosto de 2024
+| -
+|El portal predeterminado.
+|-
+|[[File:Portal B3-7A Portal.png|frameless|70x70px]]
+|Portal B3-7A 
+|29 de septiembre de 2025
+|Comprarlo en la [[Special:MyLanguage/Shop|tienda]] durante la [https://docs.vrchat.com/docs/vrchat-202534-openbeta Beta abierta 2025.3.4] .
+|<!--"Replaces the default VRChat Portal. Includes a new spawn and despawn animation, as well as sound effects. This is a time-limited item and may not be available again after the conclusion of the 2025.3.4 Open Beta. ..."
+Above is a part of the full description, although it probably doesn't need to be displayed.
+-->
+''"¿Simplemente te mueves de dimensión en dimensión o desgarras el tejido de la realidad?"''
+|-
+|[[File:Portal L1-V3 Portal.png|frameless|70x70px]]
+|L1-V3 Portal
+|14 de octubre de 2025
+|Comprarlo en la [[Special:MyLanguage/Shop|tienda]].
+|''"Adentrarse es convertirse en una réplica. Nunca volverás a ser tú, pero ¿realmente serás tú mismo?"''
+|-
+|[[File:Portal Runic Gateway.png|frameless|70x70px]]
+|Puerta rúnica
+|6 de noviembre de 2025
+|Comprarlo en la [[Special:MyLanguage/Shop|tienda]].
+|''"Un portal rúnico mágico, con nuevas animaciones y efectos de sonido."''
+|-
+|[[File:Portal Glacial Construct.png|frameless|70x70px]]
+|Constructo glacial
+|9 de diciembre de 2025
+|Comprarlo en la [[Special:MyLanguage/Shop|tienda]].
+|''"Un portal construido de hielo. Incluye nuevas animaciones y efectos de sonido."''
+|-
+|[[File:Portal_VRCat’s_Cozy_Mantle.png|frameless|70x70px]]
+|Chimenea calentita de VRChat
+|9 de diciembre de 2025
+|Obtenido al contribuir con regalos (VRC+ o cosas de la tienda) durante el [[Special:MyLanguage/Holiday Event 2025|evento festivo 2025]].
+|''"¡Una chimenea calentita de VRChat! Un portal con temática festiva, que incluye nuevas animaciones y efectos de sonido."''
+|}
+</div>
+
+==SDK==
+
+Los autores de mundos pueden añadir portales a su mundo usando el prefab  [https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker] del [[Special:MyLanguage/VRChat SDK|SDK de VRChat]]. Se encuentra en <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>. Permite especificar una identificación de mundo junto con un nombre de portal personalizado opcional. Alternativamente, el Portal Marker puede apuntar al VRChat Home o al mundo casa personalizado.
+
+Los scripts del VRC Portal Marker se pueden actualizar de forma dinámica mediante [[Special:MyLanguage/Udon|Udon]].
+
+<span id="See_also"></span>
+==Véase también==
+
+* [[Special:MyLanguage/Loading Screens|Pantallas de carga]]
+* [[Special:MyLanguage/Worlds|Mundos]]
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Navigation==
+{{Navbox/Inventory}}
+</div>
+
+[[Category:Features{{#translation:}}]]

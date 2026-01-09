@@ -1,0 +1,17 @@
+<languages/><onlyinclude>{{Noticebox
+|template=Noticebox/Update
+|image=4-ThinkRat.webp
+|title={{#switch: {{{type|page}}}
+ |page = ¡Esta página necesita ser actualizada!
+ |section = ¡Esta sección necesita ser actualizada!
+}}
+|description={{#switch: {{{type|page}}}
+ |page = Esta página contiene información que está desactualizada. Actualiza esta página con la información más reciente.
+ |section = Esta sección contiene información que está desactualizada. Actualiza esta sección con la información más reciente.
+}}
+<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
+|border-color=#ff9350}}<includeonly>[[Category:Needs updating{{#translation:}}]]</includeonly></onlyinclude>
+
+{{templatedocs}}
+[[Category:Templates{{#translation:}}]]
+[[Category:Templates/Noticeboxes{{#translation:}}]]

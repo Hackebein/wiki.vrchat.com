@@ -1,0 +1,426 @@
+<languages/>
+{{Noticebox/Official}}
+'''조작''' 방법은 컨트롤러와 디바이스의 입력 배열로, 서로 다른 [[Special:MyLanguage/platforms|플랫폼]]에서  [[Special:MyLanguage/VRChat|VRChat]]을 항해하는 데 사용됩니다. VRChat은 여러 운영 체제와 다양한 기기 및 컨트롤러의 조합을 지원합니다. 이러한 조작 방법 중 일부는 [[Special:MyLanguage/Settings#Controls|설정]] 메뉴에서 구성할 수 있습니다. VRChat을 사용하는 플랫폼에 따라 VRChat의 설정 메뉴 또는 디바이스의 바인딩 설정을 사용하여 조작 방법을 커스텀 할 수 있습니다.
+
+
+VRChat의 설정 메뉴에서는 현재 사용 중인 기기의 버튼 매핑을 자세히 확인할 수 있습니다. 기본 설정은 다음과 같습니다.
+
+<span id="Primary_controls"></span>
+
+==기본 조작 방법==
+
+다음은 다양한 입력 유형에 적용되는 VRChat 내 탐색 및 상호 작용을 위한 기본 컨트롤입니다:
+{| class="wikitable" style="text-align:center;"
+! style="text-align:center;" |액션
+! style="text-align:center;" |키보드/마우스
+! style="text-align:center;" |VR 컨트롤러
+! style="text-align:center;" |게임패드 (Xbox)
+! style="text-align:center;" |모바일
+|-
+! scope="row" 스타일="text-align:center;" |이동
+|WASD
+| colspan="2" |왼쪽 스틱
+|가상 썸스틱
+|-
+! scope="row" 스타일="text-align:center;" |턴
+|마우스 이동
+| colspan="2" | 오른쪽 스틱
+|화면 드래그
+|-
+! scope="row" 스타일="text-align:center;" |점프
+|space
+|A(오른손, 하단 버튼)
+|A
+|점프 버튼
+|-
+! scope="row" 스타일="text-align:center;" |웅크리기
+|C
+| colspan="1" rowspan="2" |''--''
+| rowspan="1" |왼쪽 스틱(누르기)
+| rowspan="2" |점프 버튼(길게 누르기)
+|-
+! scope="row" 스타일="text-align:center;" |엎드리기 / 기어가기
+|Z
+|왼쪽 스틱 (길게 누르기)
+|-
+! scope="row" 스타일="text-align:center;" |달리기
+|왼쪽 Shift
+| colspan="3" |''--''
+|-
+! scope="row" 스타일="text-align:center;" |사용/상호작용
+|E
+|트리거 / 검지 손가락을 당기기
+| rowspan="2" |트리거
+| rowspan="2" | 탭
+|-
+! scope="row" 스타일="text-align:center;" |잡기
+|좌 클릭
+|손잡이 / 중지 당김
+|-
+! scope="row" 스타일="text-align:center;" |퀵 메뉴
+|Esc
+|B / Y (양손, 상단 버튼)
+| colspan="2" |메뉴 버튼
+|-
+! scope="row" 스타일="text-align:center;" | 액션 메뉴
+|R
+|B / Y (길게 누르기) (양손, 상단 버튼)
+|오른쪽 스틱 (누르기)
+|메뉴 버튼 (길게 누르기)
+|-
+! scope="row" 스타일="text-align:center;" |음소거/음소거 해제
+|V
+|X(왼손, 하단 버튼)
+|Y
+|마이크 버튼
+|}
+
+<span id="Additional_controls"></span>
+==기타 조작 방법==
+
+===VR===
+
+VRChat은 다음 헤드셋의 컨트롤 시스템을 공식적으로 지원합니다.
+
+*Meta Quest 해드셋
+**Meta Quest 2
+**Meta Quest 3(S)
+**Meta Quest Pro
+* HTC Vive XR Elite
+*Pico 4
+
+또한 VRChat은 PCVR 모드(헤드셋이 Windows 게이밍 PC에 연결된 경우)에서 이러한 헤드셋을 지원합니다.
+
+* 아래의 모든 SteamVR 헤드셋을 지원합니다. (단, 이에 국한되지 않음)
+** Valve Index
+** HTC Vive 시리즈
+** Bigscreen Beyond
+** 테더링된 Pimax HMD
+** Steam Link 지원 HMD(Meta Quest 시리즈)
+** Virtual Desktop 지원 HMD
+** 대부분의 ALVR 호환 HMD
+
+PC에서는 Steam input을 사용한 게임패드 입력도 지원합니다.
+
+<span id="Controller_buttons"></span>
+====컨트롤러 버튼====
+
+대부분의 VR 컨트롤러는 비슷하게 배치되어 있습니다. 각 컨트롤러에는 조이스틱과 두 개의 메인 버튼, 시스템 버튼, 트리거, 그립 버튼이 있습니다.
+{| class="wikitable"
+|버튼
+|할당
+|-
+|A - 오른손, 하단 버튼
+|점프
+|-
+|B - 오른손, 상단 버튼
+|누르기: 퀵 메뉴 길게 누르기: 액션 메뉴
+|-
+|X - 왼손, 버튼 버튼
+|누르기: 음소거/음소거 해제
+|-
+|Y - 왼손, 상단 버튼
+|누르기: 퀵 메뉴 길게 누르기: 액션 메뉴
+|-
+|그립 - 가운데 손가락 당기기
+
+|잡기
+|-
+|트리거 - 검지 손가락 당기기
+|상호작용
+|-
+|오른쪽 스틱
+|회전
+|-
+|왼쪽 스틱
+|이동
+|-
+|양손 트리거 + 양쪽 메뉴 버튼
+|안전 모드 활성화
+|-
+|월드 로드 중, 양쪽 메뉴 버튼 누르고 있기
+|로컬에서 아바타를 오류 로봇으로 변경합니다 (아바타가 충돌을 일으키거나 메뉴 사용을 방해할 때 유용합니다.)
+|}
+
+====핸드 트래킹====
+''자세한 정보는 [[Special:MyLanguage/Finger tracking|손가락 트래킹]]을 확인해 보세요.
+{{Thumb|{{YouTube|oopovk3BPaw}}}}
+[[File:Handtracking controls vrcmenu.webp|thumb|250px|[[Special:MyLanguage/Main Menu|메인 메뉴]]설정의 손가락 트래킹]]
+
+VRChat은 Meta Quest 시스템에서 핸드 트래킹 설정과 VRChat에서 핸드 트래킹 제스처를 배울 수 있는 {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|튜토리얼 월드}}와 [https://www.youtube.com/watch?v=oopovk3BPaw 튜토리얼 비디오]를 제공합니다.
+
+Quest 설정 대시보드에서 핸드 트래킹을 활성화합니다. 핸드 트래킹을 사용하려면 컨트롤러를 평평한 표면에 놓고 손을 내밀어 Quest 핸드 트래킹 시스템이 이를 감지할 수 있도록 합니다. 방에 충분한 조명이 있는지 확인하여 Quest 카메라가 손을 볼 수 있도록 하세요. 현재로서는 핸드 트래킹을 ''유선 Quest Link방식으로 사용할 수 없습니다.''
+
+'''[[Special:MyLanguage/Worlds|월드]]에서 이동'''하려면 '''왼손'''을 위로 올리고 손바닥을 위로 향하게 얼굴을 향합니다. 가운데 손가락을 엄지손가락에 대고  "꼬집는" 동작을 하면 작은 파란색 구가 나타납니다. 손가락을 꼬집는 동안 손가락을 그 구에서 멀어지면 아바타가 그 방향으로 이동합니다.
+
+'''좌우로 돌리려면''', '''오른손'''으로 가운데 손가락을 엄지손가락에 대고 "꼬집는" 동작을 합니다. 손가락을 꼬집는 동안 손을 원래 위치에서 좌우로 움직이면 좌우로 돌아갑니다.
+
+또한 컴포트 회전(스냅 회전)을 켜거나 끌 수도 있습니다. 컴포트 회전이 켜져있다면, 회전 시마다 손가락을 "꼬집어야" 합니다. [[Special:MyLanguage/Settings|설정]]에서 해당 기능을 비활성화 하면 더 편하게 사용할 수 있습니다.
+
+'''[[Special:MyLanguage/Quick Menu|퀵 메뉴]]를 열려면''' 검지와 엄지를 '''왼손'''으로 "꼬집어야"합니다. 이는 Meta 시스템의 기본 제스처이며, 오랫동안 "꼬집으면" 게이지를 채우는 작은 메뉴 아이콘이 손 위에 떠 있는 것을 볼 수 있습니다. 퀵 메뉴를 여는 데 사용할 수 있는 세 가지 방법이 있습니다.
+
+* 손가락 모으기
+* 아이콘 주시하기
+* 버튼 누르기
+
+'유저 인터페이스와 [[Special:MyLanguage/menus|메뉴]]를 조작하려면', 아무 손으로 항목을 가리키고 엄지, 검지손가락을 사용해 "꼬집어서" 선택합니다.
+
+왼손으로 엄지와 약지를 사용해 꼬집는 동작을 하면 자신을 '''음소거''' 할 수 있습니다.
+
+'''월드 오브젝트를 잡는'''방법은 오브젝트 근처에 가서 주먹을 쥐면 오브젝트를 잡을 수 있습니다. 또한 중지, 약지, 소지를 쥔 상태로 검지와 엄지를 따로 꼬집어 '''오브젝트 사용'''을 할 수도 있습니다.
+
+'''참고:''' 핸드 트래킹은 Quest Link에서 작동하지 않습니다.
+손가락 트래킹 제어는 손가락 트래킹이 활성화된 상태에서 [[Special:MyLanguage/Main Menu|매인 메뉴]]의 조작 탭에서 볼 수 있습니다.
+
+<span id="Desktop"></span>
+===데스크톱===
+
+키보드와 마우스를 사용하여 VRChat을 플레이 할 수 있습니다.
+
+움직임은 표준 FPS게임의 "WASD" 설정과 동일합니다. 마우스로 화면을 회전합니다. 아바타의 머리는 화면과 같이 돌아갑니다.
+{| class="wikitable"
+! 키
+! 기능
+|-
+|W
+|앞으로 이동
+|-
+|A
+|왼쪽으로 이동
+|-
+|S
+|뒤로 이동
+|-
+|D
+|오른쪽으로 이동
+|-
+|스페이스
+|점프 (월드에서 활성화 된 경우)
+|-
+|Z
+|엎드리기 / 기어가기
+|-
+|C
+|웅크리기
+|-
+|R
+|액션 메뉴 열기
+|-
+|ESC
+|퀵 메뉴 열기
+|-
+|Shift
+|달리기
+|-
+|좌클릭
+|상호작용 / 잡기
+|-
+|우클릭(길게 누르기)
+|상호작용 마우스 표시
+|-
+|우클릭
+|놓기
+|-
+|우쿨릭(길게 누르기)(잡고 있는 동안)
+|잡고있는 오브젝트를 던질 수 있습니다. 길게 누를수록 오브젝트를 더 멀리 던집니다.
+|-
+|V(길게 누르기) (눌러서 말하기를 사용하는 경우)
+|누르는 동안 마이크 활성화
+|-
+|V (토글을 사용하는 경우)
+|마이크 켜기/끄기
+|-
+|Y
+|채팅창 입력 열기
+|-
+|Tab(길게 누르기)
+|아바타를 움직이지 않고 화면에서 마우스를 움직일 수 있습니다. (UI 요소를 클릭하는 데 유용합니다.)
+|-
+|End
+|AFK 모드 토글
+|-
+|Ctrl + N
+|[[Special:MyLanguage/nameplates|이름표]]의 설정을 전환합니다
+|-
+|Ctrl + H
+|[[Special:MyLanguage/HUD|HUD]]의 설정을 전환합니다
+|-
+|Ctrl + \
+|로컬에서 기본값으로 전환 
+[[Special:MyLanguage/Robot|Robot]]  [[Special:MyLanguage/avatar|avatar]] (아바타가 충돌을 일으키거나 메뉴 사용을 방해할 때 유용함)
+|-
+|오른쪽 Shift + 백틱 + 1<sup>†</sup>
+|트리거 디버그 메뉴 토글 
+|-
+|오른쪽 Shift + 백틱 + 2<sup>†</sup>
+|정보 디버그 메뉴 토글 
+|-
+|오른쪽 Shift + 백틱 + 3<sup>†</sup>
+|콘솔 디버그 메뉴 토글 
+|-
+|오른쪽 Shift  + 백틱 + 4<sup>†</sup>
+|네트워킹 디버그 메뉴 토글 
+|-
+|오른쪽 Shift + 백틱 + 5<sup>†</sup>
+|네트워킹 그래프 디버그 메뉴 토글 
+|-
+|오른쪽 Shift + 백틱 + 7<sup>†</sup>
+|네트워킹 디버그 오버레이 토글 
+|-
+|오른쪽 Shift + 백틱 + 8<sup>†</sup>
+|이벤트 디버그 오버레이 토글 
+|-
+|오른쪽 Shift + 백틱 + 9<sup>†</sup>
+|유저 네트워킹 디버그 오버레이 토글
+|-
+|F12
+|스크린샷을 쵤영하며, VRChat에 설정되어있는 폴더에 저장합니다.
+|-
+|Ctrl + F12
+|스크린샷을 4K(3840 × 2160)로 촬영하며, VRChat에 설정되어있는 폴더에 저장합니다.
+|-
+|Shift + F1*
+|제스처 - Idle
+|-
+|Shift + F2*
+|제스처 - Fist
+|-
+|Shift + F3*
+|제스처 - Open Hand
+|-
+|Shift + F4*
+|제스처 - Point
+|-
+|Shift + F5*
+|제스처 - Victory (Peace)
+|-
+|Shift + F6*
+|제스처 - Rock ’n Roll
+|-
+|Shift + F7*
+|제스처 - Finger-gun
+|-
+|Shift + F8*
+|제스처 - Thumbs up
+|-
+|Shift + Esc
+|안전 모드 활성화
+|-
+|월드 로드 중 Esc 길게 누르기
+|로컬에서 아바타를 오류 로봇으로 변경합니다 (아바타가 충돌을 일으키거나 메뉴 사용을 방해할 때 유용합니다.)
+|-
+|< / >
+|좌우로 회전하기
+|-
+|I / K
+|잡고있는 오브젝트의 피치를 조정합니다(X축을 따라 회전)
+|-
+|J / L
+|잡고있는 오브젝트 요를 조정합니다(Y축을 따라 회전)
+
+|-
+| U / O
+|잡고있는 오브젝트의 롤을 조정합니다(Z축을 따라 회전)
+|-
+|마우스 휠
+|잡고있는 오브젝트를 앞/뒤로 이동합니다(Z축을 따라 이동)
+|-
+|마우스 휠 버튼(길게 누르기)
+|마우스를 움직여 오브젝트 회전 조정
+|}
+
+<nowiki>*</nowiki> 왼쪽 shift를 누르면 왼손, 오른쪽 shift를 누르면 오른손이 조작됩니다.
+
+<sup>†</sup> 한국어 두벌식 자판의 경우, 좌측 상단의 <code>1</code>키 옆에 “백틱”키가 있습니다. 이 키보드는 물결표 (<code>~</code>)와 키를 공유합니다.
+
+디버그 옵션을 사용하려면 <code>--enable-debug-gui</code>시작 옵션과 함께 VRChat을 시작해야 합니다.
+
+<span id="Mobile"></span>
+===모바일===
+
+화면 왼쪽에는 아바타를 움직일 수 있는 가상 조이스틱이 있습니다. 화면을 터치하고 드래그하면 화면이 회전합니다. 화면의 어느 곳이든 두 번 터치하고 드래그하면 걸어 다니면서 화면을 동시에 회전할 수 있습니다.
+
+화면 오른쪽에는 월드에서 사용 가능한 점프, 오브젝트 잡기, 상호작용 버튼이 있습니다. 버튼을 누르면 액션 메뉴나 웅크리기와 같은 추가 옵션이 가능합니다.
+
+다른 유저나 [[Special:MyLanguage/portals|포탈]]을 탭하면 즉시 보조 [[Special:MyLanguage/Menus|메뉴]]가 표시됩니다.
+
+<span id="Gamepad"></span>
+===게임패드 ===
+
+PC와 모바일에서 게임패드를 사용하여 VRChat을 플레이할 수 있습니다.
+
+지원되는 일반적인 컨트롤러에는 Xbox 컨트롤러, PlayStation 컨트롤러, 그리고 Nintendo Switch 컨트롤러가 포함됩니다. 아래 표는 참고용으로 "Xbox" 컨트롤러 레이아웃을 사용합니다.
+{| class="wikitable"
+버튼(Xbox 컨트롤러 기반)
+과제
+|-
+|A
+|점프 (월드에서 활성화 된 경우)
+|-
+| B / X
+|놓기
+|-
+|Y(길게 누르기) (눌러서 말하기를 사용하는 경우)
+|누르는 동안 마이크 활성화
+|-
+|Y(토글을 사용하는 경우)
+|마이크 켜기/끄기
+|-
+|D-패드 업
+|이름표의 설정을 전환합니다
+|-
+|D패드 다운
+|HUD의 설정을 전환합니다
+|-
+|LB(길게 누르기) + 왼쪽 조이스틱
+|잡고있는 오브젝트를 앞/뒤로 이동합니다(Z축을 따라 이동)
+|-
+|LB(길게 누르기) + 오른쪽 조이스틱
+|잡고있는 오브젝트 회전 조정
+|-
+|RB(길게 누르기) + 왼쪽 조이스틱
+
+|왼쪽 제스처 선택(Steam에서만 사용 가능)
+|-
+|RB(길게 누르기) + 오른쪽 조이스틱
+|오른쪽 제스처 선택(Steam에서만 사용 가능)
+|-
+|LT/RT
+|상호작용 / 잡기
+|-
+|왼쪽 조이스틱
+|이동
+|-
+|왼쪽 조이스틱 누르기
+|웅크리기
+|-
+|왼쪽 조이스틱 길게 누르기
+|엎드리기 / 기어가기
+|-
+|오른쪽 조이스틱
+|주변 보기
+|-
+|오른쪽 조이스틱 누르기
+|액션 메뉴 열기
+|-
+|View 버튼
+|스크린샷을 쵤영하며, VRChat에 설정되어있는 폴더에 저장합니다.
+|-
+|Menu 버튼
+|퀵 메뉴 열기
+|-
+|A / RT (메뉴 내)
+|메뉴 내에서 선택
+|-
+|B(메뉴)
+|메뉴 닫기
+|}
+
+<span id="Resources"></span>
+==리소스==
+
+*''YouTube'' VRChat의[https://www.youtube.com/watch?v=F0I2Ec4JsrE "Quest 2 Finger Tracking"]
+*핸드 트래킹 [https://docs.vrchat.com/docs/vrchat-202241 "VRChat 2022.4.1"]
+*''YouTube'' VRChat의[https://www.youtube.com/watch?v=oopovk3BPaw "Beginner's Guide to VRChat Hand/Finger Tracking"]
+{{Start-navbox}}
+[[Category:Needs images{{#translation:}}]]

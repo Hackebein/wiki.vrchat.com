@@ -1,0 +1,59 @@
+{{Noticebox/Community}}
+[[File:Both baked versions stacked.jpg|border|right|frameless]]
+This guide will show you how you can swap Baked Lightmaps in VRChat. This is useful to create a day and night version of your world or multiple different lighting scenarios. <br />Compared to other common solutions, such as utilizing real time lights or using a tinted overlay, this method is both optimized and represents light better.
+
+The core principle behind this method is to bake light differently on multiple copies of the same static mesh by placing them in different areas of your scene and later stacking them to be at the same location. This needs to be done, because VRChat does not allow you access to change Lightmaps directly.
+
+== Setting up the scene ==
+
+Start by putting everything in your scene you would like to bake as a child of an empty Gameobject. For this purpose calling it "static" would be fitting. <br />Have another Gameobject, which will have your Light Entities, Reflection Probes and all other non-static objects that may have different materials set up for your different lighting conditions. "dynamics" may be a fitting name for it. Things such as Water shaders that you would like to appear darker for a night version by editing its material.
+
+[[File:Organized_Hierachy.jpg|border|frameless|512x512px]]
+
+Use this as your base to adjust the lighting. Use a duplicate of that scene (via Ctrl+D) to adjust the lighting for your additional lighting conditions. These copies of your scene won't have an effect on your main scene. <br />When adjusting the lighting please be aware, that you are limited to only one Directional Light later. You can use layers here to have multiple directional lights affect different meshes, however a cleaner approach would be to utilize a Spot Light to replace additional Directional Lights.
+
+[[File:Spotlight_Setup_to_replace_Directional_Light.jpg|border|frameless|512x512px]]
+
+As you see a spotlight placed far away will serve as a great alternative. <br />On open worlds such us [[Atoll of Ether]], that has a baked day and night version you can utilize a large plane, set to "shadows only" to block the directional light used for the day version creeping into the night version.
+
+[[File:Plane_setup_to_block_Light.jpg|border|frameless|512x512px]]
+
+== Baking the lights ==
+Once you are satisfied with having set up your different lighting scenarios, copy the Gameobject containing the non-static other objects and light entities (previously referred to  as "dynamics" Gameobject) to your main scene. <br />Then make a duplicate of your "static" gameobject within your hierarchy, that contains your static gameobjects. <br />Let's assume you would like to do a day and night version of your world, keep your Day-static and Day-dynamic Gameobjects as is and move the freshly duplicated Night-static and Night-dynamic Gameobjects far below that. This is how they can be baked in different ways.
+
+[[File:Hierarchy_Day-Night.jpg|border|frameless|512x512px]]
+
+Use the large plane set to "shadows only" mentioned earlier to separate the 2, so lighting remains separate.
+
+Now bake your scene.
+
+== Stacking the geometry ==
+The reason to keep things tidied up within 2 Gameobjects per scene is to be able to handle them easily in this step.
+
+[[File:Bake_finished..jpg|border|frameless|512x512px]]
+
+As you see, after your bake you will now have 2 distinct lighting conditions spaced far apart. Make sure you baked Lightprobes and Reflection probes as well. Now simply take those versions and after that place them all on the same coordinates. Simply setting the relevant Gameobjects (the "static"'s and "dynamic"'s) to 0,0,0 will do.
+
+Please note that it is not possible to bake 2 or more different versions of Lightprobes, so choose the set you think fits best for all lighting scenarios. You may also opt to have only avatars lit by a Realtime Light without shadows, this comes at a relatively large performance cost.
+
+[[File:Both_baked_versions_stacked.jpg|border|frameless|512x512px]]
+
+== Changing skyboxes ==
+You cannot rely on just having 1 Skybox set in the Lighting settings if you would like to change them along with your lighting. <br />Instead add an inverted sphere with a Skybox material applied for each of your lighting scenarios. Leave the skybox in your Lighting tab blank. Alternatively you can use Lyuma's SkyboxCubemapDual shader that allows you to change between 2 Skyboxes based on the rotation of the Sun entity: https://gist.github.com/lyuma/38648c33c91a1994b98c5c5d0168a575 . <br />Using a Procedual Skybox and adjusting the rotation of the Sun entity is also a good solution. <br />Make sure your Reflection Probes have full coverage of your world, as the fallback Reflection Probe is derived from the skybox set in the Lighting tab, which you may decide to leave blank.
+
+== Interact setup ==
+Now that you have everything baked and stacked on each other, you will likely want to change between your bakes ingame. To do so simply create a udon behaviour that enables one version and disables the others.
+
+[[File:Interact_Setup_to_switch_baked_light.jpg|border|frameless|512x512px]]
+
+Alternatively you can also make an animation that enables and disables the components, this may be useful should you use a procedural skybox and want to animate the sun to move across the sky, along with the baked lightmap change. <br />Should you do this, a simple Animator Bool Toggle will be enough.
+
+== Important last step ==
+I would like to end this guide with a very important note. <br />Please have all your baked variants enabled by default when loading in! This is important for Unity to be able to batch everything. <br />Let's say you want to start out in your day version of your world and disable the night version in unity, since you assume it wont be needed for now. If you do that and the user switches to the night version in-game, they will render the night version unbatched, meaning all the performance benefits gained by this method are for nothing.
+
+Instead, have everything enabled when loading in, setup a ''OnEnable'' Udon event and have that disable all your Lighting variants, except the one you wish to spawn in. This will ensure all Lighting variants are batched. The difference this makes is immense and crucial.
+
+[[File:OnEnable_setup_on_map_load.jpg|border|frameless|512x512px]]
+
+Swapping out baked light has great performance benefits and will feel more natural than using real time light or a tinted camera overlay. Few worlds use this technique, the one shown in this guide was [[Community:Atoll of Ether]], however [[VRChat Home]] also swaps out baked light.
+[[Category:Guides]]

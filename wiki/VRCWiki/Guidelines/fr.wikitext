@@ -1,0 +1,100 @@
+{{Noticebox/Guidelines_translation}}
+<languages/>
+<span id="VRChat_Wiki_Rules_and_Guidelines"></span>
+== Règles et directives du Wiki VRChat ==
+
+Bienvenue sur la base de connaissances officielle de VRChat ! La publication de contenu est soumise aux [[Special:MyLanguage/Terms of Service|Conditions d’utilisation]] et aux [[Special:MyLanguage/Community Guidelines|Règles de la communauté]], en plus des autres politiques de VRChat et du Wiki. Le Wiki de VRChat est supervisé par un groupe de [[Special:MyLanguage/VRCWiki:Roles|mainteneurs et organisateurs bénévoles]] nommés par VRChat, Inc.
+
+Suivez ces règles et directives afin que le Wiki puisse rester académique, professionnel et facile à lire. Gardez-les en tête lorsque vous contribuez à un article ou une page. Quelconques questions ou préoccupations en rapport avec les directives du Wiki VRChat peuvent être dirigés vers [[Special:MyLanguage/VRCWiki talk:Guidelines|la page de discussion]] de l'article, ou vers le serveur [[Special:MyLanguage/Discord servers#VRChat Wiki|Discord]] du Wiki VRChat.
+
+<span id="Type_of_permitted_content"></span>
+== Type de contenu permis ==
+
+Toutes les modifications doivent suivre un [[Special:MyLanguage/VRCWiki:Neutral point of view|point de vue neutre]] (NPOV) et respecter le [[Special:MyLanguage/VRCWiki:Manual of Style|Manuel de style]] (MOS). Si vous êtes directement impliqué dans la création, le développement ou la gestion (source primaire) du contenu d’un article, vous n’êtes pas autorisé à le modifier. Pour plus d’informations, consultez la politique de [[Special:MyLanguage/VRCWiki:Conflicts of interest|conflit d’intérêts]] (COI) du Wiki VRChat.
+
+VRChat est une plateforme destinée aux utilisateurs âgés de treize ans et plus. '''Tout le contenu doit être adapté à cet âge, et exempt de tout langage inapproprié ou à connotation sexuelle.'''
+
+Le type de contenu suivant est autorisé sur ce Wiki :
+
+<span id="Official_pages"></span>
+== Pages officielles ==
+
+'''Les pages officielles''' sont gérées par l’équipe du Wiki VRChat et contiennent des informations sur les mondes officiels de VRChat, les fonctionnalités et d’autres sujets fournis par la plateforme de base. Les utilisateurs peuvent suggérer des modifications, mais un Mainteneur doit les approuver après leur publication. Tout utilisateur peut librement lancer ou discuter de sujets sur la page « Discussion » de l’article.
+
+Ces pages officielles auront à leur sommet une « boite de notification », tel que : {{Noticebox/Official}}
+
+Les articles officiels de VRChat incluent des informations et citations tels que des :
+* Notes de patch
+* Documents concernant les fonctionnalités
+* Informations du « Manuel d'utilisateur » (Contrôles, configuration requise, IU, et la disposition des menus)
+
+Les informations des pages officielles sont aussi exactes que possible au moment de leur dernière modification ; si un article contient des informations obsolètes ou manquantes, veuillez effectuer une modification. Après avoir soumis une modification sur une page officielle, celle-ci sera publiée et la page sera mise à jour.
+
+<span id="Community_pages"></span>
+=== Pages communautaire ===
+
+'''Les pages communautaires''' peuvent être créées et modifiées par n’importe quel utilisateur. Ces articles résument le contenu communautaire de VRChat. Vous pouvez commencer par rechercher un article communautaire dans la barre de recherche avec ''Community:'' suivi d’un sujet. S’il n’a pas encore de page et que le contenu répond aux [[Special:MyLanguage/VRCWiki:Notability|critères de notoriété]] et ne viole pas les politiques de [[VRCWiki:Conflicts of interest|conflits d’intérêts]] (COI) du Wiki, vous pouvez le créer !
+
+Les articles communautaires auront à leur sommet une « boite de notification », tel que : {{Noticebox/Community}}
+
+Ajoutez cette boite de notification en écrivant : <nowiki>{{Noticebox/Community}}</nowiki>.
+
+==== Guides ====
+
+Les '''guides''' sont des articles informatifs ayant pour but d'aider les utilisateurs à en apprendre plus sur un sujet ou à effectuer des actions étape par étape. Les guides sont des pages incluant « Guides : » dans leur nom, ainsi que <nowiki>[[Category:Guide{{#translation:}}]]</nowiki> dans leur code source
+
+<span id="Files"></span>
+== Fichiers ==
+
+'''Les fichiers''' sont des images ou des médias qui peuvent être ajoutés à une page pour améliorer visuellement un article. Tout utilisateur peut téléverser des fichiers via [[Special:Upload]]. Il est généralement recommandé de téléverser les images '''au format .webp''', qui conserve la qualité et est optimisé pour un chargement rapide sur les navigateurs.
+
+Ne téléversez seulement que des fichiers liés à VRChat ou au contenu d'une page. Retirez ou floutez les pseudonymes ou groupes des images. Ne téléversez aucun contenu sensible, inapproprié, ou sexuellement suggestif.
+
+<span id="Verification"></span>
+== Vérification ==
+
+Les informations sur le WIki VRChat doivent être précises et ne pas tromper les lecteurs. Citez toutes informations externes ou utilisez des liens Wikipédia pour rediriger les lecteurs vers toutes informations pertinentes.
+
+Lorsque pertinent, liez à la {{VRC link|https://creators.vrchat.com|Documentation des créateurs VRChat}} ou à la [https://docs.unity.com Documentation Unity].
+
+==== Contenu non sorti ====
+{{Noticebox/unreleased|Il s'agit d'une démonstration. Si il y a une raison, celle-ci sera affichée ainsi.}}
+
+Les informations à propos de fonctionnalités à venir ne doivent pas être documentées si celles-ci sont basées sur des rumeurs ou spéculation. Si une fonctionnalité a été officiellement documentée par VRChat (par exemple, sur une [[Special:MyLanguage/Developer Update|mise à jour des développeurs]]), celle-ci doit être citée comme étant la source. Si le contenu existe au sein de [[Special:MyLanguage/VRChat API|API]] de VRChat ou d'outils de traduction, tel que Crowdin, celui-ci peut être placé dans la page [[Special:MyLanguage/Community:Leaks|Communauté : Fuites]].
+
+
+Ajoutez cette boite de notification en écrivant : <nowiki>{{Noticebox/unreleased|Si vous écrivez une raison ici, elle sera affichée en tant que telle.}}</nowiki>.
+== Pages de discussion ==
+Les pages de discussion sont disponibles dans la section « Discussion » d'un article. Insérez un en-tête pour le sujet, suivi de votre contenu. Terminez votre post avec quatre tildes : <code><nowiki>~~~~</nowiki></code>
+
+Ces quatres tildes signent votre post de cette manière : - [[Special:MyLanguage/User:Screenname|Votre nom]] ([[Special:MyLanguage/User talk:Your name|parle]]) HH:MM, JJ Mois Année (UTC)
+
+== Pages d'utilisateur ==
+Les pages d'utilisateur servent d'introduction personnelles où vous pouvez partager des informations vous concernant ou vos activités. Bien que ces pages doivent suivre les politiques du Wiki, elles sont exemptées de la politique du conflit d'intérêt. Veuillez cependant :
+* Être respectueux, n'utilisez pas votre page pour cibler les autres.
+* Évitez d'utiliser votre page pour faire de la promotion. Cela doit vous concerner et non des arguments de vente pour vos services.
+* N'incluez pas de redirection automatique pour des raisons de sécurité. Rediriger vers la page d'autres utilisateurs n'est aussi pas permis car celle-ci interfère avec les outils de modération. Si vous souhaitez que votre pseudonyme soit affiché en tant que titre de la page, utilisez le code suivant : <code><nowiki>{{DISPLAYTITLE:User: YOURNAMEHERE}}</nowiki></code>.
+
+== Conduite personnelle et désaccords ==
+Les modifications et annulations en série peuvent provenir d'un désaccord sur des changements, entraînant des annulations répétées dans une courte période de temps.
+
+Des différends peuvent survenir. Cependant, le Wiki VRChat, comme d’autres bases de connaissances, doit rester courtois. Pour éviter les conflits, utilisez des résumés de modification clairs et cherchez une résolution neutre sur la page de discussion de l’article.
+
+Autrement, discutez d'un compromis sur la page de l'utilisateur. N'harcelez ou n'ayez aucun acte déplacé sur le Wiki, y compris sur les pages de discussion. Évitez de modifier toutes sections soumises à un désaccord avant qu'un compromis ne soit trouvé. Prenez en compte que les utilisateurs sont de bonne foi, mais peuvent avoir différentes perspectives.
+
+''Pour plus d'information sur la conduite, voir :''
+
+* [[fr.Wikipedia:Wikipedia:Supposez la bonne foi|Wikipédia : Supposez la bonne foi]]
+* [[:Wikipedia:Dispute_resolution|Wikipedia : Résoudre un conflit]]        
+*[[Special:MyLanguage/VRCWiki:Backseat_moderation| VRCWiki : Backseat modération]]
+
+<span id="See_also"></span>
+==Voir aussi==
+
+* [[VRCWiki:Contributor hub|Hub des contributeurs]]
+* [[Special:MyLanguage/VRCWiki:How to Contribute|Comment contribuer]]
+* [[Special:MyLanguage/VRCWiki:Disciplinary_policy|Politique de discipline]]
+* [[Special:MyLanguage/Community Guidelines|Règlement de la communauté]]
+[[Category:VRCWiki policies{{#translation:}}]]
+----
+{{Navbox/Wiki_policies}}

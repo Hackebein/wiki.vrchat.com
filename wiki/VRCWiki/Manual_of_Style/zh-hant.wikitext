@@ -1,0 +1,83 @@
+<languages/>
+本條目所說的「'''風格指南'''」（'''Manual of Style, MOS'''），為 VRChat Wiki 的建議格式指南。''使用繁體中文的貢獻者請注意，本指南是基於英文條目所編纂，因此除開通用於各語言的基本要求外，細節上的格式指引與用法仍以英文為主。如果需要瞭解關於繁體中文條目編纂的格式資訊，請至 [https://discord.gg/ZNNds82Nht VRCWiki Discord] 的[https://discord.com/channels/1245151313201987665/1336659795482251295 繁體中文討論串]洽詢。''
+
+基本要求：
+
+* VRChat Wiki 上的所有內容都必須真實並準確。
+* 貢獻者應使用簡潔明瞭且易於理解的語言撰寫文章，以及確保文章的結構一致，更要採用對讀者友善的排版與格式。
+* 如果您對 VRChat Wiki 的排版、格式、搭配有任何疑慮，請洽詢[https://wiki.vrchat.com/wiki/Special:ListUsers?username=&group=community-mod&wpsubmit=&wpFormIdentifier=mw-listusers-form&limit=50 社群管理員（Community Moderators）]以取得協助。
+
+以下是幾項具體的格式與風格指引：
+
+<span id="Article_titles"></span>
+==文章標題==
+
+標題應為該主題的可識別名稱或描述，並平衡其自然流暢、足夠精確、簡潔明瞭的程度，且相關文章皆須保持一致性。
+
+格式指引請參考「文章標題格式」部分，並注意以下事項：
+* 標題的首字母須大寫，但其餘部分應使用句子大小寫（sentence case）。VRChat 使用句子大小寫格式，適用於句子、文章標題、章節標題、表格標頭、圖片標註、列表項目（大多數情況下）、資訊框（infobox）及類似模板等。
+* 標題的開頭不應使用冠詞（「a」、「an」或「the」），除非它是名稱中不可分割的一部分。例如「[[VRChat Creator Economy|VRChat Creator Economy]]」便是正確用法，而「[[The VRChat Creator Economy|The VRChat Creator Economy]]」則是錯誤用法。若其名稱本身已包含冠詞，例如「[[The Black Cat|The Black Cat]]」，屬於例外狀況，應予以保留。
+* 標題通常應使用名詞或名詞片語，例如「Early life」便是正確用法，「In early life」則是錯誤用法，但可以用在章節標題中。如果標題因詞語過短而有歧義風險，可追加其長度，例如「Events」過短，因此加長至「[[VRChat Events|VRChat Events]]」較為完整。
+* 標題末尾不應包含標點符號，除非該標點是名稱中不可分割的一部分。例如「Do Androids Dream of Electric Sheep?」、「VRChat Inc.」、「Fantastic Avatars (and where to find them)」。
+* 標題如果包含引號或撇號（apostrophe），則應該新增一個對應的「重新導向（redirect）」標題，以確保搜尋體驗不受影響。避免使用「智慧引號（curly quotes）」（即 “ ”），因為「直引號（straight quotes）」（即 " '）在大多數平台上更容易輸入與顯示。
+
+<span id="Section_headings"></span>
+==章節標題==
+
+章節標題通常應遵循文章標題的格式指引（如上所述），並應使用句子大小寫（sentence case）。例如「How to feed your VRCat」便是正確用法，「How To Feed Your VRCat」則是錯誤用法。
+
+標題必須單獨佔一行，且前面應有一行空行；標題後面的空行是可選的，且不會影響顯示效果。請勿在標題前後使用兩行空行，因為這會導致不必要的額外間距，影響版面排版。
+
+出於技術原因，章節標題應遵循以下規則：
+
+* 在同一頁面內應具有唯一性，以確保章節連結能正確導向相應位置。
+* 不應包含連結，尤其是部分標題的超連結，避免影響導航功能。
+* 不應包含圖片、表情符號（emoji）或圖標（icons），以保持標題的簡潔性與可讀性。
+* 不應包含引用（citations）或註腳（footnotes），這些內容應放在正文或註釋區域。
+* 不應濫用描述列表標記（";"）來偽造標題格式，應使用正規的標題標記。
+* 不應包含模板轉換（template transclusions），避免影響頁面載入與格式統一。
+
+為了保持一致的風格，章節標題應：
+
+* 不應冗餘地重複提及文章主題，例如應使用「Early life」，而非「Smith's early life」或「His early life」。
+* 不應不必要地參考較高層級的標題，除非這樣做能使標題更簡潔或更清晰。
+* 不應使用數字或字母編號（如大綱式標題）。
+* 不應以疑問句形式書寫，例如應使用「Languages」，而非「What languages are * spoken in Mexico?」。
+* 不應使用顏色或不尋常的字體，避免影響可讀性與無障礙設計（Accessibility）。
+* 不應包裹於特殊標記（markup）內，這可能會導致顯示錯誤或其他可讀性問題。
+
+<span id="English_word_choice_and_capitalization"></span>
+==英文詞彙選擇與大小寫規則==
+
+為了讓 Wiki 內容的在地化（Localization）翻譯更容易，請考慮以下風格選擇：
+
+* 引號與作品名稱（書籍、電影等） 應按照來源的原始大小寫格式書寫（但請參考下方「排版一致性」部分）。
+* 專有名詞應使用主體本身的拼寫與大小寫。例如「...joint project of VRChat Inc. and VRChat Community Labs...」、「International Avatar Federation」。
+* 一般情況下，不要在句中將「the」大寫。例如應寫作「throughout the United Kingdom」，而非「throughout The United Kingdom」。
+* 標題應使用通用詞彙，而非區域性詞語。例如「glasses」優於「spectacles」（英式用法）或「eyeglasses」（美式用法）；「Ten million」優於「one crore」（印度英語中的一千萬）。
+* 若標題中存在拼寫變體，應建立重新導向頁面，以適應不同拼寫，確保搜尋與連結的便利性。例如「artefact」（英式拼寫）與「artifact」（美式拼寫）應互相重新導向。
+* 應優先使用普遍理解的詞語或短語，而非因國家及地區差異而具有不同含義的詞彙。例如使用「alternative」或「alternating」，而非「alternate」，以避免歧義（但在技術語境中仍應保持原有用法，如「alternate reality」、「alternate universe」）。
+
+<span id="Links"></span>
+==連結==
+
+請盡可能使用內部連結（internal links），並避免在 URL 中包含追蹤參數（tracking parameters）。
+
+<span id="Group_Links"></span>
+===群組連結===
+
+當連結至您的群組時，請確保使用永久連結（permanent link）。該連結應清楚顯示群組名稱，並附帶其短代碼（short code）。
+
+例如：
+* [https://vrchat.com/home/group/grp_7ccb6ca3-cd36-4dab-9ab1-7bcf08d794e4 VRChat Team] - VRCHAT.0000
+
+==分類==
+在為頁面添加分類時，請確保在分類標記內加入「<code><nowiki>{{#translation:}}</nowiki></code>」代碼，以確保翻譯功能的正確運作。
+
+例如：
+* <code><nowiki>[[Category:Game worlds{{#translation:}}]]</nowiki></code>
+
+這樣可以確保未來標記為翻譯的頁面不會讓分類列表被同一頁面的不同語言版本占滿，從而保持分類的整潔與可讀性。
+
+----
+{{Navbox/Wiki_policies}}

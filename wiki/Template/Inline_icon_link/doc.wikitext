@@ -1,0 +1,74 @@
+Create inline icon links.
+
+=== Example Usage ===
+<pre><nowiki>* Please visit {{Inline icon link|image=Vrrat_thumbsup.png|link=https://vrchat.com|desc=the home of VRRat!|size=20px|caption=VRRat thinks you're cool}}!</nowiki></pre>
+
+will make:
+
+* Please visit {{Inline icon link|image=Vrrat_thumbsup.png|link=https://vrchat.com|desc=the home of VRRat!|size=20px|caption=VRRat thinks you're cool}}!
+
+=== Template parameters ===
+{| class="wikitable"
+|+ Caption text
+|-
+! Name !! Variable !! Description !! Default
+|-
+| image || <code>image=</code><br>Can also be parameter 1.|| icon image. ||[[:File:Placeholder.webp]] [[File:Placeholder.webp|64px|frameless]]
+|-
+| link || <code>link=</code><br>Can also be parameter 2. || link || <span style="color:#FF0000;">link</span>
+|-
+| desc || <code>desc=</code><br>Can also be parameter 3. || text of the link|| <span style="color:#FF0000;">description</span>
+|-
+| size || <code>size=</code><br>|| Icon size || 24px
+|-
+| caption || <code>caption=</code><br>|| caption of the icon || icon
+|}
+<noinclude>[[Category:Template Documentation]]</noinclude>
+<templatedata>
+{
+	"params": {
+		"1": {
+			"aliases": [
+				"image"
+			],
+			"label": "Icon",
+			"description": "Icon image.",
+			"example": "File:Placeholder.webp",
+			"type": "wiki-file-name",
+			"required": true
+		},
+		"2": {
+			"aliases": [
+				"link"
+			],
+			"label": "Link",
+			"type": "url",
+			"required": true
+		},
+		"3": {
+			"aliases": [
+				"desc"
+			],
+			"label": "Link text",
+			"description": "Text of the link",
+			"type": "string",
+			"suggested": true
+		},
+		"size": {
+			"label": "Icon Size",
+			"type": "number",
+			"default": "24px"
+		},
+		"caption": {}
+	},
+	"description": "Creates an inline icon with a link",
+	"paramOrder": [
+		"1",
+		"2",
+		"3",
+		"size",
+		"caption"
+	],
+	"format": "inline"
+}
+</templatedata>

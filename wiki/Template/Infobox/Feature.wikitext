@@ -1,0 +1,48 @@
+<includeonly><infobox type="Feature" theme="community">
+	<title source="name"><default>'''Missing name!'''</default></title>
+	{{#if: {{{image}}} |  <image source="image"></image>}}
+    <data source="platforms"><label>Platforms</label></data>
+    <data source="vr">
+        <label>VR only</label>
+    </data>
+    <data source="vrchatplus">
+        <label><span style="margin-inline-end:0.3rem;>[[File:Icon_VRC_Plus_Icon.png|frameless|14x14px]]</span>[[VRC+]]</label>
+    </data>
+    <group>
+        <header>Release history</header>    
+        <panel>
+            {{#if: {{{branch_live_date}}} | 
+                <section>
+                    <label>Live</label>
+                    <data source="branch_live_date">
+                        <label>Date</label>
+                        <format>{{#timel: F d, Y|{{{branch_live_date}}}}}</format>
+                    </data>
+                    <data source="branch_live_version"><label>Version</label></data>
+                    <data source="branch_live_releasenote"><label>Release note</label></data>
+                </section>
+            }}
+            {{#if: {{{branch_openbeta_date}}} | 
+                <section>
+                    <label>Open Beta</label>
+                    <data source="branch_openbeta_date">
+                        <label>Date</label>
+                        <format>{{#timel: F d, Y|{{{branch_openbeta_date}}}|ymd}}</format>
+                    </data>
+                    <data source="branch_openbeta_version"><label>Version</label></data>
+                    <data source="branch_openbeta_releasenote"><label>Release note</label></data>
+                </section>
+            }}
+            {{#if: {{{branch_announcement_date}}} | 
+                <section>
+                    <label>Announcement</label>
+                    <data source="branch_announcement_date">
+                        <label>Date</label>
+                        <format>{{#timel: F d, Y|{{{branch_announcement_date}}}|ymd}}</format>
+                    </data>
+                    <data source="branch_announcement_link"><label>Link</label></data>
+                </section>
+            }}
+        </panel>
+    </group>
+</infobox></includeonly><noinclude>{{Documentation}}[[Category:Infobox Templates]][[Category:Templates]]</noinclude>

@@ -1,0 +1,243 @@
+{{Noticebox/Community}}{{Infobox/World|name=Experimental Sign Language World (Udon)|image=Experimental-Sign-Language-World.png|author=Bob64|developers=Bob64, Darketernal, Devon, Marzipanic, GT4tube, Lanowen, Melwil, Tenri, ShadeAxas, Sio, DmTheMechanic, Nemsi, Catsgirl_nya, Raven, Bou, Akira, Millan, CODApop|capacity=30 (60)|platforms=PC, Android|tags=mocap, americansignlanguage, asl, sign, language|id=wrld_5e778b1b-88c7-4f44-8ff3-a3f289816fd0|languages=English, French, Japanese|labs=Jan 14 2020|published=Feb 16 2020}}
+
+The '''Experimental Sign Language World''' is a VRChat world created by user '''Bob64'''<ref>https://vrchat.com/home/user/usr_f50fcd7f-63d3-4110-a188-5beade936a5d</ref>, designed to provide an immersive learning experience for users interested in sign languages. This world offers an extensive, interactive dictionary covering multiple [[Community:Sign language in VRChat|sign languages]], including American Sign Language (ASL), British Sign Language (BSL), French Sign Language (FSL), and Japanese Sign Language (JSL).
+
+This world is recommended by members of the [[Community:Helping Hands|Helping Hands]]<ref>[https://vrc.group/HANDS.0010 'Helping Hands' VRChat group]</ref> community, a social group for the deaf and hard-of-hearing within VRChat.
+
+==Lessons==
+There are lessons and exercises available for three signed languages: American Sign Language, French Sign Language, and Japanese Sign Language.
+
+===American Sign Language===
+{| class="wikitable"
+|+ American Sign Language Lessons
+!Value
+!Lesson Name
+!Exercises
+|-
+| 1.
+|Alphabet
+|41
+|-
+|2.
+|Numbers
+|54
+|-
+|3.
+|Daily Use
+|47
+|-
+|4. 
+| Pointing use Question / Answers 
+|62
+|-
+| 5.
+|Common 
+| 69
+|-
+|6.
+|People
+|43
+|-
+|7.
+|Feelings / Reactions p1: A-M
+|54 
+|-
+|8.
+|Feelings / Reactions p1: N-Z 
+|22 
+|-
+|9. 
+| Value
+|65
+|-
+|10.
+|Time
+|55
+|-
+|11.
+|VRChat
+|56
+|-
+|12.
+|Verbs & Actions p1: A-B
+|34
+|-
+|13.
+|Verbs & Actions p1: C
+|40
+|-
+|14. 
+|Verbs & Actions p1: D-E
+| 36
+|-
+|15.
+|Verbs & Actions p1: F-I
+|38
+|-
+|16.
+|Verbs & Actions p1: J-O
+|37 
+|-
+|17.
+|Verbs & Actions p1: P-R 
+|42 
+|-
+| 18.
+|Verbs & Actions p1: S-T
+|56
+|-
+|19.
+|Verbs & Actions p1: U-Z
+|19
+|-
+|20.
+|Food
+|50
+|-
+|21.
+|Drinls 
+| 11
+|-
+|22.
+|Animals 
+|64
+|-
+|23. 
+|Machines 
+|18 
+|-
+|24.
+|Places
+|35
+|-
+|25.
+|Stuff
+|18
+|-
+|26.
+| Weather
+|12 
+|-
+|27.
+|Clothing
+|19
+|-
+|28.
+|Accessories
+|20
+|-
+|29.
+|Fantasy / Characters
+|26
+|-
+|30.
+|Professions / Jobs 
+|43
+|-
+|31.
+|Non Manual Markers 
+|1
+|-
+|32.
+|Conceptual Accuracy
+|9
+|-
+|33.
+|Holidays / Special Days 
+| 20
+|-
+| 34.
+|Home stuff
+|24
+|-
+|35.
+|Nature / Environment
+|17
+|-
+|36.
+|Talk/ Asking exercises
+|46
+|-
+|37.
+|Countries
+| 45
+|-
+|38. 
+|Colors
+|17
+|-
+|39.
+|Materials
+|4
+|-
+|40.
+|Shapes
+|3
+|-
+| 41.
+|Medical
+|32
+|-
+|42.
+|LGBT 
+| 40
+|-
+|43.
+|School Subjects
+|15
+|}
+
+=== French Sign Language ===
+{| class="wikitable"
+!Value
+!Lesson Name
+!Exercises
+|-
+| 1.
+|Daily Use
+|34
+|}
+
+=== Japanese Sign Language ===
+{| class="wikitable"
+!Value
+!Lesson Name
+!Exercises
+|-
+| 1.
+|Daily Use
+|40
+|-
+|2.
+|People
+|35
+|-
+|3.
+|VRChat
+|26
+|}
+
+==History==
+A brief history of this world has been documented by Bob64.
+
+* '''v0:''' Proof of concept world with 3 cube buttons (you know, the ones that are hard as hell to click on) that tell 3 avatars to perform different dances.
+*'''v1:''' '''SDK2''' version of the world with programmatically generated buttons and Unity UI (yay raycast laser-pointer) system. It also was the first world to use motion capture to try and show sign language in 3D space.
+*'''v2:''' '''SDK3''' (Udon) version of the world, with the menu system redesigned from the ground up using Udonsharp.
+*'''v3:''' '''ShaderMotion''' version. This world leverages ShaderMotion to increase the precision of motion capture, solving one of the biggest problems plaguing the previous versions of the world (poor quality motion capture). The downside is the world is now heavily dependent on videoplayers working properly.
+
+This world is based on the contributions of '''MrDummy_NL''', a dedicated member of the deaf community within VRChat. The world described by Bob64, ''MrDummy_NL’s Sign&Fun'', originally utilized videos to teach users sign language. Bob64's ''Experimental Sign Language World'' builds on this foundation, enhancing the learning experience with interactive 3D motion capture.
+
+==ShaderMotion==
+This world features advanced [[wikipedia:Motion capture|motion capture]] technology integrated within VRChat itself, titled ShaderMotion<ref>[https://github.com/CuteWaterBeary/ShaderMotion ShaderMotion] on GitHub.</ref>. It leverages this capability by displaying a 3D, motion-captured avatar that demonstrates the signs from the dictionary, providing users with a realistic and accurate visual reference for learning.
+
+==See also==
+*[[Community:Sign language in VRChat]]
+*[[Community:Mute]]
+==References==
+<references />
+{{DEFAULTSORT:Community:Experimental_Sign_Language_World_(Udon)}}
+[[Category:Worlds]]
+[[Category:Educational worlds]]
+[[Category:English]]
+[[Category:French]]
+[[Category:Japanese]]

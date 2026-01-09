@@ -1,0 +1,82 @@
+<languages/>
+{{Noticebox/Official}}
+{{Thumb|{{YouTube|ReZ1wfI3P-8}}}}
+
+この記事では、既存のプラットフォームアカウントを通常の[[Special:MyLanguage/VRChat account|VRChat Account]]に'''連携'''する手順を説明します。 
+
+プラットフォームアカウントには、以下のデバイス上の既存アカウントが含まれます。 
+
+* Steam
+* Meta
+* PICO
+* Viveport
+* Google
+* Discord
+
+== フル機能のVRChatアカウントのメリット ==
+フル機能のVRChatアカウントでは、ユーザーは以下のことが可能になります。
+
+* [[Special:MyLanguage/Trust Ranks|Trust Ranks]]を獲得
+* ワンクリックログインの簡便性を維持
+*  [[Special:MyLanguage/Creator Economy|Creator Economy]] プログラムへの参加申請
+* スクリーンネームの変更
+** スクリーンネーム末尾の自動生成された4桁の[[wikipedia:Discriminator|識別子]]コードを削除
+* ログイン機能の利用が可能になります。
+** {{VRC link|https://vrchat.com/home|VRChat Website}}
+** [[Special:MyLanguage/VRChat SDK|VRChat SDK]]
+* VRChat SSO対応プラットフォームでの認証アクセスが可能になります。
+** {{VRC link|https://wiki.vrchat.com/|VRChat Wiki}}
+** {{VRC link|https://feedback.vrchat.com/|VRChat Feedback Board}}
+** [https://ask.vrchat.com/|VRChat VRChat Ask Forums]
+** VRChat SSOを利用するサードパーティベンダー
+
+== リンク前の考慮事項 ==
+=== お気に入り上限 ===
+アカウントを統合する際、両アカウントのお気に入り総数がプラットフォームの最大制限を超える場合、ユーザーは通常より多くのお気に入りを保持できる場合があります。ただし、新規にお気に入りを追加するには、制限内に収まるよう既存のお気に入りを削除する必要があります。一般的には新規アカウントへの連携が推奨されます。
+
+=== 購入制限 ===
+[[Special:MyLanguage/Creator Economy|Creator Economy]]を通じていずれかのプラットフォーム（Steam、Meta、Pico、Viveport、Google）で購入を行ったユーザーは、アカウントを完全なVRChatアカウントに連携できません。この制限は一時的なものであり、解除される見込みです。
+
+== 連携手順 ==
+[[File:MainMenuLinkAccountButton.png|alt=VRChatメニューのスクリーンショットで、「アカウントリンク」ボタンが表示されています。|thumb|「アカウントをリンク」ボタン付きのメニュー。]]
+プラットフォームアカウントをフル機能のVRChatアカウントに統合するには、以下の手順に従ってください。
+
+# リンクしたい Steam、Meta、Pico、Google、または Viveport アカウントにログインしてください。
+# VRChat でメインメニューを開きます。
+# 「設定」に移動します。
+# 「終了」オプションの下にある「アカウントをリンク」ボタンを探してクリックします。
+#* 「アカウントをリンク」ボタンが表示されない場合、既にフル機能VRChat アカウントにログインしている可能性があります。
+# 画面の指示に従ってアカウントを連携してください。
+
+アカウントの連携に問題が解決しない場合は、{{VRC link|https://vrch.at/support|VRChatサポート}}までお問い合わせください。
+
+== リンク後 ==
+アカウント連携は恒久的かつ不可逆です。各VRChatアカウントは、対応プラットフォームごとに1つのアカウントと同時連携できます。アカウントデータの完全な統合には最大1日かかる場合があります。連携プロセス中または完了後に問題が発生した場合は、{{VRC link|https://vrch.at/support|VRChatサポート}}までお問い合わせください。
+
+== Discordアカウントのサポート ==
+[[File:VRC_Discordaccountlink.webp|thumb|UI要素のデモ。ユーザーがDiscordとVRChatのアカウントを連携できます。]] [[File:VRC_loginscreenDiscord.webp|thumb|VRChatのログイン画面。Discordを使用したログインオプションを提供しています。]]
+
+2025年9月25日<ref>[https://ask.vrchat.com/t/developer-update-25-september-2025 "Developer Update - September 25, 2025"] on ''[https://hello.vrchat.com/blog VRChat's Blog]'' at ''[[hello.vrchat.com]]''. Dated September 25, 2025. Retrieved September 25, 2025.</ref>に掲載されました。
+
+投稿された[[Developer Update]]では、VRChatアカウントとDiscordアカウントを連携させる将来の機能について紹介されています。ユーザーはプラットフォーム化された[[VRChat Account]]を作成でき、Discordを使用してログインするオプションも提供されます。
+
+さらに、ユーザーはDiscordまたはVRChatを通じて、いつでもアカウントの連携を解除できるようになります。
+
+2025年10月16日現在、[https://docs.vrchat.com/docs/vrchat-202541-openbeta 2025.4.1]の[[Open Beta]] では、Discordを使用してVRChatにログインし、アカウントをリンクする機能が導入されました。
+
+Discordログイン機能は、2023年11月3日にリリースされた[https://docs.vrchat.com/docs/vrchat-202541 VRChat 2025.4.1]で正式に公開されました。
+
+== 公式リソース ==
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/360062659053-I-want-to-turn-my-platform-account-through-Steam-Meta-Pico-or-Viveport-into-a-VRChat-account|" Steam、Meta、Pico、またはViveportのプラットフォームアカウントをVRChatアカウントに変換したい場合"}}''help.vrchat.com''
+* {{VRC link|https://vrch.at/support|VRChatサポート}}
+
+<span id="See_also"></span>
+== 関連項目 ==
+
+* [[Special:MyLanguage/VRChat account|VRChatアカウント]]
+* [[Special:MyLanguage/Getting Started|はじめに]]
+
+==参考文献==
+<references/>
+{{Start-navbox}}
+[[Category:Guides{{#translation:}}]]

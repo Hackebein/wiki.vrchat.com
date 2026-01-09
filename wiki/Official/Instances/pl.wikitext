@@ -1,0 +1,305 @@
+<languages/>
+{{Noticebox/Official}}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:Instance creation menu.webp
+</div>|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">Create instance menu popup</span>]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Instances''' are unique sessions for a [[Special:MyLanguage/Worlds|world]]. Users can create and join instances of a world, and users in the same instance can perceive and interact with each other in the shared world space, but not with users in other instances of the same world. Instances themselves can have specific properties that affect who is allowed to join, invite, or see who is in the instance. They also have a region, which correlates to a real world server that handles passing connection information between the users in the session.
+</div>
+
+<span id="Instance_types"></span>
+==Typy instancji==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+There are many public and private environments of all genres that the user can explore. Users may also create and join various community groups to meet other users with mutual interests. Users can choose to join a public instance, or create a private instance to be alone or invite friends after adding them. The type of privacy of created instances is up to the user, and follows under the various tiers:
+</div>
+{| class="wikitable"
+|+
+!'''Publiczna''' 
+|<span lang="en" dir="ltr" class="mw-content-ltr">A publicly listed instance to which anyone can join.</span>
+|-
+!'''Znajomi+'''
+|<span lang="en" dir="ltr" class="mw-content-ltr">Your friends, and their friends, and so on can join.</span>
+|-
+!'''Znajomi''' 
+|<span lang="en" dir="ltr" class="mw-content-ltr">Only your friends may join; friends of friends are excluded.</span>
+|-
+!'''Zaproszeni+'''
+|<span lang="en" dir="ltr" class="mw-content-ltr">Users and friends of users must request to join your instance, unless you or an invited user's [[Special:MyLanguage/social status|social status]] is set to "Join Me".</span>
+|-
+!'''Zaproszeni''' 
+|<span lang="en" dir="ltr" class="mw-content-ltr">Users must send a join request to join you, unless your social status is set to "Join Me"; friends of friends are excluded.</span>
+|-
+!'''[[Special:MyLanguage/Groups|Grupowa]]'''
+|<span lang="en" dir="ltr" class="mw-content-ltr">An instance that only members of a group, or specific roles within that group can access.</span>
+|-
+!'''Grupowa+'''
+|<span lang="en" dir="ltr" class="mw-content-ltr">An instance hosted by a group, in which friends of group members, friends of their friends, and so on, can join. Group+ instances may have appointed group moderators to manage an instance. Being a member of the hosting group is not required to join the instance.</span>
+|-
+!'''Grupowa publiczna'''
+|<span lang="en" dir="ltr" class="mw-content-ltr">A publicly listed instance, hosted by a group, to which anyone can join. Group Public instances may have appointed [[Special:MyLanguage/Groups#Group roles and permissions|group moderators]] to manage an instance.</span>
+|}
+
+{| class="wikitable"
+|+Kto może dołączać do konkretnych typów instancji
+!
+!Każdy
+!Znajomi<br />użytkownika
+!Zaproszeni<br />znajomi<br />użytkownika
+!Znajomi<br />właściciela
+!Zaproszeni<br />znajomi<br />właściciela
+!Członkowie<br />wybranych<br />ról grupy
+!Wszyscy<br />członkowie grupy
+|-
+!Publiczna
+| style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="3" style="text-align:center;" |✔️
+| rowspan="5" style="text-align:center;" |✔️
+| rowspan="5" style="text-align:center;" | -
+| rowspan="5" style="text-align:center;" | -
+|-
+!Znajomi+
+| rowspan="6" style="text-align:center;" | -
+|-
+!Znajomi
+| rowspan="4" style="text-align:center;" | -
+| style="text-align:center;" | -
+|-
+!Zaproszeni+
+| style="text-align:center;" |✔️<ref group="note"><span lang="en" dir="ltr" class="mw-content-ltr">UI only allows to send an invite after the friend requested to join.</span></ref>
+| rowspan="5" style="text-align:center;" | -
+|-
+!Zaproszeni
+| rowspan="2" style="text-align:center;" | -
+|-
+!Grupowa
+| rowspan="3" style="text-align:center;" | -
+| colspan="2" style="text-align:center;" |✔️<ref group="note"><div lang="en" dir="ltr" class="mw-content-ltr">
+All or selected roles ("Join Group Instances" group role permission required). Note that all group members can still see the instance, even if they don’t have join permission.
+</div></ref>
+|-
+!Grupowa+
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" | -
+| rowspan="2" style="text-align:center;" |✔️
+|-
+!Grupowa publiczna
+| style="text-align:center;" |✔️
+|}
+<references group="note" />
+<span id="Public_instances"></span>
+===Publiczne instancje===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Public instances are considered easily accessible and include Public and Group Public types.<ref name=":0">https://hello.vrchat.com/community-guidelines</ref>
+</div> 
+
+<span id="Private_instances"></span>
+===Prywatne instancje===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Private instances require an invitation or a way to get in and include Friends, Friends+, Invite, Invite+, Group, and Group+ types.<ref name=":0" />
+</div>
+
+<span id="Group_instances"></span>
+==Instancje grupowe==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Group instances are created by a group and include Group Public, Group+, and Group types.
+</div>
+
+<span id="Age_gated_instances"></span>
+===Instancje z ograniczeniem wiekowym===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+''See also [[Special:MyLanguage/Age Verification|Age Verification]].''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Optionally, 18+ age verification requirement can be set for a group instance by a group member with a role with "Create Age Gated Instances" permission, so that only users with verified 18+ age can join.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+If a user is age verified, age gated instances will be prioritized and shown at the top of the instance list.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<small>(Moderator permissions or Group owner overfill does not allow a user to join if they are not also Age-Verified)</small>
+</div>
+
+<span id="Queues"></span>
+==== Kolejki ====
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Instances can be set up with a queue. When capacity is exceeded, a queue forms, shown by a separate icon that displays its length. The "Join" buttons change to "Join Queue". Users with the group's priority-queue permission are placed at the front (behind any users already there with the same permission); everyone else joins the end. The group owner bypasses the queue entirely.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+A user can direct-connect to an instance if another of their own clients is already inside. The new client kicks the old one on entry, letting you switch between VR and desktop without losing your slot in a full instance.
+</div>
+
+<span id="Regions"></span>
+==Regiony==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Whilst selecting an instance type, there are choices for varying regions to better optimize their experience. Choosing an instance closest to your location will see a decrease in [[Special:MyLanguage/:Community:Terminology#Ping|ping]], and ensuring a more stable connection to the instance, preventing disconnections and lag.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Historically, VRChat ran solely on the U.S. West server. On June 16, 2021, two extra regions - '''Europe, and Japan''' were added to the platform in the [https://docs.vrchat.com/docs/vrchat-202124 Regions update]<ref>https://docs.vrchat.com/docs/vrchat-202124</ref> to distribute server load, and offset increasing user count. On December 1, 2021, VRChat added the '''U.S. East'''<ref>https://docs.vrchat.com/docs/vrchat-202142</ref> region, and renamed the current USA server to ''''U.S. West'''<nowiki/>'. Users are also encouraged to check VRChat's {{VRC link|https://status.vrchat.com|server status}} website or their [https://x.com/VRChat_Status VRChat Status account] on social media for outages, or upon discovering issues when connecting to VRChat.
+</div>
+{| class="wikitable"
+|+
+!<span lang="en" dir="ltr" class="mw-content-ltr">Token</span>
+!Region
+!Lokalizacja
+|-
+|usw
+|USA Zachód
+|San José
+|-
+|use
+|USA Wschód
+|Waszyngton
+|-
+|eu
+|Europa
+|Amsterdam
+|-
+|jp
+|Japonia
+|Tokio
+|}
+<span id="Instance_naming"></span>
+== Nazywanie instancji ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:InstanceNaming.png
+</div>|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">The instance created modal with a display name.</span>]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+When creating an instance, the instance creator has the option to change its display name. Instance names appear in instance details located in the Here tab of the Quick Menu and in the instance list of worlds. Instance names have a limit of 32 characters allowed, and the characters <code>.</code>,<code>/</code>, and<code>\</code> are not allowed to be used.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Instance naming within the client is [[Special:MyLanguage/VRC+|VRC+]] feature, although naming an instance through the API does not require VRC+.
+</div>
+
+<span id="Instance_settings"></span>
+== Ustawienia instancji ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:QuickMenu HereTab.png
+</div>|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">The instance settings UI on the Quick Menu "Here" tab.</span>]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+After joining an instance, the instance creator can select what type of content is to be allowed within the instance; the default options will be set to the world's default content settings. Changing what type of content is allowed can be made in the '''Here''' tab of the Quick Menu.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Instance Settings cannot be set by the instance creator if the instance type is Public or Group Public. Instead, it will respect the world creator's content settings. Items can only be toggled in group instances and will always respect the world creator's content settings regardless of instance type.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The list of content that can be toggled are:
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Special:MyLanguage/Emojis|Emojis]]
+* [[Special:MyLanguage/Stickers|Stickers]]
+* [[Special:MyLanguage/VRC+#Sharing|Sharing]] Pedestals
+* [[Special:MyLanguage/VRC+#Prints|Prints]]
+* [[Special:MyLanguage/Camera Drone|Drones]]
+* [[Special:MyLanguage/Items|Items]]
+</div>
+
+<span id="Instance_permissions"></span>
+== Uprawnienia instancji ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Your permissions for managing an instance is dependent on whether you are a world author, instance owner, or group moderator.
+</div>
+
+<span id="Instance_owner"></span>
+=== Właściciel instancji ===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The instance owner, is the person who initiated the instance, and depending on its type can be either a user, a group, or the world author. Instance ownership cannot be changed once assigned. To change instance ownership, a new instance must be opened by another user or group. Instance ownership is often confused with a "master", which is usually tied to [[Special:MyLanguage/Udon|Udon]] world settings.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Instance owners have permission to [[Special:MyLanguage/Trust and Safety#User moderation tools|moderate users]], including kicking, warning or muting them. In the case of a group instance, group moderators and their powers depend on assigned [[Special:MyLanguage/Groups#Group Roles and Permissions|group roles and permissions]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Public instances do not have an assigned instance owner, and defaults to the world author.
+</div>
+
+<span id="World_author"></span>
+=== Autor świata ===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The author of the world have the same core set of moderation tools as an instance owner, being able to moderate users in the form of kicking, warning, and muting. The author have these additional powers, depending on instance type.
+</div>
+
+<span id="Permission_chart"></span>
+=== Wykres uprawnień ===
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">Moderation permissions for instances</span>
+!Typ instancji
+|'''Publiczna'''
+|'''Znajomi+'''
+|'''Znajomi'''
+|'''Zaproszeni+'''
+|'''Zaproszeni'''
+|'''Grupowa publiczna'''
+|'''Grupowa+'''
+|'''Grupowa'''
+|-
+|'''Autor świata'''
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|Nie
+|Nie
+|-
+|'''Właściciel instancji'''
+|Nie
+|✔️
+|✔️
+|✔️
+|✔️
+|Jeśli moderator
+|Jeśli moderator
+|Jeśli moderator
+|-
+|'''Moderator grupy'''
+|Nie
+|Nie
+|Nie
+|Nie
+|Nie
+|✔️
+|✔️
+|✔️
+|}
+<span id="Instance_duration_and_automatic_resets"></span>
+== Życie instancji i automatyczny reset ==
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[File:Instance shutdown notification.webp
+</div>|alt=A notification on the VRChat Quick Menu notification pane, in the Other section. The notification reads: "Warning: This instance will be reset in 60 minutes due to its age."|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">The notification that appears when the instance is due to reset.</span>]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Instances that have been running for long periods will automatically reset to prevent potential issues. If an instance is populated, users will rejoin upon reset, otherwise, they are sent to their Home World. A 180- and 60-minute warning can be given, 5-minute warning is always given before a reset. Instances may run for up to 7 days but can reset sooner due to server-side updates.
+</div>
+
+<span id="References"></span>
+==Przypisy==
+
+<references />
+
+[[Category:Needs Images{{#translation:}}{{#translation:}}]]

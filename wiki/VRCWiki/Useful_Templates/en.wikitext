@@ -1,0 +1,225 @@
+When contributing to the VRChat Wiki, you can use Templates to help create rich links and content that can be useful. Here are some templates that may be particularly useful:
+
+==Inline Templates==
+
+These templates may be used inline, such as links to official VRChat documents, vrchat worlds, or other resources.
+
+{| class="wikitable"
+|+
+!Template
+!Template code
+!Result
+|-
+| [[Special:MyLanguage/Template:VRC link|Template:VRC link]]
+| <code><nowiki>{{VRC link|https://vrchat.com|VRChat Home page}}</nowiki></code>
+| {{VRC link|https://vrchat.com|VRChat Home page}}
+|-
+|[[Special:MyLanguage/Template:World link|Template:World link]]
+|<code><nowiki>{{World link|wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd|VRChat Home}}</nowiki></code>
+|{{World link|wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd|VRChat Home}}
+|}
+
+
+==Noticeboxes==
+
+{| class="wikitable"
+|+
+!Template
+!Template code
+!Result
+|-
+| [[Special:MyLanguage/Template:Stub|Template:Stub]]
+| <code><nowiki>{{Stub}}</nowiki></code>
+| {{Stub}}
+|-
+|[[Special:MyLanguage/Template:Noticebox/Official|Template:Noticebox/Official]]
+|<code><nowiki>{{Noticebox/Official}}</nowiki></code>
+|{{Noticebox/Official}}
+|-
+|[[Special:MyLanguage/Template:Delete|Template:Delete]]
+|<code><nowiki>{{Delete|reason|~~~~}}</nowiki></code>
+|{{Delete|This page is literal garbage|[[Special:MyLanguage/User:Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7|Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7]] ([[Special:MyLanguage/User talk:Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7|talk]]) 10:01, 22 June 2024 (UTC)|nocat=1}}
+|-
+|[[Special:MyLanguage/Template:Noticebox/Community|Template:Noticebox/Community]]
+|<code><nowiki>{{Noticebox/Community}}</nowiki></code>
+|{{Noticebox/Community}}
+|-
+|[[Special:MyLanguage/Template:Noticebox/unreleased|Template:Noticebox/unreleased]]
+|<code><nowiki>{{Noticebox/unreleased}}</nowiki></code>
+|{{Noticebox/unreleased}}
+|-
+|[[Special:MyLanguage/Template:Noticebox/wip|Template:Noticebox/wip]]
+|<code><nowiki>{{Noticebox/wip}}</nowiki></code>
+|{{Noticebox/wip}}
+|-
+|[[Template:Noticebox/Unsupported]]
+|<code><nowiki>{{Noticebox/Unsupported}}</nowiki></code>
+|{{Noticebox/Unsupported}}
+|-
+|[[Template:Noticebox/Biased]]
+|<code><nowiki>{{Noticebox/Biased}}</nowiki></code>
+|{{Noticebox/Biased}}
+|-
+|[[Template:Noticebox/non-npov]]
+|<code><nowiki>{{Noticebox/non-npov}}</nowiki></code>
+|{{Noticebox/non-npov}}
+|}
+
+==Navboxes==
+
+{| class="wikitable"
+|+
+!Template
+!Template code
+!Result
+|-
+| [[Special:MyLanguage/Template:Start-navbox|Template:Start-navbox]]
+| <code><nowiki>{{Start-navbox}}</nowiki></code>
+| {{Start-navbox}}
+|}
+
+==Infoboxes==
+
+{| class="wikitable"
+|+
+!Template
+!Template code
+!Result
+|-
+| [[Special:MyLanguage/Template:Infobox/World|Template:Infobox/World]]
+| <code><nowiki>{{World
+|name=
+|image=
+|imagecaption=
+|developer=
+|publisher=
+|designer=
+|gen=
+|platform=
+|themes=
+|link=
+|labs=
+|published=
+}}</nowiki></code>
+| {{Infobox/World
+|name=Treehouse in the Shade
+|developer=1001
+|platform= PC
+|link={{World link|wrld_551c30cb-0e56-4c69-9176-10e259a89e2a|Treehouse in the Shade}}
+|published=Nov 09 2018
+}}
+|-
+| [[Special:MyLanguage/Template:Infobox/Official World|Template:Infobox/Official World]]
+| <code><nowiki>{{Official World
+|name=
+|image=
+|imagecaption=
+|developer=
+|publisher=
+|designer=
+|gen=
+|platform=
+|themes=
+|link=
+|labs=
+|published=
+}}</nowiki></code>
+| {{Infobox/Official World
+|name=VRChat Home
+|image=
+|imagecaption=
+|developer=VRChat
+|platform= PC, Android
+|link={{World link|wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd|VRChat Home}}
+|published=Sep 30 2022
+}}
+|-
+|[[Special:MyLanguage/Template:Infobox/Asset|Template:Infobox/Asset]]
+|<code><nowiki>{{Infobox/Asset
+|name=
+|image=
+|youtube=
+|author=
+|author_1=
+|author_2=
+|author_3=
+|documentation=
+|license=
+|vpm=
+|booth=
+|gumroad=
+|github=
+|gitlab=
+}}</nowiki></code>
+|{{Infobox/Asset
+|name=VRChat
+|author=VRChat
+|documentation=https://docs.vrchat.com
+|license=Proprietary
+|vpm=https://vrchat.github.io/packages/index.json
+|github=vrchat/packages}}
+|-
+|[[Special:MyLanguage/Template:Infobox/Asset/VPM|Template:Infobox/Asset/VPM]]
+|<code><nowiki>{{Infobox/Asset/VPM
+|name=
+|image=
+|youtube=
+|author=
+|author_1=
+|author_2=
+|author_3=
+|documentation=
+|license=
+|vpm=
+|booth=
+|gumroad=
+|github=
+|gitlab=
+}}</nowiki></code>
+|{{Infobox/Asset/VPM
+|name=com.vrchat.worlds
+}}
+|}
+
+==Contentboxs==
+
+{| class="wikitable"
+|+
+!Template
+!Template code
+|-
+| [[Special:MyLanguage/Template:Contentbox/Asset|Template:Contentbox/Asset]]
+| <code><nowiki>{{Contentbox/Asset
+|title=
+|name=
+|image=
+|youtube=
+|author=
+|author_1=
+|author_2=
+|author_3=
+|status=
+|documentation=
+|license=
+|vpm=
+|booth=
+|gumroad=
+|github=
+|gitlab=}}</nowiki></code>
+|}
+{{Contentbox/Asset
+|title=my.title.1
+|name=MyC00l VRChat Asset
+|image=[[File:Placeholder.webp]]
+|youtube=Gm_2YqvGgxM
+|author=VRChat
+|author_1=VRRat
+|author_2=VRCat
+|status=maintained
+|documentation=https://docs.vrchat.com
+|license=Proprietary
+|vpm=https://vrchat.github.io/packages/index.json
+|booth=123456
+|gumroad=vrchat
+|github=vrchat/packages
+|gitlab=vrchat/packages}}

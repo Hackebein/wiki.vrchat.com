@@ -1,0 +1,245 @@
+<languages/>
+{{Noticebox/Official}}
+[[File:Creacion menu es.webp|thumb|Menú emergente de creación de una estancia]]
+Las '''estancias''' son sesiones únicas de un [[Special:MyLanguage/Worlds|mundo]]. Los usuarios pueden crear y unirse a estancias de un mundo, y los usuarios que están en la misma estancia pueden percibirse e interactuar entre sí en el espacio compartido del mundo, pero no con usuarios que estén en otras estancias del mismo mundo. Las propias estancias pueden tener propiedades específicas que determinan quién puede unirse, invitar o ver quién está dentro de la estancia. También tienen una región, que corresponde a un servidor del mundo real que se encarga de transmitir la información de conexión entre los usuarios de la sesión.
+
+<span id="Instance_types"></span>
+==Tipos de estancia==
+
+Hay muchos entornos públicos y privados de todo tipo de géneros que el usuario puede explorar. Los usuarios también pueden crear y unirse a varios grupos de la comunidad para conocer a otros usuarios con intereses en común. Los usuarios pueden elegir unirse a una estancia pública o crear una estancia privada para estar solos o invitar amigos después de agregarlos. El tipo de privacidad de las estancias creadas depende del usuario y se ajusta a los distintos niveles disponibles:
+{| class="wikitable"
+|+
+!'''Pública''' 
+|Una estancia listada públicamente a la que cualquiera puede unirse.
+|-
+!'''Amigos+'''
+|Tus amigos, y sus amigos, y así sucesivamente pueden unirse.
+|-
+!'''Amigos''' 
+|Solo tus amigos pueden unirse; los amigos de amigos están excluidos.
+|-
+!'''Invitación+'''
+|Los usuarios y amigos de los usuarios deben solicitar unirse a tu estancia, a menos que tu [[Special:MyLanguage/social status|estado social]] o el de un usuario invitado esté establecido en "Únete a mí".
+|-
+!'''Invitación''' 
+|Los usuarios deben enviar una solicitud para unirse a ti, a menos que tu estado social esté establecido en "Únete a mí"; los amigos de amigos están excluidos.
+|-
+!'''[[Special:MyLanguage/Groups|Grupo]]'''
+|Una estancia a la que solo pueden acceder los miembros de un grupo o roles específicos dentro de ese grupo.
+|-
+!'''Grupo+'''
+|Una estancia alojada por un grupo, en la que pueden unirse los amigos de los miembros del grupo, los amigos de esos amigos y así sucesivamente. Las estancias de tipo Grupo+ pueden tener moderadores de grupo designados para gestionar la estancia. No es necesario ser miembro del grupo que aloja la estancia para unirse.
+|-
+!'''Grupo público'''
+|Una estancia listada públicamente, alojada por un grupo, a la que cualquiera puede unirse. Las estancias de tipo Grupo público pueden tener [[Special:MyLanguage/Groups#Group roles and permissions|moderadores de grupo]] designados para gestionar la estancia.
+|}
+
+{| class="wikitable"
+|+¿Quién puede unirse a tipos de estancias específicos?
+!
+!Todos
+!Amigos del<br />usuario
+!Amigos<br />invitados<br />del usuario
+!Amigos del<br />propietario
+!Amigos<br />invitados<br />del propietario
+!Miembros<br />seleccionados<br />del rol de grupo
+!Todos los<br />miembros<br />del grupo
+|-
+!Pública
+| style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="3" style="text-align:center;" |✔️
+| rowspan="5" style="text-align:center;" |✔️
+| rowspan="5" style="text-align:center;" | -
+| rowspan="5" style="text-align:center;" | -
+|-
+!Amigos+
+| rowspan="6" style="text-align:center;" | -
+|-
+!Amigos
+| rowspan="4" style="text-align:center;" | -
+| style="text-align:center;" | -
+|-
+!Invitación+
+| style="text-align:center;" |✔️<ref group="note">La interfaz de usuario solo permite enviar una invitación después de que el amigo haya solicitado unirse.</ref>
+| rowspan="5" style="text-align:center;" | -
+|-
+!Invitación
+| rowspan="2" style="text-align:center;" | -
+|-
+!Grupo
+| rowspan="3" style="text-align:center;" | -
+| colspan="2" style="text-align:center;" |✔️<ref group="note">Todos o algunos roles seleccionados (se necesita el permiso "Unirse a estancias de grupo"). Ten en cuenta que todos los miembros del grupo pueden ver la estancia, incluso si no tienen permiso para unirse.</ref>
+|-
+!Grupo+
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" |✔️
+| rowspan="2" style="text-align:center;" | -
+| rowspan="2" style="text-align:center;" |✔️
+|-
+!Grupo público
+| style="text-align:center;" |✔️
+|}
+<references group="note" />
+<span id="Public_instances"></span>
+===Estancias públicas===
+
+Las estancias públicas se consideran de fácil acceso e incluyen los tipos: Pública y Grupo público.<ref name=":0">https://hello.vrchat.com/community-guidelines</ref> 
+
+<span id="Private_instances"></span>
+===Estancias privadas===
+
+Las estancias privadas requieren una invitación o algún método de acceso e incluyen los tipos: Amigos, Amigos+, Invitación, Invitación+, Grupo y Grupo+.<ref name=":0" />
+
+<span id="Group_instances"></span>
+===Estancias de grupo===
+
+Las estancias de grupo son creadas por un grupo e incluyen los tipos: Grupo público, Grupo+ y Grupo.
+
+<span id="Age_gated_instances"></span>
+==== Estancias con restricción de edad ====
+
+''Véase también [[Special:MyLanguage/Age Verification|Verificación de edad]].''
+
+Opcionalmente, un miembro del grupo con un rol con permiso "Crear estancias con restricción de edad" puede establecer el requisito de verificación de edad mayor de 18 años para una estancia de grupo, de modo que solo los usuarios con edad mayor de 18 años verificada puedan unirse. 
+
+Si se verifica la edad de un usuario, las estancias con restricción de edad se priorizarán y se mostrarán en la parte superior de la lista de estancias.
+
+<small>(Los permisos de moderador o el exceso de propietarios del grupo no permiten que un usuario se una si no está verificado por edad)</small>
+
+<span id="Queues"></span>
+==== Colas====
+
+Las estancias pueden establecerse con una cola. Cuando se excede la capacidad, se forma una cola, que se muestra con un icono independiente que muestra su longitud. El botón "Unirse" cambia a "Unirse a la cola". Los usuarios con el permiso de cola prioritaria del grupo se colocan al principio (detrás de los usuarios que ya tienen el mismo permiso); todos los demás se unen al final. El propietario del grupo evita la cola por completo.
+
+Un usuario puede conectarse directamente a una estancia si otro de sus clientes ya está dentro. El nuevo cliente expulsa al anterior al entrar, lo que permite alternar entre VR y escritorio sin perder su espacio en una estancia completa.
+
+<span id="Regions"></span>
+==Regiones==
+
+Al seleccionar un tipo de estancia, existen opciones para diferentes regiones que optimizan la experiencia. Elegir la estancia más cercana a su ubicación reducirá el ping y garantizará una conexión más estable, evitando desconexiones y retrasos.
+
+Históricamente, VRChat funcionaba únicamente con el servidor de EE. UU. Oeste. El 16 de junio de 2021, se añadieron dos regiones extras - '''Europa y Japón''' a la plataforma en la [https://docs.vrchat.com/docs/vrchat-202124 actualización de regiones] <ref>https://docs.vrchat.com/docs/vrchat-202124</ref> para distribuir la carga de los servidores y compensar el aumento de usuarios. El 1 de diciembre de 2021, VRChat añadió la región '''EE. UU. Este'''<ref>https://docs.vrchat.com/docs/vrchat-202142</ref>	 y renombró el servidor actual de EE. UU. a ''''EE. UU. Oeste'''<nowiki/>'. Se recomienda a los usuarios consultar la página del {{VRC link|https://status.vrchat.com|estado del servidor}} de VRChat o su [https://x.com/VRChat_Status cuenta de estado de VRChat] en redes sociales para estar al tanto de cortes o problemas al conectarse a VRChat.
+{| class="wikitable"
+|+
+!Token
+!Región
+!Ubicación
+|-
+|usw
+|EE. UU. Oeste
+|San José
+|-
+|use
+|EE. UU. Este
+|Washington D.C.
+|-
+|eu
+|Europa
+|Ámsterdam
+|-
+|jp
+|Japón
+|Tokio
+|}
+<span id="Instance_naming"></span>
+== Nombrar estancias ==
+
+[[File:Nombrar estancias.webp|thumb|La ventana para crear una estancia con un nombre visible.]]
+Al crear una estancia, el creador puede cambiar su nombre visible. Los nombres de estancia aparecen en los detalles de la estancia, en la pestaña "Aquí" del menú rápido, y en la lista de mundos de la estancia. Los nombres de estancia tienen un límite de 32 caracteres, y no se permiten los caracteres <code>.</code>, <code>/</code> ni <code>\</code>.
+
+El nombrado de estancias dentro del cliente es una característica de [[Special:MyLanguage/VRC+|VRC+]], aunque nombrar una estancia a través de la API no requiere VRC+.
+
+<span id="Instance_settings"></span>
+== Ajustes de la estancia ==
+
+[[File:Pestaña aqui menu.webp|thumb|La interfaz de usuario con los ajustes de la estancia en la pestaña "Aquí" del menú rápido.]]
+Después de unirse a una estancia, el creador de la estancia puede seleccionar qué tipo de contenido se permitirá dentro de la estancia; las opciones por defecto estarán establecidas según los ajustes de contenido por defecto del mundo. El cambio del tipo de contenido permitido se puede hacer en la pestaña "Aquí" del menú rápido. 
+
+Los ajustes de la estancia no pueden ser establecidos por el creador de la estancia si el tipo de estancia es pública o grupo público. En su lugar, se respetarán los ajustes de contenido establecidos por el creador del mundo. Los objetos solo pueden activarse o desactivarse en estancias de grupo y siempre respetarán los ajustes de contenido del creador del mundo, sin importar el tipo de estancia.
+
+La lista de contenidos que se pueden alternar son:
+
+* [[Special:MyLanguage/Emojis|Emojis]]
+* [[Special:MyLanguage/Stickers|Pegatinas]]
+* [[Special:MyLanguage/VRC+#Sharing|Compartir]] pedestales
+* [[Special:MyLanguage/VRC+#Prints|Instantáneas]]
+* [[Special:MyLanguage/Camera Drone|Drones]]
+* [[Special:MyLanguage/Items|Objetos]]
+
+<span id="Instance_permissions"></span>
+== Permisos de la estancia ==
+
+Tus permisos para administrar una estancia dependen de si eres un autor de mundos, un propietario de la estancia o un moderador de grupo.
+
+<span id="Instance_owner"></span>
+=== Propietario de la estancia ===
+
+El propietario de la estancia es la persona que inició la estancia y, dependiendo de su tipo, puede ser un usuario, un grupo o el autor del mundo. La propiedad de la estancia no puede cambiarse una vez asignada. Para cambiar la propiedad de la estancia, otra persona o grupo debe abrir una nueva estancia. La propiedad de la estancia a menudo se confunde con el "máster", que generalmente está vinculado a los ajustes de mundo de [[Special:MyLanguage/Udon|Udon]]. 
+
+Los propietarios de la estancia tienen permiso para [[Special:MyLanguage/Trust and Safety#User moderation tools|moderar usuarios]], incluyendo expulsarlos, advertirlos o silenciarlos. En el caso de una estancia de grupo, los moderadores del grupo y sus poderes dependen de los [[Special:MyLanguage/Groups#Group Roles and Permissions|roles y permisos asignados dentro del grupo]].
+
+Las estancias públicas no tienen un propietario de estancia asignado y, por defecto es el autor del mundo.
+
+<span id="World_author"></span>
+=== Autor del mundo ===
+
+El autor del mundo tiene el mismo conjunto básico de herramientas de moderación que un propietario de estancia, pudiendo moderar a los usuarios mediante expulsiones, advertencias y silenciándolos. El autor también cuenta con poderes adicionales, que dependen del tipo de estancia.
+
+<span id="Permission_chart"></span>
+===Tabla de permisos===
+{| class="wikitable"
+|+Permisos de moderación para estancias
+!Tipo de estancia
+|'''Pública'''
+|'''Amigos+'''
+|'''Amigos'''
+|'''Invitación+'''
+|'''Invitación'''
+|'''Grupo público'''
+|'''Grupo+'''
+|'''Grupo'''
+|-
+|'''Autor del mundo'''
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|✔️
+|No
+|No
+|-
+|'''Propietario de la estancia'''
+|No
+|✔️
+|✔️
+|✔️
+|✔️
+|Si es moderador
+|Si es moderador
+|Si es moderador
+|-
+|'''Moderador del grupo'''
+|No
+|No
+|No
+|No
+|No
+|✔️
+|✔️
+|✔️
+|}
+<span id="Instance_duration_and_automatic_resets"></span>
+== Duración de la estancia y reinicios automáticos ==
+
+[[File:Instance shutdown notification.webp|alt=A notification on the VRChat Quick Menu notification pane, in the Other section. The notification reads: "Warning: This instance will be reset in 60 minutes due to its age."|thumb|Notificación que aparece cuando la estancia debe reiniciarse.]]
+Las estancias que han estado activas por períodos prolongados se reiniciarán automáticamente para evitar posibles problemas. Si una estancia está ocupada, los usuarios se volverán a unir tras el reinicio; de lo contrario, serán enviados a su mundo casa. Se pueden dar avisos de 180 y 60 minutos, y siempre se da un aviso de 5 minutos antes del reinicio. Las estancias pueden funcionar hasta por 7 días, pero pueden reiniciarse antes debido a actualizaciones del servidor.
+
+<span id="References"></span>
+==Referencias==
+
+<references />
+
+[[Category:Needs Images{{#translation:}}{{#translation:}}]]

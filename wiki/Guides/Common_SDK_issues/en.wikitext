@@ -1,0 +1,41 @@
+<!-- Everyone is encouraged to add onto this page!
+informal "you" is acceptable on guide pages -->{{Noticebox/Community}}{{Stub|Not much information here! You can contribute by expanding and proofreading this article, in accordance with the [[VRCWiki:Manual of Style|Manual of Style]].}}
+Some users may run into issues when using the [[VRChat SDK]] or the Unity Editor itself.
+
+== Common SDK errors ==
+There are errors that may occur within the VRChat SDK, and this section aims to identify and troubleshoot these issues.
+
+=== Common troubleshooting solutions ===
+==== Update SDK/tools ====
+In many instances, checking for updates for the SDK can help fix many issues. You should keep your SDK updated to the [https://creators.vrchat.com/releases latest release version] if you are experiencing any issues. The same goes for any additional tools one may be using, outdated tools could cause unpredictable issues.
+
+The [[VRChat Creator Companion]] (VCC) aims to streamline management of keeping Unity, the VRCSDK, and packages updated. Though, some external packages may require manually downloading updates, and re-importing them into VCC or your Unity projects.
+==== Remove newly added assets/tools ====
+If issues arise, shortly after installing a certain tool or package, try removing the file from the project, and restarting Unity to see if it fixes the issue. Some tools may be outdated, or may not support or be compatible with the current SDK or Unity version. In cases such as this, inform the creator of the tool, or find an alternative.
+
+=== "Missing Credentials" when uploading ===
+''<small>For advanced options, see also [[Guides:Connection issues]].</small>''
+
+If you're logged into the SDK, but receive an error for missing credentials when uploading, this could often due to using a VPN service. If you have a VPN service enabled, try turning off your VPN, and it should fix the issue. This can also occur while using software such as [[Wikipedia:1.1.1.1#WARP|Cloudflare's WARP]], which acts similarly to a VPN. In the case of WARP, disabling it, or switching to regular 1.1.1.1 without WARP will fix the issue.
+
+=== "Avatar Failed Upload" when uploading ===
+This is a generic error.
+
+Occasionally, when uploading, the SDK might generate an Avatar ID that is already in use, or the creator might not have removed the Avatar ID from the blueprint. This issue can also occur if you do not own the Avatar ID.
+
+If this doesn't help, check the [https://docs.unity3d.com/2022.3/Documentation/Manual/Console.html Unity Console] for other errors.
+
+== Common Unity Editor issues ==
+There are errors that may occur within the Unity Editor, and this section aims to identify and troubleshoot these issues. Make sure you are using the [https://creators.vrchat.com/sdk/upgrade/current-unity-version/ current Unity version], that is compatible with VRChat.
+
+=== Common troubleshooting solutions ===
+On some occasions, the Unity Editor will break, for no discernable reason. There are numerous methods that can fix most issues.
+==== Reset Layout ====
+If you are having issues, related to Unity's user interface, such as the "configure" button in the [[Avatars|avatar]] rig tab; or other oddities when selecting assets, such as the Inspector turning blank, '''resetting your layout''' in the top-right dropdown can fix most issues.
+
+==Official resources==
+* {{VRC link|https://creators.vrchat.com/sdk/sdk-troubleshooting|SDK Troubleshooting}} on ''creators.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/categories/10415888257555-Content-Creation-and-VRChat-SDK|Content Creation and VRChat SDK  Knowledgebase}} on ''help.vrchat.com''
+
+[[Category:Guides]]
+[[Category:Needs images]]

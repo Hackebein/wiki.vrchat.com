@@ -1,0 +1,59 @@
+{{Noticebox/Official}}{{Stub}}
+'''Full-Body Tracking'''<ref>https://docs.vrchat.com/docs/full-body-tracking</ref> '''(FBT)''' in VRChat allows users to track other parts of their body besides head and hands, such as hips and legs. This allows users to more accurately reflect their real life movements to their [[Special:MyLanguage/Avatars|avatar]]. Full-Body Tracking allows for more expressive and immersive movement.
+
+== How Full-Body Tracking Works ==
+Full-body tracking (FBT) uses additional tracking devices attached to the body to relay real-time movement data to the VR system. Typically, trackers are placed on areas like the feet, hips, and sometimes other parts of the body, depending on the setup and how many trackers are being used.
+
+Most trackers require the use of SteamVR Base Stations to be able to track the trackers within a persons playspace. There are other solutions that use cameras, or IMU's to track the position and rotation of the trackers.
+
+In VRChat, avatars that support FBT will mirror the user's real-life movements, allowing for a more immersive experience. For the best results, avatars should be configured with bones for the hips, knees, and feet to accurately follow the user's movements.
+
+== Compatible Hardware ==
+{{Noticebox/Community}}
+This section provides an overview of trackers used by the community, categorized according to their core technology, as they often share similar feature sets.
+
+=== Lighthouse ===
+Lighthouse-based tracking uses external base stations that emit infrared laser sweeps to determine the position and orientation of VR headsets and controllers. Sensors on the devices detect these signals.
+*Pros:
+** Provides very accurate tracking.
+* Cons:
+** Requires at least one base station (additional base stations improve tracking and prevent tracking loss).
+** Trackers will occlude if out of sight of base stations. For example, if the trackers are covered by a blanket, tracking will be lost.
+
+Products:
+* HTC Vive Tracker<ref>[https://www.vive.com/accessory/tracker3/ HTC Vive Tracker 3.0 Product Page]</ref>: 
+** These are some of the most common trackers.
+* Tundra Tracker<ref>[https://tundra-labs.com/products/additional-tracker?variant=40765277077713 Tundra Tracker Store Page]</ref>: 
+** Smaller and lighter, also easier to occlude.
+
+=== IMU ===
+IMU based tracking systems are a more budget-friendly solution compared to Lighthouse and do not require base stations as they utilize [[wikipedia:Inertial_measurement_unit|IMUs]] for tracking, which calculate position and rotation in relation to the headset and hand controllers.
+* ''Pros:''
+** Provides a typical FBT experience at a lower price, ideal for headsets that use inside-out tracking such as the Quest.
+** Does not occlude, meaning trackers will not lose tracking when when under something such as a blanket. This is due to not relying on base stations.
+** It's open-source nature allows for users to DIY their own trackers. This also allows for third-party sellers to create their own trackers and sell them.
+*Cons:
+**Trackers will occasionally "drift" over time during a session causing inaccurate tracking, requiring the user to reset them occasionally.
+**Tracking is more imprecise than other trackers, especially depending on the quality of the hardware.
+**DIY can be difficult or expensive if one doesn't already have the tools and understanding to create it themselves.
+**Some third-party sellers will sell trackers with cheaper IMUs or otherwise faulty hardware that could cause issues. Ensure the seller is reputable before purchasing.
+
+Products:
+* SlimeVR Tracker<ref>[https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker SlimeVR Store] (via Crowdsupply)</ref>
+* SlimeVR Tracker (DIY)<ref>[https://docs.slimevr.dev/ SlimeVR Documentation]</ref>
+* ''many more ...''<br>You can help the VRChat Wiki by [[Special:EditPage/{{FULLPAGENAME}}|adding more to this list.]]
+
+=== EMF ===
+Electromagnetic field (EMF) tracking uses low-frequency magnetic fields to determine the position and orientation of devices. A base station generates a magnetic field, and sensors on the tracked device measure changes in that field. By comparing the signals from multiple coils, the system calculates precise spatial coordinates and orientation. EMF-based VR tracking is similar to IMU-based systems but offers greater accuracy and responsiveness. However, no commercial product has been released yet.
+
+=== Camera ===
+Camera-based tracking in VR uses external or built-in cameras to monitor the position and movement of the headset and controllers. These cameras capture visual data, which is processed to determine spatial orientation and location in real time. This method allows for precise, room-scale tracking without the need for additional sensors. However, it relies on good lighting and unobstructed views to maintain accuracy.
+
+Products:
+* HTC Vive Ultimate Tracker<ref>[https://www.vive.com/us/accessory/vive-ultimate-tracker/ HTC Vive Ultimate Product Page]</ref>
+* PS Move Controllers
+* Kinect sensors
+* AprilTags<ref>[https://github.com/ju1ce/April-Tag-VR-FullBody-Tracker/blob/master/README.md AprilTags SteamVR Driver] on GitHub</ref>
+
+== References ==
+<references />

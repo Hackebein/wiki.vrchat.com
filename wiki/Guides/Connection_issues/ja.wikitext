@@ -1,0 +1,251 @@
+<languages/>
+{{Noticebox/Community}}VRChatへの安定した接続を維持する上で生じる[[Special:MyLanguage/Troubleshooting|問題]]を解決するための対策がいくつかあります。
+
+== 用語集 ==
+このガイドにはコンピュータ用語が含まれており、以下の略語が頻繁に言及されます。
+
+* '''DNS''' - ドメインネームシステム：デバイスを特定し、ウェブサイトのIPアドレスに接続するプロトコル。
+* '''EDNS ECS''' - DNSクライアントサブネット拡張メカニズム：再帰DNSリゾルバが部分的なクライアントIPアドレス情報を権威DNSネームサーバーに送信するための仕組み。
+* '''IP''' - インターネットプロトコルアドレス：お使いのデバイスのインターネット接続に関連付けられたアドレスであり、ウェブサイトなどのネットワーク上でお使いのデバイスを特定します。
+* '''ISP（インターネットサービスプロバイダ）''' - デバイスをインターネットに接続させる会社。例：Comcast、Virgin、NTTドコモ　等
+* '''OS''' - オペレーティングシステム　例：Windows、MacOS、iOS、Android　等
+* '''Upstream Provider''' - プラットフォームのインフラストラクチャを支援するサービス。この場合はVRChatを指す。
+* '''VPN（仮想プライベートネットワーク）''' - 異なるIPアドレスを用いた「トンネリング」方式により、接続を暗号化または保護するソフトウェア。
+
+== 公式VRChat情報源を確認する ==
+VRChatでは、サーバーの不具合や停止が公式に確認されたかどうかをユーザーが確認できる情報源を提供しています。 
+
+ウェブ：
+
+* https://status.vrchat.com/
+* https://x.com/VRChat_Status
+
+Discord上で：
+
+* https://discord.com/channels/189511567539306508/400375734423781379
+
+=== 上流プロバイダー ===
+さらに、VRChatにはサインイン、アカウント認証、サーバーの安定性に影響を与える複数の「上流プロバイダー」が存在します。
+「上流プロバイダー」とは、VRChatのサービスに必要な基盤的な機能やデータを提供する外部サービスやシステムのことを指します。
+
+==== アカウント認証 ====
+これらの上流プロバイダーは、あなたの「[[Special:MyLanguage/Platforms|プラットフォーム]] [[Special:MyLanguage/VRChat account|アカウント]]」に紐づくアカウントデータ、および各アプリケーションストアからホストされるゲームデータを扱います。
+
+* Meta
+* Steam
+* Google
+* PICO
+* Viveport
+
+==== インスタンスホスティング ====
+VRChatはPhotonを介して4つの異なるサーバーに[[Special:MyLanguage/Instances|インスタンス]]を分散配置しており、そのうち1つは独自のリージョンに紐付けられています。サーバーのメンテナンスが必要な場合があり、その際はリージョンが一時的に不安定になることがあります。
+
+* Photon Engine
+** 米国西部
+** 米国東部
+** ヨーロッパ
+** 日本
+
+==== クリエイターエコノミーと購入 ====
+VRChatの[[Special:MyLanguage/Creator Economy|Creator Economy]]は、ユーザーとベンダー間の取引を処理し、購入情報を検証するためにTiliaサービスに依存しています。
+
+* Thunes（旧Tilia）
+
+==不安定な接続==
+ISPによる限定的なIPv6サポート
+
+===オプション1 - VPNトンネルの使用===
+接続に問題がある場合、VPNトンネルを利用して接続を安定させることをお勧めします。
+
+ただし、IPアドレスを隠蔽したり仮想的な地理的位置を変更するVPNを使用すると、エラーが発生したり頻繁にログアウトされる可能性があることにご注意ください。
+
+# [https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/ CloudflareのWARP]は、Cloudflareのサーバーを利用して接続を安定化させ、通信を暗号化するVPNトンネルです。VRChatでの接続問題の改善に役立つ可能性があります。
+## [https://developers.cloudflare.com/1.1.1.1/setup/ 1.1.1.1 by Cloudflare] は、WARPにバンドルされた代替DNSリゾルバーです。デバイスのトラフィックの一部を暗号化することで、セキュリティとプライバシーを保護するように設計されています。
+
+===オプション 2 - DNS サーバーの設定（英語資料のみ）===
+
+*'''Windows10''': https://docs.quad9.net/Setup_Guides/Windows/Windows_10/
+*'''Windows11''': https://docs.quad9.net/Setup_Guides/Windows/Windows_11_%28Encrypted%29/
+*'''Mac''': https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/
+*'''Linux''': https://docs.quad9.net/Setup_Guides/Linux_and_BSD/Ubuntu_22.04_%28Encrypted%29/
+
+上記のDNS設定ガイドでは、デフォルトで「Quad9」DNSサーバーに接続するIPアドレスが使用されます。
+代わりに、提供されているCloudflareのIPアドレスを使用してください。
+
+'''IPv4とIPv6の両方の設定を行う必要があります。そうすれば問題なく動作します。'''
+<syntaxhighlight lang="bbcode" line="1">
+<IPv4>
+1.1.1.1
+1.0.0.1
+
+<IPv6>
+2001:4860:4860::8888
+2001:4860:4860::8844
+</syntaxhighlight>
+
+'''1.1.1.1'''（サーバー1）を優先アドレスとして設定し、'''1.0.0.1'''（サーバー2）を代替アドレスとして設定してください。
+
+ただし、以下の他のDNSオプションも使用可能です。
+
+DNSプロバイダーは任意に選択でき、Cloudflareに限定されるものではありません。
+
+{| class="wikitable"
+|+
+|-
+!プロバイダー!!IPv4 Server!!IPv6 Server
+!IPv4 Server (EDNS ECS)!!IPv6 Server(EDNS ECS)
+|-
+|[https://developers.google.com/speed/public-dns Google]||8.8.8.8
+8.8.4.4
+|2001:4860:4860::8888
+2001:4860:4860::8844
+|デフォルトでサポートされています。
+|デフォルトでサポートされています。
+|-
+|[https://controld.com/free-dns Control D]||76.76.2.0
+76.76.10.0
+|2606:1a40::
+2606:1a40:1::
+|非対応
+|非対応
+|-
+|[https://www.quad9.net/service/service-addresses-and-features/ Quad9]||9.9.9.9
+149.112.112.112
+|2620:fe::fe
+2620:fe::9
+|9.9.9.11
+149.112.112.11
+|
+2620:fe::11
+
+2620:fe::fe:11
+|-
+|[https://www.opendns.com/setupguide/ OpenDNS Home]||208.67.222.222
+208.67.220.220
+|
+2620:119:35::35
+
+2620:119:53::53
+|デフォルトでサポートされています。
+|デフォルトでサポートされています。
+|-
+|[https://one.one.one.one/dns/ Cloudflare]||1.1.1.1
+1.0.0.1
+|2606:4700:4700::1111
+2606:4700:4700::1001
+|非対応
+|非対応
+|-
+|[https://adguard-dns.io/en/public-dns.html AdGuard DNS]||94.140.14.14
+94.140.15.15
+|2a10:50c0::ad1:ff
+
+2a10:50c0::ad2:ff
+|デフォルトでサポートされています。
+|デフォルトでサポートされています。
+|-
+|[https://cleanbrowsing.org/filters/ CleanBrowsing]||185.228.168.9
+185.228.169.9
+|2a0d:2a00:1::
+
+2a0d:2a00:2:: 
+|非対応
+|非対応
+|}
+Source: https://www.lifewire.com/free-and-public-dns-servers-2626062
+
+EDNS ECSは従来のDNSサーバーよりも近いホストを提供するため、世界中にホストを配置する傾向にあるクラウドサービスプロバイダーにおいて、場合によっては利用しやすくなります。 
+
+参照: https://adguard-dns.io/en/blog/privacy-friendly-edns-client-subnet.html
+
+=== オプション 3 - Windows で IPv4 を IPv6 より優先させる ===
+これにより、IPv6 を完全に無効化することなく、IPv4 の使用を優先します。
+
+*ISP が IPv4 の提供を完全に停止している場合、このオプションは機能しない可能性があります。
+
+Windowsで有効にするには、
+
+* 「Windowsキー」を押しながら「cmd」と入力し、コマンドプロンプトを開きます。その後「管理者として実行」を選択します。
+* 「netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 100 4」と入力し、Enterキーを押します。
+* PCを再起動すると、IPv4が優先されるようになります。
+
+IPv6優先度設定を無効にするには、
+
+* 「Windowsキー」を押して「cmd」と入力し、「管理者として実行」を再度選択してコマンドプロンプトを再度開きます。
+* 「netsh interface ipv6 reset」と入力し、Enterキーを押します。
+* これにより、PCの再起動後にIPv4優先設定が元に戻ります。
+
+===オプション4 - IPv6を無効化しIPv4使用を強制する（使用しないでください）===
+
+IPv4アドレスの世界的な不足により、多くのISPがIPv4機能を完全に廃止し始めています。
+お使いのISPがこれを行っている場合、この方法は機能せず、インターネットに全く接続できなくなる可能性があります。
+IPv6プロトコルの無効化方法については、以下のガイドが利用可能です（操作内容を理解している場合に限ります）。
+
+*'''Windows''': https://support.surfshark.com/hc/en-us/articles/360011550199-How-to-disable-IPv6-on-Windows
+*'''Mac''': https://support.surfshark.com/hc/en-us/articles/360012367560-How-to-disable-IPv6-on-macOS
+*'''Linux''': https://support.surfshark.com/hc/en-us/articles/360024470413-How-to-disable-IPv6-on-a-Linux-device
+
+==トラブルシューティング==
+パケットの送信順序が乱れたり、インターネット接続が遅い、あるいは不安定な場合、接続が不安定になることがあります。
+
+接続が不安定になる原因はいくつか考えられますが、ここでは最も一般的なトラブルシューティング方法をいくつかご紹介します。
+
+=== VRChat の更新 ===
+VRChat の更新が必要になる場合があります。
+Steam または Meta ストアで、VRChat クライアントの更新を促すメッセージが表示されることがあります。
+
+=== ルーターの再起動 ===
+ルーターの電源を切り、数分間待ってから再び電源を入れて、ルーターを再起動してください。
+
+=== ファイルの整合性 ===
+GPUドライバーまたはVRChatソフトウェアのファームウェアの整合性を確認してください。
+必要に応じて、VRChatを再インストールする必要がある場合があります。
+
+=== ウイルス対策ソフトやファイアウォールのホワイトリスト登録 ===
+
+ファイアウォールやウイルス対策ソフトがVRChatへの接続をブロックしていないことを確認してください。
+必要に応じて、VRChatとEasy Anti Cheatをウイルス対策ソフトやファイアウォールのホワイトリストに登録してください。
+
+
+*互換性のあるオペレーティングシステムとソフトウェアを使用している場合、コマンドプロンプトで「ping/nslookup/tracert」を実行して確認できます。
+
+=== 出力ログ ===
+既定では、VRChatの出力ログは「%USERNAME%\AppData\LocalLow\VRChat\vrchat」フォルダ内に「output_log_(日付)」という名前で保存されます。
+
+最新の日付のファイルを確認し、VRChatへの接続に異常がなかったか調べてください。 
+
+{{VRC link|https://vrch.at/support|VRChatのユーザーサポート}}、またはVRChatの[[Special:MyLanguage/Discord servers|Discordサーバー]]でのトラブルシューティングは、最後の手段として問題を見つけることができます。
+
+=== システム時刻 ===
+お使いのシステム時計が、お住まいのタイムゾーンの現在時刻と一致しているか再度確認し、時刻が正しく設定されていることを確認してください。
+
+*[[Category:Guides{{#translation:}}]]
+
+==役立つリソース==
+Downdetectorは、ISPの問題の早期兆候を確認するための目安として利用できます。
+
+ただし、これは必ずしも上流プロバイダーの問題を裏付けるものではありません。
+
+判断の余地として、ご自身の判断でご利用ください。
+{| class="wikitable"
+|+ 
+|-
+| Downdetector US || https://downdetector.com/
+|-
+| Downdetector UK || https://downdetector.co.uk/
+|-
+| Downdetector DE || https://allestörungen.de/
+|-
+| Downdetector FR || https://downdetector.fr/
+|-
+| Downdetector ES || https://downdetector.es/
+|-
+| Downdetector JP || https://downdetector.jp/
+|}
+
+<span id="See_also"></span>
+==関連項目==
+
+* [[Special:MyLanguage/Instances|インスタンス]]
+
+[[Category:Guides{{#translation:}}]]

@@ -1,0 +1,363 @@
+/***** CSS placed here will be applied to all skins on the entire site. *****/
+@import url(//meta.wikimedia.org/wiki/User:Aron_Manning/dark-theme.css?action=raw&ctype=text/css);
+
+/* Separate style sheets with a pipe (|) */
+@import url("/load.php?mode=articles&only=styles&articles=MediaWiki:Babel.css|MediaWiki:Hover.css|MediaWiki:Infobox_television.css|MediaWiki:Mbox.css|MediaWiki:MOTX.css|MediaWiki:NavigationButton.css|MediaWiki:Tabs.css|MediaWiki:Taxobox.css|MediaWiki:Wds-button.css");
+
+/* T-style like css*/
+@import url("/index.php?title=Template:Mbox/wikitext/styles.css&action=raw&ctype=text/css");
+@import url("/index.php?title=Template:Infobox/styles.css&action=raw&ctype=text/css");
+@import url("/index.php?title=Module:Documentation (Wikipedia)/styles.css&action=raw&ctype=text/css");
+
+
+/* Making <code> more prominent */
+code { 
+    background-color: var(--theme-page-background-color--secondary);
+    border: 1px solid var(--theme-border-color);
+    border-radius: 5px;
+    padding: 1px 4px;
+}
+
+code code {
+    border: unset;
+    padding: unset;
+}
+
+
+/* For [show]/[hide] link of javascript collapsible tables */
+.collapseButton {         /* 'show'/'hide' buttons created dynamically by the        */
+    float: right;         /* CollapsibleTables javascript in [[MediaWiki:Common.js]] */
+    font-weight: normal;  /* are styled here so they can be customised.              */
+    text-align: right;
+    width: auto;
+}
+
+/* plainlist */
+/* removes list bullets or numbers and margins and padding */
+.plainlist ol, .plainlist ul {
+    line-height: inherit;
+    list-style: none none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo fixes */
+.theme-fandomdesktop-light .fandom-community-header .fandom-community-header__image img {
+  filter: invert(1);
+}
+
+/* Mark redirects in Special:Allpages and Special:Watchlist */
+.allpagesredirect:after {
+    color: #808080;
+    content: " (redirect)"
+}
+.watchlistredir {
+    font-style: italic;
+}
+
+/* Giving headers and TOC a little extra space */
+h2 {
+    margin-top: 20px;
+}
+.toc {
+    margin-top: 20px;
+}
+
+
+/* Fix editonotices from sticking to the edit toolbar/area */
+.mw-editform, form#editform {
+    margin-top: 1em !important;
+}
+/* Styling div.mw-warning-with-logexcerpt */
+div.mw-warning-with-logexcerpt,
+/* Also for MW:Editing interface thing... */
+div.mw-editinginterface {
+   
+    background: #ffd90022;
+    border: 1px solid #ab941166;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    margin: 0 5%;
+}
+
+.theme-fandomdesktop-dark div.mw-warning-with-logexcerpt,
+.theme-fandomdesktop-dark div.mw-editinginterface {
+    background: #2e250f;
+    border-color: #403518;
+}
+
+
+.ns-talk div.mw-warning-with-logexcerpt {
+    border-radius: 0 0 0.5em 0.5em;
+}
+
+/* Forcing MW:Newarticletext to have margin */
+.mw-newarticletext {
+	width: 100%;
+    margin-bottom: 1em;
+}
+
+/* MediaWiki mboxes dark theme */
+.errorbox p, .warningbox p, .successbox p {
+    margin-bottom: unset;
+}
+
+.errorbox, .warningbox, .successbox {
+	width: 80%;
+    border-radius: 0.5em;
+    padding: 0.6em;
+    margin: 0 5%;
+
+}
+
+.theme-fandomdesktop-dark .errorbox {
+    background: #290c0c;
+    border-color: #401111;
+    color: #d71c1c
+}
+.theme-fandomdesktop-dark .warningbox {
+    background: #2e250f;
+    border-color: #403518;
+    color: #f9dd98
+}
+.theme-fandomdesktop-dark .successbox  {
+    background: #0c260b;
+    border-color: #153b13;
+    color: #5ccd5c
+}
+
+.mw-revision {
+    background: #ddd2;
+    border: 1px solid #5556;
+    padding: 0.6em;
+    border-radius: 0.5em;
+    width: 100%
+}
+
+
+/* Forum formatting (by -Algorithm & -Splaka) */
+.forumheader {
+    border: 1px solid #aaa;
+    margin-top: 1em;
+    padding: 12px;
+}
+.forumlist td.forum_edited a {
+    color: #959;
+    text-decoration: none;
+}
+.forumlist td.forum_title a {
+    padding-left: 20px;
+}
+.forumlist td.forum_title a.forum_new {
+    font-weight: bold;
+    background: url(/images/4/4e/Forum_new.gif) center left no-repeat;
+    padding-left: 20px;
+}
+.forumlist td.forum_title a.forum_new:visited {
+    font-weight: normal;
+    background: none;
+    padding-left: 20px;
+}
+.forumlist th.forum_title {
+    padding-left: 20px;
+}
+
+/* Image frame fix */
+div.tright, div.tleft {
+    border: 1px solid silver;
+}
+
+div.thumbinner {
+    background: inherit;
+    border: none;
+    color: inherit;
+}
+#article div.thumb {
+    color: inherit;
+}
+
+/* === Template:Reflist design === */
+.references-small {
+    font-size: 90%;
+}
+
+/* === USERBOXES  === */
+table.userbox {
+    float: left;
+    margin: 0.2em;
+    padding: 0;
+    border-width: 1px;
+    border-style: solid;
+}
+table.userbox td.left,
+table.userbox td.right {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.6em;
+    padding: 0;
+}
+table.userbox td.main {
+    padding: 0 4px;
+    vertical-align: middle;
+    line-height: 121em;
+    font-size: 0.9em;
+}
+
+table.userbox {
+    border-color: #aaa;
+    background: #f8f8f8;
+}
+table.userbox td.left,
+table.userbox td.right {
+    background: #d8d8d8;
+}
+
+/* default skin for navigation boxes */
+ table.navbox {
+    background-color: #f9f9f926;
+    border: 1px solid #aaaaaa40;
+    clear: both;
+    font-size: 90%;
+    margin: 1em 0em 0em;
+    padding: 2px;
+    text-align: center;
+    width: 100%;
+}
+table.navbox th {
+    background-color: #ddddff36;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+table.navbox tr:not(:first-child) th {
+    background-color: #ddddff36;
+}
+@media print {
+    .navbox {
+        display: none;
+    }
+}
+
+.codeEditor-ui-toolbar .tabs span.tab-templates {
+	display: none;
+}
+
+.pi-infobox {
+   border: 1px solid #DBB8FF;
+   border-radius: 10px;
+   background-color: #202020;
+   color: #000000;
+   margin-bottom: 0.5em;
+   margin-left: 1em;
+   padding: 0.2em;
+   float: right;
+   clear: right;
+}
+
+.portable-infobox {
+  --pi-background:#303030;
+  --pi-secondary-background:#272735;
+  --pi-border-color:#a2a9b1;
+  --pi-item-spacing:5px 10px;
+  --pi-margin:15px;
+  --pi-width:270px
+  border-radius: 10px;
+  background:#303035;
+  clear:right;
+  float:right;
+  font-size:.85em;
+  margin:0 0 15px 15px;
+  width:270px;
+}
+
+.pi-theme-changeling  {
+  --pi-secondary-background:#279727;
+   border: 1px solid #B8FFDB;
+   border-radius: 10px;
+   background-color: #064006;
+   color: #c1f054;
+   margin-bottom: 0.5em;
+   margin-left: 1em;
+   padding: 0.2em;
+   float: right;
+   clear: right;
+}
+
+.pi-theme-kindred  {
+  --pi-secondary-background:#972727;
+   border: 1px solid #CCA8A8;
+   border-radius: 10px;
+   background-color: #400606;
+   color: #f0c154;
+   margin-bottom: 0.5em;
+   margin-left: 1em;
+   padding: 0.2em;
+   float: right;
+   clear: right;
+}
+
+.pi-theme-wraith  {
+  --pi-secondary-background:#272727;
+   border: 1px solid #A8A8A8;
+   border-radius: 10px;
+   background-color: #050505;
+   color: #f4f4f4;
+   margin-bottom: 0.5em;
+   margin-left: 1em;
+   padding: 0.2em;
+   float: right;
+   clear: right;
+}
+
+.pi-theme-shifter  {
+  --pi-secondary-background:#cc660e;
+   border: 1px solid #CCCCA8;
+   border-radius: 10px;
+   background-color: #573a22;
+   color: #f4f4f4;
+   margin-bottom: 0.5em;
+   margin-left: 1em;
+   padding: 0.2em;
+   float: right;
+   clear: right;
+}
+
+.portable-infobox .pi-data-value > :not(ul) {
+  margin:1em 0;
+}
+
+.tocnumber {
+    color:#eeeeee
+  }
+
+.box-offset-gallery {
+    width: calc(100% - 285px);
+}
+
+
+  figure[typeof~='mw:File/Thumb'],
+  figure[typeof~='mw:File/Frame'] {
+    border:1px solid #eaecf0;
+    border-bottom:0;
+    border-width:1px 1px 0.2em;
+    box-shadow:0 1px 2px 1px rgba(0,0,0,0.02);
+    background-color:#030303
+  }
+
+@media screen {
+	figure[typeof~='mw:File/Thumb'] > figcaption
+	  figure[typeof~='mw:File/Frame'] > figcaption {
+	    color: #EEEEEE;
+	    background-color: #030303;
+	}
+	
+	.change {
+	    box-shadow: 0px 0px 30px darkgray;
+	    transition: all 0.2s linear;
+	}
+	
+	.change:hover{
+	    background-color: #BBBBBB;
+	    transition: all 0.2s linear;
+	    color: white;
+	}
+}

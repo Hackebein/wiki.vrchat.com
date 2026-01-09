@@ -1,0 +1,327 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Jetski Rush
+|image=Jetski_Rush_world_thumbnail.png
+|author= Quap
+|developers=LiQua (Quap, Libes)
+|platforms=PC, Android
+|tags=game, race, multiplayer, water, pvp
+|id=wrld_2ad5bb30-adf7-4de1-ba50-ae9b6b4689fe
+|published=Aug 02 2024
+}}
+'''Jetski Rush''' é um [[Special:MyLanguage/:Category:Game worlds|mundo de jogo]] multi-plataforma de corrida que pode ser jogado com até 16 jogadores. Há várias pistas para correr e itens para usar a seu favor.
+<span id="Gameplay"></span>
+== Jogabilidade ==
+
+De 1 a 16 jogadores correm com seus jetskis para obter a melhor posição ou tempo na tabela de classificação. Cada jogo ocorro em um dos vários percursos aquáticos, que podem ser escolhidos por votação ou aleatoriamente. Dependendo do mapa, o número de voltas varia de 2 a 4. Uma pista pode conter elementos do mapa que funcionam como obstáculos ou como vantagem para o jogador, como anéis de impulso. Grande parte do jogo se concentra na coleta e no uso de itens colocados nos mapas para ativar efeitos como velocidade ou proteção extra, ou armas como minas e projéteis para reduzir a velocidade de outros jogadores. Os jogadores podem ganhar mais velocidade coletando e usando o Turbo, técnicas como drifiting e inclinação e elementos ambientais como ondas e rampas.
+<span id="Controls"></span>
+== Controles ==
+
+<span id="Bindings"></span>
+===Vinculações===
+
+{| class="wikitable"
+|+
+!Nome
+!PC
+!VR
+|-
+|'''Dirigir'''
+|[A] / [D]
+|[Analógico Esquerdo ↔]
+
+Movimento
+|-
+|'''Acelerar'''
+|[W]
+|[Gatilho Direito]
+|-
+|'''Reverso''
+| [S] 
+|[Analógico Esquerdo ↓]
+|-
+|'''Usar item'''
+|[Botão esquerdo do Mouse]
+|[Gatilho Esquerdo]
+|-
+|'''[[#Turbo|Turbo]]'''
+|[Shift]
+|[A] [A] (Toque Duplo) 
+|-
+|'''[[#Drift|Drift]]'''
+|[Space] + [A] / [D]
+|[A] + Virar
+|-
+|'''[[#Lean|Inclinar]]'''
+|[Espaço]
+|[A] + Não Virar
+|}
+
+===Turbo===
+
+''O medidor de Turbo necessário é obtido com o tempo fora da água, com o drift ou com o item Combustível de Turbo. O Turbo aumenta sua velociadade máxima e aceleração por um breve período. Não acumula com os anéis de impulso, mas acumula com os aumentos de velocidade de aterrissagem na água.''
+
+===Drift===
+
+''O Drifting faz com que você gire na direção inicial até que solte o botão de inclinação. Enquanto estiver fazendo drift, você pode entrar no drift para virar mais devagar. Você ganha um aumento de velocidade com base no tempo em que mantiver o drift, além de combustível turbo.''
+
+<span id="Lean"></span>
+=== Inclinar===
+
+''Inclinar-se reduzirá gradualmente sua velocidade, mas permitirá que você pule das ondas com mais facilidade. A aterrissagem na água lhe dará um aumento de velocidade. Você ganha combustível turbo durante o tempo em que estiver no ar.''
+== HUD ==
+
+[[File:Jetski Rush world - HUD and finish line.png|thumb|Captura de tela do jogo com uma linha de chegada e o HUD]]
+'''Volta''' - A volta atual de todas as voltas.
+
+'''Posição''' - A posição atual do jogador na corrida.
+
+'''Medidor de Turbo''' - O nível atual de combustível turbo. Cada pedaço permite um único uso do Turbo.
+
+'''Mapa''' - O mapa do percurso, juntamente com a linha de chegada e as posições dos jogadores.
+<span id="Items"></span>
+== Itens ==
+
+{| class="wikitable"
+|+
+!Ícone
+!Nome
+!Descrição
+!Notas
+|-
+|
+[[File:Jetski Rush world item - Turbo Fuel.png|frameless|70x70px]]
+| '''Combustível de Turbo'''
+|''Fornece combustível turbo quando usado.''
+|
+|-
+|
+[[File:Jetski Rush world item - Sharkpedo.png|frameless|70x70px]]
+|'''Tubapedo'''
+|''Mire e atire um projétil em uma linha reta que atinja outros jogadores.''
+|
+|-
+|
+[[File:Jetski Rush world item - Puffermine.png|frameless|70x70px]]
+|'''Baiamina'''
+|''Mire e atire um projetil que cria uma armadilha para os corredores atinrem.''
+|Pode ser combatido com um Tubapedo ou Baiamina.
+|-
+|
+[[File:Jetski Rush world item - Bubble Shield.png|frameless|70x70px]]
+|'''Escudo de Bolha'''
+|''Cria um escudo ao redor do usuário que o protege por um tempo.''
+|
+|-
+|
+[[File:Jetski Rush world item - Bird Bomb.png|frameless|70x70px]]
+|'''Pássaro Bomba'''
+|''Envia uma bomba para atacar o piloto diretamente à frente da usuário.''
+|Pode ser combatido com um Tubapedo ou Baiamina.
+|-
+|
+[[File:Jetski Rush world item - Dolphin Battery.png|frameless|70x70px]]
+|'''Bateria de Golfinho'''
+|''Quando usado, dá ao usuário um aumento imediato de velocidade para a frente.''
+|Cai com mais frequência quanto mais longe você estiver do primeiro jogador.
+|-
+|
+[[File:Jetski Rush world item - Skull Curse.png|frameless|70x70px]]
+|'''Maldição do Crânio'''
+|''Enviar um ataque AOE para o piloto que está em primeiro lugar.''
+|
+|-
+|
+[[File:Jetski Rush world item - Royal Crown.png|frameless|70x70px]]
+|'''Coroal Real'''
+|''Dá ao usuário um aumento temporário de velocidade e invencibilidade.''
+|Após 20 segundos, a coroa será usada automaticamente.
+|}
+<span id="Courses"></span>
+==Pistas==
+
+{| class="wikitable"
+|+
+!Miniatura
+!Mapa
+!Nome
+!Voltas
+|-
+|
+[[File:Jetski Rush world course - Arctic Iceway.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Arctic Iceway.png|frameless|100x100px]]
+|'''Rota do Gelo Ártico'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Aquatic Arena.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Aquatic Arena.png|frameless|100x100px]]
+|'''Arena Aquática'''
+|4
+|-
+|
+[[File:Jetski Rush world course - Crossbone Cove.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Crossbone Cove.png|frameless|100x100px]]
+|'''Báia do Osso Cruzado'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Fungal Forest.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Fungal Forest.png|frameless|100x100px]]
+|'''Floresta de Fungos'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Kabuki Peaks.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Kabuki Peaks.png|frameless|100x100px]]
+|'''Picos de Kabuki'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Seaside Factory.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Seaside Factory.png|frameless|100x100px]]
+|'''Fabrica à beira-mar'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Temple Ravine.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Temple Ravine.png|frameless|100x100px]]
+|'''Ravina do Templo'''
+|2
+|-
+|
+[[File:Jetski Rush world course - Candy Canyon.png|frameless|196x196px]]
+| 
+[[File:Jetski Rush world map - Candy Canyon.png|frameless|100x100px]]
+|'''Cânion de Doce'''
+|3
+|-
+|
+[[File:Jetski Rush world course - Hollow Castle.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Hollow Castle.png|frameless|100x100px]]
+|'''Castelo Oco'''
+|2
+|-
+|
+[[File:Jetski Rush world course - Retro Rush.png|frameless|196x196px]]
+|
+[[File:Jetski Rush world map - Retro Rush.png|frameless|100x100px]]
+|'''Corrida Retrô'''
+|3
+|}
+
+<span id="Elements"></span>
+===Elementos===
+
+[[File:Jetski Rush world - boost ring and ramp.webp|thumb|Um anel de impulso e uma rampa]]
+
+<span id="Boost_rings"></span>
+====Aneis de Aceleração====
+
+Dirigir por um anel de impulso empurra você na direção para a qual o anel está direcionado. A velocidade do uso de um impulso de Turbo não se acumula com os anéis de impulso.
+
+<span id="Ramps"></span>
+====Rampas====
+
+As rampas permitem que o jogador salte e ganhe tempo fora da água para reabastecer o medidor do Turbo, muitas vezes para adquirir o aumento de velocidade de aterrissagem na água e outras vezes para simplesmente saltar sobre obstáculos.
+
+== Jetskis==
+
+[[File:Jetski Rush world - customization.webp|thumb|Painel de personalização do jetski no spawn]]Os jogadores podem escolher o modelo de jetski de sua preferência no painel de personalização no spawn. As opções de personalização variam de diferentes cores de jetski básico a modeles totalmente personalizados, como um pato de borracha ou modelos temáticos do [[Special:MyLanguage/VRRat|VRRat]]. Os jetskis mais exclusivos estão disponíveis apenas para apoiadores. Há também 2 jetskis disponíveis com um código adquirido ao concluir os desafios especiais na [[Special:MyLanguage/Community:Jetski Islet|Jetski Islet]] - um mundo diferente do mesmo autor<ref>[https://vrchat.com/home/world/wrld_7ef54852-7894-46e4-9935-7dacb78f81c5 Jetski Islet world] no ''VRChat''.</ref>.
+<span id="Tips"></span>
+==Dicas==
+
+Dicas exibidas no menu do spawn: 
+
+*''Dê um turbo logo antes de aterrissar na água para ganhar velocidade extra!''
+*''Use o Turbo após ser atingido para acelerar ainda mais!''
+*''Ataque um Baiamina na caminho para liberar sua passagem!''
+*''Ganhe o Turbo ao ficar fazendo drifiting ou fora da água!''
+*''Mantenha o acelerador pressionado quando a contagem regressiva estive em 3 segundos para obter uma partida turbo!''
+*''Mantenha o botão de inclinação pressionado sem virar antes de uma onda para inclinar e pegar ar!''
+*''Você pode ajustar o ângulo do drift enquanto faz o drifting!''
+*''Mantenha o botão de inclinação pressionado enquanto gira para fazer drift!''
+*''No VR, olhe para frente e pressione RT + LT durante a contagem regressiva para recalibrar!''
+*''Está ficando enjoado com o movimento? Tente ativar a opção "Movimento Reduzido" nas configurações!''
+*''Está tendo problemas para dirigir e mirar? Tente mudar os controles ou usar a direção hidráulica!''
+Outras Dicas:
+
+*A distância até o primeiro jogador afeta as queda de taxa de determinados itens:<ref>Comentário do Dev no [https://discord.com/channels/673077556806811659/1249065781262684273/1279464209117216771 distância/colocação e queda de taxa] no ''Servidor de Discord LiQua Lounge''.</ref>
+**Quanto mais próximo do primeiro lugar, maior a chance de obter o Combutável Turbo.
+**Se o primeiro jogador estiver à sua frente a uma certa distância, você poderá obter a Coroa Real, a chance aumenta com a distância.
+==Atualizações==
+Destaques das principais atualizações.
+
+<span id="Candy_Update"></span>
+===Atualização de Doces===
+
+Lançado em 30 de Agosto de 2024<ref>Atualização de Doce [https://x.com/TeamLiQua/status/1829626177847230801 video promocional] no ''Twitter''.</ref>.
+
+Principais mudanças:
+*Adicionado um nova pista - Cânion de Doce.
+*Adicionado 3 novos jetskis - Gumdrop, Eclair and Shortcake.
+
+<span id="Time_Trials"></span>
+===Provas de Tempo===
+
+Lançado em 28 de Setembro de 2024<ref>Atualização dos Testes de Tempo [https://x.com/TeamLiQua/status/1840116564710043722 anúncio] no ''Twitter''.</ref>.
+
+Principais mudanças:
+
+*Introdizindo o modo Teste de Tempo.
+**Tabela de Classificação Global.
+**Dados Fantasmas.
+* Adicionado 3 novos jetskis - Jetbike, Gunner, Electro.
+*Tornou o Pássaro Bomba combatível com um projétil.
+
+<span id="Spooky_Update"></span>
+=== Atualização Assustadora ===
+
+Lançado em 13 de Outubro de 2024<ref>Atualização Assustadora [https://x.com/TeamLiQua/status/1845226388804239645 anúncio] no ''Twitter''.</ref>.
+
+Principais mudanças:
+
+* Adicionado uma nova pista - Castelo Oco.
+* Adicionado 3 novos jetskis - Pumpkin, Trick, Treat.
+
+<span id="Xmas_Update"></span>
+=== Atualização de Natal ===
+
+Lançado em 18 de Dezembro de 2024<ref>Atualização de Natal [https://bsky.app/profile/teamliqua.bsky.social/post/3ldjz7vlbbs2w anúncio] no ''BlueSky''.</ref>.
+
+Principais mudanças:
+* Adicionados decorações natalinas.
+* Adicionados 3 novos jetskis - Santa's Sleigh, Naughty, Nice.
+* Introduzindo pistas espelhados.
+
+=== Atualização Retro ===
+Lançado em 19 de Janeiro de 2024<ref>Atualização Retro [https://x.com/TeamLiQua/status/1880806850347860371 announcement] no  ''Twitter''.</ref>.
+
+Principais mudanças:
+
+* Adicionado uma nova pista - Corrida Retro.
+* Adicionado 4 novos jetskis - Retro, Future, Nostaljet, NeoWave.
+* Introduzindo compras únicas para jetskis.
+
+<span id="External_links"></span>
+==Links Externos==
+
+*[https://discord.gg/WP2xYbz LiQua Lounge Discord].
+*[https://x.com/TeamLiQua LiQua Twitter].
+<span id="References"></span>
+==Referências==
+<references />
+
+[[Category:Worlds{{#translation:}}]]
+[[Category:Game worlds{{#translation:}}]]
+[[Category:PvP worlds{{#translation:}}]]
+[[Category:English{{#translation:}}]]

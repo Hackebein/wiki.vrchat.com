@@ -1,0 +1,354 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Murder 4
+|image=File:Murder4.webp
+|author=[https://vrchat.com/home/user/LyCh6jlK6X Jar]
+|capacity= 12 (24)
+|platforms=PC, Android
+|tags=game, udon, murder, Approved
+|id=wrld_858dfdfc-1b48-4e1e-8a43-f0edc611e5fe
+|labs=December 03, 2020
+|published=December 04, 2020
+}}
+<blockquote>Un meurtrier est de nouveau en liberté ! Aidez le détective à trouver des indices et à traquer le coupable․ Maintenant avec des avatars ! Par jar</blockquote>
+
+'''Murder 4''' est un [[Special:MyLanguage/:Category:Game worlds|monde de jeu]] d'horreur joueur contre joueur, compatible multiplateforme, créé par ''Jar'' en 2020. Jusqu'à vingt-quatre joueurs peuvent y participer simultanément, mais un minimum de trois joueurs est nécessaire pour commencer une partie. Il existe trois rôles possibles : le '''Détective''', les '''Témoins''' (Bystanders), et le '''Meurtrier'''. Les joueurs rencontreront des indices, des photographies, des armes et des dangers. L'objectif du Meurtrier est d'éliminer tous les autres joueurs dans le manoir. Celui du Détective est d'identifier et d'éliminer le Meurtrier, tandis que les Témoins doivent coopérer pour l’identifier et le neutraliser.
+
+<span id="Game_modifiers"></span>
+==Modificateurs de jeu==
+
+Le maître de l'instance peut éventuellement utiliser des modificateurs de jeu pour changer les règles.
+
+* '''Équipes activées''' - invoque douze cercles sur lesquels se tenir dans le hall d'entrée. Plus d'un joueur peut habiter le même cercle, ce qui garantit qu'il aura le même rôle que tous les autres joueurs du cercle, ce qui permet d'avoir plus d'un détective ou d'un meurtrier.
+* '''Spawns mélangés''' - sélection aléatoire d'une pièce pour les joueurs qui commencent dans le manoir, sauf que le détective commence toujours dans l'étude.
+* '''Un seul déverrouillage''' - fait apparaître une arme déverrouillable pour le premier joueur à collecter les cinq indices, et aucun autre indice n'apparaîtra pour les autres.
+* '''Couteaux invisibles''' - est un modificateur de jeu qui permet au meurtrier de voir uniquement les couteaux qui se trouvent sur le sol. Les couteaux sont toujours visibles dans les mains de l'assassin.
+
+<span id="Rooms"></span>
+==Pièces==
+
+Le manoir comprend plusieurs pièces et trois étages.
+
+{| class="wikitable sortable"
+!Pièce
+!Étage #
+!Couteau ?
+!Poison ?
+!Piege à ours ?
+!Briseur ?
+!Tiroirs/Placards
+|-
+|Chambre
+|2
+|Oui
+|Non
+|Non
+|Non
+|5
+|-
+|Salle de bal
+|1
+|Non
+|Non
+|Dans le placard
+|Dans le placard
+|2
+|-
+|Billard
+|1
+|Oui
+|Oui
+|Dans le placard
+|Dans le placard
+|11
+|-
+|Cave
+|B1
+|Oui 
+|Oui
+|Non
+|Oui
+|2
+|-
+|Véranda
+|1
+|Non
+|Non
+|Non
+|Non
+|0
+|-
+|Salle à manger
+|1
+|Non
+|Non
+|Non
+|Non
+|8
+|-
+|Grande salle
+|1
+|Non
+|Non
+|Non
+|Non
+|4
+|-
+|Cuisine
+|1
+|Oui
+|Non
+|Non
+|Non
+|8
+|-
+|Toilettes
+|2
+|Non
+|Oui
+|Non
+|Non
+|1
+|-
+|Bibliothèque
+|1
+|Oui
+|Non
+|Non
+|Non
+|2
+|-
+|Salon
+|1
+|Non
+|Non
+|Non
+|Non
+|3
+|-
+|Couloir supérieur
+|2
+|Non
+|Non
+|Non
+|Dans le placard
+|0
+|-
+|Bureau
+|2
+|Non
+|Non
+|Oui
+|Non
+|9
+|-
+|}
+
+<span id="Clues"></span>
+==Indices==
+
+Les indices sont des feuilles de papier ou des images encadrées à collectionner, qui récompenseront le joueur avec l'une des quatre armes après avoir collecté cinq indices. Tous les joueurs du jeu peuvent collecter des indices. Cependant, les indices sont mis en réseau localement, ce qui signifie que les indices de chaque joueur apparaîtront à un endroit différent de celui des autres joueurs et ne pourront pas être partagés. Les indices peuvent se trouver à l'extérieur, sur des étagères ou derrière des portes, mais ils peuvent aussi être cachés dans des tiroirs et des armoires. L'ouverture des tiroirs et des armoires peut récompenser le joueur avec un indice, alors ouvrez-en autant que possible ; l'ouverture des tiroirs et des armoires aide le détective et les autres spectateurs dans la recherche de leurs indices. Deux indices apparaissent à la fois, et lorsqu'un indice est collecté, un autre apparaît ailleurs sur la carte.
+
+En collectant les cinq indices, le joueur recevra l'une des quatre armes suivantes :
+*'''Luger avec suppresseur''' - Une arme de poing qui peut tirer silencieusement. Elle peut tirer plus vite que le revolver du détective.
+*'''Fusil de chasse à double canon''' - Un fusil de chasse qui tire des balles très bruyantes. Il peut tirer plus vite que le revolver du détective.
+*'''Grenade à fragmentation''' - Une grenade à usage unique qui explose et élimine toute personne se trouvant dans son rayon d'explosion.
+*'''Grenade fumigène''' - Une bombe fumigène à usage unique qui obstrue la vision et ralentit tout joueur se trouvant dans le rayon de la fumée. La fumée se dissipe au bout d'une trentaine de secondes.
+
+La goupille d'une grenade peut être tirée en cliquant sur la gâchette ou sur le bouton de la souris. La grenade n'explosera pas tant qu'elle sera maintenue.
+
+Si une arme est lâchée, un autre joueur peut la ramasser et l'utiliser (sauf si la goupille d'une grenade a déjà été dégoupillée).
+
+
+[[File:M4Map.webp|thumb|Une vue "spectateur" du manoir. Le pistolet violet indique l'endroit où le détective apparaît et l'emplacement du revolver du détective, les dangers et les armes sont indiqués. La cave est cachée.]]
+
+
+<span id="Photographs_and_camera"></span>
+==Photographies et appareil photo==
+
+Il y a cinq photographies à collectionner et à trier. Ces photographies peuvent être triées dans la salle d'étude. En trouvant toutes les photos et en les triant correctement, le joueur recevra un appareil photo avec flash.
+
+L'appareil photo étourdit toute personne se trouvant dans le champ de vision, l'obligeant à laisser tomber les objets qu'elle tient. L'appareil photo a un temps de recharge très long. Idéalement, l'appareil photo devrait être utilisé pour s'échapper lorsque le photographe se sent menacé.
+
+<span id="Roles"></span>
+==Rôles==
+
+<span id="The_Murderer"></span>
+===Le Meurtrier===
+
+Le but du meurtrier est de tuer tous les autres joueurs au cours d'une partie en utilisant divers outils que l'on peut trouver sur la carte. Il est possible d'avoir plus d'un assassin grâce au modificateur "Équipes activées".
+
+Le meurtrier peut contrôler des dangers autour de la carte qui peuvent blesser les spectateurs et le détective. Ces dangers ne peuvent être actionnés que par le meurtrier :
+
+*Les couteaux sont les armes les plus accessible et les plus facile à dissimuler pour le meurtrier. Le meurtrier peut également lancer des couteaux sur ses victimes. Si un joueur touche un couteau en mouvement, il sera vaincu. Le détective et les spectateurs ne peuvent pas ramasser ou utiliser de couteaux.
+
+*Ouvrir une caisse libérera un serpent (ou un chat, si le paramètre "Phobie des serpents – sécurité activée" est activé) qui suivra et attaquera les autres joueurs. Le serpent (ou le chat) émettra des sons, ce qui l’alertera de la présence de joueurs à proximité. Il peut être vaincu par un tir précis ou une explosion de grenade à fragmentation. Une caisse apparaîtra dans une pièce aléatoire à chaque partie.
+
+*Il y a des pièges à ours dans le bureau, le placard de la salle de bal, et le placard du billard, qui peuvent être déployés n'importe où par le meurtrier. Les deux seules façons de désarmer le piège sont qu'un joueur l'active, ce qui l'élimine, ou que l'assassin le désarme.
+
+*Le vin et les verres sont des accessoires que n'importe quel joueur peut ramasser et utiliser. Cependant, le meurtrier peut empoisonner le vin, éliminant un joueur s'il le boit.
+
+*Le meurtrier peut couper l'électricité dans le manoir en tirant le levier du disjoncteur. Le détective et les spectateurs ne pourront pas voir facilement dans l'obscurité, et les plaques signalétiques seront désactivées pour eux. Les lumières peuvent être rallumées en demandant à un spectateur ou au détective de retourner au même interrupteur pour le rallumer. Ces leviers se trouvent à l'étage dans le placard, dans le placard de la salle de billard, dans la cave et dans le placard de la salle de bal. Lorsque l'électricité est coupée, la pièce la plus sûre est à l'extérieur, dans le jardin d'hiver, car la lune fournit un peu de lumière et trois méthodes d'évacuation.
+
+<span id="The_Detective"></span>
+===Le Detective===
+
+Le but du détective est de coopérer avec les spectateurs pour identifier et neutraliser le meurtrier. Il peut y avoir plus d'un détective grâce au modificateur "Équipes activées". Tous les détectives apparaîtront dans la salle d'étude à l'étage, mais il n'y aura qu'un seul revolver. Le détective doit également aider les spectateurs en ouvrant les tiroirs et les armoires à la recherche d'indices. Le détective peut collecter ses propres indices et porter deux armes s'il est en mode VR.
+
+Le revolver est l'arme la plus lente des trois, et il tombera au sol si le détective ou le spectateur tire sur un joueur innocent. Ce revolver peut être ramassé par n'importe qui, à l'exception du meurtrier. Il est donc possible de demander aux spectateurs de ramasser le revolver pour prouver leur innocence. Si le détective trouve une deuxième arme à feu, la stratégie la plus intelligente consiste à offrir le revolver au spectateur, tandis que le détective conserve le Luger ou le fusil de chasse.
+
+<span id="The_Bystander"></span>
+===Le Spectateur===
+
+Le spectateur est une partie neutre dont le but est de survivre. Il peut aider ou gêner le meurtrier ou le détective, mais le spectateur gagnera s'il élimine le meurtrier. Idéalement, le spectateur devrait chercher des indices ou des photographies afin d'acquérir un moyen de défense.
+
+==Succès==
+Murder 4 compte 52 succès qui peuvent être débloqués en accomplissant des objectifs. Les succès sont sauvegardés grâce à la persistance.  
+<center>  
+===Succès normaux===
+{| class="wikitable mw-collapsible mw-collapsed"  
+|+Succès normaux  
+!Succès!!Description  
+|-
+|Slaughterhouse||Gagner une partie avec 12 joueurs ou plus.  
+|-
+|Behind Closed Doors||Poignarder 25 joueurs sans témoins.  
+|-
+|Sheer Steel||Tuer 5 joueurs avec des couteaux de lancer à moins de 5 mètres.  
+|-
+|Bear Necessities||Tuer 10 joueurs avec des pièges à ours.  
+|-
+|Give 'em the Grizzly||Tuer quelqu’un avec un piège à ours dans le noir.  
+|-
+|Knife to a Gun Fight||Utiliser des couteaux pour tuer un joueur armé.  
+|-
+|Outgunned||Utiliser des armes à feu pour tuer 5 autres joueurs armés.  
+|-
+|Point and Shoot||Utiliser des armes à feu pour tuer 15 victimes.  
+|-
+|Bitter End||Empoisonner 5 joueurs.  
+|-
+|Sommelier||Empoisonner une victime peu après avoir bu du poison soi-même.  
+|-
+|Free Noodle||Tuer 3 joueurs en utilisant le serpent.  
+|-
+|Hook, Line, and Slither||Tuer un joueur juste après qu’il ait tiré sur le serpent.  
+|-
+|Lights Out||Éteindre les lumières 5 fois.  
+|-
+|Darkest Hour||Éteindre tous les interrupteurs dans une seule partie.  
+|-
+|Shinobi||Tuer un joueur depuis un nuage de fumée.  
+|-
+|Hat Trick||Tuer 3 joueurs avec le pistolet silencieux dans une seule partie.  
+|-
+|Shotgun Spree||Tuer 6 personnes avec un fusil à pompe dans une seule partie.  
+|-
+|The Long Con||En tant que meurtrier, collecter assez d’indices pour débloquer un objet.  
+|-
+|Gonna Need a Bigger Morgue||Tuer 100 joueurs.  
+|-
+|Opportune Moment||Tuer quelqu’un alors qu’il est aveuglé.  
+|-
+|Secret Weapon||Tuer avec un couteau caché dans l’horloge du grand hall.  
+|-
+|Cat and Mouse||Tuer le détective en dernier.  
+|-
+|No Witnesses||Tuer 3 joueurs qui ont vu que vous avez éteint les lumières.  
+|-
+|Case Closed||En tant que détective, tirer 3 fois sur le meurtrier.  
+|-
+|My Favorite Deputy||Donner votre revolver à un passant qui tire sur le meurtrier.  
+|-
+|Legacy||Donner votre revolver au détective du tour précédent.  
+|-
+|Super Sleuth||En tant que détective, débloquer une arme supplémentaire.  
+|-
+|Trigger Happy||Obtenir 10 tirs gagnants en tant que passant.  
+|-
+|Sharpshooter||Tirer sur le meurtrier à 12 mètres.  
+|-
+|Everyone Stand Back||Faire exploser le meurtrier sans blesser personne d’autre.  
+|-
+|Bombs Away||Tuer 4 joueurs ou plus avec une seule explosion.  
+|-
+|Smoke 'Em If You Got 'Em||Détoner une grenade fumigène sur 4 joueurs ou plus.  
+|-
+|Say Cheese||Aveugler 5 joueurs ou plus avec un flash d’appareil photo.  
+|-
+|Paparazzi||Photographier 12 joueurs avec l’appareil photo à flash.  
+|-
+|Martyr||Faire exploser soi-même et le meurtrier avec la même grenade.  
+|-
+|Contingency Plan||Faire exploser le meurtrier depuis l’au-delà.  
+|-
+|Obtain Luger||Collecter des indices pour trouver le pistolet silencieux 3 fois.  
+|-
+|Obtain Sawed-Off||Collecter des indices pour trouver un fusil à pompe 3 fois.  
+|-
+|Obtain Smoke||Collecter des indices pour trouver une grenade fumigène 3 fois.  
+|-
+|Obtain Frag||Collecter des indices pour trouver une grenade à fragmentation 3 fois.  
+|-
+|Obtain Camera||Résoudre le puzzle pour débloquer l’appareil photo à flash.  
+|-
+|Town Ain't Big Enough||Tirer sur le meurtrier lors de l’affrontement final.  
+|-
+|Cold Case||Gagner une partie qui dure plus de 15 minutes.  
+|}  
+
+===Succès secrets===
+{| class="wikitable mw-collapsible mw-collapsed"  
+|+Succès secrets  
+!Succès!!Description  
+|-
+|Not My Problem||Jeter le revolver dans le jardin arrière.  
+|-
+|Highly Suspect||Cliquer 50 fois sur le tableau suspect.  
+|-
+|Meow||Se faire tuer par un chat.  
+|-
+|Flushed||Détoner une grenade fumigène dans les toilettes.  
+|-
+|Road Trip||Être dans la voiture avec 3 autres joueurs pendant un moment.  
+|-
+|Tilted||Tirer sur l’applique inclinée.  
+|-
+|Fortissimo||Mourir en jouant du piano.  
+|-
+|Dressed to Impress||Gagner 3 parties après avoir utilisé un piédestal d’avatar de meurtrier.  
+|-
+|Toss-Up||En tant que détective, lancer le revolver pour qu’un passant le rattrape.  
+|}  
+</center>
+
+<span id="Trivia"></span>
+== Anecdotes ==
+
+*Il y a un portrait encadré de l’acteur [[Wikipedia:Will Smith|Will Smith]] dans la chambre.
+*De nombreux effets sonores de Murder 4 proviennent de la série [[Wikipedia:Left_4_Dead_(franchise)|Left 4 Dead]] de Valve.
+*Murder 4 est statistiquement le jeu le plus populaire de la série "Murder" de Jar.
+*Cliquer sur une feuille de papier dans le placard à l’étage émettra un son de piano, vous permettant de jouer un extrait de morceaux sur le piano de la salle de bal. Les morceaux jouables sont aléatoires, mais peuvent être lancés en cliquant à plusieurs reprises sur les touches du piano. La liste des morceaux disponibles est la suivante :
+**[https://www.youtube.com/watch?v=4Tr0otuiQuU Moonlight Sonata - Beethoven] (1801)
+**[https://www.youtube.com/watch?v=x6zypc_LhnM Linus & Lucy - Vince Guaraldi] (1964)
+**[https://www.youtube.com/watch?v=VOgFZfRVaww Imagine - John Lennon] (1971)
+**[https://www.youtube.com/watch?v=1k8craCGpgs Don't Stop Believin' - Journey] (1981)
+**[https://www.youtube.com/watch?v=PFW2uSCZ0uE Clocks - Coldplay] (2002)
+**[https://www.youtube.com/watch?v=TbN9ysVWhhY Seven Nation Army - The White Stripes] (2003)
+**[https://www.youtube.com/watch?v=0FCvzsVlXpQ Megalovania - Toby Fox] (2008)
+**[https://www.youtube.com/watch?v=0T-if-Vj2Xs The Office (Main Theme) - The Office Band] (2011)
+**[https://www.youtube.com/watch?v=U0TXIXTzJEY il vento d'oro - Yugo Kanno] (2018)
+**Composition inconnue (????)
+
+<span id="Community_resources"></span>
+==Ressources communautaires==
+
+*[https://www.youtube.com/watch?v=Bi-t7azupxE "Murder 4 dans VRChat"] bande-annonce sur ''YouTube''
+*[https://www.youtube.com/watch?v=5S\_XB4KWmBs "Murder 4 poison wine"] teaser sur ''YouTube''
+*[https://www.youtube.com/watch?v=SYqwNWPj4gg "Murder 4 Partners in Crime (Saint-Valentin)"] bande-annonce sur ''YouTube''
+*[https://www.youtube.com/watch?v=y96ViV\_f0xo "Murder 4 Bande-annonce Halloween"] sur ''YouTube''
+*[https://www.youtube.com/watch?v=aOXgCLskUVU "Merry Murder 4"] bande-annonce sur ''YouTube''
+
+[[Category:Game worlds{{#translation:}}]]
+[[Category:PvP worlds{{#translation:}}]]

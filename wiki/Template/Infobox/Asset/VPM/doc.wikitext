@@ -1,0 +1,149 @@
+<noinclude>[[Category:Template Documentation]]</noinclude>
+{{Infobox/Asset/VPM
+|name=com.vrchat.worlds
+|version=Latest version}}
+==Example==
+<pre>
+<nowiki>{{</nowiki>Infobox/Asset/VPM
+| name=com.vrchat.worlds
+| version=Latest version
+<nowiki>}}</nowiki>
+</pre>
+==TemplateData Documentation==
+<templatedata>
+{
+	"params": {
+		"name": {
+			"label": "Name",
+			"example": "com.vrchat.world",
+            "description": "Package name",
+			"type": "string",
+			"required": true
+		},
+		"version": {
+			"label": "Version",
+			"example": "3.8.1",
+            "description": "Any semver, `Latest version`, `Latest stable version`, or `Latest unstable version`. You might need to create a page for the wiki to recieve the data for that version.",
+			"type": "string"
+		},
+		"image": {
+			"label": "Image",
+			"example": "Placeholder.webp",
+			"type": "wiki-file-name"
+		},
+		"youtube": {
+			"label": "YouTube",
+			"description": "YouTube video ID",
+			"example": "xRha7-qE1vg",
+			"type": "string"
+		},
+		"status": {
+			"label": "Status",
+			"description": "Status of the Asset, any of `maintained`, `maintenance`, `deprecated`, `abandoned`, `archived`, `unknown`, or custom text. Custom text can't be translated.",
+			"example": "maintained",
+			"type": "string"
+		},
+		"documentation": {
+			"label": "documentation",
+			"description": "Documentation URL",
+			"example": "https://docs.vrchat.com/",
+			"type": "url"
+		},
+		"booth": {
+			"label": "Booth ID",
+			"description": "Booth ID",
+			"example": "1234567",
+			"type": "string"
+		},
+		"gumroad": {
+			"label": "Gumroad",
+			"description": "Gumroad ID",
+			"example": "vrchat",
+			"type": "string"
+		},
+		"github": {
+			"label": "GitHub",
+			"description": "GitHub <user>/<repo>",
+			"example": "vrchat/packages",
+			"type": "string"
+		},
+		"gitlab": {
+			"label": "GitLab",
+			"description": "GitLab <user>/<repo>",
+			"example": "vrchat/packages",
+			"type": "string"
+		},
+		"title": {
+			"label": "Title",
+            "description": "Overwrites Title. Default format `<name> v<version>`",
+			"type": "string"
+		},
+		"displayname": {
+			"label": "Displayname",
+            "description": "Overwrites Displayname. ",
+			"type": "string"
+		},
+		"license": {
+			"label": "License",
+			"description": "Overwrites License.",
+			"example": "MIT",
+			"type": "string"
+		},
+		"vpm": {
+			"label": "VPM",
+			"description": "Overwrites VPM URL",
+			"example": "https://packages.vrchat.com/official?download",
+			"type": "url"
+		},
+		"author": {
+			"label": "Author",
+			"description": "Overwrites Author",
+			"example": "VRChat",
+			"type": "string"
+		},
+		"author_1": {
+			"label": "Author 1",
+			"description": "Overwrites Author",
+			"example": "VRRat",
+			"type": "string"
+		},
+		"author_2": {
+			"label": "Author 2",
+			"description": "Overwrites Author",
+			"example": "VRCat",
+			"type": "string"
+		},
+		"author_3": {
+			"label": "Author 3",
+			"description": "Overwrites Author",
+			"example": "VRBat",
+			"type": "string"
+		}
+	},
+	"paramOrder": [
+		"name",
+        "version",
+		"image",
+		"youtube",
+		"status",
+		"documentation",
+		"booth",
+		"gumroad",
+		"github",
+		"gitlab",
+        "title",
+        "displayname",
+		"license",
+		"vpm",
+		"author",
+		"author_1",
+		"author_2",
+		"author_3"
+	]
+}
+</templatedata>
+== Supported Packages ==
+
+If the page doesn't exist yet for the package, create an empty page (press 2x save). You might want to remove the checkmark for "watch this page". You can also create pages which is not listed but a valid version.
+
+{{VPM/Version_summary}}

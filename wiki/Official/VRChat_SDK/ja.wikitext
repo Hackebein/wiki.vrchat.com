@@ -1,0 +1,104 @@
+<languages/>
+{{Noticebox/Official}}
+
+
+<div class="mw-translate-fuzzy">
+VRChatはUnityエンジンで動作するプラットフォームです。ユーザーは[[Special:MyLanguage/VRChat Creator Companion|Creator Companion]]内でプロジェクトを開始し、VRChatソフトウェア開発キット（SDK）を使用してワールドやアバターを作成・アップロードできます。
+
+プロジェクトは、最新のUnityとSDKバージョンを使用し、Creator Companionのガイドに従って、[[Special:MyLanguage/Avatars|アバター]]または[[Special:MyLanguage/Worlds|ワールド]]のいずれかを作成できます。
+
+Creator Companionは、ウェブサイトでVRChatアカウントにログインし、{{VRC link|https://vrchat.com/home/download|ダウンロード}}することで入手できます。
+
+公式VRChatソフトウェアへのアクセスやコンテンツのアップロードには、アカウントが「New User」以上の[[Special:MyLanguage/Trust Rank|トラストランク]]である必要があります。
+</div>
+
+Unity、{{VRC link|https://vcc.docs.vrchat.com/|Creator Companion}}、または{{VRC link|https://creators.vrchat.com/sdk/|SDK}}を初めて使用する場合は、公式およびコミュニティのチュートリアルが複数用意されており、作成したいコンテンツの作成とアップロードのプロセスを支援します。
+
+Creator Companionを使用すると、Unityのインストールに加え、必要なWorld SDKやAvatar SDKのインストールおよび更新が行われます。
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable"
+|+
+!Software
+!Version
+|-
+|VRChat build
+|{{Template:Version|live}}
+|-
+|Client build
+|{{Template:Version/Build|live}}
+|-
+|Worlds SDK
+|{{Template:Version|sdk-worlds}}
+|-
+|Avatars SDK
+|{{Template:Version|sdk-avatars}}
+|-
+|VCC
+|{{Template:Version|creator-companion}}
+|-
+|Unity
+|{{Template:Version|unity-sdk}}
+|}
+</div>
+
+<!--== History ==
+
+==== 旧SDK ====
+VRCSDK 2.0 以前の SDK バージョンに関する情報を追加してください
+
+==== SDK 2.0 ====
+Please add information about VRChat SDK 2.0!
+
+==== SDK 3.0 ====
+Please add information about SDK 3.0!-->
+
+== World SDK ==
+[[File:Content Creator Tools SDK.webp|thumb|VRChat SDK を使えば、アバターやワールド、高度なコードを作成できます！]]
+VRChat のWorld SDK を使えば、ユーザーは様々な環境を構築し、アップロードし、VRChat 上で変更することができます。
+
+=== Udon ===
+[[Special:MyLanguage/Udon|Udon]] は、VRChat の C# を基にしたプログラミング言語であり、ワールド内で高度な体験を作成するために使用されます。
+
+== Avatar SDK ==
+VRChatのAvatar SDK により、ユーザーは様々なアバターを作成、アップロード、および VRChat 内で変更することができます。
+
+=== Avatar Dynamics ===
+[[Special:MyLanguage/Avatar Dynamics|Avatar Dynamics]]（別名「インタラクション」）は、アバターに実装された高度な機能であり、ユーザーが自身のアバターと、あるいは他のユーザーのアバターと相互作用することを可能にします。
+
+=== PhysBones ===
+[[Special:MyLanguage/Physbones|PhysBones]] は、アバターの「骨格」システム上で滑らかで高度な動きを実現するアバターのSDKコンポーネントであり、物理演算をアバターの特性に適用することを可能にします。
+
+<span id="Official_resources"></span>
+== 公式リソース ==
+
+*{{VRC link|https://creators.vrchat.com/|VRChatクリエイターになる}}
+*[https://docs.vrchat.com/ VRChatドキュメント]
+*[https://unity.com/releases/editor/whats-new/2022.3.22 Unity 2022.3.22]
+
+<span id="SDK-related_guides"></span>
+== SDK関連ガイド ==
+
+* [[Special:MyLanguage/Guides:Common SDK issues|ガイド:よくあるSDKの問題]]
+* [[Special:MyLanguage/Guides:Udon guides|ガイド:Udonガイド]]
+* [[Special:MyLanguage/Guides:Constraint dampening|ガイド:拘束減衰]]
+* [[Special:MyLanguage/Guides:How to atlas your VRChat world|ガイド:VRChatワールドのアトラス作成方法]]
+* [[Special:MyLanguage/Guides:How to swap out baked lightmaps|ガイド:ベイク済みライトマップの差し替え方法]]
+* [[Special:MyLanguage/Guides:Layers|ガイド:レイヤー]]
+* [[Special:MyLanguage/Guides:Synchronization|ガイド:同期化]]
+* [[Special:MyLanguage/Guides:World constraint|ガイド:ワールド制約]]
+* [[Special:MyLanguage/Guides:World thumbnails|ガイド:ワールドサムネイル]]
+
+<span id="See_also"></span>
+==関連項目==
+
+* [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]]
+* [[Special:MyLanguage/VRC Quick Launcher|VRCクイックランチャー]]
+* [[Special:MyLanguage/Worlds|ワールド]]
+* [[Special:MyLanguage/Avatars|アバター]]
+* [[wikipedia:Unity_(game_engine)|Unity (ゲームエンジン)]]（''Wikipedia''）
+
+<span id="References"></span>
+== 出典 ==
+
+{{#translation:}}

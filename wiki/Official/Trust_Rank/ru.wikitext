@@ -1,0 +1,168 @@
+<languages/>
+{{Noticebox/Official}}
+'''Ранг доверия''' является частью системы [[Special:MyLanguage/Trust and Safety|доверия и безопасности]] в Vrchat, предназначенной для обеспечения безопасного и приятного опыта для всех пользователей. Эта система определяет, когда пользователь может загружать контент, и оценивает поведение пользователя для вычисления «доверия», используя совокупность многих переменных.
+
+<span id="Ranks"></span>
+==Ранги==
+
+Доверие пользователя учитывается в его '''Рейтинге доверия''', который является показателем времени проведенного в VRChat, вклада в контент, заведенных друзей и других факторов. 
+
+Ранги, которые они получают, следующие (от низшего к высшему):
+{| class="wikitable"
+|+
+| style="background-color: #bababa" |
+!Visitor
+|Начальный ранг.
+|-
+| style="background-color: #1678ff" |
+!New User
+|Может загружать [[Special:MyLanguage/Avatars|аватары]] и [[Special:MyLanguage/Worlds|миры]] в VRChat. Загруженные миры должны оставаться приватными.
+|-
+| style="background-color: #2acf5b" |
+!User
+|Может публиковать [[Special:MyLanguage/Worlds|миры]] в [[Special:MyLanguage/Community Labs|Community Labs]]. Большинство функций становятся доступными на этом ранге.
+|-
+| style="background-color: #ff7c42" |
+!Known User
+|Может выбрать отображение в качестве "User".
+|-
+| style="background-color: #8143e6" |
+!Trusted User
+|Может выбрать отображение в качестве "User".
+|}
+
+<span id="Special_ranks"></span>
+===Специальные ранги===
+
+<div class="mw-translate-fuzzy">
+{| class="wikitable"
+|+
+| style="background-color: #efea17" |
+!'''Друзья'''
+|У пользователей, которых вы добавили в друзья, все функции аватара будут отображаться на обычном уровне защиты, и вы сможете настроить их как и любой другой уровень доверия.
+|-
+| style="background-color: #bababa" |
+!'''Nuisance'''
+|Users who have caused problems for others will have an indicator above their nameplate when the Quick Menu is open. 
+Their avatar will be completely blocked, and they will be muted by default, regardless of Shield Level. However, you can still manually unmute them or show their avatar.
+|-
+| style="background-color: #b52626" |
+!Administrator
+|Используется только членами команды VRChat.
+Этот ранг скрыт в клиенте vrchat, но появляется на веб-сайте при просмотре профиля пользователя в качестве красной рамки. 
+Перепроверяется тем, что в профиле пользователя есть иконка «администратор» вместо их траста.
+|}
+</div>
+
+===Удаленные ранки===
+''Смотри [[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|Удаленные функции]].''
+
+<span id="Gaining_ranks"></span>
+===Получение рангов ===
+
+Внутренняя работа системы доверия намеренно скрыта, чтобы предотвратить ее эксплуатацию.  
+
+Однако, лучший способ повысить свой ранг доверия — заниматься обычными делами в VRChat, например: 
+
+* Исследовать
+*Заводить друзей
+*Создавать контент
+
+Действия, которые не повысят ваш рейтинг доверия включают:
+*Стоять или бездействовать в комнате (AFKing).
+*Загрузка большого количества контента, не требующего особых усилий.
+*Массовое добавление в друзья большого количества пользователей.
+*Преследование по отношению к другим пользователям vrchat.
+Кроме того, подписка на [[Special:MyLanguage/VRC+|VRC+]] или подаренная подписка VRC+ может увеличить ваш рейтинг доверия <ref> [https://hello.vrchat.com/vrchatplus VRC+] on VRChat's website; retrieved October 24, 2024. </ref> . Однако это увеличит его только один раз.
+
+Однако в некоторых случаях ранг доверия не обязательно увеличивается, но он обеспечивает буст в достижении следующего ранга.
+
+==Уровни доверия и безопасность ==
+[[File:Shield_level.webp|thumb|300px|Shield levels can be customized, depending on a user's Trust Rank.]]
+Ранги доверия влияют на то, как пользователи видят ваш аватар, слышат ли вас, или видят ли содержание вашей [[Special:MyLanguage/Gallery|галереи]], например, [[Special:MyLanguage/Stickers|граффити]] и [[VRC+#Prints|фотокарточки]]; Все зависит от их предпочтений уровня безопасности.
+{| class="wikitable"
+!Имя опции
+!Пострадавшие функции от уровня защиты
+|-
+|Голос
+|Пользователь
+|-
+|Аватар
+|Аватар
+|-
+|Значки пользователя
+|Социальная
+|-
+|Пользовательские изображения
+|Социальная
+|-
+|Дрон
+|Социальная
+|-
+|Аудио
+|Аватар
+|-
+|Свет и частицы 
+|Аватар
+|-
+|Шейдеры
+|Аватар
+|-
+| Пользовательские анимации
+|Аватар
+|-
+|Анимированные смайлики
+|Социальная 
+|}
+По-умолчанию доступны несколько '''пресетов''' в зависимости от предпочтения пользователя в отношении безопасности и комфорта.
+
+<span id="Appearance_of_ranks_inside_VRChat"></span>
+==Появление рангов внутри VRChat==
+
+[[File:TrustRank_Example.png|right|frameless]]
+
+Система безопасности и доверия разработана так, чтобы оставаться ненавязчивой. Уровень доверия пользователя виден только при открытом быстром меню. Эту настройку можно изменить в разделе "Интерфейс" > "Именная табличка" или в [[Special:MyLanguage/Action Menu|меню действий]] в разделе "Опции" > "Именные таблички".
+
+*Текст в левом верхнем углу [[Special:MyLanguage/Nameplates|именной таблички]] указывает на рейтинг доверия пользователя.
+*В правом верхнем углу именной таблички отображается ранг производительности аватара пользователя.
+
+===Смена ранга===
+* '''Visitor в New User''': после достижения ранка New User пользователи получают возможность загружать контент в VRCHAT, если они используют учетную запись VRCHAT. Пользователи уведомляются об этом переходе и направляются на страницу документации VRCHAT для создания контента.
+*'''New User в User:''' Получив ранк User, пользователи получают возможность жаловаться на миры, группы, пользователей и аватаров для дальнейшей модерации. Пользователи уведомляются об этом переходе.
+*'''Уведомления:''' Пользователи получают уведомления, когда они переходят на рейтинг доверия.
+*'''Переключатель отображения ранка:''' Пользователи с рангом Known User или выше могут отображать свой ранг как «User». Это изменяет их значок доверия и текст на значок User и изменяет, как система безопасности относится к ним. Переключатель можно найти на странице профиля под статусом, а также на «крыле профиля» главного меню в самом низу.
+==Официальные источники==
+
+*[https://docs.vrchat.com/docs/vrchat-safety-and-trust-system Safety and Trust System] на ''docs.vrchat.com''
+*[https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 VRChat Safety and Trust System: Changes and Feedback] на Medium.
+
+<span id="See_also"></span>
+==См. также==
+
+<div class="mw-translate-fuzzy">
+*[[Special:MyLanguage/Trust and Safety|Доверие и безопасность]]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Terms of Service]]
+* [[Community Guidelines]]
+* [[VRCWiki:Guidelines]]
+* [[VRCWiki:Disciplinary policy]]
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat platform articles
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Reporting]]
+* [[Bans]]
+* [[Two-Factor Authentication (2FA)]]
+</div>
+
+<span id="References"></span>
+==Ссылки==
+
+[[Category:Features{{#translation:}}]]
+
+<references />

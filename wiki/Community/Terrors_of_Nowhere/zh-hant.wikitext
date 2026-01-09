@@ -1,0 +1,1339 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Terrors of Nowhere
+|image=ToN Final.webp
+|author=[https://vrchat.com/home/user/usr_8d3b6c9b-cd64-449a-8b39-a819057f5d3c Beyond]
+|capacity=16 (16)
+|languages=English, Japanese
+|platforms=PC
+|tags=恐怖, 生存, PvE
+|id=wrld_a61cdabe-1218-4287-9ffc-2a4d1414e5bd
+|published=2023年10月23日}}
+'''Terrors of Nowhere''' 是一個僅限PC遊玩的PVE  [[Special:MyLanguage/:Category:Game_Worlds|遊戲世界]]，由 ''Beyond'' 與2023年10月發佈。在這款遊戲中，最多16名玩家將在一个隨機的地圖場景中與一個隨機實體（遊戲中稱爲'''Terror'''）進行長達三分鐘的生存對抗。
+
+每輪回合之間的時間為 '''中場休息'''（Intermission），你可以趁此機會喘口氣，並收集更多'''腦啡肽'''結晶（遊戲内貨幣，縮寫為Eph）。 腦啡肽水晶 會定期在大廳場地四周生成，您可以在'''腦啡肽商店'''中使用 Eph 購買道具，以幫助自己或他人在未來的回合中幸存。
+
+除了 '''腦啡肽'''Eph 以外，你在每回合生存下來後還會獲得'''生存點數 (SP)'''。您可以在'''生存商店'''中使用 SP 換取特殊道具。與 Eph 不同的是，生存點數在購買物品時不會被消耗。
+
+<span id="Round_types"></span>
+==回合類型==
+
+除了'''經典回合'''以外，'''特殊回合'''有 50% 的機率在每第二回合出現，如果第二回合也是'''經典回合'''，那麼第三回合則必定為'''特殊回合'''。
+
+* '''經典(Classic)''' - 這是Terrors of Nowhere的常規回合，實體會從標準（經典）池中隨機選出；玩家有三分鐘的時間生存，有時根據恐懼的不同可能會稍微延長，難度亦會有所變化。
+
+* '''迷霧(Fog)''' - 這是帶有濃霧效果的經典恐懼回合，玩家人數會被隱藏，實體名稱也會顯示為“???”；能見度可以透過輝光／精神線圈提升，或透過雷達發現揭示實體名稱與距離，不過，熟練的玩家通常能透過聲音判斷出其身份——有時還會出現替代型'''Alternate'''。
+
+* '''懲罰(Punished)''' - 這是經典恐懼回合的一種，在此回合中玩家會失去所有道具，無法逃脫或反擊；回合結束後，必須在商店中重新裝備道具。
+
+* '''替代型(Alternate)''' - 會生成來自替代池的實體，這些實體通常更難對付，往往需要高度的協調才能生存下來；部分替代型實體在成功存活後會提供道具作為獎勵。
+
+* '''血洗(Bloodbath)''' - 會同時生成三個來自經典池的實體，其難度取決於它們的組合與所選擇的場地，可能從尚可應對到幾乎不可能生存。
+
+* '''午夜(Midnight)''' - 基本上是 '''血洗(Bloodbath)'''的加強版，其中三個實體中會有一個'''替代型(Alternate)'''，使該回合難度大幅提升——預期會有大量玩家死亡。
+
+* '''破壞(Sabotage)''' - 會生成一個來自普通池的實體，並隨機選出一名玩家成為「破壞者」，破壞者配備一把能一擊必殺的匕首；除了「Arrival」以外的實體都會無視破壞者。如果破壞者未能在回合結束前殺光其他玩家，將會在回合結束前死亡，並必須在商店中重新裝備原本的道具。
+
+* '''8 頁(8 Pages)''' - 玩家必須在地圖中收集 8 頁發光的紙張，每次只能撿取一頁；實體會在找到第一頁後或過了一定時間後生成。大多數道具會像在「懲罰」回合中那樣不可用，但仍然可以使用某些特定道具。與其他回合類型不同的是，「8 頁」回合預設時間為 190 秒。
+
+* '''[[ton:terrors/meatball_man|奔跑]]''' - 在時間耗盡前跑到地圖的另一端。
+
+* '''失控(Cracked)''' - 這是經典回合的一種，但實體的移動速度與攻擊動畫都大幅加快；此回合類型缺乏平衡性，使得某些實體變得不公平，且部分實體在'''失控'''形態下的行為可能異常。
+
+* '''雙重麻煩(Double Trouble)''' - 這個回合原本應該是 '''血洗(Bloodbath)'''，但其中一個實體會嘗試生成兩次，導致出現兩個不同的實體，其中一個會成為其升級版。
+
+<div class="mw-translate-fuzzy">
+* '''無拘無束(Unbound)''' - 從一個新的池中生成一組預設的實體，這些實體包括許多社群建議的組合，這些組合通常是不可能生存的，導致難度有所變化。
+</div>
+
+* '''幽靈(Ghost)''' - 這是經典回合的一種，實體是隱形的，只有它們的粒子效果和聲音能顯示它們的位置，除非你使用像雷達這樣的道具；偶爾可能會出現替代型實體。
+
+* '''月亮(Moons)''' - Terrors of Nowhere中有多種月亮，玩家可以通過達成特定條件來啟動；一旦解鎖，監視者會警告玩家即將出現的威脅，並建議玩家準備適當的道具來應對。每當一顆月亮被啟動後，所有月亮都有 1/20 的機率取代一個特殊（非經典）回合。
+
+<span id="Terrors"></span>
+==實體==
+
+Terrors of Nowhere總共有大約 '''198''' 種實體可供遭遇。（其中 134 種為經典，37 種為替代型，23 種為變異型，4 種為月亮Boss）
+
+<center><big>⚠️'''劇透注意'''⚠️<br>
+'''以下內容可能包含劇透，請注意展開。
+'''</big></center>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<!-- Not a pretty table but made sure to list them in the order they are listed in the in-game Index. If someone wants to pretty the classic table for me go ahead, but they should generally be kept in the order currently listed.-->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Classic
+|-
+|[[ton:terrors/huggy|Huggy]]||[[ton:terrors/corrupted_toys|Corrupted Toys]]||[https://terror.moe/terrors/demented_spongebob Demented Spongebob]||[https://terror.moe/terrors/specimen_8 Specimen 8]||[https://terror.moe/terrors/her HER]||[https://terror.moe/terrors/tails_doll Tails Doll]||[https://terror.moe/terrors/black_sun Black Sun]||[https://terror.moe/terrors/aku_ball Aku Ball]||[https://terror.moe/terrors/ao_oni Ao Oni]||[https://terror.moe/terrors/torens_shadow Toren's Shadow]||[https://terror.moe/terrors/censored [CENSORED<nowiki>]</nowiki>]
+|
+|-
+|[https://terror.moe/terrors/whitenight WhiteNight]||[https://terror.moe/terrors/an_arbiter An Arbiter]||[https://terror.moe/terrors/specimen_5 Specimen 5]||[https://terror.moe/terrors/comedy Comedy]||[https://terror.moe/terrors/purple_guy Purple Guy]||[https://terror.moe/terrors/spongefly_swarm Spongefly Swarm]||[https://terror.moe/terrors/hush Hush]||[https://terror.moe/terrors/mopemope MopeMope]||[https://terror.moe/terrors/sawrunner Sawrunner]||[https://terror.moe/terrors/imposter Imposter]||[https://terror.moe/terrors/something Something]
+|[https://terror.moe/terrors/squidward Squidward]
+|-
+|[https://terror.moe/terrors/starved Starved]||[https://terror.moe/terrors/the_painter The Painter]||[https://terror.moe/terrors/the_guidance The Guidance]||[https://terror.moe/terrors/with_many_voices With Many Voices]||[https://terror.moe/terrors/nextbots Nextbots]||[https://terror.moe/terrors/harvest Harvest]||[https://terror.moe/terrors/smileghost Smileghost]||[https://terror.moe/terrors/karol_corpse Karol_Corpse]|| [https://terror.moe/terrors/mx MX]||[https://terror.moe/terrors/big_bird Big Bird]||[https://terror.moe/terrors/dev_bytes Dev Bytes]
+|[https://terror.moe/terrors/mario_has_logged_in Mario Has Logged In]
+|-
+|[https://terror.moe/terrors/luigi_and_luigi_dolls Luigi & Luigi Dolls]||[https://terror.moe/terrors/v2 V2]||[https://terror.moe/terrors/withered_bonnie Withered Bonnie]||[https://terror.moe/terrors/the_boys The Boys]||[https://terror.moe/terrors/something_wicked Something Wicked]||[https://terror.moe/terrors/seek Seek]||[https://terror.moe/terrors/rush Rush]||[https://terror.moe/terrors/sonic Sonic]||[https://terror.moe/terrors/bad_batter Bad Batter]||[https://terror.moe/terrors/signus Signus]||[https://terror.moe/terrors/mirror Mirror]
+|
+|-
+|[https://terror.moe/terrors/legs Legs]||[https://terror.moe/terrors/mona_and_the_mountain Mona & The Mountain]||[https://terror.moe/terrors/judgement_bird Judgement Bird]||[https://terror.moe/terrors/slender Slender]||[https://terror.moe/terrors/maul-a-child Maul-A-Child]||[https://terror.moe/terrors/garten_goers Garten Goers]||[https://terror.moe/terrors/dont_touch_me Don't Touch Me]||[https://terror.moe/terrors/specimen_2 Specimen 2]||[https://terror.moe/terrors/specimen_10 Specimen 10]||[https://terror.moe/terrors/the_lifebringer The Lifebringer]||[https://terror.moe/terrors/pale_association Pale Association]
+|[https://terror.moe/terrors/the_old_man The Old Man]
+|-
+|[https://terror.moe/terrors/toy_enforcer Toy Enforcer]||[https://terror.moe/terrors/tbh TBH]|| [https://terror.moe/terrors/doombox Doombox]||[https://terror.moe/terrors/christian_brutal_sniper Christian Brutal Sniper]||[https://terror.moe/terrors/nosk Nosk]||[https://terror.moe/terrors/apocrean_harvester Apocrean Harvester]||[https://terror.moe/terrors/arkus Arkus]||[https://terror.moe/terrors/cartoon_cat Cartoon Cat]||[https://terror.moe/terrors/wario_apparition Wario Apparition]||[https://terror.moe/terrors/shinto Shinto]||[https://terror.moe/terrors/hell_bell Hell Bell]
+|
+|-
+|[https://terror.moe/terrors/security Security]||[https://terror.moe/terrors/the_swarm The Swarm]||[https://terror.moe/terrors/shiteyanyo Shiteyanyo]||[https://terror.moe/terrors/bacteria Bacteria]||[https://terror.moe/terrors/tiffany Tiffany]||[https://terror.moe/terrors/hoovydundy HoovyDundy]||[https://terror.moe/terrors/haket Haket]||[https://terror.moe/terrors/akumii-kari Akumii-Kari]||[https://terror.moe/terrors/lunatic_cultist Lunatic Cultist]||[https://terror.moe/terrors/sturm Sturm]||[https://terror.moe/terrors/punishing_bird Punishing Bird]
+|
+|-
+|[https://terror.moe/terrors/prisoner Prisoner]||[https://terror.moe/terrors/red_bus Red Bus]||[https://terror.moe/terrors/waterwraith Waterwraith]||[https://terror.moe/terrors/astrum_aureus Astrum Aureus]||[https://terror.moe/terrors/snarbolax Snarbolax]||[https://terror.moe/terrors/all-around-helpers All-Around-Helpers]||[https://terror.moe/terrors/sakuya_izayoi Sakuya Izayoi]||[https://terror.moe/terrors/arrival Arrival]||[https://terror.moe/terrors/miros_birds Miros Birds]||[https://terror.moe/terrors/bff BFF]||[https://terror.moe/terrors/scavenger Scavenger]
+|
+|-
+|[https://terror.moe/terrors/tinky_winky Tinky Winky]
+|[https://terror.moe/terrors/tricky Tricky]
+|[https://terror.moe/terrors/yolm Yolm]
+|[https://terror.moe/terrors/red_fanatic Red Fanatic]
+|[https://terror.moe/terrors/dr_tox Dr.Tox]
+|[https://terror.moe/terrors/ink_demon Ink Demon]
+|[https://terror.moe/terrors/retep Retep]
+|[https://terror.moe/terrors/those_olden_days Those Olden Days]
+|[https://terror.moe/terrors/sos S.O.S]
+|[https://terror.moe/terrors/bigger_boot Bigger Boot]
+|[https://terror.moe/terrors/the_pursuer The Pursuer]
+|
+|-
+|[https://terror.moe/terrors/spamton Spamton]
+|[https://terror.moe/terrors/immortal_snail Immortal Snail]
+|[https://terror.moe/terrors/charlotte Charlotte]
+|[https://terror.moe/terrors/herobrine Herobrine]
+|[https://terror.moe/terrors/peepy Peepy]
+|[https://terror.moe/terrors/the_jester The Jester]
+|[https://terror.moe/terrors/wild_yet_curious_creature Wild Yet Curious Creature]
+|[https://terror.moe/terrors/manti Manti]
+|[https://terror.moe/terrors/horseless_headless_horsemann Horseless Headless Horsemann]
+|[https://terror.moe/terrors/ghost_girl Ghost Girl]
+|[https://terror.moe/terrors/cubors_revenge Cubor's Revenge]
+|
+|-
+|[https://terror.moe/terrors/the_origin The Origin]
+|[https://terror.moe/terrors/beyond Beyond]
+|[https://terror.moe/terrors/terror_of_nowhere Terror of Nowhere]
+|[https://terror.moe/terrors/deleted Deleted]
+|[https://terror.moe/terrors/poly Poly] 
+|[https://terror.moe/terrors/dog_mimic Dog Mimic]
+|[https://terror.moe/terrors/warden Warden] 
+|[https://terror.moe/terrors/express_train_to_hell Express Train To Hell]
+|[https://terror.moe/terrors/killer_fish Killer Fish]
+|[https://terror.moe/terrors/fox_squad FOX Squad]
+|[https://terror.moe/terrors/time_ripper Time Ripper]
+|[https://terror.moe/terrors/this_killer_does_not_exist This Killer Does Not Exist]
+|-
+|[https://terror.moe/terrors/malicious_twins Malicious Twins]
+|[https://terror.moe/terrors/parhelions_victims Parhelion's Victims]
+|[https://terror.moe/terrors/bed_mecha Bed Mecha]
+|[https://terror.moe/terrors/killer_rabbit Killer Rabbit]
+|[https://terror.moe/terrors/random_flying_knife Random Flying Knife]
+|[https://terror.moe/terrors/missingno MissingNo]
+|[https://terror.moe/terrors/living_shadow Living Shadow]
+|[https://terror.moe/terrors/the_plague_doctor The Plague Doctor]
+|[https://terror.moe/terrors/the_rat The Rat]
+|[https://terror.moe/terrors/waldo Waldo]
+|[https://terror.moe/terrors/clockey Clockey]
+|[https://terror.moe/terrors/lain lain]
+|}
+</center>
+<!-- Replaced with the new pyramid like table. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Alternate
+|-
+|[https://terror.moe/terrors/feddys Feddys]||[https://terror.moe/terrors/tbh_spy TBH Spy]||[https://terror.moe/terrors/tragedy Tragedy]||[https://terror.moe/terrors/voidwalker Voidwalker]||[https://terror.moe/terrors/paradise_bird Paradise Bird]
+|[https://terror.moe/terrors/restless_creator Restless Creator]||[https://terror.moe/terrors/lords_signal Lord's Signal]||[https://terror.moe/terrors/joy Joy]||[https://terror.moe/terrors/mr_mega MR. MEGA]||[https://terror.moe/terrors/eggmans_announcement Eggman's Announcement]||[https://terror.moe/terrors/knight_of_toren Knight of Toren]
+|-
+| ||[https://terror.moe/terrors/decayed_sponge Decayed Sponge]||[https://terror.moe/terrors/parhelion Parhelion]||[https://terror.moe/terrors/yan 얀샋ㄷ요무]||[https://terror.moe/terrors/army_in_black Army in Black]
+|[https://terror.moe/terrors/bliss Bliss]||[https://terror.moe/terrors/glaggle_gang Glaggle Gang]||[https://terror.moe/terrors/whiteface WHITEFACE]||[https://terror.moe/terrors/sm64_z64 SM64.Z64]||[https://terror.moe/terrors/the_red_mist The Red Mist]
+|
+|-
+| || ||[https://terror.moe/terrors/sanic Sanic]||[https://terror.moe/terrors/stgm S.T.G.M.]|| [https://terror.moe/terrors/convict_squad Convict Squad]
+|[https://terror.moe/terrors/fusion_pilot Fusion Pilot]||[https://terror.moe/terrors/dev_maulers Dev Maulers]||[https://terror.moe/terrors/lisa Lisa]
+|[https://terror.moe/terrors/apathy Apathy]
+|
+|
+|-
+| || || ||[https://terror.moe/terrors/angry_munci Angry Munci]||[https://terror.moe/terrors/ambush Ambush]
+|[https://terror.moe/terrors/roblander Roblander]
+|[https://terror.moe/terrors/walpurgisnacht Walpurgisnacht]
+|[https://terror.moe/terrors/sakuya_the_ripper Sakuya The Ripper]
+|
+|
+|
+|-
+| || ||
+|
+|[https://terror.moe/terrors/teuthida Teuthida]
+|[https://terror.moe/terrors/judas Judas]
+|[https://terror.moe/terrors/try_not_to_touch_me Try Not To Touch Me]
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|
+|[https://terror.moe/terrors/the_observation The Observation]
+|
+|
+|[https://terror.moe/terrors/rabid_snarbolax Rabid Snarbolax (Deleted)]
+|[https://terror.moe/terrors/furnace Furnace](Merged with [https://terror.moe/terrors/starved Starved])
+|[https://terror.moe/terrors/the_navigator The Navigator (Deleted)]
+|}
+</center>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Variant
+|-
+|[https://terror.moe/terrors/slendy Slendy]||[https://terror.moe/terrors/scrapyard_machine Scrapyard Machine]||[https://terror.moe/terrors/rewrite Rewrite]||[https://terror.moe/terrors/eyes Eyes]||[https://terror.moe/terrors/search_and_destroy Search & Destroy]||[https://terror.moe/terrors/the_batter The Batter]||[https://terror.moe/terrors/monarch Monarch]
+|[https://terror.moe/terrors/ruinborn_afton Ruinborn Afton]
+|[https://terror.moe/terrors/nameless ???]([https://terror.moe/terrors/crimboong Crimboong])
+|[https://terror.moe/terrors/kimera Kimera]
+|[https://terror.moe/terrors/blue_haket Blue Haket]
+|-
+|[https://terror.moe/terrors/inverted_roblander Inverted Roblander]
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|[https://terror.moe/terrors/alternates Alternates]||[https://terror.moe/terrors/red_mist_apparition Red Mist Apparition]||[https://terror.moe/terrors/baldi Baldi]||[https://terror.moe/terrors/shadow_freddy Shadow Freddy]||[https://terror.moe/terrors/searchlights Searchlights]||[https://terror.moe/terrors/epic_bonnie Epic Bonnie]||[https://terror.moe/terrors/tbh_sans TBH Sans]
+|[https://terror.moe/terrors/transportation_trio_and_the_drifter Transportation Trio & The Drifter]
+|[https://terror.moe/terrors/freezer Freezer]
+|[https://terror.moe/terrors/hungry_home_invader Hungry Home Invader]
+|
+|}
+</center>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Unbound Rounds (WIP)
+!Index
+!Name
+!Terrors
+|-
+|1
+|Guidance & The Booboo's
+|
+|-
+|2
+|Red VS Blue
+|
+|-
+|3
+|Third Trumpet
+|
+|-
+|4
+|Higher Beings
+|
+|-
+|5
+|Forest Guardians
+|
+|-
+|6
+|Quadruple Sponge
+|
+|-
+|7
+|Your Best Friends
+|
+|-
+|8
+|Hotel Monsters
+|
+|-
+|9
+|Squibb Squad
+|
+|-
+|10
+|Garden Rejects
+|
+|-
+|11
+|Judgement Day
+|
+|-
+|12
+|Me and My Shadow
+|
+|-
+|13
+|Meltdown
+|
+|-
+|14
+|Faceless Mafia
+|
+|-
+|15
+|Mansion Monsters
+|
+|-
+|16
+|Copyright Infringement
+|
+|-
+|17
+|Purple Bros
+|
+|-
+|18
+|Scavengers
+|
+|-
+|19
+|Life & Death
+|
+|-
+|20
+|Labyrinth
+|
+|-
+|21
+|Spiteful Shadows
+|
+|-
+|22
+|Triple Munci
+|
+|-
+|23
+|Daycare
+|
+|-
+|24
+|Huggy Horde
+|
+|-
+|25
+|Infection
+|
+|-
+|26
+|Triple Hush
+|
+|-
+|27
+|[CENSORED]
+|
+|-
+|28
+|Byte Horde
+|
+|-
+|29
+|SawMarathon
+|
+|-
+|30
+|TAKE THE NAMI CHALLENGE
+|
+|-
+|31
+|Thunderstorm
+|
+|-
+|32
+|END OF THE WORLD
+|
+|-
+|33
+|Fragmented Memories
+|
+|-
+|34
+|Mona & Mona & Mona & Mona
+|
+|-
+|35
+|Seekers
+|
+|-
+|36
+|Nugget Squad
+|
+|-
+|37
+|Saul's Goodmen
+|
+|-
+|38
+|Something Old. Something New
+|
+|-
+|39
+|POV: Bug
+|
+|-
+|40
+|Punishing Birdemic
+|
+|-
+|41
+|Double Ao Oni
+|
+|-
+|42
+|Too Many Voices
+|
+|-
+|43
+|Memory Crypts
+|
+|-
+|44
+|Zumbo Sauce
+|
+|-
+|45
+|Freaks
+|
+|-
+|46
+|Lunatic Cult
+|
+|-
+|47
+|Transportation Trio 8 The Drifter
+|
+|-
+|48
+|Father Son Bonding
+|
+|-
+|49
+|WHAT IS MY NAME
+|
+|-
+|50
+|Glaggleland Cremators
+|
+|-
+|51
+|Triple Signus
+|
+|-
+|52
+|Triple Akumii Kari
+|
+|-
+|53
+|Black & White
+|
+|-
+|54
+|[LESSER CENSORED]
+|
+|-
+|55
+|Blue Monsters
+|
+|-
+|56
+|Drones
+|
+|-
+|57
+|Scrapyard Takers
+|
+|-
+|58
+|Luigi Dolls
+|
+|-
+|59
+|Meteor Shower
+|
+|-
+|60
+|Triple TBH
+|
+|-
+|61
+|Lost Souls
+|
+|-
+|62
+|Ballin
+|
+|-
+|63
+|Reunion
+|
+|-
+|64
+|Angels
+|
+|-
+|65
+|Ordinary Apocalypse Bird
+|
+|-
+|66
+|Pack of Wild Yet Curious
+|
+|-
+|67
+|ToN X SlashCo Collab
+|
+|-
+|68
+|Pack of Yolm
+|
+|-
+|69
+|Threepy
+|
+|-
+|70
+|???
+|
+|-
+|71
+|Delete He
+|
+|-
+|72
+|Spamton Spam
+|
+|-
+|73
+|Death From Above
+|
+|-
+|74
+|It Came From Bus To Nowhere
+|
+|-
+|75
+|Zombie Apocalypse
+|
+|-
+|76
+|Eating Contest
+|
+|-
+|77
+|Triple Clockeys
+|
+|-
+|78
+|Triple Killer Fish
+|
+|-
+|79
+|Lethal League
+|
+|-
+|80
+|Trollage
+|
+|-
+|81
+|Mopemopemopemopemopemope
+|
+|-
+|82
+|Triple Trouble
+|
+|-
+|83
+|Tirple Living Shadow
+|
+|-
+|84
+|Beyond's Masks
+|
+|}
+</center>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Boss Moon
+|-
+|[https://terror.moe/terrors/mystic_moon Mystic Moon]||[https://terror.moe/terrors/blood_moon Blood Moon]||[https://terror.moe/terrors/twilight Twilight]||[https://terror.moe/terrors/solstice Solstice]
+|}
+</center>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Seasonal Events
+|-
+|[https://terror.moe/terrors/cold_night Cold Night]
+|}
+</center>
+</div>
+
+<span id="Locations"></span>
+==地點==
+
+Terrors of Nowhere一共有'''75'''个地點，其中'''74'''個是你在每回合中會被隨機傳送到的區域。
+
+<center><big>⚠️'''劇透注意'''⚠️<br>
+
+'''以下内容可能包含劇透内容，請注意展開。'''</big></center>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Locations
+|-
+|[https://terror.moe/locations/hub Hub]||[https://terror.moe/locations/sewers Sewers]||[https://terror.moe/locations/construct Construct]||[https://terror.moe/locations/secret Secret]||[https://terror.moe/locations/innyume Innyume]||[https://terror.moe/locations/warehouse Warehouse]
+|[https://terror.moe/locations/sanctum Sanctum]
+|[https://terror.moe/locations/sea_base Sea Base]
+|[https://terror.moe/locations/astral Astral]
+|-
+|[https://terror.moe/locations/hell Hell]||[https://terror.moe/locations/fishbowl Fishbowl]||[https://terror.moe/locations/forest Forest]||[https://terror.moe/locations/neon_towers_p Pink Neon Towers]||[https://terror.moe/locations/playplace Playplace]||[https://terror.moe/locations/isolation Isolation]
+|[https://terror.moe/locations/pizzeria Pizzeria]
+|[https://terror.moe/locations/schoolhouse Schoolhouse]
+|[https://terror.moe/locations/ancient Ancient]
+|-
+|[https://terror.moe/locations/inner_towers Inner Towers]||[https://terror.moe/locations/blackspace Blackspace]||[https://terror.moe/locations/museum Museum]||[https://terror.moe/locations/throne Throne]||[https://terror.moe/locations/neon_towers_g Green Neon Towers]||[https://terror.moe/locations/pool Pool]
+|[https://terror.moe/locations/hole Hole]
+|[https://terror.moe/locations/iteration_0 Iteration_0]
+|[https://terror.moe/locations/dring_kings_citadel Dring King's Citadel]
+|-
+|[https://terror.moe/locations/car_park Car Park]||[https://terror.moe/locations/development Development]||[https://terror.moe/locations/hotel Hotel]|| [https://terror.moe/locations/elevator Elevator]||[https://terror.moe/locations/tbh TBH]||[https://terror.moe/locations/experimentation Experimentation]
+|[https://terror.moe/locations/scrapyard Scrapyard]
+|[https://terror.moe/locations/robland Robland]
+|[https://terror.moe/locations/backrooms Backrooms]
+|-
+|[https://terror.moe/locations/desktop Desktop]
+|[https://terror.moe/locations/slashco_hq SlashCo HQ]
+|[https://terror.moe/locations/harvest Harvest]
+|[https://terror.moe/locations/heaven Heaven]
+|[https://terror.moe/locations/hightower Hightower]
+|[https://terror.moe/locations/lounge Lounge]
+|[https://terror.moe/locations/baseplate Baseplate]
+|[https://terror.moe/locations/challenge_cube Challenge Cube]
+|[https://terror.moe/locations/have Have]
+|-
+|[https://terror.moe/locations/engine Engine]||[https://terror.moe/locations/orange Orange]|| [https://terror.moe/locations/wall Wall]||[https://terror.moe/locations/nexus Nexus]||[https://terror.moe/locations/colony Colony]||[https://terror.moe/locations/altar Alter]
+|[https://terror.moe/locations/gardens Gardens]
+|[https://terror.moe/locations/dust Dust]
+|[https://terror.moe/locations/dots Dots]
+|-
+|[https://terror.moe/locations/mall Mall]||[https://terror.moe/locations/nightlife Nightlife]||[https://terror.moe/locations/skyscraper Skyscrapers]||[https://terror.moe/locations/gaol Gaol]
+|[https://terror.moe/locations/chess Chess]
+|[https://terror.moe/locations/mineshaft Mineshaft]
+|[https://terror.moe/locations/escape_route Escape Route]
+|[https://terror.moe/locations/garten Garten]
+|[https://terror.moe/locations/black_forest Black Forest]
+|-
+|[https://terror.moe/locations/park Park]
+|[https://terror.moe/locations/wafflehouse Wafflehouse]
+|[https://terror.moe/locations/tunnels Tunnels]
+|[https://terror.moe/locations/subway Subway]
+|[https://terror.moe/locations/supply_route Supply Route]
+|[https://terror.moe/locations/vents Vents]
+|[https://terror.moe/locations/cheese_maze Cheese Maze]
+|[https://terror.moe/locations/snowfield Snowfield]
+|[https://terror.moe/locations/luna_hills Luna Hills]
+|-
+|[https://terror.moe/locations/court Court]
+|[https://terror.moe/locations/its_maze Its Maze (Deleted)]
+|
+|
+|
+|
+|
+|[https://terror.moe/locations/spaceless Spaceless (Hidden)]
+|[https://terror.moe/locations/this_map_does_not_exist This Map Does Not Exist (Hidden)]
+|}
+</center>
+</div>
+
+<span id="Red_Merchant_Store"></span>
+==紅商的商店==
+
+在紅商的商店内，你可以瀏覽三個不同的商店：'''腦啡肽商店'''、'''SP商店'''和'''活動商店''',。
+
+<center><big>⚠️'''劇透注意'''⚠️<br>
+
+'''以下内容可能包含劇透内容，請注意展開。'''</big></center>
+
+<!-- Please refrain from proofreading the shop descriptions, as they are provided as-is from the game. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+腦啡肽商店
+|-
+!名稱!!價格!!描述!!筆記
+|-
+|[https://terror.moe/items/radar Radar雷達]||20 Eph||<small>這是一個為了保護使用者性命而設計、能夠偵測威脅的便利裝置。<br>它會持續追蹤主要的威脅，並對靠近的存在發出警告。</small>||<small>- 持有時，會顯示與主要威脅之間的距離。<br>- 若有東西接近，會發出警告。<br>- 在特定的回合類型中，可以揭示恐懼的身份。</small>
+|-
+|[https://terror.moe/items/medkit Medikit醫療包]||20 Eph||<small>這是一個裝有多種藥品的箱子，是在各地搭綠色巴士跑來跑去時收集來的。<br>雖然數量不多，但應該足夠讓你從混戰中殺出重圍吧。</small>||<small>- 使用時，會恢復自身與周圍隊友 25% 的生命值。<br>- 再次使用需要充能時間。</small>
+|-
+|[https://terror.moe/items/haves_mysterious_brew Have 的神秘釀造]||20 Eph||<small>這是某個森林裡的傢伙釀造的奇怪酒精飲料，裡面加了些什麼沒人知道。只是味道實在是臭不可聞。<br>要是有人敢喝這東西，大概只能叫他瘋子了——不過，你應該會喝吧？</small>||<small>- 使用時，會獲得隨機效果。<br>- 效果有好有壞，完全看運氣。</small>
+|-
+|[https://terror.moe/items/glow_coil Glow Coil輝光線圈]||75 Eph||<small>這個線圈能為那些畏懼黑暗的罪人照亮前路，當他們嚇得不知所措時，這光就成了救命繩索。<br>雖然很少看到有人使用，不過在伸手不見五指的黑夜中，它也許會派上用場。</small>||<small>- 持有時，會為玩家提供 +2 的移動速度。<br>- 線圈會散發柔和的光芒，即使在黑暗中也能保持良好視野，讓人安心。</small>
+|-
+|[https://terror.moe/items/teleporter Teleporter傳送器]||125 Eph||<small>這是從某次搭乘綠色巴士時撿來的設備，來源不明，大概是自然形成的什麼玩意兒吧，信不過就是了。<br>不過——用來逃命的話，應該挺管用的。</small>||<small>-使用時，會將玩家隨機傳送到地圖上的某個位置。<br>- 啟動時會有短暫延遲。<br>- 再次使用需要充能時間。</small>
+|-
+|[https://terror.moe/items/speed_coil Speed Coil速度線圈]||125 Eph||<small>速度線圈大概會成為你最可靠的夥伴，讓你能夠快速奔馳、靈活走位。<br>這是諾斯特特地為你製作的，比原型要輕盈得多。</small>||<small>- 持有時，玩家將獲得 +3 的移動速度，使你更容易逃離恐懼的追擊。</small>
+|-
+|[https://terror.moe/items/regen_coil Regen Coil再生線圈]||125 Eph||<small>這個再生線圈能為持有者提供速度與恢復的絕佳平衡。<br>雖然在性能上稍慢一些，但只要帶著它，想活下來應該不會太困難。</small>||<small>- 持有時，玩家獲得 +2 的移動速度。<br>- 持有時，玩家的生命恢復速度提升為原本的 4 倍。</small>
+|-
+|[https://terror.moe/items/metal_bat Metal Bat金屬球棒]||200 Eph||<small>這支球棒適合那些有勇氣正面對抗恐懼的人。它內建的機構能幫助你對恐懼造成傷害。<br>不過要小心，對於某些強大的恐懼或是沒有實體的恐懼，可能完全無效。</small>||<small>- 使用時可揮動球棒使恐懼陷入暫時硬直狀態（暈眩）。<br>- 暈眩效果依照不同的恐懼會有明顯差異。<br>- 若暈眩成功，會出現黃色粒子特效。<br>- 若無效，則會出現紅色粒子特效。<br>- 再次使用需要充能時間。</small>
+|-
+|[https://terror.moe/items/silver_kat_charm Silver Kat Charm銀貓護身符]||200 Eph||<small>這個魔法護身符是由一位只有毀滅人類的女巫所製作的。<br>這個護身符是為了保護她自己和她所愛的人而創造的。也就是說，它會保護你不受到傷害吧？</small>||<small>- 使用時，會啟動保護狀態並提供 +2 的移動速度。<br>- 在此狀態下，若受到攻擊，護身符會保護玩家並擊退攻擊者。 <br>- 上述效果會持續 6 秒。<br>- 護身符再次使用需要充能時間。</small>
+|-
+|[https://terror.moe/items/chaos_coil Chaos Coil混沌線圈]||200 Eph||<small>混沌線圈由異次元的能量所變形，並且很難保持穩定，無法長時間待在同一位置。<br>這個線圈能提供極高的速度，但由於不穩定，最好不要對它完全信任。</small>||<small>- 持有時，玩家會獲得 +4 的移動速度。<br>- 在移動過程中，線圈可能會故障 2 到 7 秒，造成速度下降。</small>
+|-
+|[https://terror.moe/items/glass_coil Glass Coil玻璃線圈]||250 Eph||<small>這是一個由玻璃製成的強力線圈，通常比其他任何線圈都要強大，但也非常脆弱。<br>這個線圈是為了當作禮物製作的，至於送給誰，我可不打算透露。</small>||<small>- - 持有時，玩家將獲得 +3.5 的移動速度。<br>- 如果使用者受到任何傷害，線圈將會斷裂。<br>- 60秒沒有受到傷害後，線圈將自行修復。</small>
+|-
+|[https://terror.moe/items/corkscrew_coil Corkscrew Coil螺旋線圈]||250 Eph||<small>螺旋線圈擁有極致的戰鬥與機動性能，結合了速度與防禦，是多功能的頂級裝備。<br>不過啟動後需要充能時間，使用時可得三思而行。</small>||<small>- 持有時，玩家獲得 +1 的移動速度。<br>- 使用時，在 5 秒內移動速度提升 +4，並且此期間內路徑上的所有恐懼（Terror）陷入暈眩狀態。<br>- 再次使用需等待充能完畢。</small>
+|-
+|[https://terror.moe/items/antique_revolver Antique Revolver古董左輪手槍]||250 Eph||<small>這是一把使用痕跡明顯、看起來隨時會壞掉的舊式左輪手槍。<br>彈倉設計只能裝一發子彈，而且上彈本身就相當費工。<br>記住，只有一發。——要一擊必殺啊</small>||<small>- 使用時可開火，使恐懼（Terror）陷入暈眩狀態。<br>- 暈眩效果依不同的恐懼而異。<br>- 子彈可以貫穿多個恐懼。<br>- 再次使用需較長時間充能。</small>
+|-
+|[https://terror.moe/items/girlfriend Girlfriend女朋友]||400 Eph||<small>好吧，我有東西给你！<br>你可以随時擁抱她，她會聽從你的所有命令，你不需要喂她，而且她愛你。</small>||<small>- 這很酷，但是她是否允許我把頭放在他們的腿上，拍拍我的頭，讓我知道儘管我經歷了這麼多艱難的時刻，但一切都很好？</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+SP商店
+|-
+!名稱!!價格!!描述!!筆記
+|-
+|[https://terror.moe/items/burger Burger漢堡]||1 SP||<small>漢堡、起司漢堡、巨無霸、華堡。<br>漢堡、起司漢堡、巨無霸、華堡。<br>漢堡、起司漢堡、巨無霸、華堡。</small>||<small>- 使用後會被消耗，並將 HP 完全回復。<br>- 回合結束後需要重新裝備此道具。</small>
+|-
+|[https://terror.moe/items/beyond_plush Beyond人偶]||10 SP||<small>這是一個曾經可能對某人來說非常重要的神秘人偶。<br>隱約能感受到古老的力量……但這東西真的有用嗎？</small>||<small>- 使用時會發出聲音。<br>- 有機會播放各種不同的音效。<br>- 有機率觸發某些效果。<br>- 冷卻時間為 10 秒</small>
+|-
+|[https://terror.moe/items/magic_conch Magic Conch魔法海螺]||25 SP||<small>這只海螺是在沉沒於深海的儀式場中發現的。拉拉繩子，它就會說話。<br>理應是天然生成的東西，但內部似乎能看到類似電子裝置的構造……</small>||<small>- 先聽它說點什麼，再拉繩子啟動。</small>
+|-
+|[https://terror.moe/items/radar_coil Radar Coil雷達線圈]||50 SP||<small>這是速度線圈與雷達的合體產物。<br>雖然沒有螢幕，所以它不會告訴你威脅從哪個方向來……但你很快就會知道了。</small>||<small>-持有時，玩家獲得 2 點速度加成。<br>- 持有時，可偵測半徑 35 公尺內的恐懼（Terror），每 0.8 秒更新一次。</small>
+|-
+|[https://terror.moe/items/rubber_mallet Rubber Mallet橡膠鎚]||100 SP||<small>這把橡膠鎚對那些可疑傢伙特別有效。<br>有些人可能對它還挺有感情的，比起金屬球棒也許更好用一些。<br>至少，它能勝任自己的工作。</small>||<small>- 使用時揮動橡膠鎚，令恐懼（Terror）陷入暈眩狀態。<br>- 暈眩效果依恐懼類型而異。<br>- 若暈眩成功，會出現黃色粒子特效。<br>- 若無效，則出現紅色粒子特效。 </small>
+|-
+|[https://terror.moe/items/banana Banana香蕉]||250 SP||<small>香蕉是一種可以讓玩家......把香蕉皮丟到地上的道具。香蕉一旦掉在地上，就無法再撿起來，只能從商店裝備一個新的。和磚頭一樣，你也無法召回它。</small>||<small>-在回合中只能設置一次。<br>被放置後的香蕉皮會讓踩到的玩家「啪嗒！」地被彈飛，而若是恐懼（Terror）從上方經過，則會被暈眩。<br>香蕉皮會在設置後90秒自然消失，對環境也很友善。<br>在消失前可多次觸發，根據場合可發揮極大效用。</small>
+|-
+|[https://terror.moe/items/tbh TBH]||500 SP||<small>小小那傢伙，那個小生物。<br>這傢伙沒長腦子。那個嘛……<br>就是靠「氣氛」活著的東西。<br>試著稍微用力捏一下，應該會發出聲音的。</small>||<small>- 使用時，會暫時獲得 +5 的速度。<br>- 同時會讓自身陷入燃燒狀態。<br>- 再次使用需要冷卻時間。/small>
+|-
+|[https://terror.moe/items/darkgrey_plush Darkgrey人偶]||750.5 SP||是Darkgrey！<br>天哪！<br>帥炸了！<br>太絕了！||<small>– 就像Darkgrey一樣！<br>- 超帥！<br>- 真他X的猛！<br>- 快看這個！！！！</small>
+|-
+|[https://terror.moe/items/delicate_coil Delicate Coil精緻線圈]||1000 SP||<small>如果你覺得玻璃線圈太冒險，那這東西大概會把你的手碾成碎片。<br>有些人甚至被爆炸飛濺的玻璃碎片炸死了。所以如果你沒覺悟承擔這風險，最好別碰這玩意兒。</small>||<small>- 持有時，玩家獲得3.8點移動速度提升。<br>- 一旦受到任何傷害，使用者將當場暴斃。</small>
+|-
+|[https://terror.moe/items/emerald_coil Emerald Coil翡翠綫圈]||2500 SP||<small>這玩意能讓你擺脫你不斷蒐集的那些東西。換句話說，這是個很好消耗腦啡肽（Enkephalin）的方式。<br>不過它不像燃料那樣能長期使用——想活命的話就要聰明點用。</small>||<small>-使用時消耗5點腦啡肽，並為線圈充能2秒。<br>充能期間，提供4點速度提升。<br>- 若無腦啡肽，裝置將無法啟動。</small>
+|-
+|[https://terror.moe/items/pot_of_greed Pot of Greed貪婪之壺]||5000 SP||<small>我不記得我找到過這個罐子，不過它讓我很害怕。它可以讓你遠離危險，但我估計它不會免費幫你。</small>||<small>-只有當你擁有100點以上的腦啡肽時才可啟用。<br>-當你持有這個壺時，若恐懼（Terror）接近你，它會自動發動效果。<br>-效果發動時，會將你隨機傳送到地圖上的某個位置。<br>-然而，有機率這個壺會破裂，並奪走你一半的腦啡肽。<br>-壺若破裂，則不會進行傳送。<br>-此外，每次發動效果後，壺破裂的機率都會逐漸上升。</small>
+|-
+|[https://terror.moe/items/brick Brick磚塊]||10000 SP||<small>這東西就只是一塊又老又堅固的磚頭。<br>雖然投擲它可能需要一點練習，但絕對值得試試。不過可別搞丟了，它可能不會自己回來。</small>||<small>- 可以直接將磚塊投擲出去，讓恐懼（Terror）陷入昏迷（暈眩）。<br>沒有冷卻時間，但投擲後必須親自跑回去撿起來。（無法召回！）</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+活動商店
+|-
+!名稱!!商店描述!!筆記!!解鎖條件
+|-
+|[https://terror.moe/items/luxury_coil luxury coil奢華線圈]||<small>這是用金屬等特殊材料製成的線圈。<br>它能提供生存所需的一切，但不會給你更多或更少。與其看，不如實際使用它來感受。</small>||<small>- 持有時，玩家的移動速度提升1.5點。<br>- 持有時，玩家的生命回復速度提升2.5倍。</small>||<small>贈送给在2023年4月前Patreons的所有的(Caretaker)贊助者。（結束販賣）</small>
+|-
+|[https://terror.moe/items/blue_medkit blue medkit藍色醫療包]||<small>這是一個裝有多種藥品的箱子。是在搭乘綠色巴士時從各地收集來的……不過為什麼是藍色的呢？<br>雖然藥量不多，但或許足以幫你從混戰中活下來。</small>||<small>- 使用時，會回復自己與周圍隊友25%的生命值。<br>- 會對自己產生隨機效果。<br>- 再次使用需要冷卻時間。</small>||<small>贈送給在2023年4月前Patreons的所有的(Pilot)贊助者（結束販賣）。</small>
+|-
+|[https://terror.moe/items/sealed_sword sealed sword封印之劍]||<small>遠古的武器。被布與護符包裹著。據說能吸收善與惡的力量。<br>這把武器笨重又遲緩……我不推薦你使用它。</small>||<small>- 使用時可揮劍使恐懼陷入暈眩狀態，並會給自己帶來移動速度減緩效果。<br>- 暈眩效果依據恐懼類型有所不同。<br>- 若暈眩成功，會出現黃色粒子效果。<br>- 若暈眩失敗，會出現紅色粒子效果。<br>- 再次使用需要冷卻時間。</small>||<small>在地點「博物館（Museum）」中，用暈眩武器打破玻璃櫃並偷取其內容物即可獲得。</small>
+|-
+|[https://terror.moe/items/gran_faust gran faust格蘭德浮士德]||<small>這把劍的力量過於強大，甚至會詛咒持有者。儘管如此，仍有人願意犧牲從魔鬼（Devilite）得來的珍貴假期，來追求這把劍。<br>這不是給不懂得如何使用它的人準備的東西。小心為上。</small>||<small>- 使用時揮劍可使恐懼陷入暈眩狀態，並使你獲得5秒的加速狀態。<br>- 暈眩效果依據恐懼類型而有所不同。<br>每次揮劍時，有機率讓自己陷入詛咒狀態。處於詛咒狀態時再次揮劍，會對自身造成傷害並加深詛咒。<br>- 再次使用需要短時間冷卻。</small>||<small>持有「封印之劍」並成功從普通級恐懼「Arkus」手中生還後可獲得。</small>
+|-
+|[https://terror.moe/items/divine_avenger divine avenger神聖復仇者]||<small>這把神聖之劍是為另一個世界線中，對抗地獄惡魔的騎士們所打造的。<br>在這個世界中，仍殘存著些應該被這類武器擊倒的敵人。如果你是能夠挺身面對那種敵人的英雄，那就帶走它吧。</small>||<small>- 使用時揮劍可使恐懼陷入暈眩狀態。<br>- 暈眩效果依據恐懼類型而有所不同。<br>- 成功使其暈眩時，會出現黃色粒子效果。<br>- 若成功暈眩，將獲得自動回復HP的效果。<br>- 再次使用需等待冷卻時間。</small>||<small>持有「封印之劍」並對普通級恐懼「Arkus」成功施展2次暈眩，並生還後獲得。</small>
+|-
+|[https://terror.moe/items/maxwell maxwell麥克斯韋]||<small>曾是神的創造物之一。<br>它擁有許多名字，但真正符合它的，只有一個。<br>當你被絕望壓垮時，就像你曾拯救過它一樣，它也會將你從絕境中救出。</small>||<small>- 每回合僅限一次：當你受到致命傷時，會防止該次傷害，並以HP全滿的狀態傳送至地圖上的某處。<br>使用後「麥克斯韋」會消耗，需要再次從商店裝備。</small>||<small>於地點「It's Maze」中，在木箱附近可取得「麥克斯韋」。</small>
+|-
+|[https://terror.moe/items/rock rock岩石]||<small>我從沒見過這種石頭。<br>這傢伙可不是普通的石頭。<br>你最好別想擁有它，<br>有時候，它會對我低語，<br>在我耳邊……</small>||<small>- 直接投擲石頭會讓恐懼陷入暈眩狀態。<br>- 沒有冷卻時間，但投擲後需要親自回收（無法召回！）</small>||<small>在替代型恐懼「Fusion Pilot」生存後獲得。</small>
+|-
+|[https://terror.moe/items/illumina illumina因美納]||<small>這是一把會顯現於下定決心清除這個世界污穢之心者面前的古老武器。<br>即使在最漆黑的夜裡，它也會<br>帶來光明。</small>||<small>-使用時可揮劍使恐懼陷入暈眩狀態。<br>- 暈眩效果依據恐懼類型而有所不同。<br>- 若暈眩成功，會出現黃色粒子效果。<br>- 若暈眩失敗，會出現紅色粒子效果。<br>- 冷卻時間短，但揮擊時不會觸發無敵（免疫）效果。</small>||<small>在替代型恐懼「Bliss」生存後獲得。</small>
+|-
+|[https://terror.moe/items/redbull redbull紅牛能量飲料]||<small>給你一對翅膀的能量飲料，<br>……不，應該說是會引起心臟衰竭才對。<br><br>(ToN並非由紅牛贊助)</small>||<small>- 使用後，獲得極高的移動速度提升效果。<br>- 效果結束後，會受到嚴重的移動速度下降懲罰。</small>||<small>在替代型恐懼「Roblander」生存後獲得。</small>
+|-
+|[https://terror.moe/items/omori_plush Omori人偶]||<small>前陣子在跳蚤市場發現了這傢伙。從那之後就一直緊緊地握著它。<br>我可不覺得這能提高生存率，但……把它抱緊緊的感覺，不是挺開心的嗎！</small>||<small>- 緊握時會發出聲音<br>- 也許……能稍微忘記那些壞事一小會兒</small>||<small>普通恐懼「Something」生存後獲得。</small>
+|-
+|[https://terror.moe/items/paradise_lost paradise lost失楽園]||<small>某種神秘的物品。若沒有正確的信仰，似乎無法發揮其效果。<br>這到底是屬於哪個宗教的東西我也不知道……但如果你知道的話，我很樂意把它送給你。</small>||<small>- 使前方小範圍內的恐懼陷入暈眩狀態<br>- 命中到的玩家會獲得回復效果<br>- 使用時，會對自身造成傷害</small>||<small>普通恐懼「WHITENIGHT」關卡中對使徒指定次數造成暈眩並成功生存下來即可獲得。</small>
+|-
+|[https://terror.moe/items/thorn_glognut Thorn Glognut荊棘格洛納特]
+|<small>正宗的格洛納特！蓬鬆的小海綿蛋糕，裹著亮琥珀色的美味糖霜，含糖量極低。<br>超美味，令人上癮！每個Giggler、Gembo或其他什麼人都至少嚐過一次。</small>
+|<small>食用後，獲得“咕嚕視覺”（如果你有暈動症，這可能不適合你，因為咕嚕視覺效果非常強。），大幅提升速度，並獲得持續15秒的無敵。此外，你的生命值將降至10%以下。</small>
+|<small>在替代型恐懼Glaggle Gang生存後獲得。</small>
+|-
+|[https://terror.moe/items/jailbird Jailbird籠中鳥]
+|<small>一件具備自我意識的機械裝置，看起來還挺享受被當作武器使用的樣子。<br>
+我已經強化過它，防止它爆炸——因為這玩意似乎很容易爆炸。</small>
+|<small>啟動時，會為 Jailbird 充能，並獲得 3 秒的強力移動速度加成。<br>再次使用 Jailbird 會揮動它，擊中任何恐懼時可使其癱瘓 2~3 秒。<br>即使是無法被暈眩的 Terror，也可以使用此道具對其造成影響。<br>若未擊中目標，則使用者自己會被癱瘓。</small>
+|<small>存活所有普通的實體後獲得。</small>
+|-
+|[https://terror.moe/items/joyous_orb Joyous Orb歡樂球]
+|<small>從遙遠的太陽系回收來的古老遺物。它看起來像是在沉思，又或者只是睡著了。<br>如此神秘的物體，究竟會夢見什麼呢？</small>
+|<small>在回合中釋放後，寶珠會隨機在場地中飛行，沿途暈眩所有接觸到的恐懼，最終引爆。無法在大廳中使用。</small>
+|<small>在替代型恐懼Joy生存後獲得。</small>
+|-
+|[https://terror.moe/items/have_plush Have Plush Have玩偶]
+|<small>一隻長得像在黑暗樹冠森林中潛伏的生物的絨毛玩偶。<br>鮮為人知的是，那片森林受一位自稱「森林之王」的存在所守護。</small>
+|<small>當玩家持有此物時，將完全免疫負面狀態（Debuffs）<br>但同時無法獲得任何增益效果（Buffs）。<br>如果你早就受夠了藍包玩家（bluekit users）搞破壞，
+那這就是你的必備道具。</small>
+|<small>在替代型恐懼「The Observation」生存後獲得。</small>
+|-
+|-
+|[https://terror.moe/items/silver_coil silver coil銀色線圈]||<small>今天我的心情不錯，所以就讓你使用這個了不起的線圈吧。<br>這麼好的東西，可不是每天都能讓你用的喔！</small>||<small>- 持有時，為玩家提供 +3 點速度，這使得逃離恐懼（Terror）變得更容易。</small>||<small>在進入遊戲房間（Instance）時，有 1/250 的機率 出現在活動商店中。</small>
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+特別道具<nowiki>*</nowiki>
+|-
+!名稱!!描述
+|-
+|[https://terror.moe/items/torch_of_obsession Torch of Obsession迷戀火炬]||<small>在冬季節慶活動（Winterfest）中，成功熬過寒夜（Cold Night）即可獲得的道具。使用時會釋放範圍昏迷（AoE暈眩）效果並進行回復，同時還能提供光源。</small>
+|-
+|[https://terror.moe/items/snowy_speed_coil Snow coil雪地線圈]||<small>在冬季活動期間中，可於商店旁的雪山採集以解鎖的道具。即使冬季節慶（Winterfest）結束後，這個道具仍可永久保留。儘管名稱帶有“雪”字，其實它的速度比普通的速度線圈略慢一點——真的只是一點點。但好處是，擁有這個道具的玩家不需付費。</small>
+|-
+|[https://terror.moe/items/dropkick dropkick飛踢]||<small>我的意思是，你能在空中踢出很酷的腳，還能喊“kowabunga”之類的，這挺酷的。
+你就像個真正的忍者，讓我想起了以前忍者與海盜的爭論。
+你以為你熬過那些蠢事就能達到這種境界嗎？我不知道，我只是做了個網站而已，哈哈。
+你真的以為我能從天外得到什麼訊息嗎？哈哈哈哈。 ？ ？ ？ ？認清現實吧。在愚人節限時出現的特殊回合中，從特殊恐懼「GIGABYTE」手中生存下來。</small>
+|-
+|[https://terror.moe/items/panthera_mkII Panthera MK.II 豹式 MK-II]||<small>使用時，攻擊會消耗你目前 EPH 的 3+1% 來發射單發；但每次射擊至少會消耗 5 點。擊中恐懼時，有低機率使其麻痺。豹式攻擊每 0.25 秒可使用一次，如果玩家 EPH 不足，攻擊將無法發射。<br>-解鎖要求：在Neo飛行員中倖存。冬季節慶（Winterfest）<br>-豹式攻擊是少數冷卻時間不受玩家數量影響的物品之一。</small>
+|}
+<nowiki>注: </nowiki>僅翻譯列出玩家可供獲得的特殊道具。
+</center>
+
+<span id="Achievements"></span>
+==成就==
+
+Terrors of Nowhere有'''163'''項成就，您可以達成某些條件來解鎖這些成就。
+
+<center><big>⚠️'''劇透注意'''⚠️<br>
+
+'''以下内容可能包含劇透内容，請注意展開。'''</big></center>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<!-- iirc there's 96 achievements this table might take a while... . -->
+<!-- Gonna be slowly adding these achievements in order as listed on the in-game board, so yeah will take some time. -->
+<center>
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Achievements
+|-
+!Name!!Flavor Text !!Unlock Requirements
+|-
+|Not Enough Blood||What, were you expecting more?!||Survive a Bloodbath Round.
+|-
+|No Smoking!||It´s bad for your lungs!||Survive a Fog Round.
+|-
+|Broken Boundaries|| Every star will burn itself out someday.||Survive a Cracked Round.
+|-
+|The Other Side||We´ve all got friends on the other side.||Survive an Alternate Round. 
+|-
+|Escaped!||You escaped that crazed lunatic! Oh wait, did you know them?||Survive a Sabotage Round as an innocent.
+|-
+|Walk It Off ||Not only can you run for your life, you can now run with it! ||Survive Bloodbath Round with a Speed Coil.
+|-
+| Slaughter||Look at the mess you´ve made! There´s so much blood!||Survive Bloodbath Round with a Bat.
+|-
+|Sacrificial||Hey, were you always missing your ear?|| Survive Bloodbath Round with a Teleporter.
+|-
+|Oooo Shiny! ||You found a pipe. Congratulations, I guess. Why do you even want a pipe?||Survive Alternate Round with a Bat.
+|-
+| Business Partner||You ever wonder what´s inside those suitcases? Now´s your chance! ||Survive Alternate Round with a Teleporter.
+|-
+| Pale Associate||Congratulations, you´re hired! Hopefully the others get the memo.||Survive Alternate Round with a Revolver.
+|-
+|Judgement||You´d think the sword would be more effective with the blade out.||Survive a Midnight with the Metal Bat.
+|-
+|Am I tripping?||That Bat is looking a little colorful. Is it just me?||Survive a Cracked Round with a Bat.
+|-
+|Crack of Dawn||The horrors came out, at midnight! They were Midnight Horrors!||Survive a Midnight Round.
+|-
+|The False Light||It´s only a memory of her power, but it´s enough to make use of.||Survive Mystic Moon with a Glow Coil.
+|-
+|Watchful Eyes || The twilight was endured, and we now face towards dawn.|| Survive a Twilight with a Chaos Coil.
+|-
+| The War Is Over||With nowhere left for him to go, you offer him a place of safety.||Survive Blood Moon with the Medkit.
+|-
+|Fateful Encounter|| Everything for as long as time has led up to this moment.||Find Maxwell.
+|-
+|Collateral Damage||You swear it was an accident, and you have no idea where the sword went!|| Steal the Sealed Sword.
+|-
+| Know Your Enemy||There isn´t enough room for the two of us.||Encounter the Alternates.
+|-
+|Forgive Us||The cost was too great and grief overtook her will to persist.|| Survive Bliss.
+|-
+|Did You Have Fun?||There was no room left in the asylum for you. ||Survive Roblander.
+|-
+|Fahrenheit 10K||Despite her burning hatred for you, you managed to push through the fire.||Survive Fusion Pilot
+|-
+|It´s Dark||It´s there again, behind you. You can see it, can´t you?||Survive Something.
+|-
+| Fading Memory||Wait, what did we just beat? I don’t remember.||Survive Mystic Moon.
+|-
+|Darkest Day|| There was no such beast in the forest.||Survive Twilight. 
+|-
+|War||The fight never ends for him, and he will be back to fight another day.||Survive Blood Moon.
+|-
+|The Acolyte||There’s no reason to look back. We can only move forward.||Survive Solstice.
+|-
+|Genocide||You had a bad time, but came out ontop.||Survive TBH Sans.
+|-
+|It Happened.|| You should probably go for a walk after this round.||Encounter Punished Arkus while holding the Sealed Sword.
+|-
+| Forget Me Not||No thanks, I think I´d rather forget about this.||Survive MopeMope.
+|-
+|The Purplest Guy||And employee of the month goes too... Purple Guy!|| Survive Cracked Purple Guy. 
+|-
+|Heresy||You resisted temptations and fought against the teaching of sin.||Combat the Apostles during WhiteNight.
+|-
+|Time Out||Go sit in the corner, you´ve been naughty||Survive a Punished round.
+|-
+|Ancient Power||The weapon banished the knights curse, and grew stronger. / The weapon absorbed the knights curses, at what cost?||Upgrade the Sealed Sword.
+|-
+|All Skill||Despite watching everyone die, you never submitted to the fear. ||Survive a Solstice with no item.
+|-
+|Survivor||You won your first round! Congratulations!||Survive a round.
+|-
+|From The Ashes
+|We will reform. We will build.We will show the world we are strong.
+|Survive Glaggle Gang.
+|-
+|Muted||“AMBUSH” has been muted by a moderator for micspam.||Survive Ambush.
+|-
+|The Greatest Performance To Ever Be Held||The performance is over, for now. The crowd awaits an encore.||Survive Teuthida.
+|-
+|Conflict & Resolve||Even after letting go of what made them alive, they still could not let go of their hate. ||Survive Convict Squad
+|-
+|Persistence||Your life in the palm of your hand. Keep it safe, if you value it.||Save for the first time.
+|-
+|You died!||It´s okay, you´ll die at least 3 more times before you get the hang of it!||Die for the first time.
+|-
+|Powered By Fear|| Now your chances of survival are 50% better!||Purchase an item for the first time.
+|-
+| Rent´s Due||Don´t have the money? Don´t worry, your life will make a fine payment!||Get killed by a closet.
+|-
+|Big Bank||You´ve done so much grinding today, you should probably take a break!||Obtain 1000 Enkephalin.
+|-
+|INTERLOPE||Was it just a dream? Or maybe something more. Don’t dwell on it.||Die to the Interloper.
+|-
+|Oh No||Look what you did, now she´s angry!||Enrage Toren´s Shadow.
+|-
+|Dango Dango Dango||I don´t think he can get any bigger. But it´s best not to feed him anymore to find out.||Encounter a full Mountain of Smiling Bodies.
+|-
+|STOP||You should always make sure the light is green before crossing!||Die to Guidance´s red light.
+|-
+|Wrong Place, Wrong Time||Well, at least the chances of it happening twice are basically zero.||Die to MR MEGA´s passive lightning. 
+|-
+|To Take The Dead|| Nailing the broken pieces back together, one AFK player at a time.||Survive a round while being chased by Specimen 9.
+|-
+|Ph.D||While you may not have the knowledge, you have the experience!||Experience every status effect in one instance.
+|-
+|Spending Spree||Guess he´ll have to restock his wares now.|| Purchase everything in the Enkephalin shop.
+|-
+|Deal With The Devil||You sold your soul! I hope you didn´t need it for anything!||Sign Beelzebub´s contract.
+|-
+|Freedom||Enjoy it while it lasts, you know you won´t stay here forever.||Stand in a grass section of The Wall for 170 seconds without leaving.
+|-
+|Be Nice||You never know who´s waiting just down the hall from you.||Survive Angry Munci.
+|-
+|Deleted||The world will continue as it always has, just without you in it.||Survive sm64.z64
+|-
+|Standard Procedure ||You resisted your intrusive thoughts and lived to see another day!||Survive Don't Touch Me
+|-
+| Rule Breaker||You allowed your intrusive thoughts to take over, and took everyone else with you. ||Press Don't Touch Me
+|-
+|Stand Proud ||I won! Hey guys! ...guys? Where´d everyone go?||Be the only survivor of a round.
+|-
+|Perfection||You survived so many rounds, without even a scratch!||Survive 10 rounds in a row without taking any damage.
+|-
+|Crystal Clicker|| It´s just like one of those idle games! ||Break an enkephalin crystal.
+|-
+| Sightseer||You´ve been all around the place!||Complete a round in every location at least once in a single instance.
+|-
+|What’s For Dinner?||Violence never solved anything.||Survive Starved without stunning it.
+|-
+|Vengeance||The only light that remained was fueled by a desire to take back what was taken.|| Survive Judas.
+|-
+|No Cost Too Great||You betrayed everyone, and befriended a monster.||Kill everyone in a Sabotage Round.
+|-
+|The First Festival||We hope you had fun!||Survive Walpurgisnacht.
+|-
+| The Red Mist Returns||What remained of her opponents was nothing but red stains.||Survive The Red Mist.
+|-
+|Uber Cheap Killer|| The X-Tier is really something else.||Survive Sakuya The Ripper.
+|-
+|Dilemma|| A dubious creature stands before you. What can you do?||Encounter Neko Arc.
+|-
+|Late For Work||People got places to be! You´re just wasting their time!||Enrage the Red Bus.
+|-
+|Primordial Signal||It tells the story of our world;but nobody will ever recieve it. || Survive S.O.S. 
+|-
+| Live and Learn||You proved that there is always hope in the face of fear.||Survive a Midnight with a point reward over 200.
+|-
+| Endless Appetite ||Nothing will quench its everlasting hunger.||Survive The Meatball Man
+|-
+|Researcher||You´ve seen all this world has to offer. ||Complete the Nightmare Index.
+|-
+|Void Walker|| You´ve seen all this reality has to offer.||Complete the Alternate Index.
+|-
+|Stargazer||You spend too much time staring at the stars.||Complete the Moon Index.
+|-
+|Ran´s Guidance ||Now you learned how to run!||Survive “Christian Brutal Sniper”, “Huggy”, and “Akumii-Kari”.
+|-
+|Ran´s Favourite||Say “Hi” to them!||Survive “The Boys”.
+|-
+|Like She Do!||She always does this very easily!||Be the only survivor of a Bloodbath.
+|-
+|It´s the Slenderman!||and he´s cooking hotdogs on the stove!|| Encounter the Hungry Home Invader.
+|-
+|Victory^3||That´s like, three times the victory! I think? I don´t know math. || Survive a round in Challenge Cube.
+|-
+|Page Thief||I wonder who drew all of these anyway?||Beat 8 Pages
+|-
+| Mindless Machine|| But alas, he could be nothing more than a common machine. ||Survive that which has no name. 
+|-
+|Rite of Passage||With her choice made, she never looked back. ||Survive a Solstice with Teleporter.
+|-
+|An Unknown Challenger||Was there an update I missed?||Encounter a rare killer variant.
+|-
+| Hide & Seek Champion||You better hope nobody else takes your hiding spot next time!||Survive a Bloodbath or Midnight featuring Rush or Ambush.
+|-
+|The World||They invaded her world of stopped time, and still you managed to survive.||Survive a Bloodbath or Midnight featuring Sakuya Izayoi.
+|-
+|Empathy|| Everything can be emphasized with; except that thing.||Survive Apathy.
+|-
+|Showstar!||Looks like this rounds all about them! ||See a Round Takeover.
+|-
+| Seeing Double||Did that witch do something to my eyes? ||See two of the same killer at once.
+|-
+|Paradise Found||Perhaps what we consider paradise is subjective to us all. Some of us don´t want to be eaten by a bird.||Survive Paradise Bird.
+|-
+|Lost Soul||No home, no destiny, there is truly nothing for her left.||Survive Kimera.
+|-
+|Heart of Horror||It all had to come from somewhere, but in the end, ended up nowhere.||Encounter Beyond in an instance.
+|-
+|Like Banbans to Heaven||There is something wrong seriously with me for making this.||Survive Garten Goers.
+|-
+|THIS IS NOT FUN
+|Whatever, I'll just go play with someone else. Bye!
+|Enraging Roblander.
+|-
+|The Observer
+|I stared into the abyss, and the abyss stared back.Quit staring at me!
+|Survive The Observation.
+|-
+|Radiant Happiness
+|The only happiness we can look towards is the one that shines brightest.
+|Survive Joy.
+|-
+|Scorched
+|Your ashes scatter across the lands,returned to earth once more.
+|Burn to death.
+|-
+|Yoink!
+|Looks like that monster took your item,hope you don't need it.
+|Have your item stolen.
+|-
+|The Judge Has Decided.
+|You have sinned, but you already knew that didn't you?
+|Die to a Judgement.
+|-
+|#CONNECTION# LOST#
+|#LOOK AWAY.# LOOK AWAY.#LOOK AWAY. #LOOK AWAY. #
+|Stare at Akumii-Kari.
+|-
+|Perfected Split
+|No, splitting in half does not double your points.
+|Die to Red Mist's Greater Split.
+|-
+|Shocker
+|If only you were an electric type...
+|Be afflicted with Paralysis.
+|-
+|Homefield Advantage
+|No fair, they know the map already!
+|Encounter a terror on its own map.
+|-
+|Unchained
+|That was fun, back into the chains you go.
+|Survive an Unbound round.
+|-
+|Close Encounter
+|Nature is beautiful. You know, when it's not killing you.
+|Encounter the Cat on Have Dimension.
+|-
+|Lost In Space
+|The sound escapes your ears, as the last of your air leaves your lunges.
+|Activate the lasers on Colony and escaping.
+|-
+|Shutdown!
+|Screw this game, I quit!
+|Die to the power button on Desktop.
+|-
+|TBH
+|To be honest, I'm surprised you got this.
+|Encounter TBH on TBH.
+|-
+|Loremaster
+|Not only are you a nerd, you're a button presser too!
+|Press all the buttons on Museum in one round.
+|-
+|Bus Pass
+|It's only good for a month, so make sure you renew it!
+|Survive the Transportation Trio & The Drifter.
+|-
+|The Only Friend I Need
+|You don't need friends when you have marketable toys.
+|Survive an Alternate with any plush item.
+|-
+|Ruined
+|The last of his legion crumbles,as the flame is extinguished once again.
+|Survive Monarch.
+|-
+|An Alternate Exit
+|Who knew the Meatball was just another part of Robland?
+|Escape The Meatball through the door.
+|-
+|HEY STOP THAT!
+|Those are expensive!How would you like if I broke YOUR screens?
+|Break every screen in Robland in one round.
+|-
+|Responsible Pet Owner
+|With everyone feeding him,Swim Shady will live a long life.
+|Feed Swim Shady.
+|-
+|Depressing Prize
+|You won an amazing prize from the Claw Machine!
+|Win Nora from the Claw Machine in Fishbowl.
+|-
+|Chaotic Prize
+|You won an amazing prize from the Claw Machine!
+|Win Roblander from the Claw Machine in Fishbowl.
+|-
+|Sefless Prize
+|You won an amazing prize from the Claw Machine!
+|Win Observation from the Claw Machine in Fishbowl.
+|-
+|Astral Burial
+|Little do you know, there's actually nothing under this grave, not even the ground.
+|Someone bring the Darkgrey Plush to Darkgrey's Hole's Grave on Astral.
+|-
+|Henry114's Secret
+|You listened to the madman's ramblings.
+|Follow Henry114´s instructions.
+|-
+|Om Nom Nom
+|You are a burger, congratulations!
+|Eat a Burger.
+|-
+|143
+|No matter where you are,I'll always be looking out for you.
+|Die to Hellmari in Blackspace.
+|-
+|Whale Watcher
+|Simply wonderful. It's not everyday you get to see something like this.
+|Witness the whale in Sea Base.     
+|-
+|Massive W
+|While you did get a massive W,it seems that you were unable to hold it.
+|Be crushed by the W in Wafflehouse.
+|-
+|This Item Sucks!
+|Maybe next time you'll purchase something useful.
+|Trash an item.
+|-
+|Peek-A-Boo!
+|Hehe, I see you! But what's that behind you?
+|Peek through the crack in Hotel.
+|-
+|The Deep Dark
+|Must have been hard finding all those pages, without making a single noise!
+|Survive The Warden on 8 Pages.
+|-
+|NICE TO MEET YOU
+|THAT WAS FUN. LETS PLAY AGAIN SOMETIME.
+|Survive Angry Munci on 8 Pages.
+|-
+|ROAD ROLLAR DA!
+|This was not a Jojo reference; but I made it one.
+|Die to Waterwraith by it dropping down on you.
+|-
+|Red Defender
+|While you protected yourself, the blood of those fallen tainted your shield.
+|Survive a Bloodbath with the Silver Kat Charm.
+|-
+|Super Ghost Burgers
+|The ghost, they're trying to control me!Helppp, ARUUGHHh!!
+|Survive a Ghost round with the Burger.
+|-
+|Deadman's Iron
+|Five will do, friend. No more, no less.
+|Survive a Bloodbath with the Antique Revolver.
+|-
+|Better With Friends!
+|With numbers, you are stronger.
+|Play a round with a full lobby.
+|-
+|All Her Fault
+|There's nothing you can do for her.You've already broken her heart.
+|Survive the Restless Creator.
+|-
+|Followed
+|The voices grew louder and became overwhelming,but you kept calm and escaped.
+|Survive Shadow Freddy.
+|-
+|Stayin Alive
+|You may have lost most of your blood and suffered greatly, but you survived!
+|Survive a round with less than 3 HP.
+|-
+|Who Needs Pain?
+|Pain is just a physical responseof the body, so therefore, I can just ignore it!
+|Beat an Alternate Round with a Regen Coil.
+|-
+|It Grows Within
+|You should probably get that checked out by a doctor.
+|Survive a round while afflicted with Arrival Infection at Stage 3.
+|-
+|One Way Ticker
+|You best be sure you won't be returning.
+|Purchase a ticket from Express Train To Hell.
+|-
+|Anomalous Discovery
+|The weapon is loyal to you, surely you won't betray it's trust.
+|Survive every terror at least once. (excluding Alternates & Moons)
+|-
+|Remember Me
+|When the TV turns off, just please, remember our time together.
+|Survive Those Olden Days.
+|-
+|A Shiny Quarter
+|You're incredible, here's your prize! A shiny quarter!
+|Survive Baldi.
+|-
+|The Force
+|Did you just stun that killer, with your mind?!
+|Survive a Ghost round with a Bat.
+|-
+|Something Strange
+|We'd better call somebody, but who?
+|Survive a Ghost round.
+|-
+|Cheese'd to Meet You
+|You did it, you found the cheese.
+|Find all the cheeses in Cheese Maze.
+|-
+|:3
+|I´ll always be watching from up here.
+|Survive Parhelion.
+|-
+|Don't Ask Me Why
+|I desperately wish to be included in the city's night.
+|Survive 얀샋ㄷ요무.
+|-
+|AAAAAAAAAAAAAAA
+|AAAAAAAAAAAAAAAAAAAA
+|Encounter Golden Freddy.
+|-
+|Oh, So Sleepy
+|Don't think he'll mind if I use this as a bed.
+|Interact with Bed Mecha's bed after it collapses.
+|-
+|Destroyer of Worlds
+|And now I have become death.
+|Survive a Midnight with the Corkscrew Coil.
+|-
+|Linked
+|Now you'll never be alone again!
+|Survive an Unbound with the Teleporter.
+|-
+|Thrilling Gameplay
+|They made a little version of Terrors, just for you!
+|Surviving an Unbound
+with Have's Mysterious Brew.
+|-
+|Pressured
+|You're lucky Urbanshade can't get to you here.
+|Survive Searchlights.
+|-
+|Happy Winterfest!||There´s something in the snow for you!||Find the Snowy Speed Coil.
+|-
+|Their Garden||If I went with you, would there be happily-ever-afters?||Survive the Cold Night.
+|-
+|Which Way? (Not obtainable)
+|I think I´m lost. Oh well, I´ll just google it.
+|Survive The Navigator.
+|-
+|Insurrection (Not obtainable)
+|While unable to undo the damage done that day, the door has opened for a better future.
+|Survive Glaggle Gang.
+|-
+|The Fog Is Coming
+(Not obtainable)
+|Is the reason the mist is red because of all the blood?
+|Survive Red Mist Squidward.
+|-
+|Fallen Kingdom 
+(Not obtainable)
+|The king failed to exact his revenge, and once again returned to darkness.
+|Survive Monarch.
+|-
+|Test Subject
+|Hopefully it didn't go that badly!
+|Participate in a test with Beyond.
+|}
+</center>
+</div>
+
+<span id="Gallery"></span>
+==圖集==
+
+<gallery widths="260" heights="150">
+File:ToN Courtroom.png|被稱爲法庭的大廳區域
+File:ToN Merchant Shop.png|商人的商店
+File:ToN Index&Settings.png|實體圖鑑和設定面板
+File:ToN Achievements&Stats.png|成就面板和玩家數據統計
+File:ToN SpectatorScreen.webp|觀戰螢幕，位於法庭後部
+File:ToN RedCrystal.webp|红色 “腦啡肽晶體”。價值約1-2 Eph
+File:ToN BlueCrystal.webp|藍色 “腦啡肽晶體”。價值約3-5Eph
+File:ToN YellowCrystal.webp|黄色 “腦啡肽晶體”。價值約17-19Eph
+File:ToN HeadsUpDisplay.webp|HUD，顯示該回合内的各種信息
+File:Terrors Tracker.webp|處於空白狀態的ToN進程追蹤器，訪問 [https://tontrack.me/tontrack.me ToN進程追蹤]使用
+</gallery>
+
+<span id="Trivia"></span>
+==小知識==
+
+*Terrors of Nowhere的最初靈感來自''CaptainSpinxs''開發的Roblox遊戲[https://www.roblox.com/games/2809844442/Midnight-Horrors Midnight Horrors]。
+*遊戲中引用和影射了各種媒體素材，其中許多內容在遊戲中進行了解釋，但其他未解釋的內容如下：
+**"腦啡肽"指的是 Project Moon 遊戲 Lobotomy Corporation 和 Limbus Company 中的能量資源。
+**線圈道具指的是 Roblox 中名稱相似的道具。
+
+<span id="Community_resources"></span>
+==社群資源==
+
+* ''YouTube''[https://www.youtube.com/watch?v=-1xGejjPiXM ToN Release Trailer ToN發佈預告] 
+* ''YouTube''[https://youtu.be/p3c_fxSdn7M ToN 1.15 Update Trailer ToN 1.15更新預告] 
+*[https://vrc.group/TON.4826 Official ToN VRC Group ToN官方VRChat群組]
+*[https://terror.moe/ terror.moe] - 官方維基wiki
+*[https://github.com/ChrisFeline/ToNSaveManager ToN Save ManagerToN存儲碼管理器] - 幫助追蹤和保存代碼的工具
+*[https://tontrack.me/ tontrack.me] - 進程追蹤器
+*[https://youtube.com/playlist?list=PL691R7EWbmCNpoPACOfnTjSwA2LFIJqkY&si=i_zxYnHDP9ltqtGR ToN Soundtrack Playlist ToN原聲帶列表]
+
+[[Category:Japanese{{#translation:}}]]

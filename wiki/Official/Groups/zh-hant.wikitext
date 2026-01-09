@@ -1,0 +1,322 @@
+<languages/>
+{{Noticebox/Official}}
+[[File:Groups Render.webp|thumb|官方設定的「群組」標籤圖示。]]
+「'''群組'''」（'''Groups'''），是一種目的在於 VRChat 當中形成建立、維持並組織社群，以便用戶能夠更方便地互動與管理社群活動的社交功能。
+
+之所以創建群組，其核心目的便是吸引有著同樣愛好、目標的用戶們聚集一塊，例如像是粉絲群體，或是某種[[Special:MyLanguage/Community:Culture|文化]]的愛好者，都能夠透過群組相聚。用戶們可以透過創建群組[[Special:MyLanguage/instances|房間（Instances）]]舉辦或參與活動，而用戶還可以將自己最偏好的群組，展示在自己個人資料中，而群組的橫幅也會顯示在個人資料及用戶名牌上。群組是自[https://hello.vrchat.com/blog/vrchat-groups 2022年11月30日]起正式推出的功能。
+
+<span id="Joining_a_group"></span>
+==加入群組==
+
+如果要加入一個群組，首先便需要先點擊進入該群組的主要頁面。用戶目前能夠同時加入的群組上限為100個，而有訂閱 [[Special:MyLanguage/VRChat+|VRChat＋]] 的用戶，上限則能夠提高至200個。另外，你也可以透過[[Special:MyLanguage/Main_Menu|主選單（Main menu）]]的「'''搜尋'''」功能或「'''群組'''」標籤頁，來找到並加入你所偏好的群組。
+
+你也可以透過點擊其他用戶在個人資料中展示的群組，或者是點擊內建在[[Special:MyLanguage/Worlds|世界（Worlds）]]中的群組按鈕或宣傳海報來加入群組。而在加入群組後，你便可以透過各個群組頁面中的「'''房間'''」類別，或是在社交標籤頁中的「'''群組活動'''」欄位，找到目前你加入的群組所附屬的房間。
+
+<span id="Representing"></span>
+===展示群組===
+
+在展示群組的時候，被展示的群組名稱、橫幅都會顯示在用戶名牌與個人資料的上方。若要展示任何群組，可以透過[[Special:MyLanguage/Main_Menu|主選單]]的「'''群組'''」標籤頁，點擊進入該群組的主要頁面，接著點擊右上角的「'''展示群組'''」按鈕。用戶每次只能選擇展示一個群組。
+
+<span id="Membership_visibility"></span>
+===隱藏群組===
+
+身為群組成員，你可以在個人資料的群組列表中，隱藏自己加入的某個群組。不過，以下情況將「'''無法避免'''」，且能夠被其他用戶「'''看見'''」你在某個群組之中：
+
+*當對方與你同時加入了某個群組時。
+*當對方在某個群組擁有「查看所有成員」權限時。
+
+[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|群組可見度設定]]
+
+如果要隱藏某個群組，可以透過[[Special:MyLanguage/Main_Menu|主選單]]的「'''群組'''」標籤頁，點擊進入該群組的主要頁面，接著點擊右上角的齒輪圖示以進入「'''群組設定'''」，你便可以在這裡切換顯示或隱藏這個群組。
+
+此外，你也在 VRChat 官方網站中隱藏群組。在進入網站後，點擊左側的「'''Groups'''」（'''群組'''）欄位，再點擊你想隱藏的群組，之後點選「'''Settings'''」（'''設定'''）類別，即可在「'''Membership Preferences'''」（'''會員資格'''）下方的「'''Visibility'''」（'''可見度'''）欄位切換顯示或隱藏群組。
+
+{| class="wikitable"
+!Visible（可見）
+|所有人都能在你的個人資料看到你在這個群組中。
+|-
+!Friends Only（僅限好友）
+|只有好友能在你的個人資料看到你在這個群組中。
+|-
+!Hidden（隱藏）
+|沒有人能在你的個人資料看到你在這個群組中。
+|}
+
+<span id="Creating_a_group"></span>
+==創建群組==
+
+如果要創建一個群組，創建者本身需要訂閱 [[Special:MyLanguage/VRChat+|VRChat＋]]，在訂閱失效後，用戶仍然可以保有這個群組。不過，若用戶想變更群組頭像或橫幅、編輯群組「'''相簿'''」，以及移交群組給其他用戶，或接收其他用戶移交的群組，則依舊需要訂閱 [[Special:MyLanguage/VRChat+|VRChat＋]]，才能使用上述功能。目前創建群組需要到 {{VRC link|https://vrchat.com/home/groups|VRChat 官方網站}}操作，而每個用戶最多擁有5個群組，每個群組成員上限為10萬人。
+
+<span id="Joinability_and_visibility"></span>
+===加入權限與群組可見度===
+
+在開始創建群組時，系統將引導創建者設定群組。首先便是進入設定「加入權限」的頁面，上方標題顯示為「'''How can people join your Group?'''」（'''人們要怎麼加入你的群組？'''），這項設定決定了用戶加入群組的方式。此設定可在日後進行更改。
+
+{| class="wikitable"
+!Free Join（自由加入）
+|所有人都能自由加入群組而無須審核。
+|-
+!Request to Join（申請加入）
+|所有人都需要申請並經過審核才能加入群組。
+|-
+!Invite-Only（僅限邀請）
+|所有人都只能被群組內有權限者邀請才能加入。
+|}
+
+接著，系統將引導創建者設定「群組可見度」，上方標題顯示為「'''How visible is your Group?'''」（'''要怎麼顯示你的群組？'''），其決定了群組是否可以被成員代表或顯示在其個人檔案上。此設定將「'''無法'''」在日後更改。
+{| class="wikitable"
+!Public（公開）
+|所有成員都可以在個人資料及名牌上展示群組。
+|-
+!Private（私人）
+|所有成員都無法在個人資料及名牌上展示群組。
+|}
+如同前面所說，用戶可以在個人資料中，自由選擇顯示或隱藏其所在的公開群組。
+
+===群組橫幅===
+群組橫幅（Group banner）會顯示在已選擇展示這個群組的用戶其名牌之上，同時也會出現在 VRChat 官方網站的群組頁面，以及 VRChat 內的群組介面當中。
+
+橫幅圖片可以在 VRChat 官方網站上傳並選取。不過，根據顯示位置的不同，用戶所上傳的圖片會以不同尺寸進行裁切。
+
+社群上的用戶「Reava」製作了一份[https://github.com/Reava/Resources/releases/tag/Guide 橫幅指南]，可協助有意製作群組橫幅的用戶在各個介面中顯示時，其重要區域不會被裁切。
+
+<span id="Group_roles_and_permissions"></span>
+==群組身分組與權限==
+
+<span id="Viewing_your_roles"></span>
+===查看你的身分組===
+
+目前無法直接在 VRChat 中選擇或變更身分組，不過用戶仍然可以查看自己所屬的身分組。若要查看自己的身分組，可以透過[[Special:MyLanguage/Main_Menu|主選單]]的「'''群組'''」標籤頁，點擊進入該群組的主要頁面，接著點擊右上角的齒輪圖示以進入「'''群組設定'''」，最上方會顯示你目前所屬的身分組。
+
+<span id="Default_roles"></span>
+===預設身分組===
+
+[[File:Groups default roles.png|thumb|253x253px|身分組示意圖]]
+
+群組總共有三種層級的身分組，即「'''管理身分組'''」、「'''成員身分組'''」、「'''預設身分組'''」，而在剛創建群組時，系統會自動生成三個身分組，各為預設且無法更改名稱和刪除的「'''Everyone'''」（'''所有人'''）身分組、分發給一般成員的「'''Member'''」（'''成員'''）身分組，以及擁有管理權限的「'''Group Owner'''」（'''群組擁有者'''）身分組。
+
+群組擁有者的權限無法更改或刪除，其預設擁有所有權限，而擁有者可以移交給其他用戶，不過雙方都須訂閱 [[Special:MyLanguage/VRChat+|VRChat＋]]。請注意，由於移交群組的動作無法撤銷，因此請在執行前再三考慮。詳細資訊請參考下方的「'''移交群組'''」章節。 
+
+<span id="Creating_roles"></span>
+===創建身分組===
+
+具有管理權限的成員，可以隨時新增、更改名稱、刪除身分組，而每個身分組都可以設定它的說明，並根據需要來自訂身分組所擁有的權限。另外，身分組還可以設定為「'''Assigned On Join'''」（'''加入時自動分配'''）、「'''Self Assignable'''」（'''加入時自行選擇'''）、「'''Require Two-Factor Authentication'''」（'''啟用雙重認證者自動分配'''）。
+
+「Self Assignable」（加入時自行選擇）是能夠在身分組設定中開啟的選項，用戶可以透過 {{VRC link|https://vrchat.com/home/groups|VRChat 官方網站}}來選擇自己的身分組。不過，用戶若使用的是如 Steam 或 Quest 的平台帳號，則無法直接登入官方網站。用戶必須要[[Special:MyLanguage/Getting Started#Account Creation|創建 VRChat 帳號]]才能登入官方網站。此外，具有管理權限的成員可以手動為任何用戶分配身分組，而無須對方自行選擇。
+
+{| class="wikitable"
+|+
+!功能
+!說明
+|-
+|Assign On Join（自動分配）
+|<small>新成員加入群組時將自動取得此身分組。</small>
+|-
+|Self Assignable（自行選擇）
+|<small>允許成員加入群組時將手動取得此身分組。</small>
+|-
+|Require Two-Factor Authentication（啟用雙重認證者）
+|<small>只有啟用雙重認證的成員才能取得此身分組。</small>
+|}
+
+[[File:Groups permissions overview.png|thumb|部分可分配的權限，顯示於群組設定選項中]]
+
+<span id="Assigning_permissions"></span>
+===分配權限===
+
+如果要設定身分組權限，具有管理權限的成員需要進入 {{VRC link|https://vrchat.com/home/groups|VRChat 官方網站}}的「'''Permissions'''」（'''權限'''）設定頁面。 
+
+*第一步：在 VRChat 官方網站中，點擊左側欄位中的「'''Groups'''」（'''群組'''）按鈕。 
+
+*第二步：點擊任一個你可以管理或更改權限的群組。 
+
+*第三步：進入群組頁面後，會出現「Overview」（總覽）、「Posts」（貼文）等等的選項頁及欄位。此時，請點擊「'''Settings'''」（'''設定'''）選項頁。 
+
+*第四步：點擊「'''Roles'''」（'''身分組'''）以進入選項頁。 
+
+*第五步：點擊你想編輯的身分組後，接著點擊帶有鎖頭圖示的「'''Permissions'''」（'''權限'''）欄位。 
+
+<div class="mw-translate-fuzzy">
+*第六步：參考下表進行權限設定完畢後，向下滾動至頁面底部，並點擊「'''Save'''」（'''儲存'''）來完成設定。
+{| class="wikitable"
+|+
+!權限
+!權限功能說明
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Member Data||<small>Allows role to view, filter by role, and sort all members and edit data about them.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Data||<small>Allows role to edit group details (name, description, joinState, etc).</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View Audit log||<small>Allows role to view the full group audit log.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Roles||<small>Allows role to create roles, modify roles, and delete roles.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Default Role||<small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Assign Group Roles||<small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Bans||<small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Remove Group Members||<small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View All Members||<small>Allows role to view all members in a group, not just friends.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Announcement||<small>Allows role to set/clear group announcement and send it as a notification.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Calendar||<small>Allows role to create, modify, and publish calendar entries.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Galleries||<small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Invites||<small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Moderate Group Instance||<small>Allows role to moderate within a group instance.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Instances||<small>Allows role to close an group instance.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Group Instance Queue Priority||<small>Gives role priority for group instance queues.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Age Gated Instances||<small>Allows role to create group instances that require users to have age verified in order to join.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Linked Instances||<small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group Public Instances||<small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group+ Instances||<small>Allows role to create group instances that friends of people present can also join.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Members-Only Group Instances||<small>Allows role to create members-only instances.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Role-Restrict Members-Only Instances||<small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Portal to Group+ Instances||<small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Unlocked Portal to Group+ Instances||<small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small>
+|-
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Join Group Instances||<small>Allows role to join group instances.</small>
+|}
+</div>
+
+<span id="Group_instances"></span>
+==群組房間==
+
+群組的所有者以及擁有適當權限的成員可以創建群組[[Special:MyLanguage/instances|房間]]，而群組房間共分有三種類型：
+{| class="wikitable"
+!群組
+|只有這個群組的成員（或是在有設定的情況下，僅限特定身分組的成員）才能加入這個房間。
+|-
+!群組＋
+|任何在這個房間內的群組成員，他們的好友都可以加入，而不一定需要是群組成員。
+|-
+!群組公開
+|由群組開設的公開房間，任何人都可以加入。
+|}
+群組房間通常由該群組負責管理，而群組所有者及擁有管理權限的成員可以在房間內進行警告、靜音、踢出、封鎖。當某位用戶被群組封鎖時，其將永遠無法加入這個群組所創建的任何房間，並且無法再次加入該群組。
+
+<span id="Group_instance_queues"></span>
+===群組房間隊列===
+
+群組房間也非常適合用於需要管理大量用戶參與的活動。在這種情況下，「'''VRChat 群組排隊'''」（'''VRChat Group Queues'''）的功能將為房間設置一個等待隊列，以在房間達到最大容量時處理加入申請。當你加入了某個房間的隊列時，你便會進入到房間隊列當中，並在房間有空位時寄給你一個邀請請求。一旦你在接收到請求後的一分鐘內還沒加入房間，你的空位將會遞補給下一個正在排隊的人。
+
+<span id="Transferring_a_group"></span>
+==群組轉讓==
+
+截至2024年3月27日<ref>https://ask.vrchat.com/t/developer-update-28-march-2024/23676</ref>，群組所有者可以把群組轉讓給其他成員，只要雙方都有訂閱 VRC＋，且對方還有空位可以擁有新的群組。請注意，轉讓一旦完成便無法撤回，因此務必在確認完畢後，再進行此操作。
+
+'''你可以將群組所有權轉讓給群組中的其他成員，但目標成員和群組都必須符合以下條件：''' 
+*目標成員已驗證電子郵件地址（可以在帳戶設定中的電子郵件部分查看）
+*目標成員正在訂閱 VRC＋
+*目標成員還能擁有更多群組（每個用戶最多可擁有5個群組）
+*這個群組未啟用收益化
+
+<span id="Official_resources"></span>
+==官方資源==
+
+*[https://www.youtube.com/watch?v=b6c_kDRJG2A Developer Update - Groups] 在 YouTube 上發布，日期為2022年11月30日。
+*{{VRC link|https://hello.vrchat.com/blog/vrchat-groups|Groups is Now Live!}} 於 hello.vrchat.com 發布。
+*{{VRC link|https://help.vrchat.com/hc/en-us/sections/11719560642963-VRChat-Groups|VRChat Groups FAQ}} 於 help.vrchat.com 提供。
+
+<span id="Trivia"></span>
+==小知識==
+
+*「Just Bread Group」（[https://vrc.group/TOASTY.1234 TOASTY.1234]）是歷史上第一個建立的群組<ref>https://x.com/VRChat/status/1747389673154949626</ref>。它是由我們的伺服器工程師 Bready 為了測試用途所創建的。在群組系統上線之前，為了最大化伺服器效能，資料必須以特定方式組織，而要達成這個目標，必須先建立第一個群組來正確架構資料庫。
+
+<span id="References"></span>
+==參考資料==
+
+<references />
+
+[[Category:Features{{#translation:}}]]

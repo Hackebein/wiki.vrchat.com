@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@media screen {
+  html,
+  body,
+  .mw-editsection,
+  .mw-editsection-like,
+  .mw-body h1,
+  .mw-body-content h1,
+  .mw-body-content h2,
+  .vector-sticky-header-context-bar-primary {
+    font-family: "Noto Sans", sans-serif;
+  }
+
+  .mw-header {
+    padding-top: 16px;
+  }
+
+  .vector-user-menu-create-account,
+  .vector-user-menu-login {
+    display: none;
+  }
+
+  #pt-userpage-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #111111;
+      color: white;
+
+      --blue: #5e9aee;
+      --purple: #a67eff;
+
+      --seperator-color: #ffffff20;
+      --seperator: 1px solid var(--seperator-color);
+    }
+
+    .mw-page-container {
+      background-color: transparent;
+    }
+
+    .mw-logo {
+      color: white !important;
+    }
+
+    a,
+    .vector-menu-tabs .mw-list-item a,
+    #pt-userpage-2 a,
+    #pt-userpage-2,
+    .vector-menu-portal .vector-menu-content li a,
+    .sidebar-toc .sidebar-toc-link,
+    .vector-toc-collapse-button:hover,
+    .vector-toc-uncollapse-button:hover,
+    .vector-toc-collapse-button,
+    .vector-toc-uncollapse-button,
+    .mw-parser-output a.extiw,
+    .mw-parser-output a.external {
+      color: var(--blue);
+    }
+
+    a:visited,
+    .vector-menu-portal .vector-menu-content li a:visited,
+    .mw-parser-output a.extiw:visited,
+    .mw-parser-output a.external:visited {
+      color: var(--purple);
+    }
+
+    .vector-menu-portal .vector-menu-heading,
+    .vector-menu-tabs .mw-list-item.selected a,
+    .vector-menu-tabs .mw-list-item.selected a:visited {
+      color: white;
+    }
+
+    .oo-ui-popupWidget-popup {
+      background-color: #1e1e1e;
+      border: var(--seperator);
+      border-radius: 0.5rem;
+    }
+
+    .mw-sidebar,
+    .sidebar-toc {
+      background-color: #1e1e1e;
+      padding: 1rem 1.25rem;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .sidebar-toc,
+    .mw-sidebar,
+    .sidebar-toc,
+    .sidebar-toc::after {
+      margin: 0;
+    }
+
+    .vector-menu-portal .vector-menu-heading {
+      border: none;
+      font-weight: 500;
+    }
+
+    .vector-menu-portal,
+    .vector-menu-portal .vector-menu-content,
+    .vector-menu-portal .vector-menu-heading,
+    .sidebar-toc .sidebar-toc-header {
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidebar-toc .sidebar-toc-list-item-active > .sidebar-toc-link {
+      color: white;
+    }
+
+    .sidebar-toc .sidebar-toc-toggle {
+      position: absolute;
+      top: 0;
+      left: unset;
+      right: 0;
+    }
+
+    #vector-toc-collapsed-button,
+    #vector-toc-collapsed-button:hover,
+    #vector-toc-collapsed-button:active {
+      background-color: transparent;
+      user-select: none;
+    }
+
+    @media (max-width: 999px) {
+      .mw-table-of-contents-container .sidebar-toc {
+        top: 4rem;
+        border: var(--seperator);
+        width: 280px;
+      }
+    }
+
+    .sidebar-toc .sidebar-toc-list-item a,
+    .sidebar-toc .sidebar-toc-title,
+    .vector-menu-portal .vector-menu-content li,
+    .vector-menu-portal .vector-menu-heading {
+      font-size: inherit;
+    }
+
+    .vector-menu-portal .vector-menu-content ul {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .vector-menu-portal .vector-menu-content li {
+      padding: 0;
+    }
+
+    .mw-portlet {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .mw-sidebar-action,
+    .vector-toc-not-collapsed .sidebar-toc::after {
+      display: none;
+    }
+
+    .mw-footer {
+      border-top: var(--seperator);
+    }
+
+    .mw-footer li {
+      color: #f6f6f6;
+    }
+
+    .mw-ui-icon {
+      filter: invert(1);
+    }
+
+    .vector-sticky-header {
+      background-color: #0b0b0b;
+      border-bottom: var(--seperator);
+      max-width: none !important;
+    }
+    
+    .vector-search-box-input {
+        background-color: #fff;
+    }
+
+    .vector-sticky-header-context-bar {
+      border-left: var(--seperator);
+    }
+
+    .sidebar-toc .sidebar-toc-title {
+      color: white;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: white;
+      font-weight: 500;
+    }
+
+    h1,
+    h2,
+    .mw-article-toolbar-container {
+      border-bottom: var(--seperator);
+    }
+
+    .mw-editsection-divider,
+    .client-js .mw-content-ltr .mw-editsection-bracket:first-of-type,
+    .client-js .mw-content-rtl .mw-editsection-bracket:not(:first-of-type),
+    .client-js .mw-content-rtl .mw-editsection-bracket:first-of-type,
+    .client-js .mw-content-ltr .mw-editsection-bracket:not(:first-of-type) {
+      color: var(--seperator-color);
+    }
+
+    ul {
+      list-style-image: none;
+    }
+
+    /*
+			excluding 'pre' blocks, because re-styling syntax
+			highlighting to support dark mode is a nightmare.
+		*/
+    code,
+    .mw-code {
+      background-color: #272727;
+      color: white;
+      border: none;
+    }
+
+    .catlinks {
+      background-color: #000011;
+    }
+
+    .wikitable > tr > th,
+    .wikitable > tr > td,
+    .wikitable > * > tr > th,
+    .wikitable > * > tr > td {
+      border: var(--seperator);
+      padding: 0.4em 1em;
+    }
+    .wikitable > tr > th,
+    .wikitable > * > tr > th {
+      background-color: transparent;
+      text-align: left;
+      color: white;
+    }
+    .wikitable {
+      background-color: #0e0e0e;
+      color: white;
+      border: var(--seperator);
+    }
+
+    /* with div is the right selector */
+    div.thumbinner {
+      background-color: #202122;
+      border: var(--seperator);
+    }
+
+    .thumbimage {
+      background-color: #000000;
+      border: var(--seperator);
+    }
+
+    .mw-content-ltr .magnify a {
+      filter: invert(1);
+    }
+    
+    .oo-ui-toolbar-bar {
+        background-color: #202122;
+        color: #ffffff;
+    }
+    
+    .oo-ui-tool.oo-ui-widget-enabled .oo-ui-iconElement-icon {
+        filter: invert(1);
+    }
+    
+    .oo-ui-iconElement-icon {
+        filter: invert(1);
+    }
+    
+    .oo-ui-popupToolGroup-handle .oo-ui-indicatorElement-indicator {
+        filter: invert(1);
+    }
+    
+    .oo-ui-popupToolGroup.oo-ui-widget-enabled > .oo-ui-popupToolGroup-handle:hover {
+        background-color: #15130f;
+    }
+    
+    .oo-ui-tool.oo-ui-widget-enabled > .oo-ui-tool-link:hover {
+        background: #15130f;
+    }
+    
+    .oo-ui-popupToolGroup-tools {
+        background-color: #15130f;
+        border: var(--seperator);
+    }
+    
+    .oo-ui-popupToolGroup.oo-ui-popupToolGroup-active > .oo-ui-popupToolGroup-handle {
+        background-color: #150c00;
+    }
+    
+    .oo-ui-toolbar-position-top > .oo-ui-toolbar-bar {
+        border-bottom: var(--seperator);
+    }
+    
+    .oo-ui-menuToolGroup {
+        border-left: var(--seperator);
+        border-right: var(--seperator);
+    }
+    
+    .oo-ui-toolbar-actions .oo-ui-popupToolGroup.oo-ui-widget-enabled > .oo-ui-popupToolGroup-handle {
+        border-right: var(--seperator);
+    }
+    
+    .oo-ui-listToolGroup-tools .oo-ui-tool.oo-ui-widget-enabled:hover {
+        background-color: #202122;
+        color: #fff;
+    }
+    
+    .oo-ui-toolbar-actions .oo-ui-popupToolGroup.oo-ui-widget-enabled > .oo-ui-popupToolGroup-handle:hover {
+        border-right-color: var(--seperator-color);
+    }
+    
+    .oo-ui-tool.oo-ui-widget-enabled > .oo-ui-tool-link:active, .oo-ui-tool.oo-ui-widget-enabled.oo-ui-tool-active > .oo-ui-tool-link, .oo-ui-tool.oo-ui-widget-enabled.oo-ui-popupToolGroup-active > .oo-ui-tool-link {
+        background-color: #100c05;
+    }
+    
+    .oo-ui-barToolGroup-tools.oo-ui-toolGroup-enabled-tools .oo-ui-tool.oo-ui-widget-disabled.oo-ui-flaggedElement-primary > .oo-ui-tool-link, .oo-ui-barToolGroup-tools.oo-ui-toolGroup-disabled-tools .oo-ui-tool.oo-ui-flaggedElement-primary > .oo-ui-tool-link {
+        background-color: #37332e;
+    }
+    .wikiEditor-ui-toolbar {
+        background-color: #202122;
+    }
+    
+    .wikiEditor-ui .wikiEditor-ui-view {
+        border: var(--seperator);
+    }
+    
+    .wikiEditor-ui-toolbar .tabs span.tab a {
+        color: var(--blue);
+    }
+    .wikiEditor-ui-toolbar .tabs span.tab a.current,
+    .wikiEditor-ui-toolbar .tabs span.tab a.current:visited {
+        color: #ccc;
+    }
+    
+    .wikiEditor-ui-toolbar .group .label {
+        color: #aba6a2;
+    }
+    .wikiEditor-ui-toolbar .group .tool-select .label{
+        color: #fff;
+    }
+    .wikiEditor-ui-toolbar .group .tool-select .label::after {
+        filter: invert(1);
+    }
+    
+    .editOptions {
+        background-color: #202122;
+        border-color: var(--seperator-color);
+    }
+    
+    .editOptions {
+        color: #fff;
+    }
+    
+    .oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox'] + span,
+    .oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']:checked + span,
+    .oo-ui-checkboxInputWidget.oo-ui-widget-enabled [type='checkbox']:indeterminate + span {
+        filter: invert(0);
+    }
+    
+    .wikiEditor-ui-toolbar .page-characters div span {
+        border-color: var(--seperator);
+        color: #fff;
+    }
+    
+    .wikiEditor-ui-toolbar .booklet > .index > .current {
+        color: #000;
+    }
+    .wikiEditor-ui-toolbar .booklet > .index > :hover {
+        background-color: transparent;
+        color: var(--blue);
+        text-decoration: underline;
+    }
+    .wikiEditor-ui-toolbar .tabs span.tab a:before {
+        filter: invert(1);
+    }
+    
+    .diff-context {
+        background: transparent;
+        color: #fff;
+        border-color: var(--seperator-color);
+    }
+    .diff-addedline .diffchange {
+        background: transparent;
+    }
+    .diff-deletedline .diffchange {
+        background: transparent;
+    }
+  }
+}

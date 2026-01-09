@@ -1,0 +1,101 @@
+<languages/>
+{{noticebox/Official}}
+{{Infobox/Feature
+|name=年齢確認
+|image=Age Verification feature logo.png|platforms= PC, Android, iOS
+|vrchatplus=確認に必要
+|branch_live_date = 5 Dec 2024
+|branch_live_version = 2024.4.2 Build 1552
+|branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202442
+}}
+{{Thumb|{{YouTube|odiNjIFUNvw}}}}
+[[File:Age_verified_profile.webp|thumb|ステータスの選択画面]]
+
+<div class="mw-translate-fuzzy">
+'''年齢確認'''は、ユーザーがサードパーティのサービス[https://withpersona.com/ Persona]を使用して年齢を確認できるソーシャル機能です。18歳以上のユーザーは、プロフィールに年齢確認マーカーを表示し、年齢制限付きの[[Special:MyLanguage/instances|インスタンス]]にアクセスできます。2024年11月27日に公式VRChat YouTubeチャンネルで「年齢確認の紹介|開発者アップデート#vrchat」で発表されました。<ref name=":0">YouTube、VRChatがアップロード、2024年11月27日、https://www.youtube.com/watch?v=odiNjIFUNvw。2024年11月27日アクセス</ref>。
+</div>
+
+この機能は、2025年1月28日現在、早期アクセスとして[[Special:MyLanguage/VRC+|VRC+]]加入者のみが利用可能である。<ref>VRChat. "Age Verification is now available for VRC+ Subscribers!..." Bluesky, 2025年1月28日, https://bsky.app/profile/vrchat.com/post/3lgtoi5ho2227.</ref>.
+
+<span id="Process"></span>
+==年齢確認の仕方==
+
+年齢確認のプロセスは、サードパーティ製のサービスである[https://withpersona.com/ Persona]を通じて行われる。ユーザーは政府発行の身分証明書<ref>https://docs.withpersona.com/reference/government-id-verifications withpersona.com　身分証明書; 2024年12月9日</ref>を提出し、スマートフォンやウェブカメラ付きパソコンなどのカメラ対応機器を使用して手続きを行う必要がある。
+
+ユーザーの出身国によって、あらゆる政府身分証明書を使用することが可能である。（日本では以下の書類に対応している）
+* 運転免許証 
+* マイナンバーカード
+* パスポート（冊子型）
+* 在留資格認定証明書（在留カード）
+* ビザ（査証）
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Users can age verify on the VRChat website through this [https://vrchat.com/home/ageverification link].
+</div> 
+
+''Personaは、ユーザーの本人確認と生体認証を処理するにあたって、プライバシーポリシー<ref>PersonaのPrivacy Policy. https://withpersona.com/legal/privacy-policy. Accessed 27 Nov. 2024.</ref>に従い、[[wikipedia:General_Data_Protection_Regulation|GDPR]]、[[wikipedia:California_Consumer_Privacy_Act|CCPA]]、その他のコンプライアンス基準<ref>PersonaのSecurity https://withpersona.com/security. 2024年11月28日.</ref>を満たすことを保証します。VRChatは、認証されたユーザーの生年月日を除き、認証プロセスから個人情報を受け取ったり、保存したりすることはありません。PersonaはVRChatとのデータ処理契約（DPA）に基づいて運営されており、Personaは所在地に関係なくすべてのユーザーに対してGDPR/CCPAに基づいて運営することを義務付けられています。<ref>Tupper (2024年12月2日). ''年齢確認 FAQ'' VRChat Forum 2024年12月9日掲載  https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-if-i-dont-live-in-the-eu-or-california-10</ref>.''
+
+<span id="Features"></span>
+==特徴==
+
+<span id="Profile_marker"></span>
+=== プロフィールへの表示 ===
+
+[[File:Age verif Update Status.webp|thumb|Profile option to publicly display a "Verified 18+" badge.|200x200px]]
+
+18歳以上であることが確認されたユーザーは、プロフィールに18歳以上であることを示すマーカーを表示するオプションを選択できる。
+*18歳以上であることが確認されたユーザーのみが使用できる「18歳以上確認済み」
+自分の確認ステータスを他人に見せたくない場合は、マーカーを完全に非表示にすることもできる。プロフィールにどの表示がされているかに関わらず、18歳以上であることが確認されているユーザーは、年齢制限のあるインスタンスへ常にアクセスができる。
+
+年齢確認済みのアイコンは、ユーザーが18歳以上であることを示すもの'''''ではなく'''''、年齢が確認されていることを示すものである。18歳未満（最低でも13歳以上）のユーザーはペルソナで年齢確認を行うことができるが、18歳になるまではプロフィールで「18歳以上確認済み」を選択したり、年齢制限のあるインスタンスにアクセスしたりすることはできない。
+
+<span id="Age_gated_instances"></span>
+=== 年齢制限のあるインスタンス ===
+
+
+[[File:AgeRestrictedInstance.webp|alt=A screenshot of a group public instance in a world's instances list. An icon resembling an ID card with a checkmark on it indicating it is an age-restricted instance.|thumb|199x199px|年齢制限のあるインスタンスであるかどうかは、インスタンス情報の欄に表示される。]]
+
+[[Special:MyLanguage/Groups|グループ]]では18歳以上限定の[[Special:MyLanguage/Instances|インスタンス]]を作成でき、参加者全員が年齢認証済みで18歳以上でなければ参加できない。これらの制限は、パブリック、グループ＋、または グループのみ のインスタンスに適用できる。ユーザーが18歳以上であることが確認されている場合、18歳以上限定のインスタンスが常にインスタンス一覧の上部に表示される。
+
+<span id="Content_Gating"></span>
+===コンテンツゲーティング===
+
+
+{{noticebox/unreleased|{{Upcoming_inline|H1 2026|hello.vrchat.com/blog/trust-safety-update-2025}}}}
+
+<div class="mw-translate-fuzzy">
+''年齢確認は[[Special:MyLanguage/Content_Gating|コンテンツゲーティング]]と並行して機能し、年齢確認をしていないユーザーと18歳未満であることを確認したユーザーが「性的なものを思わせる」及び「成人向けの言葉やテーマ」のタグが付けられたコンテンツにアクセスするのを制限することが検討されているが、それがいつどのように行われるかは現時点では確認されていない<ref>Tupper氏による発言(2024年12月3日)。 ''2024年12月9日にVRChat 公式フォーラムにて投稿された年齢確認についての質疑応答の投稿から引用。'' https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-when-will-content-gating-be-affected-by-age-verification-39</ref><ref>Tupper氏氏による発言(2024年12月3日)。 ''2024年12月9日にVRChat 公式フォーラムにて投稿された年齢確認についての質疑応答の投稿から引用。'' https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-when-will-content-gating-be-affected-by-age-verification-35</ref>。''
+</div>
+
+<span id="Rollout"></span>
+==正式リリース==
+
+この機能は当初、一部のグループのみに限定されており、選ばれたグループのメンバーだけが検証枠に申請し、年齢制限のあるインスタンスを作成することが可能だった<ref name=":0" />。
+
+2024年12月17日に最初の展開として開始され、複数の選ばれたグループがグループユーザーの年齢確認にアクセスできるようになった。
+
+その後、2025年1月28日にこの機能はアーリーアクセスとしてすべての[[Special:MyLanguage/VRChat+|VRC+]]加入者向けにリリースされた。現在、すべてのユーザーが利用できるようになる時期は確定していない。
+
+<span id="Additional_information"></span>
+==補足情報==
+
+*'''確認要件:''' ユーザーは、政府発行の身分証明書が承認されるためには、''編集されていない''写真を提出する必要があり、身分証明書の所有者と同一人物であることを確認するために、自撮り写真による「本人確認」を完了する必要がある。<ref>Tupper氏による発言 (2024年12月2日)。 2024年12月9日にVRChat 公式フォーラムにて''年齢確認についての質疑応答''から引用。https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-do-i-need-to-submit-to-verify-my-age-4</ref>
+*'''任意:''' VRChat を使用するのに年齢確認は必須ではないが、年齢制限のあるインスタンスや機能にアクセスするには、ユーザーは年齢が18歳以上であることを確認する必要がある。<ref>Tupper氏による発言 (2024年12月2日)。 2024年12月9日にVRChat 公式フォーラムにて''年齢確認についての質疑応答''から引用。https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-is-age-verification-mandatory-6</ref>.
+*'''データ処理:''' ID データは、ユーザーの生年月日を確認し、提供された ID のデータを使用して一意の片方向[[wikipedia:Cryptographic_hash_function|暗号化ハッシュ]]を作成するために必要な最小限の時間のみ、Persona によって保持される。このハッシュは、そのユーザーのアカウントに対して VRChat のサーバーに保存され、ID データは Persona 側で削除される。不可逆的な暗号ハッシュとユーザーの確認済み生年月日は VRChat のサーバーに保持される。<ref>https://youtu.be/lzG9IwmM7TI</ref>
+**'''注釈:''' VRChat で認証データを削除すると、利用規約に同意して生年月日を再度入力するまで、ユーザーのアカウントは使用できなくなる。また、再認証しない限り、そのアカウントの認証ステータスも削除される。
+*'''アカウントごとに ID は一つ:''' 1つのIDを複数のアカウントの認証に使用することはできない。この制限は、信頼性を高め、ユーザーが自分のアカウントにもっと価値を置くように促し、悪意のある行為を抑止することを目的としている。<ref>Tupper氏による発言 (2024年12月2日)。 2024年12月9日にVRChat 公式フォーラムにて''年齢確認についての質疑応答''から引用。https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-can-i-use-the-same-id-to-verify-multiple-accounts-8</ref>.
+*'''「18歳以上」≠ 過激な性的表現:''' 18 歳以上の年齢確認や年齢制限のあるインスタンスは、ポルノコンテンツに関する[[special:MyLanguage/Terms of Service|利用規約]]や[[Special:MyLanguage/Community Guidelines|コミュニティ・ガイドライン]]ポリシーを放棄するものではない。
+**利用規約<ref>VRChat (2024年11月18日)。2024年12月9日に ''VRChat の利用規約''から引用。https://hello.vrchat.com/legal#:~:text=13.2.%20Prohibited%20Conduct</ref>の第13.2項および[https://hello.vrchat.com/community-guidelines コミュニティ・ガイドライン]<ref>VRChat (2024年8月12日)。 2024年12月9日に ''VRChat のコミュニティ・ガイドライン''から引用。https://hello.vrchat.com/community-guidelines</ref>を参照。
+
+<span id="Official_resources"></span>
+== 公式リソース ==
+
+*[https://www.youtube.com/watch?v=odiNjIFUNvw 年齢確認の紹介] on ''YouTube''
+*[https://www.youtube.com/watch?v=lzG9IwmM7TI VRChat年齢確認の改善] on ''YouTube''
+*[https://hello.vrchat.com/blog/age-verification VRC+の購読者が年齢確認が可能になりました] on ''hello.vrchat.com''
+*[https://feedback.vrchat.com/age-verification 年齢確認のフィードバック] on ''feedback.vrchat.com''
+
+<span id="References"></span>
+== 出典 ==
+
+<references />

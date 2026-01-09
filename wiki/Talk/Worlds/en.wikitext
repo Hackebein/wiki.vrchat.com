@@ -1,0 +1,27 @@
+== Instance Regions ==
+Is it USE (US East), USW (US West), EU (Europe), JP (Japan)
+<br>
+or
+<br>
+US (USA), EU (Europe), JP (Japan)
+<br>
+in-game it is the former, if there is a source on this pls link it somewhere.
+[[Special:MyLanguage/User:Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a|Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a]] ([[Special:MyLanguage/User talk:Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a|talk]]) 00:35, 2 August 2024 (UTC)
+
+: Hello, I have added references for the Regions update, and the update for 2021.4.2, which includes U.S. East region. I originally thought U.S. East was included in the original Regions update, but I was mistaken. I have gone back to correct this. Thanks for catching this! [[Special:MyLanguage/User:Usr 8ee44c1a-f905-4e08-bb61-e1cd34e09fc0|Usr 8ee44c1a-f905-4e08-bb61-e1cd34e09fc0]] ([[Special:MyLanguage/User talk:Usr 8ee44c1a-f905-4e08-bb61-e1cd34e09fc0|talk]]) 00:33, 2 August 2024 (UTC)
+
+:It's the former in terms of visible listed shorthand names, ''however'' when constructing an instance id it's slightly different, USW is "us", so ~region(us) rather than ~region(usw) which would invalid syntax though may work as USW is the default region. This being the case as USE did not exist until much later. I'm not sure on a source outside myself (I wrote the the regions system) --[[Special:MyLanguage/User:VEvQSNOgXh|VEvQSNOgXh]] ([[Special:MyLanguage/User talk:VEvQSNOgXh|talk]]) 00:40, 2 August 2024 (UTC)
+
+:To expand on "Historically, VRChat ran solely on the U.S. West server." a little titbit is this wasn't always the case, prior to the beginning of 2018 VRChat ran out of US East. The switch occurred when moving to a beefier setup as the massive surge in users at the time caused the region to fail.--[[Special:MyLanguage/User:VEvQSNOgXh|VEvQSNOgXh]] ([[Special:MyLanguage/User talk:VEvQSNOgXh|talk]]) 00:51, 2 August 2024 (UTC)
+:: A source for this is https://docs.vrchat.com/docs/patch-notes-pre-2018#vrchat-0120p10, this would have been the update the switch occurred in--[[Special:MyLanguage/User:VEvQSNOgXh|VEvQSNOgXh]] ([[Special:MyLanguage/User talk:VEvQSNOgXh|talk]]) 01:07, 2 August 2024 (UTC)
+::Ok, thanks for your detailed response on this, could you rewrite that part as is correct? There is one thing I am confused about though. Previously you submitted and edit, that adjusted the table to switch USE to US, but ingame its labled USE/USW. So I would keep the table as it is now at USW/USE, but correct the paragraph above it. Maybe we should scratch the Historically part entirely. Or maybe instead say, that historically they ran out of servers in the City they were in, would be easier to back up and relay the same meaning, that they were upgraded with the ones in Virginia. Unfortunately all the patch notes say is, that a server and security update happened. Ill ask other editors on this when I see an edit, thanks for your time. [[Special:MyLanguage/User:Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a|Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a]] ([[Special:MyLanguage/User talk:Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a|talk]]) 01:30, 2 August 2024 (UTC)
+
+:If you (or someone else) could give us an external source or something it would help us a lot. It does sound right the way you describe it here, but this is also out of my scope unfortunately. That is why I initially rejected your edit to make USW and USE into just US. [[Special:MyLanguage/User:Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a|Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a]] ([[Special:MyLanguage/User talk:Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a|talk]]) 01:09, 2 August 2024 (UTC)
+::USW and USE should not be merged it's that specifically for USW the shortcode when creating an instance is "us" not "usw", in it's display it's still USW, initially when reading I assumed it was referring to that particular shortcode not the displayed shorthand, so it was right to reject unless another column were to be added listing the shortcodes for each region.--[[Special:MyLanguage/User:VEvQSNOgXh|VEvQSNOgXh]] ([[Special:MyLanguage/User talk:VEvQSNOgXh|talk]]) 01:22, 2 August 2024 (UTC)
+::Just saw this reply, ok I am way less confused now, thanks! If you like please add that other column, could be interesting to go more in-depth  [[Special:MyLanguage/User:Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a|Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a]] ([[Special:MyLanguage/User talk:Usr 6909a532-22e9-49f7-81e3-e964fe7dc00a|talk]]) 01:32, 2 August 2024 (UTC)
+
+== Instances are seperate from worlds ==
+
+Worlds are distinct from an [[Special:MyLanguage/Instance|Instance]], and a separate page should be created for them. 
+
+An instance has a lot of properties, one of which is what [[Special:MyLanguage/World|World]] is being used for that instance. A world doesn't care what region it is in, so information on regions or who is allowed to be in a given instance doesn't belong with worlds. -- [[Special:MyLanguage/User:Usr 5cd9007b-1802-45fe-92e2-0b6617639344|Tupper - VRC Team]] ([[Special:MyLanguage/User talk:Usr 5cd9007b-1802-45fe-92e2-0b6617639344|talk]]) 15:48, 2 August 2024 (UTC)

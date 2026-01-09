@@ -1,0 +1,142 @@
+<languages/>
+{{Noticebox/Official}}
+[[File:Action_Menu_Expressions.png|thumb|Exemple du menu d'expressions dans le menu d'action.]]
+ 
+Les '''expressions''' sont une fonctionnalité des [[Special:MyLanguage/avatars|avatars]] VRChat, composé de menus personnalisés par les utilisateurs, qui vous permettent d'activer des actions ou éléments de votre avatar, conçu pour être flexible et donner un accès simplifié aux fonctionnalités des avatars.
+
+Plus d'informations disponibles sur la {{VRC link|https://creators.vrchat.com/avatars/expression-menu-and-controls|Documentation des créateurs d'avatar}}.
+
+<span id="Expressions_menu"></span>
+==Menu des expressions==
+
+Le menu des expressions est accessible via le [[Special:MyLanguage/Action Menu|menu d'action]] ou le menu latéral des expressions du [[Special:MyLanguage/Quick Menu|menu rapide]] et [[Special:MyLanguage/Main Menu|menu principal]]. Les modifications des expressions d'un avatar sont transmises globalement aux autres utilisateurs de la même [[Special:MyLanguage/Platforms|plateforme]] et peuvent être réglés pour une [[Special:MyLanguage/Guides:Synchronization|synchronisation]] multiplateforme.
+
+<span id="Expressions_in_the_SDK"></span>
+==Expressions dans le SDK==
+
+Les expressions sont modifiés via de nombreux « parameters » dans le [[Special:MyLanguage/VRChat SDK|SDK VRChat]].
+
+<span id="Base_expressions"></span>
+===Expressions de bases===
+
+Lorsqu'aucune expression n'est configurée, un menu d'expression avec les animations de base suivantes est ajouté à l'avatar :
+* Saluer
+* Applaudir
+* Pointer du doigt
+* Encourager
+* Danser
+* Salto arrière
+* Faire le mort
+* Tristesse
+
+<span id="Custom_expressions"></span>
+===Expressions personnalisées===
+
+Pour ajouter des expressions personnalisées, créez un fichier «''' Expression Menu '''», ainsi qu'un fichier «''' Expression Parameter '''», puis ajoutez-les sur « VRChat Avatar Descriptor ». Le menu définit l'entrée des « parameters » affichés sur le menu d'expression de votre avatar. Les « parameters » sont les '''variables''' que contrôle le menu. Vous pouvez aussi préciser des détails tels que si les « parameters » doivent être synchronisés pour les autres utilisateurs. Vous pouvez avoir jusqu'à 256 bits synchronisés pour un total de 8192 variables.
+
+<span id="Controls"></span>
+====Contrôles====
+
+Vous pouvez créer jusqu'à 8 contrôles différents par pages :
+* Bouton (Button)
+* Activer/Désactiver (Toggle)
+* Sous-menu (Sub Menu)
+* Contrôle à deux axes (Two Axis Puppet)
+* Contrôle à quatres axes (Four Axis Puppet)
+* Menu radial (Radial Puppet)
+
+<span id="Puppet_Menu_Example"></span>
+=====Example du « Puppet Menu »=====
+
+[[File:PuppetMenu.gif|thumb|Example d'utilisation du menu d'action et du miroir personnel. ''(GIF animé)'']]
+Lorsque vous déplacez votre joystick, pavé tactile ou souris dans différentes directions, vous modifiez les « parameters » d'animation pour changer d'humeur. (p. ex. « Content » et « Surpris »). Tous les « parameters » peuvent être contrôlés depuis ce menu
+
+Vous pouvez un menu sur quelconque main (ou les deux). Par défaut, effectuez un mouvement de balayage pour sélectionner une option. Vous pouvez choisir d'utiliser la gâchette depuis les paramètres du menu d'action. Pour retourner en arrière, appuyez sur la gâchette.
+
+<span id="Expression_Parameter"></span>
+==« Expression Parameter »==
+
+« Expression parameters » sont utilisés pour contrôler les fonctionnalités des avatars via le menu des expressions, les « contact Receiver », l'OSC, les « parameter drivers » ou les [[Special:MyLanguage/physbones|physbones]]. Ces « parameters » peuvent ensuite être assignés aux « parameters » de l'« Animator Controller » dans les « controllers FX, Gesture ou Action » de votre avatar.
+
+<span id="Expression_Parameter_Mismatching"></span>
+== « Expression Parameter » non compatible==
+
+La non-correspondance des paramètres d’Expression fait référence à la pratique consistant à utiliser des types de paramètres différents entre vos Expression Parameters et les paramètres de votre contrôleur d’animation local. Bien qu’il soit recommandé de garder les types de paramètres cohérents, la non-correspondance est prise en charge et le système convertira les valeurs entre les types selon des règles spécifiques. Ce qui peut être utile dans certaines configurations <u>avancées</u>.
+
+Le système Animator de Unity utilise des flottants en interne pour tous les types de paramètres, tandis que VRChat utilise des SBytes pour le stockage des paramètres. L’interface utilisateur dans Unity et le VRCSDK vous permet de sélectionner des types de paramètres par commodité, mais sous le capot, des conversions sont possibles. Cela signifie que les paramètres ne sont pas convertis (cast), mais plutôt non correspondants. Ce comportement est également pris en charge par des outils populaires tels que Av3Emulator et Gesture Manager.
+
+<span id="Expression_Parameter_Bool"></span>
+===Paramètre d’Expression Bool===
+{| class="wikitable"
+|+Paramètre du contrôleur d’Animator
+!Type
+!Expression Bool = False
+!Expression Bool = True
+|-
+|Bool → Bool
+|Bool = False
+|Bool = True
+|-
+|Bool → Int
+|Int = 0
+|Int = 1
+|-
+|Bool → Float
+|Float = 0.0
+|Float = 1.0
+|}
+<span id="Expression_Parameter_Int"></span>
+===Paramètre d’Expression Int===
+{| class="wikitable"
+|+Paramètre du contrôleur d’Animator
+!Type
+!Comportement
+|-
+|Int → Bool
+|Toute valeur Int qui n’est pas 0 définit le bool à True
+|-
+|Int → Int
+|Comportement attendu
+|-
+|Int → Float
+|Conversion directe : ex. Int = 2 → Float = 2.0
+|}
+<span id="Expression_Parameter_Float"></span>
+===Paramètre d’Expression Float===
+{| class="wikitable"
+|+Paramètre du contrôleur d’Animator
+!Type
+!Comportement
+|-
+|Float → Bool
+|Quelconque valeur « Float » différente de 0 règle le « Bool » sur « Vrai »
+|-
+|Float → Int
+|Conversion arrondie : ≥0.5 → 1 ; <0.5 → 0
+|-
+|Float → Float
+|Comportement attendu
+|}
+<span id="Resources"></span>
+==Ressources==
+
+*Monde {{VRC link|https://vrchat.com/home/world/wrld_6168d07b-f55c-40bc-8077-749dde39983c|Avatar 3.0 Hub}} sur VRChat
+*[https://creators.vrchat.com/avatars/expression-menu-and-controls/ Menu d’Expression et Contrôles] sur les Creator Docs
+*[https://docs.vrchat.com/docs/action-menu#expression-menu Action Menu - Menu d’Expression] sur les Creator Docs
+*[https://creators.vrchat.com/avatars/animator-parameters/#expression-parameter-aliasing Paramètres d’Animator] sur les Creator Docs
+*[https://creators.vrchat.com/avatars/playable-layers Couches jouables] sur les Creator Docs
+
+<span id="See_also"></span>
+==Voir aussi==
+
+*[[Special:MyLanguage/Avatars|Avatars]]
+**[[Special:MyLanguage/Avatar Dynamics|Dynamiques d'avatar]]
+*[[Special:MyLanguage/Action Menu|Menu d'action]]
+*[[Special:MyLanguage/VRChat SDK|VRChat SDK]]
+
+<span id="References"></span>
+==Références==
+
+<references />
+
+[[Category:Avatar features{{#translation:}}]]

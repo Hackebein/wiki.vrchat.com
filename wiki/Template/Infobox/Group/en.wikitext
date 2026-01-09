@@ -1,0 +1,15 @@
+<languages/>
+<includeonly><infobox type="Group" theme="community">
+	<title source="name"><default>'''Missing name!'''</default></title>
+	<image source="image"><default>[[File:Placeholder.webp|Missing thumbnail image!]]</default></image>
+	<group>
+        <data source="shortname"><label>Short Name</label><default>'''Missing XXXX.0000!'''</default></data>
+        <data source="tags"><label>Tags</label></data>
+        <data source="languages"><label>Languages</label></data>
+        <data source="id"><label>Group Link</label>
+           <default>'''Group ID!'''</default>
+           <format>{{World link|{{{id}}}|{{{name}}}}}</format></data>
+    </group>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Groups]] [[Category:Community Content]]}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Groups]]}}</includeonly><noinclude>{{Noticebox|template=Infobox/Group|image=Perf vpoor.webp|title=This template is experimental!|description=This is a placeholder template page for group infoboxes. We are discussing the possibility of featuring specific groups, but do not plan on doing so immediately.<br/><br/>Please refrain from using this infobox or making pages about specific VRChat groups until this note is removed. (To be clear, pages about communities are fine. Just not groups contained within VRChat's "Groups" feature.)
+Thanks! --VRChat Wiki Maintainers}}{{Documentation}}
+[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>

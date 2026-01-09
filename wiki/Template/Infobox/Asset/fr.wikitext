@@ -1,0 +1,60 @@
+<noinclude><languages/></noinclude><onlyinclude><infobox type="Asset" layout="stacked" theme="community">
+    <title source="name"/>
+    <header>{{{title|}}}</header>
+	<image source="image"/>
+    <data source="youtube">
+        <format>{{YouTube|{{{youtube}}}|100%}}</format>
+    </data>
+    <data source="author">
+        <label>{{#if:{{{author_1|}}}|Auteurs (classés par ordre d'importance)|Auteur}}</label>
+        <format>{{Infobox/Asset/Authors|{{{author|}}}|{{{author_1|}}}|{{{author_2|}}}|{{{author_3|}}}}}</format>
+    </data>
+    <data source="status">
+        <label>Statut</label>
+        <format>{{#ifeq: {{{status|}}} | maintained
+| Activement maintenu – L’élément est régulièrement mis à jour avec de nouvelles fonctionnalités et des corrections de bugs.
+| {{#ifeq: {{{status|}}} | maintenance
+| Mode Maintenance – L’élément ne reçoit que des correctifs critiques, sans ajout de nouvelles fonctionnalités.
+| {{#ifeq: {{{status|}}} | deprecated
+| Obsolète – L’élément n’est plus recommandé à l’usage et pourrait être remplacé par une alternative plus récente.
+| {{#ifeq: {{{status|}}} | abandoned
+| Abandonné – L’élément n’est plus maintenu et peut ne plus être fonctionnel.
+| {{#ifeq: {{{status|}}} | archived
+| Archivé – L’élément est conservé à des fins historiques mais n’est plus utilisé activement.
+| {{#ifeq: {{{status|}}} | unknown
+| Inconnu – Le statut est inconnu.
+<!-- Fallback -->  
+| {{{status}}}}}
+}}}}}}}}}}</format>
+    </data>
+    <data source="documentation">
+        <label>Documentation</label>
+    </data>
+    <data source="license">
+        <label>Licence</label>
+    </data>
+	<group>
+    	<header>Téléchargements</header>
+    	<data source="vpm">
+			<label>[[VRChat Package Manager|VRChat Package Manager]]</label>
+            <format>[vcc://vpm/addRepo?url={{{vpm}}} Ajouter au VCC][[Category:Assets available via the VRChat Package Manager{{#translation:}}]]</format>
+		</data>
+        <data source="booth">
+			<label>[[Community:BOOTH|BOOTH]]</label>
+            <format>[https://booth.pm/en/items/{{{booth}}} {{{booth}}}][[Category:Assets available via BOOTH{{#translation:}}]]</format>
+		</data>
+        <data source="gumroad">
+			<label>[[Community:Gumroad|Gumroad]]</label>
+            <format>[https://gum.co/{{{gumroad}}} {{{gumroad}}}][[Category:Assets available via Gumroad{{#translation:}}]]</format>
+		</data>
+        <data source="github">
+			<label>[[wikipedia:GitHub|GitHub]] repository</label>
+            <format>[https://github.com/{{{github}}} {{{github}}}][[Category:Assets available via GitHub{{#translation:}}]]</format>
+		</data>
+        <data source="gitlab">
+			<label>[[wikipedia:GitLab|GitLab]] repository</label>
+            <format>[https://gitlab.com/{{{gitlab}}} {{{gitlab}}}][[Category:Assets available via GitLab{{#translation:}}]]</format>
+		</data>
+    </group>
+</infobox>[[Category:Resources{{#translation:}}]][[Category:Assets{{#translation:}}]]</onlyinclude>
+<noinclude>{{Documentation}}[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>

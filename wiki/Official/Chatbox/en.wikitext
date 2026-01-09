@@ -1,0 +1,92 @@
+{{Noticebox/Official}}
+The '''Chatbox''' lets you type messages to other users with a 144-character limit, and only the most recent message is visible. A typing indicator appears while you type. [[File:ChatboxAboveUser.png|thumb|Picture of a chatbox message]]
+
+==Usage==
+
+To open the chatbox, press <code>Y</code> if using a keyboard, or navigate to <code>[[Action Menu]] > Tools > Chatbox</code> for other input devices.
+
+You can also send [[Open Sound Control|OSC]] data to the chatbox.
+
+==Viewing and visuals==
+
+By default, the chatbox is visible to everyone. You can change this in settings.
+
+===Position===
+
+After you send a message, it appears in one of two locations, depending on your chosen setting: 
+
+* '''Above (Default)''': The message appears above the user who sent it
+* '''Forward''': The message appears in front of the user who sent it
+
+==Settings==
+
+Chatbox settings are highly customizable, letting you adjust visibility, display duration, size, and more.
+
+''See also [[Settings#Chatbox|Chatbox Settings]] for the full list of settings.''
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Chatbox Function
+|Clear Chatbox, New message
+|'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input
+|-
+|Local Chatbox Visibility
+|Mine, Friends, Everyone
+|Change chatbox visibility
+
+
+'''[Mine]''' Only show your own chatbox
+
+'''[Friends]''' Show chatboxes only from friends
+
+'''[Everyone]''' Show chatboxes for everyone
+|-
+| colspan="3" style="text-align:center;" |Show Advanced Settings
+|-
+|Chatbox Position
+|Above, Forward
+|Set chatbox to [above head/forward] position
+|-
+|Chatbox Height
+|0-100%
+|Change chatbox height
+|-
+|Chatbox Size
+|50-150%
+|Change chatbox size
+|-
+|Chatbox Opacity
+|25-100%
+|Change chatbox opacity
+|-
+|Chatbox Display Duration
+|2-60 seconds
+|Change chatbox display duration
+|-
+|Chatbox Notification Volume
+|On/Off, 0-100%
+|Change chatbox notification volume
+|-
+|Show Own Chatbox
+|On/Off
+|Show or hide your own chatbox
+|-
+|Send Text Automatically
+|On/Off
+|Toggle chatbox auto send
+|}
+
+==OSC==
+
+While you can send OSC data to the chatbox, it also supports features not possible in the client, such as new lines, word wrap, disabling notification SFX, and more.
+
+See the chatbox OSC docs [https://docs.vrchat.com/docs/osc-as-input-controller#chatbox here].
+
+==History==
+
+[https://docs.vrchat.com/docs/vrchat-202222p3 2022.2.2p3] - Added Chatbox 
+[[Category:Features]]
+[[Category:Accessibility]]

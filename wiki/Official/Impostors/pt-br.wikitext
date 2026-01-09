@@ -1,0 +1,96 @@
+<languages/>
+{{Noticebox/Official}}
+
+'‘'Impostores’'' são variações [[Special:MyLanguage/Platforms|multiplataforma]] de um avatar que são geradas e otimizadas para desempenho. Quando outros usuários não conseguem ver seu [[Special:MyLanguage/Avatars|avatar]], eles verão o impostor em vez de um [[Special:MyLanguage/Fallbacks|Substituto]], desde que um impostor seja gerado e você tenha ativado a configuração “Usar impostor como Substituto” em suas [[Special:MyLanguage/Settings|Configurações]]. Apenas 10 novos impostores podem ser gerados por dia.
+
+''A geração de impostores atualmente suporta apenas avatares humanóides. Avatares genéricos serão suportados no futuro.''
+
+<span id="History"></span>
+== História ==
+
+Lançado com a atualização 2023.4.2 do VRChat em 30 de novembro de 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors Atualização 2023.4.2] no ‘'VRChat Docs’'.</ref> após entrar em beta aberto em 15 de novembro. Divulgado pela primeira vez em 6 de abril de 2023 em uma atualização do desenvolvedor<ref>[https://hello.vrchat.com/blog/april-dev-update Atualização do desenvolvedor de abril de 2023] no ‘'VRChat Blog’'. </ref> e em um vídeo que o acompanha<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Atualizações de Grupo, Filas, Localização e Impostores | Atualização do desenvolvedor do VRChat] no ‘'YouTube’'.</ref>.
+
+<span id="Generating"></span>
+==Gerando==
+
+Ao carregar ou atualizar um avatar, um impostor será gerado automaticamente.
+
+Os Impostores podem ser gerados manualmente ou regenerados, se necessário:
+
+Faça login no site do VRChat.
+
+*Navegue até a página de informações do avatar para o qual você deseja gerar um impostor. Você pode fazer isso pressionando "Avatares", depois "Meus avatares" e, em seguida, o nome e o ícone do avatar desejado.
+*Clique em "Gerar impostores" ou, se o avatar já tiver um impostor que você deseja atualizar, em "Regenerar impostores" e aguarde alguns minutos enquanto ele é gerado.
+*Atualize a página. Após algum tempo, você verá que seu avatar tem impostores para todas as [[Special:MyLanguage/platforms|plataformas]].
+
+<span id="Previewing"></span>
+==Pré-visualização==
+
+[[File:ImpostorPreview.webp|thumb|Uma prévia de um impostor.]]
+Depois de gerar seu impostor e fazer login no VRChat, abra o menu Avatar e clique no avatar para o qual você gerou um impostor. As "Funcionalidades" do avatar agora incluem "Impostor" entre as demais. Você também deverá ver um novo botão abaixo da pré-visualização do modelo do avatar, que permitirá alternar entre a visualização do impostor e do avatar normal para uma pré-visualização rápida.
+
+''Os Impostores que são visualizados no menu podem apresentar mais artefatos do que quando visualizados por outro usuário.''
+
+<span id="Visibility"></span>
+==Visibilidade==
+
+Atualmente, existem apenas três maneiras de identificar um impostor.
+
+*Pré-visualização do Avatar (por exemplo, visualizar o impostor na página de detalhes do avatar)
+*Bloqueio de Desempenho (por exemplo, a classificação de desempenho do avatar é "Muito ruim", mas sua classificação mínima de desempenho exibida está definida como "Média"). O usuário que utiliza o avatar com desempenho bloqueado deve ter a opção "Usar impostor como alternativa" ativada.
+*Incompatibilidade de Plataforma (por exemplo, o avatar é carregado para PC, mas você está no Android ou vice-versa). O usuário que utiliza o avatar incompatível deve ter a opção "Usar impostor como alternativa" ativada.
+
+<span id="VRCImpostorSettings_component"></span>
+==Componente VRCImpostorSettings==
+
+Os Impostores ficam muito bons por padrão. No entanto, avatares complexos podem se beneficiar de algumas personalizações.
+
+Para personalizar seu impostor, adicione o componente "VRCImpostorSettings" ao seu avatar antes de enviá-lo. Alterar as configurações desse componente permite que você mude a aparência do impostor. Você pode adicionar vários "VRCImpostorSettings" para personalizar diferentes partes do corpo.
+
+<span id="Resolution_Scale"></span>
+===Escala de Resolução===
+
+Altera a quantidade de espaço no atlas de texturas do impostor dedicado à textura dessa parte do corpo. Por exemplo, você pode colocar esse script no osso da cabeça e alterar esse valor para fazer com que a cabeça ocupe mais ou menos espaço no atlas de texturas, aumentando ou diminuindo a qualidade geral da textura. Observe que isso pode reduzir outras partes do corpo no atlas, se necessário.
+
+''Isso é relativo ao osso no qual VRCImpostorSettings está colocado.''
+
+<span id="Transforms_To_Ignore"></span>
+===Transformações a Ignorar===
+
+Ignora essas transformações ao capturar dados para o impostor. Isso irá ocultá-las do resultado final.
+
+''Isso é independente do osso em que VRCImpostorSettings está colocado.''
+
+<span id="Extra_Child_Transforms"></span>
+===Transformações Extras===
+
+Isso é útil para coisas como asas e caudas, pois instrui o Impostorizador a criar um sprite separado para o osso em que este script está.
+
+Como exemplo do que não fazer, você ''poderia'' colocar um desses em cada dedo para transformá-los em sprites independentes. No entanto, como todos os sprites compartilham uma única folha de textura, preenchê-la com coisas como dedos fará com que a qualidade diminua em outros lugares - é uma questão de equilíbrio.
+
+''Isso é independente do osso em que VRCImpostorSettings está colocado.''
+
+<span id="Re-parent_Here"></span>
+===Re-parentar Aqui===
+
+Reatribui outro osso a este sprite do impostor. Isso significa que ele será impostorizado com esta parte do corpo e fará parte desse sprite.
+
+Por exemplo, se você quiser que suas asas façam parte da parte superior do corpo, você pode reatribuir o osso da asa raiz ao osso do peito durante a impostorização com isso.
+
+''Isso é relativo ao osso no qual VRCImpostorSettings está colocado.''
+
+<span id="See_also"></span>
+==Veja também==
+
+*[[Special:MyLanguage/Avatars|Avatares]]
+*[[Special:MyLanguage/Fallback|Substitutos]]
+
+<span id="Official_resources"></span>
+==Recursos oficiais==
+
+*{{VRC link|https://creators.vrchat.com/avatars/avatar-impostors|Impostores}} na documentação do ''VRChat Creation''.
+
+<span id="References"></span>
+==Referências==
+
+<references/>

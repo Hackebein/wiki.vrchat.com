@@ -1,0 +1,80 @@
+{{Noticebox/Community}}{{Noticebox/Biased}}
+
+Showcased here is a highly refined Blender config to aid world creation in all its facets. It features WASD movement (like the one in Unity), an adjustable power of 2 snap-grid (Similar to ProGrids/ProBuilder), on-point layout tabs and much more. Continuously improved since 2019, it can be found on GitHub since 2024: '''<big>https://github.com/Maebbie/BlenderWASD</big>'''[[File:BlenderWASD - Picture 1.jpg|none|thumb|1024x1024px|BlenderWASD in action.]]
+The goal of BlenderWASD is to allow creators to easily make complete worlds within Blender, needing few further touch-ups using Unity or other engines. To accomplish this, BlenderWASD retains Blender's great modelling toolset, but adjusts it in key areas to make it easier to navigate as you will see outlined below.
+
+== WASD-Movement ==
+World creation often means you are creating large environments. The default movement within Blender is only good for singular models and becomes distracting to the creation process when engaging in environments with many objects. BlenderWASD brings viewport movement the way it is done in every modern game-engine to Blender. Meaning while holding right-click you will move with WASD and look around using your mouse. Functions previously on right-mouse are moved to middle-mouse press.
+
+[[File:BlenderWASD - Picture 2.jpg|border|frameless|512x512px]]
+
+Should you prefer to make each object separately and import it into Unity 1 by 1 to place, then this movement can be turned off, by not importing the keybinds provided. See [[Special:MyLanguage/Blender World Creation Config#Setup instructions|Setup instructions]] below.
+
+== .Blend Blender Layout ==
+The default Blender Layout is overhauled to condense it to what is essential for world creation. Elements that exist across multiple tabs remain in their same place for their respective tabs.
+
+It features the following tabs:
+
+[[File:BlenderWASD - Picture 3.jpg|border|frameless|634x634px]]
+
+=== Layout ===
+[[File:BlenderWASD - Picture 4.jpg|frameless|512x512px]]
+
+As the default editing window this is used for most of the 3D work, offering a 3D viewport frame in its center. On its bottom left is a small UV window to quickly glance at for sanity checks. On the top right is a second 3D viewport window, whose view is synched across all other tabs, which can be used to record timelapses or just serve as a secondary perspective for your worlds.
+
+=== UV Edit ===
+[[File:BlenderWASD - Picture 5.jpg|border|frameless|512x512px]]
+
+A modified UV editing window to bring it in line with the general layout of this config. It is a 1:1 vertical split of UVs and the 3D viewport.
+
+=== Material Edit ===
+[[File:BlenderWASD - Picture 6.jpg|border|frameless|512x512px]]
+
+A modified "Shading" window with a horizontal split of the 3D viewport and shader graphs. It initially launches you into the world shader configuration, aka the skybox you see in Blender. BlenderWASD has a custom sky gradient shader setup, where the color can be adjusted or set to day, night or something in-between.
+[[File:BlenderWASD - Picture 7.jpg|none|thumb|768x768px|Dynamic Day and Night Skybox options allow for better prototyping.]]
+When switching to the Object shader the shader on currently selected Objects can be adjusted. 
+
+[[File:BlenderWASD - Picture 8.jpg|border|frameless|256x256px]]
+
+By default a [https://toykitty.booth.pm/items/3405609 grid texture by Toykitty] is available in different colored materials. These are set to tile automatically, but you will need to create custom UVs and materials, before exporting your projects to Unity.
+
+[[File:BlenderWASD - Picture 9.jpg|border|frameless|768x768px]]
+
+===GeoNode Edit===
+Same in design as the Material Edit tab, but for [https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/index.html Geometry Nodes], a powerful tool for dynamically creating and enhancing models using nodes.
+
+===Animation===
+[[File:BlenderWASD - Picture 10.jpg|border|frameless|512x512px]] 
+
+Occasionally used to create physics simulations, e.g. for cloth, that are later turned into a static model. 
+
+===Preview===
+[[File:BlenderWASD - Picture 11.jpg|border|frameless|512x512px]]
+
+This tab cuts out adjacent elements to expand the 3d viewport, giving you the ability to get a better feel for your scene. FOV is set to 90°, which is the default choice for many.
+
+===PreviewVR===
+[[File:BlenderWASD - Picture 12.jpg|border|frameless|512x512px]]
+
+Similar to the Preview Tab, however the FOV is set very low, in order to replicate how it would feel in VR while cropped in to a screen. This allows to approximate how a project would feel in VR, without actually needing to put on a VR headset. FOV is fairly accurate when viewed 1 meter from a regular monitor.
+
+[[File:BlenderWASD - Picture 13.jpg|border|frameless|512x512px]]
+
+==Power of 2 Grid ==
+[[File:BlenderWASD - Picture 14.jpg|none|thumb|512x512px|Each dot represents a snap point on a 1 meter absolute grid]]
+A power of 2 Grid helps to create a coherent world layout. This workflow means you will always snap your edits on a absolute grid. This grid starts out at 1 meter increments from x,y,z 0,0,0, however by pressing + or - you are doubling or halving its increments respectively. Meaning pressing "-" twice would turn your 1 meter grid to a 0.25 meter grid. I behaves similar to ProGrids in Unity.
+
+On the top right is a panel showing your current grid increment.
+
+[[File:BlenderWASD - Picture 15.jpg|border|frameless|256x256px]]
+
+This grid can be turned off, by simply turning off snapping or changing snapping away from "Snap to Increment".
+
+==Setup instructions ==
+
+*Download the most recent version of BlenderWASD here: '''https://github.com/Maebbie/BlenderWASD/releases<nowiki/>.'''
+*Throw everything into the same folder.
+*Start the BlenderWASD_By_Maebbie.blend file. This is the [[Special:MyLanguage/Blender World Creation Config#.Blend Blender Layout|Blender Layout]] outlined above.
+*Import the keybinds from BlenderWASDKeybinds_By_Maebbie.blend.py via Edit -> Preferences -> Keymap -> Import -> Select the Keybinds imported on the center top. This is the [[Special:MyLanguage/Blender World Creation Config#WASD-Movement|WASD-Movement]] outlined above.
+*Put the gridoverlay.py in C:\Users(your username)\AppData\Roaming\Blender Foundation\Blender\(Blender Version)\scripts\startup. This will add a [[Special:MyLanguage/Blender World Creation Config#Power of 2 Grid|Power of 2 Grid]] and the respective panel.
+[[Category:Resources]]

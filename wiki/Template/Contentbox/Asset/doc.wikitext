@@ -1,0 +1,155 @@
+<noinclude>[[Category:Template Documentation]]</noinclude>
+{{Contentbox/Asset
+|title=my.title.1
+|name=MyC00l VRChat Asset
+|image=[[File:Placeholder.webp]]
+|youtube=Gm_2YqvGgxM
+|author=VRChat
+|author_1=VRRat
+|author_2=VRCat
+|status=maintained
+|documentation=https://docs.vrchat.com
+|license=Proprietary
+|vpm=https://vrchat.github.io/packages/index.json
+|booth=123456
+|gumroad=vrchat
+|github=vrchat/packages
+|gitlab=vrchat/packages}}
+
+{{Contentbox/Asset
+|title=my.title.2
+|name=MyC00l VRChat Asset #2
+|author=VRChat
+|status=archived
+|documentation=https://docs.vrchat.com
+|license=MIT
+|vpm=https://vrchat.github.io/packages/index.json
+|github=vrchat/packages
+|gitlab=vrchat/packages}}
+{{Contentbox/Asset
+|title=my.title.3
+|name=MyC00l VRChat Asset #3
+|author=VRRat
+|author_1=VRCat
+|status=maintained
+|documentation=https://docs.vrchat.com
+|license=Proprietary
+|vpm=https://vrchat.github.io/packages/index.json
+|booth=123456
+|gumroad=vrchat}}
+==TemplateData Documentation==
+<templatedata>
+{
+	"params": {
+		"title": {
+			"label": "Title",
+			"example": "my title",
+			"type": "string"
+		},
+		"name": {
+			"label": "Name",
+			"example": "My Asset Name",
+			"type": "string",
+			"required": true
+		},
+		"image": {
+			"label": "Image",
+			"example": "Placeholder.webp",
+			"type": "wiki-file-name",
+			"required": true
+		},
+		"youtube": {
+			"label": "YouTube",
+			"description": "YouTube video ID",
+			"example": "xRha7-qE1vg",
+			"type": "string"
+		},
+		"author": {
+			"label": "Author",
+			"example": "VRChat",
+			"type": "string"
+		},
+		"author_1": {
+			"label": "Author 1",
+			"example": "VRRat",
+			"type": "string"
+		},
+		"author_2": {
+			"label": "Author 2",
+			"example": "VRCat",
+			"type": "string"
+		},
+		"author_3": {
+			"label": "Author 3",
+			"example": "VRBat",
+			"type": "string"
+		},
+		"status": {
+			"label": "Status",
+			"description": "Status of the Asset, any of `maintained`, `maintenance`, `deprecated`, `abandoned`, `archived`, `unknown`, or custom text. Custom text can't be translated.",
+			"example": "maintained",
+			"type": "string"
+		},
+		"documentation": {
+			"label": "documentation",
+			"description": "Documentation URL",
+			"example": "https://docs.vrchat.com/",
+			"type": "url"
+		},
+		"license": {
+			"label": "License",
+			"description": "License of the Package",
+			"example": "MIT",
+			"type": "string"
+		},
+		"vpm": {
+			"label": "VPM",
+			"description": "VRChat Package Manager URL",
+			"example": "https://packages.vrchat.com/official?download",
+			"type": "url"
+		},
+		"booth": {
+			"label": "Booth ID",
+			"description": "Booth ID",
+			"example": "1234567",
+			"type": "string"
+		},
+		"gumroad": {
+			"label": "Gumroad",
+			"description": "Gumroad ID",
+			"example": "vrchat",
+			"type": "string"
+		},
+		"github": {
+			"label": "GitHub",
+			"description": "GitHub <user>/<repo>",
+			"example": "vrchat/packages",
+			"type": "string"
+		},
+		"gitlab": {
+			"label": "GitLab",
+			"description": "GitLab <user>/<repo>",
+			"example": "vrchat/packages",
+			"type": "string"
+		}
+	},
+	"paramOrder": [
+        "title",
+		"name",
+		"image",
+		"youtube",
+		"author",
+		"author_1",
+		"author_2",
+		"author_3",
+		"status",
+		"documentation",
+		"license",
+		"vpm",
+		"booth",
+		"gumroad",
+		"github",
+		"gitlab"
+	]
+}
+</templatedata>

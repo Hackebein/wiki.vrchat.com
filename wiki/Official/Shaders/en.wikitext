@@ -1,0 +1,48 @@
+{{Noticebox/Official}}{{Stub}}
+
+'''Shaders''' are components within [[wikipedia:Unity_(game_engine)|Unity]], and the [[VRChat SDK]], that is used to create the appearance of a material.
+
+== Overview ==
+The usage of shaders in VRChat are practical for both [[Avatars|avatar]] and [[Worlds|world]] design. A shader can define the look, and appearance of a material consisting of various special effects, which are applied on an avatar's mesh or a world object. Additionally, any visual data when using VRChat, from avatars, worlds, [[menus]], and [[HUD|HUDs]], all have different rendered forms of shaders.
+
+===Types of shaders===
+In VRChat, there are a large number of various different shading styles seen in the game. They can have the appearance of flat colors in a cartoony style, or have a realistic appearance where rounded areas having a dimmed appearance when reacting to certain lighting conditions.
+
+Shaders are coded through various methods in Unity for the built-in Rendering Pipeline (URP), which VRChat is rendered on.
+
+===VRChat Shaders===
+The [[VRChat SDK]] includes a few shaders, created by the developers for usage in both avatar and world creation. Many of them are designed to be optimized for mobile platforms, such as on the Meta Quest.
+
+====Standard Lite====
+<code>VRChat/Mobile/Standard Lite</code>
+
+The Standard Lite shader is based off of Unity's default Standard Shader, but with a few improvements. It's mainly designed to be lightweight and easy for the game to render on mobile platforms. The features of Standard Lite closely match with Unity Standard's features.
+
+There are a few different things with Standard Lite however, such as:
+
+*'''Specular Lightprobe Hack:''' When enabled, will instead use light probes as light sources for specularity. (Default)
+*'''MonoSH Support:''' Used for worlds that are using Bakery's lightmapper.
+
+====Toon Lit====
+<code>VRChat/Mobile/Toon Lit</code>
+
+Toon Lit is a very basic flat shader consisting of one feature: no shading is performed, whatsoever and is instead rendered flat.
+
+====Supersampled UI====
+<code>VRChat/Mobile/Worlds/Supersampled UI</code>
+
+The supersampled UI shader is primarily used in worlds containing interactive User Interface elements. The main difference, however, is that this shader provides better sampling of text in the UI.
+
+In many worlds, it is common to see these elements in the "Settings" panels for the world you are in.
+
+===Creating Shaders===
+For guaranteed compatibility, it is recommended to target no higher than shader model 4.5 (although apparently 5.0 should also generally work even on Quest).
+
+== Official resources ==
+
+* [https://docs.unity3d.com/Manual/Shaders.html Unity - Manual: Shaders] on ''unity3d.com''
+** [https://docs.unity3d.com/550/Documentation/Manual/SL-Reference.html Shader Reference] on ''unity3d.com''
+** [https://docs.unity3d.com/550/Documentation/Manual/ShaderTut2.html Shaders: vertex and fragment programs] on ''unity3d.com''
+* [https://creators.vrchat.com/worlds/udon/vrc-graphics/#vrcshader VRCShader] on ''creators.vrchat.com''
+* [https://creators.vrchat.com/worlds/udon/vrc-graphics/vrchat-shader-globals/ VRChat Shader Globals] on ''creators.vrchat.com''
+* [https://creators.vrchat.com/avatars/avatar-optimizing-tips/#use-optimized-shaders Avatar Optimization - Use Optimized Shaders] on ''creators.vrchat.com''

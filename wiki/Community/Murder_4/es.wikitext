@@ -1,0 +1,353 @@
+<languages/>
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Murder 4
+|image=File:Murder4.webp
+|author=[https://vrchat.com/home/user/LyCh6jlK6X Jar]
+|capacity= 12 (24)
+|platforms=PC, Android
+|tags=game, udon, murder, Approved
+|id=wrld_858dfdfc-1b48-4e1e-8a43-f0edc611e5fe
+|labs=December 03, 2020
+|published=December 04, 2020
+}}
+<blockquote>¡Un asesino anda suelto otra vez! Ayuda al detective a encontrar pistas y a localizar al culpable. ¡Ahora con avatares! De: jar</blockquote>
+
+'''Murder 4''' es un [[Special:MyLanguage/:Category:Game worlds|mundo de juego]] de terror jugador contra jugador compatible con múltiples plataformas, creado por ''Jar'' en 2020. Pueden jugar hasta veinticuatro jugadores a la vez, pero deben estar presentes al menos tres jugadores para comenzar. Hay tres roles posibles para jugar: '''Detective''', '''Bystander(s) (Transeúnte/s)''' y '''Murderer (Asesino)'''. Hay pistas, fotografías, armas y peligros que los jugadores encontrarán. El objetivo del asesino es eliminar a todos los jugadores de la mansión. El objetivo del Detective es descubrir y eliminar al asesino, y el de los Bystanders es trabajar juntos para identificar y neutralizar al Murderer.
+
+<span id="Game_modifiers"></span>
+==Modificadores del juego==
+
+El master de instancia puede usar opcionalmente modificadores de juego para cambiar las reglas.
+
+* '''Teams Enabled (Equipos activado)''' - invoca doce círculos en los que pararse en la sala de espera. Más de un jugador puede habitar el mismo círculo, lo que garantiza que se les empareje con el mismo rol que a todos los que están en el círculo, lo que permite que haya más de un Detective o Murderer.
+* '''Scrambled Spawns (Apariciones aleatorias)''' - selecciona aleatoriamente una habitación para que los jugadores comiencen en la mansión, excepto que el Detective siempre aparece en el estudio.
+* '''One Unlock Only (Solo un desbloqueo)''' - genera un arma desbloqueable para el primer jugador que recopile las cinco pistas, y no aparecerán más pistas para nadie más.
+* '''Invisible Knives (Cuchillos invisibles)''' es un modificador del juego que solo permite que el Murderer vea los cuchillos que están en el suelo. Los cuchillos siguen siendo visibles en las manos del Murderer.
+
+<span id="Rooms"></span>
+==Habitaciones==
+
+Hay varias habitaciones y tres pisos en la mansión.
+
+{| class="wikitable sortable"
+!Habitación
+!Piso #
+!Cuchillo?
+!Veneno?
+!Trampa para osos?
+!Interruptor de luz?
+!Cajones/Armarios
+|-
+|Bedroom (Dormitorio)
+|2
+|Sí
+|No
+|No
+|No
+|5
+|-
+|Ballroom (Salón de baile)
+|1
+|No
+|No
+|En el cuartillo
+|En el cuartillo
+|2
+|-
+|Billard Room (Sala de billar)
+|1
+|Sí
+|Sí
+|En el cuartillo
+|En el cuartillo
+|11
+|-
+|Cellar (Sótano)
+|B1
+|Sí 
+|Sí
+|No
+|Sí
+|2
+|-
+|Conservatory (Invernadero)
+|1
+|No
+|No
+|No
+|No
+|0
+|-
+|Dining Room (Comedor)
+|1
+|No
+|No
+|No
+|No
+|8
+|-
+|Grand Hall (Gran salón)
+|1
+|No
+|No
+|No
+|No
+|4
+|-
+|Kitchen (Cocina)
+|1
+|Sí
+|No
+|No
+|No
+|8
+|-
+|Lavatory (Lavabo)
+|2
+|No
+|Sí
+|No
+|No
+|1
+|-
+|Library (Biblioteca)
+|1
+|Sí
+|No
+|No
+|No
+|2
+|-
+|Lounge (Sala de estar)
+|1
+|No
+|No
+|No
+|No
+|3
+|-
+|Upstairs Hall (Pasillo de arriba)
+|2
+|No
+|No
+|No
+|En el cuartillo
+|0
+|-
+|Study (Estudio)
+|2
+|No
+|No
+|Sí
+|No
+|9
+|-
+|}
+
+<span id="Clues"></span>
+==Pistas==
+
+Las pistas son hojas de papel o cuadros enmarcados coleccionables que recompensarán al jugador con una de las cuatro armas después de que se hayan recolectado cinco pistas. Cualquier jugador en el juego puede recolectar pistas, sin embargo, las pistas están conectadas en red localmente, lo que significa que las pistas de cada jugador aparecerán en un lugar diferente al de los demás y no se pueden compartir. Las pistas pueden estar a la vista en los estantes o detrás de las puertas, pero también pueden estar ocultas en cajones y gabinetes. Abrir cajones y gabinetes puede recompensar al jugador con una pista, así que abre tantos como puedas; abrir cajones y gabinetes ayuda al Detective y a otros Bystanders en la búsqueda de sus pistas. Aparecerán dos pistas a la vez, y cuando se recopile una pista, aparecerá otra pista en otra parte del mapa.
+
+Si reúnes las cinco pistas, el jugador recibirá una de las cuatro armas siguientes:
+*'''Luger with suppressor (Luger con silenciador)''': una pistola que puede disparar silenciosamente. Puede disparar más rápido que el revólver del Detective.
+*'''Double-barrel shotgun (Escopeta con dos coñones)''': una escopeta que dispara balas muy fuerte. Puede disparar más rápido que el revólver del Detective.
+*'''Fragmentation grenade (Granada de fragmentación)''': una granada de un solo uso que detonará y eliminará a cualquiera que se encuentre dentro de su radio de explosión.
+*'''Smoke grenade (Granada de humo)''': una bomba de humo de un solo uso que obstruye la visión y ralentiza a cualquier jugador que se encuentre dentro del radio del humo. El humo desaparece después de unos treinta segundos.
+
+Se puede sacar el pasador de una granada haciendo clic en el gatillo o en el botón del ratón. La granada no detonará mientras sea sostenida.
+
+Si se cae un arma, otro jugador puede recogerla y usarla (a menos que ya se haya quitado el seguro de una granada).
+
+
+[[File:M4Map.webp|thumb|Vista de la mansión desde un "espectador". La pistola violeta muestra dónde aparece el detective y se muestran la ubicación del revólver, los peligros y las armas. El sótano está oculto a la vista.]]
+
+
+<span id="Photographs_and_camera"></span>
+==Fotografías y cámara==
+
+Hay cinco fotografías coleccionables para recolectar y clasificar. Estas fotografías se pueden clasificar en la sala de estudio. Si encuentras todas las fotografías y las clasificas correctamente, el jugador recibirá una cámara fotográfica con flash como recompensa.
+
+La cámara aturdirá a cualquiera que se encuentre en la imagen, lo que lo obligará a soltar los objetos que tenga en la mano. La cámara tiene un tiempo de recuperación muy largo. Lo ideal es usar la cámara para escapar cuando el fotógrafo se sienta amenazado.
+
+==Roles==
+
+<span id="The_Murderer"></span>
+===The Murderer (El asesino)===
+
+El objetivo del Murderer es matar a todos los demás jugadores en una ronda utilizando diversas herramientas que se pueden encontrar en el mapa. Es posible que haya más de un Murderer mediante el modificador "Equipos habilitados" (Teams Enabled).
+
+El Murderer puede controlar los peligros que hay en el mapa y que pueden dañar a los Bystanders y al Detective. Estos peligros solo los puede controlar el Murderer:
+
+*Los cuchillos son el arma más accesible y más fácil de ocultar para el Murderer. El Murderer también puede lanzar cuchillos a sus víctimas. Si un jugador toca un cuchillo en movimiento, será derrotado. El Detective y los Bystanders no pueden recoger ni usar cuchillos.
+
+*Al abrir una caja, se liberará una serpiente (o un gato, si la opción de "Snake-phobia Safe"("Modo seguro de ofidiofobia") está activado) que seguirá y atacará a otros jugadores. La serpiente (o el gato) emitirá ruidos que te alertarán de la presencia de jugadores cercanos. Se la puede derrotar con un disparo preciso o con la explosión de una granada de fragmentación. Aparecerá una caja en una habitación aleatoria en cada partida.
+
+*Hay trampas para osos en el estudio, el armario del salón de baile y el armario de la sala de billar que el asesino puede colocar en cualquier lugar. Las únicas dos formas de desactivar la trampa para osos son que un jugador la active y lo elimine, o que el Murderer la desactive.
+
+*El vino y las copas son accesorios que cualquier jugador puede tomar y usar, sin embargo, el Murderer puede envenenar el vino, eliminando a un jugador si bebe la bebida.
+
+*El Murderer puede cortar la electricidad de la mansión tirando de la palanca del interruptor. El Detective y los Bystanders no podrán ver fácilmente en la oscuridad y las placas de nombre quedarán inhabilitadas para ellos. Las luces se pueden volver a encender si un Bystander o un Detective vuelven al mismo interruptor para encenderlo. Estas palancas están en el armario de arriba, el armario en la sala de billar, una en el sótano y otra en el armario del salón de baile. Cuando se corta la electricidad, la habitación más segura es afuera, en el invernadero, ya que la luna proporciona algo de iluminación y tres métodos de escape.
+
+<span id="The_Detective"></span>
+===El Detective===
+
+El objetivo del Detective es cooperar con los Bystanders para identificar y neutralizar al Murderer. Puede haber más de un Detective a través del modificador "Teams Enabled" (Equipos habilitados). Todos los Detectives aparecerán en la sala de estudio del piso de arriba, pero solo habrá un revólver. El Detective también debe ayudar a los Bystanders abriendo cajones y armarios para buscar pistas. El Detective puede recolectar sus propias pistas y llevar dos armas si está en modo RV.
+
+El revólver es la más lenta de las tres armas y caerá al suelo si el Detective o el Bystander disparan contra un jugador inocente. Cualquiera puede coger este revólver, excepto el Murderer, por lo que también es posible pedir a los Bystanders que recojan el revólver para demostrar su inocencia. Si el Detective encuentra una segunda arma de fuego, la estrategia inteligente es ofrecer el revólver al Bystander mientras el Detective se queda con la Luger o la escopeta.
+
+<span id="The_Bystander"></span>
+=== The Bystander (El transeúnte) ===
+
+El Bystander es un personaje neutral cuyo objetivo es sobrevivir. Puede ayudar o entorpecer al Murderer o al Detective, pero el Bystander ganará si elimina al Murderer. Lo ideal es que el Bystander busque pistas o fotografías para conseguir un medio de defensa.
+
+==Logros==
+Murder 4 tiene 52 logros que se pueden desbloquear al completar objetivos. Los logros se guardan mediante el sistema de persistencia.<center>
+===Logros normales===
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Logros normales
+!Logro!!Descripción
+|-
+|Slaughterhouse (Matadero)||Gana una partida con 12 o más jugadores.
+|-
+|Behind Closed Doors (A puerta cerrada)||Apuñala a 25 jugadores sin testigos.
+|-
+|Sheer Steel (Acero puro)||Mata a 5 jugadores con cuchillos arrojadizos desde 5 metros de distancia.
+|-
+|Bear Necessities (Necesidades de oso)||Asesina a 10 jugadores con trampas para osos.
+|-
+|Give 'em the Grizzly (Dales el oso)
+|Mata a alguien con una trampa para osos en la oscuridad.
+|-
+|Knife to a Gun Fight (Del cuchillo al tiroteo)||Usa cuchillos para matar a un jugador que esté sosteniendo un arma.
+|-
+|Outgunned (Superados en armas)|| Usa armas para asesinar a otros 5 jugadores que estén sosteniendo armas.
+|-
+|Point and Shoot (Apunta y dispara)||Usa armas para asesinar a 15 víctimas.
+|-
+|Bitter End (Final amargo)||Envenena a 5 jugadores.
+|-
+|Sommelier (Sumiller)||Envenena a una víctima poco después de haber bebido veneno tú mismo.
+|-
+|Free Noodle (Fideos gratis)||Asesina a 3 jugadores usando la serpiente.
+|-
+|Hook, Line, and Slither (Gancho, línea y deslizamiento)|| Asesina a un jugador justo después de que dispare a la serpiente.
+|-
+|Lights Out (Luces apagadas)
+|Apaga las luces 5 veces.
+|-
+|Darkest Hour (La hora más oscura) ||Apaga todos los interruptores de luz en una sola partida.
+|-
+|Shinobi|| Asesina a un jugador desde dentro de una nube de humo.
+|-
+|Hat Trick (Triplete) ||Asesina a 3 jugadores con la pistola con silenciador en una sola partida.
+|-
+|Shotgun Spree (Ola de escopetas)|| Asesina a 6 personas con una escopeta en una sola partida.
+|-
+|The Long Con (La larga estafa)|| Como asesino, reúne suficientes pistas para desbloquear un objeto.
+|-
+|Gonna Need a Bigger Morgue (Vomos a necesitar una morgue más grande)|| Asesina a 100 jugadores.
+|-
+|Opportune Moment (Momento oportuno)|| Asesina a alguien mientras está ciego.
+|-
+|Secret Weapon (Arma secreta)||Mata usando un cuchillo escondido en el gran reloj de pie del salón.
+|-
+| Cat and Mouse (Gato y ratón)||Asesina al detective en último lugar.
+|-
+|No Witnesses (Sin testigos) ||Mata a 3 jugadores que te vieron apagar las luces.
+|-
+|Case Closed (Caso cerrado)||Como detective, dispara al asesino 3 veces.
+|-
+|My Favorite Deputy (Mi ayudante favorito)||Dale tu revólver a un transeúnte que dispare al asesino.
+|-
+|Legacy (Legado)||Dale tu revólver al detective de la ronda anterior.
+|-
+|Super Sleuth(Superdetective) ||Como detective, desbloquea un arma adicional.
+|-
+|Trigger Happy (Gatillo fácil)||Consigue 10 disparos ganadores como transeúnte.
+|-
+|Sharpshooter (Tirador de primera)||Dispara al asesino desde 12 metros de distancia.
+|-
+| Everyone Stand Back (Todos a un lado)||Haz explotar al asesino y a nadie más.
+|-
+|Bombs Away (Bombas a un lado) ||Mata a 4 o más jugadores con una sola explosión.
+|-
+|Smoke 'Em If You Got 'Em (Ahuma si los tienes)||Detona una granada de humo en 4 o más jugadores.
+|-
+|Say Cheese (Di patata)||Ciega a 5 o más jugadores con el flash de una cámara.
+|-
+|Paparazzi||Fotografía a 12 jugadores con el flash de la cámara.
+|-
+|Martyr (Mártir)||Haz explotar al asesino y a ti mismo con la misma granada.
+|-
+|Contingency Plan (Plan de contingencia)||Haz explotar al asesino desde el más allá.
+|-
+|Obtain Luger (Obtén una Luger)||Reúne pistas para encontrar la pistola con silenciador 3 veces.
+|-
+|Obtain Sawed-Off (Obtén una escopeta recortada)||Reúne pistas para encontrar una escopeta 3 veces.
+|-
+|Obtain Smoke (Obtén humo)||Reúne pistas para encontrar una granada de humo 3 veces.
+|-
+| Obtain Frag (Obtén una granada de fragmentación)||Reúne pistas para encontrar una granada de fragmentación 3 veces.
+|-
+|Obtain Frag (Obtén una cámara)||Resuelve el rompecabezas para desbloquear la cámara con flash.
+|-
+|Town Ain't Big Enough (La ciudad no es lo suficientemente grande)||Dispara al asesino en el enfrentamiento final.
+|-
+|Cold Case (Caso sin resolver) ||Gana una partida que dure más de 15 minutos.
+|}
+===Logros secretos===
+{| class="wikitable mw-collapsible mw-collapsed"
+|+Logros secretos
+!Logro!!Descripción
+|-
+|Not My Problem (No es mi problema)||Tira el revólver en el jardín trasero.
+|-
+| Highly Suspect (Altamente sospechoso)||Haz clic en el cuadro sospechoso 50 veces.
+|-
+|Meow (Miau)||Deja que un gato te mate.
+|-
+|Flushed (Tira de la cadena)||Detona el humo en el inodoro.
+|-
+|Road Trip (Viaje por carretera)||Estar en el coche con otros 3 jugadores durante un rato.
+|-
+|Tilted (Inclinado)|| Dispara al candelabro inclinado.
+|-
+|Fortissimo||Muere mientras tocas el piano.
+|-
+|Dressed to Impress (Vestido para impresionar) ||Gana 3 partidas después de usar un avatar de asesino del pedestal.
+|-
+| Toss-Up (Lanzamiento)||Como detective, lanza el revólver para que un transeúnte lo atrape.
+|}
+</center>
+
+<span id="Trivia"></span>
+==Curiosidades==
+
+*Hay un retrato enmarcado del actor [[es.wikipedia:Will_Smith|Will Smith]] en el dormitorio.
+*Muchos de los efectos de sonido de Murder 4 son de las series [[es.wikipedia:Left_4_Dead|Left 4 Dead]] de Valve.
+*Murder 4 es estadísticamente el juego más popular de la serie "Murder" de Jar.
+*Al hacer clic en un papel en el armario de arriba, emitirá un sonido de piano que te permitirá tocar una muestra de canciones del piano en el Salón de baile. Las canciones son aleatorias, pero puedes tocarlas haciendo clic repetidamente en las teclas del piano. La lista de canciones disponibles es la siguiente:
+**[https://www.youtube.com/watch?v=4Tr0otuiQuU Claro de luna - Beethoven] (1801)
+**[https://www.youtube.com/watch?v=x6zypc_LhnM Linus & Lucy - Vince Guaraldi] (1964)
+**[https://www.youtube.com/watch?v=VOgFZfRVaww Imagine - John Lennon] (1971)
+**[https://www.youtube.com/watch?v=1k8craCGpgs Don't Stop Believin' - Journey] (1981)
+**[https://www.youtube.com/watch?v=PFW2uSCZ0uE Clocks - Coldplay] (2002)
+**[https://www.youtube.com/watch?v=TbN9ysVWhhY Seven Nation Army - The White Stripes] (2003)
+**[https://www.youtube.com/watch?v=0FCvzsVlXpQ Megalovania - Toby Fox] (2008)
+**[https://www.youtube.com/watch?v=0T-if-Vj2Xs The Office (Tema principal) - The Office Band] (2011)
+**[https://www.youtube.com/watch?v=U0TXIXTzJEY il vento d'oro - Yugo Kanno] (2018)
+**Composición desconocida (????)
+
+<span id="Community_resources"></span>
+==Recursos de la comunidad==
+
+*[https://www.youtube.com/watch?v=Bi-t7azupxE "Murder 4 en VRChat"] tráiler en ''YouTube''
+*[https://www.youtube.com/watch?v=5S_XB4KWmBs "Murder 4 Vino envenenado"] tráiler en ''YouTube''
+*[https://www.youtube.com/watch?v=SYqwNWPj4gg "Murder 4 Cómplice (Día de San Valentín)"] tráiler en ''YouTube''
+*[https://www.youtube.com/watch?v=y96ViV_f0xo "Murder 4 Halloween tráiler"] en ''YouTube''
+*[https://www.youtube.com/watch?v=aOXgCLskUVU "Merry Murder 4"] Tráiler en ''YouTube''
+
+[[Category:Game worlds{{#translation:}}]]
+[[Category:PvP worlds{{#translation:}}]]
