@@ -136,10 +136,10 @@
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *).external::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -152,10 +152,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://twitter.c
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://x.com/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -170,10 +170,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://youtu.be/
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://youtube.com/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -186,10 +186,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://twitch.tv
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://www.twitch.tv/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -202,10 +202,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://tiktok.co
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://www.tiktok.com/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -218,10 +218,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://steamcomm
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://store.steampowered.com/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -234,10 +234,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://discord.c
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://discord.gg/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -248,10 +248,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://github.com
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://github.com/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -262,10 +262,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://medium.com
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://medium.com/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -278,10 +278,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://archive.o
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://web.archive.org/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
@@ -310,10 +310,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://vrch.at/"
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://vrchat.com/"]::before {
   content: ""!important;
   display: inline-block!important;
-  width: 1.25em!important;
-  height: 1.25em!important;
-  margin-right: .5em!important;
-  transform: translateY(4.5px);
+  width: 1em!important;
+  height: 1em!important;
+  margin-right: .25em!important;
+  transform: translateY(3px);
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: contain!important;
