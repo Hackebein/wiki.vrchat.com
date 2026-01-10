@@ -3,10 +3,6 @@
  * https://github.com/vrchat-community/wiki-scripts/blob/main/src/index.ts
  */
 @charset "UTF-8";
-.spoiler,
-.tpl-infopush {
-  position: relative
-}
 .mw-first-heading .mw-page-title-separator,
 [class*=" page-Main_Page"] #firstHeading,
 [class*=" page-Main_Page"] .mw-editsection {
@@ -122,6 +118,21 @@
 [alt*=vrrat i] :active {
   cursor: grabbing;
   transform: scaleY(.9) scaleX(1.1)
+}
+.embedvideo-thumbnail>p,
+.hlist ul,
+figure[typeof~="mw:File/Frame"]>:not(figcaption) .mw-file-element,
+figure[typeof~="mw:File/Thumb"]>:not(figcaption) .mw-file-element {
+  margin: 0
+}
+.embedvideo-thumbnail__image {
+  position: absolute;
+  width: 100%;
+  height: 100%
+}
+.spoiler,
+.tpl-infopush {
+  position: relative
 }
 .link-audio,
 .link-document,
@@ -459,11 +470,6 @@ a:not(.external)[href^="/wiki/Special:MyLanguage/Guides_talk:"]:hover {
 .wikitable.navbox {
   width: 100%;
   text-align: center
-}
-.hlist ul,
-figure[typeof~="mw:File/Frame"]>:not(figcaption) .mw-file-element,
-figure[typeof~="mw:File/Thumb"]>:not(figcaption) .mw-file-element {
-  margin: 0
 }
 .hlist li {
   display: inline
