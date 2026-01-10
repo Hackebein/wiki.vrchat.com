@@ -1,3 +1,7 @@
+/** @license
+* This file is auto-generated. Do not edit directly.
+* @see https://github.com/vrchat-community/wiki-scripts/blob/main/src/index.ts
+*/
 (() => {
 	var e = Object.defineProperty;
 	var __esmMin = (e, t) => () => (e && (t = e(e = 0)), t);
@@ -21,51 +25,6 @@
 		t == null || t.addEventListener("click", () => {
 			e.dataset.open = "";
 		});
-	});
-	function _objectWithoutPropertiesLoose(e, t) {
-		if (e == null) return {};
-		var n = {};
-		for (var r in e) if ({}.hasOwnProperty.call(e, r)) {
-			if (t.includes(r)) continue;
-			n[r] = e[r];
-		}
-		return n;
-	}
-	function _objectWithoutProperties(e, t) {
-		if (e == null) return {};
-		var n, r, i = _objectWithoutPropertiesLoose(e, t);
-		if (Object.getOwnPropertySymbols) {
-			var a = Object.getOwnPropertySymbols(e);
-			for (r = 0; r < a.length; r++) n = a[r], t.includes(n) || {}.propertyIsEnumerable.call(e, n) && (i[n] = e[n]);
-		}
-		return i;
-	}
-	var t = ["videoId"];
-	document.querySelectorAll(".youtube").forEach((e) => {
-		let n = e.dataset, { videoId: r } = n, i = _objectWithoutProperties(n, t);
-		let a = document.createElement("iframe");
-		a.setAttribute("width", "560");
-		a.setAttribute("height", "315");
-		a.setAttribute("frameborder", "0");
-		a.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
-		a.setAttribute("allowfullscreen", "true");
-		a.setAttribute("allow", [
-			"accelerometer",
-			"autoplay",
-			"clipboard-write",
-			"encrypted-media",
-			"gyroscope",
-			"picture-in-picture",
-			"web-share"
-		].join("; "));
-		for (let e in i) {
-			let t = i[e];
-			if (!t) continue;
-			a.setAttribute(e, t);
-		}
-		a.setAttribute("style", e.getAttribute("style") || "");
-		a.src = `https://www.youtube-nocookie.com/embed/${r}?rel=0`;
-		e.replaceWith(a);
 	});
 	let __vitePreload = function(e, t, n) {
 		let r = Promise.resolve();
@@ -93,7 +52,7 @@
 		};
 	}
 	var ArticleDialog;
-	var n = __esmMin((() => {
+	var t = __esmMin((() => {
 		ArticleDialog = class extends OO.ui.ProcessDialog {
 			constructor(e) {
 				super({
@@ -130,7 +89,7 @@
 			label: "Close"
 		}];
 	}));
-	var r = __esmMin((() => {}));
+	var n = __esmMin((() => {}));
 	function asyncGeneratorStep(e, t, n, r, i, a, o) {
 		try {
 			var s = e[a](o), c = s.value;
@@ -155,17 +114,17 @@
 			});
 		};
 	}
-	var i = __esmMin((() => {}));
-	var a = /* @__PURE__ */ __export({}, 1);
-	var o, s;
-	var c = __esmMin((() => {
+	var r = __esmMin((() => {}));
+	var i = /* @__PURE__ */ __export({}, 1);
+	var a, o;
+	var s = __esmMin((() => {
+		t();
 		n();
 		r();
-		i();
-		o = document.querySelectorAll(".tpl-infopush");
-		s = new OO.ui.WindowManager();
-		$(document.body).append(s.$element);
-		for (let e of o) {
+		a = document.querySelectorAll(".tpl-infopush");
+		o = new OO.ui.WindowManager();
+		$(document.body).append(o.$element);
+		for (let e of a) {
 			let t = e.querySelector(".tpl-infopush-content");
 			let n = t.querySelectorAll(".tpl-infopush-item");
 			let r = n.length;
@@ -175,11 +134,11 @@
 				if (!t) continue;
 				e.style.cursor = "pointer";
 				e.addEventListener("click", _asyncToGenerator(function* () {
-					if (!(yield s.getWindow(t.id).then(() => !0).catch(() => !1))) {
+					if (!(yield o.getWindow(t.id).then(() => !0).catch(() => !1))) {
 						let e = new ArticleDialog(t);
-						s.addWindows({ [t.id]: e });
+						o.addWindows({ [t.id]: e });
 					}
-					yield s.openWindow(t.id).opening;
+					yield o.openWindow(t.id).opening;
 				}));
 			}
 			let i = e.querySelector(".tpl-infopush-navigation");
@@ -188,10 +147,10 @@
 				a = (e + r) % r;
 				t.style.transform = `translateX(-${a * 100}%)`;
 			}
-			let o;
+			let s;
 			function resetAutoAdvance() {
-				o && clearInterval(o);
-				o = setInterval(() => {
+				s && clearInterval(s);
+				s = setInterval(() => {
 					showSlide(a + 1);
 				}, 5e3);
 			}
@@ -207,20 +166,20 @@
 			showSlide(0);
 		}
 	}));
-	isPage(["Template:MainPageInfopush", "Main_Page"]) && mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).then(() => __vitePreload(() => Promise.resolve().then(() => (c(), a)), void 0, {}.url));
-	var l = document.createElement("script");
-	l.setAttribute("defer", "defer");
-	l.setAttribute("data-domain", "wiki.vrchat.com");
-	l.setAttribute("event-page-name", mw.config.get("wgTitle"));
-	l.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
-	var u = mw.config.get("wgFormattedNamespaces");
-	l.setAttribute("event-page-namespace", u[mw.config.get("wgNamespaceNumber")]);
-	l.setAttribute("event-theme", mw.config.get("skin"));
-	l.setAttribute("event-action", mw.config.get("wgAction"));
-	l.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
-	var d = mw.config.get("wgUserGroups");
-	var f = d.includes("community-mod") || d.includes("moderator") || d.includes("sysop");
-	l.setAttribute("event-is-maintainer", String(f));
-	l.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
-	document.head.appendChild(l);
+	isPage(["Template:MainPageInfopush", "Main_Page"]) && mw.loader.using(["oojs-ui-core", "oojs-ui-windows"]).then(() => __vitePreload(() => Promise.resolve().then(() => (s(), i)), void 0, {}.url));
+	var c = document.createElement("script");
+	c.setAttribute("defer", "defer");
+	c.setAttribute("data-domain", "wiki.vrchat.com");
+	c.setAttribute("event-page-name", mw.config.get("wgTitle"));
+	c.setAttribute("event-page-language", mw.config.get("wgPageContentLanguage"));
+	var l = mw.config.get("wgFormattedNamespaces");
+	c.setAttribute("event-page-namespace", l[mw.config.get("wgNamespaceNumber")]);
+	c.setAttribute("event-theme", mw.config.get("skin"));
+	c.setAttribute("event-action", mw.config.get("wgAction"));
+	c.setAttribute("event-is-logged-in", String(mw.config.get("wgUserName") !== null));
+	var u = mw.config.get("wgUserGroups");
+	var d = u.includes("community-mod") || u.includes("moderator") || u.includes("sysop");
+	c.setAttribute("event-is-maintainer", String(d));
+	c.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
+	document.head.appendChild(c);
 })();
