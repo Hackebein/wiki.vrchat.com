@@ -1,4 +1,4 @@
-{{#ev:youtube|id={{{id|{{{1|PWLPw4RE9Ig}}}}}}|width={{{width|{{{2|560px}}}}}}|poster={{{thumb|{{{3|File:MissingThumbnail.png}}}}}}}}
+{{#ev:youtube|id={{{id|{{{1|PWLPw4RE9Ig}}}}}}|width={{{width|{{{2|560px}}}}}}|poster={{{thumb|{{{3|File:MissingThumbnail.png}}}}}}|title={{{title|{{{4|}}}}}}}}
 <noinclude>
 == Documentation ==
 Embeds a YouTube video.
@@ -11,7 +11,7 @@ Embeds a YouTube video.
 <hr>
 {{YouTube|PWLPw4RE9Ig|100%}} <nowiki>{{YouTube|PWLPw4RE9Ig|100%}}</nowiki>
 <hr>
-{{YouTube|PWLPw4RE9Ig|thumb=File:VRChat - Create, Share, Play Thumbnail.webp}} <nowiki>{{YouTube|PWLPw4RE9Ig|thumb=File:VRChat - Create, Share, Play Thumbnail.webp}}</nowiki>
+{{YouTube|PWLPw4RE9Ig|title=VRChat - Create, Share, Play|thumb=File:VRChat - Create, Share, Play Thumbnail.webp}} <nowiki>{{YouTube|PWLPw4RE9Ig|title=VRChat - Create, Share, Play|thumb=File:VRChat - Create, Share, Play Thumbnail.webp}}</nowiki>
 
 === Template parameters ===
 {| class="wikitable"
@@ -23,7 +23,9 @@ Embeds a YouTube video.
 |-
 | width  || <code>2</code>|| Width in CSS units (e.g. 200px, 100%), Default: 560px, Recommended for 9 / 16 Ratio: 360px
 |-
-| thumb  || <code>3</code>|| Local file to use as thumbnail. 
+| thumb  || <code>3</code>|| Local file to use as thumbnail
+|-
+| title  || <code>4</code>|| Video title
 |}
 
 [[Category:Templates]]
