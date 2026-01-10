@@ -1,13 +1,9 @@
-<div
-  class="youtube"
-  style="max-width: 100%; aspect-ratio: {{{3|16 / 9}}}; background-color: black; width: {{{2|560px}}}; height: auto; {{{4|}}}"
-  data-video-id="{{{1|PWLPw4RE9Ig}}}"
- ></div>
+{{#ev:youtube|id={{{id|{{{1|PWLPw4RE9Ig}}}}}}|width={{{width|{{{2|560px}}}}}}|poster={{{thumb|{{{3|PWLPw4RE9Ig}}}}}}}}
 <noinclude>
 == Documentation ==
 Embeds a YouTube video.
 
-<nowiki>{{Youtube|id|width|ratio|styles}}</nowiki>
+<nowiki>{{Youtube|id|width|thumb}}</nowiki>
 === Example Usage ===
 {{YouTube|PWLPw4RE9Ig}} <nowiki>{{YouTube|PWLPw4RE9Ig}}</nowiki>
 <hr>
@@ -15,9 +11,7 @@ Embeds a YouTube video.
 <hr>
 {{YouTube|PWLPw4RE9Ig|100%}} <nowiki>{{YouTube|PWLPw4RE9Ig|100%}}</nowiki>
 <hr>
-{{YouTube|qivRiGWcowI|300px|9 / 16}} <nowiki>{{YouTube|qivRiGWcowI|360px|9 / 16}}</nowiki>
-<hr>
-{{YouTube|qivRiGWcowI|30%|9 / 16}} <nowiki>{{YouTube|qivRiGWcowI|20%|9 / 16}}</nowiki>
+{{YouTube|PWLPw4RE9Ig|thumb=File:VRChat - Create, Share, Play Thumbnail.webp}} <nowiki>{{YouTube|PWLPw4RE9Ig|thumb=File:VRChat - Create, Share, Play Thumbnail.webp}}</nowiki>
 
 === Template parameters ===
 {| class="wikitable"
@@ -29,9 +23,7 @@ Embeds a YouTube video.
 |-
 | width  || <code>2</code>|| Width in CSS units (e.g. 200px, 100%), Default: 560px, Recommended for 9 / 16 Ratio: 360px
 |-
-| ratio || <code>3</code>|| Ratio (e.g. 16 / 9, 9 / 16, 1 / 1), Default: 16 / 9
-|-
-| style || <code>4</code>|| Custom CSS styles
+| thumb  || <code>3</code>|| Local file to use as thumbnail. 
 |}
 
 [[Category:Templates]]
