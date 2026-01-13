@@ -29,10 +29,10 @@ See also, '''VRChat Learning Channel's''' [https://www.youtube.com/watch?v=8hqDq
 [[File:Osc debug.png|thumb|Screenshot of OSC debug console.]]
 Displays incoming OSC messages to VRChat, and their values. The OSC console can be found in the [[Special:MyLanguage/Action Menu|Action Menu]] in <code>Options &gt; OSC &gt; OSC Debug</code>. To scroll up and down, you can press <code>Page Up</code>, and <code>Page Down</code> on desktop, or use the scroll bar in VR mode. See also VRChat's [https://docs.vrchat.com/docs/osc-debugging| OSC Debugging page].
 
-==World Debug Console==
+==World Debug Menus==
 {{Noticebox/Update|type=section|Images and information such as using launch options to access are outdated.}}
 
-This console is used to debug your worlds in-game. The Debug UI can be opened by:
+This menu is used to debug your worlds in-game. The Debug UI can be opened by:
 
 *Pressing the <code>Toggle Debug UI</code> button in the Debug section of the Quick Menu settings page.
 *Press <code>Right Shift + Tilde (~) + 1-9</code> with the number corresponding to the menu number <span id="debug-menu-1"></span>you want.
@@ -41,11 +41,11 @@ More information can be accessed at {{VRC link|https://creators.vrchat.com/world
 
 ===Debug Menu 1===
 
-Debug Menu 1 displays information about your connection to the [[VRChat API]].
+Debug Menu 1 displays information about loaded assets.
 [[File:World Debug Menu 1.png|none|thumb|Screenshot of World Debug Menu 1]]
 
 ===Debug Menu 2===
-Debug Menu 2 displays information about the build of VRChat you are using, also shows your frames per second (FPS).
+Debug Menu 2 is default page and displays information about the build of VRChat you are using, and explains the Debug Menu.
 [[File:World Debug Menu 2.png|none|thumb|Screenshot of World Debug Menu 2]]
 
 ===Debug Menu 3 ===
@@ -113,6 +113,13 @@ Debug Menu 8 displays a panel on top of every synced object in the world. Each p
 
 Debug Menu 9 displays a panel near players to display their networking stats.
 [[File:World Debug Menu 9.png|none|thumb|Screenshot of World Debug Menu 9]]
+
+===Debug Menu Performance===
+
+Debug Menu Performance displays selected performance graphs and allows to save them to disk. This menu has no keybind.
+[[File:World Debug Menu Performance.png|none|thumb|Screenshot of World Debug Menu Performance]]
+
+
 ==Official Resources==
 *{{VRC link|https://creators.vrchat.com/worlds/udon/world-debug-views|World Debug View}} page in the VRChat Documentation
 *[https://docs.vrchat.com/docs/osc-debugging| OSC Debugging] page in the VRChat Documentation
