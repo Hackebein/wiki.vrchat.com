@@ -415,6 +415,10 @@ figure[typeof~="mw:File/Thumb"]>a:first-child>:first-child:not(.mw-broken-media)
     background: var(--red);
     color: var(--faux-white);
 }
+.embedvideo-loader__fakeButton {
+    background: var(--less-dark-grey);
+    color: var(--faux-white);
+}
 code {
   border: 1px solid var(--more-dark-grey)
 }
