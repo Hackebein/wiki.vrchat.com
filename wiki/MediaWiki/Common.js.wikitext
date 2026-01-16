@@ -182,4 +182,14 @@
 	c.setAttribute("event-is-maintainer", String(d));
 	c.src = "https://plausible.io/js/script.pageview-props.outbound-links.js";
 	document.head.appendChild(c);
+	var f = "p-userpagetools";
+	function lowercaseFirst(e) {
+		return e.charAt(0).toLowerCase() + e.slice(1);
+	}
+	if (mw.util.isPortletVisible(f)) {
+		var p;
+		let e = lowercaseFirst(mw.config.get("wgPageName").split(":")[1]);
+		mw.util.addPortletLink(f, `https://vrchat.com/home/user/${e}`, "VRChat profile");
+		(p = mw.config.get("wgUserGroups")) != null && p.includes("community-mod") && mw.util.addPortletLink(f, `vrcx://user/${e}`, "VRCX profile").querySelector("a").classList.add("external");
+	}
 })();
