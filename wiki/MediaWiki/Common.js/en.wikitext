@@ -190,6 +190,5 @@
 		var p;
 		let e = lowercaseFirst(mw.config.get("wgPageName").split(":")[1]);
 		mw.util.addPortletLink(f, `https://vrchat.com/home/user/${e}`, "VRChat profile");
-		(p = mw.config.get("wgUserGroups")) != null && p.includes("community-mod") && mw.util.addPortletLink(f, `vrcx://user/${e}`, "VRCX profile").querySelector("a").classList.add("external");
 	}
 })();
