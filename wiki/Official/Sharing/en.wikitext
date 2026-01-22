@@ -1,8 +1,7 @@
 {{Noticebox/Official}}
-{{Noticebox/Stub|Expand with info about sharing pedestals, how to share/what can be shared, vrc+ requirements, etc.}}
 {{Infobox/Feature
 |name=Sharing
-|image=
+|image=Icon_Share.png
 |platforms= PC, Android, iOS
 |vrchatplus= Required for sharing Photos, Prints, Emoji, Stickers, and UI Themes.
 |branch_live_date = October 9, 2024
@@ -13,6 +12,53 @@
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202433-openbeta#september-26---build-1514 2024.3.3 Open Beta]
 }}
 
-'''Sharing''' is a feature that allows users to share content with other users. 
+'''Sharing''' is a feature that allows users to share content with other users. Content can be shared via Sharing Pedestals, directly sent to users, or from URL's.
+
+==Types of content==
+Content that can be shared are designated by the share icon ([[File:Icon Share.png|alt=|24px|link=|middle]]) and include:
+* [[Inventory]] content
+** [[Inventory#Photo Gallery|Photos]]
+** [[Prints]]
+** Custom [[Emojis|Emoji]]
+** Custom [[Stickers]]
+** [[Inventory#UI Themes|UI Themes]]
+
+* [[Groups]]
+* [[Calendar#Events|Events]]
+
+==Types of sharing==
+===Pedestals===
+[[File:SharingPedestal.webp|thumb|A "Sharing Pedestal" sharing a UI Theme.]]
+Sharing Pedestals is one of the ways content can be shared. Users can place these in the world, and has a configurable duration and visibility options. The pedestals' appearance is designed with the shared content appearing in a bubble, above an upside down glowing disc cone-shaped object. 
+
+Content that can be shared on Pedestals are Photos, Custom Emoji & Stickers, UI Themes, Groups, and Events.
+
+Pedestals options include:
+* Duration
+** 90 Seconds
+** Until I leave the instance
+* Visibility
+** Public: Anyone in the instance can view the pedestal
+** Friends: Only friends can view the pedestal
+** Group: Only users who are in selected groups within the instance can view the pedestal
+
+When spawned, the shared content will always be facing you. The shared content can be clicked by other user's, and when clicked it will either save a copy of the content into the user's inventory or view the content, depending on the type of content. 
+
+Underneath the pedestal, there is a button with three dots, when clicked the user have options to either hide the content, delete, or report the user that shared the pedestal. The user that spawned the pedestal, also has the ability to move the pedestal. 
+
+Pedestals can be deleted by the user that spawned it, or by user's in the [[Instances|instance]] that have specific permissions; "Moderate Group Instances" for Group instances or being the instance owner. Pedestals can also be disabled instance wide, via [[Instance#Instance settings|Instance Settings]].
+
+===Direct Share===
+User's can direct share content to other user's. The shared content will appear as a notification in the Other tab. The receiving user can view the content, view the sender's profile, clear the notification or block the sender of the shared content.
+
+Content shared with Direct Share can only be shared with users within the same instance and are limited to Photos, Custom Emoji & Stickers, UI Themes, Groups, and Events content types.
+
+===Print, Drop Print & Copy URL===
+''See also [[Special:MyLanguage/Prints|Prints]] for more detailed information.''
+
+These sharing types are exclusive to Prints. The "Print" sharing type is under Photo Gallery of the Inventory, while "Drop Print", and "Copy URL" is under Prints.
+
+Print allows the user to print a photo from their Photo Gallery. User's can use "Drop Print" to drop a print into the instance; they can be picked up by other users. Copy URL allows the user to copy the print URL, and share them with others. The URL opens the print file image from the [[VRChat API]].
+
 
 [[Category:Features{{#translation:}}]]
