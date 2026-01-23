@@ -1,10 +1,11 @@
-<!-- Dear translators: Good luck! ~DAG -->
-{{Template:Navbox/Developer_Updates}}{{Noticebox/Official}}'''VRChat Developer Updates''', or "Dev Updates" are public announcements directed to VRChat users by the VRChat Team, acknowledging information on upcoming or recent features or changes, product releases, current and future [[Special:MyLanguage/Events|events]] and partnerships, or addressing community feedback. 
+{{Noticebox/Official}}{{Noticebox/wip|VRCWiki [[VRCWiki:Team|Maintainers]] are filling in, and sorting summary notes. Thank you for your patience.}}{{Stub|You can [[VRCWiki:How to Contribute|contribute]] by expanding and proofreading this page, in reference to the [[VRCWiki:Manual_of_Style|Manual of Style]].}}
+
+'''VRChat Developer Updates''', or "Dev Updates" are public announcements directed to VRChat users by the VRChat Team, acknowledging information on upcoming features or changes, product releases, current and future [[events]] or partnerships, or addressing community feedback. 
 
 ==Overview==
 Developer Updates are always posted to the [https://ask.vrchat.com/c/official/31 Ask Forums] and sometimes additionally on [https://www.youtube.com/@VRChat/videos YouTube], once every other Thursday to cover patch notes, or announcements. Past developer updates took the form of either a blog post, or video format. However, modern developer updates are often streamlined to include both.
 
-When the VRChat client receives an update, an [[Special:MyLanguage/Open Beta|Open Beta]] branch, or an announcement regarding server issues, an announcement will typically be posted on their respective [[Special:MyLanguage/Discord servers|Discord servers]], but alternatively can appear on their social media profiles. Developer Updates will summarize any releases that happen between posts.
+When the VRChat client receives an update, an [[Open Beta]] branch, or an announcement regarding server issues, an announcement will typically be posted on their respective [[Discord servers]], but alternatively can appear on their social media profiles. Developer Updates will summarize any releases that happen between posts.
 
 ==History==
 
@@ -24,17 +25,18 @@ VRChat have posted their Developer Updates on the following outlets over the yea
 
 '''Format:''' The media format that the Developer Update was published in; text format, and/or video format.
 
-'''Implemented:''' These describe new additions, and changes or updates (patchnotes), for features within the [[Special:MyLanguage/VRChat SDK|VRChat SDK]], VRChat websites, or the VRChat client or app.
+'''Summary:''' Information that was announced in a previous Developer Update, that has not yet been categorized into the "Implemented", "Reminder", or "Announced" columns.
 
-'''Reminders:''' Summarizes recurring announcements, as well as content that may not be 'official VRChat news'.
+'''Implemented:''' These describe new additions, and changes or updates (patchnotes), for features within the [[VRChat SDK]], VRChat websites, or the VRChat client.
+
+'''Reminders:''' Summarizes content that may not be 'news', as well as recurring announcements.
 
 '''Announced:''' This column contains content means that a feature, feature update, or event was announced, and was not yet released or available at the time of the announcement.
 <hr>
 
 === 2026 ===
-{{Noticebox/Update|type=section|Please update the table and gallery, as updates are published on VRChat's Blog, Steam, and the Ask Forums.}}
-{| class="wikitable"
-|+ style="white-space: nowrap" | All developer updates for 2026.
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2025. Click "Expand" to show this table!
 |-
 |+
 !Date
@@ -44,41 +46,6 @@ VRChat have posted their Developer Updates on the following outlets over the yea
 !Reminders
 !Announced
 |-
-|March 19
-|2026.1.3<ref>[https://docs.vrchat.com/docs/vrchat-202613 "VRChat 2026.1.3"] on ''[[docs.vrchat.com]]''. Dated March 18, 2026. Retrieved March 19, 2026.</ref>
-|Text<ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 "Developer Update - 19 March 2026"] on ''[[ask.vrchat.com]]''. Dated March 19, 2026. Retrieved March 19, 2026.</ref>
-|[[Accessories|Avatar Accessories]], custom loading screens, [[Impostors|impostor]] updates, Box-shaped [[Avatar Dynamics#Contacts|Contacts]] details. Avatar raycasting follow-up (custom layer feedback).
-|[[Space Jam 2026|Space Jam 3]] submissions until April 5.
-|Box-shaped [[Avatar Dynamics#Contacts|Contacts]], [[VRCTween]], [[Soba]], [[Avatar Performance Ranking|avatar optimizer]], world analytics, global [[PhysBones]] colliders. Also, Creators Roadmap (March 2026)<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 "VRChat Creators Roadmap (March 2026)"] on ''[[ask.vrchat.com]]''. Dated March 19, 2026. Retrieved March 19, 2026.</ref>.
-|-
-|March 5
-|2026.1.2<ref>[https://docs.vrchat.com/docs/vrchat-202612 "VRChat 2026.1.2"] on ''[[docs.vrchat.com]]''. Dated February 24, 2026. Retrieved March 5, 2026.</ref>
-|Text<ref>[https://ask.vrchat.com/t/developer-update-5-march-2026 "Developer Update - 5 March 2026"] on ''[[ask.vrchat.com]]''. Dated March 5, 2026. Retrieved March 5, 2026.</ref>, Video<ref>[https://www.youtube.com/watch?v=OKmm4bK4xQY "VRChat x Rabbids: Shop Takeover!"] on ''[https://youtube.com/@VRChat YouTube]''. Dated March 5, 2026. Retrieved March 5, 2026.</ref><ref>[https://www.youtube.com/watch?v=bnDdmJNmHrM "the blurple app brought their friends over and they are yours | VRChat Patch Notes 2026.1.2"] on ''[https://youtube.com/@VRChat YouTube]''. Dated February 24, 2026. Retrieved March 5, 2026.</ref>
-|Discord friends integration, Event Instance linking, "Is It NOT Thursday" clock added to Quick Menu, added "Random" option to Cosmetics and Inventory tab, Rabbids x VRChat Shop collaboration
-|Sanrio Fest until March 8<ref>[https://bsky.app/profile/vrchat.com/post/3mgb2ovspg22v "#SanrioVfes is ongoing until Mar 8 (JST)!"] posted by VRChat on ''[https://bsky.app/profile/vrchat.com Bluesky]''. Dated March 4, 2026. Retrieved March 6, 2026.</ref>, Space Jam 3 submissions until April 5
-|Impostors improvements, avatar raycasting in the SDK, exposing VRC+ to Udon
-|-
-|February 19
-|2026.1.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202611p2 "VRChat 2026.1.1p2"] on ''[[docs.vrchat.com]]''. Dated February 12, 2026. Retrieved February 19, 2026.</ref>
-|Text<ref>[https://ask.vrchat.com/t/developer-update-19-february-2026 "Developer Update - 19 February 2026"] on ''[[ask.vrchat.com]]''. Dated February 19, 2026. Retrieved February 19, 2026.</ref><ref>[https://ask.vrchat.com/t/space-jam-3-is-here-feb-18-apr-5-2026 "Space Jam 3 is Here! Feb 18 - Apr 5 2026"] on ''[[ask.vrchat.com]]''. Dated February 18, 2026. Retrieved February 19, 2026.</ref>, Video<ref>[https://www.youtube.com/watch?v=R3NCRAneZ_g "Lunar New Year 2026 VRChat Shop Update"] on ''[https://youtube.com/@VRChat YouTube]''. Dated February 17, 2026. Retrieved February 19, 2026.</ref>
-|[[Special:MyLanguage/Template:VRChatStoreListings/2026/Lunar_New_Year|Lunar New Year]] [[Special:MyLanguage/Shop|Shop]] listings, [[Special:MyLanguage/Community:Group Fair|Group Fair 2026]], Toon Standard render queue is set to opaque
-|N/A
-|[[Special:MyLanguage/Space Jam 2026|Space Jam 2026]], Group Event instance linking coming to 2026.1.2, repeating events
-|-
-|February 5
-|2026.1.1p1<ref>[https://docs.vrchat.com/docs/copy-of-vrchat-202611 "VRChat 2026.1.1p1"] on ''[[docs.vrchat.com]]''. Dated February 2, 2026. Retrieved February 6, 2026.</ref>
-|Text<ref>[https://ask.vrchat.com/t/developer-update-5-february-2026/47764 "Developer Update - 5 February 2026"] on ''[[ask.vrchat.com]]''. Dated February 5, 2026. Retrieved February 6, 2026.</ref>
-|Third-person view in A/B Test, February 2026 Shop Update, Group Public Instances Fix, Creators Improvements, and Website Updates.
-|N/A
-|N/A
-|-
-|January 27
-|2026.1.1<ref>[https://docs.vrchat.com/docs/vrchat-202611 "VRChat 2026.1.1"] on ''[[docs.vrchat.com]]''. Dated January 27, 2026. Retrieved February 1, 2026.</ref>
-|Text<ref>[https://store.steampowered.com/news/app/438100/view?emclan=103582791457096143&emgid=519736513892715867 "Release 2026.1.1 is now Live!"] on ''[https://store.steampowered.com/news/app/438100/view Steam]''. Dated January 27, 2026. Retrieved February 1, 2026.</ref>, Video<ref>[https://www.youtube.com/watch?v=X0CPD-opZoM "just a little guy to start the year | VRChat Patch Notes 2026.1.1"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated January 27, 2026. Retrieved February 1, 2026.</ref>
-|Double World Favorites for VRC+, Group Auto Invites, Live Now tab, and Group progress bar.
-|N/A
-|N/A
-|-
 |January 22
 |2025.4.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202542p1 "VRChat 2025.4.2p1"] on ''[[docs.vrchat.com]]''. Dated December 10, 2025. Retrieved January 23, 2026.</ref>
 |Text<ref>[https://ask.vrchat.com/t/developer-update-22-january-2026 "Developer Update - 22 January 2026"] on ''[[ask.vrchat.com]]''. Dated January 22, 2026. Retrieved January 23, 2026.</ref>
@@ -87,51 +54,1753 @@ VRChat have posted their Developer Updates on the following outlets over the yea
 |Central Marketplace live previews (3D renders), Inventory cosmetic random selection
 |}
 
-=== 2026 gallery ===
-<gallery>
-File:Steam01272026.webp|"Release 2026.1.1 is now LIVE!", from January 27.
-File:VRChat01222026.webp|"Developer Update - 22 January 2026"
-File:VRChat02052026.webp|"Developer Update - 5 February 2026"
-File:VRChat02192026.webp|"Developer Update - 19 February 2026"
-File:VRChat03052026.webp|"Developer Update - 5 March 2026"
-</gallery>
-
-== Previous years ==
-
 === 2025===
-''See [[Special:MyLanguage/2025 in VRChat updates|2025 in VRChat updates]] for all detailed information.''
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2026. Click "Expand" to show this table!
+|-
+|+
+!Date
+!Build
+!Format
+!Implemented
+!Reminders
+!Announced
+|-
+|December 19
+|2025.4.2p1
+|Text<ref>[https://hello.vrchat.com/blog/trust-safety-update-2025 "Safety, Freedom, and the Future of VRChat"] on ''[[hello.vrchat.com]]''. Dated December 19, 2025. Retrieved January 23, 2026.</ref>, Video<ref>[https://www.youtube.com/watch?v=PQaeFS0Wfr8 "Safety, Freedom, and the Future of VRChat"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated December 19, 2025. Retrieved January 23, 2026.</ref>
+|Trust & Safety updates
+|Addressing user behavior
+|More Trust & Safety updates, improved user experience
+|-
+|December 18
+|2025.4.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202542p1 "VRChat 2025.4.2p1"] on ''[[docs.vrchat.com]]''. Dated December 10, 2025. Retrieved January 23, 2026.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-december-18-2025 "Developer Update - 18 December 2025"] on ''[[ask.vrchat.com]]''. Dated December 18, 2025. Retrieved January 23, 2026.</ref>
+|Removed "Explore" tab under avatar menu, VCC 2.4.5
+|NYE 2026, disclosures on Trust & Safety moderation and content removal
+|Doubled VRC+ world favorites, reduced name change cooldown for VRC+
+|-
+|December 4
+|2025.4.2<ref>[https://docs.vrchat.com/docs/vrchat-202542 "VRChat 2025.4.2"] on ''[[docs.vrchat.com]]''. Dated December 3, 2025. Retrieved January 23, 2026.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-4-december-2025 "Developer Update - 4 December 2025"] on ''[[ask.vrchat.com]]''. Dated December 4, 2025. Retrieved January 23, 2026.</ref>, Video<ref>[https://www.youtube.com/watch?v=_rpJ2F_ax9Q "You've been waiting 1,811 days for this | VRChat Patch Notes 2025.4.2"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated December 4, 2025. Retrieved January 23, 2026.</ref>
+|Steam Audio, Item Dynamic components
+|NYE 2026 submissions (posters, venue logos, Entertainment Network)
+|VKet Winter 2025, VRChat Success Stories: SpookyGhostBoo!, addressing creator feedback
+|-
+|November 20
+|2025.4.1p1<ref>[https://docs.vrchat.com/docs/vrchat-202541p1 "VRChat 2025.4.1p1"] on ''[[docs.vrchat.com]]''. Dated November 19, 2025. Retrieved January 23, 2026.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-november-20-2025 "Developer Update - 20 November 2025"] on ''[[ask.vrchat.com]]''. Dated November 20, 2025. Retrieved January 23, 2026.</ref>
+|Creator Roadmap<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-november-2025 "VRChat Creators Roadmap (November 2025)"] on ''[[ask.vrchat.com]]''. Dated November 20, 2025. Retrieved January 23, 2026.</ref> update, 2025.4.2 Open Beta, Third-Person View Beta
+|November 2025 Content Drop (Wizard)
+|[[Special:MyLanguage/New Years Eve 2026|NYE 2026]] submissions ([[Special:MyLanguage/New Years Eve 2026 Posters|posters]], venue logos, Entertainment Network)
+|-
+|November 6
+|2025.4.1<ref>[https://docs.vrchat.com/docs/vrchat-202541 "VRChat 2025.4.1"] on ''[[docs.vrchat.com]]''. Dated November 3, 2025. Retrieved January 23, 2026.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-6-november-2025 "Developer Update - 6 November 2025"] on ''[[ask.vrchat.com]]''. Dated November 5, 2025. Retrieved January 23, 2026.</ref>, Video<ref>[https://www.youtube.com/watch?v=o7ePJXQjD34 "you can be a wizard in vrchat now | November 2025 Content Drop"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated November 6, 2025. Retrieved January 23, 2026.</ref>
+|November 2025 Content Drop (Wizard), Groan Tube, SDK fixes
+|Steam Audio beta tweaks
+|Event and Group [[Special:MyLanguage/Sharing|sharing]]
+|-
+|October 23
+|2025.3.4
+|Text<ref>[https://hello.vrchat.com/blog/vrchat-mobile-release "VRChat is Now Available on iOS and Android!'] on ''[https://hello.vrchat.com/blog VRChat's Blog]'' at ''[[hello.vrchat.com]]''. Dated October 24, 2025. Retrieved October 25, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=yRafChFjvUk "VRChat Animated Trailer: iOS + Android Now Live!"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated October 24, 2025. Retrieved October 25, 2025.</ref>
+|VRChat released on [[Special:MyLanguage/Platforms|iOS and Android]]. Animated trailer by Studio Meala<ref>[https://studiomeala.com/ "Studio Meala" home page] at ''studiomeala.com''.</ref>
+|N/A
+|N/A
+|-
+|October 23
+|2025.3.4
+|Text<ref>[https://ask.vrchat.com/t/developer-update-23-october-2025 "Developer Update - 23 October 2025"] on ''[[ask.vrchat.com]]''. Dated October 23, 2025. Retrieved October 23, 2025.</ref>
+|2025.4.1 Open Beta, logging into VRChat via Discord
+|Updated to SDK 3.9.0, complete [[Candy Quest 2025]]
+|[[Spookality 2025]] winners, Steam Audio experimentation, VRChat server tweaks following AWS outage
+|-
+|October 16
+|2025.3.4
+|Text<ref>[https://hello.vrchat.com/blog/vrchat-joins-the-tech-coalition-to-strengthen-child-safety-online "VRChat Joins the Tech Coalition to Strengthen Child Safety Online"] on ''[https://hello.vrchat.com/blog VRChat's Blog]'' at ''[[hello.vrchat.com]]''. Dated October 16, 2025. Retrieved October 17, 2025.</ref>
+|N/A
+|N/A
+|"VRChat Joins the Tech Coalition<ref>[https://technologycoalition.org/ "Technology Coalition"] - Main Website, at ''technologycoalition.org''. Retrieved October 17, 2025.</ref> to Strengthen Child Safety Online"
+|-
+|October 14
+|2025.3.4<ref>[https://docs.vrchat.com/docs/vrchat-202534 "VRChat 2025.3.4"] on ''[[docs.vrchat.com]]''. Dated October 14, 2025. Retrieved October 17, 2025.</ref>
+|Text<ref>[https://hello.vrchat.com/candy-quest "Candy Quest"] on ''[https://hello.vrchat.com/candy-quest VRChat's website]'' at ''[[hello.vrchat.com]]''. Dated October 14, 2025. Retrieved October 17, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=NPYddfejSHc "The Shop, Spookality... CUTE CAT?! VRChat Patch Notes 2025.3.4"] on ''YouTube''. Dated October 14, 2025. Retrieved October 17, 2025.</ref><ref>{https://www.youtube.com/watch?v=g6igK2nAt28 "Spookality 2025 | Companions, Portal Customization, Emojis & Stickers!"] on ''YouTube''. Dated October 16, 2025. Retrieved October 17, 2025.</ref>
+|[[Candy Quest 2025]], Candy Codex, Kath, Treats, Candy Codex Completionist [[Special:MyLanguage/Badges|badge]], [[Shop]], Companions, Portal Customization, Spookality emoji and stickers
+|N/A
+|Candy Quest 2025
+|-
+|October 10
+|2025.3.3
+|Text<ref>{https://ask.vrchat.com/t/developer-update-10-october-2025 "Developer Update - 10 October 2025"] on ''[[ask.vrchat.com]]''. Dated October 10, 2025. Retrieved October 10, 2025.</ref>
+|[[Spookality 2025]], SDK 3.9.0, 2025.3.4 [[Open Beta]], [[Shop]],
+|Uploading avatar projects on pre-3.9.0 SDKs will be blocked soon
+|Improved World Debug UI, removing [[Public Avatars|Legacy avatar row]]
+|-
+|September 25
+|2025.3.3<ref>[https://docs.vrchat.com/docs/vrchat-202533 "VRChat 2025.3.3"] on ''[[docs.vrchat.com]]''. Dated September 22, 2025. Retrieved September 25, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-25-september-2025 "Developer Update - 25 September 2025"] on ''[[ask.vrchat.com]]''. Dated September 25, 2025. Retrieved September 25, 2025.</ref><ref>[https://hello.vrchat.com/blog/vrchat-trust-and-minor-safety "Our Commitment to Enhance User Trust and Safety"] on ''[https://hello.vrchat.com/blog VRChat's Blog]'' at ''[[hello.vrchat.com]]''. Dated September 24, 2025. Retrieved September 25, 2025.</ref>
+|[[Community Guidelines]] revision
+|Remarks regarding password sharing, clarifications on VRChat hotlinking images
+|[[Spookality 2025]] Jam announcement, Discord platform accounts and linking, UserTesting research; [[PhysBones]], Contacts and VRChat Constraints to the Worlds [[SDK]] in closed beta
+|-
+|September 11
+|2025.3.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202532p1 "VRChat 2025.3.2p1"] (Build 1696) on ''[[docs.vrchat.com]]''; Dated September 3, 2025, retrieved September 12, 2025.</ref>
+|Text
+|2025.3.3 Open Beta, Instance naming, OSC Camera Endpoints, Selfie Expression available for everyone
+|N/A
+|Avatar Marketplace filters, Marketplace Product sorting, upcoming Jam
+|-
+|August 28
+|2025.3.2<ref>[https://docs.vrchat.com/docs/vrchat-202532 "VRChat 2025.3.2"] (Build 1695) on ''[[docs.vrchat.com]]''; Dated August 27, 2025. Retrieved September 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-28-august-2025 "Developer Update - 28 August 2025"] on ''[[ask.vrchat.com]]''; Dated August 28, 2025. Retrieved September 1, 2025.</ref>
+|Unity cloth limits, Steam Audio beta update, Avatar Marketplace "New" row, 2FA fix
+|Notes on security and internal testing
+|Bigscreen Beyond 2e and VRC+ giveaway, AutoHold update
+|-
+|August 14
+|2025.3.1p1<ref>[https://docs.vrchat.com/docs/vrchat-202531 "VRChat 2025.3.1p1"] (Build 1681) on ''[[docs.vrchat.com]]''; Dated August 7, 2025. Retrieved September 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-14-august-2025 "Developer Update - 14 August, 2025"] on ''[[ask.vrchat.com]]''; Dated August 14, 2025. Retrieved September 1, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=0efv70s2xmU "Event Calendar, Summer Content Drop, and More! VRChat Patch Notes 2025.3.1"] on ''YouTube''. Dated August 7, 2025. Retrieved September 1, 2025.</ref>
+|N/A
+|Film Jam
+|Complete SDK2 deprecation, avatar ID generation, addressing Avatar Marketplace UX issues
+|-
+|July 31
+|2025.2.3
+|Text<ref>[https://ask.vrchat.com/t/developer-update-31-july-2025 "Developer Update - 31 July 2025"] on ''[[ask.vrchat.com]]''. Dated July 31, 2025. Retrieved September 1, 2025.</ref>
+|2025.3.1 Open Beta, "Days in VRChat" clock option, web updates
+|Creator Roadmap updated
+|<small>[[Film Jam 2025]], Camera tooltips, Microphone Test button, reduced menu animation option, World SDK adding physbones and constraints and contacts, Avatar Marketplace pedestals</small>
+|-
+|July 17
+|2025.2.3
+|Text<ref>[https://ask.vrchat.com/t/developer-update-17-july-2025 "Developer Update - 17 July 2025"] on ''[[ask.vrchat.com]]''. Dated July 17, 2025. Retrieved September 1, 2025.</ref>
+|Account age badges, group events calendar
+|Summer Festival Jam
+|Bigscreen Beyond 2e VRChat Edition pre-orders, upcoming "camera" jam"
+|-
+|July 16
+|2025.2.3
+|Text<ref>[https://hello.vrchat.com/blog/announcing-the-bigscreen-beyond-2-vrchat-edition "Announcing the Bigscreen Beyond 2e: VRChat edition"] on ''[[hello.vrchat.com]]''. Dated July 16, 2025. Retrieved September 13, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=iZ4hPV6ExuQ "Bigscreen Beyond 2e x VRChat Edition – Deep Dive with the VRChat Team on VR's Past, Future & Beyond"], published by [https://www.youtube.com/@BigscreenVR Bigscreen] on ''YouTube''. Dated July 16, 2025. Retrieved September 13, 2025.</ref>
+|N/A
+|N/A
+|[[Wikipedia:Bigscreen Beyond|Bigscreen Beyond]]<ref>[https://www.bigscreenvr.com/ "Bigscreen VR official website"], at ''bigscreenvr.com''. Retrieved September 13, 2025.</ref> 2e: VRChat edition pre-orders
+|-
+|June 26
+|2025.2.3<ref>[https://docs.vrchat.com/docs/vrchat-202523 "VRChat 2025.2.3"] (Build 1664) on ''[[docs.vrchat.com]]''. Dated June 24, 2025. Retrieved September 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-26-june-2025 "Developer Update - 26 June 2025"] on ''[[ask.vrchat.com]]''. Dated June 26, 2025. Retrieved September 1, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=qY0Uvho2AOY "Inventory, Content Drops, Items! VRChat Patch Notes 2025.2.3"] on ''YouTube''. Dated June 24, 2025. Retrieved September 1, 2025.</ref>
+|VCC 2.5.0 Open Beta, [[Inventory]], [[Items]], Rainbow Ribbon, Reference Cube, web updates
+|Trans Lifeline charity fundraiser increased to $100,000, 2014 patchnotes
+|Upcoming 'content drops' for stickers, and items.
+|-
+|June 6
+|2025.2.2p2<ref>[https://docs.vrchat.com/docs/vrchat-202522p2 "VRChat 2025.2.2p2"] (Build 1650) on ''[[docs.vrchat.com]]''. Dated June 6, 2025. Retrieved September 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-6-june-2025 "Developer Update - 6 June 2025"] on ''[[ask.vrchat.com]]''. Dated June 6, 2025. Retrieved September 1, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=VxPVHUtOCnI "Avatar Marketplace & More! | 2025.2.2 VRChat Patch Notes"] on ''YouTube''. Dated June 2, 2025. Retrieved September 1, 2025.</ref><ref>[https://www.youtube.com/watch?v=yG6h2G8Di7k "Celebrate Pride Month 2025 with Us in #VRChat!"] on ''YouTube''. Dated May 28, 2025. Retrieved September 1, 2025.</ref>
+|[[Pride Month 2025]], Pride Badge, [[Avatar Marketplace]], web updates
+|Trans Lifeline Charity fundraiser, [[Community:Furality Online Xperience|Furality]] dev panel
+|Upcoming Creator Roadmap
+|-
+|May 22
+|2025.2.1
+|Text<ref>[https://ask.vrchat.com/t/developer-update-22-may-2025 "Developer Update - 22 May 2025"] on ''[[ask.vrchat.com]]''. Dated May 22, 2025. Retrieved May 23, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=MWH1RA3bEz0 "Introducing the Avatar Marketplace | VRChat Developer Update"] on ''YouTube''. Dated May 14, 2025. Retrieved May 23, 2025.</ref>
+|[[Creator Economy#Avatar Marketplace|Avatar Marketplace]] Open Beta, web updates
+|Pride month community collaboration, [[Community:CyanTrigger|CyanTrigger]] incompatibility
+|Summer Festival Jam
+|-
+|May 8
+|2025.2.1<ref>[https://docs.vrchat.com/docs/vrchat-202521 "VRChat 2025.2.1"] (Build 1626) on ''[[docs.vrchat.com]]''. Dated April 30, 2025. Retrieved May 23, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-8-may-2025 "Developer Update - 8 May 2025"] on ''[[ask.vrchat.com]]''. Dated May 8, 2025. Retrieved May 23, 2025.</ref>
+|2025.2.1, VRCSDK 3.8.1 Open Beta
+|Pride Month community collaboration, Persistence data loss
+|VRChat Learning Channel revamp
+|-
+|April 24
+|2025.1.3
+|Text<ref>[https://ask.vrchat.com/t/developer-update-april-24-2025 "Developer Update - April 24 2025"] on ''[[ask.vrchat.com]]''. Dated April 24, 2025. Retrieved April 26, 2025.</ref>
+|SDK Open Beta for more Udon settings, and toon shader, Build & Test for iOS, Thai language support
+|Website bug fixes
+|Pride Month community collaboration, upcoming network-incompatible release, VCC update
+|-
+|April 10
+|2025.1.3
+|Text<ref>[https://ask.vrchat.com/t/developer-update-april-10-2025/42765 "Developer Update - April 10 2025"] on ''[[ask.vrchat.com]]''. Dated April 10, 2025. Retrieved April 26, 2025.</ref>
+|VRC+ Tenure badges
+|User research survey, Instance settings feedback
+|Pronouns on profiles, profile editor, Space Jam winners soon, VCC updates
+|-
+|March 27
+|2025.1.3<ref>[https://docs.vrchat.com/docs/vrchat-202513 "VRChat 2025.1.3"] (Build 1606) on ''[[docs.vrchat.com]]''. Dated March 26, 2025. Retrieved April 26, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-march-27-2025 "Developer Update - March 27 2025"] on ''[[ask.vrchat.com]]''. Dated March 27, 2025. Retrieved April 26, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=CHt6VsK9STk "Desktop Face Tracking, Camera Drone and Dolly! - VRChat Release 2025.1.3"] on ''YouTube''. Dated March 26, 2025. Retrieved April 26, 2025.</ref>
+|<small>2025.1.3, Camera Drone, Camera Dolly, Selfie Expression, Instance Settings,  VRC+ Tenue badges, Space Jam 2025, Thai language support, updated Main Menu, reduced voice latency</small>
+|Website bug fixes, 2FA fixes
+|Venice Immersive world submissions
+|-
+|March 13
+|2025.1.2
+|Text
+|SDK 3.7.6, 2025.1.3 Open Beta, [[Camera Drone|Camera Drone,]] [[Selfie Expression]], Instance Settings
+|N/A
+|Steam Audio Open Beta
+|-
+|February 27
+|2025.1.2<ref>[https://docs.vrchat.com/docs/vrchat-202512 "VRChat 2025.1.2"] (Build 1585) on ''[[docs.vrchat.com]]''. Dated February 20, 2025. Retrieved February 27, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-27-february-2025 "Developer Update - 27 February 2025"] on ''[[ask.vrchat.com]]''. Dated February 27, 2025. Retrieved on February 27, 2025.</ref>, Video<ref>[https://youtube.com/watch?v=lMA0tn8F3aE "Main Menu, Age Verification Updates + More! 2025.1.2 VRC Patch Notes"] on ''YouTube''. Dated February 20, 2025. Retrieved February 27, 2025.</ref>
+|"Avatar Gallery" on website
+|'World input fields' bug, Soba development
+|[[Space Jam 2025]]
+|-
+|February 13
+|2025.1.1p1<ref>[https://docs.vrchat.com/docs/vrchat-202511p1 "VRChat 2025.1.1p1"] (Build 1568) on ''[[docs.vrchat.com]]''. Dated February 4, 2025. Retrieved February 27, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-13-february-2025 "Developer Update - 13 February 2025"] on ''[[ask.vrchat.com]]''. Dated February 13, 2025. Retrieved February 15, 2025.</ref>
+|2025.1.2 Open Beta, Camera Dolly Open Beta, Build & Test for Quest and Android, [[Impostors]] 1.2.0, Very Poor avatars on Mobile
+|World Jam announcement ([[Space Jam]])
+|SDK avatar optimizer, World SDK Linux support
+|-
+|January 30
+|2025.1.1<ref>[https://docs.vrchat.com/docs/vrchat-202511 "VRChat 2025.1.1"] (Build 1567) on ''[[docs.vrchat.com]]''. Dated January 29, 2025. Retrieved January 29, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-30-january-2025 "Developer Update - 30 January 2025"] on ''[[ask.vrchat.com]]''. Dated January 30, 2025. Retrieved January 30, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=fYC2FgzKuaY "The first VRChat patch of the year -- 2025.1.1!"] on ''YouTube''. Dated January 29, 2025. Retrieved January 29, 2025.</ref>
+|Age Verification for VRC+, SDK UI changes, Multi-Platform build automation
+|World Jam announcement ([[Space Jam]])
+|Main Menu updates, HTC VIVE avatars
+|-
+|January 28
+|2024.4.2
+|Text<ref>[https://hello.vrchat.com/blog/age-verification 'Age Verification Now Available for VRC+ Subscribers'] on ''hello.vrchat.com''; retrieved January 29, 2025.</ref>
+|Age Verification, VRC+
+|N/A
+|N/A
+|-
+|January 16
+|2024.4.2<ref>[https://docs.vrchat.com/docs/vrchat-202442 "VRChat 2024.4.2"] (Build 1552) on ''[[docs.vrchat.com]]''. Dated December 5, 2024. Retrieved December 12, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-16-january-2025/39210 "Developer Update - 16 January 2025"] on ''[[ask.vrchat.com]]''. Dated January 16, 2025. Retrieved January 29, 2025.</ref>
+|N/A
+|World Jam announcement ([[Space Jam]]), User research surveys
+|Applications for Creator Showcase, DK2 upload depreciation, changes for logging
+changes for Age Verification
+|}
 
 ===2024===
-''See [[Special:MyLanguage/2024 in VRChat updates|2024 in VRChat updates]] for all detailed information.''
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2024. Click "Expand" to show this table!
+|+
+!Date
+!Build
+!Format
+!Implemented
+!Reminders
+!Announced
+|-
+|December 12
+|2024.4.2<ref>[https://docs.vrchat.com/docs/vrchat-202442 "VRChat 2024.4.2"] (Build 1552) on ''[[docs.vrchat.com]]''. Dated December 5, 2024. Retrieved December 12, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-december-12-2024/ "Developer Update' - December 12 2024"] on ''[[ask.vrchat.com]]''. Dated December 12, 2024. Retrieved December 12, 2024</ref>, Video<ref>[https://www.youtube.com/watch?v=xMoAacoDfjk "Age Verification, Prints, Gift Drops and MORE | VRChat Patch Notes 2024.4.2"] on ''YouTube''. Dated December 5, 2024. Retrieved December 12, 2024.</ref><ref>[https://www.youtube.com/watch?v=lzG9IwmM7TI "VRChat Age Verification Improvements"] on ''YouTube''. Dated December 10, 2024. Retrieved December 12, 2024.</ref>
+|Age verification, Prints, Gift drops, Persistence, One-time purchases
+|NYE, Creator roadmap
+|[[Merchandise|VRRat Plush]], 2024 recap, World Jam announcement ([[Space Jam]])
+|-
+|November 27
+|2024.4.1p5<ref>[https://docs.vrchat.com/docs/vrchat-202441p5 "VRChat 2024.4.1p5"] (Build 1539) on ''[[docs.vrchat.com]]''. Dated November 27, 2024. Retrieved November 27, 2024.</ref>
+|Video<ref>[https://www.youtube.com/watch?v=odiNjIFUNvw "Introducing Age Verification | Developer Update #vrchat"] on ''YouTube''. Dated November 27, 2024. Retrieved November 27, 2024.</ref>
+|[[Age verification]]
+|N/A
+|N/A
+|-
+|November 25
+|2024.4.1p4<ref>[https://docs.vrchat.com/docs/vrchat-202441p4 VRChat 2024.4.1p4] (Build 1538) on ''[[docs.vrchat.com]]''. Dated November 22, 2024. Retrieved November 25, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-25-november-2024 "Developer Update - 25 November 2024"] on ''[[ask.vrchat.com]]''. Dated November 25, 2024. Retrieved November 25, 2024.</ref>
+|Persistence, One-time purchases 
+|N/A
+|[https://ask.vrchat.com/t/vrchat-creators-roadmap-november-2024 VRChat Creators Roadmap], [[Soba]]
+|-
+|November 14
+|2024.4.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202441p2 "VRChat 2024.4.1p2"] (Build 1535) on ''[[docs.vrchat.com]]''. Dated November 13, 2024. Retrieved November 25, 2024.</ref> 
+|Text<ref>[https://ask.vrchat.com/t/developer-update-november-14-2024 "Developer Update - 14 November 2024"] on ''[[ask.vrchat.com]]''. Dated November 14, 2024. Retrieved November 25, 2024.</ref>
+|2024.4.1p2
+|Persistence launching soon
+|NYE, Prints, Build & Test - Android, Holiday stickers, One-time purchases, World stores
+|-
+|October 31
+|2024.4.1<ref>[https://docs.vrchat.com/docs/vrchat-202441 "VRChat 2024.4.1"] (Build 1533) on ''[[docs.vrchat.com]]''. Dated October 30, 2025. Retrieved November 25, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-31-october-2024 "Developer Update - 31 October 2024"] on ''[[ask.vrchat.com]]''. Dated October 31, 2024. Retrieved November 25, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=ZPqQjPAPu2Y "VRChat Video Patchnotes 2024.4.1 (Hand Tracking Additions, Bug Fixes)"] on ''YouTube''. Dated October 30, 2024. Retrieved November 25, 2024.</ref>
+|NVIDIA GeForce NOW, Creator Docs Examples, [[Finger tracking]] tweaks
+|Enforcement for PC Avatar Download and Uncompressed Size
+|[[Spookality 2024]] winners, Selfie Expression
+|-
+|October 17
+|2024.3.3p1<ref>[https://docs.vrchat.com/docs/vrchat-202433p1 "VRChat 2024.3.3p1"] (Build 1519) on ''[[docs.vrchat.com]]''. Dated October 16, 2024. Retrieved November 25, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-17-october-2024 "Developer Update - 17 October 2024"] on ''[[ask.vrchat.com]]''. Dated October 17, 2024. Retrieved November 25, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=sufDRgPR6DI "VRChat Video Patchnotes 2024.3.3 (Stickers, Sharing, Chatbox 2.0, Camera Updates)"] on ''YouTube''. Dated October 9, 2024. Retrieved November 25, 2024.</ref>
+|2024.3.3, [[VRChat+#Stickers|Stickers]], Sharing, [[Chatbox|Chatbox 2.0]], [[Camera]] updates, Persistence [[Open Beta]], [[Badges]] tweaks
+|iOS [[Worlds|world]] publishing
+|Spookality world submissions are closed
+|-
+|October 3
+|2024.3.2p2<ref>[https://docs.vrchat.com/docs/vrchat-202432p2 "VRChat 2024.3.2p2"] (Build 1506) on ''[[docs.vrchat.com]]''. Dated September 25, 2024. Retrieved November 25, 2024.</ref> 
+|Text<ref>[https://ask.vrchat.com/t/developer-update-3-october-2024 "Developer Update - 3 October 2024"] on ''[[ask.vrchat.com]]''. Dated October 3, 2024. Retrieved November 25, 2024.</ref>
+|[[Impostors]] changes, [[Finger Tracking]] updates, web UI updates
+|N/A
+|Spookality submissions are open, [[Udon]] code signing [SDK 3.7.2-beta.2], hiding/showing badges
+|-
+|September 19
+|2024.3.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202432p1 "VRChat 2024.3.2p1"] (Build 1505) on ''[[docs.vrchat.com]]''. Dated September 16, 2024. Retrieved November 25, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-19-september-2024 "Developer Update - 19 September 2024"] on ''[[ask.vrchat.com]]''. Dated September 19, 2024. Retrieved November 25, 2024.</ref>
+|Chatbox 2.0 Open Beta
+|Avatar Seller Pilot Program & Feedback
+|Hotlinking images, Persistence Open Beta coming soon, Physbone & Constraint Execution Order, Example Central, [[Spookality 2024|Spookality 2024 jam]]
+|-
+|September 5
+|2024.3.1p5<ref>[https://docs.vrchat.com/docs/vrchat-202431p5 "VRChat 2024.3.1p5"] (Build 1495) on ''[[docs.vrchat.com]]''. Datede August 28, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-5-september-2024 "Developer Update - 5 September 2024"] on ''[[ask.vrchat.com]]''. Dated September 5, 2024. Retrieved November 26, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=fyl8v_eia5w "VRChat+ is EVOLVING! (Stickers, Sharing, and MORE)"] on ''YouTube''. Dated September 5, 2024. Retrieved November 26, 2024.</ref>
+|Stickers, Sharing
+|N/A
+|The future of [[VRC+]]
+|-
+|August 22
+|2024.3.1p3<ref>[https://docs.vrchat.com/docs/vrchat-202431p3 "VRChat 2024.3.1p3"] (Build 1493) on ''[[docs.vrchat.com]]''. Dated August 21, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-22-aug-2024/ "Developer Update - 22 Aug 2024"] on ''[[ask.vrchat.com]]''. Dated August 22, 2025. Retrieved November 26, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=OmEzam_5EVo "VRChat Video Patchnotes 2024.3.1 (Input 2.0, VRC Constraints, New Portals)"] on ''YouTube''. Dated August 14, 2024. Retrieved November 26, 2024.</ref>
+|Avatar size limit enforcement, Input 2.0, [[Portals]] update, SteamVR Constraints
+|Creator Roadmap - August 2024
+|[[VRChat Wiki]], Summer Music Jam winners, new C# Udon additions
+|-
+|August 8
+|2024.2.3p2
+|Text<ref>[https://ask.vrchat.com/t/developer-update-8-aug-2024 "Developer Update - 8 Aug 2024"] on ''[[ask.vrchat.com]]''. Dated August 8, 2024. Retrieved November 26, 2024.</ref>
+|Ukranian language support
+|Security updates
+|Gold memoriam<ref>[https://hello.vrchat.com/blog/in-memoriam-gold In Memoriam: Gold] on ''hello.vrchat.com''; retrieved November 26, 2024.</ref>, iOS Closed Beta, offline status icons, Camera updates
+|-
+|July 25
+|2024.2.3p2<ref>[https://docs.vrchat.com/docs/vrchat-202423p2 "VRChat 2024.2.3p2"] (Build 1472) on ''[[docs.vrchat.com]]''. Dated July 17, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-25-july-2024 "Developer Update - 25 July 2024"] on ''[[ask.vrchat.com]]''. Dated July 25, 2024. Retrieved November 26, 2024.</ref>
+|N/A
+|VRChat SDK roadmap, Summer Music Jam, Constraints updates
+|Unity AI navigation, Hand Tracking, Input 2.0, Portals
+|-
+|July 11
+|2024.2.3<ref>[https://docs.vrchat.com/docs/vrchat-202423 "VRChat 2024.2.3"] (Build 1470) on ''[[docs.vrchat.com]]''. Dated June 20, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-11-july-2024 "Developer Update - 11 July 2024"] on ''[[ask.vrchat.com]]''; retrieved November 26, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=IoUJdS6_uIE "VRChat Video Patchnotes 2024.2.3 #vrchat"] on ''YouTube''. Dated June 20, 2024. Retrieved September 16, 2025.</ref>
+|Web updates
+|Summer Music Jam, PICO OS update, Uncompressed and Download Size Limits
+|Dynamic Bone conversion deprecation, Age verification, Mipmapping, Constraints
+|-
+|May 30
+|2024.2.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202422p1 "VRChat 2024.2.2p1"] (Build 1458) on ''[[docs.vrchat.com]]''. Dated May 22, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-30-may-2024 "Developer Update - 30 May 2024"] on ''[[ask.vrchat.com]]''. Dated May 30, 2024. Retrieved November 26, 2024.</ref>
+|N/A
+|Uncompressed and Download Size Limits
+|[[Merchandise]], Summer Music Jam, Hebrew language support, [[Removed Features#Booping|Booping]] 
+|-
+|May 16
+|2024.2.1p3<ref>[https://docs.vrchat.com/docs/vrchat-202421p3 "VRChat 2024.2.1p3"] (Build 1449) on ''[[docs.vrchat.com]]''. May 8, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-16-may-2024 "Developer Update - 16 May 2024"] on ''[[ask.vrchat.com]]''. Dated May 16, 2024. Retrieved November 26, 2024.</ref>
+|Web updates
+|New [[VRChat Home]]
+|iOS Closed Beta applications
+|-
+|May 2
+|2024.2.1p1<ref>[https://docs.vrchat.com/docs/vrchat-202421p1 "VRChat 2024.2.1p1"] (Build 1447) on ''[[docs.vrchat.com]]''. Dated May 1, 2024. Retrieved November 26, 2024.</ref>
+| Text<ref>[https://ask.vrchat.com/t/developer-update-2-may-2024 "Developer Update - 2 May 2024"] on ''[[ask.vrchat.com]]''. Dated May 2, 2024. Retrieved November 26, 2024.</ref>
+|Golden Week world feature
+|SDK Roadmap - April 2024, new VRChat Home
+|Cross-platform finger tracking, Input 2.0, Localization, [[VRChat API]] 
+|-
+|April 11
+|2024.1.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202412p1 "VRChat 2024.1.2p1"] (Build 1436) on ''[[docs.vrchat.com]]''. Dated April 3, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-11-april-2024 "Developer Update - 11 April 2024"] on ''[[ask.vrchat.com]]''. Dated April 11, 2024. Retrieved November 26, 2024.</ref>
+|2024.4.1 open beta, World SDK improvements, web updates
+|N/A
+|[[Space Jam 2024]]<ref>[https://hello.vrchat.com/blog/space-jam "Come on and Join the Space Jam!"] on ''[[hello.vrchat.com]]''. Dated March 1, 2024. Retrieved November 26, 2024.</ref> winners soon, Impostors, Profile languages, Group moderation, new VRChat Home
+|-
+|March 28
+|2024.1.1p2
+|Text<ref>[https://ask.vrchat.com/t/developer-update-28-march-2024 "Developer Update - 28 March 2024"] on ''[[ask.vrchat.com]]''. Dated March 28, 2024. Retrieved November 26, 2024.</ref>
+|Web updates, Group ownership transfer, Canny updates
+|Space Jam submissions
+|N/A
+|-
+|March 14
+|2024.1.1p2<ref>[https://docs.vrchat.com/docs/vrchat-2024111p2 "VRChat 2024.1.1p2"] (Build 1407) on ''[[docs.vrchat.com]]''. Dated March 14, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-14-march-2024 'Developer Update - 14 March 2024'] on ''ask.vrchat.com''; retrieved November 26, 2024.</ref>
+|Creator Economy applications
+|Soba sneak peek
+|Venice Film Festival submissions, Group ownership transfer, Avatar shaders, 'Runtime URL Construction' and 'Detecting Input Type' for Udon, Uncompressed and Download Size Limits
+|-
+|February 29
+|2024.1.1p1
+|Text<ref>[https://ask.vrchat.com/t/developer-update-29-february-2024 "Developer Update - 29 February 2024"] on ''[[ask.vrchat.com]]''. Dated February 29, 2024. Retrieved November 26, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=YYedghd0vmA "Udon 2, Persistence, CE Updates and More! | VRChat Dev Update"] on ''YouTube''. Dated February 29, 2024. Retrieved November 26, 2024.</ref>
+|Creator Economy updates
+|N/A
+|Udon 2, Persistence, User Research, VRChat+
+|-
+|February 15
+|2024.1.1p1<ref>[https://docs.vrchat.com/docs/vrchat-2024111 "VRChat 2024.1.1p1"] (Build 1405) on ''[[docs.vrchat.com]]''. Dated February 15, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-15-february-2024 "Developer Update - 15 February 2024"] on ''[[ask.vrchat.com]]''. Dated February 15, 2024. Retrieved November 26, 2024.</ref>
+|Localization progress
+|Horse
+|Creator Economy applications and SDK, AnimatorPlayAudio State Behavior, Standard Lite for Worlds
+|-
+|February 1
+|2023.4.2p5<ref>[https://docs.vrchat.com/docs/vrchat-202342p5 "VRChat 2023.4.2p5"] (Build1393) on ''[[docs.vrchat.com]]''. Dated January 29, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-1-february-2024 "Developer Update - 1 February 2024"] on ''[[ask.vrchat.com]]''. Dated February 1, 2024. Retrieved November 26, 2024.</ref>
+|Group Locations on web, QoL open beta, Camera changes, Avatar contact changes
+|Head Chop
+|Instance closing
+|-
+|January 18
+|2023.4.2p4<ref>[https://docs.vrchat.com/docs/vrchat-202342p4 "VRChat 2023.4.2p4"] (Build 1392) on ''[[docs.vrchat.com]]''. Dated January 11, 2024. Retrieved November 26, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-18-january-2024 "Developer Update - 18 January 2024"] on ''[[ask.vrchat.com]]''. Dated January 18, 2024. Retrieved November 26, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=6B23zpIqgA8 "Revisiting the Creator Economy | VRChat Dev Update"] on ''YouTube''. Dated January 18, 2024. Retrieved November 26, 2024.</ref>
+|Creator Economy
+|N/A
+|N/A
+|-
+|January 4
+|2023.4.2p2<ref>[https://docs.vrchat.com/docs/vrchat-202342p2 "VRChat 2023.4.2p2"] (Build 1390) on ''[[docs.vrchat.com]]''. Dated December 6, 2023. Retrieved November 26, 2024.</ref>
+| Text<ref>[https://ask.vrchat.com/t/developer-update-4-january-2024 "Developer Update - 4 January 2024"] on ''[[ask.vrchat.com]]''. Dated January 4, 2024. Retrieved November 26, 2024.</ref>
+|New Years CCU (106,000)
+|Upgrade projects to Unity 2022
+|SanRio Fest
+|}
 
 ===2023 ===
-''See [[Special:MyLanguage/2023 in VRChat updates|2023 in VRChat updates]] for all detailed information.''
+{{Thumb|{{YouTube|4saOTMVyoQQ}}}}
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2023. Click "Expand" to show this table!
+|+
+!Date
+!Build
+!Format
+!Implemented
+!Reminders
+!Announced
+|-
+|December 7
+|2023.4.2p2<ref>[https://docs.vrchat.com/docs/vrchat-202342p2 VRChat 2023.4.2p2] on ''docs.vrchat.com''; retrieved November 28, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-7-december-2023/ 'Developer Update - 7 December 2023'] on ''ask.vrchat.com''; retrieved November 28, 2024.</ref> 
+|Mobile Android no longer requires VRC+, Content Gating changes, Avatar security checks,  
+|New Years 2024
+|VRCHeadChop, nVidia variable rate shading
+|-
+|November 22
+|2023.4.1p4<ref>[https://docs.vrchat.com/docs/vrchat-202341p4 VRChat 2023.4.1p4] on ''docs.vrchat.com''; retrieved November 28, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-22-november-2023 'Developer Update - 22 November 2023'] on ''ask.vrchat.com''; retrieved November 28, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=mgcAvzNVmRo Introducing Paid Subscriptions | Dev Update] on ''YouTube''; retrieved November 28, 2024.</ref>
+|2023.4.2 Open Beta, Creator Economy Open Beta, changes to [[Terms of Service]], and Privacy Policy
+|New Years 2024
+|UI Focus View's development considerations
+|-
+|November 9
+|2023.4.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202341p2 VRChat 2023.4.1p2] on ''docs.vrchat.com''; retrieved November 28, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-9-november-2023 'Developer Update - 9 November 2023'] on ''ask.vrchat.com''; retrieved November 28, 2024.</ref>
+|VRChat on Pico store, SDK 3.5.0, 'OnScreenUpdate' Udon event
+|NYE 2024 submissions for posters and logos, Spookality 2023 ending soon, Impostors releasing soon
+|VRChat at AnimeNYC, VRChat Entertainment Network, VRCSDK for Unity 2022
+|-
+|October 26
+|2023.4.1p1<ref>[https://docs.vrchat.com/docs/vrchat-202341p1 VRChat 2023.4.1p1] on ''docs.vrchat.com''; retrieved November 28, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-26-october-2023 'Developer Update - 26 October 2023'] on ''ask.vrchat.com''; retrieved November 28, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=N4VEJAnjxJw VRChat Video Patchnotes 2023.4.1] on ''YouTube''; retrieved November 28, 2024.</ref>
+|2023.4.1, bug fixes, Unity 2022 release, Spookality features
+|2023.3.3 issues addressed
+|VRCSDK for Unity 2022
+|-
+|October 12
+|2023.3.3<ref>[https://docs.vrchat.com/docs/vrchat-202333 VRChat 2023.3.3] on ''docs.vrchat.com''; retrieved November 28, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-12-october-2023 'Developer Update - 12 October 2023'] on ''ask.vrchat.com''; retrieved November 28, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=FjjfEo8mtE8 VRChat Video Patchnotes 2023.3.3] on ''YouTube''; retrieved November 28, 2024.</ref> 
+|2023.3.3 rollback and issues addressed, SDK semantic versioning (branding,breaking.bumps), public SDK API,  screenspace canvas challenges
+|Unity 2022 Open Beta, Spookality 2023 submissions
+|New Years 2024, mobile native UI, content gating reporting missing warnings
+|-
+|September 28
+|2023.3.2p1m<ref>[https://docs.vrchat.com/docs/vrchat-202332p1m VRChat 2023.3.2p1m] on ''docs.vrchat.com''; retrieved November 28, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-28-september-2023/20132 'Developer Update - 28 September 2023'] on ''ask.vrchat.com''; retrieved November 28, 2024.</ref>
+|2023.3.3 Open Beta, new web profiles
+|Unity 2022 Open Beta
+|Updated search algorithm
+|-
+|September 14
+|2023.3.2p1m<ref>[https://docs.vrchat.com/docs/vrchat-202332p1m VRChat 2023.3.2p1m] on ''docs.vrchat.com''; retrieved November 28, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-14-september-2023 'Developer Update - 14 September 2023'] on ''ask.vrchat.com''; retrieved November 28, 2024.</ref>
+|VRChat SDK 3.3.0, new web profiles
+|Unity Runtime pricing and licensing<ref>[https://web.archive.org/web/20230912135629/https://blog.unity.com/news/plan-pricing-and-packaging-updates 'Plan Pricing and Packaging Updates'] on ''blog.unity.com'' (ARCHIVED); retrieved August 30, 2025.</ref>, Unity 2022 Open Beta, 
+|Impostors, ClientSim and UdonSharp merge, VRChat Security Team letter (on ripping and piracy)
+|-
+|August 31
+|2023.3.2<ref>[https://docs.vrchat.com/docs/vrchat-202332 VRChat 2023.3.2] on ''docs.vrchat.com''; retrieved November 28, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-31-august-2023 'Developer Update - 31 August 2023'] on ''ask.vrchat.com''; retrieved November 28, 2024.</ref>
+|2023.3.2 released, UI color themes, Unity 2022, Open Beta, SDK 3.3.0 Open Beta, mobile Android alpha is released
+|SDK 3.3.0's public SDK API
+|Groups timeline, Multisampled UI shader
+|-
+|August 17
+|2023.3.1.p2<ref>[https://docs.vrchat.com/docs/vrchat-202331p2 VRChat 2023.3.1p2] on ''docs.vrchat.com''; retrieved August 30, 2025.</ref>, 2023.3.1m<ref>[https://docs.vrchat.com/docs/vrchat-202331m VRChat 2023.3.1m] on ''docs.vrchat.com''; retrieved August 30, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-17-august-2023/19495 'Developer Update - 17 August 2023'] on ''ask.vrchat.com''; retrieved August 30, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=YpyMVAcllYs 'VRChat Android Alpha Now Live! | Dev Update'] on ''YouTube''; retrieved August 30. 2025.</ref>
+|Quest Pro Eye Tracking disabled
+|N/A
+|World category changes, world preloading and FAQ
+|-
+|August 3
+|2023.2.4<ref>[https://ask.vrchat.com/t/developer-update-3-august-2023 VRChat 2023.2.4] on ''docs.vrchat.com''; retrieved November 30, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-3-august-2023 'Developer Update - 3 August 2023'] on ''ask.vrchat.com''; retrieved November 30, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=6aZSCCnvGEA VRChat Video Patchnotes 2023.2.4] on ''YouTube''; retrieved November 30, 2024.</ref>
+|2023.2.4 released, 2023.3.1 Open Beta, IK beta, [[Settings|ettings]] search, Localization,  Root
+|Community Guidelines update, Avatar scaling and custom scalars (PlayableGraph)
+|OSCQuery, multiple IK improvements, UI color customization
+|-
+|July 20
+|2023.2.3p3<ref>[https://steamcommunity.com/games/vrchat/announcements/detail/3649652637300569192 Release 2023.2.3p2 is Now Live!] on ''Steamcommunity''; retrieved November 30, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-20-july-2023 'Developer Update - 20 July 2023'] on ''ask.vrchat.com''; retrieved November 30, 2024.</ref><ref>[https://discord.com/channels/189511567539306508/336764577301659649/1131008779115303003 "VRChat 2023.2.3p3 is now out on all platforms"] posted on ''VRChat Discord''; retrieved November 30, 2024.</ref>
+|2023.2.3 patches, web tweaks via external service login form, and favoriting and changing avatars on web
+'''''<small>There is missing or expunged documentation for 2023.2.3p3, 2023.2.3p2, and 2023.2.3p1 linked in this dev update. Please ask VRChat to recover these changelogs!</small>'''''
+|Avatar scaling Open Beta
+|Recommended Searches, internal dev summer jam
+|-
+|June 29
+|2023.2.3p2<sup>[missing documentation]</sup>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-29-june-2023 'Developer Update - 29 June 2023'] on ''ask.vrchat.com''; retrieved December 4, 2024.</ref>
+|2023.2.4 Open Beta, Custom [[Emojis|Emoji]], ClientSim 1.2.6, VCC 2.1.2
+|N/A
+|Standard Lite shader improvements, IK updates, avatar world search
+|-
+|June 15
+|2023.2.3<ref>[https://docs.vrchat.com/docs/vrchat-202323 VRChat 2023.2.3] on ''docs.vrchat.com''; retrieved December 4, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-15-june-2023/ 'Developer Update - 15 June 2023'] on ''ask.vrchat.com''; retrieved December 4, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=_YPJiYIOkwY VRChat Video Patchnotes 2023.2.3] on ''YouTube''; retrieved December 4, 2024.</ref>
+|Creator Documentation<ref>[https://creators.vrchat.com/ Become a VRChat Creator!] on ''creators.vrchat.com''; retrieved December 4, 2024.</ref>, yt-dlp fixes, Lyuma's Av3Emulator in VCC
+|Hard limits (256) for VRC PhysBones, PhysBoneColliders, and VRCContact
+|Custom Emoji, UI QOL fixes, updated SDK Build panel, Localization efforts
+|-
+|June 1
+|2023.2.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202322p1 VRChat 2023.2.2p1] on ''docs.vrchat.com''; retrieved December 4, 2024.</ref>
+| Text<ref>[https://ask.vrchat.com/t/developer-update-1-june-2023 'Developer Update - 1 June 2023'] on ''ask.vrchat.com''; retrieved December 4, 2024.</ref>
+|2023.2.3 Open Beta, Group additions, Group+ and Group Public instances, ClientSim 1.2.5
+|Native Quest 1 support is deprecated on June 1st, 2023.
+|More group improvements, performance improvements, Settings search, Login Localization, Votekick results
+|-
+|May 18
+|2023.2.2<ref>[https://docs.vrchat.com/docs/vrchat-202322 VRChat 2023.2.2] on ''docs.vrchat.com''; retrieved December 4, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-18-may-2023 'Developer Update - 18 May 2023'] on ''ask.vrchat.com''; retrieved December 4, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=e93QzjnVf9g Introducing the Creator Economy | VRChat Dev Update] on ''YouTube''; retrieved December 4, 2024.</ref>
+|Creator Economy
+|'''''Dev updates are now "biweekly" (fortnightly)''. Quest 1 deprecation'''
+|N/A
+|-
+|May 4
+|2023.2.2<ref>[https://docs.vrchat.com/docs/vrchat-202322 VRChat 2023.2.2] on ''docs.vrchat.com''; retrieved December 4, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-4-may-2023 'Developer Update - 4 May 2023'] on ''ask.vrchat.com''; retrieved December 4, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=MyrEvss-Dzw VRChat Video Patchnotes 2023.2.2] on ''YouTube''; retrieved December 4, 2024.</ref><ref>[https://www.youtube.com/watch?v=PRZi6QS63rE New in #vrchat 2023.2.2: SquishyBones!] on ''YouTube''; retrieved December 4, 2024.</ref>
+|SquishyBones, [[Removed Features#Guided_Mode|Guided Mode]], VCC 2.1.1, SDK 3.2.0
+|'''''Dev updates are now "biweekly" (fortnightly)'', Quest 1 deprecation, Udon UI progress'''
+|Group member filtering/sorting
+|-
+|April 28
+|2023.2.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202321p2 VRChat 2023.2.1p2] on ''docs.vrchat.com''; retrieved December 4, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-28-april-2023 'Developer Update - 28 April 2023'] on ''ask.vrchat.com''; retrieved December 4, 2024.</ref>
+|2023.2.2 Open Beta, Guided Mode in beta, SDK e-mail authentication changes, VCC Community Package, VRCJSON and DataContainers
+|Udon UI progress
+|SquishyBones, PhysBones versioning, Group member filtering/sorting
+|-
+|April 20
+|2023.2.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202321p2 VRChat 2023.2.1p2] on ''docs.vrchat.com''; retrieved December 4, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-20-april-2023 'Developer Update - 28 April 2023'] on ''ask.vrchat.com''; retrieved December 4, 2024.</ref>
+|VCC 2.1.0, community repositories, server tweaks
+|Account pruning
+|Group Locations, bans, and management
+|-
+|April 13
+|2023.2.1<ref>[https://docs.vrchat.com/docs/vrchat-202321 VRChat 2023.2.1] on ''docs.vrchat.com''; retrieved December 4, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-13-april-2023 'Developer Update - 13 April 2023'] on ''ask.vrchat.com''; retrieved December 4, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=jPsqMUKrI_M VRChat Video Patchnotes 2023.2.1] on ''YouTube''; retrieved December 4, 2024.</ref>
+|Native Quest Pro eye tracking, Main Menu settings overhaul, Prioritized avatar download, Hardware video decoding launch option, [[2FA]] improvements
+|Avatars For Everyone! Jam results, account pruning
+|Quest 1 deprecation, server-side avatar stats
+|-
+|March 30
+|2023.1.2p4<ref>[https://docs.vrchat.com/docs/vrchat-202312p4 VRChat 2023.1.2p4] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref> 
+|Text<ref>[https://ask.vrchat.com/t/developer-update-30-march-2023 'Developer Update - 30 March 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>
+|N/A
+|Hiring spree, SDK e-mail authentication, account pruning, Avatars For Everyone! Jam closing soon
+|VRChat on mobile Android, migration to Unity 2021.3, remote player collider changes
+|-
+|March 23
+|2023.1.2p4<ref>[https://docs.vrchat.com/docs/vrchat-202312p4 VRChat 2023.1.2p4] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-23-march-2023 'Developer Update - 23 March 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>
+|N/A
+|Hiring spree, SDK e-mail authentication, Avatars For Everyone! Jam closing soon
+|VCC repositories, Udon UI progress, Quick Launcher
+|-
+|March 16
+|2023.1.2p3<ref>[https://docs.vrchat.com/docs/vrchat-202312p3 VRChat 2023.1.2p3] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-16-march-2023 'Developer Update - 16 March 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>
+|N/A
+|Hiring spree, Udon UI progress, SDK e-mail authentication
+|Avatars For Everyone! jam, SDK warning improvements, Avatar Pedestal changes,
+|-
+|March 9
+|2023.1.2<ref>[https://docs.vrchat.com/docs/vrchat-202312 VRChat 2023.1.2] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-9-march-2023 'Developer Update - 9 March 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=wGNJvfhEkV0 VRChat Video Patchnotes 2023.1.2] on ''YouTube''; retrieved December 7, 2024.</ref>
+|VCC 2.0, Udon ownership bug fixes
+|Hiring spree, Google Drive URL security patch
+|Upcoming avatar jam, AsyncGPUReadback 
+|-
+|March 2
+|2023.1.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202311p2 VRChat 2023.1.1p2] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-2-march-2023 'Developer Update - 2 March 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>
+|2023.1.2 Open Beta, Event execution order<ref>[https://creators.vrchat.com/worlds/udon/event-execution-order/ Event Execution Order] on ''creators.vrchat.com''; retrieved December 7, 2024.</ref> documentation
+|SDK 3.1.11, incoming VCC update, Unity 2018 upload blocking, avatar download prioritization
+|Native eye tracking (Quest Pro)
+|-
+|February 23
+|2023.1.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202311p2 VRChat 2023.1.1p2] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-23-february-2023 'Developer Update - 23 February 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>
+|Remote Image Loading<ref>[https://creators.vrchat.com/worlds/udon/image-loading/ Image Loading on ''creators.vrchat.com''; retrieved December 7, 2024.</ref>, Remote String Loading<ref>[https://creators.vrchat.com/worlds/udon/string-loading/ String Loading] on ''creators.vrchat.com''; retrieved December 7, 2024.</ref>,
+|VCC update (since October 27, 2022), Unity 2018 upload blocking
+|Avatar download prioritization, group ublcoking
+|-
+|February 16
+|2023.1.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202311p2 VRChat 2023.1.1p2] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-16-february-2023 'Developer Update - 16 February 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>
+|Petting VRCat on VRChat website
+|VCC update, Unity 2018 upload blocking, SDK2 deprecation, addressed missing PlayerModerations
+|Avatar performance stat changes (VRAM and constraints), Udon UI in the Quick Menu, Group web interface
+|-
+|February 9
+|2023.1.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202311p2 VRChat 2023.1.1p2] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-9-february-2023 'Developer Update - 9 February 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>
+|Audio tweaks, UNU tweaks, Udon JSON, Camera rule-of-thirds overlay
+|N/A
+|Tooltip localization
+|-
+|February 2
+|2023.1.1<ref>[https://docs.vrchat.com/docs/vrchat-202311 VRChat 2023.1.1] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-2-february-2023 'Developer Update - 9 February 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>, Video<ref>[https://www.youtube.com/watch?v=i1yMenS7Zd8 VRChat Video Patch Notes - 2023.1.1] on ''YouTube''; retrieved December 7, 2024.</ref>
+|Multi-layered camera, grab-to-adjust FBT, user and world search refinement, Quest finger tracking, Earmuffs enhancements
+|VCC update, Unity 2018 upload blocking, SDK2 deprecation
+|Udon MIDI playback, Portal UI refresh
+|-
+|January 26
+|2022.4.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202242p1 VRChat 2022.4.2p1] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-26-january-2023 'Developer Update - 26 January 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref>
+|Quick Menu avatar details, avatar sync bug fix
+|Early Supporter badge distribution ending February 1st, VCC update, Unity 2018 upload blocking, SDK2 deprecation
+|Upcoming audio adjustments, search algorithm adjustments, Quest finger tracking enhancements
+|-
+|January 19
+|2022.4.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202242p1 VRChat 2022.4.2p1] on ''docs.vrchat.com''; retrieved December 7, 2024.</ref> 
+|Text<ref>[https://ask.vrchat.com/t/developer-update-19-january-2023 'Developer Update - 19 January 2023'] on ''ask.vrchat.com''; retrieved December 7, 2024.</ref> 
+|Camera menu scrolling fix, HUD adjustments, [[Steel 'n' Gold]] remaster<ref>[https://www.youtube.com/watch?v=E4aXxyMgcs4 Steel N Gold Returns!] on ''YouTube''; retrieved December 7, 2024.</ref>
+|NYE summary, "Tree of Realms" NYE [[Merchandise]], Early Supporter badge distribution ending February 1st, VCC update, SDK2 deprecation
+|Remote string loading, HUD adjustments
+|}
 
 ===2022===
-''See [[Special:MyLanguage/2022 in VRChat updates|2022 in VRChat updates]] for all detailed information.''
-From this year, VRChat migrated<ref>[https://hello.vrchat.com/blog/vrchat-blog-migration "VRChat Blog Migration"] on ''[https://hello.vrchat.com/blog VRChat's Blog]''. Dated January 20, 2022. Retrieved March 1, 2025.</ref> their blog, from [https://medium.com/vrchat Medium] to a [https://hello.vrchat.com/blog self-hosted blog]. Starting in July 2022, VRChat began posting Developer Updates regularly, twice per week, on the Ask Forums.
+Starting in July 2022, VRChat began posting Developer Updates regularly, twice per week, on the Ask Forums.<gallery>
+File:DevUpdate29July22.webp|July 29, 2022 - Live Beta
+File:DevUpdate5Aug22.webp|August 5, 2022 - Released features, and Live Beta features
+File:DevUpdate12Aug22.webp|August 12, 2022 - Live Beta
+File:DevUpdate30Aug22.webp|August 30, 2022 - Released features
+</gallery>
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2022. Click "Expand" to show this table!
+|+
+!Date
+!Build
+!Format
+!Implemented
+!Reminders
+!Announced
+|-
+|December 15
+|2022.4.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202242p1 VRChat 2022.4.2p1] on ''docs.vrchat.com''; retrieved February 15, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-15-december-2022 'Developer Update - 15 December 2022'] on ''ask.vrchat.com''; retrieved February 15, 2024.</ref>
+|N/A
+|NYE 2023, VRChat Entertainment Network, upcoming VCC merge, SDK2 deprecation
+|Remote string loading, remote image loading, Video recording (Udon), Udon 2
+|-
+|December 8
+|2022.4.2<ref>[https://docs.vrchat.com/docs/vrchat-202242 VRChat 2022.4.2] on ''docs.vrchat.com''; retrieved February 15, 2024.</ref> 
+|Text<ref>[https://ask.vrchat.com/t/developer-update-8-december-2022 'Developer Update - 8 December 2022'] on ''ask.vrchat.com''; retrieved February 15, 2024.</ref>
+|[[Groups]], VCC 1.0.5, 'Gesture Manager' on VCC
+|NYE 2023, upcoming VCC merge, SDK2 deprecation,
+|Remote image loading
+|-
+|December 1
+|2022.4.1p2
+|Text<ref>[https://ask.vrchat.com/t/developer-update-1-december-2022 'Developer Update - 1 December 2022'] on ''ask.vrchat.com''; retrieved February 15, 2024.</ref>
+|Groups in open beta<ref>[https://hello.vrchat.com/blog/vrchat-groups 'Groups is Now Live!'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref>, OSC [[FBT]] trackers beta, Unity 2019.4.40f1 beta
+|Notes about user safety (rumors regarding ToxMod), Sony mocopi<ref>[https://x.com/VRChat/status/1597428720687779840 '#mocopi is supported in #VRChat!'] posted by VRChat on ''X.com''; retrieved September 3, 2025.</ref>, NYE 2023, upcoming VCC merge, SDK2 deprecation
+|Curated community VCC packages, VCC UI/UX rework, improved Settings menus
+|-
+|November 17 
+|2022.4.1p2
+|Text<ref>[https://ask.vrchat.com/t/developer-update-17-november-2022 'Developer Update - 17 November 2022'] on ''ask.vrchat.com''; retrieved February 15, 2024.</ref>
+|N/A
+|Groups, OSC FBT, NYE 2023, VRChat Entertainment Network, upcoming VCC merge, SDK2 deprecation
+|N/A
+|-
+|November 10
+|2022.4.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202241p2 VRChat 2022.4.1p2] on ''docs.vrchat.com''; retrieved February 15, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-10-november-2022 'Developer Update - 10 November 2022'] on ''ask.vrchat.com''; retrieved February 15, 2024.</ref>
+|VRCGraphics Udon Hook
+|<small>Spookality world category closing Monday (November 14), Groups, NYE 2023, VRChat Entertainment Network, upcoming VCC merge, SDK2 deprecation</small>
+|Udon video recording and screenshots, VCC UI/UX rework
+|-
+|November 3
+|2022.4.1<ref>[https://docs.vrchat.com/docs/vrchat-202241 2022.4.1.] on ''docs.vrchat.com''; retrieved February 15, 2024.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-3-november-2022 'Developer Update - 3 November 2022'] on ''ask.vrchat.com''; retrieved February 15, 2024.</ref>
+|Quest [[Finger Tracking]], desktop gesture and camera fixes, avatar list names, user profile URL icons
+|VRC team holiday breaks, Notes about user safety, Spookality 2022, upcoming VCC merge, SDK2 deprecation, NYE 2023, Graphics.Blit
+|<small>Linux and MacOS VCC compatibility, NYE 2023, VRChat Entertainment Network, Groups, OSC FBT, ongoing performance improvements</small>
+|-
+|October 27
+|2022.3.1p2
+|Text<ref>[https://ask.vrchat.com/t/developer-update-27-october-2022/ 'Developer Update - 27 October 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|2022.4.1 open beta, Quest finger tracking open beta, Spookality Hub 2022, UNU updates, Graphics.Blit<ref>[https://docs.unity3d.com/2019.4/Documentation/ScriptReference/Graphics.Blit.html 'Graphics.Blit'] on ''docs.unity.com''; retrieved September 3, 2025.</ref>
+|Show/hide avatar Player Moderation local storage, upcoming VCC merge, UI improvements in beta
+|<small>Spookality results, output log inmprovements, VRChat Knowledgebase and Helpdesk improvements, API username removal</small>
+|-
+|October 20
+|2022.3.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202231p2 'VRChat 2022.3.1p2'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-20-october-2022/ 'Developer Update - 20 October 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|New VCC UI (built in Unity)
+|Spookality submissions closing (Oct. 22), migrate to VCC
+|Hiding personal mirror in camera, PTT HUD, Action Menu 'Tools'
+|-
+|October 13
+|2022.3.1p1<ref>[https://docs.vrchat.com/docs/vrchat-202231p1 'VRChat 2022.3.1p1'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-13-october-2022/ 'Developer Update - 13 October 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|[[Main Menu]] UI 2.0<ref>[https://hello.vrchat.com/blog/main-menu-update-live 'UI 2.0 is Now Live!'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref> update, Spookality 2022 Hub, E-mail  2FA verification<ref>[https://hello.vrchat.com/blog/email-verification 'Introducing Email Verification'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref>, personal mirror snapping
+|Spookality submissions closing (Oct. 22), Udon Node Graph improvements
+|VRChat Knowledgebase and Helpdesk improvements, upcoming 'avatar features'
+|-
+|October 6
+|2022.2.2p5
+|Text<ref>[https://ask.vrchat.com/t/developer-update-6-october-2022/ 'Developer Update - 6 October 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|[[Spookality 2022]]<ref>[https://hello.vrchat.com/blog/spookality-2022 'VRChat Spookality 2022'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref>, show/hide avatar player moderations local storage
+|2022.3.1 Open Beta (UI 2.0)
+|VRCat Variety Box, upcoming Groups
+|-
+|September 29
+|2022.2.2p5
+|Text<ref>[https://ask.vrchat.com/t/developer-update-29-september-2022/ 'Developer Update - 29 September 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|N/A
+|Spookality 2022, 2022.3.1 Open Beta (UI 2.0), Notes on user safety (player toxicity)
+|<small>IK improvements, managing favorites on web, downtime mitigation client changes, show/gide avatar player moderations in local storage, smooth first-person camera</small>
+|-
+|September 22
+|2022.2.2p5
+|Text<ref>[https://ask.vrchat.com/t/developer-update-22-september-2022/ 'Developer Update - 22 September 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|"World Discovery" revamp on World menu
+|Spookality 2022, 2022.3.1 Open Beta (UI 2.0)
+|<small>Server-side database pruning, Settings Menu layout, Avatar Haptics, improved FBT models, chatbox improvements, OSCQuery</small>
+|-
+|September 15
+|2022.2.2p5
+|Text<ref>[https://ask.vrchat.com/t/developer-update-15-september-2022/ 'Developer Update - 15 September 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|N/A
+|2022.3.1 Open Beta (UI 2.0)
+|More mic settings, world discovery, chatbox improvements
+|-
+|September 8
+|2022.2.2p5<ref>[https://docs.vrchat.com/docs/vrchat-202222p5 'VRChat 2022.2.2p5'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-8-september-2022/ 'Developer Update - 8 September 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=C2iircpWUWU 'Developer Update - New Main Menu'] on ''YouTube''; retrieved September 6, 2025.</ref>
+|Camera flight, colorblindness filters, VRAM estimation, FBT calibration visualization, Earmuffs, Main Menu grabbing, portal placement
+|''Developer Updates are published weekly, every Thursday'', 2022.3.1 Open Beta (UI 2.0)
+|Favorite worlds on website
+|-
+|September 2
+|2022.2.2p4<ref>[https://docs.vrchat.com/docs/vrchat-202222p4 'VRChat 2022.2.2p4'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-2-september-2022/ 'Developer Update - 2 September 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|<small>2022.3.1 Open Beta (UI 2.0)<ref>[https://hello.vrchat.com/blog/main-menu-open-beta 'UI 2.0 is Now in Open Beta!'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref><ref>[https://docs.vrchat.com/docs/vrchat-202231 'VRChat 2022.3.1'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>, camera sub-menu, camera flight, colorblindness filters, FBT calibration visualization, portal placement</small>
+|''Developer Updates are published weekly, every Thursday'', nVidia Variable Rate Shading and OSC
+|OSCQuery, nameplates and chatboxes in mirrors
+|-
+|August 30
+|2022.2.2p3<ref>[https://docs.vrchat.com/docs/vrchat-202222p3 'VRChat 2022.2.2p3'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-30-august-2022 'Developer Update - 30 August 2022'] on ''ask.vrchat.com''; retrieved March 2, 2025.</ref>
+|<small>[[Creator Companion|VRC Creator Companion]]<ref>[https://hello.vrchat.com/blog/creator-companion-live 'The VRChat Creator Companion is Now Live!'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref> 1.0, [[Chatbox]], [[Earmuff Mode]], more favorites, avatar distance culling, desktop camera, more microphone sensitivity adjustments</small>
+|''Developer Updates being published weekly, starting September 4'', Main Menu UI 2.0 beta incoming, camera updates, portal placement
+|N/A
+|-
+|August 26 
+|2022.2.2p2c
+|Text<ref>[https://ask.vrchat.com/t/developer-update-26-august-2022/ 'Developer Update - 26 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|Summer VKet 2022<ref>[https://web.archive.org/web/20220720140821/https://summer2022.vket.com/en <nowiki>'[Archived] Summer VKet 2022 official website'</nowiki>] at ''web.archive.org'' linking to ''summer2022.vket.com/en''; retrieved September 6, 2025.</ref><ref>[https://www.youtube.com/watch?v=sRYpFW02HsE '『Vket2022Summer』一般出展者募集開始ムービー' (SummerVKet Trailer)] on ''YouTube''; retrieved September 6, 2025.</ref>, Slyfest: Azuria<ref>[https://www.slyfest.com/sf-artists-22 'Artists 2022 | Sly Fest'] on ''slyfest.com''; retrieved September 6, 2025.</ref><ref>[https://www.slyfest.com/gallery-slyfest2022 'Gallery - Sly Fest 2022'] on ''slyfest.com''; retrieved September 6, 2025.</ref><ref>[https://x.com/FestSly/status/1561841611809533952 'Set times for ALL 3 DAYS are here!'] posted by ''@FestSly'' on ''X.com''; retrieved September 6, 2025.</ref>
+|''Developer Updates being published weekly, starting September 4.'', Main Menu UI 2.0 beta incoming, portal placement, camera updates
+|Camera flight "Drone", camera visual shutter, nVidia Variable Rate Shading; not using OpenVR FSR DLL
+|-
+|August 23
+|2022.2.2p2c
+|Text<ref>[https://ask.vrchat.com/t/developer-update-23-august-2022/ 'Developer Update - 23 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|N/A
+|2022.2.2p3 Open Beta, Main Menu UI 2.0 beta incoming, upcoming VCC 1.0 release, avatar haptics, portal placement
+|"Articles" tab on Main Menu, parallax menu backgrounds
+|-
+|August 19
+|2022.2.2p2c
+|Text<ref>[https://ask.vrchat.com/t/developer-update-19-august-2022/ 'Developer Update - 19 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|N/A
+|2022.2.2p3 Open Beta, Main Menu 2.0 beta incoming, avatar haptics, portal placement, earmuff improvements
+|Chatbox safety, chatbox emoji, head-tracked personal mirror and snapping, accessibility [[Emojis]], Udon Graph improvements, VCC 0.3.6
+|-
+|August 16
+|2022.2.2p2c
+|Text<ref>[https://ask.vrchat.com/t/developer-update-16-august-2022/ 'Developer Update - 16 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|N/A
+|<small>2022.2.2p3 Open Beta, Main Menu 2.0 beta incoming, visual accessibility, portal placement, head-tracked personal mirror and snapping, unlimited mirror resolution, avatar distance culling, avatar haptics, chatbox, Action Menu and bindings, keyboard copy/paste buttons</small>
+|Quick Menu UI improvements
+|-
+|August 12
+|2022.2.2p2c<ref>[https://docs.vrchat.com/docs/vrchat-202222p2c 'VRChat 2022.2.2p2c'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-12-august-2022/ 'Developer Update - 12 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|Calibration confirmation dialogue
+|<small>2022.2.2p3 Open Beta, Chatbox, earmuffs for avatar audio, calibration confirmation, desktop camera, camera resolution options and rotation, head-tracked personal mirror and snapping, mirror resolution changer, slider snapping, hide avatar globally, keyboard copy/paste buttons, more favorites for friends, worlds, and avatars</small>
+|N/A
+|-
+|August 11
+|2022.2.2p2b
+|Text<ref>[https://ask.vrchat.com/t/developer-update-11-august-2022/ 'Developer Update - 11 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|Nearclip fixes, gesture indication icon fixes, QM widget UI tweaks.
+|<small>''Developer Updates are published biweekly (twice a week), on Tuesday and Friday.'', 2022.2.2p3 Open Beta, chatbox, head-tracked personal mirror, opacity, masking, and personal mirror snapping, unlimited mirror resolution, more favorites for friends, worlds, and avatars, camera resolution options and rotation, desktop camera, and flying 'drone' camera, menu slider snapping, and audio percentage sliders, hide avatar globally, keyboard copy/paste buttons, visual accessibility, avatar haptics</small>
+|Calibration confirmation dialogue, avatar scaling
+|-
+|August 10
+|2022.2.2p2b
+|Text<ref>[https://ask.vrchat.com/t/developer-update-10-august-2022/ 'Developer Update - 10 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|Terms of Service, and Privacy Policy changes
+|<small>''Developer Updates will be published biweekly (twice a week), on Tuesday and Friday, starting August 10'', desktop camera, Earmuff Mode tweaks, hide avatar globally, Chatbox, acknowledging feedback for avatar scaling, and avatar search</small>
+|Incoming 2022.2.2p3 release, and 2022.2.2p4 open beta
+|-
+|August 9
+|2022.2.2p2b
+|Text<ref>[https://ask.vrchat.com/t/developer-update-9-august-2022/ 'Developer Update - 9 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|VRChat Home Website upgrades for friend locations and "invite me", improved VRCat earmuff art
+|<small>''Developer Updates will be published biweekly (twice a week), on Tuesday and Friday, starting August 10'', full-body tracking calibration visualization, gesture icons, "Immersive Mode" personal mirror and snapping, more favorites for avatars, worlds, and friends</small>
+| N/A
+|-
+|August 8
+|2022.2.2p2b<ref>[https://docs.vrchat.com/docs/vrchat-202222p2b 'VRChat 2022.2.2p2b'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-8-august-2022/ 'Developer Update - 8 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|2022.2.2p2(b) released, 2022.2.3 Open Beta
+|<small>Earmuff feedback, gesture indicators, more favorites for worlds, friends, and avatars, "Immersive Mode" personal mirror and snapping, face mirror controls, camera resolution, camera smart rotation, chatbox</small>
+|Fixing near-clip bugs
+|-
+|August 5
+|2022.2.2p2<ref>[https://docs.vrchat.com/docs/vrchat-202222p2 'VRChat 2022.2.2p2'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-5-august-2022/ 'Developer Update - 5 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|<small>2022.2p2 released: moveable Main Menu, Horizon Adjust, custom Home Instance type, Personal Mirror, Portal Prompt, Particle Limiter toggle, Gesture Indicators, camera lag fixes, disable cloning on instance change, IK fixes</small><small>2022.2.3 Open Beta: Earmuff mode, Keyboard copy/paste buttons, avatar distance culling, microphone sensitivity and noise adjustment, camera near-clip override,  Personal Mirror improvements</small>
+|<small>Earmuff mode, Microphone noise gate and suppression, more favorites for worlds, avatars, and friends, Personal Mirror, avatar distance culling, camera resolution selector, Grabbable personal mirror, Chatbox</small>
+|Scaling for puppet menus
+|-
+|August 4
+|2022.2.2p1b
+|Text<ref>[https://ask.vrchat.com/t/developer-update-4-august-2022/ 'Developer Update - 4 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|N/A
+|<small>"Converation Dome" (integrated as Earmuff Mode), Microphone noise gate and suppression, avatar distance culling, camera resolution selector, More favorites for worlds, avatars, and friends, moveable Personal mirror and opacity slider, Chatbox</small>
+|N/A
+|-
+|August 3
+|2022.2.2p1b
+|Text<ref>[https://ask.vrchat.com/t/developer-update-3-august-2022/ 'Developer Update - 3 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|N/A
+|<small>2022.2.2p2 Open Beta, more favorites for worlds, avatars, and friends, keyboard copy/paste buttons, moveable personal mirror, resizing, Face Mirror, viewpoint near-clip, Camera portrait mode and resolution select, gallery saving on desktop, avatar distance culling, "Conversation Dome" (integrated as Earmuff Mode), Chatbox, CPU Core Affinity (CCX) and processing priority</small>
+|N/A
+|-
+|August 2
+|2022.2.2p1b
+|Text<ref>[https://ask.vrchat.com/t/developer-update-2-august-2022/ 'Developer Update - 2 August 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|Fixed Community Labs bug
+|<small>2022.2.2p2 Open Beta, moveable Main Menu, Horizon Adjust, Personal mirror, Face mirror, avatar distance culling, TTT, TTS, and STT integration (Chatbox), camera near-clip adjustment, microphone noise gate and suppression, portal placement, auto-disable cloning, CPU Core Affinity (CCX) and processing priority, AMD FSR</small>
+|Upcoming fixes for FPS drops and fixes
+|-
+|July 29
+|2022.2.2p1b<ref>[https://docs.vrchat.com/docs/vrchat-202222p1b 'VRChat 2022.2.2p1b'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/developer-update-29-july-2022/ 'Developer Update - 29 July 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|<small>2022.2.2p2 Open Beta, Camera and screenshot lag fixes, User Notes (on web), Inverted look-to-move improvements, Horizon Adjust, moveable Main Menu, Personal mirror, Calibration mirror, portal prompts, gesture indicators, home instance types, particle limiter toggle, auto-disable cloning, keyboard copy/paste, near-clip overrides, TTS (Chatbox), increased favorites for avatars, worlds, and friends, avatar distance culling</small>
+|N/A
+|N/A
+|-
+|July 28
+|2022.2.2p1
+|Text<ref>[https://ask.vrchat.com/t/developer-update-28-july-2022/ 'Developer Update - 28 July 2022'] on ''ask.vrchat.com''; retrieved March 1, 2025.</ref>
+|Fixed SteamVR in Proton
+|Internal strategies for Production, Design, and Taskin, notes about user safety and security
+|<small>Horizon Adjust, noise cancellation, custom mic sensitivity, slider snapping, "Solo Audio" and "Conversation Dome" (integrated as [[Earmuff Mode]]), Steam audio, avatar distance culling, text-to-speech (Chatbox, Ask to Portal (portal prompt), better portal placement, near-clipping slider, Home World instance type, particle limiter, copy/paste buttons, haptics on touch, increased favorites, personal mirror, FBT calibration visualization, camera changes, user notes, hide avatar globally</small>
+|-
+| colspan="4" |'''From this cell, upwards, VRChat begins to actively utilize the [https://ask.vrchat.com/c/official/ Ask Forums] to post Developer Updates, after one post since January 2021.'''
+| -
+| -
+|-
+|July 27
+|2022.2.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202222p1 'VRChat 2022.2.2p1'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text'''<ref>[https://hello.vrchat.com/blog/addressing-your-feedback 'Addressing your Feedback'] on ''VRChat's Blog''; retrieved March 2, 2025.</ref>'''
+|'''Addressing community feedback regarding EAC integration'''
+|N/A
+|<small>[[Horizon Adjust]], Personal [[Mirrors|Mirror]], Calibration mirror, custom mic sensitivity, visual adjustments for accessibility, moveable [[Main Menu]], haptics on touch, particle limiters<ref>[https://hello.vrchat.com/blog/addressing-your-feedback 'Addressing your Feedback'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref></small>
+|-
+|July 25/26
+|2022.2.2<ref>[https://docs.vrchat.com/docs/vrchat-202222 'VRChat 2022.2.2'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://hello.vrchat.com/blog/vrchat-security-update 'The VRChat Security Update'] on ''VRChat's Blog''; retrieved March 2, 2025.</ref>
+|Easy Anti-Cheat (EAC), and security updates
+|N/A
+|Accessibility features, secure instances, Portal locking, secure instances, [[Portals|Portal]] locking<ref>[https://hello.vrchat.com/blog/vrchat-security-update 'The VRChat Security Update'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref>
+|-
+|May 17
+|2922.1.2p4<ref>[https://docs.vrchat.com/docs/vrchat-202212p4 'VRChat 2022.1.2p4'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://hello.vrchat.com/blog/creator-toolbox-update 'Creator Toolbox Update'] on ''VRchat's Blog''; retrieved March 1, 2025.</ref>
+|Creator Toolbox Update, VRChat Package Manager, [[Creator Companion]], ClientSim, [[UdonSharp]]<ref>[https://udonsharp.docs.vrchat.com 'UdonSharp Docs'] at ''udonsharp.docs.vrchat.com''; retrieved September 13, 2025.</ref>, Quick Launcher<ref>[https://vcc.docs.vrchat.com/tools/vrc-quick-launcher 'Quick Launcher Docs'] at ''vcc.docs.vrchat.com''; retrieved September 13, 2025.</ref>
+|N/A
+|N/A
+|-
+|April 21
+|2022.1.2p1<ref>[https://docs.vrchat.com/docs/vrchat-202212p1 'VRChat 2022.1.2p1'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live 'Avatar Dynamics is Now Live'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=BZWZqKLjJTY 'Avatar Dynamics Open Beta Live Now!'] on ''YouTube''; retrieved March 1, 2025.</ref>
+|[[Avatar Dynamics]], [[PhysBones]], Dynamic Bone conversion
+|N/A
+|N/A
+|-
+|April 1
+|2022.1.1p4<ref>[https://docs.vrchat.com/docs/vrchat-202211p4 'VRChat 2022.1.1p4'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://hello.vrchat.com/blog/joke-jam-live 'Joke Jam World Row is Live'] on ''VRChat's Blog'' retrieved March 1, 2025.</ref>
+|[[Events|Joke Jam]] World results, Udon analytics
+|N/A
+|N/A
+|-
+|March 4
+|2022.1.1p2<ref>[https://docs.vrchat.com/docs/vrchat-202211p2 'VRChat 2022.1.1p2'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://hello.vrchat.com/blog/avatar-dynamics-open-beta 'Avatar Dynamics is Now in Open Beta!'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref>
+|[[Avatar Dynamics]] ([[Open Beta]])
+|N/A
+|N/A
+|-
+|February 25
+|2022.1.1p1<ref>[https://docs.vrchat.com/docs/vrchat-202211p1 'VRChat 2022.1.1p1'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://hello.vrchat.com/blog/vrchat-ik-2 'VRChat IK 2.0 - 8 and 10-point tracking!'] on ''VRChat's Blog'' ;retrieved March 1, 2025.</ref>, Video<ref>[https://x.com/VRChat/status/1493314642071986182 Post by VRChat: "vibing"] on ''X.com'', from February 14, 2022; retrieved March 1, 2025.</ref>
+|IK 2.0<ref>[https://docs.vrchat.com/docs/ik-20-features-and-options 'IK 2.0 Features and Options'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref> (Open Beta)
+|N/A
+|N/A
+|-
+|February 16
+|2021.4.2p4<ref>[https://docs.vrchat.com/docs/vrchat-202142p4 'VRChat 2021.4.2p4'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://hello.vrchat.com/blog/vrchat-osc-for-avatars 'VRChat OSC for Avatars'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref>
+|[[OSC]] for [[Avatars]], Comfort Tunneling
+|N/A
+|N/A
+|-
+|January 28
+|2021.4.2p3<ref>[https://docs.vrchat.com/docs/vrchat-202142p3 'VRChat 2021.4.2p3'] on ''docs.vrchat.com''; retrieved March 1, 2025.</ref>
+|Text<ref>[https://hello.vrchat.com/blog/our-policy-on-nfts-and-blockchain-in-vrchat 'Our Policy on NFTs and Blockchain in VRChat'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref>
+|VRChat's policy on non-fungible tokens (NFTs), and blockchain
+|N/A
+|N/A
+|-
+| colspan="4" |'''From this cell upwards, VRChat migrated<ref>[https://hello.vrchat.com/blog/vrchat-blog-migration 'VRChat Blog Migration'] on ''VRChat's Blog''; retrieved March 1, 2025.</ref> their blog, from [https://medium.com/vrchat Medium] to a [https://hello.vrchat.com/blog self-hosted blog].'''
+| -
+| -
+|}
+
 ===2021===
-''See [[Special:MyLanguage/2021 in VRChat updates|2021 in VRChat updates]] for all detailed information.''
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2021. Click "Expand" to show this table!
+|+
+!Date 
+!Build
+
+!Format
+!Implemented
+!Reminders
+!Announced
+|-
+|December 17
+|2021.4.2p3<ref>[https://docs.vrchat.com/docs/vrchat-202142p3 "VRChat 2021.4.2p3"] on ''[[docs.vrchat.com]]''. Dated December 16, 2021. Retrieved September 18, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/avatar-dynamics-dev-update-9582d674ab1d "Avatar Dynamics Update"] on ''[https://medium.com/vrchat Medium]''. Dated December 17, 2021. Retrieved September 18, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=ronwThXPFz8 "Avatar Dynamics"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated December 17, 2021. Retrieved September 18, 2025.</ref>
+|N/A
+|N/A
+|Avatar Dynamics, PhysBones, Performance, Avatar Triggers, Colliders, Permissions, Debug View, Automatic Dynamic Bone conversion
+|-
+|November 30
+|2021.4.1p1<ref>[https://docs.vrchat.com/docs/vrchat-202141p1 "VRChat 2021.4.1p1"] on ''[[docs.vrchat.com]]''. Dated November 18, 2021. Retrieved September 18, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/introducing-the-vrchat-learning-channel-bab8ee8b6ba0 "Introducing the VRChat Learning Channel!"] on ''[https://medium.com/vrchat Medium]''. Dated November 30, 2021. Retrieved September 18, 2025.</ref>
+|Introducing the [https://www.youtube.com/@vrchat_learning_channel VRChat Learning Channel], video tutorialSson [https://www.youtube.com/playlist?list=PLRUlfYGZBxVeEAVXkaG1uydyzFZAMOuMd Uploading Your First Avatar]
+|N/A
+|N/A
+|-
+|October 29
+|2021.3.4p2<ref>[https://docs.vrchat.com/docs/vrchat-202134p2 "VRChat 2021.3.4p2"] on ''[[docs.vrchat.com]]''. Dated September 30, 2021. Retrieved September 18, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/vrchat-spookality-2021-winners-b648626ea2d1 "VRChat Spookality 2021 Winners!"] on ''[https://medium.com/vrchat Medium]''. Dated October 29, 2021. Retrieved September 18, 2025.</ref>
+|Spookality Hub, Spookality winners and world row
+|N/A
+|N/A
+|-
+|September 10 
+|2021.3.3p2<ref>[https://docs.vrchat.com/docs/vrchat-202133p2 "VRChat 2021.3.3p2"] on ''[[docs.vrchat.com]]''. Dated September 8, 2021. Retrieved September 18, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/vrchat-spookality-2021-45153d58556a "VRChat Spookality 2021"] on ''[https://medium.com/vrchat Medium]''. Dated September 10, 2021. Retrieved September 18, 2025.</ref>
+|N/A
+|Spookality Jam begins October 1, through October 22 - Jam prizes
+|[[Special:MyLanguage/Spookality 2021|Spookality 2021]] world, and avatar jam
+|-
+|July 15
+|2021.3.1p1<ref>[https://docs.vrchat.com/docs/vrchat-202131p1 "VRChat 2021.3.1p1"] (Build 1114) on ''[[docs.vrchat.com]]''. Dated July 13, 2021. Retrieved September 18, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/vrchat-engine-upgrade-unity-2019-lts-57b0b2e149d7 "VRChat Engine Upgrade: Unity 2019 LTS"] on ''[https://medium.com/vrchat Medium]''. Dated July 15, 2021. Retrieved September 18, 2025.</ref>
+|2021.3.2<ref>[https://docs.vrchat.com/docs/vrchat-202132 "VRChat 2021.3.2"] (Build 1121) on ''[[docs.vrchat.com]]''. Dated August 4, 2021. Retrieved September 18, 2025.</ref> Open Beta, migration from Unity 2018 LTS to 2019 LTS<ref>[https://docs.vrchat.com/docs/migrating-from-2018-lts-to-2019-lts (OUTDATED) "Migrating from 2018 LTS to 2019 LTS"] on ''[[docs.vrchat.com]]''. Dated July 15, 2021. Retrieved September 18, 2025.</ref>
+|Upgrade to Unity 2019.4.29f1
+|N/A
+|-
+|June 25
+|2021.2.4p3<ref>[https://docs.vrchat.com/docs/vrchat-202124p3 "VRChat 2021.2.4p3"] on ''[[docs.vrchat.com]]''. Dated June 24, 2021. Retrieved September 17, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/vrchat-partners-with-anthos-capital-to-close-80m-series-d-d706a1ab481b "VRChat Partners with Anthos Capital to Close $80M Series D"] on ''[https://medium.com/vrchat Medium]''. Dated June 25, 2021. Retrieved September 17, 2025.</ref>
+|N/A
+|N/A
+|$80 million Series D investment from Anthos Capital, Investor Makers Fund, GFR fun, et. al.
+|-
+|April 19
+|2021.1.5p2<ref>[https://docs.vrchat.com/docs/vrchat-202115p2 "VRChat 2021.1.5p2"] on ''[[docs.vrchat.com]]''. Dated April 1, 2021. Retrieved September 17, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/vrchat-april-2021-dev-stream-recap-8502bb8c9163 "VRChat April 2021 Dev Stream Recap!"] on ''[https://medium.com/vrchat Medium]''. Dated April 19, 2021. Retrieved September 16, 2021.</ref>, Video<ref>[https://www.twitch.tv/videos/994684387 "VRChat Developer Stream - April 2021"] on ''[https://www.twitch.tv/vrchat Twitch]''. Dated April 19, 2021. Retrieved September 16, 2025.</ref><ref>[https://www.youtube.com/watch?v=QBQnCxtDaso "VRChat Developer Stream - April 2021"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated April 20, 2021. Retrieved September 16, 2025.</ref><ref>[https://www.youtube.com/watch?v=OXvSv1KACRw "VRChat Dev Stream - April 2021 - New UI Walkthrough"], unlisted on ''[https://www.youtube.com/@VRChat YouTube]''. Dated April 19, 2021. Retrieved September 16, 2025.</ref><ref>[https://www.youtube.com/watch?v=lVOewIqjiFQ "VRChat Dev Stream - April 2021 - Avatar Dynamics"] unlisted on ''[https://www.youtube.com/@VRChat YouTube]''. Dated April 19, 2021. Retrieved September 16, 2025.</ref><ref>[https://www.youtube.com/watch?v=-pOKKI8rkrI "VRChat Dev Stream - April 2021 - Udon Networking Update"] unlisted on ''[https://www.youtube.com/@VRChat YouTube]''. Dated April 19, 2021. Retrieved September 16, 2025.</ref><ref>[https://www.youtube.com/watch?v=q42Ym_QfBvs "VRChat Dev Stream - April 2021 - In-Client Debugging"] unlisted on ''[https://www.youtube.com/@VRChat YouTube]''. Dated April 19, 2021. Retrieved September 16, 2025.</ref><ref>[https://www.youtube.com/watch?v=4f0ob6GwDjk "VRChat Dev Stream - April 2021 - OSC Control"] unlisted on ''[https://www.youtube.com/@VRChat YouTube]''. Dated April 19, 2021. Retrieved September 16, 2025.</ref><ref>[https://www.youtube.com/watch?v=_JFYMaU5iQE "VRChat Dev Stream - April 2021 - Dev Labs: More Additions!"] unlisted on ''[https://www.youtube.com/@VRChat YouTube]''. Dated April 19, 2021. Retrieved September 16, 2025.</ref>
+|Improved servers, expanded [[VRChat API]] team
+|Account security, [[2FA]], CCU record (45,200)
+|<small>New Quick Menu UI, UI skins, Udon Hooks, [[Avatar Dynamics]], [[PhysBones]], avatar/world interactions, "VRChat Cloth", Identity Update, Image Gallery, [[Nameplates|Nameplate]] status, increasing favorites for friends, and worlds, [[Groups]], [[Creator Economy]], [[Udon]] Networking Update (synced arrays, object pools, late-joiner support, in-world debugging), World and Player Persistence, VRChat Package Manager, [[Events|World Jams]], "Dynamic Images", Graphics.Blit, List<T> in Udon, [[OSC]], Cinemachine Stream Camera, "Tunneling" comfort mode, Europe and Japan [[Instances|Region]] support, Unity 2019 merge, [[VRC+]] Quest support, and VRC+ gifting</small>
+|-
+|March 18
+|2021.1.4p1<ref>[https://docs.vrchat.com/docs/vrchat-202114p1 "VRChat 2021.1.4p1"] on ''[[docs.vrchat.com]]''. Dated March 12, 2021. Retrieved September 17, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/vrchat-on-quest-avatar-performance-woes-1a3cc228a442 "VRChat on Quest: Avatar Performance Woes"] on ''[https://medium.com/vrchat Medium]''. Dated March 18, 2021. Retrieved September 16, 2021.</ref>
+|N/A
+|Acknowledging [[Robot|Robot avatars]], and 'Very Poor'<ref name="AvatarPerfRankSys"/> avatars on Quest
+|[[Avatars|Avatar]] [[Fallbacks|Fallback]] system
+|-
+|February 2
+|2021.1.2<ref>[https://docs.vrchat.com/docs/vrchat-202112 "VRChat 2021.1.2"] on ''[[docs.vrchat.com]]''. Dated February 2, 2021. Retrieved September 16, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/improved-invites-custom-messages-and-vrc-photo-invites-64f542d098e0 "Improved Invites, Custom Messages, and VRC+ Photo Invites!"] on ''[https://medium.com/vrchat Medium]''. Dated February 2, 2021. Retrieved September 16, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=fqBDkjLBJuY "Introducing: Improved Invites, Custom Messages, and VRChat Plus Photo Invites!"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated February 2, 2021. Retrieved September 16, 2025.</ref>
+|Invite messages, invite responses, [[VRC+]] invite message photos, new invite icons, Quick Menu Notification page, Udon TextMeshProUGUI support, instancing support to mobile matcap shader
+|N/A
+|N/A
+|-
+| January 5
+|2020.4.4p2<ref>[https://docs.vrchat.com/docs/patch-notes-2020 "VRChat 2020.4.4p2"] (Build 1032) on ''[[docs.vrchat.com]]''. Dated December 16, 2020. Retrieved September 15, 2025.</ref>
+|Text<ref>[https://ask.vrchat.com/t/community-update-5-january-2021 "Community Update - 6 January 2021"] on ''[[ask.vrchat.com]]''. Dated January 5, 2021. Retrieved September 16, 2025.</ref>
+|N/A
+|Hiring spree (QA, Server Engineer, UI Graphics Design), [[Resources]]
+|Acknowledging New Years Eve server issues, NYE CCU (40,000 users)
+|}
 
 ===2020===
-''See [[Special:MyLanguage/2020 in VRChat updates|2020 in VRChat updates]] for all detailed information.''
-<br>Patch notes for VRChat ''Builds released in 2020<ref>[https://docs.vrchat.com/docs/patch-notes-2020 "Patch Notes - 2020"] on ''[[docs.vrchat.com]]''. Dated January 8, 2021. Retrieved September 6, 2024.</ref>'' can be viewed [https://docs.vrchat.com/docs/patch-notes-2020 here].
+Patch notes for VRChat ''Builds released in 2020<ref>[https://docs.vrchat.com/docs/patch-notes-2020 "Patch Notes - 2020"] on ''[[docs.vrchat.com]]''. Dated January 8, 2021. Retrieved September 6, 2024.</ref>'' can be viewed at https://docs.vrchat.com/docs/patch-notes-2020
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2020. Click "Expand" to show this table!
+|+
+!Date
+!Build
+!Format
+!Implemented
+!Reminders
+!Announced
+|-
+|December 14
+|2020.4.4p1
+|Text<ref>[https://ask.vrchat.com/t/community-update-14-december-2020/4046 Community Update - 14 December 2020"] on ''[[ask.vrchat.com]]''. Dated December 14, 2020. Retrieved September 19, 2025.</ref>
+|<small>2020.4.4 released, user microphone volume sliders, improved audio settings in Main Menu, tinted Robot avatars, UseLowLatency for AVPro in Udon hooks</small>
+|Continued hiring spree
+|N/A
+|-
+|December 7
+|2020.4.3
+|Text<ref>[https://ask.vrchat.com/t/community-update-7-december-2020/4046 "Community Update - 7 December 2020"] on ''[[ask.vrchat.com]]''. Dated December 7, 2020. Retrieved September 19, 2025.</ref><ref name="VRCPlusLaunch">[https://medium.com/vrchat/vrchat-plus-is-now-live-c8efdf796f2d "VRChat Plus is now Live!"] on ''[https://medium.com/vrchat Medium]''. Dated December 3, 2020. Retrieved September 19, 2025.</ref>, Video<ref name="VRCPlusLaunchYT">[https://www.youtube.com/watch?v=kc_1IBX8bUw "VRChat Plus Early Supporter Launch"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated December 3, 2020. Retrieved September 19, 2025.</ref>
+|<small>2020.4.3 release, VRC+<ref>[https://hello.vrchat.com/vrchat-plus-faq "VRC+ - Frequently Asked Questions"] on ''[[hello.vrchat.com]]''. Retrieved September 19, 2025.</ref>, user icons, 100 favorite avatar slots, Early Supporter [[Badge]], increased [[Trust Ranks]], VRCat on menu</small>
+|Continued hiring spree
+|N/A
+|-
+|December 3
+|2020.4.3
+|Text<ref name="VRCPlusLaunch"/><ref name="VRCPlusLaunchYT"/>
+|2020.4.3 release, VRC+ is live
+|N/A
+|N/A
+|-
+|November 19
+|2020.4.2
+|Text<ref>[https://medium.com/vrchat/introducing-vrchat-plus-40642cff6c78 "Introducing VRChat Plus"] on ''[https://medium.com/vrchat Medium]''. Dated November 19, 2020. Retrieved September 20, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=z-MKanCkDck "Introducing VRChat Plus"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated November 19, 2020. Retrieved September 20.</ref>
+|<small>2020.4.3 Open Beta, [[VRC+]], user icons, 100 favorite avatar slots, Early Supporter [[Badge]], increased [[Trust Ranks]], VRCat on menu</small>
+|N/A
+|N/A
+|-
+|November 17
+|2020.4.2
+|Text<ref>[https://ask.vrchat.com/t/community-update-17-november-2020 "Community Update - 17 November 2020"] on ''[[ask.vrchat.com]]''. Dated November 17, 2020. Retrieved September 19, 2025.</ref>
+|<small>2020.4.2 released, Discord and Steam rich presence, Blocked avatar (gray robot) scaling, smooth desktop camera, local camera alpha filter, improved Quest 2 support, avatar cloning</small>
+|Continued hiring spree
+|N/A
+|-
+|November 9
+|2020.4.1p5
+|Text<ref>[https://ask.vrchat.com/t/community-update-9-november-2020 "Community Update - 9 November 2020"] on ''[[ask.vrchat.com]]''. Dated November 9, 2020. Retrieved September 19, 2025.</ref><ref>[https://medium.com/vrchat/vrchat-spookality-2020-winners-cccd807d6bf1 "VRChat Spookality 2020 Winners!"] on ''[https://medium.com/vrchat Medium]''. Dated November 9, 2020. Retrieved September 20, 2025.</ref>
+|<small>2020.4.2 Open Beta, Discord and Steam rich presence, "Gray [[Robot]]" height scaling fixes, Discord instance invites, tweaked Discord and Steam Rich Presence, Steam friend list joining, smooth first-person camera mode in VR, removed spiral camera filter, added 'local user only' alpha filter</small>
+|Continued hiring spree
+|[[Spookality 2020]] winners
+|-
+|November 2
+|2020.4.1p4
+|Text<ref>[https://ask.vrchat.com/t/community-update-2-november-2020 "Community Update - 2 November 2020"] on ''[[ask.vrchat.com]]''. Dated November 2, 2020. Retrieved September 19, 2025.</ref>
+|2020.4.1, 1p1, 1p2, 1p3, 1p4 released!, new CCU record (undisclosed user count)
+|Continued hiring spree
+|New Years Eve celebration mentioned
+|-
+|October 27
+|2020.4.1
+|Text<ref>[https://ask.vrchat.com/t/community-update-27-october-2020 "Community Update - 27 October 2020"] on ''[[ask.vrchat.com]]''. Dated October 27, 2020. Retrieved September 19, 2025.</ref>
+|2020.4.1 Open Beta
+|Continued hiring spree, Spookality 2020 jam closed
+|N/A
+|-
+|October 19
+|2020.3.3p2
+|Text<ref>[https://ask.vrchat.com/t/community-update-19-october-2020 "Community Update - 19 October 2020"] on ''[[ask.vrchat.com]]''. Dated October 19, 2020. Retrieved September 19, 2025.</ref>
+|<small>2020.4.1 Open Beta, real-time synced friend updates, improved "in-room" social list, Udon-powered voice control, Cinemachine whitelisted, Player Audio in Udon, multiple Avatar 3.0 parameters added in SDK3</small>
+|Continued hiring spree, Spookality 2020 submission deadline
+|N/A
+|-
+|October 6
+|2020.3.3p2
+|Text<ref>[https://ask.vrchat.com/t/community-update-6-october-2020 "Community Update - 6 October 2020"] on ''[[ask.vrchat.com]]''. Dated October 6, 2020. Retrieved September 19, 2025.</ref>
+|2020.3.3p2, Soundcloud on URL whitelist, BunnyCDN and Cloudfront removed
+|Continued hiring spree
+|N/A
+|-
+|September 28
+|2020.3.3p1
+|Text<<ref>[https://ask.vrchat.com/t/community-update-28-september-2020 "Community Update - 28 September 2020"] on ''[[ask.vrchat.com]]''. Dated September 28, 2020. Retrieved September 19, 2025.</ref>
+|2020.3.3p1 released, various fixes,  Trust and Safety Lead position filled
+|Continued hiring spree
+|N/A
+|-
+|September 21
+|2020.3.3
+|Text<<ref>[https://ask.vrchat.com/t/community-update-21-september-2020 "Community Update - 21 September 2020"] on ''[[ask.vrchat.com]]''. Dated September 21, 2020. Retrieved September 19, 2025.</ref>
+|2020.3.3, SDK3 [[Video players]], "Allow [[Untrusted URLs]]", Udon API hooks, desktop pickup rotation
+|Continued hiring spree
+|Upcoming fixes
+|-
+|September 8
+|2020.3.2p5
+|Text<ref>[https://ask.vrchat.com/t/community-update-8-september-2020 "Community Update - 8 September 2020"] on ''[[ask.vrchat.com]]''. Dated September 8, 2020. Retrieved September 19, 2025.</ref>
+|N/A
+|Continued hiring spree
+|2020.3.3 incoming
+|-
+|August 31
+|2020.3.2p4
+|Text<ref>[https://ask.vrchat.com/t/community-update-31-august-2020 "Community Update - 31 August 2020"] on ''[[ask.vrchat.com]]''. Dated August 31, 2020. Retrieved September 19, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=u70G2diOfN8 "VRChat Bindings Menu"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated August 28, 2020. Retrieved September 19, 2025.</ref>
+|2020.3.2p4 released, Action Menu fixes, SteamVR custom bindings tweaks
+|Continued hiring spree
+|[[Spookality 2020]] submissions open<ref>[https://medium.com/vrchat/vrchat-spookality-2020-766376560a8 "VRChat Spookality 2020"] on ''[https://medium.com/vrchat Medium]''. Dated August 25, 2020. Retrieved September 18, 2025.</ref>, Troll Mug
+|-
+|August 24
+|2020.3.2p2
+|Text<ref>[https://ask.vrchat.com/t/community-update-24-august-2020 "Community Update - 24 August 2020"] on ''[[ask.vrchat.com]]''. Dated August 24, 2020. Retrieved September 19, 2025.</ref>
+|Updated Udon documentation<ref>[https://creators.vrchat.com/worlds/udon/ "Udon"] on ''[[docs.vrchat.com]]''. Retrieved September 19, 2025.</ref>
+|Continued hiring spree
+|2020.3.2p4 incoming
+|-
+|August 17
+|2020.3.2p2
+|Text<ref>[https://ask.vrchat.com/t/community-update-17-august-2020 "Community Update - 17 August 2020"] on ''[[ask.vrchat.com]]''. Dated August 17, 2020. Retrieved September 19, 2025.</ref>
+|<small>2020.3.2p2, 2020.2p3 patches, and numerous fixes to new 3.0 avatars, and Action Menu, New CCU record (21,000 users), bindings published for Valve Index, Oculus Touch, WMR, and Vive Wands on SteamVR</small>
+|Continued hiring spree
+|N/A
+|-
+|August 10
+|2020.3.2p1
+|Text<ref>[https://ask.vrchat.com/t/community-update-10-august-2020 "Community Update - 10 August 2020"] on ''[[docs.vrchat.com]]''. Dated August 10, 2020. Retrieved September 19, 2025.</ref><ref name="IntroducingAvatars3_0">[https://medium.com/vrchat/introducing-avatars-3-0-c9d2de010177 "Introducing Avatars 3.0!"] on ''[https://medium.com/vrchat Medium]''. Dated August 6, 2020. Retrieved September 19, 2025.</ref>
+|<small>2020.3.2 released, Avatars 3.0 is released, [[Action Menu]], Unity Animators, SDK3 split into world and avatar SDKs, Avatar Download Size Limit settings adjuster, portal user hard-cap, world re-joining over soft-cap, 48KHz audio output, multiple FBT/IK calibration improvements and fixes on Avatar 2.0 and 3.0</small>
+|Continued hiring spree, AV3 walkthrough index<ref>[https://web.archive.org/web/20201001123424/https://ask.vrchat.com/t/av3-walkthrough-index/2148 "AV3 Walkthrough Index"] Archived via ''[https://web.archive.org Archive.org]''. Dated October 1, 2020. Retrieved September 19, 2025.</ref>
+|N/A
+|-
+|August 6
+|2020.3.1
+|Text<ref name="IntroducingAvatars3_0"/>
+|<small>2020.3.2 released, [[Avatars 3.0]] is released, [[Action Menu]], Unity Animators, SDK3 split into world and avatar SDKs, Avatar Download Size Limit settings adjuster, portal user hard-cap, world re-joining over soft-cap, 48KHz audio output, multiple FBT/IK calibration improvements and fixes on Avatar 2.0 and 3.0</small>
+|N/A
+|N/A
+|-
+|August 4
+|2020.3.1
+|Text<ref>[https://ask.vrchat.com/t/community-update-4-august-2020 "Community Update - 4 August 2020"] on ''[[ask.vrchat.com]]''. Dated August 4, 2020. Retrieved September 19, 2025.</ref>
+|<small>2020.3.2 Open Beta, Avatars 3.0 Open Beta, Udon Node Graph features: Zoom, Variables Window, Groups, Drag-and-drop GameObjects, Components, compiler improvements, et. al.</small>
+|Continued hiring spree
+|Upcoming Udon fixes, Array Sync
+|-
+|July 27
+|2020.3.1
+|Text<ref>[https://ask.vrchat.com/t/community-update-27-july-2020 "Community Update - 27 July 2020"] on ''[[ask.vrchat.com]]''. Dated July 27, 2020. Retrieved September 19, 2025.</ref>
+|Avatars 3.0 Open Beta
+|Continued hiring spree
+|N/A
+|-
+|July 20
+|2020.3.1
+|Text<ref>[https://ask.vrchat.com/t/community-update-20-july-2020 "Community update - 20 July 2020"] on ''[[ask.vrchat.com]]''. Dated July 20, 2020. Retrieved September 19, 2025.</ref>
+|2020.3.1 released, Avatars 3.0 Open Beta, [https://www.youtube.com/watch?v=8gXzBTqlP6I&list=PLe9XHNvXcouQjg5GULWGLj1tMzeythnQ "Learning Udon" YouTube playlist]
+|Continued hiring spree
+|N/A
+|-
+|July 13
+|2020.2.3p1
+|Text<ref>[https://ask.vrchat.com/t/community-update-13-july-2020 "Community Update - 13 July 2020"] on ''[[ask.vrchat.com]]''. Dated July 13, 2020. Retrieved September 19, 2025.</ref>
+|2020.3.1 Open Beta, Avatars 3.0 Open Beta<ref>[https://web.archive.org/web/20200715061701/https://docs.vrchat.com/v2020.2.3-av3/docs/what-is-avatars-30 "What is Avatars 3.0?"] Archived via ''[https://web.archive.org Archive.org]'' on ''[[docs.vrchat.com]]''. Dated July 15, 2020. Retrieved September 19, 2025.</ref>, logging improvements, AVPro disabled on Linux, SDK blendshape "Auto Fix" button
+|Continued hiring spree
+|N/A
+|-
+|July 6
+|2020.2.3p1
+|Text<ref>[https://ask.vrchat.com/t/community-update-6-july-2020 "Community Update - 6 July 2020"] on ''[[ask.vrchat.com]]''. Dated July 6, 2020. Retrieved September 19, 2025.</ref>, Video<ref name="UdonNodeGraphYT">[https://www.youtube.com/watch?v=IVjEx_H5BZc "VRChat Udon - What's New in the Udon Graph"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated June 26, 2020. Retrieved September 19, 2025.</ref>
+|Preview build for Udon Node Graph<ref name="UdonNodeGraphYT"/><ref>[https://web.archive.org/web/20200711164139/https://docs.vrchat.com/docs/udon-node-graph-upgrade "Udon Node Graph"] Archived via ''[https://web.archive.org Archive.org]'' on ''[[docs.vrchat.com]]''. Dated July 11, 2020. Retrieved September 19, 2025.</ref>, Graph Elements<ref>[https://creators.vrchat.com/worlds/udon/graph/graph-elements/ "Graph Elements"] on ''[[creators.vrchat.com]]''. Retrieved September 19, 2025.</ref>, and Node Searching<ref>[https://creators.vrchat.com/worlds/udon/graph/searching-for-nodes/ "Searching for Nodes"] on ''[[creators.vrchat.com]]''. Retrieved September 19, 2025.</ref>
+|Continued hiring spree
+|Avatars 3.0 Closed Beta
+|-
+|June 15
+|2020.2.2p1
+|Text<ref>[https://ask.vrchat.com/t/community-update-15-june-2020 "Community Update - 15 June 2020"] on ''[[ask.vrchat.com]]''. Dated June 15, 2020. Retrieved September 19, 2025.</ref>
+|2020.2.3 Open Beta, video helper binaries automatically updated, fixes for Udon runtime, login flow QOL
+|Continued hiring spree, Avatars 3.0 and Action Menu closed alpha
+|N/A
+|-
+|June 8
+|2020.2.2p1
+|Text<ref>[https://ask.vrchat.com/t/community-update-8-june-2020 "Community Update - 8 June 2020"] on ''[[ask.vrchat.com]]''. Dated June 8, 2020. Retrieved September 19, 2025.</ref>
+|Community Support position filled
+|Continued hiring spree, Action Menu prototype, closed Udon Graph View testing
+|2020.2.3, fixes for Udon, voice falling behind in stations, upcoming UI update, Avatars 3.0 closed alpha
+|-
+|June 1
+|2020.2.2
+|Text<ref>[https://ask.vrchat.com/t/community-update-1-june-2020 "Community Update - 1 June 2020"] on ''[[ask.vrchat.com]]''. Dated June 1, 2020. Retrieved September 19, 2025.</ref>
+|2020.2.2, updated visual C++ packages, and fixes for nameplate, camera, and stations
+|Continued hiring spree
+|2020.2.3 incoming, streamlined Udon packages, Udon Node Graph Node in Closed Alpha, Action Menu prototypes, and Avatar 3.0 prototypes
+|-
+|May 26
+|2020.2.1p1
+|Text<ref>[https://ask.vrchat.com/t/community-update-26-may-2020 "Community Update - 26 May 2020"] on ''[[ask.vrchat.com]]''. Dated May 26, 2020. Retrieved September 19, 2025.</ref>
+|N/A
+|Continued hiring spree
+|2020.2.2, Avatar Expressions improvements, Udon SDK progress for graph groups and player audio API
+|-
+|May 19
+|2020.2.1p1
+|Text<ref>[https://ask.vrchat.com/t/community-update-19-may-2020 "Community Update - 19 May 2020"] on ''[[ask.vrchat.com]]''. Dated May 19, 2020. Retrieved September 19, 2025.</ref> 
+|2020.2.1p1 released, video player fixes, Virtual Bass Music Festival<ref>[https://x.com/VirtualBass/status/1262712597398208512 "Post by Virtual Bass"] on ''[https://x.com/VirtualBass X.com]''. Dated May 19, 2020. Retrieved September 19, 2025.</ref><ref>[https://clips.twitch.tv/TallConsiderateAyeayeOptimizePrime (Epilepsy Warning) "Virtual Bass Barely Alive"], clipped by ''[https://www.twitch.tv/vrpill VRPill]'' on ''[https://www.twitch.tv/virtualbass Twitch]''. Retrieved September 19, 2025.</ref>
+|Continued hiring spree
+|Udon Node Graph updates to use Unity's Graph API, [[Action Menu]]
+|-
+|May 11
+|2020.1.1p5
+|Text<ref>[https://ask.vrchat.com/t/community-update-11-may-2020 "Community Update - 11 May 2020"] on ''[[ask.vrchat.com]]''. Dated May 11, 2020. Retrieved September 19, 2025.</ref>
+|2020.2.1 Open Beta, Camera lock button improved station and mirror behavior
+|Hiring for Community Support, Server Engineer, QA, and Graphic Designer.
+|Progress on acknowledging a "everybody is [[Special:MyLanguage/Robot|robots]] on Quest"
+|-
+|May 4
+|2020.1.1p3.2
+|Text<ref>[https://ask.vrchat.com/t/community-update-4-may-2020 "Community Update - 4 May 2020"] on ''[[ask.vrchat.com]]''. Dated May 4, 2020. Retrieved September 19, 2025.</ref>
+|Dev Stream VOD<ref>[https://www.twitch.tv/vrchat/video/599790043 "Dev Stream VOD"] on ''[https://twitch.tv/vrchat Twitch]''. Dated(?) May 4, 2020. Retrieved September 19, 2025.</ref>, published by VRChat on Twitch was posted, but the VOD is unavailable. <small>(Lost media?)</small>, Virtual Market 4<ref>[https://web.archive.org/web/20200506060656/https://www.v-market.work/v4/ "Virtual Market 4"] Archived from May 6, 2020, via ''[https://web.archive.org Archive.org]'', on ''[https://www.v-market.work V-market.work]''. Retrieved September 19, 2025.</ref>
+|Weekly 'Community Updates' are introduced to the Ask Forums. Shoutouts to the Feature Team, and Creator Community.
+|Upcoming UI design, Avatars 3.0, hiring for Community Support, QA, and Graphic Designer roles
+|-
+|April 1
+|2020.1.1
+|Text<ref>[https://medium.com/vrchat/introducing-vrchat-udon-unlocking-coding-for-creators-ce411a6390d1 "Introducing VRChat Udon: Unlocking Coding for Creators"] on ''[https://medium.com/vrchat Medium]''. Dated April 1, 2020. Retrieved September 20, 2025.</ref>
+|[[Udon]] in the VRChat SDK, Live Alpha, changes to Status system, smoother IK, distance culling, dynamic audio quality
+|Getting Started with Udon<ref>[https://web.archive.org/web/20200502183525/https://ask.vrchat.com/t/getting-started-with-udon/80 "Getting Started with Udon"] Archived via ''[https://web.archive.org Archive.org]''. Dated May 1, 2020. Retrieved September 20, 2025.</ref>
+|N/A
+|-
+|March 17
+|2019.3.2p3
+|Text<ref>[https://medium.com/vrchat/stuck-inside-a-quick-guide-for-using-vrchat-to-stay-connected-f71430cf8a11 "Stuck Inside? A Quick Guide for using VRChat to Stay Connected"] on ''[https://medium.com/vrchat Medium]''. Dated March 17, 2020. Retrieved September 20, 2025.</ref>
+|N/A
+|N/A
+|COVID-19, [[Getting Started]], world recommendations
+|-
+|February 28
+|2019.3.2p3
+|Text<ref>[https://medium.com/vrchat/remembering-1001-973ac391c4df "Remembering 1001"] on ''[https://medium.com/vrchat Medium]''. Dated February 28, 2020. Retrieved September 20, 2025.</ref>
+|N/A
+|<small>[[Community:Treehouse in the Shade|Treehouse in the Shade]] ([https://vrchat.com/home/world/wrld_551c30cb-0e56-4c69-9176-10e259a89e2a/info Link]), [[Community:Music Visualizer 1.4.6|Music Visualizer]] ([https://vrchat.com/home/world/wrld_c02bd000-565c-4480-899e-920dd852fe5e Link]), [[Community:The Home Arcade|The Home Arcade]] [https://vrchat.com/home/world/wrld_e68dd0cb-c176-4f18-9ea9-e6a189747ffd (Link)]<ref>[https://www.youtube.com/watch?v=HEqCgFU4ep0 "KungFu Chat Trailer"] on ''[https://www.youtube.com/@Throwaway1014 YouTube]''. Dated December 16, 2019. Retrieved September 20, 2025.</ref>, [[Community:Fluid Flow Studio|Fluid Flow Studio]] ([https://vrchat.com/home/world/wrld_e90a3d88-2926-4c39-aae4-ddfe7db768f1 Link]), [[Community:Bamboo Temple|Bamboo Temple]] ([https://vrchat.com/home/world/wrld_b2728671-9935-4595-b971-8e60bfcd1942 Link]), [[Community:Monogatari|Monogatari]] ([https://vrchat.com/home/world/wrld_7f946760-c98f-4f56-b5c9-1c010700a228 Link]), [[Community:Fractal Explorer by 1001|Fractal Explorer by 1001]] ([https://vrchat.com/home/world/wrld_46ad6102-cd45-4388-8107-4a59864faf4e Link]), [[Community:Growth|Growth]] ([https://vrchat.com/home/world/wrld_ea9b444b-be7e-42fe-861a-341067506b2c Link])</small>
+|Passing of [https://vrchat.com/home/user/usr_30eb927e-0a00-4d52-ab39-df95112f2460 1001], community memoir
+|-
+|February 24
+|2019.3.2p3
+|Text<ref>[https://medium.com/vrchat/upcoming-status-system-changes-ed7f824e96ff "Upcoming Status System Changes"] on ''[https://medium.com/vrchat Medium]''. Dated February 24, 2020. Retrieved September 20, 2025.</ref>
+|"VRChat Status" additions, Do Not Disturb, and Ask Me status is introduced
+|N/A
+|N/A
+|}
 
 ===2019===
-''See [[Special:MyLanguage/2019 in VRChat updates|2019 in VRChat updates]] for all detailed information.''
-<br>Patch notes for VRChat ''Builds released in 2019<ref>[https://docs.vrchat.com/docs/patch-notes-2019 'Patch Notes - 2019' on Creator Docs; retrieved September 6, 2024.]</ref>'' can be viewed [https://docs.vrchat.com/docs/patch-notes-2019 here].
+Patch notes for VRChat ''Builds released in 2019<ref>[https://docs.vrchat.com/docs/patch-notes-2019 'Patch Notes - 2019' on Creator Docs; retrieved September 6, 2024.]</ref>'' can be viewed at https://docs.vrchat.com/docs/patch-notes-2019
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2019. Click "Expand" to show this table!
+|+
+!Date
+!Build
+! Format
+!Implemented
+!Reminders
+!Announced
+|-
+|December 2
+|2019.3.2p2
+|Text<ref>[https://medium.com/vrchat/featured-avatar-row-submissions-open-68d3456b155c "Featured Avatar Row Submissions Open!"] on ''[https://medium.com/vrchat Medium]''. Dated December 2, 2019. Retrieved September 20, 2025.</ref>
+|N/A
+|[[Public Avatars|Public avatar]] submissions, rules about submitting a public avatar
+|N/A
+|-
+|November 12
+|2019.3.2p2
+|Text<ref>[https://medium.com/vrchat/spookality-2019-winners-934e23e2eed2 "Spookality 2019 Winners!"] on ''[https://medium.com/vrchat Medium]''. Dated November 12, 2019. Retrieved September 20, 2025.</ref>
+|[[Spookality 2019]] winners, [[Spookality Hub 2019]] [https://vrchat.com/home/world/wrld_7195b53a-1959-4ca8-bd7d-a4c17eceb15a/info Link], [[Merchandise]]
+|N/A
+|N/A
+|-
+|November 8
+|2019.3.2p2
+|Text<ref>[https://medium.com/vrchat/vrchat-unity-2018-networking-ik-udon-and-more-445688972335 "VRChat: Unity 2018, Networking, IK, Udon, and More"] on ''[https://medium.com/vrchat Medium]''. Dated November 8, 2019. Retrieved September 20, 2025.</ref>
+|Unity 2018 LTS Open Beta, networked IK upgrades
+|Backup projects, test content if it breaks on migration, Writing bug reports<ref>[https://www.softwaretestinghelp.com/how-to-write-good-bug-report/ "How to Write a Good Bug Report"] on ''[https://softwaretestinghelp.com softwaretestinghelp.com]''. Retrieved September 20, 2025.</ref>
+|Unity 2018 LTS upgrade, upcoming UI menus HUDs, interfaces, Udon, Avatars 2.0, and Expression, Unity Package Manager, Progressive Lightmapper
+|-
+|October 1
+|2019.3.2p1
+|Text<ref>[https://medium.com/vrchat/vrchat-spookality-2019-f96ab4a0b2e "VRChat Spookality 2019"] on ''[https://medium.com/vrchat Medium]''. Dated October 1, 2019. Retrieved September 20, 2025.</ref>
+|N/A
+|N/A
+|[[Spookality 2019]] jam submissions, October 1 - October 23, prizes
+|-
+|September 5
+| 2019.3.1p4
+|Text<ref>[https://medium.com/vrchat/vrchat-partners-with-htc-and-makers-fund-to-close-10m-series-c-50ea04d5ca23 "VRChat Partners with HTC and Makers Fund to Close $10m Series C"] on ''[https://medium.com/vrchat Medium]''. Dated September 5, 2019. Retrieved September 20, 2025.</ref> 
+|$10 million Series C investment from Makers Fund<ref>[https://www.makersfund.com/portfolio " Portfolio - Maker's Fund"] at ''[https://makersfund.com makersfund.com]''. Retrieved September 20, 2025.</ref>, HTC<ref>[https://www.htc.com/us/ "HTC United States"] at ''[https://htc.com htc.com]''. Retrieved September 20, 2025.</ref>, Brightstone VC<ref>[https://brightstonevc.com/ "Brightstone Venture Capital"] at ''[https://brightstonevc.com brightstonevc.com]''. Retrieved September 20, 2025.</ref>, and GFR Fund<ref>[https://gfrfund.com/company-highlight-vrchat "Company Highlight: VRChat"] at ''[https://gfrfund.com gfrfund.com]''. Retrieved September 20, 2025.</ref>
+|N/A
+|N/A
+|-
+|July 31
+|2019.2.5
+|Text<ref>[https://medium.com/vrchat/vrchat-the-sound-of-progress-3c4ab4fb5472 "VRChat — The Sound of Progress"] on ''[https://medium.com/vrchat Medium]''. Dated July 31, 2019. Retrieved September 20, 2025.</ref> 
+|Upgraded Oculus Native Spatializer, removed Voice Prioritization, VRC_SpatialAudioSource<ref>[https://creators.vrchat.com/worlds/components/vrc_spatialaudiosource "VRC Spatial Audio Source"] on ''[[creators.vrchat.com]]''. Retrieved September 20, 2025.</ref>, VRC_PlayerAudioOverride components, fall-off audio
+|N/A
+|Upcoming SDK tools
+|-
+|June 28
+|2019.2.4
+|Text<ref>[https://medium.com/vrchat/vrchat-roadmap-stability-security-and-sdk-f3f7296b13ac "VRChat Roadmap— Stability, Security, and SDK"] on ''[https://medium.com/vrchat Medium]''. Dated June 28, 2019. Retrieved September 20, 2025.</ref> 
+|N/A
+|N/A
+|Upcoming vital improvements on stability and security, making public instances safer, and integrating Udon; secondary focuses for audio systems, discoverability, user expression, avatar expression
+|-
+|June 11
+|2019.2.3
+|Text<ref>[https://medium.com/vrchat/avatar-performance-stats-and-rank-blocking-1ae0feddc775 "Avatar Performance Stats and Rank Blocking"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated June 11, 2019. Retrieved September 20, 2025.</ref>
+|Performance ranks introduced in 2018.4.4<ref name="AvatarPerfRankSys"/>, changes to performance ranks on Oculus Quest
+|N/A
+|"Minimum Displayed Performance Rank" setting, to block avatars on performance in 2019.2.4
+|-
+|May 31
+|2019.2.2
+|Text<ref>[https://medium.com/vrchat/vrchat-valve-index-support-and-the-gesture-toggle-system-742ec3ae016e "VRChat Valve Index Support and the Gesture Toggle System"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated May 31, 2019. Retrieved September 19, 2025.</ref>
+|Valve Index, SteamVR bindings, gesture overrides, gesture toggles, object interaction and controller mapping
+|N/A
+|N/A
+|-
+|May 21
+|2019.2.2
+|Text<ref>[https://medium.com/vrchat/post-2019-2-2-fixes-and-patches-e61ab4126f15 "Post-2019.2.2 Fixes and Patches"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated May 21, 2019. Retrieved September 19, 2025.</ref>
+|N/A
+|Utilize [[Quality Assurance|Canny]] for bug reports!
+|Acknowledgement of networked IK regressions, comparing to local IK, upcoming fixes for VRC_SyncVideoPlayer, and AnimationSync
+|-
+|May 16 
+|2019.2.2
+|Video<ref>[https://www.youtube.com/watch?v=MAhmxiE2j0I "VRChat Stream - Past, Present, Future"] on ''[https://www.youtube.com/@VRChat YouTube]''. Dated May 16, 2019. Published to YouTube on June 12, 2019. Retrieved September 6, 2024.</ref><ref>[https://www.twitch.tv/videos/425809731 "VRChat Stream - Past, Present, Future"] (Broken URL) on ''[https://www.twitch.tv/vrchat Twitch]''. Retrieved September 19, 2025.</ref>
+|N/A
+|N/A
+|Quest, Valve Index, Security, Optimizations, SDK, [[Community Labs]], Udon
+|-
+|May 13
+|2019.2.1p5
+|Text<ref>[https://medium.com/vrchat/welcome-to-your-new-home-and-hub-139e06e0dea8 "Welcome to your new Home (and Hub)"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated May 13, 2019. Retrieved September 19, 2025.</ref>
+|[[VRChat Home]], and [[VRChat Hub]], cross-platform interaction
+|N/A
+|N/A
+|-
+|April 23
+|2019.2.1.p4
+|Text<ref>[https://medium.com/vrchat/vrchat-quest-avatar-creators-get-your-avatar-into-the-featured-row-54361c661f44 "VRChat Quest Avatar Creators: Get your Avatar into the Featured row!"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated April 23, 2019. Retrieved September 19, 2025.</ref>
+|N/A
+|N/A
+|Quest port of VRChat, VRChat Quest avatars<ref>[https://creators.vrchat.com/platforms/android/quest-content-optimization/ "Quest Content Optimization"] on ''[[creators.vrchat.com]]''. Retrieved September 19, 2025.</ref>, cross-platform content<ref>[https://creators.vrchat.com/platforms/android/cross-platform-setup/#section-uploading-content "Cross-Platform Setup"] on ''[[creators.vrchat.com]]''. Retrieved September 19, 2025.</ref><ref>[https://docs.google.com/presentation/d/e/2PACX-1vTl4sIjA1sR2aD8-NpT6AqwfXdTuU6N2RpLKVa-Xc0bbE9616cPene9fRJV1lC7h4QOzCkXwtq7xgBw/pub "Oculus Quest Quick-Start Guide" for Creators], slideshow on ''docs.google.com''. Retrieved September 19, 2025.</ref>
+|-
+|April 17
+|2019.2.1p2
+|Text<ref>[https://medium.com/vrchat/vrchat-downtime-post-mortem-3b956fee8c3e "VRChat Downtime Update"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated April 17, 2019. Retrieved September 19, 2025.</ref>
+|N/A
+|DDoS attacks, Cloudflare, and WebSocket misconfiguration, ReCAPTCHA issues
+|Security measures
+|-
+|April 11
+|2019.2.1
+|Text<ref>[https://medium.com/vrchat/vrchat-community-labs-stage-2-b35c450f9b82 "VRChat Community Labs — Stage 2"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated April 11, 2019. Retrieved September 19, 2025.</ref>
+|[[Community Labs]] "Stage 2", automatic world graduation
+|N/A
+|N/A
+|-
+|March 22
+|2019.1.3
+|Text<ref>[https://medium.com/vrchat/vrchat-performance-dynamic-bone-limitation-system-26b1798fb659 "VRChat Performance — Dynamic Bone Limits System"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated March 22, 2019. Retrieved September 19, 2025.</ref><ref>[https://medium.com/vrchat/developer-blog-websockets-b5f0b424d379 "Developer Blog - Websockets"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated March 22, 2019. Retrieved September 19, 2025.</ref>
+|2019.1.4 Open Beta, limit dynamic bones and colliders, updated video helper binaries, implmentation of Websockets (response time to notifications and overall [[VRChat API]])
+|Avatar performance<ref name="AvatarPerfRankSys">[https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ "Performance Ranks"] on ''[[creators.vrchat.com]]''. Retrieved September 16, 2025.</ref>, [[Dynamic Bones|Dynamic Bone]] limits<ref>[https://web.archive.org/web/20190331141441/https://docs.vrchat.com/v2019.1.4/docs/avatar-dynamic-bone-limits "Avatar Dynamic Bone Limits"] Archived via ''[https://web.archive.org Archive.org]'' on ''[[docs.vrchat.com]]''. Dated March 31, 2019. Retrieved September 19, 2025.</ref>, Affected Transforms, Collision Checks
+|N/A
+|-
+|March 7
+|2019.1.2
+|Text<ref>[https://medium.com/vrchat/vrchat-community-labs-73e150ea500f "VRChat Community Labs"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated March 7, 2019. Retrieved September 19, 2025.</ref>
+|2019.1.3 Open Beta, Implementation of [[Community Labs]] worlds, exploration, and reporting Community Labs worlds
+|Utilize world optimization documentation<ref>[https://creators.vrchat.com/worlds/submitting-a-world-to-be-made-public/ "World Creation, Optimization, and Community Labs Tips"] on ''[[docs.vrchat.com]]''. Retrieved September 19, 2025.</ref>
+|Community Labs: Stage 2
+|-
+|March 4
+|2019.1.2
+|Text<ref>[https://medium.com/vrchat/attention-vrchat-creators-unity-editor-vulnerability-and-mitigation-7411b15e4cfe "Attention VRChat Creators: Unity Editor Vulnerability and Mitigation"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated March 4, 2019. Retrieved September 19, 2025.</ref>
+|N/A
+|Unity Remote Code Execution flaw, users encouraged to download the Unity Mitigation Tool<ref>[https://unity.com/security/mitigation "Mitigation Tool"] on ''[https://unity,com Unity.com]''. Retrieved September 19, 2025.</ref> (outdated)
+|N/A
+|-
+| January 15
+|2019.4.4p4<ref>[https://docs.vrchat.com/docs/patch-notes-2018 "Patch Notes - 2018"] on ''[[docs.vrchat.com]]''. Dated January 31, 2019. Retrieved September 19, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=6olLs-BfGa4&ab_channel=JesseJoudrey "VR Developer Chat with Palmer Luckey- June 25, 2014"] on ''[https://www.youtube.com/@JesseJoudrey YouTube]''. Dated June 26, 2014. Retrieved September 19, 2025.</ref>
+|Text<ref>[https://medium.com/vrchat/celebrating-5-years-of-vrchat-ffa0e8116929 "Celebrating 5 Years of VRChat"] on ''[https://medium.com/vrchat/@vrchat Medium]''. Dated January 15, 2019. Retrieved September 19, 2025.</ref>
+|VRChat's 5-Year Anniversary, a look back into VRChat's past - Sunday meetups, Gunter's Universe, and other parties
+|N/A
+|N/A
+|}
 
 ===2018===
-''See [[Special:MyLanguage/2018 in VRChat updates|2018 in VRChat updates]] for all detailed information.''
-<br>Patch notes for VRChat ''Builds released in 2018''<ref>[https://docs.vrchat.com/docs/patch-notes-2018 "Patch Notes - 2018"] on ''[[docs.vrchat.com]]''. Retrieved September 6, 2024.</ref>'' can be viewed [https://docs.vrchat.com/docs/patch-notes-2018 here].
+Patch notes for VRChat ''Builds released in 2018<ref>[https://docs.vrchat.com/docs/patch-notes-2018 'Patch Notes - 2018' on Creator Docs; retrieved September 6, 2024.]</ref>'' can be viewed at https://docs.vrchat.com/docs/patch-notes-2018
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2018. Click "Expand" to show this table!
+|+
+! Date
+!Build
+!Format
+!Implemented
+!Reminders
+!Announced
+|-
+| December 14
+|2018.4.3p1
+|Video<ref>[https://www.youtube.com/watch?v=bJC3yS_1XxA 'VRChat Stream - Welcome Oculus Users!' on YouTube; retrieved September 6, 2024.]</ref>
+|Oculus Quest, Quest SDK
+|N/A
+|N/A
+|-
+|December 11
+|2018.4.3
+|Text<ref>[https://medium.com/vrchat/vrchat-2018-4-3-unity-2017-4-and-the-oculus-store-31913ca0cf3b "VRChat 2018.4.3, Unity 2017.4, and the Oculus Store"] on ''[https://medium.com/@vrchat Medium]''. Dated December 11, 2018. Retrieved September 20, 2025.</ref>
+|2018.4.3 released, Unity migration to 2017.4 complete
+|Migrating from 5.6 to 2017.4 guide<ref>[https://web.archive.org/web/20181212031547/https://docs.vrchat.com/v2018.4.3/docs/migrating-from-56-to-20174 "Migrating from 5.6 to 2017.4"] Archived via ''[https://web.archive.org Archive.org]''. Dated December 12, 2018. Retrieved September 20, 2025.</ref>
+|[https://www.youtube.com/watch?v=PWLPw4RE9Ig VRChat - Create Share Play trailer], Oculus Store<ref>[https://www.meta.com/experiences/pcvr/vrchat/997678176960598 "VRChat"] on ''[https://meta.com Meta Store]''. Retrieved September 20, 2025.</ref>
+|-
+|December 3
+|2018.4.2p1
+|Text<ref>[https://medium.com/vrchat/vrchat-service-interruption-nov-28-dec-3-818231ceb51b "VRChat Service Interruption Nov 28 - Dec 3"] on ''[https://medium.com/@vrchat Medium]''. Dated December 3, 2018. Retrieved September 20, 2025.</ref>
+|N/A
+|N/A
+|DDoS attacks, between November 28 and December 3, server misconfiguations,
+|-
+|November 16
+|2018.4.1p3
+|Text<ref>[https://medium.com/vrchat/vrchat-upgrade-to-unity-2017-4-90727844522a "VRChat Upgrade to Unity 2017.4"] on ''[https://medium.com/@vrchat Medium]''. Dated November 16, 2018. Retrieved September 20, 2025.</ref>
+|N/A
+|Re-uploads for worlds and avatars with certain components are very likely required
+|Upcoming migration to 2017.4.15f1 LTS, new features in Unity 2017.4, since 5.6<ref>[https://web.archive.org/web/20181120012656/https://docs.google.com/document/d/1ob0G6IYJdUZuLGkV6SUherQJmiLkNICqMdc7LXtis5A/edit "New Features in Unity 2017.4, since 5.6"] Archived via ''[https://web.archive.org Archive.org]''. Document on ''[https://docs.google.com Google Docs]''. Dated November 20, 2018. Retrieved September 20, 2025.</ref>
+|-
+|October 30
+|2018.3.3
+|Text<ref>[https://medium.com/vrchat/spookality-2018-contest-winners-4b3e2c7500c0 "Spookality 2018 Contest Winners"] on ''[https://medium.com/@vrchat Medium]''. Dated October 30, 2018. Retrieved September 20, 2025.</ref>
+|N/A
+|N/A
+|[[Special:MyLanguage/Spookality 2018|Spookality 2018]] winners
+|-
+|October 2
+|2018.3.2
+|Text<ref>[https://medium.com/vrchat/vrchat-v2018-3-2-is-live-fa011c47a8e0 "VRChat v2018.3.2 is Live!"] on ''[https://medium.com/@vrchat Medium]''. Dated October 2, 2018. Retrieved September 20, 2025.</ref>
+|2018.3.2 released, [[Special:MyLanguage/Trust and Safety|Trust and Safety]], and [[Special:MyLanguage/Trust Ranks|Trust Ranks]] system fully implemented
+|N/A
+|N/A
+|-
+|September 29
+|2018.
+|Text<ref>[https://medium.com/@vrchat/legacy-animations-update-5906df811183 "Legacy Animations Update"] on ''[https://medium.com/@vrchat Medium]''. Dated September 29, 2018. Retrieved September 20, 2025.</ref>
+|Legacy Unity Animations on avatars uploaded or modified after September 1, 2018 removed, due to security reasons
+|Utilize non-legacy animators
+|N/A
+|-
+|September 26
+|2018.3.1
+|Text<ref>[https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 "VRChat Safety and Trust System: Changes and Feedback"] on ''[https://medium.com/@vrchat Medium]''. Dated September 26, 2018. Retrieved September 20, 2025.</ref>
+|Tweaks to Trust and Safety systems, Safety Modes renamed to Shield Level, [[Special:MyLanguage/Removed Features|Veteran rank removed]], Friend rank added, shader fallback and remapping system tweaks
+|N/A
+|N/A
+|-
+|September 22
+|2018.3.1
+|Text<ref>[https://medium.com/@vrchat/win-prizes-in-spookality-our-2018-halloween-contest-242b5ac9038 "Win prizes in 'Spookality', our 2018 Halloween Contest"] on ''[https://medium.com/@vrchat Medium]''. Dated September 22, 2018. Retrieved September 20, 2025.</ref>
+|N/A
+|Winners for [[Special:MyLanguage/Spookality 2017|Spookality 2017]] and runner-ups, [[Special:MyLanguage/Haunted Hub|Haunted Hub]]
+|[[Special:MyLanguage/Spookality 2018|Spookality 2018]] contest, submissions from October 22 to October 24, and prizes; upcoming [[Special:MyLanguage/Spookality 2018|Halloween 2018 Event Hub]]
+|-
+|September 20
+|2018.3.1
+|Text<ref>[https://medium.com/@vrchat/vrchat-safety-and-trust-system-4073f05ab602 "VRChat Safety and Trust System"] on ''[https://medium.com/@vrchat Medium]''. Dated September 20, 2018. Retrieved September 20, 2025.</ref>
+|N/A
+|N/A
+|[[Special:MyLanguage/Trust and Safety|Trust and Safety]] (shield levels) system, and [[Special:MyLanguage/Trust Ranks|Trust Ranks]] system, colored [[Special:MyLanguage/Nameplates|Nameplates]] (launched October 2, 2018)
+|-
+|August 30
+|2018.2.3p1
+|Text<ref>[https://medium.com/@vrchat/while-our-engineers-have-been-busy-hammering-away-at-the-app-gunter-has-been-working-on-something-1652c29d81a7 "VRChat Store"] on ''[https://medium.com/@vrchat Medium]''. Dated August 30, 2018. Retrieved September 20, 2025.</ref>
+|Threadless [[Special:MyLanguage/Merchandise|Merchandise]] store launched
+|N/A
+|N/A
+|-
+|August 17
+|2018.2.2p1
+|Text<ref>[https://medium.com/@vrchat/security-update-web-panels-4699fa0be103 "Security Update: Web Panels"] on ''[https://medium.com/@vrchat Medium]''. Dated August 17, 2018. Retrieved September 20, 2025.</ref>
+|Web panels globally disabled, due to security exploits, and does not affect SyncVideoPanel or SyncVideoStream
+|N/A
+|N/A
+|-
+|June 26
+|2018.2.2
+|Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297815417 "VRChat 2018.2.2"] on ''[https://store.steampowered.com/news/app/438100 Steampowered]''. Dated June 26, 2018. Retrieved September 6, 2024.</ref><ref>[https://medium.com/@vrchat/custom-shaders-and-the-amd-bug-7f5c7c129404 "Custom Shaders, and the 'AMD Bug'"] on ''[https://medium.com/@vrchat Medium]''. Dated June 26, 2018. Retrieved September 20, 2025.</ref>, Video<ref>[https://www.youtube.com/watch?v=sst9GZAZBDU "VRChat Developer Update #4"] on ''[https://www.youtube.com/@VRChatYouTube]''. Dated June 26, 2018. Retrieved September 6, 2024.]</ref>
+|<small>Favorites, Recent Worlds, Sync Video Stream, VRChat Home Kit, [[Special:MyLanguage/Udon]]<ref name="NodePlaymakerSoon">[https://medium.com/@vrchat/vrchat-node-graph-playmaker-and-soon-1a958672688d "VRChat 'Node Graph', Playmaker, and Soon™"] on ''[https://medium.com/@vrchat Medium]''. Dated June 26, 2018. Retrieved September 6, 2024.</ref>, Invert Mouse, Mouse Sensitivity, World File Size on UI, Avatar Particle Limiter System<ref>[https://docs.vrchat.com/docs/avatar-particle-system-limits "Avatar Particle System Limits"] guide on ''[[creators.vrchat.com]]''. Retrieved September 6, 2024.</ref>, IK improvements</small>
+|Upgrade graphics drivers for AMD GPUs, to prevent issues with custom shaders<ref>[https://github.com/cubedparadox/Cubeds-Unity-Shaders/ "Cubed's Unity Shaders"] on ''[https://github.com/cubedparadox GitHub]''. Retrieved September 20, 2025.</ref>
+|N/A
+|-
+|June 20
+|2018.
+|Text<ref name="NodePlaymakerSoon"/>
+|Node Graph closed beta
+|N/A
+|Integration of "Node Graph" (Udon), and deprecation of Playmaker
+|-
+|June 11
+|2018.1.3
+|Text<ref>[https://medium.com/@vrchat/account-security-16be982332 "Account Security"] on ''[https://medium.com/@vrchat Medium]''. Dated June 11, 2018. Retrieved September 20, 2025.</ref>
+|N/A
+|Do not share your VRChat account or password with anyone, for any reason.
+|N/A
+|-
+|May 12
+|2018.1.2
+|Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297815713 'VRChat 2018.1.2' on Steam; retrieved September 6, 2024.]</ref>, Video<ref>[https://www.youtube.com/watch?v=ugRfCGFH708 'VRChat Developer Update #3' on YouTube; retrieved September 6, 2024.]</ref>
+|Camera v2, Menu Rendering, Avatar [[Special:MyLanguage/Stations|Stations]], Favorites, Recent Worlds
+|N/A
+|N/A
+|-
+|May 4
+|2018.1.1
+|Text<ref>[https://medium.com/@vrchat/trust-systems-content-gating-9e501de487fa "Trust Systems — Content Gating"] on ''[https://medium.com/@vrchat Medium]''. Dated May 4, 2018. Retrieved September 20, 2025.</ref>
+|N/A
+|N/A
+|[[Special:MyLanguage/Trust Ranks|Trust Ranks]] in development, and 'Content Gating' (rank limit to upload worlds and avatars)
+|-
+|April 25
+|2018.1.1 / 553
+|Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297815820 'VRChat 2018.1.1 on Steam'; retrieved September 6, 2024.]</ref>, Video<ref>[https://www.youtube.com/watch?v=0D7kXvZWR1A 'VRChat Developer Update #2' on YouTube; retrieved September 6, 2024.]</ref>
+|VRChat Home (2018), [[Special:MyLanguage/Camera|Camera]], Vive Controls, Avatar volume slider, HUD/nameplate toggle, [[Special:MyLanguage/VRChat SDK|VRChat SDK]] IK Follower Script, Favorites, Recent Worlds
+|N/A
+|N/A
+|-
+|April 18
+|0.12.0p15 
+
+|Video<ref>[https://www.youtube.com/watch?v=te1FRAiOMQs 'VRChat Developer Update #1' on YouTube; retrieved September 6, 2024.]</ref>
+|[[Special:MyLanguage/Safety|Safety]], Playmaker, [[Special:MyLanguage/VRChat Home|VRChat Home]] (2018), Vive Controls, Coldfront
+|N/A
+|N/A
+|-
+|January 18
+|0.12.0p
+|Text<ref>[https://medium.com/@vrchat/security-alert-a345dc5840ba "SECURITY ALERT"] on ''[https://medium.com/@vrchat Medium]''. Dated January 18, 2018. Retrieved September 20, 2025.</ref>
+|N/A
+|Modified VRChat clients are installing malware, and users installing modified clients will be permanently [[Special:MyLanguage/Bans|banned]]
+|Pending safety and security upgrades
+|-
+|January 9
+|0.12.0p1
+|Text<ref>[https://medium.com/@vrchat/an-open-letter-to-our-community-1b7aa5d9026f "An open letter to our community"] on ''[https://medium.com/@vrchat Medium]''. Dated January 9, 2018. Retrieved September 20, 2025.</ref>
+|N/A
+|Use the mute and block buttons<ref>[https://www.youtube.com/watch?v=nDOtvWuUbhQ "VRChat Tutorial - User Interaction"] on ''[https://youtube.com/@VRChat]''. Dated October 6, 2017. Retrieved September 20, 2025.</ref>
+|Spike in community growth, shoutouts to various VRChat streamers and community influencers
+|}
 
 ===2017===
-''See [[Special:MyLanguage/2017 in VRChat updates|2017 in VRChat updates]] for all detailed information.''
-<br>Patch notes for VRChat ''Builds released before February 28, 2018''<ref>[https://docs.vrchat.com/docs/patch-notes-pre-2018 "Patch Notes - Pre-2018"] on ''[[docs.vrchat.com]]''. Retrieved September 6, 2024.</ref> can be viewed [https://docs.vrchat.com/docs/patch-notes-pre-2018 here].
+Patch notes for VRChat ''Builds released before February 28, 2018<ref>[https://docs.vrchat.com/docs/patch-notes-pre-2018 'Patch Notes - Pre-2018' on Creator Docs; retrieved September 6, 2024.]</ref>'' can be viewed at https://docs.vrchat.com/docs/patch-notes-pre-2018
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2017. Click "Expand" to show this table!
+|+
+! Date
+!Build
+!Format 
+!Summary
+!Implemented
+!Reminders
+!Announced
+|-
+|December 14
+|0.12.0p3
+|Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297816758 'Patch 0.12.0p3 - True Friends Only Instances & Community Moderation Tools' on Steam; retrieved on September 8, 2024]</ref>
+|Public Ban, VRChat website features, ban messages, notification icons, moderation, Portal improvements, desktop tutorial
+|
+|
+|
+|-
+|November 18
+|0.12.0p2
+|Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297816864 'Welcome to the New Hub!' on Steam; retrieved September 8, 2024]</ref>
+| The Hub (2017), VRCHIVE Panosphere, Fish, Birds, Social Sculpture
+|
+|
+|
+|-
+|November 7
+|0.12.0p2
+|Text<ref>[https://medium.com/@vrchat/vrc-news-the-c-stands-for-community-119e5ec958c3 'VRC News - “The ‘C’ stands for Community”' on Medium; retrieved September 8, 2024]</ref>
+| VR Arcades, Virtual Weekality, VRSTUD.IO, What’s in the Box?
+|
+|
+|
+|-
+|October 27
+|0.12.0p2
+| Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297816998 'Patch 0.12.0p2 - Halloween “Scared to Reality”, Improved Moderation Tools, and VRCHIVE 360° Panorama fixes' on Steam; retrieved September 8, 2024]</ref>
+|Halloween Contest “Scared to Reality”, Moderation, report abuse, Vote kicking, Polaroids, Help Videos, VRCHIVE, Stations / Seats 
+|
+|
+|
+|-
+|October 5
+| 0.12.0p1
+| Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297817111 'Patch 0.12.0p1 - Improved Video Sync, Optimizations, and Ethan's Departure' on Steam; retrieved September 8, 2024]</ref><ref>[https://blog.vive.com/us/htcvive-vrchat-announcement/ 'HTC Vive chooses leading Social VR platform VRChat as key partner' on VIVE Blog; retrieved September 8, 2024]</ref>
+|VIVE Investment, video players, Halloween Builders Contest "Scared to Reality"
+|
+|
+|
+|-
+|August 30
+|0.12.0 / Unity 5.6
+| Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297817224 'Let’s Dance! The 5.6 Update is here!' on Steam; retrieved September 8, 2024]</ref>
+|Full-Body Tracking, future-proofing, avatar preview, international compatible keyboard, video players, avatar IK animations, Voice prioritization, Dynamic Bones
+|
+|
+|
+|-
+|April 13
+|0.11.7
+| Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297817577 'Patch 0.11.7 - Great Big Spring Update!' on Steam; retrieved September 8, 2024]</ref>
+|Private Instances, Friends Only, Request Invite, Moderation, Personal Space, Seated/Standing Mode 
+|
+|
+|
+|-
+|March 6
+|0.11.6
+| Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297817877 'PATCH 0.11.6 - “What’s In A Name?” Edition' on Steam; retrieved September 8, 2024]</ref>
+|Nameplate colors and icons, Personal Space, Safety
+|
+|
+|
+|-
+|February 17
+|0.11.5p10
+|Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297817986 'New Content - Blast Factory & Miner's Dispute' on Steam; retrieved September 8, 2024]</ref>
+|Blast Factory, Miner Dispute
+|
+|
+|
+|-
+|February 4
+|0.11.5p1
+|Text<ref>[https://store.steampowered.com/news/app/438100/view/5318144537297818630 'Patch - "Fix the Steam Release" Edition' on Steam; retrieved September 7, 2024]</ref>
+|Muting, Force Mic Off
+|
+|
+|
+|-
+|February 1
+|0.11.5
+|Text<ref>[https://medium.com/@vrchat/vrchat-is-now-available-on-steam-6fab988817fb 'VRChat is now available on Steam' on Medium; retrieved September 8, 2024]</ref><ref>[https://store.steampowered.com/news/app/438100/view/5318144537297818630 'Welcome to VRChat early access!' on Steam; retrieved September 8, 2024]</ref>
+|Steam, Battle Discs, Capture the Flag, [[Steel 'n' Gold]], Request Host
+|
+|
+|
+|-
+|January 6
+|0.11.1 / VRCSDK.2016.12.01.18.02
+|Text<ref>[https://virtualrealitypop.com/bringing-to-life-your-oculus-medium-creations-in-vrchat-f565ead26435 'Bringing to life your Oculus Medium creations in VRChat' on Medium; retrieved September 8, 2024]</ref>, Video<ref>[https://www.youtube.com/watch?v=0x1Z9UjrQXY 'VRChat Medium Avatar Tutorial' on YouTube; retrieved September 8, 2024]</ref>
+|Oculus Medium, Avatar creation, Mixamo, Blender, Unity
+|
+|
+|
+|}
 
 ===2016===
-''See [[Special:MyLanguage/2016 in VRChat updates|2016 in VRChat updates]] for all detailed information.''
-<br>Patch notes for VRChat ''Builds released between December 2016 to May 2018''<ref>[https://web.archive.org/web/20161211084017/http://vrchat.net/release "Release Notes"] archived from ''vrchat.net'', via ''archive.org''. Retrieved September 7, 2024.</ref> can be viewed [https://web.archive.org/web/20161211084017/http://vrchat.net/release here].
+Patch notes for VRChat ''Builds released between December 2016 to May 2018<ref>[https://web.archive.org/web/20161211084017/http://vrchat.net/release 'Release Notes' archived from vrchat.net, via archive.org; retrieved September 7, 2024.]</ref>.'' can be viewed [https://web.archive.org/web/20161211084017/http://vrchat.net/release here].
+<!-- As for build numbers for April 11, 2016 and May 11, 2016, I am uncertain but am willing to guess it's somewhere in the 0.9.x series [https://archive.org/details/@vrcar and maybe someone can help me out here]. The Medium post for July 28 references the patchnotes for 0.10.0, therefore that was easy. There was a build for 0.10.1, and 0.10.2 which I filled in. I was able to acquire the build number of VRChat on December 8, 2016, because version 0.11.0 was pushed out on December 1st, and archived. ~DAG-XR -->
+{| class="mw-collapsible mw-collapsed wikitable"
+|+ style="white-space: nowrap" | All developer updates for 2016. Click "Expand" to show this table!
+|+
+!Date
+!Build
+!Format
+!Summary
+!Implemented
+!Reminders
+!Announced
+|-
+|December 8
+|0.11.0<ref>[https://web.archive.org/web/20161211084017/http://vrchat.net/release "The Very Big Change After Many Months of Solemn Quietude" update]</ref>
+|Text<ref>[https://virtualrealitypop.com/vrchat-releases-early-access-build-12d1ee1986e8 'VRChat Releases Early Access Build' on Medium; retrieved September 7, 2024]</ref>
+|Early Access build, avatar IK, hand gestures, visemes, eye tracking and blinking, The Hub (2016), [[Quick Menu]], Emotes and Emojis, [[Social]] and friending users, YouTube Wall, 3D Spatialized Audio, Featured Worlds; upcoming moderation tools, Oculus Touch support, launching on Viveport, Steam, Oculus stores
+|
+|
+|
+|-
+|October 4
+|0.10.2 
+|Text<ref>[https://medium.com/@vrchat/vrchat-raises-1-2-million-seed-round-efba60ea7340 'VRChat Raises $1.2 Million Seed Round' on Medium; retrieved September 7, 2024]</ref>
+|Investments from HTC, Rothenberg Ventures, GREE VR Capital, Brightstone Venture Capital
+|
+|
+|
+|-
+|July 29
+|0.10.1
+|Text<ref>[https://medium.com/@vrchat/bowling-art-studio-and-new-interaction-9c2bea08ced7 'Bowling, Art Studio, and new Interaction' on Medium; retrieved September 7, 2024]</ref>
+|{{VRC link|https://vrchat.com/home/world/wrld_59ea44a4-c3cb-4e76-9a10-63866d35cb5d|Rock 'n' Bowl}}, Sculpt Studio, Seinfeld Apartment<ref>[https://www.reddit.com/r/oculus/comments/4rdpby/its_seinfelds_anniversary_today_and_jerrysplacevr/ 'JerrysPlaceVR 2.0 is available for Download and Multiplayer in VRChat!' on Reddit; retrieved September 7, 2024.]</ref><ref>[http://jerrysplacevr.com/ 'Jerry's Place' website; retrieved September 7, 2024]</ref>, Avatar Spotlight
+|
+|
+|
+|-
+|July 28
+|0.10.0
+|Text<ref>[https://medium.com/@vrchat/introducing-holoport-locomotion-9ada3abec63 'Introducing “Holoport” Locomotion' on Medium; retrieved September 7, 2024]</ref> 
+|Motion sickness, Holoport Locomotion
+|
+|
+|
+|-
+|May 11
+|0.9.x?
+|Text<ref>[https://medium.com/@vrchat/japan-and-the-beginning-of-the-htc-vive-rooms-add6785e13a1 'Japan and the beginning of the HTC Vive rooms' on Medium; retrieved September 7, 2024]</ref>
+|Vive Park, 'GREE VR Captial, LLC'<ref>[https://web.archive.org/web/20170320104740/http://fortune.com/2016/04/13/gree-raises-12-million-for-mobile-gaming/ 'This Mobile Gaming Company Just Launched a $12 Million VR Fund' on Fortune via archive.org; retrieved September 7, 2024]</ref>, Portal Tag, Real World Virtual World, Avatar Spotlight
+|
+|
+|
+|-
+|April 11
+|0.9.x?
+|Text<ref>[https://medium.com/@vrchat/vrchat-now-compatible-with-oculus-home-c97a6d8479d2 'VRChat Now Compatible with Oculus Home' on Medium; retrieved September 7, 2024]</ref>
+|Oculus Home, HTC Vive, 360° Video Support, Chill Loft, Mr. Whiskers
+|
+|
+|
+|}
 
 ==Official resources==
 * [https://ask.vrchat.com/c/official/31 Latest Official topics] - on ''[[ask.vrchat.com]]''
@@ -142,25 +1811,15 @@ From this year, VRChat migrated<ref>[https://hello.vrchat.com/blog/vrchat-blog-m
 ** [https://medium.com/@vrchat VRChat] (2016-2019) - on ''[https://medium.com Medium]''
 ==See also==
 ===For readers===
-* [[Special:MyLanguage/Resources|Resources]]
+* [[Resources]]
 * [https://docs.vrchat.com/docs/recent-releases Recent Releases] - on ''[[docs.vrchat.com]]''
-* [[Special:MyLanguage/2016 in VRChat updates|2016 in VRChat updates]]
-* [[Special:MyLanguage/2017 in VRChat updates|2017 in VRChat updates]]
-* [[Special:MyLanguage/2018 in VRChat updates|2018 in VRChat updates]]
-* [[Special:MyLanguage/2019 in VRChat updates|2019 in VRChat updates]]
-* [[Special:MyLanguage/2020 in VRChat updates|2020 in VRChat updates]]
-* [[Special:MyLanguage/2021 in VRChat updates|2021 in VRChat updates]]
-* [[Special:MyLanguage/2022 in VRChat updates|2022 in VRChat updates]]
-* [[Special:MyLanguage/2023 in VRChat updates|2023 in VRChat updates]]
-* [[Special:MyLanguage/2024 in VRChat updates|2024 in VRChat updates]]
-* [[Special:MyLanguage/2025 in VRChat updates|2025 in VRChat updates]]
 
 ===For maintainers===
 * [[:Template:MainPageUpdates]]
 * [[:Template:MainPageVersion]]
 * [[:Template:Version]]
 ** [[:Template:Version/Build]]
-* [[:Template:Navbox/Developer Updates]]
+
 ==References==
 <div class="mw-collapsible mw-collapsed">
 Click "Expand" to view all references, cited on this article.
