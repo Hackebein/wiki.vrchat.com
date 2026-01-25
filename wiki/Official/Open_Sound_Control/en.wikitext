@@ -961,8 +961,10 @@ VRChat uses [https://docs.vrchat.com/docs/osc-overview#vrchat-ports two UDP port
 You can manually find the port numbers for these features by searching the current log file for a line that looks like <br><code>2025.01.02 03:04:05 Debug      -  Advertising Service VRChat-Client-A1B2C3 of type OSCQuery on 42069</code> or <br><code>2025.01.02 03:04:05 Debug      -  Advertising Service VRChat-Client-A1B2C3 of type OSC on 9000</code>
 
 == Resources ==
-
 * [https://docs.vrchat.com/docs/osc-overview OSC Overview] on the VRChat Documentation
+* [https://github.com/vrchat-community/osc/discussions GitHub] discussions for VRChat OSC
+* [https://github.com/vrchat-community/osc/issues GitHub] bug reports for VRChat OSC
+* [https://github.com/vrchat-community/osc/milestones GitHub] milestones for VRChat OSC
 * [https://github.com/Vidvox/OSCQueryProposal Full OSCQuery proposal] and how it functions while including example code
 * [https://tools.glowbuzzer.com/rotationconverter Euler angles visualizer] (the coordinate system is not exactly like Unity, so negate the '''Euler X angle''' and set the order to '''ZXY''')
 
