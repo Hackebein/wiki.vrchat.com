@@ -2,7 +2,7 @@
 {{Noticebox/Official}}
 <translate>
 <!--T:1-->
-Avatars represent a user's in game character within VRChat and are a primary way users express themselves in virtual spaces. Through avatars, users can project their personality, interact with others, and explore creative identities. Avatars come in many shapes and styles, and the VRChat community has created a wide variety of public and private avatars. Users may choose from existing avatars or create and upload their own using the VRChat Creator tools. They are a primary means for users to interact and express themselves within the VR environment. Through avatars, users can project their personalities, interact with the [[Special:MyLanguage/Worlds|world]], or explore new identities in a creative and immersive way. Avatars come in many shapes and sizes and the VRChat community has developed a vast array of avatars, each with unique styles and aesthetics. It is up to the user's own personal tastes to decide which avatar suits them best or create their own utilizing the [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
+'''Avatars''' serve as models that represent users within [[Special:MyLanguage/VRChat|VRChat]]. They are a primary means for users to interact and express themselves within the VR environment. Through avatars, users can project their personalities, interact with the [[Special:MyLanguage/Worlds|world]], or explore new identities in a creative and immersive way. Avatars come in many shapes and sizes and the VRChat community has developed a vast array of avatars, each with unique styles and aesthetics. It is up to the user's own personal tastes to decide which avatar suits them best or create their own utilizing the [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
 
 <!--T:2-->
 == Changing avatar ==
@@ -10,7 +10,7 @@ When users first join VRChat, they are equipped with the default [[Special:MyLan
 
 <!--T:3-->
 === Featured list ===
-VRChat maintains a curated list of featured [[Special:MyLanguage/Public Avatars|public avatars]], which are optimized for performance and designed to cater to various styles and preferences. Users can browse and try on these avatars at any time Users can browse and try on these avatars by opening the Main Menu, selecting Avatars, and scrolling to the "Publics" row, selecting the "Avatar" section and scroll down to the "Publics" row.
+VRChat maintains a curated list of featured [[Special:MyLanguage/Public Avatars|public avatars]], which are optimized for performance and designed to cater to various styles and preferences. Users can browse and try on these avatars at any time by navigating to the [[Special:MyLanguage/Shop|Shop]] tab within the [[Special:MyLanguage/Main Menu|Main Menu]], selecting the "Avatar" section and scroll down to the "Publics" row.
 
 <!--T:4-->
 Once you have found an avatar that you want to use, select it and confirm with the "Apply" button.
@@ -60,14 +60,9 @@ You can find more details on the official documentation at [https://creators.vrc
 
 <!--T:15-->
 == Creating and uploading==
-Users can enhance their VRChat experience by creating and uploading custom avatars, provided they comply with VRChat's [[Special:MyLanguage/Terms of Service|Terms of Service]]. To upload an avatar, users must install the VRChat Creator Companion and use the recommended Unity version along with the VRChat SDK. Trust rank is no longer required to build and test avatars locally.
+Users can enhance their VRChat experience by creating and uploading custom avatars, provided they comply with VRChat's [[Special:MyLanguage/Terms of Service|Terms of Service]]. To upload an avatar, users must first attain the [[Special:MyLanguage/Trust Rank|trust rank]] of "New User" and acquire the necessary tools, such as the recommended version of Unity and the [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
 
-Once uploaded, avatars will appear in the "Uploaded" section of the avatar menu.
-
-Detailed documentation is available on the VRChat Creator Hub.
-
-and acquire the necessary tools, such as the recommended version of Unity and the [[Special:MyLanguage/VRChat SDK|VRChat SDK]].<!--T:23-->
-
+<!--T:23-->
 With the release of [https://creators.vrchat.com/releases/release-3-9-0#fixes--changes SDK 3.9.0], the trust rank requirement for users to build & test their avatars have been removed. Previous SDK versions require trust rank "New User" or higher to build & test avatars.
 
 <!--T:17-->
@@ -76,16 +71,12 @@ Once you have an uploaded avatar, you will be able to find them in the "Uploaded
 <!--T:16-->
 A more '''detailed guide''' on what you can do with the SDK is available on the Creators docs at [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Creating Your First Avatar].
 
-== Official resources ==
-Official resources
-<nowiki>*</nowiki> VRChat Creator Hub — https://creators.vrchat.com/avatars/
+== Official resources == <!--T:18-->
 
-<nowiki>*</nowiki> Creating Your First Avatar — https://creators.vrchat.com/avatars/creating-your-first-avatar/
+<!--T:19-->
+* [https://creators.vrchat.com/avatars/ Avatars] on VRChat Creators.
 
-<nowiki>*</nowiki> Getting Started with Creator Companion — https://creators.vrchat.com/getting-started/
-
-<nowiki>*</nowiki> Avatar Performance Ranking System — https://creators.vrchat.com/avatars/avatar-performance-ranking-system
-
+<!--T:24-->
 ==Trivia==
 *Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
 </translate>
