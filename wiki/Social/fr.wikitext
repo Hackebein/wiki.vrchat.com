@@ -78,6 +78,9 @@ Plusieurs actions peuvent être effectuées sous le profil d'un utilisateur, qui
 |Inviter<ref group="actions" name="friends-only"></ref>
 |Envoie une invitation à l'utilisateur. L'invitation inclut un message personnalisable, ainsi que la possibilité d'ajouter une photo avec [[Special:MyLanguage/VRC+|VRC+]].
 |-
+|Boop<ref name="friends-only" group="actions" />
+|Sends the user a [[Boops|Boop]].
+|-
 |Offrir VRC+
 |Ouvre un menu vous permettant d'acheter [[Special:MyLanguage/VRC+|VRC+]] à l'utilisateur. ''Voir [[Special:MyLanguage/VRC+#Gifting|Offrir]] pour plus d'informations.''
 |-
@@ -178,3 +181,7 @@ Il existe deux façons de voir les relations mutuelles, via le Menu Rapide ou le
 
 ==Références==
 <references/>
+
+
+[[Category:User Interface]]
+[[Category:Features]]
