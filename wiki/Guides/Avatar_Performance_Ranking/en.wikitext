@@ -1,6 +1,6 @@
 {{Noticebox/Community}}
 == Introduction ==
-VRChat uses several systems to help manage performance and safety within the platform. Avatar Performance Ranks are one of these systems and are used to communicate how resource intensive an avatar is.<br>
+'''VRChat''' has many ways of managing performance and safety within the game, Avatar '''Performance Ranks''' are one of them.<br>
 
 == Performance Ranks ==
 Ranks range from '''Very Poor''' to '''Excellent''', based on avatar complexity and resource usage in-game.<br>
@@ -11,19 +11,19 @@ Ranks range from '''Very Poor''' to '''Excellent''', based on avatar complexity 
 |-
 ! Rank !! Icon !! Meaning
 |-
-| '''Excellent''' || [[File:Perf_excellent.png|114x114px]]|| Highly optimized avatars with minimal impact on performance.
+| '''Excellent''' || [[File:Perf_excellent.png|114x114px]]|| '''"Excellent"''' rated avatars are highly optimized and there is minimal impact on performance.
 |-
-| '''Good''' || [[File:Perf_good.png|114x114px]]|| Well optimized avatars that are generally safe for most users.
+| '''Good''' || [[File:Perf_good.png|114x114px]]|| '''"Good"''' rated avatars are well optimized, and are generally considered safe for most users.
 |-
-| '''Medium''' || [[File:Perf_medium.png|114x114px]]|| Acceptable avatars that may cause minor performance impact. 
+| '''Medium''' || [[File:Perf_medium.png|114x114px]]|| '''"Medium"''' rated avatars are considered acceptable; May cause minor performance issues 
 |-
-| '''Poor''' || [[File:Perf_poor.png|114x114px]]|| Avatars with noticeable performance impact, especially on lower-end systems. 
+| '''Poor''' || [[File:Perf_poor.png|114x114px]]|| "'''Poor"''' rated avatars are considered heavy on impact; They may cause lag or potentially crash lower-end systems. 
 |-
-| '''Very Poor''' || [[File:Perf_vpoor.png|114x114px]]|| Avatars that significantly exceed performance limits and are hidden by default safety settings unless manually shown.
+| '''Very Poor''' || [[File:Perf_vpoor.png|114x114px]]|| '''"Very Poor"''' rated avatars are the most common; They are considered unsafe and are hidden by default safety settings, unless manually shown. They have a decent change at lagging low-to-mid end systems and some high-end systems. May cause crashes. These avatars '''exceed''' VRChat's performance limits in one or multiple ways.
 |}
 
 == Avatar Metrics ==
-'''VRChat''' has a unique avatar metric system that outlines the performance of each avatar, or world. An avatar's metrics are the main measurement for your Avatar's '''Performance Rank'''. These metrics measure how resource-intensive your avatar is. The more demanding the metrics are, the lower your avatar will be ranked. Lower ranks affect avatar visibility, performance, and the experience of other users.
+'''VRChat''' has a unique avatar metric system that outlines the performance of each avatar, or world. An avatar's metrics are the main measurement for your Avatar's '''Performance Rank'''. These metrics measure how resource-intensive your avatar is. The more demanding the metrics are, the lower your avatar will be ranked. Lower ranks effect visibility, performance, and other user's experience.
 
 === Metric Elements ===
 
@@ -133,10 +133,6 @@ Annoying, but necessary. Use lower-intensive shaders. Unlit and Mobile of course
 * [https://creators.vrchat.com/avatars/avatar-components Avatar Components]
 
 * [https://docs.vrchat.com/docs/avatar-fallback-system Avatar Fallback System]
-
-== Official resources ==
-
-* Avatar Performance Ranking System — https://creators.vrchat.com/avatars/avatar-performance-ranking-system
 
 [[Category:Avatars{{#translation:}}]]
 [[Category:Guides{{#translation:}}]]
