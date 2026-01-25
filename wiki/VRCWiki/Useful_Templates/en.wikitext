@@ -2,7 +2,7 @@ When contributing to the VRChat Wiki, you can use Templates to help create rich 
 
 ==Inline Templates==
 
-These templates may be used inline, such as links to official VRChat documents, VRChat worlds, or other resources.
+These templates may be used inline, such as links to official VRChat documents, vrchat worlds, or other resources.
 
 {| class="wikitable"
 |+
@@ -19,6 +19,7 @@ These templates may be used inline, such as links to official VRChat documents, 
 |{{World link|wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd|VRChat Home}}
 |}
 
+
 ==Noticeboxes==
 
 {| class="wikitable"
@@ -27,37 +28,33 @@ These templates may be used inline, such as links to official VRChat documents, 
 !Template code
 !Result
 |-
+| [[Special:MyLanguage/Template:Stub|Template:Stub]]
+| <code><nowiki>{{Stub}}</nowiki></code>
+| {{Stub}}
+|-
 |[[Special:MyLanguage/Template:Noticebox/Official|Template:Noticebox/Official]]
 |<code><nowiki>{{Noticebox/Official}}</nowiki></code>
 |{{Noticebox/Official}}
+|-
+|[[Special:MyLanguage/Template:Delete|Template:Delete]]
+|<code><nowiki>{{Delete|reason|~~~~}}</nowiki></code>
+|{{Delete|This page is literal garbage|[[Special:MyLanguage/User:Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7|Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7]] ([[Special:MyLanguage/User talk:Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7|talk]]) 10:01, 22 June 2024 (UTC)|nocat=1}}
 |-
 |[[Special:MyLanguage/Template:Noticebox/Community|Template:Noticebox/Community]]
 |<code><nowiki>{{Noticebox/Community}}</nowiki></code>
 |{{Noticebox/Community}}
 |-
-| [[Special:MyLanguage/Template:Stub|Template:Stub]]
-| <code><nowiki>{{Stub}}</nowiki></code>
-| {{Stub|nocat=1}}
-|-
 |[[Special:MyLanguage/Template:Noticebox/unreleased|Template:Noticebox/unreleased]]
 |<code><nowiki>{{Noticebox/unreleased}}</nowiki></code>
-|{{Noticebox/unreleased|nocat=1}}
+|{{Noticebox/unreleased}}
 |-
 |[[Special:MyLanguage/Template:Proofread|Template:Proofread]]
 |<code><nowiki>{{Template:Proofread}}</nowiki></code>
-|{{Template:Proofread|nocat=1}}
+|{{Template:Proofread}}
 |-
 |[[Special:MyLanguage/Template:Noticebox/wip|Template:Noticebox/wip]]
 |<code><nowiki>{{Noticebox/wip}}</nowiki></code>
-|{{Noticebox/wip|nocat=1}}
-|-
-|[[Special:MyLanguage/Template:Noticebox/Update|Template:Noticebox/Update]]
-|<code><nowiki>{{Noticebox/Update}}</nowiki></code>
-|{{Noticebox/Update|nocat=1}}
-|-
-|[[Special:MyLanguage/Template:Delete|Template:Delete]]
-|<code><nowiki>{{Delete|reason|~~~~}}</nowiki></code>
-|{{Delete|This page is literal garbage|[[Special:MyLanguage/User:Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7|Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7]] ([[Special:MyLanguage/User talk:Usr 681ab43c-99d7-4e40-92ba-956d9d8d66e7|talk]]) 10:01, 22 June 2024 (UTC)|nocat=1}}
+|{{Noticebox/wip}}
 |-
 |[[Template:Noticebox/Unsupported]]
 |<code><nowiki>{{Noticebox/Unsupported}}</nowiki></code>
