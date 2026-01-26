@@ -23,25 +23,45 @@ Ranks range from '''Very Poor''' to '''Excellent''', based on avatar complexity 
 |}
 
 == Avatar Metrics ==
-'''VRChat''' has a unique avatar metric system that outlines the performance of each avatar, or world. An avatar's metrics are the main measurement for your Avatar's '''Performance Rank'''. These metrics measure how resource-intensive your avatar is. The more demanding the metrics are, the lower your avatar will be ranked. Lower ranks affect avatar visibility, performance, and the experience of other users.
+'''VRChat''' has a unique avatar metric system that outlines the performance of each avatar. An avatar's metrics are the main measurement for your Avatar's '''Performance Rank'''. These metrics measure how resource-intensive your avatar is. The more demanding the metrics are, the lower your avatar will be ranked. Lower ranks affect avatar visibility, performance, and the experience of other users.
 
 === Metric Elements ===
 
-* '''Polygons''': These measure how complex your avatar's geometry is. A polygon count of an avatar is the number of tiny triangles that make up an avatar's 3D shape. More triangles = more detail, but more performance-intensive; Therefore more work for a system to process and render. This is also known as '''Triangle Count'''.
-* '''Materials''': Unique surface types that apply to each part of your avatar. Skin, clothing, eyes, harnesses, etc. More materials = more performance-intensive; Therefore more work for a system to process and render.
-* '''Textures''': These are image files (Such as PNGs, or JPGs), that give color and detail to the materials. Larger textures mean more detail, but make an avatar's '''size''' bigger. Bigger size means bigger download, and people may not render your avatar well. Too big of an avatar is not allowed, and cannot be uploaded.
-* '''Dynamic Bones (Physbones)''': Bones that move or "jiggle" dynamically with how the avatar itself is moving. Things such as hair, tails, ears, or small accessories may have '''Dynamic Bones'''. These can be converted and/or removed easily for avatar performance.
-* '''Meshes (skinned)''': These are meshes that deform with the bones. Things such as the body, face, and clothing. Each mesh adds complexity to the avatar; it is recommended to merge and blend meshes when possible.
-* '''Audio Sources''': These sources are simply sound emitters that are attached the the avatar. Voice lines, music, sound effects are '''audio sources'''. Multiple sources may cause lay or audio clutter. It is recommended to use 1-2 maximum; Avoid looping audios unless necessary.
-* '''Real-Time Lights''': These are lights that cast shadows or change dynamically. Things like glowing eyes, flashlights, or built-in light probes on some avatars. More lights cause '''heavy lag'''. It is highly recommended to bake lighting into textures instead.
-* '''Shaders:''' Code that controls how materials look. Things such as a materials glow, if it is transparent (PC only), or animated. Complex shaders are highly performance-intensive, and '''will''' crash low-mid end systems if not used carefully. Simple shaders such as '''VRChat'''<nowiki/>'s built-in shaders are '''safe for all devices'''. It is typically recommended to avoid transparent shaders and animation unless they are optimized.
-
-=== Rank Thresholds on PC ===
+* '''Triangles''': These measure how complex your avatar's geometry is. A triangle count of an avatar is the number of tiny triangles that make up an avatar's 3D shape.
+* '''Bounds Size''': The total size of the avatar. This can be very large if a user has large animation on the avatar, even if it isn't showing all the time. (Note Bounds Size will not cause the avatar to be blocked, even if it is below the "Minimum Displayed Performance Rank" setting)
+*'''Texture Memory''': The amount of memory estimated to be in use by the avatar's textures. These textures occupy space in both system RAM and in the video card's memory.
+*'''Skinned Meshes''': The number of [https://docs.unity3d.com/2022.3/Documentation/Manual/class-SkinnedMeshRenderer.html Skinned Mesh Renderer components] on the avatar. 
+*'''Basic Meshes''': The number of (non-skinned) [https://docs.unity3d.com/2022.3/Documentation/Manual/class-MeshRenderer.html Mesh Renderer components] on the avatar.
+*'''Material Slots''': The number of [https://docs.unity3d.com/2022.3/Documentation/Manual/Materials.html material]  slots on the avatar. [https://docs.unity3d.com/2022.3/Documentation/Manual/Materials.html Material] slots are the slots on the mesh where you fit materials in.
+*'''PhysBone Components''': The number of [https://creators.vrchat.com/common-components/physbones/ PhysBone] components on the avatar.
+*'''PhysBone Affected Transforms''': The total number of transforms affected by PhysBones components on the avatar.
+*'''PhysBone Colliders''': The number of PhysBone collider scripts on the avatar.
+*'''PhysBone Collision Check Count''': The sum of how many PhysBone transforms each collider can affect. This can count transforms twice or more, because a single transform can be affected by multiple colliders.
+*'''Contacts''': The number of [https://creators.vrchat.com/common-components/contacts/ Contacts] on the avatar.
+*'''Constraint Count''': The total number of [https://creators.vrchat.com/common-components/constraints/ VRChat constraints] and Unity constraints on the avatar.
+*'''Constraint Depth''': The deepest chain of dependencies across all constraints on the avatar. (See [https://creators.vrchat.com/common-components/constraints/#performance here] for more information)
+*'''Animators''': The number of [https://docs.unity3d.com/6000.3/Documentation/Manual/class-AnimatorController.html Animators] on the avatar.
+*'''Bones''': The number of Bones in the avatar's rig.
+*'''Lights''': The number of Light components on the avatar.
+*'''Particle Systems''': The number of Particle System components on the avatar.
+*'''Total Particles Active''': The sum of maxParticles across all particle systems on the avatar.
+*'''Mesh Particle Active Polys''': The total number of triangles of Mesh Particles emitted by Particle Systems that are active.
+*'''Particle Trails Enabled''': If any Particle Systems on the avatar have Particle Trails enabled, this will be True.
+*'''Particle Collision Enabled''': If any Particle Systems on the avatar have Particle Collision enabled, this will be True.
+*'''Trail Renderers''': The number of Trail Renderers on the avatar.
+*'''Line Renderers''': The number of Line Renderers on the avatar.
+*'''Cloths''': The total number of Cloth components on the avatar.
 
 Note all GameObjects and Components, including those that are currently disabled, count towards the Avatar Performace Rank.
 
+Note if Mesh Read/Write on '''any''' mesh on the avatar (including particle systems), the "Triangles" count will read "Mesh Read/Write Disabled" and the avatar's Performance Rank will be immediately downgraded to "Very Poor" regardless of the actual triangle count on the avatar.
+
+=== Rank Thresholds on PC ===
+
+The below table shows the maximum value of each metric for each performance rank on PC.
+
 {| class="wikitable mw-collapsible"
-|+ Thresholds on PC
+|+ Rank Thresholds on PC
 |-
 ! Rank !! Excellent !! Good !! Medium !! Poor
 |-
@@ -101,6 +121,66 @@ Note all GameObjects and Components, including those that are currently disabled
 |-
 | '''Audio Sources''' || 1 || 4 || 8 || 8
 |}
+
+=== Rank Thresholds on Mobile ===
+
+This includes VRChat running on Android, IOS, and Meta Quest. Avatar Rank thresholds are stricter than on PC. 
+
+The below table shows the maximum value of each metric for each performance rank on Mobile.
+
+{| class="wikitable mw-collapsible"
+|+ Rank Thresholds on Mobile
+|-
+! Rank !! Excellent !! Good !! Medium !! Poor
+|-
+| '''Triangles''' || 7,500 || 10,000 || 15,000 || 20,000
+|-
+| '''Bounds Size''' || 2.5m x 2.5m x 2.5m || 4m x 4m x 4m || 5m x 6m x 5m || 5m x 6m x 5m
+|-
+| '''Texture Memory''' || 10 MB || 18 MB || 25 MB || 40 MB
+|-
+| '''Skinned Meshes''' || 1 || 1 || 2 || 2
+|-
+| '''Basic Meshes''' || 1 || 1 || 2 || 2
+|-
+| '''Material Slots''' || 1 || 1 || 2 || 4
+|-
+| '''Physbone Components''' || 0 || 4 || 6 || 8
+|-
+| '''Physbone Affected Transforms''' || 0 || 16 || 32 || 64
+|-
+| '''Physbone Colliders''' || 0 || 4 || 8 || 16
+|-
+| '''Physbone Collision Check Count''' || 0 || 16 || 32 || 64
+|-
+| '''Contacts''' || 2 || 4 || 8 || 16
+|-
+| '''Constraint Count''' || 30 || 60 || 120 || 150
+|-
+| '''Constraint Depth''' || 5 || 15 || 35 || 50
+|-
+| '''Animators''' || 1 || 1 || 1 || 2
+|-
+| '''Bones''' || 75 || 90 || 150 || 150
+|-
+| '''Particle Systems''' || 0 || 0 || 0 || 2
+|-
+| '''Total Particles Active''' || 0 || 0 || 0 || 200
+|-
+| '''Total Particle Active Polys''' || 0 || 0 || 0 || 400
+|-
+| '''Particle Trails Enabled''' || False || False || False || True
+|-
+| '''Particle Collision Enabled''' || False || False || False || True
+|-
+| '''Trail Renderers''' || 0 || 0 || 0 || 1
+|-
+| '''Line Renderers''' || 0 || 0 || 0 || 1
+|}
+
+Lights, Cloths, Total Cloth Vertices, Physics Colliders, Physics Rigidobdies, and Audio Sources are not shown since they can never appear on avatars.
+
+If the Very Poor value is exceeded on mobile, no matter the current "Show Avatar" state of the avatar, all PhysBones, Contacts, and VRChat Constraints on the avatar will be removed.
 
 == Optimization Tips (Per Metric) ==
 
