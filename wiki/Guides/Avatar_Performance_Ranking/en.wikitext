@@ -193,8 +193,8 @@ Merge materials using texture atlases and tools available in Unity. Fewer materi
 === Textures ===
 Compress textures (make smaller size, less detail) when possible. It is recommended to use formats like JPEG or WebP for lightweight assets. Use 1024x1024 or lower if possible.
 
-=== Dynamic Bones (PhysBones) ===
-Switch to PhysBones (Newer system). Limit bone chains, colliders, and detail. Use bone filters to exclude unnecessary movements, and reduce bugs.
+=== PhysBones (Dynamic Bones) ===
+If using Dynamic Bones (an older system), switch to PhysBones. Limit bone chains, colliders, and detail. Use bone filters to exclude unnecessary movements, and reduce bugs.
 
 === Meshes (Skinned) ===
 Combine skinned meshes in Unity using tools like Mesh Baker, or available 3rd party software. Avoid separate meshes for small accessories if possible.
@@ -206,9 +206,9 @@ Use one audio source per avatar if possible. Avoid looping audios, or higher-bit
 Avoid real-time lights at all possibilities. Instead, bake the lighting into textures or use emissive materials.
 
 === Shaders ===
-Annoying, but necessary. Use lower-intensive shaders. Unlit and Mobile of course are recommended, but don't look as good or flashy. Avoid transparency, animation, or multi-pass effects unless they are optimized and minimal.<blockquote>It is possible to view your current avatar metrics from the VRChat avatars menu. Useful to identify possible avatar bottlenecks, and to know where adjustments need to be made if necessary.
+Use lower-intensive shaders (like [https://creators.vrchat.com/platforms/android/quest-content-limitations/ VRChat's Mobile shaders]). Avoid transparency, animation, or multi-pass effects unless they are optimized and minimal. Use
 
-</blockquote>
+It is possible to view your current avatar metrics from the VRChat avatars menu as well as inside the [https://creators.vrchat.com/sdk VRChat SDK] in Unity. Useful to identify possible avatar bottlenecks, and to know where adjustments need to be made if necessary.
 
 == Related Systems ==
 
