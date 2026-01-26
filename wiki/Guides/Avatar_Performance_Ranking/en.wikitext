@@ -38,6 +38,8 @@ Ranks range from '''Very Poor''' to '''Excellent''', based on avatar complexity 
 
 === Rank Thresholds on PC ===
 
+Note all GameObjects and Components, including those that are currently disabled, count towards the Avatar Performace Rank.
+
 {| class="wikitable mw-collapsible"
 |+ Thresholds on PC
 |-
@@ -99,8 +101,6 @@ Ranks range from '''Very Poor''' to '''Excellent''', based on avatar complexity 
 |-
 | '''Audio Sources''' || 1 || 4 || 8 || 8
 |}
-
-Note all GameObjects and Components, including those that are currently disabled, count towards the Avatar Performace Rank.
 
 == Optimization Tips (Per Metric) ==
 
