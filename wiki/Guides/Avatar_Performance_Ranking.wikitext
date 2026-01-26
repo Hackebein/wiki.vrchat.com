@@ -36,63 +36,71 @@ Ranks range from '''Very Poor''' to '''Excellent''', based on avatar complexity 
 * '''Real-Time Lights''': These are lights that cast shadows or change dynamically. Things like glowing eyes, flashlights, or built-in light probes on some avatars. More lights cause '''heavy lag'''. It is highly recommended to bake lighting into textures instead.
 * '''Shaders:''' Code that controls how materials look. Things such as a materials glow, if it is transparent (PC only), or animated. Complex shaders are highly performance-intensive, and '''will''' crash low-mid end systems if not used carefully. Simple shaders such as '''VRChat'''<nowiki/>'s built-in shaders are '''safe for all devices'''. It is typically recommended to avoid transparent shaders and animation unless they are optimized.
 
-=== Rank Thresholds (Limits) ===
+=== Rank Thresholds on PC ===
+
 {| class="wikitable mw-collapsible"
-|+Thresholds (Limits)
-!Rank
-!Polygons
-!Materials
-!Textures
-!Dynamic Bones (Physbones)
-!Audio Sources
-!Real-Time Lights
-!Shaders
+|+ Thresholds on PC
 |-
-|'''Excellent'''
-|Under 10,000
-|1-2
-|Lower count; Small (512x512 or less)
-|Minimal Use / None
-|0-1
-|None
-|Simple (Unlit or Mobile)
+! Rank !! Excellent !! Good !! Medium !! Poor
 |-
-|'''Good'''
-|10,000-30,000
-|3-10
-|Okay count; mid-size (up to 1024x1024)
-|Light Use
-|1-2
-|None
-|Basic with minimal transparency
+| '''Triangles''' || 32,000 || 70,000 || 70,000 || 70,000
 |-
-|'''Medium'''
-|30,000-50,000
-|10-15
-|Larger or multiple (up to 2048x2048)
-|Moderate Use
-|2-4
-|Avoid if possible
-|Moderate Complexity
+| '''Bounds Size''' || 2.5m x 2.5m x 2.5m || 4m x 4m x 4m || 5m x 6m x 5m || 5m x 6m x 5m
 |-
-|'''Poor'''
-|50,000-70,000
-|15-20
-|Large or memory-intensive
-|Heavy Use 
-|4+
-|Acceptable
-|Complex or transparent
+| '''Texture Memory''' || 40 MB || 75 MB || 110 MB || 150 MB
 |-
-|'''Very Poor'''
-|70,000+
-|20+
-|Excessive Usage
-|128+ Components
-|4+
-|Any
-|Complex, layered, animated, transparent
+| '''Skinned Meshes''' || 1 || 2 || 8 || 16
+|-
+| '''Basic Meshes''' || 4 || 8 || 16 || 24
+|-
+| '''Material Slots''' || 4 || 8 || 16 || 32
+|-
+| '''Physbone Components''' || 4 || 8 || 16 || 32
+|-
+| '''Physbone Affected Transforms''' || 16 || 64 || 128 || 256
+|-
+| '''Physbone Colliders''' || 4 || 8 || 16 || 32
+|-
+| '''Physbone Collision Check Count''' || 32 || 128 || 256 || 512
+|-
+| '''Contacts''' || 8 || 16 || 24 || 32
+|-
+| '''Constraint Count''' || 100 || 250 || 300 || 350
+|-
+| '''Constraint Depth''' || 20 || 50 || 80 || 100
+|-
+| '''Animators''' || 1 || 4 || 16 || 32
+|-
+| '''Bones''' || 75 || 150 || 256 || 400
+|-
+| '''Lights''' || 0 || 0 || 0 || 1
+|-
+| '''Particle Systems''' || 0 || 4 || 8 || 16
+|-
+| '''Total Particles Active''' || 0 || 300 || 1000 || 2500
+|-
+| '''Total Particle Active Polys''' || 0 || 1000 || 2000 || 5000
+|-
+| '''Particle Trails Enabled''' || False || False || True || True
+|-
+| '''Particle Collision Enabled''' || False || False || True || True
+|-
+| '''Trail Renderers''' || 1 || 2 || 4 || 8
+|-
+| '''Line Renderers''' || 1 || 2 || 4 || 8
+|-
+| '''Cloths''' || 0 || 1 || 1 || 1
+|-
+| '''Total Cloth Vertices''' || 0 || 50 || 100 || 200
+|-
+| '''Physics Colliders''' || 0 || 1 || 8 || 8
+|-
+| '''Physics Rigidbodies''' || 0 || 1 || 8 || 8
+|-
+| '''Audio Sources''' || 1 || 4 || 8 || 8
 |}
+
+Note all GameObjects and Components, including those that are currently disabled, count towards the Avatar Performace Rank.
 
 == Optimization Tips (Per Metric) ==
 
