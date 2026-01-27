@@ -12,10 +12,13 @@ or your changes will not be shown on the Main Page.
 -->
 <div class="qm-box" style="flex: 1 1 20%; min-width: 280px;">
     <h3 class="mw-headline qm-icon version">Aktualizacja VRChat<span style="font-size: 1rem">{{Templatelinks|MainPageVersion}}</span></h3>
-{{#timel: d F Y | Mar 31, 2026 }} - [{{Version/href|live-mainpage}} VRChat {{Version|live-mainpage}} | Build {{Version/Build|live-mainpage}}]
-* Skórki [[Special:MyLanguage/Loading Screens#Cosmetics|ekranów ładowania]] 
-* Aktualizacja [[Special:MyLanguage/Impostors|impostorów]]
-* Nowe [[Special:MyLanguage/Inventory#Content_type|rzeczy]] dla [[Special:MyLanguage/VRC+|VRC+]] 
-* [https://docs.vrchat.com/docs/vrchat-202613 Wiele innych zmian, ulepszeń i poprawek!]
+{{#timel: d F Y | Jan 27, 2026 }} - [{{Version/href|live-mainpage}} VRChat {{Version|live-mainpage}} | Build {{Version/Build|live-mainpage}}]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Special:MyLanguage/VRC+#Increased_favorite_slots|World Favorites]] increased from 400 to 800 with VRC+.
+* Experiments
+** [https://docs.vrchat.com/docs/vrchat-202611#group-progress-bar Group Progress Bar]
+** [https://docs.vrchat.com/docs/vrchat-202611#group-auto-invitations Group Auto Invitations]
+* [https://docs.vrchat.com/docs/vrchat-202611 Many more tweaks, improvements and fixes!]
+</div>
 </div>
 </onlyinclude>
