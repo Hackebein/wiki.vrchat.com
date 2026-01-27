@@ -115,31 +115,10 @@ Las estancias pueden establecerse con una cola. Cuando se excede la capacidad, s
 
 Un usuario puede conectarse directamente a una estancia si otro de sus clientes ya está dentro. El nuevo cliente expulsa al anterior al entrar, lo que permite alternar entre VR y escritorio sin perder su espacio en una estancia completa.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Avatar Performance Gated====
-{{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Group instances have the option to set a minimum performance limit for avatars. These limits are set on instance creation and applies to all users within the instance. The Minimum Performance Limit can be set to limit Poor, Medium, or Good avatars. The default is set to none.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When the limit is in effect, users violating the performance limit will be subject to:
-* Attempting to join the instance will notify the user that their avatar violates the performance limit. They will receive a warning pop-up showing their current avatar rank, the instance performance limit, and how users will see their avatar. 
-* Within the instance, users will see their avatar as a [[Special:MyLanguage/Fallbacks|Fallback]] or an [[Special:MyLanguage/Impostors|Impostor]], but locally the user will still be in their regular avatar.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Groups can set up a role to bypass avatar performance requirements.
-</div>
-
 <span id="Regions"></span>
 ==Regiones==
 
-<div class="mw-translate-fuzzy">
 Al seleccionar un tipo de estancia, existen opciones para diferentes regiones que optimizan la experiencia. Elegir la estancia más cercana a su ubicación reducirá el ping y garantizará una conexión más estable, evitando desconexiones y retrasos.
-</div>
 
 Históricamente, VRChat funcionaba únicamente con el servidor de EE. UU. Oeste. El 16 de junio de 2021, se añadieron dos regiones extras - '''Europa y Japón''' a la plataforma en la [https://docs.vrchat.com/docs/vrchat-202124 actualización de regiones] <ref>https://docs.vrchat.com/docs/vrchat-202124</ref> para distribuir la carga de los servidores y compensar el aumento de usuarios. El 1 de diciembre de 2021, VRChat añadió la región '''EE. UU. Este'''<ref>https://docs.vrchat.com/docs/vrchat-202142</ref>	 y renombró el servidor actual de EE. UU. a ''''EE. UU. Oeste'''<nowiki/>'. Se recomienda a los usuarios consultar la página del {{VRC link|https://status.vrchat.com|estado del servidor}} de VRChat o su [https://x.com/VRChat_Status cuenta de estado de VRChat] en redes sociales para estar al tanto de cortes o problemas al conectarse a VRChat.
 {| class="wikitable"
@@ -172,14 +151,6 @@ Al crear una estancia, el creador puede cambiar su nombre visible. Los nombres d
 
 El nombrado de estancias dentro del cliente es una característica de [[Special:MyLanguage/VRC+|VRC+]], aunque nombrar una estancia a través de la API no requiere VRC+.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Short links ==
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Instances can be shared using VRChat's <code>vrch.at</code> short link domain combined with the instance's short name, for example <code><nowiki>https://vrch.at/<shortName></nowiki></code>. This redirects to the instance's launch page on the VRChat website.
-</div>
-
 <span id="Instance_settings"></span>
 == Ajustes de la estancia ==
 
@@ -190,12 +161,14 @@ Los ajustes de la estancia no pueden ser establecidos por el creador de la estan
 
 La lista de contenidos que se pueden alternar son:
 
+<div class="mw-translate-fuzzy">
 * [[Special:MyLanguage/Emojis|Emojis]]
 * [[Special:MyLanguage/Stickers|Pegatinas]]
-* [[Special:MyLanguage/Sharing|Compartir]] pedestales
+* [[Special:MyLanguage/VRC+#Sharing|Compartir]] pedestales
 * [[Special:MyLanguage/VRC+#Prints|Instantáneas]]
 * [[Special:MyLanguage/Camera Drone|Drones]]
 * [[Special:MyLanguage/Items|Objetos]]
+</div>
 
 <span id="Instance_permissions"></span>
 == Permisos de la estancia ==
@@ -260,34 +233,6 @@ El autor del mundo tiene el mismo conjunto básico de herramientas de moderació
 |✔️
 |✔️
 |}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Instance capacity ==
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The capacity of a world can be configured on the VRChat website without reuploading the world. However, the capacity value does not represent the absolute maximum number of players that can be in an instance. The effective maximum is calculated as follows:
-</div>
-{| class="wikitable"
-!<span lang="en" dir="ltr" class="mw-content-ltr">Component</span>
-! <span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
-|-
-|| <span lang="en" dir="ltr" class="mw-content-ltr">Recommended Capacity</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly. The Recommended Capacity cannot be set higher than Maximum Capacity.</span>
-|-
-||<span lang="en" dir="ltr" class="mw-content-ltr">Maximum Capacity</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated. The Maximum Capacity cannot be set higher than 80.</span><ref name="CapNote" group="note"> <span lang="en" dir="ltr" class="mw-content-ltr">While the Maximum Capacity of a world cannot be set higher than 80 under normal circumstances, VRChat staff can manually increase the instance capacity. This usually occurs during events or [https://vrc.group/MAXCAP.0000 instance capacity stress tests].</span> </ref>
-|-
-||<span lang="en" dir="ltr" class="mw-content-ltr">Instance creator or group owner</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The user who created the instance can always join, even if the instance is at its maximum capacity. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.</span>
-|-
-||<span lang="en" dir="ltr" class="mw-content-ltr">World author</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The user who uploaded the world can always join, even if the instance is at its maximum cap.</span>
-|}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The maximum configurable capacity on the VRChat website is 80, resulting in an effective maximum of 82 players in normal conditions. If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the maximum capacity.
-</div> <ref group="note" name="CapNote"></ref>
-<references group="note" />
-
 <span id="Instance_duration_and_automatic_resets"></span>
 == Duración de la estancia y reinicios automáticos ==
 
@@ -298,3 +243,5 @@ Las estancias que han estado activas por períodos prolongados se reiniciarán a
 ==Referencias==
 
 <references />
+
+[[Category:Needs Images{{#translation:}}{{#translation:}}]]
