@@ -5,13 +5,14 @@
 == アバターの変更 ==
 VRChatに初めて参加したユーザーのアバターは、デフォルトの[[Special:MyLanguage/Robot|ロボット]]アバターとなっている。また、VRChat公式のアバターもいくつか用意されていて、さまざまなキャラクターを選択できる。ただし、これらは、利用可能なアバターのほんの一部であり、ユーザーはさまざまな方法でアバターを変えることができる。
 
+<div class="mw-translate-fuzzy">
 === 特集リスト ===
+VRChat には、パフォーマンスが最適化され、様々なスタイルや好みに対応できるようにデザインされた、厳選された[[Special:MyLanguage/Public Avatars|パブリックアバター]]のリストがある。
 
-VRChatは、パフォーマンスが最適化された注目の[[Special:MyLanguage/Public Avatars|パブリックアバター]]の厳選したリストを管理しており、様々なスタイルや好みに対応するよう設計されている。
+[[Special:MyLanguage/Main Menu|メインメニュー]]内の「アバター」メニューに移動して、「パブリック」または「レガシー」のいずれかのリストから、いつでもパブリックアバターを見て試すことができる。
+</div>
 
-ユーザーは[[Special:MyLanguage/Main Menu|メインメニュー]]の[[Special:MyLanguage/Shop|ショップ]]タブに移動し、「Avatar」セクションを選択して「パブリック」行までスクロールすることで、いつでもこれらのアバターを閲覧・試すことができる。
-
-使用したいアバターを見つけたら、それを選択し、「適用」ボタンを押すことで使用できる。
+使用したいアバターを見つけたら、それを選択し、「適用」ボタンを押して確定する。
 
 === クローン ===
 [[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, 「アバターをクローン」および「アバターをお気に入りに加える」ボタンは、「ユーザーアクション」セクション内に配置されている。]]
@@ -23,12 +24,10 @@ VRChatは、パフォーマンスが最適化された注目の[[Special:MyLangu
 === ペデスタルとアバターワールド ===
 アバターはアバターペデスタルからでも見つけることができる。これらは通常、「アバターワールド」カテゴリのワールド内に置いてあり、これらのペデスタルにはアバターのプレビューが表示されていて、ユーザーはそのペデスタルをインタラクトすることで、クローンすることができる。 
 
-==お気に入りに加える==
-
-アバターをお気に入りに登録することで、後から呼び出すことが可能である。お気に入り登録済みのアバターは、アバターページの「お気に入り」行に表示される。
-
-初期状態では、お気に入りアバターは最大50件を収容可能な単一リストに追加される。
-また、[[Special:MyLanguage/VRC+|VRC+ サブスクリプション]]により、最大5つの追加リストの利用が可能となり、合計して6つのリストを使用できる。
+<div class="mw-translate-fuzzy">
+==アバターのお気に入り追加==
+ユーザーは、アバターをお気に入りに追加して、後から使用できるようにすることができる。お気に入りに追加されたアバターは、アバターページ内の「お気に入り」リストに表示される。各行には最大50体のアバターを追加できる。[[Special:MyLanguage/VRChat+|VRC+ のサブスクリプション]]が有効な場合、追加で5個のアバターリストを使用できる。
+</div>
 
 アバターをお気に入りに登録する方法はいくつか存在する。
 使用中のアバターを登録する場合は、アバターページを開き、アバタープレビューの右下にある「お気に入りに加える」ボタンを選択する。他のユーザーが使用しているアバターを登録する場合は、そのユーザーを選択し、[[Special:MyLanguage/Quick Menu|クイックメニュー]]内の「アバターをお気に入りに加える」ボタンを使用する。
@@ -50,17 +49,11 @@ VRChat のアバターは、主に Meta (Oculus) Quest、Android、iOS システ
 
 アバターのパフォーマンスのランク付けに影響を与えるものの例として、メッシュのポリゴン数、マテリアル数、テクスチャの解像度、アニメーターの複雑さ、[[Special:MyLanguage/Physbones|PhysBones]] やコンストレイントなどのアバターコンポーネントの多さが挙げられる。 
 
-スタンドアロンVRおよびモバイルプラットフォームにおいては、Very Poor アバターの同時表示数は最大4体に制限されている。
-
 公式ドキュメントの[https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ アバターのパフォーマンスのランク付けシステム] (英語) から詳しい詳細を見ることができる。
 
 == 作成とアップロード==
 ユーザーは、VRChat の[[Special:MyLanguage/Terms of Service|利用規約]]に準拠することで、カスタムアバターを作成・アップロードし、VRChat の体験を拡張することができる。
 アバターをアップロードするには、事前に[[Special:MyLanguage/Trust Rank|トラストランク]]が「New User」に到達している必要があり、あわせて推奨されているバージョンの Unity および [[Special:MyLanguage/VRChat SDK|VRChat SDK]] などの必要なツールを導入する必要がある。
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When an avatar has both PC and Android versions, creators can upload both variants under the same blueprint ID so that the same avatar entry works across platforms.
-</div>
 
 
 [https://creators.vrchat.com/releases/release-3-9-0#fixes--changes SDK 3.9.0]のリリースにより、アバターのビルドおよびテストを行うためのトラストランク要件は撤廃された。
@@ -72,23 +65,12 @@ When an avatar has both PC and Android versions, creators can upload both varian
 
 SDK でできることについての'''詳しいガイド'''は、クリエイター向けドキュメントの[https://creators.vrchat.com/avatars/creating-your-first-avatar/ はじめてのアバター作成]で確認できる。
 
-<div class="mw-translate-fuzzy">
-==豆知識==
-*2019年以前は、アバターのお気に入りリストに追加できるアバターは25体までであった。また、VRC+ のサブスクリプションによって追加できるリストは2つのみであり、合計3つのみだった。
-</div>
-
 <span id="Official_resources"></span>
 == 公式リソース ==
 
-<div class="mw-translate-fuzzy">
 * VRChat Creators より [https://creators.vrchat.com/avatars/ アバター]
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-== Resources ==
-* [https://vrc.school/docs/Avatars/Intro-VRChat-Avatars VRC School: Introduction – VRChat Avatars 3.0]
-* [https://vrc.school/docs/Avatars/Understanding-Avatars-3-0 VRC School: Understanding Avatars 3.0]
-* [https://vrc.school/docs/Avatars/Uploading-An-Avatar VRC School: Uploading an Avatar in 3.0]
+==Trivia==
+*Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
 </div>
-[[Category:Needs images]]
-[[Category:Avatars]]
