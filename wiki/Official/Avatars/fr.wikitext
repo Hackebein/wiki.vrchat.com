@@ -5,8 +5,10 @@ Les '''avatars''' servent de modèles représentant les utilisateurs à l'intér
 == Changer d'avatar ==
 Lorsque les utilisateurs rejoignent VRChat pour la première fois, ils sont équipés par défaut avec l'avatar [[Robot]]. Ils sont également présentés avec une sélection d'avatars officiels de VRChat, offrant ainsi une variété de personnages parmi lesquels choisir. Cependant, ces options initiales ne représentent qu'une fraction des avatars disponibles. Les utilisateurs peuvent changer d'avatar de différente manières.
 
+<div class="mw-translate-fuzzy">
 == Liste mise en avant ==
-VRChat maintient une liste soignée [[Avatars public|d'avatars publics]], lesquels sont optimisés et conçus pour correspondre à divers styles et préférences. Les utilisateurs peuvent parcourir et essayer ces avatars à tout moment en naviguant dans l'onglet [[Special:MyLanguage/Shop|Boutique]] du [[Special:MyLanguage/Main Menu|menu principal]], en sélectionnant la section '''Avatar''', puis défiler jusqu'à la rangée '''Publics'''.
+VRChat maintient une liste soignée [[Avatars public|d'avatars publics]], lesquels sont optimisés et conçus pour correspondre à divers styles et préférences. Les utilisateurs peuvent parcourir et essayer ces avatars à tout moment en naviguant dans la section Avatar du [[Main Menu|Menu Principal]] et en sélectionnant « Publics » ou « Classiques ».
+</div>
 
 Une fois que vous avez trouvé un avatar que vous souhaitez utiliser, sélectionnez-le et confirmez avec le bouton '''Appliquer'''.
 
@@ -20,7 +22,7 @@ Pour désactiver le clonage d'avatars, il suffit de se rendre dans [[Special:MyL
 Les avatars peuvent également être découverts sur des piédestaux d'avatar. Ceux-ci se trouvent généralement dans les mondes sous la catégorie '''Mondes d'avatars'''. Ces piédestaux affichent un aperçu des avatars, avec lesquels les utilisateurs peuvent interagir pour les cloner. 
 
 ==Ajouter des Avatars en favoris==
-Les utilisateurs peuvent ajouter des avatars afin de les sauvegarder pour plus tard. Les avatars favoris apparaitront dans la section « Favoris » de la page d'avatars. Par défaut, ils seront ajoutés à une liste personnelle qui peut en contenir 50. Cinq listes d'avatars favoris supplémentaires peuvent être utilisé avec un [[Special:MyLanguage/VRC+|abonnement VRC+]] actif.
+Les utilisateurs peuvent ajouter des avatars afin de les sauvegarder pour plus tard. Les avatars favoris apparaitront dans la section « Favoris » de la page d'avatars. Par défaut, ils seront ajoutés à une liste personnelle qui peut en contenir 50. Cinq listes d'avatars favoris supplémentaires peuvent être utilisé avec un [[Special:MyLanguage/VRChat+|abonnement VRC+]] actif.
 
 Il existe plusieurs façons d'ajouter un avatar en favoris. Si vous utilisez un avatar que vous souhaitez mettre en favoris, allez à la page des avatars et cliquez sur le bouton « Ajouter » en bas à droite, sous l'aperçu d'avatar. Si une autre personne utilise l'avatar que vous désirez ajouter à vos favoris, sélectionnez l'utilisateur et appuyez sur le bouton '''Avatar favoris''' dans le [[Special:MyLanguage/Quick Menu|Menu Rapide]].
 
@@ -40,14 +42,10 @@ L'avatar de secours peut être changé sur le site web VRChat.
 ==Rangs de performances==
 Les avatars sont classés selon leurs rangs de performances. Ceux-ci vont de Mauvais{{performance|verypoor|22}} à Médiocre{{performance|poor|22}}, Moyen{{performance|medium|22}}, Bon{{performance|good|22}} et Excellent{{performance|excellent|22}}. Cette classification permet au utilisateurs de comprendre l'impact des performances de leurs avatars sur l'expérience de jeu. Certaines choses comme le nombre de polygones du maillage, le nombre de matériaux, la résolution des textures, la complexité de l'animateur, et les composants d'avatars comme les [[Physbones|PhysBones]] ou les contraintes affectent le rang de performances d'un avatar. 
 
-Sur casques natifs et plateformes mobiles, un maximum de 4 avatars de rang « Mauvais » peuvent être affichés à la fois.
-
 Vous pouvez retrouver davantage d'informations dans la documentation officielle à [https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ Système de Rangs de Performances d'Avatar].
 
 ==Créer et Mettre en ligne==
 Les utilisateurs peuvent améliorer leur expérience VRChat en créant et en mettant en ligne des avatars personnalisés, tant que ces derniers suivent les [[Special:MyLanguage/Terms of Service|Conditions d'utilisation]] de VRChat. Pour mettre en ligne un avatar, les utilisateurs doivent en premier atteindre le [[Special:MyLanguage/Trust Rank|rang de confiance]] « Nouvel Utilisateur », obtenir tout les outils nécessaire, ainsi que la version recommandé de Unity et le [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
-
-Lorsqu'un avatar a une version PC et Android, son créateur peut mettre en ligne les deux variantes sous la même ID afin que ce même avatar puisse être visible sur les deux plateformes
 
 Avec la sortie du [https://creators.vrchat.com/releases/release-3-9-0#fixes--changes SDK 3.9.0], la condition de rang de confiance pour que les utilisateurs puissent construire et tester leurs avatars a été supprimée. Les versions précédentes du SDK nécessitaient un rang de confiance « Nouvel utilisateur » ou supérieur pour construire et tester des avatars.
 
@@ -55,18 +53,10 @@ Une fois un avatar publié, vous pourrez le retrouver sous la section '''Mis en 
 
 Un '''guide détaillé''' sur ce que vous pouvez faire avec le SDK est disponible dans la documentation Creators à [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Créer Votre Premier Avatar].
 
-==Anecdote==
-*Jusqu'en 2019, seulement 25 avatars pouvaient être mis en tant que favoris dans une liste. Un abonnement VRC+ ne débloquait également que deux listes supplémentaires, pour un total de 3.
-
 <span id="Official_resources"></span>
 == Ressources officielles ==
 
 * [https://creators.vrchat.com/avatars/ Avatars] sur VRChat Creators.
-* [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Créer votre premier avatar] sur VRChat Creators.
 
-== Ressources ==
-* [https://vrc.school/docs/Avatars/Intro-VRChat-Avatars VRC School : Introduction – Avatars 3.0 VRChat]
-* [https://vrc.school/docs/Avatars/Understanding-Avatars-3-0 VRC School : Comprendre les Avatars 3.0]
-* [https://vrc.school/docs/Avatars/Uploading-An-Avatar VRC School : Uploader un avatar en 3.0]
-[[Category:Needs images]]
-[[Category:Avatars]]
+==Anecdote==
+*Jusqu'en 2019, seulement 25 avatars pouvaient être mis en tant que favoris dans une liste. Un abonnement VRC+ ne débloquait également que deux listes supplémentaires, pour un total de trois.
