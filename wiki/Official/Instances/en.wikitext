@@ -109,20 +109,9 @@ Instances can be set up with a queue. When capacity is exceeded, a queue forms, 
 
 A user can direct-connect to an instance if another of their own clients is already inside. The new client kicks the old one on entry, letting you switch between VR and desktop without losing your slot in a full instance.
 
-====Avatar Performance Gated====
-{{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
-
-Group instances have the option to set a minimum performance limit for avatars. These limits are set on instance creation and applies to all users within the instance. The Minimum Performance Limit can be set to limit Poor, Medium, or Good avatars. The default is set to none.
-
-When the limit is in effect, users violating the performance limit will be subject to:
-* Attempting to join the instance will notify the user that their avatar violates the performance limit. They will receive a warning pop-up showing their current avatar rank, the instance performance limit, and how users will see their avatar. 
-* Within the instance, users will see their avatar as a [[Special:MyLanguage/Fallbacks|Fallback]] or an [[Special:MyLanguage/Impostors|Impostor]], but locally the user will still be in their regular avatar.
-
-Groups can set up a role to bypass avatar performance requirements.
-
 ==Regions==
 
-Whilst selecting an instance type, there are choices for varying regions to better optimize their experience. Choosing an instance closest to your location will see a decrease in [[Special:MyLanguage/Community:Terminology#Ping|ping]], and ensuring a more stable connection to the instance, preventing disconnections and lag.
+Whilst selecting an instance type, there are choices for varying regions to better optimize their experience. Choosing an instance closest to your location will see a decrease in [[Special:MyLanguage/:Community:Terminology#Ping|ping]], and ensuring a more stable connection to the instance, preventing disconnections and lag.
 
 Historically, VRChat ran solely on the U.S. West server. On June 16, 2021, two extra regions - '''Europe, and Japan''' were added to the platform in the [https://docs.vrchat.com/docs/vrchat-202124 Regions update]<ref>https://docs.vrchat.com/docs/vrchat-202124</ref> to distribute server load, and offset increasing user count. On December 1, 2021, VRChat added the '''U.S. East'''<ref>https://docs.vrchat.com/docs/vrchat-202142</ref> region, and renamed the current USA server to ''''U.S. West'''<nowiki/>'. Users are also encouraged to check VRChat's {{VRC link|https://status.vrchat.com|server status}} website or their [https://x.com/VRChat_Status VRChat Status account] on social media for outages, or upon discovering issues when connecting to VRChat.
 {| class="wikitable"
@@ -153,10 +142,6 @@ Historically, VRChat ran solely on the U.S. West server. On June 16, 2021, two e
 When creating an instance, the instance creator has the option to change its display name. Instance names appear in instance details located in the Here tab of the Quick Menu and in the instance list of worlds. Instance names have a limit of 32 characters allowed, and the characters <code>.</code>,<code>/</code>, and<code>\</code> are not allowed to be used.
 
 Instance naming within the client is [[Special:MyLanguage/VRC+|VRC+]] feature, although naming an instance through the API does not require VRC+.
-
-== Short links ==
-
-Instances can be shared using VRChat's <code>vrch.at</code> short link domain combined with the instance's short name, for example <code><nowiki>https://vrch.at/<shortName></nowiki></code>. This redirects to the instance's launch page on the VRChat website.
 
 == Instance settings ==
 
@@ -233,28 +218,6 @@ The author of the world have the same core set of moderation tools as an instanc
 |✔️
 |✔️
 |}
-== Instance capacity ==
-
-The capacity of a world can be configured on the VRChat website without reuploading the world. However, the capacity value does not represent the absolute maximum number of players that can be in an instance. The effective maximum is calculated as follows:
-{| class="wikitable"
-!Component
-! Description
-|-
-|| Recommended Capacity
-||The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly. The Recommended Capacity cannot be set higher than Maximum Capacity.
-|-
-||Maximum Capacity
-||The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated. The Maximum Capacity cannot be set higher than 80.<ref name="CapNote" group="note"> While the Maximum Capacity of a world cannot be set higher than 80 under normal circumstances, VRChat staff can manually increase the instance capacity. This usually occurs during events or [https://vrc.group/MAXCAP.0000 instance capacity stress tests]. </ref>
-|-
-||Instance creator or group owner
-||The user who created the instance can always join, even if the instance is at its maximum capacity. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.
-|-
-||World author
-||The user who uploaded the world can always join, even if the instance is at its maximum cap.
-|}
-The maximum configurable capacity on the VRChat website is 80, resulting in an effective maximum of 82 players in normal conditions. If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the maximum capacity. <ref group="note" name="CapNote"></ref>
-<references group="note" />
-
 == Instance duration and automatic resets ==
 
 [[File:Instance shutdown notification.webp|alt=A notification on the VRChat Quick Menu notification pane, in the Other section. The notification reads: "Warning: This instance will be reset in 60 minutes due to its age."|thumb|The notification that appears when the instance is due to reset.]]
@@ -263,3 +226,5 @@ Instances that have been running for long periods will automatically reset to pr
 ==References==
 
 <references />
+
+[[Category:Needs Images{{#translation:}}{{#translation:}}]]
