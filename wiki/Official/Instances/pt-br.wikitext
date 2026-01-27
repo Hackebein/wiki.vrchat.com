@@ -115,21 +115,10 @@ As instâncias podem ser configuradas com uma fila. Quando a capacidade é exced
 
 Um usuário pode se conectar diretamente a uma instância se outro cliente próprio já estiver conectado. O novo cliente desconecta o antigo ao entrar, permitindo alternar entre realidade virtual e desktop sem perder sua vaga em uma instância completa.
 
-====Desempenho do Avatar Controlado====
-{{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
-
-As instâncias de grupo têm a opção de definir um limite mínimo de desempenho para os avatares. Esses limites são definidos na criação da instância e se aplicam a todos os usuários dentro dela. O Limite Mínimo de Desempenho pode ser definido para restringir avatares de qualidade Ruim, Média ou Bom. O padrão é definido como nenhum.
-
-Quando o limite estiver em vigor, os usuários que violarem o limite de desempenho estarão sujeitos ao seguinte:
-* Ao tentar entrar na instância, o usuário será notificado de que seu avatar viola o limite de desempenho. Ele receberá uma janela pop-up de aviso mostrando a classificação atual do avatar, o limite de desempenho da instância e como os outros usuários verão seu avatar. 
-* Dentro da instância, os usuários verão seu avatar como um [[Special:MyLanguage/Fallbacks|Alternativo]] ou um [[Special:MyLanguage/Impostors|Impostor]], mas localmente o usuário continuará com seu avatar normal.
-
-Os grupos podem definir uma função para ignorar os requisitos de desempenho do avatar.
-
 <span id="Regions"></span>
 ==Regiões==
 
-Ao selecionar um tipo de instância, existem opções entre diferentes regiões para otimizar sua experiência. Escolher uma instância mais próxima da sua localização resultará em uma redução no [[Special:MyLanguage/Community:Terminology#Ping|ping]], garantindo uma conexão mais estável com a instância e evitando desconexões e lentidão.
+Ao selecionar um tipo de instância, existem opções entre diferentes regiões para otimizar sua experiência. Escolher uma instância mais próxima da sua localização resultará em uma redução no [[Special:MyLanguage/:Community:Terminology#Ping|ping]], garantindo uma conexão mais estável com a instância e evitando desconexões e lentidão.
 
 Historicamente, o VRChat funcionava exclusivamente no servidor da região Oeste dos EUA. Em 16 de junho de 2021, duas regiões adicionais - '''Europa e Japão''' foram adicionadas à plataforma na [https://docs.vrchat.com/docs/vrchat-202124 atualização de regiões]<ref>https://docs.vrchat.com/docs/vrchat-202124</ref> para distribuir a carga do servidor e compensar o aumento no número de usuários. Em 1º de dezembro de 2021, o VRChat adicionou a região '''Leste dos EUA'''<ref>https://docs.vrchat.com/docs/vrchat-202142</ref> e renomeou o servidor dos EUA para ''''Oeste dos EUA'''<nowiki/>'. Os usuários também são incentivados a verificar o site de ({{VRC link|https://status.vrchat.com|status de servidor}}) do VRChat ou a conta [https://x.com/VRChat_Status VRChat Status] nas redes sociais para verificar possíveis interrupções ou ao descobrirem problemas ao se conectar ao VRChat.
 {| class="wikitable"
@@ -162,11 +151,6 @@ Ao criar uma instância, o criador tem a opção de alterar seu nome de exibiç�
 
 A nomeação de instâncias dentro do cliente é um recurso do [[Special:MyLanguage/VRC+|VRC+]], embora nomear uma instância através da API não necessite do VRC+.
 
-<span id="Short_links"></span>
-== Links curtos ==
-
-As instâncias podem ser compartilhadas usando o domínio de links curtos do VRChat <code>vrch.at</code>, combinado com o nome abreviado da instância; por exemplo, <code><nowiki>https://vrch.at/<shortName></nowiki></code>. Isso redireciona para a página de acesso da instância no site do VRChat.
-
 <span id="Instance_settings"></span>
 == Configurações da instância ==
 
@@ -177,12 +161,14 @@ As Configurações da Instância não podem ser definidas pelo criador da instâ
 
 A lista de conteúdos que podem ser ativados/desativados inclui:
 
+<div class="mw-translate-fuzzy">
 * [[Special:MyLanguage/Emojis|Emojis]]
 * [[Special:MyLanguage/Stickers|Adesivos]]
-* [[Special:MyLanguage/Sharing|Compartilhando]] Pedestais
+* [[Special:MyLanguage/VRC+#Sharing|Compartilhando]] Pedestais
 * [[Special:MyLanguage/VRC+#Prints|Impressões]]
 * [[Special:MyLanguage/Camera Drone|Drones]]
 * [[Special:MyLanguage/Items|Itens]]
+</div>
 
 <span id="Instance_permissions"></span>
 == Permissões de instância ==
@@ -247,29 +233,6 @@ O autor do mundo tem o mesmo conjunto básico de ferramentas de moderação que 
 |✔️
 |✔️
 |}
-<span id="Instance_capacity"></span>
-== Capacidade da instância ==
-
-A capacidade de um mundo pode ser configurada no site do VRChat sem a necessidade de reenviar o mundo. No entanto, o valor da capacidade não representa o número máximo absoluto de jogadores que podem estar em uma instância. O máximo efetivo é calculado da seguinte forma:
-{| class="wikitable"
-!Componente
-! Descrição
-|-
-|| Capacidade Recomendada
-||O valor de capacidade recomendado configurado. Quando o número atual de usuários atingir esse valor, a instância deixará de ser listada publicamente. A Capacidade Recomendada não pode ser definida para um valor superior à Capacidade Máxima.
-|-
-||Capacidade Máxima
-||O valor de capacidade máxima configurado. Quando a capacidade máxima for atingida, os usuários não poderão mais entrar na instância. Se a instância pertencer a um grupo, os usuários poderão ingressar em uma fila, caso esteja ativada. A capacidade máxima não pode ser definida para um valor superior a 80.<ref name="CapNote" group="note"> Embora a capacidade máxima de um mundo não possa ser definida para mais de 80 em circunstâncias normais, a equipe do VRChat pode aumentar manualmente a capacidade da instância. Isso geralmente ocorre durante eventos ou [https://vrc.group/MAXCAP.0000 testes de carga de capacidade da instância]. </ref>
-|-
-||Criador da instância ou dono do grupo
-||O usuário que criou a instância sempre pode participar, mesmo que a instância esteja no limite de sua capacidade. No caso das instâncias Grupo, Grupo+ e Grupo Público, essa vaga reservada pertence ao proprietário do grupo.
-|-
-||Autor do mundo
-||O usuário que carregou o mundo sempre pode entrar, mesmo que a instância esteja no seu limite máximo.
-|}
-A capacidade máxima configurável no site do VRChat é de 80, o que resulta em um máximo efetivo de 82 jogadores em condições normais. Se o criador da instância ou o autor do mundo já estiver na instância, sua vaga reservada fica ocupada e não pode ser usada por outros jogadores para ultrapassar a capacidade máxima. <ref group="note" name="CapNote"></ref>
-<references group="note" />
-
 <span id="Instance_duration_and_automatic_resets"></span>
 == Duração da instância e reinicializações automáticas ==
 
@@ -280,3 +243,5 @@ Instâncias que estiverem em execução por longos períodos serão reiniciadas 
 ==Referências==
 
 <references />
+
+[[Category:Needs Images{{#translation:}}{{#translation:}}]]
