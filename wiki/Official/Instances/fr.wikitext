@@ -115,17 +115,6 @@ Les instances peuvent avoir une file d'attente. Lorsque la limite est atteinte, 
 
 Un utilisateur peut se connecter directement à une instance si un autre de ses clients y est déjà présent. Le nouveau client expulsera l'ancien dès l'entrée, vous permettant d'intervertir entre VR et PC sans avoir à perdre votre place dans une instance pleine.
 
-====Limitation par Performance d'Avatar====
-{{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
-
-Les instances de groupe offrent l'option de définir une limite de performance minimale pour les avatars. Ces limites sont définies lors de la création de l'instance et s'applique à tous les utilisateurs qui s'y trouvent. La limite de performance minimale peut être configurée pour limiter les avatars de qualité médiocre, moyenne ou bon. Par défaut, aucune limite n'est définie.
-
-Lorsque la limite est en vigueur, les utilisateurs qui la dépassent s'exposent aux conséquences suivantes :
-* Tenter de rejoindre l'instance notifiera le joueur que leur avatar dépasse la limite de performance acceptée. Le joueur recevera un pop-up d'avertissement indiquant leur rang d'avatar actuel, la limite de performance de l'instance, et comment les autres utilisateurs verront leur avatar.
-* Dans l'instance, les utilisateurs verront leur avatar en tant que [[Special:MyLanguage/Fallbacks|Fallback]] ou en tant que [[Special:MyLanguage/Impostors|Impostor]], mais localement l'utilisateur sera toujours avec leur avatar habituel.
-
-Les groupes peuvent créer un rôle pour contourner la restriction de performance d'avatar.
-
 <span id="Regions"></span>
 ==Régions==
 
@@ -162,13 +151,6 @@ Lors de la création d'une instance, son créateur a la possibilité de modifier
 
 Nommer une instance depuis le client est une fonctionnalité [[Special:MyLanguage/VRC+|VRC+]], bien que l'effectuer depuis l'API ne le nécessite pas.
 
-<span id="Short_links"></span>
-== Liens raccourcis ==
-
-Les instances peuvent être partagées grâce au domaine de liens raccourcis vrch.at de VRChat, en y ajoutant le nom court de l’instance.
-Exemple : <nowiki>,[object Object],<shortName></nowiki>
-Ce lien redirige automatiquement vers la page de lancement de l’instance sur le site web de VRChat.
-
 <span id="Instance_settings"></span>
 == Paramètres d'instance ==
 
@@ -179,12 +161,14 @@ Les paramètres de l'instance ne peuvent être définis par son créateur si cel
 
 Liste du contenu qui peut être activé :
 
+<div class="mw-translate-fuzzy">
 * [[Special:MyLanguage/Emojis|Émojis]]
 * [[Special:MyLanguage/Stickers|Autocollants]]
-* Piédestaux de [[Special:MyLanguage/Sharing|Partage]] 
+* Piédestaux de [[Special:MyLanguage/VRC+#Sharing|Partage]] 
 * [[Special:MyLanguage/VRC+#Prints|Imprimés]]
 * [[Special:MyLanguage/Camera Drone|Drones]]
 * [[Special:MyLanguage/Items|Objets]]
+</div>
 
 <span id="Instance_permissions"></span>
 == Permissions de l'instance ==
@@ -249,36 +233,6 @@ L'auteur du monde possède les mêmes outils de modération qu'un propriétaire 
 |✔️
 |✔️
 |}
-<span id="Instance_capacity"></span>
-== Capacité des Instances ==
-
-La capacité d’un monde peut être configurée directement sur le site web de VRChat sans nécessiter de reupload du monde. Toutefois, la valeur de capacité configurée ne correspond pas au nombre maximum absolu de joueurs pouvant rejoindre une instance. Le maximum effectif est calculé de la façon suivante :
-{| class="wikitable"
-!Composant
-! Description
-|-
-|| Capacité recommandé
-||Il s’agit de la capacité recommandée configurée.
-Lorsque le nombre d’utilisateurs présents dans l’instance atteint cette valeur, celle-ci n’apparaît plus dans la liste publique.
-La capacité recommandée ne peut pas être définie à une valeur supérieure à la capacité maximale.
-|-
-||Capacité Maximum
-||La capacité maximale configurée.
-Lorsque cette capacité est atteinte, les utilisateurs ne peuvent plus rejoindre l’instance.
-Si l’instance est la propriété d’un groupe et que la file d’attente est activée, les utilisateurs peuvent alors rejoindre la queue.
-La capacité maximale ne peut pas être définie à une valeur supérieure à 80.<ref name="CapNote" group="note"> Bien que la capacité maximale d’un monde ne puisse pas dépasser 80 dans des circonstances normales, les membres de l’équipe VRChat peuvent augmenter manuellement la capacité d’une instance. Cela arrive habituellement lors d’événements spéciaux ou de [https://vrc.group/MAXCAP.0000 tests sur la capacité des instances]. </ref>
-|-
-||Créateur de l'instance ou propriétaire du groupe
-||Le créateur de l’instance peut toujours rejoindre celle-ci, même lorsqu’elle a atteint sa capacité maximale.
-Dans le cas des instances Groupe, Groupe+ et Groupe Public, cet emplacement réservé appartient au propriétaire du groupe et non au créateur de l’instance.
-|-
-||Auteur du monde
-||L'utilisateur qui a mis en ligne le monde peut toujours le rejoindre , même si l'instance a atteint sa capacité maximale.
-|}
-La capacité maximale configurable sur le site VRChat est de 80, ce qui permet un maximum effectif de 82 joueurs dans des conditions normales.
-Cependant, si le créateur de l’instance ou l’auteur du monde est déjà présent dans l’instance, son emplacement réservé est occupé. Celui-ci ne peut donc pas être utilisé par d’autres joueurs pour dépasser la capacité maximale. <ref group="note" name="CapNote"></ref>
-<references group="note" />
-
 <span id="Instance_duration_and_automatic_resets"></span>
 == Durée des instances et réinitialisation automatique ==
 
@@ -289,3 +243,5 @@ Les instances ayant fonctionné depuis une longue période se réinitialiseront 
 ==Références==
 
 <references />
+
+[[Category:Needs Images{{#translation:}}{{#translation:}}]]
