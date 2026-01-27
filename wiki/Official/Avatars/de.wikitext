@@ -59,19 +59,11 @@ Der Fallback-Avatar des Benutzers kann im Avatar-Menü geändert werden.
 ==Performance-Ranking==
 Avatare werden nach Performanceschwellen eingestuft. Sie reichen von Very Poor{{performance|verypoor|22}} über Poor{{performance|poor|22}}, Medium{{performance|medium|22}}, Good{{performance|good|22}} bis hin zu Excellent{{performance|excellent|22}}. Diese Einstufung hilft Benutzern, die Performanceauswirkungen ihrer Avatare auf das gesamte VRChat-Erlebnis zu verstehen. Beispiele für Faktoren, die die Performancebewertung von Avataren beeinflussen, sind die Anzahl der Mesh-Polygone, die Anzahl der Materialien, die Texturauflösung, die Komplexität des Animators und Avatar-Komponenten wie Physbones oder Constraints. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On standalone VR & mobile platforms, a maximum of 4 Very Poor avatars can be shown at once.
-</div>
-
 Weitere Einzelheiten findest du in der offiziellen Dokumentation bei [https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ Avatar Performance Ranking System].
 
 <div class="mw-translate-fuzzy">
 == Erstellen und Hochladen==
 Benutzer können ihr VRChat-Erlebnis verbessern, indem sie benutzerdefinierte Avatare erstellen und hochladen, sofern sie die [[Special:MyLanguage/Terms of Service|Terms of Service]] von VRChat einhalten. Um einen Avatar hochzuladen, müssen Benutzer zunächst den Rang "New User" erreichen und sich die erforderlichen Werkzeuge aneignen, beispielsweise die empfohlene Version von Unity und das [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When an avatar has both PC and Android versions, creators can upload both variants under the same blueprint ID so that the same avatar entry works across platforms.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -82,23 +74,12 @@ Sobald du einen hochgeladenen Avatar besitzt, kannst du diesen im Abschnitt "Hoc
 
 Eine '''ausführlichere Anleitung''' zu den Möglichkeiten des SDK ist verfügbar in der Creation-Dokumentation bei [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Creating Your First Avatar].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Trivia==
-* Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
-</div>
-
 <span id="Official_resources"></span>
 == Offizielle Ressourcen ==
 
-<div class="mw-translate-fuzzy">
 * [https://creators.vrchat.com/avatars/ Avatars] bei VRChat Creators.
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-== Resources ==
-* [https://vrc.school/docs/Avatars/Intro-VRChat-Avatars VRC School: Introduction – VRChat Avatars 3.0]
-* [https://vrc.school/docs/Avatars/Understanding-Avatars-3-0 VRC School: Understanding Avatars 3.0]
-* [https://vrc.school/docs/Avatars/Uploading-An-Avatar VRC School: Uploading an Avatar in 3.0]
+==Trivia==
+*Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
 </div>
-[[Category:Needs images]]
-[[Category:Avatars]]
