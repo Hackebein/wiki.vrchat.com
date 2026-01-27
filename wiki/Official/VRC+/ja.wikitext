@@ -1,18 +1,7 @@
 <languages/>
 {{Noticebox/Official}}
-{{Infobox/Feature
-|name=VRC+
-|image={{#setmainimage:VRC+ Logo.png}}
-|platforms= PC, Android, iOS
-|branch_live_date = December 3, 2020
-|branch_live_version = 2020.4.3 Build 1026
-|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202523 2020.4.3]
-|branch_openbeta_date = November 19, 2020
-|branch_openbeta_version = 2020.4.3 Build 1019
-|branch_openbeta_releasenote = [https://discord.com/channels/189511567539306508/503009489486872583/779182516002750494 2020.4.3 Open Beta]
-|branch_announcement_date = November 19, 2020
-|branch_announcement_link = [https://medium.com/vrchat/introducing-vrchat-plus-40642cff6c78 Introducing VRChat Plus]
-}}
+
+[[File:{{#setmainimage:VRC+ Logo.png}}|thumb|VRC+ のロゴ。]]
 
 '''VRC+''' (VRChat Plus) は、VRChat の体験をさらに充実させる追加機能と特典をユーザーに提供するサブスクリプションサービスである。
 
@@ -21,56 +10,103 @@ VRC+ に加入することで、VRChat の開発に直接貢献できる。VRC+ 
 == 機能 ==
 VRC+ は、ユーザーエクスペリエンスを向上させるさまざまな機能を提供する。
 
-=== お気に入りスロットの拡張 ===
-VRC+ のサブスクライバーは、アバターおよびワールドのお気に入りスロットとリストの追加枠を解放できる。
-
+<div class="mw-translate-fuzzy">
+===アバタースロットの増加===
+サポーターになると、追加のアバターとワールドのリストとスロットを使用できる。
 {| class="wikitable"
-! !! 無料 !! VRC+
+!
+! 無料
+!VRC+
 |-
-! アバターリスト || 1 || 6
+!アバターリスト
+|1
+|6
 |-
-! アバタースロット || 50 || 300
+!アバタースロット
+|50
+|300 
+!ワールドリスト {{Upcoming_inline|January 2026|ask.vrchat.com/t/developer-update-december-18-2025/47354#p-86291-big-things-coming-for-vrc-3}}
+|4
+|8
 |-
-! ワールドリスト || 4 || 8
-|-
-! ワールドスロット || 400 || 800
+!ワールドスロット {{Upcoming_inline|January 2026|ask.vrchat.com/t/developer-update-december-18-2025/47354#p-86291-big-things-coming-for-vrc-3}}
+|400
+|800
 |}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+<references group="note" />
+</div>
 
 ===インベントリ===
 ''[[Special:MyLanguage/Inventory|インベントリ]]を参照。''
 
-VRC+ のサブスクライバーは、ユーザーアイコン、写真、カスタム絵文字、カスタムスティッカー、およびプリントを含むカスタムコンテンツをインベントリにアップロードおよび管理することが可能である。これらはクライアント内の[[Camera|カメラ]]、または VRChat ウェブサイトを通じて作成できる。
+<div class="mw-translate-fuzzy">
+サポーターになると、特定のカスタムコンテンツの使用とアップロードをアンロックし、インベントリで管理できるようになる。
+
+コンテンツの種類には、ユーザーアイコン、写真、カスタム絵文字、カスタムステッカー、プリントが含まれる。
+
+ユーザーは、クライアント内[[Special:MyLanguage/Camera|カメラ]]、または VRChat ウェブサイトからカスタムコンテンツを作成できる。
+
 
 {| class="wikitable"
-! !! 無料 !! VRC+
+!
+!無料
+!VRC+
 |-
-! ユーザーアイコン || 0 || 64
+!ユーザーアイコン
+| 0
+|64
 |-
-! 写真 || 0 || 64
+!写真
+|0
+|64
 |-
-! カスタム絵文字 || 0 || 18
+!カスタム絵文字
+| 0
+|18
 |-
-! カスタムスティッカー || 0 || 18
+!カスタムステッカー
+| 0
+|18
 |-
-! プリント || 20 <small>(収集のみ)</small> || 64
+!プリント
+|20 <small>(収集のみ)</small>
+|64
 |-
-! UI テーマ || 0 || 20
+!UI テーマ
+|0
+|20
 |-
-! 背景 || 4 || 37
+!背景デザイン
+|4
+|37
 |}
+</div>
 
 ====写真ギャラリー====
 [[Special:MyLanguage/Inventory#Photo Gallery|写真ギャラリー]]には、カスタム写真が保存される。写真は、ユーザーのプロフィール写真に使用するなど、複数の用途に使用できる。また、他のユーザーに招待を送信する際にも使用できる。さらに、グループのバナーを変更したり、グループのギャラリーに追加したりすることもできる。
 
+<div class="mw-translate-fuzzy">
 ====プリント====
-[[Special:MyLanguage/Prints|プリント]]は、ユーザーが VRChat 内で撮影し、他のユーザーと共有・保存できるようワールド内にオブジェクトとして出現させることができる写真である。パブリックワールドにおいてカメラ設定が有効な状態で撮影された場合、プリントには撮影者、撮影場所、撮影日時などのメタデータが付与される。
+{{Thumb|{{YouTube|BCv8S-1wZpE}}|}}
+[[Special:MyLanguage/Prints|プリント]]は、VRChat 内でユーザーが撮影した写真で、VRChatワールド内にオブジェクトとして出現し、他のユーザーが共有または保存できるものである。
 
-プリントの外観は、現実世界の[[Wikipedia:Instant_film|インスタントフィルム]]と同様のものである。
+パブリックワールドで撮影され、カメラ設定でプリント機能がオンになっている場合、プリントには撮影者、場所 (ワールド名)、日時などのメタデータが付与される。
 
-ユーザーはプリントを自身の[[Special:MyLanguage/Inventory|インベントリ]]に保存することができる。
+プリントは現実世界の[[Wikipedia:Instant_film|インスタントフィルム]]と同じ外観を持っている。
+</div>
 
+ユーザーはプリントを[[Special:MyLanguage/Inventory|インベントリ]]に保存することができる。
+
+<div class="mw-translate-fuzzy">
 ====ユーザーアイコン====
-[[File:VRChat Plus Icons.webp|thumb|200x200px|VRC+ に加入しているユーザーは、ユーザーアイコンをネームプレートに表示することができる。]] [[Special:MyLanguage/Inventory#User Icons|ユーザーアイコン]]は、プロフィールおよびグループの両方に設定可能な円形の画像である。設定した場合、アイコンはネームプレート、「現在地」タブ、クイックメニュー上部の表示、およびプロフィールに表示され、デフォルトのユーザー名先頭3文字のアイコンに替わって使用される。
+[[File:VRChat Plus Icons.webp|thumb|200x200px|VRC+ に加入している場合、ユーザーアイコンはユーザーのネームプレートに表示される。]]
+[[Special:MyLanguage/Inventory#User Icons|ユーザーアイコン]]は、プロフィールとグループの両方に装備できる円形の画像である。
+
+プロフィールに設定すると、ネームプレート、「現在地」タブ、クイックメニュー上部、そしてプロフィール画面に、ユーザー名の最初の3文字のフリーアイコンの代わりに表示される。
+</div>
 
 ====カスタム絵文字====
 最大9個のカスタム[[Special:MyLanguage/Emojis#Custom stickers|絵文字]]をアップロードしてインベントリで使用でき、個性的な感情やリアクションを演出できる。アニメーションもサポートしている。
@@ -151,11 +187,6 @@ File:UI - Escape.png|逃亡
 
 通常、バンドルは1ヶ月間取得可能で、その後は新しいバンドルに置き換えられる。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Exclusives====
-VRC+ [[Special:MyLanguage/Inventory#Exclusives|Exclusives]] is content that is only available for VRC+ supporters. Unlike Bundles, Exclusives are not claimable and automatically appear in user's inventories. Content that is VRC+ Exclusive is labeled with VRC+ logo in the top left corner.
-</div>
-
 ===グループ===
 サポーターになると、より多くの[[Special:MyLanguage/Groups|グループ]]を作成したり参加したりできるようになる。
 
@@ -211,14 +242,12 @@ VRC+ [[Special:MyLanguage/Inventory#Exclusives|Exclusives]] is content that is o
 [[File:SupporterBadge.png|thumb|120x120px|加入者のプロフィールに表示される「サポーター」バッジ]]
 以下の追加機能が使用できる。
 
-<div class="mw-translate-fuzzy">
 *'''インスタンスに名前を付ける <small>[[https://docs.vrchat.com/docs/vrchat-202533-openbeta 2025.3.3]で追加]</small>''': VRC+ 加入者は [[Special:MyLanguage/Instances|インスタンス]]に名前を付けるオプションが使用できる。
 *'''Shop discounts''' - VRC+ 加入者は、[[Special:MyLanguage/Shop|ショップ]]の商品を割引価格で購入することができる。
 *'''VRC+ サポーター [[Special:MyLanguage/Badges|バッジ]]''' - VRC+ の有効な加入者には、サブスクリプションが有効である限り「サポーター」バッジが付与される。この特別なバッジは、プラットフォーム上のユーザープロフィールと VRChat ウェブサイトで確認できる。
 *'''VRC+ [[Badges#VRC+ Tenure badges|加入期間バッジ]]''' - VRC+ の有効な加入者には「VRC+ 加入者」バッジが付与される。サブスクリプションが有効である限り、バッジにユーザーが VRC+ に加入している累計期間が表示される。
 *'''クイックメニュー上部の VRCat''' - クイックメニューの上部にあるクリック可能な VRCat で、音が鳴ったり、さまざまなテキストが表示されたりする。
 *'''時計の種類''' - [[Special:MyLanguage/Quick Menu#Clock|時計]]の種類の一つである "VRChat+ Ultra Premium Time ☆" が使用できるようになる。
-</div>
 
 以下の機能は、以前サポーターに提供されていたが、新規サポーターには提供されなくなったものである。 
 
@@ -300,7 +329,7 @@ VRC+ をユーザーに贈るには、同じインスタンスにいる相手を
 </div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-When dropping gifts, you can choose to either distribute them equally among users in the instance, or to prioritize dropping to the closest users. Gift drop bundles must be consumed in a single drop and cannot be used partially or split.
+When dropping gifts, you can choose to either distribute them equally among users in the instance, or to prioritize dropping to the closest users. Gift drop bundles must be used in a single drop; they cannot be partially applied or split. Gift drop bundles must be consumed in a single drop and cannot be used partially or split.
 </div> 
 
 <div class="mw-translate-fuzzy">
