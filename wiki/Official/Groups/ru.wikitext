@@ -1,18 +1,5 @@
 <languages/>
 {{Noticebox/Official}}
-{{Infobox/Feature
-|name=Groups
-|image=Icons Groups 25.png
-|platforms= PC, Android, iOS
-|branch_live_date = December 7 2022
-|branch_live_version = 2022.4.2 Build 1274
-|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202242 2022.4.2]
-|branch_openbeta_date = November 30 2022
-|branch_openbeta_version = 2022.4.2 Build 1270
-|branch_openbeta_releasenote = [https://discord.com/channels/189511567539306508/503009489486872583/1047706194128687134 2022.4.2 Open Beta]
-|branch_announcement_date = April 13 2021
-|branch_announcement_link = [https://medium.com/vrchat/vrchat-april-2021-dev-stream-recap-8502bb8c9163#:~:text=Groups VRChat April 2021 Dev Stream Recap!]
-}}
 [[File:Groups Render.webp|thumb|Официальное изображение логотипа "Группы".]]
 '''Группы''' — это социальная функция, созданная для формирования, поддержания и организации сообществ и инстансов внутри VRChat.
 
@@ -39,10 +26,11 @@
 
 * Они состоят в одной группе с вами.
 * У пользователя есть разрешение "View All Members".
-[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|<span lang="en" dir="ltr" class="mw-content-ltr">Group visibility options</span>]]
+
+[[File:VRChat 1FSHUeX5jS_ru.png|thumb|150x150px|Опции видимости группы]]
+
 Вы можете скрыть видимость, перейдя во вкладку '''Группы''' в клиенте VRChat, выбрав группу и нажав на значок шестерёнки в верхнем правом углу меню. Это откроет '''меню настроек группы''', где вы сможете изменить видимость по своему усмотрению.
 
-<div class="mw-translate-fuzzy">
 Также можно изменить видимость с помощью веб-сайта VRChat. Для этого перейдите на вкладку Groups в боковом меню, выберите группу, нажмите «'''Settings'''» и затем выберите нужный параметр '''Visibility''' под '''"My Membership"'''.
 {| class="wikitable"
 !Visible
@@ -50,30 +38,20 @@
 |-
 !Friends only
 |Группа отображается в вашем профиле только для ваших друзей.
-</div>
 
-{| class="wikitable"
-!<span lang="en" dir="ltr" class="mw-content-ltr">Visible</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">The group is shown on your profile for everyone.</span>
 |-
-!<span lang="en" dir="ltr" class="mw-content-ltr">Friends Only</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">The group is only shown on your profile to your friends.</span>
-|-
-!<span lang="en" dir="ltr" class="mw-content-ltr">Hidden</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">The group is hidden from your profile.</span>
+!Hidden
+|Группа скрыта в вашем профиле.
 |}
 
 <span id="Creating_a_group"></span>
 ==Создание группы==
 
-<div class="mw-translate-fuzzy">
 Чтобы создать группу, пользователь должен сначала получить подписку [[Special:MyLanguage/VRChat+|VRC+]]. Сохранение подписки VRC+ не является обязательным для поддержания права собственности на группу. Активная подписка VRC+ необходима для изменения значков, баннеров и редактирования галереи группы с помощью [[Special:MyLanguage/Gallery|галереи]] VRC+, а также для передачи прав собственности на группу другому пользователю. В настоящее время создать группу можно только через {{VRC link|https://vrchat.com/home/groups|веб-сайт VRChat}}. Пользователь может владеть максимум 5 группами, в каждую из которых может вступить до 100,000 участников.
-</div>
 
 <span id="Joinability_and_visibility"></span>
 ===Возможность присоединения и видимость===
 
-<div class="mw-translate-fuzzy">
 При создании группы процесс предлагает создателю несколько вариантов конфиденциальности. '''Возможность присоединения''' к группе определяет, может ли пользователь присоединиться к группе. Этот параметр можно изменить позже.
 {| class="wikitable"
 !Free Join
@@ -81,43 +59,25 @@
 |-
 !Request to Join
 |Новые участники должны запросить возможность присоединиться к группе.
-</div>
 
-{| class="wikitable"
-!<span lang="en" dir="ltr" class="mw-content-ltr">Free Join</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">Anyone can join the group freely.</span>
 |-
-!<span lang="en" dir="ltr" class="mw-content-ltr">Request to Join</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">New members must request to join the group.</span>
-|-
-!<span lang="en" dir="ltr" class="mw-content-ltr">Invite-Only</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">Those with the right permissions may invite new members to the group.</span>
+!Invite-Only
+
+|Те, у кого есть соответствующие права, могут приглашать новых участников в группу.
 |}
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The '''visibility''' of a group determines whether or not the group can be represented or displayed on a member's profile. This setting '''cannot''' be changed later.
-</div>
-
+'''Видимость''' группы определяет, может ли группа отображаться или представляться на профиле участника. Этот параметр '''нельзя''' изменить позже.
 {| class="wikitable"
-!<span lang="en" dir="ltr" class="mw-content-ltr">Public</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">Members can choose to advertise the group on their profile.</span>
+!Public
+|Участники могут представлять группу на своем профиле.
 |-
-!<span lang="en" dir="ltr" class="mw-content-ltr">Private</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">The group cannot be advertised or displayed by members.</span>
+!Private
+|Группу нельзя представлять или отображать участникам.
 |}
+Как уже упоминалось, любой пользователь может вручную скрыть отображение любой публичной группы на своем профиле с помощью настроек видимости.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As mentioned, any user can manually obscure of any public group from displaying on their profile via Visibility settings.
-</div>
-
-<span id="Group_banner"></span>
 <div class="mw-translate-fuzzy">
 ===Групповой баннер===
 Баннер можно загрузить с помощью опций на сайте. Загружаемое изображение не отображается полностью над теми, кто его представляет, отображается только его часть. При открытии меню будет показана большая часть баннера.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Group banners are displayed on the nameplates of users who choose to represent that Group, and will also appear on the Group page on the VRChat Home website and in the Group UI within VRChat.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -139,7 +99,7 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 <span id="Default_roles"></span>
 ===Стандартные роли===
 
-[[File:Groups default roles.png|thumb|253x253px|<span lang="en" dir="ltr" class="mw-content-ltr">Role overview</span>]]
+[[File:Groups default roles.png|thumb|253x253px|Обзор ролей]]
 
 Группы имеют три различных уровня ролей: '''Management Roles''', '''Member Roles''' и '''Default Role'''. При создании группы автоматически будут созданы три роли: '''Everyone''', которая отображается под 'Default Role', '''Member''', которая отображается под 'Member Role', и '''Group Owner''', которая отображается под 'Управляющими ролями'. Названия ролей 'Group Owner' и 'Member' можно изменить, но 'Everyone' нельзя изменить или удалить.
 
@@ -150,7 +110,6 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 
 Роли могут быть добавлены, переименованы или удалены в любое время в панели управления группы. Каждой роли можно задать описание и установить набор разрешений. Разрешения в группе могут быть включены или отключены. Роли могут быть дополнительно настроены как '''Assign On Join''', '''Self Assignable''' или '''Require 2FA'''.
 
-<div class="mw-translate-fuzzy">
 Самоназначаемые роли являются необязательными, и пользователи могут войти на сайт VRChat, чтобы назначить роли себе, если это возможно. Однако пользователи с аккаунтами на платформах, таких как Steam или Meta, не могут войти и сделать это, так как для входа в свой аккаунт на сайте VRChat требуется [[Special:MyLanguage/Getting Started#Account Creation|создание аккаунта VRChat]]. Менеджер группы может вручную назначать роли любому пользователю по своему усмотрению.
 {| class="wikitable"
 |+
@@ -161,21 +120,11 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 |<small>Если включено, новые участники получат эту роль при вступлении в группу. Это не повлияет на существующих участников.</small>
 |-
 |Self Assignable
-</div>
 
-{| class="wikitable"
-|+
-!<span lang="en" dir="ltr" class="mw-content-ltr">Function</span>
-!<span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
+|<small>Позволяет участникам группы самостоятельно назначать эту роль себе.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Assign On Join</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr"><small>If enabled, new members will be assigned this role when they join the group. This will not affect existing members.</small></span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Self Assignable</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows members of the group to assign this role to themselves.</small></span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Require 2FA</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr"><small>Requires members to have 2FA before permissions apply.</small></span>
+|Require 2FA
+|<small>Требует от участников наличие 2FA, прежде чем разрешения будут применены.</small>
 |}
 
 [[File:Groups permissions overview.png|thumb|Некоторые доступные разрешения, которые могут быть назначены, как видно в параметрах управления группой]]
@@ -256,69 +205,134 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 |Create Group+ Instances
 </div>
 
-{| class="wikitable"
-|+
-!<span lang="en" dir="ltr" class="mw-content-ltr">Permission</span>
-!<span lang="en" dir="ltr" class="mw-content-ltr">Function</span>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Member Data||<small>Allows role to view, filter by role, and sort all members and edit data about them.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Member Data</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to view, filter by role, and sort all members and edit data about them.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Data||<small>Allows role to edit group details (name, description, joinState, etc).</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Data</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to edit group details (name, description, joinState, etc).</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View Audit log||<small>Allows role to view the full group audit log.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">View Audit log</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to view the full group audit log.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Roles||<small>Allows role to create roles, modify roles, and delete roles.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Roles</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create roles, modify roles, and delete roles.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Default Role||<small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Default Role</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Assign Group Roles||<small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Assign Group Roles</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Bans||<small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Bans</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Remove Group Members||<small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Remove Group Members</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|View All Members||<small>Allows role to view all members in a group, not just friends.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">View All Members</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to view all members in a group, not just friends.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Announcement||<small>Allows role to set/clear group announcement and send it as a notification.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Announcement</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to set/clear group announcement and send it as a notification.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Calendar||<small>Allows role to create, modify, and publish calendar entries.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Create Instance Announcement</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create an announcement and send it to all users in a group instance as a notification.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Galleries||<small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Calendar</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create, modify, and publish calendar entries.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Invites||<small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Galleries</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Moderate Group Instance||<small>Allows role to moderate within a group instance.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Invites</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Manage Group Instances||<small>Allows role to close an group instance.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Moderate Group Instance</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to moderate within a group instance.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Group Instance Queue Priority||<small>Gives role priority for group instance queues.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to close an group instance.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Age Gated Instances||<small>Allows role to create group instances that require users to have age verified in order to join.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Group Instance Queue Priority</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Gives role priority for group instance queues.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Linked Instances||<small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Create Age Gated Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances that require users to have age verified in order to join.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group Public Instances||<small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Create Linked Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Group+ Instances||<small>Allows role to create group instances that friends of people present can also join.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Create Group Public Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Create Members-Only Group Instances||<small>Allows role to create members-only instances.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Create Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances that friends of people present can also join.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Role-Restrict Members-Only Instances||<small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Create Members-Only Group Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create members-only instances.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Portal to Group+ Instances||<small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Role-Restrict Members-Only Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Unlocked Portal to Group+ Instances||<small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small>
 |-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Portal to Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small></span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Unlocked Portal to Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small></span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Join Group Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to join group instances.</small></span>
-|-
-| <span lang="en" dir="ltr" class="mw-content-ltr">Bypass Avatar Performance Requirements</span>|| <span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to join group instances that have a minimum avatar performance requirement, regardless of their avatar's performance rating.</small></span>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|Join Group Instances||<small>Allows role to join group instances.</small>
 |}
+</div>
+
 <span id="Group_instances"></span>
 ==Групповые инстансы==
 
-<div class="mw-translate-fuzzy">
 Владелец группы и те, кто имеет соответствующие разрешения, могут создавать групповые [[Special:MyLanguage/Instances|инстансы]]. Существует три типа групповых инстансов.
 {| class="wikitable"
 !Групповой
@@ -331,22 +345,6 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 |Публичный инстанс, управляемый группой, к которому может присоединиться любой желающий. Членство в группе не требуется для присоединения к инстансу.
 |}
 Групповые инстансы часто '''модерируются группой, владеющей инстансом'''. Владелец группы и те, кто получил разрешения на модерацию через свою роль, могут предупреждать, отключать звук, выгонять или банить пользователей в инстансе. Бан пользователя навсегда предотвращает его присоединение к любым инстансам, созданным группой, а также присоединение к самой группе.
-</div>
-
-{| class="wikitable"
-!<span lang="en" dir="ltr" class="mw-content-ltr">Group</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">Only members of a group (or certain roles within the group if specified) can join the instance.</span>
-|-
-!<span lang="en" dir="ltr" class="mw-content-ltr">Group+</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">Any friend of a user in the instance can join. Group membership is not required to join the instance.</span>
-|-
-!<span lang="en" dir="ltr" class="mw-content-ltr">Group Public</span>
-|<span lang="en" dir="ltr" class="mw-content-ltr">A publicly listed instance hosted by a group to which anyone can join. Group membership is not required to join the instance.</span>
-|}
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Group instances are often '''moderated by the group hosting the instance'''. The group's owner and those given moderation permissions through their role may warn, mute, kick or ban a user within the instance. Banning a user from a group permanently prevents them from joining any Instances made by the group, as well as joining the group itself.
-</div>
 
 <span id="Group_instance_queues"></span>
 ===Очередь инстанса группы===
@@ -363,64 +361,6 @@ Group instances are often '''moderated by the group hosting the instance'''. The
 *Целевой участник имеет активную подписку VRC+
 *Целевой участник всё ещё может владеть дополнительными группами (каждый пользователь может владеть до 5 групп)
 *Группа не монетизируется
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== List of .0000 groups ==
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Every group that is created, is given a shortcode, with a generated four-digit discriminator at the end. Groups can be shared using their shortcode via the <code>vrc.group</code> short link domain, for example <code><nowiki>https://vrc.group/VRCHAT.0000</nowiki></code>. Discriminators that contain <code>.0000</code> are reserved by the VRChat team for 'official' groups.
-</div>
-
-{| class="wikitable"
-!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
-!<span lang="en" dir="ltr" class="mw-content-ltr">Shortcode</span>
-!<span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Official VRChat Twitch Streams</span>
-|[https://vrc.group/VRCSTR.0000 VRCSTR.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">The official group for the VRChat dev streams! woo!!</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Steel'n'Gold</span>
-|[https://vrc.group/SNG.0000 SNG.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Community Testers</span>
-|[https://vrc.group/TESTER.0000 TESTER.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Crowdin Proofreaders</span>
-|[https://vrc.group/VRCTLP.0000 VRCTLP.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Crowdin Translators</span>
-|[https://vrc.group/VRCTL.0000 VRCTL.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Open Beta</span>
-|[https://vrc.group/BETA.0000 BETA.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Quality Assurance</span>
-|[https://vrc.group/VRCQA.0000 VRCQA.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">Official testing group for the VRChat QA Team.</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Team</span>
-|[https://vrc.group/VRCHAT.0000 VRCHAT.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">The official group for VRChat team members.</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Wiki Team</span>
-|[https://vrc.group/VRWIKI.0000 VRWIKI.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Playtours</span>
-|<private>.0000
-|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for VRChat Playtours.</span>
-|-
-|<span lang="en" dir="ltr" class="mw-content-ltr">Instance Capacity Stress Tests</span>
-|[https://vrc.group/MAXCAP.0000 MAXCAP.0000]
-|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for testing unreasonably high capacity instances.</span>
-|}
 
 <span id="Official_resources"></span>
 ==Официальные ресурсы==
