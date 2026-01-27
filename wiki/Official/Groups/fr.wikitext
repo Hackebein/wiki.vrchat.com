@@ -1,22 +1,11 @@
 <languages/>
 {{Noticebox/Official}}
-{{Infobox/Feature
-|name=Groups
-|image=Icons Groups 25.png
-|platforms= PC, Android, iOS
-|branch_live_date = December 7 2022
-|branch_live_version = 2022.4.2 Build 1274
-|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202242 2022.4.2]
-|branch_openbeta_date = November 30 2022
-|branch_openbeta_version = 2022.4.2 Build 1270
-|branch_openbeta_releasenote = [https://discord.com/channels/189511567539306508/503009489486872583/1047706194128687134 2022.4.2 Open Beta]
-|branch_announcement_date = April 13 2021
-|branch_announcement_link = [https://medium.com/vrchat/vrchat-april-2021-dev-stream-recap-8502bb8c9163#:~:text=Groups VRChat April 2021 Dev Stream Recap!]
-}}
 [[File:Groups Render.webp|thumb|Rendu officiel du logo « Groupes ».]]
 Les '''Groupes''' sont une fonctionnalité sociale conçue pour former, maintenir et organiser des communautés et des instances au sein de VRChat.
 
-L'objectif de créer un groupe est de permettre à d'autres utilisateurs de les rejoindre, généralement pour rassembler un public, comme une base de fans ou une [[Special:MyLanguage/Community:Culture|culture]], et éventuellement pour organiser et participer à des [[Special:MyLanguage/Calendar|évènements]] dans les [[Special:MyLanguage/Instances|instances]] du groupe. Les membres d'un groupe peuvent choisir de le représenter, affichant la bannière du groupe sur leur plaque nominative et leur profil. La fonctionnalité Groups a été officiellement lancée le [https://hello.vrchat.com/blog/vrchat-groups 30 novembre 2022].
+<div class="mw-translate-fuzzy">
+L'objectif de créer un groupe est de permettre à d'autres utilisateurs de les rejoindre, généralement pour rassembler un public, comme une base de fans ou une [[Special:MyLanguage/Community:Culture|culture]], et éventuellement pour organiser et participer à des événements dans les [[Special:MyLanguage/Instances|instances]] du groupe. Les membres d'un groupe peuvent choisir de le représenter, affichant la bannière du groupe sur leur plaque nominative et leur profil. La fonctionnalité Groups a été officiellement lancée le [https://hello.vrchat.com/blog/vrchat-groups 30 novembre 2022].
+</div>
 
 <span id="Joining_a_group"></span>
 ==Rejoindre un groupe==
@@ -37,57 +26,55 @@ Un membre d'un groupe peut choisir de cacher son affiliation de la liste des gro
 
 *Sont membres mutuels.
 *L'utilisateur a la permission « Voir tous les membres ».
-[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|Options de visibilité de groupe]]
+
+[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|Options de visibilité des groupes]]
+
 Vous pouvez cacher la visibilité en allant dans l'onglet '''Groupe''' dans VRChat, en sélectionnant le groupe, et en cliquant sur l'icône en forme de roue dentée en haut à droite du menu. Ceci ouvrira un sous-menu '''Paramètres du groupe''', dans lequel vous pouvez changer la visibilité à volonté.
 
 Il est également possible de modifier la visibilité à partir du site web de VRChat en allant sur l'onglet Groupe dans la barre latérale, en sélectionnant le groupe, en cliquant sur '''« Settings »''', puis en choisissant l'option '''Visibility''' qui vous convient le mieux en dessous de '''« My Membership »'''.
-
 {| class="wikitable"
 !Visible
-|Le groupe est affiché sur votre profil pour tous.
+|Le groupe est affiché sur votre profil pour tout le monde.
 |-
-!Amis seulement (Friends only)
-|Le groupe n'est affiché sur votre profil que pour vos amis.
+!Friends Only
+|Le groupe n'est affiché sur votre profil que pour vos amis. 
 |-
-!Masqué (Hidden)
+
+|-
+!Hidden
 |Le groupe est masqué de votre profil.
 |}
 
 <span id="Creating_a_group"></span>
 ==Créer un groupe==
 
-Pour créer un groupe, l'utilisateur doit d'abord avoir un abonnement [[Special:MyLanguage/VRChat+|VRC+]] actif. Garder l’abonnement VRC+ n’est pas nécessaire pour conserver les droits du groupe. Un abonnement VRC+ est requis pour changer les icônes, les bannières et modifier la galerie du groupe en utilisant la [[Special:MyLanguage/Gallery|Galerie]] VRC+, ainsi que pour transférer les droits du groupe à un autre utilisateur. Actuellement, créer un groupe doit être fait via le {{VRC link|https://vrchat.com/home/groups|site web de VRChat}}. Un utilisateur peut posséder un maximum de 5 groupes, dont chaque groupe peut accueillir jusqu'à 200 000 membres.
+Pour créer un groupe, l'utilisateur doit d'abord avoir un abonnement [[Special:MyLanguage/VRChat+|VRC+]] actif. Garder l’abonnement VRC+ n’est pas nécessaire pour conserver les droits du groupe. Un abonnement VRC+ est requis pour changer les icônes, les bannières et modifier la galerie du groupe en utilisant la [[Special:MyLanguage/Gallery|Galerie]] VRC+, ainsi que pour transférer les droits du groupe à un autre utilisateur. Actuellement, créer un groupe doit être fait via le {{VRC link|https://vrchat.com/home/groups|site web de VRChat}}. Un utilisateur peut posséder un maximum de 5 groupes, dont chaque groupe peut accueillir jusqu'à 100 000 membres.
 
 <span id="Joinability_and_visibility"></span>
 ===Rejoignabilité et visibilité===
 
-Lors de la création d'un groupe, un processus d'intégration propose au créateur plusieurs options de confidentialité. La '''joignabilité''' d’un groupe détermine la capacité d’un utilisateur donné à rejoindre le groupe. Ce paramètre peut être modifié ultérieurement.
-
-{| class="wikitable"
-!Adhésion libre (Free Join)
-|Tout le monde peut rejoindre le groupe librement.
-|-
-!Demande d'adhésion (Request to Join)
+Lors de la création d'un groupe, un processus d'intégration propose au créateur plusieurs options de confidentialité. La '''joignabilité''' d’un groupe détermine la capacité d’un utilisateur donné à rejoindre le groupe. Ce paramètre peut être modifié ultérieurement.  
+{| class="wikitable"  
+!Adhésion libre  
+|Tout le monde peut rejoindre le groupe librement.  
+|-  
+!Demande d'adhésion  
 |Les nouveaux membres doivent demander à rejoindre le groupe.
+
 |-
-!Sur invitation (Invite-Only)
-|Ceux ayant les permissions peuvent inviter de nouveaux membres au groupe.
+!Sur invitation uniquement
+
+|Ceux qui disposent des permissions adéquates peuvent inviter de nouveaux membres dans le groupe.
 |}
-
-La '''visibilité''' d'un groupe détermine si le groupe peut ou ne peut pas être représenté ou affiché sur le profil d'un membre. Ce paramètres ne peut ''pas''' être modifié ultérieurement.
-
+La '''visibilité''' d’un groupe détermine s’il peut être représenté ou affiché sur le profil d’un membre. Ce paramètre '''ne peut pas''' être modifié ultérieurement.
 {| class="wikitable"
-!Public (Public)
-|Les membres peuvent librement afficher le groupe sur leur profil.
+!Public
+|Les membres peuvent choisir d’afficher le groupe sur leur profil.
 |-
 !Privé
-|Le groupe ne peut être représenté ou affiché sur le profil des membres.
+|Le groupe ne peut pas être affiché ni représenté par les membres.
 |}
-
-Comme mentionné, les utilisateurs peuvent masquer quelconque groupe public de leur profil via les paramètres de visibilité.
-
-<span id="Group_banner"></span>
-===Bannière de groupe===
+Comme mentionné, tout utilisateur peut manuellement masquer un groupe public de son profil via les paramètres de visibilité.
 
 Les bannières de groupe sont affichées sur le cadre des utilisateurs qui choisissent de représenter ce groupe, mais aussi sur la page du groupe sur le site web de VRChat, ainsi que sur l'interface du groupe dans VRChat.
 
@@ -106,7 +93,7 @@ Il n'est pas actuellement possible de sélectionner ou de modifier des rôles da
 <span id="Default_roles"></span>
 ===Rôles par défaut===
 
-[[File:Groups default roles.png|thumb|253x253px|Aperçus des rôles]]
+[[File:Groups default roles.png|thumb|253x253px|Aperçu des rôles]]
 
 Les groupes disposent de trois niveaux différents pour les rôles : '''Rôles de gestion''', '''Rôles des membres''' et '''Rôle par défaut'''. Par défaut, les groupes auront trois rôles lors de leur création : '''Tout le monde''', qui est répertorié sous « Rôle par défaut », '''Membre''', qui est répertorié sous « Rôle des membres », et '''Propriétaire du groupe''', qui est répertorié sous « Rôle de gestion ». Les noms des rôles « Propriétaire du groupe » et « Membre » peuvent être modifiés, mais « Tout le monde » ne peut ni être modifié ni supprimé.
 
@@ -117,21 +104,21 @@ Les permissions du propriétaire du groupe ne peuvent en aucun cas être modifi�
 
 Les rôles peuvent être ajoutés, renommés ou supprimés à tout moment par la gestion du groupe. Chaque rôle peut être accompagné d'une description et d'un ensemble personnalisé de permissions. Les permissions peuvent être activées ou désactivées pour un groupe. Les rôles peuvent également être configurés pour être '''Attribués à l'inscription''', '''Auto-attribuables''' ou '''Nécessitant une A2F'''.
 
-Les rôles auto-attribuables sont facultatifs. Les utilisateurs peuvent se connecter au site Web de VRChat pour s’attribuer des rôles, si cette option est disponible. Cependant, les utilisateurs ayant des comptes de plateforme, tels que Steam ou Meta, ne peuvent pas se connecter et le faire, car l’accès à leur compte sur le site Web de VRChat nécessite la [[Special:MyLanguage/Getting Started#Account creation|création d’un compte VRChat]]. L’administration du groupe peut attribuer manuellement des rôles à n’importe quel utilisateur à tout moment.
-
+Les rôles auto-attribuables sont facultatifs. Les utilisateurs peuvent se connecter au site Web de VRChat pour s’attribuer des rôles, si cette option est disponible. Cependant, les utilisateurs ayant des comptes de plateforme, tels que Steam ou Meta, ne peuvent pas se connecter et le faire, car l’accès à leur compte sur le site Web de VRChat nécessite la [[Special:MyLanguage/Getting Started#Account Creation|création d’un compte VRChat]]. L’administration du groupe peut attribuer manuellement des rôles à n’importe quel utilisateur à tout moment.
 {| class="wikitable"
 |+
-!Fonction
+!Function
 !Description
 |-
-|Assign On Join
+|Attribuer à l’adhésion
 |<small>Si activé, les nouveaux membres recevront ce rôle dès qu’ils rejoignent le groupe. Cela n’affectera pas les membres existants.</small>
 |-
-|Self Assignable
-|<small>Permet aux membre du groupe de s'assigner eux-mêmes ce rôle.</small>
+|Auto-attribuable
+
+|<small>Permet aux membres du groupe de s’attribuer ce rôle eux-mêmes.</small>
 |-
-|Require 2FA
-|<small>?Nécessite que les membres aient activés l'A2F pour que les permissions fonctionnents</small>
+|Exiger l’authentification à deux facteurs (2FA)
+|<small>Exige que les membres aient activé l'A2F avant que les permissions ne s’appliquent.</small>
 |}
 
 [[File:Groups permissions overview.png|thumb|Quelques-unes des permissions disponibles pouvant être attribuées, visibles dans les options de gestion du groupe]]
@@ -152,82 +139,101 @@ Pour attribuer des permissions à un rôle, un gestionnaire de groupe doit se co
 * Étape 5 : Cliquez sur le rôle pour lequel vous souhaitez modifier les permissions, puis cliquez sur '''Permissions''' avec l'icône de cadenas. 
 
 *Étape 6 : Appliquez les permissions indiquées ci-dessous, faites défiler jusqu’en bas de la page, puis '''cliquez sur Enregistrer'''.
-
 {| class="wikitable"
 |+
 !Permission
 !Fonction
 |-
-|Manage Group Member Data||<small>Permet de voir et filtrer par rôle, ainsi que trier les membres et de modifier des données les concernants.</small>
+
+|Gérer les données des membres du groupe||<small>Permet au rôle de voir, filtrer par rôle et trier tous les membres, ainsi que de modifier les informations les concernant.</small>
 |-
-|Manage Group Data||<small>Permet de modifier les détails du groupe (nom, description, joignabilité, etc).</small>
+
+|Gérer les données du groupe||<small>Permet au rôle de modifier les détails du groupe (nom, description, état d’adhésion, etc.).</small>
 |-
-|View Audit log||<small>Permet de voir les logs du groupe.</small>
+
+|Voir le journal d’audit||<small>Permet au rôle de voir le journal d’audit complet du groupe.</small>
 |-
-|Manage Group Roles||<small>Permet de créer, modifier et supprimer des rôles.</small>
+
+|Gérer les rôles du groupe||<small>Permet au rôle de créer, modifier et supprimer des rôles.</small>
 |-
-|Manage Group Default Role||<small>Permet de gérer les permissions du rôle par défaut (également appelé rôle Tout le monde). Nécessite « Manage Group Roles ».</small>
+
+|Gérer le rôle par défaut du groupe||<small>Permet au rôle de gérer les permissions du rôle par défaut (également appelé rôle Tout le monde). Nécessite « Gérer les rôles du groupe ».</small>
 |-
-|Assign Group Roles||<small>Permet d’attribuer ou de retirer des rôles aux utilisateurs. Nécessite « Manage Group Member Data ».</small>
+
+|Attribuer des rôles de groupe||<small>Permet au rôle d’attribuer ou de retirer des rôles aux utilisateurs. Nécessite « Gérer les données des membres du groupe ».</small>
 |-
-|Manage Group Bans||<small>Permet au rôle de bannir ou débannir des utilisateurs, ainsi que de voir tous les utilisateurs bannis. Nécessite « Manage Group Member Data ».</small>
+
+|Gérer les bannissements du groupe||<small>Permet au rôle de bannir ou débannir des utilisateurs et de voir tous les utilisateurs bannis. Nécessite « Gérer les données des membres du groupe ».</small>
 |-
-|Remove Group Members||<small>Permet de retirer une personne du groupe. Nécessite « Manage Group Member Data ».</small>
+
+|Retirer des membres du groupe||<small>Permet au rôle de retirer quelqu’un du groupe. Nécessite « Gérer les données des membres du groupe ».</small>
 |-
-|View All Members||<small>Permet de voir tous les membres du groupe</small>
+
+|Voir tous les membres||<small>Permet au rôle de voir tous les membres d’un groupe, et pas seulement ses amis.</small>
 |-
-|Manage Group Announcement||<small>Permet de créer/supprimer des annonces et de les envoyer en tant que notification.</small>
+
+|Gérer l’annonce du groupe||<small>Permet au rôle de définir ou de supprimer l’annonce du groupe et de l’envoyer sous forme de notification.</small>
 |-
-|Create Instance Announcement||<small>Permet de créer une annonce et de l'envoyer à tous les utilisateurs dans une instance en tant que notification.</small>
+
+|Gérer le calendrier du groupe||<small>Permet au rôle de créer, modifier et publier des entrées de calendrier.</small>
 |-
-|Manage Group Calendar||<small>Permet de créer, modifier et publier dans le calendrier.</small>
+
+|Gérer les galeries du groupe||<small>Permet au rôle de créer, réorganiser, modifier et supprimer les galeries du groupe. Peut toujours soumettre du contenu aux galeries et approuver les images.</small>
 |-
-|Manage Group Galleries||<small>Permet de créer, réorganiser, modifier et supprimer les galeries du groupe. Peut toujours soumettre du contenu aux galeries et approuver les images.</small>
+
+|Gérer les invitations de groupe||<small>Permet au rôle de créer ou d’annuler des invitations, ainsi que d’accepter, refuser ou bloquer des demandes de rejoindre le groupe.</small>
 |-
-|Manage Group Invites||<small>Permet d'envoyer ou d’annuler des invitations, ainsi que d’accepter, refuser ou bloquer des demandes de rejoindre le groupe.</small>
+
+|Modérer une instance de groupe||<small>Permet au rôle d’exercer la modération au sein d’une instance de groupe.</small>
 |-
-|Moderate Group Instance||<small>Permet de modérer au sein d'une instance du groupe.</small>
+
+|Gérer les instances de groupe||<small>Permet au rôle de fermer une instance de groupe.</small>
 |-
-|Manage Group Instances||<small>Permet de fermer une instance du groupe</small>
+
+|Priorité dans la file d’attente des instances de groupe||<small>Donne au rôle la priorité dans les files d’attente des instances de groupe.</small>
 |-
-|Group Instance Queue Priority||<small>Donne la priorité sur les files d'attente des instances de groupe.</small>
+
+|Créer des instances avec restriction d’âge||<small>Permet au rôle de créer des instances de groupe qui nécessitent une vérification d’âge pour pouvoir y accéder.</small>
 |-
-|Create Age Gated Instances||<small>Permet de créer des instances de groupe nécessitant la vérification de l'âge afin de rejoindre.</small>
+
+|Créer des instances liées||<small>Permet au rôle de créer des instances de groupe liées à des événements en direct, à des événements commençant dans les 6 heures ou à des événements terminés depuis moins de 6 heures.</small>
 |-
-|Create Linked Instances||<small>Permet de créer des instances de groupe liées à des événements en direct, à des événements commençant dans les 6 heures ou à des événements terminés depuis moins de 6 heures.</small>
+
+|Créer des instances publiques de groupe||<small>Permet au rôle de créer des instances de groupe ouvertes à tous, qu’ils soient membres ou non. REMARQUE : les groupes privés ne peuvent pas créer d’instances publiques.</small>
 |-
-|Create Group Public Instances||<small>Permet de créer des instances de groupe ouvertes à tous, qu’ils soient membres ou non. REMARQUE : les groupes privés ne peuvent pas créer d’instances publiques.</small>
+
+|Créer des instances Groupe+||<small>Permet au rôle de créer des instances de groupe que les amis des personnes présentes peuvent également rejoindre.</small>
 |-
-|Create Group+ Instances||<small>Permet de créer des instances de groupe dont les amis de ceux présent peuvent rejoindre.</small>
+
+|Créer des instances de groupe réservées aux membres||<small>Permet au rôle de créer des instances réservées aux membres.</small>
 |-
-|Create Members-Only Group Instances||<small>Permet de créer des instances de groupe réservées aux membres.</small>
+
+|Restreindre par rôle les instances réservées aux membres||<small>Permet au rôle d’ajouter, de supprimer ou de modifier les restrictions de rôle sur les instances réservées aux membres. Nécessite « Créer des instances de groupe réservées aux membres ».</small>
 |-
-|Role-Restrict Members-Only Instances||<small>Permet de créer/supprimer/modifier les restrictions des rôles pour les instances réservées aux membres. Nécessite « Create Members-Only Group Instances ».</small>
+
+|Portail vers les instances Groupe+||<small>Permet au rôle d’ouvrir des portails verrouillés vers les instances Groupe+. Les membres, les amis des personnes présentes et les amis de celui qui dépose le portail peuvent y entrer, sauf s’ils sont bannis du groupe.</small>
 |-
-|Portal to Group+ Instances||<small>Permet d’ouvrir des portails verrouillés vers les instances Groupe+. Les membres, les amis des personnes présentes et les amis de celui qui dépose le portail peuvent y entrer, sauf s’ils sont bannis du groupe.</small>
+
+|Portail déverrouillé vers les instances Groupe+||<small>Permet au rôle d’ouvrir des portails déverrouillés vers des instances Groupe+. Tout le monde, sauf les personnes bannies du groupe, peut y entrer. Nécessite « Portail vers les instances Groupe+ ».</small>
 |-
-|Unlocked Portal to Group+ Instances||<small>Permet d’ouvrir des portails déverrouillés vers des instances Groupe+. Tout le monde, sauf les personnes bannies du groupe peuvent y entrer. Nécessite « Portal to Group+ Instances ».</small>
-|-
-|Join Group Instances||<small>Permet de rejoindre les instances du groupe.</small>
-|-
-| Contourner les Exigences de Performances d'Avatar|| Permet au rôle de rejoindre des instances de groupe ayant une exigence de performance d'avatar minimale, sans tenir compte du rang de performance de l'avatar.
+
+|Rejoindre les instances de groupe||<small>Permet au rôle de rejoindre les instances de groupe.</small>
 |}
+
 <span id="Group_instances"></span>
 ==Instances de groupe==
 
 Le propriétaire d’un groupe, ainsi que ceux disposant des autorisations appropriées, peuvent créer des instances de groupe [[Special:MyLanguage/Instances|instances]]. Il existe trois types d’instances de groupe.
-
 {| class="wikitable"
 !Groupe
-|Seuls les membres du groupe (ou certains rôles au sein du groupe, si spécifié) peuvent rejoindre l’instance.
+|Seuls les membres d’un groupe (ou certains rôles au sein du groupe, si spécifié) peuvent rejoindre l’instance.
 |-
 !Groupe+
 |Tout ami d’un utilisateur présent dans l’instance peut la rejoindre. Il n’est pas nécessaire d’être membre du groupe pour y accéder.
 |-
-!Groupe public
+!Groupe Public
 |Une instance répertoriée publiquement, hébergée par un groupe, que n’importe qui peut rejoindre. Il n’est pas nécessaire d’être membre du groupe pour y accéder.
 |}
-
 Les instances de groupe sont souvent '''modérées par le groupe qui héberge l’instance'''. Le propriétaire du groupe, ainsi que ceux disposant des autorisations de modération via leur rôle, peuvent avertir, rendre muet, exclure ou bannir un utilisateur dans l’instance. Bannir un utilisateur d’un groupe l’empêche définitivement de rejoindre toute instance créée par ce groupe, ainsi que de rejoindre le groupe lui-même.
 
 <span id="Group_instance_queues"></span>
@@ -246,61 +252,6 @@ Depuis le 27 mars 2024<ref>https://ask.vrchat.com/t/developer-update-28-march-20
 * Le membre cible peut encore posséder d'autres groupes (chaque utilisateur peut posséder jusqu'à 5 groupes)
 * Le groupe n'est pas monétisé
 
-<span id="List_of_.0000_groups"></span>
-== Liste des groupes .0000  ==
-
-Chaque groupe créé se voit attribuer un code court, accompagné d’un discriminateur à quatre chiffres généré automatiquement. Les groupes peuvent être partagés via le domaine de lien raccourcis <code>vrch.at</code> grâce à leur code court, par exemple <code><nowiki>https://vrc.group/VRCHAT.0000</nowiki></code>. le discriminateur <code>.0000</code> est réservés par l’équipe de VRChat aux groupes « officiels ».
-
-{| class="wikitable"
-!Nom
-!Code court
-!Description
-|-
-|Streams Twitch Officiel de VRChat
-|[https://vrc.group/VRCSTR.0000 VRCSTR.0000]
-|Le groupe officiel pour les direct de dev VRCHat! woo!!
-|-
-|Steel'n'Gold
-|[https://vrc.group/SNG.0000 SNG.0000]
-|Des bandits envahissent la paisible bourgade de Copper Bend. Allez-vous vous joindre à leurs rangs ou prendre les armes pour défendre les biens de la ville ? Des commentaires ? Cliquez sur le deuxième lien et partagez-les avec nous !
-|-
-|Testeurs de la Communauté VRChat
-|[https://vrc.group/TESTER.0000 TESTER.0000]
-|Ce groupe est pour le programme officiel de testeurs de la communauté VRChat. Les membres de ce groupe ne sont pas nécessairement des employés de VRChat.
-|-
-|Correcteurs Crowdin de VRChat
-|[https://vrc.group/VRCTLP.0000 VRCTLP.0000]
-|Ce groupe est pour les correcteurs de la communauté VRChat ! Ils sont chargés de relire et approuver toutes les traductions intégrées à l'application principale.
-|-
-|Traducteurs Crowdin VRChat
-|[https://vrc.group/VRCTL.0000 VRCTL.0000]
-|Ceci est un groupe ouvert pour la communauté de traduction Crowdin de VRChat ! Ils travaillent dur pour rendre VRChat accessible à un grand nombre de non-anglophones et aux personnes à travers monde.
-|-
-|Bêta Ouverte VRChat
-|[https://vrc.group/BETA.0000 BETA.0000]
-|Ceci est un groupe officiel pour les testeurs de la Bêta Ouverte de VRChat ! Vous pouvez utiliser les instances de groupe pour rencontrer d'autres personnes sur la Bêta Ouverte.
-|-
-|Assurance Qualité VRChat
-|[https://vrc.group/VRCQA.0000 VRCQA.0000]
-|Groupe de test officiel de l'Équipe QA de VRChat.
-|-
-|L'Équipe VRChat
-|[https://vrc.group/VRCHAT.0000 VRCHAT.0000]
-|Le groupe officiel des membres de l'équipe VRChat.
-|-
-|L'Équipe du Wiki VRChat
-|[https://vrc.group/VRWIKI.0000 VRWIKI.0000]
-|Ce groupe est destiné aux contributeurs de l'équipe officielle du wiki de VRChat. Ses membres ne sont pas nécessairement des employés de VRChat.
-|-
-|VRChat Playtours
-|<private>.0000
-|Ce groupe est pour VRChat Playtours.
-|-
-|Stress Tests de Capacité d'Instance
-|[https://vrc.group/MAXCAP.0000 MAXCAP.0000]
-|Ce groupe est destiné aux tests d'instances à capacité déraisonnablement élevée.
-|}
-
 <span id="Official_resources"></span>
 ==Ressources officielles==
 
@@ -311,8 +262,9 @@ Chaque groupe créé se voit attribuer un code court, accompagné d’un discrim
 <span id="Trivia"></span>
 == Anecdotes ==
 
-* Les groupes avaient dans le temps la capacité de n'avoir que 10 000 membres. Cela a été augmenté jusqu'à 100 000 membres. Le 30 janvier 2026, les groupes ont vu leur capacité augmentée à 200 000 membres.<ref>[https://discord.com/channels/189511567539306508/336764577301659649/1466899265296011284 Post in #announcements by Tupper] on [[Special:MyLanguage/Discord servers|VRChat Discord]]. Dated January 30, 2026. Retrieved January 30, 2026.</ref>
+<div class="mw-translate-fuzzy">
 *"Just Bread Group" ([https://vrc.group/TOASTY.1234 TOASTY.1234]) fut le tout premier Groupe<ref>https://x.com/VRChat/status/1747389673154949626</ref>. Il a été créé par notre ingénieur serveur Bready à des fins de test. Lors du lancement des Groupes, les données devaient être organisées d'une manière spécifique pour optimiser les performances des serveurs, et un groupe devait être créé en premier pour structurer correctement la base de données.
+</div>
 
 <span id="References"></span>
 == Références ==
