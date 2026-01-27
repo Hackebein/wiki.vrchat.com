@@ -141,30 +141,11 @@ Instances can be set up with a queue. When capacity is exceeded, a queue forms, 
 A user can direct-connect to an instance if another of their own clients is already inside. The new client kicks the old one on entry, letting you switch between VR and desktop without losing your slot in a full instance.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Avatar Performance Gated====
-{{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Group instances have the option to set a minimum performance limit for avatars. These limits are set on instance creation and applies to all users within the instance. The Minimum Performance Limit can be set to limit Poor, Medium, or Good avatars. The default is set to none.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When the limit is in effect, users violating the performance limit will be subject to:
-* Attempting to join the instance will notify the user that their avatar violates the performance limit. They will receive a warning pop-up showing their current avatar rank, the instance performance limit, and how users will see their avatar. 
-* Within the instance, users will see their avatar as a [[Special:MyLanguage/Fallbacks|Fallback]] or an [[Special:MyLanguage/Impostors|Impostor]], but locally the user will still be in their regular avatar.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Groups can set up a role to bypass avatar performance requirements.
-</div>
-
 <span id="Regions"></span>
 ==Regiony==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Whilst selecting an instance type, there are choices for varying regions to better optimize their experience. Choosing an instance closest to your location will see a decrease in [[Special:MyLanguage/Community:Terminology#Ping|ping]], and ensuring a more stable connection to the instance, preventing disconnections and lag.
+Whilst selecting an instance type, there are choices for varying regions to better optimize their experience. Choosing an instance closest to your location will see a decrease in [[Special:MyLanguage/:Community:Terminology#Ping|ping]], and ensuring a more stable connection to the instance, preventing disconnections and lag.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -204,14 +185,6 @@ When creating an instance, the instance creator has the option to change its dis
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Instance naming within the client is [[Special:MyLanguage/VRC+|VRC+]] feature, although naming an instance through the API does not require VRC+.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Short links ==
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Instances can be shared using VRChat's <code>vrch.at</code> short link domain combined with the instance's short name, for example <code><nowiki>https://vrch.at/<shortName></nowiki></code>. This redirects to the instance's launch page on the VRChat website.
 </div>
 
 <span id="Instance_settings"></span>
@@ -314,34 +287,6 @@ The author of the world have the same core set of moderation tools as an instanc
 |✔️
 |✔️
 |}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Instance capacity ==
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The capacity of a world can be configured on the VRChat website without reuploading the world. However, the capacity value does not represent the absolute maximum number of players that can be in an instance. The effective maximum is calculated as follows:
-</div>
-{| class="wikitable"
-!<span lang="en" dir="ltr" class="mw-content-ltr">Component</span>
-! <span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
-|-
-|| <span lang="en" dir="ltr" class="mw-content-ltr">Recommended Capacity</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly. The Recommended Capacity cannot be set higher than Maximum Capacity.</span>
-|-
-||<span lang="en" dir="ltr" class="mw-content-ltr">Maximum Capacity</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated. The Maximum Capacity cannot be set higher than 80.</span><ref name="CapNote" group="note"> <span lang="en" dir="ltr" class="mw-content-ltr">While the Maximum Capacity of a world cannot be set higher than 80 under normal circumstances, VRChat staff can manually increase the instance capacity. This usually occurs during events or [https://vrc.group/MAXCAP.0000 instance capacity stress tests].</span> </ref>
-|-
-||<span lang="en" dir="ltr" class="mw-content-ltr">Instance creator or group owner</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The user who created the instance can always join, even if the instance is at its maximum capacity. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.</span>
-|-
-||<span lang="en" dir="ltr" class="mw-content-ltr">World author</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The user who uploaded the world can always join, even if the instance is at its maximum cap.</span>
-|}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The maximum configurable capacity on the VRChat website is 80, resulting in an effective maximum of 82 players in normal conditions. If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the maximum capacity.
-</div> <ref group="note" name="CapNote"></ref>
-<references group="note" />
-
 <span id="Instance_duration_and_automatic_resets"></span>
 == Życie instancji i automatyczny reset ==
 
@@ -356,3 +301,5 @@ Instances that have been running for long periods will automatically reset to pr
 ==Przypisy==
 
 <references />
+
+[[Category:Needs Images{{#translation:}}{{#translation:}}]]
