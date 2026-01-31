@@ -47,7 +47,9 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 <span id="Creating_a_group"></span>
 ==그룹 만들기==
 
+<div class="mw-translate-fuzzy">
 그룹을 생성하려면, 먼저 활성화 된 [[Special:MyLanguage/VRChat+|VRC+]]구독이 있어야 합니다. VRC+ 구독을 유지하는 것은 그룹 소유권을 유지하는 데 필수적이지 않습니다. 활성화 된 VRC+ 구독은 VRC+ [[Special:MyLanguage/Gallery|갤러리]]를 통해 아이콘, 배너를 변경하거나 그룹 갤러리를 편집하는 것, 그리고 그룹 소유권을 다른 유저에게 이전하는 데 필요합니다. 현재 그룹을 생성하려면 {{VRC link|https://vrchat.com/home/groups|VRChat 웹사이트}}를 통해 진행해야 합니다. 최대 5개의 그룹을 소유할 수 있으며, 각 그룹에는 최대 100,000명 까지 맴버가 가입할 수 있습니다.
+</div>
 
 <span id="Joinability_and_visibility"></span>
 ===참여 가능 여부와 가시성===
@@ -262,6 +264,59 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 *활성화된 VRC+ 구독을 보유해야 합니다
 *여분의 그룹을 소유할 수 있습니다 (각 사용자는 최대 5개의 그룹을 소유할 수 있습니다)
 *그룹이 수익 창출되지 않았습니다
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== List of .0000 groups ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Every group that is created, is given a shortcode, with a generated four-digit discriminator at the end. However, discriminators that contain <code>.0000</code> are reserved by the VRChat team for 'official' groups.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| class="wikitable"
+!Name
+!Shortcode
+!Description
+|-
+|Official VRChat Twitch Streams
+|VRCSTR.0000
+|The official group for the VRChat dev streams! woo!!
+|-
+|Steel'n'Gold
+|SNG.0000
+|Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!
+|-
+|VRChat Community Testers
+|TESTER.0000
+|This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.
+|-
+|VRChat Crowdin Proofreaders
+|VRCTLP.0000
+|This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.
+|-
+|VRChat Crowdin Translators
+|VRCTL.0000
+|This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.
+|-
+|VRChat Open Beta
+|BETA.0000
+|This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.
+|-
+|VRChat Quality Assurance
+|VRCQA.0000
+|Official testing group for the VRChat QA Team.
+|-
+|VRChat Team
+|VRCHAT.0000
+|The official group for VRChat team members.
+|-
+|VRChat Wiki Team
+|VRWIKI.0000
+|This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.
+|}
+</div>
+
 
 <span id="Official_resources"></span>
 ==공식 자료==
