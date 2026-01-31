@@ -47,7 +47,9 @@
 <span id="Creating_a_group"></span>
 ==Создание группы==
 
+<div class="mw-translate-fuzzy">
 Чтобы создать группу, пользователь должен сначала получить подписку [[Special:MyLanguage/VRChat+|VRC+]]. Сохранение подписки VRC+ не является обязательным для поддержания права собственности на группу. Активная подписка VRC+ необходима для изменения значков, баннеров и редактирования галереи группы с помощью [[Special:MyLanguage/Gallery|галереи]] VRC+, а также для передачи прав собственности на группу другому пользователю. В настоящее время создать группу можно только через {{VRC link|https://vrchat.com/home/groups|веб-сайт VRChat}}. Пользователь может владеть максимум 5 группами, в каждую из которых может вступить до 100,000 участников.
+</div>
 
 <span id="Joinability_and_visibility"></span>
 ===Возможность присоединения и видимость===
@@ -361,6 +363,59 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 *Целевой участник имеет активную подписку VRC+
 *Целевой участник всё ещё может владеть дополнительными группами (каждый пользователь может владеть до 5 групп)
 *Группа не монетизируется
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== List of .0000 groups ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Every group that is created, is given a shortcode, with a generated four-digit discriminator at the end. However, discriminators that contain <code>.0000</code> are reserved by the VRChat team for 'official' groups.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| class="wikitable"
+!Name
+!Shortcode
+!Description
+|-
+|Official VRChat Twitch Streams
+|VRCSTR.0000
+|The official group for the VRChat dev streams! woo!!
+|-
+|Steel'n'Gold
+|SNG.0000
+|Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!
+|-
+|VRChat Community Testers
+|TESTER.0000
+|This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.
+|-
+|VRChat Crowdin Proofreaders
+|VRCTLP.0000
+|This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.
+|-
+|VRChat Crowdin Translators
+|VRCTL.0000
+|This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.
+|-
+|VRChat Open Beta
+|BETA.0000
+|This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.
+|-
+|VRChat Quality Assurance
+|VRCQA.0000
+|Official testing group for the VRChat QA Team.
+|-
+|VRChat Team
+|VRCHAT.0000
+|The official group for VRChat team members.
+|-
+|VRChat Wiki Team
+|VRWIKI.0000
+|This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.
+|}
+</div>
+
 
 <span id="Official_resources"></span>
 ==Официальные ресурсы==
