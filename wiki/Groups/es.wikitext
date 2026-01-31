@@ -45,7 +45,9 @@ También es posible cambiar la visibilidad desde la página web de VRChat yendo 
 <span id="Creating_a_group"></span>
 ==Crear un grupo==
 
+<div class="mw-translate-fuzzy">
 Para crear un grupo, un usuario primero debe tener una suscripción activa a [[Special:MyLanguage/VRChat+|VRC+]]. No es necesario mantener la suscripción a VRC+ para conservar la propiedad del grupo. Se requiere una suscripción activa a VRC+ para cambiar iconos, carteles y editar la galería del grupo usando la [[Special:MyLanguage/Gallery|galería]] de VRC+, así como para transferir la propiedad del grupo a otro usuario. Actualmente, la creación de un grupo debe realizarse a través de la {{VRC link|https://vrchat.com/home/groups|página web de VRChat}}. Un usuario puede ser propietario de un máximo de 5 grupos, de los cuales un máximo de 100.000 miembros pueden unirse a cada grupo.
+</div>
 
 <span id="Joinability_and_visibility"></span>
 ===Capacidad de unión y visibilidad===
@@ -252,6 +254,59 @@ A partir del 27 de marzo de 2024<ref>https://ask.vrchat.com/t/developer-update-2
 *El miembro de destino aún puede ser propietario de más grupos (cada usuario puede ser propietario de hasta 5 grupos)
 *El grupo no está monetizado
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== List of .0000 groups ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Every group that is created, is given a shortcode, with a generated four-digit discriminator at the end. However, discriminators that contain <code>.0000</code> are reserved by the VRChat team for 'official' groups.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| class="wikitable"
+!Name
+!Shortcode
+!Description
+|-
+|Official VRChat Twitch Streams
+|VRCSTR.0000
+|The official group for the VRChat dev streams! woo!!
+|-
+|Steel'n'Gold
+|SNG.0000
+|Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!
+|-
+|VRChat Community Testers
+|TESTER.0000
+|This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.
+|-
+|VRChat Crowdin Proofreaders
+|VRCTLP.0000
+|This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.
+|-
+|VRChat Crowdin Translators
+|VRCTL.0000
+|This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.
+|-
+|VRChat Open Beta
+|BETA.0000
+|This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.
+|-
+|VRChat Quality Assurance
+|VRCQA.0000
+|Official testing group for the VRChat QA Team.
+|-
+|VRChat Team
+|VRCHAT.0000
+|The official group for VRChat team members.
+|-
+|VRChat Wiki Team
+|VRWIKI.0000
+|This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.
+|}
+</div>
+
+
 <span id="Official_resources"></span>
 ==Recursos oficiales==
 
@@ -262,8 +317,10 @@ A partir del 27 de marzo de 2024<ref>https://ask.vrchat.com/t/developer-update-2
 <span id="Trivia"></span>
 ==Curiosidades==
 
+<div class="mw-translate-fuzzy">
 *Los grupos alguna vez solo tuvieron una capacidad de 10.000 usuarios, pero luego se ampliaron para mantener a 100.000 usuarios.
 *"Just Bread Group" ([https://vrc.group/TOASTY.1234 TOASTY.1234]) fue el primer grupo<ref>https://x.com/VRChat/status/1747389673154949626</ref>. Fue creado por nuestro ingeniero de servidores, Bready, con fines de prueba. Cuando empezaron los grupos, los datos debían organizarse de forma específica para maximizar el rendimiento del servidor, y primero se debía crear uno para organizar la base de datos correctamente.
+</div>
 
 <span id="References"></span>
 ==Referencias==
