@@ -1,317 +1,421 @@
 <languages/>
 {{Noticebox/Official}}
+<translate>
+<!--T:1-->
 The '''Trust and Safety''' systems<ref>[https://docs.vrchat.com/docs/vrchat-safety-and-trust-system 'VRChat Safety and Trust System'] on ''docs.vrchat.com''; retrieved December 23, 2024.</ref> in [[Special:MyLanguage/VRChat|VRChat]] are designed to protect users from nuisance users, objectionable content, and enhance the overall experience in VRChat.
 
+<!--T:2-->
 VRChat's internal moderation process is based on {{VRC link|https://hello.vrchat.com/legal|VRChat's Terms of Service}} and {{VRC link|https://hello.vrchat.com/community-guidelines|VRChat's Community Guidelines}}. All moderation actions are interpreted and judged, according to this document, making it the absolute reference for all content and behavior expected on the platform.
 
-== Guidelines ==
+== Guidelines == <!--T:3-->
 
+<!--T:4-->
 VRChat's {{VRC link|https://hello.vrchat.com/community-guidelines|Community Guidelines}} provide an accessible interpretation of the Terms of Service and extend upon scenarios not covered by the Terms of Service. These guidelines serve as a valuable resources for users navigating their personal experience on the platform.
 
+<!--T:5-->
 The {{VRC link|https://hello.vrchat.com/creator-guidelines|Creator Guidelines}} for VRChat offer detailed information regarding [[Special:MyLanguage/Worlds|world]] and [[Special:MyLanguage/Avatars|avatar]] content. They also provide guidelines for VRChat users who create video content for platforms, like YouTube and Twitch. These guidelines include content warnings for various mediums within VRChat.
 
-==Personal safety==
+==Personal safety== <!--T:6-->
 
+</translate>
 [[File:VRC Safety Banner.png|frame|right]]
+<translate>
+<!--T:7-->
 VRChat's Safety features are a crucial aspect of the platform. Providing many features to help everyone to have a safe and customizable experience. Advanced safety settings can be configured in the '''Settings''' section. Please refer to the [[Special:MyLanguage/Settings|Settings]] article for more details.
 
-===Shield Levels [[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]]===
+<!--T:8-->
+===Shield Levels </translate>[[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]]===
+<translate>
+<!--T:9-->
 Shield Levels is one of the first lines of protection, when meeting new users, encountering their avatars, and other content. It enables or disables certain features based on the [[Special:MyLanguage/Trust Rank|Trust Rank]] of the user or their avatar. 
 
+<!--T:10-->
 There are several pre-set configurations users select in the Shield Level settings, from Maximum, Normal, None, and Custom. These are available for quick access in the [[Special:MyLanguage/Quick Menu|Quick Menu]]. Pressing the '''Safe Mode''' "[[File:Icons SafeMode 25.png|frameless|16x16px]]" button at bottom right of the Quick Menu will instantly activate the Maximum shield level. 
 
+<!--T:12-->
 For new users, it's recommend to use '''Normal''' or '''Maximum''' settings to start. If one wishes fully view another user's avatar without shield restrictions, users can select on them, with their Quick Menu open, and select "Show Avatar" indicated by the 'eye' indicator under Avatar Display.
 
+<!--T:13-->
 Using a '''Custom''' shield level, allows one to configure how a user of each Trust Rank will be restricted on the user's end. This can be changed in the Shield Level section in the settings.
 
+<!--T:14-->
 Here is a list of options available for customization:
-[[File:Safety VrchatMenu.png|thumb|Shield levels can be customized, depending on a user's Trust Rank.]]
+</translate>
+[[File:Safety VrchatMenu.png|thumb|<translate><!--T:15--> Shield levels can be customized, depending on a user's Trust Rank.</translate>]]
 
 {| class="wikitable"
-!Option Name
-!Impacted Feature
+!<translate><!--T:16--> Option Name</translate>
+!<translate><!--T:17--> Impacted Feature</translate>
 |-
-|Voice
-|User
+|<translate><!--T:18--> Voice</translate>
+|<translate><!--T:19--> User</translate>
 |-
-|[[Special:MyLanguage/Avatars|Avatar]]
-|Avatar
+|<translate><!--T:20--> [[Special:MyLanguage/Avatars|Avatar]]</translate>
+|<translate><!--T:21--> Avatar</translate>
 |-
-|User Icons
-| rowspan="3" |Inventory
+|<translate><!--T:22--> User Icons</translate>
+| rowspan="3" |<translate><!--T:23--> Inventory</translate>
 |-
-|Custom Images <ref group="note" name="custom-images">Custom Images include [[Special:MyLanguage/Inventory|Inventory]] items, such as custom emojis, sharing, prints and stickers</ref>
+|<translate><!--T:24--> Custom Images <ref group="note" name="custom-images">Custom Images include [[Special:MyLanguage/Inventory|Inventory]] items, such as custom emojis, sharing, prints and stickers</ref></translate>
 |-
-|[[Special:MyLanguage/Camera Drone|Drone]]
+|<translate><!--T:25--> [[Special:MyLanguage/Camera Drone|Drone]]</translate>
 |-
-|Audio
-| rowspan="4" |Avatar
+|<translate><!--T:26--> Audio</translate>
+| rowspan="4" |<translate><!--T:27--> Avatar</translate>
 |-
-|Lights & Particles
+|<translate><!--T:28--> Lights & Particles</translate>
 |-
-|Shaders
+|<translate><!--T:29--> [[Special:MyLanguage/Shaders|Shaders]]</translate>
 |-
-|Custom Animations
+|<translate><!--T:30--> Custom Animations</translate>
 |-
-|Animated Emojis
-|Inventory
+|<translate><!--T:31--> [[Special:MyLanguage/Emojis#Custom animated emojis|Animated Emojis]]</translate>
+|<translate><!--T:32--> Inventory</translate>
 |}
 <references group="note" />
+<translate>
+<!--T:33-->
 Multiple '''Presets''' are available depending on user's preference for security and comfort.
 
-====Maximum Safety [[File:Icons ShieldLevel Max 25.png|frameless|28x28px]]====
+<!--T:34-->
+====Maximum Safety </translate>[[File:Icons ShieldLevel Max 25.png|frameless|28x28px]]====
+<translate>
+<!--T:35-->
 This preset is the safest and only allows all features to be enabled for friends. It is ideal for newcomers or when in unfamiliar public spaces.
+</translate>
 {| class="wikitable"
-!Option Name
-!Visitor
-!New User
-!User
-!Known User
-!Trusted User
-!Friends
+!<translate><!--T:36--> Option Name</translate>
+!<translate><!--T:37--> Visitor</translate>
+!<translate><!--T:38--> New User</translate>
+!<translate><!--T:39--> User</translate>
+!<translate><!--T:40--> Known User</translate>
+!<translate><!--T:41--> Trusted User</translate>
+!<translate><!--T:42--> Friends</translate>
 |-
-|Voice
-|On
-|On
-|On
-| rowspan="5" |On
-| rowspan="5" |On
-| rowspan="10" |On
+|<translate><!--T:43--> Voice</translate>
+|<translate><!--T:44--> On</translate>
+|<translate><!--T:45--> On</translate>
+|<translate><!--T:46--> On</translate>
+| rowspan="5" |<translate><!--T:47--> On</translate>
+| rowspan="5" |<translate><!--T:48--> On</translate>
+| rowspan="10" |<translate><!--T:49--> On</translate>
 |-
-|Avatar
-| rowspan="9" |Off
-| rowspan="9" |Off
-| rowspan="9" |Off
+|<translate><!--T:50--> Avatar</translate>
+| rowspan="9" |<translate><!--T:51--> Off</translate>
+| rowspan="9" |<translate><!--T:52--> Off</translate>
+| rowspan="9" |<translate><!--T:53--> Off</translate>
 |-
-|User Icons
+|<translate><!--T:54--> User Icons</translate>
 |-
-|Custom Images
+|<translate><!--T:55--> Custom Images</translate>
 |-
-|Drone
+|<translate><!--T:56--> Drone</translate>
 |-
-|Audio
-| rowspan="5" |Off
-| rowspan="5" |Off
+|<translate><!--T:57--> Audio</translate>
+| rowspan="5" |<translate><!--T:58--> Off</translate>
+| rowspan="5" |<translate><!--T:59--> Off</translate>
 |-
-|Lights & Particles
+|<translate><!--T:60--> Lights & Particles</translate>
 |-
-|Shaders
+|<translate><!--T:61--> Shaders</translate>
 |-
-|Custom Animations
+|<translate><!--T:62--> Custom Animations</translate>
 |-
-|Animated Emojis
+|<translate><!--T:63--> Animated Emojis</translate>
 |}
-====Normal Safety  [[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]]====
+<translate>
+<!--T:64-->
+====Normal Safety </translate> [[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]]====
+<translate>
+<!--T:65-->
 This preset is suitable for everyday use.
+</translate>
 {| class="wikitable"
-!Option Name
-!Visitor
-!New User
-!User
-!Known User
-!Trusted User
-!Friends
+!<translate><!--T:66--> Option Name</translate>
+!<translate><!--T:67--> Visitor</translate>
+!<translate><!--T:68--> New User</translate>
+!<translate><!--T:69--> User</translate>
+!<translate><!--T:70--> Known User</translate>
+!<translate><!--T:71--> Trusted User</translate>
+!<translate><!--T:72--> Friends</translate>
 |-
-|Voice
-| rowspan="5" |On
-| rowspan="5" |On
-| rowspan="5" |On
-| rowspan="6" |On
-| rowspan="10" |On
-| rowspan="10" |On
+|<translate><!--T:73--> Voice</translate>
+| rowspan="5" |<translate><!--T:74--> On</translate>
+| rowspan="5" |<translate><!--T:75--> On</translate>
+| rowspan="5" |<translate><!--T:76--> On</translate>
+| rowspan="6" |<translate><!--T:77--> On</translate>
+| rowspan="10" |<translate><!--T:78--> On</translate>
+| rowspan="10" |<translate><!--T:79--> On</translate>
 |-
-|Avatar
+|<translate><!--T:80--> Avatar</translate>
 |-
-|User Icons
+|<translate><!--T:81--> User Icons</translate>
 |-
-|Custom Images
+|<translate><!--T:82--> Custom Images</translate>
 |-
-|Drone
+|<translate><!--T:83--> Drone</translate>
 |-
-|Audio
-| rowspan="5" |Off
-| rowspan="5" |Off
-| rowspan="3" |Off
+|<translate><!--T:84--> Audio</translate>
+| rowspan="5" |<translate><!--T:85--> Off</translate>
+| rowspan="5" |<translate><!--T:86--> Off</translate>
+| rowspan="3" |<translate><!--T:87--> Off</translate>
 |-
-|Lights & Particles
-| rowspan="2" |Off
+|<translate><!--T:88--> Lights & Particles</translate>
+| rowspan="2" |<translate><!--T:89--> Off</translate>
 |-
-|Shaders
+|<translate><!--T:90--> Shaders</translate>
 |-
-|Custom Animations
-|On
-|On
+|<translate><!--T:91--> Custom Animations</translate>
+|<translate><!--T:92--> On</translate>
+|<translate><!--T:93--> On</translate>
 |-
-|Animated Emojis
-|Off
-|Off
+|<translate><!--T:94--> Animated Emojis</translate>
+|<translate><!--T:95--> Off</translate>
+|<translate><!--T:96--> Off</translate>
 |}
-====No Safety [[File:Icons ShieldLevel None 25.png|frameless|28x28px]]====
+<translate>
+<!--T:97-->
+====No Safety </translate>[[File:Icons ShieldLevel None 25.png|frameless|28x28px]]====
+<translate>
+<!--T:98-->
 Use this preset with '''caution'''. It disables most safety features regardless of [[Special:MyLanguage/Trust Rank|Trust Rank]]. Users who use this shield may risk being affected by bad actors attempting to crash players.
 
-====Custom Safety [[File:Icons ShieldLevel Custom 25.png|frameless|28x28px]]====
+<!--T:99-->
+====Custom Safety </translate>[[File:Icons ShieldLevel Custom 25.png|frameless|28x28px]]====
+<translate>
+<!--T:100-->
 Users can set up their own safety settings based on the features one wants to enable or disable.
-[[File:Safemode.png|thumb|The "Safe Mode" [[File:Icons SafeMode 25.png|frameless|12x12px]] icon is at the bottom-right of the [[Special:MyLanguage/Quick Menu|Quick Menu]]
+</translate>
+[[File:Safemode.png|thumb|The "Safe Mode" [[File:Icons SafeMode 25.png|frameless|12x12px]] icon is at the bottom-right of the [[Special:MyLanguage/Quick Menu|<translate><!--T:101--> Quick Menu</translate>]]
+<translate><!--T:102-->
 .]]
 
-===Safe Mode [[File:SafeModeIcon QM.png|frameless|36x36px]]===
+<!--T:103-->
+===Safe Mode </translate>[[File:SafeModeIcon QM.png|frameless|36x36px]]===
+<translate>
+<!--T:104-->
 If a user feels overwhelmed or is experiencing extreme lag, an emergency '''Safe Mode''' "
 [[File:Icons SafeMode 25.png|frameless|16x16px]]" button is accessible at any time in the [[Special:MyLanguage/Quick Menu|Quick Menu]]. This feature disables most avatars, users' voices, and anything that can cause lag or be the source of an emergency. Performance should return to a usable state while in Safe Mode. Friends are not affected by Safe Mode. While in Safe Mode, all avatars, with the exception of friends, will change into a limb-less version of the [[Special:MyLanguage/Robot|>Robot]] avatar, until Safe Mode is disabled.
 
+<!--T:105-->
 Safe Mode can also be quickly activated by pressing both triggers and both Quick Menu buttons at the same time in VR, or by pressing Shift + Esc at the same time on a keyboard. 
 
+<!--T:106-->
 To exit Safe Mode, open the Quick Menu and click the Safe Mode button again. Alternatively, click the '''Go Home''' button to leave the instance.
+</translate>
 {| class="wikitable"
-!Option Name
-!Visitor
-!New User
-!User
-!Known User
-!Trusted User
-!Friends
+!<translate><!--T:107--> Option Name</translate>
+!<translate><!--T:108--> Visitor</translate>
+!<translate><!--T:109--> New User</translate>
+!<translate><!--T:110--> User</translate>
+!<translate><!--T:111--> Known User</translate>
+!<translate><!--T:112--> Trusted User</translate>
+!<translate><!--T:113--> Friends</translate>
 |-
-|Voice
-| rowspan="10" |Off
-| rowspan="10" |Off
-| rowspan="10" |Off
-| rowspan="10" |Off
-| rowspan="10" |Off
-| rowspan="10" |On
+|<translate><!--T:114--> Voice</translate>
+| rowspan="10" |<translate><!--T:115--> Off</translate>
+| rowspan="10" |<translate><!--T:116--> Off</translate>
+| rowspan="10" |<translate><!--T:117--> Off</translate>
+| rowspan="10" |<translate><!--T:118--> Off</translate>
+| rowspan="10" |<translate><!--T:119--> Off</translate>
+| rowspan="10" |<translate><!--T:120--> On</translate>
 |-
-|Avatar
+|<translate><!--T:121--> Avatar</translate>
 |-
-|User Icons
+|<translate><!--T:122--> User Icons</translate>
 |-
-|Custom Images
+|<translate><!--T:123--> Custom Images</translate>
 |-
-|Drone
+|<translate><!--T:124--> Drone</translate>
 |-
-|Audio
+|<translate><!--T:125--> Audio</translate>
 |-
-|Lights & Particles
+|<translate><!--T:126--> Lights & Particles</translate>
 |-
-|Shaders
+|<translate><!--T:127--> Shaders</translate>
 |-
-|Custom Animations
+|<translate><!--T:128--> Custom Animations</translate>
 |-
-|Animated Emojis
+|<translate><!--T:129--> Animated Emojis</translate>
 |}
-==User moderation tools==
+<translate>
+==User moderation tools== <!--T:130-->
 
+</translate>
 
 * [https://help.vrchat.com/hc/en-us/articles/360062658553-I-want-to-report-someone I want to report someone]
 * [https://help.vrchat.com/hc/en-us/articles/43984755280403-Reporting-Avatars-and-Worlds Reporting Avatars and Worlds]
 
+<translate>
+<!--T:131-->
 VRChat relies on self-moderation to handle most cases involving users, worlds, avatars, and groups. VRChat offers personal moderation tools for user's to use at their own discretion to curate their experience through methods of muting, blocking, hiding, and [[Special:MyLanguage/reporting|reporting]]. <!-- The rest of this section is intentionally left with informal "you" as it acts as a guide. -->
 
-=== Managing users===
+=== Managing users=== <!--T:132-->
 
+<!--T:133-->
 There are various tools to be able to manage users around you. You can select users to moderate, that are present in the instance with you, or pre-emptively moderate users by searching their username in the '''Search''' tab of the [[Special:MyLanguage/Main Menu|Main Menu]]. It's also possible to browse users in the '''Recently Seen''' section on the Social tab of the Main Menu and manage further actions.
 
-====Muting a user [[File:NameplateMuteIcon.png|frameless|28x28px]]====
+<!--T:134-->
+====Muting a user </translate>[[File:NameplateMuteIcon.png|frameless|28x28px]]====
+<translate>
+<!--T:135-->
 When a user is being annoying or too loud, select that user to lower their microphone volume or mute them entirely. If you are in the same instance as a user you muted, they will be able to see a "deafened" indicator [[File:NameplateMuteDeafen.png|frameless|28x28px]] over your [[Special:MyLanguage/Nameplates|nameplate]], signaling that you have muted them.
 
+<!--T:136-->
 Alternatively, you can decrease their volume, to a minimum of 5% volume, which will not have any indicators.
 
-====Muting a user's chatbox====
+====Muting a user's chatbox==== <!--T:137-->
 
+<!--T:138-->
 If a user is annoying you with their [[Special:MyLanguage/chatbox|chatbox]], select that user, scroll down and click the User Chatbox button to mute their chatbox. When the user's chatbox is muted, their manual typing indictor will be red, and messages they send will not be shown.
 
-====Blocking a user [[File:Icons BlockUser 25.png|frameless|28x28px]] ====
+<!--T:139-->
+====Blocking a user </translate>[[File:Icons BlockUser 25.png|frameless|28x28px]] ====
+<translate>
+<!--T:140-->
 Should the user continue to be annoying, you can block them. This will prevent you from seeing the user, and they will not be able to see you. A user will be unable to tell that you have blocked them unless they have moderation capabilities for the instance. You can browse your list of blocked users, by going to the [[Special:MyLanguage/Social|Social]] tab of the Main Menu and scrolling down to '''Blocked''', to either report or unblock them.
 
+<!--T:141-->
 '''Note:''' Any global Udon scripts or prefabs may still network your presence globally, including to users blocked.
 
-====Reporting a user [[File:Icons Report 25.png|frameless|28x28px]] ====
+<!--T:142-->
+====Reporting a user </translate>[[File:Icons Report 25.png|frameless|28x28px]] ====
+<translate>
+<!--T:143-->
 If necessary, you can [[Special:MyLanguage/Reporting#Reporting a user|report a user]], by selecting them or searching their name, and reporting their specific behavior. When a report is submitted, the user is flagged to the VRChat Trust & Safety team, who may take further action. To protect user privacy, the results of any moderation actions will not be disclosed to the reporter.
 
-====Kicking a user [[File:Icons KickUser 25.png|frameless|28x28px]] ====
+<!--T:144-->
+====Kicking a user </translate>[[File:Icons KickUser 25.png|frameless|28x28px]] ====
+<translate>
+<!--T:145-->
 A user can be evicted from an instance, by initiating a vote-kick prompt. Everybody in the instance, with a [[Special:MyLanguage/Trust Rank|Trust Rank]] of New User or above, will receive a notification with options for "yes" or "no" regarding the vote-kick on the user. If a majority of users in the instance vote "yes", then the disruptive user will be disconnected from the instance and will be unable to re-join for one hour.
 
+<!--T:146-->
 Users who can moderate an instance, can skip the vote-kick process, and remove a user at will. In group instances, users who have administrative permissions also have the option to immediately kick or ban somebody from a group or instance, pre-emptively barring them from any future instances hosted by the group.
 
-===Managing avatars [[File:Icons Avatars 25.png|frameless|28x28px]] ===
+<!--T:196-->
+===Managing avatars </translate>[[File:Icons Avatars 25.png|frameless|28x28px]] ===
+<translate><!--T:148-->
 * [https://help.vrchat.com/hc/en-us/articles/43984755280403-Reporting-Avatars-and-Worlds Reporting Avatars and Worlds - Help website]
 
+<!--T:197-->
 It is also possible to curate the avatars around you. You can use options, like showing, hiding, globally hiding, or reporting avatars.
 
-====Showing, hiding, and blocking an avatar====
+====Showing, hiding, and blocking an avatar==== <!--T:149-->
 
-[[File:AvatarDisplay.webp|thumb|Quick Menu setting for Avatar Display visibility.]]
+</translate>
+[[File:AvatarDisplay.webp|thumb|<translate><!--T:150--> Quick Menu setting for Avatar Display visibility.</translate>]]
+<translate>
 
+<!--T:151-->
 If an [[Special:MyLanguage/Avatars|avatar]] is causing annoyance or performance issues, you can hide the avatar itself. You can also '''globally hide''' an avatar, which blocks the avatar by its '''blueprint ID'''; preventing you from seeing it again, even if another user uses it.
 
+<!--T:152-->
 Avatars may be shown or hidden to you, based on your shield level, and your avatar performance preferences. You can change these preferences, using your [[Special:MyLanguage/Settings|Settings]].
 
-===== Showing an avatar=====
+===== Showing an avatar===== <!--T:153-->
 
+<!--T:154-->
 When selecting a user, it's possible to show another version of their avatar by clicking on the "Eye" icon of the Avatar Display section. This will change a fallback, impostor, or shielded version of their avatar into the fully rendered version of the avatar that they are using.
 
-=====Hiding an avatar=====
+=====Hiding an avatar===== <!--T:155-->
 
+<!--T:156-->
 By clicking on the "slashed eye" icon, on the Avatar Display section, it will change any variant of the avatar they are using, to a version of a leg-less variant of a [[Special:MyLanguage/Robot|Robot]], called [https://vrchat.com/home/avatar/avtr_5e0b520f-f221-4f20-82e8-9cf59ba30277 Utility BLOCKED].
 
-====== Globally hiding an avatar======
+====== Globally hiding an avatar====== <!--T:157-->
 
+<!--T:158-->
 Choosing '''Globally Hide Avatar''' will blacklist the avatar's blueprint ID, and you will be unable to see the avatar when anybody changes into it. This is the equivalent of "blocking" an avatar.
 
+<!--T:159-->
 '''Note:''' If a friend is using an avatar that you have globally hidden, it may display for you. Changing their avatar visibility to "Shielded avatar" will hide the globally hidden avatar for you.
 
-=====Shielded avatar [[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]] =====
+<!--T:160-->
+=====Shielded avatar </translate>[[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]] =====
+<translate>
+<!--T:161-->
 The "Shield" icon on the Avatar Display section of the user menu, will revert their avatar to a variant set by your safety shield, and avatar performance preferences.
 
-====Reporting an avatar [[File:Icons Report 25.png|frameless|28x28px]]====
+<!--T:162-->
+====Reporting an avatar </translate>[[File:Icons Report 25.png|frameless|28x28px]]====
+<translate>
+<!--T:163-->
 This option should be selected to report any content that is retained on an [[Special:MyLanguage/avatars|avatar]]. Clicking '''View Avatar Details''' after selecting a user can be done, to report an avatar. If there is uncertainty if the content violates Community Guidelines, please consider flagging a 'Content Warning' when reporting the avatar instead, or if the content warning isn't properly declared.
 
-===Managing groups [[File:Icons Groups 25.png|frameless|28x28px]]===
+<!--T:164-->
+===Managing groups </translate>[[File:Icons Groups 25.png|frameless|28x28px]]===
 
 * [https://help.vrchat.com/hc/en-us/articles/43987073323667-Reporting-Groups Reporting Groups - Help Website]
 
+<translate>
+<!--T:165-->
 [[Special:MyLanguage/Groups|Groups]] may be overwhelming, but there are a few ways to manage your experience with different VRChat groups. These methods can involve reporting or blocking groups, unsubscribing from group announcements, or hiding group banners from nameplates.
 
-====Reporting a group [[File:Icons Report 25.png|frameless|28x28px]]====
+<!--T:166-->
+====Reporting a group </translate>[[File:Icons Report 25.png|frameless|28x28px]]====
+<translate>
+<!--T:167-->
 By searching for a group, or by browsing through a user's group list - you can [[Special:MyLanguage/Reporting#Reporting a group|report a Group]] that violates Community Guidelines, when on the group page to VRChat Trust & Safety.
 
-====Blocking a group [[File:Icons BlockUser 25.png|frameless|28x28px]]====
+<!--T:168-->
+====Blocking a group </translate>[[File:Icons BlockUser 25.png|frameless|28x28px]]====
+<translate>
+<!--T:169-->
 When receiving an invitation to a group, you can block a group from soliciting you any further invite notifications. However, you will still be able to see the banner on users' nameplates.
 
-====Unsubscribing from announcements====
+====Unsubscribing from announcements==== <!--T:170-->
 
+<!--T:171-->
 If you are part of a group, and you do not wish to see notifications for announcements or posts, you can navigate to the group's page, go to the Settings cog at the top right, and click '''Unsubscribe From Announcements'''. To re-enable announcements, go back to the group's page and choose '''Subscribe To Announcements'''.
 
-====Disabling group banners on nameplates====
+====Disabling group banners on nameplates==== <!--T:172-->
 
+<!--T:173-->
 It is possible to stop group banners from showing up on [[Special:MyLanguage/nameplates|nameplates]].
 
+<!--T:174-->
 *Navigate to the '''User Interface''' tab of the Main Menu. Under the '''Nameplate''' section, you can disable the toggle for '''Show Group Banner'''.
 
+<!--T:175-->
 *Alternatively, by opening the [[Special:MyLanguage/Action Menu|Action Menu]], you can navigate to '''Options''', where there is a sub-menu for '''Nameplates'''. From there, you can disable '''Group Banners'''.
 
-=== Reporting a world [[File:Icons anchor world 25.png|frameless|28x28px]]===
+<!--T:176-->
+=== Reporting a world </translate>[[File:Icons anchor world 25.png|frameless|28x28px]]===
+<translate><!--T:177-->
 * [https://help.vrchat.com/hc/en-us/articles/43984755280403-Reporting-Avatars-and-Worlds Reporting Avatars and Worlds - Help website]
 
+<!--T:198-->
 Most worlds are not going to contain content that violates Community Guidelines. All worlds that are uploaded are placed through a [[Special:MyLanguage/Community Labs|Community Labs]] program first before being made publicly available. However, should one find content in a world that may be deemed uncomfortable, a world [[Special:MyLanguage/Reporting|can be reported]]. If there is uncertainty if the content violates Community Guidelines, please consider flagging a '[[Special:MyLanguage/Content Gating#Content Warnings|Content Warning]]' when reporting the world instead.
 
-=== Reporting an instance ===
+=== Reporting an instance === <!--T:178-->
 
+<!--T:179-->
 When browsing instances in the world menu, or if you're participating in an instance, and content within an instance is violating Community Guidelines, an instance can be reported with the report button.
 
-===Instance moderation===
+===Instance moderation=== <!--T:180-->
 
-[[File:Moderator action.png|thumb|Quick Menu setting, for instance, Moderator Actions]]
+</translate>
+[[File:Moderator action.png|thumb|<translate><!--T:181--> Quick Menu setting, for instance, Moderator Actions</translate>]]
+<translate>
+<!--T:182-->
 Instance Moderator actions are available when you are the owner of an instance, or the owner, moderator, admin of a group instance. They allow you to moderate your instance by the following methods...
 
-==== User actions ====
+==== User actions ==== <!--T:183-->
 
-[[File:Here tab.webp|thumb|The "Here" tab on the Quick Menu, showing Instance information, and toggles for various Inventory items.]]
+</translate>
+[[File:Here tab.webp|thumb|<translate><!--T:184--> The "Here" tab on the Quick Menu, showing Instance information, and toggles for various Inventory items.</translate>]]
+<translate>
+<!--T:185-->
 You can select a user, and choose among the following moderation choices:
 * [[File:Icons Report 25.png|frameless|28x28px]] '''Warn User:''' Send the user a message telling them they have been warned.
 * [[File:Icons KickUser 25.png|frameless|28x28px]] '''Kick User:''' Remove the user from the instance. They will not be able to join for 1 hour.
 * [[File:MicrophoneMuted HUD.png|frameless|28x28px]] '''Force Mic Off:''' Mute the user's microphone. The user can unmute their microphone freely.
 * '''[[File:Icons Groups 25.png|frameless|28x28px]]''' '''Ban From Group:''' Bans the selected user from the group that owns the instance. The user will be unable to join group instances from that group and won't be able to join that group.
 
-==== Instance toggles ====
+==== Instance toggles ==== <!--T:186-->
 
+<!--T:187-->
 By clicking the "Here" tab on the Quick Menu, instance moderators can toggle the following objects at will, for all users in the instance:
 *[[Special:MyLanguage/Emojis|Emojis]]
 *[[Special:MyLanguage/Stickers|Stickers]]
@@ -320,15 +424,19 @@ By clicking the "Here" tab on the Quick Menu, instance moderators can toggle the
 *[[Special:MyLanguage/Camera Drone|Camera Drones]]
 *[[Special:MyLanguage/Items|Items]]
 
+<!--T:188-->
 == Official resources ==
 General VRChat resources
 
+<!--T:199-->
 * [https://docs.vrchat.com/docs/vrchat-safety-and-trust-system|VRChat Safety and Trust System] on ''docs.vrchat.com''
 * {{VRC link|https://hello.vrchat.com/community|Community Guidelines}} on ''hello.vrchat.com''
 * {{VRC link|https://hello.vrchat.com/legal|Terms of Service}} on ''hello.vrchat.com''
 
+<!--T:200-->
 '''Help website resources'''
 
+<!--T:201-->
 * {{VRC link|https://help.vrchat.com/hc/en-us|VRChat Help Desk}} on ''help.vrchat.com''
 ** {{VRC link|https://help.vrchat.com/hc/en-us/categories/33315111286931-Safety-in-VRChat|Safety Guides in VRChat}} on ''help.vrchat.com''
 * [https://help.vrchat.com/hc/en-us/articles/48406881241875-Trust-Safety-Reporting-Changes Trust & Safety Reporting Changes] (January 2026)
@@ -336,30 +444,37 @@ General VRChat resources
 * [https://help.vrchat.com/hc/en-us/articles/33301610887443-Safety-Resources-For-Parents Safety Resources: For Parents and Guardians]
 * [https://help.vrchat.com/hc/en-us/articles/42024584226579-VRChat-Crisis-Resource VRChat Crisis Resource]
 
+<!--T:202-->
 Help website articles
 
+<!--T:189-->
 * [https://help.vrchat.com/hc/en-us/articles/360062658553-I-want-to-report-someone Blocking, Unblocking, and Reporting Users in VRChat]
 * [https://help.vrchat.com/hc/en-us/articles/360062658553-I-want-to-report-someone I want to report someone]
 * [https://help.vrchat.com/hc/en-us/articles/43984755280403-Reporting-Avatars-and-Worlds Reporting Avatars and Worlds]
 * [https://help.vrchat.com/hc/en-us/articles/43984160296083-Moderating-Stickers-Prints-and-Items Moderating Stickers, Prints, and Items]
 
-==See also==
+==See also== <!--T:190-->
 
+<!--T:191-->
 Rules and Guidelines
 
+<!--T:192-->
 * [[Special:MyLanguage/Terms of Service|Terms of Service]]
 * [[Special:MyLanguage/Community Guidelines|Community Guidelines]]
 * [[VRCWiki:Guidelines|VRCWiki:Guidelines]]
 * [[VRCWiki:Disciplinary policy|VRCWiki:Disciplinary policy]]
 
+<!--T:193-->
 VRChat platform articles
 
+<!--T:194-->
 * [[Special:MyLanguage/Reporting|Reporting]]
 * [[Special:MyLanguage/Trust Rank|Trust Rank]]
 * [[Special:MyLanguage/Bans|Bans]]
 * [[Special:MyLanguage/Two-Factor Authentication (2FA)|Two-Factor Authentication (2FA)]]
 
-==References==
+==References== <!--T:195-->
 
+</translate>
 {{reflist}}
 {{Start-navbox}}
