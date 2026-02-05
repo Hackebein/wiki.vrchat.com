@@ -4,8 +4,7 @@
 
 Leaks will typically be removed from this page when they are either confirmed (through being given an applicable testing branch on [[Open Beta]], or being fully released) then after [[VRCWiki:How to Contribute|receiving an article]] on the [[VRCWiki:About|VRChat Wiki]], or assigned within the proper existing articles; or removed after being denied through official VRChat sources.
 
-==Leaks==
-=== Badges ===
+== Badges ==
 These are [[badges]] that have been discovered.
 {| class="wikitable"
 |+
@@ -16,7 +15,7 @@ These are [[badges]] that have been discovered.
 !Requirements
 |-
 |TBA
-|World Explorer<ref name="WorldExplorer">"World Explorer", "Badgge Settings" - [https://crowdin.com/editor/vrchat-application/19#130530 Crowdin]</ref>
+|World Explorer<ref name="WorldExplorer">`World Explorer`, `Badgge Settings` - [https://crowdin.com/editor/vrchat-application/19#130530 Crowdin]</ref>
 |TBA
 |TBA
 |Challenge Completed: When a player visit X number of worlds.<ref name="crowdin130860" />
@@ -28,67 +27,35 @@ These are [[badges]] that have been discovered.
 |Complete an invite-only survey. Opt-In for the Badge. Survey window closed.<ref>From a survey about [[Special:MyLanguage/Avatars|Avatars]]</ref>
 |}
 
-=== Challenges ===
+== Challenges ==
 
-A feature which lets you complete challenges<ref>"Complete!", "When the player completes all their challenges" [https://crowdin.com/editor/vrchat-application/19#130850 Crowdin]</ref><ref>"All Challenges Completed!", "When the player completes all their assigned challenges" [https://crowdin.com/editor/vrchat-application/19#130854 Crowdin]</ref>. First discovery on December 13, 2024. Last new discovery on December 16, 2024. This feature is not yet accessible to all users, and seems to only be available for some VRChat accounts.
+A feature which lets you complete challenges<ref>`Complete!` `When the player completes all their challenges` [https://crowdin.com/editor/vrchat-application/19#130850 Crowdin]</ref><ref>`All Challenges Completed!` `When the player completes all their assigned challenges` [https://crowdin.com/editor/vrchat-application/19#130854 Crowdin]</ref>. First discovery on December 13, 2024. Last new discovery on December 16, 2024. This feature is not yet accessible to all users, and seems to only be available for some VRChat accounts.
 
 Challenges:
-* Make X Friends<ref>"Make {0} Friends", "A challenge for players to make {0} number of friends." - [https://crowdin.com/editor/vrchat-application/19#130852 Crowdin]</ref>
-* Visit X Friends<ref>"Visit {0} Worlds", "Challenge description: When a player visit X number of worlds." - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref>
-* Visit X Worlds<ref name="crowdin130860">"Visit {0} Worlds", "Challenge description: When a player visit X number of worlds." - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref>
-* Try VRChat on Another Platform<ref>"Try VRChat on Another Platform", "Challenge description: When a player plays VRC on another platform" - [https://crowdin.com/editor/vrchat-application/19#130856 Crowdin]</ref>
-* Log in X Days in a Row<ref>"Log in {0} Days in a Row", "Challenge description: When a player logs in X number of days in a row." - [https://crowdin.com/editor/vrchat-application/19#130858 Crowdin]</ref>
+* Make X Friends<ref>`Make {0} Friends`, `A challenge for players to make {0} number of friends.` - [https://crowdin.com/editor/vrchat-application/19#130852 Crowdin]</ref>
+* Visit X Friends<ref>`Visit {0} Worlds`, `Challenge description: When a player visit X number of worlds.` - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref>
+* Visit X Worlds<ref name="crowdin130860">`Visit {0} Worlds`, `Challenge description: When a player visit X number of worlds.` - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref> (Reward [[Special:MyLanguage/Badges|badge]]: World Explorer<ref name="WorldExplorer />)
+* Try VRChat on Another Platform<ref>`Try VRChat on Another Platform`, `Challenge description: When a player plays VRC on another platform` - [https://crowdin.com/editor/vrchat-application/19#130856 Crowdin]</ref>
+* Log in X Days in a Row<ref>`Log in {0} Days in a Row`, `Challenge description: When a player logs in X number of days in a row.` - [https://crowdin.com/editor/vrchat-application/19#130858 Crowdin]</ref>
 
-==Mentioned==
-Mentioned features are featured that have been talked about, or shared publicly by VRChat staff. These features could be worked on, but seem to have no implementation yet.
-
-=== New Character Controller for Worlds ===
-A long-running request proposes a replacement world character controller with better moving platform support, smoother stairs and slopes, improved unstuck behavior, collider push interaction, and broader Udon control.<ref name="CannyNewCharacterController">[https://feedback.vrchat.com/udon/p/new-character-controller-for-worlds "New Character Controller for Worlds"] on ''feedback.vrchat.com''; posted April 30, 2024; retrieved March 14, 2026.</ref>
-The thread is currently marked ''interested''. A staff update on the post says work is currently halted while other projects are prioritized, with a note that updates will be shared if the item re-enters the roadmap.<ref name="CannyNewCharacterController" />
-In March 2026 community discussion, a former VRChat employee allegedly involved with this work claimed they were the only person assigned to it before early-2025 layoffs, and that the feature had been close to shipping.
-In April 2026, VRChat employee Sai confirmed on X that the new character controller remains "on the back burner" with no ETA and is not currently being worked on.<ref name="SaiXPost">[https://x.com/Sairenix/status/2042786856899629187 Post] on ''x.com''; posted April 11, 2026; retrieved April 12, 2026.</ref>
-
-=== Expose VRC+ Status to Udon ===
-This request proposes exposing VRC+ subscription status to Udon for world-side logic and feature gating.<ref name="CannyExposeVRCPlusStatus">[https://feedback.vrchat.com/feature-requests/p/expose-vrc-status-to-udon "Expose VRC+ Status to Udon"] on ''feedback.vrchat.com''; posted January 25, 2026; retrieved March 14, 2026.</ref>
-The thread is currently marked ''in progress''. A staff comment links this item to Developer Update 5 March 2026 where the feature was announced.<ref name="CannyExposeVRCPlusStatus" />
-
-=== Age verification rollout ===
-
-The team stated in a livestream in March 2026 that there is no public timeline for broad rollout beyond VRC+, while aiming for the most accessible and low-cost path possible.
-
-=== OSC: Output for Haptics ===
-
-A milestone created in 2022 on the VRChat Community OSC GitHub repository proposes streaming OSC data representing touches or collisions with avatars to interface with haptic devices.<ref name="osc-milestones">[https://github.com/vrchat-community/osc/milestones Milestones] on ''github.com/vrchat-community/osc''; retrieved April 6, 2026.</ref>
-
-=== OSC: Udon ===
-
-A milestone created in 2022 on the VRChat Community OSC GitHub repository plans to enable [[Udon]] to read and write OSC data for use in VRChat worlds.<ref name="osc-milestones" />
-
-=== Unity 6===
-
-Answering the message of a user asking if VRChat is planning to upgrade to Unity 6, a developper answered with a positive message, stating it is currently being worked on.<ref name="Unity 6">[https://discord.com/channels/189511567539306508/449386885299830794/1491132964489400331 Answer] on ''discord.com'' ; retrieved April 9, 2026.</ref>
-
-==== Render pipeline migration (URP/HDRP) ====
-
-Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published for a migration of this scope.
-Recent staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
-
-== Scrapped ==
-
-=== ToxMod ===
+== ToxMod ==
 ToxMod is an AI-assisted voice chat moderation product made by Modulate, intended to detect and flag toxic or abusive voice behavior.
 
 In 2022 ToxMod got partially integrated. VRChat later stated that the team had previously been in discussions with Modulate, and that VRChat was inadvertently listed as a ToxMod customer<ref>[https://web.archive.org/web/20220424073126/https://www.modulate.ai/ modulate.ai from 2022] at archive.org</ref>, but that VRChat has no current or future plans to implement ToxMod<ref>[https://ask.vrchat.com/t/developer-update-1-december-2022/15263?page=3#p-30487-toxicity-in-vrchat-15 VRChat Blog Post]</ref>.
 
-===Portal UI refresh===
-In the 2 February 2023 Developer Update<ref>[https://ask.vrchat.com/t/developer-update-2-february-2023/16218#p-32723-portal-ui-refresh-10 Developer Update - 2 February 2023]</ref>, VRChat previewed a refreshed portal user interface and described it as "coming soon". The preview showed updated instance display styling and a banner for portals that lead to Group instances. 
+== Automatic Groups Instance invites ==
 
-This design was ultimately scrapped and replaced with the current design of portals which was released with [https://docs.vrchat.com/docs/vrchat-202431#portal-overhaul 2024.3.1], first previewed in the 25 July 2024 Developer Update.<ref>[https://ask.vrchat.com/t/developer-update-25-july-2024/25764#p-54081-thinking-with-portals-12 Developer Update - 25 July 2024]</ref>
+The VRChat community developed local programs and bots to self invite. VRCDN with their bots where the first big successor of request-to-queue principle which later got replaced with a queue system for groups. While the community continued maintaining automatic invite systems. Espacially to invite on instance creation to not be stuck in queue. VRChat started an A/B test to support this feature for everyone.<ref>`Toggle the ability for group instances to send you automatic invitation notifications`, `Toggle the ability for group instances to send you automatic invitation notifications
+Settings->User Interface->Notifications->Enable Automatic Group Invitations. Appears only if you are a part of an A/B test.` - [https://crowdin.com/editor/vrchat-application/19#139579 Crowdin]</ref>
 
-<gallery mode="packed" heights="220">
-File:PortalPreview.jpg|non-Groups
-File:PortalPreviewGroups.jpg|Groups
-</gallery>
+== 3th Person view distance ==
+
+Allows to set view distance of 3th person camera with ALT + scroll. <ref>`ALT + scroll: adjust distance`, `ALT + scroll: adjust distance
+HUD notification when attempting to scroll to move a held item` - [https://crowdin.com/editor/vrchat-application/19#139613 Crowdin]</ref>
+
+== Discord feature ==
+
+Users will be able to invite and add their friends from Discord in VRChat<ref>'You can now invite and add your friends from Discord via VRChat! Not interested? Disable it via Settings!' - [https://crowdin.com/editor/vrchat-application/19/en-fr?view=comfortable#139887 Crowdin]</ref>. Your friends will be able to send you invites on Discord or add you as a friend within VRChat! This feature can be deactivated in the settings<ref>>'Allow Discord Friends' - [https://crowdin.com/editor/vrchat-application/19/en-fr?view=comfortable#139895 Crowdin]</ref>.
 
 == References ==
 
