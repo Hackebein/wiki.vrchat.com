@@ -53,9 +53,9 @@ Settings->User Interface->Notifications->Enable Automatic Group Invitations. App
 Allows to set view distance of 3th person camera with ALT + scroll. <ref>`ALT + scroll: adjust distance`, `ALT + scroll: adjust distance
 HUD notification when attempting to scroll to move a held item` - [https://crowdin.com/editor/vrchat-application/19#139613 Crowdin]</ref>
 
-== Discord feature ==
+== Discord Social SDK ==
 
-Users will be able to invite and add their friends from Discord via VRChat<ref>'You can now invite and add your friends from Discord via VRChat! Not interested? Disable it via Settings!' - [https://crowdin.com/editor/vrchat-application/19/en-fr?view=comfortable#139887 Crowdin]</ref>. Your friends will be able to send you invites on Discord or add you as a friend within VRChat! This feature can be deactivated in the settings<ref>>'Allow Discord Friends' - [https://crowdin.com/editor/vrchat-application/19/en-fr?view=comfortable#139895 Crowdin]</ref>.
+VRChat is implementing [https://discord.com/developers/social-sdk Discord Social SDK], which allows users to interact with there Discord friends on VRChat. This includes Invites, Joining, Friending, Unfriending. So far no indications to send messages, calls, or screen sharing/streaming. This Feature can be disabled in the Settings<ref>'You can now invite and add your friends from Discord via VRChat! Not interested? Disable it via Settings!' - [https://crowdin.com/editor/vrchat-application/19/en-fr?view=comfortable#139887 Crowdin]</ref><ref>>'Allow Discord Friends' - [https://crowdin.com/editor/vrchat-application/19/en-fr?view=comfortable#139895 Crowdin]</ref>.
 
 == References ==
 
