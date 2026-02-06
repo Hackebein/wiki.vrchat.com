@@ -6,12 +6,12 @@
 |vrchatplus= Required for some content types.
 |branch_live_date = June 24, 2025
 |branch_live_version = 2025.2.3 Build 1664
-|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202523 2025.2.3]
+|branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202523
 |branch_openbeta_date = June 11, 2025
 |branch_openbeta_version = 2025.2.3 Build 1660
-|branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202523-openbeta 2025.2.3 Open Beta]
+|branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202523-openbeta
 }}
-'''Inventory''', initially known as the '''Gallery''' before being renamed in June 2025, is a feature that allows users to manage their [[emojis]], [[stickers]], [[items]], and more. The inventory currently includes ten types of content. Some inventory tabs require an active [[VRC+]] subscription to manage items.
+'''Inventory''', initially known as the '''Gallery''' before being renamed in June 2025, is a feature that allows users to manage their [[emojis]], [[stickers]], [[items]], and more. The inventory currently includes six types of content: icons, photos, emojis, stickers, prints, and items. Some inventory tabs require an active [[VRC+]] subscription to manage items.
 
 == Content type ==
 === Photo Gallery ===
@@ -79,40 +79,27 @@ File:ZZZ - emoji animation type.gif|alt=Multiple small instances of the emoji ri
 '''Items''' are objects that users can spawn within a world. Items can take the place of toys, tools, gadgets, etc. World creators can disable items in their world if they wish.
 
 === Cosmetics ===
-''See also [[Special:MyLanguage/Cosmetics|Cosmetics]] for more detailed information.''
+'''Cosmetics''' include Drone, and Portal skins, Warp Effects, and UI decorations like themes and backgrounds.
 
-'''Cosmetics''' include Drone and Portal skins, Warp Effects, Loading Screens, and UI decorations like themes and backgrounds. Each cosmetic category has a "Random" option that equips a randomly selected cosmetic from the user's collection.
-{| class="wikitable"
-!Cosmetic<br>Example
-!Cosmetic
-!Description
-|-
-|[[File:Drone Trace Drone.png|frameless|70x70px]]
-|[[Camera Drone|Drones]]
-|Drone cosmetics include drone skins, each one is unique and can be customized via it's palette. Drone Palette customization is a VRC+ feature, which allows the user to change the Primary, Secondary, and Trail of the Drone.
-|-
-|[[File:Portal B3-7A Portal.png|frameless|70x70px]]
-|[[Portals]]
-|Portal cosmetics include portal skins, each having it's own custom model. Portal skins have unique opening & closing animations, as well as sounds.
-|-
-|[[File:LoadingScreen Loading Cubes.png|frameless|70x70px]]
-|[[Loading Screens]]
-|Loading Screen cosmetics changes the skybox, environment, and/or music of the loading screen when loading into a world.
-|-
-|[[File:Warp_Effect_Reference_Cube_Warp.png|frameless|70x70px]]
-|[[Warp Effects]]
-|Warp Effects are custom animations that play on your [[Avatars|avatar]] when you join or leave an instance. 
-|-
-|[[File:UITheme Default.png|frameless|70x70px]]
-|UI Themes
-|UI Themes are the color theme for the [[Main Menu]] & [[Quick Menu]]. VRC+ users will have access to 4 default background designs by default, and a limit of 20 custom UI themes.
-|-
-|[[File:UI - Filigree.png|frameless|70x70px]]
-|Backgrounds
-|Backgrounds are backdrops for the Main Menu & Quick Menu. The backgrounds are parallax allows them to shift depending on the angle they're viewed at. Every user will have access to 4 background designs.
-|}
+====Drones====
+[[File:Drone Trace Drone.png|100px|thumb|The "Trace Drone".]]
+''See also [[Special:MyLanguage/Camera Drone|Drone]] for more detailed information.''
 
-<div class="center"><span style="font-size:120%">'''UI Themes'''</span></div>
+Drone cosmetics include drone skins, each one is unique and can be customized via it's palette. Drone Palette customization is a VRC+ feature, which allows the user to change the Primary, Secondary, and Trail of the Drone.
+
+====Portals====
+[[File:Portal B3-7A Portal.png|100px|thumb|The "B3-7A Portal".]]
+''See also [[Special:MyLanguage/Portals|Portal]] for more detailed information.''
+
+Portal cosmetics include portal skins, each having it's own custom model. Portal skins have unique opening & closing animations, aswell as sounds.
+
+====Warp Effects====
+''See also [[Special:MyLanguage/Warp Effects|Warp Effects]] for more detailed information.''
+
+Warp Effects are custom animations that play on your [[Avatars|avatar]] when you join or leave an instance. 
+
+====UI Themes====
+UI Themes are the color theme for the [[Main Menu]] & [[Quick Menu]]. VRC+ users will have access to 4 default background designs by default, and a limit of 20 custom UI themes.
 <gallery mode="packed" heights="80">
 File:UITheme Default.png|Default
 File:UITheme Carbon.png|Carbon
@@ -120,7 +107,8 @@ File:UITheme Nebula.png|Nebula
 File:UITheme Embers.png|Embers
 File:UITheme Grass.png|Grass
 </gallery>
-<div class="center"><span style="font-size:120%">'''Backgrounds'''</span></div>
+====Backgrounds====
+Backgrounds are backdrops for the Main Menu & Quick Menu. The backgrounds are parallax allows them to shift depending on the angle they're viewed at. Every user will have access to 4 background designs.
 <gallery mode="packed" heights="80">
 File:UI - Default.png|Default
 File:UI - Grid.png|Grid
@@ -311,17 +299,7 @@ Warp effect: [[Warp Effects#List of warp effects|Woo-arp Effect]]
 |February 5, 2026
 |February 28, 2026
 |Item: [[Items#List of items|Love Me Daisy]]
-|-
-|[[File:Bundle August VRC+ Content Drop.png|frameless|70x70px]]
-|April VRC+ Content Drop
-|VRC+
-|April 1, 2026
-|May 1, 2026
-|Item: [[Items#List of items|Bee Blaster]]
 |}
-
-==Exclusives==
-[[Special:MyLanguage/VRC+#Exclusives|VRC+ Exclusives]] is content that is only available for VRC+ supporters. Unlike Bundles, Exclusives are not claimable and automatically appear in user's inventories. Content that is VRC+ Exclusive is labeled with VRC+ logo in the top left corner.
 
 == Collections ==
 Emojis, stickers and items can belong to collections, which can be used to filter the Inventory.
@@ -335,7 +313,7 @@ List of known collections:
 User icons, photos, emoji, stickers, or prints can be taken and uploaded within the client via the [[Camera|camera's]] "Camera Mode" options. They can also be uploaded on the VRChat website via their respective pages.
 
 * {{VRC_link|https://vrchat.com/home/inventory/photos|Photos}}
-* {{VRC_link|https://vrchat.com/home/user/me?settings{{=}}true|User Icons}} 
+* {{VRC_link|https://vrchat.com/home/inventory/user-icons|User Icons}}
 * {{VRC_link|https://vrchat.com/home/inventory/emojis/custom|Emoji}}
 * {{VRC_link|https://vrchat.com/home/inventory/stickers/custom|Stickers}}
 
