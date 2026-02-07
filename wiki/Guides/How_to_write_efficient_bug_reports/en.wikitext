@@ -59,9 +59,32 @@ Once a topic is selected, you can search various community threads to see if ano
 [[File:Debug UIexample.webp|thumb|VRChat's Debug UI]]
 
 === Logs and attachments ===
+[https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps Where do I find my Output Logs and Crash Dumps?] on [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]
+
 It is advisable to attach screenshots, or a video file (up to 8MB) of the issue to your bug report. Any screenshots showcasing the bug, or screenshots of the debug menus will be relevant towards pinpointing the bug. Attaching log files are not always required, but is considered a helpful supplement to include within the bug report.
 [[File:Debug QM.webp|thumb|The Debug dropdown, within the settings tab of the Quick Menu]]
-To acquire a log file, navigate to the Settings tab within the Quick Menu, and scroll to the "Debug" dropdown. Click "Report Bug", which will mark a flagged timestamp within the output log. On PC, your file explorer will open to the folder where the output log is stored. By default, VRChat's output logs on a PC are located under <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>. Check the latest dated file, and attach it to your bug report.
+To acquire a log file, navigate to the Settings tab within the Quick Menu, and scroll to the "Debug" dropdown. Click "Report Bug", which will mark a flagged timestamp within the output log.
+
+=== PC ===
+On PC, your file explorer will open to the folder where the output log is stored. By default, VRChat's output logs on a PC are located under <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>. Check the latest dated file, and attach it to your bug report.
+
+=== Linux (via Proton)===
+The location of this folder depends heavily on your distribution<ref group="note" name="compatibility">VRChat on Linux via Proton is not directly supported unless you are using VRChat on the Steam Deck.</ref>and how you've installed Steam.
+
+You can usually find the Proton AppData folder for VRChat here:
+ ~/.local/share/Steam/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
+If you installed Steam via FlatPak, it might be here:
+ ~/.var/app/<flatpak-app-id>/(...?)/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
+
+<references group="note" />
+=== Meta and Oculus ===
+To get an output log, or crash dump on a Meta device:
+
+# Navigate to the Settings page of your Quick Menu
+# Scroll down to the 'Debug' section
+# You'll find 3 options here: '''Full''', '''Errors Only''' or '''Off'''.
+
+Your output logs can be found in the <code>Documents/Logs</code> folder located in the device root when you've connected your Quest to a PC.
 
 === Include a detailed description ===
 A detailed bug report should include a brief description of the bug within the title of the bug report, and the build number. Within the summary, please describe the device VRChat is running on, as well as steps on how to reproduce the bug. Describe the intended result, but what had occurred instead.
@@ -98,6 +121,12 @@ A detailed bug report should include a brief description of the bug within the t
 * [[Special:MyLanguage/Open Beta|Open Beta]]
 * [[Special:MyLanguage/Quality Assurance|Quality Assurance]]
 * [[Special:MyLanguage/Reporting#Reporting a bug|Reporting#Reporting a bug]]
+* [[Special:MyLanguage/Guides:How to submit VRChat feedback|Guides:How to submit VRChat feedback]]
+
+== Official resources ==
+
+* [https://help.vrchat.com/hc/en-us/articles/360062658413-I-found-a-bug-I-want-to-report-a-bug I found a bug/I want to report a bug] on [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]
+* [https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps Where do I find my Output Logs and Crash Dumps?] on [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]
 
 == Community resources ==
 
