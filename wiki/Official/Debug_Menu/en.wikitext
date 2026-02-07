@@ -1,7 +1,5 @@
 {{Noticebox/Official}}
-[[File:World Debug Menu 1.png|thumb|300x300px|Screenshot of AssetBundles / Memory debug UI tab]]
-The '''Debug Menu''' consists of multiple menus and consoles which are windows within the [[Special:MyLanguage/VRChat|VRChat]] client that display various pools of data, and are used for troubleshooting. There are different debugging windows for [[Special:MyLanguage/Worlds|Worlds]], [[Special:MyLanguage/Avatars|Avatars]], and even [[Special:MyLanguage/Open Sound Control|OSC]].
-
+The '''Debug Menu''' consists of multiple menus and consoles which are windows within the [[Special:MyLanguage/VRChat|VRChat]] client that display various pools of data, and are used for troubleshooting. There are different debugging windows for [[Special:MyLanguage/Worlds|Worlds]], [[Special:MyLanguage/Avatars|Avatars]], and even [[Open Sound Control|OSC]].
 ==Avatar Debug Console==
 
 The Avatar Debug Console displays information about your current avatar's animator, and other settings. This console can be found in the [[Special:MyLanguage/Action Menu|Action Menu]] in <code>Options &gt; Avatar &gt; Debug</code>. To scroll up and down you can press <code>Page Up</code>, and <code>Page Down</code> on desktop. 
@@ -17,7 +15,6 @@ The Avatar Debug Console displays information about your current avatar's animat
 **'''Animation Controllers''': Shows the current weight of the avatars Playable Layers.
 **'''Miscellaneous''':
 *Right column: Lists all the layers for each Playable Layer and their current weight and state.<span id="avatar-dynamics-overlay"></span>
-
 ==Avatar Dynamics Overlay==
 
 These options allow you to visualize Avatar Dynamics features like PhysBones, and Contacts. These options can be found in the [[Special:MyLanguage/Action Menu|Action Menu]] in <code>Options &gt; Avatar &gt; Avatar Overlay</code>
@@ -28,7 +25,6 @@ These options allow you to visualize Avatar Dynamics features like PhysBones, an
 *'''Contacts''': Shows all contacts on avatar and their current contact state.
 
 See also, '''VRChat Learning Channel's''' [https://www.youtube.com/watch?v=8hqDquZWvhY Avatar Dynamics Debugging Overlay Demonstration] on ''YouTube''.<span id="osc-debug-console"></span>
-
 ==OSC Debug Console==
 [[File:Osc debug.png|thumb|Screenshot of OSC debug console.]]
 Displays incoming OSC messages to VRChat, and their values. The OSC console can be found in the [[Special:MyLanguage/Action Menu|Action Menu]] in <code>Options &gt; OSC &gt; OSC Debug</code>. To scroll up and down, you can press <code>Page Up</code>, and <code>Page Down</code> on desktop, or use the scroll bar in VR mode. See also VRChat's [https://docs.vrchat.com/docs/osc-debugging| OSC Debugging page].
@@ -39,23 +35,22 @@ Displays incoming OSC messages to VRChat, and their values. The OSC console can 
 This menu is used to debug your worlds in-game. The Debug UI can be opened by:
 
 *Pressing the <code>Toggle Debug UI</code> button in the Debug section of the Quick Menu settings page.
-*Press <code>Right Shift + Tilde (~) + 1-9</code> with the number corresponding to the menu number <span id="debug-menu-1"></span>you want. On non-QWERTY keyboard layouts (such as French AZERTY), the key combination uses the same ''physical'' key positions, regardless of the key labels or system language. It must be the Right Shift key specifically, not the Left Shift key.
+*Press <code>Right Shift + Tilde (~) + 1-9</code> with the number corresponding to the menu number <span id="debug-menu-1"></span>you want.
 
-Some tabs of the Debug UI can only be accessed if the world has World Debugging enabled in its world's settings. By default, only the creator of the world can access these menus.
+More information can be accessed at {{VRC link|https://creators.vrchat.com/worlds/udon/world-debug-views/|World Debug View}} on ''creators.vrchat.com''.
 
-More information can be accessed at {{VRC link|https://creators.vrchat.com/worlds/udon/world-debug-views|World Debug View}} on ''creators.vrchat.com''.
+===Debug Menu 1===
 
-===AssetBundles / Memory===
-
-AssetBundles / Memory or Debug Menu 1 displays information about loaded assets.
+Debug Menu 1 displays information about loaded assets.
 [[File:World Debug Menu 1.png|none|thumb|Screenshot of World Debug Menu 1]]
 
-===Version & Info===
-Version & Info or Debug Menu 2 is default page and displays information about the build of VRChat you are using, and explains the Debug Menu.
+===Debug Menu 2===
+Debug Menu 2 is default page and displays information about the build of VRChat you are using, and explains the Debug Menu.
 [[File:World Debug Menu 2.png|none|thumb|Screenshot of World Debug Menu 2]]
 
-===Log Viewer===
-Log Viewer or Debug Menu 3 displays your output log. Hold <code>Tab</code> to activate the mouse cursor so you can use the buttons at the top as well as scroll the log output.
+===Debug Menu 3 ===
+
+Debug Menu 3 displays your output log. Hold <code>Tab</code> to activate the mouse cursor so you can use the buttons at the top as well as scroll the log output.
 
 For additional information, you can use two launch parameters, if you're using VRChat on Steam or SteamVR:  
 
@@ -63,8 +58,9 @@ For additional information, you can use two launch parameters, if you're using V
 *<code>--enable-udon-debug-logging</code><span id="debug-menu-4"></span>
 [[File:World Debug Menu 3.png|none|thumb|Screenshot of World Debug Menu 3]]
 
-===Players===
-Players or Debug Menu 4 displays stats about players.
+===Debug Menu 4===
+
+Debug Menu 4 displays stats about players.
 
 *'''M''': Whether or not the player is the master of the instance
 *'''L''': Whether or not the player is the local player
@@ -73,15 +69,18 @@ Players or Debug Menu 4 displays stats about players.
 *'''Ping''': The player's ping
 *'''Intrvl''': The amount of time between the player sending synced data about themselves.
 *'''D''': The current delay.<span id="debug-menu-5"></span>
-
 [[File:World Debug Menu 4.png|none|thumb|Screenshot of World Debug Menu 4]]
 
 ===Debug Menu 5===
-Debug Menu 5 displays graphs related to networking. World Debugging must be enabled.
+
+Debug Menu 5 displays graphs related to networking.
 [[File:World Debug Menu 5.png|none|thumb|Screenshot of World Debug Menu 5]]
 
-===Net Objects===
-Net Objects or Debug Menu 6 displays all networked objects in the world. Showing networking stats of that object sorted from the highest networking impact to least. World Debugging must be enabled.
+{{Noticebox|image=Warning-icon-png-2749.png|title=World debugging menus after 5 are restricted.|description=By default, only the creator of the world can access these menus. However, the world creator can allow others to see them by enabling World Debugging in the world's settings on the website.}}
+
+===Debug Menu 6===
+
+Debug Menu 6 displays all networked objects in the world. Showing networking stats of that object sorted from the highest networking impact to least.  
 
 *'''Name''': GameObjects name.
 *'''Owner''': The PlayerID of the owner of the object.
@@ -95,11 +94,12 @@ Net Objects or Debug Menu 6 displays all networked objects in the world. Showing
 [[File:World Debug Menu 6.png|none|thumb|Screenshot of World Debug Menu 6]]
 
 ===Debug Menu 7 ===
-Debug Menu 7 highlights all the PhysBones and Contacts in the world, similar to the Avatar Dynamics Overlay. World Debugging must be enabled.
+Debug Menu 7 highlights all the PhysBones and Contacts in the world. similar to the Avatar Dynamics Overlay.
 [[File:World-debug-view-7.webp|none|thumb|Screenshot of World Debug Menu 7]]
 
 ===Debug Menu 8===
-Debug Menu 8 displays a panel on top of every synced object in the world. Each panel displays stats about that object. World Debugging must be enabled.
+
+Debug Menu 8 displays a panel on top of every synced object in the world. Each panel displays stats about that object. 
 
 *'''P''': Ping of the owner
 *'''Q''': Quality of the data (100% is no dropped packets)
@@ -110,30 +110,17 @@ Debug Menu 8 displays a panel on top of every synced object in the world. Each p
 [[File:World Debug Menu 8.png|none|thumb|Screenshot of World Debug Menu 8]]
 
 ===Debug Menu 9===
-Debug Menu 9 displays a panel near players to display their networking stats. World Debugging must be enabled.
+
+Debug Menu 9 displays a panel near players to display their networking stats.
 [[File:World Debug Menu 9.png|none|thumb|Screenshot of World Debug Menu 9]]
 
-===Performance===
-The Performance tab displays selected performance graphs and allows saving them to disk. This menu has no keybind.
+===Debug Menu Performance===
+Debug Menu Performance displays selected performance graphs and allows to save them to disk. This menu has no keybind.
 [[File:World Debug Menu Performance.png|none|thumb|Screenshot of World Debug Menu Performance]]
 
-===Audio Sources===
-The Audio Sources tab displays all audio sources in the scene. It includes information such as source names, types, playback state, distance from the user, Steam Audio near-field enhancement details, audio conversion state, and perspective correction data. This tab is only viewable if the world has the World Debugging setting enabled.
-
-==Testing with multiple clients==
-Creators commonly test worlds and avatars by running multiple VRChat clients simultaneously, each logged into a different account. This is an allowed practice among world and avatar creators.
-
-To launch a second VRChat client on a separate account, create a shortcut to the VRChat executable (for example, located at <code>steamapps\common\VRChat\VRChat.exe</code>) and add the <code>--profile=2</code> [[Launch Options|launch option]]. The <code>--profile</code> flag stores credentials separately, so each profile only requires logging in once. Common launch options for a testing client include:
-
-<code>--no-vr --profile=2 --enable-debug-gui --enable-sdk-log-levels --enable-udon-debug-logging</code>
-
-Building a world with 0 clients in the SDK build panel causes any already-running test clients to reload the world without launching a new client.
-
-When testing avatar visual consistency (such as Bounds or Anchor Override changes), checking with a second account is more reliable than checking in a mirror, because the local mirror view may differ from what other players see.
-
-==Official resources==
+==Official Resources==
 *{{VRC link|https://creators.vrchat.com/worlds/udon/world-debug-views|World Debug View}} page in the VRChat Documentation
 *[https://docs.vrchat.com/docs/osc-debugging| OSC Debugging] page in the VRChat Documentation
 
-[[Category:User Interface{{#translation:}}]]
-[[Category:Menus{{#translation:}}]]
+[[Category:User Interface]]
+[[Category:Menus]]
