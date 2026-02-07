@@ -11,552 +11,196 @@ Playing videos not from the video player allowlist<ref>[https://creators.vrchat.
 If hosting video yourself, VRChat may or may not be able to play various filetypes, depending on the user's platform.  This also varies depending on whether the player is using AVPro or Unity video player.
 
 (This table is a work in progress, please fill in other platforms as you're able. Platform compatibility can be tested within this [https://vrchat.com/home/world/wrld_bcc3fb8b-6bbd-4ea8-991b-7f7da49c1a56/info community world].) 
-
-{| class="wikitable sortable"
+{| class="wikitable"
 |+
 !
 !
-! style="border-right-color:white;" |
-! colspan=2 style="border-right-color:white;" |Win 10
-! colspan=2 style="border-right-color:white;" |Win 11
-! colspan=2 style="border-right-color:white;" |Steam Deck
-! colspan=2 style="border-right-color:white;" |Quest 2
-! colspan=2 style="border-right-color:white;" |Quest 3
-! colspan=2 style="border-right-color:white;" |Android<ref group="note">needs always to be served over https</ref>
-! colspan=2 style="border-right-color:white;" |iOS
+!Win 10
+!Win 11
+!Steam Deck
+!Quest 2
+!Quest 3
+!Android<ref group="note">needs always to be served over https</ref>
+!iOS
 |-
-!style="background-color:#777" |Video
-!style="background-color:#777" |Audio
-!style="background-color:#777; border-right-color:white;" |Container
-!style="background-color:#444" |<small>AVPro</small>
-!style="background-color:#444; border-right-color:white;" |<small>Unity</small>
-!style="background-color:#444" |<small>AVPro</small>
-!style="background-color:#444; border-right-color:white;" |<small>Unity</small>
-!style="background-color:#444" |<small>AVPro</small>
-!style="background-color:#444; border-right-color:white;" |<small>Unity</small>
-!style="background-color:#444" |<small>AVPro</small>
-!style="background-color:#444; border-right-color:white;" |<small>Unity</small>
-!style="background-color:#444" |<small>AVPro</small>
-!style="background-color:#444; border-right-color:white;" |<small>Unity</small>
-!style="background-color:#444" |<small>AVPro</small>
-!style="background-color:#444; border-right-color:white;" |<small>Unity</small>
-!style="background-color:#444" |<small>AVPro</small>
-!style="background-color:#444; border-right-color:white;" |<small>Unity</small>
+|Codec
+|Container
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
 |-
 !H.264
-!AAC
-! style="border-right-color:white;" |MP4
+!MP4
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
 |-
 !H.265
-!AAC
-! style="border-right-color:white;" |MP4
+!MP4
+| align="center" |? <ref group="note" name="hevc_video_extentions">Requires [https://apps.microsoft.com/detail/9nmzlz57r3t7 HEVC Video Extensions] to be installed</ref>
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
 | align="center" |?
-<ref group="note" name="hevc_video_extentions">Requires [https://apps.microsoft.com/detail/9nmzlz57r3t7 HEVC Video Extensions] to be installed</ref>
-| align="center" style="border-right-color:white;" |?
-<ref name="hevc_video_extentions" group="note" />
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |❌
-<ref group="note">sound was played, but screen was staying dark</ref>
-| align="center" style="border-right-color:white;" |❌
-<ref group="note">video loading was succeed, but there was no sound nor screen content</ref>
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |? <ref group="note">sound was played, but screen was staying dark</ref>/? <ref group="note">video loading was succeed, but there was no sound nor screen content</ref>
 |-
 !VP8
-!Vorbis
-! style="border-right-color:white;" |WebM
+!WebM
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |❌
-| align="center" style="border-right-color:white;" |✅
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |❌/✔️
 |-
 !VP9
-!Vorbis
-! style="border-right-color:white;" |WebM
+!WebM
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |❌/❌
 |-
 !VP9
-!Vorbis
-! style="border-right-color:white;" |MKV
+!MKV
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-<ref name=":0" group="note">on some machines, no sound plays</ref>
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |❌/❌
 |-
 !AV1
+!MP4
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+|-
+!AV1
+!WebM
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |❌/❌
+|-
+!AV1
+!MKV
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |?
+| align="center" |✔️/✔️
+| align="center" |✔️/✔️
+| align="center" |❌/❌
+|-
+|colspan=2|Audio Only:
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+| align="center" |<small>AVPro / Unity</small>
+|-
 !AAC
-! style="border-right-color:white;" |MP4
+!M4A
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 |-
-!AV1
 !AAC
-! style="border-right-color:white;" |MKV
+!MP4
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 |-
-!AV1
-!Vorbis
-! style="border-right-color:white;" |WebM
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-|-
-!AV1
-!Vorbis
-! style="border-right-color:white;" |MKV
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-<ref name=":0" group="note" />
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-|-
-!AV1
-!Vorbis
-! style="border-right-color:white;" |MP4
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-<ref group="note" name="videoyessoundno">video played, sound did not</ref>
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-<ref name="videoyessoundno" group="note" />
-| align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-|-
-!AV1
-!Opus
-! style="border-right-color:white;" |MKV
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-|-
-!AV1
-!Opus
-! style="border-right-color:white;" |MP4
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-<ref group="note" name="videoyessoundno"/>
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-|-
-! -
-!AAC
-! style="border-right-color:white;" |M4A
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-|-
-! -
-!AAC
-! style="border-right-color:white;" |MP4
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-|-
-! -
 !FLAC
-! style="border-right-color:white;" |FLAC
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-|-
-! -
 !FLAC
-! style="border-right-color:white;" |MP4
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 |-
-! -
+!FLAC
+!MP4
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+|-
 !MP3
-! style="border-right-color:white;" |MP3
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-|-
-! -
 !MP3
-! style="border-right-color:white;" |MP4
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |❌
-<ref group="note">loading was not finished in a brief time</ref>
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 |-
-! -
-!Vorbis
-! style="border-right-color:white;" |OGG
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |❌
-<ref group="note">the resource was loaded but played no sound</ref>
-| align="center" style="border-right-color:white;" |❌
-|-
-! -
-!Vorbis
-! style="border-right-color:white;" |MKV
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-|-
-! -
-!Vorbis
-! style="border-right-color:white;" |WEBM
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-|-
-! -
-!Opus
-! style="border-right-color:white;" |OPUS
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-|-
-! -
-!Opus
-! style="border-right-color:white;" |WebM
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-|-
-! -
-!Opus
-! style="border-right-color:white;" |MP4
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-|-
-! -
 !MP3
-! style="border-right-color:white;" |PLS
+!MP4
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |? <ref group="note">loading was not finished in a brief time</ref>/❌
 |-
-! -
-!AAC
-! style="border-right-color:white;" |PLS
+!OGG
+!OGG
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |? <ref group="note">the resource was loaded but played no sound</ref>/❌
 |-
-! -
-!MP3
-! style="border-right-color:white;" |M3U
+!OGG
+!MKV
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
+| align="center" |✔️/❌
+| align="center" |✔️/❌
 | align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-|-
-! -
-!AAC
-! style="border-right-color:white;" |M3U
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |✅
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
-| align="center" |❌
-| align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |✔️/❌
+| align="center" |✔️/❌
+| align="center" |❌/❌
 |}
 <references group="note" />
 
