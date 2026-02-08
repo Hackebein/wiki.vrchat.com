@@ -46,14 +46,11 @@ VRChat has a plenty of [[Special:MyLanguage/Settings#Graphics|graphics settings]
 *Particle Limiter
 *Pixel Light Count
 
-=== Avatars ===
-Avatars could be one of the biggest causes for performance issues. On standalone VR & mobile platforms, there can be a maximum of 4 Very Poor avatars shown at once.
-
-==== Avatar Optimization ====
-Consider changing some [[Special:MyLanguage/Settings#Avatar Optimization|settings]] on how avatars get shown to you.
+===Avatar Optimization===
+Avatars could be one of the biggest causes for performance issues. Consider changing some [[Special:MyLanguage/Settings#Avatar Optimization|settings]] on how avatars get shown to you.
 {| class="wikitable"
 !Block Poorly Optimized Avatars
-|You can set certain avatar performance ranks to be hidden by default. On standalone VR & mobile platforms, Very Poor avatars will be blocked automatically. 
+|You can set certain avatar performance ranks to be hidden by default. 
 '''Note:''' Setting this option too strictly could cause a lot of avatars to be hidden
 |-
 !Maximum Download Size
@@ -76,7 +73,7 @@ Consider changing some [[Special:MyLanguage/Settings#Avatar Optimization|setting
 ===Trust and Safety System===
 Utilize VRChat's [[Special:MyLanguage/Trust and Safety|Trust and Safety System]] to hide avatar features based on [[Special:MyLanguage/Trust Rank|trust rank]]. A great way to prevent bad actors from abusing performance heavy avatars.
 
-Try selecting one of the defaults or custom to your liking.
+Try selecting one of the defaults or custom to your liking, however you cannot unblock bad and poor avatars in quest.
 
 ==References==
 {{reflist}}
