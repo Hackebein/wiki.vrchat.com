@@ -3,21 +3,23 @@
 VRChat utilizes multiple '''Discord servers''' to organize and manage different groups of VRChat users.
 
 == Public servers ==
-VRChat utilizes three public Discord servers for anyone within good standing to access. The user count has been updated as of February 10, 2026.
+VRChat utilizes three public Discord servers for anyone within good standing to access. The user count has been updated as of August 20, 2025.
 
 === VRChat ===
 [[File:VRChat Discord Icon.webp|thumb|VRChat|128x128px]]
-Created on July 20, 2017. This server is the primary server for VRChat and its community, with approximately ~375,000 users. It can be accessed at https://discord.gg/vrchat.
+Created on July 20, 2017. This server is the primary server for VRChat and its community, with approximately ~340,000 users. It can be accessed at https://discord.gg/vrchat.
 
 <div class="toccolours mw-collapsible mw-collapsed">
 '''List of channels'''<div class="mw-collapsible-content">
 * '''Official'''
-** rules, announcements, polls, server-status, community-servers, discord-tickets
+** rules, announcements, server-status, community-servers, discord-tickets
 * '''General'''
-** community-support (forum), ai-support (forum), vrchat-general-1, vrchat-general-2, general-media, vrchat-drone, vrchat-pictures, vrchat-fan-art, vrchat-videos, other-games, starboard
-* '''VRChat Mobile'''
-** android-announcements, android-discussion, android-dev, ios-discussion, ios-dev
-* '''Meta Quest'''
+** user-support (forum), ai-support (forum), vrchat-general-1, vrchat-general-2, general-media, vrchat-drone, vrchat-pictures, vrchat-fan-art, vrchat-videos, other-games, starboard
+* '''Android Mobile'''
+** android-mobile-info, android-mobile-general, android-mobile-dev
+* '''iOS Closed Beta'''
+** ios-closed-beta-info, ios-closed-beta-discussion, ios-closed-beta-dev
+* '''Oculus Quest'''
 ** quest-general, quest-development, quest-optimization
 * '''Avatars'''
 ** avatar-search (forum), avatar-discussion (forum), avatar-development-links, avatar-general, avatar-help, avatar-quest, avatar-optimization, avatar-dynamics, avatar-osc, avatar-showcase, avatar-rigging
@@ -26,7 +28,7 @@ Created on July 20, 2017. This server is the primary server for VRChat and its c
 * '''Development'''
 ** creator-companion, 3d-modeling, animation, shaders, development-advanced, feature-requests, vrchat-jams
 * '''Open Beta'''
-** open-beta-info, open-beta-announcements, open-beta-discussion, open-beta-off-topic, third-person beta (temporary)
+** open-beta-info, open-beta-announcements, open-beta-discussion, open-beta-off-topic
 * '''Other'''
 ** full-body-tracking, 3d-printing, ik-2
 </div>
@@ -116,9 +118,7 @@ This server serves as where [[Avatars|avatar]] creators selected for the [[Avata
 === VRChat Community Leaders ===
 This server operates as a centralized place for community leaders to work together, share information between peers, report bugs and maintain a connection with the VRChat's community lead to help focus user feedback.
 
-It's joinable via an application process through this [https://docs.google.com/forms/d/e/1FAIpQLSdy0wu72WKl8iH43XEHMmzsrg3uGeRlQy2h59QUMZhrBN9djA/viewform Google Docs form].
-
-The server was created on September 4, 2024. [[File:VRChat Community Leaders Discord Icon.webp|thumb|VRChat Community Leaders|128x128px|none]]
+The server was created on September 4, 2024. Access to this server is granted by applying in the [https://docs.google.com/forms/d/e/1FAIpQLSf28A9x5EAVDPwLcjXJIvCP0skcSrZAtWS9enNPMQOD31oUeA/viewform Google Docs form]<ref>VRChat's official tweet about the application for group leaders: https://x.com/VRChat/status/1922077858840682596</ref>. [[File:VRChat Community Leaders Discord Icon.webp|thumb|VRChat Community Leaders|128x128px|none]]
 ==Roles and responsibilities==
 ''<big><sup>For further information about roles on the VRChat Wiki, please also see [[VRCWiki:Roles]]</sup></big>''
 
@@ -128,49 +128,33 @@ VRChat's servers have roles set up for members and staff:
 |-
 !Role!!Servers!!Color!!Employed by VRChat?
 !Description
-!Moderator?
 |-
 |VRChat Team||All||Yellow||Yes
 |Responsible for the Discord server. Listed at the top of the user list.
-|Yes
 |-
 |VRC Team||All||Yellow||Yes 
 |General employee at VRChat, Inc.
-|Yes
-|-
-|Active Chat Mod||VRChat||Purple||No
-|A chat moderator who is actively moderating. 
-|Yes
 |-
 |Chat Mod||VRChat||White||No
 |A trusted community member given the ability to help moderate the server.
-|Yes
+|-
+|Active Chat Mod||VRChat||Purple||No
+|A chat moderator who is actively moderating. 
 |-
 |Community Helper
 |VRChat
 |Blue
 |No
 |Reputable community members who assist users with inquiries or questions.
-|No
-|-
-|Community Tester
-|VRChat
-|Cyan
-|No
-|Community members who are affiliated with VRChat's official Community Tester program.
-|No
 |-
 |Proofreader||VRChat Localization||Purple||No
 |Responsible for approving and moderating translations on the VRChat Crowdin.
-|Yes
 |-
 |Organizer||VRChat Wiki||Cyan||No
 |Organizers are VRChat Wiki maintainers who have demonstrated their knowledge about technical aspects regarding MediaWiki systems.
-|Yes
 |-
 |Maintainer ||VRChat Wiki||Blue||No
 |Manages and approves edits, and file uploads for the VRChat Wiki, and its Discord.
-|Yes
 |}
 
 == References ==
