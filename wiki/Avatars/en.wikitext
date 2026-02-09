@@ -20,7 +20,7 @@ To disable the cloning of avatars one can go to [[Special:MyLanguage/Settings|Se
 Avatars can also be discovered on avatar pedestals. These are typically found within worlds under the "Avatar Worlds" category. These pedestals display previews of avatars, which users can interact with to clone from. 
 
 ==Favoriting avatars==
-Users can favorite avatars to save them for later. Favorited avatars will appear in the "favorites" row on the avatar page. By default, favorited avatars are added to a single list that can contain 50 avatars. 5 additional avatar favorite lists can be added to with an active [[Special:MyLanguage/VRChat+|VRC+ subscription]] for a total of 6 lists.
+Users can favorite avatars to save them for later. Favorited avatars will appear in the "favorites" row on the avatar page. By default, favorited avatars are added to a single list that can contain 50 avatars. 5 additional avatar favorite lists can be added to with an active [[Special:MyLanguage/VRC+|VRC+ subscription]] for a total of 6 lists.
 
 There are multiple ways to favorite an avatar. If you’re using the avatar you want to favorite, go to the avatars page and click the "Favorite Avatar" button in the bottom right corner, below the avatar preview. If someone else is using an avatar you want to favorite, select the user and press the "Favorite Avatar" button in the [[Special:MyLanguage/Quick Menu|Quick Menu]].
 
@@ -38,6 +38,8 @@ The user's Fallback avatar can be changed on the VRChat website.
 
 ==Performance Ranking==
 Avatars are ranked by performance thresholds. They go from Very Poor{{performance|verypoor|22}}, to Poor{{performance|poor|22}}, to Medium{{performance|medium|22}}, to Good{{performance|good|22}}, to Excellent{{performance|excellent|22}}. This classification helps users understand the performance impact of their avatars on the overall VRChat experience. Examples of things that influence avatar performance rankings include mesh polygon count, material count, texture resolution, animator complexity; and avatar components such as [[Special:MyLanguage/Physbones|PhysBones]] or constraints. 
+
+On standalone VR & mobile platforms, a maximum of 4 Very Poor avatars can be shown at once.
 
 You can find more details on the official documentation at [https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ Avatar Performance Ranking System].
 
