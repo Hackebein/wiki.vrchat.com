@@ -1,4 +1,18 @@
-{{Noticebox/Official}}'''Fallbacks''', or fallback [[Special:MyLanguage/avatars|avatars]], are optimized avatars that serve as a placeholder<ref>[https://medium.com/vrchat/vrchat-on-quest-avatar-performance-woes-1a3cc228a442 "VRChat on Quest: Avatar Performance Woes"] on ''[https://medium.com/vrchat Medium]''. Dated March 18, 2021. Retrieved September 16, 2021.</ref> for when the user can't see another user's original avatar, such as when users are on different [[Special:MyLanguage/platforms|platforms]]. Fallbacks were introduced to VRChat, with the 2021.1.5<ref>[https://docs.vrchat.com/docs/vrchat-202115 "VRChat 2021.1.5"] on ''[[docs.vrchat.com]]''. Dated March 23, 2021. Retrieved September 16, 2025.</ref> update, on March 23, 2021.
+{{Noticebox/Official}}
+{{Noticebox/Unsupported|Fallbacks are being deprecated slowly over time in favor of impostors.}}
+{{Infobox/Feature
+|name=Fallbacks
+|image=
+|platforms= PC, Android, iOS
+|branch_live_date = March 23, 2021
+|branch_live_version = 2021.1.5 Build 1067
+|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202115 2021.1.5]
+|branch_openbeta_date = March 18, 2021
+|branch_openbeta_version = 2021.1.5 Build 1065
+|branch_openbeta_releasenote = [https://discord.com/channels/189511567539306508/503009489486872583/822245880333467659 2021.1.5]
+}}
+
+'''Fallbacks''', or fallback [[Special:MyLanguage/Avatars|avatars]], are optimized avatars that serve as a placeholder<ref>[https://medium.com/vrchat/vrchat-on-quest-avatar-performance-woes-1a3cc228a442 "VRChat on Quest: Avatar Performance Woes"] on ''[https://medium.com/vrchat Medium]''. Dated March 18, 2021. Retrieved September 16, 2021.</ref> for when the user can't see another user's original avatar, such as when users are on different [[Special:MyLanguage/Platforms|platforms]]. Fallbacks were introduced to VRChat, with the 2021.1.5<ref>[https://docs.vrchat.com/docs/vrchat-202115 "VRChat 2021.1.5"] on ''[[docs.vrchat.com]]''. Dated March 23, 2021. Retrieved September 16, 2025.</ref> update, on March 23, 2021.
 
 ==Avatar Fallback System==
 [[File:Fallback system.webp|thumb|A VRChat graphic from 2021, describing the ability to select a Fallback avatar, to show users on Quest.]]
@@ -55,7 +69,7 @@ There is another icon that can appear, the grey shield icon ([[File:Perf SafetyB
 |}
 
 ===Choosing a fallback===
-To choose a fallback avatar, open the Quick Menu, then select the Avatars tab. On the left side of the Avatars page, scroll down and select the "Fallbacks" category. Once there, select on an avatar, and select "Set as Fallback" on the right side of the page.
+To choose a fallback avatar, open the avatar page on the VRChat website, then select "Use as Fallback" under the Manage Avatar section.
 
 There are 2 options for choosing a fallback:
 
@@ -69,10 +83,18 @@ Users can upload their own custom fallback avatar. There are some requirements i
 *Performance rank must be Good{{performance|good|22}} or better on the respective platform.
 *Have the Fallback flag set from the Android upload.
 
-== See Also ==
+==Deprecation==
+With the release of [https://docs.vrchat.com/docs/vrchat-202522 2025.2.2], VRChat mentioned in the release notes that Fallbacks are being deprecated, cited with the following reason:
+<blockquote>
+''Fallbacks are being deprecated slowly over time in favor of impostors....''</blockquote>
 
-* [[Impostors]]
-* [[Avatars]]
+Fallbacks can still be used and are functional, but are not selectable within the client. Changing fallbacks can only be done from the website.
+
+== See Also ==
+* [[Special:MyLanguage/Impostors|Impostors]]
+* [[Special:MyLanguage/Avatars|Avatars]]
 
 == References ==
-[[Category:Needs Images]]
+<references />
+
+[[Category:Features{{#translation:}}]]
