@@ -1,11 +1,15 @@
 <languages/>
 {{Noticebox/Official}}
+<translate>
+<!--T:1-->
 '''Trust Rank''' is part of the [[Special:MyLanguage/Trust and Safety|Trust and Safety]] system in VRChat, designed to ensure a safe and enjoyable experience for all users. This system determines when a user can upload content, and evaluates user behavior to calculate "Trust", using an aggregate of many variables.
 
-==Ranks==
+==Ranks== <!--T:2-->
 
+<!--T:3-->
 A user’s Trust feeds into their '''Trust Rank''', an indicator of their time spent in VRChat, content contribution, friendships made, and other factors. 
 
+<!--T:4-->
 The ranks they gain are as follows (lowest to highest):
 {| class="wikitable"
 |+
@@ -19,7 +23,7 @@ The ranks they gain are as follows (lowest to highest):
 |-
 | style="background-color: #2acf5b" |
 !User 
-|Can publish [[Special:MyLanguage/Worlds|worlds]] to [[Special:MyLanguage/Community Labs|Community Labs]]. Allow gifting from the [[Special:MyLanguage/Shop|shop]]. Most functions become available at this rank.
+|Can publish [[Special:MyLanguage/Worlds|worlds]] to [[Special:MyLanguage/Community Labs|Community Labs]]. Most functions become available at this rank.
 |-
 | style="background-color: #ff7c42" |
 !Known User
@@ -30,8 +34,9 @@ The ranks they gain are as follows (lowest to highest):
 |Can choose to appear as a “User”.
 |}
 
-===Special ranks===
+===Special ranks=== <!--T:5-->
 
+<!--T:6-->
 {| class="wikitable"
 |+
 | style="background-color: #efea17" |
@@ -42,26 +47,26 @@ The ranks they gain are as follows (lowest to highest):
 !'''Nuisance'''
 |Users who have caused problems for others will have an indicator above their nameplate when the Quick Menu is open. 
 Their avatar will be completely blocked, and they will be muted by default, regardless of Shield Level. However, you can still manually unmute them or show their avatar.
-|-
-| style="background-color: #b52626" |
-!Administrator / VRChat Team
-|This rank is assigned for select accounts owned by members of the VRChat Team.
-It is shown in the VRChat client, and appears on the VRChat app when viewing a user profile, as well as in the app above their head in place of their trust rank. It also appears on the VRChat website when viewing a user profile or search result, as a red border.
 |}
 
+<!--T:22-->
 ===Discontinued ranks===
 ''See [[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|Removed Features]].''
 
-===Gaining ranks===
+===Gaining ranks=== <!--T:7-->
 
+<!--T:8-->
 The inner workings of the Trust system are intentionally hidden to prevent exploitation.  
 
+<!--T:9-->
 However, the best way to raise your Trust Rank is to engage in normal activities in VRChat, such as: 
 
+<!--T:10-->
 * Exploring
 *Making friends
 *Creating content
 
+<!--T:11-->
 Activities that will not raise your Trust Rank include: 
 *Standing or idling in a room (AFKing).
 *Uploading a large amount of low-effort content.
@@ -69,8 +74,10 @@ Activities that will not raise your Trust Rank include:
 *Harassment towards other VRChat users.
 Additionally, subscribing to [[Special:MyLanguage/VRC+|VRC+]], or being gifted a VRC+ subscription can increase your Trust Rank<ref>[https://hello.vrchat.com/vrchatplus VRC+] on VRChat's website; retrieved October 24, 2024.</ref>. However it will only increase it once.
 
+<!--T:29-->
 However, in some cases, the Trust Rank does not necessarily increase, but it does provide a boost in reaching the next rank.
 
+<!--T:23-->
 ==Trust ranks and safety ==
 [[File:Shield_level.webp|thumb|300px|Shield levels can be customized, depending on a user's Trust Rank.]]
 Trust ranks affect how users can view your avatar, hear you, or see your [[Special:MyLanguage/Gallery|gallery]] content, such as [[Special:MyLanguage/Stickers|stickers]] and [[VRC+#Prints|prints]]; this all depends on their [[Special:MyLanguage/Trust and Safety#Personal%20safety|Safety Shield level]] preferences.
@@ -110,15 +117,19 @@ Trust ranks affect how users can view your avatar, hear you, or see your [[Speci
 |}
 Multiple '''Presets''' are available depending on user's preference for security and comfort.
 
-==Appearance of ranks inside VRChat ==
+==Appearance of ranks inside VRChat == <!--T:24-->
 
+<!--T:25-->
 [[File:TrustRank_Example.png|right|frameless]]
 
+<!--T:14-->
 The Safety and Trust system is designed to stay unobtrusive. A user's Trust Rank is visible only when the Quick Menu is open. This setting can be changed under "User Interface" > "Nameplate" or in the [[Special:MyLanguage/Action Menu|Action Menu]] under "Options" > "Nameplates."
 
+<!--T:15-->
 *The text in the top left of the [[Special:MyLanguage/Nameplates|nameplate]] indicates the user's Trust Rank.
 *The top right of the nameplate displays the user's avatar performance rank.
 
+<!--T:16-->
 ===Rank transition ===
 * '''Visitor to New User:''' Upon reaching the New User rank, users gain the ability to upload content to VRChat if they are using a VRChat account. Users are notified of this transition and directed to the VRChat documentation page for content creation.
 *'''New User to User:''' Upon reaching the User rank, users gain the ability to report worlds, groups, users, and avatars to the Moderation Team for review. Users are notified of this transition.
@@ -126,26 +137,33 @@ The Safety and Trust system is designed to stay unobtrusive. A user's Trust Rank
 *'''Rank Display Toggle:''' Users with the Known User rank or higher can choose to display their rank as "User." This changes their Trust icon and text to the User Rank and alters how the Safety system treats them. The toggle can be found on the profile page below the status and also on the 'Profile Wing' at the very bottom.
 ==Official resources==
 
+<!--T:19-->
 *[https://docs.vrchat.com/docs/vrchat-safety-and-trust-system Safety and Trust System] on ''docs.vrchat.com''
 *[https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 VRChat Safety and Trust System: Changes and Feedback] on Medium.
 
-==See also==
+==See also== <!--T:26-->
 
+<!--T:27-->
 Rules and Guidelines
 
+<!--T:30-->
 * [[Terms of Service]]
 * [[Community Guidelines]]
 * [[VRCWiki:Guidelines]]
 * [[VRCWiki:Disciplinary policy]]
 
+<!--T:31-->
 VRChat platform articles
 
+<!--T:32-->
 * [[Reporting]]
 * [[Bans]]
 * [[Two-Factor Authentication (2FA)]]
 
-==References==
+==References== <!--T:28-->
 
+<!--T:21-->
 [[Category:Features{{#translation:}}]]
+</translate>
 
 <references />
