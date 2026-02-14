@@ -1,97 +1,77 @@
 <languages/>
 {{Noticebox/Official}}
-{{Thumb|{{YouTube|ReZ1wfI3P-8|thumb=File:YTThumb_ReZ1wfI3P-8_AccountLink.webp|title=Link or Upgrade Account | Account Management
-}}}}
+{{Thumb|{{YouTube|ReZ1wfI3P-8}}}}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-This article highlights the process of '''linking''' an existing platform account to a regular [[Special:MyLanguage/VRChat account|VRChat account]].
-</div> 
+Dieser Artikel erläutert den Vorgang der '''Verknüpfung''' eines bestehenden Plattform-Kontos mit einem regulären [[Special:MyLanguage/VRChat account|VRChat-Konto]]. 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Platform accounts include pre-existing accounts on the following devices:
-</div> 
+Plattform-Konten umfssen bereits vorhandene Konten auf folgenden Geräten: 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
+<div class="mw-translate-fuzzy">
 * Steam
 * Meta
 * PICO
 * Viveport
 * Google
-* Discord
+* Discord{{Upcoming_inline|2025.4.1|docs.vrchat.com/docs/vrchat-202541-openbeta}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Benefits of a full VRChat account ==
-A full VRChat account enables users to:
-* Earn [[Special:MyLanguage/Trust Ranks|Trust Ranks]]
-* Retain the simplicity of one-click logins
-* Apply to enroll in the [[Special:MyLanguage/Creator Economy|Creator Economy]] Program
-* Change their screenname
-** Removes the generated four-digit '[[wikipedia:Discriminator|discriminator]]' code at the end of their screenname
-* Gain access to Login
-** {{VRC link|https://vrchat.com/home|VRChat Website}}
+== Vorteile eines vollständigen VRChat-Kontos ==
+Ein vollständiges VRChat-Konto ermöglicht es Nutzern:
+[[Special:MyLanguage/Trust Ranks|Trust-Ränge]] zu erlangen
+die Einfachheit von Ein-Klick-Anmeldungen zu bewahren
+sich für das [[Special:MyLanguage/Creator Economy|Creator-Economy]]-Programm zu bewerben
+den Anzeigenamen zu ändern
+** entfernt den automatisch generierten vierstelligen „[[wikipedia:Discriminator|Discriminator]]“-Code am Ende des Anzeigenamens
+Zugang zu Login-Features zu erhalten
+** {{VRC link|https://vrchat.com/home |VRChat-Website}}
 ** [[Special:MyLanguage/VRChat SDK|VRChat SDK]]
-* Gain authorization access on platforms with VRChat SSO
-** {{VRC link|https://wiki.vrchat.com/|VRChat Wiki}}
-** {{VRC link|https://feedback.vrchat.com/|VRChat Feedback Board}}
-** [https://ask.vrchat.com/|VRChat VRChat Ask Forums]
-** Third-party vendors that utilize VRChat SSO
+Autorisierungszugriff auf Plattformen mit VRChat-SSO zu erhalten
+** {{VRC link|https://wiki.vrchat.com/ |VRChat-Wiki}}
+** {{VRC link|https://feedback.vrchat.com/ |VRChat-Feedback-Board}}
+** [https://ask.vrchat.com/ |VRChat-Ask-Foren]
+** Drittanbieter, die VRChat-SSO nutzen
+
+== Vorab-Überlegungen zur Verknüpfung ==
+=== Limit für Favoriten ===
+Nach dem Zusammenführen behalten Nutzer ggf. mehr Favoriten als normal erlaubt, wenn die Gesamtzahl der Favoriten beider Konten das Plattform-Limit übersteigt. Um jedoch neue Favoriten hinzuzufügen, müssen bestehende entfernt werden, bis das Limit wieder unterschritten wird. Generell empfiehlt es sich, mit einem frischen Konto zu verknüpfen.
+
+Nutzer, die über die [[Special:MyLanguage/Creator Economy|Creator Economy]] auf einer Plattform (Steam, Meta, Pico, Viveport, Google) Einkäufe getätigt haben, können ihr Konto nicht mit einem vollständigen VRChat-Konto verknüpfen. Diese Einschränkung ist vorübergehend und wird voraussichtlich aufgehoben.
+
+== Verknüpfungsprozess ==
+[[File:MainMenuLinkAccountButton.png|alt=Bildschirmfoto des VRChat-Menüs mit sichtbarem „Konto verknüpfen“-Button.|thumb|Menü mit „Konto verknüpfen“-Button.]]
+Um ein Plattform-Konto mit einem vollständigen VRChat-Konto zu verschmelzen, gehe wie folgt vor:
+Melde dich bei dem Steam-, Meta-, Pico-, Google- oder Viveport-Konto an, das du verknüpfen möchtest.
+Öffne das Hauptmenü in VRChat.
+Navigiere zu '''Einstellungen'''.
+Suche und klicke den unterhalb der Option „Beenden“ liegenden Button '''Konto verknüpfen'''.
+#* Falls der Button '''Konto verknüpfen''' nicht sichtbar ist, bist du wahrscheinlich bereits in einem vollständigen VRChat-Konto angemeldet.
+Befolge die Anweisungen auf dem Bildschirm, um dein Konto zu verknüpfen.
+Sollten weiterhin Schwierigkeiten bei der Konto-Verknüpfung bestehen, wende dich an den VRChat-Support unter {{VRC link|https://vrch.at/support |VRChat-Support}}.
+
+== Nach der Verknüpfung ==
+Die Verknüpfung ist dauerhaft und kann nicht rückgängig gemacht werden. Jedes vollständige VRChat-Konto kann gleichzeitig mit einem Konto jeder unterstützten Plattform verknüpft werden. Die vollständige Zusammenführung der Kontodaten kann bis zu einem Tag dauern. Bei Problemen während oder nach dem Vorgang wende dich bitte an den VRChat-Support unter {{VRC link|https://vrch.at/support |VRChat-Support}}.
+
+<div class="mw-translate-fuzzy">
+== Bevorstehende Unterstützung für Discord-Konten ==
+{{Noticebox/unreleased|VRChat kündigte kürzlich [https://ask.vrchat.com/t/developer-update-25-september-2025 an], eine VRChat-Plattform-Kontoverwaltung für Discord anzubieten.}}
+[[File:VRC_Discordaccountlink.webp|thumb|Demo eines UI-Elements: Ein Nutzer kann sein Discord- und VRChat-Konto verknüpfen.]]
+[[File:VRC_loginscreenDiscord.webp|thumb|VRChat-Login-Bildschirm mit der Option, sich über Discord anzumelden.]]
+Am 25. September 2025<ref> zeigte ein veröffentlichtes [[Developer Update]] eine zukünftige Funktion, mit der ein VRChat-Konto und ein Discord-Konto miteinander verknüpft werden können. Nutzer erhalten außerdem die Möglichkeit, ein plattformgebundenes [[VRChat-Konto]] zu erstellen und sich über Discord einzuloggen. Die Verknüpfung kann jederzeit – sowohl über Discord als auch über VRChat – wieder aufgehoben werden.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Pre-link considerations ==
-=== Favorites limit ===
-Upon merging, if the total number of favorites from both accounts exceeds the platform's maximum limit, users may retain more favorites than typically allowed. However, to add new favorites, users must remove existing ones to fit within the limit. It is generally advised to link into a fresh account.
-</div>
+Stand: 16. Oktober 2025 ermöglichte die [[Open Beta]] für [https://docs.vrchat.com/docs/vrchat-202541-openbeta 2025.4.1] die Anmeldung bei VRChat über Discord sowie die Verknüpfung der Konten.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Purchase restrictions ===
-Users who have made purchases through the [[Special:MyLanguage/Creator Economy|Creator Economy]] on any platform (Steam, Meta, Pico, Viveport, Google) cannot link their accounts into a full VRChat account. This restriction is temporary and expected to be lifted.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Linking process ==
-[[File:MainMenuLinkAccountButton.png|alt=A screenshot of the VRChat menu with a visible "Link Account" button.|thumb|Menu with "Link Account" button.]]
-To merge a platform account into a full VRChat account, follow these steps:
-# Log into the Steam, Meta, Pico, Google, or Viveport account you wish to link.
-# Open the Main Menu in VRChat.
-# Navigate to '''Settings'''.
-# Locate and click the '''Link Account''' button below the Exit option.
-#* If the '''Link Account''' button is not visible, you are likely already logged into a full VRChat account.
-# Follow the on-screen instructions to link your account.
-If there are still difficulties with linking your account, contact VRChat support at {{VRC link|https://vrch.at/support|VRChat Support}}.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Post-link ==
-Linking is permanent and irreversible. Each full VRChat account can be linked to one account from each supported platform simultaneously. It can take up to one day for account data to fully merge. For any issues during or after the process, contact VRChat support at {{VRC link|https://vrch.at/support|VRChat Support}}.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Linking for Discord accounts ==
-[[File:VRC_Discordaccountlink.webp|thumb|A demonstration of a UI element, showing that a user can link their Discord and VRChat account.]] [[File:VRC_loginscreenDiscord.webp|thumb|VRChat's log-in screen, giving the option to log in using Discord.]]
-On September 25, 2025<ref>[https://ask.vrchat.com/t/developer-update-25-september-2025 "Developer Update - September 25, 2025"] on ''[https://hello.vrchat.com/blog VRChat's Blog]'' at ''[[hello.vrchat.com]]''. Dated September 25, 2025. Retrieved September 25, 2025.</ref>, a posted [[Developer Update]] demonstrates a future capability to link a VRChat account, and Discord account together. Users will also have the ability to create a platformed [[VRChat account]], and be given the option to log in, using Discord. Additionally, users will be able to unlink their accounts at any time, through Discord or VRChat.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-As of October 16, 2025, the [[Open Beta]] for [https://docs.vrchat.com/docs/vrchat-202541-openbeta 2025.4.1] introduced the ability to log into VRChat, using Discord, as well as linking accounts.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The Discord login feature was officially released in
-[https://docs.vrchat.com/docs/vrchat-202541 2025.4.1] , released on November 3.
-== Official resources ==
-* {{VRC link|https://help.vrchat.com/hc/en-us/articles/360062659053-I-want-to-turn-my-platform-account-through-Steam-Meta-Pico-or-Viveport-into-a-VRChat-account|"I want to turn my platform account through Steam, Meta, Pico or Viveport into a VRChat account"}} at ''help.vrchat.com''
-* {{VRC link|https://vrch.at/support|VRChat Support}}
+<div class="mw-translate-fuzzy">
+== Offizielle Ressourcen ==
+{{VRC link|https://help.vrchat.com/hc/en-us/articles/360062659053-I-want-to-turn-my-platform-account-through-Steam-Meta-Pico-or-Viveport-into-a-VRChat-account |„Ich möchte mein Plattform-Konto über Steam, Meta, Pico oder Viveport in ein VRChat-Konto umwandeln“}} auf ''help.vrchat.com''
+{{VRC link|https://vrch.at/support |VRChat-Support}}
 </div>
 
 <span id="See_also"></span>
 ==Siehe auch==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Special:MyLanguage/VRChat account|VRChat account]]
-* [[Special:MyLanguage/Getting Started|Getting Started]]
-</div>
+[[Special:MyLanguage/VRChat account|VRChat-Konto]]
+[[Special:MyLanguage/Getting Started|Erste Schritte]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==References==
