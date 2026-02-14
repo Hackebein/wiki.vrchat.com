@@ -1,281 +1,125 @@
 <languages/>
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Noticebox/Official}}
-{{Noticebox/wip|The page below is incomplete. Desciptions are missing for toggles, sections not filled out. Considering if these options should be displayed in tables instead of lists. Translations may be broken for a bit.}}
+'''Kamera''' ist ein In-Game-Tool, mit dem Nutzer Fotos aufnehmen können, um ihre Erlebnisse in VRChat festzuhalten
+
+== Zugriffsmöglichkeiten ==
+Es gibt mehrere Wege, die Kamera in VRChat zu öffnen:
+* Öffne das [[Special:MyLanguage/Action Menu|Aktionsmenü]], wähle '''Werkzeuge''' und dann '''Kamera'''.
+* Öffne das [[Special:MyLanguage/Quick Menu|Schnellmenü]] und klicke auf den Kamera-Reiter unten. Das Schnellmenü bietet Zugriff auf alle Kameramodi.
+* Doppelklicke den Kamera-Button am unteren Rand des Schnellmenüs, um die Kamera sofort auszurufen oder wegzustecken.
+
+== Arten ==
+[[File:Camera menu.webp|thumb|Kamera-Reiter im Schnellmenü.]]
+'''Fotokamera:'''
+Eine Standardkamera zum Aufnehmen von Bildern.
+'''Stream-Kamera:'''
+Wird für Streams oder Aufnahmen verwendet und zeigt dabei nicht deine direkte Sicht, sondern einen eigenen Kamerabildschirm. 
+
+Dabei wird im VRChat-Desktop-Fenster die Perspektive der Kamera angezeigt, nicht die Sicht des Nutzers.
+** Sofortbild-Kamera:**
+Funktioniert wie die Fotokamera, erlaubt aber zusätzlich das Ausdrucken des aufgenommenen Bildes.
+Icon-Kamera (nur für [[Special:MyLanguage/VRChat+|VRC+]]-Mitglieder):
+Hiermit lässt sich ein Foto aufnehmen, das in der eigenen Galerie gespeichert und später für Namensplättchen- oder Gruppen-Symbole verwendet wird.
+Galerie-Kamera (nur für VRC+):
+Dient dazu, Fotos zu schießen, die in der persönlichen Galerie landen und anschließend im Profil, auf Gruppenbannern oder in Einladungen angezeigt werden können.
+Screenshot:
+Desktop-Nutzer können hier einen Screenshot erstellen, der automatisch im VRChat-Fotos-Ordner auf der Festplatte abgelegt wird. 
+
+Multilayer-Kamera:
+Nimmt mehrere Bilder in schneller Folge mit unterschiedlichen Ebenen auf; unterstützt jedoch keine Fokussierung oder Filter und kann zu Bildraten-Einbrüchen führen.
+
+<div class="mw-translate-fuzzy">
+Dabei werden drei Foto-Typen erzeugt:
+„All-in-One“ – vollständiges Bild
+„Nur Umgebungsebene“ – nur die Welt ohne Avatare
+„Nur Lokale Spieler + Entfernte Spieler“ – nur die Avatare ohne Welt
+Einladungsfoto-Kamera (nur für VRC+):
+Ermöglicht es, ein Foto zu schießen, das optional mit einer Einladung oder Antwort versendet wird.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-The '''Camera''' is an in-game tool that allows users to take photos to capture their experiences in VRChat.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Accessing==
-There are multiple ways to access the camera in VRChat:
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Open the [[Special:MyLanguage/Action Menu|Action Menu]], select '''Tools''', then select '''Camera'''.
-* Open the [[Special:MyLanguage/Quick Menu|Quick Menu]] and click on the Camera tab on the bottom row. The Quick Menu provides options for all camera modes.
-* Double-click the Camera tab on the bottom tab of the Quick Menu. This will immediately take out or put away the camera.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Modes==
-[[File:Camera menu.webp|thumb|Camera tab in the Quick Menu.]]
-The camera modes determine how the camera behaves when taking a photo. There are seven camera modes which corresponds to different features:
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Local Photo : After taken, it captures a regular photo. This is the default mode.
-; Multi Layer : After taken, it captures a photo and creates images of each enabled mask. This mode does support focus or filters and may cause frame lag. 
-: It can create up to three additional images (besides the regular photo): "Environment", "Users" (Combines the Local & Remote Users masks), and "UI". The "Users" & "UI" masks save with alpha transparency.
-; Stream : Replaces the desktop view with the camera view. In desktop mode, the "Spout Stream" toggle will appear, allowing the user to receive the camera view through supported applications. 
-: The "Spout Stream" toggle requires applications to support the [https://spout.zeal.co/ Spout] protocol to receive the camera view.
-: This mode is only available on PC.
-; Gallery : After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a rectangular crop. "Save & Apply" saves it to the Photo Gallery section of the Inventory. Requires VRC+.
-; User Icon : After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a circular crop. "Save & Apply" saves it to the User Icon section of the Inventory and will automatically set the user icon to it. Requires VRC+.
-; Sticker : ''See also [[Special:MyLanguage/Stickers|Stickers]] for more detailed information.''
-: Shows a square outline, highlighting the cropping region. After taken, the "Create Sticker" UI appears, allowing the user to zoom, reposition and mirror the photo with six preset crops. "Save" saves it to the Stickers section of the Inventory. Requires VRC+.
-; Print : ''See also [[Special:MyLanguage/Prints|Prints]] for more detailed information.''
-: After taken, the print UI appears, allowing the user to edit the note. "Print & Save" saves it to the Prints section of the Inventory and will automatically print the print within the world. Requires VRC+.
-; Emoji : ''See also [[Special:MyLanguage/Emojis|Emojis]] for more detailed information.''
-: Shows a square outline, highlighting the cropping region. After taken, the "Create Emoji" UI appears, allowing the user to choose animations, zoom, reposition and mirror the photo with six preset crops. "Save" saves it to the Emoji section of the Inventory. Requires VRC+.
-:Animated options require the user to take a photo for every frame (4 or 16).
-:; Emoji (1)
-:; Animated (4)
-:; Animated (16)
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-These three "modes" are not accessible through the Camera Mode button, but rather other means:
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Launch Drone: ''See also [[Special:MyLanguage/Camera Drone|Camera Drone]] for more detailed information.''
-: Brings out the Camera Drone. 
-; Screenshot : Takes a photo without [[Special:MyLanguage/HUD|HUD]] elements. Captures in 1920x1080 by default, unless changed in the [https://docs.vrchat.com/docs/configuration-file config file].
-; Photo Invite : Invite/Request Invites or Invite/Request Responses can be sent with an image. After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a rectangular crop. "Save & Apply" attaches it to invite/response. Requires VRC+.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Options==
+== UI ==
 [[File:Camera.png|thumb|Overview of the VRChat Camera.]]
-The options consist of the toggles are appear around or on the camera frame. Some options can be controlled by both the UI and the Menu.
+The camera UI includes several icons and indicators:
+* '''X in the top left:''' Exit the camera.
+* '''Camera and photo icons:''' Indicate which camera is active.
+* '''Pin icon:''' Indicates the active pin (saved settings).
+* '''Focus icon:''' Indicates if focus is used and which focus mode is selected.
+* '''Filter circles:''' Show whether a filter is applied or not and which filter is selected.
+* '''Turning circle on top center:''' Indicates whether the camera is facing away or towards you.
+* '''Turning arrow on the right:''' Resets the zoom level.
+* '''Zoom line on the right:''' Adjusts zoom; move it down for zooming out (fisheye lens) and up for zooming in.
+* '''Arrow at the bottom:''' Collapses the menu.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===UI===
-The UI toggles are toggles that are on the on center, left or right sides of the camera frame.
-====Default====
-; Close : Closes the camera.
-; Orientation : Switch between landscape and portrait orientation.
-; Flip : Flips the camera. When Anchor is set to "Default", the camera lens turns around 180°, otherwise the image is flipped horizontally.
-; Zoom : Zooms the camera in or out. The camera FOV can be zoomed from 20 to 150, with 45 being the default value.
-; Exposure : Changes the exposure (brightness) of the image. The exposure can be set from -10 to 4, with 0 being the default value.
-; Reset : Resets the zoom and exposure slides to their default values.
-; Info : Shows the status of different camera toggles. Click on a status to quickly cycle through options.
-:; Camera Mode
-:: Cycles through the Photo, Stream, and Multi Layer camera modes.
-:; Pins
-:: Cycles through pins 1, 2 and 3.
-:; Focus
-:: Cycles through Full Auto, Semi Auto, and Manual focuses.
-:; Filters
-:: Cycles through the Blueprint, Glitch, Speed, Hypno, Pixelate, Sketch, Sparkle, Trippy, and Olde camera filters.
+== Menu ==
+* '''Take Photo:''' Takes a photo immediately.
+* '''Timed (5s):''' Takes a photo after a 5-second delay with a countdown sound.
+* '''Camera Mode:''' Expands different modes for the camera.
+** Local Photo, Multi Layer, Stream
+*** [[Special:MyLanguage/VRChat+|VRC+]] exclusive: Gallery Photo, User Icon, Sticker, Prints, Emoji
+* '''Anchor:''' Determines where the camera is attached.
+** '''Default:''' Attached to the user.
+** '''Local:''' Follows user movement but not head movement.
+** '''World:''' Attached to the world, independent of user movement.
+* '''Behavior:''' Adjusts camera performance.
+** '''Smoothed:''' Stabilizes video for smoother footage.
+** '''Look at Me:''' Camera follows where your head is facing.
+** '''Auto Level:''' Keeps the camera level, preventing tilting.
+* '''Focus:''' Controls the focus mode.
+** '''Full Auto:''' Automatically sets the aperture and focal distance.
+** '''Semi Auto:''' Allows adjustment of aperture only.
+** '''Manual:''' Allows adjustment of both aperture and focal distance.
+* '''Pins:''' Saved settings for focus and filter configurations.
+* '''Mask:''' Determines which layers are included in pictures.
+** '''Local User:''' Includes the user and their avatar.
+** '''Remote User:''' Includes other users.
+** '''Environment:''' Includes the world environment.
+** '''Green Screen:''' Replaces the environment with a green screen.
+** '''UI:''' Includes UI elements like the radial menu and camera interface.
+** '''Items:''' Includes items placed by users in the world.
+* '''Lens Visibility:''' Sets how the camera is rendered within the world.
+** '''Off:''' Shows only a small light.
+** '''Ghost:''' Displays a light blue transparent camera lens.
+** '''Solid:''' Displays a solid camera lens.
+* '''Filters:''' Adds visual filters to the camera. Only one filter can be active at a time.
+* '''Photo Resolution:''' Sets the photo resolution. Higher resolutions create larger files and may cause frame lag.
+* '''Grid:''' Overlays a 3x3 grid on the camera screen for visual assistance. The grid does not appear in the actual picture.
+* '''Lock (VR Only):''' Lock the camera so that it cannot be held. This can only be used in VR.
+* '''Fly Mode:''' The camera can be manually controlled within proximity to yourself. Holding down the scroll wheel on desktop, and using a combination of mouse movement and 'WASD' keys will pilot the camera around. In VR, clicking the "Fly" button and using the left and right joysticks after pressing the trigger will toggle movement between the camera, and your avatar.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-====Toggle====
-; Fly Speed : Determines how fast the camera moves in Fly mode. Values range from 0.1 to 15, with 3 being the default.
-: Slider shown only when using Desktop mode or when the Flying toggle is on.
-; Turn Speed : Determines how fast the camera rotates in Fly mode. Values range from 0.1 to 5, with 1 being the default.
-: Slider shown only when using Desktop mode or when the Flying toggle is on.
-; Smoothing Strength : Determines how much smoothing is applied to camera movement. Values range from 0.1 to 10, with 5 being the default.
-: Slider shown only when using the Smoothed toggle.
-; Horizontal Offset : Determines the horizontal offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default. Using the Auto Level Roll toggle will disable this slider.
-: Slider shown only when using the Look-At-Me toggle.
-; Vertical Offset : Determines the vertical offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default.
-: Slider shown only when using the Look-At-Me toggle. Using the Auto Level Pitch toggle will disable this slider.
-; Focal Distance : Determines the depth of field's focal distance. 
-: Slider shown only when using the Manual focus toggle.
-; Aperture : Determines the depth of field's aperture. 
-: Slider shown only when using the Semi Auto or Manual focus toggles.
-; Green Screen : Displays sliders to adjust the color of the green screen mask. The sliders are Hue, Saturation, and Lightness.
-: Sliders shown only when using the GreenScreen toggle.
-:; Hue
-:; Saturation
-:; Lightness
-; Duration : Determines the duration of new dolly points when using time-based motion.
-: Slider shown only when the Dolly toggle is selected.
+=== Manual controls ===
+When focus is put to semi auto or manual additional controls show up.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Menu===
-The Menu toggles are toggles that are below the camera frame.
+* '''Focal Distance:''' At which distance the camera is focused to.
+* '''Aperture:''' How open the aperture is, the lower this number the more blur appears on everything that is not in focus.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-; Take Photo : Takes a photo.
-; Timed (5s) : Takes a photo with a five-second delay. Remote users will see a circular indicator around the lens winding down to when the photo is taken. Photo can be cancelled before the five seconds has passed.
-; Camera Mode : Determines how the camera behaves when taking photos. See the [[Camera#Modes|Modes]] section above to view all options
-; Flying : Allows the camera to fly within the world. Movement is applied to the camera instead of the avatar. When flying normally, the camera is limited to a 15 meter? radius, with Camera Dolly, the radius is increased to 150 meters?, and with the Camera Drone, the range is unlimited.
-: Toggle appears only on VR & Mobile devices.
-; Spout Stream : Allows the camera view to be received through supported applications. This requires applications to support the [https://spout.zeal.co/ Spout] protocol. 
-:The "Stream" camera mode must be selected for it to appear.
-; Audio From Camera : Audio heard will be from the camera position instead of the avatar.
-: The "Stream" camera mode must be selected for it to appear.
+== Camera Dolly ==
+''See also [[Special:MyLanguage/Camera Dolly|Camera Dolly]] for more detailed information.''
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-; Anchor : Determines where the camera is attached.
-:; Default
-:: Attached to the user.
-:; Local
-:: Follows user movement but not head movement.
-:; World
-:: Attached to the world, independent of user movement.
+The camera dolly is a [[Special:MyLanguage/VRChat+|VRC+]] exclusive system that allows you to create and play animations for the VRChat camera.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-; Behavior : Desc
-:; Smoothed
-:: Stabilizes video for smoother footage.
-:; Look-At-Me
-:: Camera follows where your head is facing.
-:; Auto Level Roll (VR)
-:: two colons plus definition
-:; Auto Level Pitch
-:: two colons plus definition
-:; Roll When Flying (VR)
-:: two colons plus definition
-:; Trigger Takes Photos (VR)
-:: Only works when the camera mode is not local photo
+'''Hint:''' Access to the Camera Dolly, allows you to unlock a further camera fly range after you toggle the camera dolly on and off once.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-; Focus : Controls the focus mode.
-:; Off
-:: two colons plus definition
-:; Full Auto
-:: Automatically sets the aperture and focal distance.
-:; Semi Auto
-:: Allows adjustment of aperture only. (Aperture slider appears on right)
-:; Manual
-:: Allows adjustment of both aperture and focal distance. (Focal Distance, Aperture slider appears on right)
-:; Show
-:: (shows focus visualizer)
+== Camera Drone ==
+''See also [[Special:MyLanguage/Camera Drone|Camera Drone]] for more detailed information.''
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-; Pins : Saves camera presets.
-: Anchor, Behavior, Mask, and Filters can be saved to pins.
-:; Pin 1
-:; Pin 2
-:; Pin 3
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Mask : Determines which layers are included in pictures.
-:; Local User
-:: Includes the user and their avatar.
-:; Remote User
-:: Includes other users.
-:; World
-:: Includes the world environment.
-:; GreenScreen
-:: Replaces the environment with a green screen.
-:; UI
-:: Includes UI elements like the radial menu and camera interface.
-:; Items
-:: Includes [[Special:MyLanguage/Items|items]] placed by users in the world.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Dolly : ''See also [[Special:MyLanguage/Camera Dolly|Camera Dolly]] for more detailed information.''
-: This option is only available on PC & Android (Standalone VR).
-:; Add
-:: two colons plus definition
-:; Play (3s)
-:: two colons plus definition
-:; Clear Last
-:: two colons plus definition
-:; Clear All 
-:: (are u sure)
-:; Advanced : Desc
-::; Export
-::: (export path relative to world or local)
-::; Import
-::: (import path)
-::; Show Paths : Desc
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Lens Visibility : Sets how the camera is rendered within the world.
-:; Off
-:: Shows only a small light.
-:; Ghost
-:: Displays a light blue transparent camera lens.
-:; Solid
-:: Displays a solid camera lens.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Filters : Adds visual filters to the camera. Only one filter can be active at a time.
-<gallery mode="packed" heights="80">
-File:CameraFilter None.png|None
-File:CameraFilter Blueprint.png|Blueprint
-File:CameraFilter Glitch.png|Glitch
-File:CameraFilter Speed.png|Speed
-File:CameraFilter Hypno.png|Hypno
-File:CameraFilter Pixelate.png|Pixelate
-File:CameraFilter Sketch.png|Sketch
-File:CameraFilter Sparkle.png|Sparkle
-File:CameraFilter Trippy.png|Trippy
-File:CameraFilter Olde.png|Olde
-</gallery>
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Photo Resolution : Changes the resolution of taken photos.
-:; 720p
-:; 1080p
-:; 1440p
-:; 2160p
-:; 4320p
-:; Config File
-:: Applies the resolution specified within the config file.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Stream Resolution : Changes the resolution of the Spout Stream output.
-:; 720p
-:; 1080p
-:; 1440p
-:; 2160p
-:; Config File
-:: Applies the resolution specified within the config file.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Lock : Disables camera pickup interaction. VR Only.
-; Grid : Displays a [[wikipedia:Rule of thirds|rule of thirds]] grid on the camera.
-; Save Metadata : Attaches metadata to photos when taken.
-: Metadata attached includes: Author display name, Author ID, World display name, and, World ID. If the photo is taken in a private world, the world ID, and world display is not attached.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Behavior==
-===Indicators===
-====Red Beam====
-When a user has their camera out, a red beam will projected upwards and downwards from their camera position. In addition, it will also project a red quad indicating the what direction the camera is facing. These red beams are only visble when the Quick Menu is open.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Timed====
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Audio From Camera====
+The camera drone is [[Special:MyLanguage/VRChat+|VRC+]] exclusive. It serves as a fully-functional drone that you can pilot within VRChat, either for recording purposes or simply to fly around and have fun with friends.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -283,7 +127,7 @@ When a user has their camera out, a red beam will projected upwards and downward
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Windows operating systems''' will store VRChat photos using the default file path of the Pictures folder <code>''C:/Users/(Owner)/Pictures/VRChat''</code>. Photos will be sorted by month and year. On desktop and PCVR versions of VRChat, opening the Camera tab in the Quick Menu and choosing "Open Photos Folder" will directly open the File Explorer to that file path.
+* '''Windows operating systems''' will store VRChat photos using the default file path of the Pictures folder <code>''C:/Users/(Owner)/Pictures/VRChat''</code>. Photographs will be sorted by month and year. On desktop and PCVR versions of VRChat, opening the Camera tab in the Quick Menu and choosing "Open Photos Folder" will directly open the File Explorer to that file path.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -291,11 +135,11 @@ When a user has their camera out, a red beam will projected upwards and downward
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Standalone VR''' users can access their photos through the Files/Photos app on their respective system dashboard or through their respective apps on the user's phone or other device if synced.
+* '''Standalone Quest''' users can access their photos through the Quest's Files app on the system dashboard or through the Oculus app on their phone or other device if synced.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-* '''Mobile''' devices can access their VRChat photos through the Gallery app, or from the Files app on their device.
+* '''Mobile Android and iOS''' devices can access their VRChat photos through the Gallery app, or from the Files app on their device.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -305,13 +149,8 @@ When a user has their camera out, a red beam will projected upwards and downward
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [[Special:MyLanguage/Camera Dolly|Camera Dolly]]
 * [[Special:MyLanguage/Camera Drone|Camera Drone]]
-* [[Special:MyLanguage/Inventory#Photo Gallery|Photo Gallery]]
+* [[Special:MyLanguage/Gallery|Gallery]]
 </div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==Navigation==
-{{Navbox/Camera}}
-</div>
-
+{{Start-navbox}}
 [[Category:User Interface{{#translation:}}]]
 [[Category:Features{{#translation:}}]]
