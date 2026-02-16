@@ -94,11 +94,11 @@ Este ajuste preestablecido es el más seguro y solo permite habilitar todas las 
 | rowspan="9" |Desabilitado
 | rowspan="9" |<span lang="en" dir="ltr" class="mw-content-ltr">Off</span>
 |-
-|Iconos de usuarios
+|<span lang="en" dir="ltr" class="mw-content-ltr">User Icons</span>
 |-
 |Imágenes personalizadas
 |-
-|Dron
+|<span lang="en" dir="ltr" class="mw-content-ltr">Drone</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">Audio</span>
 | rowspan="5" |Desabilitado
@@ -269,7 +269,9 @@ If necessary, you can [[Special:MyLanguage/Reporting#Reporting a user|report a u
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Kicking a user
 </div> [[File:Icons KickUser 25.png|frameless|28x28px]] ====
-Se puede expulsar a un usuario de una instancia mediante una solicitud de expulsión. Todos los usuarios de la instancia con un [[Special:MyLanguage/Trust Rank|Trust Rank]] de Usuario Nuevo o superior recibirán una notificación con opciones de "sí" o "no" sobre la expulsión. Si la mayoría de los usuarios de la instancia votan "sí", el usuario problemático será desconectado de la instancia y no podrá volver a conectarse durante una hora.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+A user can be evicted from an instance, by initiating a vote-kick prompt. Everybody in the instance, with a [[Special:MyLanguage/Trust Rank|Trust Rank]] of New User or above, will receive a notification with options for "yes" or "no" regarding the vote-kick on the user. If a majority of users in the instance vote "yes", then the disruptive user will be disconnected from the instance and will be unable to re-join for one hour.
+</div>
 
 Los usuarios que pueden moderar una instancia pueden omitir el proceso de votación para expulsar y eliminar a un usuario a voluntad. En las instancias de grupo, los usuarios con permisos administrativos también tienen la opción de expulsar o bloquear inmediatamente a alguien del grupo o instancia, impidiéndole así acceder a futuras instancias alojadas por el grupo.
 
