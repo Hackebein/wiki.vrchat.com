@@ -210,8 +210,9 @@ Para salir del modo seguro, abre el menú rápido y vuelve a hacer clic en el bo
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">Animated Emojis</span>
 |}
-<span id="User_moderation_tools"></span>
-==Herramientas de moderación del usuario==
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==User moderation tools==
+</div>
 
 
 * [https://help.vrchat.com/hc/en-us/articles/360062658553-I-want-to-report-someone I want to report someone]
@@ -290,7 +291,9 @@ Al hacer clic en el ícono de "ojo cortado", en la sección Visualización de av
 Choosing '''Globally Hide Avatar''' will blacklist the avatar's blueprint ID, and you will be unable to see the avatar when anybody changes into it. This is the equivalent of "blocking" an avatar.
 </div>
 
-'''Nota:''' Si un amigo usa un avatar que has ocultado globalmente, es posible que lo veas. Cambiar la visibilidad de su avatar a "Avatar protegido" ocultará el avatar oculto globalmente.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Note:''' If a friend is using an avatar that you have globally hidden, it may display for you. Changing their avatar visibility to "Shielded avatar" will hide the globally hidden avatar for you.
+</div>
 
 =====Avatar con escudo [[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]] =====
 El ícono "Escudo" en la sección Visualización de avatar del menú de usuario revertirá su avatar a una variante establecida por su escudo de seguridad y sus preferencias de rendimiento del avatar.
@@ -356,11 +359,13 @@ Las acciones de moderador de la estancia están disponibles si eres el propietar
 ====Acciones de usuario====
 
 [[File:Here tab.webp|thumb|La pestaña "Aquí" del menú rápido, que muestra información de la estancia y botones para varios elementos del inventario.]]
-Puedes seleccionar un usuario y elegir entre las siguientes opciones de moderación:
-* [[File:Icons Report 25.png|frameless|28x28px]] '''Avisar usuario''': Envía un mensaje al usuario para informarle de que ha sido advertido.
-* [[File:Icons KickUser 25.png|frameless|28x28px]] '''Expulsar usuario''': Elimina al usuario de la instancia. No podrá unirse durante 1 hora.
-* [[File:MicrophoneMuted HUD.png|frameless|28x28px]] '''Forzar desactivación del micrófono''': Silencia el micrófono del usuario. El usuario puede reactivarlo libremente.
-* '''[[File:Icons Groups 25.png|frameless|28x28px]]''' '''Banear del grupo''': Expulsa al usuario seleccionado del grupo propietario de la estancia. El usuario no podrá unirse a estancias de grupo de ese grupo y no podrá unirse a ese grupo.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+You can select a user, and choose among the following moderation choices:
+* [[File:Icons Report 25.png|frameless|28x28px]] '''Warn User:''' Send the user a message telling them they have been warned.
+* [[File:Icons KickUser 25.png|frameless|28x28px]] '''Kick User:''' Remove the user from the instance. They will not be able to join for 1 hour.
+* [[File:MicrophoneMuted HUD.png|frameless|28x28px]] '''Force Mic Off:''' Mute the user's microphone. The user can unmute their microphone freely.
+* '''[[File:Icons Groups 25.png|frameless|28x28px]]''' '''Ban From Group:''' Bans the selected user from the group that owns the instance. The user will be unable to join group instances from that group and won't be able to join that group.
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Instance toggles ====
