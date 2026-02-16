@@ -110,7 +110,7 @@ Este ajuste preestablecido es adecuado para el uso diario.
 !Opción de Nombre
 !Visitante
 !Nuevo usuario
-!Usuario
+!<span lang="en" dir="ltr" class="mw-content-ltr">User</span>
 !Usuario habitual
 !Usuario experimentado
 !Amigos
@@ -264,7 +264,9 @@ Al hacer clic en el ícono de "ojo cortado", en la sección Visualización de av
 <span id="Globally_hiding_an_avatar"></span>
 ====== Ocultar globalmente un avatar ======
 
-Al seleccionar "Ocultar avatar globalmente", se bloqueará el ID del plano del avatar y no podrás verlo cuando alguien lo use. Esto equivale a "bloquear" un avatar.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Choosing '''Globally Hide Avatar''' will blacklist the avatar's blueprint ID, and you will be unable to see the avatar when anybody changes into it. This is the equivalent of "blocking" an avatar.
+</div>
 
 '''Nota:''' Si un amigo usa un avatar que has ocultado globalmente, es posible que lo veas. Cambiar la visibilidad de su avatar a "Avatar protegido" ocultará el avatar oculto globalmente.
 
