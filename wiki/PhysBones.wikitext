@@ -13,7 +13,181 @@ As an expansion to PhysBones, the introduction of '''SquishyBones''' was added i
 Initially, Dynamic Bones were still supported, and even had a user option to be automatically converted into PhysBones, but as of the [https://docs.vrchat.com/docs/vrchat-202431 VRChat 2024.3.1] release, Dynamic Bones are now always automatically converted. VRChat SDK changes were made, so that compatibility with uploading new avatars with Dynamic Bones components are no longer permitted.
 
 == SDK ==
-Components for PhysBones, and SquishyBones can be found in the [[VRChat SDK]], and be applied to avatars within avatar projects on Unity.
+Components for PhysBones, and SquishyBones can be found in the [[VRChat SDK]], and be applied to avatars within avatar projects on Unity, and limited forms of PhysBones in world projects.
+
+=== Avatar SDK ===
+{| class="wikitable"
+|+Version 1.1 - Options
+!Option
+!Values
+!Description
+|-
+|Root Transform
+|(Armature component on avatar)
+|The transform where this component begins. If left blank, we assume we start at this game object.
+|-
+|Ignore Transforms Size
+|Integer value 0-99, adds an "Element" which you apply an armature component
+|List of ignored transforms that shouldn't be affected by this component. Ingnored transforms automatically include anty of that transform's children.
+|-
+|Ignore Other PhysBones
+|On/Off
+|When enabled, automatically ignore transforms targeted by another PhysBone component. These are determined at initialization and regardless if the components are enabled or disabled.
+|-
+|Endpoint position
+|X value, Y value, Z value
+|Vector used to create additional bones at each endpoint of the chain. Only used if the value is non-zero.
+|-
+|Multi Child Type
+|Ignore, First, Average
+|Determines how transforms with multiple children are handled. By default those transforms are ignored.
+|-
+|Forces - Integration Type
+|Simplified, Advanced
+|Determines how forces are applied. Certain kinds of motion may require using a specific integration type.
+|-
+|Forces - Pull
+|0.000-1.000
+|Amount of force used to return bones to their rest position.
+|-
+|Forces - Spring (Simplified)
+|0.000-1.000
+|Amount bones will wobble when trying to reach their rest position.
+|-
+|Forces - Momentum (Advanced)
+|0.000-1.000
+|Amount bones will wobble when trying to reach their rest position.
+|-
+|Forces - Stiffness (Advanced)
+|0.000-1.000
+|Amount bones will try and stay at their current orientation.
+|-
+|Forces - Gravity
+|0.000-1.000
+|Amount of gravity applied to bones. Positive value pulls bones down, negative pulls upwards.
+|-
+|Forces - Gravity Falloff
+|0.000-1.000
+|Reduces gravity while bones are at their rest orientation. Gravity will increase as bones rotate away from their rest orientation, reaching full gravity at 90 degress ''[sic]'' from rest.
+|-
+|Forces - Immobile Type
+|All Motion, Worlds (Experimental)
+|Determines for immobile is calculated.
+All Motion - Reduces any motion as calculated from the root transform's parent.
+World - Reduces positional movement from locomotion, any movement due to animations or IK still affect bones normally.
+|-
+|Forces - Immobile
+|0.000-1.000
+|Reduces the effect movement has on bones. The greater the value the less motion affects the chain as determined by the Immobile Type.
+|-
+|Limits - Limit Type
+|None, Angle, Hinge, Polar
+|Type of angular limit applied to each bone.
+|-
+|Max Angle (Angle, Hinge)
+|0.0-180.0
+|Maximum angle each bone can rotate from its rest position.
+|-
+|Max Pitch (Polar)
+|0.0-180.0
+|Maximum angle each bone can rotate from its rest position.
+|-
+|Max Yaw (Polar)
+|0.0-90.0
+|Maximum angle each bone can rotate from its rest position.
+|-
+|Rotation
+|Pitch: 0.000-360.000, Roll: 0.000-360.000, Yaw: 0.000-360.000
+|Rotation of angle
+|-
+|Collision - Radius
+|0.000-9,999,999.000
+|Collision radius around each bone. Used for both collision and grabbing.
+|-
+|Allow Collision
+|True, False, Other
+|Allows collision with colliders other than the ones specified on this component. Currently the only other colliders are each player's hand as defined by their avatar.
+|-
+|Allow Self (Other)
+|On/Off
+|Allow collision for yourself.
+|-
+|Allow Others (Other)
+|On/Off
+|Allow collision for other users.
+|-
+|Colliders - Size
+|0-99, adds an "Element" which you apply a Phys Bone Collider Base component
+|List of colliders that specifically collide with these bones.
+|-
+|Stretch Motion
+|0.000-1.000
+|The amount motion will affect the stretch/squish of the bones. A value of zero means bones will only stretch/squish as a result of grabbing or collisions.
+|-
+|Max Stretch
+|0.000-9,999,999.000
+|Maximum amount the bones can stretch. This value is a multiple of the original bone length.
+|-
+|Max Squish
+|0.000-1.000
+|Maximum amount the bones can shrink. This value is a multiple of the original bone length.
+|-
+|Allow Grabbing
+|True, False, Other
+|Allows players to grab the bones.
+|-
+|Allow Self (Other)
+|On/Off
+|Allows yourself to grab your own bones.
+|-
+|Allow Others (Other)
+|On/Off
+|Allows other users to grab your bones.
+|-
+|Allow Posing
+|True, False, Other
+|Allows players to pose the bones after grabbing.
+|-
+|Allow Self (Other)
+|On/Off
+|Allows you to pose your own bones.
+|-
+|Allow Others (Other)
+|On/Off
+|Allows other users to pose your bones.
+|-
+|Grab Movement
+|0.000-1.000
+|Controls how grabbed bones move. A value of zero results in bones using pull & spring to reach the grabbed position. A value of one results in bones immediately moving to the grabbed position.
+|-
+|Snap To Hand
+|On/Off
+|When a bone is grabbed it will snap to the hand grabbing it.
+|-
+|Parameter
+|[Parameter name]
+|Keyname used to provide multiple parameters to the avatar controller
+|-
+|Is Animated
+|On/Off
+|Allows bone transforms to be animated. Each frame bone rest position will be updated according to what was animated.
+|-
+|Reset When Animated
+|On/Off
+|When this component becomes disabled, the bones will automatially ''[sic]'' reset to their default rest position
+|-
+|Show Gizmos
+|On/Off
+|N/A
+|-
+|Bone Opacity
+|0.000-1.000
+|N/A
+|-
+|Limit Opacity
+|0.000-1.000
+|N/A
+|}
 
 ==Avatar performance==
 PhysBones were introduced to VRChat as an optimized and free alternative to legacy Dynamic Bones for Unity. Compared to Dynamic Bones, more PhysBones can be applied to an avatar on both PC, and Android versions, as they are more cost-performant.
