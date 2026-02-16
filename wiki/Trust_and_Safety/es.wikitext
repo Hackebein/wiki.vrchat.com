@@ -21,7 +21,9 @@ Las funciones de seguridad de VRChat son un aspecto crucial. Ofrece muchas funci
 ===Niveles de seguridad [[File:Icons ShieldLevel Normal 25.png|frameless|28x28px]]===
 Los niveles de escudo son una de las primeras líneas de protección cuando conoces a nuevos usuarios, al encontrarte con sus avatares u otro contenido. Permiten activar o desactivar ciertas funciones según el [[Special:MyLanguage/Trust Rank|rango de confianza]] del usuario o de su avatar. 
 
-Hay varias configuraciones predefinidas que los usuarios pueden seleccionar en los ajustes de niveles de seguridad: Máximo, normal, ninguno y personalizado. Estas opciones están disponibles para acceso rápido desde el [[Special:MyLanguage/Quick Menu|menú rápido]]. Pulsando el botón de '''Modo seguro''' "[[File:Icons SafeMode 25.png|frameless|16x16px]]" en la parte inferior derecha del menú rápido, se activará instantáneamente el nivel de escudo "Máximo". 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+There are several pre-set configurations users select in the Shield Level settings, from Maximum, Normal, None, and Custom. These are available for quick access in the [[Special:MyLanguage/Quick Menu|Quick Menu]]. Pressing the '''Safe Mode''' "[[File:Icons SafeMode 25.png|frameless|16x16px]]" button at bottom right of the Quick Menu will instantly activate the Maximum shield level.
+</div> 
 
 Para los usuarios nuevos, se recomienda empezar usando los ajustes '''Normal''' o '''Máximo'''. Si se desea ver completamente el avatar de otro usuario sin las restricciones del escudo, se pueden seleccionar con el menú rápido abierto y elegir la opción "Mostrar avatar", indicado por la indicación de un 'ojo' debajo de "Visualización del avatar".
 
@@ -50,7 +52,7 @@ Here is a list of options available for customization:
 |[[Special:MyLanguage/Camera Drone|Dron]]
 |-
 |Audio
-| rowspan="4" |Avatar
+| rowspan="4" |<span lang="en" dir="ltr" class="mw-content-ltr">Avatar</span>
 |-
 |Luces y partículas
 |-
@@ -216,7 +218,9 @@ VRChat se basa en la automoderación para gestionar la mayoría de los casos rel
 <span id="Managing_users"></span>
 === Gestionar usuarios ===
 
-Hay varias herramientas para gestionar a los usuarios que te rodean. Puedes seleccionar a los usuarios que están presentes en la estancia contigo para moderarlos, o moderar usuarios de forma preventiva buscando su nombre de usuario en la pestaña '''Buscar''' del [[Special:MyLanguage/Main Menu|menú principal]]. También es posible explorar usuarios en la sección '''Vistos recientemente''' de la pestaña social del menú principal y gestionar acciones adicionales.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+There are various tools to be able to manage users around you. You can select users to moderate, that are present in the instance with you, or pre-emptively moderate users by searching their username in the '''Search''' tab of the [[Special:MyLanguage/Main Menu|Main Menu]]. It's also possible to browse users in the '''Recently Seen''' section on the Social tab of the Main Menu and manage further actions.
+</div>
 
 ====Silenciar a un usuario [[File:NameplateMuteIcon.png|frameless|28x28px]]====
 Cuando un usuario esté molesto o hable demasiado alto, selecciónelo para bajar el volumen de su micrófono o silenciarlo por completo. Si está en la misma instancia que un usuario que silenció, verá un indicador de "sordo" [[File:NameplateMuteDeafen.png|frameless|28x28px]] sobre su [[Special:MyLanguage/Nameplates|nameplate]], lo que indica que lo ha silenciado.
