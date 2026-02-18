@@ -11,8 +11,9 @@ Playing videos not from the video player allowlist<ref>[https://creators.vrchat.
 If hosting video yourself, VRChat may or may not be able to play various filetypes, depending on the user's platform.  This also varies depending on whether the player is using AVPro or Unity video player.
 
 (This table is a work in progress, please fill in other platforms as you're able. Platform compatibility can be tested within this [https://vrchat.com/home/world/wrld_bcc3fb8b-6bbd-4ea8-991b-7f7da49c1a56/info community world].) 
-{| class="wikitable"
+{| class="wikitable sortable"
 |+
+!
 !
 !
 !Win 10
@@ -23,17 +24,19 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 !Android<ref group="note">needs always to be served over https</ref>
 !iOS
 |-
-|Codec
-|Container
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
+!style="background-color:#777" |Video
+!style="background-color:#777" |Audio
+!style="background-color:#777" |Container
+!style="background-color:#444" |<small>AVPro / Unity</small>
+!style="background-color:#444" |<small>AVPro / Unity</small>
+!style="background-color:#444" |<small>AVPro / Unity</small>
+!style="background-color:#444" |<small>AVPro / Unity</small>
+!style="background-color:#444" |<small>AVPro / Unity</small>
+!style="background-color:#444" |<small>AVPro / Unity</small>
+!style="background-color:#444" |<small>AVPro / Unity</small>
 |-
 !H.264
+!AAC
 !MP4
 | align="center" |?
 | align="center" |✔️/✔️
@@ -44,6 +47,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/✔️
 |-
 !H.265
+!AAC
 !MP4
 | align="center" |? <ref group="note" name="hevc_video_extentions">Requires [https://apps.microsoft.com/detail/9nmzlz57r3t7 HEVC Video Extensions] to be installed</ref>
 | align="center" |✔️/✔️
@@ -54,6 +58,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |❌<ref group="note">sound was played, but screen was staying dark</ref>/❌<ref group="note">video loading was succeed, but there was no sound nor screen content</ref>
 |-
 !VP8
+!Vorbis
 !WebM
 | align="center" |?
 | align="center" |✔️/✔️
@@ -64,6 +69,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |❌/✔️
 |-
 !VP9
+!Vorbis
 !WebM
 | align="center" |?
 | align="center" |✔️/❌
@@ -74,6 +80,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |❌/❌
 |-
 !VP9
+!Vorbis
 !MKV
 | align="center" |?
 | align="center" |✔️/✔️
@@ -84,6 +91,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |❌/❌
 |-
 !AV1
+!AAC
 !MP4
 | align="center" |?
 | align="center" |✔️/✔️
@@ -94,6 +102,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/✔️
 |-
 !AV1
+!Vorbis
 !WebM
 | align="center" |?
 | align="center" |✔️/❌
@@ -104,6 +113,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |❌/❌
 |-
 !AV1
+!Vorbis
 !MKV
 | align="center" |?
 | align="center" |✔️/✔️
@@ -113,15 +123,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/✔️
 | align="center" |❌/❌
 |-
-|colspan=2|Audio Only:
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-| align="center" |<small>AVPro / Unity</small>
-|-
+! -
 !AAC
 !M4A
 | align="center" |?
@@ -132,6 +134,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/❌
 | align="center" |✔️/❌
 |-
+! -
 !AAC
 !MP4
 | align="center" |?
@@ -142,6 +145,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/❌
 | align="center" |✔️/❌
 |-
+! -
 !FLAC
 !FLAC
 | align="center" |?
@@ -152,6 +156,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/❌
 | align="center" |✔️/❌
 |-
+! -
 !FLAC
 !MP4
 | align="center" |?
@@ -162,6 +167,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/❌
 | align="center" |✔️/❌
 |-
+! -
 !MP3
 !MP3
 | align="center" |?
@@ -172,6 +178,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/❌
 | align="center" |✔️/❌
 |-
+! -
 !MP3
 !MP4
 | align="center" |?
@@ -182,7 +189,8 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/❌
 | align="center" |❌<ref group="note">loading was not finished in a brief time</ref>/❌
 |-
-!OGG
+! -
+!Vorbis
 !OGG
 | align="center" |?
 | align="center" |✔️/❌
@@ -192,7 +200,8 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✔️/❌
 | align="center" |❌<ref group="note">the resource was loaded but played no sound</ref>/❌
 |-
-!OGG
+! -
+!Vorbis
 !MKV
 | align="center" |?
 | align="center" |✔️/❌
