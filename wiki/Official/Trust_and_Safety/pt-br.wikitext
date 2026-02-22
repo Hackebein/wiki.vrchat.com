@@ -227,9 +227,7 @@ Se um usuário estiver incomodando você com o [[Special:MyLanguage/chatbox|chat
 ====Bloqueando um usuário [[File:Icons BlockUser 25.png|frameless|28x28px]] ====
 Caso o usuário continue sendo irritante, você pode bloqueá-lo. Isso impedirá que você o veja, e ele também não poderá ver você. Um usuário não conseguirá saber que foi bloqueado, a menos que tenha permissões de moderação na instância. Você pode visualizar sua lista de usuários bloqueados acessando a aba [[Special:MyLanguage/Social|Social]] do Menu Principal e rolando até '''Bloqueados''', onde poderá denunciá-los ou desbloqueá-los.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-'''Note:''' Any global Udon scripts or prefabs may still network your presence globally, including to users blocked.
-</div>
+'''Nota:''' Quaisquer scripts ou prefabs globais feitos com Udon ainda podem sincronizar sua presença globalmente pela rede, inclusive para usuários bloqueados.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Reporting a user
