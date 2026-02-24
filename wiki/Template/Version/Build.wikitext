@@ -1,10 +1,10 @@
 <onlyinclude>{{#switch: {{lc:{{{1|}}}}}
 <!-- Set upcoming builds to a blank value if no versions are in development.-->
 <!-- CLIENT -->
- | live-mainpage = 1784 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
- | live = 1786 <!-- Put the highest value of either windows, android or ios here . -->
- | live-windows = 1786
- | live-android = 1786 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
+ | live-mainpage = 1800 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
+ | live = 1800 <!-- Put the highest value of either windows, android or ios here . -->
+ | live-windows = 1800
+ | live-android = 1800 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
  | live-ios = 1785 <!-- Put the highest ios value here (ios, ipados). -->
  | open-beta = 1799
  | open-beta-windows = 1799
