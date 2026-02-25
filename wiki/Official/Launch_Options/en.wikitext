@@ -10,7 +10,7 @@ Steam allows you to set launch options per application, to set launch options fo
 You must create a shortcut to the VRChat executable. After launching Oculus Home, launch this shortcut by clicking its icon. The Oculus launcher does not support launch options natively.
 
 === VRC Quick Launcher ===
-The [[VRC Quick Launcher]] allows custom parameters to be set
+The [[VRC Quick Launcher]] allows custom parameters to be set.
 
 ==List of Launch Options and Arguments==
 
@@ -24,7 +24,10 @@ The [[VRC Quick Launcher]] allows custom parameters to be set
 | --fps=x||Overrides the FPS cap to X instead of the default. On Desktop, 90 is the default. In VR, the headset's reported maximum refresh rate is the default.
 |-
 | --profile=x
-|Launches with a different user profile, where X is a number. 0 is the default profile
+|Launches with a different user profile, where X is a number. 0 is the default profile.
+|-
+| --error-world
+|The user will join the [[Error World]] instead of their home world on launch.
 |}
 
 ===Creator===
