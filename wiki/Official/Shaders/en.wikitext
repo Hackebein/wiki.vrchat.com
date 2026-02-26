@@ -8,7 +8,7 @@ The usage of shaders in VRChat are practical for both [[Avatars|avatar]] and [[W
 ===Types of shaders===
 In VRChat, there are a large number of various different shading styles seen in the game. They can have the appearance of flat colors in a cartoony style, or have a realistic appearance where rounded areas having a dimmed appearance when reacting to certain lighting conditions.
 
-Shaders are coded through various methods in Unity for the built-in Rendering Pipeline (URP), which VRChat is rendered on.
+Shaders are coded through various methods in Unity for the Built-in Render Pipeline, which VRChat is rendered on.
 
 ===VRChat Shaders===
 The [[VRChat SDK]] includes a few shaders, created by the developers for usage in both avatar and world creation. Many of them are designed to be optimized for mobile platforms, such as on the Meta Quest.
