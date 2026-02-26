@@ -3,7 +3,6 @@
 '''Platforms''' are the different systems on which [[Special:MyLanguage/VRChat|VRChat]] can run. While users can join the same [[Special:MyLanguage/Instances|instance]] and see and interact with each other regardless of platform, the content within VRChat such as [[Special:MyLanguage/Avatars|avatars]] and [[Special:MyLanguage/Worlds|worlds]] must be built specific for each platform.
 
 == Supported platforms ==
-
 The following platforms are supported by VRChat.
 * {{Platform|windows|22}} Windows 
 * {{Platform|android|22}} Android 
@@ -11,8 +10,20 @@ The following platforms are supported by VRChat.
 
 ''See also [[Getting Started#System_requirements_/_recommendations|System Requirements]] for more detailed information on which devices you can download and experience VRChat on.
 
-== Platform specific content ==
+==Platform versions==
+Platform versions are typically in-sync, but there are occasions when a patch is released exclusively for a specific platform or when its release is delayed on one platform compared to others.
+{| class="wikitable"
+|-
+! Platform !! Version
+|-
+| Windows || {{Template:Version|live-windows}}
+|-
+| Android || {{Template:Version|live-android}}
+|-
+| iOS || {{Template:Version|live-ios}}
+|}
 
+== Platform specific content ==
 While users can connect with each other regardless of platform, not all content is available to every platform. A user on Quest for example might encounter a user on PCVR wearing an avatar built for PCVR only. When this occurs, the Quest user will either see an [[Special:MyLanguage/Impostors|impostor]] of the PCVR user's avatar, or else they might see their [[Special:MyLanguage/Fallbacks|fallback]]. If neither of these are set, then the PCVR user will appear as the default [[Special:MyLanguage/Robot|Robot]] avatar. This applies in reverse as well is the Quest user is in an avatar not built for PCVR.
 
 Worlds built for different platforms are handled somewhat differently. Unlike avatars, there are no imposter or fallback worlds, meaning users on different platforms can only join the same world if it is built for each platform. This applies to [[Special:MyLanguage/Portals|portals]], joining a world directly, and joining a world off of a friend or invitation.
