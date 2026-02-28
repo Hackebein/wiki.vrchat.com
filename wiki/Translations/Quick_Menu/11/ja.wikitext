@@ -1,38 +1,38 @@
 {| class="wikitable"
-!Element
-!Icon
-!Description 
+!要素
+!アイコン
+!説明
 |-
 |'''Earmuff Mode'''
 |[[File:EarmuffModeIcon QM.png|frameless|32x32px]]
-|Appears when [[Special:MyLanguage/Earmuff Mode|Earmuff Mode]] is on, displays earmuff mode distance and a "Turn Off" button on the far right.
+|[[Special:MyLanguage/Earmuff Mode|Earmuff Mode]]がオンのときに表示されます。イヤーマフの距離が表示され、右端に「Turn Off」ボタンが表示されます。
 |-
-| '''Streamer Mode'''
+|'''Streamer Mode'''
 |[[File:StreamerModeIcon QM.png|frameless|32x32px]]
-|Appears when Streamer Mode is active. "Turn Off" button on the far right.
+|Streamer Modeが有効なときに表示されます。右端に「Turn Off」ボタンが表示されます。
 |-
 |'''Safe Mode'''
 |[[File:SafeModeIcon QM.png|frameless|32x32px]]
-|Appears when Safe Mode is active. "Turn Off" button on the far right.
+|Safe Modeが有効なときに表示されます。右端に「Turn Off」ボタンが表示されます。
 |-
 |'''Preloading World'''
 |N/A
-|Appears when preloading a world. The icon is the thumbnail of the world you are preloading. 
-When preloading, the name, and download size of the world displays, along with a status bar showing the progress of the preload. You can cancel the preload at anytime by clicking the "Cancel" button of the far right. 
-When the world is finished preloading, you can join the world by clicking the "Join" button on the far right. 
+|ワールドのプリロード中に表示されます。アイコンはプリロード中のワールドのサムネイルです。  
+プリロード中は、ワールド名とダウンロードサイズ、および進行状況を示すステータスバーが表示されます。右端の「Cancel」ボタンをクリックすると、いつでもプリロードをキャンセルできます。  
+プリロードが完了すると、右端の「Join」ボタンをクリックしてワールドに参加できます。
 |-
 |'''Instance Queue'''
 |[[File:InstanceQueueIcon QM.png|frameless|32x32px]]
 [[File:InstanceQueueReadyIcon QM.png|frameless|32x32px]]
-|Appears when a user is in a [[Special:MyLanguage/Instances#Queues|instance queue]]. 
-When waiting, it displays the queue position by default but this can be changed by clicking it. It can cycle between '''time in queue''', '''position in queue''', and '''hide info'''.
-When ready, the user has 1 minute to join the world by using the "Join" button on the far right, before you get kicked from the queue. 
+|ユーザーが[[Special:MyLanguage/Instances#Queues|インスタンスキュー]]に参加しているときに表示されます。  
+待機中はデフォルトでキュー内の位置が表示されますが、クリックすることで表示内容を変更できます。'''キュー待機時間'''、'''キュー内の位置'''、'''情報を非表示'''の間で切り替え可能です。  
+参加可能状態になると、右端の「Join」ボタンから1分以内に参加する必要があります。時間内に参加しない場合、キューから外されます。
 |-
 |'''Unfinished Report'''
-| [[File:UnfinishedReportIcon QM.png|frameless|32x32px]]
-|Appears when the user has a unfinished report. Click the "Open" button on the far right to resume the report.
+|[[File:UnfinishedReportIcon QM.png|frameless|32x32px]]
+|未完了の通報がある場合に表示されます。右端の「Open」ボタンをクリックすると通報を再開できます。
 |-
 |'''Previewing Avatar'''
 |[[File:PreviewAvatarIcon QM.png|frameless|32x32px]]
-|Appears when a user changes into an avatar that is locally built or when previewing an [[Special:MyLanguage/Avatar Marketplace|Avatar Marketplace]] avatar. "Take Off" button on the far right.
+|ローカルでビルドしたアバターに変更した場合、または[[Special:MyLanguage/Avatar Marketplace|Avatar Marketplace]]のアバターをプレビューしているときに表示されます。右端に「Take Off」ボタンが表示されます。
 |}
