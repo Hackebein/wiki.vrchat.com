@@ -246,91 +246,93 @@ When ready, the user has 1 minute to join the world by using the "Join" button o
 
 以下は時計のデザインバリアントの一覧です。
 
-<div class="mw-translate-fuzzy">
 {| class="wikitable"
 |+
-!Clock variant
-!Description
+!時計バリアント
+!説明
 |-
 |Normal Clock (Default, Boring)
-|Displays a clock at the top of the Quick Menu.
+|クイックメニュー上部に時計を表示します。
 |-
 | No Time! <sup>to talk?</sup>
-|Removes the clock entirely from the Quick Menu, leaving it blank.
+|クイックメニューから時計を完全に削除し、空白にします。
 |-
 |LGBTQ+ Clock
-|Puts up a colorful rainbow clock, in reference to the [[wikipedia:Rainbow_flag_(LGBT)|Pride Flag]].
+|[[wikipedia:Rainbow_flag_(LGBT)|プライドフラッグ]]にちなんだ、カラフルなレインボー時計を表示します。
 |-
 |Swatch Internet Time (.beats)
-| An alternate decimal-based time measurement; displays [[wikipedia:Swatch_Internet_Time|.beats]]
+|10進法ベースの代替時間表示。[[wikipedia:Swatch_Internet_Time|.beats]]を表示します。
 |-
 |VRChat Session Time ⏱️
-|Shows how long you have been online for, in HH:MM.
+|オンラインになってからの経過時間をHH:MM形式で表示します。
 |-
 |VRChat+ Ultra Premium Time ☆
-|Turns the clock yellow. ''This is a [[Special:MyLanguage/VRC+|VRC+]] exclusive clock!''
+|時計が黄色になります。''これは[[Special:MyLanguage/VRC+|VRC+]]限定の時計です！''
 |-
 |Date Time <sup>(ask them out, you got this!)</sup>
-|The month, date, and year in MM/DD/YYYY format appears.
+|月日年をMM/DD/YYYY形式で表示します。
 |-
 | Is It Thursday?
-|Replies "No" every day, except Thursdays where it says "Yes".
+|木曜日以外は「No」と表示し、木曜日のみ「Yes」と表示します。
+|-
+|Is It NOT Thursday?
+|ランダムなフレーズを表示します。
 |-
 |Large Clock
-|The same as the Normal Clock, but in a larger, easier to see font.
+|通常の時計と同じですが、より大きく見やすいフォントで表示します。
 |-
 |Tiny Clock
-|The same as the Normal Clock, but in a smaller, harder to see font.
+|通常の時計と同じですが、より小さく見づらいフォントで表示します。
 |-
 |WAY TOO LARGE CLOCK
-|Larger than the Large Clock, which exceeds the boundaries of the Quick Menu.
+|Large Clockよりもさらに大きく、クイックメニューの範囲を超えて表示されます。
 |-
 |Broken Clock
-|Always red and blinking "12:00AM" or "00:00", like an LCD alarm clock.
+|常に赤色で点滅する「12:00AM」または「00:00」を表示します（LCD目覚まし時計風）。
 |-
 |Shader Time
-|Displays the current time, in pink. In reference to a Missing Shader error.
+|現在時刻をピンク色で表示します。Missing Shaderエラーへの言及です。
 |-
 |<blink />
-|Allows the current time to blink.
+|現在時刻を点滅表示にします。
 |-
 |<marquee />
-|Causes the clock to 'scroll', as if it were a digital marquee.
+|デジタル電光掲示板のように時計をスクロール表示します。
 |-
 |Backwards Clock 🔙
-|The clock is backwards!
+|時計が逆向きになります！
 |-
 |kcolC esreveR
-|The clock is reversed!
+|時計の文字列が逆順で表示されます！
 |-
 |Backfacing Clock???
-|The clock goes behind the Quick Menu, and VRCat also flips around.
+|時計がクイックメニューの背後に回り込み、VRCatも反転します。
 |-
 |ʞɔolƆ uʍop ǝpᴉsd∩
-|The clock is upside down!
+|時計が上下逆さまになります！
 |-
 |Star Date (TNG)
-|Displays the current ''[[wikipedia:Stardate|Star Date]]'' from Star Trek: The Next Generation. 🖖
+|『[[wikipedia:Stardate|Star Date]]』（『スタートレック：次世代』）の現在の値を表示します。🖖
 |-
 |Unix Time ''(32-bit)''
-|Seconds since January 1, 1970, in relation to the [[wikipedia:Unix_time|Unix Epoch]].
-The maximum signed integer for 32-bit will expire on January 29, 2038. 
+|[[wikipedia:Unix_time|Unixエポック]]（1970年1月1日）からの経過秒数を表示します。
+32ビット符号付き整数の最大値は2038年1月29日に到達します。
 |-
 |Unix Time ''(64-bit)''
-|Seconds since January 1, 1970, in relation to the Unix Epoch.
-The maximum signed integer for 64-bit will expire in billions of years.
+|1970年1月1日からの経過秒数を表示します。
+64ビット符号付き整数の最大値は数十億年後に到達します。
 |-
 |Unix Time ''(Nano)''
 |
 |-
 |''Very'' Accurate Clock
-|Shows hours, minutes, seconds, and 10<sup>-7</sup> in seconds.
+|時・分・秒および10<sup>-7</sup>秒単位まで表示します。
 |-
 |''DateTimeFormat.ShortTimePattern''
-|Displays "'''h:mm tt'''".
+|"'''h:mm tt'''" を表示します。
 |-
 |Udon Network Time
-|Shows the {{VRC link|https://creators.vrchat.com/worlds/udon/networking/|network time for Udon}}, in milliseconds.
+|{{VRC link|https://creators.vrchat.com/worlds/udon/networking/|Udonのネットワーク時間}}をミリ秒単位で表示します。
 |-
 |RFC3339
 |
@@ -348,12 +350,11 @@ The maximum signed integer for 64-bit will expire in billions of years.
 |
 |-
 |Days in VRChat
-|Shows the amount of days since the user joined VRChat.
+|ユーザーがVRChatに参加してからの経過日数を表示します。
 |-
 |Random!
-|Chooses any of the above clocks at random.
+|上記の時計のいずれかをランダムで選択します。
 |}
-</div>
 
 === VRChatクレジット ===
 ''詳細は [[Special:MyLanguage/Creator Economy|クリエイターエコノミー]] を参照してください。''
