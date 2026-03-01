@@ -2,8 +2,10 @@
 {{Noticebox/Official}}
 O VRChat oferece uma série de ferramentas sociais para os usuários, como amigos, convites, notas e muito mais!
 
-<span id="User_Profiles"></span>
+<span id="User_profiles"></span>
+<div class="mw-translate-fuzzy">
 == Perfis de Usuário ==
+</div>
 [[File:UserProfile.webp|thumb|Perfil de usuário do VRChat.]]
 Introduzido na [https://docs.vrchat.com/docs/vrchat-202123 Atualização de Identidade], os perfis de usuário são um espaço personalizado onde são exibidas informações sobre o usuário. As informações no perfil de um usuário incluem [[Special:MyLanguage/Social#Statuses|status]], [[Special:MyLanguage/Trust_Rank|nível de confiança]], [[Special:MyLanguage/Social#Pronouns|pronomes]], biografia, [[Special:MyLanguage/Instances|instância]] atual (se aplicável), idiomas que fala, links sociais, [[Special:MyLanguage/Badges|insígnias]] que possui e os [[Special:MyLanguage/Groups|grupos]] dos quais participa.
 
@@ -112,13 +114,17 @@ No perfil de um usuário, você pode realizar diversas ações, que variam depen
 |}
 <references group="actions"/>
 
-<span id="Uploaded_&amp;_Favorited_Worlds"></span>
+<span id="Uploaded_&amp;_favorited_worlds"></span>
+<div class="mw-translate-fuzzy">
 ===Mundos enviados & favoritos===
+</div>
 
 Abaixo de [[Special:MyLanguage/Social#Actions|ações]] você encontrará uma lista de mundos enviados pelo usuário, bem como quaisquer listas públicas de mundos favoritos. Estes podem ser classificados por data de criação, última atualização, nome e uso recente.
 
-<span id="Social_Menu"></span>
+<span id="Social_menu"></span>
+<div class="mw-translate-fuzzy">
 ==Menu Social==
+</div>
 
 [[File:Social Menu.webp|thumb|alt=Imagem da aba social do menu principal do VRChat.|A aba social do menu principal do VRChat.]]
 
@@ -132,11 +138,15 @@ Abaixo de [[Special:MyLanguage/Social#Actions|ações]] você encontrará uma li
 
 '''Atividade do Grupo''' inclui uma lista de instâncias disponíveis de [[Special:MyLanguage/Groups|Grupo]], para os Grupos dos quais você participa. Ao criar uma instância de Grupo, Grupo+ ou Grupo Público, se você tiver essa permissão, fará com que ela apareça na guia Atividade do Grupo para os usuários desse grupo. 
 
-<span id="Online_Friends"></span>
+<span id="All_Friends"></span>
+<div class="mw-translate-fuzzy">
 ===Amigos Online===
+</div>
 
  
+<div class="mw-translate-fuzzy">
 '''Todos os Amigos''' mostra a lista completa dos seus amigos que estão online no momento, incluindo aqueles com status "Pergunte-me" (laranja) ou "Não perturbe" (vermelho). Também mostra seus amigos ativos no site e aqueles que estão offline.
+</div>
 
 <span id="In_Instance"></span>
 ===Na Instância===
@@ -147,6 +157,14 @@ Abaixo de [[Special:MyLanguage/Social#Actions|ações]] você encontrará uma li
 ===Amigos Favoritos===
 
 As listas de '''Amigos Favoritos''' são compostas por três linhas de amigos que você escolheu como "Favoritos". Os mesmos podem ser colocado em uma das três fileiras. É possível renomear cada lista para facilitar a organização. 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Recently Seen===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Recently Seen''' users are other users you've met in instances. Up to the last 100 recently seen users can be found in this tab and are ordered from the most recent to the oldest.
+</div>
 
 <span id="Blocked"></span>
 ===Bloqueado===
@@ -159,6 +177,7 @@ Usuários '''Bloqueados''' são outros usuários que você decidiu bloquear. Voc
 {{Stub|Add quirks that have to do with friends and such.}}
 Amigos no VRChat são outros usuários em quem você confia. Funciona de forma muito semelhante a adicionar usuários como amigos em outras plataformas: você pode ver quando um usuário está online ou no site, enviar e receber convites deles, e adicionar notas nos mesmos. Os amigos dentro da sua instância terão seus nomes exibidos em amarelo, e também terão seu nível de confiabilidade em amarelo com um indicador (de Amigo).
 
+<div class="mw-translate-fuzzy">
 ==Mútuos==
 {{Stub|Expand on how to see, and disabling mutuals}}
 <!-- Do we want a feature infobox? -->
@@ -173,12 +192,25 @@ Amigos no VRChat são outros usuários em quem você confia. Funciona de forma m
 |branch_openbeta_version = 2025.4.2 Build 1761
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202542-openbeta 2025.4.2 Open Beta]
 }}
+</div>
 
 Mútuos é um recurso que permite ao usuário visualizar amigos ou grupos em comum com outros usuários. 
 
 Existem duas maneiras de ver os mutúos: no Menu Rápido ou no Menu Principal, com o botão "Visualizar X Mútuos". No Menu Rápido, o botão pode ser encontrado na parte superior das ações do usuário. No Menu Principal, o botão será encontrado no canto superior direito, ao lado do botão de denúncia. 
 
 Se você deseja impedir que outros usuários vejam seus amigos e grupos em comum ou apareçam como tal para outras pessoas, você pode desativar a opção "Mostrar Conexões Mútuas" na seção "Conforto e Segurança" das suas configurações no Menu Principal. Ao fazer isso, o texto do botão mudará de "Mostrar X Mútuos" para "Nenhuma Mútuo Conhecido". Além disso, seu ícone de usuário será ocultado e seu nome de usuário aparecerá como "Mútuo Oculto" quando você aparecer nos mútuos de um de seus amigos.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Discord Friends==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Seen in the Social tab under "All Friends", this feature allows you to see your Discord friends with their current status and to perform different actions. Friends with a Discord account linked will have a Discord icon displayed on their profile
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+If your friend has linked their Discord account to their VRChat account, you will be able to invite them to join your instance through Discord. Otherwise, you will be able to invite them to create a VRChat account. You or your friends may prevent your VRChat account from being shown in the Discord section by turning off the "Allow Discord Friends" setting in the '''Comfort & Safety''' section of the settings.
+</div>
 
 ==Referências==
 <references/>
