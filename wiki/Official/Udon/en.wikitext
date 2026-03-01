@@ -1,11 +1,14 @@
 <languages/>
 {{Noticebox/Official}}
 
-[[File:Udon logo.png|thumb|Udon logo]]
+[[File:Udon logo.png|thumb|<translate>Udon logo</translate>]]
+<translate>
 '''Udon''' is a C# derived high level object-oriented programming editor for the [[Special:MyLanguage/VRChat SDK|VRChat World SDK]], created by the VRChat Development Team and released in 2020 for SDK2, then eventually SDK3.
 
 == Overview ==
-[[File:VRChatSDK_UDON_Example.gif|thumb|An example of the Udon Node Graph interface, and a demonstration of its code. ''(Animated GIF)'']]
+</translate>
+[[File:VRChatSDK_UDON_Example.gif|thumb|<translate>An example of the Udon Node Graph interface, and a demonstration of its code. ''(Animated GIF)''</translate>]]
+<translate>
 Udon allows users to utilize the '''Udon Node Graph''' UI for visual scripting, and using 'noodles' to connect nodes together to create advanced scripts for [[Worlds]]. Users can also traditionally code, using '''UdonSharp''' (U#), which allows the use of limited C# syntax. Udon also compiles to its own bytecode known as '''Udon Assembly''', which can be interpreted by the VRChat platform.
 
 Udon is primarily used as a replacement for [https://docs.unity3d.com/ScriptReference/MonoBehaviour.html MonoBehaviors] in Unity. Udon is designed to securely interface with the VRChat platform in a sandboxed environment, with a select set of approved operations to perform various actions, which can optionally be synced across the network. Udon covers a wide range of native C# and Unity operations, as well as VRChat specific operations that can be used to build advanced [[worlds]] and experiences in VRChat. 
@@ -63,6 +66,6 @@ On November 25, 2024, previous plans for Udon 2 were dropped, and a new project 
 == References ==
 {{reflist}}
 <references/>
-
+</translate>
 
 [[Category:Needs images{{#translation:}}]]
