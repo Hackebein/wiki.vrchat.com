@@ -1,5 +1,5 @@
-{{Noticebox/Community}}{{Proofread|Please proofread, and correct any errors on this page, utilizing the [[Special:MyLanguage/VRCWiki:Manual of Style|VRChat Wiki Manual of Style]].}}
-<languages/>
+<languages/>{{Noticebox/Community}}{{Proofread|Please proofread, and correct any errors on this page, utilizing the [[Special:MyLanguage/VRCWiki:Manual of Style|VRChat Wiki Manual of Style]].}}
+
  Writing and submitting bug reports to VRChat's Feedback Board effectively, will both help the development team narrow down the problem, and prevent the problem from happening again in the future.
 
  == Overview ==
@@ -69,7 +69,7 @@ To acquire a log file, navigate to the Settings tab within the Quick Menu, and s
 On PC, your file explorer will open to the folder where the output log is stored. By default, VRChat's output logs on a PC are located under <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>. Check the latest dated file, and attach it to your bug report.
 
  === Linux (via Proton)===
-The location of this folder depends heavily on your distribution<ref group="note" name="compatibility">VRChat on Linux via Proton is not directly supported unless you are using VRChat on the Steam Deck.</ref>and how you've installed Steam.
+The location of this folder depends heavily on your distribution<ref group="note" name="compatibility"> VRChat on Linux via Proton is not directly supported unless you are using VRChat on the Steam Deck.</ref> and how you've installed Steam.
 
  You can usually find the Proton AppData folder for VRChat here:
  ~/.local/share/Steam/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
@@ -90,7 +90,7 @@ To get an output log, or crash dump on a Meta device:
  A detailed bug report should include a brief description of the bug within the title of the bug report, and the build number. Within the summary, please describe the device VRChat is running on, as well as steps on how to reproduce the bug. Describe the intended result, but what had occurred instead.
 [[File:Canny bug report.webp|thumb|An example of a good bug report, which includes a build number, description of the bug, proposed reproduction steps and observations, and an image file.]]
 
- ==== Template for reports<ref>[https://www.twitch.tv/vrchat/clip/SaltyAssiduousEchidnaAMPEnergy-TNqOCjdrYDHegiw9 What a Bug Report needs - Q&A Team StormRel] <!-- fallback video: https://youtu.be/YusV-Atlhog --></ref> ====
+ ==== Template for reports<ref> [https://www.twitch.tv/vrchat/clip/SaltyAssiduousEchidnaAMPEnergy-TNqOCjdrYDHegiw9 What a Bug Report needs - Q&A Team StormRel] <!-- fallback video: https://youtu.be/YusV-Atlhog --></ref> ==== 
   1. Summary
  > Explain in 2-3 Sentence what this report is about. Include the build number.
  VRChat crashed when trying to join a friend on build 1XXX.
