@@ -46,17 +46,15 @@ Une variété de paramètres sont disponibles pour personnaliser les portails. I
 *'''Afficher les notifications de création de portails''' - Fais apparaître des notifications sur l'ATH lors de la création d'un portail.
 *'''Afficher uniquement les notifications « a rejoint/a quitté/a créé un portail »''' - Ce paramètre restreindra les notifications pour n'afficher que des notifications lorsqu'un amis dépose un portail.
 
-
-<span id="Skins"></span>
-== Apparences ==
-
-Les apparences de portail sont un type d’objet cosmétique qui peut être utilisé pour modifier l’apparence des portails. En plus de leur design unique, ils peuvent proposer différentes animations d’ouverture et de fermeture ainsi que des effets sonores. Un skin de portail peut être sélectionné dans l’onglet « Cosmétiques » de l'[[Special:MyLanguage/Inventory|Inventaire]].
+<div class="mw-translate-fuzzy">
+== Skins ==
+Les skins de portail sont un type d’objet cosmétique qui peut être utilisé pour modifier l’apparence des portails. En plus de leur design unique, ils peuvent proposer différentes animations d’ouverture et de fermeture ainsi que des effets sonores. Un skin de portail peut être sélectionné dans l’onglet « Cosmétiques » de l’[[Special:MyLanguage/Inventory|Inventaire]].
 {| class="wikitable"
-|+Listes des apparences connues
+|+Liste des skins de portail connus
 !Image
 !Nom
 !Date de sortie
-!Disponible jusqu'au
+!Valable jusqu'au
 !Condition
 !Description
 |-
@@ -65,81 +63,55 @@ Les apparences de portail sont un type d’objet cosmétique qui peut être util
 |14 août 2024
 | -
 | -
-|''"Le portail par défaut"''
+|Le portail par défaut.
 |-
 |[[File:Portal B3-7A Portal.png|frameless|70x70px]]
 |Portail B3-7A
 |29 septembre 2025
 |14 octobre 2025
-|Acheté dans la [[Special:MyLanguage/Shop|Boutique]] lors de la [https://docs.vrchat.com/docs/vrchat-202534-openbeta bêta ouverte 2025.3.4].
-|<!--"Replaces the default VRChat Portal. Includes a new spawn and despawn animation, as well as sound effects. This is a time-limited item and may not be available again after the conclusion of the 2025.3.4 Open Beta. ..."
-Above is a part of the full description, although it probably doesn't need to be displayed.
+|Acheté dans la [[Special:MyLanguage/Shop|Boutique]] pendant l’[https://docs.vrchat.com/docs/vrchat-202534-openbeta Open Beta 2025.3.4]. 
+|<!--"Remplace le portail VRChat par défaut. Inclut une nouvelle animation d’apparition et de disparition, ainsi que des effets sonores. Il s’agit d’un objet à durée limitée et il pourrait ne plus être disponible après la fin de l’Open Beta 2025.3.4. ..."
+Ci-dessus se trouve une partie de la description complète, bien qu’elle n’ait probablement pas besoin d’être affichée.
 -->
-''« Vous déplacez-vous simplement de dimension en dimension, ou déchirez-vous la trame même de la réalité ? »''
+''« Vous déplacez-vous simplement de dimension en dimension, ou déchirez-vous la trame même de la réalité ? »'' 
 |-
 |[[File:Portal L1-V3 Portal.png|frameless|70x70px]]
 |Portail L1-V3
 |14 octobre 2025
 |6 novembre 2025
-|Acheté dans la [[Special:MyLanguage/Shop|Boutique]]
-|''« Y entrer, c’est devenir une réplique. Vous ne serez plus jamais vous-même, mais serez-vous encore vous ? »''
+|Acheté dans la [[Special:MyLanguage/Shop|Boutique]].
+|''« Y entrer, c’est devenir une réplique. Vous ne serez plus jamais vous-même, mais serez-vous encore vous ? »'' 
 |-
 |[[File:Portal Runic Gateway.png|frameless|70x70px]]
 |Passerelle runique
 |6 novembre 2025
 |8 décembre 2025
-|Acheté dans la [[Special:MyLanguage/Shop|Boutique]]
-|''« Une passerelle runique magique, proposant de nouvelles animations et effets sonores. »''
+|Acheté dans la [[Special:MyLanguage/Shop|Boutique]].
+|''« Une passerelle runique magique, proposant de nouvelles animations et effets sonores. »'' 
 |-
 |[[File:Portal Glacial Construct.png|frameless|70x70px]]
 |Construction glaciale
 |9 décembre 2025
 |5 février 2026
-|Acheté dans la [[Special:MyLanguage/Shop|Boutique]]
-|''« Un portail construit à partir de glace. Propose de nouvelles animations et effets sonores. »''
+|Acheté dans la [[Special:MyLanguage/Shop|Boutique]].
+|''« Un portail construit à partir de glace. Propose de nouvelles animations et effets sonores. »'' 
 |-
 |[[File:Portal_VRCat’s_Cozy_Mantle.png|frameless|70x70px]]
 |Manteau douillet de VRCat
 |8 décembre 2025
-|1 février 2025
-|Offrir un abonnement VRC+ pendant l'[[Special:MyLanguage/Holiday Event 2025|Évènement des fêtes 2025]].
-|''« Le manteau douillet de VRCat ! Un portail sur le thème des fêtes, proposant de nouvelles animations et effets sonores. »''
+|1er février 2026
+|En offrant un abonnement VRC+ pendant l’[[Special:MyLanguage/Holiday Event 2025|Événement des fêtes 2025]].
+|''« Le manteau douillet de VRCat ! Un portail sur le thème des fêtes, proposant de nouvelles animations et effets sonores. »'' 
 |-
-|[[File:Portal_Ring of Fire.png|frameless|70x70px]]
+|[[File:Portal Ring of Fire.png|frameless|70x70px]]
 |Anneau de feu
 |29 décembre 2025
 |5 février 2026
-|Acheté dans la [[Special:MyLanguage/Shop|Boutique]]
-|''« Un portail construit à partir de feu. Propose de nouvelles animations et effets sonores. »''
-|-
-|[[File:Portal_Love’s_Passage.png|frameless|70x70px]]
-|Passage des amoureux
-|5 février 2026
-|28 février 2026
-|Acheté dans la [[Special:MyLanguage/Shop|Boutique]]
-|''« Un portail construit à partir de glace. Propose de nouvelles animations et effets sonores. »''
-|-
-|[[File:Portal_Festival_Gate.png|frameless|70x70px]]
-|Portail festif
-|17 février 2026
-|1 avril 2026
-|Acheté dans la [[Special:MyLanguage/Shop|Boutique]]
-|''« Un portail orné, scintillant de l'esprit du nouvel an lunaire. »''
-|-
-|[[File:Portal Time Washing Machine.png|frameless|70x70px]]
-|Machine à laver dans le temps
-|5 mars 2026
-|14 avril 2026
-|Acheté dans la [[Special:MyLanguage/Shop|Boutique]]
-|''« Une machine à laver dans le temps. Ouai, nan, vraiment. »''
-|-
-|[[File:Portal_Torii_Gate.png|frameless|70x70px]]
-|Portail Torii
-|3 avril 2026
-|1 Juin 2026
-|Acheté dans la [[Special:MyLanguage/Shop|Boutique]]
-|''« Un portail en forme de Torii ! »''
+|Acheté dans la [[Special:MyLanguage/Shop|Boutique]].
+|''« Un portail construit à partir de feu. Propose de nouvelles animations et effets sonores. »'' 
 |}
+</div>
+
 ==SDK==
 
 les auteurs de mondes peuvent ajouter des portails à leurs mondes via le préfab [https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker] du [[Special:MyLanguage/VRChat SDK|SDK VRChat]] qui est situé dans <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>. Cela permet de créer un portail avec un nom personnalisé et l'ID d'un monde. Autrement, le portail peut rediriger vers le Hub officiel de VRChat ou vers le monde d'accueil.
