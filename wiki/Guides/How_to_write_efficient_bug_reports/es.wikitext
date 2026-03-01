@@ -1,165 +1,175 @@
-<languages/>
-{{Noticebox/Community}}{{Proofread|Please proofread, and correct any errors on this page, utilizing the [[Special:MyLanguage/VRCWiki:Manual of Style|VRChat Wiki Manual of Style]].}}
+<languages/>{{Noticebox/Community}}{{Proofread|Please proofread, and correct any errors on this page, utilizing the [[Special:MyLanguage/VRCWiki:Manual of Style|VRChat Wiki Manual of Style]].}}
 
-Escribir y enviar informes de errores al VRChat's Feedback Board (panel de comentarios de VRChat) de manera efectiva ayudará al equipo de desarrollo a identificar el problema y evitar que vuelva a ocurrir en el futuro.
+ <span lang="en" dir="ltr" class="mw-content-ltr">Writing and submitting bug reports to VRChat's Feedback Board effectively, will both help the development team narrow down the problem, and prevent the problem from happening again in the future.</span>
 
-== Descripción general ==
+ <span lang="en" dir="ltr" class="mw-content-ltr">== Overview ==</span>
 {{Thumb|{{YouTube|2nFVVMXqAaE|360px|9 / 16|thumb=File:YTThumb_2nFVVMXqAaE_Severance.webp|title=Tupper…? #Severance #VRChat #vrchatcommunity
-}}|Short sobre el panel de comentarios de VRChat.<ref>[https://www.youtube.com/watch?v=2nFVVMXqAaE Tupper…?] en ''YouTube''.</ref>}}
+}}|Short about VRChat's Feedback Board.<ref>[https://www.youtube.com/watch?v=2nFVVMXqAaE Tupper…?] on ''YouTube''.</ref>}} <span lang="en" dir="ltr" class="mw-content-ltr">You cannot report bugs directly within VRChat, but you can submit bug reports pseudonymously on {{VRC link|https://feedback.vrchat.com|feedback.vrchat.com}} if you have a VRChat account. The platform uses a ticketing system powered by Canny.io, while VRChat employs a separate internal system to manage and track tickets.</span> 
 
-No puedes reportar errores directamente en VRChat, pero puedes enviar informes de errores de forma anónima en {{VRC link|https://feedback.vrchat.com|feedback.vrchat.com}} si tienes una cuenta de VRChat. La plataforma utiliza un sistema de tickets de Canny.io, mientras que VRChat utiliza un sistema interno separado para gestionar y dar seguimiento a los tickets. 
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+== Glossary ==
+These are terms that will help you understand this article better.
+</div>
 
-<span id="Glossary"></span>
-== Glosario ==
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>Bug:</u>''' ''A software defect or error, that can inconvenience the user. Also can be known as a "glitch".''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>Build:</u>''' ''The 'version' that VRChat's software is running. Identifying a build number is crucial to identifying "when" the bug took place, within VRChat's constant line-up of updates. Please write the build number in your bug report. Open Beta uses a different build number than the 'Live' client build.''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>Canny:</u>''' ''The service that VRChat utilizes to manage their feedback. "Post it on Canny" refers to feedback.vrchat.com.''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* <u>'''Debug menus'''</u>: ''There are various [[Debug Menu|menus for debugging]] for advanced users, including the Debug UI which can be opened within the Settings tab of the [[Quick Menu]].''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>Hitching:</u>''' ''An abrupt 'lag spike', or freezing momentarily when triggered by VRChat trying to process an action. Such as "VRChat hitches and lags when I open the menu, or change into another avatar".''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>Log files:</u>''' ''A text document that is generated locally on your device, as VRChat is being used. This provides useful information to the development team, as to which code might be triggering the bug.''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>Reproduction:</u>''' ''Also known as 'repro'. Is the ability to trigger the bug on demand, by performing an action, or a series of actions. Example: "Opening the menu triggers and reproduces the bug."''</span>
 
-Estos son términos que te ayudarán a entender mejor este artículo, estarán en inglés debido a que te los encontrarás así escritos.
-
-* '''<u>Bug:</u>''' ''Un defecto o error de software que puede crear un inconveniente al usuario. También conocido como "glitch.'' 
-* '''<u>Build:</u>''' ''La "versión" del software que ejecuta VRChat. Es importante anotar el número de compilación en tu informe porque indica cuándo se produjo el error.''
-* '''<u>Canny:</u>''': ''El servicio que VRChat utiliza para gestionar sus comentarios. "Publicar en el Canny" se refiere a feedback.vrchat.com.''
-* '''<u>Debug menus:</u>''' ''Hay varios [[Debug Menu|menús de depuración]] para usuarios avanzados, incluida la interfaz de depuración accesible desde la pestaña de ajustes del [[Quick Menu|menú rápido]].''
-* '''<u>Hitching:</u>''' ''Un abruto 'lag spike (pico de retardo)' o un bloqueo momentáneo al activarse cuando VRChat intenta procesar una acción. Por ejemplo, "VRChat traba y se retrasa al abrir el menú o al cambiar de avatar"
-* '''<u>Log files:</u>''' ''Un documento de texto que se genera localmente en tu dispositivo mientras usas VRChat. Esto proporciona información útil al equipo de desarrollo sobre qué código podría hacer saltar el error.''
-* '''<u>Reproduction:</u>''' ''También conocido como 'repro'. Es la capacidad de activar el error a petición, realizando una acción o series de acciones. Ejemplo: "Abrir el menú activa y reproduce el bug (error)."''
-
-<span id="Current_builds"></span>
-== Versiones actuales ==
+ <span lang="en" dir="ltr" class="mw-content-ltr">== Current builds ==</span>
 {| class="wikitable"
-!Software
-!Versión
+! <span lang="en" dir="ltr" class="mw-content-ltr">Software</span>
+! <span lang="en" dir="ltr" class="mw-content-ltr">Version</span>
 |-
 |VRChat
 |{{Template:Version|live}}
 |-
-|Versión del cliente
+| <span lang="en" dir="ltr" class="mw-content-ltr">Client build</span>
 |{{Template:Version/Build|live}}
 |-
-|SDK de mundos
+| <span lang="en" dir="ltr" class="mw-content-ltr">Worlds SDK</span>
 |{{Template:Version|sdk-worlds}}
 |-
-|SDK de avatares
+| <span lang="en" dir="ltr" class="mw-content-ltr">Avatars SDK</span>
 |{{Template:Version|sdk-avatars}}
 |-
-|Creator Companion
+| <span lang="en" dir="ltr" class="mw-content-ltr">Creator Companion</span>
 |{{Template:Version|creator-companion}}
 |-
 |Unity
 |{{Template:Version|unity-sdk}}
 |}
-== Lo que necesitas para un informe de error ==
+
+ <span lang="en" dir="ltr" class="mw-content-ltr">== What you need for a bug report ==</span>
 [[File:Canny.webp|thumb]]
 
-<span id="Logging_in"></span>
-=== Iniciar sesión ===
+ <span lang="en" dir="ltr" class="mw-content-ltr">=== Logging in ===</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">To begin reporting a bug, please go to [https://feedback.vrchat.com feedback.vrchat.com], and proceed to Log In with your [[Special:MyLanguage/VRChat account|VRChat account]]. If you do not yet have a VRChat account, please proceed to [https://vrchat.com/home/register create one on the VRChat website], and optionally, [[Special:MyLanguage/Account Linking|link the accounts]] together.</span>
 
-Para continuar informando sobre el error, por favor ve a [https://feedback.vrchat.com feedback.vrchat.com], y procede a iniciar sesión con tu [[Special:MyLanguage/VRChat account|cuenta de VRChat]]. Si todavía no tienes una cuenta de VRChat, por favor procede a [https://vrchat.com/home/register crear una en la página web de VRChat], y opcionalmente, [[Special:MyLanguage/Account Linking|vincula las cuentas]].
+ <span lang="en" dir="ltr" class="mw-content-ltr">Choose a topic that pertains to your bug report. Please also browse through the rest of the topic names, in case if the bug report can be submitted in a more specific thread.</span> 
 
-Elije un tema que pertenezca a tu informe de error. Por favor, revisa también el resto de los nombres de los temas, en caso de que el informe de error se pueda enviar en un hilo más específico.
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>Bug Reports:</u>''' ''For general bug reports on primary VRChat client builds.''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>Open Beta:</u>''' ''For any bug reports that have occurred on an [[Special:MyLanguage/Open Beta|Open Beta]] build of VRChat.''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* <u>'''Website:'''</u> ''For issues regarding any of VRChat's websites.''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>SDK Bug & Feature Requests:</u>''' ''For problems with the [[Special:MyLanguage/VRChat SDK|VRChat SDK]].''</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">* '''<u>Creator Companion:</u>''' ''For bug reports with the [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]].''</span>
 
-* '''<u>Bug Reports:</u>''' ''Para informes de errores generales sobre versiones de clientes principales de VRChat.''
-* '''<u>Open Beta:</u>''' ''Para cualquier informe de errores que haya ocurrido en una versión de la [[Special:MyLanguage/Open Beta|Open Beta]] de VRChat.''
-* <u>'''Website:'''</u> ''Para problemas relacionados con cualquiera de las páginas web de VRChat.''
-* '''<u>SDK Bug & Feature Requests:</u>''' ''Para problemas con el [[Special:MyLanguage/VRChat SDK|SDK de VRChat]].''
-* '''<u>Creator Companion:</u>''' ''Para informes de errores del [[Special:MyLanguage/VRChat Creator Companion|Creator Companion de VRChat ]].''
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+Once a topic is selected, you can search various community threads to see if another user has already posted a bug report regarding the issue. If so, it is encouraged to upvote the post, and leave a comment if any specifications are not listed. If there is not a post that is yet submitted on the issue, please begin writing a bug report.
+[[File:Debug UIexample.webp|thumb|VRChat's Debug UI]]
+</div>
 
-Una vez que el tema es seleccionado, puedes buscar en los distintos hilos de la comunidad para comprobar si otro usuario ya ha publicado un informe de error sobre el problema. Si es así, se recomienda votar positivamente la publicación y dejar un comentario si falta alguna especificación que no está listada. Si todavía no se ha enviado ninguna publicación sobre el problema, comienza a redactar un informe de error.
+ <span lang="en" dir="ltr" class="mw-content-ltr">=== Logs and attachments ===</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">[https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps Where do I find my Output Logs and Crash Dumps?] on [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]</span>
 
-[[File:Debug UIexample.webp|thumb|Interfaz de depuración de VRChat]]
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+It is advisable to attach screenshots, or a video file (up to 8MB) of the issue to your bug report. Any screenshots showcasing the bug, or screenshots of the debug menus will be relevant towards pinpointing the bug. Attaching log files are not always required, but is considered a helpful supplement to include within the bug report.
+[[File:Debug QM.webp|thumb|The Debug dropdown, within the settings tab of the Quick Menu]]
+To acquire a log file, navigate to the Settings tab within the Quick Menu, and scroll to the "Debug" dropdown. Click "Report Bug", which will mark a flagged timestamp within the output log.
+</div>
 
-<span id="Logs_and_attachments"></span>
-=== Registros y archivos adjuntos ===
-
-[https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps ¿Dónde puedo encontrar mis registros de salida y archivos de volcado por fallo? (en inglés)] en [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]
-
-Es recomendable adjuntar capturas de pantalla o un archivo de vídeo (hasta 8 MB) del problema en tu informe de error. Las capturas que muestren el fallo o los menús de depuración serán útiles para identificarlo con mayor precisión. Adjuntar archivos de registro no siempre es obligatorio, pero se considera un complemento útil para incluir en el informe.
-
-[[File:Debug QM.webp|thumb|Menú desplegable de depuración dentro de la pestaña de ajustes del menú rápido]]
-Para obtener un archivo de registro, ve a la pestaña de ajustes dentro del menú Rápido y desplázate hasta el menú desplegable "Depuración". Haz clic en "Informar de un error", lo que marcará una marca de tiempo señalada dentro del registro de salida.
-
+ <div lang="en" dir="ltr" class="mw-content-ltr">
 === PC ===
+On PC, your file explorer will open to the folder where the output log is stored. By default, VRChat's output logs on a PC are located under <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>. Check the latest dated file, and attach it to your bug report.
+</div>
 
-En PC, tu explorador de archivos se abrirá en la carpeta donde se almacena el registro de salida. Por defecto, los registros de salida de VRChat en PC se ubican en <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> y se llaman <code>output_log_(fecha)</code>. Revisa el archivo con la fecha más reciente y adjúntalo a tu informe de errores.
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+=== Linux (via Proton)===
+The location of this folder depends heavily on your distribution
+</div><ref group="note" name="compatibility"> <span lang="en" dir="ltr" class="mw-content-ltr">VRChat on Linux via Proton is not directly supported unless you are using VRChat on the Steam Deck.</span></ref> <span lang="en" dir="ltr" class="mw-content-ltr">and how you've installed Steam.</span>
 
-<span id="Linux_(via_Proton)"></span>
-=== Linux (vía Proton)===
-
-La ubicación de esta carpeta depende en gran medida de tu distribución<ref group="note" name="compatibility"> VRChat en Linux vía Proton no es compatible directamente a menos que estés utilizando VRChat en la Steam Deck.</ref>y cómo has instalado Steam.
-
-Generalmente puedes encontrar la carpeta Proton AppData para VRChat aquí:
-
-~/.local/share/Steam/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
-Si instalaste Steam vía FlatPak, podría estar aquí:
-~/.var/app/<flatpak-app-id>/(...?)/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+You can usually find the Proton AppData folder for VRChat here:
+ ~/.local/share/Steam/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
+If you installed Steam via FlatPak, it might be here:
+ ~/.var/app/<flatpak-app-id>/(...?)/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
+</div>
 
 <references group="note" />
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+=== Meta and Oculus ===
+To get an output log, or crash dump on a Meta device:
+</div>
 
-<span id="Meta_and_Oculus"></span>
-=== Meta y Oculus ===
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+# Navigate to the Settings page of your Quick Menu
+# Scroll down to the 'Debug' section
+# You'll find 3 options here: '''Full''', '''Errors Only''' or '''Off'''.
+</div>
 
-Para obtener un registro de salida o un volcado por fallo en un dispositivo Meta:
+ <span lang="en" dir="ltr" class="mw-content-ltr">Your output logs can be found in the <code>Documents/Logs</code> folder located in the device root when you've connected your Quest to a PC.</span>
 
-# Ve a la página de ajustes de tu menú rápido
-# Desplázate hacia la sección "Depuración"
-# Aquí encontrarás 3 opciones: '''Completo''', '''Solo errores''' o '''Desactivado'''.
+ <span lang="en" dir="ltr" class="mw-content-ltr">=== Include a detailed description ===</span>
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+A detailed bug report should include a brief description of the bug within the title of the bug report, and the build number. Within the summary, please describe the device VRChat is running on, as well as steps on how to reproduce the bug. Describe the intended result, but what had occurred instead.
+[[File:Canny bug report.webp|thumb|An example of a good bug report, which includes a build number, description of the bug, proposed reproduction steps and observations, and an image file.]]
+</div>
 
-Tus registros de salida se pueden encontrar en la carpeta <code>Documents/Logs</code> ubicada en la raíz del dispositivo cuando hayas conectado tus Meta Quest al PC.
+ <span lang="en" dir="ltr" class="mw-content-ltr">==== Template for reports</span><ref> <span lang="en" dir="ltr" class="mw-content-ltr">[https://www.twitch.tv/vrchat/clip/SaltyAssiduousEchidnaAMPEnergy-TNqOCjdrYDHegiw9 What a Bug Report needs - Q&A Team StormRel] <!-- fallback video: https://youtu.be/YusV-Atlhog --></span></ref> <span lang="en" dir="ltr" class="mw-content-ltr">====</span> 
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+ 1. Summary
+ > Explain in 2-3 Sentence what this report is about. Include the build number.
+ VRChat crashed when trying to join a friend on build 1XXX.
+</div>
+ 
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+ 2. Steps to reproduce the bug:
+ > Write down what you did step by step so someone else can see the problem. For example:
+   1. Open Main Menu
+   2. Visit any Profile
+   3. Double Click "Join" Button
+</div>
+ 
+  <div lang="en" dir="ltr" class="mw-content-ltr">
+3. What did you expect to happen?
+ > Explain what you thought would happen. For example:
+ To join my friends.
+</div>
+ 
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+ 4. What actually happened?
+ > Explain what went wrong. For example:
+ VRChat crashed.
+</div>
+ 
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+ X. Additional details (if any):
+ > Add any other information. For example:
+ * Logs (`%appdata%\..\LocalLow\VRChat\VRChat\`, need to be uploaded external)
+ * Video (can be uploaded external, such as [https://studio.youtube.com/channel/%20/videos/upload?d=ud upload on YouTube])
+ * Screenshots (up to 8MB, or need to be uploaded external)
+ * Links
+</div>
 
-<span id="Include_a_detailed_description"></span>
-=== Incluye una descripción detallada ===
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+== See also ==
+</div>
 
-Un informe de errores detallado debe incluir una breve descripción del error en el título del informe, así como el número de versión. En el resumen, describe el dispositivo en el que se está ejecutando VRChat, así como los pasos para reproducir el error. Explica el resultado esperado y lo que ocurrió en su lugar.
-[[File:Canny bug report.webp|thumb|Un ejemplo de un buen informe de errores, que incluye número de versión, descripción del error, pasos propuestos para reproducirlo y observaciones, así como un archivo de imagen.]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Special:MyLanguage/Open Beta|Open Beta]]
+* [[Special:MyLanguage/Quality Assurance|Quality Assurance]]
+* [[Special:MyLanguage/Reporting#Reporting a bug|Reporting#Reporting a bug]]
+* [[Special:MyLanguage/Guides:How to submit VRChat feedback|Guides:How to submit VRChat feedback]]
+</div>
 
-<span id="Template_for_reportsWhat_a_Bug_Report_needs_-_Q&amp;A_Team_StormRel"></span>
-==== Plantillas para informes<ref>
-[https://www.twitch.tv/vrchat/clip/SaltyAssiduousEchidnaAMPEnergy-TNqOCjdrYDHegiw9 Qué necesita un informe de error - Preguntas y respuestas del equipo de StormRel] <!-- fallback video: https://youtu.be/YusV-Atlhog --></ref>====
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+== Official resources ==
+</div>
 
-1. Resumen 
-> Explica en 2-3 frases de qué trata este informe. Incluye el número de versión.
-VRChat se cerró inesperadamente al intentar unirme a un amigo en la versión 1XXX.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [https://help.vrchat.com/hc/en-us/articles/360062658413-I-found-a-bug-I-want-to-report-a-bug I found a bug/I want to report a bug] on [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]
+* [https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps Where do I find my Output Logs and Crash Dumps?] on [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]
+</div>
 
-2. Pasos para reproducir el error:
-> Escribe lo que hiciste paso a paso para que otra persona pueda ver el problema. Por ejemplo:
-1. Abrir el menú principal
-2. Ir a cualquier perfil
-3. Hacer doble clic en el botón "Unirse"
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+== Community resources ==
+</div>
 
-3. ¿Qué esperabas que ocurriera?
-> Explica lo que pensabas que sucedería. Por ejemplo:
-Unirme a mis amigos.
-
-4. ¿Qué ocurrió en realidad?
-> Explica qué salió mal. Por ejemplo:
-VRChat se cerró inesperadamente.
-
-X. Detalles adicionales (si los hay):
-> Añade cualquier otra información. Por ejemplo:
-* Logs (`%appdata%\..\LocalLow\VRChat\VRChat\`, necesitan ser cargados externamente)
-* Vídeo (se puede cargar externamente,[https://studio.youtube.com/channel/%20/videos/upload?d=ud subir a YouTube])
-* Capturas de pantalla (hasta 8 MB, o necesita ser cargado externamente)
-* Enlaces
-
-<span id="See_also"></span>
-== Véase también ==
-
-* [[Special:MyLanguage/Open Beta|Beta abierta]]
-* [[Special:MyLanguage/Quality Assurance|Seguro de calidad]]
-* [[Special:MyLanguage/Reporting#Reporting a bug|Informar de un bug]]
-* [[Special:MyLanguage/Guides:How to submit VRChat feedback|Guías:Cómo enviar comentarios en VRChat]]
-
-<span id="Official_resources"></span>
-== Recursos oficiales ==
-
-* [https://help.vrchat.com/hc/en-us/articles/360062658413-I-found-a-bug-I-want-to-report-a-bug I found a bug/Quiero informar de un bug] en [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]
-* [https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps ¿Dónde puedo encontrar mis registros de salida y archivos de volcado por fallo?] en [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]
-
-<span id="Community_resources"></span>
-== Recursos de la comunidad ==
-
-* [https://www.softwaretestinghelp.com/how-to-write-good-bug-report/ Cómo redactar un informe de errores: Informes de errores en pruebas de software], de Vijay en ''www.softwaretestinghelp.com''
-
-<span id="References"></span>
-==Referencias==
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [https://www.softwaretestinghelp.com/how-to-write-good-bug-report/ How to Write a Bug Report: Bug Reporting in Software Testing], by Vijay on ''www.softwaretestinghelp.com''
+</div>
+ ==Referencias==
 <references />
-
-[[Category:Guides{{#translation:}}]]
