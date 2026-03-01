@@ -141,10 +141,12 @@ A maioria dos controles de VR é disposta de forma semelhante. Cada controle tem
 |Alterar localmente o avatar para o robô de erro (Útil quando seu avatar causa falhas ou impede que você use o menu)
 |}
 
+<div class="mw-translate-fuzzy">
 ====Rastreamento das Mãos====
 ''Veja também [[Special:MyLanguage/Finger tracking|Rastreamento de Dedos]] para obter informações mais detalhadas.''
 {{Thumb|{{YouTube|oopovk3BPaw}}}}
 [[File:Handtracking controls vrcmenu.webp|thumb|250px|Controles para rastreamento de dedo, dentro das opções do [[Special:MyLanguage/Main Menu|Menu Principal]].]]
+</div>
 
 VRChat também oferece um {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|mundo tutorial}}, e [https://www.youtube.com/watch?v=oopovk3BPaw vídeo tutorial] sobre como configurar o rastreamento de mãos em sistemas Meta Quest, e aprender os gestos feitos através do rastreamento de mãos dentro do VRChat.
 
@@ -332,6 +334,10 @@ O movimento é feito por meio da configuração padrão de um jogo FPS "WASD". O
 <sup>†</sup> Em um teclado com layout QWERTY padrão do Brasil (ABNT2), "aspas duplas"(<code>"</code>) é a tecla no canto superior esquerdo, ao lado da tecla<code>1</code>. Ela compartilha uma tecla com o caractere (<code>'</code>) aspas simples.
 
 As opções de depuração são desativadas a menos que você inicie o VRChat com a opção de lançamento <code>--enable-debug-gui</code>.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+By default, only the world creator can access debug views above 5. However, the creator of the world can enable it for others.
+</div>
 
 <span id="Mobile"></span>
 ===Celular===
