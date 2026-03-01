@@ -141,10 +141,12 @@ La plupart des contrôleurs VR sont disposés de manière similaire. Chaque cont
 |Change localement votre avatar en robot erreur (utile lorsque votre avatar cause des crash ou vous empêche d'accéder à votre menu)
 |}
 
+<div class="mw-translate-fuzzy">
 ====Suivi des mains====
 ''Voir [[Special:MyLanguage/Finger tracking|Suivi des doigts]] pour plus d'informations détaillées.''
-{{Thumb|{{YouTube|oopovk3BPaw|title=VRChat Hand/Finger Tracking Tutorial|thumb=File:Vrc handtrackingthumbnail.webp}}}}  
+{{Thumb|{{YouTube|oopovk3BPaw}}}}  
 [[File:Handtracking controls vrcmenu.webp|thumb|250px|Contrôles pour le suivi des doigts, dans les paramètres du [[Special:MyLanguage/Main Menu|Menu principal]].]]
+</div>
 
 VRChat propose également un {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|monde tutoriel}} ainsi qu'une [https://www.youtube.com/watch?v=oopovk3BPaw vidéo tutoriel] sur la configuration du suivi des mains sur les systèmes Meta Quest et pour apprendre les gestes de suivi des mains dans VRChat.
 
@@ -333,7 +335,9 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 
 Les options de débogage sont désactivées tant que vous ne lancez pas VRChat avec l'option de lancement <code>--enable-debug-gui</code>.
 
-Par défaut, seul le créateur du monde peut accéder à la vue de débogage supérieure à 5. Cependant, celui-ci peut la rendre accessible à tous.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+By default, only the world creator can access debug views above 5. However, the creator of the world can enable it for others.
+</div>
 
 <span id="Mobile"></span>
 ===Contrôles Mobile===
