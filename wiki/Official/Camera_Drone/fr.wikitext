@@ -2,164 +2,142 @@
 {{Noticebox/Official}}{{stub|Not much information here! You can [[Special:MyLanguage/VRCWiki:How to Contribute|contribute]], by expanding and proofreading this article, in accordance with the [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]].}}
 
 {{Infobox/Feature
-|name=  Caméra drone
+|name=  <span lang="en" dir="ltr" class="mw-content-ltr">Camera Drone</span>
 |image= Feature_Drones.png
 |platforms= PC, Quest
-|vrchatplus=  Requis
-|branch_live_date =  26 mar 2025
+|vrchatplus=  <span lang="en" dir="ltr" class="mw-content-ltr">Required</span>
+|branch_live_date =  <span lang="en" dir="ltr" class="mw-content-ltr">26 Mar 2025</span>
 |branch_live_version = 2025.1.3
 |branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202513
-|branch_openbeta_date =  12 mar 2025
+|branch_openbeta_date =  <span lang="en" dir="ltr" class="mw-content-ltr">12 Mar 2025</span>
 |branch_openbeta_version = 2025.1.3
 |branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202513-openbeta
 }}
 
-La '''caméra drone''' est une fonctionnalité de la [[Special:MyLanguage/Camera |caméra]] exclusive à [[Special:MyLanguage/VRC+|VRC+]]. Il sert de [[wikipedia:Unmanned aerial vehicle|drone]] fonctionnel qui peut être piloté dans VRChat, soit à des fins d'enregistrement ou simplement pour voler aux alentours et s'amuser avec des amis.
+ <span lang="en" dir="ltr" class="mw-content-ltr">'''Camera Drone''' is a [[Special:MyLanguage/Camera |Camera]] feature, exclusive to [[VRChat+|VRC+]]. It serves as a fully-functional [[wikipedia:unmanned aerial vehicle|drone]] that you can pilot within VRChat, either for recording purposes, or simply to fly around and have fun with friends.</span>
 
-Vous pouvez trouver la caméra drone dans l'onglet '''Caméra''' du [[Special:MyLanguage/Quick Menu|menu rapide]] en appuyant sur '''Lancer le drone'''.
+ <span lang="en" dir="ltr" class="mw-content-ltr">You can find the Camera Drone in the [[Special:MyLanguage/Quick Menu |Quick Menu]] under the Camera tab, and clicking '''Launch Drone'''.</span>
 
-<span id="Settings"></span>
-==Paramètres==
-
-*Prendre une photo
-*Activer FPV (vue première personne)
-*Ajustement automatique : Activer/Désactiver
-*Réapparaître
-*Diffusion Spout : Activer/Désactiver
-*Focus
-*Masques
-*Filtres
-*Résolution
-*Résolution du stream
-*Grille : Activer/Désactiver
-
-<span id="Presets"></span>
-===Préréglages==
-
-Vous pouvez à partir de ce menu choisir un préréglage pour le vol de votre drone :
-*Micro
-*Cinématique
-*Course
+ <span lang="en" dir="ltr" class="mw-content-ltr">==Settings==</span>
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+*Take Photo
+*Enable FPV (first-person view)
+*Self Leveling: On, Off
+*Respawn
+*Spout Stream: On, Off
+* Focus
+*Mask
+*Filters
+*Photo Resolution
+*Stream Resolution
+*Grid: On, Off
+</div>
+ <span lang="en" dir="ltr" class="mw-content-ltr">===Presets===</span>
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+In this menu, you can choose a preset for your drone's flight:
+* Micro
+*Cinematic
+*Racing
 *Freestyle
+</div>
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+Additionally, you can customize your drone's flight, using the following sliders:
+*Motor Power: 2.0-12.0
+*Drone Drag: 0.50-1.50
+*Drone Mass: 0.10-0.25
+*Camera Tilt: 0.0-70.0
+*Pitch Rate: 100.0-1000.0
+*Roll Rate: 100.0-1000.0
+*Yaw Rate: 100.0-1000.0
+*Pitch Expo: 0.00-1.00
+*Roll Expo: 0.00-1.00
+</div>
+ <span lang="en" dir="ltr" class="mw-content-ltr">===Controller settings ===</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">Control Schemes: 1 (Pitch, Yaw), 2 (Throttle, Yaw), 3 (Pitch, Roll), 4 (Throttle, Roll)</span>
 
-De plus, vous pouvez personnaliser le vol en utilisant les curseurs suivants :
-*Puissance moteur : 2.0-12.0
-*Traînée du drone : 0.50-1.50
-*Surface frontale du drone : 0.010-0.050
-*Masse du drone : 0.10-0.25
-*Inclinaison caméra : 0.0-70.0
-*Taux de tangage : 100.0-1000.0
-*Taux de roulement : 100.0-1000.0
-*Vitesse lacet : 100.0-1000.0
-*Taux d'accélération : 0.25-1.00
-*Ratio de tangage : 0.00-1.00
-*Ratio de roulis : 0.00-1.00
-*Ratio lacet : 0.00-1.00
-*Ratio puissance : 0.00-1.00
-*Sensibilité centrale tangage : 1.0-1000.0
-*Sensibilité centrale roulis : 1.0-1000.0
-*Sensibilité centrale lacet : 1.0-1000.0
-*Sensibilité centrale puissance : 1.0-1000.0
-*Angle max mode stabilisé : 10.0-45.0
-*Lissage changement de mode : 0.0-1.00 
+ <span lang="en" dir="ltr" class="mw-content-ltr">Inversion: On, Off</span>
 
-<span id="Controller_settings"></span>
-===Réglages manette===
+ <span lang="en" dir="ltr" class="mw-content-ltr">Dead Zone: 0.00-1.00 (adjustable by increasing or decreasing the dead zone by 0.01 at a time)</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">====Desktop controls====</span>
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+Mouse Mode: Continuous, Relative
+</div>
 
-Contrôles : 1 (Tangage et lacet), 2 (Puissance et lacet), 3 (Tangage et roulis), 4 (Puissance et roulis)
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Mouse Sensitivity: 0.1-10.0 (adjustable by increasing or decreasing the slider by 0.1 at a time)
+</div>
 
-Inverser : Activer/Désactiver
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Mouse Relative Rate: 1.0-100.0 (adjustable by increasing or decreasing the slider)
+</div>
 
-Zone morte : 0.00-1.00 (Ajustable en augmentant ou diminuant la zone de 0.01 à la fois)
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Mouse Relative Curve: 1.0-100.0 (adjustable by increasing or decreasing the slider)
+</div>
 
-<span id="Desktop_controls"></span>
-===Contrôles PC===
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Mouse Power Curve: 1.0-3.0 (adjustable by increasing or decreasing the slider by 0.1 at a time)
+</div>
 
-Mode souris : Continu, relatif
+ <span lang="en" dir="ltr" class="mw-content-ltr">== Customization ==</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">The drone and its colors can be customized in the "Cosmetics" tab in the [[Special:MyLanguage/Inventory |Inventory]]. "Customize" button is also available directly in the Drone Camera.</span>
 
-Sensibilité de la souris : 0.1-10.0 (Ajustable en augmentant ou diminuant le curseur de 0.01 à la fois)
+ <span lang="en" dir="ltr" class="mw-content-ltr">Color palette options include: Primary, Secondary and Trail.</span>
 
-Réactivité du contrôle souris : 1.0-100.0 (Ajustable en augmentant ou diminuant le curseur)
-
-Courbe relative souris : 1.0-100.0 (Ajustable en augmentant ou diminuant le curseur)
-
-Courbe de puissance souris : 1.0-3.0 (Ajustable en augmentant ou diminuant le curseur de 0.1 à la fois)
-
-<span id="Customization"></span>
-== Personnalisation ==
-
-Le drone et sa couleur peut être personnalisé dans l'onglet « Cosmétiques » de [[Special:MyLanguage/Inventory |l'inventaire]]. Le bouton « Personnaliser » est aussi accessible depuis le drone.
-
-Les options de la palette de couleur incluent : Primaire, secondaire et trainée.
-
-=== Drones ===
-
+ <span lang="en" dir="ltr" class="mw-content-ltr">=== Drones ===</span>
 {| class="wikitable"
-|+Liste des drones
-!Image
-!Nom
-!Date de sortie
-!Condition
-!Description
+|+ <span lang="en" dir="ltr" class="mw-content-ltr">List of known drones</span>
+! <span lang="en" dir="ltr" class="mw-content-ltr">Image</span>
+! <span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+! <span lang="en" dir="ltr" class="mw-content-ltr">Released</span>
+! <span lang="en" dir="ltr" class="mw-content-ltr">Requirement</span>
+! <span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
 |-
-|[[File:Drone Default Drone.png|frameless|70x70px]]  || Drone par défaut || 26 mars 2025 || - || ''« Le drone par défaut. »
+|[[File:Drone Default Drone.png| <span lang="en" dir="ltr" class="mw-content-ltr">frameless</span>|70x70px]]
+| <span lang="en" dir="ltr" class="mw-content-ltr">Default Drone</span>
+| <span lang="en" dir="ltr" class="mw-content-ltr">March 26, 2025</span>
+| -
+|''" <span lang="en" dir="ltr" class="mw-content-ltr">The default drone.</span>"''
 |-
-|[[File:Drone Trace Drone.png|frameless|70x70px]] || Drone de traînée || 14 août 2025 || Réclamer le [[Special:MyLanguage/Inventory#Bundles & Packs|Lot de contenu VRC+ d'août]] || -
+|[[File:Drone Trace Drone.png| <span lang="en" dir="ltr" class="mw-content-ltr">frameless</span>|70x70px]]
+| <span lang="en" dir="ltr" class="mw-content-ltr">Trace Drone</span>
+| <span lang="en" dir="ltr" class="mw-content-ltr">August 14, 2025</span>
+| <span lang="en" dir="ltr" class="mw-content-ltr">Claim the [[Special:MyLanguage/Inventory#Bundles & Packs|August VRC+ Content Drop]]</span>
+| -
 |}
 
-<span id="Additional_information"></span>
-==Informations supplémentaires==
+ <span lang="en" dir="ltr" class="mw-content-ltr">==Additional information==</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">Not comfortable with flying? No problem! The Camera Drone has various control and flight settings that let you adjust how it handles, ensuring that newcomers and experienced pilots alike can enjoy flying it.</span>
 
-Vous n'êtes pas confortable lors du vol ? Pas de problèmes ! Le drone possède de nombreux contrôles et réglages de vol vous permettant d'ajuster sa gestion, permettant aux nouveaux pilotes et au plus expérimentés de l'apprécier.
+ <span lang="en" dir="ltr" class="mw-content-ltr">''Tip: We're seeking scenic worlds with accurate colliders for ideal flying experiences. If you have any suggestions, share them on social media with #VRCDrone!''</span>
 
-''Conseil : Nous recherchons des mondes scéniques avec des collisions précises pour une meilleure expérience de vol. si vous avez des suggestions, partagez-les sur les réseaux sociaux avec #VRCDrone !''
+ <span lang="en" dir="ltr" class="mw-content-ltr">==Drone Exploration world tab==</span>
+ <span lang="en" dir="ltr" class="mw-content-ltr">On March 30, 2025, a tab on the World menu, titled "Drone Exploration", gave a list of sixteen worlds to "''Explore these featured worlds that are fun to navigate with our new Camera Drone!''"</span>
 
-<span id="Drone_Exploration_world_tab"></span>
-==Onglet de monde==
+<div class="toccolours mw-collapsible mw-collapsed">
+''' <span lang="en" dir="ltr" class="mw-content-ltr">List of worlds</span>'''<div class="mw-collapsible-content">
+*[https://vrchat.com/home/world/wrld_0255bfa4-61fc-40fb-bdea-b9400fa487f9 SheepTopia], by Mankey '''(PC, Android)'''
+*[https://vrchat.com/home/world/wrld_cf2e8fe9-5979-4ad9-8c0e-d7fe22e09073 Far beyond the horizon], by QuarT0niX '''(PC)'''
+*[https://vrchat.com/home/world/wrld_7ef54852-7894-46e4-9935-7dacb78f81c5 Jetski Islet], by Quap '''(PC, Android)'''
+*[https://vrchat.com/home/world/wrld_a8912308-d979-407e-b744-4a6a760ff86e Horse Mountain], by nprowler '''(PC, Android)'''
+*[https://vrchat.com/home/world/wrld_858c5fcf-fae6-4aac-9193-8bb7b63b9201 In The Snow], by Blue Cat '''(PC, Android)'''
+*[https://vrchat.com/home/world/wrld_72a5616c-da9c-438e-ab40-b2360dd17921 Tarried Precipice], by Karl Kroenen '''(PC)'''
+*[https://vrchat.com/home/world/wrld_2cb9ed79-301a-47a8-ac13-ecd71dca70e7 Nova Rest], by Vectriel '''(PC)'''
+*[https://vrchat.com/home/world/wrld_a4ef4165-681c-4f3b-a293-839aebcbc434 Olympia Nights (v1.0)], by DrMorro '''(PC)'''
+*[https://vrchat.com/home/world/wrld_ec2dd8a4-6875-46fb-9699-071cb0e8bdbd SUKU], by <nowiki>durk@work</nowiki> '''(PC)'''
+*[https://vrchat.com/home/world/wrld_38646e89-6117-48a9-aab9-aea64c1cd629 Transcience], by Tajasuka '''(PC, Android)'''
+*[https://vrchat.com/home/world/wrld_1b507127-0760-48cc-b579-a80baa620f24 Galatea City], by ちゅーたな '''(PC, Android)'''
+*[https://vrchat.com/home/world/wrld_a2950c6d-89ec-4ba3-9a5a-b79638170189 Solstice Cliffs], by Anonine '''(PC)'''
+*[https://vrchat.com/home/world/wrld_53125a74-a5c4-4e42-840e-373f390f844f 漏水地区【盃市観光エリア１号】], by さかずき ないぎ '''(PC)'''
+*[https://vrchat.com/home/world/wrld_8cd302c3-d0b7-4a16-a39b-6860c24ee0c2 New Grass Station], by 瑞瑞Rys '''(PC)'''
+*[https://vrchat.com/home/world/wrld_3175143d-3c68-4719-9297-5f0145e059e2 Lost Valley Lake Retreat], by nprowler '''(PC)'''
+*[https://vrchat.com/home/world/wrld_59b59817-50b3-461d-bcb7-a55983ccdcc6 Asbestos], by 988U '''(PC, Android)'''
+</div>
+</div>
 
-Le 30 mars 2025, un onglet du menu des mondes nommé « Découverte du drone », donna une liste de seize mondes pour « ''Explorer ces nouveaux mondes plaisant à explorer avec notre nouveau drone!'' »
-{| class="wikitable"
-!Monde
-!Auteur
-|-
-|[https://vrchat.com/home/world/wrld_0255bfa4-61fc-40fb-bdea-b9400fa487f9 SheepTopia] || Mankey
-|-
-|[https://vrchat.com/home/world/wrld_cf2e8fe9-5979-4ad9-8c0e-d7fe22e09073 Far beyond the horizon] || QuarT0niX
-|-
-|[https://vrchat.com/home/world/wrld_7ef54852-7894-46e4-9935-7dacb78f81c5 Jetski Islet] || Quap
-|-
-|[https://vrchat.com/home/world/wrld_a8912308-d979-407e-b744-4a6a760ff86e Horse Mountain] || prowler
-|-
-|[https://vrchat.com/home/world/wrld_858c5fcf-fae6-4aac-9193-8bb7b63b9201 In The Snow] || Blue Cat
-|-
-|[https://vrchat.com/home/world/wrld_72a5616c-da9c-438e-ab40-b2360dd17921 Tarried Precipice] || Karl Kroenen
-|-
-|[https://vrchat.com/home/world/wrld_2cb9ed79-301a-47a8-ac13-ecd71dca70e7 Nova Rest] || Vectriel
-|-
-|[https://vrchat.com/home/world/wrld_a4ef4165-681c-4f3b-a293-839aebcbc434 Olympia Nights (v1.0)] || DrMorro
-|-
-|[https://vrchat.com/home/world/wrld_ec2dd8a4-6875-46fb-9699-071cb0e8bdbd SUKU] || <nowiki>durk@work</nowiki>
-|-
-|[https://vrchat.com/home/world/wrld_38646e89-6117-48a9-aab9-aea64c1cd629 Transcience] || Tajasuka
-|-
-|[https://vrchat.com/home/world/wrld_1b507127-0760-48cc-b579-a80baa620f24 Galatea City] || ちゅーたな
-|-
-|[https://vrchat.com/home/world/wrld_a2950c6d-89ec-4ba3-9a5a-b79638170189 Solstice Cliffs] || Anonine
-|-
-|[https://vrchat.com/home/world/wrld_53125a74-a5c4-4e42-840e-373f390f844f 漏水地区【盃市観光エリア１号】] || さかずき ないぎ
-|-
-|[https://vrchat.com/home/world/wrld_8cd302c3-d0b7-4a16-a39b-6860c24ee0c2 New Grass Station] || 瑞瑞Rys
-|-
-|[https://vrchat.com/home/world/wrld_3175143d-3c68-4719-9297-5f0145e059e2 Lost Valley Lake Retreat] || nprowler
-|-
-|[https://vrchat.com/home/world/wrld_59b59817-50b3-461d-bcb7-a55983ccdcc6 Asbestos] || 988U
-|}
-
-<span id="See_also"></span>
-==À voir aussi==
-
-*[[Special:MyLanguage/Camera|Caméra]]
-*[[Special:MyLanguage/Camera Dolly|Caméra Dolly]]
-*[[Special:MyLanguage/VRC+|VRC+]]
-
-[[Category:Needs images]]
+ <span lang="en" dir="ltr" class="mw-content-ltr">==See also==</span>
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+*[[Special:MyLanguage/Camera |Camera]]
+*[[Special:MyLanguage/Camera Dolly |Camera Dolly]]
+*[[Special:MyLanguage/VRC+ |VRC+]]
+</div>
