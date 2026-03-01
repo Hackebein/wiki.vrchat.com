@@ -4,8 +4,10 @@
 VRChat comes with a whole host of social tools for users. Such as friends, invites, notes, and more!
 </div>
 
-<span id="User_Profiles"></span>
+<span id="User_profiles"></span>
+<div class="mw-translate-fuzzy">
 == Profile użytkowników ==
+</div>
 [[File:UserProfile.webp|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat's User Profile.</span>]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Introduced in the [https://docs.vrchat.com/docs/vrchat-202123 Identity Update], user profiles are a personalized space where information is displayed about a user. Information on a user's profile includes [[Special:MyLanguage/Social#Statuses|status]], [[Special:MyLanguage/Trust_Rank|trust rank]], [[Special:MyLanguage/Social#Pronouns|pronouns]], bio, current [[Special:MyLanguage/Instances|instance]] (if applicable), languages they speak, social links, [[Special:MyLanguage/Badges|badges]] they own, and the [[Special:MyLanguage/Groups|groups]] they're in.
@@ -143,15 +145,19 @@ Under a user's profile, there are several actions that you can take, these will 
 |}
 <references group="actions"/>
 
-<span id="Uploaded_&amp;_Favorited_Worlds"></span>
+<span id="Uploaded_&amp;_favorited_worlds"></span>
+<div class="mw-translate-fuzzy">
 ===Przesłane i ulubione światy===
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Below [[Special:MyLanguage/Social#Actions|actions]] can be found a list of worlds uploaded by the user as well as any publicly viewable lists of favorite worlds. These can be sorted by date added, last updated, name, and recently used.
 </div>
 
-<span id="Social_Menu"></span>
+<span id="Social_menu"></span>
+<div class="mw-translate-fuzzy">
 ==Menu społeczności==
+</div>
 
 [[File:Social Menu.webp|thumb|alt=<span lang="en" dir="ltr" class="mw-content-ltr">An image of the social tab of the main menu in VRChat.</span>|<span lang="en" dir="ltr" class="mw-content-ltr">The social tab of the main menu in VRChat.</span>]]
 
@@ -169,12 +175,14 @@ Below [[Special:MyLanguage/Social#Actions|actions]] can be found a list of world
 '''Group Activity''' includes a list of available [[Special:MyLanguage/Groups|Group]] instances, for Groups that you have joined. Creating a Group, Group+, or Group Public instance, if you have the ability, will result in it appearing on the Group Activity tab for users in that group.
 </div> 
 
-<span id="Online_Friends"></span>
+<span id="All_Friends"></span>
+<div class="mw-translate-fuzzy">
 ===Znajomi online===
+</div>
 
  
 <div lang="en" dir="ltr" class="mw-content-ltr">
-'''Online Friends''' shows the entire list of your friends who are currently online, including Friends on "Ask Me" (orange) or "Do Not Disturb" (red) statuses. It also shows your friends active on the website or friends that are currently offline.
+'''All Friends''' shows the entire list of your friends who are currently online, including Friends on "Ask Me" (orange) or "Do Not Disturb" (red) statuses. It also shows your friends active on the website or friends that are currently offline.
 </div>
 
 <span id="In_Instance"></span>
@@ -191,6 +199,14 @@ Below [[Special:MyLanguage/Social#Actions|actions]] can be found a list of world
 '''Favorite Friends''' lists are three rows of friends who you have chosen to 'Favorite'. It can be placed in one of the three rows. Each list can be renamed to help with organization.
 </div> 
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Recently Seen===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Recently Seen''' users are other users you've met in instances. Up to the last 100 recently seen users can be found in this tab and are ordered from the most recent to the oldest.
+</div>
+
 <span id="Blocked"></span>
 ===Zablokowani===
 
@@ -206,6 +222,7 @@ Below [[Special:MyLanguage/Social#Actions|actions]] can be found a list of world
 Friends on VRChat are other users that you trust, it acts much like how friending users on other platforms work, you can see whenever that user is online or on the website, send and receive invites from them, and add notes to them. Friends inside of your instance will have their name appear in yellow, and will also have their rank appear in yellow with a (Friend) indicator.
 </div>
 
+<div class="mw-translate-fuzzy">
 ==Pokrewności==
 {{Stub|Rozwinąć jak sprawdzać i wyłączać pokrewności}}
 <!-- Do we want a feature infobox? -->
@@ -220,6 +237,7 @@ Friends on VRChat are other users that you trust, it acts much like how friendin
 |branch_openbeta_version = 2025.4.2 Build 1761
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202542-openbeta 2025.4.2 Open Beta]
 }}
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Mutuals are a feature that allows the user to view mutual friends or groups of other users.
@@ -231,6 +249,18 @@ There are two ways to see mutuals, in the Quick Menu or the Main Menu with a but
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If you wish to prevent other users from seeing your mutual friends and groups or appearing as so for others, you can turn off "Show Mutual Connections" in the '''Comfort & Safety''' section of your settings in the Main Menu. Doing so will change the text of the button from "Show X Mutuals" to "No Known Mutuals". Additionally, your user icon will be hidden, and your username will appear as "Hidden Mutual" when you appear in the mutuals in one of your friends.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Discord Friends==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Seen in the Social tab under "All Friends", this feature allows you to see your Discord friends with their current status and to perform different actions. Friends with a Discord account linked will have a Discord icon displayed on their profile
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+If your friend has linked their Discord account to their VRChat account, you will be able to invite them to join your instance through Discord. Otherwise, you will be able to invite them to create a VRChat account. You or your friends may prevent your VRChat account from being shown in the Discord section by turning off the "Allow Discord Friends" setting in the '''Comfort & Safety''' section of the settings.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
