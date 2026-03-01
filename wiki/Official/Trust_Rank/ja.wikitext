@@ -7,50 +7,54 @@
 
 ユーザーの信頼度は、VRChat の使用時間、コンテンツへの貢献度、交友関係などの指標である'''トラストランク'''に反映される。 
 
-取得できるトラストランクは以下のとおりである（低い順から高い順）：
+<div class="mw-translate-fuzzy">
+ユーザーが得るランクは次のとおりである (低い順から):
 {| class="wikitable"
 |+
 | style="background-color: #bababa" |
 !Visitor
-|開始時のランクである。
+|始まりのランク。
 |-
 | style="background-color: #1678ff" |
 !New User
-|[[Special:MyLanguage/Avatars|アバター]]および[[Special:MyLanguage/Worlds|ワールド]]を VRChat にアップロード可能となる。アップロードしたワールドは非公開のままにする必要がある。
+|[[Special:MyLanguage/avatars|アバター]]と[[Special:MyLanguage/worlds|ワールド]] を VRChat へアップロードできるようになる。ただし、ワールドは非公開でのみアップロードできる。
 |-
 | style="background-color: #2acf5b" |
 !User
-|[[Special:MyLanguage/Worlds|ワールド]]を[[Special:MyLanguage/Community Labs|コミュニティラボ]]に公開できるようになる。また、[[Special:MyLanguage/Shop|ショップ]]でのギフト送付ができるようになる。大多数の機能はこのトラストランクから使えるようになる。
+|[[Special:MyLanguage/worlds|ワールド]]を[[Special:MyLanguage/Community Labs|コミュニティラボ]]へ公開できるようになる。ほとんどの機能は、このランクで使用できるようになる。
 |-
 | style="background-color: #ff7c42" |
 !Known User
-|「User」として表示することを選択できる。
+|「User」ランクとして扱われるようにすることができる。
 |-
 | style="background-color: #8143e6" |
 !Trusted User
-|「User」として表示することを選択できる。
+|「User」ランクとして扱われるようにすることができる。
 |}
+</div>
 
 <span id="Special_ranks"></span>
 ===特殊なランク===
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable"
 |+
 | style="background-color: #efea17" |
 !'''Friends'''
-|フレンドになったユーザーは、通常のシールドレベルにおいてすべてのアバター機能が表示され、他のトラストランクと同様にカスタマイズが可能である。
+|フレンドになったユーザーは、ノーマルシールドレベルにおいて、アバターのすべての機能が表示される。また、他の信頼ランクと同様に、表示内容を個別にカスタマイズすることができる。
 |-
 | style="background-color: #bababa" |
 !'''Nuisance'''
-|他のユーザーに迷惑行為を行ったユーザーは、クイックメニューを開いた際にネームプレート上部にインジケーターが表示される。シールドレベルにかかわらず、アバターは完全にブロックされ、デフォルトでミュート状態となる。ただし、手動でミュートを解除したり、アバターを表示したりすることは引き続き可能である。
+|他のユーザーに問題を引き起こしたことがあるユーザーには、クイックメニューを開いた際に、ネームプレート上にインジケーターが表示される。これらのユーザーは、シールドレベルに関係なく、アバターが完全にブロックされ、デフォルトでミュート状態となる。ただし、手動でミュートを解除したり、アバター表示を有効にしたりすることは可能である。
 |-
 | style="background-color: #b52626" |
-!Administrator / VRChat Team
-|このランクは VRChat チームのメンバーが所有する一部のアカウントに付与される。VRChat クライアント上に表示されるほか、ユーザープロフィール閲覧時にアプリ内およびトラストランクに代わって頭上にも表示される。また、VRChat のウェブサイト上でも、ユーザープロフィールや検索結果において、赤い枠線で表示される。
+!VRChat Team
+|このランクは、VRChat チーム (社員) のメンバーに付与されるものである。VRChatクライアント内で表示されるほか、VRChat アプリにおいてユーザープロフィールを閲覧した際や、アプリ内で信頼ランクの代わりにユーザーの頭上に表示される。また、VRChat のウェブサイト上でも、ユーザープロフィールや検索結果において、赤い枠線として表示される。
 |}
+</div>
 
 === 削除されたランク ===
-[[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|削除された機能]]を参照。
+詳しくは[[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|削除された機能]]を参照。
 
 <span id="Gaining_ranks"></span>
 ===ランクを上げる===
