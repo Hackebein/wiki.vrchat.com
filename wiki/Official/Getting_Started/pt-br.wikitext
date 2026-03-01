@@ -52,18 +52,18 @@ Testes da Valve indicam que o VRChat é Aprovado para o Steam Deck. É completam
 
 Requesítos mínimos para jogar VRChat<ref> Ajuda VRChat, Requisitos do Sistema https://help.vrchat.com/hc/en-us/articles/1500002378722-System-Requirements</ref><ref>Steam Store, VRChat https://store.steampowered.com/app/438100/VRChat/</ref>, são baseados nos requisítos mínimos do SteamVR. <ref>Steam VR da Loja da Steam  https://store.steampowered.com/app/250820/SteamVR/</ref>.
 
-Se você quiser verificar se o seu computador é compatível com o VRChat, compare as especificações do seu computador com os requisitos mínimos listados abaixo.
+Se você deseja verificar se seu PC é compatível para jogar VRChat, você pode baixar e usar o aplicativo [https://store.steampowered.com/app/1070910/Are_you_ready_for_Valve_Index/ Você está pronto para o Valve Index?].
 
 * '''CPU:''' Intel® i5-4590 ou AMD FX 8350 ou equivalente
 * '''Memória:''' 4GB
 * '''GPU:''' NVIDIA GeForce® GTX 970 ou AMD Radeon™ R9 290 ou equivalente
-* '''Armazenamento:''' 31.5GB de espaço (~1.5GB para a aplicação<ref>SteamDB, VRChat, Depot https://steamdb.info/depot/438101/</ref>, 30GB de cache)
+* '''Armazenamento:''' 21.5GB de espaço (~1.5GB para a aplicação<ref>SteamDB, VRChat, Depot https://steamdb.info/depot/438101/</ref>, 20GB de cache)
 * '''Conexão com a Internet:''' Requerido: (25Mbps+ de velocidade de download é recomendado)
 * '''SO:''' Windows 10, Windows 11
 
 Estes são os requisitos <u>mínimos absolutos</u> para rodar o VRChat em modo desktop e VR. Apesar da aplicação rodar, você pode encontrar problemas com desempenho. VRChat possui muito conteúdo criado por usuários, alguns [[Special:MyLanguage/Avatars|avatares]] e [[Special:MyLanguage/Worlds|mundos]] podem causar queda de desempenho mais do que o esperado de um jogo normal! Recomenda-se ajustar suas [[Special:MyLanguage/Safety|Configurações de Segurança]] para uma melhor experiência.
 
-O VRChat se beneficia dos grandes caches presentes na série de CPUs AMD X3D. Quanto à GPU, escolher placas com mais memória de vídeo (V-RAM) proporcionará uma experiência de alto desempenho. No entanto, em certos casos (incluindo o VR), é mais recomendável escolher uma placa que ofereça um desempenho geral superior.
+Para o seu processador, você vai querer obter um 7800X3D, já que a AMD mudou para um novo soquete (AM5) nesta geração. A série de processadores AMD X3D tem um desempenho excepcionalmente bom no VRChat e em outros jogos devido ao seu cache interno muito grande. A série de processadores. Quanto à GPU, selecionar placas com mais memória de vídeo (VRAM) proporcionará uma experiência com melhor desempenho. No entanto, em certos casos (incluindo VR), é recomendável escolher uma placa que ofereça um melhor desempenho no geral.
 
 ===PC (Nuvem)===
 ====GeForce NOW====
@@ -117,8 +117,10 @@ Você pode procurar por '''VRChat''' na App Store do iOS / iPadOS ou [https://ap
 <span id="Account_creation"></span>
 ==Criação de conta==
 
+<div class="mw-translate-fuzzy">
 [[File:LoginPage.webp|thumb|Uma imagem da tela de login do VRChat]]
-{{Thumb|{{YouTube|gXTe3GhWebY|title=Sign-In Issues | Gestão de contas|thumb=File:YTThumb_gXTe3GhWebY_SignIn.webp}}}}
+{{Thumb|{{YouTube|gXTe3GhWebY}}}}
+</div>
 
 Ao abrir o VRChat, você verá a tela de iniciar sessão. Você terá opções para trocar de língua, ler os [[Special:MyLanguage/Terms of Service|Termos de Serviço]] e [[Special:MyLanguage/Privacy Policy|Política de Privacidade]], entrar com uma conta VRChat ou criar uma conta de dispositivo pela Steam, Meta, Google, Pico ou VIVE, dependendo de qual dispositivo estiver usando. Para entrar com sua conta VRChat, você precisa primeiro [https://vrchat.com/home/register registrar-se] no site do VRChat. Criar sua conta VRChat garante acesso à aplicação VRChat por meio da web onde você pode ver o seu perfil do VRChat,  sua lista de amigos, navegar por mundos e gerar [[Special:MyLanguage/Impostors|impostores]]. Você também terá acesso ao [[Special:MyLanguage/VRChat_SDK|Kit de Desenvolvimento de Software do VRChat]], [https://feedback.vrchat.com Fórum para Feedback], [https://ask.vrchat.com Fórum de Perguntas], inscrever-se no Programa de [[Special:MyLanguage/Creator Economy|Economia do Criador]] e editar a VRChat Wiki.
 
@@ -181,4 +183,4 @@ Guias Brasileiros:
 
 
 {{Start-navbox}}
-[[Category:Needs images{{#translation:}}]]
+[[Category:Needs Images]]
