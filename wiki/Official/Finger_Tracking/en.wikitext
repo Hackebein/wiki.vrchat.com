@@ -17,32 +17,32 @@
 
 <translate> <!--T:5--> '''Finger tracking''', also known as '''hand tracking''', is a feature that exists on some VR headsets or VR controllers, that allow a user's hands and fingers to be accurately tracked on an [[Special:MyLanguage/Avatars|avatar]] within VRChat. Hand tracking provides another way to use kinesthetic [[Special:MyLanguage/controls|controls]] on VRChat.</translate>
 
-<translate> <!--T:6--> ==Overview==</translate>
+<translate> ==Overview== <!--T:6--></translate>
 <translate> <!--T:7--> Finger tracking can be emulated with controllers such as the Index controllers, but some headsets with '[https://learn.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/tracking-system inside-out tracking]' such as the Meta Quest, or Pico, can also utilize finger tracking. Finger tracking is currently supported on Pico, and all Meta Quest headsets, and can be used with either standalone VR, or through PCVR. The feature originally launched in [[Special:MyLanguage/Open Beta|Open Beta]] on October 26, 2022, for Meta Quest systems, and was publicly released for 2022.4.1</translate><ref><translate> <!--T:38--> [https://docs.vrchat.com/docs/vrchat-202241 'VRChat 2022.4.1'] on ''docs.vrchat.com''; retrieved May 3, 2025</translate></ref><translate> <!--T:39--> , on November 3, 2022.</translate>
 
-<translate> <!--T:8--> == Enabling finger tracking==</translate>
+<translate> == Enabling finger tracking== <!--T:8--></translate>
 [[File:Handtracking dashboard menu.webp|thumb|250px|<translate> <!--T:9--> The "Movement tracking" menu, within the Quest dashboard settings.</translate>]]
-<translate> <!--T:40--> ====On standalone Quest ====</translate>
+<translate> ====On standalone Quest ==== <!--T:40--></translate>
 <translate> <!--T:10--> To enable finger tracking on Quest systems, go to the '''settings''' on the Quest dashboad, then '''<nowiki/>'Movement tracking'<nowiki/>''', then make sure '''<nowiki/>'Hand and body tracking'''' is enabled. Your hands should start being tracked within the Quest menu, and on VRChat if you set down your controllers.</translate>
 
-<translate> <!--T:11--> ====On PCVR, through Quest====</translate>
+<translate> ====On PCVR, through Quest==== <!--T:11--></translate>
 <translate> <!--T:12--> ''Please note that finger tracking <u>cannot</u> be utilized over wired Quest Link methods at this time.''</translate>
 
 <translate> <!--T:13--> Enabling finger tracking on PCVR also requires the feature to be enabled on standalone Quest, through the Quest dashboard's settings. When launching an application that connects to your computer, such as Steam Link, or Virtual Desktop, tap your controllers together twice, and then set your controllers down on a flat surface once the app is loaded.</translate>
 
 <translate> <!--T:14--> For the best finger tracking results, keep your hands where the cameras on your Quest can see them, and offer ample lighting.</translate>
 
-<translate> <!--T:15--> ====On desktop, through Selfie Expression====</translate>
+<translate> ====On desktop, through Selfie Expression==== <!--T:15--></translate>
 <translate> <!--T:16--> On the desktop client on VRChat, users with [[Special:MyLanguage/VRC+|VRC+]] are able to utilize [[Special:MyLanguage/Selfie Expression|Selfie Expression]] with a webcam, to enable a limited variant of hand and finger tracking on their avatar. Selfie Expression uses your camera to animate your avatar! No one will see your real face. Image data is processed locally on your device, only used for animation, and never saved.</translate>
 
 <translate> <!--T:17--> To enable Selfie Expression on desktop, open up the Main Menu's settings tab, and click on the '''Tracking & IK''' tab on the sidebar. Within the Tracking & IK menu, click '''Enable Selfie Expression'''. Enabling Selfie Expression will also enable your [[Special:MyLanguage/Mirrors|Face Mirror]].</translate>
 
 <translate> <!--T:18--> Selfie Expression on the desktop version, does not share the same controls as hand tracking on VR. Selfie Expression on [[Special:MyLanguage/Platforms|mobile versions]] of VRChat currently do not have support to track hands and finger movements.</translate>
 
-<translate> <!--T:19--> ==Controls ==</translate>
+<translate> ==Controls == <!--T:19--></translate>
 [[File:Handtracking controls vrcmenu.webp|thumb|250px|<translate> <!--T:20--> Controls for finger tracking, within the [[Special:MyLanguage/Main Menu|Main Menu]] settings.</translate>]]
 
-<translate> <!--T:21--> === Finger tracking tutorial===</translate>
+<translate> === Finger tracking tutorial=== <!--T:21--></translate>
 <translate> <!--T:22--> ''To learn about hand tracking, VRChat released both a [https://www.youtube.com/watch?v=oopovk3BPaw video tutorial], and a [https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98 finger tracking tutorial] world, designed for Quest headsets, and other VR systems utilizing Android.''</translate>
 
 <translate> <!--T:23--> '''To move around the [[Special:MyLanguage/Worlds|world]]''', hold your '''left hand''' up, palm facing upwards, towards your face. Touch your middle finger to your thumb in a "pinch" motion, and a small blue sphere will appear. While still pinching, move your fingers away from that sphere, and your avatar will move in that direction.</translate>
@@ -53,7 +53,8 @@
 
 <translate> <!--T:26--> '''Open your [[Special:MyLanguage/Quick Menu|Quick Menu]]''' by pinching your index finger and your thumb on your '''left hand'''. This is a default gesture on Meta systems, and you will see a small menu icon floating over your hand, which fills a gauge as you long-pinch. There are three methods you can use to open your Quick Menu:</translate>
 
-<translate> <!--T:27--> * Palm Facing Pinch
+<translate> <!--T:27-->
+* Palm Facing Pinch
 * Circle Key
 * Push Button</translate>
 
@@ -65,16 +66,18 @@
 
 <translate> <!--T:31--> Finger tracking controls can be viewed in the Controls tab of the [[Special:MyLanguage/Main Menu|Main Menu]], while finger tracking is enabled.</translate>
 
-<translate> <!--T:32--> ==Official resources==</translate>
-<translate> <!--T:33--> *[https://www.youtube.com/watch?v=oopovk3BPaw VRChat Hand/Finger Tracking Tutorial] by VRChat on YouTube
+<translate> ==Official resources== <!--T:32--></translate>
+<translate> <!--T:33-->
+*[https://www.youtube.com/watch?v=oopovk3BPaw VRChat Hand/Finger Tracking Tutorial] by VRChat on YouTube
 *[https://www.youtube.com/watch?v=F0I2Ec4JsrE Quest 2 Finger Tracking] by VRChat on YouTube
 *[https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98/info Quest 2 - Finger Tracking Tutorial] world on VRChat
 *[https://creators.vrchat.com/platforms/pc/steamvr-drivers/ SteamVR Skeletal Hand Tracking Driver Guide] on docs.vrchat.com</translate>
 
-<translate> <!--T:34--> ==See also==</translate>
+<translate> ==See also== <!--T:34--></translate>
 
-<translate> <!--T:35--> *[[Special:MyLanguage/Controls|Controls]]
+<translate> <!--T:35-->
+*[[Special:MyLanguage/Controls|Controls]]
 *[[Special:MyLanguage/Settings|Settings]]
 *[[Special:MyLanguage/Community:Sign language in VRChat|Community:Sign language in VRChat]]</translate>
 
-<translate> <!--T:36--> ==References==</translate>
+<translate> ==References== <!--T:36--></translate>
