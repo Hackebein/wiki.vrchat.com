@@ -141,10 +141,12 @@ La mayoría de los mandos de RV tienen una disposición similar. Cada mando tien
 |Cambiar localmente tu avatar al robot de error (útil cuando tu avatar causa bloqueos o evita que uses tu menú)
 |}
 
+<div class="mw-translate-fuzzy">
 ====Seguimiento de manos====
 ''Véase también [[Special:MyLanguage/Finger tracking|Seguimiento de dedos]] para obtener información más detallada.''
-{{Thumb|{{YouTube|oopovk3BPaw|title=VRChat Hand/Finger Tracking Tutorial|thumb=File:Vrc handtrackingthumbnail.webp}}}}
-[[File:Handtracking controls vrcmenu.webp|thumb|250px|Controles para el seguimiento de dedos, dentro de los ajustes del [[Special:MyLanguage/Main Menu|menú principal]].]]
+{{Thumb|{{YouTube|oopovk3BPaw}}}}
+[[File:Handtracking controls vrcmenu.webp|thumb|250px|Controles para el seguimiento de dedos, dentro de los ajustes del [[Special:MyLanguage/Main Menu|Menú principal]].]]
+</div>
 
 VRChat también ofrece un {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|mundo tutorial}} y un [https://www.youtube.com/watch?v=oopovk3BPaw video tutorial] sobre cómo configurar el seguimiento de manos en los sistemas Meta Quest y aprender gestos de seguimiento de manos dentro de VRChat.
 
@@ -333,7 +335,9 @@ El movimiento se controla mediante la configuración estándar de FPS "WASD". El
 
 Las opciones de depuración están deshabilitadas a menos que inicies VRChat con la opción de lanzamiento <code>--enable-debug-gui</code>.
 
-Por defecto, solo el creador del mundo puede acceder a las vistas de depuración superiores a 5. Sin embargo, el creador del mundo puede activarlo para otros.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+By default, only the world creator can access debug views above 5. However, the creator of the world can enable it for others.
+</div>
 
 <span id="Mobile"></span>
 ===Teléfonos===
