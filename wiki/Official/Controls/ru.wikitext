@@ -140,10 +140,12 @@ VRChat официально поддерживает следующие гарн
 |Локально заменяет ваш аватар на "робота ошибки" (полезно, если ваш аватар вызывает вылеты или не даёт открыть меню)
 |}
 
+<div class="mw-translate-fuzzy">
 ====Отслеживание рук====
 ''См. также [[Special:MyLanguage/Finger tracking|Отслеживание пальцев]] для более подробной информации.''
 {{Thumb|{{YouTube|oopovk3BPaw}}}}
 [[File:Handtracking controls vrcmenu.webp|thumb|250px|Настройки отслеживания пальцев в разделе параметров [[Special:MyLanguage/Main Menu|главного меню]].]]
+</div>
 
 VRChat также предлагает {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|обучающий мир}} и [https://www.youtube.com/watch?v=oopovk3BPaw обучающее видео] по настройке отслеживания рук на устройствах Meta Quest, а также по изучению жестов отслеживания рук внутри VRChat.
 
@@ -333,6 +335,10 @@ VRChat также предлагает {{VRC link|https://vrchat.com/home/world/
 <sup>†</sup> На стандартной английской раскладке US QWERTY клавиша «обратная кавычка» находится в левом верхнем углу, рядом с клавишей <code>1</code>. Она делит клавишу с символом тильды (<code>~</code>).
 
 Параметры отладки отключены, если вы не запустите VRChat с параметром запуска <code>--enable-debug-gui</code>.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+By default, only the world creator can access debug views above 5. However, the creator of the world can enable it for others.
+</div>
 
 <span id="Mobile"></span>
 ===Мобильный===
