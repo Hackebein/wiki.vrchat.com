@@ -4,87 +4,85 @@
 !説明
 |-
 |Normal Clock (Default, Boring)
-|クイックメニュー上部に時計を表示します。
+|クイックメニューの上部に時計を表示する。
 |-
-| No Time! <sup>to talk?</sup>
-|クイックメニューから時計を完全に削除し、空白にします。
+|No Time! <sup>to talk?</sup>
+|クイックメニューから時計を完全に削除し、空白にする。
 |-
 |LGBTQ+ Clock
-|[[wikipedia:Rainbow_flag_(LGBT)|プライドフラッグ]]にちなんだ、カラフルなレインボー時計を表示します。
+|[[wikipedia:Rainbow_flag_(LGBT)|プライドフラッグ]]にちなんだ、カラフルなレインボーカラーの時計を表示する。
 |-
 |Swatch Internet Time (.beats)
-|10進法ベースの代替時間表示。[[wikipedia:Swatch_Internet_Time|.beats]]を表示します。
+|10進数ベースの代替時間表示であり、[[wikipedia:Swatch_Internet_Time|ドットビート]]を表示する。
 |-
 |VRChat Session Time ⏱️
-|オンラインになってからの経過時間をHH:MM形式で表示します。
+|HH:MM 形式で、現在のセッション経過時間を表示する。
 |-
 |VRChat+ Ultra Premium Time ☆
-|時計が黄色になります。''これは[[Special:MyLanguage/VRC+|VRC+]]限定の時計です！''
+|時計を黄色で表示する。''[[Special:MyLanguage/VRC+|VRC+]] 限定の時計である。''
 |-
 |Date Time <sup>(ask them out, you got this!)</sup>
-|月日年をMM/DD/YYYY形式で表示します。
+|YYYY/MM/DD 形式で年・月・日を表示する。
 |-
-| Is It Thursday?
-|木曜日以外は「No」と表示し、木曜日のみ「Yes」と表示します。
+|Is It Thursday?
+|木曜日のみ「はい」、それ以外の曜日は「いいえ」と表示する。
 |-
 |Is It NOT Thursday?
-|ランダムなフレーズを表示します。
+|ランダムなフレーズを表示する。
 |-
 |Large Clock
-|通常の時計と同じですが、より大きく見やすいフォントで表示します。
+|Normal Clock と同様だが、より大きく見やすいフォントで表示する。
 |-
 |Tiny Clock
-|通常の時計と同じですが、より小さく見づらいフォントで表示します。
+|Normal Clock と同様だが、より小さく見づらいフォントで表示する。
 |-
 |WAY TOO LARGE CLOCK
-|Large Clockよりもさらに大きく、クイックメニューの範囲を超えて表示されます。
+|Large Clock よりさらに大きく、クイックメニューの境界をはみ出して表示する。
 |-
 |Broken Clock
-|常に赤色で点滅する「12:00AM」または「00:00」を表示します（LCD目覚まし時計風）。
+|液晶目覚まし時計のように、常に赤色で「12:00 AM」または「00:00」が点滅する。
 |-
 |Shader Time
-|現在時刻をピンク色で表示します。Missing Shaderエラーへの言及です。
+|ピンク色で現在の時刻を表示する。シェーダーエラーの表示に由来する。
 |-
 |<blink />
-|現在時刻を点滅表示にします。
+|現在の時刻を点滅させる。
 |-
 |<marquee />
-|デジタル電光掲示板のように時計をスクロール表示します。
+|デジタルマーキーのように時計をスクロールさせる。
 |-
 |Backwards Clock 🔙
-|時計が逆向きになります！
+|時計が逆方向に進む。
 |-
 |kcolC esreveR
-|時計の文字列が逆順で表示されます！
+|時計の表示が反転する。
 |-
 |Backfacing Clock???
-|時計がクイックメニューの背後に回り込み、VRCatも反転します。
+|時計がクイックメニューの背面に回り込み、VRCat も反転する。
 |-
 |ʞɔolƆ uʍop ǝpᴉsd∩
-|時計が上下逆さまになります！
+|時計が上下逆さまに表示される。
 |-
 |Star Date (TNG)
-|『[[wikipedia:Stardate|Star Date]]』（『スタートレック：次世代』）の現在の値を表示します。🖖
+|スタートレック: 新世代に登場する''[[wikipedia:Stardate|宇宙暦]]''を表示する。
 |-
 |Unix Time ''(32-bit)''
-|[[wikipedia:Unix_time|Unixエポック]]（1970年1月1日）からの経過秒数を表示します。
-32ビット符号付き整数の最大値は2038年1月29日に到達します。
+|[[wikipedia:Unix_time|UNIX エポック]]を基準とした、1970年1月1日からの経過秒数を表示する。32ビット符号付き整数の最大値は 2038年1月29日に到達する。
 |-
 |Unix Time ''(64-bit)''
-|1970年1月1日からの経過秒数を表示します。
-64ビット符号付き整数の最大値は数十億年後に到達します。
+|UNIX エポックを基準とした、1970年1月1日からの経過秒数を表示する。64ビット符号付き整数の最大値には数十億年後に到達する。
 |-
 |Unix Time ''(Nano)''
 |
 |-
 |''Very'' Accurate Clock
-|時・分・秒および10<sup>-7</sup>秒単位まで表示します。
+|時・分・秒、および 10<sup>-7</sup> 秒単位で現在の時刻を表示する。
 |-
 |''DateTimeFormat.ShortTimePattern''
-|"'''h:mm tt'''" を表示します。
+|「'''h:mm tt'''」と表示する。
 |-
 |Udon Network Time
-|{{VRC link|https://creators.vrchat.com/worlds/udon/networking/|Udonのネットワーク時間}}をミリ秒単位で表示します。
+|{{VRC link|https://creators.vrchat.com/worlds/udon/networking/|Udon のネットワーク時間}}をミリ秒単位で表示する。
 |-
 |RFC3339
 |
@@ -102,8 +100,8 @@
 |
 |-
 |Days in VRChat
-|ユーザーがVRChatに参加してからの経過日数を表示します。
+|ユーザーが VRChat に参加してからの日数を表示する。
 |-
 |Random!
-|上記の時計のいずれかをランダムで選択します。
+|上記のいずれかの時計バリアントをランダムに選択して表示する。
 |}
