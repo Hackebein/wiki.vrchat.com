@@ -1,15 +1,11 @@
 <languages/>
 {{Noticebox/Official}}
-<translate>
-<!--T:1-->
 '''Controls''' are arrays of inputs on controllers and devices to navigate [[Special:MyLanguage/VRChat|VRChat]], across different [[Special:MyLanguage/platforms|platforms]]. VRChat supports several operating systems, with multiple combinations of devices and controllers. Some of these controls can be configured in the [[Special:MyLanguage/Settings#Controls|Settings]] Menu. Depending on the platform you are using VRChat on, you may be able to customize controls further by using the Settings menu in VRChat, or your device's dashboard.
 
-<!--T:2-->
 The Settings Menu within VRChat details the button mappings for the device you’re currently using. Below are the default configurations:
 
-==Primary controls== <!--T:3-->
+==Primary controls==
 
-<!--T:4-->
 These are the basic controls for navigating and interacting within VRChat that apply to the different input types:
 {| class="wikitable" style="text-align:center;"
 ! style="text-align:center;" |Action
@@ -76,14 +72,12 @@ These are the basic controls for navigating and interacting within VRChat that a
 | Microphone Button
 |}
 
-==Additional controls== <!--T:5-->
+==Additional controls==
 
-===VR=== <!--T:6-->
+===VR===
 
-<!--T:7-->
 VRChat officially supports the following headsets and their corresponding control schemes.
 
-<!--T:8-->
 *Meta Quest headsets
 **Meta Quest 2
 **Meta Quest 3(S)
@@ -91,10 +85,8 @@ VRChat officially supports the following headsets and their corresponding contro
 * HTC Vive XR Elite
 *Pico 4
 
-<!--T:9-->
 In addition, VRChat supports these headsets in PCVR mode, where your headset is connected to a Windows gaming PC.
 
-<!--T:10-->
 *All SteamVR-compatible headsets, including (but not limited to)
 **Valve Index
 **HTC Vive series
@@ -104,12 +96,10 @@ In addition, VRChat supports these headsets in PCVR mode, where your headset is 
 **Any Virtual Desktop-compatible HMD
 **Most ALVR-compatible HMDs
 
-<!--T:11-->
 On PC, we also support gamepad input via Steam’s Input Manager.
 
-====Controller buttons==== <!--T:12-->
+====Controller buttons====
 
-<!--T:13-->
 Most VR controllers are laid out similarly. Each controller has a joystick and two main buttons, a system button, a trigger, and a grip button.
 {| class="wikitable"
 !Button
@@ -129,7 +119,6 @@ Most VR controllers are laid out similarly. Each controller has a joystick and t
 |-
 |Grip - Middle finger pull
 
-<!--T:14-->
 |Pick up
 |-
 |Trigger - Index finger pull 
@@ -148,54 +137,40 @@ Most VR controllers are laid out similarly. Each controller has a joystick and t
 |Locally change avatar to error robot (Useful when your avatar causes crashes or prevents you from using your menu)
 |}
 
-<!--T:15-->
 ====Hand tracking====
 ''See also [[Special:MyLanguage/Finger tracking|Finger tracking]] for more detailed information.''
 {{Thumb|{{YouTube|oopovk3BPaw|title=VRChat Hand/Finger Tracking Tutorial|thumb=File:Vrc handtrackingthumbnail.webp}}}}
 [[File:Handtracking controls vrcmenu.webp|thumb|250px|Controls for finger tracking, within the [[Special:MyLanguage/Main Menu|main menu]] settings.]]
 
-<!--T:16-->
 VRChat also offers a {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|tutorial world}}, and [https://www.youtube.com/watch?v=oopovk3BPaw tutorial video] on setting up hand tracking on Meta Quest systems, and to learn hand tracking gestures within VRChat.
 
-<!--T:17-->
 Enable hand tracking on the Quest settings dashboard. To use hand tracking, place your controllers down on a flat surface, and hold your hands out so the Quest hand tracking system can detect them. Make sure there is ample lighting in the room, for the Quest cameras to see your hands. Please note that hand tracking ''cannot be utilized over wired Quest Link'' methods at this time.
 
-<!--T:18-->
 '''To move around the [[Special:MyLanguage/Worlds|world]]''', hold your '''left hand''' up, palm facing upwards, towards your face. Touch your middle finger to your thumb in a "pinch" motion, and a small blue sphere will appear. While still pinching, move your fingers away from that sphere, and your avatar will move in that direction.
 
-<!--T:19-->
 '''To turn left and right''', pinch your middle finger to your thumb with your '''right hand'''. While still pinching, move your hand left or right from its original position.
 
-<!--T:20-->
 You can also turn with Comfort Turning (snap turning) on or off. If you have Comfort Turning on, you will need to move your pinched finger past the turn point each time you turn. It might be easier to use this locomotion method with Comfort Turning disabled in your [[Special:MyLanguage/Settings|settings]].
 
-<!--T:21-->
 '''Open your [[Special:MyLanguage/Quick Menu|quick menu]]''' by pinching your index finger and your thumb on your '''left hand'''. This is a default gesture on Meta systems, and you will see a small menu icon floating over your hand, which fills a gauge as you long-pinch. There are three methods you can use to open your Quick Menu:
 
-<!--T:47-->
 * Palm Facing Pinch
 * Circle Key
 * Push Button
 
-<!--T:22-->
 '''To interact with the user interface and [[Special:MyLanguage/menus|menus]]''', point at it with either hand, and select things by pinching your index and thumb together.
 
-<!--T:42-->
 '''You can mute yourself''' by holding your thumb and ring finger together for a moment on your left hand.
 
-<!--T:43-->
 '''Picking up world objects''' can be done by going near the object, and clenching your fist. Additionally, you can '''use objects''' by keeping your middle, ring, and little fingers clenched, but separately pinching your index and thumb together.
 
-<!--T:46-->
 '''Note:'''  Hand tracking does not work with Quest Link.
 Finger tracking controls can be viewed in the Controls tab of the [[Special:MyLanguage/Main Menu|main menu]], while finger tracking is enabled.
 
-===Desktop=== <!--T:23-->
+===Desktop===
 
-<!--T:24-->
 You can play VRChat using a keyboard and mouse.
 
-<!--T:25-->
 Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts your view position. Your head points in the direction you’re looking.
 {| class="wikitable"
 ! Key
@@ -336,7 +311,6 @@ Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts yo
 |J / L
 |Adjusts yaw of the held object (rotate along Y axis)
 
-<!--T:26-->
 |-
 | U / O
 |Adjusts roll of the held object (rotate along Z axis)
@@ -348,35 +322,26 @@ Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts yo
 |Adjusts object rotation by moving the mouse
 |}
 
-<!--T:27-->
 <nowiki>*</nowiki> Use left shift to control your left hand, use right shift to control your right hand.
 
-<!--T:28-->
 <sup>†</sup> On a standard English US QWERTY layout keyboard, “backtick” is the key in the top left, next to the <code>1</code> key. It shares a key with the tilde (<code>~</code>) character.
 
-<!--T:29-->
 Debug options are disabled unless you launch VRChat with the <code>--enable-debug-gui</code> launch option.
 
-<!--T:48-->
 By default, only the world creator can access debug views above 5. However, the creator of the world can enable it for others.
 
-===Mobile=== <!--T:30-->
+===Mobile===
 
-<!--T:31-->
 On the left side of the screen is a virtual joystick, which will move your avatar around. Tapping and dragging on the screen will move your point of view. Double tapping and holding anywhere on the screen will let you walk around and move your viewpoint simultaneously.
 
-<!--T:32-->
 The right side of the screen has buttons for jumping, picking up items, and interacting with the world. Holding down the button will allow for further options, such as an action menu, or crouching.
 
-<!--T:33-->
 Tapping on another user or a [[Special:MyLanguage/portals|portal]] will instantly bring up a secondary [[Special:MyLanguage/Menus|menu]].
 
-===Gamepad === <!--T:34-->
+===Gamepad ===
 
-<!--T:35-->
 You can play VRChat using a gamepad on PC and Mobile.
 
-<!--T:36-->
 Typical controllers supported include Xbox controllers, PlayStation controllers, and Nintendo Switch controllers. The below table uses the "Xbox" controller layout for reference.
 {| class="wikitable"
 !Buttons (Based on Xbox Controller) 
@@ -408,7 +373,6 @@ Typical controllers supported include Xbox controllers, PlayStation controllers,
 |-
 |RB (Hold) + Left Joystick
 
-<!--T:37-->
 |Select left hand gesture (Only Available on Steam) 
 |-
 |RB (Hold) + Right Joystick
@@ -445,12 +409,10 @@ Typical controllers supported include Xbox controllers, PlayStation controllers,
 |Closes Menu 
 |}
 
-==Resources== <!--T:40-->
+==Resources==
 
-<!--T:41-->
 *[https://www.youtube.com/watch?v=F0I2Ec4JsrE "Quest 2 Finger Tracking"] by VRChat on ''YouTube''
 *[https://docs.vrchat.com/docs/vrchat-202241 "VRChat 2022.4.1"] on Hand Tracking
 *[https://www.youtube.com/watch?v=oopovk3BPaw "Beginner's Guide to VRChat Hand/Finger Tracking"] by VRChat on ''YouTube''
-</translate>
 {{Start-navbox}}
 [[Category:Needs images{{#translation:}}]]
