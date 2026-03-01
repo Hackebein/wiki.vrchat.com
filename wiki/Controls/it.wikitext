@@ -143,10 +143,12 @@ La maggior parte dei controller VR hanno disposizioni tasti simili fra loro. Ogn
 |Cambia localmente l'avatar nel robot di errore (Utile nei casi in cui il proprio avatar causa crash o impedisce di usare il menù)
 |}
 
+<div class="mw-translate-fuzzy">
 ====Tracciamento mani====
 ''Leggi [[Special:MyLanguage/Finger_tracking|Tracciamento dita]] per ulteriori informazioni.''
 {{Thumb|{{YouTube|oopovk3BPaw}}}}
 [[File:Handtracking controls vrcmenu.webp|thumb|250px|Controlli per il tracciamento delle dita all'interno delle impostazioni del [[Special:MyLanguage/Main Menu|menù principale]]]]
+</div>
 
 VRChat ha creato un {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|mondo guida}} per imparare ad usare il tracciamento delle mani, un [https://www.youtube.com/watch?v=oopovk3BPaw video tutorial] su come impostare il tracciamento su dispositivi Meta Quest, e imparare i vari gesti utili in VRChat.
 
@@ -330,6 +332,10 @@ Il movimento è gestito con il . Your mouse adjusts your view position. Your hea
 <sup>†</sup> Su una tastiera con disposizione Inglese Americana QWERTY , “backtick” è il tasto in alto a sinistra, vicino al tasto <code>1</code>. Condivide la posizione con il tasto per i carattere tidle (<code>~</code>).
 
 Le opzioni di debug sono disabilitate se non si avvia VRChat con l'opzione di avvio: <code>--enable-debug-gui</code>.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+By default, only the world creator can access debug views above 5. However, the creator of the world can enable it for others.
+</div>
 
 <span id="Mobile"></span>
 ===Dispositivi mobili===
