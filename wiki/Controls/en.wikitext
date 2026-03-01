@@ -139,7 +139,7 @@ Most VR controllers are laid out similarly. Each controller has a joystick and t
 
 ====Hand tracking====
 ''See also [[Special:MyLanguage/Finger tracking|Finger tracking]] for more detailed information.''
-{{Thumb|{{YouTube|oopovk3BPaw}}}}
+{{Thumb|{{YouTube|oopovk3BPaw|title=VRChat Hand/Finger Tracking Tutorial|thumb=File:Vrc handtrackingthumbnail.webp}}}}
 [[File:Handtracking controls vrcmenu.webp|thumb|250px|Controls for finger tracking, within the [[Special:MyLanguage/Main Menu|main menu]] settings.]]
 
 VRChat also offers a {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|tutorial world}}, and [https://www.youtube.com/watch?v=oopovk3BPaw tutorial video] on setting up hand tracking on Meta Quest systems, and to learn hand tracking gestures within VRChat.
@@ -327,6 +327,8 @@ Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts yo
 <sup>†</sup> On a standard English US QWERTY layout keyboard, “backtick” is the key in the top left, next to the <code>1</code> key. It shares a key with the tilde (<code>~</code>) character.
 
 Debug options are disabled unless you launch VRChat with the <code>--enable-debug-gui</code> launch option.
+
+By default, only the world creator can access debug views above 5. However, the creator of the world can enable it for others.
 
 ===Mobile===
 
