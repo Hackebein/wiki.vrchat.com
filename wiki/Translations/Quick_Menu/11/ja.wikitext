@@ -3,36 +3,31 @@
 !アイコン
 !説明
 |-
-|'''Earmuff Mode'''
+|'''イヤーマフモード'''
 |[[File:EarmuffModeIcon QM.png|frameless|32x32px]]
-|[[Special:MyLanguage/Earmuff Mode|Earmuff Mode]]がオンのときに表示されます。イヤーマフの距離が表示され、右端に「Turn Off」ボタンが表示されます。
+| [[Special:MyLanguage/Earmuff Mode|イヤーマフモード]]が有効な場合に表示される。イヤーマフモードの距離と、右端に「オフにする」ボタンが表示される。
 |-
-|'''Streamer Mode'''
+|'''ストリーマーモード'''
 |[[File:StreamerModeIcon QM.png|frameless|32x32px]]
-|Streamer Modeが有効なときに表示されます。右端に「Turn Off」ボタンが表示されます。
+|ストリーマーモードが有効な場合に表示される。右端に「オフにする」ボタンが表示される。
 |-
-|'''Safe Mode'''
+|'''セーフモード'''
 |[[File:SafeModeIcon QM.png|frameless|32x32px]]
-|Safe Modeが有効なときに表示されます。右端に「Turn Off」ボタンが表示されます。
+|セーフモードが有効な場合に表示される。右端に「オフにする」ボタンが表示される。
 |-
-|'''Preloading World'''
+|'''ワールドの事前ダウンロード'''
 |N/A
-|ワールドのプリロード中に表示されます。アイコンはプリロード中のワールドのサムネイルです。  
-プリロード中は、ワールド名とダウンロードサイズ、および進行状況を示すステータスバーが表示されます。右端の「Cancel」ボタンをクリックすると、いつでもプリロードをキャンセルできます。  
-プリロードが完了すると、右端の「Join」ボタンをクリックしてワールドに参加できます。
+|ワールドの事前ダウンロード中に表示される。アイコンにはダウンロード対象のワールドのサムネイルが使用される。ダウンロード中は、ワールドの名前・ダウンロードサイズ、およびダウンロードの進捗を示すステータスバーが表示される。右端の「キャンセル」ボタンをクリックすることで、任意のタイミングでダウンロードのキャンセルができる。ダウンロード完了後は、右端の「入る」ボタンをクリックすることでワールドへの移動ができる。
 |-
-|'''Instance Queue'''
-|[[File:InstanceQueueIcon QM.png|frameless|32x32px]]
-[[File:InstanceQueueReadyIcon QM.png|frameless|32x32px]]
-|ユーザーが[[Special:MyLanguage/Instances#Queues|インスタンスキュー]]に参加しているときに表示されます。  
-待機中はデフォルトでキュー内の位置が表示されますが、クリックすることで表示内容を変更できます。'''キュー待機時間'''、'''キュー内の位置'''、'''情報を非表示'''の間で切り替え可能です。  
-参加可能状態になると、右端の「Join」ボタンから1分以内に参加する必要があります。時間内に参加しない場合、キューから外されます。
+|'''インスタンス待機列'''
+|[[File:InstanceQueueIcon QM.png|frameless|32x32px]] [[File:InstanceQueueReadyIcon QM.png|frameless|32x32px]]
+|ユーザーが [[Special:MyLanguage/Instances#Queues|インスタンス待機列]]に入っている場合に表示される。待機中はデフォルトでキューの位置が表示されるが、クリックすることで'''待機列に入ってからの経過時間'''・'''待機列内の位置'''・'''情報を非表示'''の切り替えができる。準備が完了すると、右端の「入る」ボタンを使用してワールドに移動できる。また、ワールドに移動するまでの猶予が1分間与えられる。猶予を過ぎると待機列から除外され、移動する権利を失う。
 |-
-|'''Unfinished Report'''
+|'''未完了の通報'''
 |[[File:UnfinishedReportIcon QM.png|frameless|32x32px]]
-|未完了の通報がある場合に表示されます。右端の「Open」ボタンをクリックすると通報を再開できます。
+|未完了の通報が存在する場合に表示される。右端の「Open」ボタンをクリックすることでレポートの作成を再開できる。
 |-
-|'''Previewing Avatar'''
+|'''アバターをプレビュー中'''
 |[[File:PreviewAvatarIcon QM.png|frameless|32x32px]]
-|ローカルでビルドしたアバターに変更した場合、または[[Special:MyLanguage/Avatar Marketplace|Avatar Marketplace]]のアバターをプレビューしているときに表示されます。右端に「Take Off」ボタンが表示されます。
+|ローカルビルドのアバターに変更した場合、または [[Special:MyLanguage/Avatar Marketplace|アバターマーケットプレイス]]のアバターをプレビュー中の場合に表示される。右端に「やめる」ボタンが表示される。
 |}
