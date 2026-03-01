@@ -2,11 +2,12 @@
 <languages/>
 <translate> <!--T:1--> Writing and submitting bug reports to VRChat's Feedback Board effectively, will both help the development team narrow down the problem, and prevent the problem from happening again in the future.</translate>
 
-<translate> <!--T:2--> == Overview ==</translate>
+<translate> == Overview == <!--T:2--></translate>
 {{Thumb|{{YouTube|2nFVVMXqAaE|360px|9 / 16|thumb=File:YTThumb_2nFVVMXqAaE_Severance.webp|title=Tupper…? #Severance #VRChat #vrchatcommunity
 }}|Short about VRChat's Feedback Board.<ref>[https://www.youtube.com/watch?v=2nFVVMXqAaE Tupper…?] on ''YouTube''.</ref>}}<translate> <!--T:3--> You cannot report bugs directly within VRChat, but you can submit bug reports pseudonymously on {{VRC link|https://feedback.vrchat.com|feedback.vrchat.com}} if you have a VRChat account. The platform uses a ticketing system powered by Canny.io, while VRChat employs a separate internal system to manage and track tickets. </translate>
 
-<translate> <!--T:4--> == Glossary ==
+<translate> <!--T:4-->
+== Glossary ==
 These are terms that will help you understand this article better.</translate>
 
 <translate> <!--T:5--> * '''<u>Bug:</u>''' ''A software defect or error, that can inconvenience the user. Also can be known as a "glitch".''</translate>
@@ -17,7 +18,7 @@ These are terms that will help you understand this article better.</translate>
 <translate> <!--T:10--> * '''<u>Log files:</u>''' ''A text document that is generated locally on your device, as VRChat is being used. This provides useful information to the development team, as to which code might be triggering the bug.''</translate>
 <translate> <!--T:11--> * '''<u>Reproduction:</u>''' ''Also known as 'repro'. Is the ability to trigger the bug on demand, by performing an action, or a series of actions. Example: "Opening the menu triggers and reproduces the bug."''</translate>
 
-<translate> <!--T:12--> == Current builds ==</translate>
+<translate> == Current builds == <!--T:12--></translate>
 {| class="wikitable"
 !<translate> <!--T:13--> Software</translate>
 !<translate> <!--T:14--> Version</translate>
@@ -41,10 +42,10 @@ These are terms that will help you understand this article better.</translate>
 |{{Template:Version|unity-sdk}}
 |}
 
-<translate> <!--T:19--> == What you need for a bug report ==</translate>
+<translate> == What you need for a bug report == <!--T:19--></translate>
 [[File:Canny.webp|thumb]]
 
-<translate> <!--T:20--> === Logging in ===</translate>
+<translate> === Logging in === <!--T:20--></translate>
 <translate> <!--T:21--> To begin reporting a bug, please go to [https://feedback.vrchat.com feedback.vrchat.com], and proceed to Log In with your [[Special:MyLanguage/VRChat account|VRChat account]]. If you do not yet have a VRChat account, please proceed to [https://vrchat.com/home/register create one on the VRChat website], and optionally, [[Special:MyLanguage/Account Linking|link the accounts]] together.</translate>
 
 <translate> <!--T:22--> Choose a topic that pertains to your bug report. Please also browse through the rest of the topic names, in case if the bug report can be submitted in a more specific thread. </translate>
@@ -55,81 +56,98 @@ These are terms that will help you understand this article better.</translate>
 <translate> <!--T:26--> * '''<u>SDK Bug & Feature Requests:</u>''' ''For problems with the [[Special:MyLanguage/VRChat SDK|VRChat SDK]].''</translate>
 <translate> <!--T:27--> * '''<u>Creator Companion:</u>''' ''For bug reports with the [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]].''</translate>
 
-<translate> <!--T:28--> Once a topic is selected, you can search various community threads to see if another user has already posted a bug report regarding the issue. If so, it is encouraged to upvote the post, and leave a comment if any specifications are not listed. If there is not a post that is yet submitted on the issue, please begin writing a bug report.
+<translate> <!--T:28-->
+Once a topic is selected, you can search various community threads to see if another user has already posted a bug report regarding the issue. If so, it is encouraged to upvote the post, and leave a comment if any specifications are not listed. If there is not a post that is yet submitted on the issue, please begin writing a bug report.
 [[File:Debug UIexample.webp|thumb|VRChat's Debug UI]]</translate>
 
-<translate> <!--T:29--> === Logs and attachments ===</translate>
+<translate> === Logs and attachments === <!--T:29--></translate>
 <translate> <!--T:30--> [https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps Where do I find my Output Logs and Crash Dumps?] on [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]</translate>
 
-<translate> <!--T:31--> It is advisable to attach screenshots, or a video file (up to 8MB) of the issue to your bug report. Any screenshots showcasing the bug, or screenshots of the debug menus will be relevant towards pinpointing the bug. Attaching log files are not always required, but is considered a helpful supplement to include within the bug report.
+<translate> <!--T:31-->
+It is advisable to attach screenshots, or a video file (up to 8MB) of the issue to your bug report. Any screenshots showcasing the bug, or screenshots of the debug menus will be relevant towards pinpointing the bug. Attaching log files are not always required, but is considered a helpful supplement to include within the bug report.
 [[File:Debug QM.webp|thumb|The Debug dropdown, within the settings tab of the Quick Menu]]
 To acquire a log file, navigate to the Settings tab within the Quick Menu, and scroll to the "Debug" dropdown. Click "Report Bug", which will mark a flagged timestamp within the output log.</translate>
 
-<translate> <!--T:32--> === PC ===
+<translate> <!--T:32-->
+=== PC ===
 On PC, your file explorer will open to the folder where the output log is stored. By default, VRChat's output logs on a PC are located under <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>. Check the latest dated file, and attach it to your bug report.</translate>
 
-<translate> <!--T:33--> === Linux (via Proton)===
+<translate> <!--T:33-->
+=== Linux (via Proton)===
 The location of this folder depends heavily on your distribution<ref group="note" name="compatibility">VRChat on Linux via Proton is not directly supported unless you are using VRChat on the Steam Deck.</ref>and how you've installed Steam.</translate>
 
-<translate> <!--T:34--> You can usually find the Proton AppData folder for VRChat here:
+<translate> <!--T:34-->
+You can usually find the Proton AppData folder for VRChat here:
  ~/.local/share/Steam/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
 If you installed Steam via FlatPak, it might be here:
  ~/.var/app/<flatpak-app-id>/(...?)/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat</translate>
 
 <references group="note" />
-<translate> <!--T:35--> === Meta and Oculus ===
+<translate> <!--T:35-->
+=== Meta and Oculus ===
 To get an output log, or crash dump on a Meta device:</translate>
 
-<translate> <!--T:36--> # Navigate to the Settings page of your Quick Menu
+<translate> <!--T:36-->
+# Navigate to the Settings page of your Quick Menu
 # Scroll down to the 'Debug' section
 # You'll find 3 options here: '''Full''', '''Errors Only''' or '''Off'''.</translate>
 
 <translate> <!--T:37--> Your output logs can be found in the <code>Documents/Logs</code> folder located in the device root when you've connected your Quest to a PC.</translate>
 
-<translate> <!--T:38--> === Include a detailed description ===</translate>
-<translate> <!--T:39--> A detailed bug report should include a brief description of the bug within the title of the bug report, and the build number. Within the summary, please describe the device VRChat is running on, as well as steps on how to reproduce the bug. Describe the intended result, but what had occurred instead.
+<translate> === Include a detailed description === <!--T:38--></translate>
+<translate> <!--T:39-->
+A detailed bug report should include a brief description of the bug within the title of the bug report, and the build number. Within the summary, please describe the device VRChat is running on, as well as steps on how to reproduce the bug. Describe the intended result, but what had occurred instead.
 [[File:Canny bug report.webp|thumb|An example of a good bug report, which includes a build number, description of the bug, proposed reproduction steps and observations, and an image file.]]</translate>
 
-<translate> <!--T:40--> ==== Template for reports<ref>[https://www.twitch.tv/vrchat/clip/SaltyAssiduousEchidnaAMPEnergy-TNqOCjdrYDHegiw9 What a Bug Report needs - Q&A Team StormRel] <!-- fallback video: https://youtu.be/YusV-Atlhog --></ref> ====</translate>
-<translate> <!--T:41-->  1. Summary
+<translate> ==== Template for reports<ref>[https://www.twitch.tv/vrchat/clip/SaltyAssiduousEchidnaAMPEnergy-TNqOCjdrYDHegiw9 What a Bug Report needs - Q&A Team StormRel] <!-- fallback video: https://youtu.be/YusV-Atlhog --></ref> ==== <!--T:40--></translate>
+<translate> <!--T:41-->
+ 1. Summary
  > Explain in 2-3 Sentence what this report is about. Include the build number.
  VRChat crashed when trying to join a friend on build 1XXX.</translate>
  
-<translate> <!--T:42-->  2. Steps to reproduce the bug:
+<translate> <!--T:42-->
+ 2. Steps to reproduce the bug:
  > Write down what you did step by step so someone else can see the problem. For example:
    1. Open Main Menu
    2. Visit any Profile
    3. Double Click "Join" Button</translate>
  
- <translate> <!--T:43--> 3. What did you expect to happen?
+ <translate> <!--T:43-->
+3. What did you expect to happen?
  > Explain what you thought would happen. For example:
  To join my friends.</translate>
  
-<translate> <!--T:44-->  4. What actually happened?
+<translate> <!--T:44-->
+ 4. What actually happened?
  > Explain what went wrong. For example:
  VRChat crashed.</translate>
  
-<translate> <!--T:45-->  X. Additional details (if any):
+<translate> <!--T:45-->
+ X. Additional details (if any):
  > Add any other information. For example:
  * Logs (`%appdata%\..\LocalLow\VRChat\VRChat\`, need to be uploaded external)
  * Video (can be uploaded external, such as [https://studio.youtube.com/channel/%20/videos/upload?d=ud upload on YouTube])
  * Screenshots (up to 8MB, or need to be uploaded external)
  * Links</translate>
 
-<translate> <!--T:46--> == See also ==
+<translate> == See also == <!--T:46-->
 
+<!--T:50-->
 * [[Special:MyLanguage/Open Beta|Open Beta]]
 * [[Special:MyLanguage/Quality Assurance|Quality Assurance]]
 * [[Special:MyLanguage/Reporting#Reporting a bug|Reporting#Reporting a bug]]
 * [[Special:MyLanguage/Guides:How to submit VRChat feedback|Guides:How to submit VRChat feedback]]</translate>
 
-<translate> <!--T:47--> == Official resources ==
+<translate> == Official resources == <!--T:47-->
 
+<!--T:51-->
 * [https://help.vrchat.com/hc/en-us/articles/360062658413-I-found-a-bug-I-want-to-report-a-bug I found a bug/I want to report a bug] on [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]
 * [https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps Where do I find my Output Logs and Crash Dumps?] on [[Special:MyLanguage/Help.vrchat.com|''help.vrchat.com'']]</translate>
 
-<translate> <!--T:48--> == Community resources ==
+<translate> == Community resources == <!--T:48-->
 
+<!--T:52-->
 * [https://www.softwaretestinghelp.com/how-to-write-good-bug-report/ How to Write a Bug Report: Bug Reporting in Software Testing], by Vijay on ''www.softwaretestinghelp.com''</translate>
-<translate> <!--T:49--> ==References==
+<translate> <!--T:49-->
+==References==
 <references /></translate>
