@@ -54,12 +54,12 @@ Les tests de Valve indiquent que VRChat est jouable sur Steam Deck. Il fonctionn
 La configuration minimale pour jouer à VRChat est basée sur les exigences minimales de SteamVR <ref>VRChat Help, System Requirements, https://help.vrchat.com/hc/en-us/articles/1500002378722-System-Requirements</ref>
 <ref>Steam Store, VRChat, https://store.steampowered.com/app/438100/VRChat/</ref><ref>Steam Store, SteamVR, https://store.steampowered.com/app/250820/SteamVR/</ref>.
 
-Si vous voulez vérifier si votre PC est compatible pour jouer à VRChat, vous pouvez comparer les performances de votre ordinateur avec les prérequis listés ci-dessous.
+Si vous voulez vérifier si votre PC est compatible pour jouer à VRChat, vous pouvez télécharger et utiliser l'application [https://store.steampowered.com/app/1070910/Are_you_ready_for_Valve_Index/ Are you ready for Valve Index ?].
 
 * '''Processeur (CPU) :''' Intel® i5-4590 ou AMD FX 8350 ou équivalent  
 * '''Mémoire :''' 4 Go  
 * '''Carte graphique (GPU) :''' NVIDIA GeForce® GTX 970 ou AMD Radeon™ R9 290 ou équivalent  
-* '''Espace disque :''' 31,5 Go de stockage (~1,5 Go pour l'application<ref>SteamDB, VRChat, Depot https://steamdb.info/depot/438101/</ref>, taille de cache minimum de 30 Go)  
+* '''Espace disque :''' 21,5 Go de stockage (~1,5 Go pour l'application<ref>SteamDB, VRChat, Depot https://steamdb.info/depot/438101/</ref>, taille de cache minimum de 20 Go)  
 * '''Connexion Internet :''' requise (vitesse de téléchargement recommandée de 25 Mbps ou plus)  
 * '''Système d'exploitation (OS) :''' Windows 10, Windows 11
 
@@ -119,8 +119,10 @@ Pour installer et utiliser l’application, vous devez disposer d’un iPhone ou
 <span id="Account_creation"></span>
 == Création de compte ==
 
+<div class="mw-translate-fuzzy">
 [[File:LoginPage.webp|thumb|Une image de l'écran de connexion de VRChat]]
-{{Thumb|{{YouTube|gXTe3GhWebY|title=Sign-In Issues | Account Management|thumb=File:YTThumb_gXTe3GhWebY_SignIn.webp}}}}
+{{Thumb|{{YouTube|gXTe3GhWebY}}}}
+</div>
 
 Lorsque vous lancez VRChat, un écran de connexion s’affiche. Vous aurez la possibilité de changer de langue, de lire les [[Special:MyLanguage/Terms of Service|Conditions d’utilisation]] et la [[Special:MyLanguage/Privacy Policy|Politique de confidentialité]], et principalement de vous connecter avec un compte VRChat, ou de créer un compte appareil via Steam, Meta, Google, Pico ou VIVE, selon l’appareil utilisé. Pour vous connecter à un compte VRChat, vous devez d’abord vous [https://vrchat.com/home/register inscrire] sur le site web de VRChat. La création d’un compte VRChat vous donnera accès à l’application VRChat, à une version web de votre profil VRChat, à votre liste d’amis, à la navigation des mondes et à la génération d’[[Special:MyLanguage/Impostors|imposteurs]]. Vous pourrez également accéder au [[Special:MyLanguage/VRChat_SDK|kit de développement logiciel de VRChat]], aux [https://feedback.vrchat.com forums de commentaires], aux [https://ask.vrchat.com forums Ask], vous inscrire au programme de l’[[Special:MyLanguage/Creator Economy|Économie des créateurs]] et modifier le wiki VRChat.
 
@@ -182,4 +184,4 @@ Merci à PHIA et à l'équipe de [[Community:The Virtual Reality Show|The Virtua
 
 
 {{Start-navbox}}
-[[Category:Needs images{{#translation:}}]]
+[[Category:Needs Images]]
