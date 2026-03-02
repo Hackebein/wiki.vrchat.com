@@ -5,6 +5,7 @@
 |description=このページは [[Special:MyLanguage/VRCWiki:Team|VRCWiki チーム]]によって査読されたのち、承認されます。 このページへの貢献方法は[[Special:MyLanguage/VRCWiki:Contributor_hub|貢献ガイド]]を読んでください。
 |border-color=var(--less-dark-green-border)
 |background-color=#162230}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Official Pages{{#translation:}}]][[Category:Official Content{{#translation:}}]]}}</onlyinclude>
-<noinclude>
-{{Documentation}}
-</noinclude>
+
+{{templatedocs}}
+[[Category:Templates{{#translation:}}]]
+[[Category:Templates/Noticeboxes{{#translation:}}]]
