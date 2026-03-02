@@ -46,43 +46,41 @@
 * '''Ползунок масштабирования справа:''' регулирует масштаб; двигайте её вниз, чтобы уменьшить масштаб (объектив «рыбий глаз»), и вверх, чтобы увеличить.
 * '''Стрелка внизу:''' Сворачивает меню.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Menu ==
-* '''Take Photo:''' Takes a photo immediately.
-* '''Timed (5s):''' Takes a photo after a 5-second delay with a countdown sound.
-* '''Camera Mode:''' Expands different modes for the camera.
-** Local Photo, Multi Layer, Stream
-*** [[Special:MyLanguage/VRChat+|VRC+]] exclusive: Gallery Photo, User Icon, Sticker, Prints, Emoji
-* '''Anchor:''' Determines where the camera is attached.
-** '''Default:''' Attached to the user.
-** '''Local:''' Follows user movement but not head movement.
-** '''World:''' Attached to the world, independent of user movement.
-* '''Behavior:''' Adjusts camera performance.
-** '''Smoothed:''' Stabilizes video for smoother footage.
-** '''Look at Me:''' Camera follows where your head is facing.
-** '''Auto Level:''' Keeps the camera level, preventing tilting.
-* '''Focus:''' Controls the focus mode.
-** '''Full Auto:''' Automatically sets the aperture and focal distance.
-** '''Semi Auto:''' Allows adjustment of aperture only.
-** '''Manual:''' Allows adjustment of both aperture and focal distance.
-* '''Pins:''' Saved settings for focus and filter configurations.
-* '''Mask:''' Determines which layers are included in pictures.
-** '''Local User:''' Includes the user and their avatar.
-** '''Remote User:''' Includes other users.
-** '''Environment:''' Includes the world environment.
-** '''Green Screen:''' Replaces the environment with a green screen.
-** '''UI:''' Includes UI elements like the radial menu and camera interface.
-** '''Items:''' Includes items placed by users in the world.
-* '''Lens Visibility:''' Sets how the camera is rendered within the world.
-** '''Off:''' Shows only a small light.
-** '''Ghost:''' Displays a light blue transparent camera lens.
-** '''Solid:''' Displays a solid camera lens.
-* '''Filters:''' Adds visual filters to the camera. Only one filter can be active at a time.
-* '''Photo Resolution:''' Sets the photo resolution. Higher resolutions create larger files and may cause frame lag.
-* '''Grid:''' Overlays a 3x3 grid on the camera screen for visual assistance. The grid does not appear in the actual picture.
-* '''Lock (VR Only):''' Lock the camera so that it cannot be held. This can only be used in VR.
-* '''Fly Mode:''' The camera can be manually controlled within proximity to yourself. Holding down the scroll wheel on desktop, and using a combination of mouse movement and 'WASD' keys will pilot the camera around. In VR, clicking the "Fly" button and using the left and right joysticks after pressing the trigger will toggle movement between the camera, and your avatar.
-</div>
+== Меню ==
+* '''Сделать фото:''' Делает фото.
+* '''Таймер (5с):''' Делает фото через 5 секунд.
+* '''Режимы камеры:''' Различные режимы работы камеры.
+** Локальная фотография, многослойная съемка, трансляция.
+*** Эксклюзив [[Special:MyLanguage/VRChat+|VRC+]] :фотография из галереи, иконка пользователя, стикер, принты, эмодзи.
+* '''Привязка:''' Определяет, к чему привязана камера.
+** '''По умолчанию:''' Привязана к пользователю.
+** '''Локальная:''' Следует за движениями пользователя, но не за движениями головы.
+** '''Мир:''' Привязана к миру, не зависит от движений пользователя.
+* '''Поведение:''' Настраивает работу камеры.
+** '''Сглаживание:''' Стабилизирует видео для более плавной съемки.
+** '''Смотри на меня:''' Камера следует за направлением взгляда пользователя.
+** '''Автовыравнивание:''' Выравнивает камеру, предотвращая ее наклон.
+* '''Фокусировка:''' управляет режимом фокусировки.
+** '''Полностью автоматический:''' Автоматически устанавливает диафрагму и фокусное расстояние.
+** '''Полуавтоматический:''' Позволяет регулировать только диафрагму.
+** '''Ручной:''' Позволяет регулировать и диафрагму, и фокусное расстояние.
+* '''Закрепленные настройки:''' Сохраненные настройки фокусировки и фильтров.
+* '''Маска:''' Определяет, какие слои будут включены в изображение.
+** '''Локальный пользователь:''' Включает пользователя и его аватар.
+** '''Другие пользователи:''' Включает других пользователей.
+** '''Окружение:''' Включает окружение мира.
+** '''Зелёный экран:''' Заменяет окружение на зеленый экран.
+** '''Интерфейс:''' Включает элементы интерфейса, такие как радиальное меню и интерфейс камеры.
+** ''''Предметы:''' Включает предметы, размещенные пользователями в мире.
+* '''Видимость объектива:''' Определяет, как камера отображается в мире.
+** ''''Выключено:''' Виден только небольшой огонек.
+** '''Призрачный:''' Виден полупрозрачный объектив камеры светло-голубого цвета.
+** '''Сплошной:''' Виден сплошной объектив камеры.
+* '''Фильтры:''' Добавляют визуальные фильтры в камеру. Одновременно может быть активен только один фильтр.
+* '''Разрешение фото:''' Задает разрешение фото. Чем выше разрешение, тем больше размер файла и тем выше вероятность задержки кадров.
+* '''Сетка:'''  На экране камеры отображается сетка 3x3 для наглядности. На самом изображении сетка не отображается.
+* '''Блокировка (только для VR):''' Блокирует камеру, чтобы ее нельзя было удерживать. Эта функция доступна только в VR.
+* '''Режим полета:''' Камерой можно управлять вручную, находясь рядом с ней. Удерживайте колесико прокрутки на компьютере и с помощью движений мыши и клавиш WASD перемещайте камеру. В виртуальной реальности нажмите кнопку «Полет» и используйте левый и правый джойстики после нажатия на спусковой крючок, чтобы переключаться между движением камеры и вашего аватара.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Manual controls ===
