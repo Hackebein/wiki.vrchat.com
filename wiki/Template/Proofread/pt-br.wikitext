@@ -1,9 +1,10 @@
-<noinclude><languages/></noinclude><onlyinclude>{{Noticebox
+<languages/><onlyinclude>{{Noticebox
 |template=Proofread
 |image=Tools.png
 |title=Esta página ainda precisa ser revisada para verificar se há erros
 |description=Você pode ajudar a Wiki do VRChat [[Special:EditPage/{{FULLPAGENAME}}|revisando-a.]]<br/><span class="comment">[Reason: {{#if:{{{1|}}} | {{{1}}} | No reason provided.}}]</span>
-|border-color=#007bd1}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Proofread{{#translation:}}]]}}</includeonly></onlyinclude>
-<noinclude>
-{{Documentation}}
-</noinclude>
+|border-color=#007bd1}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Proofread]]}}</onlyinclude>
+
+{{templatedocs}}
+[[Category:Templates{{#translation:}}]]
+[[Category:Templates/Noticeboxes{{#translation:}}]]
