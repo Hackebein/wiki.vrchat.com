@@ -55,7 +55,8 @@
 		"branch_openbeta_date": {
 			"label": "Branch | Open Beta - Date",
 			"type": "date",
-			"description": "Open Beta first appearance date of the feature"
+			"description": "Open Beta first appearance date of the feature",
+			"example": "01 Jan 2000"
 		},
 		"vrchatplus": {
 			"label": "VRC+",
@@ -88,7 +89,8 @@
 		"branch_live_date": {
 			"label": "Branch | Live - Date",
 			"description": "Release date of the feature",
-			"type": "date"
+			"type": "date",
+			"example": "01 Jan 2000"
 		},
 		"branch_live_version": {
 			"label": "Branch | Live - Version",
@@ -105,7 +107,7 @@
 		"branch_announcement_date": {
 			"label": "Branch | Announcement - Date",
 			"description": "Date of the first announcement",
-			"example": "20 Jun 2025",
+			"example": "01 Jan 2000",
 			"type": "date"
 		},
 		"branch_announcement_link": {
