@@ -6,6 +6,8 @@
 <b>Sold by</b><br>{{{seller|}}} }}</div>
 <div style="margin-bottom: 10px;">{{#if:{{{author|}}}|
 <b>Created by</b><br>{{{author|}}} }}</div>
+<div style="margin-bottom: 10px;">{{#if:{{{publisher|}}}|
+<b>Published by</b><br>{{{publisher|}}} }}</div>
 <!--TODO: Add categories per type--> 
 <div style="margin-bottom: 10px;">{{#if:{{{type|}}}|
 <b>Type</b><br>{{#switch: {{{type|}}}
