@@ -70,10 +70,8 @@ Para obtener un archivo de registro, ve a la pestaña de ajustes dentro del men�
 On PC, your file explorer will open to the folder where the output log is stored. By default, VRChat's output logs on a PC are located under <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>. Check the latest dated file, and attach it to your bug report.
 </div>
 
- <div lang="en" dir="ltr" class="mw-content-ltr">
-=== Linux (via Proton)===
-The location of this folder depends heavily on your distribution
-</div><ref group="note" name="compatibility"> <span lang="en" dir="ltr" class="mw-content-ltr">VRChat on Linux via Proton is not directly supported unless you are using VRChat on the Steam Deck.</span></ref> <span lang="en" dir="ltr" class="mw-content-ltr">and how you've installed Steam.</span>
+ === Linux (vía Proton)===
+La ubicación de esta carpeta depende en gran medida de tu distribución.<ref group="note" name="compatibility"> <span lang="en" dir="ltr" class="mw-content-ltr">VRChat on Linux via Proton is not directly supported unless you are using VRChat on the Steam Deck.</span></ref> <span lang="en" dir="ltr" class="mw-content-ltr">and how you've installed Steam.</span>
 
  <div lang="en" dir="ltr" class="mw-content-ltr">
 You can usually find the Proton AppData folder for VRChat here:
