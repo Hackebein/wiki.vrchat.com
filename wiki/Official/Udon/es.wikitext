@@ -17,9 +17,8 @@ Udon allows users to utilize the '''Udon Node Graph''' UI for visual scripting, 
 Udon is primarily used as a replacement for [https://docs.unity3d.com/ScriptReference/MonoBehaviour.html MonoBehaviors] in Unity. Udon is designed to securely interface with the VRChat platform in a sandboxed environment, with a select set of approved operations to perform various actions, which can optionally be synced across the network. Udon covers a wide range of native C# and Unity operations, as well as VRChat specific operations that can be used to build advanced [[worlds]] and experiences in VRChat.
 </div> 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== History ==
-</div>
+<span id="History"></span>
+== Historia ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Udon Toolkit was originally announced on a blog post<ref>[https://medium.com/@vrchat/vrchat-node-graph-playmaker-and-soon-1a958672688d 'VRChat “Node Graph”, Playmaker, and Soon™'; retrieved September 6, 2024.]</ref> on June 20, 2018 and introduced as the "VRChat Node Graph", and was additionally discussed during a [[Developer Update]] video<ref>[https://www.youtube.com/watch?v=sst9GZAZBDU 'VRChat Developer Update #4' on YouTube; retrieved September 6, 2024.]</ref> on June 26, 2018 to replace the ''"Playmaker"'' toolkit, on early versions of the world SDK.
