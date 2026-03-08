@@ -2,7 +2,7 @@
 By default, [[Special:MyLanguage/Worlds|worlds]] in [[Special:MyLanguage/VRChat|VRChat]] cannot make requests to untrusted URLs unless the user enables the "[[Special:MyLanguage/Untrusted_URLs|Allow Untrusted URLs]]" [[Special:MyLanguage/Settings|setting]]. Public [[Special:MyLanguage/Instances|instances]] are additionally secured by a list of up to 10 hosts, which can be set by the world creator. This is an intentional measure for security purposes. There is however an allowlist of trusted domains that are the exception to this rule, and are specific to the type of content being loaded. Below are the different allowlists by type.
 
 == Video player allowlist ==
-The following domains are allowlisted for public {{VRC link|https://creators.vrchat.com/worlds/udon/video-players/www-whitelist/|video}} content use in [[Special:MyLanguage/Video_players|video players]].
+The following domains are allowlisted for public [https://creators.vrchat.com/worlds/udon/video-players/www-whitelist/ video] content in [[Special:MyLanguage/Video_players|video players]]. For the complete list used at runtime, which may change at any time, query the <code>urlList</code> property from the [[apiref:reference/get-config|config endpoint]] of the [[Special:MyLanguage/VRChat API|VRChat API]].
 {| class="wikitable"
 !Service
 !Domain
@@ -31,10 +31,10 @@ The following domains are allowlisted for public {{VRC link|https://creators.vrc
 |Topaz Chat
 |<code>*.topaz.chat</code>
 |-
-|Twitch.TV
+|Twitch
 |<code>*.twitch.tv</code>,<code>*.ttvnw.net</code>,<code>*.twitchcdn.net</code>
 |-
-|VRCDN
+|[[Special:MyLanguage/Community:VRCDN|VRCDN]]
 |<code>*.vrcdn.live</code>,<code>*.vrcdn.video</code>,<code>*.vrcdn.cloud</code>
 |-
 |Vimeo
@@ -48,7 +48,7 @@ The following domains are allowlisted for public {{VRC link|https://creators.vrc
 |}
 
 == String loading allowlist ==
-The following domains are allowlisted for public use with {{VRC link|https://creators.vrchat.com/worlds/udon/string-loading/|string loading}} using [[Special:MyLanguage/Udon|Udon]].
+The following domains are allowlisted for [https://creators.vrchat.com/worlds/udon/string-loading string loading] using [[Special:MyLanguage/Udon|Udon]]. For the complete list used at runtime, which may change at any time, query the <code>stringHostUrlList</code> property from the [[apiref:reference/get-config|config endpoint]] of the [[Special:MyLanguage/VRChat API|VRChat API]].
 {| class="wikitable"
 !Service
 !Domain
@@ -70,7 +70,7 @@ The following domains are allowlisted for public use with {{VRC link|https://cre
 |}
 
 == Image loading allowlist ==
-The following domains are allowlisted for public use in {{VRC link|https://creators.vrchat.com/worlds/udon/image-loading/|image loading}} using Udon.
+The following domains are allowlisted for [https://creators.vrchat.com/worlds/udon/image-loading image loading] using [[Special:MyLanguage/Udon|Udon]]. For the complete list used at runtime, which may change at any time, query the <code>imageHostUrlList</code> property from the [[apiref:reference/get-config|config endpoint]] of the [[Special:MyLanguage/VRChat API|VRChat API]].
 {| class="wikitable"
 !Service
 !Domain
@@ -78,7 +78,7 @@ The following domains are allowlisted for public use in {{VRC link|https://creat
 |Discord
 |<code>cdn.discordapp.com</code>
 |-
-|DisBridge
+|[[Special:MyLanguage/Community:DisBridge|DisBridge]]
 |<code>*.disbridge.com</code>
 |-
 |Dropbox
@@ -105,7 +105,7 @@ The following domains are allowlisted for public use in {{VRC link|https://creat
 |Reddit
 |<code>i.redd.it</code>
 |-
-|Twitter
+|X (formerly Twitter)
 |<code>pbs.twimg.com</code>
 |-
 |VRCDN
