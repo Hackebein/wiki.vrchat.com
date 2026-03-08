@@ -65,10 +65,8 @@ Estos son términos que te ayudarán a entender mejor este artículo, estarán e
 [[File:Debug QM.webp|thumb|Menú desplegable de depuraicón dentro de la pestaña de ajustes del menú rápido]]
 Para obtener un archivo de registro, ve a la pestaña de ajustes dentro del menú Rápido y desplázate hasta el menú desplegable "Depuración". Haz clic en "Informar de un error", lo que marcará una marca de tiempo señalada dentro del registro de salida.
 
- <div lang="en" dir="ltr" class="mw-content-ltr">
-=== PC ===
-On PC, your file explorer will open to the folder where the output log is stored. By default, VRChat's output logs on a PC are located under <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>. Check the latest dated file, and attach it to your bug report.
-</div>
+ === PC ===
+En PC, tu explorador de archivos se abrirá en la carpeta donde se almacena el registro de salida. Por defecto, los registros de salida de VRChat en PC se ubican en <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> y se llaman <code>output_log_(fecha)</code>. Revisa el archivo con la fecha más reciente y adjúntalo a tu informe de errores.
 
  === Linux (vía Proton)===
 La ubicación de esta carpeta depende en gran medida de tu distribución.<ref group="note" name="compatibility"> VRChat en Linux a través de Proton no es compatible directamente a menos que estés utilizando VRChat en Steam Deck.</ref> <span lang="en" dir="ltr" class="mw-content-ltr">and how you've installed Steam.</span>
