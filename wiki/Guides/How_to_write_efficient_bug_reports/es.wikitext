@@ -71,12 +71,10 @@ En PC, tu explorador de archivos se abrirá en la carpeta donde se almacena el r
  === Linux (vía Proton)===
 La ubicación de esta carpeta depende en gran medida de tu distribución.<ref group="note" name="compatibility"> VRChat en Linux a través de Proton no es compatible directamente a menos que estés utilizando VRChat en Steam Deck.</ref> y cómo has instalado Steam.
 
- <div lang="en" dir="ltr" class="mw-content-ltr">
-You can usually find the Proton AppData folder for VRChat here:
+ Generalmente puedes encontrar la carpeta Proton AppData para VRChat aquí:
  ~/.local/share/Steam/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
-If you installed Steam via FlatPak, it might be here:
+Si instalaste Steam vía FlatPak, podría estar aquí:
  ~/.var/app/<flatpak-app-id>/(...?)/steamapps/compatdata/438100/pfx/drive_c/users/steamuser/AppData/LocalLow/VRChat/VRChat
-</div>
 
 <references group="note" />
  <div lang="en" dir="ltr" class="mw-content-ltr">
