@@ -42,13 +42,11 @@ UdonSharp, or U#, is a compiler that compiles C# into Udon's assembly code. Udon
 <span id="In_the_Project_window"></span>
 ===== En la ventana del proyecto =====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Right-click in your project's asset explorer.
-# Navigate to "Create" > "U# script".
-# Click "U# script". This will open a file creation dialog.
-# Choose a name for your script and click "Save".
-# This will create a <code>.cs</code> script file and an UdonSharp program asset that's set up for the script in the same directory.
-</div>
+# Haz clic derecho en el explorador de assets de tu proyecto.
+# Para crear ve a "Create" > "U# script".
+# Haz clic en "U# script". Esto abrirá un cuadro de diálogo para crear un archivo.
+# Elige un nombre para tu script y haz clic en "Save" para guardar.
+# Esto creará un archivo <code>.cs</code> y un asset de programa UdonSharp configurado para el script en el mismo directorio.
 
 <span id="In_the_Hierarchy_window"></span>
 ===== En la ventana de la jerarquía=====
