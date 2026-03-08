@@ -51,13 +51,11 @@ UdonSharp, or U#, is a compiler that compiles C# into Udon's assembly code. Udon
 <span id="In_the_Hierarchy_window"></span>
 ===== En la ventana de la jerarquía=====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-# Create a new game object in your scene.
-# Add an <code>Udon Behaviour</code> component to the object.
-# Below the "New Program" button click the dropdown and select "Udon C# Program Asset".
-# Now click the "New Program" button. This will create a new UdonSharp program asset for you.
-# Click the "Create Script" button and choose a save destination and name for the script.</blockquote>
-</div>
+# Crea un nuevo "game object" en tu escena.
+# Agrega un componente <code>Udon Behaviour</code> al objeto.
+# Debajo del botón "New Program", haz clic en el desplegable y selecciona "Udon C# Program Asset".
+# Ahora haz clic en el botón "New Program". Esto creará un nuevo asset de programa UdonSharp para ti.
+# Para crear el script haz clic en el botón "Create Script" y elige un destino y nombre para el script.</blockquote>
 
 === Udon 2 (Soba) ===
 
