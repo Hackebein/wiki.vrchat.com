@@ -251,7 +251,7 @@ def clean_empty_dirs(path: Path, stop_at: Path) -> None:
 
 
 def stage_all(repo: Path) -> None:
-    run_git(repo, ["add", "-A"])
+    run_git(repo, ["add", "-A", PAGES_DIR])
 
 
 def has_staged_changes(repo: Path) -> bool:
