@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-mediawiki_recentchanges_to_git.py
-
 Sync MediaWiki recent changes into a Git repository, one commit per change.
 
 Bootstrapping behavior:
