@@ -198,6 +198,27 @@ World - Reduces positional movement from locomotion, any movement due to animati
 |N/A
 |}
 
+===Version differences===
+VRChat supports multiple component versions for PhysBones. Existing components stay on the version they were created with until the creator updates them manually in Unity.
+
+* '''Version 1.0''' is the original release.
+* '''Version 1.1''' changes how ''Gravity'' and ''Stiffness'' behave, and adds stretch and squish support often referred to as '''SquishyBones'''.
+
+In version 1.0, gravity behaves more like a force that competes with other settings. In version 1.1, gravity and stiffness act more like ratios that influence the final resting result of the chain.
+
+===Setup notes===
+PhysBones require an endpoint to simulate properly. A single transform, or a root with only direct children and no further chain, usually needs a non-zero ''Endpoint Position'' or an added end bone to behave as expected.
+
+Creators can also choose between ''Simplified'' and ''Advanced'' integration types. Simplified exposes ''Spring'', while Advanced exposes ''Momentum'' and ''Stiffness'' for more detailed tuning.
+
+===Avatar parameters===
+When the ''Parameter'' field is set on an avatar PhysBone, VRChat exposes additional Animator parameters using that prefix. These can report whether the chain is grabbed or posed, along with normalized angle, stretch, and squish values. These parameters do not need to be added to the avatar's synced Expression Parameters list.
+
+===Performance and limits===
+On avatars, a single PhysBone component can affect up to 256 transforms. VRChat also notes that ''Polar'' limits are more expensive than ''Angle'' or ''Hinge'', so simpler limit types are preferred where they achieve the same result.
+
+PhysBone collision and grabbing use a bounding box that is capped at a maximum size. Very large stretching setups can still work visually, but users may not be able to touch or grab bones outside that interaction range.
+
 ==Avatar performance==
 PhysBones were introduced to VRChat as an optimized and free alternative to legacy Dynamic Bones for Unity. Compared to Dynamic Bones, more PhysBones can be applied to an avatar on both PC, and Android versions, as they are more cost-performant.
 
