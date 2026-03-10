@@ -2,9 +2,9 @@
 <!-- Set upcoming href to a blank value if no versions are in development.-->
 <!-- CLIENT -->
  | live-mainpage = https://docs.vrchat.com/docs/vrchat-202612 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
- | live = https://docs.vrchat.com/docs/vrchat-202612p1 <!-- Put the highest value of either windows, android or ios here . -->
- | live-windows = https://docs.vrchat.com/docs/vrchat-202612p1
- | live-android = https://docs.vrchat.com/docs/vrchat-202612p1 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
+ | live = https://docs.vrchat.com/docs/vrchat-202612p1-1 <!-- Put the highest value of either windows, android or ios here . -->
+ | live-windows = https://docs.vrchat.com/docs/vrchat-202612p1-1
+ | live-android = https://docs.vrchat.com/docs/vrchat-202612p1-1 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
  | live-ios = https://docs.vrchat.com/docs/vrchat-202612 <!-- Put the highest ios value here (ios, ipados). -->
  | open-beta =
  | open-beta-windows =
@@ -14,7 +14,7 @@
  | sdk = https://creators.vrchat.com/releases/release-3-10-2
  | sdk-worlds = https://creators.vrchat.com/releases/release-3-10-2
  | sdk-avatars = https://creators.vrchat.com/releases/release-3-10-2
- | sdk-beta = 
+ | sdk-beta = https://vrc-beta-docs.netlify.app/releases/release-3-10-2/
  | package-resolver =
  | unity-sdk = https://unity.com/releases/editor/whats-new/2022.3.22
 <!-- OTHER -->
