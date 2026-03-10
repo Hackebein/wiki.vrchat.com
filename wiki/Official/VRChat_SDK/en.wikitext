@@ -1,16 +1,11 @@
 <languages/>
-<translate>
-<!--T:20-->
 {{Noticebox/Official}}
 
 
-<!--T:1-->
 VRChat is a platform that runs off of the Unity engine. Users can create and upload worlds and avatars using the VRChat Software Development Kit (SDK), by starting a project from within the [[Special:MyLanguage/VRChat Creator Companion|Creator Companion]]. Projects can be made for either [[Special:MyLanguage/Avatars|Avatars]] or [[Special:MyLanguage/Worlds|Worlds]] using the latest Unity and SDK versions, guided by the Creator Companion. You can acquire the Creator Companion by signing into your VRChat account on the website, and {{VRC link|https://vrchat.com/home/download|downloading it}}. Your account must be at the ''"New User''" [[Special:MyLanguage/Trust Rank|Trust Rank]], or greater to upload any content.
 
-<!--T:2-->
 If it's your first time using Unity, the {{VRC link|https://vcc.docs.vrchat.com/|Creator Companion}}, or the {{VRC link|https://creators.vrchat.com/sdk/|SDK}}, there are several official and community tutorials to follow, which aid the process on creating and uploading the content that you want. Using the Creator Companion will install Unity, as well as install and update the required World or Avatar SDKs.
 
-<!--T:3-->
 {| class="wikitable"
 !Software
 !Version
@@ -34,54 +29,43 @@ If it's your first time using Unity, the {{VRC link|https://vcc.docs.vrchat.com/
 |{{Template:Version|unity-sdk}}
 |}
 
-<!--T:4-->
 <!--== History ==
 
-<!--T:5-->
 ==== Legacy SDKs ====
 Please add information about SDK versions, older than VRCSDK 2.0
 
-<!--T:6-->
 ==== SDK 2.0 ====
 Please add information about VRChat SDK 2.0!
 
-<!--T:7-->
 ==== SDK 3.0 ====
 Please add information about SDK 3.0!-->
 
-<!--T:8-->
 == World SDK ==
 [[File:Content Creator Tools SDK.webp|thumb|The VRChat SDK can be used to create avatars, worlds, and advanced code!]]
 VRChat's world SDK allows for users to build, upload, and modify different environments to VRChat.
 
-<!--T:9-->
 === Udon ===
 [[Special:MyLanguage/Udon|Udon]] is VRChat's C# derived programming language, used to create advanced experiences within worlds.
 
-<!--T:10-->
 == Avatar SDK ==
 VRChat's avatar SDK allows for users to build, upload, and modify different avatars to VRChat.
 
-<!--T:11-->
 === Avatar Dynamics ===
 [[Special:MyLanguage/Avatar Dynamics|Avatar Dynamics]], also called ''Interactions'', are advanced features on an avatar, that can allow for a user to interact with their own avatar, or interact with other user's avatars.
 
-<!--T:12-->
 === PhysBones ===
 [[Special:MyLanguage/Physbones|PhysBones]] are an avatar SDK component that allows for fluid and advanced movement on an avatar's ''skeletal'' system, allowing physics to be applied to avatar characteristics.
 
-==Official resources== <!--T:13-->
+==Official resources==
 
-<!--T:14-->
 *{{VRC link|https://creators.vrchat.com/|Become a VRChat Creator}}
 *[https://creators.vrchat.com/sdk/ VRChat SDK] on Creator Docs
 *[https://creators.vrchat.com/avatars/avatar-components/ Avatar Components] on Creator Docs
 *[https://docs.vrchat.com/ VRChat Docs]
 *[https://unity.com/releases/editor/whats-new/2022.3.22 Unity 2022.3.22]
 
-== SDK-related guides == <!--T:15-->
+== SDK-related guides ==
 
-<!--T:16-->
 * [[Special:MyLanguage/Guides:Common SDK issues|Guides:Common SDK issues]]
 * [[Special:MyLanguage/Guides:Udon guides|Guides:Udon guides]]
 * [[Special:MyLanguage/Guides:Constraint dampening|Guides:Constraint dampening]]
@@ -92,16 +76,14 @@ VRChat's avatar SDK allows for users to build, upload, and modify different avat
 * [[Special:MyLanguage/Guides:World constraint|Guides:World constraint]]
 * [[Special:MyLanguage/Guides:World thumbnails|Guides:World thumbnails]]
 
-== See also == <!--T:17-->
+== See also ==
 
-<!--T:18-->
 * [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]]
 * [[Special:MyLanguage/VRC Quick Launcher|VRC Quick Launcher]]
 * [[Special:MyLanguage/Worlds|Worlds]]
 * [[Special:MyLanguage/Avatars|Avatars]]
 * [[wikipedia:Unity_(game_engine)|Unity (game engine)]] on ''Wikipedia''
 
-== References == <!--T:19-->
+== References ==
 
-</translate>
 {{#translation:}}
