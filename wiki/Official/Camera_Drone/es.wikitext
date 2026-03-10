@@ -14,12 +14,18 @@
 |branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202513-openbeta
 }}
 
- El '''dron''' es una función de la [[Special:MyLanguage/Camera |cámara]], exclusiva de [[VRChat+|VRC+]]. Funciona como un [[wikipedia:unmanned aerial vehicle|dron]] totalmente funcional que puedes pilotar dentro de VRChat, ya sea para grabar o simplemente para volar y divertirte con amigos.
+<div class="mw-translate-fuzzy">
+El '''dron''' es una función de la [[Special:MyLanguage/Camera |cámara]], exclusiva de [[VRChat+|VRC+]]. Funciona como un [[wikipedia:unmanned aerial vehicle|dron]] totalmente funcional que puedes pilotar dentro de VRChat, ya sea para grabar o simplemente para volar y divertirte con amigos.
+</div>
 
- Puedes encontrar el dron en el [[Special:MyLanguage/Quick Menu|menú rápido]], en la pestaña "Cámera", haciendo clic en '''Lanzar dron'''.
+<div class="mw-translate-fuzzy">
+Puedes encontrar el dron en el [[Special:MyLanguage/Quick Menu|menú rápido]], en la pestaña "Cámera", haciendo clic en '''Lanzar dron'''.
+</div>
 
- ==Ajustes==
- *Hacer foto
+<span id="Settings"></span>
+==Ajustes==
+
+*Hacer foto
 *ActivarFPV (vista en primera persona)
 *Autonivelado: Activado, desactivado
 *Reaparecer
@@ -30,13 +36,17 @@
 *Resolución de la foto
 *Resolución de la transmisión
 *Cuadrícula: Activado, desactivado
- ===Preajustes===
- En este menú, puedes elegir un preajuste para el vuelo de tu dron:
+
+<span id="Presets"></span>
+===Preajustes===
+
+En este menú, puedes elegir un preajuste para el vuelo de tu dron:
 * Preciso
 *Cinemática
 *Carreras
 *Estilo libre
- <div lang="en" dir="ltr" class="mw-content-ltr">
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 Additionally, you can customize your drone's flight, using the following sliders:
 *Motor Power: 2.0-12.0
 *Drone Drag: 0.50-1.50
@@ -59,14 +69,19 @@ Additionally, you can customize your drone's flight, using the following sliders
 *Mode Change Smoothing: 0.0-1.00
 </div> 
 
- ====Ajustes de controles====
- Esquemas de control: 1 (Cabeceo, Guiñada), 2 (Acelerador, Guiñada), 3 (Cabeceo, Alabeo), 4 (Acelerador, Alabeo)
+<span id="Controller_settings"></span>
+====Ajustes de controles====
 
- Inversión: Activado, desactivado
+Esquemas de control: 1 (Cabeceo, Guiñada), 2 (Acelerador, Guiñada), 3 (Cabeceo, Alabeo), 4 (Acelerador, Alabeo)
 
- Zona muerta: 0.00-1.00 (ajustable aumentando o disminuyendo el control deslizante de 0.1 a la vez)
- ====Controles en escritorio====
- Modo del ratón: Continuo, relativo
+Inversión: Activado, desactivado
+
+Zona muerta: 0.00-1.00 (ajustable aumentando o disminuyendo el control deslizante de 0.1 a la vez)
+
+<span id="Desktop_controls"></span>
+====Controles en escritorio====
+
+Modo del ratón: Continuo, relativo
 
 Sensibilidad del ratón: 0.1-10.0 (ajustable aumentando o disminuyendo el control deslizante de 0.1 a la vez)
 
@@ -76,63 +91,51 @@ Curva relativa del ratón: 1.0-100.0 (ajustable aumentando o disminuyendo el con
 
 Curva de potencia del ratón: 0.1-3.0 (ajustable aumentando o disminuyendo el control deslizante de 0.1 a la vez)
 
- ===Personalización===
- El dron y sus colores se pueden personalizar en la pestaña "Cosméticos" del [[Special:MyLanguage/Inventory |inventario]]. El botón "Personalizar" también está disponible directamente en el dron.
+<span id="Customization"></span>
+===Personalización===
 
- Las opciones de la paleta de colores incluyen: Primario, secundario y rastro.
+<div class="mw-translate-fuzzy">
+El dron y sus colores se pueden personalizar en la pestaña "Cosméticos" del [[Special:MyLanguage/Inventory |inventario]]. El botón "Personalizar" también está disponible directamente en el dron.
+</div>
 
- === Drones ===
+Las opciones de la paleta de colores incluyen: Primario, secundario y rastro.
+
+=== Drones ===
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
-|+ Lista de drones conocidos
-! Imagen
-! Nombre
-! Publicación
-! Requisitos
-! Descripción
+|+List of known drones
+!Image
+!Name
+!Released
+!Requirement
+!Description
 |-
-|[[File:Drone Default Drone.png| sin bordes|70x70px]]
-| Dron por defecto
-| 26 de marzo, 2025
-| -
-|''" Dron por defecto."''
+|[[File:Drone Default Drone.png|frameless|70x70px]]  || Default Drone || March 26, 2025 || - || ''"The default drone."
 |-
-|[[File:Drone Trace Drone.png| sin bordes|70x70px]]
-| Rastro del dron
-| 14 de agosto, 2025
-| Reclamar el [[Special:MyLanguage/Inventory#Bundles & Packs|contenido de recompensa de agosto de VRC+]]
-| -
+|[[File:Drone Trace Drone.png|frameless|70x70px]] || Trace Drone || August 14, 2025 || Claim the [[Special:MyLanguage/Inventory#Bundles & Packs|August VRC+ Content Drop]] || -
 |}
-
- ==Información adicional==
- ¿No te sientes cómodo volando? ¡No hay problema! El dron tiene varias opciones de control y configuración de vuelo que te permiten ajustar cómo se maneja, asegurando que tanto los principiantes como los pilotos experimentados puedan disfrutar volándolo.
-
- ''Consejo: Estamos buscando mundos escénicos con colliders (colisionadores) precisos para ofrecer experiencias de vuelo ideales. Si tienes alguna sugerencia, ¡compártela en redes sociales con #VRCDrone!.''
-
- ==Pestaña de mundos de exploración con drones==
- El 30 de marzo de 2025, una pestaña en el menú de mundos, titulada "Drone Exploration", mostraba una lista de dieciséis mundos para "''¡Explora estos mundos destacados que son divertidos de recorrer con nuestro nuevo dron!''".
-
-<div class="toccolours mw-collapsible mw-collapsed">
-''' Lista de mundos'''<div class="mw-collapsible-content">
-*[https://vrchat.com/home/world/wrld_0255bfa4-61fc-40fb-bdea-b9400fa487f9 SheepTopia], by Mankey '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_cf2e8fe9-5979-4ad9-8c0e-d7fe22e09073 Far beyond the horizon], by QuarT0niX '''(PC)'''
-*[https://vrchat.com/home/world/wrld_7ef54852-7894-46e4-9935-7dacb78f81c5 Jetski Islet], by Quap '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_a8912308-d979-407e-b744-4a6a760ff86e Horse Mountain], by nprowler '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_858c5fcf-fae6-4aac-9193-8bb7b63b9201 In The Snow], by Blue Cat '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_72a5616c-da9c-438e-ab40-b2360dd17921 Tarried Precipice], by Karl Kroenen '''(PC)'''
-*[https://vrchat.com/home/world/wrld_2cb9ed79-301a-47a8-ac13-ecd71dca70e7 Nova Rest], by Vectriel '''(PC)'''
-*[https://vrchat.com/home/world/wrld_a4ef4165-681c-4f3b-a293-839aebcbc434 Olympia Nights (v1.0)], by DrMorro '''(PC)'''
-*[https://vrchat.com/home/world/wrld_ec2dd8a4-6875-46fb-9699-071cb0e8bdbd SUKU], by <nowiki>durk@work</nowiki> '''(PC)'''
-*[https://vrchat.com/home/world/wrld_38646e89-6117-48a9-aab9-aea64c1cd629 Transcience], by Tajasuka '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_1b507127-0760-48cc-b579-a80baa620f24 Galatea City], by ちゅーたな '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_a2950c6d-89ec-4ba3-9a5a-b79638170189 Solstice Cliffs], by Anonine '''(PC)'''
-*[https://vrchat.com/home/world/wrld_53125a74-a5c4-4e42-840e-373f390f844f 漏水地区【盃市観光エリア１号】], by さかずき ないぎ '''(PC)'''
-*[https://vrchat.com/home/world/wrld_8cd302c3-d0b7-4a16-a39b-6860c24ee0c2 New Grass Station], by 瑞瑞Rys '''(PC)'''
-*[https://vrchat.com/home/world/wrld_3175143d-3c68-4719-9297-5f0145e059e2 Lost Valley Lake Retreat], by nprowler '''(PC)'''
-*[https://vrchat.com/home/world/wrld_59b59817-50b3-461d-bcb7-a55983ccdcc6 Asbestos], by 988U '''(PC, Android)'''
-</div>
 </div>
 
- ==Véase también==
- *[[Special:MyLanguage/Camera|Cámara]]
+<span id="Additional_information"></span>
+==Información adicional==
+
+¿No te sientes cómodo volando? ¡No hay problema! El dron tiene varias opciones de control y configuración de vuelo que te permiten ajustar cómo se maneja, asegurando que tanto los principiantes como los pilotos experimentados puedan disfrutar volándolo.
+
+''Consejo: Estamos buscando mundos escénicos con colliders (colisionadores) precisos para ofrecer experiencias de vuelo ideales. Si tienes alguna sugerencia, ¡compártela en redes sociales con #VRCDrone!.''
+
+<span id="Drone_Exploration_world_tab"></span>
+==Pestaña de mundos de exploración con drones==
+
+<div class="mw-translate-fuzzy">
+El 30 de marzo de 2025, una pestaña en el menú de mundos, titulada "Drone Exploration", mostraba una lista de dieciséis mundos para "''¡Explora estos mundos destacados que son divertidos de recorrer con nuestro nuevo dron!''".
+</div>
+
+<span id="See_also"></span>
+==Véase también==
+
+<div class="mw-translate-fuzzy">
+*[[Special:MyLanguage/Camera|Cámara]]
 *[[Special:MyLanguage/Camera Dolly|Cámara móvil]]
 *[[Special:MyLanguage/VRC+|VRC+]]
+</div>
