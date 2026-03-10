@@ -14,38 +14,52 @@ Los physbones permiten el movimiento secundario y huesos interactuables para ava
 
 ''Véase también [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contactos] para obtener información más detallada.''
 
-Los contactos es un sistema que permite a los avatares detectar colisiones consigo mismos o con otros avatares. Estas colisiones luego pueden ser usados para controlar los parámetros de animación y realizar todo tipo de efectos interactivos.
+<div class="mw-translate-fuzzy">
+Los contactos es un sistema que permite a los avatares detectar colisiones consigo mismos o con otros avatares. Estas colisiones luego pueden usarse para manipular el controlador de animación y realizar todo tipo de efectos divertidos.
+</div>
 
-<span id="Contact_Senders"></span>
-===Contact Senders (emisor de contactos)===
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Contact Senders===
+</div>
 
-Un '''contact sender''' define un volumen de colisión que puede ser detectado por un contact receiver coincidente. Los emisores pueden usar una forma de esfera o cápsula, un transform raíz, desplazamientos locales de posición y rotación, y una o más etiquetas de colisión.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+A '''Contact Sender''' defines a collision volume that can be detected by a matching Contact Receiver. Senders can use a sphere or capsule shape, a root transform, local position and rotation offsets, and one or more collision tags.
+</div>
 
-{{Noticebox/unreleased}}
-Contactos con forma de caja están en desarrollo y están previstos para una futura versión del SDK<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'Hoja de ruta para creadores de VRChat (marzo 2026)'] en ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078
- 'Actualización del desarrollador - 19 de marzo de 2026'] en ''[[ask.vrchat.com]]''.</ref>. Los contactos con forma de caja estarán disponibles tanto para avatares como para mundos, con ancho, alto y profundidad configurables. Los Contact Receivers (receptor de contactos) con forma de caja también admitirán un modo adicional de cálculo de proximidad basado en la distancia desde el emisor hasta la cara Z positiva de la caja.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] also creates built-in Contact Senders for common body parts such as hands and fingers.
+</div>
 
-En los avatares, la sección ''Colliders'' (colisionadores) del [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] también crea contact senders integrados para partes comunes del cuerpo como las manos y los dedos.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Contact Receivers===
+</div>
 
-<span id="Contact_Receivers"></span>
-===Contact Receivers (receptor de contactos)===
+<div lang="en" dir="ltr" class="mw-content-ltr">
+A '''Contact Receiver''' listens for matching senders and writes a value to an Animator parameter on the avatar. Receivers can be configured to allow self-contact, other users, or only local evaluation.
+</div>
 
-Un '''contact receiver''' detecta emisores que coinciden y escribe un valor en un parámetro del animador del avatar. Los receptores pueden configurarse para permitir contacto propio, de otros usuarios o solo evaluación local.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat supports three receiver behaviors:
+* '''Constant''' keeps a parameter active while a matching sender stays inside the receiver.
+* '''On Enter''' activates for one frame when a matching sender enters, optionally requiring a minimum velocity.
+* '''Proximity''' outputs a float from `0.0` to `1.0` based on how close the sender is to the center of the receiver.
+</div>
 
-VRChat admite tres comportamientos del receptor:
-* '''Constante''' mantiene un parámetro activo mientras un remitente coincidente permanece dentro del receptor.
-* '''Al entrar''' se activa durante un frame cuando entre un remitente coincidente, lo que opcionalmente requiere una velocidad mínima.
-* '''Proximidad''' genera un valor flotante de `0.0` a `1.0` basado en qué tan cerca está el remitente del centro del receptor.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Tags and parameters===
+</div>
 
-<span id="Tags_and_parameters"></span>
-===Etiquetas y parámetros===
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Contacts only interact when a sender and receiver share at least one matching collision tag. The receiver's ''Parameter'' field determines which Animator parameter is updated. Depending on the Animator parameter type, the value may be interpreted as a float, int, or bool.
+</div>
 
-Los contactos solo interactúan cuando el remitente y el receptor comparten al menos una etiqueta de colisión coincidente. El campo "Parámetro" del receptor determina qué parámetro del animador se actualiza. Según el tipo de parámetro del animador, el valor puede interpretarse como un número decimal, entero o booleano (float, int, o bool).
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Debugging===
+</div>
 
-<span id="Debugging"></span>
-===Depuración===
-
-En Unity, los gizmos de contactos aparecen cuando los Gizmos están activados y se selecciona el contacto o uno de sus padres. En VRChat, la superposición de dinámica del avatar (Avatar Dynamics overlay) también se puede usar para visualizar contactos y PhysBones durante las pruebas.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In Unity, Contact gizmos appear when Gizmos are enabled and the contact or one of its parents is selected. In VRChat, the Avatar Dynamics overlay can also be used to visualize Contacts and PhysBones during testing.
+</div>
 
 <span id="Permissions"></span>
 ==Permisos==
@@ -62,21 +76,22 @@ Elige "Todos", "Amigos" o "Nadie" como configuración por defecto para todos los
 
 Concede o deniega individualmente permisos de interacción con el avatar para usuarios específicos.
 
-<span id="Quick_Toggle/Safe_Mode"></span>
-===Alternado rápido/Modo seguro===
+<span id="Quick_Toggle/Panic_Mode"></span>
+===Modo seguro/Modo pánico===
 
 Pausa instantáneamente todas las interacciones (sin importar otras configuraciones) con solo presionar un botón en el menú rápido.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Official resources==
-* [https://creators.vrchat.com/avatars/avatar-components/ Componentes del avatar] en Creator Docs
-* [https://creators.vrchat.com/avatars/avatar-dynamics/physbones/ PhysBones] en Creator Docs
-* [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contactos] en Creator Docs
+* [https://creators.vrchat.com/avatars/avatar-components/ Avatar Components] on Creator Docs
+* [https://creators.vrchat.com/avatars/avatar-dynamics/physbones/ PhysBones] on Creator Docs
+* [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] on Creator Docs
+</div>
 
 <span id="References"></span>
 ==Referencias==
 
 <references/>
 
+[[Category:Needs images]]
 [[Category:Features{{#translation:}}]]
-[[Category:SDK{{#translation:}}]] <!-- remove once PhysBones and/or Contacts gets it's own page. Avatar Dynamics is a system. -->
-[[Category:Needs images{{#translation:}}]]
