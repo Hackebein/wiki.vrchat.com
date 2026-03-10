@@ -1,26 +1,28 @@
 <languages/>
 {{Noticebox/Official}}
+<translate><!--T:1-->
 {{Stub|Not much information here! You can [[Special:MyLanguage/VRCWiki:How to Contribute|contribute]], by expanding and proofreading this article, in accordance with the [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]].}}
 '''Avatar Dynamics''', is an [[Special:MyLanguage/Avatars|avatar]] feature, initially introduced to VRChat on April 21, 2022<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live VRChat Blog: Avatar Dynamics Live]</ref>. is a set of features to add more interactions between avatars. Replacing older avatar components, and adding new options for avatars. This release also introduced a new permission system to let people set who can interact with these new features.
 
-==PhysBones==
+==PhysBones== <!--T:2-->
 
+<!--T:3-->
 ''See also [[Special:MyLanguage/Physbones|Physbones]] for more detailed information.''
 
+<!--T:4-->
 Physbones allows for secondary motion and interact-able bones for avatars. Allowing users to grab, move, and manipulate avatar parts (e.g., hair, ears).
 
-==Contacts==
+==Contacts== <!--T:5-->
 
+<!--T:6-->
 ''See also [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] for more detailed information.''
 
+<!--T:7-->
 Contacts are a system that allows avatars to detect collisions with itself or other avatars. These collisions can then be used to drive Animator parameters and perform many kinds of interaction effects.
 
 ===Contact Senders===
 
 A '''Contact Sender''' defines a collision volume that can be detected by a matching Contact Receiver. Senders can use a sphere or capsule shape, a root transform, local position and rotation offsets, and one or more collision tags.
-
-{{Noticebox/unreleased}}
-A box shape for contacts is in development and planned for a future SDK release<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] on ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 'Developer Update - 19 March 2026'] on ''[[ask.vrchat.com]]''.</ref>. Box-shaped contacts will be available for both avatars and worlds, with configurable width, height, and depth. Box-shaped contact receivers will also support an additional proximity calculation mode based on the distance from the sender to the positive Z face of the box.
 
 On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] also creates built-in Contact Senders for common body parts such as hands and fingers.
 
@@ -41,31 +43,30 @@ Contacts only interact when a sender and receiver share at least one matching co
 
 In Unity, Contact gizmos appear when Gizmos are enabled and the contact or one of its parents is selected. In VRChat, the Avatar Dynamics overlay can also be used to visualize Contacts and PhysBones during testing.
 
-==Permissions==
+==Permissions== <!--T:8-->
 
+<!--T:9-->
 The Avatar Dynamics permission system gives you complete control over who can interact with your avatar and how:
 
-===Global Permissions===
+===Global Permissions=== <!--T:10-->
 
+<!--T:11-->
 Choose “Everyone,” “Friends,” or “Nobody” as a default setting for all users.
 
-===Per-User Overrides===
+===Per-User Overrides=== <!--T:12-->
 
+<!--T:13-->
 Individually grant or deny avatar interaction permissions for specific users.
 
-===Quick Toggle/Safe Mode===
+===Quick Toggle/Panic Mode=== <!--T:14-->
 
+<!--T:15-->
 Instantly pause all interactions (regardless of any other settings) with one button press in the Quick Menu.
 
-==Official resources==
-* [https://creators.vrchat.com/avatars/avatar-components/ Avatar Components] on Creator Docs
-* [https://creators.vrchat.com/avatars/avatar-dynamics/physbones/ PhysBones] on Creator Docs
-* [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] on Creator Docs
-
-==References==
+==References== <!--T:16-->
+</translate>
 
 <references/>
 
+[[Category:Needs images]]
 [[Category:Features{{#translation:}}]]
-[[Category:SDK{{#translation:}}]] <!-- remove once PhysBones and/or Contacts gets it's own page. Avatar Dynamics is a system. -->
-[[Category:Needs images{{#translation:}}]]
