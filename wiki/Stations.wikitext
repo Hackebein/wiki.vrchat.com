@@ -11,12 +11,18 @@ A Station is typically implemented with a creator component that users interact 
 === Entering ===
 Stations require an interactable area. A Collider on the same GameObject is used as the click/interaction area. A Box Collider may be added automatically if none exists.
 
+For avatar stations, the station object itself must be enabled when the avatar is uploaded or the station will not work correctly.
+
 === Exiting ===
 By default, users can typically leave a station by moving. Disabling the Station's GameObject will remove (unseat) users currently using it. Disabling only the Collider prevents new users from entering, but does not remove the current user.
+
+On avatars, creators often animate the collider separately from the station object so they can stop new users from entering without ejecting the current rider.
 
 == World ==
 === Adding a Station in a world ===
 In worlds, Stations are commonly used for chairs, ride seats, and vehicle/ride systems that reposition the user. 
+
+For custom world logic, stations are also commonly paired with Udon, including `OnStationEntered` and `OnStationExited` events.
 
 === Component options ===
 The VRC_Station component provides the following commonly used options:
@@ -55,12 +61,16 @@ Stations can drive Animator logic using built-in parameters:
 * `Seated`: true when seated [[IK]] is enabled (only when the station's ''Seated'' option is enabled).
 * `AvatarVersion`: may be used to branch behavior for SDK2 avatars vs SDK3 avatars.<ref>VRChat's documentation notes that stations behave differently for avatars uploaded with older [[SDK]] versions, and recommends using `AvatarVersion` and `InStation` to branch seated animation logic. See {{VRC link|https://creators.vrchat.com/worlds/components/vrc_station/#detecting-sdk2-avatars| VRC Station - Detecting SDK2 Avatars}} - on [[Creators.vrchat.com|''creators.vrchat.com'']]</ref>
 
+State behaviors used by a station's custom Animator Controller can only affect parameters that already exist on the avatar. Stations cannot create new Animator parameters on the seated avatar.
+
 == Avatar ==
 Stations can also be placed on avatars to create "seats" that move with the avatar. 
 
 === Notes and limitations ===
 * Avatars can have up to 6 stations; additional stations are disabled.
+* Entry and exit transforms must be within 2 meters of each other when the avatar is uploaded.
 * Some station settings are less useful on avatars because walking typically exits the station, and "Disable Station Exit" may not behave as expected on avatar stations.
+* If an avatar station is enabled by default, it can remain active even when avatar animations are hidden by another user's safety settings.
 
 == Trivia ==
 
