@@ -35,11 +35,6 @@ A '''Contact Sender''' defines a collision volume that can be detected by a matc
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-{{Noticebox/unreleased}}
-A box shape for contacts is in development and planned for a future SDK release<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] on ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 'Developer Update - 19 March 2026'] on ''[[ask.vrchat.com]]''.</ref>. Box-shaped contacts will be available for both avatars and worlds, with configurable width, height, and depth. Box-shaped contact receivers will also support an additional proximity calculation mode based on the distance from the sender to the positive Z face of the box.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
 On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] also creates built-in Contact Senders for common body parts such as hands and fingers.
 </div>
 
@@ -96,7 +91,7 @@ Individually grant or deny avatar interaction permissions for specific users.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Quick Toggle/Safe Mode===
+===Quick Toggle/Panic Mode===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -115,6 +110,5 @@ Instantly pause all interactions (regardless of any other settings) with one but
 
 <references/>
 
+[[Category:Needs images]]
 [[Category:Features{{#translation:}}]]
-[[Category:SDK{{#translation:}}]] <!-- remove once PhysBones and/or Contacts gets it's own page. Avatar Dynamics is a system. -->
-[[Category:Needs images{{#translation:}}]]
