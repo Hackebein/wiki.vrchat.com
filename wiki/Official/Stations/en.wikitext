@@ -68,9 +68,8 @@ Stations can also be placed on avatars to create "seats" that move with the avat
 
 === Notes and limitations ===
 * Avatars can have up to 6 stations; additional stations are disabled.
-* Entry and exit transforms must be within 2 meters of each other at the time of upload. They can be moved farther apart at runtime through animations.
-* The ''Disable Station Exit'' option is forced to false on avatar stations; users can always leave by walking. In VR, stations can also be exited by pulling the trigger.
-* ''Player Mobility'' has no practical effect on avatar stations because any walking input will exit the station regardless of the setting.
+* Entry and exit transforms must be within 2 meters of each other when the avatar is uploaded.
+* Some station settings are less useful on avatars because walking typically exits the station, and "Disable Station Exit" may not behave as expected on avatar stations.
 * If an avatar station is enabled by default, it can remain active even when avatar animations are hidden by another user's safety settings.
 
 == Trivia ==
@@ -84,8 +83,4 @@ Stations can also be placed on avatars to create "seats" that move with the avat
 * {{VRC link|https://creators.vrchat.com/worlds/components/vrc_station| VRC Station}} - on [[Creators.vrchat.com|''creators.vrchat.com'']]
 
 == References ==
-* [https://vrc.school/docs/Other/Stations VRC School: Stations]
 <references/>
-
-[[Category:SDK]]
-[[Category:Needs images]]
