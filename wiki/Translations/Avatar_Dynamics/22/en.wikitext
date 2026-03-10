@@ -1,0 +1,4 @@
+VRChat supports three receiver behaviors:
+* '''Constant''' keeps a parameter active while a matching sender stays inside the receiver.
+* '''On Enter''' activates for one frame when a matching sender enters, optionally requiring a minimum velocity.
+* '''Proximity''' outputs a float from `0.0` to `1.0` based on how close the sender is to the center of the receiver.
