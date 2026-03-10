@@ -14,12 +14,13 @@
 |branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202513-openbeta
 }}
 
- '''Camera Drone''' is a [[Special:MyLanguage/Camera |Camera]] feature, exclusive to [[VRChat+|VRC+]]. It serves as a fully-functional [[wikipedia:unmanned aerial vehicle|drone]] that you can pilot within VRChat, either for recording purposes, or simply to fly around and have fun with friends.
+'''Camera Drone''' is a [[Special:MyLanguage/Camera|Camera]] feature, exclusive to [[VRC+|VRC+]]. It serves as a fully-functional [[wikipedia:Unmanned aerial vehicle|drone]] that you can pilot within VRChat, either for recording purposes, or simply to fly around and have fun with friends.
 
- You can find the Camera Drone in the [[Special:MyLanguage/Quick Menu |Quick Menu]] under the Camera tab, and clicking '''Launch Drone'''.
+You can find the Camera Drone in the [[Special:MyLanguage/Quick Menu|Quick Menu]] under the Camera tab, and clicking '''Launch Drone'''.
 
- ==Settings==
- *Take Photo
+==Settings==
+
+*Take Photo
 *Enable FPV (first-person view)
 *Self Leveling: On, Off
 *Respawn
@@ -30,13 +31,16 @@
 *Photo Resolution
 *Stream Resolution
 *Grid: On, Off
- ===Presets===
- In this menu, you can choose a preset for your drone's flight:
+
+===Presets===
+
+In this menu, you can choose a preset for your drone's flight:
 * Micro
 *Cinematic
 *Racing
 *Freestyle
- Additionally, you can customize your drone's flight, using the following sliders:
+
+Additionally, you can customize your drone's flight, using the following sliders:
 *Motor Power: 2.0-12.0
 *Drone Drag: 0.50-1.50
 *Drone Cross Section Area: 0.010-0.050
@@ -57,14 +61,17 @@
 *Self-Leveling Max Angle: 10.0-45.0
 *Mode Change Smoothing: 0.0-1.00 
 
- ===Controller settings ===
- Control Schemes: 1 (Pitch, Yaw), 2 (Throttle, Yaw), 3 (Pitch, Roll), 4 (Throttle, Roll)
+===Controller settings ===
 
- Inversion: On, Off
+Control Schemes: 1 (Pitch, Yaw), 2 (Throttle, Yaw), 3 (Pitch, Roll), 4 (Throttle, Roll)
 
- Dead Zone: 0.00-1.00 (adjustable by increasing or decreasing the dead zone by 0.01 at a time)
- ====Desktop controls====
- Mouse Mode: Continuous, Relative
+Inversion: On, Off
+
+Dead Zone: 0.00-1.00 (adjustable by increasing or decreasing the dead zone by 0.01 at a time)
+
+====Desktop controls====
+
+Mouse Mode: Continuous, Relative
 
 Mouse Sensitivity: 0.1-10.0 (adjustable by increasing or decreasing the slider by 0.1 at a time)
 
@@ -74,63 +81,75 @@ Mouse Relative Curve: 1.0-100.0 (adjustable by increasing or decreasing the slid
 
 Mouse Power Curve: 1.0-3.0 (adjustable by increasing or decreasing the slider by 0.1 at a time)
 
- == Customization ==
- The drone and its colors can be customized in the "Cosmetics" tab in the [[Special:MyLanguage/Inventory |Inventory]]. "Customize" button is also available directly in the Drone Camera.
+== Customization ==
 
- Color palette options include: Primary, Secondary and Trail.
+The drone and its colors can be customized in the "Cosmetics" tab in the [[Special:MyLanguage/Inventory|Inventory]]. "Customize" button is also available directly in the Drone Camera.
 
- === Drones ===
+Color palette options include: Primary, Secondary and Trail.
+
+=== Drones ===
+
 {| class="wikitable"
-|+ List of known drones
-! Image
-! Name
-! Released
-! Requirement
-! Description
+|+List of known drones
+!Image
+!Name
+!Released
+!Requirement
+!Description
 |-
-|[[File:Drone Default Drone.png| frameless|70x70px]]
-| Default Drone
-| March 26, 2025
-| -
-|''" The default drone."''
+|[[File:Drone Default Drone.png|frameless|70x70px]]  || Default Drone || March 26, 2025 || - || ''"The default drone."
 |-
-|[[File:Drone Trace Drone.png| frameless|70x70px]]
-| Trace Drone
-| August 14, 2025
-| Claim the [[Special:MyLanguage/Inventory#Bundles & Packs|August VRC+ Content Drop]]
-| -
+|[[File:Drone Trace Drone.png|frameless|70x70px]] || Trace Drone || August 14, 2025 || Claim the [[Special:MyLanguage/Inventory#Bundles & Packs|August VRC+ Content Drop]] || -
 |}
 
- ==Additional information==
- Not comfortable with flying? No problem! The Camera Drone has various control and flight settings that let you adjust how it handles, ensuring that newcomers and experienced pilots alike can enjoy flying it.
+==Additional information==
 
- ''Tip: We're seeking scenic worlds with accurate colliders for ideal flying experiences. If you have any suggestions, share them on social media with #VRCDrone!''
+Not comfortable with flying? No problem! The Camera Drone has various control and flight settings that let you adjust how it handles, ensuring that newcomers and experienced pilots alike can enjoy flying it.
 
- ==Drone Exploration world tab==
- On March 30, 2025, a tab on the World menu, titled "Drone Exploration", gave a list of sixteen worlds to "''Explore these featured worlds that are fun to navigate with our new Camera Drone!''"
+''Tip: We're seeking scenic worlds with accurate colliders for ideal flying experiences. If you have any suggestions, share them on social media with #VRCDrone!''
 
-<div class="toccolours mw-collapsible mw-collapsed">
-''' List of worlds'''<div class="mw-collapsible-content">
-*[https://vrchat.com/home/world/wrld_0255bfa4-61fc-40fb-bdea-b9400fa487f9 SheepTopia], by Mankey '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_cf2e8fe9-5979-4ad9-8c0e-d7fe22e09073 Far beyond the horizon], by QuarT0niX '''(PC)'''
-*[https://vrchat.com/home/world/wrld_7ef54852-7894-46e4-9935-7dacb78f81c5 Jetski Islet], by Quap '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_a8912308-d979-407e-b744-4a6a760ff86e Horse Mountain], by nprowler '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_858c5fcf-fae6-4aac-9193-8bb7b63b9201 In The Snow], by Blue Cat '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_72a5616c-da9c-438e-ab40-b2360dd17921 Tarried Precipice], by Karl Kroenen '''(PC)'''
-*[https://vrchat.com/home/world/wrld_2cb9ed79-301a-47a8-ac13-ecd71dca70e7 Nova Rest], by Vectriel '''(PC)'''
-*[https://vrchat.com/home/world/wrld_a4ef4165-681c-4f3b-a293-839aebcbc434 Olympia Nights (v1.0)], by DrMorro '''(PC)'''
-*[https://vrchat.com/home/world/wrld_ec2dd8a4-6875-46fb-9699-071cb0e8bdbd SUKU], by <nowiki>durk@work</nowiki> '''(PC)'''
-*[https://vrchat.com/home/world/wrld_38646e89-6117-48a9-aab9-aea64c1cd629 Transcience], by Tajasuka '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_1b507127-0760-48cc-b579-a80baa620f24 Galatea City], by ちゅーたな '''(PC, Android)'''
-*[https://vrchat.com/home/world/wrld_a2950c6d-89ec-4ba3-9a5a-b79638170189 Solstice Cliffs], by Anonine '''(PC)'''
-*[https://vrchat.com/home/world/wrld_53125a74-a5c4-4e42-840e-373f390f844f 漏水地区【盃市観光エリア１号】], by さかずき ないぎ '''(PC)'''
-*[https://vrchat.com/home/world/wrld_8cd302c3-d0b7-4a16-a39b-6860c24ee0c2 New Grass Station], by 瑞瑞Rys '''(PC)'''
-*[https://vrchat.com/home/world/wrld_3175143d-3c68-4719-9297-5f0145e059e2 Lost Valley Lake Retreat], by nprowler '''(PC)'''
-*[https://vrchat.com/home/world/wrld_59b59817-50b3-461d-bcb7-a55983ccdcc6 Asbestos], by 988U '''(PC, Android)'''
-</div>
-</div>
+==Drone Exploration world tab==
 
- ==See also==
- *[[Special:MyLanguage/Camera |Camera]]
-*[[Special:MyLanguage/Camera Dolly |Camera Dolly]]
-*[[Special:MyLanguage/VRC+ |VRC+]]
+On March 30, 2025, a tab on the World menu, titled "Drone Exploration", gave a list of sixteen worlds to "''Explore these featured worlds that are fun to navigate with our new Camera Drone!''"
+{| class="wikitable"
+!World
+!Author
+|-
+|[https://vrchat.com/home/world/wrld_0255bfa4-61fc-40fb-bdea-b9400fa487f9 SheepTopia] || Mankey
+|-
+|[https://vrchat.com/home/world/wrld_cf2e8fe9-5979-4ad9-8c0e-d7fe22e09073 Far beyond the horizon] || QuarT0niX
+|-
+|[https://vrchat.com/home/world/wrld_7ef54852-7894-46e4-9935-7dacb78f81c5 Jetski Islet] || Quap
+|-
+|[https://vrchat.com/home/world/wrld_a8912308-d979-407e-b744-4a6a760ff86e Horse Mountain] || prowler
+|-
+|[https://vrchat.com/home/world/wrld_858c5fcf-fae6-4aac-9193-8bb7b63b9201 In The Snow] || Blue Cat
+|-
+|[https://vrchat.com/home/world/wrld_72a5616c-da9c-438e-ab40-b2360dd17921 Tarried Precipice] || Karl Kroenen
+|-
+|[https://vrchat.com/home/world/wrld_2cb9ed79-301a-47a8-ac13-ecd71dca70e7 Nova Rest] || Vectriel
+|-
+|[https://vrchat.com/home/world/wrld_a4ef4165-681c-4f3b-a293-839aebcbc434 Olympia Nights (v1.0)] || DrMorro
+|-
+|[https://vrchat.com/home/world/wrld_ec2dd8a4-6875-46fb-9699-071cb0e8bdbd SUKU] || <nowiki>durk@work</nowiki>
+|-
+|[https://vrchat.com/home/world/wrld_38646e89-6117-48a9-aab9-aea64c1cd629 Transcience] || Tajasuka
+|-
+|[https://vrchat.com/home/world/wrld_1b507127-0760-48cc-b579-a80baa620f24 Galatea City] || ちゅーたな
+|-
+|[https://vrchat.com/home/world/wrld_a2950c6d-89ec-4ba3-9a5a-b79638170189 Solstice Cliffs] || Anonine
+|-
+|[https://vrchat.com/home/world/wrld_53125a74-a5c4-4e42-840e-373f390f844f 漏水地区【盃市観光エリア１号】] || さかずき ないぎ
+|-
+|[https://vrchat.com/home/world/wrld_8cd302c3-d0b7-4a16-a39b-6860c24ee0c2 New Grass Station] || 瑞瑞Rys
+|-
+|[https://vrchat.com/home/world/wrld_3175143d-3c68-4719-9297-5f0145e059e2 Lost Valley Lake Retreat] || nprowler
+|-
+|[https://vrchat.com/home/world/wrld_59b59817-50b3-461d-bcb7-a55983ccdcc6 Asbestos] || 988U
+|}
+
+==See also==
+
+*[[Special:MyLanguage/Camera|Camera]]
+*[[Special:MyLanguage/Camera Dolly|Camera Dolly]]
+*[[Special:MyLanguage/VRC+|VRC+]]
