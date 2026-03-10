@@ -20,27 +20,33 @@ Physbones allows for secondary motion and interact-able bones for avatars. Allow
 <!--T:7-->
 Contacts are a system that allows avatars to detect collisions with itself or other avatars. These collisions can then be used to drive Animator parameters and perform many kinds of interaction effects.
 
-===Contact Senders===
+===Contact Senders=== <!--T:17-->
 
+<!--T:18-->
 A '''Contact Sender''' defines a collision volume that can be detected by a matching Contact Receiver. Senders can use a sphere or capsule shape, a root transform, local position and rotation offsets, and one or more collision tags.
 
+<!--T:19-->
 On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] also creates built-in Contact Senders for common body parts such as hands and fingers.
 
-===Contact Receivers===
+===Contact Receivers=== <!--T:20-->
 
+<!--T:21-->
 A '''Contact Receiver''' listens for matching senders and writes a value to an Animator parameter on the avatar. Receivers can be configured to allow self-contact, other users, or only local evaluation.
 
+<!--T:22-->
 VRChat supports three receiver behaviors:
 * '''Constant''' keeps a parameter active while a matching sender stays inside the receiver.
 * '''On Enter''' activates for one frame when a matching sender enters, optionally requiring a minimum velocity.
 * '''Proximity''' outputs a float from `0.0` to `1.0` based on how close the sender is to the center of the receiver.
 
-===Tags and parameters===
+===Tags and parameters=== <!--T:23-->
 
+<!--T:24-->
 Contacts only interact when a sender and receiver share at least one matching collision tag. The receiver's ''Parameter'' field determines which Animator parameter is updated. Depending on the Animator parameter type, the value may be interpreted as a float, int, or bool.
 
-===Debugging===
+===Debugging=== <!--T:25-->
 
+<!--T:26-->
 In Unity, Contact gizmos appear when Gizmos are enabled and the contact or one of its parents is selected. In VRChat, the Avatar Dynamics overlay can also be used to visualize Contacts and PhysBones during testing.
 
 ==Permissions== <!--T:8-->
@@ -63,6 +69,7 @@ Individually grant or deny avatar interaction permissions for specific users.
 <!--T:15-->
 Instantly pause all interactions (regardless of any other settings) with one button press in the Quick Menu.
 
+<!--T:27-->
 ==Official resources==
 * [https://creators.vrchat.com/avatars/avatar-components/ Avatar Components] on Creator Docs
 * [https://creators.vrchat.com/avatars/avatar-dynamics/physbones/ PhysBones] on Creator Docs
