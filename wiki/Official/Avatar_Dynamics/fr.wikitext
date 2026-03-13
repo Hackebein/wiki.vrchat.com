@@ -34,9 +34,8 @@ VRChat supports three receiver behaviors:
 * '''Proximity''' outputs a float from `0.0` to `1.0` based on how close the sender is to the center of the receiver.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Tags and parameters===
-</div>
+<span id="Tags_and_parameters"></span>
+===Étiquettes et paramètres===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Contacts only interact when a sender and receiver share at least one matching collision tag. The receiver's ''Parameter'' field determines which Animator parameter is updated. Depending on the Animator parameter type, the value may be interpreted as a float, int, or bool.
