@@ -22,9 +22,8 @@ Un « '''contact sender''' » défini un volume qui peut détecter un « contact
 
 Sur les avatars, la section « '''Colliders''' » de l'[[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] crée des « contacts senders » pour les parties du corps commune, tels que les mains et les doigts
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Contact Receivers===
-</div>
+<span id="Contact_Receivers"></span>
+===« Contact Receivers »===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A '''Contact Receiver''' listens for matching senders and writes a value to an Animator parameter on the avatar. Receivers can be configured to allow self-contact, other users, or only local evaluation.
