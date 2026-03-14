@@ -1,0 +1,48 @@
+{{Noticebox/Official}}
+'''Toggles''' are a common avatar setup pattern that uses [[Expressions]] controls, Animator parameters, and animation states to enable or disable avatar features.
+
+== Overview ==
+On VRChat avatars, a toggle usually starts in the Expressions menu, where a user flips a <code>Bool</code>, <code>Int</code>, or <code>Float</code> parameter. That parameter is then read by an Animator Controller, most often on the FX playable layer, to switch between different states or animations.
+
+Toggles are commonly used for clothing swaps, props, blendshapes, material changes, and other on-or-off avatar features.
+
+== Basic setup ==
+A simple toggle usually needs:
+* An Expressions menu control, often a '''Toggle'''.
+* A matching custom parameter in the Expression Parameters asset.
+* A matching Animator parameter in the controller.
+* Animation states that enable and disable the target object or update a property.
+
+Creators often include a small buffer or idle animation so the controller behaves consistently with different [[Animators|Write Defaults]] setups.
+
+== Exclusive toggles ==
+Some avatars use a group of mutually exclusive toggles where only one option should be active at a time, such as outfit sets or hairstyle choices.
+
+Common approaches include:
+* Multiple bool toggles with parameter drivers that turn the other options off.
+* An integer-driven setup where one value selects one state.
+* A blend tree or radial-puppet-based selector for a larger set of options.
+
+== Radial and advanced variants ==
+Not every toggle is a simple on-or-off switch. Avatar creators also use:
+* '''Radial puppets''' to drive a float from <code>0.0</code> to <code>1.0</code> for effects such as hue shifts, scale adjustments, or multi-option selectors.
+* '''Two-axis puppets''' to control two floats at once, often for transform control.
+* '''Blend trees''' or motion time for more compact controllers when a toggle needs multiple intermediate values.
+
+These techniques are built from official Expressions and Animator features, while many specific controller patterns are documented mainly in community guides.
+
+== Notes ==
+* Toggle behavior depends on the playable layer and Animator setup used by the avatar.
+* For cross-platform avatars, matching parameters should stay in the same order and use the same parameter types on both versions.
+* Built-in VRChat Animator parameters should not be re-created in the custom Expression Parameters asset.
+
+== Official resources ==
+* [https://creators.vrchat.com/avatars/expression-menu-and-controls/ Expression Menu and Controls] on Creator Docs
+* [https://creators.vrchat.com/avatars/animator-parameters/ Animator Parameters] on Creator Docs
+* [https://creators.vrchat.com/avatars/playable-layers/ Playable Layers] on Creator Docs
+* [https://creators.vrchat.com/avatars/state-behaviors/ State Behaviors] on Creator Docs
+
+== References ==
+* [https://vrc.school/docs/Avatars/Toggles VRC School: Toggles]
+* [https://vrc.school/docs/Avatars/Multi-Toggles VRC School: Multi-Toggles]
+* [https://vrc.school/docs/Avatars/Radial-Puppets VRC School: Radial Puppets]
