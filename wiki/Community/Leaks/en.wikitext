@@ -58,6 +58,36 @@ A new group permission on the website in group role settings has been spotted:
 
 This seems to suggest a feature might be implemented in the future allowing instances to have a minimum avatar performance requirement set in place.
 
+== New Character Controller for Worlds ==
+A long-running request proposes a replacement world character controller with better moving platform support, smoother stairs and slopes, improved unstuck behavior, collider push interaction, and broader Udon control.<ref name="CannyNewCharacterController">[https://feedback.vrchat.com/udon/p/new-character-controller-for-worlds "New Character Controller for Worlds"] on ''feedback.vrchat.com''; posted April 30, 2024; retrieved March 14, 2026.</ref>
+The thread is currently marked ''interested''. A staff update on the post says work is currently halted while other projects are prioritized, with a note that updates will be shared if the item re-enters the roadmap.<ref name="CannyNewCharacterController" />
+In March 2026 community discussion, a former VRChat employee allegedly involved with this work claimed they were the only person assigned to it before early-2025 layoffs, and that the feature had been close to shipping.
+
+== Camera Dolly in Udon ==
+This request proposes allowing worlds to drive player camera movement along predefined dolly paths (for example around stages, race tracks, or dance floors).<ref name="CannyCameraDolly">[https://feedback.vrchat.com/udon/p/camera-dolly-in-udon "Camera Dolly in Udon"] on ''feedback.vrchat.com''; posted July 31, 2025; retrieved March 14, 2026.</ref>
+The thread is currently marked ''in progress''. A staff comment in the thread says Camera Dolly is a VRC+ feature, while worlds can still add Camera Dolly paths through Udon.<ref name="CannyCameraDolly" />
+
+== Expose VRC+ Status to Udon ==
+This request proposes exposing VRC+ subscription status to Udon for world-side logic and feature gating.<ref name="CannyExposeVRCPlusStatus">[https://feedback.vrchat.com/feature-requests/p/expose-vrc-status-to-udon "Expose VRC+ Status to Udon"] on ''feedback.vrchat.com''; posted January 25, 2026; retrieved March 14, 2026.</ref>
+The thread is currently marked ''in progress''. A staff comment links this item to Developer Update 5 March 2026 where the feature was announced.<ref name="CannyExposeVRCPlusStatus" />
+
+== Render pipeline migration (URP/HDRP) ==
+
+Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published for a migration of this scope.
+Recent staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
+
+== Event promotion requirements ==
+
+The team stated in a livestream in March 2026 that events without a linked instance may stop being promoted in official event discovery surfaces.
+
+== Item roadmap ==
+
+The team stated in a livestream in March 2026 that "big updates" are in progress for items or item-adjacent systems, with details to be shared later.
+
+== Age verification rollout ==
+
+The team stated in a livestream in March 2026 that there is no public timeline for broad rollout beyond VRC+, while aiming for the most accessible and low-cost path possible.
+
 == References ==
 
 <references/>
