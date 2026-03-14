@@ -1,0 +1,109 @@
+{{Noticebox/Official}}
+'''Animations''' on VRChat avatars are built with Unity animation clips, Animator Controllers, and avatar parameters.
+
+Avatar animation setups commonly combine:
+* [[Animators|Animator Controllers]] to choose states and transitions.
+* Animation clips to keyframe property changes over time.
+* Built-in and custom parameters from [[Expressions]] to drive states, blend trees, and continuous controls.
+
+In Avatar 3.0 workflows, the controllers used for avatar behavior are assigned through the [[Avatar Descriptor]] playable-layer slots.
+
+== Animation clips ==
+An '''Animation Clip''' is a <code>.anim</code> asset containing keyframed values over time.
+
+Avatar clips animate:
+* Transform position, rotation, and scale.
+* GameObject active states and component enabled flags.
+* Component values (for example blendshape weights, constraints, particle settings).
+* Material and shader properties.
+* Material swaps.
+
+Material swaps are object-reference curves, so they behave as step changes rather than smooth blends.
+
+In Unity's Animation window:
+* '''Record''' mode automatically writes keys when an animatable value changes.
+* '''Preview''' mode previews changes without automatically creating keys.
+
+Animated object paths are relative to the Animator root. If a path no longer resolves, the curve remains in the clip but will not affect anything at runtime.
+
+Creators often separate clips into:
+* '''Static clips''': hold constant values (for example, on/off states).
+* '''Dynamic clips''': change values over time (for example, dissolves or hue shifts).
+
+Give even static clips a small duration (for example, two identical keyframes) so state timing is explicit.
+
+=== Clip settings ===
+{| class="wikitable"
+! Setting
+! Effect
+! Typical use
+|-
+| Loop Time
+| Repeats the clip when it reaches the end.
+| Idle loops, repeating effects, and cyclical motions.
+|-
+| Loop Pose
+| Adds seam correction for loop continuity.
+| Smoother start/end blending on looping motion.
+|-
+| Cycle Offset
+| Starts playback at a normalized offset in the clip.
+| Desynchronizing repeated effects or phase-shifted motion.
+|}
+
+== Blend Trees ==
+'''Blend Trees''' combine multiple motions using Animator parameters. Direct blend trees can play multiple motions at once.
+
+Forms include:
+* '''1D''' blend trees for scalar controls.
+* '''2D''' blend trees for two-axis controls.
+* '''Direct''' blend trees for per-motion weight control.
+
+Blend-tree inputs are Float parameters in Unity's Animator. In VRChat, Bool and Int expression values can still drive these workflows through parameter conversion.
+
+== Motion time ==
+States can enable '''Motion Time''', using a parameter to scrub through a clip's normalized timeline.
+
+On avatars, this is often paired with radial or axis puppet inputs for continuous controls. Limiting input ranges and transition paths helps avoid snapping or unreachable states.
+
+== Where avatar animations should run ==
+Playable layers are evaluated in order (Base, Additive, Gesture, Action, then FX), so higher layers can override lower layers when both animate the same property.
+
+{| class="wikitable"
+! Playable-layer scope
+! Typical animation content
+|-
+| Base / Additive / Gesture / Action
+| Transform animation (position, rotation, scale), usually for locomotion, gestures, and full-body actions.
+|-
+| FX
+| Non-transform avatar features such as GameObject toggles, blendshapes, material and shader values, particle settings, and other component properties.
+|}
+
+Non-transform animation should be kept in FX for expected mirror and remote behavior. Playable-layer slots should use Animation Controllers, and reusing the same controller in multiple playable layers is discouraged.
+
+== Advanced techniques ==
+Some avatar animation patterns use advanced Unity setups, such as:
+* Direct blend tree combinations for compact logic. Animator Optimizer are using this to reduce CPU usage.
+* Animated Animator Parameters (AAPs).
+* Scale-reactive systems driven by avatar scaling parameters.
+
+== Official resources ==
+* [https://creators.vrchat.com/avatars/playable-layers/ Playable Layers] on Creator Docs
+* [https://creators.vrchat.com/avatars/animator-parameters/ Animator Parameters] on Creator Docs
+* [https://creators.vrchat.com/avatars/expression-menu-and-controls/ Expression Menu and Controls] on Creator Docs
+* [https://creators.vrchat.com/avatars/state-behaviors/ State Behaviors] on Creator Docs
+* [https://docs.unity3d.com/Manual/class-AnimationClip.html Animation Clip] on Unity Manual
+* [https://docs.unity3d.com/Manual/class-BlendTree.html Blend Trees] on Unity Manual
+
+== References ==
+* [https://vrc.school/docs/Unity-Animations/Animation-Clips VRC School: Animation Clips]
+* [https://vrc.school/docs/Unity-Animations/Types-Of-Animations VRC School: Types of Animation Clips]
+* [https://vrc.school/docs/Unity-Animations/BlendTrees VRC School: Blend Trees]
+* [https://vrc.school/docs/Avatars/Playable-Layers VRC School: Playable Layers]
+* [https://vrc.school/docs/Avatars/Radial-Puppets VRC School: Radial Puppets]
+* [https://vrc.school/docs/Other/Parameter-Mismatching VRC School: Expression Parameter Mismatching]
+* [https://vrc.school/docs/Other/Advanced-BlendTrees VRC School: Advanced Blend Tree Techniques]
+* [https://vrc.school/docs/Other/DBT-Combining VRC School: Combining Layers Using Direct Blend Trees]
+* [https://vrc.school/docs/Other/AAPs VRC School: Animated Animator Parameters]
+* [https://vrc.school/docs/Other/Scale-Friendly VRC School: Designing Scale-Friendly Systems]
