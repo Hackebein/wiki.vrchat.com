@@ -1,6 +1,7 @@
 {{Noticebox/Official}}
 '''Toggles''' are a common avatar setup pattern that uses [[Expressions]] controls, Animator parameters, and animation states to enable or disable avatar features.
 
+== Overview ==
 On VRChat avatars, a toggle usually starts in the Expressions menu, where a user flips a <code>Bool</code>, <code>Int</code>, or <code>Float</code> parameter. That parameter is then read by an Animator Controller, most often on the FX playable layer, to switch between different states or animations.
 
 Toggles are commonly used for clothing swaps, props, blendshapes, material changes, and other on-or-off avatar features.
@@ -30,13 +31,6 @@ Not every toggle is a simple on-or-off switch. Avatar creators also use:
 
 These techniques are built from official Expressions and Animator features, while many specific controller patterns are documented mainly in community guides.
 
-== Dissolve toggles ==
-A '''dissolve toggle''' uses a shader dissolve effect to smoothly fade an object in or out instead of instantly enabling or disabling it. This is typically implemented with a radial puppet or a blend tree that drives a shader property (such as a dissolve cutoff float) from <code>0.0</code> to <code>1.0</code>.
-
-Because the dissolve effect depends on shader support, the avatar's materials must use a shader that exposes a dissolve or cutoff property. The animator drives this property through an animation clip that changes the material float over time.
-
-Dissolve toggles are more visually polished than instant on/off toggles but have a higher performance cost due to the use of transparency or cutout shaders during the transition. Community benchmarks suggest that exponential smoothing for dissolves runs at roughly half the cost of a standard layer toggle, while linear smoothing with frame-time detection is roughly twice the cost.
-
 == Notes ==
 * Toggle behavior depends on the playable layer and Animator setup used by the avatar.
 * For cross-platform avatars, matching parameters should stay in the same order and use the same parameter types on both versions.
@@ -52,5 +46,3 @@ Dissolve toggles are more visually polished than instant on/off toggles but have
 * [https://vrc.school/docs/Avatars/Toggles VRC School: Toggles]
 * [https://vrc.school/docs/Avatars/Multi-Toggles VRC School: Multi-Toggles]
 * [https://vrc.school/docs/Avatars/Radial-Puppets VRC School: Radial Puppets]
-* [https://vrc.school/docs/Avatars/Dissolve-Toggles VRC School: Dissolve Toggles]
-* [https://vrc.school/docs/Avatars/Axis-Puppets VRC School: Axis Puppets]
