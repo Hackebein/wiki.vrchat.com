@@ -88,33 +88,6 @@ Some avatar animation patterns use advanced Unity setups, such as:
 * Animated Animator Parameters (AAPs).
 * Scale-reactive systems driven by avatar scaling parameters.
 
-=== Animated Animator Parameters (AAPs) ===
-Float Animator parameters can be animated directly by an animation clip. When a clip keyframes an Animator parameter, the value is applied each frame the state is active. Parameters animated this way have the following behaviors:
-* The animated value is forced even when the animator is not actively in a state that explicitly sets it.
-* The value is only applied within the same Animator Controller. For example, an AAP set in the FX layer does not propagate to the Gesture layer.
-* Avatar Parameter Drivers cannot override an AAP value on the same controller while the animating state is active.
-
-Common AAP techniques include:
-
-==== Remembering a value ====
-A state with Motion Time (formerly Normalized Time) set to the same parameter being animated creates a feedback loop. A linear animation clip that animates the parameter from 0 to 1 allows the state to hold the last-known value of the parameter.
-
-==== Copying a VRChat parameter ====
-Setting the Motion Time input to a VRChat built-in parameter (such as <code>GestureLeftWeight</code>) and animating a different parameter from 0 to 1 copies the input value into the target parameter each frame. Combined with the remembering technique, this can store the last-known value after the original input changes.
-
-==== Remapping a value ====
-A linear animation clip that animates a parameter from X to Y, driven by Motion Time, remaps the input range [0, 1] to the output range [X, Y]. For example, an animation from -1 to 1 remaps the [0, 1] input to a [-1, 1] output.
-
-==== Smoothing a value ====
-Smoothing uses three nested blend trees to implement a weighted average:
-
-<code>CurrentValue = CurrentValue × SmoothingFactor + TargetValue × (1 - SmoothingFactor)</code>
-
-The first blend tree selects between the target-value and current-value sub-trees using the smoothing factor as its parameter. Each sub-tree uses a remember-style feedback loop for its respective value. Because this runs per frame, the smoothing rate depends on frame rate.
-
-==== Framerate detection ====
-Because animations advance by frame time and animators evaluate once per frame, resetting an animation every frame and measuring how far it advanced via an AAP can detect the approximate frame time.
-
 == Official resources ==
 * [https://creators.vrchat.com/avatars/playable-layers/ Playable Layers] on Creator Docs
 * [https://creators.vrchat.com/avatars/animator-parameters/ Animator Parameters] on Creator Docs
@@ -123,8 +96,7 @@ Because animations advance by frame time and animators evaluate once per frame, 
 * [https://docs.unity3d.com/Manual/class-AnimationClip.html Animation Clip] on Unity Manual
 * [https://docs.unity3d.com/Manual/class-BlendTree.html Blend Trees] on Unity Manual
 
-== Resources ==
-* [https://vrc.school/docs/Unity-Animations/Intro-Unity-Animation VRC School: Introduction – Unity Animation]
+== References ==
 * [https://vrc.school/docs/Unity-Animations/Animation-Clips VRC School: Animation Clips]
 * [https://vrc.school/docs/Unity-Animations/Types-Of-Animations VRC School: Types of Animation Clips]
 * [https://vrc.school/docs/Unity-Animations/BlendTrees VRC School: Blend Trees]
@@ -135,6 +107,3 @@ Because animations advance by frame time and animators evaluate once per frame, 
 * [https://vrc.school/docs/Other/DBT-Combining VRC School: Combining Layers Using Direct Blend Trees]
 * [https://vrc.school/docs/Other/AAPs VRC School: Animated Animator Parameters]
 * [https://vrc.school/docs/Other/Scale-Friendly VRC School: Designing Scale-Friendly Systems]
-
-[[Category:SDK]]
-[[Category:Needs images]]
