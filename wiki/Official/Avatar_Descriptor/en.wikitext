@@ -85,24 +85,6 @@ By default, this section can auto-configure standard colliders, but each collide
 
 Finger and hand colliders are also used to generate global PhysBone collider behavior so hand interaction can affect compatible PhysBone setups.
 
-== Head Chop ==
-The ''Head Chop'' component (<code>VRCHeadChop</code>) controls which bones are scaled down in first-person view to prevent the local player's head from clipping into the camera. VRChat renders three clones of the local avatar: a mirror clone with the head at full scale, a shadow clone with the head at full scale, and the local clone with specified bones scaled down.
-
-Creators can use this component to selectively show or hide parts of the avatar from the wearer's perspective only. Common uses include keeping hair visible while hiding the head mesh.
-
-{| class="wikitable"
-! Field
-! Description
-|-
-| Target Bones
-| Up to 32 bones per component, each with a scale factor (<code>0</code> to <code>1</code>) and an apply condition (<code>Always Apply</code>, <code>VR Only</code>, or <code>Non VR Only</code>).
-|-
-| Global Scale Factor
-| Multiplied against all target bone scale factors. Useful for animating the entire head chop on or off.
-|}
-
-An avatar can have up to 16 <code>VRCHeadChop</code> components. The component can also be toggled on or off through Animator logic.
-
 == Lower body options ==
 The ''Lower Body'' options control default behavior for partial tracking situations, including:
 * Whether auto-footstep correction is used for 3-point and 4-point tracking.
@@ -116,15 +98,9 @@ These defaults can be overridden in animator logic with state behaviors such as 
 * [https://creators.vrchat.com/avatars/expression-menu-and-controls/ Expression Menu and Controls] on Creator Docs
 * [https://creators.vrchat.com/avatars/animator-parameters/ Animator Parameters] on Creator Docs
 * [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] on Creator Docs
-* [https://creators.vrchat.com/avatars/avatar-components/vrc-headchop Head Chop] on Creator Docs
 
 == References ==
 * [https://vrc.school/docs/Avatars/Avatar-Descriptor VRC School: The Avatar Descriptor]
 * [https://vrc.school/docs/Avatars/Playable-Layers VRC School: Playable Layers]
 * [https://vrc.school/docs/Avatars/Expressions-Menu-Params VRC School: Expressions Menu and Parameters]
 * [https://vrc.school/docs/Avatars/SDK-Components VRC School: VRChat Avatar SDK Components]
-* [https://vrc.school/docs/Avatars/HeadChop VRC School: Head Chop]
-
-[[Category:Avatars]]
-[[Category:SDK]]
-[[Category:Needs images]]
