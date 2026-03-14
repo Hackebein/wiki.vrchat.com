@@ -1,0 +1,131 @@
+{{Noticebox/Official}}
+'''Animators''' in VRChat usually refers to the Unity Animator component, Animator Controllers, and the playable-layer setup that drives avatar behavior.
+
+VRChat avatars rely heavily on Unity's animation system. In practice, creator workflows combine:
+* A Unity '''Animator''' component on the avatar root.
+* One or more '''Animator Controllers''' assigned through playable layers.
+* Parameters from [[Expressions]] and VRChat built-in inputs.
+* State behaviors that modify tracking, locomotion, layer weight, and parameters.
+
+For most avatars, creator logic is authored through playable layers in the [[Avatar Descriptor]].
+
+== Animator component ==
+The Unity '''Animator''' component evaluates an Animator Controller on a GameObject. For avatars, it is placed on the same GameObject as the [[Avatar Descriptor]].
+
+Unity adds this component automatically when importing an FBX with a rig definition.
+
+== Animation path scope ==
+Animation property paths are relative to the '''nearest parent Animator'''.
+
+For example, if the hierarchy is <code>Avatar/Parent/Child</code>:
+* If the nearest Animator is on <code>Avatar</code>, the path to animate <code>Child</code> is <code>Parent/Child</code>.
+* If the nearest Animator is on <code>Parent</code>, the path is <code>Child</code>.
+
+This same scope affects the Animation window. Full clip editing features (such as record/preview workflows) depend on selecting an object that resolves to an Animator context with a usable controller/clip setup.
+
+== Animator Controllers ==
+An '''Animator Controller''' is the logic graph used by the Animator. It is made up of:
+* '''Parameters''', which store values used by transitions and blend trees.
+* '''Layers''', which separate different groups of states.
+* '''States''', which hold motions such as animation clips or blend trees.
+* '''Transitions''', which define when the controller moves from one state to another.
+
+In VRChat, these controllers commonly read:
+* Custom parameters from [[Expressions]].
+* Built-in VRChat animator parameters (read-only at runtime).
+
+Because built-in and custom values can change at any time, controllers should avoid dead-end states with no reliable exit path.
+
+== States and transitions ==
+A '''State''' usually contains an animation clip or blend tree. A '''Transition''' describes when the controller should move to another state, often using one or more conditions tied to parameters.
+
+== Playable layers ==
+VRChat combines multiple playable layers in order. For humanoid avatars, the order is:
+* Base
+* Additive
+* Gesture
+* Action
+* FX
+
+Generic avatars commonly use:
+* Base
+* Action
+* FX
+
+Higher layers take precedence when they animate the same property.
+
+{| class="wikitable"
+! Layer
+! Typical purpose
+! Notes
+|-
+| Base
+| Locomotion and movement-state logic.
+| Transform-focused. Replacing this layer usually requires rebuilding locomotion behavior.
+|-
+| Additive
+| Additive humanoid motion (for example subtle breathing).
+| Transform-focused and intended as an additive overlay.
+|-
+| Gesture
+| Hand/body-part gestures and many non-locomotion transform animations.
+| Commonly used with avatar masks for per-part control.
+|-
+| Action
+| Full-body override actions (emote-like behavior).
+| This playable layer is weight 0 by default and is typically blended in/out with '''Playable Layer Control'''.
+|-
+| FX
+| Non-transform feature logic (toggles, blendshapes, materials, component values).
+| Commonly used for most avatar feature systems.
+|}
+
+Use '''Animation Controllers''' in playable-layer slots, and avoid assigning the same controller to multiple slots.
+
+== State behaviors ==
+VRChat adds several state behaviors to Unity's Animator workflow. These run when entering a state and are commonly used to alter parameters, tracking, locomotion, and layer weights.
+
+* Avatar Parameter Driver
+* Animator Tracking Control
+* Playable Layer Control
+* Animator Layer Control
+* Animator Locomotion Control
+* Animator Temporary Pose Space
+* Animator Play Audio
+
+Important workflow notes:
+* Parameter Driver operations run top-to-bottom.
+* Synced custom parameter values are clamped to VRChat's sync ranges (<code>Int 0-255</code>, <code>Float -1.0 to 1.0</code>).
+* Built-in VRChat parameters are read-only and are not valid Parameter Driver targets.
+
+== Write Defaults ==
+'''Write Defaults''' controls whether a state writes default values to properties that are not explicitly animated in that state.
+
+Stay consistent within a controller and test carefully when mixing masks, layer interactions, and transform animation across layers. Avoid mixing Write Defaults modes in one controller unless a specific design requires it.
+
+With Write Defaults Off, ensure states still contain valid motion data (clip or blend tree), including deliberate "buffer" clip patterns where needed.
+
+== Child animators and advanced setups ==
+'''Blend Trees''' let a state blend between several motions using one or more parameters. They are commonly used for locomotion, puppets, analog gestures, and multi-option selectors.
+
+Some advanced avatar setups also use additional Animator components on child objects or helper objects (often called ''sub-animators''). They can be useful in specialized setups, but they add complexity around path scoping, update/culling behavior, and layer interaction.
+
+For most setups, keep primary avatar logic in playable layers.
+
+== Official resources ==
+* [https://creators.vrchat.com/avatars/playable-layers/ Playable Layers] on Creator Docs
+* [https://creators.vrchat.com/avatars/state-behaviors/ State Behaviors] on Creator Docs
+* [https://creators.vrchat.com/avatars/animator-parameters/ Animator Parameters] on Creator Docs
+* [https://docs.unity3d.com/Manual/class-Animator.html Animator component] on Unity Manual
+* [https://docs.unity3d.com/Manual/class-AnimatorController.html Animator Controller] on Unity Manual
+* [https://docs.unity3d.com/Manual/AnimationParameters.html Animation Parameters] on Unity Manual
+
+== References ==
+* [https://vrc.school/docs/Unity-Animations/Animators VRC School: Animators]
+* [https://vrc.school/docs/Unity-Animations/Animator-Controllers VRC School: Animator Controllers]
+* [https://vrc.school/docs/Unity-Animations/Animator-States VRC School: Animator States]
+* [https://vrc.school/docs/Unity-Animations/Animator-Transitions VRC School: Animator Transitions]
+* [https://vrc.school/docs/Avatars/Playable-Layers VRC School: Playable Layers]
+* [https://vrc.school/docs/Avatars/State-Behaviours VRC School: State Behaviours]
+* [https://vrc.school/docs/Unity-Animations/Write-Defaults VRC School: Write Defaults]
+* [https://vrc.school/docs/Other/Sub-Animator VRC School: Sub-Animator Techniques]
