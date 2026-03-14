@@ -105,19 +105,6 @@ Stay consistent within a controller and test carefully when mixing masks, layer 
 
 With Write Defaults Off, ensure states still contain valid motion data (clip or blend tree), including deliberate "buffer" clip patterns where needed.
 
-== Avatar Masks ==
-An '''Avatar Mask''' controls which humanoid muscles, transforms, and material swaps a given Animator layer is allowed to animate. When a mask is applied to a layer, only the enabled parts of the mask can be changed by animations on that layer.
-
-Key behaviors:
-* If a humanoid body part is enabled in the mask, animations on that layer can move that part. If disabled, they cannot.
-* If a transform is enabled (or not listed), animations can change its position, rotation, scale, and first material slot. If disabled, they cannot.
-* Blendshapes and non-transform component values are unaffected by masks.
-* Any layer with a mask cannot animate material swaps beyond the first slot, or the root transform of the Animator's GameObject.
-
-Avatar Masks are especially important for VRChat's playable-layer architecture. Without masks, humanoid animations on a higher layer would override all humanoid muscles from lower layers, causing the avatar to fall into a default pose. For example, the default Gesture layer uses masks so the left-hand layer only affects left-hand muscles and the right-hand layer only affects right-hand muscles.
-
-A common workflow issue arises when using Write Defaults Off transform animations on both the Gesture and FX layers. An unmasked WD Off transform animation on the FX layer will override all Gesture layer transform animations. When this occurs, creators should apply a mask to the FX layer that enables only the transforms being animated in FX.
-
 == Child animators and advanced setups ==
 '''Blend Trees''' let a state blend between several motions using one or more parameters. They are commonly used for locomotion, puppets, analog gestures, and multi-option selectors.
 
@@ -132,9 +119,8 @@ For most setups, keep primary avatar logic in playable layers.
 * [https://docs.unity3d.com/Manual/class-Animator.html Animator component] on Unity Manual
 * [https://docs.unity3d.com/Manual/class-AnimatorController.html Animator Controller] on Unity Manual
 * [https://docs.unity3d.com/Manual/AnimationParameters.html Animation Parameters] on Unity Manual
-* [https://docs.unity3d.com/Manual/class-AvatarMask.html Avatar Mask] on Unity Manual
 
-== Resources ==
+== References ==
 * [https://vrc.school/docs/Unity-Animations/Animators VRC School: Animators]
 * [https://vrc.school/docs/Unity-Animations/Animator-Controllers VRC School: Animator Controllers]
 * [https://vrc.school/docs/Unity-Animations/Animator-States VRC School: Animator States]
@@ -143,9 +129,3 @@ For most setups, keep primary avatar logic in playable layers.
 * [https://vrc.school/docs/Avatars/State-Behaviours VRC School: State Behaviours]
 * [https://vrc.school/docs/Unity-Animations/Write-Defaults VRC School: Write Defaults]
 * [https://vrc.school/docs/Other/Sub-Animator VRC School: Sub-Animator Techniques]
-* [https://vrc.school/docs/Avatars/Avatar-Masks VRC School: Avatar Masks]
-* [https://vrc.school/docs/Unity-Animations/Avatar-Rigs VRC School: Avatar Rigs]
-
-[[Category:Avatars]]
-[[Category:SDK]]
-[[Category:Needs images]]
