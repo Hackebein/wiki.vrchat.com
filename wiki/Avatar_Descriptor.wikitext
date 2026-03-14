@@ -1,0 +1,106 @@
+{{Noticebox/Official}}
+'''Avatar Descriptor''' refers to the '''VRC Avatar Descriptor''', a required component in the [[VRChat SDK]] that marks a Unity GameObject as a VRChat avatar.
+
+The Avatar Descriptor is the main avatar configuration component for Avatars 3.0. It controls first-person camera placement, speech and eye behavior, playable layer assignment, expression assets, standard colliders, and lower-body behavior.
+
+When added, it also adds a Pipeline Manager component if one is not already present. For uploads, the avatar root needs a Unity [[Animators|Animator]] component. Humanoid-specific features require a valid humanoid rig.
+
+== View position ==
+''View Position'' sets where the local player's first-person camera is placed. In Unity, it appears as a scene gizmo and is usually positioned between the avatar's eyes.
+
+For humanoid avatars, VRChat uses T-pose calibration and the head relation to compute the in-game view offset. In practice, creators tune this through preview and in-client testing.
+
+== Lip sync ==
+The ''Lip Sync'' section defines how the avatar reacts to voice input. Creator Docs and VRC School describe five common modes:
+
+{| class="wikitable"
+! Mode
+! Typical use
+|-
+| Default
+| Runs SDK auto-detection and switches to an appropriate mode.
+|-
+| Viseme Blend Shape
+| Recommended when the model has viseme blendshapes; maps speech to viseme shapes.
+|-
+| Jaw Flap Bone
+| Rotates one jaw bone from voice volume.
+|-
+| Jaw Flap Blend Shape
+| Drives one jaw blendshape from voice volume.
+|-
+| Viseme Parameter Only
+| Only updates built-in speech parameters for animator-driven setups.
+|}
+
+VRChat exposes built-in speech-related animator parameters such as <code>Viseme</code> and <code>Voice</code>. Viseme blendshape workflows use Oculus viseme indices (<code>0-14</code>), while jaw-flap workflows use volume-style ranges for jaw drive.
+
+== Eye look ==
+''Eye Look'' is disabled by default and must be enabled before its detailed settings appear. It has three main groups:
+* '''General''' sliders that control gaze behavior (for example, calmer vs. more active eye motion).
+* '''Eyes''' settings for eye transforms and rotation states (straight, up, down, left, right).
+* '''Eyelids''' settings, usually configured with either bones or blendshapes for blink/up/down behavior.
+
+The SDK's preview and return controls are commonly used to validate eye and eyelid values before upload.
+
+== Playable layers ==
+The ''Playable Layers'' section assigns Avatar 3.0 Animator Controllers. By default, VRChat uses SDK sample controllers, but creators can override each slot.
+
+Humanoid avatars use five primary layers:
+* Base
+* Additive
+* Gesture
+* Action
+* FX
+
+Generic avatars use:
+* Base
+* Action
+* FX
+
+Layers are evaluated in order (Base to FX), so higher layers can override lower layers when they animate the same property. Additional pose slots (T-Pose, IK Pose, Sitting) are also configured here and affect calibration and tracking behavior.
+
+Use Animation Controllers in playable-layer slots, and avoid assigning the same controller to multiple slots.
+
+== Expressions ==
+The ''Expressions'' section links:
+* A '''VRC Expression Parameters''' asset.
+* A '''VRC Expressions Menu''' asset.
+
+These assets drive in-game radial menu behavior and the custom parameters used by avatar animators. Parameter fields include name, type, default value, saved, and synced.
+
+Custom parameter type ranges are:
+* <code>Int</code>: <code>0-255</code>
+* <code>Float</code>: <code>-1.0</code> to <code>1.0</code>
+* <code>Bool</code>: true/false
+
+A single menu page can contain up to 8 controls. Custom synced parameters share a 256-bit synchronization budget. Built-in VRChat animator parameters are available automatically and are usually not duplicated as custom parameters.
+
+For cross-platform avatar variants (for example PC and Quest), custom parameters are synced by list position and type, not by parameter name.
+
+== Colliders ==
+The ''Colliders'' section defines standard avatar colliders used by VRChat Contacts and PhysBones integration.
+
+By default, this section can auto-configure standard colliders, but each collider can also be set to default, custom values, or disabled. These standard colliders do not affect avatar performance rating.
+
+Finger and hand colliders are also used to generate global PhysBone collider behavior so hand interaction can affect compatible PhysBone setups.
+
+== Lower body options ==
+The ''Lower Body'' options control default behavior for partial tracking situations, including:
+* Whether auto-footstep correction is used for 3-point and 4-point tracking.
+* Whether locomotion leg animation is forced for 6-point tracking.
+
+These defaults can be overridden in animator logic with state behaviors such as tracking control.
+
+== Official resources ==
+* [https://creators.vrchat.com/avatars/creating-your-first-avatar/#step-5---adding-an-avatar-descriptor Creating Your First Avatar] on Creator Docs
+* [https://creators.vrchat.com/avatars/playable-layers/ Playable Layers] on Creator Docs
+* [https://creators.vrchat.com/avatars/expression-menu-and-controls/ Expression Menu and Controls] on Creator Docs
+* [https://creators.vrchat.com/avatars/animator-parameters/ Animator Parameters] on Creator Docs
+* [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] on Creator Docs
+
+== References ==
+* [https://vrc.school/docs/Avatars/Avatar-Descriptor VRC School: The Avatar Descriptor]
+* [https://vrc.school/docs/Avatars/Playable-Layers VRC School: Playable Layers]
+* [https://vrc.school/docs/Avatars/Expressions-Menu-Params VRC School: Expressions Menu and Parameters]
+* [https://vrc.school/docs/Avatars/SDK-Components VRC School: VRChat Avatar SDK Components]
