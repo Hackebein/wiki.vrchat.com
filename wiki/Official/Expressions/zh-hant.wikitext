@@ -47,7 +47,15 @@ When no expressions are configured, a default expression menu with base animatio
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-To add custom expressions, create an '''Expression Menu''' file and an '''Expression Parameter''' file, then attach them to the VRChat Avatar Descriptor. The menu defines parameter entries shown on your avatar’s expression menus. The parameters are the '''variables''' the menu controls. You also specify details such as whether parameters must be synchronized for other users. You can set 256 bits to be synced, with in 8192 variables.
+To add custom expressions, create an '''Expression Menu''' asset and an '''Expression Parameters''' asset in Unity, then assign them in the ''Expressions'' section of the VRChat Avatar Descriptor. The menu defines which controls appear in the in-game menu, while the parameters asset defines the names, types, default values, and synchronization behavior of the values those controls change.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Each custom parameter can be marked as ''Saved'' and ''Synced''. Synced custom parameters count toward the avatar's 256-bit sync budget, while avatars can define up to 8192 total custom parameters. Parameters on this asset can also be changed by [[Special:MyLanguage/Contacts|Contact Receivers]], [[Special:MyLanguage/parameter drivers|parameter drivers]], [[Special:MyLanguage/physbones|PhysBones]], and [[Special:MyLanguage/Open Sound Control|OSC]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The SDK also includes a ''Default Parameters'' button. This restores the three alias parameters used by VRChat's default AV3 controllers: <code>VRCEmote</code>, <code>VRCFaceBlendH</code>, and <code>VRCFaceBlendV</code>.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -56,12 +64,12 @@ To add custom expressions, create an '''Expression Menu''' file and an '''Expres
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 You can create up to 8 controls per page. When creating a control, choose its type:
-* Button
-* Toggle
-* Sub Menu
-* Two Axis Puppet
-* Four Axis Puppet
-* Radial Puppet
+* '''Button''' sets a value while pressed, then resets after VRChat sends the change.
+* '''Toggle''' sets a value when enabled and resets it when disabled.
+* '''Sub Menu''' opens another Expressions menu, and can optionally set a parameter while that submenu is open.
+* '''Two Axis Puppet''' drives two float parameters from horizontal and vertical input, usually in the range <code>-1.0</code> to <code>1.0</code>.
+* '''Four Axis Puppet''' drives four float parameters, one for each direction, usually in the range <code>0.0</code> to <code>1.0</code>.
+* '''Radial Puppet''' drives one float parameter from <code>0.0</code> to <code>1.0</code>.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -78,6 +86,10 @@ You can open one menu on either hand (or both). By default, flick to select an o
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
+When a puppet control is open, VRChat synchronizes its live values with the faster ''IK'' sync mode. After it is closed, the frozen value remains until it is changed again.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 ==Expression Parameter ==
 </div>
 
@@ -86,15 +98,56 @@ Expression Parameters are used to control avatar features via expression menu, [
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
+=== Settings ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Each entry in the Expression Parameters asset stores:
+* '''Name''', which must match the Animator parameter name exactly.
+* '''Type''', which can be <code>Bool</code>, <code>Int</code>, or <code>Float</code>.
+* '''Default''', which is used when the avatar is reset.
+* '''Saved''', which controls whether the value persists between sessions.
+* '''Synced''', which controls whether the value is sent to other users.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet controls temporarily use faster ''IK'' sync while they are actively open.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Built-in parameters ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat also provides built-in Animator parameters such as <code>GestureLeft</code>, <code>GestureRight</code>, <code>GestureLeftWeight</code>, <code>GestureRightWeight</code>, <code>IsLocal</code>, <code>AFK</code>, <code>Seated</code>, <code>InStation</code>, and <code>TrackingType</code>. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Built-in parameters are read-only. They are added directly to a playable layer's Animator Controller by name, and VRChat updates them automatically at runtime.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Gestures and facial expressions ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The built-in <code>GestureLeft</code> and <code>GestureRight</code> parameters identify the user's hand gesture, while <code>GestureLeftWeight</code> and <code>GestureRightWeight</code> expose analog trigger pressure. On humanoid avatars, the Gesture playable layer is commonly used for hand poses, while facial expressions are often driven from the FX layer with blendshapes, material properties, or other non-humanoid animations.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On tracked controllers where finger tracking overrides animation by default, creators can use a Tracking Control state behavior to switch the relevant fingers from ''Tracking'' to ''Animation'' when needed.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 == Expression Parameter Mismatching==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Expression Parameter Mismatching refers to the practice of using different parameter types between your Expression Parameters and your local Animator Controller parameters. While it is recommended to keep parameter types consistent, mismatching is supported and the system will convert values between types according to specific rules. Which can be useful in certain <u>advanced</u> setups.
+Expression Parameter Mismatching refers to the practice of using different parameter types between your Expression Parameters and your local Animator Controller parameters. While it is recommended to keep parameter types consistent, mismatching is supported and the system will convert values between types according to specific rules. This can be useful in certain <u>advanced</u> setups. The same conversion behavior can also be used with built-in VRChat Animator parameters.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Unity's Animator system uses floats on the backend for all parameter types, while VRChat internally uses SBytes for parameter storage. The user interface in Unity and the VRCSDK allows you to select parameter types for convenience, but under the hood, conversions are possible. This means that parameters are not being cast, but rather mismatched. This behavior is also supported by popular tools such as Av3Emulator and Gesture Manager.
+Unity's Animator system uses floats on the backend for all parameter types, while VRChat stores synced custom parameters in compact network-friendly formats. The user interface in Unity and the VRCSDK lets creators choose parameter types for convenience, but under the hood, value conversion is possible. This means that parameters are not being cast in the C# sense, but rather mismatched across systems. This behavior is also supported by popular tools such as Av3Emulator and Gesture Manager.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -160,8 +213,9 @@ Unity's Animator system uses floats on the backend for all parameter types, whil
 *{{VRC link|https://vrchat.com/home/world/wrld_6168d07b-f55c-40bc-8077-749dde39983c|Avatar 3.0 Hub}} world on VRChat
 *[https://creators.vrchat.com/avatars/expression-menu-and-controls/ Expression Menu and Controls] on Creator Docs
 *[https://docs.vrchat.com/docs/action-menu#expression-menu Action Menu - Expression Menu] on Creator Docs
-*[https://creators.vrchat.com/avatars/animator-parameters/#expression-parameter-aliasing Animator Parameters] on Creator Docs
+*[https://creators.vrchat.com/avatars/animator-parameters/ Animator Parameters] on Creator Docs
 *[https://creators.vrchat.com/avatars/playable-layers Playable Layers] on Creator Docs
+*[https://creators.vrchat.com/avatars/state-behaviors/ State Behaviors] on Creator Docs
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
