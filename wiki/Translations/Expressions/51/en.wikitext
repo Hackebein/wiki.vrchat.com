@@ -1,0 +1,6 @@
+Each entry in the Expression Parameters asset stores:
+* '''Name''', which must match the Animator parameter name exactly.
+* '''Type''', which can be <code>Bool</code>, <code>Int</code>, or <code>Float</code>.
+* '''Default''', which is used when the avatar is reset.
+* '''Saved''', which controls whether the value persists between sessions.
+* '''Synced''', which controls whether the value is sent to other users.
