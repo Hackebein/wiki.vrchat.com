@@ -36,8 +36,10 @@ When no expressions are configured, a default expression menu with base animatio
 <!--T:11-->
 To add custom expressions, create an '''Expression Menu''' asset and an '''Expression Parameters''' asset in Unity, then assign them in the ''Expressions'' section of the VRChat Avatar Descriptor. The menu defines which controls appear in the in-game menu, while the parameters asset defines the names, types, default values, and synchronization behavior of the values those controls change.
 
+<!--T:47-->
 Each custom parameter can be marked as ''Saved'' and ''Synced''. Synced custom parameters count toward the avatar's 256-bit sync budget, while avatars can define up to 8192 total custom parameters. Parameters on this asset can also be changed by [[Special:MyLanguage/Contacts|Contact Receivers]], [[Special:MyLanguage/parameter drivers|parameter drivers]], [[Special:MyLanguage/physbones|PhysBones]], and [[Special:MyLanguage/Open Sound Control|OSC]].
 
+<!--T:48-->
 The SDK also includes a ''Default Parameters'' button. This restores the three alias parameters used by VRChat's default AV3 controllers: <code>VRCEmote</code>, <code>VRCFaceBlendH</code>, and <code>VRCFaceBlendV</code>.
 
 ====Controls==== <!--T:12-->
@@ -62,6 +64,7 @@ As you move your joystick, touchpad, or mouse in different directions, you chang
 <!--T:17-->
 You can open one menu on either hand (or both). By default, flick to select an option. In Action Menu settings, you can choose to use the Trigger. To back out of a selection in the Expressions menu, pull the trigger.
 
+<!--T:49-->
 When a puppet control is open, VRChat synchronizes its live values with the faster ''IK'' sync mode. After it is closed, the frozen value remains until it is changed again.
 
 ==Expression Parameter == <!--T:18-->
@@ -69,8 +72,9 @@ When a puppet control is open, VRChat synchronizes its live values with the fast
 <!--T:19-->
 Expression Parameters are used to control avatar features via expression menu, [[Special:MyLanguage/Contacts|contact receiver]], [[Special:MyLanguage/Open Sound Control|OSC]], [[Special:MyLanguage/parameter drivers|parameter drivers]] or [[Special:MyLanguage/physbones|physbones]]. These parameters are then mapped to Animator Controller parameters in your avatar's FX, Gesture, or Action controllers.
 
-=== Settings ===
+=== Settings === <!--T:50-->
 
+<!--T:51-->
 Each entry in the Expression Parameters asset stores:
 * '''Name''', which must match the Animator parameter name exactly.
 * '''Type''', which can be <code>Bool</code>, <code>Int</code>, or <code>Float</code>.
@@ -78,18 +82,23 @@ Each entry in the Expression Parameters asset stores:
 * '''Saved''', which controls whether the value persists between sessions.
 * '''Synced''', which controls whether the value is sent to other users.
 
+<!--T:52-->
 By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet controls temporarily use faster ''IK'' sync while they are actively open.
 
-=== Built-in parameters ===
+=== Built-in parameters === <!--T:53-->
 
+<!--T:54-->
 VRChat also provides built-in Animator parameters such as <code>GestureLeft</code>, <code>GestureRight</code>, <code>GestureLeftWeight</code>, <code>GestureRightWeight</code>, <code>IsLocal</code>, <code>AFK</code>, <code>Seated</code>, <code>InStation</code>, and <code>TrackingType</code>. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
 
+<!--T:55-->
 Built-in parameters are read-only. They are added directly to a playable layer's Animator Controller by name, and VRChat updates them automatically at runtime.
 
-=== Gestures and facial expressions ===
+=== Gestures and facial expressions === <!--T:56-->
 
+<!--T:57-->
 The built-in <code>GestureLeft</code> and <code>GestureRight</code> parameters identify the user's hand gesture, while <code>GestureLeftWeight</code> and <code>GestureRightWeight</code> expose analog trigger pressure. On humanoid avatars, the Gesture playable layer is commonly used for hand poses, while facial expressions are often driven from the FX layer with blendshapes, material properties, or other non-humanoid animations.
 
+<!--T:58-->
 On tracked controllers where finger tracking overrides animation by default, creators can use a Tracking Control state behavior to switch the relevant fingers from ''Tracking'' to ''Animation'' when needed.
 
 == Expression Parameter Mismatching== <!--T:20-->
