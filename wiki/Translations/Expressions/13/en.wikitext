@@ -1,7 +1,7 @@
 You can create up to 8 controls per page. When creating a control, choose its type:
-* Button
-* Toggle
-* Sub Menu
-* Two Axis Puppet
-* Four Axis Puppet
-* Radial Puppet
+* '''Button''' sets a value while pressed, then resets after VRChat sends the change.
+* '''Toggle''' sets a value when enabled and resets it when disabled.
+* '''Sub Menu''' opens another Expressions menu, and can optionally set a parameter while that submenu is open.
+* '''Two Axis Puppet''' drives two float parameters from horizontal and vertical input, usually in the range <code>-1.0</code> to <code>1.0</code>.
+* '''Four Axis Puppet''' drives four float parameters, one for each direction, usually in the range <code>0.0</code> to <code>1.0</code>.
+* '''Radial Puppet''' drives one float parameter from <code>0.0</code> to <code>1.0</code>.
