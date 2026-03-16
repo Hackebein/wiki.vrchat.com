@@ -1,0 +1,135 @@
+{{Noticebox/Community}}
+{{Infobox/Asset
+|name=NDMF
+|author=bd_ (bdunderscore)
+|license=[[license:mit|MIT]]
+|github=bdunderscore/ndmf
+|documentation=https://ndmf.nadena.dev
+}}
+
+'''Non-Destructive Modular Framework''' ('''NDMF''', also known by its Japanese nickname '''なでもふ''' or "Nademof") is an open-source framework for building non-destructive editor plugins for [[Avatars]]. Developed by bd_ (known as bdunderscore on GitHub), NDMF provides a standardized system for scheduling, sequencing, and coordinating avatar modifications across multiple independent plugins.
+
+NDMF is the foundation upon which [[Community:Modular Avatar|Modular Avatar]], Avatar Optimizer, and other non-destructive avatar tools are built. Rather than each plugin implementing its own build-time and play-mode hooks, NDMF provides a shared execution pipeline that ensures plugins from different developers can modify the same avatar without conflicting.
+
+== Overview ==
+
+The VRChat SDK provides callbacks that run at avatar build time, but does not natively coordinate execution order between third-party plugins or provide play-mode processing hooks. When multiple non-destructive plugins are installed — each needing to modify armatures, animators, menus, or meshes — conflicts can arise if their operations run in an unpredictable order or if each plugin implements its own play-mode logic independently.
+
+NDMF addresses this by defining a shared execution model with:
+
+* '''Build phases''' that group operations into well-defined stages (resolving references, generating components, transforming avatars, optimizing).
+* '''Dependency constraints''' that allow plugins to declare explicit ordering relationships (run before or after another plugin or pass).
+* '''Play-mode support''' that applies the same transformations when entering Play Mode in the Unity Editor, not only during avatar uploads.
+* '''Animation path adjustment''' that automatically updates animation paths when objects are moved during processing.
+* '''Temporary asset management''' that handles saving and cleanup of generated assets after the build completes.
+* '''A preview system''' that provides real-time feedback on plugin effects directly in the Unity Editor's Scene view.
+
+== Build phases ==
+
+NDMF organizes plugin execution into a sequence of build phases. Each phase has a recommended purpose, and plugins register their processing passes within the appropriate phase. Phases execute in a fixed order:
+
+{| class="wikitable"
+! Phase
+! Order
+! Purpose
+|-
+| '''FirstChance'''
+| 1
+| Runs before platform initialization. Used for operations that must happen before everything else, such as replacing the entire avatar with a different one. EditorOnly objects are not yet removed in this phase.
+|-
+| '''PlatformInit'''
+| 2
+| Platform-specific backend initialization. Configuration syncing (such as extracting common avatar info) occurs before this phase. EditorOnly objects are not yet removed.
+|-
+| '''Resolving'''
+| 3
+| Early processing of components and avatar state before large-scale changes. Used for resolving serialized references (such as string-based object paths) and cloning animation controllers before modifications. NDMF's built-in EditorOnly object removal pass runs during this phase.
+|-
+| '''Generating'''
+| 4
+| Generates components that will be consumed by later plugins. For example, a plugin that creates components for [[Community:Modular Avatar|Modular Avatar]] to process would register its passes here.
+|-
+| '''Transforming'''
+| 5
+| The general-purpose phase where most avatar modifications occur. The majority of Modular Avatar's processing runs here: merging armatures, combining animators, installing menus, and processing reactive components.
+|-
+| '''Optimizing'''
+| 6
+| Reserved for optimization passes that should not change the avatar's behavior or appearance. Avatar Optimizer runs its main logic in this phase.
+|-
+| '''PlatformFinish'''
+| 7
+| Platform-specific cleanup and validation after optimizations. For example, verifying that the avatar has not exceeded VRChat's parameter limits.
+|}
+
+== Execution model ==
+
+Within each build phase, processing is organized into '''plugins''', '''passes''', and '''sequences'''.
+
+* A '''plugin''' is the top-level unit visible to end users (for example, Modular Avatar or Avatar Optimizer).
+* A '''pass''' is a single callback executed at a specific point in the build. Plugins break their work into multiple passes for finer control over execution order.
+* A '''sequence''' is an ordered group of passes declared together. Passes within a sequence execute in declaration order. If a plugin declares multiple sequences in the same phase, those sequences may run in any order relative to each other unless constrained.
+
+=== Dependency constraints ===
+
+Plugins can declare ordering constraints to control how their passes interleave with other plugins:
+
+{| class="wikitable"
+! Constraint
+! Scope
+! Effect
+|-
+| <code>BeforePlugin</code> / <code>AfterPlugin</code>
+| Entire sequence
+| Ensures the entire sequence runs before or after all processing by the specified plugin. Accepts both type references and string names (fully-qualified plugin type name), allowing ordering against optional dependencies that may not be installed.
+|-
+| <code>BeforePass</code> / <code>AfterPass</code>
+| Single pass
+| Ensures a specific pass runs before or after another specific pass. Requires access to the target pass's type.
+|-
+| <code>WaitFor</code>
+| Single pass
+| Similar to <code>AfterPass</code>, but NDMF attempts to schedule the pass as soon as possible after the target. Useful for inserting processing between two passes within another plugin.
+|}
+
+If no constraints are declared between two sequences in the same phase, NDMF uses internal heuristics to determine their order. These heuristics may change between minor releases; plugin authors who encounter ordering issues are advised to add explicit constraints.
+
+== Preview system ==
+
+NDMF includes a preview system that allows plugins to display the effects of their processing directly in the Unity Editor's Scene view without entering Play Mode or building the avatar. The preview system processes the avatar in the background and updates renderers in the Scene view to reflect the build output.
+
+Key components of the preview system include:
+
+* '''ComputeContext''' — Tracks dependencies and invalidation events, allowing the preview system to recompute only when relevant inputs change.
+* '''PropCache''' — Provides memoization and caching for computations, integrated with ComputeContext for automatic invalidation.
+* '''PreviewSession''' — Allows plugins to customize preview behavior for specific cameras, including controlling which renderers are displayed and how they are transformed.
+* '''NDMFPreview''' — A utility class for controlling the preview system, including the ability to temporarily disable all previews.
+
+Plugins can opt into the preview system by implementing preview-aware passes. When enabled, the preview updates in near-real-time as users modify their avatar in the Editor.
+
+== Ecosystem ==
+
+NDMF serves as the shared foundation for a growing number of non-destructive VRChat avatar tools. Because all NDMF-based plugins share the same execution pipeline, they can be installed alongside each other and process the same avatar without manual conflict resolution.
+
+Notable tools built on NDMF include:
+
+{| class="wikitable"
+! Tool
+! Developer
+! Purpose
+|-
+| '''[[Community:Modular Avatar|Modular Avatar]]'''
+| bd_ (bdunderscore)
+| Non-destructive avatar assembly: armature merging, animator combining, menu installation, reactive components, and prefab-based accessory workflows.
+|-
+| '''Avatar Optimizer''' (AAO)
+| anatawa12
+| Non-destructive avatar optimization: removing unused objects, merging skinned meshes, removing unused blendshapes, merging bones, and optimizing textures. Runs primarily in the Optimizing phase.
+|}
+
+== Resources ==
+
+* [https://ndmf.nadena.dev/ NDMF documentation]
+* [https://github.com/bdunderscore/ndmf NDMF repository] on GitHub
+* [https://ndmf.nadena.dev/api/index.html API documentation]
+* [https://ndmf.nadena.dev/execution-model.html Execution model documentation]
