@@ -50,9 +50,8 @@ VRChat supports three receiver behaviors:
 Contacts only interact when a sender and receiver share at least one matching collision tag. The receiver's ''Parameter'' field determines which Animator parameter is updated. Depending on the Animator parameter type, the value may be interpreted as a float, int, or bool.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Debugging===
-</div>
+<span id="Debugging"></span>
+===Depuración===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In Unity, Contact gizmos appear when Gizmos are enabled and the contact or one of its parents is selected. In VRChat, the Avatar Dynamics overlay can also be used to visualize Contacts and PhysBones during testing.
