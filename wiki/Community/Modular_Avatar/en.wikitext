@@ -1,0 +1,144 @@
+{{Noticebox/Community}}
+{{Infobox/Asset
+|name=Modular Avatar
+|author=bd_ (bdunderscore)
+|github=https://github.com/bdunderscore/modular-avatar
+|documentation=https://modular-avatar.nadena.dev
+}}
+
+'''Modular Avatar''' is an open-source, non-destructive avatar assembly tool for VRChat, developed by bd_ (known as bdunderscore on GitHub). It allows users to add outfits, animations, and other components to avatars through drag-and-drop without permanently modifying the base avatar. Modular Avatar processes changes at build time, leaving original assets intact. The project is licensed under the MIT License.
+
+The tool is built on the '''[[Community:NDMF|Non-Destructive Modular Framework (NDMF)]]''', a general-purpose framework also developed by bd_ that handles scheduling and coordination of avatar modifications across multiple plugins. First released on September 10, 2022.
+
+== Overview ==
+
+Modular Avatar provides a suite of Unity components that attach to GameObjects in an avatar hierarchy. When the avatar is built for upload, these components are processed to merge armatures, animators, menus, and parameters into the final avatar. Because changes are applied only during the build process, the original avatar and its prefabs remain unmodified. Users can freely add, remove, or reconfigure components without risk of corrupting their avatar setup.
+
+The tool addresses a long-standing pain point in VRChat avatar customization: installing outfits and accessories traditionally required manual bone merging, animator editing, and menu configuration — steps that permanently altered the avatar's Unity project files and made updates difficult. Modular Avatar replaces this process with a declarative, component-based approach. For many outfits, installation is as simple as dragging the outfit prefab onto the avatar and selecting "Setup Outfit" from the context menu.
+
+Modular Avatar supports prefab workflows. Components can be embedded in Unity prefabs and distributed by avatar accessory creators, allowing end users to install complex gimmicks (toggles, animations, contact systems) without manual animator editing. When the accessory creator updates their prefab, users can update by reimporting the new version.
+
+== Features ==
+
+=== Core components ===
+
+Modular Avatar includes the following components, which users attach to GameObjects in their avatar hierarchy:
+
+{| class="wikitable"
+! Component
+! Description
+|-
+|'''Merge Armature'''
+| Merges a clothing or accessory armature onto the avatar's existing bone structure. Automatically updates Skinned Mesh Renderer references, minimizes generated bones, and supports position locking to preview outfit fit in edit mode. Includes a "Reset position to base avatar" tool for cross-avatar outfit fitting and automatic bone name adjustment.
+|-
+| '''Merge Animator'''
+| Combines multiple animator controllers into the avatar's FX layer at build time. Supports replacing pre-existing controllers and automatic Write Defaults matching.
+|-
+| '''Merge Blend Tree'''
+| Merges blend trees from multiple sources into the avatar's animator.
+|-
+| '''Merge Motion'''
+| Merges individual animation clips into the avatar's animation layers.
+|-
+| '''Bone Proxy'''
+| Places objects from prefabs inside existing avatar bones (e.g., contacts inside hands). Reparents objects to target bones and adjusts animator references.
+|-
+| '''Menu Installer'''
+| Adds menu items to the avatar's expressions menu. Automatically splits menus into multiple pages when the menu is full.
+|-
+| '''Menu Item'''
+| Defines individual expressions menu entries from the Unity hierarchy. Supports submenus and automatic parameter creation.
+|-
+| '''MA Parameters'''
+| Manages animator parameters, including automatic renaming to avoid conflicts between multiple prefabs.
+|-
+| '''Shape Changer'''
+| Modifies or deletes blendshapes on meshes. Can toggle blendshape states through animations. Fully deletes shapekeys when in delete mode.
+|-
+| '''Blendshape Sync'''
+| Synchronizes blendshape values between meshes, allowing clothing to follow the base avatar's body shape changes (e.g., breast size sliders).
+|-
+| '''Mesh Cutter'''
+| Deletes or toggles portions of a mesh using vertex filters: By Bone, By Blendshape, By Axis, or By Mask.
+|-
+| '''Scale Adjuster'''
+| Adjusts the scale of humanoid bones, including bone length adjustments.
+|-
+| '''World Fixed Object'''
+| Fixes an object to a position in world space rather than following the avatar.
+|-
+| '''World Scale Object'''
+| Scales an object relative to world space.
+|-
+| '''Rename Collision Tags'''
+| Renames contact collision tags to unique names, similar to the auto-rename feature in MA Parameters. Prevents collisions between prefabs that use the same tag names.
+|-
+| '''MA Global Collider'''
+| Adds a collider accessible to all [[PhysBones]] on the avatar.
+|-
+| '''MA MMD Layer Control'''
+| Controls animator layer behavior in MMD-compatible worlds. Allows opting layers in or out of MMD world behavior.
+|-
+| '''MA VRChat Settings'''
+| Configures avatar-wide VRChat-specific settings, such as enabling or disabling MMD world compatibility behavior.
+|-
+| '''MA Fit Preview'''
+| Poses a copy of the avatar with [[PhysBones]] active in edit mode. Constraint and PhysBone settings are reflected in real time.
+|-
+| '''Mesh Settings'''
+| Configures mesh-level settings such as anchor overrides and bounds.
+|-
+| '''Replace Object'''
+| Replaces a target object with another object at build time.
+|-
+| '''Convert Constraints'''
+| Converts Unity constraints to VRChat-compatible constraints during the build process.
+|}
+
+=== Reactive components ===
+
+Modular Avatar includes a set of '''reactive components''' for toggling and swapping driven by parameters, without requiring manual animator setup:
+
+* '''Object Toggle''' — Enables or disables GameObjects based on a synced or local parameter.
+* '''Material Setter''' — Swaps materials on renderers in response to parameter changes.
+* The reactive system automatically generates the required animator layers and states.
+
+== How it works ==
+
+Modular Avatar uses a non-destructive workflow. Rather than directly modifying avatar assets in the Unity project, users attach Modular Avatar components to GameObjects. These components describe the desired modifications declaratively — users tell Unity ''how'' they want the avatar changed, rather than changing it directly.
+
+During the avatar build process, [[Community:NDMF|NDMF]] executes Modular Avatar's logic in defined phases:
+
+# '''Resolving''' — References between components are validated and paths are resolved.
+# '''Generating''' — New components or assets may be generated by other plugins that depend on Modular Avatar.
+# '''Transforming''' — Modular Avatar applies its main processing: merging armatures, combining animators, installing menus, and processing reactive components.
+# '''Optimizing''' — Final cleanup and optimization passes run.
+
+[[Community:NDMF|NDMF]] coordinates the execution order across all installed NDMF-based plugins, ensuring that operations from different tools (such as Modular Avatar and Avatar Optimizer) run in the correct sequence. This scheduling system allows multiple independent tools to modify the same avatar without conflicting.
+
+The non-destructive approach provides several practical benefits:
+* Removing a prefab-based accessory is as simple as deleting the GameObject; the avatar returns to its original state.
+* Updating an outfit prefab does not require reconfiguring the avatar's animators or menus.
+* Multiple accessories can coexist on the same avatar without parameter name collisions (via automatic parameter renaming).
+* The same base avatar prefab can be shared across multiple configurations without duplication.
+
+== Typical workflow ==
+
+A typical workflow for installing an outfit using Modular Avatar:
+
+# Import the base avatar and the outfit into a Unity project with Modular Avatar installed.
+# Drag the outfit prefab onto the avatar in the Unity hierarchy.
+# Right-click the outfit and select '''[ModularAvatar] Setup Outfit'''. This automatically attaches a Merge Armature component to the outfit's armature.
+# (Optional) Add a '''Blendshape Sync''' component to synchronize body shape blendshapes between the avatar and the outfit.
+# (Optional) Set up toggles using '''Object Toggle''' or '''Menu Item''' components to allow the outfit to be enabled or disabled in-game.
+# Enter Play Mode or build the avatar to verify the result. The outfit follows the avatar's bones and animations.
+
+For more complex setups (gimmicks, toggles, contact systems), accessory creators embed the appropriate Modular Avatar components inside their prefabs. End users then only need to drag the prefab onto their avatar.
+
+== Resources ==
+
+* [[Community:NDMF|NDMF]] — The underlying build framework
+* [https://modular-avatar.nadena.dev/ Modular Avatar documentation]
+* [https://github.com/bdunderscore/modular-avatar Modular Avatar repository] on GitHub
+* [https://github.com/bdunderscore/ndmf NDMF repository] on GitHub
+* [https://modular-avatar.nadena.dev/docs/changelog Full changelog]
