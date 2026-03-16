@@ -30,6 +30,13 @@ Not every toggle is a simple on-or-off switch. Avatar creators also use:
 
 These techniques are built from official Expressions and Animator features, while many specific controller patterns are documented mainly in community guides.
 
+== Dissolve toggles ==
+A '''dissolve toggle''' uses a shader dissolve effect to smoothly fade an object in or out instead of instantly enabling or disabling it. This is typically implemented with a radial puppet or a blend tree that drives a shader property (such as a dissolve cutoff float) from <code>0.0</code> to <code>1.0</code>.
+
+Because the dissolve effect depends on shader support, the avatar's materials must use a shader that exposes a dissolve or cutoff property. The animator drives this property through an animation clip that changes the material float over time.
+
+Dissolve toggles are more visually polished than instant on/off toggles but have a higher performance cost due to the use of transparency or cutout shaders during the transition. Community benchmarks suggest that exponential smoothing for dissolves runs at roughly half the cost of a standard layer toggle, while linear smoothing with frame-time detection is roughly twice the cost.
+
 == Notes ==
 * Toggle behavior depends on the playable layer and Animator setup used by the avatar.
 * For cross-platform avatars, matching parameters should stay in the same order and use the same parameter types on both versions.
