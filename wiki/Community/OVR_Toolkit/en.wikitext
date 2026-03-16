@@ -1,0 +1,50 @@
+{{Noticebox/Community}}
+'''OVR Toolkit''' is a paid SteamVR overlay utility developed by Curtis English and published by VoxelLoop Software Limited. It allows users to view and interact with desktop windows while inside virtual reality. The application is widely used by VRChat players for tasks such as reading messages, browsing the web, controlling media playback, and typing in the VRChat chatbox without leaving VR.
+
+OVR Toolkit was released on Steam on June 28, 2019. It is priced at $10.99 and has received a "Very Positive" rating on Steam based on over 2,500 user reviews. It has the same or lower requirements as VRChat, plus 800MB Storage.
+
+== Overview ==
+OVR Toolkit functions as a SteamVR overlayt. Users can select individual desktop windows and pin them as floating, resizable panels within their VR environment. These panels can be placed freely in 3D space, attached to a controller, or locked to the headset. Interaction is handled through tracked VR controllers, with support for mouse input, scrolling, and a virtual keyboard.
+
+=== Wrist interface ===
+OVR Toolkit includes a wrist-mounted interface activated by looking at the inside of the non-dominant controller. The wrist overlay displays:
+
+* Current time and date
+* Battery levels for VR controllers and trackers (up to five devices by default, with an expand button for additional devices)
+* System statistics including CPU usage, GPU usage, and VRAM consumption
+* Quick-access buttons for global settings, Eco Mode, and macro keybinds
+* Media playback controls for the currently playing track
+
+The wrist interface serves as the primary hub for interacting with OVR Toolkit's settings and features.
+
+== Features ==
+* '''Desktop window overlays''' — Display individual desktop windows as floating panels pinned in VR space, attached to controllers, or attached to the headset.
+* '''Mouse and keyboard input''' — Interact with desktop windows using tracked controllers for mouse input; type using a virtual keyboard. Community-created keyboard layouts are available through the Steam Workshop.
+* '''Paste to Game''' — Paste clipboard contents into the active VR game. In VRChat, this is commonly used for pasting video URLs into video players, instance join links, and similar text input.
+* '''Macros''' — Create macro keybinds activated from the wrist interface to trigger key press sequences (such as toggling OBS scenes, muting Discord, or activating VRChat gestures).
+* '''Windows notifications''' — View desktop push notifications in VR, including Discord messages and phone notifications forwarded to the desktop.
+* '''Media controls''' — Display the currently playing track and control playback (play/pause, skip, previous) for applications such as Spotify and YouTube Music.
+* '''Eco Mode''' — Lowers the capture rate of inactive windows to reduce CPU usage. This is particularly useful when running alongside demanding VR applications such as VRChat.
+* '''Curved overlays''' — Wrap large windows around the user in a curve for improved readability, useful for wide browser windows or chat applications.
+* '''Configuration saving''' — Save and load window layout configurations between sessions, allowing users to maintain different setups for different activities.
+* '''Quick window switching''' — Bind frequently used windows to hotkey buttons on the overlay UI for one-click access.
+* '''Simulator Mode''' — A controller-free mode that uses head-gaze input and keyboard binds, intended for sim racing and seated use cases where VR controllers are not in use.
+* '''Steam Workshop''' — Community-created keyboard layouts, themes, and other customizations are available through the Steam Workshop.
+
+=== Speech-to-text ===
+OVR Toolkit supports speech-to-text transcription through integration with Google Cloud Speech-to-Text. Users must configure their own Google Cloud project and provide API credentials. Once set up, spoken words are transcribed and can be sent as text input to the [[Chatbox]]. The OSC integration can be used to trigger avatar parameters and other OSC-compatible features.
+
+=== Custom Apps ===
+OVR Toolkit exposes a JavaScript API that allows web developers to create custom applications rendered as overlay panels. Custom Apps run as embedded web pages within OVR Toolkit and can access the API to read headset and controller positions, respond to input events, and interact with other overlays.
+
+Community-developed helper libraries such as [https://github.com/jangxx/ovrt-helper ovrt-helper] simplify development. Example Custom Apps include Twitch chat overlays, sticky note widgets, and soundboard integrations.
+
+== See also ==
+* [[Community:XSOverlay|XSOverlay]]
+* [[OSC|Open Sound Control (OSC)]]
+
+== Resources ==
+* [https://store.steampowered.com/app/1068820/OVR_Toolkit__Desktop_Overlay/ OVR Toolkit] on Steam
+* [https://wiki.ovrtoolkit.co.uk/ OVR Toolkit Wiki] (official documentation)
+* [https://discord.gg/Km2gmYeNBW OVR Toolkit Discord]
+* [https://github.com/Curtis-VL/OVRToolkit-Issues OVR Toolkit Issue Tracker] on GitHub
