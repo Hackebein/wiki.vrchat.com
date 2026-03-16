@@ -1,0 +1,104 @@
+{{Noticebox/Community}}
+'''XSOverlay''' is a paid SteamVR overlay utility developed and published by Xiexe. It allows users to view and interact with desktop windows while inside virtual reality. The application is popular among VRChat players for tasks such as reading messages, browsing the web, and controlling media playback.
+
+XSOverlay was released in early access on Steam on March 3, 2020, and is priced at $9.99. It has received a "Very Positive" rating on Steam based on over 1,300 user reviews. It has the same or lower requirements as VRChat, plus 500MB Storage.
+
+== Overview ==
+XSOverlay functions as a SteamVR overlay, rendering on top of any running SteamVR application. Users can select individual desktop windows or full monitors and pin them as floating, resizable panels within their VR environment. These panels can be placed freely in 3D space, attached to a controller, or locked to the headset. Interaction is handled through tracked VR controllers, with support for left, middle, and right mouse clicks, scrolling, long press, and dragging.
+
+XSOverlay is compatible with all SteamVR-compatible headsets, including the Valve Index, HTC Vive, Meta Quest (via SteamVR), and Windows Mixed Reality headsets. Controller bindings are fully remappable through the SteamVR bindings system.
+
+=== Wrist overlay ===
+XSOverlay includes a wrist-mounted overlay displayed on the back of the non-dominant hand by default. The wrist overlay provides:
+
+* Current time and date (12-hour or 24-hour format)
+* Battery levels for VR controllers and trackers, listed in order of connection
+* System resource statistics (CPU, GPU, VRAM)
+* A toggle for media playback controls (play/pause, skip, previous)
+* A button to enter Layout Mode
+
+The wrist overlay hides itself based on a configurable clip angle, appearing only when the user looks toward it.
+
+=== Layout Mode ===
+Layout Mode is XSOverlay's primary interface for managing overlays. It can be opened from the wrist overlay or through a controller binding (double-tap the left A button on Index controllers by default). In Layout Mode, users can:
+
+* Add, move, scale, and remove window overlays
+* Pin overlays to remain visible outside of Layout Mode
+* Lock overlays to prevent interaction
+* Save, load, and delete named layout configurations
+* Arrange windows into a grid view for quick organization
+* Recenter all windows to face the user
+
+An optional input blocking feature prevents controller input from reaching the background VR application while Layout Mode is open.
+
+== Features ==
+* '''Desktop and window overlays''' — Display full monitors or individual windows as floating panels in VR space. Overlays can be pinned, locked, attached to controllers, or attached to the headset.
+* '''Mouse and keyboard input''' — Interact with desktop applications using tracked controllers for mouse input; type using a virtual keyboard with automatic detection of the system keyboard layout.
+* '''Layout saving''' — Save and load named overlay layout configurations to maintain different setups for different activities.
+* '''Media controls''' — Control playback for system media (Spotify, YouTube Music, and other applications) from the wrist overlay.
+* '''Curved overlays''' — Wrap overlays in a curve when positioned in front of the user, with adjustable curve strength. Curvature requires Aim Movement to be enabled and does not apply to device-attached overlays.
+* '''Notifications API''' — Third-party applications can send toast notifications to the user's headset through a WebSocket-based API.
+* '''Discord Rich Presence''' — Displays XSOverlay as the active application in Discord, along with the currently running VR game.
+* '''Per-overlay settings''' — Each overlay can be individually configured for opacity, brightness, maximum and minimum frame rate, auto-hide behavior, and input blocking.
+* '''Customizable keyboard sounds''' — Custom sound packs can be applied to the virtual keyboard.
+* '''Theme support''' — Users can switch between light and dark themes and customize the accent color. Community-created themes are available through the [https://github.com/Xiexe/XSOverlaySDK XSOverlay SDK].
+* '''Localization''' — Interface translations are available in 20 languages, with support for user-created language files.
+
+== OSC Parameters ==
+The following parameters are sent:
+
+{| class="wikitable"
+! Parameter
+! Description
+! Type
+|-
+| <code>leftControllerBattery</code>
+| Left controller battery percentage (0-1)
+| Float
+|-
+| <code>rightControllerBattery</code>
+| Right controller battery percentage (0-1)
+| Float
+|-
+| <code>averageControllerBattery</code>
+| Average controller battery percentage (0-1)
+| Float
+|-
+| <code>averageTrackerBattery</code>
+| Average tracker battery percentage (0-1)
+| Float
+|-
+| <code>isOverlayOpen</code>
+| Whether any overlay is currently open
+| Boolean
+|-
+| <code>isKeyboardOpen</code>
+| Whether the keyboard is currently open
+| Boolean
+|-
+| <code>isWristVisible</code>
+| Whether the wrist menu is currently visible
+| Boolean
+|-
+| <code>openOverlayCount</code>
+| Number of open overlays (0-255)
+| Integer
+|}
+
+These parameters can be used on VRChat avatars to display battery indicators, show typing status, or trigger other behaviors. OSC port and path settings can be changed by editing the <code>ExternalMessageAPIConfig.json</code> configuration file in the XSOverlay installation directory.
+
+== Developer API ==
+XSOverlay exposes a WebSocket-based API that allows external applications to interact with the overlay system. Through the API, developers can send notifications to the headset, toggle Layout Mode, and issue other commands.
+
+The [https://github.com/Xiexe/XSOverlaySDK XSOverlay SDK] on GitHub provides resources for creating custom themes.
+
+== See also ==
+* [[Community:OVR Toolkit|OVR Toolkit]]
+* [[OSC|Open Sound Control (OSC)]]
+
+== Resources ==
+* [https://store.steampowered.com/app/1173510/XSOverlay/ XSOverlay] on Steam
+* [https://xsoverlay.vercel.app/ XSOverlay Documentation] (official)
+* [https://discord.gg/xsoverlay XSOverlay Discord]
+* [https://github.com/Xiexe/XSOverlay-Issue-Tracker XSOverlay Issue Tracker] on GitHub
+* [https://github.com/Xiexe/XSOverlaySDK XSOverlay SDK] on GitHub
