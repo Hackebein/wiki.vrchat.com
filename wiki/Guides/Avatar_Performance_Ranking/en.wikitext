@@ -210,6 +210,43 @@ Use lower-intensive shaders (like [https://creators.vrchat.com/platforms/android
 
 It is possible to view your current avatar metrics from the VRChat avatars menu as well as inside the [https://creators.vrchat.com/sdk VRChat SDK] in Unity. Useful to identify possible avatar bottlenecks, and to know where adjustments need to be made if necessary.
 
+== Frame time context ==
+At 90 fps the total frame time budget is roughly 11 ms; at 60 fps it is roughly 16 ms. Community benchmarks provide approximate per-component costs measured on mid-to-high-end hardware (see [[Community:VRChat Performance Benchmarks]] for full methodology). Key results relevant to performance ranking include:
+
+{| class="wikitable"
+! Component
+! Approximate cost
+|-
+| Animator layer (basic 2-state toggle)
+| ~0.01 ms per layer (quadratic scaling with layer count)
+|-
+| Direct Blend Tree toggle
+| ~75% less frame time than equivalent layer toggles
+|-
+| PhysBone transforms
+| ~0.66 ms per 1000 affected transforms
+|-
+| VRC Constraints
+| ~0.25 ms per 1000 active constraints (increases with depth)
+|-
+| Unity Constraints (auto-converted)
+| ~0.75 ms per 1000 (native VRC Constraints recommended)
+|-
+| Contact Senders/Receivers
+| ~0.5-0.75 ms per 1000, depending on toggling activity
+|-
+| Draw calls (material slots × meshes)
+| ~2 ms per 1000 draw calls
+|-
+| Cloth vertices
+| ~0.2 ms per 1000 vertices (up to ~200k)
+|-
+| Bones on Skinned Mesh Renderers
+| ~0.32 ms per 1000 bones (while moving)
+|}
+
+State behaviors on any layer of any controller increase the runtime of ''all'' controllers on that avatar by roughly 50%. Since the default Action and Gesture layers use state behaviors, this cost is typically always present.
+
 == Related Systems ==
 
 * [[Avatar Dynamics|Avatar Dynamics]]
@@ -224,7 +261,12 @@ It is possible to view your current avatar metrics from the VRChat avatars menu 
 
 == Official resources ==
 
-* Avatar Performance Ranking System — https://creators.vrchat.com/avatars/avatar-performance-ranking-system
+* [https://creators.vrchat.com/avatars/avatar-performance-ranking-system Avatar Performance Ranking System] on Creator Docs
+* [https://creators.vrchat.com/avatars/avatar-optimizing-tips Avatar Optimization Tips] on Creator Docs
+
+== References ==
+* [https://vrc.school/docs/Other/Benchmarks VRC School: Unity/VRChat Performance Benchmarks]
+* [https://github.com/jellejurre/UnityBenchmark UnityBenchmark] on GitHub (data generation tool)
 
 [[Category:Avatars{{#translation:}}]]
 [[Category:Guides{{#translation:}}]]
