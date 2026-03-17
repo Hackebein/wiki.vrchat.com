@@ -21,9 +21,7 @@ Los contactos es un sistema que permite a los avatares detectar colisiones consi
 
 Un '''contact sender''' define un volumen de colisión que puede ser detectado por un contact receiver coincidente. Los emisores pueden usar una forma de esfera o cápsula, un transform raíz, desplazamientos locales de posición y rotación, y una o más etiquetas de colisión.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] also creates built-in Contact Senders for common body parts such as hands and fingers.
-</div>
+En los avatares, la sección ''Colliders'' del [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] también crea contact senders integrados para partes comunes del cuerpo como las manos y los dedos.
 
 <span id="Contact_Receivers"></span>
 ===Contact Receivers(Receptor de contactos)===
