@@ -11,15 +11,24 @@
 |branch_openbeta_version = 2023.4.2 Build 1381
 |branch_openbeta_releasenote = [https://discord.com/channels/189511567539306508/503009489486872583/1174134095404601404 2023.4.2 Open Beta]
 }}
+<translate>
 
+<!--T:1-->
 '''Impostors''' are [[Special:MyLanguage/Platforms|cross-platform]] variations of an avatar that are generated and optimized for performance. When other users can't see your [[Special:MyLanguage/Avatars|avatar]], they'll see the impostor instead of a [[Special:MyLanguage/Fallbacks|Fallback]], provided that an impostor is generated, and you have enabled the "Use Impostor as Fallback" setting in your [[Special:MyLanguage/Settings|Settings]]. Only 10 new impostors can be generated per day.
 
+<!--T:2-->
 ''Impostor generation currently only support humanoid avatars. Generic avatars will be supported in the future.''
 
-==Generation==
+== History == <!--T:3-->
+
+<!--T:4-->
+Released with the 2023.4.2 VRChat update on November 30th 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors 2023.4.2 update] on ''VRChat Docs''.</ref> after entering Open Beta on November 14th. First teased on April, 6th 2023 in a Developer Update<ref>[https://hello.vrchat.com/blog/april-dev-update April Developer Update 2023] on ''VRChat Blog''.</ref> and in an accompanying video<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Group Updates, Queues, Localization and Impostors | VRChat Dev Update] on ''YouTube''.</ref>.
+
+==Generation== <!--T:5-->
 
 ===Generating===
 
+<!--T:6-->
 When uploading or updating an avatar, an impostor will automatically be generated. Impostors can be manually generated, or regenerated, if need be. 
 
 Impostors are improved over time, VRChat may regenerate impostors on avatars to the newer versions. The latest version of Impostors is: <code>{{Version|impostors}}</code>.
@@ -27,82 +36,91 @@ Impostors are improved over time, VRChat may regenerate impostors on avatars to 
 ==Regenerating==
 To manually regenerate an avatar, users must:
 
+<!--T:9-->
 *Log in to the VRChat website.
 *Navigate to the info page for the avatar you'd like to generate an impostor for. You can do this by pressing "Avatars", then the "My Avatars" dropdown, then select the avatar of your choosing.
 *Under the "Impostors" heading, click "Delete Impostors", then click "Generate Impostors".
 *Once the impostor is successfully generated, you will receive a notification on VRChat.
 
-==Previewing==
+==Previewing== <!--T:10-->
 
-[[File:ImpostorPreview.webp|thumb|A preview of an impostor.]]
+</translate>
+[[File:ImpostorPreview.webp|thumb|<translate><!--T:11--> A preview of an impostor.</translate>]]
+<translate>
+<!--T:12-->
 Once the impostor is generated, open the Avatars page, and click the avatar that you generated an impostor for. The "Features" section of the avatar now includes "Impostors" among the rest. Underneath the avatar preview will show an additional toggle, which will allow you to switch between viewing the impostor and the normal avatar.
 
+<!--T:13-->
 ''Impostors that are previewed in the menu may exhibit more artifacts than they would when viewed on another user.''
 
-==Visibility==
+==Visibility== <!--T:14-->
 
+<!--T:15-->
 Currently, there are only three ways to see an impostor.
 
+<!--T:16-->
 *Avatar Preview (e.g. viewing the impostor on the avatar's details page)
 *Performance Blocking (e.g. the avatar's performance rank is "Very Poor" but your minimum displayed performance rank is set to "Medium"). The user using the performance blocked avatar must have the setting "Use Impostor as Fallback" option enabled.
 *Platform Mismatch (e.g. the avatar is uploaded for PC, but you're on Android or vice versa). The user using the incompatible avatar must have the setting "Use Impostor as Fallback" option enabled.
 
-==SDK==
+==SDK== <!--T:17-->
 
+<!--T:18-->
 Impostors come out pretty good by default. However, complex avatars may benefit from some customization. 
 
+<!--T:19-->
 To customize your impostor, add the "VRCImpostorSettings" component to your avatar before uploading it. Changing the settings of this component allows you to change the impostor's appearance. You can add multiple "VRCImpostorSettings" to customize different body parts.
 
-===Resolution Scale===
+===Resolution Scale=== <!--T:20-->
 
+<!--T:21-->
 Changes the amount of space on the impostor's texture atlas that is dedicated to this body part's texture. For instance, you can place this script on the head bone and change this value to make the head take up more or less of the texture atlas, increasing or decreasing the overall texture quality. Note that this may shrink other parts of the body on the atlas if needed.
 
+<!--T:22-->
 ''This is relative to the bone that VRCImpostorSettings is placed on.''
 
-===Transforms To Ignore===
+===Transforms To Ignore=== <!--T:23-->
 
+<!--T:24-->
 Ignores these transforms when capturing data for the impostor. This will hide them from the final result.
 
+<!--T:25-->
 ''This is independent of the bone that VRCImpostorSettings is placed on.''
 
-===Extra Child Transforms===
+===Extra Child Transforms=== <!--T:26-->
 
+<!--T:27-->
 This is good for things like wings and tails, it will tell the Impostorizer to make a separate sprite for the bone this script is on.
 
+<!--T:28-->
 As an example of what not to do - you ''could'' put one of these on each finger to turn them into independent sprites. However, since all sprites share a single texture sheet, filling it with things like fingers will cause quality to decrease elsewhere - it's a balancing act.
 
+<!--T:29-->
 ''This is independent of the bone that VRCImpostorSettings is placed on.''
 
-===Re-parent Here===
+===Re-parent Here=== <!--T:30-->
 
+<!--T:31-->
 Re-parents another bone to this impostor sprite. This means that it will be impostorized with this body part, and be a part of that sprite.
 
+<!--T:32-->
 For instance, if you'd like your wings to be a part of the upper body, you can re-parent the root wing bone to the chest bone during impostorization with this.
 
+<!--T:33-->
 ''This is relative to the bone that VRCImpostorSettings is placed on.''
 
-== History ==
+==See also== <!--T:34-->
 
-Released with the 2023.4.2 VRChat update on November 30th 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors 2023.4.2 update] on ''VRChat Docs''.</ref> after entering Open Beta on November 14th. First teased on April, 6th 2023 in a Developer Update<ref>[https://hello.vrchat.com/blog/april-dev-update April Developer Update 2023] on ''VRChat Blog''.</ref> and in an accompanying video<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Group Updates, Queues, Localization and Impostors | VRChat Dev Update] on ''YouTube''.</ref>.
-
-In the 2024.3.2 update<ref>[https://docs.vrchat.com/docs/vrchat-202432 2024.3.2 update] on ''VRChat Docs''.</ref>, impostors received significant quality and performance improvements that had been developed over the preceding three months. Changes included reduced limb pinching, greatly reduced VRAM and texture size, improved geometry and edges, and better results for avatars with large features such as wings, tails, and hair. Automatic impostor generation began rolling out during this period, and iOS impostor generation was added. A follow-up patch<ref>[https://docs.vrchat.com/docs/vrchat-202432p2 2024.3.2p2 update] on ''VRChat Docs''.</ref> further improved impostor CPU performance, corrected nameplate placement height on impostors, and fixed an issue that caused impostor colors to appear too bright or over-exposed.
-
-In the 2025.2.2 update<ref>[https://docs.vrchat.com/docs/vrchat-202522 2025.2.2 update] on ''VRChat Docs''.</ref>, [[Special:MyLanguage/Fallbacks|fallback avatars]] were removed from the VRChat application in favor of impostors, though fallbacks could still be selected on the website. The same update improved the scale of impostors when viewed in the Main Menu. A subsequent update<ref>[https://docs.vrchat.com/docs/vrchat-202523 2025.2.3 update] on ''VRChat Docs''.</ref> fixed an issue that could cause a player's position to desync while using certain impostors.
-
-In the 2026.1.3 update<ref>[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3 update] on ''VRChat Docs''.</ref>, impostors received visual quality improvements. Previously generated impostors on PC now use bicubic filtering on the alpha channel to reduce blocky outlines, and sampling of neighboring pieces during rendering was improved to eliminate floating pixel artifacts. Newly generated impostors benefit from 5.5–8.8× greater depth precision, more conservative downscaling, perceptually-based texture compression, smoother triangle orientation, and more precise edge-extension.
-
-==See also==
-
+<!--T:35-->
 *[[Special:MyLanguage/Avatars|Avatars]]
 *[[Special:MyLanguage/Fallback|Fallback]]
 
-==Official resources==
+==Official resources== <!--T:36-->
 
+<!--T:37-->
 *{{VRC link|https://creators.vrchat.com/avatars/avatar-impostors|Impostors}} on ''VRChat Creation'' documentation.
 
-==References==
+==References== <!--T:38-->
 
+</translate>
 <references/>
-[[Category:Avatars]]
-[[Category:Features]]
-[[Category:Needs images]]
