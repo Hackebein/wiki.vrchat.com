@@ -1,6 +1,5 @@
 {{Noticebox/Official}}
 {{Noticebox/unreleased|Feature was released with the 2026.1.3 update}}
-{{Noticebox/Stub|Page needs to be improved, informations reorganized}}
 {{Infobox/Feature
 |name=Accessories
 |image=
@@ -9,21 +8,23 @@
 |branch_openbeta_version = 2026.1.3 Build 1814
 |branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202613
 }}
-'''Accessories''' are elements that can be placed on an avatar. They can be found in the '''Accessories''' section of the [[Avatar]] tab. Up to 5 accessories can be placed.
+'''Accessories''' are cosmetic elements that can be placed on any usable [[avatar]]. Accessories are managed from the '''Accessories''' section of the [[Avatar]] tab and are separate from the [[Inventory]]. Up to 5 accessories can be placed on a single avatar at a time.
 
-==Looks==
-Accessed from the [[Avatar]] tab, the '''Looks''' section allow users to create and manage looks for the same, or different avatars. 
+Unlike [[Items]], accessories have no scripting, are not interactable, and travel with the user between [[worlds]] without needing to be spawned in. Worlds cannot restrict accessory usage.
 
-===Place accessories===
-To place accessories on an avatar, start by creating a new look. Once created, select the look and click the "Modify" button. 
+VRChat creates accessories internally and collaborates with select community creators.
 
-At this point, you will be thrown into a new window. From here, you can select accessories you own and place them on your avatar. Each accessory can be assigned a bone by clicking the "Attached to (x)" parameter in the Position tab. You may also rotate or scale them. 
+== How it works ==
+When a user adds an accessory to their avatar, it is automatically attached to a default [[avatar]] bone (such as the head, hips, or arm) chosen to best suit the accessory. Users can reassign the accessory to any bone on the avatar's skeleton through the attachment controls.
 
-The appearance of accessories, such as their color can be customized. Some accessories, such as the Google Eyes, have additional customizable elements, such as the Eye Spacing, the color of the Eyeball, Pupil, and Eyelash, or even the ability to toggle Eyelashes.
+Each accessory can be repositioned, rotated, and scaled using on-screen controls or the precise adjustment panel on the right side of the editor. Some accessories also offer additional customization options, such as color changes or toggling visual elements. Accessories use VRChat's Toon Standard shader.
 
-==List of Accessories==
+== Looks ==
+A '''Look''' is a saved combination of accessories and a specific avatar. When an accessory is added to an avatar for the first time, VRChat automatically creates a new Look. Users can create and manage multiple Looks from the '''Looks''' section of the [[Avatar]] tab, allowing quick switching between different accessory combinations.
+
+== List of accessories ==
 {| class="wikitable"
-|+List of known Accessories
+|+List of known accessories
 !Image
 !Name
 !Released
@@ -36,7 +37,7 @@ The appearance of accessories, such as their color can be customized. Some acces
 |March 18, 2026
 |N/A
 |Redeem for free in the [[Shop]] during the 2026.1.3 Open Beta cycle.
-|Googly Eyes. Color, Eyelashes, and IPD are adjustable.
+|Googly Eyes. Color, eyelashes, and IPD are adjustable.
 |-
 |[[File:Accessory_Basic_Sphere.png|frameless|70x70px]]
 |Basic Sphere
@@ -52,3 +53,10 @@ The appearance of accessories, such as their color can be customized. Some acces
 |Redeem for free in the [[Shop]] during the 2026.1.3 Open Beta cycle.
 |Basic Cube. Color is adjustable.
 |}
+
+Accessories which VRChat mentioned: 
+* Hats
+* Sunglasses
+* Halos
+* Tails
+* Cat ears
