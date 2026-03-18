@@ -1,5 +1,16 @@
 <languages/>
 {{Noticebox/Official}}
+{{Infobox/Feature
+|name=Impostors
+|image=Icon_Impostors.png
+|platforms= PC, Android, iOS
+|branch_live_date = November 30 2023
+|branch_live_version = 2023.4.2 Build 1388
+|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202342 2023.4.2]
+|branch_openbeta_date = November 14 2023
+|branch_openbeta_version = 2023.4.2 Build 1381
+|branch_openbeta_releasenote = [https://discord.com/channels/189511567539306508/503009489486872583/1174134095404601404 2023.4.2 Open Beta]
+}}
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Impostors''' are [[Special:MyLanguage/Platforms|cross-platform]] variations of an avatar that are generated and optimized for performance. When other users can't see your [[Special:MyLanguage/Avatars|avatar]], they'll see the impostor instead of a [[Special:MyLanguage/Fallbacks|Fallback]], provided that an impostor is generated, and you have enabled the "Use Impostor as Fallback" setting in your [[Special:MyLanguage/Settings|Settings]]. Only 10 new impostors can be generated per day.
@@ -14,29 +25,35 @@
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Released with the 2023.4.2 VRChat update on November 30th 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors 2023.4.2 update] on ''VRChat Docs''.</ref> after entering Open Beta on November 15th. First teased on April 6th 2023 in a Developer Update<ref>[https://hello.vrchat.com/blog/april-dev-update April Developer Update 2023] on ''VRChat Blog''.</ref> and in an accompanying video<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Group Updates, Queues, Localization and Impostors | VRChat Dev Update] on ''YouTube''.</ref>.
+Released with the 2023.4.2 VRChat update on November 30th 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors 2023.4.2 update] on ''VRChat Docs''.</ref> after entering Open Beta on November 14th. First teased on April, 6th 2023 in a Developer Update<ref>[https://hello.vrchat.com/blog/april-dev-update April Developer Update 2023] on ''VRChat Blog''.</ref> and in an accompanying video<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Group Updates, Queues, Localization and Impostors | VRChat Dev Update] on ''YouTube''.</ref>.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Generating==
+==Generation==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-When uploading or updating an avatar, an impostor will automatically be generated.
+===Generating===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Impostors can be manually generated, or regenerated, if need be:
+When uploading or updating an avatar, an impostor will automatically be generated. Impostors can be manually generated, or regenerated, if need be.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Impostors are improved over time, VRChat may regenerate impostors on avatars to the newer versions. The latest version of Impostors is: <code>{{Version|impostors}}</code>.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Log in to the VRChat website.
+==Regenerating==
+To manually regenerate an avatar, users must:
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-*Navigate to the info page for the avatar you'd like to generate an impostor for. You can do this by pressing "Avatars", then "My Avatars", then the name and icon of the one you want.
-*Click "Generate Impostors", or, if the avatar already has an impostor that you'd like to be updated, "Regenerate Impostors", and wait for a few minutes while it generates.
-*Refresh the page, after some time, you should now see that your avatar has impostors for all [[Special:MyLanguage/platforms|platforms]].
+*Log in to the VRChat website.
+*Navigate to the info page for the avatar you'd like to generate an impostor for. You can do this by pressing "Avatars", then the "My Avatars" dropdown, then select the avatar of your choosing.
+*Under the "Impostors" heading, click "Delete Impostors", then click "Generate Impostors".
+*Once the impostor is successfully generated, you will receive a notification on VRChat.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -45,7 +62,7 @@ Log in to the VRChat website.
 
 [[File:ImpostorPreview.webp|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">A preview of an impostor.</span>]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Once you've got your impostor generated, and you've logged into VRChat, open the Avatar menu, and click the avatar that you generated an impostor for. The "Features" of the avatar now includes "Impostor" among the rest. You should also see a new button underneath the avatar model preview, which will allow you to switch between viewing the impostor and the normal avatar for a quick preview.
+Once the impostor is generated, open the Avatars page, and click the avatar that you generated an impostor for. The "Features" section of the avatar now includes "Impostors" among the rest. Underneath the avatar preview will show an additional toggle, which will allow you to switch between viewing the impostor and the normal avatar.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -67,12 +84,12 @@ Currently, there are only three ways to see an impostor.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==VRCImpostorSettings component==
+==SDK==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Impostors come out pretty good by default. However, complex avatars may benefit from some customization.
-</div>
+</div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To customize your impostor, add the "VRCImpostorSettings" component to your avatar before uploading it. Changing the settings of this component allows you to change the impostor's appearance. You can add multiple "VRCImpostorSettings" to customize different body parts.
