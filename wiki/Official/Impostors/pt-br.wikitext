@@ -1,5 +1,16 @@
 <languages/>
 {{Noticebox/Official}}
+{{Infobox/Feature
+|name=Impostors
+|image=Icon_Impostors.png
+|platforms= PC, Android, iOS
+|branch_live_date = November 30 2023
+|branch_live_version = 2023.4.2 Build 1388
+|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202342 2023.4.2]
+|branch_openbeta_date = November 14 2023
+|branch_openbeta_version = 2023.4.2 Build 1381
+|branch_openbeta_releasenote = [https://discord.com/channels/189511567539306508/503009489486872583/1174134095404601404 2023.4.2 Open Beta]
+}}
 
 '‘'Impostores’'' são variações [[Special:MyLanguage/Platforms|multiplataforma]] de um avatar que são geradas e otimizadas para desempenho. Quando outros usuários não conseguem ver seu [[Special:MyLanguage/Avatars|avatar]], eles verão o impostor em vez de um [[Special:MyLanguage/Fallbacks|Substituto]], desde que um impostor seja gerado e você tenha ativado a configuração “Usar impostor como Substituto” em suas [[Special:MyLanguage/Settings|Configurações]]. Apenas 10 novos impostores podem ser gerados por dia.
 
@@ -8,26 +19,45 @@
 <span id="History"></span>
 == História ==
 
+<div class="mw-translate-fuzzy">
 Lançado com a atualização 2023.4.2 do VRChat em 30 de novembro de 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors Atualização 2023.4.2] no ‘'VRChat Docs’'.</ref> após entrar em beta aberto em 15 de novembro. Divulgado pela primeira vez em 6 de abril de 2023 em uma atualização do desenvolvedor<ref>[https://hello.vrchat.com/blog/april-dev-update Atualização do desenvolvedor de abril de 2023] no ‘'VRChat Blog’'. </ref> e em um vídeo que o acompanha<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Atualizações de Grupo, Filas, Localização e Impostores | Atualização do desenvolvedor do VRChat] no ‘'YouTube’'.</ref>.
+</div>
 
-<span id="Generating"></span>
+<span id="Generation"></span>
+<div class="mw-translate-fuzzy">
 ==Gerando==
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Generating===
+</div>
+
+<div class="mw-translate-fuzzy">
 Ao carregar ou atualizar um avatar, um impostor será gerado automaticamente.
+</div> 
 
-Os Impostores podem ser gerados manualmente ou regenerados, se necessário:
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Impostors are improved over time, VRChat may regenerate impostors on avatars to the newer versions. The latest version of Impostors is: <code>{{Version|impostors}}</code>.
+</div>
 
-Faça login no site do VRChat.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Regenerating==
+To manually regenerate an avatar, users must:
+</div>
 
+<div class="mw-translate-fuzzy">
 *Navegue até a página de informações do avatar para o qual você deseja gerar um impostor. Você pode fazer isso pressionando "Avatares", depois "Meus avatares" e, em seguida, o nome e o ícone do avatar desejado.
 *Clique em "Gerar impostores" ou, se o avatar já tiver um impostor que você deseja atualizar, em "Regenerar impostores" e aguarde alguns minutos enquanto ele é gerado.
 *Atualize a página. Após algum tempo, você verá que seu avatar tem impostores para todas as [[Special:MyLanguage/platforms|plataformas]].
+</div>
 
 <span id="Previewing"></span>
 ==Pré-visualização==
 
 [[File:ImpostorPreview.webp|thumb|Uma prévia de um impostor.]]
+<div class="mw-translate-fuzzy">
 Depois de gerar seu impostor e fazer login no VRChat, abra o menu Avatar e clique no avatar para o qual você gerou um impostor. As "Funcionalidades" do avatar agora incluem "Impostor" entre as demais. Você também deverá ver um novo botão abaixo da pré-visualização do modelo do avatar, que permitirá alternar entre a visualização do impostor e do avatar normal para uma pré-visualização rápida.
+</div>
 
 ''Os Impostores que são visualizados no menu podem apresentar mais artefatos do que quando visualizados por outro usuário.''
 
@@ -40,10 +70,12 @@ Atualmente, existem apenas três maneiras de identificar um impostor.
 *Bloqueio de Desempenho (por exemplo, a classificação de desempenho do avatar é "Muito ruim", mas sua classificação mínima de desempenho exibida está definida como "Média"). O usuário que utiliza o avatar com desempenho bloqueado deve ter a opção "Usar impostor como alternativa" ativada.
 *Incompatibilidade de Plataforma (por exemplo, o avatar é carregado para PC, mas você está no Android ou vice-versa). O usuário que utiliza o avatar incompatível deve ter a opção "Usar impostor como alternativa" ativada.
 
-<span id="VRCImpostorSettings_component"></span>
+<span id="SDK"></span>
+<div class="mw-translate-fuzzy">
 ==Componente VRCImpostorSettings==
+</div>
 
-Os Impostores ficam muito bons por padrão. No entanto, avatares complexos podem se beneficiar de algumas personalizações.
+Os Impostores ficam muito bons por padrão. No entanto, avatares complexos podem se beneficiar de algumas personalizações. 
 
 Para personalizar seu impostor, adicione o componente "VRCImpostorSettings" ao seu avatar antes de enviá-lo. Alterar as configurações desse componente permite que você mude a aparência do impostor. Você pode adicionar vários "VRCImpostorSettings" para personalizar diferentes partes do corpo.
 
