@@ -16,29 +16,48 @@
 
 ''A geração de impostores atualmente suporta apenas avatares humanóides. Avatares genéricos serão suportados no futuro.''
 
+<span id="History"></span>
+== História ==
+
+<div class="mw-translate-fuzzy">
+Lançado com a atualização 2023.4.2 do VRChat em 30 de novembro de 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors Atualização 2023.4.2] no ‘'VRChat Docs’'.</ref> após entrar em beta aberto em 15 de novembro. Divulgado pela primeira vez em 6 de abril de 2023 em uma atualização do desenvolvedor<ref>[https://hello.vrchat.com/blog/april-dev-update Atualização do desenvolvedor de abril de 2023] no ‘'VRChat Blog’'. </ref> e em um vídeo que o acompanha<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Atualizações de Grupo, Filas, Localização e Impostores | Atualização do desenvolvedor do VRChat] no ‘'YouTube’'.</ref>.
+</div>
+
 <span id="Generation"></span>
-==Geração==
+<div class="mw-translate-fuzzy">
+==Gerando==
+</div>
 
-<span id="Generating"></span>
-===Gerando===
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Generating===
+</div>
 
-Ao carregar ou atualizar um avatar, um impostor será gerado automaticamente. Os impostores podem ser gerados manualmente ou regenerados, se necessário. 
+<div class="mw-translate-fuzzy">
+Ao carregar ou atualizar um avatar, um impostor será gerado automaticamente.
+</div> 
 
-Os Impostores é aprimorado ao longo do tempo; o VRChat pode atualizar os impostores dos avatares para as versões mais recentes. A versão mais recente do Impostors é: <code>{{Version|impostors}}</code>.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Impostors are improved over time, VRChat may regenerate impostors on avatars to the newer versions. The latest version of Impostors is: <code>{{Version|impostors}}</code>.
+</div>
 
-==Regenerando==
-Para regenerar manualmente um avatar, os usuários devem:
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Regenerating==
+To manually regenerate an avatar, users must:
+</div>
 
-*Faça login no site do VRChat.
-*Acesse a página de informações do avatar para o qual você deseja gerar um impostor. Para isso, clique em "Avatares", depois no menu suspenso "Meus avatares" e selecione o avatar de sua preferência.
-*Sob o título "Impostores", clique em "Excluir impostores" e, em seguida, clique em "Gerar impostores".
-*Assim que o impostor for gerado com sucesso, você receberá uma notificação no VRChat.
+<div class="mw-translate-fuzzy">
+*Navegue até a página de informações do avatar para o qual você deseja gerar um impostor. Você pode fazer isso pressionando "Avatares", depois "Meus avatares" e, em seguida, o nome e o ícone do avatar desejado.
+*Clique em "Gerar impostores" ou, se o avatar já tiver um impostor que você deseja atualizar, em "Regenerar impostores" e aguarde alguns minutos enquanto ele é gerado.
+*Atualize a página. Após algum tempo, você verá que seu avatar tem impostores para todas as [[Special:MyLanguage/platforms|plataformas]].
+</div>
 
 <span id="Previewing"></span>
 ==Pré-visualização==
 
 [[File:ImpostorPreview.webp|thumb|Uma prévia de um impostor.]]
-Depois de gerar o impostor, abra a página Avatares e clique no avatar para o qual você gerou um impostor. A seção "Recursos" do avatar agora inclui "Impostores" entre as demais opções. Abaixo da pré-visualização do avatar, aparecerá um botão adicional que permitirá alternar entre a visualização do impostor e do avatar normal.
+<div class="mw-translate-fuzzy">
+Depois de gerar seu impostor e fazer login no VRChat, abra o menu Avatar e clique no avatar para o qual você gerou um impostor. As "Funcionalidades" do avatar agora incluem "Impostor" entre as demais. Você também deverá ver um novo botão abaixo da pré-visualização do modelo do avatar, que permitirá alternar entre a visualização do impostor e do avatar normal para uma pré-visualização rápida.
+</div>
 
 ''Os Impostores que são visualizados no menu podem apresentar mais artefatos do que quando visualizados por outro usuário.''
 
@@ -51,7 +70,10 @@ Atualmente, existem apenas três maneiras de identificar um impostor.
 *Bloqueio de Desempenho (por exemplo, a classificação de desempenho do avatar é "Muito ruim", mas sua classificação mínima de desempenho exibida está definida como "Média"). O usuário que utiliza o avatar com desempenho bloqueado deve ter a opção "Usar impostor como alternativa" ativada.
 *Incompatibilidade de Plataforma (por exemplo, o avatar é carregado para PC, mas você está no Android ou vice-versa). O usuário que utiliza o avatar incompatível deve ter a opção "Usar impostor como alternativa" ativada.
 
-==SDK==
+<span id="SDK"></span>
+<div class="mw-translate-fuzzy">
+==Componente VRCImpostorSettings==
+</div>
 
 Os Impostores ficam muito bons por padrão. No entanto, avatares complexos podem se beneficiar de algumas personalizações. 
 
@@ -89,17 +111,6 @@ Por exemplo, se você quiser que suas asas façam parte da parte superior do cor
 
 ''Isso é relativo ao osso no qual VRCImpostorSettings está colocado.''
 
-<span id="History"></span>
-== História ==
-
-Lançado com a atualização 2023.4.2 do VRChat em 30 de novembro de 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors Atualização 2023.4.2] no ‘'VRChat Docs’'.</ref> após entrar em beta aberto em 14 de novembro. Divulgado pela primeira vez em 6 de abril de 2023 em uma atualização do desenvolvedor<ref>[https://hello.vrchat.com/blog/april-dev-update Atualização do desenvolvedor de abril de 2023] no ‘'VRChat Blog’'. </ref> e em um vídeo que o acompanha<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Atualizações de Grupo, Filas, Localização e Impostores | Atualização do desenvolvedor do VRChat] no ‘'YouTube’'.</ref>.
-
-Na atualização 2024.3.2<ref>[https://docs.vrchat.com/docs/vrchat-202432 Atualização 2024.3.2] nos ''Documentos do VRChat''.</ref>, os impostores receberam melhorias significativas em termos de qualidade e desempenho, desenvolvidas ao longo dos três meses anteriores. As mudanças incluíram redução do pinçamento de membros, redução significativa do uso de VRAM e do tamanho das texturas, geometria e bordas aprimoradas, além de melhores resultados para avatares com características de grandes dimensões, como asas, caudas e cabelos. A geração automática de impostores começou a ser implementada durante esse período, e a geração de impostores para iOS foi adicionada. Um patch de acompanhamento<ref>[https://docs.vrchat.com/docs/vrchat-202432p2 Atualização 2024.3.2p2] nos ''Documentos do VRChat''.</ref> melhorou ainda mais o desempenho da CPU dos impostores, corrigiu a altura de posicionamento da placa de identificação nos impostores e corrigiu um problema que fazia com que as cores dos impostores parecessem muito brilhantes ou superexpostas.
-
-Na atualização 2025.2.2<ref>[https://docs.vrchat.com/docs/vrchat-202522 Atualização 2025.2.2] nos ''Documentos do VRChat''. </ref>, os [[Special:MyLanguage/Fallbacks|avatares alternativos]] foram removidos do aplicativo VRChat em favor dos impostores, embora os avatares alternativos ainda pudessem ser selecionados no site. A mesma atualização melhorou a escala dos impostores quando visualizados no Menu Principal. Uma atualização subsequente<ref>[https://docs.vrchat.com/docs/vrchat-202523 Atualização 2025.2.3] nos ''Documentos do VRChat''.</ref> corrigiu um problema que poderia causar a dessincronização da posição de um jogador ao usar certos impostores.
-
-Na atualização 2026.1.3<ref>[https://docs.vrchat.com/docs/vrchat-202613 Atualização 2026.1.3] nos ''Documentos do VRChat''.</ref>, os impostores receberam melhorias na qualidade visual. Os impostores gerados anteriormente no PC agora utilizam filtragem bicúbica no canal alfa para reduzir contornos pixelizados, e a amostragem de peças vizinhas durante a renderização foi aprimorada para eliminar artefatos de pixels flutuantes. Os impostores recém-gerados se beneficiam de uma precisão de profundidade 5,5–8,8 vezes maior, redução de escala mais conservadora, compressão de textura baseada na percepção, orientação de triângulos mais suave e extensão de bordas mais precisa.
-
 <span id="See_also"></span>
 ==Veja também==
 
@@ -115,6 +126,3 @@ Na atualização 2026.1.3<ref>[https://docs.vrchat.com/docs/vrchat-202613 Atuali
 ==Referências==
 
 <references/>
-[[Category:Avatars]]
-[[Category:Features]]
-[[Category:Needs images]]
