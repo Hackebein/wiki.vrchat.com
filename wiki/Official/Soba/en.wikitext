@@ -6,11 +6,131 @@
 ==Overview==
 Originally planned as ''"Udon 2"'', Soba was announced on November 25th, 2024 as the new title for the future of programming in VRChat worlds. Unlike Udon 2, Soba is planned to be usable alongside Udon rather than directly replacing it<ref>[https://ask.vrchat.com/t/on-udon-2-soba-and-why-we-changed-directions/28484 'On Udon 2, Soba and Why We Changed Directions'; retrieved December 16, 2024]</ref>.
 
+As of March 2026, Soba is still being prepared for closed beta testing<ref name="roadmap-march-2026">[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] on ''[[ask.vrchat.com]]''. Dated March 19, 2026. Retrieved March 19, 2026.</ref>.
+
+== C# language features ==
+The following table compares C# 9.0 language feature support between [[UdonSharp]] and Soba, based on work-in-progress technical documentation shared in the March 2026 Creators Roadmap<ref name="roadmap-march-2026"/>. This list is subject to change.
+
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ C# language feature support: UdonSharp vs Soba
+! Category !! Feature !! UdonSharp !! Soba
+|-
+! rowspan="7" | Classes
+| Defining behaviors || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Defining non-behavior classes || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Defining abstract classes || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Defining sealed classes || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Defining partial classes || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Defining nested types || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Defining outside a file with the same name || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+! rowspan="1" | Structures
+| Defining || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+! rowspan="2" | Interfaces
+| Defining || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Implementing || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+! rowspan="2" | Type system
+| Polymorphism || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Value types & reference types || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+! rowspan="3" | Generics
+| Calling generic methods || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Using generic types || style="background:#f99; color:#000" | No || style="background:#f99; color:#000" | No
+|-
+| Defining generic types || style="background:#f99; color:#000" | No || style="background:#f99; color:#000" | No
+|-
+! rowspan="15" | Methods
+| Defining instance methods || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Recursion || style="background:#ff9; color:#000" | Partial || style="background:#9f9; color:#000" | Yes
+|-
+| Defining static methods || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Defining constructors || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Defining static constructors || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Defining properties || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Defining indexers || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| <code>event</code> (not Unity/VRChat events) || style="background:#f99; color:#000" | No || style="background:#f99; color:#000" | No
+|-
+| Delegates || style="background:#f99; color:#000" | No || style="background:#f99; color:#000" | No
+|-
+| Lambdas || style="background:#f99; color:#000" | No || style="background:#f99; color:#000" | No
+|-
+| Nested functions || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Extension methods || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Operator overloading || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Named and optional parameters || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| <code>ref</code> & <code>out</code> parameters || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+! rowspan="6" | Control flow
+| <code>if</code>/<code>else</code> || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| <code>switch</code> statements || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| <code>switch</code> expressions || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Pattern matching || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| <code>for</code>, <code>while</code>, <code>do</code>...<code>while</code>, <code>foreach</code> || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| <code>goto</code> || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+! rowspan="5" | Operators
+| Arithmetic, logical, bitwise, relational || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Logical shift right (<code>>>></code>) || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Ternary, type-testing (<code>is</code>), casts || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| <code>as</code> cast || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Null-coalescing (<code>??</code>, <code>??=</code>), range (<code>x..y</code>) || style="background:#ff9; color:#000" | Partial || style="background:#9f9; color:#000" | Yes
+|-
+! rowspan="4" | Data types
+| Integer and floating-point types || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Arrays and non-generic collections || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Anonymous types || style="background:#f99; color:#000" | No || style="background:#9f9; color:#000" | Yes
+|-
+| Generic collections, LINQ, tuples || style="background:#f99; color:#000" | No || style="background:#f99; color:#000" | No
+|-
+! rowspan="2" | Preprocessor
+| Preprocessor directives and conditional compilation || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| Defining symbols || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+! rowspan="2" | Name resolution
+| Defining namespaces || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|-
+| <code>using</code> directives || style="background:#9f9; color:#000" | Yes || style="background:#9f9; color:#000" | Yes
+|}
+
 == Trivia ==
 
 * "Soba", like its predecessor ("Udon"), is a type of noodle used in Japanese cuisine.
 
 ==Official resources==
+* [https://feedback.vrchat.com/udon/p/udon-2 Soba feedback post] on ''feedback.vrchat.com''
 
 ==See also==
 * [[Udon]]
