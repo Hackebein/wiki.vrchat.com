@@ -4,7 +4,8 @@
 
 Leaks will typically be removed from this page when they are either confirmed (through being given an applicable testing branch on [[Open Beta]], or being fully released) then after [[VRCWiki:How to Contribute|receiving an article]] on the [[VRCWiki:About|VRChat Wiki]], or assigned within the proper existing articles; or removed after being denied through official VRChat sources.
 
-== Badges ==
+==Leaks==
+=== Badges ===
 These are [[badges]] that have been discovered.
 {| class="wikitable"
 |+
@@ -27,7 +28,7 @@ These are [[badges]] that have been discovered.
 |Complete an invite-only survey. Opt-In for the Badge. Survey window closed.<ref>From a survey about [[Special:MyLanguage/Avatars|Avatars]]</ref>
 |}
 
-== Challenges ==
+=== Challenges ===
 
 A feature which lets you complete challenges<ref>`Complete!` `When the player completes all their challenges` [https://crowdin.com/editor/vrchat-application/19#130850 Crowdin]</ref><ref>`All Challenges Completed!` `When the player completes all their assigned challenges` [https://crowdin.com/editor/vrchat-application/19#130854 Crowdin]</ref>. First discovery on December 13, 2024. Last new discovery on December 16, 2024. This feature is not yet accessible to all users, and seems to only be available for some VRChat accounts.
 
@@ -38,12 +39,7 @@ Challenges:
 * Try VRChat on Another Platform<ref>`Try VRChat on Another Platform`, `Challenge description: When a player plays VRC on another platform` - [https://crowdin.com/editor/vrchat-application/19#130856 Crowdin]</ref>
 * Log in X Days in a Row<ref>`Log in {0} Days in a Row`, `Challenge description: When a player logs in X number of days in a row.` - [https://crowdin.com/editor/vrchat-application/19#130858 Crowdin]</ref>
 
-== ToxMod ==
-ToxMod is an AI-assisted voice chat moderation product made by Modulate, intended to detect and flag toxic or abusive voice behavior.
-
-In 2022 ToxMod got partially integrated. VRChat later stated that the team had previously been in discussions with Modulate, and that VRChat was inadvertently listed as a ToxMod customer<ref>[https://web.archive.org/web/20220424073126/https://www.modulate.ai/ modulate.ai from 2022] at archive.org</ref>, but that VRChat has no current or future plans to implement ToxMod<ref>[https://ask.vrchat.com/t/developer-update-1-december-2022/15263?page=3#p-30487-toxicity-in-vrchat-15 VRChat Blog Post]</ref>.
-
-== Instance avatar performance requirements ==
+=== Instance avatar performance requirements ===
 [[File:Group permission - Bypass avatar performance requirements.png|thumb]]
 A new group permission on the website in group role settings has been spotted:
 
@@ -54,29 +50,33 @@ A new group permission on the website in group role settings has been spotted:
 
 This seems to suggest a feature might be implemented in the future allowing instances to have a minimum avatar performance requirement set in place.
 
-== New Character Controller for Worlds ==
+==Mentioned==
+Mentioned features are featured that have been talked about, or shared publicly by VRChat staff. These features could be planned, haven't appeared in an Open Beta, or scrapped.
+
+=== ToxMod ===
+ToxMod is an AI-assisted voice chat moderation product made by Modulate, intended to detect and flag toxic or abusive voice behavior.
+
+In 2022 ToxMod got partially integrated. VRChat later stated that the team had previously been in discussions with Modulate, and that VRChat was inadvertently listed as a ToxMod customer<ref>[https://web.archive.org/web/20220424073126/https://www.modulate.ai/ modulate.ai from 2022] at archive.org</ref>, but that VRChat has no current or future plans to implement ToxMod<ref>[https://ask.vrchat.com/t/developer-update-1-december-2022/15263?page=3#p-30487-toxicity-in-vrchat-15 VRChat Blog Post]</ref>.
+
+=== New Character Controller for Worlds ===
 A long-running request proposes a replacement world character controller with better moving platform support, smoother stairs and slopes, improved unstuck behavior, collider push interaction, and broader Udon control.<ref name="CannyNewCharacterController">[https://feedback.vrchat.com/udon/p/new-character-controller-for-worlds "New Character Controller for Worlds"] on ''feedback.vrchat.com''; posted April 30, 2024; retrieved March 14, 2026.</ref>
 The thread is currently marked ''interested''. A staff update on the post says work is currently halted while other projects are prioritized, with a note that updates will be shared if the item re-enters the roadmap.<ref name="CannyNewCharacterController" />
 In March 2026 community discussion, a former VRChat employee allegedly involved with this work claimed they were the only person assigned to it before early-2025 layoffs, and that the feature had been close to shipping.
 
-== Expose VRC+ Status to Udon ==
+=== Expose VRC+ Status to Udon ===
 This request proposes exposing VRC+ subscription status to Udon for world-side logic and feature gating.<ref name="CannyExposeVRCPlusStatus">[https://feedback.vrchat.com/feature-requests/p/expose-vrc-status-to-udon "Expose VRC+ Status to Udon"] on ''feedback.vrchat.com''; posted January 25, 2026; retrieved March 14, 2026.</ref>
 The thread is currently marked ''in progress''. A staff comment links this item to Developer Update 5 March 2026 where the feature was announced.<ref name="CannyExposeVRCPlusStatus" />
 
-== Render pipeline migration (URP/HDRP) ==
+=== Render pipeline migration (URP/HDRP) ===
 
 Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published for a migration of this scope.
 Recent staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
 
-== Event promotion requirements ==
-
-The team stated in a livestream in March 2026 that events without a linked instance may stop being promoted in official event discovery surfaces.
-
-== Item roadmap ==
+=== Item roadmap ===
 
 The team stated in a livestream in March 2026 that "big updates" are in progress for items or item-adjacent systems, with details to be shared later.
 
-== Age verification rollout ==
+=== Age verification rollout ===
 
 The team stated in a livestream in March 2026 that there is no public timeline for broad rollout beyond VRC+, while aiming for the most accessible and low-cost path possible.
 
