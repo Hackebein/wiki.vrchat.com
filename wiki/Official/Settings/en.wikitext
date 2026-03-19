@@ -649,6 +649,7 @@ Set your home instance to [Invite/Invite+/Friends/Friends+/Public]
 '''[Automatic]''' Let VRChat choose the best home region for you.<br>
 Set your home instance region to [US West/US East/Europe/Japan]
 |}
+<references group="note" />
 ====Content Gating====
 ''See also [[Special:MyLanguage/Content Gating|Content Gating]] for more detailed information.''
 
@@ -935,6 +936,7 @@ Enable or disable limit.
 |}
 
 ==== Avatar Download Prioritization====
+{{Noticebox|image=CautionTriangle.png|title=This section describes features that have been removed from VRChat in a future release.|description=The Avatar Download Prioritization settings has been removed in the next release {{Upcoming_inline|2026.1.3|docs.vrchat.com/docs/vrchat-202613}}. The feature remains, but with friends prioritized by default.|border-color=#ffbf00}}
 Priorities will be considered in the order they are listed. If two downloads are otherwise of equal priority, the smallest size (fastest download) will come first. New downloads that are higher priority than all current downloads begin immediately.
 {| class="wikitable"
 ! Name 
@@ -1894,5 +1896,8 @@ All locally cached textures will be deleted.
 |Reset All User Data
 |Reset your saved user data in all worlds you've visited (to reset a specific world's user data, visit that world's page).
 |}
+
+==History==
+[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3]: Removed "Avatar Download Prioritization" options.
 
 [[Category:User Interface]]
