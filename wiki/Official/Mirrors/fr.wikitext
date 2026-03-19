@@ -57,12 +57,12 @@ Un miroir transparent reflète généralement les avatars tout autour, tout en a
 
 Chaque objet reflété dans un miroir doit être rendu à nouveau, séparément de ce que l'utilisateur perçoit dans le monde. Un miroir qui reflète l'entièreté du monde double les coûts en performance dû au rendu du monde. L'occlusion ne fonctionnant pas avec la réflexion des miroirs, ceux faisant face à un mur tenteront tout de même d'effectuer un rendu de ce qui se trouve derrière ce mur.
 
+<div class="mw-translate-fuzzy">
 Les créateurs peuvent réduire les coûts en performances de plusieurs manières, telles que : 
 * Désactiver tous les miroirs par défaut. N'activer qu'un miroir lorsqu'un utilisateur appuie sur un bouton ou s'y approche physiquement.
 * Désactiver les miroirs lorsqu'un utilisateur quitte la zone. Cela réduira les coûts en performances lorsqu'un utilisateur ne l'utilise pas. Les utilisateurs ne le feront sûrement pas d'eux-mêmes, utilisez donc un script pour le faire à leur place.
 *Prenant en compte le placement des miroirs, un miroir qui ne fait pas face au centre du monde aura moins de rendu à effectuer.
-
- Un miroir reflète. Un miroir n'effectue qu'un rendu des objets sur des couches définies. Par exemple, si vous avez un grand monde ouvert avec des maisons en son centre, vous pourrez voir les objets extérieurs environnants sur la couche de l'environnement, puis désactiver celle-ci sur les miroirs situés dans les maisons. Cela empêchera les miroirs d'essayer d'effectuer un rendu de l'environnement qui n'est pas visible. Lors d'une interaction avec un miroir, les utilisateurs vont pouvoir activer ou désactiver différentes options pour économiser des performances, telles que :
+</div>
 
 * N'utiliser qu'un miroir à la fois.
 * Choisir une qualité plus basse si disponible.
@@ -72,7 +72,7 @@ Les créateurs peuvent réduire les coûts en performances de plusieurs manière
 <span id="Resources"></span>
 == Ressources ==
 
-[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ 
-Documentation des créateurs VRChat - VRC Mirror Reflection]
+[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ Documentation des créateurs VRChat - VRC Mirror Reflection]
 
-[[Category:Features]]
+
+[[Category:Features{{#translation:}}]]
