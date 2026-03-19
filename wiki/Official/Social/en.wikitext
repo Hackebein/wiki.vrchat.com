@@ -1,48 +1,64 @@
 <languages/>
 {{Noticebox/Official}}
+<translate>
+<!--T:1-->
 VRChat comes with a whole host of social tools for users. Such as friends, invites, notes, and more!
 
-== User profiles ==
-[[File:UserProfile.webp|thumb|VRChat's User Profile.]]
+== User profiles == <!--T:2-->
+</translate>
+[[File:UserProfile.webp|thumb|<translate><!--T:3--> VRChat's User Profile.</translate>]]
+<translate>
+<!--T:4-->
 Introduced in the [https://docs.vrchat.com/docs/vrchat-202123 Identity Update], user profiles are a personalized space where information is displayed about a user. Information on a user's profile includes [[Special:MyLanguage/Social#Statuses|status]], [[Special:MyLanguage/Trust_Rank|trust rank]], [[Special:MyLanguage/Social#Pronouns|pronouns]], bio, current [[Special:MyLanguage/Instances|instance]] (if applicable), languages they speak, social links, [[Special:MyLanguage/Badges|badges]] they own, and the [[Special:MyLanguage/Groups|groups]] they're in.
 
+<!--T:5-->
 Under a user's profile, there are several [[Special:MyLanguage/Social#Actions|actions]] you can take - such as sending a friend request or an invite to an instance.
 
-=== Statuses ===
+=== Statuses === <!--T:6-->
 
+<!--T:7-->
 Statuses can be set in the [[Special:MyLanguage/Quick Menu|Quick Menu]], [[Special:MyLanguage/Main Menu|Main Menu]], or on the {{VRC link|https://vrchat.com/home|VRChat Website}} and are used for the following: to control how easily a user's friends can join their instance, to vary whether a user's friends can see the instance they are currently in, to silence notifications, and to communicate an activity.
 
+<!--T:8-->
 Statuses consist of a color and a customizable short sentence (up to 32 characters). There are four different statuses in VRChat:
 
+</translate>
 {| class="wikitable"
-! scope="col" style="width:13em" |Status
-!Description
+! scope="col" style="width:13em" |<translate><!--T:9--> Status</translate>
+!<translate><!--T:10--> Description</translate>
 |-
-|<div style="background-color:rgb(66, 202, 255);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Blue"></div>Join Me (Blue)
-|Your friends can see the instance you are in and may join freely with identical rules to [[Special:MyLanguage/Social#Statuses|Online]] status.
-However, if the [[Special:MyLanguage/Instances|instance]] is private and unviewable, all invite requests from friends are automatically accepted as long as you have permission to accept them.
+|<div style="background-color:rgb(66, 202, 255);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Blue"></div><translate><!--T:11--> Join Me (Blue)</translate>
+|<translate><!--T:12-->
+Your friends can see the instance you are in and may join freely with identical rules to [[Special:MyLanguage/Social#Statuses|Online]] status.
+However, if the [[Special:MyLanguage/Instances|instance]] is private and unviewable, all invite requests from friends are automatically accepted as long as you have permission to accept them.</translate>
 |-
-|<div style="background-color:rgb(81, 229, 126);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Green"></div>Online (Green)
-|Your friends can see the instance you are in and can join your instance without an invitation.
+|<div style="background-color:rgb(81, 229, 126);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Green"></div><translate><!--T:13--> Online (Green)</translate>
+|<translate><!--T:14-->
+Your friends can see the instance you are in and can join your instance without an invitation.
 However, your friends may not see or join the instance without an invite if the instance is deemed "private".
 Your instance is viewable and joinable by friends without requesting an invite in the following cases:
 *The instance is [[Special:MyLanguage/Worlds#Instance Types|Friends+]], [[Special:MyLanguage/Worlds#Instance Types|Group+]], [[Special:MyLanguage/Worlds#Instance Types|Public]], or [[Special:MyLanguage/Worlds#Instance Types|Group Public]].
 *The instance is [[Special:MyLanguage/Worlds#Instance Types|Friends]] and either you or a mutual friend are the instance creator.
 *The instance is [[Special:MyLanguage/Worlds#Instance Types|Group]] and your friends are a member of the group with permission to join the instance based on their group roles.
-*The instance is [[Special:MyLanguage/Worlds#Instance Types|Invite]] or [[Special:MyLanguage/Worlds#Instance Types|Invite+]] and your friends are returning to the instance they created.
+*The instance is [[Special:MyLanguage/Worlds#Instance Types|Invite]] or [[Special:MyLanguage/Worlds#Instance Types|Invite+]] and your friends are returning to the instance they created.</translate>
 |-
-|<div style="background-color:rgb(232, 129, 52);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Orange"></div>Ask Me (Orange)
-|Your friends cannot see the instance you are in.
-They must request an invite from you to be able to join, regardless of the instance's privacy.
+|<div style="background-color:rgb(232, 129, 52);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Orange"></div><translate><!--T:15--> Ask Me (Orange)</translate>
+|<translate><!--T:16-->
+Your friends cannot see the instance you are in.
+They must request an invite from you to be able to join, regardless of the instance's privacy.</translate>
 |-
-|<div style="background-color:rgb(91, 11, 11);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Red"></div>Do Not Disturb (Red)
-|Your friends cannot see the instance you are in. They may request to join, but you will not receive any notifications. In fact, you won't be able to send or request any invites to your friends within the game if they are in that status.
+|<div style="background-color:rgb(91, 11, 11);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Red"></div><translate><!--T:17--> Do Not Disturb (Red)</translate>
+|<translate><!--T:18-->
+Your friends cannot see the instance you are in. They may request to join, but you will not receive any notifications. In fact, you won't be able to send or request any invites to your friends within the game if they are in that status.
 * Incoming friend requests are delivered quietly to the "Friend Requests" Inbox.
 * A response for a request (ex. invite request) you send out, will be displayed.
 * Group notifications are disabled.
+</translate>
 |}
-=== Pronouns ===
+<translate>
+=== Pronouns === <!--T:19-->
 
+<!--T:20-->
 [[wikipedia:Pronoun|Pronouns]] can be displayed on one's bio to indicate to others how to refer to them. When set, pronouns will be displayed on your bio, and also displayed under your [[Special:MyLanguage/Nameplates|nameplate]].
 <gallery>
 Pronouns1.webp|Displayed in the bio on the website
@@ -50,111 +66,132 @@ Pronouns3.webp|Displayed in the bio in game
 Pronouns2.webp|Displayed in the bio on mobile client
 </gallery>
 
-===Bio===
+===Bio=== <!--T:21-->
 
+<!--T:22-->
 The bio (abbreviation for biography) is a paragraph of text written by the user that is generally used to describe or introduce themselves but can be used for any purpose. The bio can be up to 500 characters long.
 
+<!--T:23-->
 Currently, emoji and some special symbols(e.g. fractions) are not supported. Some known special characters that are allowed are:
+</translate>
  ๑ -༊ ༄․ೃ࿔ ೋ 彡ღ ͟͟͞ ೄྀ ͙༉ ¸୨୧、˒˒ ֒ ˗ˏˋ ˎˊ˗ ̤̮ ̤̥ ＋+ ˙· ˚ ∗ン ィ ％ ！ ﹏ ？ ? ζ ২ १ ୫ ૪ ໒ ৎ ຊ ຯ ೨ ໑ ७ ५ ୭ ˚ ·˖ ˸ જ Թ Ծ ౿ ੭ ୬ ෧ ୪ ১ ﹅﹆ ჲ ᴥ ફ ળ ਨ ৬ ৫ ২ ণ ଽ ︶ ଲ ମ 〄֍ 〧 ౾ ౽ 〨 ㆐ ︳ ㄔ ഒ ＊ ٠ っ｡̀ ́૭ ֊ ˙ ˶﹏ აପ ๑ଓ ଘ ∗ ੈ ᵕ ˘͈ ․. ༘ ̀ ́ ৻ づᴗʚïɞ૮ ˙˙ ඞ ༒ ໒ྀི ๑ ´ ˘ ` ྀི ʕω ʔ و ヮಡ ง¬༼︿༽ 亞ト丁してﾌ￣＿ఌ༅ ᆺ 〜 ༺ ༻ Ө Տ Ӈ ₳ เ ђ ς<!--Add other supported characters?-->
+<translate>
 
-=== Actions ===
+=== Actions === <!--T:24-->
 
+<!--T:25-->
 Under a user's profile, there are several actions that you can take, these will vary depending on whether you have the user added as a friend or not.
 
-[[File:UserProfile_UserActions.webp|thumb|Actions available for a non-friended user.]]
-[[File:UserProfile_FriendActions.webp|thumb|Actions available for a friended user.]]
+</translate>
+[[File:UserProfile_UserActions.webp|thumb|<translate><!--T:26--> Actions available for a non-friended user.</translate>]]
+[[File:UserProfile_FriendActions.webp|thumb|<translate><!--T:27--> Actions available for a friended user.</translate>]]
 
 
 {| class="wikitable"
-!Action
-!Description
+!<translate><!--T:28--> Action</translate>
+!<translate><!--T:29--> Description</translate>
 |-
-|Join<ref group="actions" name="friends-only">These actions can only be performed on friends.</ref>
-|Joins the user's instance.
+|<translate><!--T:30--> Join<ref group="actions" name="friends-only">These actions can only be performed on friends.</ref></translate>
+|<translate><!--T:31--> Joins the user's instance.</translate>
 |-
-|Request Invite<ref group="actions" name="friends-only"></ref>
-|Sends the user a notification informing them that you would like to join their instance. The notification includes a customizable message and with [[Special:MyLanguage/VRC+|VRC+]] a photo can also be added to the notification.
+|<translate><!--T:32--> Request Invite<ref group="actions" name="friends-only"></ref></translate>
+|<translate><!--T:33--> Sends the user a notification informing them that you would like to join their instance. The notification includes a customizable message and with [[Special:MyLanguage/VRC+|VRC+]] a photo can also be added to the notification.</translate>
 |-
-|Send Invite<ref group="actions" name="friends-only"></ref>
-|Sends the user an invitation to join your instance. The invite includes a customizable message and with [[Special:MyLanguage/VRC+|VRC+]] a photo can also be added to the invitation.
+|<translate><!--T:34--> Send Invite<ref group="actions" name="friends-only"></ref></translate>
+|<translate><!--T:35--> Sends the user an invitation to join your instance. The invite includes a customizable message and with [[Special:MyLanguage/VRC+|VRC+]] a photo can also be added to the invitation.</translate>
 |-
 |Boop<ref name="friends-only" group="actions" />
 |Sends the user a [[Boops|Boop]].
 |-
-|Gift VRC+
-|Opens a menu that allows you to buy [[Special:MyLanguage/VRC+|VRC+]] for the user. ''See [[Special:MyLanguage/VRC+#Gifting|Gifting]] for more detailed information.''
+|<translate><!--T:36--> Gift VRC+</translate>
+|<translate><!--T:37--> Opens a menu that allows you to buy [[Special:MyLanguage/VRC+|VRC+]] for the user. ''See [[Special:MyLanguage/VRC+#Gifting|Gifting]] for more detailed information.''</translate>
 |-
-|Friend Request
-|Sends the user a friend request they can accept or decline.
+|<translate><!--T:38--> Friend Request</translate>
+|<translate><!--T:39--> Sends the user a friend request they can accept or decline.</translate>
 |-
-|Unfriend<ref group="actions" name="friends-only"></ref>
-|Removes the user as a friend.
+|<translate><!--T:40--> Unfriend<ref group="actions" name="friends-only"></ref></translate>
+|<translate><!--T:41--> Removes the user as a friend.</translate>
 |-
-|Favorite Friend<ref group="actions" name="friends-only"></ref>
-|Allows you to add the user to a list of favorite friends, like with avatars and worlds.
+|<translate><!--T:42--> Favorite Friend<ref group="actions" name="friends-only"></ref></translate>
+|<translate><!--T:43--> Allows you to add the user to a list of favorite friends, like with avatars and worlds.</translate>
 |-
-|Unfavorite Friend<ref group="actions" name="friends-only"></ref>
-|Removes the user from your Favorite Friends list.
+|<translate><!--T:44--> Unfavorite Friend<ref group="actions" name="friends-only"></ref></translate>
+|<translate><!--T:45--> Removes the user from your Favorite Friends list.</translate>
 |-
-|Moderate User
-|Opens a menu that allows you to moderate the user by, for example, blocking them. ''See [[Special:MyLanguage/Trust and Safety#User Moderation tools|User Moderation tools]] for more detailed information.''
+|<translate><!--T:46--> Moderate User</translate>
+|<translate><!--T:47--> Opens a menu that allows you to moderate the user by, for example, blocking them. ''See [[Special:MyLanguage/Trust and Safety#User Moderation tools|User Moderation tools]] for more detailed information.''</translate>
 |-
-|Unblock
-|Unblocks a blocked user ''(Only shown for blocked users)''.
+|<translate><!--T:48--> Unblock</translate>
+|<translate><!--T:49--> Unblocks a blocked user ''(Only shown for blocked users)''.</translate>
 |-
-|Add Note
-|Allows you to attach a snippet of information to the user that only you can see, this can be used for anything. An example of the kind of information you could put in is how you met a user, any names they go by, or their username on other platforms.
+|<translate><!--T:50--> Add Note</translate>
+|<translate><!--T:51--> Allows you to attach a snippet of information to the user that only you can see, this can be used for anything. An example of the kind of information you could put in is how you met a user, any names they go by, or their username on other platforms.</translate>
 |-
-|Invite to Group
-|Opens a menu that allows you to invite the user to a group, as long as you have the permissions required to do so. ''See [[Special:MyLanguage/Groups|Groups]] for more detailed information.''
+|<translate><!--T:52--> Invite to Group</translate>
+|<translate><!--T:53--> Opens a menu that allows you to invite the user to a group, as long as you have the permissions required to do so. ''See [[Special:MyLanguage/Groups|Groups]] for more detailed information.''</translate>
 |-
-|View On Website
-|Opens the user's profile on the {{VRC link|https://vrchat.com/home|VRChat Website}}.
+|<translate><!--T:54--> View On Website</translate>
+|<translate><!--T:55--> Opens the user's profile on the {{VRC link|https://vrchat.com/home|VRChat Website}}.</translate>
 |}
 <references group="actions"/>
+<translate>
 
-===Uploaded & favorited worlds===
+===Uploaded & favorited worlds=== <!--T:56-->
 
+<!--T:57-->
 Below [[Special:MyLanguage/Social#Actions|actions]] can be found a list of worlds uploaded by the user as well as any publicly viewable lists of favorite worlds. These can be sorted by date added, last updated, name, and recently used.
 
-==Social menu==
+==Social menu== <!--T:58-->
 
-[[File:Social Menu.webp|thumb|alt=An image of the social tab of the main menu in VRChat.|The social tab of the main menu in VRChat.]]
+</translate>
+[[File:Social Menu.webp|thumb|alt=<translate><!--T:59--> An image of the social tab of the main menu in VRChat.</translate>|<translate><!--T:60--> The social tab of the main menu in VRChat.</translate>]]
+<translate>
 
-===Friend Locations===
+===Friend Locations=== <!--T:61-->
 
+<!--T:62-->
 '''Friend Locations''' includes a list of friends who are available on "Online" (green) status, or "Join Me" (blue) statuses, and are present in an accessible world such as Public, Friends+, Friends, Group Public, Group+ instances. Below these available users will also display a list of all Friends currently online in Private Instances.
 
-===Group Activity===
+===Group Activity=== <!--T:63-->
 
+<!--T:64-->
 '''Group Activity''' includes a list of available [[Special:MyLanguage/Groups|Group]] instances, for Groups that you have joined. Creating a Group, Group+, or Group Public instance, if you have the ability, will result in it appearing on the Group Activity tab for users in that group. 
 
-===All Friends===
+===All Friends=== <!--T:65-->
 
  
+<!--T:66-->
 '''All Friends''' shows the entire list of your friends who are currently online, including Friends on "Ask Me" (orange) or "Do Not Disturb" (red) statuses. It also shows your friends active on the website or friends that are currently offline.
 
-===In Instance===
+===In Instance=== <!--T:67-->
 
+<!--T:68-->
 '''In Instance''' displays each user who is currently present in the instance you are in; users who have you blocked, while still inside of the instance with you may not appear on this tab, unless you are a Host or a [[Special:MyLanguage/Groups|Group]] Instance Moderator. The "Here" tab on the Quick Menu functions the same as this row. 
 
-===Favorite Friends===
+===Favorite Friends=== <!--T:69-->
 
+<!--T:70-->
 '''Favorite Friends''' lists are three rows of friends who you have chosen to 'Favorite'. It can be placed in one of the three rows. Each list can be renamed to help with organization. 
 
-===Recently Seen===
+===Recently Seen=== <!--T:81-->
 
+<!--T:82-->
 '''Recently Seen''' users are other users you've met in instances. Up to the last 100 recently seen users can be found in this tab and are ordered from the most recent to the oldest.
 
-===Blocked===
+===Blocked=== <!--T:71-->
 
+<!--T:72-->
 '''Blocked''' users are other users who you decided to block. They can be clicked upon in this tab, and unblocked if desired.
 
-==Friends==
+==Friends== <!--T:73-->
 
+</translate>
 {{Stub|Add quirks that have to do with friends and such.}}
+<translate>
+<!--T:74-->
 Friends on VRChat are other users that you trust, it acts much like how friending users on other platforms work, you can see whenever that user is online or on the website, send and receive invites from them, and add notes to them. Friends inside of your instance will have their name appear in yellow, and will also have their rank appear in yellow with a (Friend) indicator.
 
+<!--T:75-->
 ==Mutuals==
 <!-- Do we want a feature infobox? -->
 {{Infobox/Feature
@@ -169,21 +206,28 @@ Friends on VRChat are other users that you trust, it acts much like how friendin
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202542-openbeta 2025.4.2 Open Beta]
 }}
 
+<!--T:76-->
 Mutuals are a feature that allows the user to view mutual friends or groups of other users. 
 
+<!--T:78-->
 There are two ways to see mutuals, in the Quick Menu or the Main Menu with a button "Show X Mutuals". In the Quick Menu, the button can be found on top of user actions. In the Main Menu, the button will be found on the top right, next to the report button. 
 
+<!--T:80-->
 If you wish to prevent other users from seeing your mutual friends and groups or appearing as so for others, you can turn off "Show Mutual Connections" in the '''Comfort & Safety''' section of your settings in the Main Menu. Doing so will change the text of the button from "Show X Mutuals" to "No Known Mutuals". Additionally, your user icon will be hidden, and your username will appear as "Hidden Mutual" when you appear in the mutuals in one of your friends.
 
-==Discord Friends==
+==Discord Friends== <!--T:83-->
 
+<!--T:84-->
 Seen in the Social tab under "All Friends", this feature allows you to see your Discord friends with their current status and to perform different actions. Friends with a Discord account linked will have a Discord icon displayed on their profile 
 
+<!--T:85-->
 If your friend has linked their Discord account to their VRChat account, you will be able to invite them to join your instance through Discord. Otherwise, you will be able to invite them to create a VRChat account. You or your friends may prevent your VRChat account from being shown in the Discord section by turning off the "Allow Discord Friends" setting in the '''Comfort & Safety''' section of the settings.
 
+<!--T:79-->
 ==References==
 <references/>
 
+</translate>
 
-[[Category:User Interface]]
-[[Category:Features]]
+[[Category:User Interface{{#translation:}}]]
+[[Category:Features{{#translation:}}]]
