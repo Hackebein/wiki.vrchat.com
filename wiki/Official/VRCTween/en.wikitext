@@ -3,7 +3,6 @@
 '''VRCTween''' is an upcoming SDK class that provides tweening functionality for [[Worlds|worlds]]. It allows creators to smoothly animate properties such as positions, rotations, floats, vectors, and quaternions without requiring update loops or Unity animations<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] on ''[[ask.vrchat.com]]''.</ref>.
 
 == Overview ==
-[[File:VRCTween.gif|thumb|A demonstration of a VRCTween, and its features. ''(Animated GIF)'']]
 Tweening (short for "in-betweening") is the process of generating intermediate frames between keyframes to create smooth animations. VRChat worlds can already achieve tweening through Unity animations or [[Udon]] scripts, but these approaches often require significant manual work. VRCTween is designed to make this more convenient by providing dedicated nodes and events.
 
 VRCTween is based on DOTween and brings much of the same functionality to VRChat.
@@ -11,7 +10,6 @@ VRCTween is based on DOTween and brings much of the same functionality to VRChat
 [https://feedback.vrchat.com/feature-requests/p/whitelist-dotween-for-sdk3 VRCTween feedback post] on ''feedback.vrchat.com''
 
 == Usage ==
-[[File:VRCTween Udongraph.png|thumb|An example of code for VRCTween, within the Udon Graph.]]
 VRCTween methods can be used in both the Udon Node Graph and [[UdonSharp]]. Methods such as <code>TweenPosition</code> start an asynchronous tween and return a tween ID. The <code>OnComplete</code> method can register a callback event that fires when the tween finishes.
 
 VRCTween supports easing functions (e.g. <code>VRCTween.Ease.IN_OUT_SINE</code>) to control the interpolation curve. The initial release does not support arbitrary animation curves, but supports all the ease types that DOTween provides (Linear, Sine, Quad, Cubic, Quart, Quint, Expo, Circ, Elastic, Back, Bounce).
