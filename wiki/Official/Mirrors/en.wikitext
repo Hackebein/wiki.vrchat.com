@@ -1,73 +1,55 @@
 <languages/>
 {{Noticebox/Official}}
 {{stub|Resources heading is empty. Proofread according to [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]].}}
-[[File:Mirrors.webp|thumb|<translate><!--T:1--> A group of people socializing in front of a mirror.</translate>]]
-<translate>
-<!--T:2-->
+[[File:Mirrors.webp|thumb|A group of people socializing in front of a mirror.]]
 '''Mirrors''' are reflective surfaces that allow users to view a mirrored reflection of their avatar, alongside other users and/or the world they're in, depending on the settings of the world. Many worlds contain mirrors intended for users to sit in front of as they socialize. This activity is colloquially referred to as "mirror dwelling". Users may also choose to summon a mirror of their own though only visible to them. 
 
-=== World prefab === <!--T:3-->
+=== World prefab ===
 
-<!--T:4-->
-The [[Special:MyLanguage/VRChat SDK|VRChat SDK]] contains a prefab for a ready-to-use mirror that can be dragged into a scene. This prefab is found at the following path:</translate><br>
-<code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code><translate>
-
-<!--T:5-->
+The [[Special:MyLanguage/VRChat SDK|VRChat SDK]] contains a prefab for a ready-to-use mirror that can be dragged into a scene. This prefab is found at the following path:<br>
+<code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code>
 === Types of mirror ===
 [[File:Mirror actionmenu.webp|thumb|A demonstration of the Personal Mirror, and Face Mirror toggles within the Action Menu.]]
 
-==== Personal Mirror ==== <!--T:6-->
+==== Personal Mirror ====
 
-<!--T:7-->
 A personal mirror is a type of mirror that can be summoned and moved by a user that can only be viewed by them. 
 
-<!--T:8-->
 It can be enabled and configured via the [[Special:MyLanguage/Action Menu|Action Menu]] or the [[Special:MyLanguage/Main Menu|Main Menu]]'s [[Special:MyLanguage/Settings|Settings]] page.
 
-<!--T:9-->
 ==== Face Mirror ====
 [[File:Mirrorsettings actionmenu.webp|thumb|A demonstration of the Personal Mirror settings within the Action Menu.]][[File:Facemirrorsettings actionmenu.webp|thumb|A demonstration of the Face Mirror settings within the Action Menu.]]
 
-<!--T:10-->
 A face mirror is a type of mirror that displays the face of a user's avatar in their [[Special:MyLanguage/HUD|HUD]]. Face mirrors are designed to help a user stay aware of their avatar's facial expressions, especially if they're controlled by gestures. Unlike a traditional mirror, the face mirror does not portray depth.
 
-<!--T:11-->
 It can be enabled and configured via the [[Special:MyLanguage/Action Menu|Action Menu]] or the [[Special:MyLanguage/Main Menu|Main Menu]]'s [[Special:MyLanguage/Settings|Settings]] page.
 
-==== Calibration Mirror ==== <!--T:12-->
+==== Calibration Mirror ====
 
-<!--T:13-->
 A calibration mirror is a type of mirror that activates automatically when the user presses the "Calibrate FBT" button. It is visible only to the user who is calibrating and disappears once they are done. The calibration mirror displays only the user's avatar, controllers, and FBT tracker model, which can be set in the Main Menu's Settings. If "Display Calibration Visuals" is enabled under Tracking and IK, the calibration mirror will also reflect these, showing which tracking points the trackers will track when calibration is done.
 
-<!--T:14-->
 It can be enabled via the [[Special:MyLanguage/Action Menu|Action Menu]] or the [[Special:MyLanguage/Main Menu|Main Menu]]'s [[Special:MyLanguage/Settings|Settings]] page, but there are no configuration options for the calibration mirror.
 
-== Common setups == <!--T:15-->
+== Common setups ==
 
-<!--T:16-->
 The mirror prefab allows for selection of which layers are to be shown in the reflection. Therefore it is common that worlds have set up multiple different mirrors to toggle between. Which is why it usually breaks down to 3 options: high quality, low quality and transparent mirror. Some worlds offer even more specialized setups beyond these.
 
-=== High quality === <!--T:17-->
+=== High quality ===
 
-<!--T:18-->
 A high quality mirror acts as a mirror would in real life, reflecting the world and avatars around it from the perspective of the mirror.
 
-=== Low quality === <!--T:19-->
+=== Low quality ===
 
-<!--T:20-->
 A low quality mirror usually mirrors the avatars around it at a lower resolution and replaces the reflection of the world with the skybox.
 
-=== Transparent === <!--T:21-->
+=== Transparent ===
 
-<!--T:22-->
 A transparent mirror usually reflects the avatars around it while acting like a window, showing what appears behind the mirror, and also having a faint reflection of world from the mirror's perspective. It requires a special set up, which is also available through transparent mirror prefabs from the community.
 
-== Performance issues == <!--T:23-->
+== Performance issues ==
 
-<!--T:24-->
 Every object reflected in a mirror has to be rendered again, separately from what the user sees in the playable world. A mirror reflecting the whole world will double the performance cost of rendering the world. Occlusion culling does not work in mirror reflections, so a mirror facing a wall will still try to render everything behind the wall too.
 
-<!--T:25-->
 Creators can reduce the performance cost for mirrors in many ways, such as:
 * Disabling all mirrors by default. Only enable a mirror when the user pushes a button, or physically approaches them.
 * Disabling mirrors when a user leaves the area. This will remove the rendering cost of a mirror when a player isn't using it. Users will often not do this themselves, so use a script to do it for them.
@@ -75,16 +57,14 @@ Creators can reduce the performance cost for mirrors in many ways, such as:
 * Changing the [[Special:MyLanguage/Layers|Layers]] a mirror reflects. A mirror only renders objects on the defined layers. For example, if you have a large outdoor world with a house in the middle, you could set the outdoor environment objects to the environment layer, and then disable the environment layer on the mirrors inside the house. This will stop the mirrors from trying to render the environment that they can't see.
 When interacting with a Mirror in a world, users will be able to enable or toggle different options to save on performance, such as:
 
-<!--T:27-->
 * Using only one mirror at a time.
 * Choosing a lower quality option for a mirror, if available.
 * Alternatively, substituting a world's mirror for your Personal Mirror.
 * Adjust your mirror resolution under [[Special:MyLanguage/Settings#Graphics|Graphics Settings]].
 
-== Resources == <!--T:28-->
+== Resources ==
 
-</translate>
-[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ <translate><!--T:29--> VRChat Creator Documentation - VRC Mirror Reflection</translate>]
-<translate></translate>
+[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ VRChat Creator Documentation - VRC Mirror Reflection]
+
 
 [[Category:Features{{#translation:}}]]
