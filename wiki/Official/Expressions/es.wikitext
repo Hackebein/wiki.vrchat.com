@@ -78,9 +78,8 @@ Cada entrada en el asset de Expression Parameters almacena:
 
 Por defecto, la sincronización de parámetros personalizados utiliza el modo de sincronización ''Playable'' de VRChat. Los controles radiales usan temporalmente la sincronización más rápida ''IK'' mientras están abiertos y activos.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Built-in parameters ===
-</div>
+<span id="Built-in_parameters"></span>
+=== Parámetros integrados ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 VRChat also provides built-in Animator parameters such as <code>GestureLeft</code>, <code>GestureRight</code>, <code>GestureLeftWeight</code>, <code>GestureRightWeight</code>, <code>IsLocal</code>, <code>AFK</code>, <code>Seated</code>, <code>InStation</code>, and <code>TrackingType</code>. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
