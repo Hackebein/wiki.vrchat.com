@@ -58,13 +58,12 @@ Un espejo transparente normalmente refleja los avatares a su alrededor mientras 
 
 Cada objeto reflejado en un espejo tiene que renderizarse de nuevo, por separado de lo que el usuario ve en el mundo jugable. Un espejo que refleja todo el mundo duplica el costo de rendimiento de renderizar el mundo. El filtrado por oclusión (occlusion culling) no funciona en los reflejos de los espejos, por lo que un espejo que mira hacia una pared intentará renderizar también todo lo que está detrás de esa pared.
 
-<div class="mw-translate-fuzzy">
 Los creadores pueden reducir el costo de rendimiento de los espejos de varias maneras, como:
 * Desactivando todos los espejos por defecto. Solo activar un espejo cuando el usuario presione un botón o se acerque físicamente a él.
 * Desactivando los espejos cuando un usuario abandone el área. Esto eliminará el costo de renderizado del espejo cuando un jugador no lo esté usando. Los usuarios a menudo no hacen esto por sí mismos, así que usa un script para hacerlo por ellos.
 * Considerando la ubicación de los espejos. Un espejo que mira hacia afuera del centro del mundo tendrá que renderizar menos que uno que mira hacia adentro.
-* Cambiando las [[Special:MyLanguage/Layers|capas]].
-</div>
+* Cambiando las [[Special:MyLanguage/Layers|capas]] que refleja un espejo. Un espejo solo renderiza objetos en las capas definidas. Por ejemplo, si tienes un mundo exterior grande con una casa en el centro, podrías configurar los objetos del entorno exterior en la capa de entorno y luego desactivar la capa de entorno en los espejos dentro de la casa. Esto evitará que los espejos intenten renderizar el entorno que no pueden ver.
+Al interactuar con un espejo en un mundo, los usuarios podrán activar o desactivar diferentes opciones para optimizar el rendimiento, como:
 
 * Usar solo un espejo a la vez.
 * Elegir una opción de menor calidad para un espejo, si está disponible.
