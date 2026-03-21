@@ -36,9 +36,7 @@ Para añadir expresiones personalizadas, crea un asset llamado '''Expression Men
 
 Cada parámetro personalizado puede marcarse como ''Saved'' y ''Synced''. Los parámetros personalizados sincronizados (Synced) cuentan para el presupuesto de sincronización de 256 bits del avatar, mientras que los avatares pueden definir hasta 8192 parámetros personalizados en total. Los parámetros de este asset también pueden ser modificados por [[Special:MyLanguage/Contacts|Contact Receivers]], [[Special:MyLanguage/parameter drivers|parameter drivers]], [[Special:MyLanguage/physbones|PhysBones]] y [[Special:MyLanguage/Open Sound Control|OSC]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The SDK also includes a ''Default Parameters'' button. This restores the three alias parameters used by VRChat's default AV3 controllers: <code>VRCEmote</code>, <code>VRCFaceBlendH</code>, and <code>VRCFaceBlendV</code>.
-</div>
+El SDK también incluye un botón de ''Default Parameters''. Este restaura los tres parámetros alias utilizados por los controladores AV3 predeterminados de VRChat: <code>VRCEmote</code>, <code>VRCFaceBlendH</code> y <code>VRCFaceBlendV</code>.
 
 <span id="Controls"></span>
 ====Controles====
