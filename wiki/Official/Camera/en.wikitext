@@ -1,9 +1,12 @@
 <languages/>
+<translate>
 {{Noticebox/Official}}
 {{Noticebox/wip|The page below is incomplete. Desciptions are missing for toggles, sections not filled out. Considering if these options should be displayed in tables instead of lists. Translations may be broken for a bit.}}
 
+<!--T:1-->
 The '''Camera''' is an in-game tool that allows users to take photos to capture their experiences in VRChat.
 
+<!--T:2-->
 ==Accessing==
 There are multiple ways to access the camera in VRChat:
 
@@ -17,7 +20,7 @@ The camera modes determine how the camera behaves when taking a photo. There are
 
 ; Local Photo : After taken, it captures a regular photo. This is the default mode.
 ; Multi Layer : After taken, it captures a photo and creates images of each enabled mask. This mode does support focus or filters and may cause frame lag. 
-: It can create up to three additional images (besides the regular photo): "Environment", "Users" (Combines the Local & Remote Users masks), and "UI". The "Users" & "UI" masks save with alpha transparency.
+: It can create up to three additional images (besides the regular photo): "Environment", "Player" (Combines the Local & Remote Player masks), and "UI". The "Player" & "UI" masks save with alpha transparency.
 ; Stream : Replaces the desktop view with the camera view. In desktop mode, the "Spout Stream" toggle will appear, allowing the user to receive the camera view through supported applications. 
 : The "Spout Stream" toggle requires applications to support the [https://spout.zeal.co/ Spout] protocol to receive the camera view.
 : This mode is only available on PC.
@@ -34,9 +37,9 @@ The camera modes determine how the camera behaves when taking a photo. There are
 :; Animated (4)
 :; Animated (16)
 
-These three "modes" are not accessible through the Camera Mode button, but rather other means:
+These two modes are not accessible through the Camera Mode button, but rather other means:
 
-; Launch Drone: ''See also [[Special:MyLanguage/Camera Drone|Camera Drone]] for more detailed information.''
+; Camera Drone : ''See also [[Special:MyLanguage/Camera Drone|Camera Drone]] for more detailed information.''
 : Brings out the Camera Drone. 
 ; Screenshot : Takes a photo without [[Special:MyLanguage/HUD|HUD]] elements. Captures in 1920x1080 by default, unless changed in the [https://docs.vrchat.com/docs/configuration-file config file].
 ; Photo Invite : Invite/Request Invites or Invite/Request Responses can be sent with an image. After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a rectangular crop. "Save & Apply" attaches it to invite/response. Requires VRC+.
@@ -224,18 +227,23 @@ When a user has their camera out, a red beam will projected upwards and downward
 
 ====Audio From Camera====
 
-== Accessing saved photos ==
+== Accessing saved photos == <!--T:15-->
 
+<!--T:16-->
 * '''Windows operating systems''' will store VRChat photos using the default file path of the Pictures folder <code>''C:/Users/(Owner)/Pictures/VRChat''</code>. Photos will be sorted by month and year. On desktop and PCVR versions of VRChat, opening the Camera tab in the Quick Menu and choosing "Open Photos Folder" will directly open the File Explorer to that file path.
 
+<!--T:17-->
 * '''Steam''' users can access their '''Steam screenshots''', separate from VRChat photos using the default file path <code>''C:/Program Files (x86)/Steam/userdata/XXXXXXXXX/760/remote/438100/screenshots''</code>
 
+<!--T:18-->
 * '''Standalone VR''' users can access their photos through the Files/Photos app on their respective system dashboard or through their respective apps on the user's phone or other device if synced.
 
+<!--T:19-->
 * '''Mobile''' devices can access their VRChat photos through the Gallery app, or from the Files app on their device.
 
-== See also ==
+== See also == <!--T:20-->
 
+<!--T:21-->
 * [[Special:MyLanguage/Camera Dolly|Camera Dolly]]
 * [[Special:MyLanguage/Camera Drone|Camera Drone]]
 * [[Special:MyLanguage/Inventory#Photo Gallery|Photo Gallery]]
@@ -243,5 +251,6 @@ When a user has their camera out, a red beam will projected upwards and downward
 ==Navigation==
 {{Navbox/Camera}}
 
+</translate>
 [[Category:User Interface{{#translation:}}]]
 [[Category:Features{{#translation:}}]]
