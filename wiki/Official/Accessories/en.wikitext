@@ -1,9 +1,9 @@
 {{Noticebox/Official}}
-{{Noticebox/unreleased|Feature was released with the 2026.1.3 update}}
+{{Noticebox/unreleased|Currently in beta testing under the <code>accessories</code> Steam beta branch.}}
 {{Infobox/Feature
 |name=Accessories
 |image=Icons Accessories.png
-|platforms= PC, Android
+|platforms= PC, Android, iOS
 |branch_openbeta_date = 18 Mar 2026
 |branch_openbeta_version = 2026.1.3 Build 1814
 |branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202613
@@ -14,7 +14,7 @@ Unlike [[Items]], accessories have no scripting, are not interactable, and trave
 
 VRChat creates accessories internally and collaborates with select community creators.
 
-== How it works ==
+== Overview ==
 When a user adds an accessory to their avatar, it is automatically attached to a default [[avatar]] bone (such as the head, hips, or arm) chosen to best suit the accessory. Users can reassign the accessory to any bone on the avatar's skeleton through the attachment controls.
 
 Each accessory can be repositioned, rotated, and scaled using on-screen controls or the precise adjustment panel on the right side of the editor. Some accessories also offer additional customization options, such as color changes or toggling visual elements. Accessories use VRChat's Toon Standard shader.
@@ -60,3 +60,12 @@ Accessories which VRChat mentioned:
 * Halos
 * Tails
 * Cat ears
+
+==History==
+Accessories were intended to be released with the release of 2026.1.3, but during the open beta cycle, it was decided to delay its release until "it's ready for prime time". <ref>[https://docs.vrchat.com/docs/vrchat-202613 VRChat 2026.1.3] ([https://web.archive.org/web/20260325011753/https://docs.vrchat.com/docs/vrchat-202613 Archive.org]) on ''[https://docs.vrchat.com docs.vrchat.com]''. Dated March 24, 2026. Retrieved March 24, 2026.</ref> Accessories beta testing would continue alongside the regular Open Beta on a separate Steam beta branch.
+
+==References==
+<references/>
+
+==Navigation==
+{{Navbox/Inventory}}
