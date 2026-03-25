@@ -1,15 +1,28 @@
-{{Noticebox/Official}}{{Template:Proofread}}
+{{Noticebox/Official}}
 [[File:OSC_Keyart.png|thumb|300x300px]]
-[https://opensoundcontrol.stanford.edu/index.html '''OSC'''] is a way to get different devices and applications to talk to each other. VRChat announced on February 16th, 2022: OSC for avatars<ref>https://hello.vrchat.com/blog/vrchat-osc-for-avatars</ref>. This feature is commonly used by body-, eye- and face trackers to communicate with [[Special:MyLanguage/VRChat|VRChat]], as well as by other applications that automate [[Special:MyLanguage/Avatars|Avatar]] parameters. OSC was implemented with the 2022.1.1<ref>[https://docs.vrchat.com/docs/vrchat-202211 "VRChat 2022.1.1"] (Build 1169) on ''[[docs.vrchat.com]]''. Dated February 24, 2022. Retrieved January 25, 2026.</ref><ref>[https://store.steampowered.com/news/app/438100/view/3114806426143899603 "VRChat 2022.1.1"] (Build 1169) on ''[[docs.vrchat.com]]''. Dated February 24, 2022. Retrieved January 25, 2026.</ref> update on February 24, 2022.
+[https://opensoundcontrol.stanford.edu/index.html '''OSC''' (Open Sound Control)] is a protocol originally designed for communication between audio devices and controllers, but its flexibility has made it popular for a wide variety of real-time control applications<ref>https://opensoundcontrol.stanford.edu/spec-1_0.html</ref>. VRChat announced OSC support for avatars on February 16, 2022<ref>https://hello.vrchat.com/blog/vrchat-osc-for-avatars</ref>, and the feature shipped in the 2022.1.1<ref>[https://docs.vrchat.com/docs/vrchat-202211 "VRChat 2022.1.1"] (Build 1169) on ''[[docs.vrchat.com]]''. Dated February 24, 2022.</ref> update on February 24, 2022. OSC is commonly used by body-, eye- and face trackers to communicate with [[Special:MyLanguage/VRChat|VRChat]], as well as by other applications that automate [[Special:MyLanguage/Avatars|Avatar]] parameters.
+
+== Enabling OSC ==
+OSC can be enabled from the [[Special:MyLanguage/Action Menu|Action Menu]] under '''OSC > Enabled'''. Once enabled, VRChat begins listening for incoming OSC messages and sending outgoing parameter data.
+
+An '''OSC Debug''' screen is also available in the Action Menu under '''OSC > OSC Debug'''. It floats in front of the user and visualizes all incoming OSC messages, showing their addresses and values in real time. Opening this screen also enables OSC if it was previously disabled.
 
 ==OSCQuery==
 [https://github.com/Vidvox/OSCQueryProposal OSCQuery] is a protocol to connect OSC applications together more easily. Information on how to connect with VRChat with OSCQuery is available on the [https://github.com/vrchat-community/osc/wiki/OSCQuery VRChat OSCQuery GitHub Wiki]. VRChat also provides [https://github.com/vrchat-community/vrc-oscquery-lib a C# library on GitHub].
 
+VRChat recommends the following tools and libraries for building OSC applications:
+
+* [https://github.com/vrchat/osccore/tree/all-in-one OscCore] (C#) — The OSC library VRChat uses internally
+* [https://github.com/attwad/python-osc python-osc] (Python) — Used by VRChat for internal testing
+* [https://hexler.net/touchosc TouchOSC] — Standalone OSC sender (free Windows client)
+* [https://hexler.net/protokol Protokol] — Standalone OSC receiver
+
 Some of the community made OSCQuery libraries:
 
-* TypeScript with example scripts on GitHub by [[User:Usr ddac2cc8-81dc-41c7-95c6-7aa7c81a783f|Jangxx]] - [https://github.com/jangxx/node-oscquery node-oscquery].
-* Python with examples on the GitHub readme.md - [https://github.com/theepicsnail/vrchat_oscquery vrchat_oscquery]. An older variant that's more descriptive - [https://github.com/cyberkitsune/tinyoscquery tinyoscquery].
-* Rust implementation with baseline functionality - [https://lib.rs/crates/oscquery oscquery].
+* [https://github.com/jangxx/node-oscquery node-oscquery] (TypeScript) — Example scripts on GitHub by [[User:Usr ddac2cc8-81dc-41c7-95c6-7aa7c81a783f|Jangxx]]
+* [https://github.com/theepicsnail/vrchat_oscquery vrchat_oscquery] (Python) — Examples on the GitHub readme.md
+* [https://github.com/cyberkitsune/tinyoscquery tinyoscquery] (Python) — An older variant that's more descriptive
+* [https://lib.rs/crates/oscquery oscquery] (Rust) — Rust implementation with baseline functionality
 
 == OSC feature set ==
 OSC enables control and monitoring of multiple systems within VRChat, including input controls, avatar parameters, chatbox functionality, and camera systems such as the [[Camera Dolly]].
@@ -30,7 +43,7 @@ Many of VRChat's OSC endpoints can accept multiple values in one message, and ea
 | 32-bit IEEE 754 single-precision float (big-endian)
 |-
 | boolean
-| <code>T</code> or <code>,F</code>
+| <code>T</code> or <code>F</code>
 | Boolean true or false, respectively
 |-
 | string
@@ -62,6 +75,8 @@ OSC provides read and write access to [https://docs.vrchat.com/docs/osc-avatar-p
 Parameters are accessed through <code>/avatar/parameters/<ParameterName></code> addresses and support integer, float, and boolean data types.
 Custom Avatar parameter names and behaviors are defined by individual avatar creators, but there are a number of [https://creators.vrchat.com/avatars/animator-parameters/#built-in-parameters reserved parameters].
 All Avatar '''custom''' OSC endpoints are read-write, but all Avatar '''reserved''' OSC endpoints are read-only unless otherwise specified.
+
+When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avatar/change</code> with the avatar's ID, and auto-generates a JSON config file at <code>%AppData%\..\LocalLow\VRChat\VRChat\OSC\{userId}\Avatars\{avatarId}.json</code>. This config maps parameter names to input and output OSC addresses and types, and can be edited to reroute data to other applications or convert between types.
 {| class="wikitable"
 ! Address
 ! Type
@@ -94,6 +109,10 @@ All Avatar '''custom''' OSC endpoints are read-write, but all Avatar '''reserved
 | <code>/avatar/parameters/IsAnimatorEnabled</code>
 | <code>,T</code>
 | Whether the animator is enabled
+|-
+| <code>/avatar/parameters/AvatarVersion</code>
+| <code>,i</code>
+| 3 if the avatar was built using SDK3, otherwise 0
 |-
 | '''Gesture'''
 |
@@ -189,7 +208,7 @@ All Avatar '''custom''' OSC endpoints are read-write, but all Avatar '''reserved
 |-
 | <code>/avatar/parameters/Grounded</code>
 | <code>,T</code>
-| Whether the user is touching the floor int the world
+| Whether the user is touching the floor in the world
 |-
 | <code>/avatar/parameters/Upright</code>
 | <code>,f</code>
@@ -221,6 +240,7 @@ All Avatar '''custom''' OSC endpoints are read-write, but all Avatar '''reserved
 OSC can trigger VRChat input actions by sending messages to <code>/input/*</code> addresses.
 This includes movement controls, view rotation, jumping, voice toggling, and VR-specific interactions.
 All [https://docs.vrchat.com/docs/osc-as-input-controller Input] OSC endpoints are write-only.
+
 ==== Axes ====
 These expect a float from -1 to 1 to control things like movement.
 They must be reset to 0 when not in use: a <code>/input/Vertical ,f 1</code> message without a corresponding <code>/input/Vertical ,f 0</code> will continue to move you forward forever.
@@ -292,8 +312,8 @@ They must be reset to 0 when not in use: a <code>/input/Vertical ,f 1</code> mes
 |
 |}
 ==== Buttons ====
-These expect an boolean of true for "pressed" and false for "released".
-For compatability, they also accept ints of 0 and 1, equivalent to false/"released" and true/"pressed" respectively.
+These expect a boolean of true for "pressed" and false for "released".
+For compatibility, they also accept ints of 0 and 1, equivalent to false/"released" and true/"pressed" respectively.
 They must be reset to false when not in use: a <code>/input/MoveForward ,T</code> message without a corresponding <code>/input/MoveForward ,F</code> will continue to move you forward forever.
 They must also be reset to false before they can be used again: sending a <code>/input/Jump ,T</code> and then another <code>/input/Jump ,T</code> without a <code>/input/Jump ,F</code> between them will only result in a single jump.
 {| class="wikitable"
@@ -387,7 +407,7 @@ They must also be reset to false before they can be used again: sending a <code>
 |-
 | <code>/input/Voice</code>
 | <code>,T</code>
-| Toggle Microphone (in Push-To-Talk Mode, false = "muted" and true = "unmuted")
+| Microphone control. Behavior depends on the [[Settings#Microphone|"Microphone Behaviour" setting]]. When on, changing from false to true toggles the mute state; while true, controller/keyboard mute is blocked; when off, acts as push-to-talk (false = muted, true = unmuted)
 |-
 | <code>/input/ShowDebugInfo0</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,T</code>
@@ -463,7 +483,8 @@ The <code>/input/ShowDebugInfo[0-9]</code> endpoints are for [https://creators.v
 
 === Tracking ===
 All [https://docs.vrchat.com/docs/osc-trackers Tracking] and [https://docs.vrchat.com/docs/osc-eye-tracking Eye Tracking] OSC endpoints are write-only unless otherwise specified.
-Sending the <code>/tracking/trackers/head/...</code> values is optional; if supplied, VRChat will use them as the frame of reference for the other OSC trackers.
+Up to 8 trackers are supported (hip, chest, 2 feet, 2 knees, 2 elbows), though sending fewer trackers (e.g. only feet and hips) may produce better results because VRChat's IK can better compensate for tracking discrepancies<ref>[https://docs.vrchat.com/docs/osc-trackers "OSC Trackers"] on ''docs.vrchat.com''.</ref>.
+Sending the <code>/tracking/trackers/head/...</code> values is optional; if supplied, VRChat will use them as the frame of reference for the other OSC trackers. The head position aligns per frame with no interpolation, while head rotation yaw alignment slowly lerps toward the provided value. A single head rotation message (no follow-up within 300 ms) triggers a one-time instant yaw alignment instead.
 After 10 seconds without receiving data, eye tracking behavior will revert to default (auto look / auto blink). This timeout is separate for eyelids and eye-look.
 {| class="wikitable"
 ! Address
@@ -502,21 +523,21 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 | 3rd parameter <code>f</code>
 | Euler Z angle
 |-
-| <code>/tracking/trackers/[1-8]/position</code>
+| <code>/tracking/trackers/head/position</code>
 | <code>,fff</code>
 | The position of the headset (see <code>.../position</code> above)
 |-
-| <code>/tracking/trackers/[1-8]/rotation</code>
+| <code>/tracking/trackers/head/rotation</code>
 | <code>,fff</code>
 | The rotation of the headset (see <code>.../rotation</code> above)
 |-
 | <code>/tracking/eye/EyesClosedAmount</code>
 | <code>,f</code>
-| How closed the eyes are (0.0: fully open, 1.0: fully closed)
+| How closed the eyes are (0.0: fully open, 1.0: fully closed). Controls both eyes simultaneously.
 |-
 | <code>/tracking/eye/CenterPitchYaw</code>
 | <code>,ff</code>
-| Pitch and yaw for automatic raycast (eyes look at hit location)
+| Pitch and yaw for automatic raycast (eyes look at hit location). Should not be used at the same time as <code>/tracking/eye/CenterPitchYawDist</code>.
 |-
 | 
 | 1st parameter <code>f</code>
@@ -526,9 +547,9 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 | 2nd parameter <code>f</code>
 | Euler Y angle
 |-
-| <code>/tracking/eye/CenterPitchYaw</code>
-| <code>,ff</code>
-| Pitch, yaw, and distance for raycast (eyes look at vector position)
+| <code>/tracking/eye/CenterPitchYawDist</code>
+| <code>,fff</code>
+| Pitch, yaw, and distance for raycast (eyes look at vector position). Should not be used at the same time as <code>/tracking/eye/CenterPitchYaw</code>.
 |-
 | 
 | 1st parameter <code>f</code>
@@ -595,7 +616,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 | Euler Y angle right eye
 |-
 | <code>/tracking/eye/LeftRightVec</code>
-| <code>,fff</code>
+| <code>,ffffff</code>
 | Headset-local '''normalized''' vectors for each eye individually
 |-
 | 
@@ -652,11 +673,11 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/vrsystem/leftwrist/pose</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,ffffff</code>
-| The '''read-only''' system pose for the left wrist (see <code>>.../head/pose</code> above)
+| The '''read-only''' system pose for the left wrist (see <code>.../head/pose</code> above)
 |-
 | <code>/tracking/vrsystem/rightwrist/pose</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,ffffff</code>
-| The '''read-only''' system pose for the right wrist (see <code>>.../head/pose</code> above)
+| The '''read-only''' system pose for the right wrist (see <code>.../head/pose</code> above)
 |}
 ==== Coordinates ====
 The coordinate system used is generally the same as the left-handed Unity coordinate system.
@@ -960,6 +981,8 @@ VRChat uses [https://docs.vrchat.com/docs/osc-overview#vrchat-ports two UDP port
 | mDNS ↔ VRChat
 | multicastDNS Service Discovery<ref>https://www.rfc-editor.org/info/rfc6763</ref>
 |}
+The UDP ports can be overridden with a command line argument: <code>--osc=inPort:senderIP:outPort</code>. For example, <code>--osc=9000:127.0.0.1:9001</code> replicates the defaults, and <code>--osc=9000:192.168.1.42:9001</code> would send data to another device on the local network.
+
 You can manually find the port numbers for these features by searching the current log file for a line that looks like <br><code>2025.01.02 03:04:05 Debug      -  Advertising Service VRChat-Client-A1B2C3 of type OSCQuery on 42069</code> or <br><code>2025.01.02 03:04:05 Debug      -  Advertising Service VRChat-Client-A1B2C3 of type OSC on 9000</code>
 
 == Resources ==
