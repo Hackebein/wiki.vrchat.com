@@ -8,21 +8,262 @@ OSC can be enabled from the [[Special:MyLanguage/Action Menu|Action Menu]] under
 An '''OSC Debug''' screen is also available in the Action Menu under '''OSC > OSC Debug'''. It floats in front of the user and visualizes all incoming OSC messages, showing their addresses and values in real time. Opening this screen also enables OSC if it was previously disabled.
 
 ==OSCQuery==
-[https://github.com/Vidvox/OSCQueryProposal OSCQuery] is a protocol to connect OSC applications together more easily. Information on how to connect with VRChat with OSCQuery is available on the [https://github.com/vrchat-community/osc/wiki/OSCQuery VRChat OSCQuery GitHub Wiki]. VRChat also provides [https://github.com/vrchat-community/vrc-oscquery-lib a C# library on GitHub].
+[https://github.com/Vidvox/OSCQueryProposal OSCQuery] is a protocol to connect OSC applications together more easily. Information on how to connect with VRChat with OSCQuery is available on the [https://github.com/vrchat-community/osc/wiki/OSCQuery VRChat OSCQuery GitHub Wiki].
 
-VRChat recommends the following tools and libraries for building OSC applications:
+== OSC Tools ==
 
-* [https://github.com/vrchat/osccore/tree/all-in-one OscCore] (C#) — The OSC library VRChat uses internally
-* [https://github.com/attwad/python-osc python-osc] (Python) — Used by VRChat for internal testing
-* [https://hexler.net/touchosc TouchOSC] — Standalone OSC sender (free Windows client)
+* [https://hexler.net/touchosc TouchOSC] — Standalone OSC sender
 * [https://hexler.net/protokol Protokol] — Standalone OSC receiver
 
-Some of the community made OSCQuery libraries:
+== Library comparison ==
 
-* [https://github.com/jangxx/node-oscquery node-oscquery] (TypeScript) — Example scripts on GitHub by [[User:Usr ddac2cc8-81dc-41c7-95c6-7aa7c81a783f|Jangxx]]
-* [https://github.com/theepicsnail/vrchat_oscquery vrchat_oscquery] (Python) — Examples on the GitHub readme.md
-* [https://github.com/cyberkitsune/tinyoscquery tinyoscquery] (Python) — An older variant that's more descriptive
-* [https://lib.rs/crates/oscquery oscquery] (Rust) — Rust implementation with baseline functionality
+{| class="wikitable" style="text-align:center"
+|-
+!
+! [https://github.com/stella3d/OscCore OscCore]
+! [https://github.com/vrchat-community/vrc-oscquery-lib vrc-oscquery-lib]
+! [https://github.com/attwad/python-osc python-osc]
+! [https://github.com/theepicsnail/vrchat_oscquery vrchat_oscquery]
+! [https://github.com/cyberkitsune/tinyoscquery tinyoscquery]
+! [https://lib.rs/crates/oscquery oscquery]
+! [https://github.com/jangxx/node-oscquery node-oscquery]
+|-
+! style="text-align:left" | Language
+| C#
+| C#
+| Python
+| Python
+| Python
+| Rust
+| TypeScript
+|-
+! style="text-align:left" | License
+| MIT
+| MIT
+| Unlicense
+| style="background:#D4890B; color:#fff" | None
+| MIT
+| MIT / Apache-2.0
+| MIT
+|-
+! colspan="8" style="text-align:left; background:#9AA0AA; color:#fff" | OSC transport
+|-
+! style="text-align:left" | Send messages
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes<ref group="osc" name="python-osc-dep">Via bundled [https://pypi.org/project/python-osc/ python-osc] dependency; bundle support requires using python-osc's API directly.</ref>
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+|-
+! style="text-align:left" | Receive messages
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes<ref group="osc" name="python-osc-dep" />
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+|-
+! style="text-align:left" | Bundle support
+| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="osccore-bundle">Receive fully supported including nested bundles; send requires low-level <code>OscWriter</code> API.</ref>
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes<ref group="osc" name="python-osc-dep" />
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+|-
+! style="text-align:left" | VRChat types
+| <code>i f s T F</code>
+| <code>i f s T</code>
+| <code>i f s T F</code>
+| <code>i f s T F</code><ref group="osc" name="python-osc-dep" />
+| <code>i f s T F</code>
+| <code>i f s T F</code>
+| <code>i f s T F</code>
+|-
+! style="text-align:left" | Optional types
+| <code>b h d t S c r m N I []</code>
+| <code>b h d c u []</code>
+| <code>b h d r m N []</code><ref group="osc" name="pyosc-missing"><code>t</code> (timetag) is receive-only.</ref>
+| <code>b h d t r m N []</code><ref group="osc" name="python-osc-dep" />
+| <code>h d t</code><ref group="osc" name="toq-lossy"><code>h</code>, <code>d</code>, <code>t</code> with lossy type mapping to Python float.</ref>
+| <code>b h d t S c r m N I []</code>
+| <code>b h d t S c r m N I []</code>
+|-
+! colspan="8" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — required attributes
+|-
+! style="text-align:left" | HTTP server
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="vq-minimal">Minimal VRChat-specific subset; only serves <code>/</code> and <code>/?HOST_INFO</code>.</ref>
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | HOST_INFO
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="vq-hostinfo">Returns <code>OSC_PORT</code> only; missing <code>NAME</code>, <code>EXTENSIONS</code>, <code>OSC_IP</code>, <code>OSC_TRANSPORT</code>.</ref>
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | FULL_PATH
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="vq-hardcoded">Hardcoded to <code>/avatar</code> and <code>/tracking</code> paths; not a dynamic OSC address tree.</ref>
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | CONTENTS
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="vq-hardcoded" />
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | TYPE
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! colspan="8" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — optional attributes
+|-
+! style="text-align:left" | ACCESS
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | VALUE
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | RANGE
+| style="background:#C03030; color:#fff" | No
+| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="range-adv">Advertised as supported in HOST_INFO extensions but not implemented at the node level.</ref>
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="range-adv" />
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | DESCRIPTION
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | TAGS
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | EXTENDED_TYPE
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+|-
+! style="text-align:left" | UNIT
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+|-
+! style="text-align:left" | CRITICAL
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | CLIPMODE
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | OVERLOADS
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+|-
+! colspan="8" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery client
+|-
+! style="text-align:left" | HTTP client
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! colspan="8" style="text-align:left; background:#9AA0AA; color:#fff" | Service discovery
+|-
+! style="text-align:left" | mDNS advertisement
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+|-
+! style="text-align:left" | mDNS discovery
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+| style="background:#C03030; color:#fff" | No
+| style="background:#22A84A; color:#fff" | Yes
+|}
+{{reflist|group=osc}}
 
 == OSC feature set ==
 OSC enables control and monitoring of multiple systems within VRChat, including input controls, avatar parameters, chatbox functionality, and camera systems such as the [[Camera Dolly]].
