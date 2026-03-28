@@ -7,14 +7,16 @@
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There's a variety of world types covering topics ranging from social hangouts, games, to avatar showcases, scenic views, and more. Each world can have multiple sessions running at the same time, referred to as [[Special:MyLanguage/Instances|instances]], which have a global region they're linked to, a maximum user capacity set by the world author, and an instance type that controls who can join and moderate the world instance.
 </div>
+
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Discovering and joining worlds==
+==Discovery & joining==
 </div>
 
-[[File:VRC Worlds Banner.png|thumb|<div lang="en" dir="ltr" class="mw-content-ltr">
-Official render of the Worlds logo]]
+[[File:VRC Worlds Banner.png|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">Official render of the Worlds logo</span>]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
 Users can start discovering worlds before launching VRChat for the first time, by logging into the [https://vrchat.com/home VRChat website], or using the main page of VRChat on mobile devices. When launching VRChat for the first time, users will spawn in their home world.
 </div>
+
 <span id="Home_world"></span>
 ===Świat domowy===
 
@@ -27,42 +29,74 @@ The home world's instance type and region can also be changed. By default, the i
 <!-- Technically, you can set the home world to private and community labs worlds, but it only works via the API. Within the client you can only set it to public, non community labs worlds. -->
 <references group="note" />
 </div>
+
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Using the menu ===
+==="Worlds" Main Menu tab===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-When opening the [[Special:MyLanguage/Menus|menu]], there are a few different routes one can take to join a new world, or instance.
+Users can navigate to the "Worlds" tab by opening the [[Special:MyLanguage/Quick Menu|Quick Menu]], and clicking the '''Worlds''' button on the Launch Pad or clicking the "Worlds" tab on the Main Menu. By default, the page will display VRCat's Variety Box, which features a random world from all world categories.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====My Worlds====
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===="Worlds" Quick Link / tab====
+On the left side of the World tab, there is a collapsed dropdown titled '''My Worlds'''. The dropdown contains worlds that the user has recently visited, favorite world lists, recently updated favorited worlds, and uploaded worlds.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When opening the [[Special:MyLanguage/Quick Menu|Quick Menu]], using the Quick Links button for '''Worlds''' will take the user to the [[Special:MyLanguage/Main Menu|Main Menu]], which by default, displays VRCat's Variety Box, and features a random selection from various different world categories. When anywhere on the Main Menu, users can also get to this page by using the World tab at the bottom.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On the left of the World tab, one can select a specific world category such as "Trending", "Avatar Worlds - Trending", "Games - Active", "New & Noteworthy", etc. This can be useful for quickly finding popular worlds in different categories. Clicking on a world tile here will take users to the detailed menu page for that world, giving the user options to select an existing instance to join or to create a new one, and to either join directly or drop a world portal. Each world is represented with a [[Special:MyLanguage/Community:World Thumbnail|thumbnail]], giving insight into its contents.
-</div>
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Recently visited, and favorite worlds ====
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Within the World tab, there is a collapsed dropdown titled '''My Worlds''', which contain any worlds uploaded, recently visited and favorite world lists by the user.
-</div>
 <span id="Search"></span>
 ====Wyszukiwanie====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-From the Worlds tab, users can use the "Search Worlds" button to search for a specific world by title, description, tag, author, etc. These can also be sorted by Relevance, Last Updated, and Popular.
+On the top left of the Worlds tab, users can use the "Search Worlds" button to search for a specific world by title, description, tag, author, etc. These can also be sorted by Relevance, Last Updated, and Popular.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Users can also use the Search tab on the Main Menu. This tab includes a variety of different search terms for discovering worlds, sorted into two different categories: Recommended Searches, and Quick World Searches. Quick World Searches can be shuffled to spot different search terms.
 </div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====World categories====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+World categories, also known as world rows, are a dynamic, or curated selection of worlds. They can be accessed on the left side of the "Worlds" tab, under the "Featured Worlds" heading.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The categories include:
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* VRCat's Variety Box
+* Spotlight Mobile
+* Popular
+* Active
+* New & Noteworthy
+* Avatar Worlds
+* Games
+* Spotlight Cross Platform
+* Spotlight PC
+* New
+* Updated Recently
+* Community Labs
+* Random
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====Joining====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Clicking on a world tile anywhere on the "Worlds" tab will bring up the dedicated world page for that world. The world tile is represented with a [[Special:MyLanguage/Community:World Thumbnail|thumbnail]] & the world name, giving insight into its contents. This page features more details about the world, such as it's name, the author, description, actions and more.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To join the world, users can simply click the "Join" button. Alternatively, users can drop a portal to the world as well, by clicking "Drop Portal". The instance of the world a user joins can be changed on the right side, or a new instance can be created under the Actions heading.
+</div> 
+
 <span id="Portals"></span>
 ===Portale===
 
@@ -73,12 +107,14 @@ Users can also use the Search tab on the Main Menu. This tab includes a variety 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 [[Special:MyLanguage/Portals|Portals]] provide a quick way for users to access a specific world and instance, without having to individually find it through the menu. The portal will display the world image inside itself, and it will usually have the title above alongside other details such as user capacity and region. By default, walking forward into a portal, will transfer the user to the associated world, but [[Special:MyLanguage/Settings#Comfort & Safety|settings]] can be changed so that it requires user input (Portal Prompt), to prevent accidental travel. Portals will always come in two distinct forms:
 </div>
+
 <span id="Static_portals"></span>
 ====Statyczne portale====
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Worlds may contain 'static portals' that they feature to serve as a link to other worlds. These are part of the world, and as such, usually stay there permanently, ready for people to interact with. If a user walks through a static portal, a countdown, starting from thirty will begin, to which any following user can proceed into the same instance until the countdown expires.
 </div>
+
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====User-placed portals====
 </div>
@@ -86,8 +122,11 @@ Worlds may contain 'static portals' that they feature to serve as a link to othe
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Users can place portals to a world instance, by searching for a world in the World tab, then choosing '''New Instance''', followed by the instance type, and finalized with '''Drop Portal'''. Portals can be placed down on most surfaces in the world, except near the designated spawn point(s).  These appear the same as static portals, except the countdown timer initiates when the portal is dropped by the user, starting at thirty seconds. The timer can be extended, by having more users enter the portal. Once the timer expires, the portal disappears.
 </div>
-<span id="Creating_and_uploading_worlds"></span>
+
+<span id="Creation"></span>
+<div class="mw-translate-fuzzy">
 ==Tworzenie i przesyłanie światów==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 In order to create and upload a VRChat world, a user must have reached the "User" trust rank.
@@ -96,6 +135,7 @@ In order to create and upload a VRChat world, a user must have reached the "User
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To get started with creating your world, download the [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]], which will help with the installation of the latest compatible version of Unity for VRChat, and install the [[Special:MyLanguage/VRChat SDK|VRChat SDK]] into a world project. Uploading a world publicly for the first time, will place it into [[Special:MyLanguage/Community Labs|community labs]] before formally being published.
 </div> 
+
 <span id="See_also"></span>
 ==Zobacz też==
 
@@ -107,22 +147,23 @@ To get started with creating your world, download the [[Special:MyLanguage/VRCha
 * [[Community Labs|Laboratoria Społeczności]]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* [[Category:Features{{#translation:}}]]
+<div class="mw-translate-fuzzy">
+*[[Special:MyLanguage/Instances{{#translation:}}|Instancje]]
 </div>
 
-*[[Special:MyLanguage/Instances{{#translation:}}|Instancje]]
-
 *[[Special:MyLanguage/Portals|Portale]]
+
 <span id="Trivia"></span>
 ==Ciekawostki==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * The very first VRChat world was a café; an updated version was uploaded on January 16th, 2024, for VRChat's 10th anniversary.<ref>[https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973 '''VRChat.''' ''VRChat Cafe.'' VRChat, 16 Jan. 2024. ''VRChat'', https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973]</ref>
 </div>
+
 <span id="References"></span>
 ==Przypisy==
 
 <references />
 
-[[Category:Needs Images{{#translation:}}]]
+[[Category:Features{{#translation:}}]]
+[[Category:Needs images{{#translation:}}]]
