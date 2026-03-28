@@ -1,57 +1,42 @@
 <languages/>
-<translate>
-<!--T:1-->
 ''See also [[Special:MyLanguage/Instances|Instances]] for further information.''{{Noticebox/Official}}
 '''Worlds''' are the virtual spaces inhabited by users on [[Special:MyLanguage/VRChat|VRChat]]. They are the locations wherein users can interact with each other, the environment, and other features and mechanics. Worlds are created by members of the community, and uploaded as either public or private using the [[Special:MyLanguage/VRChat SDK|VRChat SDK]], intended for others to join. Worlds must be uploaded for each [[Special:MyLanguage/Platforms|platform]] to be compatible for users of that platform to join.
 
-<!--T:2-->
 There's a variety of world types covering topics ranging from social hangouts, games, to avatar showcases, scenic views, and more. Each world can have multiple sessions running at the same time, referred to as [[Special:MyLanguage/Instances|instances]], which have a global region they're linked to, a maximum user capacity set by the world author, and an instance type that controls who can join and moderate the world instance.
 
-==Discovery & joining== <!--T:3-->
+==Discovery & joining==
 
-</translate>
-[[File:VRC Worlds Banner.png|thumb|<translate><!--T:4--> Official render of the Worlds logo</translate>]]
-<translate>
-<!--T:38-->
+[[File:VRC Worlds Banner.png|thumb|Official render of the Worlds logo]]
 Users can start discovering worlds before launching VRChat for the first time, by logging into the [https://vrchat.com/home VRChat website], or using the main page of VRChat on mobile devices. When launching VRChat for the first time, users will spawn in their home world.
 
-===Home world === <!--T:5-->
+===Home world ===
 
-<!--T:6-->
 The home world is a world, a user joins when launching VRChat. By default, the home world is set to the [[Special:MyLanguage/VRChat Home|VRChat Home]], but can be changed to any world<ref group="note" name="any-world">Users cannot set their home world to worlds that are, private, or that are in [[Special:MyLanguage/Community_Labs|Community Labs]].</ref> available within VRChat. When clicking on a world, under the actions section, click '''Make Home''' to set that world as your home world.
 
-<!--T:7-->
 The home world's instance type and region can also be changed. By default, the instance type is Invite and the region is automatically set to one best for you. This can be changed in the [[Special:MyLanguage/Settings#Safety|Comfort & Safety settings.]]
 <!-- Technically, you can set the home world to private and community labs worlds, but it only works via the API. Within the client you can only set it to public, non community labs worlds. -->
 <references group="note" />
 
-==="Worlds" Main Menu tab=== <!--T:10-->
+==="Worlds" Main Menu tab===
 
-<!--T:11-->
 Users can navigate to the "Worlds" tab by opening the [[Special:MyLanguage/Quick Menu|Quick Menu]], and clicking the '''Worlds''' button on the Launch Pad or clicking the "Worlds" tab on the Main Menu. By default, the page will display VRCat's Variety Box, which features a random world from all world categories. 
 
-====My Worlds==== <!--T:13-->
+====My Worlds====
 
-<!--T:14-->
 On the left side of the World tab, there is a collapsed dropdown titled '''My Worlds'''. The dropdown contains worlds that the user has recently visited, favorite world lists, recently updated favorited worlds, and uploaded worlds.
 
-====Search==== <!--T:15-->
+====Search====
 
-<!--T:16-->
 On the top left of the Worlds tab, users can use the "Search Worlds" button to search for a specific world by title, description, tag, author, etc. These can also be sorted by Relevance, Last Updated, and Popular.
 
-<!--T:17-->
 Users can also use the Search tab on the Main Menu. This tab includes a variety of different search terms for discovering worlds, sorted into two different categories: Recommended Searches, and Quick World Searches. Quick World Searches can be shuffled to spot different search terms.
 
-====World categories==== <!--T:39-->
+====World categories====
 
-<!--T:12-->
 World categories, also known as world rows, are a dynamic, or curated selection of worlds. They can be accessed on the left side of the "Worlds" tab, under the "Featured Worlds" heading.
 
-<!--T:40-->
 The categories include:
 
-<!--T:41-->
 * VRCat's Variety Box
 * Spotlight Mobile
 * Popular
@@ -66,62 +51,48 @@ The categories include:
 * Community Labs
 * Random
 
-====Joining==== <!--T:42-->
+====Joining====
 
-<!--T:43-->
 Clicking on a world tile anywhere on the "Worlds" tab will bring up the dedicated world page for that world. The world tile is represented with a [[Special:MyLanguage/Community:World Thumbnail|thumbnail]] & the world name, giving insight into its contents. This page features more details about the world, such as it's name, the author, description, actions and more. 
 
-<!--T:44-->
 To join the world, users can simply click the "Join" button. Alternatively, users can drop a portal to the world as well, by clicking "Drop Portal". The instance of the world a user joins can be changed on the right side, or a new instance can be created under the Actions heading. 
 
-===Portals === <!--T:18-->
+===Portals ===
 
-<!--T:19-->
 ''See also [[Special:MyLanguage/Portals|Portals]] for further information.''
 
-<!--T:20-->
 [[Special:MyLanguage/Portals|Portals]] provide a quick way for users to access a specific world and instance, without having to individually find it through the menu. The portal will display the world image inside itself, and it will usually have the title above alongside other details such as user capacity and region. By default, walking forward into a portal, will transfer the user to the associated world, but [[Special:MyLanguage/Settings#Comfort & Safety|settings]] can be changed so that it requires user input (Portal Prompt), to prevent accidental travel. Portals will always come in two distinct forms:
 
-====Static portals==== <!--T:21-->
+====Static portals====
 
-<!--T:22-->
 Worlds may contain 'static portals' that they feature to serve as a link to other worlds. These are part of the world, and as such, usually stay there permanently, ready for people to interact with. If a user walks through a static portal, a countdown, starting from thirty will begin, to which any following user can proceed into the same instance until the countdown expires.
 
-====User-placed portals==== <!--T:23-->
+====User-placed portals====
 
-<!--T:24-->
 Users can place portals to a world instance, by searching for a world in the World tab, then choosing '''New Instance''', followed by the instance type, and finalized with '''Drop Portal'''. Portals can be placed down on most surfaces in the world, except near the designated spawn point(s).  These appear the same as static portals, except the countdown timer initiates when the portal is dropped by the user, starting at thirty seconds. The timer can be extended, by having more users enter the portal. Once the timer expires, the portal disappears.
 
-==Creation== <!--T:25-->
+==Creation==
 
-<!--T:26-->
 In order to create and upload a VRChat world, a user must have reached the "User" trust rank.
 
-<!--T:27-->
 To get started with creating your world, download the [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]], which will help with the installation of the latest compatible version of Unity for VRChat, and install the [[Special:MyLanguage/VRChat SDK|VRChat SDK]] into a world project. Uploading a world publicly for the first time, will place it into [[Special:MyLanguage/Community Labs|community labs]] before formally being published. 
 
-==See also== <!--T:37-->
+==See also==
 
-<!--T:28-->
 * [[Special:MyLanguage/List of worlds created by VRChat|List of worlds created by VRChat]]
 
-<!--T:36-->
 * [[Special:MyLanguage/Community Labs|Community Labs]]
 
-<!--T:30-->
 *[[Special:MyLanguage/Instances|Instances]]
 
-<!--T:31-->
 *[[Special:MyLanguage/Portals|Portals]]
 
-==Trivia== <!--T:32-->
+==Trivia==
 
-<!--T:33-->
 * The very first VRChat world was a café; an updated version was uploaded on January 16th, 2024, for VRChat's 10th anniversary.<ref>[https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973 '''VRChat.''' ''VRChat Cafe.'' VRChat, 16 Jan. 2024. ''VRChat'', https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973]</ref>
 
-==References== <!--T:34-->
+==References==
 
-</translate>
 <references />
 
 [[Category:Features{{#translation:}}]]
