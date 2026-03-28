@@ -20,6 +20,11 @@ Les contacts sont un système permettant aux avatars de détecter des collisions
 
 Un « '''contact sender''' » défini un volume qui peut détecter un « contact receiver » homologue. Les « senders » peuvent être sous forme de sphère ou de capsule et utiliser le « root transform », « local position », « rotation offsets », ainsi qu'une ou plusieurs étiquettes de collision.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Noticebox/unreleased}}
+A box shape for contacts is in development and planned for a future SDK release<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] on ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 'Developer Update - 19 March 2026'] on ''[[ask.vrchat.com]]''.</ref>. Box-shaped contacts will be available for both avatars and worlds, with configurable width, height, and depth. Box-shaped contact receivers will also support an additional proximity calculation mode based on the distance from the sender to the positive Z face of the box.
+</div>
+
 Sur les avatars, la section « '''Colliders''' » de « l'[[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] » crée des « contacts senders » pour les parties du corps commune, tels que les mains et les doigts
 
 <span id="Contact_Receivers"></span>
@@ -79,5 +84,5 @@ Met en pause immédiatement toutes les interactions (qu'importe les paramètres)
 
 <references/>
 
-[[Category:Needs images]]
+[[Category:Needs images{{#translation:}}]]
 [[Category:Features{{#translation:}}]]
