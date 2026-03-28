@@ -3,11 +3,18 @@
 '''Миры''' - Это виртуальные пространства, населенные пользователями [[Special:MyLanguage/VRChat|VRChat]]. Это места, где пользователи могут взаимодействовать друг с другом, окружением и другими функциями и механиками. Миры создаются членами сообщества и загружаются как общедоступные или частные с помощью [[Special:MyLanguage/VRChat SDK|VRChat SDK]]. Миры должны быть загружены на каждую [[Special:MyLanguage/Platforms|платформу]] индивидуально, чтобы быть совместимыми, чтобы пользователи с этой платформы могли присоединиться.
 
 Существует множество типов мира, охватывающих самые разные темы: от социальных миров и игр до витрин аватаров, сценических постановок и многого другого. В каждом мире может одновременно работать несколько сеансов, называемых [[Special:MyLanguage/Instances|инстансами]], которые имеют глобальный регион, с которым они связаны, максимальную емкость пользователей, установленную автором мира, и тип инстанса, который контролирует, кто может присоединяться к инстансу мира и модерировать его.
-<span id="Discovering_and_joining_worlds"></span>
-==Исследование миров и присоединение к ним==
 
-[[File:VRC Worlds Banner.png|thumb|Официальный рендер логотипа Миров]]
-Пользователи могут начать исследовать миры до первого запуска VRChat, зайдя на сайт [https://vrchat.com/home VRChat home], или используя главную страницу VRChat на мобильных устройствах. При первом запуске VRChat пользователи будут появляться в своем домашнем мире.
+<span id="Discovery_&amp;_joining"></span>
+<div class="mw-translate-fuzzy">
+==Исследование миров и присоединение к ним==
+</div>
+
+[[File:VRC Worlds Banner.png|thumb|<span class="mw-translate-fuzzy">Официальный рендер логотипа Миров]]
+Пользователи могут начать исследовать миры до первого запуска VRChat, зайдя на сайт [https://vrchat.com/home VRChat home], или используя главную страницу VRChat на мобильных устройствах. При первом запуске VRChat пользователи будут появляться в своем домашнем мире.</span>]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Users can start discovering worlds before launching VRChat for the first time, by logging into the [https://vrchat.com/home VRChat website], or using the main page of VRChat on mobile devices. When launching VRChat for the first time, users will spawn in their home world.
+</div>
+
 <span id="Home_world"></span>
 ===Домашний мир===
 
@@ -16,47 +23,100 @@
 Тип и регион инстанса домашнего мира также можно изменить. По умолчанию типом инстанса является «Приглашение», а регион автоматически устанавливается на наиболее подходящий для вас. Это можно изменить в [[Special:MyLanguage/Settings#Safety|настройках комфорта и безопасности.]]
 <!-- Технически вы можете установить в качестве домашнего мира частный мир и мир из Community Labs, но это работает только через API. В клиенте вы можете установить его только для общедоступных миров, не принадлежащих Community Labs. -->
 <references group="note" />
-<span id="Using_the_menu"></span>
-===Использование меню===
 
-Открывая [[Special:MyLanguage/Menus|меню]] есть несколько разных путей, по которым можно присоединиться к новому миру или инстансу.
-
-<span id="&quot;Worlds&quot;_Quick_Link_/_tab"></span>
+<span id="&quot;Worlds&quot;_Main_Menu_tab"></span>
+<div class="mw-translate-fuzzy">
 ====Быстрая ссылка / вкладка "Миры"====
+</div>
 
+<div class="mw-translate-fuzzy">
 При открытии [[Special:MyLanguage/Quick Menu|Быстрого меню]] нажатие кнопки Быстрых ссылок для раздела '''Миры''' перенаправляет пользователя в [[Special:MyLanguage/Main Menu|Главное меню]], где по умолчанию отображается подборка VRCat's Variety Box со случайным набором миров из разных категорий. Находясь в любом разделе Главного меню, пользователь также может перейти на эту страницу через вкладку "Миры" в нижней части интерфейса.
+</div> 
 
-Слева от вкладки "Миры" можно выбрать определённую категорию миров, например "Популярные", "Миры с аватарами – Популярные", "Игры – Активные", "Новые и примечательные" и другие. Это удобно для быстрого поиска популярных миров в разных разделах. Нажатие на плитку мира открывает подробную страницу этого мира, где пользователь может выбрать существующий инстанс для присоединения или создать новый, а затем либо войти напрямую, либо разместить портал. Каждый мир представлен своим [[Special:MyLanguage/Community:World Thumbnail|миниатюрным изображением]], которое помогает понять, что он из себя представляет.
-<span id="Recently_visited,_and_favorite_worlds"></span>
+<span id="My_Worlds"></span>
+<div class="mw-translate-fuzzy">
 ====Недавно посещённые и избранные миры====
+</div>
 
+<div class="mw-translate-fuzzy">
 Во вкладке "Миры" находится свёрнутый выпадающий список под названием '''Мои миры''', который содержит загруженные пользователем миры, недавно посещённые миры и списки избранных миров.
+</div>
+
 <span id="Search"></span>
 ====Поиск====
 
+<div class="mw-translate-fuzzy">
 Из вкладки "Миры" пользователи могут использовать кнопку "Поиск миров", чтобы найти конкретный мир по названию, описанию, тегу, автору и другим параметрам. Результаты поиска также можно отсортировать по релевантности, дате последнего обновления и популярности.
+</div>
 
 Пользователи также могут воспользоваться вкладкой "Поиск" в Главном меню. В этой вкладке представлены разные варианты поисковых запросов для поиска миров, разделённые на две категории: "Рекомендуемые запросы" и "Быстрые поисковые запросы миров".
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====World categories====
+</div>
+
+<div class="mw-translate-fuzzy">
+Слева от вкладки "Миры" можно выбрать определённую категорию миров, например "Популярные", "Миры с аватарами – Популярные", "Игры – Активные", "Новые и примечательные" и другие. Это удобно для быстрого поиска популярных миров в разных разделах. Нажатие на плитку мира открывает подробную страницу этого мира, где пользователь может выбрать существующий инстанс для присоединения или создать новый, а затем либо войти напрямую, либо разместить портал. Каждый мир представлен своим [[Special:MyLanguage/Community:World Thumbnail|миниатюрным изображением]], которое помогает понять, что он из себя представляет.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The categories include:
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* VRCat's Variety Box
+* Spotlight Mobile
+* Popular
+* Active
+* New & Noteworthy
+* Avatar Worlds
+* Games
+* Spotlight Cross Platform
+* Spotlight PC
+* New
+* Updated Recently
+* Community Labs
+* Random
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====Joining====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Clicking on a world tile anywhere on the "Worlds" tab will bring up the dedicated world page for that world. The world tile is represented with a [[Special:MyLanguage/Community:World Thumbnail|thumbnail]] & the world name, giving insight into its contents. This page features more details about the world, such as it's name, the author, description, actions and more.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To join the world, users can simply click the "Join" button. Alternatively, users can drop a portal to the world as well, by clicking "Drop Portal". The instance of the world a user joins can be changed on the right side, or a new instance can be created under the Actions heading.
+</div> 
+
 <span id="Portals"></span>
 ===Порталы ===
 
 См. также "[[Special:MyLanguage/Portals|Порталы]]" для получения дополнительной информации.
 
 [[Special:MyLanguage/Portals|Порталы]] дают пользователям быстрый способ перейти в определённый мир и инстанс, не ища его вручную через меню. Портал отображает изображение мира внутри себя, а над ним обычно показывается название и другие сведения, такие как максимальное число пользователей и регион. По умолчанию, если пройти вперёд в портал, пользователь будет перенесён в связанный мир, но в [[Special:MyLanguage/Settings#Comfort & Safety|настройках]] можно включить запрос подтверждения (Подтверждать вход в порталы), чтобы избежать случайного перехода.
+
 <span id="Static_portals"></span>
 ====Статичные порталы====
 
 Миры могут содержать "статические порталы", которые используются как ссылки на другие миры. Такие порталы являются частью мира и, как правило, находятся там постоянно, готовые к использованию. Когда пользователь проходит через статический портал, запускается обратный отсчёт, начиная с тридцати секунд. В течение этого времени любой следующий пользователь может пройти в тот же инстанс, пока таймер не закончится.
+
 <span id="User-placed_portals"></span>
 ====Порталы, размещённые пользователями====
 
 Пользователи могут размещать порталы в инстанс мира, найдя мир во вкладке "Миры", затем выбрав '''Новый инстанс''', указав тип инстанса и завершив действие кнопкой '''Разместить портал'''. Порталы можно разместить на большинстве поверхностей в мире, за исключением областей рядом с точками появления. Такие порталы выглядят так же, как статические порталы, но их таймер начинается в момент, когда пользователь размещает портал, начиная отсчёт с тридцати секунд. Таймер можно продлить, если больше пользователей войдут в портал. Когда таймер заканчивается, портал исчезает.
-<span id="Creating_and_uploading_worlds"></span>
+
+<span id="Creation"></span>
+<div class="mw-translate-fuzzy">
 ==Создание и загрузка миров==
+</div>
 
 Чтобы создать и загрузить мир VRChat, пользователь должен достичь ранга доверия "User".
 
 Чтобы начать создавать свой мир, скачайте [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]], который поможет установить последнюю совместимую версию Unity для VRChat, а также установить [[Special:MyLanguage/VRChat SDK|VRChat SDK]] в проект мира. При первой публичной загрузке мир попадёт в [[Special:MyLanguage/Community Labs|Community Labs]], прежде чем будет опубликован как полноценный публичный мир. 
+
 <span id="See_also"></span>
 ==См. также==
 
@@ -64,18 +124,21 @@
 
 * [[Special:MyLanguage/Community Labs|Community Labs]]
 
-* [[Category:Features{{#translation:}}]]
-
+<div class="mw-translate-fuzzy">
 * [[Special:MyLanguage/Instances{{#translation:}}|Инстансы]]
+</div>
 
 * [[Special:MyLanguage/Portals|Порталы]]
+
 <span id="Trivia"></span>
 ==Интересные факты==
 
 * Первый мир VRChat был кафе. Обновлённая версия была загружена 16 января 2024 года в честь 10-летия VRChat.<ref>[https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973 '''VRChat.''' ''VRChat Cafe.'' VRChat, 16 Jan. 2024. ''VRChat'', https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973]</ref>
+
 <span id="References"></span>
 ==Ссылки==
 
 <references />
 
-[[Category:Needs Images{{#translation:}}]]
+[[Category:Features{{#translation:}}]]
+[[Category:Needs images{{#translation:}}]]
