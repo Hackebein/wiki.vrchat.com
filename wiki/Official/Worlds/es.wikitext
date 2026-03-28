@@ -3,11 +3,18 @@
 Los '''Mundos''' son los espacios virtuales habitados por los usuarios en [[Special:MyLanguage/VRChat|VRChat]]. Lugares donde los usuarios pueden interactuar entre sí, con el entorno y con otras características y mecánicas. Los mundos son creados por los miembros de la comunidad, y subidos como públicos o privados utilizando el [[Special:MyLanguage/VRChat SDK|SDK de VRChat ]], destinado a que otros se unan. Los mundos deben subirse a cada [[Special:MyLanguage/Platforms|plataforma]] para que sean compatibles y los usuarios de esa plataforma puedan unirse.
 
 Hay una gran variedad de tipos de mundos que abarcan temas que van desde lugares de reunión social y juegos hasta expositores de avatares, vistas panorámicas y mucho más. Cada mundo puede tener varias sesiones funcionando al mismo tiempo, denominadas [[Special:MyLanguage/Instances|estancias]], que tienen una región global a la que están vinculadas, una capacidad máxima de usuarios establecida por el autor del mundo y un tipo de estancia que controla quién puede unirse y moderar la estancia del mundo.
-<span id="Discovering_and_joining_worlds"></span>
-==Descubrir y unirse a mundos==
 
-[[File:VRC Worlds Banner.png|thumb|Render oficial del logotipo de mundos]]
-Los usuarios pueden empezar a descubrir mundos antes de iniciar VRChat por primera vez, accediendo a la [https://vrchat.com/home página web de VRChat], o utilizando la página principal de VRChat en dispositivos telefónicos. Al iniciar VRChat por primera vez, los usuarios aparecerán en su mundo casa.
+<span id="Discovery_&amp;_joining"></span>
+<div class="mw-translate-fuzzy">
+==Descubrir y unirse a mundos==
+</div>
+
+[[File:VRC Worlds Banner.png|thumb|<span class="mw-translate-fuzzy">Render oficial del logotipo de mundos]]
+Los usuarios pueden empezar a descubrir mundos antes de iniciar VRChat por primera vez, accediendo a la [https://vrchat.com/home página web de VRChat], o utilizando la página principal de VRChat en dispositivos telefónicos. Al iniciar VRChat por primera vez, los usuarios aparecerán en su mundo casa.</span>]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Users can start discovering worlds before launching VRChat for the first time, by logging into the [https://vrchat.com/home VRChat website], or using the main page of VRChat on mobile devices. When launching VRChat for the first time, users will spawn in their home world.
+</div>
+
 <span id="Home_world"></span>
 ===Mundo Casa ===
 
@@ -16,47 +23,100 @@ El mundo casa es un mundo al cual el usuario se une al iniciar VRChat. Por defec
 El tipo de estancia y la región del mundo casa también se pueden cambiar. Por defecto, el tipo de estancia es "Invitación" y la región se establece automáticamente en la que mejor se adapte a ti. Esto se puede cambiar en la [[Special:MyLanguage/Settings#Safety|Configuración de confort y seguridad]].
 <!-- Técnicamente, puedes establecer como mundo casa un mundo privado y laboratorios de la comunidad, pero solo funciona a través de la API. Dentro del cliente solo puedes configurarlo en mundos públicos, no de laboratorios de la comunidad. -->
 <references group="note" />
-<span id="Using_the_menu"></span>
-===Utilizar el menú ===
 
-Al abrir el [[Special:MyLanguage/Menus|menú]], hay varias formas distintas en las que uno puede unirse a un nuevo mundo, o estancia del mismo mundo.
-
-<span id="&quot;Worlds&quot;_Quick_Link_/_tab"></span>
+<span id="&quot;Worlds&quot;_Main_Menu_tab"></span>
+<div class="mw-translate-fuzzy">
 ====Enlace rápido / pestaña "Mundos"====
+</div>
 
+<div class="mw-translate-fuzzy">
 Al abrir el [[Special:MyLanguage/Quick Menu|Menú rápido]], usando el botón en enlaces rápidos de '''Mundos''' llevará al usuario al [[Special:MyLanguage/Main Menu|Menú principal]], que por defecto, muestra la Caja de variedades de VRCat, y presenta una selección aleatoria de varias categorías de mundos diferentes. En cualquier lugar del Menú principal, los usuarios también pueden llegar a esta página usando la pestaña Mundo en la parte inferior.
+</div> 
 
-A la izquierda de la pestaña Mundos, se puede seleccionar una categoría específica de mundos, como "Popular", "Mundos de avatares", "Juegos", "Nuevo y destacable», etc. Esto puede ser útil para encontrar rápidamente mundos populares en diferentes categorías. Al hacer clic en la ficha de un mundo, los usuarios accederán a la página de menú detallada de ese mundo, donde podrán seleccionar una estancia existente a la que unirse o crear una nueva, y unirse directamente o soltar un portal del mundo. Cada mundo está representado con una [[Special:MyLanguage/Community:World Thumbnail|miniatura]], que da una idea de su contenido.
-<span id="Recently_visited,_and_favorite_worlds"></span>
+<span id="My_Worlds"></span>
+<div class="mw-translate-fuzzy">
 ====Visitado recientemente y mundos favoritos ====
+</div>
 
+<div class="mw-translate-fuzzy">
 Dentro de la pestaña Mundos, hay una sección contraída titulada '''Mis mundos''', que contiene los mundos subidos, visitados recientemente y las listas de mundos favoritos del usuario.
+</div>
+
 <span id="Search"></span>
 ====Búsqueda====
 
+<div class="mw-translate-fuzzy">
 En la pestaña Mundos, los usuarios pueden utilizar el botón "Buscar mundos" para buscar un mundo concreto por título, descripción, etiqueta, autor, etc. También se pueden ordenar por relevancia, última actualización y popularidad.
+</div>
 
 Los usuarios también pueden utilizar la pestaña Búsqueda del menú principal. Esta pestaña incluye una variedad de términos de búsqueda para descubrir mundos, clasificados en dos categorías diferentes: Búsquedas recomendadas y Búsquedas rápidas de mundo. Las Búsquedas rápidas de mundos pueden barajarse para descubrir diferentes términos de búsqueda.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====World categories====
+</div>
+
+<div class="mw-translate-fuzzy">
+A la izquierda de la pestaña Mundos, se puede seleccionar una categoría específica de mundos, como "Popular", "Mundos de avatares", "Juegos", "Nuevo y destacable», etc. Esto puede ser útil para encontrar rápidamente mundos populares en diferentes categorías. Al hacer clic en la ficha de un mundo, los usuarios accederán a la página de menú detallada de ese mundo, donde podrán seleccionar una estancia existente a la que unirse o crear una nueva, y unirse directamente o soltar un portal del mundo. Cada mundo está representado con una [[Special:MyLanguage/Community:World Thumbnail|miniatura]], que da una idea de su contenido.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The categories include:
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* VRCat's Variety Box
+* Spotlight Mobile
+* Popular
+* Active
+* New & Noteworthy
+* Avatar Worlds
+* Games
+* Spotlight Cross Platform
+* Spotlight PC
+* New
+* Updated Recently
+* Community Labs
+* Random
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====Joining====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Clicking on a world tile anywhere on the "Worlds" tab will bring up the dedicated world page for that world. The world tile is represented with a [[Special:MyLanguage/Community:World Thumbnail|thumbnail]] & the world name, giving insight into its contents. This page features more details about the world, such as it's name, the author, description, actions and more.
+</div> 
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To join the world, users can simply click the "Join" button. Alternatively, users can drop a portal to the world as well, by clicking "Drop Portal". The instance of the world a user joins can be changed on the right side, or a new instance can be created under the Actions heading.
+</div> 
+
 <span id="Portals"></span>
 ===Portales ===
 
 ''Véase también [[Special:MyLanguage/Portals|Portales]] para más información''.
 
 Los [[Special:MyLanguage/Portals|Portales]] proporcionan una forma rápida para que los usuarios accedan a un mundo y estancia específicos, sin tener que encontrarlo individualmente a través del menú. El portal mostrará la imagen del mundo dentro de sí mismo, y normalmente tendrá el título encima junto a otros detalles como la capacidad de usuarios y la región. Por defecto, caminar hacia adelante en un portal, transferirá al usuario al mundo asociado, pero los [[Special:MyLanguage/Settings#Comfort & Safety|ajustes]] se pueden cambiar para que requiera la confirmación del usuario (Confirmación de entrada al portal), para prevenir viajes accidentales. Existen dos tipos de portales:
+
 <span id="Static_portals"></span>
 ====Portales estáticos====
 
 Los mundos pueden contener "portales estáticos" que sirven de enlace con otros mundos. Éstos forman parte del mundo y, como tales, suelen permanecer allí permanentemente, listos para que la gente interactúe con ellos. Si un usuario atraviesa un portal estático, comenzará una cuenta atrás, a partir de treinta, en la que cualquier usuario siguiente podrá entrar en la misma estancia hasta que expire la cuenta atrás.
+
 <span id="User-placed_portals"></span>
 ====Portales colocados por usuarios====
 
 Los usuarios pueden colocar portales a una estancia de mundo, buscando un mundo en la pestaña Mundo, eligiendo '''Nueva estancia''', seguido del tipo de estancia, y finalizando con '''Soltar portal'''. Los portales se pueden colocar en la mayoría de las superficies del mundo, excepto cerca de los puntos de aparición designados.  Aparecen igual que los portales estáticos, excepto que la cuenta atrás se inicia cuando el usuario deja caer el portal, a partir de treinta segundos. El temporizador puede ampliarse si más usuarios entran en el portal. Una vez que el temporizador expira, el portal desaparece.
-<span id="Creating_and_uploading_worlds"></span>
+
+<span id="Creation"></span>
+<div class="mw-translate-fuzzy">
 ==Crear y subir mundos==
+</div>
 
 Para poder crear y subir un mundo a VRChat, el usuario debe haber alcanzado el rango de confianza "Usuario".
 
 Para empezar a crear tu mundo, descarga [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]], que te ayudará con la instalación de la última versión compatible de Unity para VRChat, e instala el [[Special:MyLanguage/VRChat SDK|SDK de VRChat]] en un proyecto de mundo. Al subir un mundo públicamente por primera vez, se colocará en los [[Special:MyLanguage/Community Labs|Laboratorios de la comunidad]] antes de publicarse formalmente. 
+
 <span id="See_also"></span>
 ==Véase también==
 
@@ -64,19 +124,21 @@ Para empezar a crear tu mundo, descarga [[Special:MyLanguage/VRChat Creator Comp
 
 * [[Special:MyLanguage/Community Labs|Laboratorios de la comunidad]]
 
-*
-[[Category:Features{{#translation:}}]]
-
+<div class="mw-translate-fuzzy">
 *[[Special:MyLanguage/Instances|Estancias]]
+</div>
 
 *[[Special:MyLanguage/Portals|Portales]]
+
 <span id="Trivia"></span>
 ==Curiosidades==
 
 * El primer mundo de VRChat era una cafetería; una versión actualizada fue subida el 16 de enero de 2024, para el 10º aniversario de VRChat.<ref>[https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973 '''VRChat.''' ''VRChat Cafe.'' VRChat, 16 de enero de 2024. ''VRChat'', https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973]</ref>
+
 <span id="References"></span>
 ==Referencias==
 
 <references />
 
-[[Category:Needs Images{{#translation:}}]]
+[[Category:Features{{#translation:}}]]
+[[Category:Needs images{{#translation:}}]]
