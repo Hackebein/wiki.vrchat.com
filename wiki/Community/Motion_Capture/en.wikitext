@@ -1,0 +1,145 @@
+{{Noticebox/Community}}
+'''Motion capture''' refers to the process of recording a user's body movements and converting them into animation data that can be applied to humanoid [[Special:MyLanguage/Avatars|avatars]]. Various community-developed tools allow users to capture motion in real time and then process the recorded data into reusable animation files. It's used for a range of purposes in VRChat, including creating animated non-player characters (NPCs) for [[Special:MyLanguage/world|worlds]], recording dance performances, producing machinima-style 3D films, and building reusable avatar animations.
+
+== Overview ==
+
+Motion capture tools for VRChat generally fall into three categories:
+
+* '''In-VRChat recording''' — Tools that capture motion directly inside VRChat, typically relying on VRChat's own inverse kinematics and tracking systems.
+* '''External motion capture software''' — Standalone applications that use VR hardware (such as headsets and body trackers) outside of VRChat to record motion.
+* '''Multi-tool setups''' — Combinations of software that use protocols such as VMC (Virtual Motion Capture) to stream motion data between applications for recording or live performance.
+
+After motion is captured, '''post-processing tools''' are often needed to convert raw motion data into standard Unity animation files for use in avatar animators or world projects.
+
+== In-VRChat recording tools ==
+
+These tools capture motion directly within VRChat, using the platform's own tracking and IK systems. Recording in VRChat preserves the platform's native character movement, including locomotion behavior and inverse kinematics.
+
+'''[[Community:ShaderMotion|ShaderMotion]]''' is a shader-based system that encodes avatar bone rotations into video, allowing motion to be recorded within VRChat and exported as <code>.anim</code> files using its AnimationRecorder tool. It supports full-body motion, lip sync, and blinking.
+
+'''AnimRecStudio''' is a VRChat world where users can capture their body movements and generate animation clips. After recording motion in the world, users export the data through VRChat's log files and convert it into animation files using two companion tools: '''Json2Anim''', which reads motion data from VRChat's client logs and converts rotation information into JSON human skeleton data, and '''JsonAnimImporter''', a Unity editor tool that generates humanoid animation files from the JSON data.
+
+'''HyakuashiUdonMotionRecorder''' (HUMR) is a set of [[Special:MyLanguage/Udon|Udon]] prefabs that can be placed in a user's own VRChat world project. When playing in VRChat, the prefabs export animation data to VRChat's log files, which can then be converted into animation files using a Unity tool. HUMR supports high-quality body and hand recording but does not support blend shapes or facial expressions. Because recordings take place in the user's own world, HUMR allows creating animations that interact with the world environment.
+
+'''MotionCaptureLabo''' is a VRChat world that provides a recording avatar for motion capture. The tool exports animation data as text that can be copied from VRChat and pasted into a Unity conversion tool called MotionDecoder. Due to VRChat's text field character limits, animation quality is limited and becomes more choppy at higher frame rates.
+
+== External motion capture software ==
+
+These tools run outside of VRChat and use VR hardware directly to capture motion.
+
+'''Virtual Motion Recorder''' is a standalone application that records motion from VR hardware and exports <code>.anim</code> files directly. It uses the VRM format for humanoid models. Users can convert their VRChat avatar to VRM for facial expression support or use the application's built-in preset models for body recording.
+
+'''Mocap Fusion [VR]''' is a motion capture application that supports VR trackers, finger tracking, eye tracking, and face tracking. It allows users to convert most VRChat avatars, environments, and props for use within the application. Mocap Fusion provides facial expression puppeteering through joystick, trackpad, and trigger-based controls.
+
+== Multi-tool setups ==
+
+Some workflows combine multiple applications using the VMC (Virtual Motion Capture) protocol to stream motion data between tools.
+
+'''Virtual Motion Capture''' (VMC) is software for controlling a VRM character using VR hardware, commonly used for VTubing. It supports lip sync, face tracking, and gesture-based facial expressions. Some features, such as sending and receiving motion data to other tools via the VMC protocol, require the full version of the software, enabling recording workflows when combined with compatible tools.
+
+'''EasyVirtualMotionCaptureForUnity''' (EVMC4U) is a Unity plugin that receives VMC protocol data to control a character directly in the Unity editor. Combined with EasyMotionRecorder, it can record character motion into <code>.anim</code> files. This setup requires Virtual Motion Capture as the motion source.
+
+'''VMC4B''' (Blender addon for VMCProtocol) is a Blender addon that receives VMC protocol data to control a character in a Blender project. This allows users to record motion directly in Blender, render videos, or export animations to various formats compatible with Unity and other game engines.
+
+== Post-processing tools ==
+
+After motion is captured, additional tools are often needed to convert raw data into usable animation files.
+
+{| class="wikitable"
+! Tool
+! Description
+! Input
+! Output
+|-
+| '''AnimationRecorder''' (ShaderMotion)
+| Records character movement driven by ShaderMotion video playback into a Unity animation file.
+| ShaderMotion video playback
+| <code>.anim</code>
+|-
+| '''EasyMotionRecorder'''
+| Records humanoid character motion in the Unity editor into a custom format, with export to humanoid animation clips.
+| Unity humanoid character (via VRIK, VMC, or other motion source)
+| <code>.anim</code>
+|-
+| '''Json2Anim''' (AnimRecStudio)
+| Reads motion data from VRChat's client logs and converts rotation information into JSON skeleton data.
+| VRChat client logs
+| JSON
+|-
+| '''JsonAnimImporter''' (AnimRecStudio)
+| Generates a humanoid animation file from JSON data produced by Json2Anim.
+| JSON (from Json2Anim)
+| <code>.anim</code>
+|-
+| '''Animation Converter'''
+| Converts Unity <code>.anim</code> files to <code>.fbx</code> format for use in other software or to access Unity's model animation import settings.
+| <code>.anim</code>
+| <code>.fbx</code>
+|}
+
+== Comparison of recording tools ==
+
+{| class="wikitable"
+! Tool
+! Recording environment
+! Body tracking
+! Hand tracking
+! Face tracking
+! Output format
+|-
+| [[Community:ShaderMotion|ShaderMotion]]
+| In VRChat
+| Yes
+| Yes
+| Limited (lip sync, blink)
+| <code>.anim</code> (via AnimationRecorder)
+|-
+| AnimRecStudio
+| In VRChat
+| Yes
+| Yes
+| No
+| <code>.anim</code> (via Json2Anim + JsonAnimImporter)
+|-
+| HUMR
+| In VRChat (user's own world)
+| Yes
+| Yes
+| No
+| <code>.anim</code>
+|-
+| MotionCaptureLabo
+| In VRChat
+| Yes
+| No
+| No
+| Text (via MotionDecoder)
+|-
+| Virtual Motion Recorder
+| Standalone app
+| Yes
+| Yes
+| Yes (with VRM avatar)
+| <code>.anim</code>
+|-
+| Mocap Fusion [VR]
+| Standalone app
+| Yes
+| Yes
+| Yes (eye + face)
+| Various
+|-
+| VMC + EVMC4U
+| Unity editor (via VMC protocol)
+| Yes
+| Yes
+| Yes (via VMC)
+| <code>.anim</code> (via EasyMotionRecorder)
+|-
+| VMC + VMC4B
+| Blender (via VMC protocol)
+| Yes
+| Yes
+| Yes (via VMC)
+| Various (Blender export)
+|}
