@@ -1,0 +1,124 @@
+{{Noticebox/Community}}
+{{Infobox/Asset
+|name=ShaderMotion
+|author=lox9973
+|license=MIT
+|github=CuteWaterBeary/ShaderMotion
+}}
+
+'''ShaderMotion''' is an open-source, shader-based motion-to-video codec for Unity humanoid [[Special:MyLanguage/Avatars|avatars]], originally developed by lox9973. It encodes the bone rotations of a humanoid avatar into colored blocks within a video frame, which can be transmitted via live-streaming platforms and decoded back into motion for playback on a different avatar. The core encoding and decoding system is written entirely in HLSL shader language.
+
+ShaderMotion is designed for streaming full-body motion across VR platforms using live-streaming services. It is used in the VRChat community for live music performances, 3D films, and animation recording. Audiences watching a ShaderMotion-encoded video stream can see a 3D avatar performing the encoded motion in real time, and can move around the performer to view the performance from any angle.
+
+== Overview ==
+
+ShaderMotion operates as a sender-receiver system:
+
+* The '''sender''' (recorder) converts the bone rotations of a humanoid avatar into a grid of color blocks embedded in a video frame.
+* The '''receiver''' (player) converts the color blocks back into bone rotations and applies them to a different avatar, enabling '''motion retargeting''' — the same motion can be played back on any humanoid avatar regardless of body proportions.
+
+Because the motion data is encoded into a standard video stream, it can be transmitted using any video delivery method, including live-streaming platforms, pre-recorded video files, or in-world video players in VRChat.
+
+== Technical details ==
+
+=== Encoding scheme ===
+
+ShaderMotion uses a '''base-3 Gray curve''' as its encoding curve. The encoding maps a bounded real number (representing a bone angle) into RGB color values. The curve is chosen to be continuous, which avoids jitter from quantization errors during video compression.
+
+The encoding process:
+# Normalize the input angle from the range [-1, +1] to [0, 1].
+# Apply a base-3 Gray curve with six dimensions to produce six values in [0, 1].
+# Interpret the six values as two RGB colors in GRB order (green, red, blue), chosen because H.264 video compression encodes in YCrCb color space where the green axis provides the highest precision.
+
+=== Frame layout ===
+
+Each video frame is divided into an 80x45 grid of squares. Horizontally adjacent squares are paired into '''slots''', producing a 40x45 matrix of real numbers between -1 and +1 per frame.
+
+A humanoid avatar occupies the first three columns (slots 0-44, 45-89, and 90-134), with data assigned up to slot 129:
+
+{| class="wikitable"
+! Slots
+! Data
+|-
+| 0-11
+| Hips position, rotation, and avatar scale
+|-
+| 12-26
+| Spine, Chest, UpperChest, Neck, Head
+|-
+| 27-44
+| Upper legs, lower legs, feet
+|-
+| 45-68
+| Shoulders, upper arms, lower arms, hands
+|-
+| 69-70
+| Toes
+|-
+| 71-76
+| Eyes (Jaw deprecated)
+|-
+| 90-129
+| All finger bones (left and right)
+|}
+
+Most slots store swing-twist angles in XYZ order, scaled from [-180, +180] degrees to [-1, +1].
+
+=== Hips encoding ===
+
+The Hips bone is handled differently from other bones because it can both translate and rotate freely. Its position is scaled down by a factor of 2 and encoded into two parts approximating integral and fractional components. The rotation is represented as a rotation matrix (rather than swing-twist or quaternion) to avoid mathematical discontinuities.
+
+The avatar scale (height of the Hips bone in T-pose) is encoded in the ratio of the lengths of the scaled y-axis and z-axis columns of the rotation matrix, enabling motion retargeting across avatars of different sizes.
+
+=== Bone rotation ===
+
+Bone rotation is computed from each bone's neutral pose (the "motorcycle pose" visible in Unity's muscle settings) relative to its parent bone. Rotations are expressed as '''swing-twist angles''' rather than Euler angles or quaternions, for compatibility with Unity's muscle system and for easier interpolation.
+
+The resulting swing-twist angles correspond to Unity's animator muscle values, scaled by the bone's range limit.
+
+== Avatar setup ==
+
+ShaderMotion provides two Unity addons for VRChat integration:
+
+=== VRC Avatar Addon ===
+
+The VRC Avatar Addon configures a VRChat avatar for ShaderMotion recording and playback. It supports Avatar 3.0 and Avatar 2.0, though Avatar 3.0 provides fuller functionality.
+
+=== VRC World Addon ===
+
+The VRC World Addon provides a sample VRCSDK3 world with a video player that drives a puppet avatar from a ShaderMotion-encoded video stream. This enables audiences to watch motion-captured performances in VRChat.
+
+== Animation export ==
+
+ShaderMotion includes an '''AnimationRecorder''' tool that can export avatar motion as Unity <code>.anim</code> files. In the Unity editor, a C# MotionPlayer component drives an animator from the motion texture. While playing back a ShaderMotion-encoded video, the AnimationRecorder captures the resulting bone motion into an animation clip.
+
+Exported <code>.anim</code> files can be used directly in Unity animator controllers. For use in other software, third-party conversion tools can convert them to <code>.fbx</code> format.
+
+== Streaming settings ==
+
+The ShaderMotion documentation suggests the following OBS settings for live streaming ShaderMotion-encoded motion:
+
+{| class="wikitable"
+! Setting
+! Recommended value
+|-
+| Output resolution
+| At least 640x360
+|-
+| Frame rate
+| 60 FPS (lower frame rates are noticeable in VR)
+|-
+| Bitrate
+| 400-800 Kbps (scale proportionally for higher resolution or FPS)
+|-
+| Color space
+| 709
+|-
+| Color range
+| Partial
+|}
+
+== Resources ==
+
+* [https://github.com/CuteWaterBeary/ShaderMotion ShaderMotion] on GitHub
+* [https://gitlab.com/lox9973/ShaderMotion Original ShaderMotion repository] on GitLab
