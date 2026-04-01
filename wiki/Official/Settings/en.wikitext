@@ -1414,7 +1414,7 @@ This menu will vary, depending on the device being used to access VRChat.
 |-
 | Enable Auto Walk 
 
-|On/Off 
+|On/Off (default: Off)
 |Click to [enable/disable] auto walk
 |-
 |Invert Look
@@ -1876,6 +1876,8 @@ All locally cached textures will be deleted.
 |}
 
 ==History==
-[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3]: Removed "Avatar Download Prioritization" options.
+[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3]: Removed "Avatar Download Prioritization" options. VRChat now automatically prioritizes loading avatars of nearby users regardless of friend status.
+
+[https://docs.vrchat.com/docs/vrchat-202612p1-1 2026.1.2p2]: "Enable Auto Walk" default changed to Off for all users.
 
 [[Category:User Interface]]
