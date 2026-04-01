@@ -126,13 +126,9 @@ Made new efforts to ensure that even if you activate this option after the track
 |-
 !Launch Options!!Descriptions
 |-
-| --disable-hw-video-decoding|| rowspan="2" |Forces video decoding to be done in software or hardware.
+| --disable-hw-video-decoding|| rowspan="2" |Forces video decoding to be done in software or hardware. The default for all GPU vendors is hardware decoding.
 
-On AMD graphics cards, the default is "software" because there have been issues in the past. 
-
-You can use the "enable" variant to force hardware decoding.
-
-With other GPU vendors, the default is "hardware", use the "disable" variant to force software decoding.
+Use the "disable" variant to force software decoding.
 
 Warning: Using the "software" option will utilize your CPU to decode video, which can impact your performance.
 
@@ -187,10 +183,8 @@ Most users do not need to use this feature. It is left up to the user to determi
 | --skip-registry-install
 |This prevents VRChat from installing or updating the vrchat:// information in your registry and prevents the "VRChat Installation Helper" popup from appearing. 
 |-
-| --disable-amd-stutter-workaround
-|Disables a rendering workaround that helps prevent stutter on AMD graphics cards. Does nothing on non-AMD GPUs.
-
-It is not recommended to disable this workaround, as it may lead to stutters, but advanced users can set this flag for testing.
+| --enable-amd-stutter-workaround
+|Enables a rendering workaround that may help prevent stutter on AMD graphics cards. Does nothing on non-AMD GPUs. The workaround is disabled by default.
 |-
 | --enable-avpro-in-proton
 |Allow Proton users to re-enable AVPro for video playback. This may cause crashes!
