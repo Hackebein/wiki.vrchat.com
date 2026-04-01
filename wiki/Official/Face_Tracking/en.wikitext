@@ -1,70 +1,89 @@
-{{Noticebox/Stub}}
-'''[[Face Tracking|Face tracking]] for VRChat''' refers to using hardware and software to capture a user's real-life facial expressions and map them onto their [[Avatars]] in real time. This makes avatars more expressive and lifelike, enhancing immersion and social interaction in VRChat.
+'''Face tracking''' refers to using hardware and software to capture a user's real-life facial expressions and map them onto their [[Avatars|avatar]] in real time. Face tracking makes avatars more expressive and lifelike by reflecting eye movement, mouth shapes, and other facial features, which enhances immersion and social interaction in VRChat.
 
-== How Face Tracking works ==
-Face Tracking works with the combination of Eye Tracking and Mouth Tracking (some headsets aren't supporting both) :
+Face tracking typically combines '''eye tracking''' and '''mouth tracking'''. Some headsets support both; others support only one or neither, requiring external hardware or software.
 
-* '''Capture your Eyes and Mouth :''' Your facial movements—like eye blinks, eyebrow raises, and mouth movements—are captured using:
-** '''Webcams''' (e.g., using [[Selfie Expression]] since 2025.1.3. Previously, users would use iFacialMocap on iPhone, VSeeFace on PC)
-** '''Depth cameras''' (e.g., Intel RealSense or iPhone Face ID sensors data)
-** '''Dedicated trackers''' (e.g., Apple ARKit, HTC Vive Facial Tracker or Full Face Tracker for XR Elite, Quest Pro, Varjo XR4, Pimax Crystal Mod, BigScreen Beyond 2)
+== How face tracking works ==
 
-* '''Send Data to VRChat'''
+=== Capturing facial data ===
+A user's facial movements — eye blinks, eyebrow raises, mouth shapes, jaw motion — are captured by one or more input devices:
 
-The facial data is converted into blendshape values (facial expression controls) and sent to VRChat using [[Open Sound Control|OSC]] or avatar-specific animations. Most commonly used OSC tool is [[Community:VRCFT|VRCFT]].
+* '''Webcams''' — VRChat's built-in [[Selfie Expression]] feature (available since 2024.4.2 on Android and 2025.1.3 on PC) uses a standard webcam to track facial expressions on desktop and mobile. Before Selfie Expression, users relied on third-party tools such as iFacialMocap (iPhone) or VSeeFace (PC).
+* '''Depth cameras''' — Devices such as Intel RealSense cameras or the iPhone's Face ID sensor array provide depth data alongside facial capture.
+* '''Dedicated trackers built into VR headsets''' — Headsets like the Meta Quest Pro, HTC Vive Facial Tracker, Varjo XR-4, Pimax Crystal (with optional module), and BigScreen Beyond 2 include inward-facing sensors designed for face and eye tracking.
 
-* '''Drive your Avatar'''  The avatar must be set up with:
-** '''[[Visemes]]''' (for lip syncing)
-** '''Expression blendshapes''' (for emotions like happy, sad, surprised)
-** '''Eye and head tracking''' support
+=== Sending data to VRChat ===
+The captured facial data is converted into '''blendshape values''' (numerical controls for individual facial expression shapes) and sent to VRChat. There are two main paths:
 
-== High-End VR Headsets with Built-in or Add-on Face Tracking ==
+* '''Native support''' — Headsets with built-in face tracking (e.g., Quest Pro) send data directly to VRChat without additional software.
+* '''[[Open Sound Control|OSC]]''' — External tracking software sends blendshape data to VRChat over OSC. The most widely used community tool for this is [[Community:VRCFT|VRChat Face Tracking (VRCFT)]], which acts as a bridge between tracking software and VRChat.
+
+=== Driving the avatar ===
+For face tracking to appear on an avatar, the avatar must be configured with:
+
+* '''[[Visemes]]''' — blendshapes used for lip syncing to voice.
+* '''Expression blendshapes''' — shapes for emotions such as happy, sad, or surprised.
+* '''Eye and head tracking support''' — eye-look settings configured in the [[VRChat SDK]].
+
+== How eye tracking works ==
+Eye tracking is one of the two main components of face tracking. It captures the direction a user is looking and translates that into avatar eye movement. Professional-grade eye trackers can cost thousands of dollars, while DIY alternatives can be built for under $50.
+
+=== Near-eye tracking ===
+Most VR eye trackers use '''near-eye tracking''', where small cameras are mounted inside the headset pointing at each eye. These cameras typically use '''infrared light''' to get a clear, high-contrast image of the pupil regardless of ambient lighting.
+
+The goal is to go from a raw camera image of the eye to a '''3D gaze ray''' — a direction vector indicating where the user is looking. This ray can then drive avatar eye movement or be used for gaze-based interaction.
+
+=== Pupil detection ===
+The first step is locating the pupil in the camera image:
+
+# '''Find the darkest region''' — The system samples pixels across the image to locate the darkest, most uniform patch, which corresponds to the pupil.
+# '''Binary thresholding''' — Pixels darker than a threshold are marked as pupil; lighter pixels are marked as non-pupil. Because lighting and angle cause the pupil to appear non-uniform, a single threshold is often insufficient.
+# '''Cascaded thresholding''' — Multiple threshold values (increasingly relaxed) are tested in parallel. The threshold that produces the most ellipse-like shape is selected as the best fit.
+# '''Contour refinement''' — The raw contour points are filtered by checking whether each point is geometrically consistent with an elliptical shape (concave towards the pupil center). Points that curve outwards are discarded.
+# '''Ellipse fitting''' — An ellipse-fitting algorithm is applied to the refined contour, producing the final '''pupil ellipse''' for that frame.
+
+=== From 2D observations to a 3D gaze ray ===
+A single pupil ellipse is a 2D observation. To compute a 3D gaze direction, the tracker must build a model of the eye in three dimensions:
+
+# '''Estimate the 2D eye center''' — By collecting pupil ellipses across multiple frames at varying gaze angles, the system traces lines through each ellipse. Where three or more lines at different angles intersect, the 2D eye center is found. The tracker averages many such intersections for a stable estimate.
+# '''Construct a 3D eye model''' — The eye is approximated as a sphere (roughly 24 mm in diameter for a typical human eye). The sphere is placed so that its projection aligns with the computed 2D eye center, and its depth is set to produce the best fit to the observed pupil ellipses.
+# '''Compute the 3D pupil center''' — The current 2D pupil position is projected as a ray into 3D space. The point where this ray intersects the 3D eye sphere is the estimated 3D pupil center.
+# '''Derive the gaze ray''' — The direction vector from the 3D eye center to the 3D pupil center becomes the '''gaze ray'''. This ray indicates where the user is looking and can be projected into the VR environment to drive avatar eye movement or interaction.
+
+== Headsets with face tracking support ==
 {| class="wikitable"
 !Headset
-!Face Tracking Support
+!Face tracking support
 !Notes
 |-
 |'''Meta Quest Pro'''
-|✅ Built-in
-|Tracks facial expressions + eye movement with inward-facing sensors
-|-
-|'''Meta Quest 3'''
-|🚫 Not built-in
-⚙️ Experimental (via phone/Webcam + OSC)
-|No native face tracking; requires external tools or mods
+|Built-in
+|Face and eye tracking.
 |-
 |'''Apple Vision Pro'''
-|✅ Built-in (ARKit-based)
-|Full face + eye tracking, but '''not officially compatible''' with VRChat
+|Built-in (ARKit-based)
+|Face and eye tracking.
+|-
+|'''HTC Vive Pro Eye + Facial Tracker'''
+|Built-in / Add-on
+|Eye tracking is built in. A face tracking module is sold separately.
 |-
 |'''HTC Vive Pro 2 + Facial Tracker'''
-|✅ Via add-on
-|Uses HTC Vive Facial Tracker (tracks lower face, jaw, lips)
+|Add-on
+|Face tracking only (no eye tracking).
 |-
-|'''HTC Vive XR Elite'''
-|⚙️ Add-on face tracking planned
-|Eye tracking built-in; face tracking requires future accessory
+|'''HTC Vive XR Elite + Full Face Tracker'''
+|Built-in / Add-on
+|Eye tracking is built in. A face tracking module is sold separately.
 |-
 |'''Pimax Crystal'''
-|⚙️ Optional
-|Eye tracking included, face tracking module sold separately
+|Built-in / Add-on
+|Eye tracking is built in. A face tracking module is sold separately.
 |-
 |'''Varjo XR-4'''
-|✅ Professional-grade
-|Includes face + eye tracking; enterprise-focused (not ideal for consumer VRChat)
+|Built-in
+|Face and eye tracking. Enterprise-focused and priced accordingly.
 |-
-|'''Valve Index'''
-|🚫 No built-in face tracking
-⚙️ Third-party mods possible
-|Some DIY users use '''SlimeVR''' or OSC with webcams
-|-
-|'''Bigscreen Beyond'''
-|🚫 No face tracking
-|No internal face/eye tracking hardware
+|'''Bigscreen Beyond 2e'''
+|Built-in
+|Face and eye tracking.
 |}
-
-== See Also ==
-
-* [[Selfie Expression]]
-* [[Finger tracking]]
-* [[Full-Body Tracking]]
