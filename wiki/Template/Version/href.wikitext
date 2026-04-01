@@ -1,14 +1,14 @@
 <onlyinclude>{{#switch: {{lc:{{{1|}}}}}
 <!-- Set upcoming href to a blank value if no versions are in development.-->
 <!-- CLIENT -->
- | live-mainpage = https://docs.vrchat.com/docs/vrchat-202612 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
- | live = https://docs.vrchat.com/docs/vrchat-202612p1-1 <!-- Put the highest value of either windows, android or ios here . -->
- | live-windows = https://docs.vrchat.com/docs/vrchat-202612p1-1
- | live-android = https://docs.vrchat.com/docs/vrchat-202612p1-1 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
+ | live-mainpage = https://docs.vrchat.com/docs/vrchat-202613 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
+ | live = https://docs.vrchat.com/docs/vrchat-202613 <!-- Put the highest value of either windows, android or ios here . -->
+ | live-windows = https://docs.vrchat.com/docs/vrchat-202613
+ | live-android = https://docs.vrchat.com/docs/vrchat-202613 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
  | live-ios = https://docs.vrchat.com/docs/vrchat-202612p1-1 <!-- Put the highest ios value here (ios, ipados). -->
- | open-beta = https://docs.vrchat.com/docs/vrchat-202613
- | open-beta-windows = https://docs.vrchat.com/docs/vrchat-202613
- | open-beta-quest = https://docs.vrchat.com/docs/vrchat-202613
+ | open-beta =
+ | open-beta-windows =
+ | open-beta-quest =
  | unity-live = 
 <!-- SDK -->
  | sdk = https://creators.vrchat.com/releases/release-3-10-2
