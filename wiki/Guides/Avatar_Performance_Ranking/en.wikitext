@@ -121,7 +121,7 @@ The below table shows the maximum value of each metric for each performance rank
 |-
 | '''Audio Sources''' || 1 || 4 || 8 || 8
 |-
-|'''Raycasts''' {{Upcoming_inline|2026.1.3|docs.vrchat.com/docs/vrchat-202613}} || 1 || 2 || 5 || 9
+|'''Raycasts''' || 1 || 2 || 5 || 9
 |}
 
 === Rank Thresholds on Mobile ===
@@ -179,7 +179,7 @@ The below table shows the maximum value of each metric for each performance rank
 |-
 | '''Line Renderers''' || 0 || 0 || 0 || 1
 |-
-|'''Raycasts''' {{Upcoming_inline|2026.1.3|docs.vrchat.com/docs/vrchat-202613}} || 1 || 2 || 3 || 5
+|'''Raycasts''' || 1 || 2 || 3 || 5
 |}
 
 Lights, Cloths, Total Cloth Vertices, Physics Colliders, Physics Rigidobdies, and Audio Sources are not shown since they can never appear on avatars.
