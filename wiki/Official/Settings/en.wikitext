@@ -935,28 +935,6 @@ Enable or disable limit.
 |Allow selected user's settings to override culling settings.
 |}
 
-==== Avatar Download Prioritization====
-{{Noticebox|image=CautionTriangle.png|title=This section describes features that have been removed from VRChat in a future release.|description=The Avatar Download Prioritization settings has been removed in the next release {{Upcoming_inline|2026.1.3|docs.vrchat.com/docs/vrchat-202613}}. The feature remains, but with friends prioritized by default.|border-color=#ffbf00}}
-Priorities will be considered in the order they are listed. If two downloads are otherwise of equal priority, the smallest size (fastest download) will come first. New downloads that are higher priority than all current downloads begin immediately.
-{| class="wikitable"
-! Name 
-!Values
-!Tooltip
-|-
-| Download Prioritize Distance
-|5-50m, On/Off
-| Download avatars within this range first.<br>
-Enable or disable limit.
-|-
-|Download Prioritize Manually Shown
-|On/Off
-|Click to prioritize downloading avatars from users you've manually shown.
-|-
-| Download Prioritize Friends
-|On/Off
-|Click to prioritize downloading avatars from friends.
-|}
-
 ====OSC====
 {| class="wikitable"
 !Name 
