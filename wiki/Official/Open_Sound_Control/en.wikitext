@@ -41,7 +41,7 @@ An '''OSC Debug''' screen is also available in the Action Menu under '''OSC > OS
 | MIT
 | MIT
 | Unlicense
-| style="background:#D4890B; color:#fff" | None
+| None
 | MIT
 | MIT / Apache-2.0
 | MIT
@@ -93,7 +93,7 @@ An '''OSC Debug''' screen is also available in the Action Menu under '''OSC > OS
 | <code>b h d t S c r m N I []</code>
 | <code>b h d t S c r m N I []</code>
 |-
-! colspan="8" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — required attributes
+! colspan="8" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — VRChat attributes
 |-
 ! style="text-align:left" | HTTP server
 | style="background:#C03030; color:#fff" | No
@@ -140,8 +140,6 @@ An '''OSC Debug''' screen is also available in the Action Menu under '''OSC > OS
 | style="background:#22A84A; color:#fff" | Yes
 | style="background:#22A84A; color:#fff" | Yes
 |-
-! colspan="8" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — optional attributes
-|-
 ! style="text-align:left" | ACCESS
 | style="background:#C03030; color:#fff" | No
 | style="background:#22A84A; color:#fff" | Yes
@@ -171,12 +169,14 @@ An '''OSC Debug''' screen is also available in the Action Menu under '''OSC > OS
 |-
 ! style="text-align:left" | DESCRIPTION
 | style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
+| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="desc-adv">Supported on the node level but not advertised in HOST_INFO extensions.</ref>
 | style="background:#C03030; color:#fff" | No
 | style="background:#C03030; color:#fff" | No
+| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="desc-adv" />
 | style="background:#22A84A; color:#fff" | Yes
 | style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
+|-
+! colspan="8" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — additional OSCQuery attributes
 |-
 ! style="text-align:left" | TAGS
 | style="background:#C03030; color:#fff" | No
@@ -725,7 +725,7 @@ The <code>/input/ShowDebugInfo[0-9]</code> endpoints are for [https://creators.v
 === Tracking ===
 All [https://docs.vrchat.com/docs/osc-trackers Tracking] and [https://docs.vrchat.com/docs/osc-eye-tracking Eye Tracking] OSC endpoints are write-only unless otherwise specified.
 Up to 8 trackers are supported (hip, chest, 2 feet, 2 knees, 2 elbows), though sending fewer trackers (e.g. only feet and hips) may produce better results because VRChat's IK can better compensate for tracking discrepancies<ref>[https://docs.vrchat.com/docs/osc-trackers "OSC Trackers"] on ''docs.vrchat.com''.</ref>.
-Sending the <code>/tracking/trackers/head/...</code> values is optional; if supplied, VRChat will use them as the frame of reference for the other OSC trackers. The head position aligns per frame with no interpolation, while head rotation yaw alignment slowly lerps toward the provided value. A single head rotation message (no follow-up within 300 ms) triggers a one-time instant yaw alignment instead. Similarly, a single head position message triggers a one-time instant position alignment of the OSC tracking space to the user's head position.
+Sending the <code>/tracking/trackers/head/...</code> values is optional; if supplied, VRChat will use them as the frame of reference for the other OSC trackers. The head position aligns per frame with no interpolation, while head rotation yaw alignment slowly lerps toward the provided value. A single head rotation message (no follow-up within 300 ms) triggers a one-time instant yaw alignment instead.
 After 10 seconds without receiving data, eye tracking behavior will revert to default (auto look / auto blink). This timeout is separate for eyelids and eye-look.
 {| class="wikitable"
 ! Address
