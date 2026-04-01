@@ -1,14 +1,14 @@
 <onlyinclude>{{#switch: {{lc:{{{1|}}}}}
 <!-- Set upcoming versions to a blank value if no versions are in development.-->
 <!-- CLIENT -->
- | live-mainpage = 2026.1.2 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
- | live = 2026.1.2p2 <!-- Put the highest value of either windows, android or ios here. -->
- | live-windows = 2026.1.2p2
- | live-android = 2026.1.2p2 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
+ | live-mainpage = 2026.1.3 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
+ | live = 2026.1.3 <!-- Put the highest value of either windows, android or ios here. -->
+ | live-windows = 2026.1.3
+ | live-android = 2026.1.3 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
  | live-ios = 2026.1.2p2 <!-- Put the highest ios value here (ios, ipados). -->
- | open-beta = 2026.1.3
- | open-beta-windows = 2026.1.3
- | open-beta-quest = 2026.1.3
+ | open-beta =
+ | open-beta-windows =
+ | open-beta-quest =
  | unity-live = 2022.3.22f2-DWR
 <!-- SDK -->
  | sdk = {{VPM/com.vrchat.base/Latest_stable_version}}
