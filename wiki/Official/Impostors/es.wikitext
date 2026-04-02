@@ -16,14 +16,6 @@ Los '''impostores''' son variaciones [[Special:MyLanguage/Platforms|multiplatafo
 
 ''La generación de impostores actualmente solo es compatible con avatares humanoides. Los avatares genéricos serán compatibles en el futuro.''
 
-<span id="History"></span>
-== Historial ==
-
-Lanzado con la actualización 2023.4.2 de VRChat el 30 de noviembre de 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors
- Actualización 2023.4.2] en ''Documentos de VRChat''.</ref> después de entrar en beta abierta el 14 de noviembre. Fue presentado por primera vez el 6 de abril de 2023 en una actualización para desarrolladores<ref>[https://hello.vrchat.com/blog/april-dev-update
- Actualización para desarrolladores de abril 2023] en ''Blog de VRChat''.</ref> y en un vídeo acompañante<ref>[https://youtu.be/5K4mMn_JLpk?t=529
- Actualizaciones de grupos, colas, localización e impostores | Actualización para desarrolladores de VRChat] en ''YouTube''.</ref>.
-
 <span id="Generation"></span>
 ==Generación==
 
@@ -96,6 +88,26 @@ Vuelve a asignar como padre otro hueso a este sprite de impostor. Esto significa
 Por ejemplo, si quieres que tus alas formen parte de la parte superior del cuerpo, puedes reasignar como padre el hueso raíz del ala al hueso del pecho durante la generación del impostor usando esto.
 
 ''Esto es relativo al hueso en el que se coloca el componente VRCImpostorSettings.''
+
+<span id="History"></span>
+== Historial ==
+
+Lanzado con la actualización 2023.4.2 de VRChat el 30 de noviembre de 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors
+ Actualización 2023.4.2] en ''Documentos de VRChat''.</ref> después de entrar en beta abierta el 14 de noviembre. Fue presentado por primera vez el 6 de abril de 2023 en una actualización para desarrolladores<ref>[https://hello.vrchat.com/blog/april-dev-update
+ Actualización para desarrolladores de abril 2023] en ''Blog de VRChat''.</ref> y en un vídeo acompañante<ref>[https://youtu.be/5K4mMn_JLpk?t=529
+ Actualizaciones de grupos, colas, localización e impostores | Actualización para desarrolladores de VRChat] en ''YouTube''.</ref>.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In the 2024.3.2 update<ref>[https://docs.vrchat.com/docs/vrchat-202432 2024.3.2 update] on ''VRChat Docs''.</ref>, impostors received significant quality and performance improvements that had been developed over the preceding three months. Changes included reduced limb pinching, greatly reduced VRAM and texture size, improved geometry and edges, and better results for avatars with large features such as wings, tails, and hair. Automatic impostor generation began rolling out during this period, and iOS impostor generation was added. A follow-up patch<ref>[https://docs.vrchat.com/docs/vrchat-202432p2 2024.3.2p2 update] on ''VRChat Docs''.</ref> further improved impostor CPU performance, corrected nameplate placement height on impostors, and fixed an issue that caused impostor colors to appear too bright or over-exposed.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In the 2025.2.2 update<ref>[https://docs.vrchat.com/docs/vrchat-202522 2025.2.2 update] on ''VRChat Docs''.</ref>, [[Special:MyLanguage/Fallbacks|fallback avatars]] were removed from the VRChat application in favor of impostors, though fallbacks could still be selected on the website. The same update improved the scale of impostors when viewed in the Main Menu. A subsequent update<ref>[https://docs.vrchat.com/docs/vrchat-202523 2025.2.3 update] on ''VRChat Docs''.</ref> fixed an issue that could cause a player's position to desync while using certain impostors.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In the 2026.1.3 update<ref>[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3 update] on ''VRChat Docs''.</ref>, impostors received visual quality improvements. Previously generated impostors on PC now use bicubic filtering on the alpha channel to reduce blocky outlines, and sampling of neighboring pieces during rendering was improved to eliminate floating pixel artifacts. Newly generated impostors benefit from 5.5–8.8× greater depth precision, more conservative downscaling, perceptually-based texture compression, smoother triangle orientation, and more precise edge-extension.
+</div>
 
 <span id="See_also"></span>
 ==Véase también==
