@@ -10,432 +10,676 @@
 {| class="wikitable" style="text-align:center"
 |-
 !
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/radarsat1/liblo liblo]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/stella3d/OscCore OscCore]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/vrchat-community/vrc-oscquery-lib vrc-oscquery-lib]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/hypebeast/go-osc go-osc]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/hoijui/JavaOSC JavaOSC]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/colinbdclark/osc.js osc.js]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/jangxx/node-oscquery node-oscquery]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/attwad/python-osc python-osc]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/theepicsnail/vrchat_oscquery vrchat_oscquery]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/fraklein/python-oscquery python-oscquery]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/cyberkitsune/tinyoscquery tinyoscquery]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/klingtnet/rosc rosc]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://lib.rs/crates/oscquery oscquery]
-! style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/orchetect/OSCKit OSCKit]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/radarsat1/liblo liblo]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/stella3d/OscCore OscCore]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/vrchat-community/vrc-oscquery-lib vrc-oscquery-lib]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/hypebeast/go-osc go-osc]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/hoijui/JavaOSC JavaOSC]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/colinbdclark/osc.js osc.js]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/jangxx/node-oscquery node-oscquery]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/attwad/python-osc python-osc]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/theepicsnail/vrchat_oscquery vrchat_oscquery]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/fraklein/python-oscquery python-oscquery]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/cyberkitsune/tinyoscquery tinyoscquery]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/klingtnet/rosc rosc]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://lib.rs/crates/oscquery oscquery]
+! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/orchetect/OSCKit OSCKit]
 |-
 ! style="text-align:left" | Language
-| C
-| C#
-| C#
-| Go
-| Java
-| JavaScript
-| TypeScript
-| Python
-| Python
-| Python
-| Python
-| Rust
-| Rust
-| Swift
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | C
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | C#
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | C#
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Go
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Java
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | JavaScript
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | TypeScript
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Python
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Python
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Python
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Python
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Rust
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Rust
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Swift
 |-
 ! style="text-align:left" | License
-| LGPL-2.1+
-| MIT
-| MIT
-| MIT
-| BSD-3-Clause
-| MIT / GPL-2.0
-| MIT
-| Unlicense
-| None
-| MIT
-| MIT
-| MIT / Apache-2.0
-| MIT / Apache-2.0
-| MIT
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | LGPL-2.1+
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | BSD-3-Clause
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT / GPL-2.0
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Unlicense
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | None
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT / Apache-2.0
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT / Apache-2.0
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT
 |-
 ! colspan="15" style="text-align:left; background:#9AA0AA; color:#fff" | OSC transport
 |-
 ! style="text-align:left" | Send messages
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes<ref group="osc" name="python-osc-dep">Via bundled [https://pypi.org/project/python-osc/ python-osc] dependency; bundle support requires using python-osc's API directly.</ref>
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓<ref name="python-osc-dep">Via bundled [https://pypi.org/project/python-osc/ python-osc] dependency; bundle support requires using python-osc's API directly.</ref>
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 |-
 ! style="text-align:left" | Receive messages
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes<ref group="osc" name="python-osc-dep" />
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓<ref name="python-osc-dep" />
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 |-
 ! style="text-align:left" | Bundle support
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="osccore-bundle">Receive fully supported including nested bundles; send requires low-level <code>OscWriter</code> API.</ref>
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes<ref group="osc" name="python-osc-dep" />
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#D4890B; color:#fff" | ~<ref name="osccore-bundle">Receive fully supported including nested bundles; send requires low-level <code>OscWriter</code> API.</ref>
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓<ref name="python-osc-dep" />
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 |-
-! style="text-align:left" | VRChat types
-| <code>i f s T F</code>
-| <code>i f s T F</code>
-| <code>i f s T</code>
-| <code>i f s T F</code>
-| <code>i f s T F</code>
-| <code>i f s T F</code>
-| <code>i f s T F</code>
-| <code>i f s T F</code>
-| <code>i f s T F</code><ref group="osc" name="python-osc-dep" />
-| <code>i f s T</code>
-| <code>i f s T F</code>
-| <code>i f s T F</code>
-| <code>i f s T F</code>
-| <code>i f s T F</code>
+! colspan="15" style="text-align:left; background:#9AA0AA; color:#fff" | VRChat types
 |-
-! style="text-align:left" | Optional types
-| <code>b h d t S c m N I</code>
-| <code>b h d t S c r m N I []</code>
-| <code>b h d c u []</code>
-| <code>b h d t N</code>
-| <code>b h d t S c r m N I []</code>
-| <code>b h d t S c r m N I []</code>
-| <code>b h d t S c r m N I []</code>
-| <code>b h d r m N []</code><ref group="osc" name="pyosc-missing"><code>t</code> (timetag) is receive-only.</ref>
-| <code>b h d t r m N []</code><ref group="osc" name="python-osc-dep" />
-|
-| <code>h d t</code><ref group="osc" name="toq-lossy"><code>h</code>, <code>d</code>, <code>t</code> with lossy type mapping to Python float.</ref>
-| <code>b h d t c r m N I []</code>
-| <code>b h d t S c r m N I []</code>
-| <code>b h d t S c m N I []</code>
+! style="text-align:left" | <code>i</code> (int32)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓<ref name="python-osc-dep" />
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>f</code> (float32)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>s</code> (string)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>T</code> (True)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>F</code> (False)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! colspan="15" style="text-align:left; background:#9AA0AA; color:#fff" | Optional types
+|-
+! style="text-align:left" | <code>b</code> (blob)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>h</code> (int64)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="toq-lossy">lossy type mapping to Python float.</ref>
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>d</code> (float64)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="toq-lossy" />
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>t</code> (timetag)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#D4890B; color:#fff" | ~<ref name="pyosc-missing">receive-only</ref>
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="toq-lossy" />
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>S</code> (symbol)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>c</code> (char)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>r</code> (RGBA color)
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+|-
+! style="text-align:left" | <code>u</code>
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+|-
+! style="text-align:left" | <code>m</code> (MIDI message)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>N</code> (Nil)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>I</code> (Infinitum)
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+|-
+! style="text-align:left" | <code>[]</code> (array)
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 |-
 ! colspan="15" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — VRChat attributes
 |-
 ! style="text-align:left" | HTTP server
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="vq-minimal">Minimal VRChat-specific subset; only serves <code>/</code> and <code>/?HOST_INFO</code>.</ref>
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="vq-minimal">Minimal VRChat-specific subset; only serves <code>/</code> and <code>/?HOST_INFO</code>.</ref>
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | HOST_INFO
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="vq-hostinfo">Returns <code>OSC_PORT</code> only; missing <code>NAME</code>, <code>EXTENSIONS</code>, <code>OSC_IP</code>, <code>OSC_TRANSPORT</code>.</ref>
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="vq-hostinfo">Returns <code>OSC_PORT</code> only; missing <code>NAME</code>, <code>EXTENSIONS</code>, <code>OSC_IP</code>, <code>OSC_TRANSPORT</code>.</ref>
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | FULL_PATH
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="vq-hardcoded">Hardcoded to <code>/avatar</code> and <code>/tracking</code> paths; not a dynamic OSC address tree.</ref>
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="vq-hardcoded">Hardcoded to <code>/avatar</code> and <code>/tracking</code> paths; not a dynamic OSC address tree.</ref>
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | CONTENTS
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="vq-hardcoded" />
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="vq-hardcoded" />
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | TYPE
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | ACCESS
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | VALUE
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | RANGE
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="range-adv">Advertised as supported in HOST_INFO extensions but not implemented at the node level.</ref>
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="range-adv" />
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="range-adv">Advertised as supported in HOST_INFO extensions but not implemented at the node level.</ref>
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="range-adv" />
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | DESCRIPTION
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="desc-adv">Supported on the node level but not advertised in HOST_INFO extensions.</ref>
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#D4890B; color:#fff" | Partial<ref group="osc" name="desc-adv" />
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#D4890B; color:#fff" | ~<ref name="desc-adv">Supported on the node level but not advertised in HOST_INFO extensions.</ref>
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#D4890B; color:#fff" | ~<ref name="desc-adv" />
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! colspan="15" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — additional OSCQuery attributes
 |-
 ! style="text-align:left" | TAGS
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | EXTENDED_TYPE
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | UNIT
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | CRITICAL
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | CLIPMODE
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | OVERLOADS
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! colspan="15" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery client
 |-
 ! style="text-align:left" | HTTP client
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! colspan="15" style="text-align:left; background:#9AA0AA; color:#fff" | Service discovery
 |-
 ! style="text-align:left" | mDNS advertisement
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | mDNS discovery
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#22A84A; color:#fff" | Yes
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
-| style="background:#C03030; color:#fff" | No
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
 |}
-{{reflist|group=osc}}
+{{reflist}}
 
 ==See Also==
 * [[Open Sound Control]]
