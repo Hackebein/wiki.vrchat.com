@@ -16,13 +16,6 @@
 
 ''La génération d’imposteurs ne prend actuellement en charge que les avatars humanoïdes. Les avatars génériques seront pris en charge à l’avenir.''
 
-<span id="History"></span>
-== Historique ==
-
-<div class="mw-translate-fuzzy">
-Publié avec la mise à jour VRChat 2023.4.2 le 30 novembre 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors mise à jour 2023.4.2] sur les ''VRChat Docs''.</ref> après être entré en bêta ouverte le 15 novembre. Première apparition le 6 avril 2023 dans une mise à jour du développeur<ref>[https://hello.vrchat.com/blog/april-dev-update Mise à jour développeur d’avril 2023] sur le ''VRChat Blog''.</ref> et dans une vidéo associée<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Group Updates, Queues, Localization and Impostors | VRChat Dev Update] sur ''YouTube''.</ref>.
-</div>
-
 <span id="Generation"></span>
 <div class="mw-translate-fuzzy">
 ==Génération==
@@ -110,6 +103,25 @@ Ré-associe un autre os à ce sprite d’imposteur. Cela signifie qu’il sera i
 Par exemple, si vous souhaitez que vos ailes fassent partie du haut du corps, vous pouvez réassocier l’os racine des ailes à l’os de la poitrine lors de l’impostorisation grâce à cela.
 
 ''Ceci est relatif à l’os sur lequel VRCImpostorSettings est placé.''
+
+<span id="History"></span>
+== Historique ==
+
+<div class="mw-translate-fuzzy">
+Publié avec la mise à jour VRChat 2023.4.2 le 30 novembre 2023<ref>[https://docs.vrchat.com/docs/vrchat-202342#impostors mise à jour 2023.4.2] sur les ''VRChat Docs''.</ref> après être entré en bêta ouverte le 15 novembre. Première apparition le 6 avril 2023 dans une mise à jour du développeur<ref>[https://hello.vrchat.com/blog/april-dev-update Mise à jour développeur d’avril 2023] sur le ''VRChat Blog''.</ref> et dans une vidéo associée<ref>[https://youtu.be/5K4mMn_JLpk?t=529 Group Updates, Queues, Localization and Impostors | VRChat Dev Update] sur ''YouTube''.</ref>.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In the 2024.3.2 update<ref>[https://docs.vrchat.com/docs/vrchat-202432 2024.3.2 update] on ''VRChat Docs''.</ref>, impostors received significant quality and performance improvements that had been developed over the preceding three months. Changes included reduced limb pinching, greatly reduced VRAM and texture size, improved geometry and edges, and better results for avatars with large features such as wings, tails, and hair. Automatic impostor generation began rolling out during this period, and iOS impostor generation was added. A follow-up patch<ref>[https://docs.vrchat.com/docs/vrchat-202432p2 2024.3.2p2 update] on ''VRChat Docs''.</ref> further improved impostor CPU performance, corrected nameplate placement height on impostors, and fixed an issue that caused impostor colors to appear too bright or over-exposed.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In the 2025.2.2 update<ref>[https://docs.vrchat.com/docs/vrchat-202522 2025.2.2 update] on ''VRChat Docs''.</ref>, [[Special:MyLanguage/Fallbacks|fallback avatars]] were removed from the VRChat application in favor of impostors, though fallbacks could still be selected on the website. The same update improved the scale of impostors when viewed in the Main Menu. A subsequent update<ref>[https://docs.vrchat.com/docs/vrchat-202523 2025.2.3 update] on ''VRChat Docs''.</ref> fixed an issue that could cause a player's position to desync while using certain impostors.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In the 2026.1.3 update<ref>[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3 update] on ''VRChat Docs''.</ref>, impostors received visual quality improvements. Previously generated impostors on PC now use bicubic filtering on the alpha channel to reduce blocky outlines, and sampling of neighboring pieces during rendering was improved to eliminate floating pixel artifacts. Newly generated impostors benefit from 5.5–8.8× greater depth precision, more conservative downscaling, perceptually-based texture compression, smoother triangle orientation, and more precise edge-extension.
+</div>
 
 <span id="See_also"></span>
 ==À voir aussi==
