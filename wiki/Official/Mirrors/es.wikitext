@@ -1,26 +1,26 @@
 <languages/>
 {{Noticebox/Official}}
-{{stub|Resources heading is empty. Proofread according to [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]].}}
 [[File:Mirrors.webp|thumb|Un grupo de personas socializando frente a un espejo.]]
 Los '''espejos''' son superficies reflectantes que permiten a los usuarios ver una versión reflejada de su avatar, junto con otros usuarios y/o el mundo en el que estén, dependiendo de los ajustes del mundo. Muchos mundos incluyen espejos pensados para que los usuarios se sienten frente a ellos mientras socializan. A esta actividad se la conoce de forma coloquial como "mirror dwelling". Los usuarios también pueden elegir invocar un espejo propio, aunque solo será visible para ellos. 
 
-<span id="World_prefab"></span>
-=== Mundo prefabricado ===
-
-El [[Special:MyLanguage/VRChat SDK|SDK de VRChat]] contiene un prefabricado de un espejo listo para usar que puede arrastrarse a una escena. Este prefabricado se encuentra en la siguiente ruta:<br>
-<code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code>
+<div class="mw-translate-fuzzy">
 === Tipos de espejos ===
 [[File:Mirror actionmenu.webp|thumb|Demostración de los botones para alternar del espejo personal y el espejo facial dentro del menú acción.]]
+</div>
 
 <span id="Personal_Mirror"></span>
+<div class="mw-translate-fuzzy">
 ==== Espejo personal ====
+</div>
 
 Un espejo personal es un tipo de espejo que puede ser invocado y movido por el usuario que es el único que puede verlo. 
 
 Se puede activar y configurar desde el [[Special:MyLanguage/Action Menu|menú de acción]] o desde la página de [[Special:MyLanguage/Settings|ajustes]] del [[Special:MyLanguage/Main Menu|menú principal]].
 
+<div class="mw-translate-fuzzy">
 ==== Espejo facial ====
 [[File:Mirrorsettings actionmenu.webp|thumb|Demostración de los ajustes del espejo personal dentro del menú de acción.]][[File:Facemirrorsettings actionmenu.webp|thumb|Demostración de los ajustes de espejo facial dentro del menú de acción.]]
+</div>
 
 <div class="mw-translate-fuzzy">
 Un espejo facial es un tipo de espejo que muestra la cara del avatar de un usuario en su [[Special:MyLanguage/HUD|HUD]]. Los espejos faciales están diseñados para ayudar al usuario a mantenerse al tanto de las expresiones faciales de su avatar, especialmente si se controlan mediante gestos. A diferencia de un espejo tradicional, el espejo facial no retrata la profundidad.
@@ -29,7 +29,9 @@ Un espejo facial es un tipo de espejo que muestra la cara del avatar de un usuar
 Se puede activar y configurar desde el [[Special:MyLanguage/Action Menu|menú de acción]] o desde la página de [[Special:MyLanguage/Settings|ajustes]] del [[Special:MyLanguage/Main Menu|menú principal]].
 
 <span id="Calibration_Mirror"></span>
+<div class="mw-translate-fuzzy">
 ==== Espejo de calibración ====
+</div>
 
 Un espejo de calibración es un tipo de espejo que se activa automáticamente cuando el usuario presiona el botón "Calibrar FBT". Solo es visible para el usuario que está calibrando y desaparece una vez que termina. El espejo de calibración muestra únicamente el avatar del usuario, los mandos y el modelo del rastreador de FBT, los cuales se pueden configurar en la página de [[Special:MyLanguage/Settings|ajustes]] del [[Special:MyLanguage/Main Menu|menú principal]]. Si la opción "Mostrar elementos visuales de la calibración" está activada en "Seguimiento e IK", el espejo de calibración también reflejará estos visuales, mostrando qué puntos de seguimiento estarán activos cuando se complete la calibración.
 
@@ -38,7 +40,9 @@ Se puede activar desde el [[Special:MyLanguage/Action Menu|menú de acción]] o 
 <span id="Common_setups"></span>
 == Configuraciones comunes ==
 
+<div class="mw-translate-fuzzy">
 El prefabricado del espejo permite seleccionar qué capas se mostrarán en el reflejo. Por eso es común que los mundos tengan varios espejos configurados para alternar entre ellos. Normalmente, esto se reduce a 3 opciones: espejo de alta calidad, espejo de baja calidad y espejo transparente. Algunos mundos ofrecen configuraciones aún más especializadas además de estas.
+</div>
 
 <span id="High_quality"></span>
 === Alta calidad ===
@@ -73,7 +77,16 @@ Al interactuar con un espejo en un mundo, los usuarios podrán activar o desacti
 * Ajustar la resolución de tu espejo en los [[Special:MyLanguage/Settings#Graphics|ajustes de gráficos]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-== Technical details ==
+==SDK==
+</div>
+
+<span id="World_prefab"></span>
+=== Mundo prefabricado ===
+
+El [[Special:MyLanguage/VRChat SDK|SDK de VRChat]] contiene un prefabricado de un espejo listo para usar que puede arrastrarse a una escena. Este prefabricado se encuentra en la siguiente ruta:<br>
+<code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Technical details ===
 Mirrors render during <code>Camera.onPreCull</code>. World creators using scripts that depend on mirror render timing should account for this.
 </div>
 
