@@ -1,124 +1,317 @@
 <languages/>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{Noticebox/Official}}
+{{Noticebox/wip|The page below is incomplete. Desciptions are missing for toggles, sections not filled out. Considering if these options should be displayed in tables instead of lists. Translations may be broken for a bit.}}
+</div>
+
+<div class="mw-translate-fuzzy">
 {{Noticebox/Official}}
 La '''cámara''' es una herramienta dentro del juego que permite a los usuarios hacer fotos para capturar sus experiencias en VRChat.
+</div>
 
+<div class="mw-translate-fuzzy">
 == Cómo acceder ==
 Hay varias formas de acceder a la cámara en VRChat:
 * Abre el [[Special:MyLanguage/Action Menu|menú de acción]], selecciona "Herramientas" y luego "Cámara".
 * Abre el [[Special:MyLanguage/Quick Menu|menú rápido]] y haz clic en la pestaña "Cámara" en la parte inferior. El menú rápido ofrece opciones para todos los modos de cámara.
 * Haz doble clic en el botón "Cámara" en la parte inferior del menú rápido. Esto sacará o guardará la cámara de inmediato.
+</div>
 
-== Tipos ==
-[[File:Menú rápido cámara ES.webp|thumb|Pestaña de la cámara en el menú rápido.]]
-*'''Cámara de fotos:'''
-Una cámara estándar para hacer capturas.
-*'''Cámara de transmisión:'''
-Se usa para hacer transmisiones o grabar lo que ve la cámara, en lugar de lo que ves directamente desde tu visor. 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Open the [[Special:MyLanguage/Action Menu|Action Menu]], select '''Tools''', then select '''Camera'''.
+* Open the [[Special:MyLanguage/Quick Menu|Quick Menu]] and click on the Camera tab on the bottom row. The Quick Menu provides options for all camera modes.
+* Double-click the Camera tab on the bottom tab of the Quick Menu. This will immediately take out or put away the camera.
+</div>
 
-Esto mostrará la perspectiva de la cámara en la ventana de escritorio de VRChat, en lugar del punto de vista del usuario.
-*'''Cámara de instantáneas:'''
-Tiene una función similar a la cámara de fotos, pero permite imprimir la imagen hecha.
-*'''Cámara de iconos (disponible solo para [[Special:MyLanguage/VRChat+|VRC+]]):'''
-Permite hacer una foto que se guarda en la galería, para usarla en la placa de nombres o en los iconos de grupo.
-*'''Galería de la cámara (disponible solo para VRC+):'''
-Permite hacer una foto que se guarda en la galería para colocarla en el perfil, en los carteles de grupo o en las fotos de invitación.
-*'''Captura de pantalla:'''
-Los usuarios de escritorio pueden hacer una captura que se guarda en la carpeta de fotos de VRChat en su disco duro. 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Modes==
+[[File:Camera menu.webp|thumb|Camera tab in the Quick Menu.]]
+The camera modes determine how the camera behaves when taking a photo. There are seven camera modes which corresponds to different features:
+</div>
 
-También se puede usar presionando la tecla F12 para una captura de pantalla normal o Ctrl+F12 para una captura en alta resolución.
-*'''Cámara multicapa:'''
-Hace varias fotos en rápida sucesión con diferentes capas aplicadas, pero no admite enfoque ni filtros, y puede causar caídas de rendimiento.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Local Photo : After taken, it captures a regular photo. This is the default mode.
+; Multi Layer : After taken, it captures a photo and creates images of each enabled mask. This mode does support focus or filters and may cause frame lag. 
+: It can create up to three additional images (besides the regular photo): "Environment", "Player" (Combines the Local & Remote Player masks), and "UI". The "Player" & "UI" masks save with alpha transparency.
+; Stream : Replaces the desktop view with the camera view. In desktop mode, the "Spout Stream" toggle will appear, allowing the user to receive the camera view through supported applications. 
+: The "Spout Stream" toggle requires applications to support the [https://spout.zeal.co/ Spout] protocol to receive the camera view.
+: This mode is only available on PC.
+; Gallery : After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a rectangular crop. "Save & Apply" saves it to the Photo Gallery section of the Inventory. Requires VRC+.
+; User Icon : After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a circular crop. "Save & Apply" saves it to the User Icon section of the Inventory and will automatically set the user icon to it. Requires VRC+.
+; Sticker : ''See also [[Special:MyLanguage/Stickers|Stickers]] for more detailed information.''
+: Shows a square outline, highlighting the cropping region. After taken, the "Create Sticker" UI appears, allowing the user to zoom, reposition and mirror the photo with six preset crops. "Save" saves it to the Stickers section of the Inventory. Requires VRC+.
+; Print : ''See also [[Special:MyLanguage/Prints|Prints]] for more detailed information.''
+: After taken, the print UI appears, allowing the user to edit the note. "Print & Save" saves it to the Prints section of the Inventory and will automatically print the print within the world. Requires VRC+.
+; Emoji : ''See also [[Special:MyLanguage/Emojis|Emojis]] for more detailed information.''
+: Shows a square outline, highlighting the cropping region. After taken, the "Create Emoji" UI appears, allowing the user to choose animations, zoom, reposition and mirror the photo with six preset crops. "Save" saves it to the Emoji section of the Inventory. Requires VRC+.
+:Animated options require the user to take a photo for every frame (4 or 16).
+:; Emoji (1)
+:; Animated (4)
+:; Animated (16)
+</div>
 
-Generará tres tipos de fotos: "Todo en uno", "Solo capa del entorno" y "Solo capa de usuario local + usuario remoto".
-*'''Cámara de foto para invitaciones (disponible solo para VRC+):'''
-Permite tomar una foto opcional para enviarla junto con una invitación o una respuesta.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+These two modes are not accessible through the Camera Mode button, but rather other means:
+</div>
 
-== IU ==
-[[File:Cámara ES.webp|thumb|Vista general de la cámara de VRChat.]]
-La interfaz de usuario de la cámara incluye varios iconos e indicadores:
-* '''X en la esquina superior izquierda:''' Para salir de la cámara.
-* '''Iconos de cámara y foto:''' Indica qué cámara está activa.
-* '''Icono de pin:''' Indica el pin activo (los ajustes se guardan).
-* '''Icono de enfoque:''' Indica si se utiliza el enfoque y qué modo de enfoque está seleccionado.
-* '''Círculos de filtro:''' Muestra si se aplicó un filtro o no y cuál está seleccionado.
-* '''Círculo de giro en la parte superior izquierda:''' Indica si la cámara está orientada hacia ti o hacia el otro lado.
-* '''Flecha de giro a la derecha:''' Restablece el nivel de zoom y la exposición.
-* '''Icono de recuadro girando:''' Cambia la orientación entre vertical y horizontal.
-* '''Línea de zoom a la derecha:''' Ajusta el zoom; muévela hacia abajo para alejar (ojo de pez) y hacia arriba para acercar.
-* '''Línea de exposición a la derecha:''' Ajusta la luminosidad de la cámara.
-* '''Flecha en la parte inferior:''' Contrae el menú.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Camera Drone : ''See also [[Special:MyLanguage/Camera Drone|Camera Drone]] for more detailed information.''
+: Brings out the Camera Drone. 
+; Screenshot : Takes a photo without [[Special:MyLanguage/HUD|HUD]] elements. Captures in 1920x1080 by default, unless changed in the [https://docs.vrchat.com/docs/configuration-file config file].
+; Photo Invite : Invite/Request Invites or Invite/Request Responses can be sent with an image. After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a rectangular crop. "Save & Apply" attaches it to invite/response. Requires VRC+.
+</div>
 
-== Menú ==
-* '''Hacer foto:''' Hace una foto inmediatamente.
-* '''Temporizador (5s):''' Hace una foto después de un retraso de 5 segundos con un sonido de cuenta regresiva.
-* '''Modo de la cámara:''' Amplía los diferentes modos de la cámara.
-** Foto local, Multicapa, Transmisión
-*** Exclusivo de [[Special:MyLanguage/VRChat+|VRC+]]: Galería de fotos, icono de usuario, pegatina, instantánea, emoji
-* '''Anclaje:''' Determina a dónde está vinculada la cámara.
-** '''Por defecto:''' Vinculado al usuario.
-** '''Local:''' Sigue el movimiento del usuario pero no el movimiento de la cabeza.
-** '''Mundo:''' Vinculado al mundo, independiente del movimiento del usuario.
-* '''Comportamiento:''' Ajusta el rendimiento de la cámara.
-** '''Suavizado:''' Estabiliza el vídeo para obtener imágenes más suaves.
-** '''Mírame:''' La cámara sigue la dirección en la que mira tu cabeza.
-** '''Autonivelado de inclinación:''' Mantiene la cámara nivelada, evitando que se incline.
-* '''Enfoque:''' Controla el modo de enfoque.
-** '''Automático:''' Ajusta automáticamente la apertura y la distancia focal.
-** '''Semiautomático:''' Permite ajustar solo la apertura.
-** '''Manual:''' Permite ajustar tanto la apertura como la distancia focal.
-* '''Pins:''' Ajustes guardados de enfoque y filtros.
-* '''Máscara:''' Determina qué capas se incluyen en las fotos.
-** '''Usuario local:''' Incluye al usuario y su avatar.
-** '''Usuario remoto:''' Incluye a otros usuarios.
-** '''Mundo:''' Incluye el entorno del mundo.
-** '''Pantalla verde:''' Sustituye el entorno por una pantalla verde.
-** '''IU:''' Incluye elementos de la interfaz, como el menú radial y la interfaz de la cámara.
-** '''Objetos:''' Incluye objetos colocados en el mundo por los usuarios.
-* '''Visibilidad de la lente:''' Define cómo se renderiza la cámara dentro del mundo.
-** '''Desactivado:''' Muestra solo una luz pequeña.
-** '''Fantasma:''' Muestra una lente de cámara transparente color azul claro.
-** '''Sólido:''' Muestra una lente de cámara sólida.
-* '''Filtros:''' Agrega filtros visuales a la cámara. Solo se puede activar un filtro a la vez.
-* '''Resolución de la foto:''' Ajusta la resolución de la foto. Resoluciones más altas generan archivos más grandes y pueden causar bajada de fotogramas.
-* '''Cuadrícula:''' Superpone una cuadrícula 3x3 en la pantalla de la cámara para asistencia visual. La cuadrícula no aparece en la foto final.
-* '''Bloquear (Solo RV):''' Bloquea la cámara para que no pueda ser sostenida. Solo se puede usar en RV.
-* '''Modo vuelo:''' La cámara se puede controlar manualmente cerca de tu posición. En escritorio, mantén presionada la rueda del ratón y usa el movimiento del ratón junto con las teclas 'WASD' para pilotar la cámara. En RV, haz clic en el botón "Volar" y usa los joysticks izquierdo y derecho después de presionar el gatillo para alternar el movimiento entre la cámara y tu avatar.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Options==
+[[File:Camera.png|thumb|Overview of the VRChat Camera.]]
+The options consist of the toggles are appear around or on the camera frame. Some options can be controlled by both the UI and the Menu.
+</div>
 
-=== Controles manuales ===
-Cuando el enfoque se establece en semiautomático o manual, aparecen controles adicionales.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===UI===
+The UI toggles are toggles that are on the on center, left or right sides of the camera frame.
+====Default====
+; Close : Closes the camera.
+; Orientation : Switch between landscape and portrait orientation.
+; Flip : Flips the camera. When Anchor is set to "Default", the camera lens turns around 180°, otherwise the image is flipped horizontally.
+; Zoom : Zooms the camera in or out. The camera FOV can be zoomed from 20 to 150, with 45 being the default value.
+; Exposure : Changes the exposure (brightness) of the image. The exposure can be set from -10 to 4, with 0 being the default value.
+; Reset : Resets the zoom and exposure slides to their default values.
+; Info : Shows the status of different camera toggles. Click on a status to quickly cycle through options.
+:; Camera Mode
+:: Cycles through the Photo, Stream, and Multi Layer camera modes.
+:; Pins
+:: Cycles through pins 1, 2 and 3.
+:; Focus
+:: Cycles through Full Auto, Semi Auto, and Manual focuses.
+:; Filters
+:: Cycles through the Blueprint, Glitch, Speed, Hypno, Pixelate, Sketch, Sparkle, Trippy, and Olde camera filters.
+</div>
 
-* '''Distancia focal:''' A qué distancia enfoca la cámara.
-* '''Apertura:''' Qué tan abierta está la apertura; cuanto menor sea este número, más borroso aparecerá todo lo que no esté enfocado.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====Toggle====
+; Fly Speed : Determines how fast the camera moves in Fly mode. Values range from 0.1 to 15, with 3 being the default.
+: Slider shown only when using Desktop mode or when the Flying toggle is on.
+; Turn Speed : Determines how fast the camera rotates in Fly mode. Values range from 0.1 to 5, with 1 being the default.
+: Slider shown only when using Desktop mode or when the Flying toggle is on.
+; Smoothing Strength : Determines how much smoothing is applied to camera movement. Values range from 0.1 to 10, with 5 being the default.
+: Slider shown only when using the Smoothed toggle.
+; Horizontal Offset : Determines the horizontal offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default. Using the Auto Level Roll toggle will disable this slider.
+: Slider shown only when using the Look-At-Me toggle.
+; Vertical Offset : Determines the vertical offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default.
+: Slider shown only when using the Look-At-Me toggle. Using the Auto Level Pitch toggle will disable this slider.
+; Focal Distance : Determines the depth of field's focal distance. 
+: Slider shown only when using the Manual focus toggle.
+; Aperture : Determines the depth of field's aperture. 
+: Slider shown only when using the Semi Auto or Manual focus toggles.
+; Green Screen : Displays sliders to adjust the color of the green screen mask. The sliders are Hue, Saturation, and Lightness.
+: Sliders shown only when using the GreenScreen toggle.
+:; Hue
+:; Saturation
+:; Lightness
+; Duration : Determines the duration of new dolly points when using time-based motion.
+: Slider shown only when the Dolly toggle is selected.
+</div>
 
-== Cámara móvil ==
-''Véase también [[Special:MyLanguage/Camera Dolly|Cámara móvil]] para obtener información más detallada.''
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Menu===
+The Menu toggles are toggles that are below the camera frame.
+</div>
 
-La cámara móvil es un sistema exclusivo de [[Special:MyLanguage/VRChat+|VRC+]] que te permite crear y reproducir animaciones para la cámara de VRChat.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Take Photo : Takes a photo.
+; Timed (5s) : Takes a photo with a five-second delay. Remote users will see a circular indicator around the lens winding down to when the photo is taken. Photo can be cancelled before the five seconds has passed.
+; Camera Mode : Determines how the camera behaves when taking photos. See the [[Camera#Modes|Modes]] section above to view all options
+; Flying : Allows the camera to fly within the world. Movement is applied to the camera instead of the avatar. When flying normally, the camera is limited to a 15 meter? radius, with Camera Dolly, the radius is increased to 150 meters?, and with the Camera Drone, the range is unlimited.
+: Toggle appears only on VR & Mobile devices.
+; Spout Stream : Allows the camera view to be received through supported applications. This requires applications to support the [https://spout.zeal.co/ Spout] protocol. 
+:The "Stream" camera mode must be selected for it to appear.
+; Audio From Camera : Audio heard will be from the camera position instead of the avatar.
+: The "Stream" camera mode must be selected for it to appear.
+</div>
 
-'''Sugerencia:''' El acceso a la cámara móvil te permite desbloquear un rango de vuelo de cámara adicional después de activar y desactivar la cámara una vez.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Anchor : Determines where the camera is attached.
+:; Default
+:: Attached to the user.
+:; Local
+:: Follows user movement but not head movement.
+:; World
+:: Attached to the world, independent of user movement.
+</div>
 
-== Dron ==
-''Véase también [[Special:MyLanguage/Camera Drone|Dron]] para obtener información más detallada.''
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Behavior : Desc
+:; Smoothed
+:: Stabilizes video for smoother footage.
+:; Look-At-Me
+:: Camera follows where your head is facing.
+:; Auto Level Roll (VR)
+:: two colons plus definition
+:; Auto Level Pitch
+:: two colons plus definition
+:; Roll When Flying (VR)
+:: two colons plus definition
+:; Trigger Takes Photos (VR)
+:: Only works when the camera mode is not local photo
+</div>
 
-El dron es exclusivo de [[Special:MyLanguage/VRChat+|VRC+]]. Funciona como un dron completamente operativo que puedes pilotar dentro de VRChat, ya sea para grabar o simplemente para volar y divertirte con tus amigos.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Focus : Controls the focus mode.
+:; Off
+:: two colons plus definition
+:; Full Auto
+:: Automatically sets the aperture and focal distance.
+:; Semi Auto
+:: Allows adjustment of aperture only. (Aperture slider appears on right)
+:; Manual
+:: Allows adjustment of both aperture and focal distance. (Focal Distance, Aperture slider appears on right)
+:; Show
+:: (shows focus visualizer)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Pins : Saves camera presets.
+: Anchor, Behavior, Mask, and Filters can be saved to pins.
+:; Pin 1
+:; Pin 2
+:; Pin 3
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Mask : Determines which layers are included in pictures.
+:; Local User
+:: Includes the user and their avatar.
+:; Remote User
+:: Includes other users.
+:; World
+:: Includes the world environment.
+:; GreenScreen
+:: Replaces the environment with a green screen.
+:; UI
+:: Includes UI elements like the radial menu and camera interface.
+:; Items
+:: Includes [[Special:MyLanguage/Items|items]] placed by users in the world.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Dolly : ''See also [[Special:MyLanguage/Camera Dolly|Camera Dolly]] for more detailed information.''
+: This option is only available on PC & Android (Standalone VR).
+:; Add
+:: two colons plus definition
+:; Play (3s)
+:: two colons plus definition
+:; Clear Last
+:: two colons plus definition
+:; Clear All 
+:: (are u sure)
+:; Advanced : Desc
+::; Export
+::: (export path relative to world or local)
+::; Import
+::: (import path)
+::; Show Paths : Desc
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Lens Visibility : Sets how the camera is rendered within the world.
+:; Off
+:: Shows only a small light.
+:; Ghost
+:: Displays a light blue transparent camera lens.
+:; Solid
+:: Displays a solid camera lens.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Filters : Adds visual filters to the camera. Only one filter can be active at a time.
+<gallery mode="packed" heights="80">
+File:CameraFilter None.png|None
+File:CameraFilter Blueprint.png|Blueprint
+File:CameraFilter Glitch.png|Glitch
+File:CameraFilter Speed.png|Speed
+File:CameraFilter Hypno.png|Hypno
+File:CameraFilter Pixelate.png|Pixelate
+File:CameraFilter Sketch.png|Sketch
+File:CameraFilter Sparkle.png|Sparkle
+File:CameraFilter Trippy.png|Trippy
+File:CameraFilter Olde.png|Olde
+</gallery>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Photo Resolution : Changes the resolution of taken photos.
+:; 720p
+:; 1080p
+:; 1440p
+:; 2160p
+:; 4320p
+:; Config File
+:: Applies the resolution specified within the config file.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Stream Resolution : Changes the resolution of the Spout Stream output.
+:; 720p
+:; 1080p
+:; 1440p
+:; 2160p
+:; Config File
+:: Applies the resolution specified within the config file.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+; Lock : Disables camera pickup interaction. VR Only.
+; Grid : Displays a [[wikipedia:Rule of thirds|rule of thirds]] grid on the camera.
+; Save Metadata : Attaches metadata to photos when taken.
+: Metadata attached includes: Author display name, Author ID, World display name, and, World ID. If the photo is taken in a private world, the world ID, and world display is not attached.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Behavior==
+===Indicators===
+====Red Beam====
+When a user has their camera out, a red beam will projected upwards and downwards from their camera position. In addition, it will also project a red quad indicating the what direction the camera is facing. These red beams are only visble when the Quick Menu is open.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====Timed====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====Audio From Camera====
+</div>
 
 <span id="Accessing_saved_photos"></span>
 == Acceder a las fotos guardadas ==
 
+<div class="mw-translate-fuzzy">
 *Los '''sistemas operativos Windows''' almacenarán las fotos de VRChat usando la ruta de carpeta predeterminada de "Imágenes": <code>''C:/Usuarios/(Propietario)/Imágenes/VRChat''</code>. Las fotografías se ordenarán por mes y año. En las versiones de escritorio y PCVR de VRChat, al abrir la pestaña "Cámara" en el menú rápido y al seleccionar "Abrir carpeta de fotos", se abrirá directamente el explorador de archivos en esa ruta.
+</div>
 
 *Los usuarios de '''Steam''' pueden acceder a sus '''capturas de pantalla de Steam''', separadas de las fotos de VRChat, usando la ruta de carpeta predeterminada: <code>''C:/Archivos de programa (x86)/Steam/userdata/XXXXXXXXX/760/remote/438100/screenshots''</code>.
 
+<div class="mw-translate-fuzzy">
 *Los usuarios de '''Quest Standalone''' pueden acceder a sus fotos a través de la aplicación "Archivos" de Quest en el panel del sistema, o mediante la aplicación Meta Horizon en su teléfono u otro dispositivo si está sincronizado.
+</div>
 
+<div class="mw-translate-fuzzy">
 *Los dispositivos '''Android y iOS''' pueden acceder a sus fotos de VRChat mediante la aplicación "Galería" o a través de la aplicación "Archivos" del dispositivo.
+</div>
 
 <span id="See_also"></span>
 == Véase también ==
 
+<div class="mw-translate-fuzzy">
 * [[Special:MyLanguage/Camera Dolly|Cámara móvil]]
 * [[Special:MyLanguage/Camera Drone|Dron]]
 * [[Special:MyLanguage/Gallery|Galería]]
-{{Start-navbox}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Navigation==
+{{Navbox/Camera}}
+</div>
+
 [[Category:User Interface{{#translation:}}]]
 [[Category:Features{{#translation:}}]]
