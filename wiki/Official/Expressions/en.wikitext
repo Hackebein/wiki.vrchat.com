@@ -93,6 +93,7 @@ VRChat also provides built-in Animator parameters. These do not need to be added
 <!--T:55-->
 Built-in parameters are read-only. They are added directly to a playable layer's Animator Controller by name, and VRChat updates them automatically at runtime. They are not set on sub-animators, only on playable-layer animators.
 
+<!--T:59-->
 Additional built-in parameters include:
 * <code>Viseme</code> (Int) — Set by lip sync from <code>0</code> (silence) to <code>14</code> (the "u" vowel) when the Avatar Descriptor's Lip Sync is set to Viseme Blend Shape or Viseme Parameter Only.
 * <code>Voice</code> (Float) — Perceived microphone volume from <code>0.0</code> to <code>1.0</code>, affected by distance and earmuff settings.
@@ -104,16 +105,19 @@ Additional built-in parameters include:
 * <code>IsOnFriendsList</code> (Bool) — Whether the viewer is friends with the avatar's wearer (shows False locally).
 * <code>ScaleFactor</code>, <code>ScaleFactorInverse</code>, <code>EyeHeightAsMeters</code>, <code>EyeHeightAsPercent</code> (Float) — Scaling-related parameters for avatar scaling. <code>EyeHeightAsMeters</code> is recommended for scale-aware systems because it is linear and does not depend on upload height.
 
+<!--T:60-->
 Each built-in parameter has a sync type determining when it is sent to remote users: ''IK'' for tracking-derived values (gestures, velocity, grounded), ''Speech'' for voice-related values (viseme, voice), ''Playable'' for user-state values (mute, earmuffs, tracking type, scale), or ''None'' for local-only values (IsLocal, PreviewMode).
 
-=== Network synchronization ===
+=== Network synchronization === <!--T:61-->
 
+<!--T:62-->
 Only synced expression parameters and certain built-in parameters are sent over the network. The full list of data sent for each avatar includes:
 * '''IK targets''' — Head, jaw, and hands for desktop and 3-point tracking; additionally hip and feet for full-body tracking. Index controller users also sync finger positions.
 * '''Synced expression parameters''' — Only parameters marked as Synced are transmitted. Values are quantized: Int values sync in the range 0–255, Float values sync as multiples of 1/127 between −1 and 1, and Bools sync as true or false.
 * '''Built-in VRC parameters''' — Including gestures, velocity, voice, and other runtime parameters.
 * '''PhysBones''' — Pose position data is sent to late joiners.
 
+<!--T:63-->
 For reliable late-joiner support, a recommended pattern is to split animator logic using the <code>IsLocal</code> parameter: local-side layers handle contacts, parameter drivers, and all logic, then set synced parameters, while remote-side layers only read those synced parameters to play the correct visualization.
 
 === Gestures and facial expressions === <!--T:56-->
@@ -207,6 +211,7 @@ Unity's Animator system uses floats on the backend for all parameter types, whil
 
 ==References== <!--T:46-->
 
+<!--T:64-->
 * [https://vrc.school/docs/Avatars/Expressions-Menu-Params VRC School: Expressions Menu and Parameters]
 * [https://vrc.school/docs/Avatars/Gestures VRC School: Hand Gestures/Facial Expressions]
 * [https://vrc.school/docs/Avatars/VRC-Parameters VRC School: Built-In VRC Parameters]
