@@ -1,26 +1,17 @@
 <languages/>
 {{Noticebox/Official}}
-{{stub|Resources heading is empty. Proofread according to [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]].}}
 [[File:Mirrors.webp|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">A group of people socializing in front of a mirror.</span>]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Mirrors''' are reflective surfaces that allow users to view a mirrored reflection of their avatar, alongside other users and/or the world they're in, depending on the settings of the world. Many worlds contain mirrors intended for users to sit in front of as they socialize. This activity is colloquially referred to as "mirror dwelling". Users may also choose to summon a mirror of their own though only visible to them.
 </div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-=== World prefab ===
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The [[Special:MyLanguage/VRChat SDK|VRChat SDK]] contains a prefab for a ready-to-use mirror that can be dragged into a scene. This prefab is found at the following path:
-</div><br>
-<code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code>
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Types of mirror ===
+== Types of mirror ==
 [[File:Mirror actionmenu.webp|thumb|A demonstration of the Personal Mirror, and Face Mirror toggles within the Action Menu.]]
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==== Personal Mirror ====
+=== Personal Mirror ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -32,7 +23,7 @@ It can be enabled and configured via the [[Special:MyLanguage/Action Menu|Action
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==== Face Mirror ====
+=== Face Mirror ===
 [[File:Mirrorsettings actionmenu.webp|thumb|A demonstration of the Personal Mirror settings within the Action Menu.]][[File:Facemirrorsettings actionmenu.webp|thumb|A demonstration of the Face Mirror settings within the Action Menu.]]
 </div>
 
@@ -45,7 +36,7 @@ It can be enabled and configured via the [[Special:MyLanguage/Action Menu|Action
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==== Calibration Mirror ====
+=== Calibration Mirror ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -61,7 +52,7 @@ It can be enabled via the [[Special:MyLanguage/Action Menu|Action Menu]] or the 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-The mirror prefab allows for selection of which layers are to be shown in the reflection. Therefore it is common that worlds have set up multiple different mirrors to toggle between. Which is why it usually breaks down to 3 options: high quality, low quality and transparent mirror. Some worlds offer even more specialized setups beyond these.
+The mirror prefab allows for selection of which layers are to be shown in the reflection. Therefore, it is common that worlds have set up multiple different mirrors to toggle between. Which is why it usually breaks down to 3 options: high quality, low quality and transparent mirror. Some worlds offer even more specialized setups beyond these.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -113,7 +104,19 @@ When interacting with a Mirror in a world, users will be able to enable or toggl
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-== Technical details ==
+==SDK==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== World prefab ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The [[Special:MyLanguage/VRChat SDK|VRChat SDK]] contains a prefab for a ready-to-use mirror that can be dragged into a scene. This prefab is found at the following path:
+</div><br>
+<code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Technical details ===
 Mirrors render during <code>Camera.onPreCull</code>. World creators using scripts that depend on mirror render timing should account for this.
 </div>
 
