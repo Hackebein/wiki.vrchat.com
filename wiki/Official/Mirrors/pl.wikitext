@@ -33,7 +33,7 @@ It can be enabled and configured via the [[Special:MyLanguage/Action Menu|Action
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-A face mirror is a type of mirror that displays the face of a user's avatar in their [[Special:MyLanguage/HUD|HUD]]. Face mirrors are designed to help a user stay aware of their avatar's facial expressions, especially if they're controlled by gestures. Unlike a traditional mirror, the face mirror does not portray depth.
+A face mirror is a type of mirror that displays the face of a user's avatar in their [[Special:MyLanguage/HUD|HUD]]. Face mirrors are designed to help a user stay aware of their avatar's facial expressions, especially if they're controlled by gestures. Unlike a traditional mirror, the face mirror does not portray depth. In desktop mode, the Face Mirror resolution scales with its displayed size up to 2048×2048 pixels. When streaming via [[Special:MyLanguage/Settings#Face Mirror|Spout]], it always renders at maximum resolution.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -105,6 +105,11 @@ When interacting with a Mirror in a world, users will be able to enable or toggl
 * Choosing a lower quality option for a mirror, if available.
 * Alternatively, substituting a world's mirror for your Personal Mirror.
 * Adjust your mirror resolution under [[Special:MyLanguage/Settings#Graphics|Graphics Settings]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Technical details ==
+Mirrors render during <code>Camera.onPreCull</code>. World creators using scripts that depend on mirror render timing should account for this.
 </div>
 
 <span id="Resources"></span>
