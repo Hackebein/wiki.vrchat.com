@@ -89,18 +89,51 @@ Each entry in the Expression Parameters asset stores:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet controls temporarily use faster ''IK'' sync while they are actively open.
-</div>
+</div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Built-in parameters ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-VRChat also provides built-in Animator parameters such as <code>GestureLeft</code>, <code>GestureRight</code>, <code>GestureLeftWeight</code>, <code>GestureRightWeight</code>, <code>IsLocal</code>, <code>AFK</code>, <code>Seated</code>, <code>InStation</code>, and <code>TrackingType</code>. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
+VRChat also provides built-in Animator parameters. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Built-in parameters are read-only. They are added directly to a playable layer's Animator Controller by name, and VRChat updates them automatically at runtime.
+Built-in parameters are read-only. They are added directly to a playable layer's Animator Controller by name, and VRChat updates them automatically at runtime. They are not set on sub-animators, only on playable-layer animators.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Additional built-in parameters include:
+* <code>Viseme</code> (Int) — Set by lip sync from <code>0</code> (silence) to <code>14</code> (the "u" vowel) when the Avatar Descriptor's Lip Sync is set to Viseme Blend Shape or Viseme Parameter Only.
+* <code>Voice</code> (Float) — Perceived microphone volume from <code>0.0</code> to <code>1.0</code>, affected by distance and earmuff settings.
+* <code>VelocityX</code>, <code>VelocityY</code>, <code>VelocityZ</code>, <code>VelocityMagnitude</code> (Float) — Movement speed in m/s along each axis and total magnitude. Locally, playspace movement does not count; remotely, it does.
+* <code>Upright</code> (Float) — <code>0</code> when prone, <code>1</code> when standing.
+* <code>Grounded</code> (Bool) — Whether the user is touching the ground.
+* <code>MuteSelf</code> (Bool) — Whether the user's microphone is muted.
+* <code>Earmuffs</code> (Bool) — Whether the user has earmuffs enabled.
+* <code>IsOnFriendsList</code> (Bool) — Whether the viewer is friends with the avatar's wearer (shows False locally).
+* <code>ScaleFactor</code>, <code>ScaleFactorInverse</code>, <code>EyeHeightAsMeters</code>, <code>EyeHeightAsPercent</code> (Float) — Scaling-related parameters for avatar scaling. <code>EyeHeightAsMeters</code> is recommended for scale-aware systems because it is linear and does not depend on upload height.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Each built-in parameter has a sync type determining when it is sent to remote users: ''IK'' for tracking-derived values (gestures, velocity, grounded), ''Speech'' for voice-related values (viseme, voice), ''Playable'' for user-state values (mute, earmuffs, tracking type, scale), or ''None'' for local-only values (IsLocal, PreviewMode).
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Network synchronization ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Only synced expression parameters and certain built-in parameters are sent over the network. The full list of data sent for each avatar includes:
+* '''IK targets''' — Head, jaw, and hands for desktop and 3-point tracking; additionally hip and feet for full-body tracking. Index controller users also sync finger positions.
+* '''Synced expression parameters''' — Only parameters marked as Synced are transmitted. Values are quantized: Int values sync in the range 0–255, Float values sync as multiples of 1/127 between −1 and 1, and Bools sync as true or false.
+* '''Built-in VRC parameters''' — Including gestures, velocity, voice, and other runtime parameters.
+* '''PhysBones''' — Pose position data is sent to late joiners.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+For reliable late-joiner support, a recommended pattern is to split animator logic using the <code>IsLocal</code> parameter: local-side layers handle contacts, parameter drivers, and all logic, then set synced parameters, while remote-side layers only read those synced parameters to play the correct visualization.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -154,7 +187,7 @@ O sistema Animator do Unity usa floats no backend para todos os tipos de parâme
 !Comportamento
 |-
 |Int → Bool
-|Qualquer valor inteiro diferente de 0 define uma variável booleana como Verdadeiro.
+|<span class="mw-translate-fuzzy">Qualquer valor inteiro diferente de 0 define uma variável booleana como Verdadeiro.</span>
 |-
 |Int → Int
 |Comportamento Esperado
@@ -170,7 +203,7 @@ O sistema Animator do Unity usa floats no backend para todos os tipos de parâme
 !Comportamento
 |-
 |Float → Bool
-|Qualquer valor Float diferente de 0 define uma variável booleana como Verdadeiro.
+|<span class="mw-translate-fuzzy">Qualquer valor Float diferente de 0 define uma variável booleana como Verdadeiro.</span>
 |-
 |Float → Int
 |Conversão Arredondada: ≥0,5 → 1 ; <0,5 → 0
@@ -200,6 +233,12 @@ O sistema Animator do Unity usa floats no backend para todos os tipos de parâme
 <span id="References"></span>
 ==Referências==
 
-<references />
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [https://vrc.school/docs/Avatars/Expressions-Menu-Params VRC School: Expressions Menu and Parameters]
+* [https://vrc.school/docs/Avatars/Gestures VRC School: Hand Gestures/Facial Expressions]
+* [https://vrc.school/docs/Avatars/VRC-Parameters VRC School: Built-In VRC Parameters]
+* [https://vrc.school/docs/Other/Network-Sync VRC School: Network Sync]
+* [https://vrc.school/docs/Other/Parameter-Mismatching VRC School: Expression Parameter Mismatching]
+</div>
 
 [[Category:Avatar features{{#translation:}}]]
