@@ -173,50 +173,84 @@ Pour attribuer des permissions à un rôle, un gestionnaire de groupe doit se co
 |Gérer l’annonce du groupe||<small>Permet au rôle de définir ou de supprimer l’annonce du groupe et de l’envoyer sous forme de notification.</small>
 |-
 
+<div class="mw-translate-fuzzy">
 |Gérer le calendrier du groupe||<small>Permet au rôle de créer, modifier et publier des entrées de calendrier.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Gérer les galeries du groupe||<small>Permet au rôle de créer, réorganiser, modifier et supprimer les galeries du groupe. Peut toujours soumettre du contenu aux galeries et approuver les images.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Gérer les invitations de groupe||<small>Permet au rôle de créer ou d’annuler des invitations, ainsi que d’accepter, refuser ou bloquer des demandes de rejoindre le groupe.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Modérer une instance de groupe||<small>Permet au rôle d’exercer la modération au sein d’une instance de groupe.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Gérer les instances de groupe||<small>Permet au rôle de fermer une instance de groupe.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Priorité dans la file d’attente des instances de groupe||<small>Donne au rôle la priorité dans les files d’attente des instances de groupe.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Créer des instances avec restriction d’âge||<small>Permet au rôle de créer des instances de groupe qui nécessitent une vérification d’âge pour pouvoir y accéder.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Créer des instances liées||<small>Permet au rôle de créer des instances de groupe liées à des événements en direct, à des événements commençant dans les 6 heures ou à des événements terminés depuis moins de 6 heures.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Créer des instances publiques de groupe||<small>Permet au rôle de créer des instances de groupe ouvertes à tous, qu’ils soient membres ou non. REMARQUE : les groupes privés ne peuvent pas créer d’instances publiques.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Créer des instances Groupe+||<small>Permet au rôle de créer des instances de groupe que les amis des personnes présentes peuvent également rejoindre.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Créer des instances de groupe réservées aux membres||<small>Permet au rôle de créer des instances réservées aux membres.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Restreindre par rôle les instances réservées aux membres||<small>Permet au rôle d’ajouter, de supprimer ou de modifier les restrictions de rôle sur les instances réservées aux membres. Nécessite « Créer des instances de groupe réservées aux membres ».</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Portail vers les instances Groupe+||<small>Permet au rôle d’ouvrir des portails verrouillés vers les instances Groupe+. Les membres, les amis des personnes présentes et les amis de celui qui dépose le portail peuvent y entrer, sauf s’ils sont bannis du groupe.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Portail déverrouillé vers les instances Groupe+||<small>Permet au rôle d’ouvrir des portails déverrouillés vers des instances Groupe+. Tout le monde, sauf les personnes bannies du groupe, peut y entrer. Nécessite « Portail vers les instances Groupe+ ».</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Rejoindre les instances de groupe||<small>Permet au rôle de rejoindre les instances de groupe.</small>
 |}
+</div>
+
+<div class="mw-translate-fuzzy">
+== Liste des groupes .0000  ==
+</div>
 
 <span id="Group_instances"></span>
 ==Instances de groupe==
@@ -251,10 +285,11 @@ Depuis le 27 mars 2024<ref>https://ask.vrchat.com/t/developer-update-28-march-20
 * Le groupe n'est pas monétisé
 
 <span id="List_of_.0000_groups"></span>
-== Liste des groupes .0000  ==
-
+<div class="mw-translate-fuzzy">
 Il est donné à chaque groupe créé un court code accompagné d'un discriminant à quatre chiffres. Cependant, le discriminant <code>.0000</code> est gardé par l'équipe VRChat pour les groupes 'officiels'.
+</div>
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable"
 !Name
 !Shortcode
@@ -304,6 +339,59 @@ Il est donné à chaque groupe créé un court code accompagné d'un discriminan
 |[https://vrc.group/MAXCAP.0000 MAXCAP.0000]
 |This group is for testing unreasonably high capacity instances.
 |}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| class="wikitable"
+!Name
+!Shortcode
+!Description
+|-
+|Official VRChat Twitch Streams
+|[https://vrc.group/VRCSTR.0000 VRCSTR.0000]
+|The official group for the VRChat dev streams! woo!!
+|-
+|Steel'n'Gold
+|[https://vrc.group/SNG.0000 SNG.0000]
+|Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!
+|-
+|VRChat Community Testers
+|[https://vrc.group/TESTER.0000 TESTER.0000]
+|This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.
+|-
+|VRChat Crowdin Proofreaders
+|[https://vrc.group/VRCTLP.0000 VRCTLP.0000]
+|This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.
+|-
+|VRChat Crowdin Translators
+|[https://vrc.group/VRCTL.0000 VRCTL.0000]
+|This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.
+|-
+|VRChat Open Beta
+|[https://vrc.group/BETA.0000 BETA.0000]
+|This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.
+|-
+|VRChat Quality Assurance
+|[https://vrc.group/VRCQA.0000 VRCQA.0000]
+|Official testing group for the VRChat QA Team.
+|-
+|VRChat Team
+|[https://vrc.group/VRCHAT.0000 VRCHAT.0000]
+|The official group for VRChat team members.
+|-
+|VRChat Wiki Team
+|[https://vrc.group/VRWIKI.0000 VRWIKI.0000]
+|This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.
+|-
+|VRChat Playtours
+|<private>.0000
+|This group is for VRChat Playtours.
+|-
+|Instance Capacity Stress Tests
+|[https://vrc.group/MAXCAP.0000 MAXCAP.0000]
+|This group is for testing unreasonably high capacity instances.
+|}
+</div>
 
 <span id="Official_resources"></span>
 ==Ressources officielles==
