@@ -1,5 +1,6 @@
 <languages/>
 <translate>
+<!--T:23-->
 {{Noticebox/Official}}
 {{Noticebox/wip|The page below is incomplete. Desciptions are missing for toggles, sections not filled out. Considering if these options should be displayed in tables instead of lists. Translations may be broken for a bit.}}
 
@@ -10,14 +11,17 @@ The '''Camera''' is an in-game tool that allows users to take photos to capture 
 ==Accessing==
 There are multiple ways to access the camera in VRChat:
 
+<!--T:24-->
 * Open the [[Special:MyLanguage/Action Menu|Action Menu]], select '''Tools''', then select '''Camera'''.
 * Open the [[Special:MyLanguage/Quick Menu|Quick Menu]] and click on the Camera tab on the bottom row. The Quick Menu provides options for all camera modes.
 * Double-click the Camera tab on the bottom tab of the Quick Menu. This will immediately take out or put away the camera.
 
+<!--T:25-->
 ==Modes==
 [[File:Camera menu.webp|thumb|Camera tab in the Quick Menu.]]
 The camera modes determine how the camera behaves when taking a photo. There are seven camera modes which corresponds to different features:
 
+<!--T:26-->
 ; Local Photo : After taken, it captures a regular photo. This is the default mode.
 ; Multi Layer : After taken, it captures a photo and creates images of each enabled mask. This mode does support focus or filters and may cause frame lag. 
 : It can create up to three additional images (besides the regular photo): "Environment", "Player" (Combines the Local & Remote Player masks), and "UI". The "Player" & "UI" masks save with alpha transparency.
@@ -37,17 +41,21 @@ The camera modes determine how the camera behaves when taking a photo. There are
 :; Animated (4)
 :; Animated (16)
 
+<!--T:27-->
 These two modes are not accessible through the Camera Mode button, but rather other means:
 
+<!--T:28-->
 ; Camera Drone : ''See also [[Special:MyLanguage/Camera Drone|Camera Drone]] for more detailed information.''
 : Brings out the Camera Drone. 
 ; Screenshot : Takes a photo without [[Special:MyLanguage/HUD|HUD]] elements. Captures in 1920x1080 by default, unless changed in the [https://docs.vrchat.com/docs/configuration-file config file].
 ; Photo Invite : Invite/Request Invites or Invite/Request Responses can be sent with an image. After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a rectangular crop. "Save & Apply" attaches it to invite/response. Requires VRC+.
 
+<!--T:29-->
 ==Options==
 [[File:Camera.png|thumb|Overview of the VRChat Camera.]]
 The options consist of the toggles are appear around or on the camera frame. Some options can be controlled by both the UI and the Menu.
 
+<!--T:30-->
 ===UI===
 The UI toggles are toggles that are on the on center, left or right sides of the camera frame.
 ====Default====
@@ -67,6 +75,7 @@ The UI toggles are toggles that are on the on center, left or right sides of the
 :; Filters
 :: Cycles through the Blueprint, Glitch, Speed, Hypno, Pixelate, Sketch, Sparkle, Trippy, and Olde camera filters.
 
+<!--T:31-->
 ====Toggle====
 ; Fly Speed : Determines how fast the camera moves in Fly mode. Values range from 0.1 to 15, with 3 being the default.
 : Slider shown only when using Desktop mode or when the Flying toggle is on.
@@ -90,9 +99,11 @@ The UI toggles are toggles that are on the on center, left or right sides of the
 ; Duration : Determines the duration of new dolly points when using time-based motion.
 : Slider shown only when the Dolly toggle is selected.
 
+<!--T:32-->
 ===Menu===
 The Menu toggles are toggles that are below the camera frame.
 
+<!--T:33-->
 ; Take Photo : Takes a photo.
 ; Timed (5s) : Takes a photo with a five-second delay. Remote users will see a circular indicator around the lens winding down to when the photo is taken. Photo can be cancelled before the five seconds has passed.
 ; Camera Mode : Determines how the camera behaves when taking photos. See the [[Camera#Modes|Modes]] section above to view all options
@@ -103,6 +114,7 @@ The Menu toggles are toggles that are below the camera frame.
 ; Audio From Camera : Audio heard will be from the camera position instead of the avatar.
 : The "Stream" camera mode must be selected for it to appear.
 
+<!--T:34-->
 ; Anchor : Determines where the camera is attached.
 :; Default
 :: Attached to the user.
@@ -111,6 +123,7 @@ The Menu toggles are toggles that are below the camera frame.
 :; World
 :: Attached to the world, independent of user movement.
 
+<!--T:35-->
 ; Behavior : Desc
 :; Smoothed
 :: Stabilizes video for smoother footage.
@@ -125,6 +138,7 @@ The Menu toggles are toggles that are below the camera frame.
 :; Trigger Takes Photos (VR)
 :: Only works when the camera mode is not local photo
 
+<!--T:36-->
 ; Focus : Controls the focus mode.
 :; Off
 :: two colons plus definition
@@ -137,12 +151,14 @@ The Menu toggles are toggles that are below the camera frame.
 :; Show
 :: (shows focus visualizer)
 
+<!--T:37-->
 ; Pins : Saves camera presets.
 : Anchor, Behavior, Mask, and Filters can be saved to pins.
 :; Pin 1
 :; Pin 2
 :; Pin 3
 
+<!--T:38-->
 ; Mask : Determines which layers are included in pictures.
 :; Local User
 :: Includes the user and their avatar.
@@ -157,6 +173,7 @@ The Menu toggles are toggles that are below the camera frame.
 :; Items
 :: Includes [[Special:MyLanguage/Items|items]] placed by users in the world.
 
+<!--T:39-->
 ; Dolly : ''See also [[Special:MyLanguage/Camera Dolly|Camera Dolly]] for more detailed information.''
 : This option is only available on PC & Android (Standalone VR).
 :; Add
@@ -174,6 +191,7 @@ The Menu toggles are toggles that are below the camera frame.
 ::: (import path)
 ::; Show Paths : Desc
 
+<!--T:40-->
 ; Lens Visibility : Sets how the camera is rendered within the world.
 :; Off
 :: Shows only a small light.
@@ -182,6 +200,7 @@ The Menu toggles are toggles that are below the camera frame.
 :; Solid
 :: Displays a solid camera lens.
 
+<!--T:41-->
 ; Filters : Adds visual filters to the camera. Only one filter can be active at a time.
 <gallery mode="packed" heights="80">
 File:CameraFilter None.png|None
@@ -196,6 +215,7 @@ File:CameraFilter Trippy.png|Trippy
 File:CameraFilter Olde.png|Olde
 </gallery>
 
+<!--T:42-->
 ; Photo Resolution : Changes the resolution of taken photos.
 :; 720p
 :; 1080p
@@ -205,6 +225,7 @@ File:CameraFilter Olde.png|Olde
 :; Config File
 :: Applies the resolution specified within the config file.
 
+<!--T:43-->
 ; Stream Resolution : Changes the resolution of the Spout Stream output.
 :; 720p
 :; 1080p
@@ -213,19 +234,21 @@ File:CameraFilter Olde.png|Olde
 :; Config File
 :: Applies the resolution specified within the config file.
 
+<!--T:44-->
 ; Lock : Disables camera pickup interaction. VR Only.
 ; Grid : Displays a [[wikipedia:Rule of thirds|rule of thirds]] grid on the camera.
 ; Save Metadata : Attaches metadata to photos when taken.
 : Metadata attached includes: Author display name, Author ID, World display name, and, World ID. If the photo is taken in a private world, the world ID, and world display is not attached.
 
+<!--T:45-->
 ==Behavior==
 ===Indicators===
 ====Red Beam====
 When a user has their camera out, a red beam will projected upwards and downwards from their camera position. In addition, it will also project a red quad indicating the what direction the camera is facing. These red beams are only visble when the Quick Menu is open.
 
-====Timed====
+====Timed==== <!--T:46-->
 
-====Audio From Camera====
+====Audio From Camera==== <!--T:47-->
 
 == Accessing saved photos == <!--T:15-->
 
@@ -248,6 +271,7 @@ When a user has their camera out, a red beam will projected upwards and downward
 * [[Special:MyLanguage/Camera Drone|Camera Drone]]
 * [[Special:MyLanguage/Inventory#Photo Gallery|Photo Gallery]]
 
+<!--T:48-->
 ==Navigation==
 {{Navbox/Camera}}
 
