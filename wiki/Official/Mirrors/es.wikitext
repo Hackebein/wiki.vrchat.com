@@ -22,7 +22,9 @@ Se puede activar y configurar desde el [[Special:MyLanguage/Action Menu|menú de
 ==== Espejo facial ====
 [[File:Mirrorsettings actionmenu.webp|thumb|Demostración de los ajustes del espejo personal dentro del menú de acción.]][[File:Facemirrorsettings actionmenu.webp|thumb|Demostración de los ajustes de espejo facial dentro del menú de acción.]]
 
+<div class="mw-translate-fuzzy">
 Un espejo facial es un tipo de espejo que muestra la cara del avatar de un usuario en su [[Special:MyLanguage/HUD|HUD]]. Los espejos faciales están diseñados para ayudar al usuario a mantenerse al tanto de las expresiones faciales de su avatar, especialmente si se controlan mediante gestos. A diferencia de un espejo tradicional, el espejo facial no retrata la profundidad.
+</div>
 
 Se puede activar y configurar desde el [[Special:MyLanguage/Action Menu|menú de acción]] o desde la página de [[Special:MyLanguage/Settings|ajustes]] del [[Special:MyLanguage/Main Menu|menú principal]].
 
@@ -69,6 +71,11 @@ Al interactuar con un espejo en un mundo, los usuarios podrán activar o desacti
 * Elegir una opción de menor calidad para un espejo, si está disponible.
 * Alternativamente, sustituir el espejo del mundo por tu espejo personal.                     
 * Ajustar la resolución de tu espejo en los [[Special:MyLanguage/Settings#Graphics|ajustes de gráficos]].
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Technical details ==
+Mirrors render during <code>Camera.onPreCull</code>. World creators using scripts that depend on mirror render timing should account for this.
+</div>
 
 <span id="Resources"></span>
 == Recursos ==
