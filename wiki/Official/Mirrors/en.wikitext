@@ -81,6 +81,7 @@ When interacting with a Mirror in a world, users will be able to enable or toggl
 * Alternatively, substituting a world's mirror for your Personal Mirror.
 * Adjust your mirror resolution under [[Special:MyLanguage/Settings#Graphics|Graphics Settings]].
 
+<!--T:30-->
 == Technical details ==
 Mirrors render during <code>Camera.onPreCull</code>. World creators using scripts that depend on mirror render timing should account for this.
 
