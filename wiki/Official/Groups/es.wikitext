@@ -174,51 +174,85 @@ Paso 6: aplica los permisos que se encuentran a continuación, desplázate hasta
 |Administrar anuncio del grupo||<small>Permite al rol establecer o borrar el anuncio del grupo y enviarlo como una notificación.</small>
 |-
 
+<div class="mw-translate-fuzzy">
 |Administrar calendario del grupo||<small>Permite al rol crear, modificar y publicar entradas en el calendario.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Administrar galería del grupo||<small>Permite al rol crear, reordenar, editar y eliminar la galería del grupo. También puede enviar imágenes y aprobarlas.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Administrar invitaciones del grupo||<small>Permite al rol crear o cancelar invitaciones, así como aceptar, rechazar o bloquear solicitudes de unión.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Moderar estancia del grupo||<small>Permite al rol moderar dentro de una estancia de grupo.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Administrar estancias del grupo||<small>Permite al rol cerrar una estancia de grupo.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Prioridad en la cola de estancias del grupo||<small>Otorga al rol prioridad en las colas de acceso a estancias del grupo.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Crear estancias con restricción de edad||<small>Permite al rol crear estancias de grupo que requieran que los usuarios tengan verificada su edad para unirse.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Crear estancias enlazadas||<small>Permite al rol crear estancias de grupo enlazadas con eventos en curso, eventos que comienzan dentro de las 6 horas siguientes o que hayan terminado en las últimas 6 horas.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Crear estancias públicas de grupo||<small>Permite al rol crear estancias de grupo abiertas para todos, sean miembros o no.
 Nota: Los grupos privados no pueden crear estancias públicas.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Crear estancias de tipo Grupo+||<small>Permite al rol crear estancias de grupo a las que también puedan unirse los amigos de las personas presentes.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Crear estancias solo para miembros||<small>Permite al rol crear estancias de grupo exclusivas para miembros.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Restringir roles en estancias solo para miembros||<small>Permite al rol agregar, eliminar o modificar restricciones de roles en estancias solo para miembros. Requiere "Crear estancias solo para miembros".</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Portal a estancias Grupo+||<small>Permite al rol abrir portales bloqueados a estancias Grupo+. Los miembros, amigos de quienes estén dentro y amigos de quien abre el portal pueden entrar, a menos que estén baneados del grupo.</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Portal desbloqueado a estancias Grupo+||<small>Permite al rol abrir portales desbloqueados a estancias Grupo+. Todos pueden entrar, excepto quienes estén baneados del grupo. Requiere "Portal a estancias Grupo+".</small>
 |-
+</div>
 
+<div class="mw-translate-fuzzy">
 |Unirse a estancias de grupo||<small>Permite al rol unirse a estancias de grupo.</small>
 |}
+</div>
+
+<div class="mw-translate-fuzzy">
+== Lista de grupos .0000 ==
+</div>
 
 <span id="Group_instances"></span>
 ==Estancias de grupo==
@@ -253,10 +287,11 @@ A partir del 27 de marzo de 2024<ref>https://ask.vrchat.com/t/developer-update-2
 *El grupo no está monetizado
 
 <span id="List_of_.0000_groups"></span>
-== Lista de grupos .0000 ==
-
+<div class="mw-translate-fuzzy">
 Cada grupo que se crea recibe un código corto, con un discriminador generado de cuatro dígitos al final. Sin embargo, los discriminadores que contienen <code>.0000</code> están reservados por el equipo de VRChat para los grupos "oficiales".
+</div>
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable"
 !Nombre
 !Código corto
@@ -298,6 +333,59 @@ Cada grupo que se crea recibe un código corto, con un discriminador generado de
 |[https://vrc.group/VRWIKI.0000 VRWIKI.0000]
 |Grupo es para quienes forman parte del equipo oficial de colaboradores de la Wiki de VRChat. Los miembros de este grupo no son necesariamente empleados de VRChat.
 |}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{| class="wikitable"
+!Name
+!Shortcode
+!Description
+|-
+|Official VRChat Twitch Streams
+|[https://vrc.group/VRCSTR.0000 VRCSTR.0000]
+|The official group for the VRChat dev streams! woo!!
+|-
+|Steel'n'Gold
+|[https://vrc.group/SNG.0000 SNG.0000]
+|Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!
+|-
+|VRChat Community Testers
+|[https://vrc.group/TESTER.0000 TESTER.0000]
+|This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.
+|-
+|VRChat Crowdin Proofreaders
+|[https://vrc.group/VRCTLP.0000 VRCTLP.0000]
+|This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.
+|-
+|VRChat Crowdin Translators
+|[https://vrc.group/VRCTL.0000 VRCTL.0000]
+|This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.
+|-
+|VRChat Open Beta
+|[https://vrc.group/BETA.0000 BETA.0000]
+|This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.
+|-
+|VRChat Quality Assurance
+|[https://vrc.group/VRCQA.0000 VRCQA.0000]
+|Official testing group for the VRChat QA Team.
+|-
+|VRChat Team
+|[https://vrc.group/VRCHAT.0000 VRCHAT.0000]
+|The official group for VRChat team members.
+|-
+|VRChat Wiki Team
+|[https://vrc.group/VRWIKI.0000 VRWIKI.0000]
+|This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.
+|-
+|VRChat Playtours
+|<private>.0000
+|This group is for VRChat Playtours.
+|-
+|Instance Capacity Stress Tests
+|[https://vrc.group/MAXCAP.0000 MAXCAP.0000]
+|This group is for testing unreasonably high capacity instances.
+|}
+</div>
 
 <span id="Official_resources"></span>
 ==Recursos oficiales==
