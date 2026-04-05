@@ -1,6 +1,8 @@
+{{Noticebox/Community}}
+
 Occlusion culling is a complicated topic, and pretty easy to misunderstand. With this guide, I'm hoping I can give people a better idea of when and where to use it.
 
-= The basics of occlusion culling =
+== The basics of occlusion culling ==
 
 Occlusion in a Unity scene is data that divides the world into chunks containing smaller and smaller chunks of space. In each of these sections, the data for what is and isn't visible from each section is recorded. Unity takes this data and uses it to hide things from being rendered.
 
@@ -9,7 +11,7 @@ Wait, occlusion culling is only visual?
 
 That's right - occlusion culling only stops things from rendering. It doesn't stop them from doing any processing, so if you have a big world split into sections, you can gain performance by disabling parts you know aren't currently active.
 
-= How occlusion culling affects objects =
+== How occlusion culling affects objects ==
 
 Occlusion culling treats static objects (like the map) and dynamic objects (like players and pickups) separately.
 
@@ -26,36 +28,37 @@ Dynamic occlusion is less precise than static occlusion. In practice, only large
 
 Occlusion culling works on top of static batching, and Unity can hide objects that are part of a static batch.
 
-= How to set up a scene for occlusion culling =
+== How to set up a scene for occlusion culling ==
 
 By default, Unity will put the entire scene into one big chunk of space, called a View Volumes.
 
 If you place an Occlusion Area into the scene, Unity will only calculate occlusion data for the inside of that space, which can make the occlusion data much smaller. If your scene is split into multiple seperate areas, consider covering them with Occlusion Areas instead of letting Unity calculate the entire scene as one big volume.
 
-[[File:OcclusionSettings.png|frame|You can set occlusion settings from the Static flags on an object, or the Occlusion window. ]]
+[[File:OcclusionSettings.png|thumb|You can set occlusion settings from the Static flags on an object, or the Occlusion window. ]]
 
-== Simple recommended settings for occlusion culling... ==
+=== Simple recommended settings for occlusion culling... ===
 
-=== Only big, solid things should be occluders! ===
+==== Only big, solid things should be occluders! ====
 This is a simple rule of thumb. If it's small, or transparent, or it has a hole in it, it shouldn't be an occluder. Trees shouldn't be occluders because they have leaves which create lots of tiny holes which can't be represented by the occlusion. Complex edges are bad.
 
-=== If it's always visible, don't make it an occludee! ===
+==== If it's always visible, don't make it an occludee! ====
 If you have a skybox, or an ocean made of a gigantic plane, there is no point in allowing it to be occluded. The number of false positives will exceed the performance gain.
 
-=== Make smaller objects occludees, but not occluders. ===
+==== Make smaller objects occludees, but not occluders. ====
 Just because something is small doesn't mean it won't benefit from occlusion culling.
 
-=== Use the EditorOnly tag to create fake occluders! ===
+==== Use the EditorOnly tag to create fake occluders! ====
 If an object has the "EditorOnly" tag, it won't render in-game. However, it'll still be considered during the baking process.
-[[File:EditorOnly.png]]
+[[File:EditorOnly.png|thumb]]
 
-== How do I preview occlusion culling? ==
+=== How do I preview occlusion culling? ===
 
 In Unity 2018, occlusion culling affects the Scene camera. Besides that, if you select Visualization in the Occlusion window, you can see how the occlusion culling works from the perspective of cameras in the scene. 
 
 When you select Visualization, the scene Hierarchy will be filtered to only show objects with Camera components, and the occlusion culling for the currently active camera's perspective will be shown. You can see the raycasting used by the camera and the low-res scene the rays are cast against to determine what is being occluded and where.
 
 To go back to normal, switch to the other tabs in the Occlusion window or close it.
+
 == What do the "Bake" settings mean? ==
 
 In the Occlusion window, there's a "Bake" section with some settings and a block of text. As the text notes, you don't really need to change the settings because they're already tuned for a good balance between speed and performance.
@@ -66,14 +69,14 @@ Smallest Occluder sets how much detail the baked occlusion data will take into a
 
 If you want to know more about them, visit [http://web.archive.org/web/20131204230947/https://blogs.unity3d.com/2013/12/02/occlusion-culling-in-unity-4-3-the-basics/ this article on the Unity blog] which explains them in more depth.
 
-= Case study: Practical tips and tricks for world design =
+== Case study: Practical tips and tricks for world design ==
 [[Community:The Devouring|The Devouring]] is a large map in VRC that uses occlusion culling to squeeze the most performance out of Unity. Here is some advice from its developers.
 
 * Don't forget, occlusion is calculated using Opaque mesh renderers as occluders. Transparent materials will not occlude. Complex edges are bad.
 * If you want to optimize your bake for a large and complex world, especially one with "zones", add big occluder cubes between areas that should not be mutually visible. Make these EditorOnly.
 * One fun way to do occlusion is to not make any of your actual meshes occluder static, but only make occluders out of cubes, and use one obnoxious material for all these occluders (and set those objects to EditorOnly). This avoids issues that the occlusion baking has with more complicated geometry.
 
-[[File:OcclusionPrefabsUsedInTheDevouring.png|frame|The occlusion prefabs used in The Devouring. Take note that they are behind the walls.]]
+[[File:OcclusionPrefabsUsedInTheDevouring.png|thumb|The occlusion prefabs used in The Devouring. Take note that they are behind the walls.]]
 
 If those objects are visually distracting in your scene, change the shader on the material to an "invisible" shader as a way to switch off your occluders while working. (Remember to switch it back to an opaque shader for baking.)
 
@@ -89,13 +92,13 @@ If you can see pink on the inside of your scene, you know you have a place where
 
 * Think about occlusion when designing worlds. If you don't need an open space, throw a wall there. Add corners and zigzags into hallways to occlude the other side. Block up big open views if they're not showing things off. Try to keep the player from seeing too much at one time — this is especially true for party instances, when occluding players is one of the biggest performance boosts you can make.
 
-[[File:TheDevouringOccludingCorridors.png|frame|An example from The Devouring of occluding corridors.]]
+[[File:TheDevouringOccludingCorridors.png|thumb|An example from The Devouring of occluding corridors.]]
 
-= Final notes = 
-== Occlusion Portals ==
+== Final notes == 
+=== Occlusion Portals ===
 '''Occlusion Portals''' are occluders that can be turned off and on and affect occlusion. If you have a large object in your scene that can open/close, like a door or toggle-able object, you can place an occlusion portal alongside it and open/close the portal to get the benefits of occlusion culling when the portal is closed.
 
-=References =
+==References==
 Special thanks to Fionna for providing the details on The Devouring's occlusion planning. [https://www.youtube.com/channel/UCnLBv3lHUJaMON7Bk6wgGBQ Further details were presented in the VRCPrefabs TLX videos].
 
 For more information on how occlusion culling works, try the Unity documentation.
@@ -112,3 +115,5 @@ When I first read it, I didn't understand it at all. I learned a lot through tri
 * https://cdn.discordapp.com/attachments/437816654492073994/924630771367559178/boosting-frame-rates-in-unity-games-using-umbra-3.pdf
 
 Adapted from [https://vrclibrary.com/wiki/books/occlusion-culling-and-you Occlusion Culling and You on VRCLibrary] which was licensed under [https://creativecommons.org/licenses/by-nc-sa/4.0/ CC BY-NC-SA 4.0].
+
+[[Category:Guides{{#translation:}}]]
