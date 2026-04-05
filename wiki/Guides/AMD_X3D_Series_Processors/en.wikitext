@@ -1,4 +1,4 @@
-=Optimizing Your AMD Ryzen X3D Processor for VRChat=
+==Optimizing Your AMD Ryzen X3D Processor for VRChat==
 
 The AMD Ryzen X3D processors, IN particular the Dual CCD items like the Ryzen 9 7950X3D , leverage 3D V-Cache technology to boost gaming performance, making them excellent for VRChat, as single core performance and resolving of materials and shaders per cycle is needed to keep frametimes low. 
 
@@ -8,14 +8,14 @@ In addition, the UEFI Bios "optimized defaults" are often not optimal for core-p
 
 ''Note: With anything involving advanced system configuration, only make changes if you're comfortable with troubleshooting. These changes may or may not make other games run worse, but in most published expert experiences, including AMD's own documentation, these changes are good for VR Games (especially running on Unity or SteamVR native) in general.''
 
-==Understanding the Ryzen X3D==
+===Understanding the Ryzen X3D===
 The Ryzen 9 7950X3D (and it's newer models, the 9900X3D and 9950X3D) features 16 cores and a massive 128 MB to 144 MB of L3 cache, thanks to its 3D V-Cache design. On the 7950X3d, one of its two CCDs (CPU Complex Dies) has an additional 64 MB of stacked cache, totaling 96 MB of L3 for that CCD, while the other has 32 MB. This setup excels in games like VRChat, where large caches reduce latency for frequent data access—think avatar loading, physics calculations, and world rendering. However, the Single CCD chips such as the 9800X3D and 7800X3D Generally do not suffer from something known as "Cache-Miss". This can be avoided with a system configuration which insures that VRChat is effectively "Landing" on the correct CCD. 
 
 VRChat benefits from single-threaded performance and cache efficiency more than raw core count, aligning well with the X3D’s strengths. 
 
 ''Note: This will not be an exhaustive guide, and is focused solely on the situation with Microsoft Windows 11.''  
 
-==Step 1: Update Your System, (Windows 11)==
+===Step 1: Update Your System, (Windows 11)===
 To get the most out of your X3D processor, the short steps are as follows:
 *'''BIOS Update:''' Ensure your AM5 motherboard has the latest BIOS. This improves compatibility and optimizes scheduling for the X3D’s dual-CCD design.
 *'''AMD Chipset Drivers:''' Download the latest chipset drivers from AMD’s website. These include optimizations for directing VRChat’s workload to the V-Cache CCD.
@@ -25,7 +25,7 @@ To get the most out of your X3D processor, the short steps are as follows:
 
 https://community.amd.com/t5/gaming/how-to-set-up-your-system-with-a-new-amd-ryzen-9-7950x3d-or/ba-p/589464
 
-==Step 2: Optimizations to park cores.==
+===Step 2: Optimizations to park cores.===
 
 *In Device Manager, there should be a System Device called "AMD 3d V-Cache Performance Optimizer" Look for it, if it's missing, re-install the chipset drivers.
 *Open Services (CTRL+Shift+Esc) and look for <code>amd3dvcacheSvc	AMD 3D V-Cache Performance Optimizer Service	Running</code>
@@ -43,7 +43,7 @@ https://community.amd.com/t5/gaming/how-to-set-up-your-system-with-a-new-amd-ryz
 ****In an admin command prompt run: <code>cmd.exe /c start /wait Rundell32.exe advapi32.dll,ProcessIdleTasks</code>
 ****Wait. Once complete, reboot.
 
-=====Rationale, and why you must use Windows 11 (for now):=====
+====Rationale, and why you must use Windows 11 (for now):====
 https://learn.microsoft.com/en-us/windows-hardware/customize/power-settings/configure-processor-power-management-options 
 
 Provisioning is a deep topic. Microsoft's learn site linked above has details about what this is, how PPM works, and the X3D Chips have a <Condition Name> entry in them now. This pattern is AMD Ryzen 9 . *X3D.*
@@ -66,10 +66,12 @@ Provisioning is a deep topic. Microsoft's learn site linked above has details ab
 *See https://learn.microsoft.com/en-us/windows/configuration/provisioning-packages/provisioning-how-it-works#precedence-for-provisioning-packages
 *See https://learn.microsoft.com/en-us/windows-hardware/customize/power-settings/configure-processor-power-management-options
 
-==Troubleshooting==
+===Troubleshooting===
 *'''Stuttering:''' Ensure Windows schedules VRChat to the V-Cache CCD. Make sure Xbox Game Bar knows it's a game. (https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/how-to-make-xbox-game-bar-remember-or-forget-a-game)
 *'''Overheating:''' If temps exceed 85°C, reduce PBO in UEFI or improve airflow in your case.
 *'''Low FPS:''' Check GPU usage—VRChat is also GPU-bound. Pair your X3D with a strong GPU like an RTX 3080 or better, and make sure to set the driver to "Prefer Maximum Performance". Sometimes, the GPU will go into a lower power state when MSAA is set to off. Consider using 4x  to saturate the bus.
 
-==Conclusion==
+===Conclusion===
 The Ryzen 9 3D V-Cache and high clocks make it a powerhouse for VRChat. By making sure windows is running the correct drivers, you'll have a good experience and high framerates.
+
+[[Category:Guides{{#translation:}}]]
