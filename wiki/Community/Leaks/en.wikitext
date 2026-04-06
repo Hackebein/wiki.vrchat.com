@@ -51,12 +51,7 @@ A new group permission on the website in group role settings has been spotted:
 This seems to suggest a feature might be implemented in the future allowing instances to have a minimum avatar performance requirement set in place.
 
 ==Mentioned==
-Mentioned features are featured that have been talked about, or shared publicly by VRChat staff. These features could be planned, haven't appeared in an Open Beta.
-
-=== ToxMod ===
-ToxMod is an AI-assisted voice chat moderation product made by Modulate, intended to detect and flag toxic or abusive voice behavior.
-
-In 2022 ToxMod got partially integrated. VRChat later stated that the team had previously been in discussions with Modulate, and that VRChat was inadvertently listed as a ToxMod customer<ref>[https://web.archive.org/web/20220424073126/https://www.modulate.ai/ modulate.ai from 2022] at archive.org</ref>, but that VRChat has no current or future plans to implement ToxMod<ref>[https://ask.vrchat.com/t/developer-update-1-december-2022/15263?page=3#p-30487-toxicity-in-vrchat-15 VRChat Blog Post]</ref>.
+Mentioned features are featured that have been talked about, or shared publicly by VRChat staff. These features could be worked on, but seem to have no implementation yet.
 
 === New Character Controller for Worlds ===
 A long-running request proposes a replacement world character controller with better moving platform support, smoother stairs and slopes, improved unstuck behavior, collider push interaction, and broader Udon control.<ref name="CannyNewCharacterController">[https://feedback.vrchat.com/udon/p/new-character-controller-for-worlds "New Character Controller for Worlds"] on ''feedback.vrchat.com''; posted April 30, 2024; retrieved March 14, 2026.</ref>
@@ -72,10 +67,6 @@ The thread is currently marked ''in progress''. A staff comment links this item 
 Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published for a migration of this scope.
 Recent staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
 
-=== Item roadmap ===
-
-The team stated in a livestream in March 2026 that "big updates" are in progress for items or item-adjacent systems, with details to be shared later.
-
 === Age verification rollout ===
 
 The team stated in a livestream in March 2026 that there is no public timeline for broad rollout beyond VRC+, while aiming for the most accessible and low-cost path possible.
@@ -89,6 +80,12 @@ A milestone created in 2022 on the VRChat Community OSC GitHub repository propos
 A milestone created in 2022 on the VRChat Community OSC GitHub repository plans to enable [[Udon]] to read and write OSC data for use in VRChat worlds.<ref name="osc-milestones" />
 
 == Scrapped ==
+
+=== ToxMod ===
+ToxMod is an AI-assisted voice chat moderation product made by Modulate, intended to detect and flag toxic or abusive voice behavior.
+
+In 2022 ToxMod got partially integrated. VRChat later stated that the team had previously been in discussions with Modulate, and that VRChat was inadvertently listed as a ToxMod customer<ref>[https://web.archive.org/web/20220424073126/https://www.modulate.ai/ modulate.ai from 2022] at archive.org</ref>, but that VRChat has no current or future plans to implement ToxMod<ref>[https://ask.vrchat.com/t/developer-update-1-december-2022/15263?page=3#p-30487-toxicity-in-vrchat-15 VRChat Blog Post]</ref>.
+
 ===Portal UI refresh===
 In the 2 February 2023 Developer Update<ref>[https://ask.vrchat.com/t/developer-update-2-february-2023/16218#p-32723-portal-ui-refresh-10 Developer Update - 2 February 2023]</ref>., VRChat previewed a refreshed portal user interface and described it as "coming soon". The preview showed updated instance display styling and a banner for portals that lead to Group instances. 
 
