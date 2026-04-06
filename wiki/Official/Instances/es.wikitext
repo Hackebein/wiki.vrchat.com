@@ -151,6 +151,14 @@ Al crear una estancia, el creador puede cambiar su nombre visible. Los nombres d
 
 El nombrado de estancias dentro del cliente es una característica de [[Special:MyLanguage/VRC+|VRC+]], aunque nombrar una estancia a través de la API no requiere VRC+.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Short links ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Instances can be shared using VRChat's <code>vrch.at</code> short link domain combined with the instance's short name, for example <code><nowiki>https://vrch.at/<shortName></nowiki></code>. This redirects to the instance's launch page on the VRChat website.
+</div>
+
 <span id="Instance_settings"></span>
 == Ajustes de la estancia ==
 
@@ -231,6 +239,33 @@ El autor del mundo tiene el mismo conjunto básico de herramientas de moderació
 |✔️
 |✔️
 |}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Instance capacity ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The '''Capacity''' of a world can be configured on the VRChat website without reuploading the world. However, the capacity value does not represent the absolute maximum number of players that can be in an instance. The effective maximum is calculated as follows:
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Component</span>
+! <span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
+|-
+|| <span lang="en" dir="ltr" class="mw-content-ltr">Recommended Capacity</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly.</span>
+|-
+||<span lang="en" dir="ltr" class="mw-content-ltr">Maximum Capacity</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated.</span>
+|-
+||<span lang="en" dir="ltr" class="mw-content-ltr">+1 Instance creator or group owner</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">The user who created the instance can always join, even if the instance is at its recommended cap. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.</span>
+|-
+||<span lang="en" dir="ltr" class="mw-content-ltr">+1 World author</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">The user who uploaded the world can always join, even if the instance is at its max cap.</span>
+|}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The maximum configurable capacity on the VRChat website is 40, resulting in an effective maximum of 82 players in normal conditions (40 × 2 + 1 + 1). If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the soft cap.
+</div>
+
 <span id="Instance_duration_and_automatic_resets"></span>
 == Duración de la estancia y reinicios automáticos ==
 
