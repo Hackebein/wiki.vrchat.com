@@ -102,13 +102,13 @@ Les bascules du menu sont des interrupteurs situés sous le cadre de la caméra.
 ; Audio de la caméra : Le son entendu proviendra de la position de la caméra plutôt que de l’avatar.
 : Le mode caméra "Stream" doit être sélectionné pour que cette option apparaisse.
 
-; Anchor : Determines where the camera is attached.
-:; Default
-:: Attached to the user.
+; Ancrage : Définis où la caméra est ancrée
+:; Défaut
+:: Attachée à l'utilisateur.
 :; Local
-:: Follows user movement but not head movement.
-:; World
-:: Attached to the world, independent of user movement.
+:: Suit les mouvements de l'utilisateur.
+:; Monde
+:: Attachée au monde, indépendante des mouvements de l'utilisateur.
 
 ; Comportement : Description
 :; Lissé
