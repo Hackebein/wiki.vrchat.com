@@ -173,13 +173,13 @@ Les bascules du menu sont des interrupteurs situés sous le cadre de la caméra.
 ::: (chemin d’import)
 ::; Afficher les tracés : Description
 
-; Visibilité de l’objectif : Définit la manière dont la caméra est affichée dans le monde.
+; Objectif : Définit la manière dont la caméra est affichée dans le monde.
 :; Désactivé
 :: N’affiche qu’une petite lumière.
 :; Fantôme
 :: Affiche un objectif de caméra transparent bleu clair.
-:; Plein
-:: Affiche un objectif de caméra solide.
+:; Solide
+:: Affiche un objectif de caméra opaque.
 
 ; Filtres : Ajoute des filtres visuels à la caméra. Un seul filtre peut être actif à la fois.
 <gallery mode="packed" heights="80">
