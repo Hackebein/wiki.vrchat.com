@@ -16,6 +16,7 @@ Il existe plusieurs façons d’accéder à la caméra dans VRChat :
 [[File:Camera menu.webp|thumb|Onglet Caméra dans le menu rapide.]]
 Les modes caméra déterminent le comportement de la caméra lors de la prise d’une photo. Il existe sept modes caméra correspondant à différentes fonctionnalités :
 
+<div class="mw-translate-fuzzy">
 ; Photo locale : Après la prise, capture une photo classique. Il s’agit du mode par défaut.
 ; Multi-couches : Après la prise, capture une photo et crée des images pour chaque masque activé. Ce mode ne prend pas en charge la mise au point ni les filtres et peut provoquer un décalage d’images.
 : Il peut créer jusqu’à trois images supplémentaires (en plus de la photo classique) : « Environnement », « Utilisateurs » (combine les masques Utilisateur local et distant) et « Interface utilisateur ». Les masques « Utilisateurs » et « Interface utilisateur » sont enregistrés avec la transparence alpha.
@@ -34,13 +35,18 @@ Les modes caméra déterminent le comportement de la caméra lors de la prise d�
 :; Émoji (1)
 :; Animé (4)
 :; Animé (16)
+</div>
 
+<div class="mw-translate-fuzzy">
 Ces deux modes ne sont pas accessibles via le bouton Mode caméra, mais par d’autres moyens :
+</div>
 
+<div class="mw-translate-fuzzy">
 ; Caméra drone: ''Voir aussi [[Special:MyLanguage/Camera Drone|Caméra drone]] pour plus de détails.''
 : Déploie le Drone.
 ; Capture d’écran : Prend une photo sans les éléments de l’[[Special:MyLanguage/HUD|ATH]]. Par défaut, la capture se fait en 1920×1080, sauf si modifiée dans le [https://docs.vrchat.com/docs/configuration-file fichier de configuration].
 ; Invitation photo : Les invitations ou réponses à une invitation peuvent être envoyées avec une image. Après la prise, une interface permet de zoomer, repositionner et inverser la photo dans un recadrage rectangulaire. « Enregistrer et appliquer » l’attache à l’invitation/réponse. Nécessite VRC+.
+</div>
 
 ==Options==
 [[File:Camera.png|thumb|Vue d’ensemble de la caméra VRChat.]]
