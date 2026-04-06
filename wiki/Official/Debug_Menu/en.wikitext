@@ -39,7 +39,7 @@ Displays incoming OSC messages to VRChat, and their values. The OSC console can 
 This menu is used to debug your worlds in-game. The Debug UI can be opened by:
 
 *Pressing the <code>Toggle Debug UI</code> button in the Debug section of the Quick Menu settings page.
-*Press <code>Right Shift + Tilde (~) + 1-9</code> with the number corresponding to the menu number <span id="debug-menu-1"></span>you want.
+*Press <code>Right Shift + Tilde (~) + 1-9</code> with the number corresponding to the menu number <span id="debug-menu-1"></span>you want. On non-QWERTY keyboard layouts (such as French AZERTY), the key combination uses the same ''physical'' key positions, regardless of the key labels or system language. It must be the Right Shift key specifically, not the Left Shift key.
 
 Some tabs of the Debug UI can only be accessed if the world has World Debugging enabled in its world's settings. By default, only the creator of the world can access these menus.
 
@@ -119,6 +119,17 @@ The Performance tab displays selected performance graphs and allows saving them 
 
 ===Audio Sources===
 The Audio Sources tab displays all audio sources in the scene. It includes information such as source names, types, playback state, distance from the user, Steam Audio near-field enhancement details, audio conversion state, and perspective correction data. This tab is only viewable if the world has the World Debugging setting enabled.
+
+==Testing with multiple clients==
+Creators commonly test worlds and avatars by running multiple VRChat clients simultaneously, each logged into a different account. This is an allowed practice among world and avatar creators.
+
+To launch a second VRChat client on a separate account, create a shortcut to the VRChat executable (for example, located at <code>steamapps\common\VRChat\VRChat.exe</code>) and add the <code>--profile=2</code> [[Launch Options|launch option]]. The <code>--profile</code> flag stores credentials separately, so each profile only requires logging in once. Common launch options for a testing client include:
+
+<code>--no-vr --profile=2 --enable-debug-gui --enable-sdk-log-levels --enable-udon-debug-logging</code>
+
+Building a world with 0 clients in the SDK build panel causes any already-running test clients to reload the world without launching a new client.
+
+When testing avatar visual consistency (such as Bounds or Anchor Override changes), checking with a second account is more reliable than checking in a mirror, because the local mirror view may differ from what other players see.
 
 ==Official resources==
 *{{VRC link|https://creators.vrchat.com/worlds/udon/world-debug-views|World Debug View}} page in the VRChat Documentation
