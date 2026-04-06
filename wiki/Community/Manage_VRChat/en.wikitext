@@ -1,50 +1,10 @@
 {{Noticebox/Community}}
-{{Noticebox/wip}}
-'''Manage VRChat''' encompasses the tasks involved in organizing and controlling a user's VRChat experience, including [[Avatars|avatars]], [[Worlds|worlds]], [[Groups|groups]], [[Social|social connections]], [[Inventory|inventory]], and [[VRChat Account|account settings]]. These tasks can be performed through VRChat's in-game menus, the [https://vrchat.com/home VRChat website], or third-party applications that interact with VRChat through the [[VRChat API]].
+'''Manage VRChat''' refers to the various tools available for managing VRChat friends, worlds, avatars, groups, and other features outside of gameplay. In addition to the VRChat client and the [https://vrchat.com/home VRChat website], third-party applications provide alternative interfaces for interacting with VRChat through the [[VRChat API]]. Third-party tools often extend or improve on features available in VRChat. Where a tool provides a notable quality-of-life enhancement over the built-in implementation, this is noted in the table below.
 
-==Account==
-''Main articles: [[VRChat Account]], [[Account Linking]], [[VRC+]]''
-
-A [[VRChat Account|VRChat account]] provides access to the [https://vrchat.com/home VRChat website], the [[VRChat SDK]], and other VRChat services. Users who originally signed up through a platform such as Steam or Meta can [[Account Linking|link their platform account]] to a full VRChat account to unlock additional features. An active [[VRC+]] subscription expands storage limits for avatar favorites, world favorites, and [[Inventory|inventory]] items.
-
-==Avatars==
-''Main articles: [[Avatars]], [[Public Avatars]], [[Avatar Marketplace]]''
-
-Users can manage their avatar collection by favoriting avatars they encounter, cloning avatars from other users (if cloning is enabled), or browsing [[Public Avatars|public avatars]] in the [[Shop]]. Additional avatars can be purchased through the [[Avatar Marketplace]]. Users with the required [[Trust Rank|trust rank]] can upload custom avatars using the [[VRChat SDK]].
-
-==Worlds==
-''Main articles: [[Worlds]], [[Instances]], [[Community Labs]]''
-
-VRChat provides several tools for organizing worlds. Users can set a [[Worlds|home world]], maintain favorite world lists, and browse world categories or search for specific worlds. Creators can upload worlds using the [[VRChat SDK]], which first appear in [[Community Labs]] before becoming fully public. Each world can have multiple [[Instances|instances]] with different access types and regions.
-
-==Groups==
-''Main article: [[Groups]]''
-
-[[Groups]] allow users to form and organize communities within VRChat. Members can join up to 100 groups (or 200 with [[VRC+]]), represent a group on their nameplate and profile, and participate in group [[Instances|instances]] and [[Calendar|events]]. Group owners can configure roles, permissions, and membership visibility.
-
-==Social==
-''Main articles: [[Social]], [[Trust Rank]], [[Reporting]]''
-
-VRChat's [[Social|social features]] include a friends list, friend favorites, user profiles, statuses, invites, and friend notes. Users can manage who they interact with through blocking, muting, and [[Reporting|reporting]]. The [[Trust Rank]] system determines what level of content a user can see by default from other users.
-
-==Inventory==
-''Main articles: [[Inventory]], [[Emojis]], [[Stickers]], [[Items]]''
-
-The [[Inventory]] system allows users to manage photos, prints, user icons, emojis, stickers, and items. Some inventory features, such as custom user icons and the photo gallery, require an active [[VRC+]] subscription. Users can upload custom [[Emojis|emojis]] and use [[Stickers|stickers]] and [[Items|items]] during gameplay.
-
-==VRChat website==
-''Main article: [[Resources]]''
-
-Many management tasks can also be performed outside of the VRChat client through the [https://vrchat.com/home VRChat website]. The website provides access to friends, worlds, avatars, groups, and profile settings. It also serves as the primary interface for account management, including password resets and two-factor authentication.
-
-==Third-party tools==
-
-In addition to VRChat's built-in tools, third-party applications provide alternative interfaces for managing VRChat through the [[VRChat API]]. These tools often extend built-in features with additions such as unlimited local favorites, activity logging, and desktop notifications.
-
-===Feature comparison===
+==Feature comparison==
 
 {| class="wikitable"
-! Feature !! VRChat !! [[Community:VRCX|VRCX]] !! [[Community:VRCNext|VRCNext]]
+! Feature !! VRChat !! VRCX !! VRCNext
 |-
 ! colspan="4" | Friends and social
 |-
@@ -160,14 +120,6 @@ In addition to VRChat's built-in tools, third-party applications provide alterna
 |}
 
 ==See also==
-*[[Avatars]]
-*[[Worlds]]
-*[[Groups]]
-*[[Social]]
-*[[Inventory]]
-*[[VRChat Account]]
-*[[Settings]]
-*[[Resources]]
 *[[Community:VRCX|VRCX]]
 *[[Community:VRCNext|VRCNext]]
 *[[Community:VRCOSC|VRCOSC]]
@@ -175,6 +127,9 @@ In addition to VRChat's built-in tools, third-party applications provide alterna
 *[[Community:OVR Toolkit|OVR Toolkit]]
 *[[VRChat API]]
 
-[[Category:Needs images{{#translation:}}]]
-[[Category:Third-party applications{{#translation:}}]]
-[[Category:Resources{{#translation:}}]]
+==References==
+{{reflist}}
+
+[[Category:Needs images]]
+[[Category:Third-party applications]]
+[[Category:Resources]]
