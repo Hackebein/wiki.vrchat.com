@@ -93,15 +93,14 @@ Les boutons de l’interface utilisateur sont situées au centre, à gauche ou �
 Les bascules du menu sont des interrupteurs situés sous le cadre de la caméra.
 
 ; Prendre une photo : Prend une photo.
-; Minutée (5 s) : Prend une photo avec un délai de cinq secondes. Les utilisateurs distants verront un indicateur circulaire autour de l’objectif indiquant le compte à rebours avant la prise de la photo. La photo peut être annulée avant la fin des cinq secondes.
-; Mode caméra : Détermine le comportement de la caméra lors de la prise de photos. Voir la section [[Camera#Modes|Modes]] ci-dessus pour toutes les options.
-; Vol : Permet à la caméra de se déplacer librement dans le monde. Le mouvement s’applique à la caméra et non à l’avatar. En vol normal, la caméra est limitée à un rayon de 15 mètres ; avec le Camera Dolly, le rayon est étendu à 150 mètres ; et avec le Camera Drone, la portée est illimitée.
-: Le basculement n’apparaît que sur les appareils VR et mobiles.
-; Flux Spout : Permet de diffuser l’affichage de la caméra vers des applications compatibles. Cela nécessite que les applications prennent en charge le protocole [https://spout.zeal.co/
- Spout].
-: Le mode caméra "Flux" doit être sélectionné pour que cette option apparaisse.
-; Audio depuis la caméra : Le son entendu proviendra de la position de la caméra plutôt que de l’avatar.
-: Le mode caméra "Flux" doit être sélectionné pour que cette option apparaisse.
+; Minuteur (5 s) : Prend une photo avec un délai de cinq secondes. Les utilisateurs distants verront un indicateur circulaire autour de l’objectif indiquant le compte à rebours avant la prise de la photo. La photo peut être annulée avant la fin des cinq secondes.
+; Mode : Détermine le comportement de la caméra lors de la prise de photos. Voir la section [[Camera#Modes|Modes]] ci-dessus pour toutes les options.
+; Vol : Permet à la caméra de se déplacer librement dans le monde. Le mouvement s’applique à la caméra et non à l’avatar. En vol normal, la caméra est limitée à un rayon de 15 mètres ; avec la Caméra Dolly, le rayon est étendu à 150 mètres ; et avec le Caméra Drone, la portée est illimitée.
+: Le bouton n’apparaît que sur les appareils VR et mobiles.
+; Diffusion Spout : Permet de diffuser l’affichage de la caméra vers des applications compatibles. Cela nécessite que les applications prennent en charge le protocole [https://spout.zeal.co/ Spout].
+: Le mode caméra "Stream" doit être sélectionné pour que cette option apparaisse.
+; Audio de la caméra : Le son entendu proviendra de la position de la caméra plutôt que de l’avatar.
+: Le mode caméra "Stream" doit être sélectionné pour que cette option apparaisse.
 
 ; Anchor : Determines where the camera is attached.
 :; Default
