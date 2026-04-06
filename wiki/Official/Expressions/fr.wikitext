@@ -120,9 +120,8 @@ Additional built-in parameters include:
 Each built-in parameter has a sync type determining when it is sent to remote users: ''IK'' for tracking-derived values (gestures, velocity, grounded), ''Speech'' for voice-related values (viseme, voice), ''Playable'' for user-state values (mute, earmuffs, tracking type, scale), or ''None'' for local-only values (IsLocal, PreviewMode).
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Network synchronization ===
-</div>
+<span id="Network_synchronization"></span>
+=== Synchronisation Réseau ===
 
 Seuls les paramètres d’expression synchronisés et certains paramètres intégrés sont transmis sur le réseau. La liste complète des données envoyées pour chaque avatar inclut :
 * '''Cibles IK''' — Tête, mâchoire et mains pour le suivi sur bureau et à 3 points ; en plus, hanches et pieds pour le suivi corps entier. Les utilisateurs avec contrôleur Index synchronisent également la position des doigts.
