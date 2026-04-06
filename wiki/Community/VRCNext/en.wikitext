@@ -1,0 +1,98 @@
+{{Noticebox/Community}}
+{{Noticebox/Third-party API usage}}
+<infobox type="App" theme="community">
+<group>
+	<title source="name"><default>VRCNext</default></title>
+	<image source="image"><default>[[File:VRCNext_Logo.webp|VRCNext]]</default></image>
+	<data source="author"><label>Author</label><default>shinyflvre</default></data>
+    <data source="platforms"><label>Platforms</label><default>Windows, Linux (in development)</default></data>
+    <data source="languages"><label>Languages</label><default>English, German, Spanish, Japanese, French, Chinese</default></data>
+    <data source="url"><label>URL</label>
+           <default>[https://github.com/shinyflvre/VRCNext GitHub]</default>
+           </data>
+        <header>App history</header>
+        <data source="published"><label>Published</label><default>March 17, 2026</default></data>
+  </group>
+</infobox>
+'''VRCNext''' is a third-party VRChat launcher and management application for Windows. It provides a [[wikipedia:Graphical_user_interface|graphical user interface (GUI)]] for interacting with VRChat through its REST API and WebSocket connections.
+
+As of March 2026, a Linux port is in development, with an early build available for several Linux distributions<ref>[https://github.com/shinyflvre/VRCNext#linux VRCNext Linux documentation] on GitHub</ref>.
+
+==Features==
+
+===Friends and social===
+*View friends by status (favorites, in-game, web/active, offline) with collapsible sections.
+*Add notes, check mutual friends, and view trust rank badges on friend cards.
+*Block, mute, or unfriend users from their profile.
+*Search and filter the friends list by name in real time.
+*Send simple messages to friends using VRChat's InviteMessage and ResponseMessage system (rate-limited).
+*Invite multiple friends to an instance at once with rate-limiting safeguards and a progress bar.
+*Track when meetings with other users first occurred and when they recur. Log instance and world entries, and when photos were taken. A friends timeline shows online/offline status changes, bio updates, and world movement in real time.
+*Track time spent with individual users and in specific worlds. Data is stored locally on the user's machine.
+
+===Worlds and instances===
+*Search for worlds and view active instances with player counts, region, and type.
+*Create instances outside of VRChat, including group instances (Group Public, Group, Group+).
+*See which friends are in a world and which instance they are in.
+*View world details such as player count, favorites, visits, capacity, and tags.
+*Manage favorited worlds and rename favorite groups.
+*View all players in the current instance. Open profiles or add players as friends from the instance view.
+*View a real-time overview of friends' current worlds and activity (dashboard). Click world cards to see which friends are in each instance.
+
+===Avatars===
+*Change avatars before launching VRChat.
+*Browse uploaded avatars and favorited avatars organized by group.
+*Search for public avatars via avtrdb.com and the Rose Database.
+*Platform compatibility badges (PC/Quest) are displayed on avatar cards.
+
+===Groups===
+*View, join, leave, and search for groups.
+*See group posts, image galleries, and updates.
+*Create group posts with media attachments.
+*Create group instances directly from the application.
+*Browse upcoming VRChat events in a monthly calendar view. Filter by all, featured, or followed events.
+
+===Profile===
+*Change online status, status text, biography, pronouns, languages, and social links.
+*Update profile picture and banner image.
+
+===Notifications===
+*View and respond to friend requests, instance invites, and group invites.
+*Real-time toast notifications appear for various event types and can be acted on directly.
+
+===Media and photos===
+*View VRChat images sorted by date and time. Favorite, delete, or blur sensitive images.
+*Add custom folders for external media such as OBS recordings.
+*View world metadata for images taken with VRCCam (requires Meta Data enabled).
+*Automatically send VRChat photos to Discord channels via webhooks. Configure up to four webhooks with custom bot names and avatars.
+
+===Integration and utilities===
+*Display custom text, current Spotify or iTunes track, AFK status, system stats, local time, or session duration in the VRChat chatbox (chatbox relay). Supports a live preview with character counter and configurable update rate.
+*Control avatar parameters directly via [[OSC|Open Sound Control (OSC)]]. Supports Bool, Int, and Float parameter types with filtering and search.
+*Access a VR overlay with a Friends tab showing online in-game friends with status, world name, and quick invite. World Location tab displays current instance information.
+*Launch VRChat and companion applications (e.g. SlimeVR, VRCFaceTracking) together from VRCNext.
+*Install and manage VRCVideoCacher, a tool that addresses YouTube video playback issues in VRChat worlds.
+*Voice-triggered soundboard powered by offline VOSK speech recognition. Assign audio files (WAV, MP3, OGG) to trigger words or phrases with per-keyword cooldowns (Voice Fight).
+*Adjust the VR play space using the grip button or control stick, with lockable axes and adjustable drag multiplier (Space Flight).
+
+==Getting started==
+Download the latest release from the [https://github.com/shinyflvre/VRCNext/releases GitHub releases page].
+
+*'''Windows''': Run the installer.
+*'''Linux''': Extract the archive and run the included install script. The installer supports apt (Debian/Ubuntu), pacman (Arch), dnf (Fedora), and zypper (openSUSE).
+
+Login is optional, but most management features require a [[VRChat Account]].
+
+==See also==
+*[[Community:VRCX|VRCX]]
+*[[Community:Manage VRChat|Manage VRChat]]
+*[[VRChat API]]
+
+==References==
+{{reflist}}
+
+[[Category:English]]
+[[Category:Third-party applications{{#translation:}}]]
+[[Category:Resources{{#translation:}}]]
+[[Category:Assets available via GitHub{{#translation:}}]]
+[[Category:Needs images{{#translation:}}]]
