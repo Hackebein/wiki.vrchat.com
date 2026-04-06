@@ -1,0 +1,135 @@
+{{Noticebox/Community}}
+'''Manage VRChat''' refers to the various tools available for managing VRChat friends, worlds, avatars, groups, and other features outside of gameplay. In addition to the VRChat client and the [https://vrchat.com/home VRChat website], third-party applications provide alternative interfaces for interacting with VRChat through the [[VRChat API]]. Third-party tools often extend or improve on features available in VRChat. Where a tool provides a notable quality-of-life enhancement over the built-in implementation, this is noted in the table below.
+
+==Feature comparison==
+
+{| class="wikitable"
+! Feature !! VRChat !! VRCX !! VRCNext
+|-
+! colspan="4" | Friends and social
+|-
+| View friends list || Yes || Yes, + fuzzy search, instance grouping || Yes
+|-
+| Add or remove friends || Yes || Yes, + bulk unfriend || Yes
+|-
+| Favorite friends || Yes (3 lists) || Yes, + unlimited local favorites || Yes
+|-
+| Friend notes || Yes (up to 5,000) || Yes, + unlimited local memos, custom color tags || Yes
+|-
+| Block or mute users || Yes || Yes || Yes, + blocked/muted list view
+|-
+| Friend activity log || No || Yes (status, avatar, location, bio, name changes) || Yes (online/offline, status, bio)
+|-
+| Time spent tracking || No || Yes (time together, friendship dates, activity heatmap, avatar wear time) || Yes (time with users, time in worlds)
+|-
+| Mutual friends || Yes || Yes, + interactive graph visualization || Yes
+|-
+| Messenger || No || No || Yes (via invite/response messages; rate-limited)
+|-
+| Multi-invite to instance || No || Yes (searchable dialog, shows who is already present) || Yes (with progress bar; rate-limited)
+|-
+! colspan="4" | Worlds and instances
+|-
+| Search for worlds || Yes || Yes, + paste IDs or URLs || Yes
+|-
+| View world details || Yes || Yes || Yes
+|-
+| Create instances || Yes || Yes || Yes
+|-
+| Create group instances || Yes || Yes || Yes
+|-
+| Favorite worlds || Yes (4 lists / 8 with VRC+) || Yes, + unlimited local favorites || Yes, + move between groups
+|-
+| View active instances || Yes || Yes, + instance activity chart || Yes
+|-
+! colspan="4" | Avatars
+|-
+| Change avatar || Yes || Yes || Yes
+|-
+| Search avatars || Yes || Yes, + configurable external avatar databases || Yes, + avtrdb.com, Rose Database
+|-
+| Favorite avatars || Yes (1 list / 6 with VRC+) || Yes, + unlimited local favorites || Yes
+|-
+| Upload avatar/world images || No || Yes (with automatic resizing) || No
+|-
+| Edit avatar/world details || No || Yes (name, description, tags; bulk content tag editor) || No
+|-
+! colspan="4" | Groups
+|-
+| View and manage groups || Yes || Yes, + CSV export || Yes
+|-
+| Create group posts || Yes || Yes || Yes
+|-
+| View group gallery || Yes || Yes || Yes
+|-
+| Group favorites export/import || No || Yes || No
+|-
+! colspan="4" | Profile
+|-
+| Edit status and bio || Yes || Yes, + saved status presets || Yes
+|-
+| Change profile picture || Yes || Yes || Yes
+|-
+| Edit social links || Yes || Yes || Yes
+|-
+! colspan="4" | Notifications
+|-
+| Friend requests || Yes || Yes || Yes
+|-
+| Instance invites || Yes || Yes || Yes
+|-
+| Real-time notifications || In-game only || Yes, + desktop toasts, VR overlay || Yes, + toast cards, inline accept/deny
+|-
+! colspan="4" | Media and photos
+|-
+| View VRChat photos || Yes || Yes, + world metadata search || Yes, + sorted by date, infinite scroll, filters
+|-
+| Photo world metadata || In-game only || Yes, + metadata search || Yes (requires VRCCam metadata)
+|-
+| Discord webhook relay || No || No || Yes (up to 4 webhooks; custom bot name/avatar)
+|-
+! colspan="4" | Integration and utilities
+|-
+| Discord Rich Presence || In-game only || Yes, + world thumbnail, player count, join button || No
+|-
+| VR overlay || N/A || Yes (HMD + wrist overlay; live notification feed) || Yes (friends tab with quick invite; world location tab)
+|-
+| Auto-launch companion apps || No || Yes || Yes
+|-
+| Chatbox relay (now playing, stats) || No || No || Yes (Spotify/iTunes, AFK, CPU/RAM, time, session duration; live preview)
+|-
+| OSC parameter control || In-game only || No || Yes, + auto-detect parameters
+|-
+| World persistence || Yes || Partial (being deprecated in favor of VRChat's native implementation) || No
+|-
+| Crash recovery and auto-rejoin || No || Yes || No
+|-
+| Events calendar || Yes || Yes || Yes
+|-
+| VRCVideoCacher integration || No || No || Yes (install, update, start/stop from app)
+|-
+! colspan="4" | Platform availability
+|-
+| Windows || Yes || Yes || Yes
+|-
+| Linux || Yes (in-game via Steam/Proton) || Yes (Electron AppImage) || Partial (early build; porting in progress)
+|-
+| macOS || Website only || Yes (Electron; Homebrew available) || No
+|-
+| Android / iOS || Yes || No || No
+|}
+
+==See also==
+*[[Community:VRCX|VRCX]]
+*[[Community:VRCNext|VRCNext]]
+*[[Community:VRCOSC|VRCOSC]]
+*[[Community:XSOverlay|XSOverlay]]
+*[[Community:OVR Toolkit|OVR Toolkit]]
+*[[VRChat API]]
+
+==References==
+{{reflist}}
+
+[[Category:Needs images]]
+[[Category:Third-party applications]]
+[[Category:Resources]]
