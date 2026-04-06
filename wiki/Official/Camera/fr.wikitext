@@ -52,12 +52,11 @@ The camera modes determine how the camera behaves when taking a photo. There are
 These two modes are not accessible through the Camera Mode button, but rather other means:
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Camera Drone : ''See also [[Special:MyLanguage/Camera Drone|Camera Drone]] for more detailed information.''
-: Brings out the Camera Drone. 
-; Screenshot : Takes a photo without [[Special:MyLanguage/HUD|HUD]] elements. Captures in 1920x1080 by default, unless changed in the [https://docs.vrchat.com/docs/configuration-file config file].
-; Photo Invite : Invite/Request Invites or Invite/Request Responses can be sent with an image. After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a rectangular crop. "Save & Apply" attaches it to invite/response. Requires VRC+.
-</div>
+; Drone caméra : ''Voir aussi [[Special:MyLanguage/Camera Drone|Camera Drone]] pour plus de détails.''
+: Déploie le Drone caméra.
+; Capture d’écran : Prend une photo sans les éléments de l’[[Special:MyLanguage/HUD|HUD]]. Par défaut, la capture se fait en 1920×1080, sauf si modifiée dans le [https://docs.vrchat.com/docs/configuration-file
+ fichier de configuration].
+; Invitation photo : Les invitations ou réponses à une invitation peuvent être envoyées avec une image. Après la prise, une interface utilisateur permet de zoomer, repositionner et inverser la photo dans un recadrage rectangulaire. « Enregistrer et appliquer » l’attache à l’invitation/réponse. Nécessite VRC+.
 
 ==Options==
 [[File:Camera.png|thumb|Vue d’ensemble de la caméra VRChat.]]
