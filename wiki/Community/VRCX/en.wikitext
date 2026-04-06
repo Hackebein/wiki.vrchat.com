@@ -1,10 +1,11 @@
 {{Noticebox/Community}}
+{{Noticebox/Third-party API usage}}
 <infobox type="App" theme="community">
 <group>
 	<title source="name"><default>VRCX</default></title>
 	<image source="image"><default>[[File:VRCX_Logo.webp|VRCX]]</default></image>
 	<data source="author"><label>Author</label><default>VRCX Team</default></data>
-    <data source="platforms"><label>Platforms</label><default>Windows, Linux</default></data>
+    <data source="platforms"><label>Platforms</label><default>Windows, Linux, macOS</default></data>
     <data source="languages"><label>Languages</label><default>English, French, Japanese, Simplified Chinese, Italian, Russian, Spanish, Polish</default></data>
     <data source="url"><label>URL</label>
            <default>[https://github.com/vrcx-team/VRCX GitHub]</default>
@@ -13,79 +14,68 @@
         <data source="published"><label>Published</label><default>August 16, 2019</default></data>
   </group>
 </infobox>
-'''VRCX''' is a VRChat-focused third-party application for Windows, which provides a [[wikipedia:Graphical_user_interface|graphical user interface (GUI)]] for interacting with VRChat via the [[VRChat API]].
-
-==Potential risks with VRCX==
-Although VRCX is [[wikipedia:Open source|open source]]<ref>[https://github.com/vrcx-team/VRCX/commits/master/ VRCX's Source Code]</ref>, and using it does not violate the [[Terms of Service]], it does disregard the [https://hello.vrchat.com/creator-guidelines Creator Guidelines], which state, "Do not request log-in information from users in any situation." Despite this, VRChat has not indicated any intention to enforce this guideline against VRCX. However, there are still some risks associated with installing and using VRCX.
-
-*VRCX requires logging in, using your [[VRChat Account|VRChat account]], password, and [[Two-Factor Authentication (2FA)]]. ''VRChat, Inc. advises against giving your credentials to anybody, including using it to log into third-party applications that does not use VRChat's SSO authentication.''
-
-*Flooding or spamming [[VRChat API|the API]] may risk disconnecting you from VRChat services, and very rarely, risking an [[Bans|account ban]].
-*Using outdated versions of VRCX may make you vulnerable to [[wikipedia:Arbitrary_code_execution|Remote Code Execution (RCE)]] exploits<ref>[https://github.com/vrcx-team/VRCX/security/advisories/GHSA-j98g-mgjm-wqph VR Overlay RCE] on GitHub; retrieved September 23, 2024</ref>.
+'''VRCX''' is a VRChat-focused [[wikipedia:Open source|open-source]] third-party application for Windows, Linux, and macOS, which provides a [[wikipedia:Graphical_user_interface|graphical user interface (GUI)]] for interacting with VRChat via the [[VRChat API]].
 
 ==Features==
 
-*'''Friend, World, and Avatar Management:'''
-** Manage your friends list, and organize your world, group, and avatar lists outside of VRChat.
-**Track your friends' online status, world activities, and avatar changes.
-**Log when you added friends, when you last saw them, and how much time you've spent together in worlds.
-**Monitor name changes and store personal notes to remember how you met.
+===Friends and social===
+*Manage friends list and organize friend lists outside of VRChat.
+*Track friends' online status, world activities, and avatar changes.
+*Log when friends were added, when last seen, and time spent together in worlds.
+*Monitor name changes and store personal notes to remember how you met.
+*View mutual friends and groups on user profiles, with an interactive graph visualization.
+*Invite multiple friends to an instance at once using a searchable dialog that shows who is already present.
 
-* '''Auto-Launch Apps with VRChat:'''
-**Set up VRCX to automatically open other apps, like an OSC tool or voice changer, when VRChat launches.
+===Worlds and instances===
+*Organize world and group lists outside of VRChat.
+*Search for worlds by name, ID, or URL.
+*Create and manage a custom local list of favorite worlds (unrestricted).
+*View statistics and player details for the current instance.
 
-*'''World Persistence:'''
-**'''Important''': VRCX's world persistence feature has nothing to do with VRChat's official development of world persistence.
-**'''Note''': To use this feature, you must enable "Allow [[Untrusted URLs]]" in your VRChat settings.
-**For worlds that support it, VRCX can store settings, saved states, inventories, and other persistent data.
-**For developers, visit [https://github.com/vrcx-team/VRCX/wiki/World-Persistence-(PWI) World Persistence (PWI)] by VRCX.
+===Avatars===
+*Search for avatars using configurable external databases.
+*Upload and edit images for avatars and worlds without Unity.
+*Edit and update uploaded avatar or world details (name, description, tags) directly through VRCX, without Unity.
 
-*'''Avatar, User, World, and Group Search:'''
-**Easily search for avatars, users, worlds, and groups within the app.
+===Groups===
+*Create group instances (Group, Group+, Group Public) with role-based access, queue, and age gate options.
+*Create and browse group posts with role-based visibility.
+*Browse group photo galleries.
+*Manage group members, roles, and moderation actions.
+*Export group moderation logs as CSV.
+*Export or import favorite groups.
+*Browse upcoming events in a monthly group calendar view.
 
-*'''Unrestricted World Favorites List:'''
-**Create and manage a custom local list of your favorite worlds.
+===Profile===
+*Edit status with saved presets for quick switching between status and description combinations.
+*Edit bio, social links, and pronouns.
+*Change profile picture via image upload.
 
-* '''World Data Storage in Photos:'''
-**Keep track of the worlds where your in-game photos were taken, even months later.
+===Notifications===
+*Send and receive invites and friend requests directly from VRCX.
+*View instance details of invitations received.
 
-*'''Notification Monitoring and Responses:'''
-**Send and receive invites and friend requests directly from VRCX.
-**View instance details of invitations received.
+===Media and photos===
+*Keep track of the worlds where in-game photos were taken.
 
-*'''Instance Stats and Player Information:'''
-**See statistics and player details for your current VRChat instance.
+===Integration and utilities===
+*Automatically open companion apps (e.g. OSC tools, voice changers) when VRChat launches.
+*Store settings, saved states, inventories, and other persistent data for supported worlds (World Persistence / PWI).
+**'''Note''': VRCX's world persistence is unrelated to VRChat's official world persistence. Requires "Allow [[Untrusted URLs]]" in VRChat settings. For developers, see [https://github.com/vrcx-team/VRCX/wiki/World-Persistence-(PWI) World Persistence (PWI)] by VRCX.
+*Display detailed information about the current instance in Discord, including thumbnails, names, instance IDs, player counts, and a join button for public lobbies (Enhanced Discord Rich Presence).
+**Integrates with [[Community:PyPyDance|PyPyDance]], [[Community:LSMedia|LSMedia]], [[Community:Popcorn Palace|Popcorn Palace]], [[Community:Idle Home|Idle Home]] and [[Community:VRDancing|VRDancing]].
+*Access a configurable VR overlay with live notifications and supported event feeds.
+*Automatically re-launch VRChat and rejoin the last instance if it crashes.
+*View video links and related data for videos playing in the current world.
 
-*'''Video Links in Worlds:'''
-**View video links and related data for videos playing in the world you’re currently in.
-
-*'''Enhanced Discord Rich Presence:'''
-**Optionally display detailed information about your current instance in Discord, including world thumbnails, names, instance IDs, and player counts.
-**Integrate with popular worlds like [[Community:PyPyDance|PyPyDance]], [[Community:LSMedia|LSMedia]], [[Community:Popcorn Palace|Popcorn Palace]], [[Community:Idle Home|Idle Home]] and [[Community:VRDancing|VRDancing]].
-**Add a join button for public lobbies, depending on privacy settings.
-
-*'''VR Overlay:'''
-**Access a configurable overlay with live notifications and supported event feeds.
-
-*'''Avatar and World Image Uploads without Unity:''' 
-**Upload, and edit images for avatars and worlds without needing Unity.
-
-*'''Manage and Edit Avatar/World Details:'''
-**Edit, and update uploaded avatar or world information directly through VRCX, no Unity required.
-
-*'''Automatic Crash Recovery:'''
-**Automatically re-launches VRChat, and rejoin the last instance if the application crashes.
-
-*'''Group Favorites Export/Import:'''
-**Export or import your favorite groups.
-
-==Keyboard shorcuts==
+==Keyboard shortcuts==
 
 *Ctrl + Shift + I open Chromium DevTools.
 * Ctrl + R restart VRCX.
 *Shift + Alt + R reload custom css.
 
 ==Getting started==
+Using outdated versions of VRCX may expose you to security vulnerabilities, including [[wikipedia:Arbitrary_code_execution|remote code execution]]<ref>[https://github.com/vrcx-team/VRCX/security/advisories/GHSA-j98g-mgjm-wqph VR Overlay RCE] on GitHub; retrieved September 23, 2024</ref>. Always update to the latest version.
 
 # Download and install the latest installer (VRCX_Setup.exe) from [https://github.com/vrcx-team/VRCX/releases/latest here].
 # Beta/nightly build available [https://vrcx.app/github/nightly here,] or in-app: Settings -> General -> Change build.
@@ -99,33 +89,45 @@ Although VRCX is [[wikipedia:Open source|open source]]<ref>[https://github.com/v
 | --debug
 |Launch Chromium DevTools with VRCX.
 |-
-| --config="C:\VRCX" ||Set a custom path for VRCX's config folder. Default: %appdata%\VRCX
+| --config="C:\VRCX"
+|Set a custom path for VRCX's config folder. Default: %appdata%\VRCX
 |-
-| --proxy-server="127.0.0.1:8080"|| Set a HTTP/SOCKS proxy server for VRCX to use.
+| --proxy-server="127.0.0.1:8080"
+|Set a HTTP/SOCKS proxy server for VRCX to use.
 |}
 
 ===Protocol/Launch commands===
 {| class="wikitable"
 |-
-|vrcx://user/usr_id||Open VRCX user dialog.
+|vrcx://user/usr_id
+|Open VRCX user dialog.
 |-
-|vrcx://avatar/avtr_id||Open VRCX avatar dialog.
+|vrcx://avatar/avtr_id
+|Open VRCX avatar dialog.
 |-
-| vrcx://group/grp_id||Open VRCX group dialog.
+| vrcx://group/grp_id
+|Open VRCX group dialog.
 |-
-|vrcx://world/wrld_id||Open VRCX world dialog.
+|vrcx://world/wrld_id
+|Open VRCX world dialog.
 |-
-|vrcx://world/wrld_id:12345||Open VRCX world dialog with instance.
+|vrcx://world/wrld_id:12345
+|Open VRCX world dialog with instance.
 |-
-|vrcx://world/https://vrch.at/0gmbxjpj<nowiki/>||Open VRCX world dialog with unlocked instance.
+|vrcx://world/https://vrch.at/0gmbxjpj<nowiki/>
+|Open VRCX world dialog with unlocked instance.
 |-
-|vrcx://import/avatar/avtr_id,avtr_id...||Open VRCX avatar favorites import dialog.
+|vrcx://import/avatar/avtr_id,avtr_id...
+|Open VRCX avatar favorites import dialog.
 |-
-| vrcx://import/world/wrld_id,wrld_id...||Open VRCX world favorites import dialog.
+| vrcx://import/world/wrld_id,wrld_id...
+|Open VRCX world favorites import dialog.
 |-
-|vrcx://import/friend/usr_id,usr_id...||Open VRCX friend favorites import dialog.
+|vrcx://import/friend/usr_id,usr_id...
+|Open VRCX friend favorites import dialog.
 |-
-|vrcx://addavatardb/https://website/vrcx_search.php<nowiki/>||Open VRCX remote avatar database provider dialog.
+|vrcx://addavatardb/https://website/vrcx_search.php<nowiki/>
+|Open VRCX remote avatar database provider dialog.
 |}
 
 ===VRCX.json===
@@ -151,6 +153,11 @@ File:VRCX_Favorite_Avatar.webp|Favorite (Avatars)
 File:VRCX_Friend_Log.webp|Friend Log
 File:VRCX_discord_presence.webp|Discord Rich Presence
 </gallery>
+
+==See also==
+*[[Community:VRCNext|VRCNext]]
+*[[Community:Manage VRChat|Manage VRChat]]
+*[[VRChat API]]
 
 ==References==
 {{reflist}}
