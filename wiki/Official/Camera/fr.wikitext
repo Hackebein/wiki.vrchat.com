@@ -116,17 +116,16 @@ The UI toggles are toggles that are on the on center, left or right sides of the
 The Menu toggles are toggles that are below the camera frame.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Take Photo : Takes a photo.
-; Timed (5s) : Takes a photo with a five-second delay. Remote users will see a circular indicator around the lens winding down to when the photo is taken. Photo can be cancelled before the five seconds has passed.
-; Camera Mode : Determines how the camera behaves when taking photos. See the [[Camera#Modes|Modes]] section above to view all options
-; Flying : Allows the camera to fly within the world. Movement is applied to the camera instead of the avatar. When flying normally, the camera is limited to a 15 meter? radius, with Camera Dolly, the radius is increased to 150 meters?, and with the Camera Drone, the range is unlimited.
-: Toggle appears only on VR & Mobile devices.
-; Spout Stream : Allows the camera view to be received through supported applications. This requires applications to support the [https://spout.zeal.co/ Spout] protocol. 
-:The "Stream" camera mode must be selected for it to appear.
-; Audio From Camera : Audio heard will be from the camera position instead of the avatar.
-: The "Stream" camera mode must be selected for it to appear.
-</div>
+; Prendre une photo : Prend une photo.
+; Minutée (5 s) : Prend une photo avec un délai de cinq secondes. Les utilisateurs distants verront un indicateur circulaire autour de l’objectif indiquant le compte à rebours avant la prise de la photo. La photo peut être annulée avant la fin des cinq secondes.
+; Mode caméra : Détermine le comportement de la caméra lors de la prise de photos. Voir la section [[Camera#Modes|Modes]] ci-dessus pour toutes les options.
+; Vol : Permet à la caméra de se déplacer librement dans le monde. Le mouvement s’applique à la caméra et non à l’avatar. En vol normal, la caméra est limitée à un rayon de 15 mètres ; avec le Camera Dolly, le rayon est étendu à 150 mètres ; et avec le Camera Drone, la portée est illimitée.
+: Le basculement n’apparaît que sur les appareils VR et mobiles.
+; Flux Spout : Permet de diffuser l’affichage de la caméra vers des applications compatibles. Cela nécessite que les applications prennent en charge le protocole [https://spout.zeal.co/
+ Spout].
+: Le mode caméra "Flux" doit être sélectionné pour que cette option apparaisse.
+; Audio depuis la caméra : Le son entendu proviendra de la position de la caméra plutôt que de l’avatar.
+: Le mode caméra "Flux" doit être sélectionné pour que cette option apparaisse.
 
 ; Anchor : Determines where the camera is attached.
 :; Default
