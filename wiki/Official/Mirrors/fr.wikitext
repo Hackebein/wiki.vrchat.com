@@ -73,7 +73,7 @@ Les créateurs peuvent réduire les coûts en performances de plusieurs manière
 Le [[Special:MyLanguage/VRChat SDK|SDK VRchat]] contient un préfab de miroir prêt à utiliser qui peut être glissé dans la scène. Ce préfab peut être trouvé sur le chemin suivant :<br>
 <code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code>
 === Détails techniques ===
-Les miroirs sont rendus durant la fonction Camera.onPreCull.
+Les miroirs sont rendus durant la fonction <code>Camera.onPreCull</code>.
 Les créateurs de worlds qui utilisent des scripts dépendant du timing de rendu des miroirs doivent prendre cela en considération.
 
 <span id="Resources"></span>
