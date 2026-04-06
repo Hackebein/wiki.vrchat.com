@@ -65,26 +65,25 @@ These two modes are not accessible through the Camera Mode button, but rather ot
 The options consist of the toggles are appear around or on the camera frame. Some options can be controlled by both the UI and the Menu.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===UI===
-The UI toggles are toggles that are on the on center, left or right sides of the camera frame.
-====Default====
-; Close : Closes the camera.
-; Orientation : Switch between landscape and portrait orientation.
-; Flip : Flips the camera. When Anchor is set to "Default", the camera lens turns around 180°, otherwise the image is flipped horizontally.
-; Zoom : Zooms the camera in or out. The camera FOV can be zoomed from 20 to 150, with 45 being the default value.
-; Exposure : Changes the exposure (brightness) of the image. The exposure can be set from -10 to 4, with 0 being the default value.
-; Reset : Resets the zoom and exposure slides to their default values.
-; Info : Shows the status of different camera toggles. Click on a status to quickly cycle through options.
-:; Camera Mode
-:: Cycles through the Photo, Stream, and Multi Layer camera modes.
-:; Pins
-:: Cycles through pins 1, 2 and 3.
-:; Focus
-:: Cycles through Full Auto, Semi Auto, and Manual focuses.
-:; Filters
-:: Cycles through the Blueprint, Glitch, Speed, Hypno, Pixelate, Sketch, Sparkle, Trippy, and Olde camera filters.
-</div>
+===Interface utilisateur===
+Les bascules de l’interface utilisateur sont situées au centre, à gauche ou à droite du cadre de la caméra.
+
+====Par défaut====
+; Fermer : Ferme la caméra.
+; Orientation : Bascule entre les modes paysage et portrait.
+; Retourner : Retourne la caméra. Lorsque l’ancrage est défini sur « Par défaut », l’objectif de la caméra effectue une rotation de 180 ° ; sinon, l’image est retournée horizontalement.
+; Zoom : Agrandit ou réduit l’image de la caméra. Le FOV de la caméra peut être réglé de 20 à 150, 45 étant la valeur par défaut.
+; Exposition : Modifie l’exposition (luminosité) de l’image. L’exposition peut être réglée de -10 à 4, 0 étant la valeur par défaut.
+; Réinitialiser : Réinitialise les curseurs de zoom et d’exposition à leurs valeurs par défaut.
+; Infos : Affiche l’état des différentes bascules de la caméra. Cliquez sur un statut pour parcourir rapidement les options.
+:; Mode caméra
+:: Parcourt les modes caméra Photo, Flux et Multi-couches.
+:; Épingles
+:: Parcourt les épingles 1, 2 et 3.
+:; Mise au point
+:: Parcourt les modes Mise au point automatique complet, Semi-automatique et Manuel.
+:; Filtres
+:: Parcourt les filtres caméra Plan technique, Glitch, Vitesse, Hypno, Pixelisé, Esquisse, Étincelles, Psychédélique et Ancien.
 
 ====Bascule====
 ; Vitesse de vol : Détermine la vitesse de déplacement de la caméra en mode Vol. Les valeurs vont de 0,1 à 15, 3 étant la valeur par défaut.
