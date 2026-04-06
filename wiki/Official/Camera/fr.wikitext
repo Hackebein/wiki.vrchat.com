@@ -86,30 +86,28 @@ The UI toggles are toggles that are on the on center, left or right sides of the
 :: Cycles through the Blueprint, Glitch, Speed, Hypno, Pixelate, Sketch, Sparkle, Trippy, and Olde camera filters.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Toggle====
-; Fly Speed : Determines how fast the camera moves in Fly mode. Values range from 0.1 to 15, with 3 being the default.
-: Slider shown only when using Desktop mode or when the Flying toggle is on.
-; Turn Speed : Determines how fast the camera rotates in Fly mode. Values range from 0.1 to 5, with 1 being the default.
-: Slider shown only when using Desktop mode or when the Flying toggle is on.
-; Smoothing Strength : Determines how much smoothing is applied to camera movement. Values range from 0.1 to 10, with 5 being the default.
-: Slider shown only when using the Smoothed toggle.
-; Horizontal Offset : Determines the horizontal offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default. Using the Auto Level Roll toggle will disable this slider.
-: Slider shown only when using the Look-At-Me toggle.
-; Vertical Offset : Determines the vertical offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default.
-: Slider shown only when using the Look-At-Me toggle. Using the Auto Level Pitch toggle will disable this slider.
-; Focal Distance : Determines the depth of field's focal distance. 
-: Slider shown only when using the Manual focus toggle.
-; Aperture : Determines the depth of field's aperture. 
-: Slider shown only when using the Semi Auto or Manual focus toggles.
-; Green Screen : Displays sliders to adjust the color of the green screen mask. The sliders are Hue, Saturation, and Lightness.
-: Sliders shown only when using the GreenScreen toggle.
-:; Hue
+====Bascule====
+; Vitesse de vol : Détermine la vitesse de déplacement de la caméra en mode Vol. Les valeurs vont de 0,1 à 15, 3 étant la valeur par défaut.
+: Curseur affiché uniquement en mode Bureau ou lorsque la bascule Vol est activée.
+; Vitesse de rotation : Détermine la vitesse de rotation de la caméra en mode Vol. Les valeurs vont de 0,1 à 5, 1 étant la valeur par défaut.
+: Curseur affiché uniquement en mode Bureau ou lorsque la bascule Vol est activée.
+; Intensité du lissage : Détermine la quantité de lissage appliquée aux mouvements de la caméra. Les valeurs vont de 0,1 à 10, 5 étant la valeur par défaut.
+: Curseur affiché uniquement lorsque la bascule Lissé est activée.
+; Décalage horizontal : Détermine le décalage horizontal par rapport au centre de l’image lors de l’utilisation du mode Suivi du regard. Les valeurs vont de -25 à 25, 0 étant la valeur par défaut. L’utilisation de la bascule Auto-nivellement du roulis désactive ce curseur.
+: Curseur affiché uniquement lorsque la bascule Suivi du regard est activée.
+; Décalage vertical : Détermine le décalage vertical par rapport au centre de l’image lors de l’utilisation du mode Suivi du regard. Les valeurs vont de -25 à 25, 0 étant la valeur par défaut. L’utilisation de la bascule Auto-nivellement du tangage désactive ce curseur.
+: Curseur affiché uniquement lorsque la bascule Suivi du regard est activée.
+; Distance focale : Détermine la distance focale de la profondeur de champ.
+: Curseur affiché uniquement lorsque la bascule Mise au point manuelle est activée.
+; Ouverture : Détermine l’ouverture de la profondeur de champ.
+: Curseur affiché uniquement lorsque les bascules Semi-automatique ou Manuel sont activées.
+; Écran vert : Affiche des curseurs pour ajuster la couleur du masque d’écran vert. Les curseurs sont Teinte, Saturation et Luminosité.
+: Curseurs affichés uniquement lorsque la bascule Écran vert est activée.
+:; Teinte
 :; Saturation
-:; Lightness
-; Duration : Determines the duration of new dolly points when using time-based motion.
-: Slider shown only when the Dolly toggle is selected.
-</div>
+:; Luminosité
+; Durée : Détermine la durée des nouveaux points de Dolly lors de l’utilisation du mouvement basé sur le temps.
+: Curseur affiché uniquement lorsque la bascule Dolly est activée.
 
 ===Menu===
 Les bascules du menu sont des interrupteurs situés sous le cadre de la caméra.
