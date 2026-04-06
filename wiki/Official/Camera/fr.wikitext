@@ -176,21 +176,19 @@ The Menu toggles are toggles that are below the camera frame.
 :; Pin 3
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Mask : Determines which layers are included in pictures.
-:; Local User
-:: Includes the user and their avatar.
-:; Remote User
-:: Includes other users.
-:; World
-:: Includes the world environment.
-:; GreenScreen
-:: Replaces the environment with a green screen.
-:; UI
-:: Includes UI elements like the radial menu and camera interface.
-:; Items
-:: Includes [[Special:MyLanguage/Items|items]] placed by users in the world.
-</div>
+; Masque : Détermine quelles couches sont incluses dans les photos.
+:; Utilisateur local
+:: Inclut l’utilisateur et son avatar.
+:; Utilisateur distant
+:: Inclut les autres utilisateurs.
+:; Monde
+:: Inclut l’environnement du monde.
+:; Écran vert
+:: Remplace l’environnement par un écran vert.
+:; Interface utilisateur
+:: Inclut les éléments de l’interface comme le menu radial et l’interface de la caméra.
+:; Objets
+:: Inclut les [[Special:MyLanguage/Items|objets]] placés par les utilisateurs dans le monde.
 
 ; Dolly : ''Voir aussi [[Special:MyLanguage/Camera Dolly|Camera Dolly]] pour plus de détails.''
 : Cette option est uniquement disponible sur PC et Android (VR autonome).
