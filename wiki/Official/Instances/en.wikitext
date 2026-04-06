@@ -271,17 +271,17 @@ The '''Capacity''' of a world can be configured on the VRChat website without re
 ! Component
 ! Description
 |-
-|| Capacity
-|| The configured capacity value. In public instances, once the current player count reaches this value, the instance is no longer listed publicly.
+|| Recommended Capacity
+|| The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly.
 |-
-|| Soft cap (2× Capacity)
-|| Under normal conditions, instances allow up to double the configured capacity. Players can still join via direct links or invites.
+|| Maximum Capacity
+|| The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated.
 |-
 || +1 Instance creator or group owner
-|| The user who created the instance (clicked ''Drop Portal'' or ''New Instance'') can always join, even if the instance is at its soft cap. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.
+|| The user who created the instance can always join, even if the instance is at its recommended cap. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.
 |-
 || +1 World author
-|| The user who uploaded the world can always join, even if the instance is at its soft cap.
+|| The user who uploaded the world can always join, even if the instance is at its max cap.
 |}
 
 The maximum configurable capacity on the VRChat website is 40, resulting in an effective maximum of 82 players in normal conditions (40 × 2 + 1 + 1). If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the soft cap.
