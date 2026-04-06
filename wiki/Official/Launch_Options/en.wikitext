@@ -17,14 +17,17 @@ The [[VRC Quick Launcher]] allows custom parameters to be set.
 ===General===
 {| class="wikitable"
 |-
-!Launch Options!!Descriptions
+!Launch Options
+!Descriptions
 |-
-| --no-vr||Forces desktop mode
+| --no-vr
+|Forces desktop mode
 |-
-| --fps=x||Overrides the FPS cap to X instead of the default. On Desktop, 90 is the default. In VR, the headset's reported maximum refresh rate is the default.
+| --fps=x
+|Overrides the FPS cap to X instead of the default. On Desktop, 90 is the default. In VR, the headset's reported maximum refresh rate is the default. Setting <code>--fps=0</code> removes the framerate cap entirely in desktop mode, which can be useful for performance testing.
 |-
 | --profile=x
-|Launches with a different user profile, where X is a number. 0 is the default profile.
+|Launches with a different user profile, where X is a number. 0 is the default profile. Each profile stores its own credentials, allowing multiple VRChat clients to run simultaneously on different accounts. This is commonly used by world and avatar creators for testing. See [[Debug Menu#Testing with multiple clients|Testing with multiple clients]].
 |-
 | --error-world
 |The user will join the [[Error World]] instead of their home world on launch.
@@ -33,11 +36,14 @@ The [[VRC Quick Launcher]] allows custom parameters to be set.
 ===Creator===
 {| class="wikitable"
 |-
-!Launch Options!!Descriptions
+!Launch Options
+!Descriptions
 |-
-| --watch-avatars||Watches the location where the VRChat SDK builds test avatars, and if wearing a test avatar that's been updated automatically switches to the newer version.
+| --watch-avatars
+|Watches the location where the VRChat SDK builds test avatars, and if wearing a test avatar that's been updated automatically switches to the newer version.
 |-
-| --watch-worlds||Watches the location where the VRChat SDK builds worlds, and automatically joins any new local world created.
+| --watch-worlds
+|Watches the location where the VRChat SDK builds worlds, and automatically joins any new local world created.
 |-
 | --osc=<ARG1>:<ARG2>:<ARG3>
 |Customize network settings for incoming/outgoing OSC messages.
@@ -58,20 +64,26 @@ These launch options<ref>[https://docs.vrchat.com/docs/ik-20-features-and-option
 
 {| class="wikitable"
 |-
-!Launch Options!! Descriptions
+!Launch Options
+! Descriptions
 |-
 | --custom-arm-ratio="<ARG>"
 |Adjusts the ratio used to scale the avatar when using measure-by-arms mode. "0.4537" is the default argument value.
 |-
-| --legacyfbt-calibrate||Swaps to the older method of locking your avatar in place during calibration.
+| --legacyfbt-calibrate
+|Swaps to the older method of locking your avatar in place during calibration.
 |-
-| --disable-shoulder-tracking||Prevents arm (elbow) trackers from affecting the shoulders.
+| --disable-shoulder-tracking
+|Prevents arm (elbow) trackers from affecting the shoulders.
 |-
-| --calibration-range="<ARG>"|| If you're having problems with your hip tracker but your feet are fine, you can also try adjusting your calibration range. 
+| --calibration-range="<ARG>"
+| If you're having problems with your hip tracker but your feet are fine, you can also try adjusting your calibration range. 
 |-
-| --enable-ik-debug-logging||Adds extra log output related to IK features.
+| --enable-ik-debug-logging
+|Adds extra log output related to IK features.
 |-
-| --freeze-tracking-on-disconnect||When a tracker disconnects it continues to lock the tracked body to its final location relative to the player, rather than transitioning that part to untracked behavior. 
+| --freeze-tracking-on-disconnect
+|When a tracker disconnects it continues to lock the tracked body to its final location relative to the player, rather than transitioning that part to untracked behavior. 
 
 Made new efforts to ensure that even if you activate this option after the tracker has disconnected it will still remember and use the proper final location of the tracker.
 |-
@@ -82,51 +94,68 @@ Made new efforts to ensure that even if you activate this option after the track
 ===Debug===
 {| class="wikitable"
 |-
-!Launch Options!!Descriptions
+!Launch Options
+!Descriptions
 |-
-| --enable-debug-gui||Enables the [[Debug Menu|debug menu]]
+| --enable-debug-gui
+|Enables the [[Debug Menu|debug menu]]
 |-
 | --enable-sdk-log-levels
 |Enables a large amount of additional logging.
 |-
-| --enable-udon-debug-logging||Enable Udon heap and stack dumps in the client. Usually only enabled in editor.
+| --enable-udon-debug-logging
+|Enable Udon heap and stack dumps in the client. Usually only enabled in editor.
 |-
-| --enable-verbose-logging||Output verbose logs
+| --enable-verbose-logging
+|Output verbose logs
 |-
-| --log-debug-levels="<ARG>"||ARG
+| --log-debug-levels="<ARG>"
+|ARG
 {| class="wikitable"
 |-
-! Arguments !! Descriptions
+! Arguments
+! Descriptions
 |-
 |API;
 |API
 |-
-|All;||All Request
+|All;
+|All Request
 |-
-|Always;||Always
+|Always;
+|Always
 |-
-|AssetBundleDownloadManager;||Related to Asset Bundle Download
+|AssetBundleDownloadManager;
+|Related to Asset Bundle Download
 |-
-|ContentCreator;||For Contents Creator
+|ContentCreator;
+|For Contents Creator
 |-
-|Errors;||Related to Error
+|Errors;
+|Related to Error
 |-
-|NetworkData;||Related to Network Data
+|NetworkData;
+|Related to Network Data
 |-
-|NetworkProcessing;||Related to Network Processing
+|NetworkProcessing;
+|Related to Network Processing
 |-
-|NetworkTransport;||Related to Network Transport
+|NetworkTransport;
+|Related to Network Transport
 |-
-|Warnings"||Related to Warning
+|Warnings"
+|Related to Warning
 |}
 |}
 
 ===System===
 {| class="wikitable"
 |-
-!Launch Options!!Descriptions
+!Launch Options
+!Descriptions
 |-
-| --disable-hw-video-decoding|| rowspan="2" |Forces video decoding to be done in software or hardware. The default for all GPU vendors is hardware decoding.
+| --disable-hw-video-decoding
+| rowspan="2" |Forces video decoding to be done in software or hardware. The default for all GPU vendors is hardware decoding.
 
 Use the "disable" variant to force software decoding.
 
@@ -136,7 +165,8 @@ Most users do not need to use this feature.
 |-
 | --enable-hw-video-decoding
 |-
-| --affinity=<ARG>||Sets VRChat's thread affinity to the specified threads. <ARG> is a bitmask indicating which threads should be utilized for- VRChat. For example, FFFF selects the first 16 threads, FF selects the first 8, and so on.
+| --affinity=<ARG>
+|Sets VRChat's thread affinity to the specified threads. <ARG> is a bitmask indicating which threads should be utilized for- VRChat. For example, FFFF selects the first 16 threads, FF selects the first 8, and so on.
 
 Most users do not need to use this feature. It is left up to the user to determine if they should use this feature.
 |-
@@ -146,17 +176,23 @@ Most users do not need to use this feature. It is left up to the user to determi
 <ARG> is a number that represents the priority level to use:
 {| class="wikitable"
 |-
-| <ARG>||
+| <ARG>
+|
 |-
-| -2 ||Idle priority
+| -2
+|Idle priority
 |-
-| -1 ||Below Normal priority
+| -1
+|Below Normal priority
 |-
-| 0 ||Normal priority
+| 0
+|Normal priority
 |-
-| 1 ||Above Normal priority
+| 1
+|Above Normal priority
 |-
-| 2 ||High priority
+| 2
+|High priority
 |-
 |}
 |-
@@ -166,17 +202,23 @@ Most users do not need to use this feature. It is left up to the user to determi
 <ARG> is a number that represents the priority level to use:
 {| class="wikitable"
 |-
-| <ARG>||
+| <ARG>
+|
 |-
-| -2 ||Idle priority
+| -2
+|Idle priority
 |-
-| -1 ||Below Normal priority
+| -1
+|Below Normal priority
 |-
-| 0 ||Normal priority
+| 0
+|Normal priority
 |-
-| 1 ||Above Normal priority
+| 1
+|Above Normal priority
 |-
-| 2 ||High priority
+| 2
+|High priority
 |-
 |}
 |-
@@ -196,15 +238,20 @@ Unity comes with built-in launch options. These are not supported or guaranteed 
 Some useful ones are listed below:
 {| class="wikitable"
 |-
-!Launch Options!!Descriptions
+!Launch Options
+!Descriptions
 |-
-| -screen-width||Override the default screen width. This must be an integer from a supported resolution.
+| -screen-width
+|Override the default screen width. This must be an integer from a supported resolution.
 |-
-| -screen-height||Override the default screen height. This must be an integer from a supported resolution.
+| -screen-height
+|Override the default screen height. This must be an integer from a supported resolution.
 |-
-| -screen-fullscreen||Override the default full-screen state. This must be 0 or 1.
+| -screen-fullscreen
+|Override the default full-screen state. This must be 0 or 1.
 |-
-| -monitor N||Run Standalone Player on the specified monitor, indicated by a 1-based index number.
+| -monitor N
+|Run Standalone Player on the specified monitor, indicated by a 1-based index number.
 |}
 ==See also==
 * [[Settings]]
@@ -215,6 +262,7 @@ Some useful ones are listed below:
 
 * [https://docs.vrchat.com/docs/launch-options docs.vrchat.com - Launch Options]
 
-[[Category:Guides{{#translation:}}]]
 <references />
+
 [[Category:Resources]]
+[[Category:Guides{{#translation:}}]]
