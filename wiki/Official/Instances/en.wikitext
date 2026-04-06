@@ -264,29 +264,30 @@ The author of the world have the same core set of moderation tools as an instanc
 |✔️
 |✔️
 |}
+<translate>
 == Instance capacity ==
+
 The '''Capacity''' of a world can be configured on the VRChat website without reuploading the world. However, the capacity value does not represent the absolute maximum number of players that can be in an instance. The effective maximum is calculated as follows:
-
+</translate>
 {| class="wikitable"
-! Component
-! Description
+!<translate>Component</translate>
+! <translate>Description</translate>
 |-
-|| Recommended Capacity
-|| The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly.
+|| <translate>Recommended Capacity</translate>
+||<translate>The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly.</translate>
 |-
-|| Maximum Capacity
-|| The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated.
+||<translate>Maximum Capacity</translate>
+||<translate>The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated.</translate>
 |-
-|| +1 Instance creator or group owner
-|| The user who created the instance can always join, even if the instance is at its recommended cap. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.
+||<translate>+1 Instance creator or group owner</translate>
+||<translate>The user who created the instance can always join, even if the instance is at its recommended cap. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.</translate>
 |-
-|| +1 World author
-|| The user who uploaded the world can always join, even if the instance is at its max cap.
+||<translate>+1 World author</translate>
+||<translate>The user who uploaded the world can always join, even if the instance is at its max cap.</translate>
 |}
-
+<translate>
 The maximum configurable capacity on the VRChat website is 40, resulting in an effective maximum of 82 players in normal conditions (40 × 2 + 1 + 1). If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the soft cap.
 
-<translate>
 == Instance duration and automatic resets == <!--T:287-->
 
 </translate>
