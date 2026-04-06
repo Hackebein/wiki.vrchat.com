@@ -211,15 +211,13 @@ The Menu toggles are toggles that are below the camera frame.
 ::; Show Paths : Desc
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Lens Visibility : Sets how the camera is rendered within the world.
-:; Off
-:: Shows only a small light.
-:; Ghost
-:: Displays a light blue transparent camera lens.
-:; Solid
-:: Displays a solid camera lens.
-</div>
+; Visibilité de l’objectif : Définit la manière dont la caméra est affichée dans le monde.
+:; Désactivé
+:: N’affiche qu’une petite lumière.
+:; Fantôme
+:: Affiche un objectif de caméra transparent bleu clair.
+:; Plein
+:: Affiche un objectif de caméra solide.
 
 ; Filtres : Ajoute des filtres visuels à la caméra. Un seul filtre peut être actif à la fois.
 <gallery mode="packed" heights="80">
