@@ -32,12 +32,10 @@ Sur les avatars, la section « '''Colliders''' » de « l'[[Special:MyLanguage/A
 
 Un « contact receiver » reçoit les « senders » homologues et définit une valeur pour un « Animator parameter » de l'avatar. Les « receivers » peuvent être configurés afin de permettre l'interaction avec soi-même, les autres utilisateurs, ou localement.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-VRChat supports three receiver behaviors:
-* '''Constant''' keeps a parameter active while a matching sender stays inside the receiver.
-* '''On Enter''' activates for one frame when a matching sender enters, optionally requiring a minimum velocity.
-* '''Proximity''' outputs a float from `0.0` to `1.0` based on how close the sender is to the center of the receiver.
-</div>
+VRChat prend en charge trois comportements pour les récepteurs :
+* '''Constant''' — Maintient un paramètre actif tant qu’un émetteur correspondant reste à l’intérieur du récepteur.
+* '''On Enter''' — S’active pendant une seule frame lorsqu’un émetteur correspondant entre, avec possibilité de nécessiter une vitesse minimale.
+* '''Proximity''' — Renvoie une valeur flottante de 0.0 à 1.0 en fonction de la proximité de l’émetteur par rapport au centre du récepteur.
 
 <span id="Tags_and_parameters"></span>
 ===Étiquettes et paramètres===
