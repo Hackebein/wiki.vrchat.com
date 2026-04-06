@@ -66,28 +66,28 @@ Les boutons de l’interface utilisateur sont situées au centre, à gauche ou �
 :; Filtres
 :: Parcourt les filtres caméra Cyanotype, Glitch, Vitesse, Hypno, Pixelisé, Croquis, Scintiller, Psychédélique et Ancien.
 
-====Bascule====
+====Curseurs====
 ; Vitesse de vol : Détermine la vitesse de déplacement de la caméra en mode Vol. Les valeurs vont de 0,1 à 15, 3 étant la valeur par défaut.
-: Curseur affiché uniquement en mode Bureau ou lorsque la bascule Vol est activée.
+: Curseur affiché uniquement en mode Bureau ou lorsque le bouton Vol est activé.
 ; Vitesse de rotation : Détermine la vitesse de rotation de la caméra en mode Vol. Les valeurs vont de 0,1 à 5, 1 étant la valeur par défaut.
-: Curseur affiché uniquement en mode Bureau ou lorsque la bascule Vol est activée.
-; Intensité du lissage : Détermine la quantité de lissage appliquée aux mouvements de la caméra. Les valeurs vont de 0,1 à 10, 5 étant la valeur par défaut.
-: Curseur affiché uniquement lorsque la bascule Lissé est activée.
-; Décalage horizontal : Détermine le décalage horizontal par rapport au centre de l’image lors de l’utilisation du mode Suivi du regard. Les valeurs vont de -25 à 25, 0 étant la valeur par défaut. L’utilisation de la bascule Auto-nivellement du roulis désactive ce curseur.
-: Curseur affiché uniquement lorsque la bascule Suivi du regard est activée.
-; Décalage vertical : Détermine le décalage vertical par rapport au centre de l’image lors de l’utilisation du mode Suivi du regard. Les valeurs vont de -25 à 25, 0 étant la valeur par défaut. L’utilisation de la bascule Auto-nivellement du tangage désactive ce curseur.
-: Curseur affiché uniquement lorsque la bascule Suivi du regard est activée.
+: Curseur affiché uniquement en mode Bureau ou lorsque le bouton Vol est activé.
+; Force du lissage : Détermine la force du lissage appliqué aux mouvements de la caméra. Les valeurs vont de 0,1 à 10, 5 étant la valeur par défaut.
+: Curseur affiché uniquement lorsque le bouton Lissé est activée.
+; Décalage horizontal : Détermine le décalage horizontal par rapport au centre de l’image lors de l’utilisation du mode Me regarder. Les valeurs vont de -25 à 25, 0 étant la valeur par défaut. L’activation du bouton Stabiliser le roulis désactive ce curseur.
+: Curseur affiché uniquement lorsque le bouton Me regarder est activé.
+; Décalage vertical : Détermine le décalage vertical par rapport au centre de l’image lors de l’utilisation du mode Me regarder. Les valeurs vont de -25 à 25, 0 étant la valeur par défaut. L’activation du bouton Stabiliser l'inclinaison désactive ce curseur.
+: Curseur affiché uniquement lorsque le bouton Me regarder est activé.
 ; Distance focale : Détermine la distance focale de la profondeur de champ.
-: Curseur affiché uniquement lorsque la bascule Mise au point manuelle est activée.
+: Curseur affiché uniquement lorsque le bouton Mise au point manuelle est activé.
 ; Ouverture : Détermine l’ouverture de la profondeur de champ.
-: Curseur affiché uniquement lorsque les bascules Semi-automatique ou Manuel sont activées.
+: Curseur affiché uniquement lorsque les boutons Semi-automatique ou Manuel sont activées.
 ; Écran vert : Affiche des curseurs pour ajuster la couleur du masque d’écran vert. Les curseurs sont Teinte, Saturation et Luminosité.
-: Curseurs affichés uniquement lorsque la bascule Écran vert est activée.
+: Curseurs affichés uniquement lorsque le bouton Écran vert est activé.
 :; Teinte
 :; Saturation
 :; Luminosité
-; Durée : Détermine la durée des nouveaux points de Dolly lors de l’utilisation du mouvement basé sur le temps.
-: Curseur affiché uniquement lorsque la bascule Dolly est activée.
+; Durée : Détermine la durée des nouveaux points Dolly lors de l’utilisation du mouvement basé sur le temps.
+: Curseur affiché uniquement lorsque le bouton Dolly est activé.
 
 ===Menu===
 Les bascules du menu sont des interrupteurs situés sous le cadre de la caméra.
