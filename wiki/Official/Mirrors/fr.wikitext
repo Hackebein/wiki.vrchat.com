@@ -51,12 +51,12 @@ Un miroir transparent reflète généralement les avatars tout autour, tout en a
 
 Chaque objet reflété dans un miroir doit être rendu à nouveau, séparément de ce que l'utilisateur perçoit dans le monde. Un miroir qui reflète l'entièreté du monde double les coûts en performance dû au rendu du monde. L'occlusion ne fonctionnant pas avec la réflexion des miroirs, ceux faisant face à un mur tenteront tout de même d'effectuer un rendu de ce qui se trouve derrière ce mur.
 
-<div class="mw-translate-fuzzy">
-Les créateurs peuvent réduire les coûts en performances de plusieurs manières, telles que : 
-* Désactiver tous les miroirs par défaut. N'activer qu'un miroir lorsqu'un utilisateur appuie sur un bouton ou s'y approche physiquement.
-* Désactiver les miroirs lorsqu'un utilisateur quitte la zone. Cela réduira les coûts en performances lorsqu'un utilisateur ne l'utilise pas. Les utilisateurs ne le feront sûrement pas d'eux-mêmes, utilisez donc un script pour le faire à leur place.
-*Prenant en compte le placement des miroirs, un miroir qui ne fait pas face au centre du monde aura moins de rendu à effectuer.
-</div>
+Les créateurs peuvent réduire le coût en performances des miroirs de plusieurs manières, par exemple :
+* Désactiver tous les miroirs par défaut. N’activer un miroir que lorsque l’utilisateur appuie sur un bouton ou s’en approche physiquement.
+* Désactiver les miroirs lorsqu’un utilisateur quitte la zone. Cela supprime le coût de rendu d’un miroir lorsqu’aucun joueur ne l’utilise. Les utilisateurs ne feront souvent pas cela eux-mêmes, il est donc recommandé d’utiliser un script pour le faire automatiquement.
+* Prendre en compte le placement des miroirs. Un miroir orienté à l’extérieur du centre du monde devra rendre moins d’éléments qu’un miroir orienté vers l’intérieur.
+* Modifier les [[Special:MyLanguage/Layers|couches]] qu’un miroir reflète. Un miroir ne rend que les objets des couches définies. Par exemple, si vous avez un grand monde extérieur avec une maison au centre, vous pouvez définir les objets de l’environnement extérieur sur la couche environnement, puis désactiver cette couche sur les miroirs à l’intérieur de la maison. Cela empêche les miroirs de tenter de rendre un environnement qu’ils ne peuvent pas voir.
+Lorsqu’un utilisateur interagit avec un miroir dans un monde, il pourra activer ou basculer différentes options pour économiser les performances, telles que :
 
 * N'utiliser qu'un miroir à la fois.
 * Choisir une qualité plus basse si disponible.
