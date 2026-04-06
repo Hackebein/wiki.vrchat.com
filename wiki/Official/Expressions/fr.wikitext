@@ -124,13 +124,11 @@ Each built-in parameter has a sync type determining when it is sent to remote us
 === Network synchronization ===
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Only synced expression parameters and certain built-in parameters are sent over the network. The full list of data sent for each avatar includes:
-* '''IK targets''' — Head, jaw, and hands for desktop and 3-point tracking; additionally hip and feet for full-body tracking. Index controller users also sync finger positions.
-* '''Synced expression parameters''' — Only parameters marked as Synced are transmitted. Values are quantized: Int values sync in the range 0–255, Float values sync as multiples of 1/127 between −1 and 1, and Bools sync as true or false.
-* '''Built-in VRC parameters''' — Including gestures, velocity, voice, and other runtime parameters.
-* '''PhysBones''' — Pose position data is sent to late joiners.
-</div>
+Seuls les paramètres d’expression synchronisés et certains paramètres intégrés sont transmis sur le réseau. La liste complète des données envoyées pour chaque avatar inclut :
+* '''Cibles IK''' — Tête, mâchoire et mains pour le suivi sur bureau et à 3 points ; en plus, hanches et pieds pour le suivi corps entier. Les utilisateurs avec contrôleur Index synchronisent également la position des doigts.
+* '''Paramètres d’expression synchronisés''' — Seuls les paramètres marqués comme synchronisés sont transmis. Les valeurs sont quantifiées : les valeurs entières (Int) se synchronisent dans la plage 0–255, les valeurs flottantes (Float) se synchronisent par multiples de 1/127 entre −1 et 1, et les booléens (Bool) se synchronisent comme vrai ou faux.
+* '''Paramètres VRC intégrés''' — Inclut les gestes, la vitesse, la voix et d’autres paramètres d’exécution.
+* '''PhysBones''' — Les données de position des poses sont envoyées aux utilisateurs rejoignant tardivement.
 
 Pour assurer un support fiable des utilisateurs rejoignant tardivement, il est recommandé de séparer la logique de l’animateur en utilisant le paramètre <code>IsLocal</code> : les couches côté local gèrent les contacts, les drivers de paramètres et toute la logique, puis définissent les paramètres synchronisés, tandis que les couches côté distant ne font que lire ces paramètres synchronisés pour afficher la visualisation correcte.
 
