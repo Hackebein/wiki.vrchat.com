@@ -1,0 +1,50 @@
+{{Noticebox/Community}}
+
+'''Tundra Trackers''' automatically power on when connected to USB-C for charging. This behavior is intended and implemented at the request of enterprise customers. There is no firmware-level option to disable it.
+
+The Tundra Tracker connects to SteamVR through a paired dongle (such as the Super Wireless Dongle SW3/SW5/SW7 or a Vive Tracker dongle). When a tracker powers on and finds its paired dongle, it sends a signal that SteamVR interprets as a request to start, the same way pressing a controller button does. This means plugging trackers in to charge can unexpectedly launch SteamVR.
+
+== Option 1: Disable SteamVR auto-launch on button press ==
+
+SteamVR can be configured to stop launching automatically when a tracker or controller sends a signal.
+
+# Close SteamVR if it is running.
+# Open the file <code>C:\Program Files (x86)\Steam\config\steamvr.vrsettings</code> in a text editor.
+# Add the following key inside the top-level JSON object:<syntaxhighlight lang="json">
+"power": {
+    "autoLaunchSteamVROnButtonPress": false
+}
+</syntaxhighlight>
+# Save the file.
+
+The file should look similar to this:
+
+<syntaxhighlight lang="json">
+{
+    "steamvr": {
+        ...
+    },
+    "power": {
+        "autoLaunchSteamVROnButtonPress": false
+    }
+}
+</syntaxhighlight>
+
+This also prevents launching SteamVR by pressing a button on VR controllers. SteamVR must be started manually from Steam or the desktop shortcut instead.
+
+== Option 2: Unplug the dongle while charging ==
+
+If the paired dongle is not connected to the PC, the trackers have no way to communicate with SteamVR, even if they power on during charging.
+
+# After finishing a VR session, unplug the paired dongle from the PC.
+# Plug the trackers into USB-C to charge as usual.
+# Before the next VR session, plug the paired dongle back in.
+
+This preserves the ability to launch SteamVR via a controller button press and requires no configuration changes.
+
+== Resources ==
+
+* [https://www.reddit.com/r/tundralabs/comments/zys59l/comment/j5vt5oe/ Reddit discussion] on preventing Tundra Trackers from auto-starting
+* [https://tundra-labs.github.io/tundra-tracker-docs/ Tundra Tracker User Manual]
+
+[[Category:Guides{{#translation:}}]]
