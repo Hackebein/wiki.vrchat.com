@@ -99,9 +99,7 @@ By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet c
 VRChat also provides built-in Animator parameters. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Built-in parameters are read-only. They are added directly to a playable layer's Animator Controller by name, and VRChat updates them automatically at runtime. They are not set on sub-animators, only on playable-layer animators.
-</div>
+Les paramètres intégrés sont en lecture seule. Ils sont ajoutés directement au contrôleur d’Animator d’une couche jouable par nom, et VRChat les met à jour automatiquement à l’exécution. Ils ne sont pas définis sur les sous-animateurs, uniquement sur les animateurs des couches jouables.
 
 Parmi les paramètres intégrés supplémentaires :
 * <code>Viseme</code> (Int) — Défini par la synchronisation labiale de <code>0</code> (silence) à <code>14</code> (voyelle "u") lorsque la synchronisation labiale de l’Avatar Descriptor est réglée sur Viseme Blend Shape ou Viseme Parameter Only.
