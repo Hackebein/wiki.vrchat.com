@@ -171,8 +171,9 @@ When creating an instance, the instance creator has the option to change its dis
 <!--T:247-->
 Instance naming within the client is [[Special:MyLanguage/VRC+|VRC+]] feature, although naming an instance through the API does not require VRC+.
 
-== Short links ==
+== Short links == <!--T:296-->
 
+<!--T:297-->
 Instances can be shared using VRChat's <code>vrch.at</code> short link domain combined with the instance's short name, for example <code><nowiki>https://vrch.at/<shortName></nowiki></code>. This redirects to the instance's launch page on the VRChat website.
 
 == Instance settings == <!--T:248-->
@@ -265,27 +266,29 @@ The author of the world have the same core set of moderation tools as an instanc
 |✔️
 |}
 <translate>
-== Instance capacity ==
+== Instance capacity == <!--T:298-->
 
+<!--T:299-->
 The '''Capacity''' of a world can be configured on the VRChat website without reuploading the world. However, the capacity value does not represent the absolute maximum number of players that can be in an instance. The effective maximum is calculated as follows:
 </translate>
 {| class="wikitable"
-!<translate>Component</translate>
-! <translate>Description</translate>
+!<translate><!--T:300--> Component</translate>
+! <translate><!--T:301--> Description</translate>
 |-
-|| <translate>Recommended Capacity</translate>
-||<translate>The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly.</translate>
+|| <translate><!--T:302--> Recommended Capacity</translate>
+||<translate><!--T:303--> The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly.</translate>
 |-
-||<translate>Maximum Capacity</translate>
-||<translate>The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated.</translate>
+||<translate><!--T:304--> Maximum Capacity</translate>
+||<translate><!--T:305--> The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated.</translate>
 |-
-||<translate>+1 Instance creator or group owner</translate>
-||<translate>The user who created the instance can always join, even if the instance is at its recommended cap. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.</translate>
+||<translate><!--T:306--> +1 Instance creator or group owner</translate>
+||<translate><!--T:307--> The user who created the instance can always join, even if the instance is at its recommended cap. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.</translate>
 |-
-||<translate>+1 World author</translate>
-||<translate>The user who uploaded the world can always join, even if the instance is at its max cap.</translate>
+||<translate><!--T:308--> +1 World author</translate>
+||<translate><!--T:309--> The user who uploaded the world can always join, even if the instance is at its max cap.</translate>
 |}
 <translate>
+<!--T:310-->
 The maximum configurable capacity on the VRChat website is 40, resulting in an effective maximum of 82 players in normal conditions (40 × 2 + 1 + 1). If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the soft cap.
 
 == Instance duration and automatic resets == <!--T:287-->
