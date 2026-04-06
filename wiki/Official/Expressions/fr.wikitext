@@ -116,9 +116,7 @@ Additional built-in parameters include:
 * <code>ScaleFactor</code>, <code>ScaleFactorInverse</code>, <code>EyeHeightAsMeters</code>, <code>EyeHeightAsPercent</code> (Float) — Scaling-related parameters for avatar scaling. <code>EyeHeightAsMeters</code> is recommended for scale-aware systems because it is linear and does not depend on upload height.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Each built-in parameter has a sync type determining when it is sent to remote users: ''IK'' for tracking-derived values (gestures, velocity, grounded), ''Speech'' for voice-related values (viseme, voice), ''Playable'' for user-state values (mute, earmuffs, tracking type, scale), or ''None'' for local-only values (IsLocal, PreviewMode).
-</div>
+Chaque paramètre intégré possède un type de synchronisation qui détermine quand il est envoyé aux utilisateurs distants : ''IK'' pour les valeurs dérivées du suivi (gestes, vitesse, contact au sol), ''Speech'' pour les valeurs liées à la voix (visème, voix), ''Playable'' pour les valeurs liées à l’état de l’utilisateur (muet, protections auditives, type de suivi, échelle), ou ''None'' pour les valeurs locales uniquement (IsLocal, PreviewMode).
 
 <span id="Network_synchronization"></span>
 === Synchronisation Réseau ===
