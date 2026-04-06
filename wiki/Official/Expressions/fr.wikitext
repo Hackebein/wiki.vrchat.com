@@ -132,9 +132,7 @@ Only synced expression parameters and certain built-in parameters are sent over 
 * '''PhysBones''' — Pose position data is sent to late joiners.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For reliable late-joiner support, a recommended pattern is to split animator logic using the <code>IsLocal</code> parameter: local-side layers handle contacts, parameter drivers, and all logic, then set synced parameters, while remote-side layers only read those synced parameters to play the correct visualization.
-</div>
+Pour assurer un support fiable des utilisateurs rejoignant tardivement, il est recommandé de séparer la logique de l’animateur en utilisant le paramètre <code>IsLocal</code> : les couches côté local gèrent les contacts, les drivers de paramètres et toute la logique, puis définissent les paramètres synchronisés, tandis que les couches côté distant ne font que lire ces paramètres synchronisés pour afficher la visualisation correcte.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Gestures and facial expressions ===
