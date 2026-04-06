@@ -95,9 +95,7 @@ By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet c
 === Built-in parameters ===
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-VRChat also provides built-in Animator parameters. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
-</div>
+VRChat fournit également des paramètres intégrés pour l’Animator. Ceux-ci n’ont pas besoin d’être ajoutés à l’asset des paramètres d’expression et ne sont pas comptabilisés dans le budget de paramètres personnalisés.
 
 Les paramètres intégrés sont en lecture seule. Ils sont ajoutés directement au contrôleur d’Animator d’une couche jouable par nom, et VRChat les met à jour automatiquement à l’exécution. Ils ne sont pas définis sur les sous-animateurs, uniquement sur les animateurs des couches jouables.
 
