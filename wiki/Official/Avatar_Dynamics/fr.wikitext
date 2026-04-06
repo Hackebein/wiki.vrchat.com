@@ -20,10 +20,10 @@ Les contacts sont un système permettant aux avatars de détecter des collisions
 
 Un « '''contact sender''' » défini un volume qui peut détecter un « contact receiver » homologue. Les « senders » peuvent être sous forme de sphère ou de capsule et utiliser le « root transform », « local position », « rotation offsets », ainsi qu'une ou plusieurs étiquettes de collision.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Noticebox/unreleased}}
-A box shape for contacts is in development and planned for a future SDK release<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] on ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 'Developer Update - 19 March 2026'] on ''[[ask.vrchat.com]]''.</ref>. Box-shaped contacts will be available for both avatars and worlds, with configurable width, height, and depth. Box-shaped contact receivers will also support an additional proximity calculation mode based on the distance from the sender to the positive Z face of the box.
-</div>
+Une forme de boîte pour les contacts est en cours de développement et prévue pour une future version du SDK<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077
+ 'VRChat Creators Roadmap (mars 2026)'] sur ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078
+ 'Developer Update - 19 mars 2026'] sur ''[[ask.vrchat.com]]''.</ref>. Les contacts en forme de boîte seront disponibles à la fois pour les avatars et les mondes, avec largeur, hauteur et profondeur configurables. Les récepteurs de contacts en forme de boîte prendront également en charge un mode de calcul de proximité supplémentaire basé sur la distance entre l’émetteur et la face Z positive de la boîte.
 
 Sur les avatars, la section « '''Colliders''' » de « l'[[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] » crée des « contacts senders » pour les parties du corps commune, tels que les mains et les doigts
 
