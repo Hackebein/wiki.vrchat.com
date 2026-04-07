@@ -255,7 +255,7 @@ Lorsque le nombre d’utilisateurs présents dans l’instance atteint cette val
 La capacité recommandée ne peut pas être définie à une valeur supérieure à la capacité maximale.
 |-
 ||Capacité Maximum
-||<span lang="en" dir="ltr" class="mw-content-ltr">The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated. The Maximum Capacity cannot be set higher than 80.</span><ref name="CapNote" group="note"> Bien que la capacité maximale d’un monde ne puisse pas dépasser 80 dans des circonstances normales, les membres de l’équipe VRChat peuvent augmenter manuellement la capacité d’une instance. Cela arrive habituellement lors d’événements spéciaux ou de [https://vrc.group/MAXCAP.0000 tests de charge sur la capacité des instances]. </ref>
+||<span lang="en" dir="ltr" class="mw-content-ltr">The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated. The Maximum Capacity cannot be set higher than 80.</span><ref name="CapNote" group="note"> Bien que la capacité maximale d’un monde ne puisse pas dépasser 80 dans des circonstances normales, les membres de l’équipe VRChat peuvent augmenter manuellement la capacité d’une instance. Cela arrive habituellement lors d’événements spéciaux ou de [https://vrc.group/MAXCAP.0000 tests sur la capacité des instances]. </ref>
 |-
 ||Créateur de l'instance ou propriétaire du groupe
 ||Le créateur de l’instance peut toujours rejoindre celle-ci, même lorsqu’elle a atteint sa capacité maximale.
