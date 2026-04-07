@@ -1,0 +1,66 @@
+{{Noticebox/Community}}
+'''Emoji creation tools''' are community-developed applications that convert GIFs, videos, or other image sources into sprite sheets for VRChat's [[Emojis#Custom animated emojis|custom animated emojis]].
+
+== Comparison ==
+{| class="wikitable"
+|-
+! Tool
+! Type
+! Input formats
+! Chroma key
+! Upload to VRChat
+! Crop
+! Preview
+! Open source
+|-
+| '''VRCEmoji.com'''
+| Web (browser)
+| GIF, MP4, MOV, WebM
+| No
+| No
+| Yes
+| Yes
+| No
+|-
+| '''VRCEmoji'''
+| Desktop (Windows)
+| GIF
+| Yes (HSV/RGB)
+| Yes
+| Yes
+| Yes
+| Yes
+|}
+
+== VRCEmoji.com ==
+[https://vrcemoji.com/ VRCEmoji.com] is a web-based sprite sheet generator by ''-peas-''. All processing occurs locally in the user's browser.
+
+=== Features ===
+* Accepts GIF, MP4, MOV, and WebM files
+* Live preview with adjustable FPS
+* Background options: transparent, black, or white
+* Crop support
+* Download or copy to clipboard
+
+== VRCEmoji ==
+[https://github.com/Wakamu/VRCEmoji VRCEmoji] is an open-source desktop application for Windows by ''Wakamu'', written in C#.
+
+=== Features ===
+* Timeline selection (choose start and end frames)
+* GIF cropping and aspect ratio adjustment
+* Three generation modes (Quality, Balance, Fluidity) that select the grid size
+* Chroma keying (HSV or RGB color selection)
+* Automatic file naming following VRChat's convention
+* Result preview
+* Direct emoji and sticker uploading to a VRChat account
+
+== Resources ==
+* [https://vrcemoji.com/ VRCEmoji.com]
+* [https://github.com/Wakamu/VRCEmoji VRCEmoji] on GitHub
+
+== See also ==
+* [[Emojis]]
+
+[[Category:Third-party applications{{#translation:}}]]
+[[Category:Resources{{#translation:}}]]
+[[Category:Assets available via GitHub{{#translation:}}]]
