@@ -1,0 +1,71 @@
+{{Noticebox/Community}}
+
+'''Back-facing hits''' are a diagnostic metric in [[wikipedia:SteamVR|SteamVR]] that applies to [[wikipedia:Lighthouse_(hardware)|Lighthouse]]-based tracking systems. The metric counts the number of infrared light signals received by a tracker's sensors from an indirect direction, typically caused by reflections in the play space. A high number of back-facing hits indicates that the tracking environment may have reflective surfaces interfering with base station tracking.
+
+== How back-facing hits work ==
+
+SteamVR Lighthouse base stations emit infrared laser sweeps that are detected by photodiode sensors on headsets and trackers. Each sensor has a known facing direction, defined as a normal vector in the device's configuration<ref>[https://github.com/ValveSoftware/openvr/wiki/The-JSON-File-(Lighthouse-Devices) The JSON File (Lighthouse Devices)] on the ''ValveSoftware/openvr'' wiki. Describes sensor geometry including <code>modelNormals</code> (per-sensor facing directions).</ref>. When a laser sweep is detected, the system expects the signal to arrive from the direction of a base station, consistent with the sensor's orientation.
+
+A ''back-facing hit'' occurs when a sensor detects a signal from a direction that does not match its facing orientation relative to any base station. SteamVR drops these hits and logs them with messages such as <code>Dropped 2977 back-facing hits, 10 non-clust</code>. This is usually caused by infrared light bouncing off reflective surfaces in the environment, such as mirrors, windows, glossy monitors, or polished furniture, before reaching the sensor.
+
+== Checking back-facing hits ==
+
+=== SteamVR log files ===
+
+Back-facing hit counts are recorded in the <code>vrserver</code> log files.
+
+# Navigate to <code>C:\Program Files (x86)\Steam\logs</code>.
+#* On Linux, the default log location is <code>~/.steam/steam/logs</code>.
+# Open <code>vrserver.txt</code> for the most recent session, or <code>vrserver.previous.txt</code> for the previous session.
+# Search for the text <code>back-facing hits</code>.
+
+Alternatively, generate a system report from SteamVR:
+# Open the SteamVR desktop menu.
+# Select '''Create System Report'''.
+# Review the log output for <code>back-facing hits</code>.
+
+=== SteamVR web console ===
+
+The SteamVR web console displays back-facing hit counts in real time when a tracker is powered off.
+
+# Open the SteamVR desktop menu.
+# Select '''Developer''' → '''Web Console'''.
+# Power off a tracker to see its back-facing hit count displayed in the console.
+
+== Interpreting the values ==
+
+Lower back-facing hit counts indicate a cleaner tracking environment. When evaluating these numbers, keep the following in mind:
+
+* '''Session length''' affects the count. A longer VR session naturally accumulates more back-facing hits. Comparing values across sessions of different lengths can be misleading.
+* '''Number of base stations''' affects the count. More base stations emit more infrared light, which increases the opportunity for reflections.
+* '''There is no universally defined threshold.''' Counts in the tens of thousands or higher during a typical session may indicate the presence of reflective objects and are often reported alongside tracking issues.
+
+To isolate problem areas, power trackers on and off in different positions within the play space while monitoring the web console. This can help identify specific zones where reflections are more prevalent.
+
+== Common causes ==
+
+Back-facing hits can be caused by:
+
+* '''Reflective surfaces''' in or near the play space, such as mirrors, glass, windows, glossy monitors, TV screens, or polished furniture.
+* '''Reflective accessories''' on the headset or trackers, such as straps, clips, or cases that reflect infrared light.
+* '''Covered or obstructed sensors''' on the tracker, preventing proper signal reception.
+* '''Damaged base stations''', particularly a scratched or degraded infrared filter on a base station's front panel.
+* '''Faulty tracker sensors''' or other hardware defects on the tracking device.
+
+== Reducing back-facing hits ==
+
+* Cover or remove reflective surfaces near the play space. Curtains over windows and matte covers on monitors can help.
+* Reposition base stations so they face fewer reflective objects.
+* Ensure tracker sensors are clean and unobstructed.
+* Check base station front panels for scratches or damage.
+* Ensure that straps and mounts on headsets and trackers do not cover or reflect onto sensors.
+
+== See also ==
+
+* [[Full-Body Tracking]]
+* [[Guides:Types of tracking|Types of tracking]]
+
+== References ==
+<references />
+
+[[Category:Guides{{#translation:}}]]
