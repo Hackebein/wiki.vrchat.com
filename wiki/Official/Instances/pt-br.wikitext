@@ -118,7 +118,9 @@ Um usuário pode se conectar diretamente a uma instância se outro cliente próp
 <span id="Regions"></span>
 ==Regiões==
 
+<div class="mw-translate-fuzzy">
 Ao selecionar um tipo de instância, existem opções entre diferentes regiões para otimizar sua experiência. Escolher uma instância mais próxima da sua localização resultará em uma redução no [[Special:MyLanguage/:Community:Terminology#Ping|ping]], garantindo uma conexão mais estável com a instância e evitando desconexões e lentidão.
+</div>
 
 Historicamente, o VRChat funcionava exclusivamente no servidor da região Oeste dos EUA. Em 16 de junho de 2021, duas regiões adicionais - '''Europa e Japão''' foram adicionadas à plataforma na [https://docs.vrchat.com/docs/vrchat-202124 atualização de regiões]<ref>https://docs.vrchat.com/docs/vrchat-202124</ref> para distribuir a carga do servidor e compensar o aumento no número de usuários. Em 1º de dezembro de 2021, o VRChat adicionou a região '''Leste dos EUA'''<ref>https://docs.vrchat.com/docs/vrchat-202142</ref> e renomeou o servidor dos EUA para ''''Oeste dos EUA'''<nowiki/>'. Os usuários também são incentivados a verificar o site de ({{VRC link|https://status.vrchat.com|status de servidor}}) do VRChat ou a conta [https://x.com/VRChat_Status VRChat Status] nas redes sociais para verificar possíveis interrupções ou ao descobrirem problemas ao se conectar ao VRChat.
 {| class="wikitable"
@@ -244,27 +246,28 @@ O autor do mundo tem o mesmo conjunto básico de ferramentas de moderação que 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-The '''Capacity''' of a world can be configured on the VRChat website without reuploading the world. However, the capacity value does not represent the absolute maximum number of players that can be in an instance. The effective maximum is calculated as follows:
+The capacity of a world can be configured on the VRChat website without reuploading the world. However, the capacity value does not represent the absolute maximum number of players that can be in an instance. The effective maximum is calculated as follows:
 </div>
 {| class="wikitable"
 !<span lang="en" dir="ltr" class="mw-content-ltr">Component</span>
 ! <span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
 |-
 || <span lang="en" dir="ltr" class="mw-content-ltr">Recommended Capacity</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly.</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly. The Recommended Capacity cannot be set higher than Maximum Capacity.</span>
 |-
 ||<span lang="en" dir="ltr" class="mw-content-ltr">Maximum Capacity</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated.</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated. The Maximum Capacity cannot be set higher than 80.</span><ref name="CapNote" group="note"> <span lang="en" dir="ltr" class="mw-content-ltr">While the Maximum Capacity of a world cannot be set higher than 80 under normal circumstances, VRChat staff can manually increase the instance capacity. This usually occurs during events or [https://vrc.group/MAXCAP.0000 instance capacity stress tests].</span> </ref>
 |-
-||<span lang="en" dir="ltr" class="mw-content-ltr">+1 Instance creator or group owner</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The user who created the instance can always join, even if the instance is at its recommended cap. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">Instance creator or group owner</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">The user who created the instance can always join, even if the instance is at its maximum capacity. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.</span>
 |-
-||<span lang="en" dir="ltr" class="mw-content-ltr">+1 World author</span>
-||<span lang="en" dir="ltr" class="mw-content-ltr">The user who uploaded the world can always join, even if the instance is at its max cap.</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">World author</span>
+||<span lang="en" dir="ltr" class="mw-content-ltr">The user who uploaded the world can always join, even if the instance is at its maximum cap.</span>
 |}
 <div lang="en" dir="ltr" class="mw-content-ltr">
-The maximum configurable capacity on the VRChat website is 40, resulting in an effective maximum of 82 players in normal conditions (40 × 2 + 1 + 1). If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the soft cap.
-</div>
+The maximum configurable capacity on the VRChat website is 80, resulting in an effective maximum of 82 players in normal conditions. If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the maximum capacity.
+</div> <ref group="note" name="CapNote"></ref>
+<references group="note" />
 
 <span id="Instance_duration_and_automatic_resets"></span>
 == Duração da instância e reinicializações automáticas ==
