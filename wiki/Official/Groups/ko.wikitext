@@ -26,11 +26,10 @@
 
 *같은 그룹에 속해있습니다.
 *"모든 멤버 보기" 권한을 가지고 있습니다.
-
-[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|그룹 가시성 옵션]]
-
+[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|<span lang="en" dir="ltr" class="mw-content-ltr">Group visibility options</span>]]
 VRChat 클라이언트 내의 '''그룹 탭'''으로 이동하여 그룹을 선택한 후 메뉴 우상단 의 톱니바퀴 아이콘을 클릭하면 됩니다. 이 작업은 '''그룹 설정''' 하위 메뉴를 열게 되며, 여기서 원하는 대로 가시성을 변경할 수 있습니다.
 
+<div class="mw-translate-fuzzy">
 VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 사이드바의 '그룹' 탭으로 이동한 후 그룹을 선택하고 "'''설정"'''을 클릭한 다음 "'''내 멤버십"''' 아래에 있는 '''가시성''' 설정을 원하는 대로 선택하시면 됩니다.
 {| class="wikitable"
 !표시
@@ -38,10 +37,17 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 |-
 !친구에게만 표시
 |그룹이 프로필에 표시되지만 친구에게만 표시됩니다.
+</div>
 
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Visible</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The group is shown on your profile for everyone.</span>
 |-
-!숨김
-|내 프로필에서 숨깁니다.
+!<span lang="en" dir="ltr" class="mw-content-ltr">Friends Only</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The group is only shown on your profile to your friends.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Hidden</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The group is hidden from your profile.</span>
 |}
 
 <span id="Creating_a_group"></span>
@@ -54,6 +60,7 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 <span id="Joinability_and_visibility"></span>
 ===참여 가능 여부와 가시성===
 
+<div class="mw-translate-fuzzy">
 그룹을 생성할 때 온보딩 프로세스는 그룹 생성한 사람에게 몇 가지 개인 설정 옵션을 제공합니다. 그룹의 '''참여 가능 여부'''는 특정 유저가 해당 그룹에 가입할 수 있는 능력을 결정합니다. 이 설정은 나중에 변경할 수 있습니다.
 {| class="wikitable"
 !자유 가입
@@ -61,24 +68,45 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 |-
 !가입 요청
 |새 멤버는 그룹에 가입하기 위해 요청을 해야 합니다.
+</div>
 
-|-
-!초대 전용
-
-|적절한 권한을 가진 유저는 그룹에 새로운 멤버를 초대할 수 있습니다.
-|}
-그룹의 '''가시성'''은 해당 그룹이 멤버의 프로필에 표시되거나 표시될 수 있는지 여부를 결정합니다. 이 설정은 '''나중에 변경할 수 없습니다'''.
 {| class="wikitable"
-!공개
-|멤버는 프로필에 그룹을 표시하도록 선택할 수 있습니다.
+!<span lang="en" dir="ltr" class="mw-content-ltr">Free Join</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Anyone can join the group freely.</span>
 |-
-!비공개
-|맴버는 프로필에 그룹을 표시하거나 홍보할 수 없습니다.
+!<span lang="en" dir="ltr" class="mw-content-ltr">Request to Join</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">New members must request to join the group.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Invite-Only</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Those with the right permissions may invite new members to the group.</span>
 |}
-앞서 언급된 대로, 가시성 설정을 통해 공개 그룹이 자신의 프로필에 표시되지 않도록 수동으로 숨길 수 있습니다.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The '''visibility''' of a group determines whether or not the group can be represented or displayed on a member's profile. This setting '''cannot''' be changed later.
+</div>
+
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Public</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Members can choose to advertise the group on their profile.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Private</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The group cannot be advertised or displayed by members.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+As mentioned, any user can manually obscure of any public group from displaying on their profile via Visibility settings.
+</div>
+
+
+<span id="Group_banner"></span>
+<div class="mw-translate-fuzzy">
 ===그룹 배너===
 그룹 배너는 해당 그룹을 선택한 유저의 이름표에 표시할 수 있으며, VRChat Home 웹사이트의 그룹 페이지, VRChat의 그룹 UI에도 나타납니다.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Group banners are displayed on the nameplates of users who choose to represent that Group, and will also appear on the Group page on the VRChat Home website and in the Group UI within VRChat.
+</div>
 
 배너는 VRChat Home 웹사이트에서 업로드하고 선택할 수 있습니다. 단, 업로드된 이미지는 표시되는 위치에 따라 다르게 잘립니다.
 
@@ -95,7 +123,7 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 <span id="Default_roles"></span>
 ===기본 역할===
 
-[[File:Groups default roles.png|thumb|253x253px|역할 개요]]
+[[File:Groups default roles.png|thumb|253x253px|<span lang="en" dir="ltr" class="mw-content-ltr">Role overview</span>]]
 
 그룹은 다음과 같은 세 가지 역할 등급을 제공합니다.
 '''관리자 역할''', '''맴버 역할''', 및 '''기본 역할'''. 그룹이 생성될 때 자동으로 세 가지 역할이 생성됩니다: '''모든 유저''', 이는 '기본 역할' 아래에 표시되며, '''맴버''', 이는 '맴버 역할' 아래에 표시되며, '''그룹 오너''', 이는 '관리자 역할' 아래에 표시됩니다. '그룹 오너'와 '맴버'의 역할 이름은 변경할 수 있지만, '모든 유저'는 변경하거나 삭제할 수 없습니다.
@@ -107,6 +135,7 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 
 역할은 그룹의 관리자에 의해 언제든지 추가, 이름 변경, 또는 삭제될 수 있습니다. 각 역할에는 설명을 추가 할 수 있으며, 권한을 사용자 지정할 수 있습니다. 권한은 켜거나 끄는 방식으로 설정됩니다. 역할은 '''가입 시 자동 할당''', '''스스로 할당 가능''', '''2단계 인증 요구'''로 중 하나로 선택할 수 있습니다.
 
+<div class="mw-translate-fuzzy">
 스스로 할당 가능한 역할은 선택 사항이며, VRChat 웹사이트에 로그인하여 해당 역할이 사용 가능한 경우 자신에게 역할을 할당할 수 있습니다. 단, Steam이나 Meta와 같은 플랫폼 계정을 사용하는 사용자는 VRChat 웹사이트에 로그인하여 역할을 할당할 수 없습니다. 이는 VRChat 웹사이트에서 계정에 로그인하려면 [[Special:MyLanguage/Getting Started#Account Creation|VRChat 계정 생성]]이 필요하기 때문입니다. 그룹 관리자는 원하는 유저에게 역할을 수동으로 할당할 수 있습니다.
 {| class="wikitable"
 |+
@@ -117,11 +146,21 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 |<small>이 기능이 활성화되면, 그룹에 가입하는 신규 멤버에게 이 역할이 자동으로 할당됩니다. 이 설정은 기존 멤버에게는 영향을 미치지 않습니다..</small>
 |-
 |스스로 할당 가능
+</div>
 
-|<small>그룹 맴버가 이 역할을 자신에게 할당할 수 있도록 합니다.</small>
+{| class="wikitable"
+|+
+!<span lang="en" dir="ltr" class="mw-content-ltr">Function</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
 |-
-|2단계 인증 요구
-|<small>권한을 할당하려면, 맴버가 2단계 인증(2FA)을 완료해야 합니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Assign On Join</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr"><small>If enabled, new members will be assigned this role when they join the group. This will not affect existing members.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Self Assignable</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows members of the group to assign this role to themselves.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Require 2FA</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr"><small>Requires members to have 2FA before permissions apply.</small></span>
 |}
 
 [[File:Groups permissions overview.png|thumb|그룹 관리 옵션에서 확인할 수 있는 할당 가능한 권한 중 일부입니다.]]
@@ -141,126 +180,76 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 
 *5단계: 권한을 편집하고자 하는 역할 클릭한 후 자물쇠 아이콘으로 표시된 '''권한'''을 클릭합니다. 
 
+<div class="mw-translate-fuzzy">
 *6단계: 아래에 있는 권한을 적용하고 페이지 하단으로 스크롤하여 '''저장'''을 클릭합니다.
 {| class="wikitable"
 |+
 !권한
 !기능
 |-
-
-|그룹 맴버 데이터 관리||<small>모든 맴버를 보고, 역할별로 분류하고, 정렬하고, 데이터를 수정할 수 있도록 허용합니다.</small>
-|-
-
-|그룹 데이터 관리||<small>그룹 세부 정보(이름, 설명, joinState 등)를 편집할 수 있도록 허용합니다.</small>
-|-
-
-|감사 로그 보기||<small>전체 그룹 감사 로그를 볼 수 있도록 허용합니다.</small>
-|-
-
-|그룹 역할 관리||<small>역할을 생성, 수정 및 삭제할 수 있도록 허용합니다.</small>
-|-
-
-|그룹 기본 역할 관리||<small>기본 역할(Everyone 역할)의 권한을 관리할 수 있도록 허용합니다. "그룹 역할 관리"가 필요합니다.</small>
-|-
-
-|그룹 역할 할당||<small>해당 유저에게 역할을 할당/할당 해제할 수 있는 권한을 부여합니다. "그룹 맴버 데이터 관리"가 필요합니다.</small>
-|-
-
-|그룹 차단 관리||<small>해당 유저를 차단/차단 해제하고 모든 차단된 유저를 볼 수 있는 권한을 부여합니다. "그룹 맴버 데이터 관리"가 필요합니다.</small>
-|-
-
-|그룹 맴버 제거||<small>그룹에서 해당 유저를 제거할 수 있는 권한을 부여합니다. "그룹 맴버 데이터 관리"가 필요합니다.</small>
-|-
-
-|모든 맴버 보기||<small>친구뿐만 아니라 그룹의 모든 맴버를 볼 수 있는 권한을 부여합니다.</small>
-|-
-
-|그룹 공지 관리||<small>그룹 공지를 설정/해제하고 알림으로 보낼 수 있는 권한을 부여합니다.</small>
-|-
-
-<div class="mw-translate-fuzzy">
-|그룹 캘린더 관리||<small>그룹 캘린더를 생성, 관리, 발행할 수 있는 권한을 부여합니다.</small>
-|-
 </div>
 
-<div class="mw-translate-fuzzy">
-|그룹 갤러리 관리||<small>그룹 갤러리를 생성, 순서 변경, 편집 및 삭제할 수 있는 권한을 부여합니다. 갤러리에 언제든지 제출하고 이미지를 승인할 수 있습니다.</small>
+{| class="wikitable"
+|+
+!<span lang="en" dir="ltr" class="mw-content-ltr">Permission</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Function</span>
 |-
-</div>
-
-<div class="mw-translate-fuzzy">
-|그룹 초대 관리||<small>초대를 생성/취소하고 가입 요청을 수락/거부/차단할 수 있는 권한을 부여합니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Member Data</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to view, filter by role, and sort all members and edit data about them.</small></span>
 |-
-</div>
-
-<div class="mw-translate-fuzzy">
-|그룹 인스턴스 관리||<small>그룹 인스턴스 내에서 관리할 수 있는 권한을 부여합니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Data</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to edit group details (name, description, joinState, etc).</small></span>
 |-
-</div>
-
-<div class="mw-translate-fuzzy">
-|그룹 인스턴스 관리||<small>그룹 인스턴스를 닫을 수 있는 권한을 부여합니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">View Audit log</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to view the full group audit log.</small></span>
 |-
-</div>
-
-<div class="mw-translate-fuzzy">
-|그룹 인스턴스 대기열 우선순위||<small>그룹 인스턴스 대기열에 대한 우선순위를 부여합니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Roles</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create roles, modify roles, and delete roles.</small></span>
 |-
-</div>
-
-<div class="mw-translate-fuzzy">
-|연령 제한 인스턴스 생성||<small>참여하려면 연령 확인이 필요한 그룹 인스턴스를 생성할 수 있는 권한을 부여합니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Default Role</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small></span>
 |-
-</div>
-
-<div class="mw-translate-fuzzy">
-|연결된 인스턴스 생성{{Upcoming_inline|2025.4.1|docs.vrchat.com/docs/vrchat-202541-openbeta}}||<small>진행중인 이벤트, 6시간 이내에 시작되는 이벤트, 6시간 이내에 종료되는 이벤트에 연결된 그룹 인스턴스를 생성할 수 있는 역할입니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Assign Group Roles</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small></span>
 |-
-</div>
-
-<div class="mw-translate-fuzzy">
-|Group public 인스턴스 생성||<small>맴버 여부와 관계없이 모두가 참가 가능한 그룹 인스턴스를 생성할 수 있는 권한을 부여합니다. 참고: Private 그룹은 public 인스턴스를 생성할 수 없습니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Bans</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small></span>
 |-
-</div>
-
-<div class="mw-translate-fuzzy">
-|Group+ 인스턴스 생성||<small>인스턴스에 참가 된 유저의 친구도 참가 가능한 그룹 인스턴스를 생성할 수 있는 권한을 부여합니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Remove Group Members</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small></span>
 |-
-</div>
-
-<div class="mw-translate-fuzzy">
-|맴버 전용 그룹 인스턴스 생성||<small>맴버 전용 인스턴스를 생성할 수 있는 권한을 부여합니다.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">View All Members</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to view all members in a group, not just friends.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Create Members-Only Group Instances||<small>Allows role to create members-only instances.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Announcement</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to set/clear group announcement and send it as a notification.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Role-Restrict Members-Only Instances||<small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Instance Announcement</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create an announcement and send it to all users in a group instance as a notification.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Portal to Group+ Instances||<small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Calendar</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create, modify, and publish calendar entries.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Unlocked Portal to Group+ Instances||<small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Galleries</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Join Group Instances||<small>Allows role to join group instances.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Invites</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Moderate Group Instance</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to moderate within a group instance.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to close an group instance.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Group Instance Queue Priority</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Gives role priority for group instance queues.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Age Gated Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances that require users to have age verified in order to join.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Linked Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Group Public Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances that friends of people present can also join.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Members-Only Group Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create members-only instances.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Role-Restrict Members-Only Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Portal to Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Unlocked Portal to Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Join Group Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to join group instances.</small></span>
 |}
-</div>
-
 <span id="Group_instances"></span>
 ==그룹 인스턴스==
 
+<div class="mw-translate-fuzzy">
 그룹 소유자거나, 적법한 역할을 가졌을 경우 그룹 [[Special:MyLanguage/Instances|인스턴스]]를 생성할 수 있습니다. 그룹 인스턴스에는 세 종류가 있습니다.
 {| class="wikitable"
 !Group
@@ -273,6 +262,22 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 |그룹이 관리하는 공개 인스턴스입니다. 그룹에 가입하지 않아도 됩니다.
 |}
 그룹 인스턴스는 '''인스턴스를 호스팅하는 그룹에 의해 관리'''될 수 있습니다. 그룹의 소유자나 관리 역할을 가지고 있는 맴버는 인스턴스에 있는 유저를 경고, 음소거, 추방 또는 차단할 수 있습니다. 맴버를 그룹에서 차단하면 그룹이 만든 인스턴스에 참가하는 것 뿐만 아니라 그룹에 가입하는 것도 방지할 수 있습니다.
+</div>
+
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Group</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Only members of a group (or certain roles within the group if specified) can join the instance.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Group+</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Any friend of a user in the instance can join. Group membership is not required to join the instance.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Group Public</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">A publicly listed instance hosted by a group to which anyone can join. Group membership is not required to join the instance.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Group instances are often '''moderated by the group hosting the instance'''. The group's owner and those given moderation permissions through their role may warn, mute, kick or ban a user within the instance. Banning a user from a group permanently prevents them from joining any Instances made by the group, as well as joining the group itself.
+</div>
 
 <span id="Group_instance_queues"></span>
 ===그룹 인스턴스 대기열===
@@ -298,57 +303,55 @@ VRChat 웹사이트에서도 그룹의 가시성을 변경할 수 있습니다. 
 Every group that is created, is given a shortcode, with a generated four-digit discriminator at the end. Groups can be shared using their shortcode via the <code>vrc.group</code> short link domain, for example <code><nowiki>https://vrc.group/VRCHAT.0000</nowiki></code>. Discriminators that contain <code>.0000</code> are reserved by the VRChat team for 'official' groups.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
-!Name
-!Shortcode
-!Description
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Shortcode</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
 |-
-|Official VRChat Twitch Streams
+|<span lang="en" dir="ltr" class="mw-content-ltr">Official VRChat Twitch Streams</span>
 |[https://vrc.group/VRCSTR.0000 VRCSTR.0000]
-|The official group for the VRChat dev streams! woo!!
+|<span lang="en" dir="ltr" class="mw-content-ltr">The official group for the VRChat dev streams! woo!!</span>
 |-
-|Steel'n'Gold
+|<span lang="en" dir="ltr" class="mw-content-ltr">Steel'n'Gold</span>
 |[https://vrc.group/SNG.0000 SNG.0000]
-|Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!
+|<span lang="en" dir="ltr" class="mw-content-ltr">Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!</span>
 |-
-|VRChat Community Testers
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Community Testers</span>
 |[https://vrc.group/TESTER.0000 TESTER.0000]
-|This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.</span>
 |-
-|VRChat Crowdin Proofreaders
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Crowdin Proofreaders</span>
 |[https://vrc.group/VRCTLP.0000 VRCTLP.0000]
-|This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.</span>
 |-
-|VRChat Crowdin Translators
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Crowdin Translators</span>
 |[https://vrc.group/VRCTL.0000 VRCTL.0000]
-|This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.</span>
 |-
-|VRChat Open Beta
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Open Beta</span>
 |[https://vrc.group/BETA.0000 BETA.0000]
-|This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.</span>
 |-
-|VRChat Quality Assurance
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Quality Assurance</span>
 |[https://vrc.group/VRCQA.0000 VRCQA.0000]
-|Official testing group for the VRChat QA Team.
+|<span lang="en" dir="ltr" class="mw-content-ltr">Official testing group for the VRChat QA Team.</span>
 |-
-|VRChat Team
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Team</span>
 |[https://vrc.group/VRCHAT.0000 VRCHAT.0000]
-|The official group for VRChat team members.
+|<span lang="en" dir="ltr" class="mw-content-ltr">The official group for VRChat team members.</span>
 |-
-|VRChat Wiki Team
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Wiki Team</span>
 |[https://vrc.group/VRWIKI.0000 VRWIKI.0000]
-|This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.</span>
 |-
-|VRChat Playtours
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Playtours</span>
 |<private>.0000
-|This group is for VRChat Playtours.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for VRChat Playtours.</span>
 |-
-|Instance Capacity Stress Tests
+|<span lang="en" dir="ltr" class="mw-content-ltr">Instance Capacity Stress Tests</span>
 |[https://vrc.group/MAXCAP.0000 MAXCAP.0000]
-|This group is for testing unreasonably high capacity instances.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for testing unreasonably high capacity instances.</span>
 |}
-</div>
 
 <span id="Official_resources"></span>
 ==공식 자료==
