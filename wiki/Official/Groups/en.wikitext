@@ -30,7 +30,7 @@ A member of a group may choose to obscure affiliation from displaying on their p
 *They mutually share the group with you.
 *The user has the "View All Members" permission.
 </translate>
-[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|<translate>Group visibility options</translate>]]
+[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|<translate><!--T:93--> Group visibility options</translate>]]
 <translate>
 <!--T:11-->
 You can hide visibility by going to the '''Group tab''' within the VRChat client, selecting the group, and clicking the cog icon at the top right on the menu. This will open a '''Group Settings''' submenu, to which you can change visibility at will.
@@ -40,14 +40,14 @@ It is also possible to change visibility from the VRChat website by going to the
 
 </translate>
 {| class="wikitable"
-!<translate>Visible</translate>
-|<translate>The group is shown on your profile for everyone.</translate>
+!<translate><!--T:94--> Visible</translate>
+|<translate><!--T:95--> The group is shown on your profile for everyone.</translate>
 |-
-!<translate>Friends Only</translate>
-|<translate>The group is only shown on your profile to your friends.</translate>
+!<translate><!--T:96--> Friends Only</translate>
+|<translate><!--T:97--> The group is only shown on your profile to your friends.</translate>
 |-
-!<translate>Hidden</translate>
-|<translate>The group is hidden from your profile.</translate>
+!<translate><!--T:98--> Hidden</translate>
+|<translate><!--T:99--> The group is hidden from your profile.</translate>
 |}
 <translate>
 
@@ -63,34 +63,37 @@ When creating a group, an onboarding process presents the creator with a few pri
 
 </translate>
 {| class="wikitable"
-!<translate>Free Join</translate>
-|<translate>Anyone can join the group freely.</translate>
+!<translate><!--T:100--> Free Join</translate>
+|<translate><!--T:101--> Anyone can join the group freely.</translate>
 |-
-!<translate>Request to Join</translate>
-|<translate>New members must request to join the group.</translate>
+!<translate><!--T:102--> Request to Join</translate>
+|<translate><!--T:103--> New members must request to join the group.</translate>
 |-
-!<translate>Invite-Only</translate>
-|<translate>Those with the right permissions may invite new members to the group.</translate>
+!<translate><!--T:104--> Invite-Only</translate>
+|<translate><!--T:105--> Those with the right permissions may invite new members to the group.</translate>
 |}
 <translate>
 
+<!--T:106-->
 The '''visibility''' of a group determines whether or not the group can be represented or displayed on a member's profile. This setting '''cannot''' be changed later.
 
 </translate>
 {| class="wikitable"
-!<translate>Public</translate>
-|<translate>Members can choose to advertise the group on their profile.</translate>
+!<translate><!--T:107--> Public</translate>
+|<translate><!--T:108--> Members can choose to advertise the group on their profile.</translate>
 |-
-!<translate>Private</translate>
-|<translate>The group cannot be advertised or displayed by members.</translate>
+!<translate><!--T:109--> Private</translate>
+|<translate><!--T:110--> The group cannot be advertised or displayed by members.</translate>
 |}
 <translate>
 
+<!--T:111-->
 As mentioned, any user can manually obscure of any public group from displaying on their profile via Visibility settings.
 
 
-===Group banner===<!--T:49-->
+===Group banner=== <!--T:49-->
 
+<!--T:112-->
 Group banners are displayed on the nameplates of users who choose to represent that Group, and will also appear on the Group page on the VRChat Home website and in the Group UI within VRChat.
 
 <!--T:62-->
@@ -109,7 +112,7 @@ While it is not currently possible to select or change roles within the VRChat c
 ===Default roles=== <!--T:19-->
 
 </translate>
-[[File:Groups default roles.png|thumb|253x253px|<translate>Role overview</translate>]]
+[[File:Groups default roles.png|thumb|253x253px|<translate><!--T:113--> Role overview</translate>]]
 <translate>
 
 <!--T:21-->
@@ -129,17 +132,17 @@ Self Assignable roles are optional, and users can sign into the VRChat website t
 </translate>
 {| class="wikitable"
 |+
-!<translate>Function</translate>
-!<translate>Description</translate>
+!<translate><!--T:114--> Function</translate>
+!<translate><!--T:115--> Description</translate>
 |-
-|<translate>Assign On Join</translate>
-|<translate><small>If enabled, new members will be assigned this role when they join the group. This will not affect existing members.</small></translate>
+|<translate><!--T:116--> Assign On Join</translate>
+|<translate><!--T:117--> <small>If enabled, new members will be assigned this role when they join the group. This will not affect existing members.</small></translate>
 |-
-|<translate>Self Assignable</translate>
-|<translate><small>Allows members of the group to assign this role to themselves.</small></translate>
+|<translate><!--T:118--> Self Assignable</translate>
+|<translate><!--T:119--> <small>Allows members of the group to assign this role to themselves.</small></translate>
 |-
-|<translate>Require 2FA</translate>
-|<translate><small>Requires members to have 2FA before permissions apply.</small></translate>
+|<translate><!--T:120--> Require 2FA</translate>
+|<translate><!--T:121--> <small>Requires members to have 2FA before permissions apply.</small></translate>
 |}
 <translate>
 
@@ -172,60 +175,60 @@ To assign permissions for a role, a group manager must sign in on the VRChat web
 </translate>
 {| class="wikitable"
 |+
-!<translate>Permission</translate>
-!<translate>Function</translate>
+!<translate><!--T:122--> Permission</translate>
+!<translate><!--T:123--> Function</translate>
 |-
-|<translate>Manage Group Member Data</translate>||<translate><small>Allows role to view, filter by role, and sort all members and edit data about them.</small></translate>
+|<translate><!--T:124--> Manage Group Member Data</translate>||<translate><!--T:125--> <small>Allows role to view, filter by role, and sort all members and edit data about them.</small></translate>
 |-
-|<translate>Manage Group Data</translate>||<translate><small>Allows role to edit group details (name, description, joinState, etc).</small></translate>
+|<translate><!--T:126--> Manage Group Data</translate>||<translate><!--T:127--> <small>Allows role to edit group details (name, description, joinState, etc).</small></translate>
 |-
-|<translate>View Audit log</translate>||<translate><small>Allows role to view the full group audit log.</small></translate>
+|<translate><!--T:128--> View Audit log</translate>||<translate><!--T:129--> <small>Allows role to view the full group audit log.</small></translate>
 |-
-|<translate>Manage Group Roles</translate>||<translate><small>Allows role to create roles, modify roles, and delete roles.</small></translate>
+|<translate><!--T:130--> Manage Group Roles</translate>||<translate><!--T:131--> <small>Allows role to create roles, modify roles, and delete roles.</small></translate>
 |-
-|<translate>Manage Group Default Role</translate>||<translate><small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small></translate>
+|<translate><!--T:132--> Manage Group Default Role</translate>||<translate><!--T:133--> <small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small></translate>
 |-
-|<translate>Assign Group Roles</translate>||<translate><small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small></translate>
+|<translate><!--T:134--> Assign Group Roles</translate>||<translate><!--T:135--> <small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small></translate>
 |-
-|<translate>Manage Group Bans</translate>||<translate><small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small></translate>
+|<translate><!--T:136--> Manage Group Bans</translate>||<translate><!--T:137--> <small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small></translate>
 |-
-|<translate>Remove Group Members</translate>||<translate><small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small></translate>
+|<translate><!--T:138--> Remove Group Members</translate>||<translate><!--T:139--> <small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small></translate>
 |-
-|<translate>View All Members</translate>||<translate><small>Allows role to view all members in a group, not just friends.</small></translate>
+|<translate><!--T:140--> View All Members</translate>||<translate><!--T:141--> <small>Allows role to view all members in a group, not just friends.</small></translate>
 |-
-|<translate>Manage Group Announcement</translate>||<translate><small>Allows role to set/clear group announcement and send it as a notification.</small></translate>
+|<translate><!--T:142--> Manage Group Announcement</translate>||<translate><!--T:143--> <small>Allows role to set/clear group announcement and send it as a notification.</small></translate>
 |-
-|<translate>Create Instance Announcement</translate>||<translate><small>Allows role to create an announcement and send it to all users in a group instance as a notification.</small></translate>
+|<translate><!--T:144--> Create Instance Announcement</translate>||<translate><!--T:145--> <small>Allows role to create an announcement and send it to all users in a group instance as a notification.</small></translate>
 |-
-|<translate>Manage Group Calendar</translate>||<translate><small>Allows role to create, modify, and publish calendar entries.</small></translate>
+|<translate><!--T:146--> Manage Group Calendar</translate>||<translate><!--T:147--> <small>Allows role to create, modify, and publish calendar entries.</small></translate>
 |-
-|<translate>Manage Group Galleries</translate>||<translate><small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small></translate>
+|<translate><!--T:148--> Manage Group Galleries</translate>||<translate><!--T:149--> <small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small></translate>
 |-
-|<translate>Manage Group Invites</translate>||<translate><small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small></translate>
+|<translate><!--T:150--> Manage Group Invites</translate>||<translate><!--T:151--> <small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small></translate>
 |-
-|<translate>Moderate Group Instance</translate>||<translate><small>Allows role to moderate within a group instance.</small></translate>
+|<translate><!--T:152--> Moderate Group Instance</translate>||<translate><!--T:153--> <small>Allows role to moderate within a group instance.</small></translate>
 |-
-|<translate>Manage Group Instances</translate>||<translate><small>Allows role to close an group instance.</small></translate>
+|<translate><!--T:154--> Manage Group Instances</translate>||<translate><!--T:155--> <small>Allows role to close an group instance.</small></translate>
 |-
-|<translate>Group Instance Queue Priority</translate>||<translate><small>Gives role priority for group instance queues.</small></translate>
+|<translate><!--T:156--> Group Instance Queue Priority</translate>||<translate><!--T:157--> <small>Gives role priority for group instance queues.</small></translate>
 |-
-|<translate>Create Age Gated Instances</translate>||<translate><small>Allows role to create group instances that require users to have age verified in order to join.</small></translate>
+|<translate><!--T:158--> Create Age Gated Instances</translate>||<translate><!--T:159--> <small>Allows role to create group instances that require users to have age verified in order to join.</small></translate>
 |-
-|<translate>Create Linked Instances</translate>||<translate><small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small></translate>
+|<translate><!--T:160--> Create Linked Instances</translate>||<translate><!--T:161--> <small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small></translate>
 |-
-|<translate>Create Group Public Instances</translate>||<translate><small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small></translate>
+|<translate><!--T:162--> Create Group Public Instances</translate>||<translate><!--T:163--> <small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small></translate>
 |-
-|<translate>Create Group+ Instances</translate>||<translate><small>Allows role to create group instances that friends of people present can also join.</small></translate>
+|<translate><!--T:164--> Create Group+ Instances</translate>||<translate><!--T:165--> <small>Allows role to create group instances that friends of people present can also join.</small></translate>
 |-
-|<translate>Create Members-Only Group Instances</translate>||<translate><small>Allows role to create members-only instances.</small></translate>
+|<translate><!--T:166--> Create Members-Only Group Instances</translate>||<translate><!--T:167--> <small>Allows role to create members-only instances.</small></translate>
 |-
-|<translate>Role-Restrict Members-Only Instances</translate>||<translate><small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small></translate>
+|<translate><!--T:168--> Role-Restrict Members-Only Instances</translate>||<translate><!--T:169--> <small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small></translate>
 |-
-|<translate>Portal to Group+ Instances</translate>||<translate><small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small></translate>
+|<translate><!--T:170--> Portal to Group+ Instances</translate>||<translate><!--T:171--> <small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small></translate>
 |-
-|<translate>Unlocked Portal to Group+ Instances</translate>||<translate><small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small></translate>
+|<translate><!--T:172--> Unlocked Portal to Group+ Instances</translate>||<translate><!--T:173--> <small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small></translate>
 |-
-|<translate>Join Group Instances</translate>||<translate><small>Allows role to join group instances.</small></translate>
+|<translate><!--T:174--> Join Group Instances</translate>||<translate><!--T:175--> <small>Allows role to join group instances.</small></translate>
 |}
 <translate>
 ==Group instances== <!--T:34-->
@@ -235,17 +238,18 @@ The owner of a group, and those with the correct permissions may create group [[
 
 </translate>
 {| class="wikitable"
-!<translate>Group</translate>
-|<translate>Only members of a group (or certain roles within the group if specified) can join the instance.</translate>
+!<translate><!--T:176--> Group</translate>
+|<translate><!--T:177--> Only members of a group (or certain roles within the group if specified) can join the instance.</translate>
 |-
-!<translate>Group+</translate>
-|<translate>Any friend of a user in the instance can join. Group membership is not required to join the instance.</translate>
+!<translate><!--T:178--> Group+</translate>
+|<translate><!--T:179--> Any friend of a user in the instance can join. Group membership is not required to join the instance.</translate>
 |-
-!<translate>Group Public</translate>
-|<translate>A publicly listed instance hosted by a group to which anyone can join. Group membership is not required to join the instance.</translate>
+!<translate><!--T:180--> Group Public</translate>
+|<translate><!--T:181--> A publicly listed instance hosted by a group to which anyone can join. Group membership is not required to join the instance.</translate>
 |}
 <translate>
 
+<!--T:182-->
 Group instances are often '''moderated by the group hosting the instance'''. The group's owner and those given moderation permissions through their role may warn, mute, kick or ban a user within the instance. Banning a user from a group permanently prevents them from joining any Instances made by the group, as well as joining the group itself.
 
 ===Group instance queues=== <!--T:36-->
@@ -272,53 +276,53 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 
 </translate>
 {| class="wikitable"
-!<translate>Name</translate>
-!<translate>Shortcode</translate>
-!<translate>Description</translate>
+!<translate><!--T:183--> Name</translate>
+!<translate><!--T:184--> Shortcode</translate>
+!<translate><!--T:185--> Description</translate>
 |-
-|<translate>Official VRChat Twitch Streams</translate>
+|<translate><!--T:186--> Official VRChat Twitch Streams</translate>
 |[https://vrc.group/VRCSTR.0000 VRCSTR.0000]
-|<translate>The official group for the VRChat dev streams! woo!!</translate>
+|<translate><!--T:187--> The official group for the VRChat dev streams! woo!!</translate>
 |-
-|<translate>Steel'n'Gold</translate>
+|<translate><!--T:188--> Steel'n'Gold</translate>
 |[https://vrc.group/SNG.0000 SNG.0000]
-|<translate>Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!</translate>
+|<translate><!--T:189--> Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!</translate>
 |-
-|<translate>VRChat Community Testers</translate>
+|<translate><!--T:190--> VRChat Community Testers</translate>
 |[https://vrc.group/TESTER.0000 TESTER.0000]
-|<translate>This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.</translate>
+|<translate><!--T:191--> This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.</translate>
 |-
-|<translate>VRChat Crowdin Proofreaders</translate>
+|<translate><!--T:192--> VRChat Crowdin Proofreaders</translate>
 |[https://vrc.group/VRCTLP.0000 VRCTLP.0000]
-|<translate>This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.</translate>
+|<translate><!--T:193--> This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.</translate>
 |-
-|<translate>VRChat Crowdin Translators</translate>
+|<translate><!--T:194--> VRChat Crowdin Translators</translate>
 |[https://vrc.group/VRCTL.0000 VRCTL.0000]
-|<translate>This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.</translate>
+|<translate><!--T:195--> This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.</translate>
 |-
-|<translate>VRChat Open Beta</translate>
+|<translate><!--T:196--> VRChat Open Beta</translate>
 |[https://vrc.group/BETA.0000 BETA.0000]
-|<translate>This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.</translate>
+|<translate><!--T:197--> This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.</translate>
 |-
-|<translate>VRChat Quality Assurance</translate>
+|<translate><!--T:198--> VRChat Quality Assurance</translate>
 |[https://vrc.group/VRCQA.0000 VRCQA.0000]
-|<translate>Official testing group for the VRChat QA Team.</translate>
+|<translate><!--T:199--> Official testing group for the VRChat QA Team.</translate>
 |-
-|<translate>VRChat Team</translate>
+|<translate><!--T:200--> VRChat Team</translate>
 |[https://vrc.group/VRCHAT.0000 VRCHAT.0000]
-|<translate>The official group for VRChat team members.</translate>
+|<translate><!--T:201--> The official group for VRChat team members.</translate>
 |-
-|<translate>VRChat Wiki Team</translate>
+|<translate><!--T:202--> VRChat Wiki Team</translate>
 |[https://vrc.group/VRWIKI.0000 VRWIKI.0000]
-|<translate>This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.</translate>
+|<translate><!--T:203--> This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.</translate>
 |-
-|<translate>VRChat Playtours</translate>
+|<translate><!--T:204--> VRChat Playtours</translate>
 |<private>.0000
-|<translate>This group is for VRChat Playtours.</translate>
+|<translate><!--T:205--> This group is for VRChat Playtours.</translate>
 |-
-|<translate>Instance Capacity Stress Tests</translate>
+|<translate><!--T:206--> Instance Capacity Stress Tests</translate>
 |[https://vrc.group/MAXCAP.0000 MAXCAP.0000]
-|<translate>This group is for testing unreasonably high capacity instances.</translate>
+|<translate><!--T:207--> This group is for testing unreasonably high capacity instances.</translate>
 |}
 <translate>
 
