@@ -1,0 +1,50 @@
+name: MediaWiki sync
+
+on:
+  schedule:
+    # Run hourly (minute 0 of every hour, UTC)
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Fetch notes ref
+        run: |
+          if git ls-remote --exit-code origin refs/notes/mediawiki-sync 2>/dev/null; then
+            git fetch origin refs/notes/mediawiki-sync:refs/notes/mediawiki-sync
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run MediaWiki sync
+        env:
+          MEDIAWIKI_CLI_ARGS: |
+            ${{ secrets.ARGS }}
+            --skip-ns
+            Translations
+            --skip-ns
+            Translations talk
+        run: |
+          python main.py
+
+      - name: Push synced commits and notes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git push origin HEAD refs/notes/mediawiki-sync
