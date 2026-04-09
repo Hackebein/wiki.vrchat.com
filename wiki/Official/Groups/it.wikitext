@@ -27,11 +27,10 @@ Anche se un membro di un gruppo può decidere di nascondere la propria affiliazi
 
 *Condividono l'appartenenza allo stesso gruppo.
 *L'utente visualizzatore ha il permesso "Vedi Tutti I Membri" attivo.
-
-[[File:VRChat VisibilitaGruppo.png|thumb|150x150px|Opzioni visibilità gruppo]]
-
+[[File:VRChat 1FSHUeX5jS.png|thumb|150x150px|<span lang="en" dir="ltr" class="mw-content-ltr">Group visibility options</span>]]
 Puoi cambiare la visibilità dell'adesione ad un gruppo direttamente dall'applicazione di VRChat, andando nella sezione Gruppo, selezionando il gruppo e cliccando l'icona ad ingranaggio in alto a destra. Questo farà comparie una finestra denominata '''Impostazioni Gruppo''', in cui puoi cambiare la visibilità del grupo in qualsiasi momento.
 
+<div class="mw-translate-fuzzy">
 Il processo è replicabile sul sito di VRChat, andando nel menù laterale, cliccando sul pulsante denominato "Groups", selezionando il gruppo, andando poi nelle impostazioni del gruppo premendo su '''Settings''' e scegliendo l'opzione '''Visibility'''.
 {| class="wikitable"
 !Visibile
@@ -39,10 +38,17 @@ Il processo è replicabile sul sito di VRChat, andando nel menù laterale, clicc
 |-
 !Solo Amici
 |Il gruppo è visibile solo ai tuoi amici, ed è mostrato sul tuo profilo.
+</div>
 
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Visible</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The group is shown on your profile for everyone.</span>
 |-
-!Nascosto
-|Il gruppo non è visibile.
+!<span lang="en" dir="ltr" class="mw-content-ltr">Friends Only</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The group is only shown on your profile to your friends.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Hidden</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The group is hidden from your profile.</span>
 |}
 
 <span id="Creating_a_group"></span>
@@ -55,6 +61,7 @@ Per creare un gruppo, un utente deve avere un abbonamento attivo a [[Special:MyL
 <span id="Joinability_and_visibility"></span>
 ===Criteri d'entrata e visibilità===
 
+<div class="mw-translate-fuzzy">
 Quando si crea un gruppo, il sistema presenterà il creatore con alcune impostazioni di privacy. I '''criteri d'adesione''' determinano la capacità di un utente di unirsi al gruppo. Quest'impostazione può essere cambiata in seguito.
 {| class="wikitable"
 !Accesso Libero
@@ -62,25 +69,44 @@ Quando si crea un gruppo, il sistema presenterà il creatore con alcune impostaz
 |-
 !Richiesta Necessaria
 |I nuovi membri aspetteranno la conferma di una persona con i permessi per potersi unire.
+</div>
 
-|-
-!Ad Invito
-
-|Solamente coloro con i permessi necessari potranno invitare altri utenti ad unirsi.
-|}
-La '''visibilità''' determina se il gruppo verrà visualizzato sul profilo dei membri. Quest'impostazione '''NON''' può essere cambiata in seguito.
 {| class="wikitable"
-!Pubblico
-|I membri possono scegliere se rappresentare il gruppo sul loro profilo.
+!<span lang="en" dir="ltr" class="mw-content-ltr">Free Join</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Anyone can join the group freely.</span>
 |-
-!Privato
-|I membri non possono mostrare o rappresentare il gruppo.
+!<span lang="en" dir="ltr" class="mw-content-ltr">Request to Join</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">New members must request to join the group.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Invite-Only</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Those with the right permissions may invite new members to the group.</span>
 |}
-Come già menzionato in precendenza, i singoli utenti possono scegliere se mostrare il gruppo sul loro profilo tramite le impostazioni di Visibilità.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+The '''visibility''' of a group determines whether or not the group can be represented or displayed on a member's profile. This setting '''cannot''' be changed later.
+</div>
+
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Public</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Members can choose to advertise the group on their profile.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Private</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The group cannot be advertised or displayed by members.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+As mentioned, any user can manually obscure of any public group from displaying on their profile via Visibility settings.
+</div>
+
+
+<span id="Group_banner"></span>
 <div class="mw-translate-fuzzy">
 ===Banner di gruppo===
 Un banner personalizzato può essere caricato tramite le relative impostazioni sul sito. L'immagine caricata non è mostrata interamente una su coloro che rappresentato il gruppo, sopra gli avatar, ma in parte. Quando il Menù Rapido è aperto il banner sarà mostrato interamente.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Group banners are displayed on the nameplates of users who choose to represent that Group, and will also appear on the Group page on the VRChat Home website and in the Group UI within VRChat.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -103,7 +129,7 @@ Anche se attualmente non è possibile effettuare modifiche ai ruoli dall'interno
 <span id="Default_roles"></span>
 ===Ruoli predefiniti===
 
-[[File:Groups default roles.png|thumb|253x253px|Elenco ruoli]]
+[[File:Groups default roles.png|thumb|253x253px|<span lang="en" dir="ltr" class="mw-content-ltr">Role overview</span>]]
 
 I ruoli sono raggruppati in tre categorie: '''Ruoli Gestione''', '''Ruoli Membri''', e '''Ruoli Predefiniti'''. Automaticamente, alla creazione di un nuovo gruppo, saranno presenti tre ruoli: '''Tutti''', che cade sotto la categoria 'Ruoli Predefiniti', '''Membro''', che cade sotto la categoria '''Ruoli Membri''' e '''Proprietario Gruppo''', che fa parte della categoria 'Ruoli Gestione'. Il nome per i ruoli 'Proprietario Gruppo' e 'Membro' possono essere cambiati, non vale però per 'Tutti', esso non è modificabile e non può essere eliminato.
 
@@ -114,6 +140,7 @@ I permessi del proprietario del gruppo non possono essere cambiati o rimossi in 
 
 I ruoli possono essere aggiunti, rinominati o eliminati in qualsiasi momento dalla gestione del gruppo. Ogni ruolo può avere una descrizione ed un insieme di permessi personalizzabili. I ruoli possono essere impostati come: '''Assegnati all'Unione''',  '''Auto Assegnabili''', o che '''Richiedono il 2FA'''.
 
+<div class="mw-translate-fuzzy">
 È possibile assegnarsi i ruoli Auto Assegnabili tramite il sito di VRChat. Per gli utenti che usfruiscono di account piattaforma, come quelli di Steam o Meta, necessiteranno la [[Special:MyLanguage/Getting Started#Account Creation|creazione di un account VRChat]] per poter accedere al sito di VRChat. 
 {| class="wikitable"
 |+
@@ -124,11 +151,21 @@ I ruoli possono essere aggiunti, rinominati o eliminati in qualsiasi momento dal
 |<small>Se abilitato, questo ruolo sarà assegnato a coloro appena entrati nel gruppo. Questo non avrà effetto sui già membri.</small>
 |-
 |Auto Assegnabili
+</div>
 
-|<small>Permette ai membri del gruppo di assegnarsi da soli questo ruolo.</small>
+{| class="wikitable"
+|+
+!<span lang="en" dir="ltr" class="mw-content-ltr">Function</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
 |-
-|Richiede il 2FA
-|<small>Richiede ai membri di avere il 2FA attivo per poter entrare.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Assign On Join</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr"><small>If enabled, new members will be assigned this role when they join the group. This will not affect existing members.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Self Assignable</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows members of the group to assign this role to themselves.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Require 2FA</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr"><small>Requires members to have 2FA before permissions apply.</small></span>
 |}
 
 [[File:Groups permissions overview.png|thumb|Alcuni dei permessi assegnabili, come nelle Opzioni Gestione Gruppo]]
@@ -209,139 +246,67 @@ Per assegnare i permessi per un ruolo, un manager del gruppo deve effettuare l'a
 |Creare Istanze Gruppo+
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Member Data||<small>Allows role to view, filter by role, and sort all members and edit data about them.</small>
+{| class="wikitable"
+|+
+!<span lang="en" dir="ltr" class="mw-content-ltr">Permission</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Function</span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Data||<small>Allows role to edit group details (name, description, joinState, etc).</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Member Data</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to view, filter by role, and sort all members and edit data about them.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|View Audit log||<small>Allows role to view the full group audit log.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Data</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to edit group details (name, description, joinState, etc).</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Roles||<small>Allows role to create roles, modify roles, and delete roles.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">View Audit log</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to view the full group audit log.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Default Role||<small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Roles</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create roles, modify roles, and delete roles.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Assign Group Roles||<small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Default Role</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Bans||<small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Assign Group Roles</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Remove Group Members||<small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Bans</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|View All Members||<small>Allows role to view all members in a group, not just friends.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Remove Group Members</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to remove someone from the group. Requires “Manage Group Member Data”.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Announcement||<small>Allows role to set/clear group announcement and send it as a notification.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">View All Members</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to view all members in a group, not just friends.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Create Instance Announcement||<small>Allows role to create an announcement and send it to all users in a group instance as a notification.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Announcement</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to set/clear group announcement and send it as a notification.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Calendar||<small>Allows role to create, modify, and publish calendar entries.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Instance Announcement</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create an announcement and send it to all users in a group instance as a notification.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Galleries||<small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Calendar</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create, modify, and publish calendar entries.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Invites||<small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Galleries</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create, reorder, edit, and delete group galleries. Can always submit to galleries, and can approve images.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Moderate Group Instance||<small>Allows role to moderate within a group instance.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Invites</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create/cancel invites, as well as accept/decline/block join requests.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Manage Group Instances||<small>Allows role to close an group instance.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Moderate Group Instance</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to moderate within a group instance.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Group Instance Queue Priority||<small>Gives role priority for group instance queues.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to close an group instance.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Create Age Gated Instances||<small>Allows role to create group instances that require users to have age verified in order to join.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Group Instance Queue Priority</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Gives role priority for group instance queues.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Create Linked Instances||<small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Age Gated Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances that require users to have age verified in order to join.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Create Group Public Instances||<small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Linked Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances linked live events, events starting within 6 hours, and events that have ended within 6 hours.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Create Group+ Instances||<small>Allows role to create group instances that friends of people present can also join.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Group Public Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances that are open to all, member or not. NOTE: Private groups cannot create public instances.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Create Members-Only Group Instances||<small>Allows role to create members-only instances.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create group instances that friends of people present can also join.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Role-Restrict Members-Only Instances||<small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Create Members-Only Group Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to create members-only instances.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Portal to Group+ Instances||<small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Role-Restrict Members-Only Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Unlocked Portal to Group+ Instances||<small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Portal to Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small></span>
 |-
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-|Join Group Instances||<small>Allows role to join group instances.</small>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Unlocked Portal to Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to open unlocked portals to Group+ instances. Everyone except group-banned people may enter. Requires “Portal to Group+ Instances”.</small></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Join Group Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to join group instances.</small></span>
 |}
-</div>
-
 <span id="Group_instances"></span>
 ==Istanze gruppo==
 
+<div class="mw-translate-fuzzy">
 Il proprietario di un gruppo e coloro con i permessi necessari, possono creare un'istanza di gruppo. Ci sono tre tipi di istanze di gruppo.
 {| class="wikitable"
 !Gruppo
@@ -354,6 +319,22 @@ Il proprietario di un gruppo e coloro con i permessi necessari, possono creare u
 |Un istanza visibile ed accessibila da tutti. L'adesione al gruppo da parte dei partecipanti non è necessaria.
 |}
 Le istanze di un gruppo possono essere '''moderate dal gruppo proprietario dell'istanza'''. Coloro con i permessi necessari, saranno capaci di avvertire, silenziare, espellere o bandire un utente nell'istanza. Bandire un utente da un gruppo impedisce a questi di entrare in qualsiasi Istanza futura di tale gruppo, come anche di rientrare nel gruppo in sè.
+</div>
+
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Group</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Only members of a group (or certain roles within the group if specified) can join the instance.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Group+</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Any friend of a user in the instance can join. Group membership is not required to join the instance.</span>
+|-
+!<span lang="en" dir="ltr" class="mw-content-ltr">Group Public</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">A publicly listed instance hosted by a group to which anyone can join. Group membership is not required to join the instance.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Group instances are often '''moderated by the group hosting the instance'''. The group's owner and those given moderation permissions through their role may warn, mute, kick or ban a user within the instance. Banning a user from a group permanently prevents them from joining any Instances made by the group, as well as joining the group itself.
+</div>
 
 <span id="Group_instance_queues"></span>
 ===Code per istanza gruppo===
@@ -379,57 +360,55 @@ Dal 27 Maggio 2024<ref>https://ask.vrchat.com/t/developer-update-28-march-2024/2
 Every group that is created, is given a shortcode, with a generated four-digit discriminator at the end. Groups can be shared using their shortcode via the <code>vrc.group</code> short link domain, for example <code><nowiki>https://vrc.group/VRCHAT.0000</nowiki></code>. Discriminators that contain <code>.0000</code> are reserved by the VRChat team for 'official' groups.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {| class="wikitable"
-!Name
-!Shortcode
-!Description
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Shortcode</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Description</span>
 |-
-|Official VRChat Twitch Streams
+|<span lang="en" dir="ltr" class="mw-content-ltr">Official VRChat Twitch Streams</span>
 |[https://vrc.group/VRCSTR.0000 VRCSTR.0000]
-|The official group for the VRChat dev streams! woo!!
+|<span lang="en" dir="ltr" class="mw-content-ltr">The official group for the VRChat dev streams! woo!!</span>
 |-
-|Steel'n'Gold
+|<span lang="en" dir="ltr" class="mw-content-ltr">Steel'n'Gold</span>
 |[https://vrc.group/SNG.0000 SNG.0000]
-|Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!
+|<span lang="en" dir="ltr" class="mw-content-ltr">Bandits are invading the peaceful town of Copper Bend. Are you going to join their rows or are you going to arms to defend the town's riches? Got feedback? Check the second link and share it with us!</span>
 |-
-|VRChat Community Testers
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Community Testers</span>
 |[https://vrc.group/TESTER.0000 TESTER.0000]
-|This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for the official VRChat Community Testers Program. Members of this group are not necessarily employees of VRChat.</span>
 |-
-|VRChat Crowdin Proofreaders
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Crowdin Proofreaders</span>
 |[https://vrc.group/VRCTLP.0000 VRCTLP.0000]
-|This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for VRChat's community proofreaders! They're responsible for reviewing and approving all translations that make their way into the main application.</span>
 |-
-|VRChat Crowdin Translators
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Crowdin Translators</span>
 |[https://vrc.group/VRCTL.0000 VRCTL.0000]
-|This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This is a free-to-join group for VRChat's Crowdin translation community! They work hard to bring VRChat to a long list of non-English languages and people around the world.</span>
 |-
-|VRChat Open Beta
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Open Beta</span>
 |[https://vrc.group/BETA.0000 BETA.0000]
-|This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This is an official group for VRChat's Open Beta testers! You can use group instances to meet up with other people on Open Beta.</span>
 |-
-|VRChat Quality Assurance
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Quality Assurance</span>
 |[https://vrc.group/VRCQA.0000 VRCQA.0000]
-|Official testing group for the VRChat QA Team.
+|<span lang="en" dir="ltr" class="mw-content-ltr">Official testing group for the VRChat QA Team.</span>
 |-
-|VRChat Team
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Team</span>
 |[https://vrc.group/VRCHAT.0000 VRCHAT.0000]
-|The official group for VRChat team members.
+|<span lang="en" dir="ltr" class="mw-content-ltr">The official group for VRChat team members.</span>
 |-
-|VRChat Wiki Team
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Wiki Team</span>
 |[https://vrc.group/VRWIKI.0000 VRWIKI.0000]
-|This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.</span>
 |-
-|VRChat Playtours
+|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Playtours</span>
 |<private>.0000
-|This group is for VRChat Playtours.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for VRChat Playtours.</span>
 |-
-|Instance Capacity Stress Tests
+|<span lang="en" dir="ltr" class="mw-content-ltr">Instance Capacity Stress Tests</span>
 |[https://vrc.group/MAXCAP.0000 MAXCAP.0000]
-|This group is for testing unreasonably high capacity instances.
+|<span lang="en" dir="ltr" class="mw-content-ltr">This group is for testing unreasonably high capacity instances.</span>
 |}
-</div>
 
 <span id="Official_resources"></span>
 ==Risorse ufficiali==
