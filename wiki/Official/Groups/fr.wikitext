@@ -201,20 +201,7 @@ Pour attribuer des permissions à un rôle, un gestionnaire de groupe doit se co
 <span id="Group_instances"></span>
 ==Instances de groupe==
 
-<div class="mw-translate-fuzzy">
 Le propriétaire d’un groupe, ainsi que ceux disposant des autorisations appropriées, peuvent créer des instances de groupe [[Special:MyLanguage/Instances|instances]]. Il existe trois types d’instances de groupe.
-{| class="wikitable"
-!Groupe
-|Seuls les membres d’un groupe (ou certains rôles au sein du groupe, si spécifié) peuvent rejoindre l’instance.
-|-
-!Groupe+
-|Tout ami d’un utilisateur présent dans l’instance peut la rejoindre. Il n’est pas nécessaire d’être membre du groupe pour y accéder.
-|-
-!Groupe Public
-|Une instance répertoriée publiquement, hébergée par un groupe, que n’importe qui peut rejoindre. Il n’est pas nécessaire d’être membre du groupe pour y accéder.
-|}
-Les instances de groupe sont souvent '''modérées par le groupe qui héberge l’instance'''. Le propriétaire du groupe, ainsi que ceux disposant des autorisations de modération via leur rôle, peuvent avertir, rendre muet, exclure ou bannir un utilisateur dans l’instance. Bannir un utilisateur d’un groupe l’empêche définitivement de rejoindre toute instance créée par ce groupe, ainsi que de rejoindre le groupe lui-même.
-</div>
 
 {| class="wikitable"
 !Groupe
