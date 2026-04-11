@@ -1,56 +1,50 @@
 <languages/>
 {{Noticebox/Official}}
-<translate>
-<!--T:291-->
-[[File:Instance creation menu.webp</translate>|thumb|<translate><!--T:172--> Create instance menu popup</translate>]]
-<translate>
-<!--T:173-->
+[[File:Instance creation menu.webp|thumb|Create instance menu popup]]
 '''Instances''' are unique sessions for a [[Special:MyLanguage/Worlds|world]]. Users can create and join instances of a world, and users in the same instance can perceive and interact with each other in the shared world space, but not with users in other instances of the same world. Instances themselves can have specific properties that affect who is allowed to join, invite, or see who is in the instance. They also have a region, which correlates to a real world server that handles passing connection information between the users in the session.
 
-==Instance types== <!--T:174-->
+==Instance types==
 
-<!--T:175-->
 There are many public and private environments of all genres that the user can explore. Users may also create and join various community groups to meet other users with mutual interests. Users can choose to join a public instance, or create a private instance to be alone or invite friends after adding them. The type of privacy of created instances is up to the user, and follows under the various tiers:
-</translate>
 {| class="wikitable"
 |+
-!'''<translate><!--T:176--> Public</translate>''' 
-|<translate><!--T:177--> A publicly listed instance to which anyone can join.</translate>
+!'''Public''' 
+|A publicly listed instance to which anyone can join.
 |-
-!'''<translate><!--T:178--> Friends+</translate>'''
-|<translate><!--T:179--> Your friends, and their friends, and so on can join.</translate>
+!'''Friends+'''
+|Your friends, and their friends, and so on can join.
 |-
-!'''<translate><!--T:180--> Friends</translate>''' 
-|<translate><!--T:181--> Only your friends may join; friends of friends are excluded.</translate>
+!'''Friends''' 
+|Only your friends may join; friends of friends are excluded.
 |-
-!'''<translate><!--T:182--> Invite+</translate>'''
-|<translate><!--T:183--> Users and friends of users must request to join your instance, unless you or an invited user's [[Special:MyLanguage/social status|social status]] is set to "Join Me".</translate>
+!'''Invite+'''
+|Users and friends of users must request to join your instance, unless you or an invited user's [[Special:MyLanguage/social status|social status]] is set to "Join Me".
 |-
-!'''<translate><!--T:184--> Invite</translate>''' 
-|<translate><!--T:185--> Users must send a join request to join you, unless your social status is set to "Join Me"; friends of friends are excluded.</translate>
+!'''Invite''' 
+|Users must send a join request to join you, unless your social status is set to "Join Me"; friends of friends are excluded.
 |-
-!'''[[Special:MyLanguage/Groups|<translate><!--T:186--> Group</translate>]]'''
-|<translate><!--T:187--> An instance that only members of a group, or specific roles within that group can access.</translate>
+!'''[[Special:MyLanguage/Groups|Group]]'''
+|An instance that only members of a group, or specific roles within that group can access.
 |-
-!'''<translate><!--T:188--> Group+</translate>'''
-|<translate><!--T:189--> An instance hosted by a group, in which friends of group members, friends of their friends, and so on, can join. Group+ instances may have appointed group moderators to manage an instance. Being a member of the hosting group is not required to join the instance.</translate>
+!'''Group+'''
+|An instance hosted by a group, in which friends of group members, friends of their friends, and so on, can join. Group+ instances may have appointed group moderators to manage an instance. Being a member of the hosting group is not required to join the instance.
 |-
-!'''<translate><!--T:190--> Group Public</translate>'''
-|<translate><!--T:191--> A publicly listed instance, hosted by a group, to which anyone can join. Group Public instances may have appointed [[Special:MyLanguage/Groups#Group roles and permissions|group moderators]] to manage an instance.</translate>
+!'''Group Public'''
+|A publicly listed instance, hosted by a group, to which anyone can join. Group Public instances may have appointed [[Special:MyLanguage/Groups#Group roles and permissions|group moderators]] to manage an instance.
 |}
 
 {| class="wikitable"
-|+<translate><!--T:192--> Who can join specific instance types</translate>
+|+Who can join specific instance types
 !
-!<translate><!--T:193--> Anyone</translate>
-!<translate><!--T:194--> User<br />friends</translate>
-!<translate><!--T:195--> Invited<br />user<br />friends</translate>
-!<translate><!--T:197--> Owner<br />friends</translate>
-!<translate><!--T:198--> Invited<br />owner<br />friends</translate>
-!<translate><!--T:200--> Selected<br />group role<br />members</translate>
-!<translate><!--T:202--> All group<br />members</translate>
+!Anyone
+!User<br />friends
+!Invited<br />user<br />friends
+!Owner<br />friends
+!Invited<br />owner<br />friends
+!Selected<br />group role<br />members
+!All group<br />members
 |-
-!<translate><!--T:203--> Public</translate>
+!Public
 | style="text-align:center;" |✔️
 | rowspan="2" style="text-align:center;" |✔️
 | rowspan="2" style="text-align:center;" |✔️
@@ -59,155 +53,120 @@ There are many public and private environments of all genres that the user can e
 | rowspan="5" style="text-align:center;" | -
 | rowspan="5" style="text-align:center;" | -
 |-
-!<translate><!--T:204--> Friends+</translate>
+!Friends+
 | rowspan="6" style="text-align:center;" | -
 |-
-!<translate><!--T:205--> Friends</translate>
+!Friends
 | rowspan="4" style="text-align:center;" | -
 | style="text-align:center;" | -
 |-
-!<translate><!--T:206--> Invite+</translate>
-| style="text-align:center;" |✔️<ref group="note"><translate><!--T:207--> UI only allows to send an invite after the friend requested to join.</translate></ref>
+!Invite+
+| style="text-align:center;" |✔️<ref group="note">UI only allows to send an invite after the friend requested to join.</ref>
 | rowspan="5" style="text-align:center;" | -
 |-
-!<translate><!--T:208--> Invite</translate>
+!Invite
 | rowspan="2" style="text-align:center;" | -
 |-
-!<translate><!--T:209--> Group</translate>
+!Group
 | rowspan="3" style="text-align:center;" | -
-| colspan="2" style="text-align:center;" |✔️<ref group="note"><translate>
-<!--T:295-->
-All or selected roles ("Join Group Instances" group role permission required). Note that all group members can still see the instance, even if they don’t have join permission.</translate></ref>
+| colspan="2" style="text-align:center;" |✔️<ref group="note">All or selected roles ("Join Group Instances" group role permission required). Note that all group members can still see the instance, even if they don’t have join permission.</ref>
 |-
-!<translate><!--T:210--> Group+</translate>
+!Group+
 | rowspan="2" style="text-align:center;" |✔️
 | rowspan="2" style="text-align:center;" |✔️
 | rowspan="2" style="text-align:center;" | -
 | rowspan="2" style="text-align:center;" |✔️
 |-
-!<translate><!--T:211--> Group Public</translate>
+!Group Public
 | style="text-align:center;" |✔️
 |}
 <references group="note" />
-<translate>
-===Public instances=== <!--T:212-->
+===Public instances===
 
-<!--T:213-->
 Public instances are considered easily accessible and include Public and Group Public types.<ref name=":0">https://hello.vrchat.com/community-guidelines</ref> 
 
-===Private instances=== <!--T:214-->
+===Private instances===
 
-<!--T:215-->
 Private instances require an invitation or a way to get in and include Friends, Friends+, Invite, Invite+, Group, and Group+ types.<ref name=":0" />
 
-===Group instances === <!--T:216-->
+===Group instances ===
 
-<!--T:217-->
 Group instances are created by a group and include Group Public, Group+, and Group types.
 
-==== Age gated instances ==== <!--T:218-->
+==== Age gated instances ====
 
-<!--T:219-->
 ''See also [[Special:MyLanguage/Age Verification|Age Verification]].''
 
-<!--T:220-->
 Optionally, 18+ age verification requirement can be set for a group instance by a group member with a role with "Create Age Gated Instances" permission, so that only users with verified 18+ age can join. 
 
-<!--T:221-->
 If a user is age verified, age gated instances will be prioritized and shown at the top of the instance list.
 
-<!--T:222-->
 <small>(Moderator permissions or Group owner overfill does not allow a user to join if they are not also Age-Verified)</small>
 
-==== Queues ==== <!--T:223-->
+==== Queues ====
 
-<!--T:224-->
 Instances can be set up with a queue. When capacity is exceeded, a queue forms, shown by a separate icon that displays its length. The "Join" buttons change to "Join Queue". Users with the group's priority-queue permission are placed at the front (behind any users already there with the same permission); everyone else joins the end. The group owner bypasses the queue entirely.
 
-<!--T:225-->
 A user can direct-connect to an instance if another of their own clients is already inside. The new client kicks the old one on entry, letting you switch between VR and desktop without losing your slot in a full instance.
 
-<!--T:312-->
 ====Avatar Performance Gated====
 {{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
 
-<!--T:313-->
 Group instances have the option to set a minimum performance limit for avatars. These limits are set on instance creation and applies to all users within the instance. The Minimum Performance Limit can be set to limit Poor, Medium, or Good avatars. The default is set to none.
 
-<!--T:314-->
 When the limit is in effect, users violating the performance limit will be subject to:
 * Attempting to join the instance will notify the user that their avatar violates the performance limit. They will receive a warning pop-up showing their current avatar rank, the instance performance limit, and how users will see their avatar. 
 * Within the instance, users will see their avatar as a [[Special:MyLanguage/Fallbacks|Fallback]] or an [[Special:MyLanguage/Impostors|Impostor]], but locally the user will still be in their regular avatar.
 
-<!--T:315-->
 Groups can set up a role to bypass avatar performance requirements.
 
-==Regions== <!--T:226-->
+==Regions==
 
-<!--T:227-->
 Whilst selecting an instance type, there are choices for varying regions to better optimize their experience. Choosing an instance closest to your location will see a decrease in [[Special:MyLanguage/Community:Terminology#Ping|ping]], and ensuring a more stable connection to the instance, preventing disconnections and lag.
 
-<!--T:228-->
 Historically, VRChat ran solely on the U.S. West server. On June 16, 2021, two extra regions - '''Europe, and Japan''' were added to the platform in the [https://docs.vrchat.com/docs/vrchat-202124 Regions update]<ref>https://docs.vrchat.com/docs/vrchat-202124</ref> to distribute server load, and offset increasing user count. On December 1, 2021, VRChat added the '''U.S. East'''<ref>https://docs.vrchat.com/docs/vrchat-202142</ref> region, and renamed the current USA server to ''''U.S. West'''<nowiki/>'. Users are also encouraged to check VRChat's {{VRC link|https://status.vrchat.com|server status}} website or their [https://x.com/VRChat_Status VRChat Status account] on social media for outages, or upon discovering issues when connecting to VRChat.
-</translate>
 {| class="wikitable"
 |+
-!<translate><!--T:229--> Token</translate>
-<translate><!--T:230--> !Region</translate>
-!<translate><!--T:231--> Location</translate>
+!Token
+!Region
+!Location
 |-
-|<translate><!--T:232--> usw</translate>
-|<translate><!--T:233--> U.S. West</translate>
-|<translate><!--T:234--> San José</translate>
+|usw
+|U.S. West
+|San José
 |-
-|<translate><!--T:235--> use</translate>
-|<translate><!--T:236--> U.S. East</translate>
-|<translate><!--T:237--> Washington D.C.</translate>
+|use
+|U.S. East
+|Washington D.C.
 |-
-|<translate><!--T:238--> eu</translate>
-|<translate><!--T:239--> Europe</translate>
-|<translate><!--T:240--> Amsterdam</translate>
+|eu
+|Europe
+|Amsterdam
 |-
-|<translate><!--T:241--> jp</translate>
-|<translate><!--T:242--> Japan</translate>
-|<translate><!--T:243--> Tokyo</translate>
+|jp
+|Japan
+|Tokyo
 |}
-<translate>
-== Instance naming == <!--T:244-->
+== Instance naming ==
 
-</translate>
-<translate>
-<!--T:292-->
-[[File:InstanceNaming.png</translate>|thumb|<translate><!--T:245--> The instance created modal with a display name.</translate>]]
-<translate>
-<!--T:246-->
+[[File:InstanceNaming.png|thumb|The instance created modal with a display name.]]
 When creating an instance, the instance creator has the option to change its display name. Instance names appear in instance details located in the Here tab of the Quick Menu and in the instance list of worlds. Instance names have a limit of 32 characters allowed, and the characters <code>.</code>,<code>/</code>, and<code>\</code> are not allowed to be used.
 
-<!--T:247-->
 Instance naming within the client is [[Special:MyLanguage/VRC+|VRC+]] feature, although naming an instance through the API does not require VRC+.
 
-== Short links == <!--T:296-->
+== Short links ==
 
-<!--T:297-->
 Instances can be shared using VRChat's <code>vrch.at</code> short link domain combined with the instance's short name, for example <code><nowiki>https://vrch.at/<shortName></nowiki></code>. This redirects to the instance's launch page on the VRChat website.
 
-== Instance settings == <!--T:248-->
+== Instance settings ==
 
-</translate>
-<translate>
-<!--T:293-->
-[[File:QuickMenu HereTab.png</translate>|thumb|<translate><!--T:249--> The instance settings UI on the Quick Menu "Here" tab.</translate>]]
-<translate>
-<!--T:250-->
+[[File:QuickMenu HereTab.png|thumb|The instance settings UI on the Quick Menu "Here" tab.]]
 After joining an instance, the instance creator can select what type of content is to be allowed within the instance; the default options will be set to the world's default content settings. Changing what type of content is allowed can be made in the '''Here''' tab of the Quick Menu. 
 
-<!--T:251-->
 Instance Settings cannot be set by the instance creator if the instance type is Public or Group Public. Instead, it will respect the world creator's content settings. Items can only be toggled in group instances and will always respect the world creator's content settings regardless of instance type.
 
-<!--T:252-->
 The list of content that can be toggled are:
 
-<!--T:253-->
 * [[Special:MyLanguage/Emojis|Emojis]]
 * [[Special:MyLanguage/Stickers|Stickers]]
 * [[Special:MyLanguage/Sharing|Sharing]] Pedestals
@@ -215,110 +174,92 @@ The list of content that can be toggled are:
 * [[Special:MyLanguage/Camera Drone|Drones]]
 * [[Special:MyLanguage/Items|Items]]
 
-== Instance permissions == <!--T:254-->
+== Instance permissions ==
 
-<!--T:255-->
 Your permissions for managing an instance is dependent on whether you are a world author, instance owner, or group moderator.
 
-=== Instance owner === <!--T:256-->
+=== Instance owner ===
 
-<!--T:257-->
 The instance owner, is the person who initiated the instance, and depending on its type can be either a user, a group, or the world author. Instance ownership cannot be changed once assigned. To change instance ownership, a new instance must be opened by another user or group. Instance ownership is often confused with a "master", which is usually tied to [[Special:MyLanguage/Udon|Udon]] world settings. 
 
-<!--T:258-->
 Instance owners have permission to [[Special:MyLanguage/Trust and Safety#User moderation tools|moderate users]], including kicking, warning or muting them. In the case of a group instance, group moderators and their powers depend on assigned [[Special:MyLanguage/Groups#Group Roles and Permissions|group roles and permissions]].
 
-<!--T:259-->
 Public instances do not have an assigned instance owner, and defaults to the world author.
 
-=== World author === <!--T:260-->
+=== World author ===
 
-<!--T:261-->
 The author of the world have the same core set of moderation tools as an instance owner, being able to moderate users in the form of kicking, warning, and muting. The author have these additional powers, depending on instance type.
 
-===Permission chart === <!--T:262-->
-</translate>
+===Permission chart ===
 {| class="wikitable"
-|+<translate><!--T:263--> Moderation permissions for instances</translate>
-!<translate><!--T:264--> Instance type</translate>
-|'''<translate><!--T:265--> Public</translate>'''
-|'''<translate><!--T:266--> Friends+</translate>'''
-|'''<translate><!--T:267--> Friends</translate>'''
-|'''<translate><!--T:268--> Invite+</translate>'''
-|'''<translate><!--T:269--> Invite</translate>'''
-|'''<translate><!--T:270--> Group Public</translate>'''
-|'''<translate><!--T:271--> Group+</translate>'''
-|'''<translate><!--T:272--> Group</translate>'''
+|+Moderation permissions for instances
+!Instance type
+|'''Public'''
+|'''Friends+'''
+|'''Friends'''
+|'''Invite+'''
+|'''Invite'''
+|'''Group Public'''
+|'''Group+'''
+|'''Group'''
 |-
-|'''<translate><!--T:273--> World author</translate>'''
+|'''World author'''
 |✔️
 |✔️
 |✔️
 |✔️
 |✔️
 |✔️
-|<translate><!--T:274--> No</translate>
-|<translate><!--T:275--> No</translate>
+|No
+|No
 |-
-|'''<translate><!--T:276--> Instance owner</translate>'''
-|<translate><!--T:277--> No</translate>
+|'''Instance owner'''
+|No
 |✔️
 |✔️
 |✔️
 |✔️
-|<translate><!--T:278--> If moderator</translate>
-|<translate><!--T:279--> If moderator</translate>
-|<translate><!--T:280--> If moderator</translate>
+|If moderator
+|If moderator
+|If moderator
 |-
-|'''<translate><!--T:281--> Group moderator</translate>'''
-|<translate><!--T:282--> No</translate>
-|<translate><!--T:283--> No</translate>
-|<translate><!--T:284--> No</translate>
-|<translate><!--T:285--> No</translate>
-|<translate><!--T:286--> No</translate>
+|'''Group moderator'''
+|No
+|No
+|No
+|No
+|No
 |✔️
 |✔️
 |✔️
 |}
-<translate>
-== Instance capacity == <!--T:298-->
+== Instance capacity ==
 
-<!--T:299-->
 The capacity of a world can be configured on the VRChat website without reuploading the world. However, the capacity value does not represent the absolute maximum number of players that can be in an instance. The effective maximum is calculated as follows:
-</translate>
 {| class="wikitable"
-!<translate><!--T:300--> Component</translate>
-! <translate><!--T:301--> Description</translate>
+!Component
+! Description
 |-
-|| <translate><!--T:302--> Recommended Capacity</translate>
-||<translate><!--T:303--> The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly. The Recommended Capacity cannot be set higher than Maximum Capacity.</translate>
+|| Recommended Capacity
+||The configured recommended capacity value. Once the current user count reaches this value, the instance is no longer listed publicly. The Recommended Capacity cannot be set higher than Maximum Capacity.
 |-
-||<translate><!--T:304--> Maximum Capacity</translate>
-||<translate><!--T:305--> The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated. The Maximum Capacity cannot be set higher than 80.</translate><ref name="CapNote" group="note"><translate> <!--T:311--> While the Maximum Capacity of a world cannot be set higher than 80 under normal circumstances, VRChat staff can manually increase the instance capacity. This usually occurs during events or [https://vrc.group/MAXCAP.0000 instance capacity stress tests]. </translate></ref>
+||Maximum Capacity
+||The configured maximum capacity value. Once the maximum capacity is reached, users will be unable to join the instance. If the instance is owned by a group, users may join a Queue if activated. The Maximum Capacity cannot be set higher than 80.<ref name="CapNote" group="note"> While the Maximum Capacity of a world cannot be set higher than 80 under normal circumstances, VRChat staff can manually increase the instance capacity. This usually occurs during events or [https://vrc.group/MAXCAP.0000 instance capacity stress tests]. </ref>
 |-
-||<translate><!--T:306--> Instance creator or group owner</translate>
-||<translate><!--T:307--> The user who created the instance can always join, even if the instance is at its maximum capacity. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.</translate>
+||Instance creator or group owner
+||The user who created the instance can always join, even if the instance is at its maximum capacity. For Group, Group+, and Group Public instances, this reserved slot belongs to the group owner instead.
 |-
-||<translate><!--T:308--> World author</translate>
-||<translate><!--T:309--> The user who uploaded the world can always join, even if the instance is at its maximum cap.</translate>
+||World author
+||The user who uploaded the world can always join, even if the instance is at its maximum cap.
 |}
-<translate>
-<!--T:310-->
-The maximum configurable capacity on the VRChat website is 80, resulting in an effective maximum of 82 players in normal conditions. If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the maximum capacity.</translate> <ref group="note" name="CapNote"></ref>
+The maximum configurable capacity on the VRChat website is 80, resulting in an effective maximum of 82 players in normal conditions. If the instance creator or world author is already in the instance, their reserved slot is occupied and cannot be used by other players to exceed the maximum capacity. <ref group="note" name="CapNote"></ref>
 <references group="note" />
-<translate>
 
-== Instance duration and automatic resets == <!--T:287-->
+== Instance duration and automatic resets ==
 
-</translate>
-<translate>
-<!--T:294-->
-[[File:Instance shutdown notification.webp</translate>|alt=A notification on the VRChat Quick Menu notification pane, in the Other section. The notification reads: "Warning: This instance will be reset in 60 minutes due to its age."|thumb|<translate><!--T:288--> The notification that appears when the instance is due to reset.</translate>]]
-<translate>
-<!--T:289-->
+[[File:Instance shutdown notification.webp|alt=A notification on the VRChat Quick Menu notification pane, in the Other section. The notification reads: "Warning: This instance will be reset in 60 minutes due to its age."|thumb|The notification that appears when the instance is due to reset.]]
 Instances that have been running for long periods will automatically reset to prevent potential issues. If an instance is populated, users will rejoin upon reset, otherwise, they are sent to their Home World. A 180- and 60-minute warning can be given, 5-minute warning is always given before a reset. Instances may run for up to 7 days but can reset sooner due to server-side updates.
 
-==References== <!--T:290-->
-</translate>
+==References==
 
 <references />
