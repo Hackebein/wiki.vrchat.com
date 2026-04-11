@@ -115,6 +115,25 @@ Les instances peuvent avoir une file d'attente. Lorsque la limite est atteinte, 
 
 Un utilisateur peut se connecter directement à une instance si un autre de ses clients y est déjà présent. Le nouveau client expulsera l'ancien dès l'entrée, vous permettant d'intervertir entre VR et PC sans avoir à perdre votre place dans une instance pleine.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+====Avatar Performance Gated====
+{{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Group instances have the option to set a minimum performance limit for avatars. These limits are set on instance creation and applies to all users within the instance. The Minimum Performance Limit can be set to limit Poor, Medium, or Good avatars. The default is set to none.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+When the limit is in effect, users violating the performance limit will be subject to:
+* Attempting to join the instance will notify the user that their avatar violates the performance limit. They will receive a warning pop-up showing their current avatar rank, the instance performance limit, and how users will see their avatar. 
+* Within the instance, users will see their avatar as a [[Special:MyLanguage/Fallbacks|Fallback]] or an [[Special:MyLanguage/Impostors|Impostor]], but locally the user will still be in their regular avatar.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Groups can set up a role to bypass avatar performance requirements.
+</div>
+
 <span id="Regions"></span>
 ==Régions==
 
