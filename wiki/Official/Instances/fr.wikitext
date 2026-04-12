@@ -115,10 +115,8 @@ Les instances peuvent avoir une file d'attente. Lorsque la limite est atteinte, 
 
 Un utilisateur peut se connecter directement à une instance si un autre de ses clients y est déjà présent. Le nouveau client expulsera l'ancien dès l'entrée, vous permettant d'intervertir entre VR et PC sans avoir à perdre votre place dans une instance pleine.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Avatar Performance Gated====
+====Limitation par Performance d'Avatar====
 {{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
-</div>
 
 Les instances de groupe offrent l'option de définir une limite de performance minimale pour les avatars. Ces limites sont définies lors de la création de l'instance et s'applique à tous les utilisateurs qui s'y trouvent. La limite de performance minimale peut être configurée pour limiter les avatars de qualité médiocre, moyenne ou bon. Par défaut, aucune limite n'est définie.
 
