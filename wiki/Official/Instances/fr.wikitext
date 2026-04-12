@@ -120,9 +120,7 @@ Un utilisateur peut se connecter directement à une instance si un autre de ses 
 {{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Group instances have the option to set a minimum performance limit for avatars. These limits are set on instance creation and applies to all users within the instance. The Minimum Performance Limit can be set to limit Poor, Medium, or Good avatars. The default is set to none.
-</div>
+Les instances de groupe offrent l'option de définir une limite de performance minimale pour les avatars. Ces limites sont définies lors de la création de l'instance et s'applique à tous les utilisateurs qui s'y trouvent. La limite de performance minimale peut être configurée pour limiter les avatars de qualité médiocre, moyenne ou bon. Par défaut, aucune limite n'est définie.
 
 Lorsque la limite est en vigueur, les utilisateurs qui la dépassent s'exposent aux conséquences suivantes :
 * Tenter de rejoindre l'instance notifiera le joueur que leur avatar dépasse la limite de performance acceptée. Le joueur recevera un pop-up d'avertissement indiquant leur rang d'avatar actuel, la limite de performance de l'instance, et comment les autres utilisateurs verront leur avatar.
