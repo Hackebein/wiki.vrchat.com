@@ -98,6 +98,9 @@ If you can see pink on the inside of your scene, you know you have a place where
 === Occlusion Portals ===
 '''Occlusion Portals''' are occluders that can be turned off and on and affect occlusion. If you have a large object in your scene that can open/close, like a door or toggle-able object, you can place an occlusion portal alongside it and open/close the portal to get the benefits of occlusion culling when the portal is closed.
 
+=== Occlusion Areas ===
+'''Occlusion Areas''' defines the areas of use. On baking, Unity performs calculations assuming the camera only moves within Occlusion Area. This reduces the size of the occlusion data and also lowers the processing overhead during execution. If the camera (Player) only moves within a specific area, it's a good idea to set this up. You can also create complex areas by combining multiple Occlusion Areas.
+
 ==References==
 Special thanks to Fionna for providing the details on The Devouring's occlusion planning. [https://www.youtube.com/channel/UCnLBv3lHUJaMON7Bk6wgGBQ Further details were presented in the VRCPrefabs TLX videos].
 
