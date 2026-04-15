@@ -1,0 +1,102 @@
+{{Noticebox/Official}}
+{{Noticebox/Unsupported|Fallbacks are being deprecated slowly over time in favor of impostors.}}
+{{Infobox/Feature
+|name=Fallbacks
+|image=
+|platforms= PC, Android, iOS
+|branch_live_date = March 23, 2021
+|branch_live_version = 2021.1.5 Build 1067
+|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202115 2021.1.5]
+|branch_openbeta_date = March 18, 2021
+|branch_openbeta_version = 2021.1.5 Build 1065
+|branch_openbeta_releasenote = [https://discord.com/channels/189511567539306508/503009489486872583/822245880333467659 2021.1.5]
+}}
+
+'''Fallbacks''', or fallback [[Special:MyLanguage/Avatars|avatars]], are optimized avatars that serve as a placeholder<ref>[https://medium.com/vrchat/vrchat-on-quest-avatar-performance-woes-1a3cc228a442 "VRChat on Quest: Avatar Performance Woes"] on ''[https://medium.com/vrchat Medium]''. Dated March 18, 2021. Retrieved September 16, 2021.</ref> for when the user can't see another user's original avatar, such as when users are on different [[Special:MyLanguage/Platforms|platforms]]. Fallbacks were introduced to VRChat, with the 2021.1.5<ref>[https://docs.vrchat.com/docs/vrchat-202115 "VRChat 2021.1.5"] on ''[[docs.vrchat.com]]''. Dated March 23, 2021. Retrieved September 16, 2025.</ref> update, on March 23, 2021.
+
+==Avatar Fallback System==
+[[File:Fallback system.webp|thumb|A VRChat graphic from 2021, describing the ability to select a Fallback avatar, to show users on Quest.]]
+The Avatar Fallback System ''(not to be confused with the [https://creators.vrchat.com/avatars/shader-fallback-system Shader Blocking and Fallback System])'' is a way for users to select which fallback avatar is shown to others when they aren't able to see a user's original avatar. It is also indicated as an icon on the nameplate, letting users know that they're viewing a fallback and why.
+
+===Identifying fallbacks===
+Fallbacks can be identified when viewing another user's fallback by viewing their nameplate. Fallbacks are indicated with a blue feather icon.
+
+==== Fallback types ====
+In the bottom right corner of the blue feather icon, along with another icon explaining why the fallback avatar is being displayed instead. Here's what these icons mean:
+{| class="wikitable"
+!Type
+!Icon
+!Explanation
+|-
+|Performance Blocked
+|[[File:Perf fallback verypoor.png|frameless|32x32px]]
+[[File:Perf fallback poorAndBelow.png|frameless|32x32px]]
+|Appears when the user's avatar exceeds a user's [[Special:MyLanguage/Settings#Avatar Optimization|Minimum Avatar Performance Rank]] set.
+|-
+|File Size Blocked
+|[[File:Perf fallback fulldrive.png|frameless|32x32px]]
+|Appears when the user's avatar exceeds the Maximum Allowed Avatar Download Size or Uncompressed Size you've set.
+|-
+|Impostor
+|[[File:Perf fallback imposter.png|frameless|32x32px]]
+|Appears when viewing the user's [[Special:MyLanguage/Impostors|impostor]].
+|-
+|Filtered
+|[[File:Perf fallback filtered.png|frameless|32x32px]]
+|Appears when the user's avatar gets filtered by [[Special:MyLanguage/Content Gating|Content Gating]].
+|-
+|Missing Asset
+|[[File:Perf fallback missing.png|frameless|32x32px]]
+|Appears when the user's avatar isn't available on your platform.
+|-
+|Error
+|[[File:Perf fallback error.png|frameless|32x32px]]
+|Appears when the user's avatar hasn't loaded due to an error.
+|}
+There is another icon that can appear, the grey shield icon ([[File:Perf SafetyBlocked.png|frameless|30x30px]]). This icon appears when viewing a user's preferred fallback avatar is not possible, the default [[Special:MyLanguage/Robot|Robot]] avatar, will be shown instead. Here are the reasons why the icon would appear:
+{| class="wikitable"
+!Type
+!Explanation
+|-
+|Blocked via Safety
+|The user's avatar has been blocked by the [[Special:MyLanguage/Trust and Safety#Managing avatars|Trust and Safety System]].
+|-
+|Manually Hidden
+|The user's avatar has been manually hidden by using the "Hide Avatar" button in the [[Special:MyLanguage/Quick Menu|Quick Menu]].
+|-
+|Loading
+|The user's avatar is loading. Either if the avatar is still downloading or initializing.
+|}
+
+===Choosing a fallback===
+To choose a fallback avatar, open the avatar page on the VRChat website, then select "Use as Fallback" under the Manage Avatar section.
+
+There are 2 options for choosing a fallback:
+
+*Uploading a custom avatar as a fallback.
+*Using avatars from the [[Special:MyLanguage/Public Avatars|Public avatar]] row as a fallback.
+
+====Custom fallbacks====
+Users can upload their own custom fallback avatar. There are some requirements in order to upload and use a custom fallback:
+
+*Be built for all available platforms.
+*Performance rank must be Good{{performance|good|22}} or better on the respective platform.
+*Have the Fallback flag set from the Android upload.
+
+==Deprecation==
+With the release of [https://docs.vrchat.com/docs/vrchat-202522 2025.2.2], VRChat mentioned in the release notes that Fallbacks are being deprecated, cited with the following reason:
+<blockquote>
+''Fallbacks are being deprecated slowly over time in favor of impostors....''</blockquote>
+
+Fallbacks can still be used and are functional, but are not selectable within the client. Changing fallbacks can only be done from the website.
+
+== See Also ==
+* [[Special:MyLanguage/Impostors|Impostors]]
+* [[Special:MyLanguage/Avatars|Avatars]]
+
+== References ==
+<references />
+
+[[Category:Features{{#translation:}}]]
+[[Category:Avatars]]
+[[Category:Needs images]]
