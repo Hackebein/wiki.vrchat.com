@@ -1,5 +1,5 @@
 {{Noticebox/Community}}
-[[File:Both baked versions stacked.jpg|thumb|right]]
+[[File:Both baked versions stacked.jpg|border|right|frameless]]
 This guide will show you how you can swap Baked Lightmaps in VRChat. This is useful to create a day and night version of your world or multiple different lighting scenarios. <br />Compared to other common solutions, such as utilizing real time lights or using a tinted overlay, this method is both optimized and represents light better.
 
 The core principle behind this method is to bake light differently on multiple copies of the same static mesh by placing them in different areas of your scene and later stacking them to be at the same location. This needs to be done, because VRChat does not allow you access to change Lightmaps directly.
@@ -57,4 +57,4 @@ Instead, have everything enabled when loading in, setup a ''OnEnable'' Udon even
 
 Swapping out baked light has great performance benefits and will feel more natural than using real time light or a tinted camera overlay. Few worlds use this technique, the one shown in this guide was [[Community:Atoll of Ether]], however [[VRChat Home]] also swaps out baked light.
 [[Category:Guides]]
-[[Category:SDK]]
+[[Category:VRCSDK]]
