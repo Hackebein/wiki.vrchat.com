@@ -1,33 +1,43 @@
 <languages/>
 {{Noticebox/Official}}
-[[File:Action_Menu.png|thumb|An image of the Action Menu]]
+[[File:Action_Menu.png|thumb|<translate><!--T:1--> An image of the Action Menu</translate>]]
+<translate>
+<!--T:2-->
 The '''Action Menu''' is the primary way to access controls for your avatar and various other quick-access functions. When using an Avatars 3.0 avatar, these controls can be fully customized and can be one of many types. This menu allows you to drive various parameters, informing your avatar on how to react based on how you've set up your animators.
 
+<!--T:3-->
 You can open up a max of 2 action menus to control your experience with more flexibility.<small>*</small>
 
-==Opening the Action Menu==
+==Opening the Action Menu== <!--T:4-->
 
+<!--T:5-->
 Opening the Action Menu varies on which control type you are using. 
 
+<!--T:6-->
 *'''Keyboard/Mouse:''' Press '''R''' to open.
 *'''VR Controller:''' Hold down the button that opens up your [[Special:MyLanguage/Quick Menu|Quick Menu]]. Depending on which hand you open the Action Menu with, it will either open up the left or right one.
 *'''Gamepad:''' Press in on the right thumbstick to open.
 *'''Mobile:''' Hold down on the menu button.
 
+<!--T:7-->
 <sup>*The Keyboard/Mouse, Gamepad, and Mobile control types only opens one action menu (left), using both action menus is not possible using these control types.</sup>
 
-==Layout==
+==Layout== <!--T:8-->
 
+<!--T:9-->
 When first opening the Action Menu it is separated into 6 sections: Expressions, Looks, Emoji & Stickers, Items, Tools, and Options.
 
-===Expressions===
+===Expressions=== <!--T:10-->
 
+<!--T:35-->
 ''See also [[Special:MyLanguage/Expressions|Expressions]] for more detailed information.''
 
+<!--T:11-->
 This menu is used to change different features on your avatar, each avatar's expression menu is different.
 
-====Quick Actions====
+====Quick Actions==== <!--T:12-->
 
+<!--T:13-->
 Quick Actions is a menu under the Expression menu that lets you control various parts of your avatar, the options in this menu are:   
 *'''Avatar Height:''' changes the height of your avatar between 0.20M - 5.00M
 *'''Reset Height:''' Sets the height of your avatar back to the default set in Unity.
@@ -35,59 +45,75 @@ Quick Actions is a menu under the Expression menu that lets you control various 
 *'''Reset Avatar:''' Resets all parts of your avatar, including Physbones and saved toggles
 *'''Legacy Fingers:''' Avatars fingers will be animated by SteamVR skeletal data if Disabled
 
-===Looks===
+===Looks=== <!--T:40-->
 
+<!--T:41-->
 {{Noticebox/unreleased|Currently in beta testing under the <code>accessories</code> Steam beta branch.}}
 ''See also [[Special:MyLanguage/Accessories#Looks|Accessories]] for more detailed information.''
 
+<!--T:42-->
 Looks are a saved combination of accessories and a specific avatar. The most recent 9 looks are shown in the Action Menu.
 
-===Emoji & Stickers===
+===Emoji & Stickers=== <!--T:14-->
 
+<!--T:36-->
 ''See also [[Special:MyLanguage/Emojis|Emojis]] & [[Special:MyLanguage/Stickers|Stickers]] for more detailed information.''
 
+<!--T:15-->
 The emoji & stickers sub-menu is for emojis; which appear in the surrounding air, or stickers; which you can place within the [[Special:MyLanguage/Worlds|world]] you are in.
 
+<!--T:38-->
 ===Items===
 ''See also [[Special:MyLanguage/Items|Items]] for more detailed information.''
 
+<!--T:39-->
 The items sub-menu is for items; which can be spawned or placed within the world.
 
-===Tools===
+===Tools=== <!--T:16-->
 
+<!--T:17-->
 The tools sub-menu is the home of commonly used features, these tools include:
 
+<!--T:18-->
 *[[Special:MyLanguage/Mirrors#Personal Mirror|Personal Mirror]]
 *[[Special:MyLanguage/Mirrors#Face Mirror|Face Mirror]]
 *[[Special:MyLanguage/Chatbox|Chatbox]]
 *[[Special:MyLanguage/Camera|Camera]]
 
-===Options===
+===Options=== <!--T:19-->
 
+<!--T:20-->
 The options sub-menu hosts a plethora of options consisting of Action Menu, [[Special:MyLanguage/Nameplates|nameplates]], avatar options and more.
 
-==Using the Action Menu==
+==Using the Action Menu== <!--T:21-->
 
-[[File:PuppetMenu.gif|thumb|Example of the action menu in use]]
+</translate>
+[[File:PuppetMenu.gif|thumb|<translate><!--T:22--> Example of the action menu in use</translate>]]
+<translate>
 
-===Selection Methods===
+===Selection Methods=== <!--T:23-->
 
+<!--T:24-->
 You can toggle on and off section methods by opening up your Action Menu > Options > Action Menu > Flick Select.
 
-====Flick Select====
+====Flick Select==== <!--T:25-->
 
+<!--T:26-->
 In Flick mode, push the joystick in the direction of the pie slice you want to trigger. Pushing part way shows an indicator of the selection. Pushing all the way triggers the selection.
 
-====Pick Select====
+====Pick Select==== <!--T:27-->
 
+<!--T:28-->
 Pick mode involves pushing the joystick towards the pie slice and confirming the selection with the trigger on the controller (or mouse click on Desktop).
 
-===Closing and Saving===
+===Closing and Saving=== <!--T:29-->
 
+<!--T:30-->
 To close the Action or Expression Menu or any of their folders, choose the Back option at the top of the radial menu. Doing the inverse of opening the action menu will close the menu but remember your place. Reverse this process to return to where you left off.
 
-==Gallery==
+==Gallery== <!--T:31-->
 
+<!--T:32-->
 <gallery heights="100">
 File:Action Menu.png|Action Menu main page
 File:Emojis-sticker-submenu.png|Sub menu of Emoji's & Stickers
@@ -100,14 +126,17 @@ File:Action Menu Personal Mirror.png|Action Menu personal mirror page
 File:Action menu Actions menu.png|Action menu's settings under the action menu.
 </gallery>
 
-==Resources==
+==Resources== <!--T:33-->
 
   
 
+<!--T:34-->
 *[https://docs.vrchat.com/docs/action-menu Action Menu] page on docs.vrchat.com
 *[https://www.youtube.com/shorts/PZsOQTLvPAc What is the Action Menu?] on YouTube
 
-== Navigation ==
+== Navigation == <!--T:37-->
+</translate>
 {{Navbox/Menus}}
 [[Category:User Interface{{#translation:}}]]
 [[Category:Menus{{#translation:}}]]
+[[Category:VRCSDK]]
