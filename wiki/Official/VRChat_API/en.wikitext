@@ -1,17 +1,23 @@
 <languages/>
+<translate>
 
+<!--T:1-->
 '''VRChat's application programmer interface''' (API) is official VRChat data from VRChat's servers, and streamlined to your account, through VRChat client, the VRChat website, or using the VRChat app. The API can also be queried externally.
 
+<!--T:2-->
 ==About==
 [[File:API Team2021.webp|thumb|Seven API team members, pose for a in-game photo in a server room. Photo from 2021.]]
 VRChat briefly explains what their application programmer interfaces does, and gives examples of information it maintains, on their Developer Blog from 2019<ref>[https://medium.com/vrchat/developer-blog-websockets-b5f0b424d379 Developer Blog — Websockets] published by VRChat on ''Medium''; retrieved November 28, 2024.</ref>:
 
+<!--T:3-->
 {{Quote|''There are three major parts to VRChat — the client, which handles all of the fun virtual reality stuff, the network layer, which handles the high-speed low-drag communication between users in the virtual realms, '''and the API, which is responsible for permanent information storage like "who our users are" and "where our users are" and "keeping tabs on a truly spectacular collection of petabytes of avatars loose conglomerations of dynamic bones and particle animations'''." ''}}
 
-==Data==
+==Data== <!--T:4-->
 
+<!--T:10-->
 Information from VRChat's API includes the following:
 
+<!--T:5-->
 *Login and authentication
 **Being able to sign in via Steam, Meta, PICO, etc.
 **Signing directly through your VRChat account
@@ -30,20 +36,26 @@ Information from VRChat's API includes the following:
 **Changing avatars
 **Switching instances (and live instance data)
 
+<!--T:6-->
 ==Official resources==
 VRChat's API status can officially be queried here: {{VRC link|https://status.vrchat.com/|VRChat server status}}
 
+<!--T:7-->
 == Documentation ==
 VRChat does not officially document its API or provide support for it<ref>[https://hello.vrchat.com/creator-guidelines VRChat Creator Guidelines] under API Usage / Bots; retrieved January 10, 2025.</ref>. However, community-driven efforts have made API documentation and SDK libraries available for various programming languages. You can find these resources at:
 
+<!--T:11-->
 * [https://vrchat.community VRChat.community - API documentation & SDKs]
 * [https://github.com/vrchatapi GitHub]
 
+<!--T:8-->
 ==See also==
 *[[Special:MyLanguage/Instances|Instances]]
 *[[Special:MyLanguage/VRChat account|VRChat account]]
 
-==References==
+==References== <!--T:9-->
 
+<!--T:12-->
 <references />
+</translate>
 [[Category:Needs images]]
