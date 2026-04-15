@@ -1,26 +1,36 @@
 <languages/>
 {{Noticebox/Official}}
+<translate>
 
+<!--T:1-->
 VRChat makes use of several menu types that can be used to interact with different aspects of the platform. Most notably the [[Special:MyLanguage/Quick Menu|Quick Menu]], the [[Special:MyLanguage/Main Menu|Main Menu]] and the [[Special:MyLanguage/Action Menu|Action Menu]]. While these menus do serve distinct purposes and offer exclusive features, they often share the same functions and settings, presented in different formats better suited for different contexts.
 
-== Quick Menu ==
+== Quick Menu == <!--T:2-->
 
-[[File:Quick Menu 2026.png|thumb|A screenshot of the Quick Menu in VRChat.]]
+<!--T:3-->
+[[File:Quick Menu 2026.png|thumb|175px|Quick Menu]]
 
+<!--T:4-->
 ''See also [[Special:MyLanguage/Quick Menu|Quick Menu]] for more detailed information.''
 
+<!--T:5-->
 The Quick Menu contains frequently used options and actions intended for rapid access. The options present are condensed versions of their counterparts in the Main Menu, with some features remaining exclusive. Examples include returning to the user's Home World, respawning, accessing Safety settings, the "Here" tab, and quick access to tools such as the Camera and microphone controls.
 
+<!--T:6-->
 The Quick Menu may colloquially be referred to as the "Small" or "Square" menu. On PC, the default method to open it is by pressing the ''Escape'' key; in VR, by pressing ''B / Y'' (top thumb button on either hand); and on gamepads or mobile, by pressing the ''Menu'' button. The Quick Menu can be expanded into the Main Menu using the expand button in the top-right corner.
 
-== Main Menu ==
+== Main Menu == <!--T:7-->
 
-[[File:Main Menu Full.webp|thumb|A screenshot of the Main Menu in VRChat.]]
+<!--T:30-->
+[[File:Main Menu Full.webp|thumb|Main Menu]]
 
+<!--T:31-->
 ''See also [[Special:MyLanguage/Main Menu|Main Menu]] for more detailed information.''
 
+<!--T:10-->
 The Main Menu is accessed by expanding the Quick Menu using the button in the top-right corner. It presents a full-screen interface centered around a tile-based "Launch Pad" layout, providing access to major VRChat systems and content discovery features.
 
+<!--T:10a-->
 The primary navigation tiles in the Main Menu include:
 * '''Live Now''' – Displays currently active and popular instances.
 * '''Worlds''' – Browse, search, and manage worlds.
@@ -29,39 +39,56 @@ The primary navigation tiles in the Main Menu include:
 * '''Groups''' – View and manage VRChat Groups.
 * '''Shop''' – Access the Avatar Marketplace and other purchasable content.
 
+<!--T:11-->
 The Main Menu may colloquially be referred to as the "Big" Menu by users.
 
-== Action Menu ==
+== Action Menu == <!--T:12-->
 
+<!--T:13-->
 ''See also [[Special:MyLanguage/Action Menu|Action Menu]] for more detailed information.''
 
+<!--T:14-->
+[[File:Action_Menu.png|thumb|175px|VRChat's Action Menu]]
 The Action Menu houses a variety of actions generally intended to be quickly used during social interaction. Options present themselves as segments in circular, nested menus, selected by inputting a flick in the direction of the segment to select it. The Action Menu is primarily used for activating features built into avatars, such as emotes within the Expressions category. It also features categories for sending Emoji, toggling basic tools like the Personal [[Special:MyLanguage/Mirror|Mirror]], and an Options category for various settings.
 
+<!--T:15-->
 The Action Menu may colloquially be referred to as the "Radial" or "Circle" menu by users. By default, it is opened on PC using the ''R'' key; in VR, by pressing and holding ''B / Y'' (top thumb buttons); on gamepads by pressing the ''Right Thumbstick''; and on mobile by pressing and holding the ''Menu'' button.
 
-== Settings ==
+== Settings == <!--T:16-->
 
+<!--T:17-->
 ''See also [[Special:MyLanguage/Settings|Settings]] for more detailed information.''
 
+<!--T:18-->
 Settings are preferences used to customize the VRChat experience. Menus for settings can be found in the Quick Menu, Main Menu, and Action Menu. They cover preferences for UI Elements, User Interface, Avatars, Your Avatar, Avatar Culling, Chatboxes, Display and Visual Adjustments, Comfort & Safety, Audio & Voice, Graphics, [[Special:MyLanguage/Mirrors|Mirrors]], [[Special:MyLanguage/Controls|Controls]], Tracking & IK, Accessibility, and Debugging.
 
+<!--T:19-->
 The Settings tab in the Quick Menu and Main Menu is identified by a [[File:Icons Settings 25.png|frameless|16x16px]] cog icon. The Settings tab in the Action Menu is identified as "Options", which can be accessed upwards on the wheel.
 
-== Camera ==
+== Camera == <!--T:22-->
 
+<!--T:23-->
 ''See also [[Special:MyLanguage/Camera|Camera]] and [[Special:MyLanguage/Camera Dolly|Camera Dolly]] for more detailed information.''
 
+<!--T:24-->
+[[File:Camera.png|thumb|175px|Camera]]
 The Camera is used to take pictures within VRChat. It can be accessed through the Quick Menu or the Tools tab of the Action Menu. The Camera is also used to capture icon and [[Special:MyLanguage/Gallery|gallery]] photos, as well as create [[Special:MyLanguage/Stickers|stickers]] and [[Special:MyLanguage/VRC+#Prints|prints]]. Users subscribed to [[Special:MyLanguage/VRChat+|VRC+]] also have access to a [[Special:MyLanguage/Camera Dolly|camera dolly]] for creating customized camera motions. On Desktop and PCVR, an '''Open Photos Folder''' button is available in the Camera tab to open the local directory where screenshots are stored.
 
-== Debug Menus ==
+== Debug Menus == <!--T:25-->
 
-[[File:SteamDebugLaunchParam.webp|thumb| A screenshot of the Steam launch settings page.]]
+<!--T:32-->
+[[File:World_Debug_Menu_1.png|thumb|100px|Debug Menu]]
+[[File:SteamDebugLaunchParam.webp|thumb|100px|Steam launch settings]]
 
+<!--T:26-->
 ''See also [[Special:MyLanguage/Debug Menu|Debug Menus]] and [https://docs.vrchat.com/docs/launch-options Launch Options] for more detailed information.''
 
+<!--T:27-->
 Debug Menus are tools intended to help debug worlds, avatars, and [[Special:MyLanguage/Open Sound Control|OSC]] functionality in-game. To access these menus, VRChat must be launched using the launch parameter <code>--enable-debug-gui</code>. There are multiple debug views available to assist creators in identifying errors, testing optimizations, and evaluating performance impact.
 
+<!--T:33-->
 https://docs.vrchat.com/docs/launch-options
 
-== Navigation ==
+== Navigation == <!--T:34-->
+</translate>
 {{Navbox/Menus}}
