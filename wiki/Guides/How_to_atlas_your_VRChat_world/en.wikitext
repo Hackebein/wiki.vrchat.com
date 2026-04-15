@@ -1,5 +1,5 @@
 {{Noticebox/Community}}
-[[File:Picture 28 - Atlas World Guide.jpg|thumb|right|512px]]
+[[File:Picture 28 - Atlas World Guide.jpg|border|right|frameless]]
 One of the most powerful tools to optimize your [[Special:MyLanguage/worlds|world]] for best performance is to use as few materials as possible. This is important, since each material has a compounding requirement of drawcalls/batches to render your scene. Simplified this means, each material generates 1 drawcall inherently per object or batched object. However each reflection probe and lightmap texture applied does add an additional one each. Other factors compound this even further, but the bottom line here is to highlight that each material added to your world will have a substantial performance impact.
 Reducing Materials used, means reducing drawcalls. This is crucial, because drawcalls are an instruction from a CPU to a Graphics Card to render something in a certain way. This is something that happens every single frame. VRChat is a CPU bottlenecked platform, where you GPU has a lot of free headroom, therefore the less strain you put on your CPU the more performance you gain.
 
@@ -203,4 +203,4 @@ You can also flex your atlas in your world at no performance cost.
 
 '''<big>Thanks for your interest in learning this secret art!</big>'''
 [[Category:Guides]]
-[[Category:SDK]]
+[[Category:VRCSDK]]
