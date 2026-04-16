@@ -1,7 +1,7 @@
 <noinclude><languages/></noinclude><includeonly>{{Noticebox
 |template=Delete{{#if:{{{variant|}}}|/{{{variant|}}}|}}
 |image=Icons_Delete.png
-|title=Esta página foi [[Special:MyLanguage/:Category:Pages marked for deletion|marcada para exclusão]].
+|title=<span class="mw-translate-fuzzy">Esta página foi [[Special:MyLanguage/:Category:Pages Marked for Deletion|marcada para exclusão]].</span>
 |description=Esta página foi marcada para ser excluída e pode ser patrulhada pelos [[Special:MyLanguage/VRCWiki:Wiki Moderators|Moderadores da Wiki]] para que seu conteúdo seja removido ou mesclado em outra página.<br/>{{Reason|{{{1|}}}|{{{2|}}}|required=1}}
 |border-color=#160707
 |background-color=#260707}}{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Pages marked for deletion{{#translation:}}]]}}</includeonly><noinclude>
