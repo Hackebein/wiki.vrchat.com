@@ -1,24 +1,9 @@
 <noinclude><languages/></noinclude><includeonly>{{Noticebox
 |template=Delete{{#if:{{{variant|}}}|/{{{variant|}}}|}}
 |image=Icons_Delete.png
-|title=這個頁面已被[[Special:MyLanguage/:Category:Pages Marked for Deletion|標記為刪除]]。
+|title=<span class="mw-translate-fuzzy">這個頁面已被[[Special:MyLanguage/:Category:Pages Marked for Deletion|標記為刪除]]。</span>
 |description=未來這個頁面可能會由 [[Special:MyLanguage/VRCWiki:Wiki Moderators|Wiki 校對員]]進行審核，並將內容移除或合併至其他頁面。<br/>{{Reason|{{{1|}}}|{{{2|}}}|required=1}}
 |border-color=#160707
-|background-color=#260707}}{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Pages Marked for Deletion]]}}</includeonly><noinclude>
-This [[Special:MyLanguage/Template:Noticebox|noticebox]] can be added to pages to mark them for deletion by [[Special:MyLanguage/VRCWiki:Wiki Moderators|Wiki Moderators]]. Pages with this template are added to the category [[Special:MyLanguage/:Category:Pages Marked for Deletion|Pages Marked for Deletion]]. Adding <code><nowiki>~~~~</nowiki></code> to the second parameter signs the template with your name.
-
-== Pre-made reasons ==
-When possible, prefer to use a pre-made reason, which are automatically translated & localized.
-
-=== Empty or missing content ===
- <nowiki>{{Delete/Empty|~~~~}}</nowiki>
-{{Delete/Empty}}
-
-== Custom reason ==
- <nowiki>{{Delete|A detailed and descriptive reason.|~~~~}}</nowiki>
-{{Delete|A detailed and descriptive reason.}}
-
-'''Note:''' If you need to transclude this template without adding the page to this category, use the parameter <code>nocat=1</code>.
-[[Category:Utility Templates]]
-[[Category:Noticeboxes]]
+|background-color=#260707}}{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Pages marked for deletion{{#translation:}}]]}}</includeonly><noinclude>
+{{Documentation}}
 </noinclude>
