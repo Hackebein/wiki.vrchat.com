@@ -120,9 +120,7 @@ Sur les manettes où le suivi des doigts prime par défaut sur l'animation, les 
 La non-correspondance des paramètres d’Expression fait référence à la pratique consistant à utiliser des types de paramètres différents entre vos ''Expression Parameters'' et les paramètres de votre ''Animator Controller'' local. Bien qu’il soit recommandé de garder les types de paramètres cohérents, la non-correspondance est prise en charge et le système convertira les valeurs entre les types selon des règles spécifiques. Cela peut être utile dans certaines configurations <u>avancées</u>.
 Le même comportement de conversion peut aussi être utilisé avec les paramètres pré-intégrés de l' ''Animator'' VRChat.
 
-<div class="mw-translate-fuzzy">
-Le système Animator de Unity utilise des flottants en interne pour tous les types de paramètres, tandis que VRChat utilise des SBytes pour le stockage des paramètres. L’interface utilisateur dans Unity et le VRCSDK vous permet de sélectionner des types de paramètres par commodité, mais sous le capot, des conversions sont possibles. Cela signifie que les paramètres ne sont pas convertis (cast), mais plutôt non correspondants. Ce comportement est également pris en charge par des outils populaires tels que Av3Emulator et Gesture Manager.
-</div>
+Le système Animator de Unity utilise des <code>float</code> en interne pour tous les types de paramètres, tandis que VRChat stocke les paramètres personnalisés synchronisés dans des formats compact légé pour le réseau. L’interface utilisateur dans Unity et le SDK VRC permet aux créateurs de choisir des types de paramètres par convenance, mais sous le capot, des conversions de valeurs sont possibles. Cela signifie que les paramètres ne sont pas convertis (cast), mais plutôt non correspondants entre les systèmes. Ce comportement est également pris en charge par des outils populaires tels que Av3Emulator et Gesture Manager.
 
 <span id="Expression_Parameter_Bool"></span>
 ===Paramètre d’Expression Bool===
