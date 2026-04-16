@@ -67,14 +67,12 @@ Lorsqu'un contrôle de marionnette est ouvert, VRChat synchronise ses valeurs en
 <span id="Settings"></span>
 === Paramètres ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Each entry in the Expression Parameters asset stores:
-* '''Name''', which must match the Animator parameter name exactly.
-* '''Type''', which can be <code>Bool</code>, <code>Int</code>, or <code>Float</code>.
-* '''Default''', which is used when the avatar is reset.
-* '''Saved''', which controls whether the value persists between sessions.
-* '''Synced''', which controls whether the value is sent to other users.
-</div>
+Chaque entrée dans le fichier Expression Parameters stocke : 
+* '''Name''' Nom, qui doit impérativement correspondre au nom du paramètre dans l' ''Animator''.
+* '''Type''' Type, qui doit être un <code>Bool</code>, <code>Int</code>, ou <code>Float</code>.
+* '''Default''' Défaut, qui est utilisé quand l'avatar se réinitialise en jeu, son état de base.
+* '''Saved''' Sauvegardé, qui contrôle si la valeur persiste entre les sessions.
+* '''Synced''' Synchronisé, qui contrôle si la valeur est transmise ou non aux autre utilisateurs.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet controls temporarily use faster ''IK'' sync while they are actively open.
