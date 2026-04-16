@@ -41,15 +41,13 @@ Le SDK inclut aussi un bouton ''Default Parameters''(Paramètres par défaut). C
 <span id="Controls"></span>
 ====Contrôles====
 
-<div class="mw-translate-fuzzy">
-Vous pouvez créer jusqu'à 8 contrôles différents par pages :
-* Bouton (Button)
-* Activer/Désactiver (Toggle)
-* Sous-menu (Sub Menu)
-* Contrôle à deux axes (Two Axis Puppet)
-* Contrôle à quatres axes (Four Axis Puppet)
-* Menu radial (Radial Puppet)
-</div>
+Vous pouvez créer jusqu'à 8 contrôles différents par pages. Lorsque vous créez un contrôle, choississez son type :
+* '''Button''' Bouton définit une valeur lorsque l'on appuie, puis se réinitialise une fois que VRChat a envoyé la modification.
+* '''Toggle''' Activer/Désactiver définit une valeur lorsqu'elle est activée et la réinitialise lorsqu'elle est désactivée.
+* '''Sub Menu''' Sous-menu ouvre un autre '''Expressions menu''',  et permet optionnellement de définir un paramètre pendant que ce sous-menu est ouvert.
+* '''Two Axis Puppet''' contrôle deux paramètres float à partir d'entrées horizontale et verticale, généralement dans la plage <code>0.0</code> à <code>1.0</code>.
+* '''Four Axis Puppet''' contrôle quatre paramètre float, un pour chaque direction, généralement dans la plage <code>0.0</code> à <code>1.0</code>.
+* '''Radial Puppet''' Menu radial contrôle un paramètre float de <code>0.0</code> à <code>1.0</code>.
 
 <span id="Puppet_Menu_Example"></span>
 =====Example du « Puppet Menu »=====
