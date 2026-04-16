@@ -8,7 +8,7 @@ Any avatar that can animate or uses any form of movement tracking, has a 'skelet
 
 IK 2.0 was introduced<ref>[https://www.youtube.com/watch?v=hZKv9_77xlM 'VRChat - IK 2.0 Released!'] on ''YouTube''; retrieved March 18, 2025.</ref> on May 25, 2022, just shortly after the release<ref>[https://docs.vrchat.com/docs/vrchat-202212 'VRChat 2022.1.2'] on ''docs.vrchat.com''; retrieved March 18, 2025.</ref> of [[Avatar Dynamics]]<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live 'Avatar Dynamics is Now Live'] on ''VRChat's Blog''; retrieved March 18, 2025.</ref> and [[Physbones]] in April 2022. The releases of IK 2.0 and Avatar Dynamics, have drastically improved the quality of avatar movements, and flexibility. 
 
-==IK settings within VRChat==
+==Settings==
 <small>''For more detailed information, see also [[Settings#Tracking_&_IK]].''</small>
 
 ====Face Tracking====
@@ -201,7 +201,7 @@ Adjustment arrows for User Real hight increment in inches instead of cm
 |Offsets the knee-bend angle as predicted by the foot angle. Ignored if knee trackers are used.
 |}
 
-==In the SDK==
+==SDK==
 [[File:VRCAvatarDescriptorIK.webp|thumb|A screenshot within Unity, to highlight VRChat SDK's various options for Inverse Kinematics.]]
 Within Unity, an avatar's skeleton can be inspected and rigged. Within the [[VRChat SDK]], any IK animations can be edited. In addition, [[PhysBones]] and SquishyBones can be placed onto the avatar.
 
@@ -244,6 +244,7 @@ Certain avatar dynamics tie in with Inverse Kinematics! Certain toggles, interac
 ** [[Full-Body Tracking]]
 ** [[Finger tracking]]
 ==References==
+<references/>
 [[Category:Features]]
 [[Category:Avatars]]
-[[Category:VRCSDK]]
+[[Category:SDK]]
