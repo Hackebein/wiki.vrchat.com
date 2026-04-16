@@ -1,0 +1,19 @@
+This [[Special:MyLanguage/Template:Noticebox|noticebox]] can be added to pages to mark them for deletion by [[Special:MyLanguage/VRCWiki:Wiki Moderators|Wiki Moderators]]. Pages with this template are added to the category [[Special:MyLanguage/:Category:Pages marked for deletion|Pages Marked for Deletion]]. Adding <code><nowiki>~~~~</nowiki></code> to the second parameter signs the template with your name.
+
+== Pre-made reasons ==
+When possible, prefer to use a pre-made reason, which are automatically translated & localized.
+
+=== Empty or missing content ===
+ <nowiki>{{Delete/Empty|~~~~}}</nowiki>
+{{Delete/Empty}}
+
+== Custom reason ==
+ <nowiki>{{Delete|A detailed and descriptive reason.|~~~~}}</nowiki>
+{{Delete|A detailed and descriptive reason.}}
+
+'''Note:''' If you need to transclude this template without adding the page to this category, use the parameter <code>nocat=1</code>.
+
+<includeonly>
+[[Category:Utility templates{{#translation:}}]]
+[[Category:Noticeboxes{{#translation:}}]]
+</includeonly>
