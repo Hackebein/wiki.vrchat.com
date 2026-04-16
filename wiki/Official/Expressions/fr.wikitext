@@ -110,9 +110,7 @@ Pour assurer un support fiable des utilisateurs rejoignant tardivement, il est r
 <span id="Gestures_and_facial_expressions"></span>
 === Gestures et expressions faciales ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The built-in <code>GestureLeft</code> and <code>GestureRight</code> parameters identify the user's hand gesture, while <code>GestureLeftWeight</code> and <code>GestureRightWeight</code> expose analog trigger pressure. On humanoid avatars, the Gesture playable layer is commonly used for hand poses, while facial expressions are often driven from the FX layer with blendshapes, material properties, or other non-humanoid animations.
-</div>
+Les paramètres pré-intégré <code>GestureLeft</code> et <code>GestureRight</code> indentifient la gestuelle de main de l'utilisateur, tandis que <code>GestureLeftWeight</code> et <code>GestureRightWeight</code> expose le niveaux de pression de la gachette analogique. Sur les avatars humanoïdes, la ''layer'' jouable ''Gesture'' est communnément utilisé pour la pose des main, alors que les expressions faciales sont souvent piloté par la ''layer'' FX avec des ''blendshapes'', propriétés de ''matérial'', ou autres animations non-humanoïdes.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On tracked controllers where finger tracking overrides animation by default, creators can use a Tracking Control state behavior to switch the relevant fingers from ''Tracking'' to ''Animation'' when needed.
