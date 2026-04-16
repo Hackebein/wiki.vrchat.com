@@ -36,9 +36,7 @@ Pour ajouter des expressions personnalisées, dans Unity créez un fichier '''Ex
 
 Chaque paramètre personnalisé peut être libellé comme ''Saved''(Sauvegardé) et ''Synced''(Synchronisé). Les paramètres perso. synchronisés prennent dans le budget de 256-bit de synchro de l'avatar, tandis que les avatar peuvent définir jusqu'un total de 8192 paramètres personnalisés. Les paramètres sur l'objet peuvent aussi être changé par [[Special:MyLanguage/Contacts|Contact Receivers]], [[Special:MyLanguage/parameter drivers|parameter drivers]], [[Special:MyLanguage/physbones|PhysBones]], et [[Special:MyLanguage/Open Sound Control|OSC]].
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The SDK also includes a ''Default Parameters'' button. This restores the three alias parameters used by VRChat's default AV3 controllers: <code>VRCEmote</code>, <code>VRCFaceBlendH</code>, and <code>VRCFaceBlendV</code>.
-</div>
+Le SDK inclut aussi un bouton ''Default Parameters''(Paramètres par défaut). Cela restaure les trois paramètres d'alias utilisés par les contrôleurs AV3 par défaut de VRChat: <code>VRCEmote</code>, <code>VRCFaceBlendH</code>, et <code>VRCFaceBlendV</code>.
 
 <span id="Controls"></span>
 ====Contrôles====
