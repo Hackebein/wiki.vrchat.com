@@ -19,7 +19,6 @@ These templates may be used inline, such as links to official VRChat documents, 
 |{{World link|wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd|VRChat Home}}
 |}
 
-
 ==Noticeboxes==
 
 {| class="wikitable"
@@ -30,7 +29,7 @@ These templates may be used inline, such as links to official VRChat documents, 
 |-
 | [[Special:MyLanguage/Template:Stub|Template:Stub]]
 | <code><nowiki>{{Stub}}</nowiki></code>
-| {{Stub}}
+| {{Stub|nocat=1}}
 |-
 |[[Special:MyLanguage/Template:Noticebox/Official|Template:Noticebox/Official]]
 |<code><nowiki>{{Noticebox/Official}}</nowiki></code>
@@ -58,7 +57,7 @@ These templates may be used inline, such as links to official VRChat documents, 
 |-
 |[[Special:MyLanguage/Template:Noticebox/Update|Template:Noticebox/Update]]
 |<code><nowiki>{{Noticebox/Update}}</nowiki></code>
-|{{Noticebox/Update}}
+|{{Noticebox/Update|nocat=1}}
 |-
 |[[Template:Noticebox/Unsupported]]
 |<code><nowiki>{{Noticebox/Unsupported}}</nowiki></code>
