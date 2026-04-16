@@ -1,0 +1,86 @@
+This template displays useful information for files. The template adapts the [[Wikipedia:Template:Information|Information]] template on Wikipedia.
+
+== Usage ==
+<pre>
+{{Information
+| description = 
+| source      = 
+| date        = 
+| author      = 
+| permission  = 
+| other_versions = 
+| additional_information = 
+}}</pre>
+
+== Parameters ==
+<templatedata>
+{
+	"params": {
+		"description": {
+			"label": "Description",
+			"type": "string",
+			"required": true,
+			"description": "Description of file"
+		},
+		"source": {
+			"label": "Source",
+			"type": "string",
+			"required": true,
+			"description": "Explain where the image is acquired from"
+		},
+		"date": {
+			"label": "Date",
+			"type": "string",
+			"suggested": true,
+			"description": "Date of file creation/publication"
+		},
+		"author": {
+			"label": "Author",
+			"type": "string",
+			"required": true,
+			"description": "Author of file. If individual is not known, use organization that owns/published file."
+		},
+		"permission": {
+			"label": "Permission",
+			"type": "string",
+			"required": true,
+			"description": "Description of permission for use"
+		},
+		"other_versions": {
+			"label": "Other versions",
+			"type": "string",
+			"description": "Description of permission for use"
+		},
+		"additional_information": {
+			"label": "Additional information",
+			"type": "string",
+			"description": "Any other information about the file that doesn't fit elsewhere"
+		}
+	},
+	"description": "",
+	"paramOrder": [
+		"description",
+        "source",
+        "date",
+        "author",
+        "permission",
+        "other_versions",
+        "additional_information"
+	]
+}
+</templatedata>
+
+== Example ==
+{{Information
+| description = Image of the Wagasa item, available in the Shop.
+| source = VRChat API
+| author = VRChat
+| date = 
+| permission = {{License_VRC}}
+| other_versions = 
+| additional_information = ProductID: prod_8170fecf-7c7c-4dce-8799-315140096843
+Image: file_e499d700-d704-4c1e-a218-c39f5a9c8352
+}}
+<includeonly>
+[[Category:Templates]]
+</includeonly>
