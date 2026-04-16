@@ -45,9 +45,9 @@ Vous pouvez créer jusqu'à 8 contrôles différents par pages. Lorsque vous cr�
 * '''Button''' Bouton définit une valeur lorsque l'on appuie, puis se réinitialise une fois que VRChat a envoyé la modification.
 * '''Toggle''' Activer/Désactiver définit une valeur lorsqu'elle est activée et la réinitialise lorsqu'elle est désactivée.
 * '''Sub Menu''' Sous-menu ouvre un autre '''Expressions menu''',  et permet optionnellement de définir un paramètre pendant que ce sous-menu est ouvert.
-* '''Two Axis Puppet''' contrôle deux paramètres float à partir d'entrées horizontale et verticale, généralement dans la plage <code>0.0</code> à <code>1.0</code>.
-* '''Four Axis Puppet''' contrôle quatre paramètre float, un pour chaque direction, généralement dans la plage <code>0.0</code> à <code>1.0</code>.
-* '''Radial Puppet''' Menu radial contrôle un paramètre float de <code>0.0</code> à <code>1.0</code>.
+* '''Two Axis Puppet''' pilote deux paramètres float à partir d'entrées horizontale et verticale, généralement dans la plage <code>0.0</code> à <code>1.0</code>.
+* '''Four Axis Puppet''' pilote quatre paramètre float, un pour chaque direction, généralement dans la plage <code>0.0</code> à <code>1.0</code>.
+* '''Radial Puppet''' Menu radial pilote un paramètre float de <code>0.0</code> à <code>1.0</code>.
 
 <span id="Puppet_Menu_Example"></span>
 =====Example du « Puppet Menu »=====
