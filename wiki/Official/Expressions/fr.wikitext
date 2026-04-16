@@ -112,9 +112,7 @@ Pour assurer un support fiable des utilisateurs rejoignant tardivement, il est r
 
 Les paramètres pré-intégré <code>GestureLeft</code> et <code>GestureRight</code> indentifient la gestuelle de main de l'utilisateur, tandis que <code>GestureLeftWeight</code> et <code>GestureRightWeight</code> expose le niveaux de pression de la gachette analogique. Sur les avatars humanoïdes, la ''layer'' jouable ''Gesture'' est communnément utilisé pour la pose des main, alors que les expressions faciales sont souvent piloté par la ''layer'' FX avec des ''blendshapes'', propriétés de ''matérial'', ou autres animations non-humanoïdes.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On tracked controllers where finger tracking overrides animation by default, creators can use a Tracking Control state behavior to switch the relevant fingers from ''Tracking'' to ''Animation'' when needed.
-</div>
+Sur les manettes où le suivi des doigts prime par défaut sur l'animation, les créateurs peuvent utiliser un état de contrôle de suivi (Tracking Control) pour inverser les doigts concernés de ''Tracking'' à ''Animation'' quand nécessaire.
 
 <span id="Expression_Parameter_Mismatching"></span>
 == « Expression Parameter » non compatible==
