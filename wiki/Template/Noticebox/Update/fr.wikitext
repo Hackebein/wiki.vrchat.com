@@ -1,4 +1,4 @@
-<languages/><onlyinclude>{{Noticebox
+<noinclude><languages/></noinclude>{{Noticebox
 |template=Noticebox/Update
 |image=4-ThinkRat.webp
 |title={{#switch: {{{type|page}}}
@@ -10,8 +10,8 @@
  |section = Cette section inclut des informations qui ne sont plus à jour. Veuillez mettre à jour cette section avec les informations actuelles.
 }}
 <br/>{{Reason|{{{1|}}}|{{{2|}}}}}
-|border-color=#ff9350}}<includeonly>[[Category:Needs updating{{#translation:}}]]</includeonly></onlyinclude>
-
+|border-color=#ff9350}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Needs updating{{#translation:}}]]}}</includeonly>
+<noinclude>
 {{templatedocs}}
 [[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]
+[[Category:Templates/Noticeboxes{{#translation:}}]]</noinclude>
