@@ -3,7 +3,7 @@
 |image=Tools.png
 |title=Esta página es un trabajo en progreso.
 |description=Se está trabajando activamente en esta página, es posible que la información esté incompleta o desactualizada. Puedes ayudar a la Wiki de VRChat [[Special:EditPage/{{FULLPAGENAME}}|editándola.]].<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
-|border-color=#007bd1}}</onlyinclude>
+|border-color=#007bd1}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Work in progress{{#translation:}}]]}}</includeonly></onlyinclude>
 
 {{templatedocs}}
 [[Category:Templates{{#translation:}}]]
