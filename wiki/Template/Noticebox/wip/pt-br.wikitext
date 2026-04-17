@@ -4,6 +4,7 @@
 |title=Esta página é um trabalho em andamento
 |description=Esta página está sendo trabalhada ativamente, as informações podem estar incompletas ou desatualizadas. Você pode ajudar a Wiki do VRChat [[Special:EditPage/{{FULLPAGENAME}}|editando-a.]]<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
 |border-color=#007bd1}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Work in progress{{#translation:}}]]}}</includeonly></onlyinclude>
-<noinclude>
-{{Documentation}}
-</noinclude>
+
+{{templatedocs}}
+[[Category:Templates{{#translation:}}]]
+[[Category:Templates/Noticeboxes{{#translation:}}]]
