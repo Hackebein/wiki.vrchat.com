@@ -3,7 +3,7 @@
 |image=Tools.png
 |title=Esta página aún no ha sido revisada en busca de errores.
 |description=Puedes ayudar a la Wiki de VRChat [[Special:EditPage/{{FULLPAGENAME}}|corrigiéndola]].<br/><span class="comment">[Reason: {{#if:{{{1|}}} | {{{1}}} | No reason provided.}}]</span>
-|border-color=#007bd1}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Proofread]]}}</onlyinclude>
+|border-color=#007bd1}}<includeonly>[[Category:Proofread{{#translation:}}]]</includeonly></onlyinclude>
 
 {{templatedocs}}
 [[Category:Templates{{#translation:}}]]
