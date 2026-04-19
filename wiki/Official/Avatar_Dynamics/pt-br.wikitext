@@ -21,10 +21,8 @@ Contatos (Contacts) são um sistema que permite aos avatares detectar colisões 
 
 Um '''Emissor de Contato (Contact Sender)''' define um volume de colisão que pode ser detectado por um Receptor de Contato (Contact Receive) correspondente. Os emissores podem usar formato de esfera ou cápsula, um transform raiz, deslocamentos locais de posição e rotação, e uma ou mais tags de colisão.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Noticebox/unreleased}}
-A box shape for contacts is in development and planned for a future SDK release<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] on ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 'Developer Update - 19 March 2026'] on ''[[ask.vrchat.com]]''.</ref>. Box-shaped contacts will be available for both avatars and worlds, with configurable width, height, and depth. Box-shaped contact receivers will also support an additional proximity calculation mode based on the distance from the sender to the positive Z face of the box.
-</div>
+Uma forma de caixa para contatos está em desenvolvimento e planejada para uma futura versão do SDK<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] em ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 'Developer Update - 19 March 2026'] em ''[[ask.vrchat.com]]''.</ref>. Contatos em formato de caixa estarão disponíveis tanto para avatares quanto para mundos, com largura, altura e profundidade configuráveis. Receptores de Contato (Contact Receiver) em formato de caixa também oferecerão suporte a um modo adicional de cálculo de proximidade baseado na distância do emissor até a face Z positiva da caixa.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] also creates built-in Contact Senders for common body parts such as hands and fingers.
