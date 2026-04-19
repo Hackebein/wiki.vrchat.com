@@ -16,9 +16,8 @@ O Physbones permite movimentos secundários e ossos interativos para avatares. P
 
 Contatos (Contacts) são um sistema que permite aos avatares detectar colisões consigo mesmos ou com outros avatares. Essas colisões podem então ser usadas para acionar parâmetros do Animator e realizar diversos tipos de efeitos de interação.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Contact Senders===
-</div>
+<span id="Contact_Senders"></span>
+===Emissores de Contato===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A '''Contact Sender''' defines a collision volume that can be detected by a matching Contact Receiver. Senders can use a sphere or capsule shape, a root transform, local position and rotation offsets, and one or more collision tags.
