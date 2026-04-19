@@ -24,9 +24,7 @@ Um '''Emissor de Contato (Contact Sender)''' define um volume de colisão que po
 {{Noticebox/unreleased}}
 Uma forma de caixa para contatos está em desenvolvimento e planejada para uma futura versão do SDK<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] em ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 'Developer Update - 19 March 2026'] em ''[[ask.vrchat.com]]''.</ref>. Contatos em formato de caixa estarão disponíveis tanto para avatares quanto para mundos, com largura, altura e profundidade configuráveis. Receptores de Contato (Contact Receiver) em formato de caixa também oferecerão suporte a um modo adicional de cálculo de proximidade baseado na distância do emissor até a face Z positiva da caixa.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] also creates built-in Contact Senders for common body parts such as hands and fingers.
-</div>
+Em avatares, a seção ''Colliders'' do [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] também cria '''Emissores de Contato (Contact Senders)'''  integrados para partes comuns do corpo, como mãos e dedos.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Contact Receivers===
