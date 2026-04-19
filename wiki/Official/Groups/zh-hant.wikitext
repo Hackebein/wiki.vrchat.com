@@ -156,7 +156,7 @@
 |-
 |Manage Group Default Role（管理群組預設身分組）||<small>允許管理預設身分組（Everyone）的權限。需同時具備「Manage Group Default Role」（管理群組預設身分組）權限。</small>
 |-
-|Assign Group Roles（分配群組身分組）||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small></span>
+|Assign Group Roles（分配群組身分組）||<small>允許對用戶分配或移除身分組。需同時具備「Manage Group Member Data」（管理群組成員資訊）權限。</small>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">Manage Group Bans</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to ban/unban users and view all banned users. Requires “Manage Group Member Data”.</small></span>
 |-
