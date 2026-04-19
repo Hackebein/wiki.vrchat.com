@@ -29,9 +29,7 @@ Em avatares, a seção ''Colliders'' do [[Special:MyLanguage/Avatar Descriptor|A
 <span id="Contact_Receivers"></span>
 ===Receptores de Contato===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A '''Contact Receiver''' listens for matching senders and writes a value to an Animator parameter on the avatar. Receivers can be configured to allow self-contact, other users, or only local evaluation.
-</div>
+Um '''Receptor de Contato (Contact Receiver)''' detecta '''Emissores de Contato (Contact Senders)''' correspondentes e escreve um valor em um parâmetro do Animator no avatar. Os receptores podem ser configurados para permitir auto-contato, outros usuários ou apenas avaliação local.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 VRChat supports three receiver behaviors:
