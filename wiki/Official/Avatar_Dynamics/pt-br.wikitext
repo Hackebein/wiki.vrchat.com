@@ -42,9 +42,7 @@ O VRChat oferece suporte a três comportamentos de receptor:
 <span id="Tags_and_parameters"></span>
 ===Tags e Parâmetros===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Contacts only interact when a sender and receiver share at least one matching collision tag. The receiver's ''Parameter'' field determines which Animator parameter is updated. Depending on the Animator parameter type, the value may be interpreted as a float, int, or bool.
-</div>
+Contacts só interagem quando um emissor e um receptor compartilham pelo menos uma tag de colisão correspondente. O campo ''Parameter'' do receptor determina qual parâmetro do Animator é atualizado. Dependendo do tipo de parâmetro do Animator, o valor pode ser interpretado como float, int ou bool.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Debugging===
