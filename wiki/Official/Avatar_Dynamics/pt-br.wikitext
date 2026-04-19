@@ -31,12 +31,13 @@ Em avatares, a seção ''Colliders'' do [[Special:MyLanguage/Avatar Descriptor|A
 
 Um '''Receptor de Contato (Contact Receiver)''' detecta '''Emissores de Contato (Contact Senders)''' correspondentes e escreve um valor em um parâmetro do Animator no avatar. Os receptores podem ser configurados para permitir auto-contato, outros usuários ou apenas avaliação local.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-VRChat supports three receiver behaviors:
-* '''Constant''' keeps a parameter active while a matching sender stays inside the receiver.
-* '''On Enter''' activates for one frame when a matching sender enters, optionally requiring a minimum velocity.
-* '''Proximity''' outputs a float from `0.0` to `1.0` based on how close the sender is to the center of the receiver.
-</div>
+O VRChat oferece suporte a três comportamentos de receptor:
+
+* '''Constant''' mantém um parâmetro ativo enquanto um '''Emissor de Contato (Contact Sender)''' correspondente permanecer dentro do receptor.
+* '''On Enter''' é ativado por um quadro quando um '''Emissor de Contato (Contact Sender)''' correspondente entra, podendo opcionalmente exigir uma velocidade mínima.
+* '''Proximity''' gera um valor float de `0.0` a `1.0` com base na proximidade do emissor em relação ao centro do receptor.
+
+<!-- Mais algumas coisas intrínsecas do Unity que não podem ser traduzidas no momento, já que não há localização do Unity e do SDK do VRChat para PT-BR. -->
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Tags and parameters===
