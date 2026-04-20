@@ -6,4 +6,7 @@ This template is used to denote when the contents of a page or section is outdat
 === Example Usage ===
 * <code><nowiki>{{Noticebox/Update|type=page}}</nowiki></code>
 * <code><nowiki>{{Noticebox/Update|type=section|Images are out of date.}}</nowiki></code>
-<noinclude>[[Category:Template Documentation]]</noinclude>
+<includeonly>
+[[Category:Noticebox templates{{#translation:}}]]
+</includeonly>
+<noinclude>[[Category:Template documentation{{#translation:}}]]</noinclude>
