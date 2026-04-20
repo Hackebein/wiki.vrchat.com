@@ -1,10 +1,10 @@
-<languages/><onlyinclude>{{Noticebox
+<noinclude><languages/></noinclude>{{Noticebox
 |template=Noticebox/unreleased
 |image=CautionTriangle.png
 |title=Contenu non sorti ou en bêta !
 |description=Ce contenu n'est pas encore sorti ou en [[Special:MyLanguage/Open Beta|bêta]], gardez en tête qu'il peut encore changer !<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
-|border-color=#ffbf00}}</onlyinclude>
-<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
+|border-color=#ffbf00}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
 
+<noinclude>
 {{Documentation}}
-[[Category:Noticebox templates{{#translation:}}]]
+</noinclude>
