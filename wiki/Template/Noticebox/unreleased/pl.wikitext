@@ -4,7 +4,7 @@
 |title=Treści nieopublikowane bądź w wersji beta!
 |description=Poniższe treści nie zostały jeszcze opublikowane bądź są w [[Special:MyLanguage/Open Beta|wersji beta]] i mogą ulec zmianie!<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
 |border-color=#ffbf00}}</onlyinclude>
+<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
 
-{{templatedocs}}
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]
+{{Documentation}}
+[[Category:Noticebox templates{{#translation:}}]]
