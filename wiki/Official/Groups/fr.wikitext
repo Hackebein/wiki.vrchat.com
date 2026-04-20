@@ -1,5 +1,18 @@
 <languages/>
 {{Noticebox/Official}}
+{{Infobox/Feature
+|name=Groups
+|image=Icons Groups 25.png
+|platforms= PC, Android, iOS
+|branch_live_date = December 7 2022
+|branch_live_version = 2022.4.2 Build 1274
+|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202242 2022.4.2]
+|branch_openbeta_date = November 30 2022
+|branch_openbeta_version = 2022.4.2 Build 1270
+|branch_openbeta_releasenote = [https://discord.com/channels/189511567539306508/503009489486872583/1047706194128687134 2022.4.2 Open Beta]
+|branch_announcement_date = April 13 2021
+|branch_announcement_link = [https://medium.com/vrchat/vrchat-april-2021-dev-stream-recap-8502bb8c9163#:~:text=Groups VRChat April 2021 Dev Stream Recap!]
+}}
 [[File:Groups Render.webp|thumb|Rendu officiel du logo « Groupes ».]]
 Les '''Groupes''' sont une fonctionnalité sociale conçue pour former, maintenir et organiser des communautés et des instances au sein de VRChat.
 
@@ -73,7 +86,6 @@ La '''visibilité''' d'un groupe détermine si le groupe peut ou ne peut pas êt
 
 Comme mentionné, les utilisateurs peuvent masquer quelconque groupe public de leur profil via les paramètres de visibilité.
 
-
 <span id="Group_banner"></span>
 ===Bannière de groupe===
 
@@ -105,7 +117,9 @@ Les permissions du propriétaire du groupe ne peuvent en aucun cas être modifi�
 
 Les rôles peuvent être ajoutés, renommés ou supprimés à tout moment par la gestion du groupe. Chaque rôle peut être accompagné d'une description et d'un ensemble personnalisé de permissions. Les permissions peuvent être activées ou désactivées pour un groupe. Les rôles peuvent également être configurés pour être '''Attribués à l'inscription''', '''Auto-attribuables''' ou '''Nécessitant une A2F'''.
 
+<div class="mw-translate-fuzzy">
 Les rôles auto-attribuables sont facultatifs. Les utilisateurs peuvent se connecter au site Web de VRChat pour s’attribuer des rôles, si cette option est disponible. Cependant, les utilisateurs ayant des comptes de plateforme, tels que Steam ou Meta, ne peuvent pas se connecter et le faire, car l’accès à leur compte sur le site Web de VRChat nécessite la [[Special:MyLanguage/Getting Started#Account Creation|création d’un compte VRChat]]. L’administration du groupe peut attribuer manuellement des rôles à n’importe quel utilisateur à tout moment.
+</div>
 
 {| class="wikitable"
 |+
