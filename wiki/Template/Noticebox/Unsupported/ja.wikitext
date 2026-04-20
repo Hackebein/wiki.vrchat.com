@@ -1,16 +1,10 @@
-<onlyinclude><languages/>{{Noticebox
+<noinclude><languages/></noinclude><onlyinclude>{{Noticebox
 |template=Noticebox/Unsupported
 |image=Icon_Circle_X_Mark.svg
 |title=非推奨になった内容が含まれています。
 |description=このコンテンツは非推奨となっており、期待どおりに動作しないか、最新のリリースと互換性がない可能性があります。<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
 |border-color=#160707
 |background-color=#260707}}</onlyinclude>
-
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]
-<templatedata>
-{
-	"params": {},
-	"description": "This template is used to denote content that is no longer supported or maintained and might be broken or incompatible, e.g. a third party asset."
-}
-</templatedata>
+<noinclude>
+{{Documentation}}
+</noinclude>
