@@ -1,10 +1,11 @@
-<languages/><includeonly>{{Noticebox
+<noinclude><languages/></noinclude><onlyinclude>{{Noticebox
 |template=Noticebox/Conflict of interest
 |image=UserpageCOI.svg
 |title=利益相反
 |description=このページは、[[Special:MyLanguage/VRCWiki:Conflicts_of_interest|利益相反]]ポリシーに違反して利害関係者によって書かれたものであり、'''削除される可能性があります'''。十分にさまざまな立場の編集者による修正が加えられた場合、この注意書きは削除されることがあります。<br/><br/>[[Special:EditPage/{{FULLPAGENAME}}|このページの編集]]を検討してください。
 |background-color=#FBF07129
-|border-color=#fbf071}}</includeonly><noinclude>
-{{templatedocs}}
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]</noinclude>
+|border-color=#fbf071}}</onlyinclude>
+
+<noinclude>
+{{Documentation}}
+</noinclude>
