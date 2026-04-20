@@ -115,10 +115,8 @@ As instâncias podem ser configuradas com uma fila. Quando a capacidade é exced
 
 Um usuário pode se conectar diretamente a uma instância se outro cliente próprio já estiver conectado. O novo cliente desconecta o antigo ao entrar, permitindo alternar entre realidade virtual e desktop sem perder sua vaga em uma instância completa.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Avatar Performance Gated====
+====Desempenho do Avatar Controlado====
 {{Noticebox/unreleased|{{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}}}
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Group instances have the option to set a minimum performance limit for avatars. These limits are set on instance creation and applies to all users within the instance. The Minimum Performance Limit can be set to limit Poor, Medium, or Good avatars. The default is set to none.
