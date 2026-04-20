@@ -4,7 +4,6 @@
 |title=本頁面正在製作中
 |description=由於頁面正在積極製作中，其資訊可能不完整或過時。你可以透過點擊「[[Special:EditPage/{{FULLPAGENAME}}|編輯它]]」來協助完善這個頁面。<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
 |border-color=#007bd1}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Work in progress{{#translation:}}]]}}</includeonly></onlyinclude>
-
-{{templatedocs}}
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]
+<noinclude>
+{{Documentation}}
+</noinclude>
