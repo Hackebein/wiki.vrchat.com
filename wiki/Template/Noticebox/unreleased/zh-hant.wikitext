@@ -1,10 +1,10 @@
-<languages/><onlyinclude>{{Noticebox
+<noinclude><languages/></noinclude>{{Noticebox
 |template=Noticebox/unreleased
 |image=CautionTriangle.png
 |title=未發布或仍處於測試中的內容！
 |description=本內容目前尚未正式發布，或仍處於[[Special:MyLanguage/Open Beta|公開測試]]階段，請注意其內容可能隨時變更！<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
-|border-color=#ffbf00}}</onlyinclude>
-<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
+|border-color=#ffbf00}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
 
+<noinclude>
 {{Documentation}}
-[[Category:Noticebox templates{{#translation:}}]]
+</noinclude>
