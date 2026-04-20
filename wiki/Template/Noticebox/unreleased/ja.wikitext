@@ -1,10 +1,10 @@
-<languages/><onlyinclude>{{Noticebox
+<noinclude><languages/></noinclude>{{Noticebox
 |template=Noticebox/unreleased
 |image=CautionTriangle.png
 |title=未リリースまたはベータの内容が含まれています。
 |description=この内容はまだリリースされていないか、ベータ版です。<br/>変更される可能性があることにご注意ください！<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
-|border-color=#ffbf00}}</onlyinclude>
-<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
+|border-color=#ffbf00}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
 
+<noinclude>
 {{Documentation}}
-[[Category:Noticebox templates{{#translation:}}]]
+</noinclude>
