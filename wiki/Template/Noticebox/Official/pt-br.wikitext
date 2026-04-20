@@ -7,6 +7,6 @@ Saiba como contribuir para esta página lendo o [[Special:MyLanguage/VRCWiki:Con
 |border-color=var(--less-dark-green-border)
 |background-color=#162230}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Official Pages{{#translation:}}]][[Category:Official Content{{#translation:}}]]}}</onlyinclude>
 
-{{templatedocs}}
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]
+<noinclude>
+{{Documentation}}
+</noinclude>
