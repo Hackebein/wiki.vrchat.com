@@ -1,2 +1,5 @@
-{{Delete|This page was marked for deletion because it is empty. You may remove this notice  without maintainer approval by [[Special:EditPage/{{FULLPAGENAME}}|editing this page]] and adding '''substantial content'''.|{{{1|}}}|variant=Empty<noinclude>|nocat=1</noinclude>}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Pages marked for deletion{{#translation:}}]]}}</includeonly>
-<noinclude>[[Category:Noticebox templates]]</noinclude>
+<includeonly>{{Delete|This page was marked for deletion because it is empty. You may remove this notice  without maintainer approval by [[Special:EditPage/{{FULLPAGENAME}}|editing this page]] and adding '''substantial content'''.|{{{1|}}}|variant=Empty|nocat={{{nocat|}}}}}</includeonly>
+
+<noinclude>
+{{Documentation}}
+</noinclude>
