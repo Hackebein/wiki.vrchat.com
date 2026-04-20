@@ -4,7 +4,7 @@
 |title=Contenu non sorti ou en bêta !
 |description=Ce contenu n'est pas encore sorti ou en [[Special:MyLanguage/Open Beta|bêta]], gardez en tête qu'il peut encore changer !<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
 |border-color=#ffbf00}}</onlyinclude>
+<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
 
-{{templatedocs}}
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]
+{{Documentation}}
+[[Category:Noticebox templates{{#translation:}}]]
