@@ -12,6 +12,7 @@ Bien que l'authentification à deux facteurs aide à protéger votre compte, ass
 
 Voici quelques instructions afin de vous aider à mettre en place <ref>[https://docs.vrchat.com/docs/setup-2fa 'Two-Factor Authentication'] sur ''docs.vrchat.com''; récupéré le 15 février 2025.</ref> l'authentification à deux facteurs (A2F).
 
+<div class="mw-translate-fuzzy">
 #Rendez-vous sur le site web de VRChat et connectez-vous.
 #Appuyez sur le bouton « Edit profile » en haut à gauche, à côté du bouton « Message ».
 #Téléchargez n'importe quelle application d'authentification. Authy est conseillée, car elle vous permet de sauvegarder votre compte sur un cloud avec un mot de passe crypté, rendant vos codes A2F plus sécurisés. Si vous vous inquiétez d'une possible perte ou d'un changement d'appareil, il s'agit de la meilleure option.
@@ -20,9 +21,12 @@ Voici quelques instructions afin de vous aider à mettre en place <ref>[https://
 ''Si vous utilisez Authy, appuyez sur les points dans le coin supérieur droit, sélectionnez « Add Account », puis scannez le QR code sur le site web ou sélectionnez « Enter Key Manually » et entrez le code affiché.
 #Appuyez sur « Verify »
 #Si tout a correctement été fait, le message « You are protecting your account with an additional login step. » s'affichera. Si cela n'est pas le cas, vérifiez à nouveau le code ; celui-ci change toutes les trente secondes. De plus, assurez-vous de taper le code correctement. Sur cet écran, vous aurez des informations sur les codes de récupération. Dans le cas où vous perdriez ou endommageriez votre appareil ou que vous ne pouvez accéder à vos codes d'authentification, les codes de récupération vous aideront à vous connecter.
+</div>
 
+<div class="mw-translate-fuzzy">
 <center>'''TÉLÉCHARGEZ VOS CODES DE RÉCUPÉRATION ET GARDEZ LES SÉCURISÉS. DANS LE CAS CONTRAIRE, VOUS POURRIEZ PERDRE L'ACCÈS A VOTRE COMPTE'''</center>
 Si vous êtes sur mobile, entrez le code manuellement. Désormais, lorsque vous vous connectez, il pourra vous être demandé de saisir votre code d'authentification - surtout s'il semble que vous vous connectez d'un nouvel emplacement ou appareil.
+</div>
 
 <span id="How_to_log_into_VRChat_with_your_authenticator_app"></span>
 ==Comment se connecter à VRChat avec l'application d'authentification==
@@ -30,32 +34,36 @@ Si vous êtes sur mobile, entrez le code manuellement. Désormais, lorsque vous 
 <span id="VRChat_client"></span>
 ===Client VRChat===
 
+<div class="mw-translate-fuzzy">
 Lorsque vous vous connectez à votre compte VRChat, il pourra vous être demandé de saisir votre code d'authentification à deux facteurs après avoir entrer votre nom d'utilisateur et mot de passe
 #Appuyez sur le champ om est dit « Saisir le code... »
 #Utilisez le pavé numérique pour saisir le code à six chiffres de votre application d'authentification, puis appuyez sur OK.
 #Appuyez ensuite sur le bouton « Vérifier » si disponible.
-Si cela ne fonctionne pas, vérifiez que le code soit bien saisi et qu'il n'ait pas changé avant d'avoir appuyé sur OK. Si vous restez dans l'incapacité de vous connecter avec votre authentificateur, appuyez sur «  Utiliser le code de récupération ». '''Chaque code de récupération ne peut être utilisé qu'une fois'''. Si vous n'avez pas accès à votre application d'authentification ou à vos codes de récupération, essayez de vous connecter sur le site web de VRChat et désactivez 'l'authentification à deux facteurs' dans les paramètres. 
+Si cela ne fonctionne pas, vérifiez que le code soit bien saisi et qu'il n'ait pas changé avant d'avoir appuyé sur OK. Si vous restez dans l'incapacité de vous connecter avec votre authentificateur, appuyez sur «  Utiliser le code de récupération ». '''Chaque code de récupération ne peut être utilisé qu'une fois'''. Si vous n'avez pas accès à votre application d'authentification ou à vos codes de récupération, essayez de vous connecter sur le site web de VRChat et désactivez 'l'authentification à deux facteurs' dans les paramètres.
+</div> 
 
 <span id="Website"></span>
 ===Site web===
 
+<div class="mw-translate-fuzzy">
 Lorsque vous vous connectez sur le site web de VRChat après avoir saisi votre nom d'utilisateur et mot de passe, il peut vous être demandé de saisir le code d'authentification à deux facteurs. Voici quoi faire :
 #Ouvrez l'application d'authentification.
 #Appuyez sur le champ où est écrit « 000 000 ».
 #Saisissez le code de votre application d'authentification.
 #Appuyez sur le bouton « Vérifier ».
 Si cela ne fonctionne pas, vérifiez que le code soit bien saisi et qu'il n'ait pas changé avant d'avoir appuyé sur OK.
-En cas d'urgence, appuyez sur « Utiliser le code de récupération » mais attention : '''Chaque code ne peut être utilisé qu'une fois'''. Si vous pensez avoir perdu accès à votre application d'authentification ou à ses données, désactivez l'A2F jusqu'à ce que vous puissiez le réactiver avec un nouvel appareil ou une nouvelle application. 
+En cas d'urgence, appuyez sur « Utiliser le code de récupération » mais attention : '''Chaque code ne peut être utilisé qu'une fois'''. Si vous pensez avoir perdu accès à votre application d'authentification ou à ses données, désactivez l'A2F jusqu'à ce que vous puissiez le réactiver avec un nouvel appareil ou une nouvelle application.
+</div> 
 
 ===SDK===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-when you sign into the VRChat SDK in a new project after entering your Username and Password You will be prompted to enter a Two-Factor authentication code. Here’s what to do:
+when you sign into the VRChat SDK in a new project after entering your Username and Password, you will be prompted to enter a Two-Factor authentication code. Here’s what to do:
 #Open the authenticator app.
 #Click on the field that labeled "Code:".
 #Enter a code from your authenticator app.
 #Now press the verify button.
-If this doesn't work check you have entered the code correctly and that it has not changed before you clicked ok, in case of emergency click "Use recovery code" but '''be careful each code can only be used once''' If you think you might have lost your authenticator app or its data permanently, sign into the VRChat website and disable Two-factor authentication.
+If this doesn't work, check that you have entered the code correctly and that it has not changed before you clicked ok. In case of emergency, click "Use recovery code" but '''be careful, each code can only be used once.''' If you think you might have lost your authenticator app or its data permanently, sign into the VRChat website and disable Two-factor authentication.
 </div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -68,11 +76,11 @@ If you lose the device with the authenticator app, or its data is deleted, you c
 #Then, login to the VRChat website with your username and password. When you get to the Two-Factor Authentication screen, click on "Use a recovery code instead".
 #Enter one of your recovery codes into the field.
 #You should now be logged into VRChat.
-if successful its recommended to delete or cross out the recovery code you have used since it can only be used once. If you think you can get that authenticator app back soon, you can just log into VRChat normally with a recovery code. But be careful, you only have ten recovery codes if not disable Two-factor authentication until you can enable it again with a new device or app.
+If successful, its recommended to delete or cross out the recovery code you have used since it can only be used once. If you think you can get the authenticator app back soon, you can log into VRChat normally with a recovery code. But be careful, you only have ten recovery codes. If not, disable Two-Factor Authentication until you can enable it again with a new device or app.
 </div> 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-if this didn't go to [http://help.vrchat.com help.vrchat.com] and submit a locked account recovery request. 
+If you are unable to retrieve your authenticator app, go to [http://help.vrchat.com help.vrchat.com] and submit a locked account recovery request. 
 ==How to disable Two-factor Authentication.==
 </div>
 
@@ -93,3 +101,4 @@ Two-factor Authentication should now be disabled, if not please contact VRChat a
 * [https://docs.vrchat.com/docs/setup-2fa Two-Factor Authentication] on ''docs.vrchat.com''
 * [http://help.vrchat.com VRChat Help Page] on ''help.vrchat.com''
 </div>
+[[Category:Needs images]]
