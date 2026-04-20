@@ -71,10 +71,8 @@ Ao interagir com um Espelho em um mundo, os usuários poderão ativar ou alterna
 
 O [[Special:MyLanguage/VRChat SDK|SDK do VRChat]] contém um prefab para um espelho pronto para usar que pode ser arrastado para uma cena. Este prefab encontra-se no seguinte caminho:<br>
 <code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code>
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Technical details ===
-Mirrors render during <code>Camera.onPreCull</code>. World creators using scripts that depend on mirror render timing should account for this.
-</div>
+=== Detalhes Técnicos ===
+Os espelhos são renderizados durante <code>Camera.onPreCull</code>. Os criadores de mundos que utilizam scripts dependentes do tempo de renderização dos espelhos devem levar isso em consideração.
 
 <span id="Resources"></span>
 == Recursos ==
