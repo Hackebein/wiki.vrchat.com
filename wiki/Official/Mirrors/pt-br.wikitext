@@ -52,13 +52,12 @@ Um espelho transparente geralmente reflete os avatares ao seu redor enquanto age
 
 Cada objeto refletido em um espelho precisa ser renderizado novamente, separadamente do que o usuário vê no mundo jogável. Um espelho que reflete o mundo inteiro duplicará o custo de desempenho da renderização do mundo. A ocultação por oclusão não funciona em reflexos de espelho, portanto, um espelho voltado para uma parede ainda tentará renderizar tudo o que está atrás da parede também.
 
-<div class="mw-translate-fuzzy">
 Os criadores podem reduzir o custo de desempenho dos espelhos de várias maneiras, tais como:
 * Desativar todos os espelhos por padrão. Ativar um espelho apenas quando o usuário apertar um botão ou se aproximar fisicamente dele.
 * Desativar os espelhos quando um usuário sair da área. Isso removerá o custo de renderização de um espelho quando um jogador não estiver usando-o. Os usuários muitas vezes não fazem isso por conta própria, então use um script para fazer isso por eles.
 * Considerar a localização dos espelhos. Um espelho voltado para longe do centro do mundo terá que renderizar menos do que um voltado para dentro.
-* Alterar as [[Special:MyLanguage/Layers{{#translation:}}|Camadas]]
-</div>
+* Alterar as [[Special:MyLanguage/Layers|Camadas]] que um espelho reflete. Um espelho renderiza apenas os objetos nas camadas definidas. Por exemplo, se você tiver um grande mundo ao ar livre com uma casa no meio, poderá definir os objetos do ambiente externo na camada de ambiente e, em seguida, desativar essa camada nos espelhos dentro da casa. Isso impedirá que os espelhos tentem renderizar o ambiente que não conseguem ver.
+Ao interagir com um Espelho em um mundo, os usuários poderão ativar ou alternar entre diferentes opções para economizar desempenho, tais como:
 
 * Usar apenas um espelho por vez.
 * Escolher uma opção de menor qualidade para o espelho, se disponível.
