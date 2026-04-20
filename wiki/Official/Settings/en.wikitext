@@ -785,6 +785,22 @@ Set mirror resolution to [quarter/half/full/unlimited] mode
 |Low, Medium, High
 |Level of Detail (LOD) Quality
 |-
+|{{VRC+}} Third Person View {{Upcoming_inline|2026.2.1|docs.vrchat.com/docs/vrchat-202621-open-beta}}
+|On/Off
+|Enable Third Person View. See VRChat from behind your avatar! Toggle with F5, freely rotate with TAB, and adjust distance using mouse-wheel.
+|-
+|Third Person View Distance
+|10 - 100%
+|Sets the maximum distance the third person viewpoint can extend away from your avatar when third person view is active
+|-
+|Third Person View Horizontal
+| -100 - 100%
+|Sets the left/right position for the third person viewpoint relative to your avatar
+|-
+|Third Person View Vertical
+| -100 - 100%
+|Sets the up/down position for the third person viewpoint relative to your avatar
+|-
 |Vertical Field of View
 |50-100°, Reset
 |Change the field of view
@@ -1876,8 +1892,21 @@ All locally cached textures will be deleted.
 |}
 
 ==History==
-[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3]: Removed "Avatar Download Prioritization" options. VRChat now automatically prioritizes loading avatars of nearby users regardless of friend status.
-
-[https://docs.vrchat.com/docs/vrchat-202612p1-1 2026.1.2p2]: "Enable Auto Walk" default changed to Off for all users.
+{| class="wikitable"
+! colspan="2" style="width: 20%;" |Version
+!Change
+|-
+|[https://docs.vrchat.com/docs/vrchat-202621 2026.2.1]
+|[https://docs.vrchat.com/docs/vrchat-202621-open-beta 1830]
+|Added "Third Person View", "Third Person View Distance", "Third Person View Horizontal", and "Third Person View Vertical" settings.
+|-
+|[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3] 
+|[https://docs.vrchat.com/docs/vrchat-202613-open-beta 1814]
+|Removed "Avatar Download Prioritization" options. VRChat now automatically prioritizes loading avatars of nearby users regardless of friend status.
+|-
+|[https://docs.vrchat.com/docs/vrchat-202612p1-1 2026.1.2p2]
+|1802
+|"Enable Auto Walk" default changed to Off for all users.
+|}
 
 [[Category:User Interface]]
