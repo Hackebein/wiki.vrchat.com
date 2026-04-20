@@ -1,11 +1,12 @@
-<languages/><includeonly>{{Noticebox
+<noinclude><languages/></noinclude><onlyinclude>{{Noticebox
 |template=Noticebox/non-npov
 |image=Scale icon orange.svg
 |title=このページは非中立的な観点としてマークされています。
 |description=「非中立的な観点（non-neutral point of view）」とは、特定の見解・考え方・集団に対して偏りやえこひいきを示す立場や視点を指します。<br/><br/>この立場では、客観性や公平性を目指すのではなく、主観的な意見、個人的な信念、特定の意図を強調する傾向があります。
 中立的な観点と対照的に、ある立場を支持または反対する形となることが多く、偏った、一方的な表現につながりやすくなります。<br/><br/>[[Special:EditPage/{{FULLPAGENAME}}|このページの編集]]を検討してください。
 |background-color=#624A34
-|border-color=#EAB98D}}</includeonly><noinclude>
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]
-{{templatedocs}}</noinclude>
+|border-color=#EAB98D}}</onlyinclude>
+
+<noinclude>
+{{Documentation}}
+</noinclude>
