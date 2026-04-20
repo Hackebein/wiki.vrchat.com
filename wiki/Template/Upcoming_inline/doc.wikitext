@@ -6,6 +6,9 @@ This template is used to tag additions as upcoming to text inline. It will also 
 <nowiki>{{2}}</nowiki>  is the link that will be used for the text. It appends <code>https://</code> automatically.
 
 === Example Usage ===
-* <code><nowiki>{{Upcoming_inline}}</nowiki></code> will make: {{Upcoming_inline}}
-* <code><nowiki>{{Upcoming_inline|2025.3.2}}</nowiki></code> will make: {{Upcoming_inline|2025.3.2}}
-* <code><nowiki>{{Upcoming_inline|2025.3.2|docs.vrchat.com/docs/vrchat-202532}}</nowiki></code> will make: {{Upcoming_inline|2025.3.2|docs.vrchat.com/docs/vrchat-202532}}
+* <code><nowiki>{{Upcoming_inline}}</nowiki></code> will make: {{Upcoming_inline|nocat=1}}
+* <code><nowiki>{{Upcoming_inline|2025.3.2}}</nowiki></code> will make: {{Upcoming_inline|2025.3.2|nocat=1}}
+* <code><nowiki>{{Upcoming_inline|2025.3.2|docs.vrchat.com/docs/vrchat-202532}}</nowiki></code> will make: {{Upcoming_inline|2025.3.2|docs.vrchat.com/docs/vrchat-202532|nocat=1}}
+
+<includeonly>[[Category:Inline templates{{#translation:}}]]</includeonly>
+<noinclude>[[Category:Template documentation{{#translation:}}]]</noinclude>
