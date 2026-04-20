@@ -1,10 +1,11 @@
-<languages/><includeonly>{{Noticebox
+<noinclude><languages/></noinclude><onlyinclude>{{Noticebox
 |template=Noticebox/Conflict of interest
 |image=UserpageCOI.svg
 |title=利益衝突
 |description=本頁面由與該主題高度相關人士所編纂，已違反[[Special:MyLanguage/VRCWiki:Conflicts_of_interest|利益衝突]]政策，'''所以可能會被移除'''。直到本頁面已經由多位不同編輯者進行充分修改後，這則通知才會被移除。<br/><br/>請考慮[[Special:EditPage/{{FULLPAGENAME}}|編輯此頁面]]。
 |background-color=#FBF07129
-|border-color=#fbf071}}</includeonly><noinclude>
-{{templatedocs}}
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]</noinclude>
+|border-color=#fbf071}}</onlyinclude>
+
+<noinclude>
+{{Documentation}}
+</noinclude>
