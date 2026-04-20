@@ -1,10 +1,11 @@
-<languages/><includeonly>{{Noticebox
+<noinclude><languages/></noinclude><onlyinclude>{{Noticebox
 |template=Noticebox/Conflict of interest
 |image=UserpageCOI.svg
 |title=Conflict of interest
 |description=This page was written by an involved party in violation of the [[Special:MyLanguage/VRCWiki:Conflicts_of_interest|Conflict of interest]] policy, '''and may be subject to removal'''. Once this page has enough edits from varying parties, this notice may be removed.<br/><br/>Consider [[Special:EditPage/{{FULLPAGENAME}}|editing this page]].
 |background-color=#FBF07129
-|border-color=#fbf071}}</includeonly><noinclude>
-{{templatedocs}}
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]</noinclude>
+|border-color=#fbf071}}</onlyinclude>
+
+<noinclude>
+{{Documentation}}
+</noinclude>
