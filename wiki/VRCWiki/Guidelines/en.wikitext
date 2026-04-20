@@ -1,95 +1,125 @@
 {{Noticebox/Guidelines_translation}}
 <languages/>
-== VRChat Wiki Rules and Guidelines ==
+<translate>
+== VRChat Wiki Rules and Guidelines == <!--T:1-->
 
+<!--T:2-->
 Welcome to the official knowledgebase for VRChat! Publishing content is subject to the [[Special:MyLanguage/Terms of Service|Terms of Service]] and [[Special:MyLanguage/Community Guidelines|Community Guidelines]], in addition to VRChat's other policies and the Wiki. VRChat's Wiki is overseen by a group of [[Special:MyLanguage/VRCWiki:Roles|volunteer maintainers and organizers]] appointed by VRChat, Inc.
 
+<!--T:3-->
 Follow these rules and guidelines to keep the Wiki scholarly, professional, and reader-friendly. Keep them in mind when contributing to an article or page. Any questions or concerns regarding VRChat Wiki's guidelines can be directed to either [[Special:MyLanguage/VRCWiki talk:Guidelines|the discussion page]] for this article, or VRChat Wiki's [[Special:MyLanguage/Discord servers#VRChat Wiki|Discord]] server.
 
-== Type of permitted content ==
+== Type of permitted content == <!--T:4-->
 
+<!--T:5-->
 All edits should follow a [[Special:MyLanguage/VRCWiki:Neutral point of view|neutral point of view]] (NPOV) and adhere to the [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]] (MOS). If you are directly involved in creating, developing, or managing (primary source) the content of an article, you are prohibited from editing it. For more information, see VRChat Wiki's [[Special:MyLanguage/VRCWiki:Conflicts of interest|Conflict of Interest]] (COI) policy.
 
+<!--T:6-->
 VRChat is a platform for users aged thirteen and older. '''All content must be age-appropriate, and free from any inappropriate or sexually suggestive language.'''
 
+<!--T:7-->
 The following types of content are permitted on this Wiki:
 
-== Official pages ==
+== Official pages == <!--T:8-->
 
+<!--T:9-->
 '''Official pages''' are curated by the VRChat Wiki team, and contain information about official VRChat worlds, features, and other topics provided by the base platform. Users can suggest edits, but a Maintainer must approve them after publishing. Any user can freely start or discuss topics on the article's "Talk" page.
 
+<!--T:10-->
 These official pages will contain a ''noticebox'' at the top, like:
 {{Noticebox/Official}}
 
+<!--T:11-->
 Official VRChat articles include information and citations, such as:
 * Patch notes
 * Feature documentation
 * "User manual" information (controls, system requirements, UI, and menu layout)
 
+<!--T:12-->
 Information on official pages is as accurate as possible at the time of the last edit; if an article has outdated or missing information, please make an edit. After submitting an edit on an official page, the edit will be published, and the page will be updated.
 
-=== Community pages ===
+=== Community pages === <!--T:13-->
 
+<!--T:14-->
 '''Community pages''' can be created and edited by any user. These articles summarize VRChat's community content. You can start by searching for a community article in the Search Bar with ''Community:'' followed by a subject. If it does not yet have a page, and the content meets [[Special:MyLanguage/VRCWiki:Notability|notability criteria]], and does not violate the Wiki's [[VRCWiki:Conflicts of interest|Conflicts of Interest]] (COI) policies, you can create it!
 
+<!--T:15-->
 Community articles have a noticebox at the top, like:
 {{Noticebox/Community}}
 
+<!--T:16-->
 Add this noticebox by typing: <nowiki>{{Noticebox/Community}}</nowiki>.
 
-==== Guides ====
+==== Guides ==== <!--T:17-->
 
+<!--T:18-->
 '''Guides''' are informative articles that help users learn about a subject, or perform a task step by step. Guides are pages that include ''Guides:'' within the name, and also includes <nowiki>[[Category:Guide{{#translation:}}]]</nowiki> in the source code.
 
-=== Files ===
+=== Files === <!--T:19-->
 
+<!--T:20-->
 '''Files''' are images or media, that can be added to a page to visually enhance an article. Any user can upload files at [[Special:Upload]]. It is generally best practice to upload images '''in .webp format''', which retains quality and is optimized for quick loading on browsers.
 
+<!--T:21-->
 Only upload files that are relevant to VRChat, or content on a page. Remove, or blur any usernames or [[Special:MyLanguage/Groups|groups]] from images. Do not upload any sensitive, inappropriate, or sexually suggestive content.
 
-== Verification ==
+== Verification == <!--T:22-->
 
+<!--T:23-->
 Information on VRChat Wiki should be accurate, and avoid misleading readers. Cite any external information, or use Wikipedia links to direct readers to relevant information.
 
+<!--T:24-->
 When relevant, link to the {{VRC link|https://creators.vrchat.com|VRChat Creator Documentation}} or to [https://docs.unity.com Unity Documentation].
 
+<!--T:25-->
 ==== Unreleased content ====
-{{Noticebox/unreleased|This is a reason display demo. If there is a reason, it will be displayed like this.}}
+{{Noticebox/unreleased|This is a reason display demo. If there is a reason, it will be displayed like this.|nocat=1}}
 
+<!--T:26-->
 Information about upcoming features or functionality should not be documented if it is based on rumors, or speculation. If a feature or function has been documented officially by VRChat (for example, on a [[Special:MyLanguage/Developer Update|developer update]]), should be cited as a source. If content exists within the [[Special:MyLanguage/VRChat API|VRChat API]], or localization tools, such as Crowdin, content such as this can likely be placed on the [[Special:MyLanguage/Community:Leaks|Community:Leaks]] page.
 
 
+<!--T:27-->
 Add this noticebox by typing: <nowiki>{{Noticebox/unreleased|If you write a reason here, it will be displayed as the reason.}}</nowiki>.
 == Discussion pages ==
 Discussion pages, also called "talk pages", are available in the Discussion section of an article. Include a heading for the topic, followed by your content. End your post with four tildes: <code><nowiki>~~~~</nowiki></code>
 
+<!--T:28-->
 These four tildes sign your post like: -[[Special:MyLanguage/User:Screenname|Your name]] ([[Special:MyLanguage/User talk:Your name|talk]]) HH:MM, DD Month Year (UTC)
 
+<!--T:29-->
 == User pages ==
 User pages serve as personal introductions where you can share information about yourself and your activities. While these pages should follow general Wiki policies, they're exempt from conflict of interest and bias guidelines, however please:
 * Be respectful, do not use your user page to target others.
 * Avoid using your user page as a promotional page. It should be you - your personal page, not a commercial pitch for your services.
 * Do not place automatic redirects on your page, for moderation purposes, user pages must be the final destination - redirects to other pages aren't permitted as they interfere with moderation tools. If you would like your username to be displayed as the page's title, please use the following code: <code><nowiki>{{DISPLAYTITLE:User: YOURNAMEHERE}}</nowiki></code>.
 
+<!--T:30-->
 == Personal conduct, and disputes ==
 Back-and-forth edits and reversions may result from disagreements over changes, leading to repeated reversals in a short period.
 
+<!--T:31-->
 Disputes may occur. However, VRChat Wiki, like other knowledgebases, must remain civil. To prevent conflict, use clear edit summaries and seek a neutral resolution on an article's discussion page.
 
+<!--T:32-->
 Alternatively, discuss a compromise on a user page. Do not harass or act uncivil anywhere on the Wiki, including discussion pages. Refrain from altering disputed sections until an agreement is reached. Assume good faith, as most contributors want to improve the Wiki but may have different perspectives.
 
+<!--T:33-->
 ''For further information on conduct, see also:''
 
+<!--T:34-->
 * [[:Wikipedia:Wikipedia:Assume_good_faith|Wikipedia:Assume good faith]]
 * [[:Wikipedia:Dispute_resolution|Wikipedia:Dispute resolution]]
 * [[Special:MyLanguage/VRCWiki:Backseat_moderation|VRCWiki:Backseat_moderation]]
 
-==See also==
+==See also== <!--T:35-->
 
+<!--T:36-->
 * [[VRCWiki:Contributor hub|Contributor hub]]
 * [[Special:MyLanguage/VRCWiki:How to Contribute|How to Contribute]]
 * [[Special:MyLanguage/VRCWiki:Disciplinary_policy|Disciplinary policy]]
 * [[Special:MyLanguage/Community Guidelines|Community Guidelines]]
+</translate>
 [[Category:VRCWiki policies{{#translation:}}]]
 ----
 {{Navbox/Wiki_policies}}
