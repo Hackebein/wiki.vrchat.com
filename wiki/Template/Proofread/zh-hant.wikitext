@@ -1,10 +1,9 @@
-<languages/><onlyinclude>{{Noticebox
+<noinclude><languages/></noinclude><onlyinclude>{{Noticebox
 |template=Proofread
 |image=Tools.png
 |title=本頁面尚未進行錯誤校對
 |description=你可以協助 VRChat Wiki 來[[Special:EditPage/{{FULLPAGENAME}}|校對這個頁面]]。<br/><span class="comment">[Reason: {{#if:{{{1|}}} | {{{1}}} | No reason provided.}}]</span>
 |border-color=#007bd1}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Proofread{{#translation:}}]]}}</includeonly></onlyinclude>
-
-{{templatedocs}}
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]
+<noinclude>
+{{Documentation}}
+</noinclude>
