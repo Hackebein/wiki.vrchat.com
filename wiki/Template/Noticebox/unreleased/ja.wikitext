@@ -4,7 +4,7 @@
 |title=未リリースまたはベータの内容が含まれています。
 |description=この内容はまだリリースされていないか、ベータ版です。<br/>変更される可能性があることにご注意ください！<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
 |border-color=#ffbf00}}</onlyinclude>
+<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
 
-{{templatedocs}}
-[[Category:Templates{{#translation:}}]]
-[[Category:Templates/Noticeboxes{{#translation:}}]]
+{{Documentation}}
+[[Category:Noticebox templates{{#translation:}}]]
