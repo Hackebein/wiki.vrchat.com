@@ -120,11 +120,9 @@ Um usuário pode se conectar diretamente a uma instância se outro cliente próp
 
 As instâncias de grupo têm a opção de definir um limite mínimo de desempenho para os avatares. Esses limites são definidos na criação da instância e se aplicam a todos os usuários dentro dela. O Limite Mínimo de Desempenho pode ser definido para restringir avatares de qualidade Ruim, Média ou Bom. O padrão é definido como nenhum.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When the limit is in effect, users violating the performance limit will be subject to:
-* Attempting to join the instance will notify the user that their avatar violates the performance limit. They will receive a warning pop-up showing their current avatar rank, the instance performance limit, and how users will see their avatar. 
-* Within the instance, users will see their avatar as a [[Special:MyLanguage/Fallbacks|Fallback]] or an [[Special:MyLanguage/Impostors|Impostor]], but locally the user will still be in their regular avatar.
-</div>
+Quando o limite estiver em vigor, os usuários que violarem o limite de desempenho estarão sujeitos ao seguinte:
+* Ao tentar entrar na instância, o usuário será notificado de que seu avatar viola o limite de desempenho. Ele receberá uma janela pop-up de aviso mostrando a classificação atual do avatar, o limite de desempenho da instância e como os outros usuários verão seu avatar. 
+* Dentro da instância, os usuários verão seu avatar como um [[Special:MyLanguage/Fallbacks|Alternativo]] ou um [[Special:MyLanguage/Impostors|Impostor]], mas localmente o usuário continuará com seu avatar normal.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Groups can set up a role to bypass avatar performance requirements.
