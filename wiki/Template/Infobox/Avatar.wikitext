@@ -14,4 +14,5 @@
         <header>Avatar History</header>
         <data source="published"><label>Published</label></data>
     </group>
-</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Avatars{{#translation:}}]] [[Category:Community Content]]}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Avatars{{#translation:}}]]}}</includeonly><noinclude>{{Documentation}}[[Category:Infobox Templates]][[Category:Templates]]</noinclude>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Avatars{{#translation:}}]] [[Category:Community Content]]}}{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Avatars{{#translation:}}]]}}</includeonly>
+<noinclude>{{Documentation}}</noinclude>
