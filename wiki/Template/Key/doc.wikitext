@@ -1,3 +1,22 @@
+== Documentation ==
+Displays keybinds as rectangle or circle buttons.
+=== Example Usage ===
+<code><nowiki>{{Key|Ctrl|Control|rect}}</nowiki></code> will make: {{Key|Ctrl|Control|rect}}
+
+<code><nowiki>{{Key|A|A|circle}}</nowiki></code> will make: {{Key|A|A|circle}}
+
+=== Template parameters ===
+{| class="wikitable"
+|+ 
+|-
+! Name !! Variable !! Description
+|-
+| Text || <code>1</code>|| The text to display inside the button
+|-
+| Hover-Text|| <code>2</code> || (Optional) the full name of the button to show when hovered (defaults to parameter 1)
+|-
+| Shape || <code>3</code> || (Optional) shape of the button. rect/circle (defaults to rect)
+|}
 <templatedata>
 {
 	"params": {
@@ -36,3 +55,6 @@
 	]
 }
 </templatedata>
+
+<includeonly>[[Category:Inline templates{{#translation:}}]]</includeonly>
+<noinclude>[[Category:Template documentation{{#translation:}}]]</noinclude>
