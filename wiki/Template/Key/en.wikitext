@@ -15,34 +15,6 @@
   margin-right: 4px;color:black;">{{ucfirst:{{{1}}}}}</span>
 </span>
 }}
-
 <noinclude>
-== Documentation ==
-Displays keybinds as rectangle or circle buttons.
-=== Example Usage ===
-<nowiki>{{Key|Ctrl|Control|rect}}</nowiki>
-
-will make: </br>
-{{Key|Ctrl|Control|rect}}
-
-<nowiki>{{Key|A|A|circle}}</nowiki>
-
-will make: </br>
-{{Key|A|A|circle}}
-
-=== Template parameters ===
-{| class="wikitable"
-|+ 
-|-
-! Name !! Variable !! Description
-|-
-| Text || <code>1</code>|| The text to display inside the button
-|-
-| Hover-Text|| <code>2</code> || (Optional) the full name of the button to show when hovered (defaults to parameter 1)
-|-
-| Shape || <code>3</code> || (Optional) shape of the button. rect/circle (defaults to rect)
-|}
-
-[[Category:Templates]]
-[[Category:Templates/inline icons]]
+{{Documentation}}
 </noinclude>
