@@ -5,4 +5,5 @@
 |description=<translate><!--T:2--> You can help the VRChat Wiki by [[Special:EditPage/{{FULLPAGENAME}}|improving it.]]</translate><br/>{{Reason|{{{1|<translate><!--T:4--> You can [[VRCWiki:How to Contribute|contribute]] by expanding and proofreading this article, in accordance with the [[VRCWiki:Manual of Style|Manual of Style]].</translate>}}}|{{{2|}}}}}
 |background-color=#232816
 |border-color=#50451C
-}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Stubs{{#translation:}}]]}}</includeonly>
+}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Stubs{{#translation:}}]]}}</includeonly><noinclude>
+{{Documentation}}</noinclude>
