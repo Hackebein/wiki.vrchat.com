@@ -23,4 +23,4 @@
             <format>{{#timel: Y"年"Fd"日" | {{{published}}} }}</format>
         </data>
     </group>
-</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}[[Category:Worlds{{#translation:}}]]</includeonly><noinclude>{{Documentation}}[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}[[Category:Worlds{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>
