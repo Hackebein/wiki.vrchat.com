@@ -5,4 +5,5 @@
 |description=你可以透過點擊「[[Special:EditPage/{{FULLPAGENAME}}|改善它]]」來幫助 VRChat Wiki。<br/>{{Reason|{{{1|歡迎依據[[VRCWiki:Manual of Style|風格指南]]，對本頁面進行擴充與校對等等的[[VRCWiki:How to Contribute|貢獻]]。}}}|{{{2|}}}}}
 |background-color=#232816
 |border-color=#50451C
-}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Stubs{{#translation:}}]]}}</includeonly>
+}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Stubs{{#translation:}}]]}}</includeonly><noinclude>
+{{Documentation}}</noinclude>
