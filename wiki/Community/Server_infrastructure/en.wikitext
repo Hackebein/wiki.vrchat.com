@@ -9,7 +9,7 @@ Outages or scheduled maintenance on any of these systems can affect VRChat's ava
 VRChat's server-side architecture consists of three major components:<ref name="websockets-blog">[https://medium.com/vrchat/developer-blog-websockets-b5f0b424d379 "Developer Blog — Websockets"] on ''[https://medium.com/vrchat Medium]''. Dated March 23, 2019. Retrieved April 13, 2026.</ref>
 
 * '''Client''' — the VRChat application that handles rendering, user input, and the virtual reality experience.
-* '''API''' — the server-side application responsible for persistent data such as user accounts, friend lists, [[Special:MyLanguage/Worlds|worlds]], [[Special:MyLanguage/Avatars|avatars]], and [[Special:MyLanguage/Instances|instance]] metadata. The API communicates with the client via HTTP requests and [[Special:MyLanguage/WebSocket|WebSockets]].<ref name="websockets-blog" />
+* '''[[API]]''' — the server-side application responsible for persistent data such as user accounts, friend lists, [[Special:MyLanguage/Worlds|worlds]], [[Special:MyLanguage/Avatars|avatars]], and [[Special:MyLanguage/Instances|instance]] metadata. The API communicates with the client via HTTP requests and [[Special:MyLanguage/WebSocket|WebSockets]].<ref name="websockets-blog" />
 * '''Realtime networking layer''' — the high-speed communication layer that synchronizes player movement, voice, and interactions between users in the same instance. This layer is operated by Photon Engine.<ref name="photon-vrchat">[https://www.photonengine.com/ "Photon Engine"] on ''photonengine.com''; retrieved April 13, 2026. VRChat is listed as a customer using Photon for realtime multiplayer networking.</ref>
 
 == Realtime networking ==
