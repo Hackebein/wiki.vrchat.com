@@ -1,0 +1,111 @@
+<languages/>
+{{Noticebox/Community}}
+'''Server infrastructure''' refers to the collection of services and upstream providers that VRChat depends on to operate. VRChat's platform is composed of several interconnected systems, each responsible for a different aspect of the user experience, from realtime networking in [[Special:MyLanguage/Instances|instances]] to account authorization and payment processing.
+
+Outages or scheduled maintenance on any of these systems can affect VRChat's availability. VRChat publishes service status updates at {{VRC link|https://status.vrchat.com|status.vrchat.com}}.
+
+== Architecture overview ==
+
+VRChat's server-side architecture consists of three major components:<ref name="websockets-blog">[https://medium.com/vrchat/developer-blog-websockets-b5f0b424d379 "Developer Blog — Websockets"] on ''[https://medium.com/vrchat Medium]''. Dated March 23, 2019. Retrieved April 13, 2026.</ref>
+
+* '''Client''' — the VRChat application that handles rendering, user input, and the virtual reality experience.
+* '''API''' — the server-side application responsible for persistent data such as user accounts, friend lists, [[Special:MyLanguage/Worlds|worlds]], [[Special:MyLanguage/Avatars|avatars]], and [[Special:MyLanguage/Instances|instance]] metadata. The API communicates with the client via HTTP requests and [[Special:MyLanguage/WebSocket|WebSockets]].<ref name="websockets-blog" />
+* '''Realtime networking layer''' — the high-speed communication layer that synchronizes player movement, voice, and interactions between users in the same instance. This layer is operated by Photon Engine.<ref name="photon-vrchat">[https://www.photonengine.com/ "Photon Engine"] on ''photonengine.com''; retrieved April 13, 2026. VRChat is listed as a customer using Photon for realtime multiplayer networking.</ref>
+
+== Realtime networking ==
+
+VRChat uses '''Photon Engine''', developed by Exit Games, for all realtime networking.<ref name="photon-vrchat" /> Photon handles in-instance communication, including player synchronization, voice, and [[Special:MyLanguage/Udon|Udon]] networking.
+
+Photon's cloud infrastructure uses three server types:<ref name="photon-realtime">[https://doc.photonengine.com/en-US/realtime/current "Realtime Intro"] on ''doc.photonengine.com''; retrieved April 13, 2026.</ref>
+
+* '''Name Servers''' — provide the list of available regions and authenticate users.
+* '''Master Servers''' — handle matchmaking within each region.
+* '''Game Servers''' — host the actual instance sessions.
+
+=== Regions ===
+
+VRChat operates four Photon regions, each corresponding to a geographic server location:<ref>[https://docs.vrchat.com/docs/vrchat-202124 "VRChat 2021.2.4"] on ''docs.vrchat.com''; retrieved April 13, 2026.</ref><ref>[https://docs.vrchat.com/docs/vrchat-202142 "VRChat 2021.4.2"] on ''docs.vrchat.com''; retrieved April 13, 2026.</ref>
+
+{| class="wikitable"
+|+
+! Token !! Region !! Location
+|-
+| usw || U.S. West || San José
+|-
+| use || U.S. East || Washington D.C.
+|-
+| eu || Europe || Amsterdam
+|-
+| jp || Japan || Tokyo
+|}
+
+Historically, VRChat operated only on U.S. West servers. Europe and Japan regions were added on June 16, 2021, followed by U.S. East on December 1, 2021.
+
+=== Gcore ===
+
+Photon uses '''Gcore''' as one of its main providers of server capacity and DDoS protection.<ref name="gcore-photon">[https://gcore.com/case-studies/photon "Infrastructure for billions of gamers around the world: The experience of Photon"] on ''gcore.com''. Dated October 10, 2022. Retrieved April 13, 2026.</ref> Gcore operates Tier III and Tier IV certified data centers worldwide and provides infrastructure for Photon's game servers across multiple regions.<ref name="gcore-photon" />
+
+== API and cloud infrastructure ==
+
+=== Amazon Web Services ===
+
+VRChat uses '''Amazon Web Services''' (AWS) for portions of its API infrastructure.<ref name="devupdate-20251023">[https://ask.vrchat.com/t/developer-update-23-october-2025/46983 "Developer Update - 23 October 2025"] on ''ask.vrchat.com''. Dated October 23, 2025. Retrieved April 13, 2026.</ref> Services include:
+
+* '''Amazon EC2''' — compute capacity for API application servers, managed via Auto Scaling Groups.<ref name="devupdate-20251023" />
+* '''Amazon SQS''' (Simple Queue Service) — cross-server communication for long-running tasks offloaded from API endpoint servers to dedicated worker nodes.<ref name="devupdate-20251023" />
+* '''Amazon CloudFront''' — content delivery network for file and asset delivery. Domains served via CloudFront include <code>assets.vrchat.com</code>, <code>files.vrchat.cloud</code>, and <code>file-variants.vrchat.cloud</code>.
+
+VRChat has stated that the majority of its outages have been caused by service failures at upstream providers. As a result, VRChat has been migrating services from third-party providers to in-house managed systems to increase control over uptime and reduce mean time to recovery (MTTR).<ref name="devupdate-20251023" />
+
+=== Cloudflare ===
+
+VRChat uses '''Cloudflare''' for DDoS mitigation and security services. Cloudflare analyzes incoming traffic to identify and block malicious behavior.<ref name="downtime-postmortem">[https://medium.com/vrchat/vrchat-downtime-post-mortem-3b956fee8c3e "VRChat Downtime Update"] on ''[https://medium.com/vrchat Medium]''. Dated April 17, 2019. Retrieved April 13, 2026.</ref>
+
+== Anti-cheat ==
+
+VRChat uses '''Easy Anti-Cheat''' (EAC), developed by Epic Games, to prevent unauthorized client modifications.<ref name="eac-2022">[https://docs.vrchat.com/docs/vrchat-202222 "VRChat 2022.2.2"] on ''docs.vrchat.com''; retrieved April 13, 2026.</ref> EAC was integrated in VRChat version 2022.2.2.<ref name="eac-2022" /> The anti-cheat system depends on Epic Games' content delivery network to function.
+
+== Payment processing ==
+
+VRChat's [[Special:MyLanguage/Creator Economy|Creator Economy]] depends on '''Thunes''' (formerly Tilia LLC) for transaction processing.<ref name="ce-faq">[https://help.vrchat.com/hc/en-us/articles/23255458227987-Creator-Economy-Frequently-Asked-Questions "Creator Economy: Frequently Asked Questions"] on ''help.vrchat.com''; retrieved April 13, 2026.</ref> Thunes handles accounts, wallets, payments, invoices, and payouts for creators.<ref name="ce-faq" /> Tilia was originally created by Linden Lab and was acquired by Thunes in 2024.<ref>[https://lindenlab.com/press-release/thunes-announces-agreement-to-acquire-tilia-llc "Thunes Announces Agreement to Acquire Tilia LLC"] on ''lindenlab.com''. Dated April 2024. Retrieved April 13, 2026.</ref>
+
+[[Special:MyLanguage/VRChat Credits|VRChat Credits]] are purchased through the Steam or Meta storefronts.<ref name="ce-faq" />
+
+== Account authorization ==
+
+VRChat supports account authorization through several platform providers. These upstream providers handle account data attached to a user's platform account and game data hosted from their respective application stores.
+
+* Steam (Valve)
+* Meta
+* Google
+* PICO
+* Viveport
+* Discord
+
+== Maintenance ==
+
+VRChat performs and announces different types of maintenance via {{VRC link|https://status.vrchat.com|status.vrchat.com}} and [https://x.com/VRChat_Status @VRChat_Status] on X.
+
+=== API maintenance ===
+
+API maintenance is performed by VRChat's own infrastructure team. During API maintenance, services such as the friends list, avatar switching, and SDK asset uploads may be temporarily affected. VRChat typically announces these windows in advance on the status page.
+
+=== Realtime networking maintenance ===
+
+Realtime networking maintenance is not performed by VRChat directly. It is carried out by Exit Games or Gcore as part of Photon's infrastructure operations. During realtime networking maintenance, users may experience disconnections from instances on affected regions.
+
+== See also ==
+
+* [[Special:MyLanguage/Instances|Instances]]
+* [[Special:MyLanguage/Resources|Resources]]
+
+== Official resources ==
+
+* {{VRC link|https://status.vrchat.com|status.vrchat.com}} — VRChat Status, powered by Atlassian Statuspage
+* [https://x.com/VRChat_Status @VRChat_Status] on ''X.com''
+
+== References ==
+
+<references />
+
+[[Category:VRChat{{#translation:}}]]
