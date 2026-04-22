@@ -1,0 +1,131 @@
+{{Noticebox/Community}}
+
+This guide covers the basic setup and usage of [[Community:MS Studio|MS Studio]], a desktop application for synchronizing performances in [[VRChat]].
+
+== Requirements ==
+
+* MS Studio (available on [https://queenmaebeees.gumroad.com/l/MSSTUDIO Gumroad])
+* A stable internet connection; the MS Studio documentation recommends at least 5 Mbps upload for hosting and 5 Mbps download for joining
+* For LAN server mode: a virtual networking service aka VPN
+
+== App layout ==
+
+MS Studio's interface consists of several panels:
+
+{| class="wikitable"
+! Panel
+! Purpose
+|-
+| Host
+| Configure and start a call session
+|-
+| IPConnect
+| Enter connection details to join an existing session
+|-
+| Settings
+| Application settings
+|-
+| Call
+| Main panel displaying connected users and delay management controls
+|-
+| Profile
+| User profile information
+|-
+| VR Status
+| VR headset connection status
+|}
+
+== Hosting a call ==
+
+=== Native servers ===
+
+# Open MS Studio and navigate to the Host panel.
+# Enter the server password (default: <code>password</code>) and select a delay mode.
+# Click '''Start'''.
+# Share the provided server ID with participants.
+
+Native servers shut down automatically after one hour of inactivity.
+
+=== LAN servers ===
+
+# Set up a virtual network using Radmin VPN, LogMeIn Hamachi, or ZeroTier, and have all participants join it.
+# Open MS Studio and navigate to the Host panel.
+# Enter the port (default: <code>12345</code>) and select a delay mode.
+# Click '''Start'''.
+# Share your virtual LAN IP address and port with participants.
+
+== Joining a call ==
+
+=== Native servers ===
+
+# Obtain the server ID and password from the host.
+# Open MS Studio and navigate to the IPConnect panel.
+# Enter the server ID and password, then click '''Join'''.
+
+=== LAN servers ===
+
+# Join the host's virtual network using the same virtual networking service.
+# Copy the host's IP address from the virtual networking application.
+# Open MS Studio and navigate to the IPConnect panel.
+# Enter the host's IP address and port, then click '''Join'''.
+
+== Managing delay ==
+
+After participants join a call, the Call panel displays each user with delay adjustment controls.
+
+=== Delay modes ===
+
+{| class="wikitable"
+! Mode
+! Description
+! Notes
+|-
+| Manual Delay
+| Fine and coarse +/− buttons for each participant. The host sets delay values individually.
+| Gives direct per-user control; changes are not overridden unless another mode is selected.
+|-
+| Auto Delay
+| Automatically calculates delay based on call ping. Overrides any manual adjustments.
+| Values update with network conditions.
+|-
+| Manual + Auto Delay
+| Applies manual adjustments on top of the automatically calculated delay.
+| Allows automatic baselines with per-user offsets.
+|}
+
+=== Calculating delay manually ===
+
+# Determine who in the group has the highest ping.
+# For each other participant, subtract their ping from the highest ping.
+# Set each participant's delay to the resulting value. The participant with the highest ping receives a delay of 0.
+
+{| class="wikitable"
+! User
+! Ping
+! Delay
+|-
+| User 0
+| 80 ms
+| 0 ms (highest ping)
+|-
+| User 1
+| 20 ms
+| 60 ms (80 − 20)
+|-
+| User 2
+| 40 ms
+| 40 ms (80 − 40)
+|}
+
+For interactions such as choreographed contact, some groups assign the lowest ping to the participant who ''reacts'' and higher ping to the participant who ''initiates'', so the reaction can start earlier and appear aligned after delays are applied.
+
+== See also ==
+
+* [[Community:MS Studio|MS Studio]]
+
+== Resources ==
+
+* [https://iammaddieatyou.github.io/msdocu/ MS Studio Documentation] (project site)
+* [https://queenmaebeees.gumroad.com/l/MSSTUDIO MS Studio] on Gumroad
+
+[[Category:Guides{{#translation:}}]]
