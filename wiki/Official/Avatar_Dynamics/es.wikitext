@@ -17,7 +17,7 @@ Los physbones permiten el movimiento secundario y huesos interactuables para ava
 Los contactos es un sistema que permite a los avatares detectar colisiones consigo mismos o con otros avatares. Estas colisiones luego pueden ser usados para controlar los parámetros de animación y realizar todo tipo de efectos interactivos.
 
 <span id="Contact_Senders"></span>
-===Contact Senders(Remitente de contactos)===
+===Contact Senders (emisor de contactos)===
 
 Un '''contact sender''' define un volumen de colisión que puede ser detectado por un contact receiver coincidente. Los emisores pueden usar una forma de esfera o cápsula, un transform raíz, desplazamientos locales de posición y rotación, y una o más etiquetas de colisión.
 
