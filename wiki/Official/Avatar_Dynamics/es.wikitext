@@ -21,10 +21,9 @@ Los contactos es un sistema que permite a los avatares detectar colisiones consi
 
 Un '''contact sender''' define un volumen de colisión que puede ser detectado por un contact receiver coincidente. Los emisores pueden usar una forma de esfera o cápsula, un transform raíz, desplazamientos locales de posición y rotación, y una o más etiquetas de colisión.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Noticebox/unreleased}}
-A box shape for contacts is in development and planned for a future SDK release<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] on ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 'Developer Update - 19 March 2026'] on ''[[ask.vrchat.com]]''.</ref>. Box-shaped contacts will be available for both avatars and worlds, with configurable width, height, and depth. Box-shaped contact receivers will also support an additional proximity calculation mode based on the distance from the sender to the positive Z face of the box.
-</div>
+Contactos con forma de caja están en desarrollo y están previstos para una futura versión del SDK<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'Hoja de ruta para creadores de VRChat (marzo 2026)'] en ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078
+ 'Actualización del desarrollador - 19 de marzo de 2026'] en ''[[ask.vrchat.com]]''.</ref>. Los contactos con forma de caja estarán disponibles tanto para avatares como para mundos, con ancho, alto y profundidad configurables. Los Contact Receivers (receptor de contactos) con forma de caja también admitirán un modo adicional de cálculo de proximidad basado en la distancia desde el emisor hasta la cara Z positiva de la caja.
 
 En los avatares, la sección ''Colliders'' del [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] también crea contact senders integrados para partes comunes del cuerpo como las manos y los dedos.
 
