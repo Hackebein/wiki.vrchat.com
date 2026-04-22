@@ -28,7 +28,7 @@ Contactos con forma de caja están en desarrollo y están previstos para una fut
 En los avatares, la sección ''Colliders'' (colisionadores) del [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] también crea contact senders integrados para partes comunes del cuerpo como las manos y los dedos.
 
 <span id="Contact_Receivers"></span>
-===Contact Receivers(Receptor de contactos)===
+===Contact Receivers (receptor de contactos)===
 
 Un '''contact receiver''' detecta emisores que coinciden y escribe un valor en un parámetro del animador del avatar. Los receptores pueden configurarse para permitir contacto propio, de otros usuarios o solo evaluación local.
 
