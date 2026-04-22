@@ -1,0 +1,48 @@
+{{Noticebox/Community}}
+'''MS Studio''' is a free desktop application developed by QueenMaebee for synchronizing performances in [[VRChat]]. It is used to manage network latency between participants by adjusting individual delay values, so coordinated actions such as choreographed fights, dance routines, and body acting for VR filmmaking can appear synchronized from each participant's perspective.
+
+The current release and version information are listed on [https://queenmaebeees.gumroad.com/l/MSSTUDIO Gumroad].
+
+== Overview ==
+
+VRChat does not natively provide tools for compensating network latency between players during coordinated performances. When multiple users perform actions that need to appear simultaneous, differences in ping cause visible desynchronization. MS Studio runs alongside VRChat as a separate desktop application that calculates and applies delay offsets for each participant.
+
+A host creates a call session, and other participants join using either native servers or a virtual LAN connection. The host can then view each participant's ping and adjust their delay values so that all actions appear synchronized despite varying network conditions.
+
+== Features ==
+
+* '''Delay management''' — Adjust delay values for each participant individually using manual controls, automatic ping-based calculation, or a combination of both.
+* '''Call hosting''' — Host sessions using native servers or LAN servers via virtual networking services such as Radmin VPN, LogMeIn Hamachi, or ZeroTier. According to the MS Studio documentation, native servers shut down after one hour of inactivity.
+* '''Delay modes''' — Three modes are available:
+** ''Manual Delay'' — Fine and coarse adjustment buttons for each participant's delay.
+** ''Auto Delay'' — Automatically calculates delays based on call ping values.
+** ''Manual + Auto Delay'' — Applies manual adjustments on top of automatic calculations.
+* '''123 Count''' — A host tool that plays an audible countdown through all participants' speakers as a synchronization cue.
+* '''MS Cues''' — An audio and visual cue editor for VR filmmaking that delivers timed subtitles, images, and audio to individual actors during a performance.
+* '''Offline delay calculation''' — Delay functions can be used without the call feature by manually calculating delay offsets based on each participant's ping.
+
+== MS Cues ==
+
+MS Cues is an editor introduced in version 1.5 for creating timed cue files used during VR filmmaking. It is designed for scenes involving body acting in VRChat where actors need synchronized audio, subtitles, and visual references.
+
+A typical MS Cues workflow involves:
+
+# Creating an audio storyboard or script as the base audio track.
+# Importing or creating subtitle tracks for each actor.
+# Adding image cues for visual references, scene direction, or choreography guidance.
+# Compiling everything into an MSCue file with precise timing.
+# Playing the MSCue file during an MS Studio call, which delivers personalized cues to each actor in real time through the MS Overlay.
+
+Each actor can receive a unique set of subtitles and images, allowing the host to provide individualized direction during a scene.
+
+== See also ==
+
+* [[Guides:Getting started with MS Studio|Getting started with MS Studio]]
+* [[Community:VR Photography Exhibitions|VR Photography Exhibitions]]
+
+== Resources ==
+
+* [https://queenmaebeees.gumroad.com/l/MSSTUDIO MS Studio] on Gumroad
+* [https://iammaddieatyou.github.io/msdocu/ MS Studio Documentation] (project site)
+
+[[Category:Third-party applications{{#translation:}}]]
