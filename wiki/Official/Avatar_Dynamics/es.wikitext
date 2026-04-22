@@ -25,7 +25,7 @@ Un '''contact sender''' define un volumen de colisión que puede ser detectado p
 Contactos con forma de caja están en desarrollo y están previstos para una futura versión del SDK<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'Hoja de ruta para creadores de VRChat (marzo 2026)'] en ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078
  'Actualización del desarrollador - 19 de marzo de 2026'] en ''[[ask.vrchat.com]]''.</ref>. Los contactos con forma de caja estarán disponibles tanto para avatares como para mundos, con ancho, alto y profundidad configurables. Los Contact Receivers (receptor de contactos) con forma de caja también admitirán un modo adicional de cálculo de proximidad basado en la distancia desde el emisor hasta la cara Z positiva de la caja.
 
-En los avatares, la sección ''Colliders'' del [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] también crea contact senders integrados para partes comunes del cuerpo como las manos y los dedos.
+En los avatares, la sección ''Colliders'' (colisionadores) del [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] también crea contact senders integrados para partes comunes del cuerpo como las manos y los dedos.
 
 <span id="Contact_Receivers"></span>
 ===Contact Receivers(Receptor de contactos)===
