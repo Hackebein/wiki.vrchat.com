@@ -127,8 +127,7 @@ Instances can be set up with a queue. When capacity is exceeded, a queue forms, 
 <!--T:225-->
 A user can direct-connect to an instance if another of their own clients is already inside. The new client kicks the old one on entry, letting you switch between VR and desktop without losing your slot in a full instance.
 
-<!--T:312-->
-====Avatar Performance Gated====
+====Avatar Performance Gated==== <!--T:312-->
 
 <!--T:313-->
 Group instances have the option to set a minimum performance limit for avatars. These limits are set on instance creation and applies to all users within the instance. The Minimum Performance Limit can be set to limit Poor, Medium, or Good avatars. The default is set to none.
