@@ -71,7 +71,7 @@ VRChat accepts and processes messages sent inside of [https://opensoundcontrol.s
 OSC provides read and write access to [https://docs.vrchat.com/docs/osc-avatar-parameters avatar parameters], enabling real-time control of avatar expressions, animations, and custom behaviors.
 Parameters are accessed through <code>/avatar/parameters/<ParameterName></code> addresses and support integer, float, and boolean data types.
 Custom Avatar parameter names and behaviors are defined by individual avatar creators, but there are a number of [https://creators.vrchat.com/avatars/animator-parameters/#built-in-parameters reserved parameters].
-All Avatar '''custom''' OSC endpoints are read-write, but all Avatar '''reserved''' OSC endpoints are read-only unless otherwise specified.
+All Avatar '''custom''' OSC endpoints are read-write, but '''reserved''' endpoints are mostly read-only.
 
 When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avatar/change</code> with the avatar's ID, and auto-generates a JSON config file at <code>%AppData%\..\LocalLow\VRChat\VRChat\OSC\{userId}\Avatars\{avatarId}.json</code>. This config maps parameter names to input and output OSC addresses and types, and can be edited to reroute data to other applications or convert between types.
 {| class="wikitable"
@@ -97,19 +97,19 @@ When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avat
 |-
 | <code>/avatar/parameters/PreviewMode</code>
 | <code>,i</code>
-| 1: Avatar in menu preview, otherwise 0 (OSC: '''always 0''')
+| '''read-only''' 1: Avatar in menu preview, otherwise 0 (OSC: '''always 0''')
 |-
 | <code>/avatar/parameters/IsOnFriendsList</code>
 | <code>,T</code>
-| Whether the local user is friends with the remote user with this avatar (OSC: '''always false''')
+| '''read-only''' Whether the local user is friends with the remote user with this avatar (OSC: '''always false''')
 |-
 | <code>/avatar/parameters/IsAnimatorEnabled</code>
 | <code>,T</code>
-| Whether the animator is enabled
+| '''read-only''' Whether the animator is enabled
 |-
 | <code>/avatar/parameters/AvatarVersion</code>
 | <code>,i</code>
-| 3 if the avatar was built using SDK3, otherwise 0
+| '''read-only''' 3 if the avatar was built using SDK3, otherwise 0
 |-
 | '''Gesture'''
 |
@@ -117,19 +117,19 @@ When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avat
 |-
 | <code>/avatar/parameters/GestureRightWeight</code>
 | <code>,f</code>
-| Weight for right hand gesture
+| '''read-only''' Weight for right hand gesture
 |-
 | <code>/avatar/parameters/GestureLeftWeight</code>
 | <code>,f</code>
-| Weight for left hand gesture
+| '''read-only''' Weight for left hand gesture
 |-
 | <code>/avatar/parameters/GestureRight</code>
 | <code>,i</code>
-| Right hand gesture<ref>https://creators.vrchat.com/avatars/animator-parameters#gestureleft-and-gestureright-values</ref>
+| '''read-only''' Right hand gesture<ref>https://creators.vrchat.com/avatars/animator-parameters#gestureleft-and-gestureright-values</ref>
 |-
 | <code>/avatar/parameters/GestureLeft</code>
 | <code>,i</code>
-| Left hand gesture
+| '''read-only''' Left hand gesture
 |-
 | '''Scaling'''
 |
@@ -137,39 +137,39 @@ When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avat
 |-
 | <code>/avatar/parameters/ScaleModified</code>
 | <code>,T</code>
-| Whether the avatar scale has been changed from the default height
+| '''read-only''' Whether the avatar scale has been changed from the default height
 |-
 | <code>/avatar/parameters/ScaleFactor</code>
 | <code>,f</code>
-| Avatar current height / default height
+| '''read-only''' Avatar current height / default height
 |-
 | <code>/avatar/parameters/ScaleFactorInverse</code>
 | <code>,f</code>
-| Reciprocal of above (default height / current height)
+| '''read-only''' Reciprocal of above (default height / current height)
 |-
 | <code>/avatar/parameters/EyeHeightAsMeters</code>
 | <code>,f</code>
-| Avatar current eye height in meters
+| '''read-only''' Avatar current eye height in meters
 |-
 | <code>/avatar/parameters/EyeHeightAsPercent</code>
 | <code>,f</code>
-| Linear interpolation of avatar current eye height between default limits (e.g., 0.0: 0.2 meters, 0.5: 2.6 meters, 1.0: 5.0 meters)
+| '''read-only''' Linear interpolation of avatar current eye height between default limits (e.g., 0.0: 0.2 meters, 0.5: 2.6 meters, 1.0: 5.0 meters)
 |-
 | <code>/avatar/eyeheight</code>
 | <code>,f</code>
-| Avatar current eye height in meters. Settable in the range 0.01 (1 cm) to 10000 (10 km); only values between 0.1 and 100 are officially supported, and values outside that range trigger a warning on the user's HUD. When [[Special:MyLanguage/Udon|Udon]] enforces a scale, a write is first echoed back as the requested value, then followed by an event with the Udon-enforced eye height the user actually sees.
+| Avatar current eye height in meters. Settable in the range 0.01 (1 cm) to 10000 (10 km); only values between 0.1 and 100 are officially supported, and values outside that range trigger a warning on the user's HUD; when [[Special:MyLanguage/Udon|Udon]] enforces a scale, a write is first echoed back as the requested value, then followed by an event with the Udon-enforced eye height the user actually sees
 |-
 | <code>/avatar/eyeheightmin</code>
 | <code>,f</code>
-| The '''read-only''' minimum user-selectable eye height configured by Udon (defaults to <code>0.2</code>). Does not affect the range settable via <code>/avatar/eyeheight</code>.
+| '''read-only''' Minimum user-selectable eye height configured by Udon (defaults to <code>0.2</code>); does not affect the range settable via <code>/avatar/eyeheight</code>
 |-
 | <code>/avatar/eyeheightmax</code>
 | <code>,f</code>
-| The '''read-only''' maximum user-selectable eye height configured by Udon (defaults to <code>5.0</code>). Does not affect the range settable via <code>/avatar/eyeheight</code>.
+| '''read-only''' Maximum user-selectable eye height configured by Udon (defaults to <code>5.0</code>); does not affect the range settable via <code>/avatar/eyeheight</code>
 |-
 | <code>/avatar/eyeheightscalingallowed</code>
 | <code>,T</code>
-| The '''read-only''' whether OSC eye-height scaling is permitted. When disabled by Udon or by a world tag (configured via the website), writes to <code>/avatar/eyeheight</code> are ignored.
+| '''read-only''' Whether OSC eye-height scaling is permitted; when disabled by Udon or by a world tag (configured via the website), writes to <code>/avatar/eyeheight</code> are ignored
 |-
 | '''Sound'''
 |
@@ -177,19 +177,19 @@ When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avat
 |-
 | <code>/avatar/parameters/Viseme</code>
 | <code>,i</code>
-| The [[Visemes|viseme]] currently shown<ref>https://creators.vrchat.com/avatars/animator-parameters#viseme-values</ref>
+| '''read-only''' The [[Visemes|viseme]] currently shown<ref>https://creators.vrchat.com/avatars/animator-parameters#viseme-values</ref>
 |-
 | <code>/avatar/parameters/Voice</code>
 | <code>,f</code>
-| Microphone volume (0.0: silent, 1.0: loudest)
+| '''read-only''' Microphone volume (0.0: silent, 1.0: loudest)
 |-
 | <code>/avatar/parameters/Earmuffs</code>
 | <code>,T</code>
-| Whether the user has Earmuff Mode enabled
+| '''read-only''' Whether the user has Earmuff Mode enabled
 |-
 | <code>/avatar/parameters/MuteSelf</code>
 | <code>,T</code>
-| Whether the user has muted themselves
+| '''read-only''' Whether the user has muted themselves
 |-
 | '''Player'''
 |
@@ -197,23 +197,23 @@ When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avat
 |-
 | <code>/avatar/parameters/AFK</code>
 | <code>,T</code>
-| Whether the user is AFK
+| '''read-only''' Whether the user is AFK
 |-
 | <code>/avatar/parameters/InStation</code>
 | <code>,T</code>
-| Whether the user is in a station
+| '''read-only''' Whether the user is in a station
 |-
 | <code>/avatar/parameters/Seated</code>
 | <code>,T</code>
-| Duplicate of above, '''not''' "seated mode" vs. "standing mode"
+| '''read-only''' Duplicate of above, '''not''' "seated mode" vs. "standing mode"
 |-
 | <code>/avatar/parameters/VRMode</code>
 | <code>,i</code>
-| 1: VR mode, otherwise 0
+| '''read-only''' 1: VR mode, otherwise 0
 |-
 | <code>/avatar/parameters/TrackingType</code>
 | <code>,i</code>
-| Number of currently tracked points<ref>https://creators.vrchat.com/avatars/animator-parameters#trackingtype-parameter</ref>
+| '''read-only''' Number of currently tracked points<ref>https://creators.vrchat.com/avatars/animator-parameters#trackingtype-parameter</ref>
 |-
 | '''Positioning'''
 |
@@ -221,31 +221,31 @@ When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avat
 |-
 | <code>/avatar/parameters/Grounded</code>
 | <code>,T</code>
-| Whether the user is touching the floor in the world
+| '''read-only''' Whether the user is touching the floor in the world
 |-
 | <code>/avatar/parameters/Upright</code>
 | <code>,f</code>
-| Heuristic for how "upright" you are (0.0: prone, 1.0: standing straight up)
+| '''read-only''' Heuristic for how "upright" you are (0.0: prone, 1.0: standing straight up)
 |-
 | <code>/avatar/parameters/AngularY</code>
 | <code>,f</code>
-| Rightward angular velocity
+| '''read-only''' Rightward angular velocity
 |-
 | <code>/avatar/parameters/VelocityX</code>
 | <code>,f</code>
-| Rightward velocity in m/s
+| '''read-only''' Rightward velocity in m/s
 |-
 | <code>/avatar/parameters/VelocityY</code>
 | <code>,f</code>
-| Upward velocity in m/s
+| '''read-only''' Upward velocity in m/s
 |-
 | <code>/avatar/parameters/VelocityZ</code>
 | <code>,f</code>
-| Forward velocity in m/s
+| '''read-only''' Forward velocity in m/s
 |-
 | <code>/avatar/parameters/VelocityMagnitude</code>
 | <code>,f</code>
-| Total magnitude of velocity: &radic;( VelocityX &sup2; + VelocityY &sup2; + VelocityZ &sup2; )
+| '''read-only''' Total magnitude of velocity: &radic;( VelocityX &sup2; + VelocityY &sup2; + VelocityZ &sup2; )
 |}
 <span id="parameter-common">'''&ast;'''</span> ''technically not required/built-in, but these parameters are in the default animator and are almost always present''
 
@@ -266,61 +266,61 @@ They must be reset to 0 when not in use: a <code>/input/Vertical ,f 1</code> mes
 |-
 | <code>/input/Horizontal</code>
 | <code>,f</code>
-| Player movement
+| '''write-only''' Player movement
 | right
 | left
 |-
 | <code>/input/Vertical</code>
 | <code>,f</code>
-| Player movement
+| '''write-only''' Player movement
 | forward
 | backward
 |-
 | <code>/input/LookHorizontal</code>
 | <code>,f</code>
-| Player rotation [[Open_Sound_Control#input-smooth|&ast;]]
+| '''write-only''' Player rotation [[Open_Sound_Control#input-smooth|&ast;]]
 | right
 | left
 |-
 | <code>/input/LookVertical</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,f</code>
-| Player rotation
+| '''write-only''' Player rotation
 | up
 | down
 |-
 | <code>/input/SpinHoldCwCcw</code>
 | <code>,f</code>
-| Held item rotation
+| '''write-only''' Held item rotation
 | clockwise
 | counter-clockwise
 |-
 | <code>/input/SpinHoldUD</code>
 | <code>,f</code>
-| Held item rotation
+| '''write-only''' Held item rotation
 | up
 | down
 |-
 | <code>/input/SpinHoldLR</code>
 | <code>,f</code>
-| Held item rotation
+| '''write-only''' Held item rotation
 | left
 | right
 |-
 | <code>/input/MoveHoldFB</code>
 | <code>,f</code>
-| Held item movement
+| '''write-only''' Held item movement
 | forward
 | backward
 |-
 | <code>/input/UseAxisRight</code> [[Open_Sound_Control#osc-limbo|&Dagger;]]
 | <code>,f</code>
-| Held item use
+| '''write-only''' Held item use
 |
 |
 |-
 | <code>/input/GrabAxisRight</code> [[Open_Sound_Control#osc-limbo|&Dagger;]]
 | <code>,f</code>
-| Held item grab
+| '''write-only''' Held item grab
 |
 |
 |}
@@ -336,131 +336,131 @@ They must also be reset to false before they can be used again: sending a <code>
 |-
 | <code>/input/MoveForward</code>
 | <code>,T</code>
-| Move forward
+| '''write-only''' Move forward
 |-
 | <code>/input/MoveBackward</code>
 | <code>,T</code>
-| Move backward
+| '''write-only''' Move backward
 |-
 | <code>/input/MoveLeft</code>
 | <code>,T</code>
-| Move left
+| '''write-only''' Move left
 |-
 | <code>/input/MoveRight</code>
 | <code>,T</code>
-| Move right
+| '''write-only''' Move right
 |-
 | <code>/input/LookLeft</code>
 | <code>,T</code>
-| Turn left [[Open_Sound_Control#input-smooth|&ast;]]
+| '''write-only''' Turn left [[Open_Sound_Control#input-smooth|&ast;]]
 |-
 | <code>/input/LookRight</code>
 | <code>,T</code>
-| Turn right [[Open_Sound_Control#input-smooth|&ast;]]
+| '''write-only''' Turn right [[Open_Sound_Control#input-smooth|&ast;]]
 |-
 | <code>/input/Jump</code>
 | <code>,T</code>
-| Jump (if supported by the world)
+| '''write-only''' Jump (if supported by the world)
 |-
 | <code>/input/Run</code>
 | <code>,T</code>
-| Run (if supported by the world)
+| '''write-only''' Run (if supported by the world)
 |-
 | <code>/input/ComfortLeft</code>
 | <code>,T</code>
-| Snap-Turn to the left (VR only)
+| '''write-only''' Snap-Turn to the left (VR only)
 |-
 | <code>/input/ComfortRight</code>
 | <code>,T</code>
-| Snap-Turn to the right (VR only)
+| '''write-only''' Snap-Turn to the right (VR only)
 |-
 | <code>/input/GrabRight</code>
 | <code>,T</code>
-| Grab item highlighted by right hand
+| '''write-only''' Grab item highlighted by right hand
 |-
 | <code>/input/UseRight</code>
 | <code>,T</code>
-| Use item held in right hand
+| '''write-only''' Use item held in right hand
 |-
 | <code>/input/DropRight</code>
 | <code>,T</code>
-| Drop item held in right hand
+| '''write-only''' Drop item held in right hand
 |-
 | <code>/input/GrabLeft</code>
 | <code>,T</code>
-| Grab item highlighted by left hand
+| '''write-only''' Grab item highlighted by left hand
 |-
 | <code>/input/UseLeft</code>
 | <code>,T</code>
-| Use item held in left hand
+| '''write-only''' Use item held in left hand
 |-
 | <code>/input/DropLeft</code>
 | <code>,T</code>
-| Drop item held in left hand
+| '''write-only''' Drop item held in left hand
 |-
 | <code>/input/PanicButton</code>
 | <code>,T</code>
-| Enable Safe Mode
+| '''write-only''' Enable Safe Mode
 |-
 | <code>/input/QuickMenuToggleLeft</code>
 | <code>,T</code>
-| Toggle Quick Menu for left hand
+| '''write-only''' Toggle Quick Menu for left hand
 |-
 | <code>/input/QuickMenuToggleRight</code>
 | <code>,T</code>
-| Toggle Quick Menu for right hand
+| '''write-only''' Toggle Quick Menu for right hand
 |-
 | <code>/input/ToggleSitStand</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,T</code>
-| Toggle between Sitting and Standing
+| '''write-only''' Toggle between Sitting and Standing
 |-
 | <code>/input/AFKToggle</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,T</code>
-| Toggle AFK mode
+| '''write-only''' Toggle AFK mode
 |-
 | <code>/input/Voice</code>
 | <code>,T</code>
-| Microphone control. Behavior depends on the [[Settings#Microphone|"Microphone Behaviour" setting]]. When on, changing from false to true toggles the mute state; while true, controller/keyboard mute is blocked; when off, acts as push-to-talk (false = muted, true = unmuted)
+| '''write-only''' Microphone control. Behavior depends on the [[Settings#Microphone|"Microphone Behaviour" setting]]. When on, changing from false to true toggles the mute state; while true, controller/keyboard mute is blocked; when off, acts as push-to-talk (false = muted, true = unmuted)
 |-
 | <code>/input/ShowDebugInfo0</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,T</code>
-| Displays some debugging visualizations for VRC_UiShapes (interactable UIs) [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Displays some debugging visualizations for VRC_UiShapes (interactable UIs) [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
 |-
 | <code>/input/ShowDebugInfo1</code>
 | <code>,T</code>
-| Displays information about loaded asset bundles (mostly irrelevant to world development)
+| '''write-only''' Displays information about loaded asset bundles (mostly irrelevant to world development)
 |-
 | <code>/input/ShowDebugInfo2</code>
 | <code>,T</code>
-| Displays the current build of VRChat that you are using, along with your FPS
+| '''write-only''' Displays the current build of VRChat that you are using, along with your FPS
 |-
 | <code>/input/ShowDebugInfo3</code>
 | <code>,T</code>
-| Displays your output log
+| '''write-only''' Displays your output log
 |-
 | <code>/input/ShowDebugInfo4</code>
 | <code>,T</code>
-| Displays various stats about other users
+| '''write-only''' Displays various stats about other users
 |-
 | <code>/input/ShowDebugInfo5</code>
 | <code>,T</code>
-| Displays some graphs related to networking
+| '''write-only''' Displays some graphs related to networking
 |-
 | <code>/input/ShowDebugInfo6</code>
 | <code>,T</code>
-| Displays all the networked objects in your world, along with various stats [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Displays all the networked objects in your world, along with various stats [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
 |-
 | <code>/input/ShowDebugInfo7</code>
 | <code>,T</code>
-| Overlays visual representations of every PhysBone and Contact in the world near the local player [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Overlays visual representations of every PhysBone and Contact in the world near the local player [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
 |-
 | <code>/input/ShowDebugInfo8</code>
 | <code>,T</code>
-| Overlays a panel on top of every synced object in the world; Each panel displays various stats about that specific object [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Overlays a panel on top of every synced object in the world; each panel displays various stats about that specific object [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
 |-
 | <code>/input/ShowDebugInfo9</code>
 | <code>,T</code>
-| Displays debug stats for every player in the instance at their feet [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Displays debug stats for every player in the instance at their feet [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
 |}
 The <code>/input/ShowDebugInfo[0-9]</code> endpoints are for [https://creators.vrchat.com/worlds/udon/world-debug-views/ World Debug Views]
 
@@ -475,7 +475,7 @@ The <code>/input/ShowDebugInfo[0-9]</code> endpoints are for [https://creators.v
 |-
 | <code>/chatbox/input</code>
 | <code>,sTT</code>
-| Set Chatbox content
+| '''write-only''' Set Chatbox content
 |-
 |
 | 1st parameter <code>s</code>
@@ -491,11 +491,11 @@ The <code>/input/ShowDebugInfo[0-9]</code> endpoints are for [https://creators.v
 |-
 | <code>/chatbox/typing</code>
 | <code>,T</code>
-| Set Chatbox typing indicator visibility (the <code>...</code>)
+| '''write-only''' Set Chatbox typing indicator visibility (the <code>...</code>)
 |}
 
 === Tracking ===
-All [https://docs.vrchat.com/docs/osc-trackers Tracking] and [https://docs.vrchat.com/docs/osc-eye-tracking Eye Tracking] OSC endpoints are write-only unless otherwise specified.
+Most [https://docs.vrchat.com/docs/osc-trackers Tracking] and [https://docs.vrchat.com/docs/osc-eye-tracking Eye Tracking] OSC endpoints are write-only, as their purpose is to supply VRChat with custom tracking data.
 Up to 8 trackers are supported (hip, chest, 2 feet, 2 knees, 2 elbows), though sending fewer trackers (e.g. only feet and hips) may produce better results because VRChat's IK can better compensate for tracking discrepancies<ref>[https://docs.vrchat.com/docs/osc-trackers "OSC Trackers"] on ''docs.vrchat.com''.</ref>.
 Sending the <code>/tracking/trackers/head/...</code> values is optional; if supplied, VRChat will use them as the frame of reference for the other OSC trackers. The head position aligns per frame with no interpolation, while head rotation yaw alignment slowly lerps toward the provided value. A single head rotation message (no follow-up within 300 ms) triggers a one-time instant yaw alignment instead.
 After 10 seconds without receiving data, eye tracking behavior will revert to default (auto look / auto blink). This timeout is separate for eyelids and eye-look.
@@ -506,7 +506,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/trackers/[1-8]/position</code>
 | <code>,fff</code>
-| The position of the tracker
+| '''write-only''' Position of the tracker
 |-
 | 
 | 1st parameter <code>f</code>
@@ -522,7 +522,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/trackers/[1-8]/rotation</code>
 | <code>,fff</code>
-| The rotation of the tracker
+| '''write-only''' Rotation of the tracker
 |-
 | 
 | 1st parameter <code>f</code>
@@ -538,19 +538,19 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/trackers/head/position</code>
 | <code>,fff</code>
-| The position of the headset (see <code>.../position</code> above)
+| '''write-only''' Position of the headset (see <code>.../position</code> above)
 |-
 | <code>/tracking/trackers/head/rotation</code>
 | <code>,fff</code>
-| The rotation of the headset (see <code>.../rotation</code> above)
+| '''write-only''' Rotation of the headset (see <code>.../rotation</code> above)
 |-
 | <code>/tracking/eye/EyesClosedAmount</code>
 | <code>,f</code>
-| How closed the eyes are (0.0: fully open, 1.0: fully closed). Controls both eyes simultaneously.
+| '''write-only''' How closed the eyes are (0.0: fully open, 1.0: fully closed); controls both eyes simultaneously
 |-
 | <code>/tracking/eye/CenterPitchYaw</code>
 | <code>,ff</code>
-| Pitch and yaw for automatic raycast (eyes look at hit location). Should not be used at the same time as <code>/tracking/eye/CenterPitchYawDist</code>.
+| '''write-only''' Pitch and yaw for automatic raycast (eyes look at hit location); should not be used at the same time as <code>/tracking/eye/CenterPitchYawDist</code>
 |-
 | 
 | 1st parameter <code>f</code>
@@ -562,7 +562,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/eye/CenterPitchYawDist</code>
 | <code>,fff</code>
-| Pitch, yaw, and distance for raycast (eyes look at vector position). Should not be used at the same time as <code>/tracking/eye/CenterPitchYaw</code>.
+| '''write-only''' Pitch, yaw, and distance for raycast (eyes look at vector position); should not be used at the same time as <code>/tracking/eye/CenterPitchYaw</code>
 |-
 | 
 | 1st parameter <code>f</code>
@@ -578,7 +578,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/eye/CenterVec</code>
 | <code>,fff</code>
-| Headset-local '''normalized''' vector for automatic raycast (eyes look at hit location)
+| '''write-only''' Headset-local '''normalized''' vector for automatic raycast (eyes look at hit location)
 |-
 | 
 | 1st parameter <code>f</code>
@@ -594,7 +594,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/eye/CenterVecFull</code>
 | <code>,fff</code>
-| Headset-local vector for raycast (eyes look at vector position)
+| '''write-only''' Headset-local vector for raycast (eyes look at vector position)
 |-
 | 
 | 1st parameter <code>f</code>
@@ -610,7 +610,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/eye/LeftRightPitchYaw</code>
 | <code>,ffff</code>
-| Pitch and yaw for each eye individually
+| '''write-only''' Pitch and yaw for each eye individually
 |-
 | 
 | 1st parameter <code>f</code>
@@ -630,7 +630,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/eye/LeftRightVec</code>
 | <code>,ffffff</code>
-| Headset-local '''normalized''' vectors for each eye individually
+| '''write-only''' Headset-local '''normalized''' vectors for each eye individually
 |-
 | 
 | 1st parameter <code>f</code>
@@ -658,7 +658,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/vrsystem/head/pose</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,ffffff</code>
-| The '''read-only''' system pose for the headset
+| '''read-only''' System pose for the headset
 |-
 | 
 | 1st parameter <code>f</code>
@@ -686,11 +686,11 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 |-
 | <code>/tracking/vrsystem/leftwrist/pose</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,ffffff</code>
-| The '''read-only''' system pose for the left wrist (see <code>.../head/pose</code> above)
+| '''read-only''' System pose for the left wrist (see <code>.../head/pose</code> above)
 |-
 | <code>/tracking/vrsystem/rightwrist/pose</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
 | <code>,ffffff</code>
-| The '''read-only''' system pose for the right wrist (see <code>.../head/pose</code> above)
+| '''read-only''' System pose for the right wrist (see <code>.../head/pose</code> above)
 |}
 ==== Coordinates ====
 The coordinate system used is generally the same as the left-handed Unity coordinate system.
@@ -932,7 +932,7 @@ All [https://docs.vrchat.com/docs/vrchat-202533#osc-camera-endpoints User Camera
 |}
 
 === Dolly ===
-All [[Camera Dolly#OSC integration|Dolly]] OSC endpoints are write-only unless otherwise specified.
+All [[Camera Dolly#OSC integration|Dolly]] OSC endpoints are read-write unless otherwise specified.
 {| class="wikitable"
 ! Address
 ! Type
@@ -941,22 +941,22 @@ All [[Camera Dolly#OSC integration|Dolly]] OSC endpoints are write-only unless o
 |-
 | <code>/dolly/Import</code>
 | <code>,s</code>
-| Import dolly path from a JSON file
+| '''write-only''' Import dolly path from a JSON file
 |
 |-
 | <code>/dolly/Export</code>
 | <code>,s</code>
-| Export current dolly path to a JSON file<br>Emits an OSC message when export is complete
+| '''write-only''' Export current dolly path to a JSON file<br>Emits an OSC message when export is complete
 |
 |-
 | <code>/dolly/ExportLocal</code>
 | <code>,s</code>
-| As above, but exports all points as local
+| '''write-only''' As above, but exports all points as local
 |
 |-
 | <code>/dolly/PlayDelayed</code>
 | <code>,f</code>
-| Play an animation after a delay (in seconds)
+| '''write-only''' Play an animation after a delay (in seconds)
 |
 |-
 | <code>/dolly/Play</code>
@@ -991,7 +991,7 @@ VRChat uses [https://docs.vrchat.com/docs/osc-overview#vrchat-ports two UDP port
 |-
 | UDP '''5353'''
 | mDNS ↔ VRChat
-| multicastDNS Service Discovery<ref>https://www.rfc-editor.org/info/rfc6763</ref>
+| multicastDNS Service Discovery<ref>https://www.rfc-editor.org/info/rfc6763</ref><ref>https://ccrma.stanford.edu/groups/osc/files/2009-NIME-OSC-1.1.pdf</ref>
 |}
 The UDP ports can be overridden with a command line argument: <code>--osc=inPort:senderIP:outPort</code>. For example, <code>--osc=9000:127.0.0.1:9001</code> replicates the defaults, and <code>--osc=9000:192.168.1.42:9001</code> would send data to another device on the local network.
 
