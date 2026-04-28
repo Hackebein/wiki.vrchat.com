@@ -149,6 +149,33 @@ def iso_to_git_date(ts: str) -> str:
     return dt.strftime("%Y-%m-%dT%H:%M:%S%z")
 
 
+_PATH_INVALID_CHARS_RE = re.compile(r'[<>:"\\|?*\x00-\x1f]')
+_PATH_DOT_RUN_RE = re.compile(r"\.{2,}")
+_PATH_RESERVED_NAMES = {
+    "CON", "PRN", "AUX", "NUL",
+    *(f"COM{i}" for i in range(1, 10)),
+    *(f"LPT{i}" for i in range(1, 10)),
+}
+_PATH_MAX_SEGMENT_BYTES = 255
+
+
+def _sanitize_path_segment(segment: str) -> str:
+    """Return a single path component that is valid on Linux, macOS, and Windows."""
+    s = _PATH_INVALID_CHARS_RE.sub("_", segment)
+    s = _PATH_DOT_RUN_RE.sub("_", s)
+    # Windows forbids trailing "." or " "; leading spaces are also unsafe.
+    s = s.strip(" .")
+    if not s:
+        return "_"
+    # Windows reserves device names like CON, NUL, COM1, ... regardless of extension.
+    if s.split(".", 1)[0].upper() in _PATH_RESERVED_NAMES:
+        s = "_" + s
+    raw = s.encode("utf-8")
+    if len(raw) > _PATH_MAX_SEGMENT_BYTES:
+        s = raw[:_PATH_MAX_SEGMENT_BYTES].decode("utf-8", errors="ignore").rstrip(" .") or "_"
+    return s
+
+
 def sanitize_title_to_path(title: str, ns: int = 0) -> Path:
     title = title.replace(" ", "_").strip()
 
@@ -163,12 +190,18 @@ def sanitize_title_to_path(title: str, ns: int = 0) -> Path:
             folder = title
             name = title
 
-    name = re.sub(r'[<>:"\\|?*\x00-\x1f]', "_", name)
-    name = name.replace("..", "_")
+    folder = _sanitize_path_segment(folder)
+    name_parts = [_sanitize_path_segment(p) for p in name.split("/") if p]
+    if not name_parts:
+        name_parts = ["_"]
 
-    if "/" not in name:
-        return Path(PAGES_DIR) / folder / name / "en.wikitext"
-    return Path(PAGES_DIR) / folder / f"{name}.wikitext"
+    *subdirs, leaf = name_parts
+    base = Path(PAGES_DIR) / folder
+    for sub in subdirs:
+        base = base / sub
+    if subdirs:
+        return base / f"{leaf}.wikitext"
+    return base / leaf / "en.wikitext"
 
 
 def git_head_commit(repo: Path) -> Optional[str]:
