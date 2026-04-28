@@ -937,27 +937,22 @@ All [[Camera Dolly#OSC integration|Dolly]] OSC endpoints are read-write unless o
 ! Address
 ! Type
 ! Description
-!
 |-
 | <code>/dolly/Import</code>
 | <code>,s</code>
 | '''write-only''' Import dolly path from a JSON file
-|
 |-
 | <code>/dolly/Export</code>
 | <code>,s</code>
 | '''write-only''' Export current dolly path to a JSON file<br>Emits an OSC message when export is complete
-|
 |-
 | <code>/dolly/ExportLocal</code>
 | <code>,s</code>
 | '''write-only''' As above, but exports all points as local
-|
 |-
 | <code>/dolly/PlayDelayed</code>
 | <code>,f</code>
 | '''write-only''' Play an animation after a delay (in seconds)
-|
 |-
 | <code>/dolly/Play</code>
 | <code>,T</code>
