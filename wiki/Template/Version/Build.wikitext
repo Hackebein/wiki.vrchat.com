@@ -1,14 +1,14 @@
 <onlyinclude>{{#switch: {{lc:{{{1|}}}}}
 <!-- Set upcoming builds to a blank value if no versions are in development.-->
 <!-- CLIENT -->
- | live-mainpage = 1818 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
- | live = 1821 <!-- Put the highest value of either windows, android or ios here . -->
- | live-windows = 1820
- | live-android = 1821 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
+ | live-mainpage = 1835 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
+ | live = 1835 <!-- Put the highest value of either windows, android or ios here . -->
+ | live-windows = 1835
+ | live-android = 1835 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
  | live-ios = 1819 <!-- Put the highest ios value here (ios, ipados). -->
- | open-beta = 1833
- | open-beta-windows = 1833
- | open-beta-quest = 1833
+ | open-beta =
+ | open-beta-windows =
+ | open-beta-quest =
  | unity-live =
 <!-- SDK -->
  | sdk =
