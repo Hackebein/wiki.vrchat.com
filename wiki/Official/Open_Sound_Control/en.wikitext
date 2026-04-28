@@ -81,19 +81,19 @@ When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avat
 |-
 | <code>/avatar/change</code>
 | <code>,s</code>
-| '''read-write''' Current user avatar id
+| Current user avatar id
 |-
 | <code>/avatar/parameters/VRCEmote</code>
 | <code>,i</code>
-| '''read-write''' Default animation (1 to 16) [[Open_Sound_Control#parameter-common|&ast;]]
+| Default animation (1 to 16) [[Open_Sound_Control#parameter-common|&ast;]]
 |-
 | <code>/avatar/parameters/VRCFaceBlendV</code>
 | <code>,f</code>
-| '''read-write''' [[Open_Sound_Control#parameter-common|&ast;]]
+| [[Open_Sound_Control#parameter-common|&ast;]]
 |-
 | <code>/avatar/parameters/VRCFaceBlendH</code>
 | <code>,f</code>
-| '''read-write''' [[Open_Sound_Control#parameter-common|&ast;]]
+| [[Open_Sound_Control#parameter-common|&ast;]]
 |-
 | <code>/avatar/parameters/PreviewMode</code>
 | <code>,i</code>
@@ -154,6 +154,22 @@ When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avat
 | <code>/avatar/parameters/EyeHeightAsPercent</code>
 | <code>,f</code>
 | Linear interpolation of avatar current eye height between default limits (e.g., 0.0: 0.2 meters, 0.5: 2.6 meters, 1.0: 5.0 meters)
+|-
+| <code>/avatar/eyeheight</code>
+| <code>,f</code>
+| Avatar current eye height in meters. Settable in the range 0.01 (1 cm) to 10000 (10 km); only values between 0.1 and 100 are officially supported, and values outside that range trigger a warning on the user's HUD. When [[Special:MyLanguage/Udon|Udon]] enforces a scale, a write is first echoed back as the requested value, then followed by an event with the Udon-enforced eye height the user actually sees.
+|-
+| <code>/avatar/eyeheightmin</code>
+| <code>,f</code>
+| The '''read-only''' minimum user-selectable eye height configured by Udon (defaults to <code>0.2</code>). Does not affect the range settable via <code>/avatar/eyeheight</code>.
+|-
+| <code>/avatar/eyeheightmax</code>
+| <code>,f</code>
+| The '''read-only''' maximum user-selectable eye height configured by Udon (defaults to <code>5.0</code>). Does not affect the range settable via <code>/avatar/eyeheight</code>.
+|-
+| <code>/avatar/eyeheightscalingallowed</code>
+| <code>,T</code>
+| The '''read-only''' whether OSC eye-height scaling is permitted. When disabled by Udon or by a world tag (configured via the website), writes to <code>/avatar/eyeheight</code> are ignored.
 |-
 | '''Sound'''
 |
@@ -946,7 +962,6 @@ All [[Camera Dolly#OSC integration|Dolly]] OSC endpoints are write-only unless o
 | <code>/dolly/Play</code>
 | <code>,T</code>
 | Play or stop an animation<br>Skip delay or cancel a delayed animation<br>Emits an OSC message when animation state changes
-| '''read-write'''
 |}
 
 <big>Errata</big>
@@ -990,6 +1005,7 @@ The community has made useful resources for using OSC and developing OSC, such a
 
 == Resources ==
 * [https://docs.vrchat.com/docs/osc-overview OSC Overview] on the VRChat Documentation
+* [https://docs.vrchat.com/docs/osc-avatar-scaling OSC Avatar Scaling] on the VRChat Documentation
 * [https://github.com/vrchat-community/osc/discussions GitHub] discussions for VRChat OSC
 * [https://github.com/vrchat-community/osc/issues GitHub] bug reports for VRChat OSC
 * [https://github.com/vrchat-community/osc/milestones GitHub] milestones for VRChat OSC
