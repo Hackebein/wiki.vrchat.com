@@ -1,7 +1,7 @@
 <languages/>
 {{Noticebox/Official}}
 <div lang="en" dir="ltr" class="mw-content-ltr">
-'''Controls''' are arrays of inputs on controllers and devices to navigate [[Special:MyLanguage/VRChat|VRChat]], across different [[Special:MyLanguage/platforms|platforms]]. VRChat supports several operating systems, with multiple combinations of devices and controllers. Some of these controls can be configured in the [[Special:MyLanguage/Settings#Controls|Settings]] Menu. Depending on the platform you are using VRChat on, you may be able to customize controls further by using the Settings menu in VRChat, or your device's dashboard.
+'''Controls''' are arrays of inputs on controllers and devices to navigate [[Special:MyLanguage/VRChat|VRChat]], across different [[Special:MyLanguage/Platforms|platforms]]. VRChat supports several operating systems, with multiple combinations of devices and controllers. Some of these controls can be configured in the [[Special:MyLanguage/Settings#Controls|Settings]] Menu. Depending on the platform you are using VRChat on, you may be able to customize controls further by using the Settings menu in VRChat, or your device's dashboard.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -196,7 +196,7 @@ You can also turn with Comfort Turning (snap turning) on or off. If you have Com
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-'''To interact with the user interface and [[Special:MyLanguage/menus|menus]]''', point at it with either hand, and select things by pinching your index and thumb together.
+'''To interact with the user interface and [[Special:MyLanguage/Menus|menus]]''', point at it with either hand, and select things by pinching your index and thumb together.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -223,7 +223,12 @@ You can play VRChat using a keyboard and mouse.
 Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts your view position. Your head points in the direction you’re looking.
 {| class="wikitable"
 ! Key
-!What it does 
+! Function
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Movement
 |-
 |W
 | Moves user forward
@@ -240,86 +245,82 @@ Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts yo
 |Space
 |Makes user jump (if it is enabled in the room)
 |-
-|Z
-|Crawl/Go Prone
+|Shift
+|Sprint
 |-
 |C
 |Crouch
 |-
-|R
-|Opens Action Menu
+|Z
+|Crawl/Go Prone
 |-
-|Escape
-|Opens Quick Menu
+|< and >
+|Rotate the user left and right in.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-|Shift
-|Sprint
+! colspan="2" |Third Person View
+|-
+|F5
+|Toggles [[Special:MyLanguage/Third Person View|Third Person View]]
+|-
+|Tab
+|Free rotate camera around the viewpoint of the avatar
+|-
+|Scroll Wheel
+|Adjust camera view distance
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Communication
+|-
+|V (If using toggle talk)
+|Enables / Disables microphone
+|-
+|V (Hold) (If using push to talk)
+|Enables microphone as long as it’s held
+|-
+|Y
+|Opens chatbox text input
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" | Interaction
 |-
 |Left Click
 |Interact / Pickup
 |-
-|Right Click (Hold)
-|Shows interaction mouse
-|-
 |Right Click
 |Drop pickup
 |-
-| Right Click (Hold) (Pickups)
+|Right Click (Hold) (Pickups)
 |Allows you to throw held pickups. The longer you hold, the further the object goes.
-|-
-| V (Hold) (If using push to talk)
-|Enables microphone as long as it’s held
-|-
-| V (If using toggle talk)
-|Enables / Disables microphone
-|-
-|Y
-|Opens chatbox text input
 |-
 |Tab (Hold)
 |Allows you to move your mouse around the screen without moving your avatar. (Useful for clicking UI elements)
 |-
-| End
-|Toggles AFK mode
+|I / K
+|Adjusts pitch of the held object (rotate along X axis)
 |-
-|Control + N
-|Cycles through visibility options of [[Special:MyLanguage/Nameplates|nameplates]]
+| J / L
+|Adjusts yaw of the held object (rotate along Y axis)
 |-
-|Control + H
-|Toggles visibility of the [[Special:MyLanguage/HUD|HUD]] (microphone and notification icons)
+|U / O
+|Adjusts roll of the held object (rotate along Z axis)
 |-
-|Control + \
-|Local switch to default [[Special:MyLanguage/Robot|Robot]] [[Special:MyLanguage/avatar|avatar]] (Useful when your avatar causes crashes or prevents you from using your menu)
+|Scroll Wheel
+|Moves the held object forward/back (translate along Z axis)
 |-
-|RShift + Backtick + 1<sup>†</sup>
-|Toggles visibility of trigger debug menu
+|Middle Mouse Button (Hold)
+|Adjusts object rotation by moving the mouse
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-|RShift + Backtick + 2<sup>†</sup>
-|Toggles visibility of information debug menu
-|-
-|RShift + Backtick + 3<sup>†</sup>
-|Toggles visibility of console debug menu
-|-
-|RShift + Backtick + 4<sup>†</sup>
-|Toggles visibility of networking debug menu
-|-
-|RShift + Backtick + 5<sup>†</sup>
-|Toggles visibility of networking graph debug menu
-|-
-|RShift + Backtick + 7<sup>†</sup>
-|Toggles visibility of networking debug overlay
-|-
-|RShift + Backtick + 8<sup>†</sup>
-|Toggles visibility of event debug overlay
-|-
-|RShift + Backtick + 9<sup>†</sup>
-|Toggles visibility of user networking debug overlay
-|-
-|F12
-|Takes screenshot, saved to the folder VRChat is installed
-|-
-|Control + F12
-|Takes screenshot at double the normal resolution, by default 4K (3840 × 2160), saved to the User’s Pictures/VRChat folder
+! colspan="2" |Expressions
 |-
 |Shift + F1*
 |Hand gesture - Idle
@@ -344,33 +345,86 @@ Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts yo
 |-
 |Shift + F8*
 |Hand gesture - Thumbs up
-|-
-|Shift + Escape
-|Enables Safe Mode.
-|-
-|Hold Escape During World Load
-|Locally change avatar to error robot (Useful when your avatar causes crashes or prevents you from using your menu)
-|-
-|< and >
-|Rotate the user left and right in. 
-|-
-|I / K
-| Adjusts pitch of the held object (rotate along X axis)
-|-
-|J / L
-|Adjusts yaw of the held object (rotate along Y axis)
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| U / O
-|Adjusts roll of the held object (rotate along Z axis)
+! colspan="2" |User Interface
 |-
-|Mouse Wheel
-|Moves the held object forward/back (translate along Z axis)
+|Escape
+|Opens Quick Menu
 |-
-|Middle Mouse Button (Hold)
-|Adjusts object rotation by moving the mouse
+|R
+|Opens Action Menu
+|-
+|Right Click (Hold)
+|Shows interaction mouse (If "Show Reticle" setting is off)
+|-
+|Control + N
+|Cycles through visibility options of [[Special:MyLanguage/Nameplates|nameplates]]
+|-
+|Control + H
+|Toggles visibility of the [[Special:MyLanguage/HUD|HUD]] (microphone and notification icons)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Screenshots
+|-
+|F12
+|Takes screenshot, saved to the folder VRChat is installed
+|-
+|Control + F12
+|Takes screenshot at double the normal resolution, by default 4K (3840 × 2160), saved to the User’s Pictures/VRChat folder
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Safety and miscellaneous
+|-
+|Shift + Escape
+|Enables Safe Mode.
+|-
+|Control + \
+|Local switch to default [[Special:MyLanguage/Robot|Robot]] [[Special:MyLanguage/Avatars|avatar]] (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|Escape (Hold during world load)
+|Locally change avatar to error robot (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|End
+|Toggles AFK mode
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Debug
+|-
+|RShift + Backtick + 1<sup>†</sup>
+|Toggles visibility of "AssetBundle / Memory" debug menu
+|-
+|RShift + Backtick + 2<sup>†</sup>
+|Toggles visibility of "Version & Info" debug menu
+|-
+|RShift + Backtick + 3<sup>†</sup>
+|Toggles visibility of "Log Viewer" debug menu
+|-
+|RShift + Backtick + 4<sup>†</sup>
+|Toggles visibility of "Players" debug menu
+|-
+|RShift + Backtick + 6<sup>†</sup>
+|Toggles visibility of "Net Objects" debug menu
+|-
+|RShift + Backtick + 7<sup>†</sup>
+|Toggles visibility of "PhysBone & Contact" overlay
+|-
+|RShift + Backtick + 8<sup>†</sup>
+|Toggles visibility of "Network Object Info" overlay
+|-
+|RShift + Backtick + 9<sup>†</sup> 
+|Toggles visibility of "Player Info" overlay
+|-
+|RShift + Backtick + 0<sup>†</sup> 
+|Toggles visibility of "VRC_UIShapes" overlay
 |}
 </div>
 
@@ -380,14 +434,6 @@ Movement is handled via the standard FPS “WASD” setup. Your mouse adjusts yo
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 <sup>†</sup> On a standard English US QWERTY layout keyboard, “backtick” is the key in the top left, next to the <code>1</code> key. It shares a key with the tilde (<code>~</code>) character.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Debug options are disabled unless you launch VRChat with the <code>--enable-debug-gui</code> launch option.
-</div>
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default, only the world creator can access debug views above 5. However, the creator of the world can enable it for others.
 </div>
 
 <span id="Mobile"></span>
@@ -402,7 +448,7 @@ The right side of the screen has buttons for jumping, picking up items, and inte
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Tapping on another user or a [[Special:MyLanguage/portals|portal]] will instantly bring up a secondary [[Special:MyLanguage/Menus|menu]].
+Tapping on another user or a [[Special:MyLanguage/Portals|portal]] will instantly bring up a secondary [[Special:MyLanguage/Menus|menu]].
 </div>
 
 <span id="Gamepad"></span>
@@ -492,5 +538,13 @@ Typical controllers supported include Xbox controllers, PlayStation controllers,
 *[https://docs.vrchat.com/docs/vrchat-202241 "VRChat 2022.4.1"] on Hand Tracking
 *[https://www.youtube.com/watch?v=oopovk3BPaw "Beginner's Guide to VRChat Hand/Finger Tracking"] by VRChat on ''YouTube''
 </div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Navigation==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Start-navbox}}
+</div>
+
 [[Category:Needs images{{#translation:}}]]
