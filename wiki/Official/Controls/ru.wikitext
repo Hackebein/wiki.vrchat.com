@@ -1,6 +1,8 @@
 <languages/>
 {{Noticebox/Official}}
+<div class="mw-translate-fuzzy">
 '''Элементы управления''' — это массивы входов на контроллерах и устройствах для навигации по [[Special:MyLanguage/VRChat|VRChat]] на разных [[Special:MyLanguage/platforms|платформах]]. VRChat поддерживает несколько операционных систем с несколькими комбинациями устройств и контроллеров. Некоторые из этих элементов управления можно настроить в меню [[Special:MyLanguage/Settings#Controls|Settings]]. В зависимости от платформы, на которой вы используете VRChat, вы можете дополнительно настроить элементы управления с помощью меню настроек в VRChat или панели управления вашего устройства.
+</div>
 
 Меню настроек в VRChat содержит сведения о назначении кнопок для устройства, которое вы используете в данный момент. Ниже приведены конфигурации по умолчанию:
 
@@ -140,10 +142,12 @@ VRChat официально поддерживает следующие гарн
 |Локально заменяет ваш аватар на "робота ошибки" (полезно, если ваш аватар вызывает вылеты или не даёт открыть меню)
 |}
 
+<div class="mw-translate-fuzzy">
 ====Отслеживание рук====
 ''См. также [[Special:MyLanguage/Finger tracking|Отслеживание пальцев]] для более подробной информации.''
 {{Thumb|{{YouTube|oopovk3BPaw|title=Отслеживание Рук/Пальцев в VRChat|thumb=File:Vrc handtrackingthumbnail.webp}}}}
 [[File:Handtracking controls vrcmenu.webp|thumb|250px|Настройки отслеживания пальцев в разделе параметров [[Special:MyLanguage/Main Menu|главного меню]].]]
+</div>
 
 VRChat также предлагает {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|обучающий мир}} и [https://www.youtube.com/watch?v=oopovk3BPaw обучающее видео] по настройке отслеживания рук на устройствах Meta Quest, а также по изучению жестов отслеживания рук внутри VRChat.
 
@@ -162,7 +166,9 @@ VRChat также предлагает {{VRC link|https://vrchat.com/home/world/
 * Жест "круг"
 * Жест "нажатие кнопки"
 
+<div class="mw-translate-fuzzy">
 '''Чтобы взаимодействовать с пользовательским интерфейсом и [[Special:MyLanguage/menus|меню]]''', направьте на него любую руку и выбирайте элементы, сомкнув указательный палец с большим пальцем.
+</div>
 
 '''Вы можете отключить свой микрофон''', удержав большой палец и безымянный палец вместе некоторое время на левой руке.
 
@@ -177,6 +183,7 @@ VRChat также предлагает {{VRC link|https://vrchat.com/home/world/
 
 Вы можете играть в VRChat, используя клавиатуру и мышь.
 
+<div class="mw-translate-fuzzy">
 Движение осуществляется с помощью стандартной настройки FPS «WASD». Мышь регулирует положение вашего обзора. Ваша голова указывает в направлении, куда вы смотрите.
 {| class="wikitable"
 ! Клавиша
@@ -316,25 +323,213 @@ VRChat также предлагает {{VRC link|https://vrchat.com/home/world/
 |-
 |J / L
 |Регулировка рыскания удерживаемого объекта (поворот по оси Y)
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| U / O
-|Регулирует крен удерживаемого объекта (вращение по оси Z)
+! colspan="2" |Movement
 |-
-|Колесо мыши
-|Перемещает удерживаемый объект вперед/назад (перемещение по оси Z)
+|W
+| Moves user forward
 |-
-|Средняя кнопка мыши (удерживать)
-|Регулирует вращение объекта перемещением мыши
+| A
+|Moves user left
+|-
+|S
+|Moves user back
+|-
+|D
+|Moves user right
+|-
+|Space
+|Makes user jump (if it is enabled in the room)
+|-
+|Shift
+|Sprint
+|-
+|C
+|Crouch
+|-
+|Z
+|Crawl/Go Prone
+|-
+|< and >
+|Rotate the user left and right in.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Third Person View
+|-
+|F5
+|Toggles [[Special:MyLanguage/Third Person View|Third Person View]]
+|-
+|Tab
+|Free rotate camera around the viewpoint of the avatar
+|-
+|Scroll Wheel
+|Adjust camera view distance
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Communication
+|-
+|V (If using toggle talk)
+|Enables / Disables microphone
+|-
+|V (Hold) (If using push to talk)
+|Enables microphone as long as it’s held
+|-
+|Y
+|Opens chatbox text input
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" | Interaction
+|-
+|Left Click
+|Interact / Pickup
+|-
+|Right Click
+|Drop pickup
+|-
+|Right Click (Hold) (Pickups)
+|Allows you to throw held pickups. The longer you hold, the further the object goes.
+|-
+|Tab (Hold)
+|Allows you to move your mouse around the screen without moving your avatar. (Useful for clicking UI elements)
+|-
+|I / K
+|Adjusts pitch of the held object (rotate along X axis)
+|-
+| J / L
+|Adjusts yaw of the held object (rotate along Y axis)
+|-
+|U / O
+|Adjusts roll of the held object (rotate along Z axis)
+|-
+|Scroll Wheel
+|Moves the held object forward/back (translate along Z axis)
+|-
+|Middle Mouse Button (Hold)
+|Adjusts object rotation by moving the mouse
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Expressions
+|-
+|Shift + F1*
+|Hand gesture - Idle
+|-
+|Shift + F2*
+|Hand gesture - Fist
+|-
+|Shift + F3*
+|Hand gesture - Open Hand
+|-
+|Shift + F4* 
+|Hand gesture - Point
+|-
+|Shift + F5*
+|Hand gesture - Victory (Peace)
+|-
+|Shift + F6*
+|Hand gesture - Rock ’n Roll
+|-
+|Shift + F7*
+|Hand gesture - Finger-gun
+|-
+|Shift + F8*
+|Hand gesture - Thumbs up
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |User Interface
+|-
+|Escape
+|Opens Quick Menu
+|-
+|R
+|Opens Action Menu
+|-
+|Right Click (Hold)
+|Shows interaction mouse (If "Show Reticle" setting is off)
+|-
+|Control + N
+|Cycles through visibility options of [[Special:MyLanguage/Nameplates|nameplates]]
+|-
+|Control + H
+|Toggles visibility of the [[Special:MyLanguage/HUD|HUD]] (microphone and notification icons)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Screenshots
+|-
+|F12
+|Takes screenshot, saved to the folder VRChat is installed
+|-
+|Control + F12
+|Takes screenshot at double the normal resolution, by default 4K (3840 × 2160), saved to the User’s Pictures/VRChat folder
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Safety and miscellaneous
+|-
+|Shift + Escape
+|Enables Safe Mode.
+|-
+|Control + \
+|Local switch to default [[Special:MyLanguage/Robot|Robot]] [[Special:MyLanguage/Avatars|avatar]] (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|Escape (Hold during world load)
+|Locally change avatar to error robot (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|End
+|Toggles AFK mode
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Debug
+|-
+|RShift + Backtick + 1<sup>†</sup>
+|Toggles visibility of "AssetBundle / Memory" debug menu
+|-
+|RShift + Backtick + 2<sup>†</sup>
+|Toggles visibility of "Version & Info" debug menu
+|-
+|RShift + Backtick + 3<sup>†</sup>
+|Toggles visibility of "Log Viewer" debug menu
+|-
+|RShift + Backtick + 4<sup>†</sup>
+|Toggles visibility of "Players" debug menu
+|-
+|RShift + Backtick + 6<sup>†</sup>
+|Toggles visibility of "Net Objects" debug menu
+|-
+|RShift + Backtick + 7<sup>†</sup>
+|Toggles visibility of "PhysBone & Contact" overlay
+|-
+|RShift + Backtick + 8<sup>†</sup>
+|Toggles visibility of "Network Object Info" overlay
+|-
+|RShift + Backtick + 9<sup>†</sup> 
+|Toggles visibility of "Player Info" overlay
+|-
+|RShift + Backtick + 0<sup>†</sup> 
+|Toggles visibility of "VRC_UIShapes" overlay
 |}
+</div>
 
 <nowiki>*</nowiki> Используйте левый Shift для управления левой рукой, правый Shift — для управления правой рукой.
 
 <sup>†</sup> На стандартной английской раскладке US QWERTY клавиша «обратная кавычка» находится в левом верхнем углу, рядом с клавишей <code>1</code>. Она делит клавишу с символом тильды (<code>~</code>).
-
-Параметры отладки отключены, если вы не запустите VRChat с параметром запуска <code>--enable-debug-gui</code>.
-
-По умолчанию, только создатель мира имеет доступ к отладочным режимам выше 5. Однако он может включить эту функцию и для других.
 
 <span id="Mobile"></span>
 ===Мобильный===
@@ -343,7 +538,9 @@ VRChat также предлагает {{VRC link|https://vrchat.com/home/world/
 
 В правой части экрана есть кнопки для прыжков, подбора предметов и взаимодействия с миром. Удерживание кнопки позволит получить дополнительные опции, такие как меню действий или приседание.
 
+<div class="mw-translate-fuzzy">
 Нажатие на другого пользователя или [[Special:MyLanguage/portals|портал]] мгновенно вызовет вторичное [[Special:MyLanguage/Menus|меню]].
+</div>
 
 <span id="Gamepad"></span>
 ===Геймпад ===
@@ -423,5 +620,13 @@ VRChat также предлагает {{VRC link|https://vrchat.com/home/world/
 *[https://www.youtube.com/watch?v=F0I2Ec4JsrE "Quest 2 Finger Tracking"] от VRChat на ''YouTube''
 *[https://docs.vrchat.com/docs/vrchat-202241 "VRChat 2022.4.1"] об отслеживании рук
 *[https://www.youtube.com/watch?v=oopovk3BPaw "Beginner's Guide to VRChat Hand/Finger Tracking"] от VRChat на ''YouTube''
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Navigation==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Start-navbox}}
+</div>
+
 [[Category:Needs images{{#translation:}}]]
