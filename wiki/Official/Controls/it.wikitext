@@ -1,6 +1,8 @@
 <languages/>
 {{Noticebox/Official}}
+<div class="mw-translate-fuzzy">
 I '''Controlli''' sono il modo per cui, tramite controller o altri dispositivi di input, è possibile navigare in [[Special:MyLanguage/VRChat|VRChat]]. La piattaforma supporta diversi dispositivi e controller, alcuni dei quali configurabili direttamente in VRChat, nel Menù [[Special:MyLanguage/Settings#Controls|Impostazioni]]. A seconda della piattaforma utilizzata, è inoltre possibile personalizzare i controlli dalla dashboard del dispositivo.
+</div>
 
 Nel Menù Impostazioni del client sono contenute le assegnazioni tasti per il dispositivo in uso.
 
@@ -166,7 +168,9 @@ Per usare il tracciamento delle dita è necessario abilitarlo nelle impostazioni
 * Usando il Pulsante a Cerchio
 * Premendo il Pulsante sul Controller
 
+<div class="mw-translate-fuzzy">
 '''Per interagire con l'interfaccia utente e i [[Special:MyLanguage/Menus|menù]]''', poni la mano verso esso, e seleziona gli elementi pizzicando con il dito indice e il pollice insieme.
+</div>
 
 '''Puoi silenziarti''' pizzicando il pollice e l'anulare della mano sinistra insieme, brevemente.
 
@@ -179,6 +183,7 @@ I controlli del tracciamento delle dita possono essere visualizzati nella scheda
 
 Puoi giocare a VRChat con mouse e tastiera.
 
+<div class="mw-translate-fuzzy">
 Il movimento è gestito con il . Your mouse adjusts your view position. Your head points in the direction you’re looking.
 {| class="wikitable"
 ! Pulsante
@@ -315,27 +320,213 @@ Il movimento è gestito con il . Your mouse adjusts your view position. Your hea
 |-
 |J / L
 |Modifica l'imbarata dell'oggetto in mano (rotea sull'asse Y)
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
 |-
-| U / O
-|Modifica il rollio dell'oggetto selezionato (rotea sull'asse Z)
+! colspan="2" |Movement
 |-
-|Rotellina Mouse
-|Sposta l'oggetto selezionato avanti o dietro (trasla sull'asse Z)
+|W
+| Moves user forward
 |-
-|Pulsante Centrale Mouse (Tenuto Premuto)
-|Modifica la rotazione dell'oggetto muovendo il mouse
+| A
+|Moves user left
+|-
+|S
+|Moves user back
+|-
+|D
+|Moves user right
+|-
+|Space
+|Makes user jump (if it is enabled in the room)
+|-
+|Shift
+|Sprint
+|-
+|C
+|Crouch
+|-
+|Z
+|Crawl/Go Prone
+|-
+|< and >
+|Rotate the user left and right in.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Third Person View
+|-
+|F5
+|Toggles [[Special:MyLanguage/Third Person View|Third Person View]]
+|-
+|Tab
+|Free rotate camera around the viewpoint of the avatar
+|-
+|Scroll Wheel
+|Adjust camera view distance
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Communication
+|-
+|V (If using toggle talk)
+|Enables / Disables microphone
+|-
+|V (Hold) (If using push to talk)
+|Enables microphone as long as it’s held
+|-
+|Y
+|Opens chatbox text input
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" | Interaction
+|-
+|Left Click
+|Interact / Pickup
+|-
+|Right Click
+|Drop pickup
+|-
+|Right Click (Hold) (Pickups)
+|Allows you to throw held pickups. The longer you hold, the further the object goes.
+|-
+|Tab (Hold)
+|Allows you to move your mouse around the screen without moving your avatar. (Useful for clicking UI elements)
+|-
+|I / K
+|Adjusts pitch of the held object (rotate along X axis)
+|-
+| J / L
+|Adjusts yaw of the held object (rotate along Y axis)
+|-
+|U / O
+|Adjusts roll of the held object (rotate along Z axis)
+|-
+|Scroll Wheel
+|Moves the held object forward/back (translate along Z axis)
+|-
+|Middle Mouse Button (Hold)
+|Adjusts object rotation by moving the mouse
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Expressions
+|-
+|Shift + F1*
+|Hand gesture - Idle
+|-
+|Shift + F2*
+|Hand gesture - Fist
+|-
+|Shift + F3*
+|Hand gesture - Open Hand
+|-
+|Shift + F4* 
+|Hand gesture - Point
+|-
+|Shift + F5*
+|Hand gesture - Victory (Peace)
+|-
+|Shift + F6*
+|Hand gesture - Rock ’n Roll
+|-
+|Shift + F7*
+|Hand gesture - Finger-gun
+|-
+|Shift + F8*
+|Hand gesture - Thumbs up
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |User Interface
+|-
+|Escape
+|Opens Quick Menu
+|-
+|R
+|Opens Action Menu
+|-
+|Right Click (Hold)
+|Shows interaction mouse (If "Show Reticle" setting is off)
+|-
+|Control + N
+|Cycles through visibility options of [[Special:MyLanguage/Nameplates|nameplates]]
+|-
+|Control + H
+|Toggles visibility of the [[Special:MyLanguage/HUD|HUD]] (microphone and notification icons)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Screenshots
+|-
+|F12
+|Takes screenshot, saved to the folder VRChat is installed
+|-
+|Control + F12
+|Takes screenshot at double the normal resolution, by default 4K (3840 × 2160), saved to the User’s Pictures/VRChat folder
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Safety and miscellaneous
+|-
+|Shift + Escape
+|Enables Safe Mode.
+|-
+|Control + \
+|Local switch to default [[Special:MyLanguage/Robot|Robot]] [[Special:MyLanguage/Avatars|avatar]] (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|Escape (Hold during world load)
+|Locally change avatar to error robot (Useful when your avatar causes crashes or prevents you from using your menu)
+|-
+|End
+|Toggles AFK mode
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+|-
+! colspan="2" |Debug
+|-
+|RShift + Backtick + 1<sup>†</sup>
+|Toggles visibility of "AssetBundle / Memory" debug menu
+|-
+|RShift + Backtick + 2<sup>†</sup>
+|Toggles visibility of "Version & Info" debug menu
+|-
+|RShift + Backtick + 3<sup>†</sup>
+|Toggles visibility of "Log Viewer" debug menu
+|-
+|RShift + Backtick + 4<sup>†</sup>
+|Toggles visibility of "Players" debug menu
+|-
+|RShift + Backtick + 6<sup>†</sup>
+|Toggles visibility of "Net Objects" debug menu
+|-
+|RShift + Backtick + 7<sup>†</sup>
+|Toggles visibility of "PhysBone & Contact" overlay
+|-
+|RShift + Backtick + 8<sup>†</sup>
+|Toggles visibility of "Network Object Info" overlay
+|-
+|RShift + Backtick + 9<sup>†</sup> 
+|Toggles visibility of "Player Info" overlay
+|-
+|RShift + Backtick + 0<sup>†</sup> 
+|Toggles visibility of "VRC_UIShapes" overlay
 |}
+</div>
 
 <nowiki>*</nowiki> Usa lo shift sinistro per controllarela tua mano sinistra, usa lo shift destro per controllare la tua mano destra.
 
 <sup>†</sup> Su una tastiera con disposizione Inglese Americana QWERTY , “backtick” è il tasto in alto a sinistra, vicino al tasto <code>1</code>. Condivide la posizione con il tasto per i carattere tidle (<code>~</code>).
-
-Le opzioni di debug sono disabilitate se non si avvia VRChat con l'opzione di avvio: <code>--enable-debug-gui</code>.
-
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default, only the world creator can access debug views above 5. However, the creator of the world can enable it for others.
-</div>
 
 <span id="Mobile"></span>
 ===Dispositivi mobili===
@@ -344,7 +535,9 @@ Sul lato sinistro dello schermo è presente un analogico virtuale, che permette 
 
 Il lato destro dello schermo è occupato dai pulsanti per: saltare, raccogliere oggetti, e interagire con il mondo. Tenendo premuto qualsiasi dei pulsanti permette di accedere a opzioni aggiuntive, come l'accovacciarsi o aprire il menù azione.
 
+<div class="mw-translate-fuzzy">
 Premere su un altro utente o un [[Special:MyLanguage/portals|portale]] mostrerà un [[Special:MyLanguage/Menus|menù]] secondario.
+</div>
 
 <span id="Gamepad"></span>
 ===Controller===
@@ -424,5 +617,13 @@ I controller supportati includono: controller XBOX, controller Playstation, e co
 *[https://www.youtube.com/watch?v=F0I2Ec4JsrE "Quest 2 Finger Tracking"] da VRChat su ''YouTube''
 *[https://docs.vrchat.com/docs/vrchat-202241 "VRChat 2022.4.1"] sul Tracciamento delle Mani
 *[https://www.youtube.com/watch?v=oopovk3BPaw "Beginner's Guide to VRChat Hand/Finger Tracking"] da VRChat su ''YouTube''
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Navigation==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 {{Start-navbox}}
+</div>
+
 [[Category:Needs images{{#translation:}}]]
