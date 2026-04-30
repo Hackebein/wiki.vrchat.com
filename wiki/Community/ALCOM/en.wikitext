@@ -1,0 +1,49 @@
+{{Noticebox/Community}}
+{{Infobox/Asset
+|name=ALCOM
+|image=Alcom.webp
+|author=anatawa12
+|license=[[license:mit|MIT]]
+|documentation=https://vrc-get.anatawa12.com/en/alcom
+|github=vrc-get/vrc-get
+}}
+'''ALCOM''' is an open-source, cross-platform desktop client for managing VRChat packages. It wraps the [[Community:vrc-get|vrc-get]] command-line tool in a fast graphical interface and serves as a lightweight, community-driven alternative to the official [[VRChat Creator Companion|VRChat Creator Companion (VCC)]].
+
+Released under the [[license:MIT|MIT Licence]] and actively maintained on GitHub by ''anatawa12'' with community contributions.
+
+== Features ==
+It supports all features VCC does, additionally it supports: 
+
+* Changelogs, shows links to Changelogs on update.
+* Speed-optimised, parallel downloads, local caching, and a queue system keep installs and upgrades quick, even across multiple Unity projects. Faster then VCC.
+* Multi-Language, English, Japanese, German, French, Simplified and Traditional Chinese
+
+== Platform support ==
+{| class="wikitable"
+!OS
+!Distribution options
+|-
+|Windows
+|Stand-alone <code>.exe</code> / <code>.zip</code>; <code>winget install anatawa12.ALCOM</code>
+|-
+|macOS
+|<code>.dmg</code>; Homebrew cask <code>brew install --cask alcom</code>
+|-
+|Linux
+|AppImage, DEB/RPM, Arch AUR package <code>alcom</code>
+|}
+ALCOM shares the same project configuration files as VCC, so both tools can coexist without migration.
+
+== Timeline ==
+
+* '''18 Apr 2024''' - v0.1.0 preview
+* '''15 Jan 2025''' - v1.0.0
+* '''23 Feb 2025''' - v1.0.1 (current)
+* '''25 May 2025''' - v1.1.0-beta.1 (latest)
+
+== Resources ==
+
+* [https://vrc-get.anatawa12.com/en/alcom/ Project Homepage] at anatawa12.com
+* [https://github.com/vrc-get/vrc-get Project Repository] at github.com
+
+[[Category:Third-party applications]]
