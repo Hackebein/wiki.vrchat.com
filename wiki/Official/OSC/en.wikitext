@@ -85,15 +85,15 @@ When an avatar is loaded with OSC enabled, VRChat sends a message to <code>/avat
 |-
 | <code>/avatar/parameters/VRCEmote</code>
 | <code>,i</code>
-| Default animation (1 to 16) [[Open_Sound_Control#parameter-common|&ast;]]
+| Default animation (1 to 16) [[OSC#parameter-common|&ast;]]
 |-
 | <code>/avatar/parameters/VRCFaceBlendV</code>
 | <code>,f</code>
-| [[Open_Sound_Control#parameter-common|&ast;]]
+| [[OSC#parameter-common|&ast;]]
 |-
 | <code>/avatar/parameters/VRCFaceBlendH</code>
 | <code>,f</code>
-| [[Open_Sound_Control#parameter-common|&ast;]]
+| [[OSC#parameter-common|&ast;]]
 |-
 | <code>/avatar/parameters/PreviewMode</code>
 | <code>,i</code>
@@ -278,11 +278,11 @@ They must be reset to 0 when not in use: a <code>/input/Vertical ,f 1</code> mes
 |-
 | <code>/input/LookHorizontal</code>
 | <code>,f</code>
-| '''write-only''' Player rotation [[Open_Sound_Control#input-smooth|&ast;]]
+| '''write-only''' Player rotation [[OSC#input-smooth|&ast;]]
 | right
 | left
 |-
-| <code>/input/LookVertical</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
+| <code>/input/LookVertical</code> [[OSC#osc-defacto|&dagger;]]
 | <code>,f</code>
 | '''write-only''' Player rotation
 | up
@@ -312,13 +312,13 @@ They must be reset to 0 when not in use: a <code>/input/Vertical ,f 1</code> mes
 | forward
 | backward
 |-
-| <code>/input/UseAxisRight</code> [[Open_Sound_Control#osc-limbo|&Dagger;]]
+| <code>/input/UseAxisRight</code> [[OSC#osc-limbo|&Dagger;]]
 | <code>,f</code>
 | '''write-only''' Held item use
 |
 |
 |-
-| <code>/input/GrabAxisRight</code> [[Open_Sound_Control#osc-limbo|&Dagger;]]
+| <code>/input/GrabAxisRight</code> [[OSC#osc-limbo|&Dagger;]]
 | <code>,f</code>
 | '''write-only''' Held item grab
 |
@@ -352,11 +352,11 @@ They must also be reset to false before they can be used again: sending a <code>
 |-
 | <code>/input/LookLeft</code>
 | <code>,T</code>
-| '''write-only''' Turn left [[Open_Sound_Control#input-smooth|&ast;]]
+| '''write-only''' Turn left [[OSC#input-smooth|&ast;]]
 |-
 | <code>/input/LookRight</code>
 | <code>,T</code>
-| '''write-only''' Turn right [[Open_Sound_Control#input-smooth|&ast;]]
+| '''write-only''' Turn right [[OSC#input-smooth|&ast;]]
 |-
 | <code>/input/Jump</code>
 | <code>,T</code>
@@ -410,11 +410,11 @@ They must also be reset to false before they can be used again: sending a <code>
 | <code>,T</code>
 | '''write-only''' Toggle Quick Menu for right hand
 |-
-| <code>/input/ToggleSitStand</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
+| <code>/input/ToggleSitStand</code> [[OSC#osc-defacto|&dagger;]]
 | <code>,T</code>
 | '''write-only''' Toggle between Sitting and Standing
 |-
-| <code>/input/AFKToggle</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
+| <code>/input/AFKToggle</code> [[OSC#osc-defacto|&dagger;]]
 | <code>,T</code>
 | '''write-only''' Toggle AFK mode
 |-
@@ -422,9 +422,9 @@ They must also be reset to false before they can be used again: sending a <code>
 | <code>,T</code>
 | '''write-only''' Microphone control. Behavior depends on the [[Settings#Microphone|"Microphone Behaviour" setting]]. When on, changing from false to true toggles the mute state; while true, controller/keyboard mute is blocked; when off, acts as push-to-talk (false = muted, true = unmuted)
 |-
-| <code>/input/ShowDebugInfo0</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
+| <code>/input/ShowDebugInfo0</code> [[OSC#osc-defacto|&dagger;]]
 | <code>,T</code>
-| '''write-only''' Displays some debugging visualizations for VRC_UiShapes (interactable UIs) [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Displays some debugging visualizations for VRC_UiShapes (interactable UIs) [[OSC#input-dbgauthor|&#x2051;]]
 |-
 | <code>/input/ShowDebugInfo1</code>
 | <code>,T</code>
@@ -448,19 +448,19 @@ They must also be reset to false before they can be used again: sending a <code>
 |-
 | <code>/input/ShowDebugInfo6</code>
 | <code>,T</code>
-| '''write-only''' Displays all the networked objects in your world, along with various stats [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Displays all the networked objects in your world, along with various stats [[OSC#input-dbgauthor|&#x2051;]]
 |-
 | <code>/input/ShowDebugInfo7</code>
 | <code>,T</code>
-| '''write-only''' Overlays visual representations of every PhysBone and Contact in the world near the local player [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Overlays visual representations of every PhysBone and Contact in the world near the local player [[OSC#input-dbgauthor|&#x2051;]]
 |-
 | <code>/input/ShowDebugInfo8</code>
 | <code>,T</code>
-| '''write-only''' Overlays a panel on top of every synced object in the world; each panel displays various stats about that specific object [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Overlays a panel on top of every synced object in the world; each panel displays various stats about that specific object [[OSC#input-dbgauthor|&#x2051;]]
 |-
 | <code>/input/ShowDebugInfo9</code>
 | <code>,T</code>
-| '''write-only''' Displays debug stats for every player in the instance at their feet [[Open_Sound_Control#input-dbgauthor|&#x2051;]]
+| '''write-only''' Displays debug stats for every player in the instance at their feet [[OSC#input-dbgauthor|&#x2051;]]
 |}
 The <code>/input/ShowDebugInfo[0-9]</code> endpoints are for [https://creators.vrchat.com/worlds/udon/world-debug-views/ World Debug Views]
 
@@ -656,7 +656,7 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 | 6th parameter <code>f</code>
 | Cartesian Z coordinate for right eye
 |-
-| <code>/tracking/vrsystem/head/pose</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
+| <code>/tracking/vrsystem/head/pose</code> [[OSC#osc-defacto|&dagger;]]
 | <code>,ffffff</code>
 | '''read-only''' System pose for the headset
 |-
@@ -684,11 +684,11 @@ After 10 seconds without receiving data, eye tracking behavior will revert to de
 | 6th parameter <code>f</code>
 | Euler Z angle
 |-
-| <code>/tracking/vrsystem/leftwrist/pose</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
+| <code>/tracking/vrsystem/leftwrist/pose</code> [[OSC#osc-defacto|&dagger;]]
 | <code>,ffffff</code>
 | '''read-only''' System pose for the left wrist (see <code>.../head/pose</code> above)
 |-
-| <code>/tracking/vrsystem/rightwrist/pose</code> [[Open_Sound_Control#osc-defacto|&dagger;]]
+| <code>/tracking/vrsystem/rightwrist/pose</code> [[OSC#osc-defacto|&dagger;]]
 | <code>,ffffff</code>
 | '''read-only''' System pose for the right wrist (see <code>.../head/pose</code> above)
 |}
@@ -733,17 +733,17 @@ All [https://docs.vrchat.com/docs/vrchat-202533#osc-camera-endpoints User Camera
 | <code>/usercamera/Close</code>
 | <code>,T</code>
 | Close camera <br> Equivalent to <code>/usercamera/Mode ,i 0</code>
-| '''write-only''' see [[Open_Sound_Control#Buttons|buttons]]
+| '''write-only''' see [[OSC#Buttons|buttons]]
 |-
 | <code>/usercamera/Capture</code>
 | <code>,T</code>
 | Take a photo
-| '''write-only''' see [[Open_Sound_Control#Buttons|buttons]]
+| '''write-only''' see [[OSC#Buttons|buttons]]
 |-
 | <code>/usercamera/CaptureDelayed</code>
 | <code>,T</code>
 | Take a timed photo
-| '''write-only''' see [[Open_Sound_Control#Buttons|buttons]]
+| '''write-only''' see [[OSC#Buttons|buttons]]
 |}
 ==== Toggles ====
 {| class="wikitable"
