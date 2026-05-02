@@ -14,13 +14,13 @@ The following platforms are supported by VRChat.
 Platform versions are typically in-sync, but there are occasions when a patch is released exclusively for a specific platform or when its release is delayed on one platform compared to others.
 {| class="wikitable"
 |-
-! Platform !! Version
+! Platform !! Version !! Build
 |-
-| Windows || {{Template:Version|live-windows}}
+| Windows || [{{Version/href|live-windows}} {{Template:Version|live-windows}}] || {{Template:Version/Build|live-windows}}
 |-
-| Android || {{Template:Version|live-android}}
+| Android || [{{Version/href|live-android}} {{Template:Version|live-android}}] || {{Template:Version/Build|live-android}}
 |-
-| iOS || {{Template:Version|live-ios}}
+| iOS || [{{Version/href|live-ios}} {{Template:Version|live-ios}}] || {{Template:Version/Build|live-ios}}
 |}
 
 == Platform specific content ==
