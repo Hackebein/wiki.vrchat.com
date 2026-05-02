@@ -1,0 +1,77 @@
+{{Noticebox/Community}}{{Noticebox/wip}}Here are some things that [[User:Usr 923acdda-9202-4f4d-91c0-d0d7269c96a5|Fax]] considers useful or practical when writing U# code, in no particular order.
+
+''This page was originally posted on [https://vrclibrary.com/wiki/books/faxs-retrospectives-and-prefabs/page/udonsharp-nitpicks VRCLibrary], and was updated for the VRChat wiki. These suggestions are somewhat personal, so if you have any suggestions, please discuss them!''
+
+= Attributes =
+Attributes, such as <code>[SerializeField]</code>, can help make your classes, variables, or methods more useful.
+
+=== UdonBehaviourSyncMode ===
+Use U#'s <code>[https://udonsharp.docs.vrchat.com/udonsharp/#udonbehavioursyncmode UdonBehaviourSyncMode]</code> attribute to make sure your <code>UdonBehaviour</code> always uses the sync mode you intended. For example:<syntaxhighlight lang="c#">using UdonSharp;
+using UnityEngine;
+
+[UdonBehaviourSyncMode(BehaviourSyncMode.Manual)] 
+public class Foo : UdonSharpBehaviour
+{
+  // This behaviour always uses manual sync.
+}</syntaxhighlight>Alternatively, you can choose the sync mode UdonBehaviours in the Unity inspector. This is more flexible and allows you to use different sync modes for different instances of the same behaviour - but that's a very rare use case. Instead, you may accidentally select the wrong mode without realizing it, causing networking to break unexpectedly. <code>UdonBehaviourSyncMode</code> is usually more reliable.
+
+=== SerializeField ===
+Use the <code>[SerializeField]</code> attribute to make <code>private</code> variable visible in the Unity inspector, allowing you to assign references to assets or scene objects:<syntaxhighlight>
+[SerializeField] private Transform foo; // This shows up in the Unity inspector.
+</syntaxhighlight>Instead of using <code>[SerializeField]</code>, you can make the variable <code>public</code> instead. However, this '''also''' makes those variables accessible from any other UdonBehaviour. If that's what you want, you should consider using <code>[HideInInspector]</code> attribute to prevent your public variables from causing clutter in the inspector.
+
+=== Tooltip and Header ===
+Use the <code>[Header]</code> and <code>[Tooltip]</code> attributes to organize variables in the Unity inspector. For example:<syntaxhighlight lang="c#">
+[Header("Materials")]
+[SerializeField] private Material materialFoo;
+[SerializeField] private Material materialBar;
+[SerializeField] private Material materialBaz;
+
+[Header("Transforms")]
+[Tooltip("This tooltip appears when hovering your mouse over transformFoo in the inspector.")]
+[SerializeField] private Transform transformFoo;
+</syntaxhighlight>
+
+= Networking =
+This section contains some tips related to networking and synchronizing changes between players.
+
+=== Call <code>OnDeserialization</code> locally ===
+When the networking owner of an UdonBehaviour uses <code>RequestSerialization()</code>, all players '''except''' the owner execute <code>OnDeserialization()</code>.
+
+But if you override <code>OnDeserialization()</code> in your script, the owner can manually execute it. This is useful if you'd like the owner of the script to execute <code>OnDeserialization()</code>, to replicate the same behaviour as other players.
+
+For example, here is a simple script that the master can use to increase a <code>score</code> variable. The <code>scoreText</code> is updated for everyone in <code>OnDeserialization</code>.<syntaxhighlight lang="c#" line="1">[UdonSynced] private int score;
+[SerializeField] private TextMeshProUGUI scoreText;
+
+// The owner can call IncreaseScore anywhere to increase the score by 1.
+public void IncreaseScore()
+{
+  score++;
+  RequestSerialization();
+  OnDeserialization();
+}
+
+public override void OnDeserialization()
+{
+  scoreText.text = score.ToString();
+}</syntaxhighlight>Note that <code>OnDeserialization()</code> ''without'' parameters is a deprecated method. More complex scripts may require the overload <code>OnDeserialization(DeserializationResult)</code>, and executing the overload locally may not make sense for the owner. Instead, consider writing your own method (e.g., <code>UpdateScoreText()</code>, and calling it from <code>OnDeserialization()</code> ''and'' manually calling it for the owner immediately after <code>RequestSerialization()</code>.
+
+''⚠️This section is incomplete! Two sections have not been transferred from VRCLibrary yet.''
+
+== Optimization ==
+These tips can help reduce the CPU utilization causing by your scripts.
+
+=== Cache LocalPlayer ===
+Cache <code>Networking.LocalPlayer</code> by saving it as a local variable. Re-use the variable instead of calling <code>Networking.LocalPlayer</code> again. For example:<syntaxhighlight lang="c#">
+private VRCPlayerApi localPlayer;
+
+private void Start()
+{
+  localPlayer = Networking.LocalPlayer;
+}
+
+private void Update()
+{
+  Debug.Log(localPlayer.GetPosition());
+}
+</syntaxhighlight>This ''slightly'' improves the performance of your behaviour, especially if you reference the local player one or more times per update.
