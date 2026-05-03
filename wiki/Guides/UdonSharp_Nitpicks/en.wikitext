@@ -35,17 +35,18 @@ Use the <code>[Header]</code> and <code>[Tooltip]</code> attributes to organize 
 = Networking =
 This section contains some tips related to networking and synchronizing changes between players.
 
-=== Call <code>OnDeserialization</code> locally ===
+=== Call OnDeserialization locally ===
 When the networking owner of an UdonBehaviour uses <code>RequestSerialization()</code>, all players '''except''' the owner execute <code>OnDeserialization()</code>.
 
 But if you override <code>OnDeserialization()</code> in your script, the owner can manually execute it. This is useful if you'd like the owner of the script to execute <code>OnDeserialization()</code>, to replicate the same behaviour as other players.
 
-For example, here is a simple script that the master can use to increase a <code>score</code> variable. The <code>scoreText</code> is updated for everyone in <code>OnDeserialization</code>.<syntaxhighlight lang="c#" line="1">[UdonSynced] private int score;
+For example, the following script allows the owner to increase a <code>score</code> variable and update <code>scoreText</code> for all players:<syntaxhighlight lang="c#" line="1">[UdonSynced] private int score;
 [SerializeField] private TextMeshProUGUI scoreText;
 
-// The owner can call IncreaseScore anywhere to increase the score by 1.
-public void IncreaseScore()
+// If the owner calls the method below, the score increases by one.
+private void IncreaseScore()
 {
+  if (!Networking.IsOwner(gameObject)) return;
   score++;
   RequestSerialization();
   OnDeserialization();
@@ -54,12 +55,64 @@ public void IncreaseScore()
 public override void OnDeserialization()
 {
   scoreText.text = score.ToString();
-}</syntaxhighlight>Note that <code>OnDeserialization()</code> ''without'' parameters is a deprecated method. More complex scripts may require the overload <code>OnDeserialization(DeserializationResult)</code>, and executing the overload locally may not make sense for the owner. Instead, consider writing your own method (e.g., <code>UpdateScoreText()</code>, and calling it from <code>OnDeserialization()</code> ''and'' manually calling it for the owner immediately after <code>RequestSerialization()</code>.
+}</syntaxhighlight>Note that <code>OnDeserialization()</code> ''without'' parameters is a deprecated method. More complex scripts may require <code>OnDeserialization(DeserializationResult)</code> , so consider the following approach:
 
-''⚠️This section is incomplete! Two sections have not been transferred from VRCLibrary yet.''
+# Write your own method, e.g., <code>UpdateScoreText()</code>.
+# Make the owner call it immediately after <code>RequestSerialization()</code>.
+# Make remote players call it from <code>OnDeserialization(DeserializationResult result)</code>.
+
+=== FieldChangeCallback ===
+Use the <code>[FieldChangeCallback]</code> attribute to respond to synced variable changes without using <code>OnDeserialization()</code>. For example:<syntaxhighlight lang="c#" line="1">[SerializeField] private TextMeshProUGUI scoreText;
+[UdonSynced, FieldChangeCallback(nameof(Score))] private int score;
+
+private bool Score
+{
+  get => score;
+  set
+  {
+    score = value;
+    scoreText.text = score.ToString();
+  }
+}
+
+// If the owner calls the method below, the score increases by one.
+private void IncreaseScore()
+{
+  if (!Networking.IsOwner(gameObject)) return;
+  Score++;
+  RequestSerialization();
+}</syntaxhighlight>This approach is especially useful for synced variables that interact with your scene in simple ways, e.g., updating text or animators. You can still use <code>OnDeserialization()</code> elsewhere, where appropriate. Especially because <code>[FieldChangeCallback]</code> has a drawback that's easy to forget:
+
+=== FieldChangeCallback execution order issues ===
+''Note: This section has not been proofread yet! It may contain factual errors.''
+
+If you use <code>[FieldChangeCallback]</code>to execute cute, avoid referencing other variables that may not have been deserialized yet. For example:<syntaxhighlight>[SerializeField] private TextMeshProUGUI scoreText;
+[SerializeField] private TextMeshProUGUI roundText;
+[UdonSynced, FieldChangeCallback(nameof(Score))] private int score;
+[UdonSynced] private int round;
+
+private bool Score
+{
+  get => score;
+  set
+  {
+    score = value;
+    scoreText.text = score.ToString();
+    roundText.text = round.ToString(); // ⚠️ round might be outdated for remote players!
+  }
+}
+
+// If the owner calls the method below, the score and round increase by one.
+private void IncreaseScoreAndRound()
+{
+  if (!Networking.IsOwner(gameObject)) return;
+  round++;
+  Score++; // ⚠️ Only the owner will see the round and score text correctly.
+  RequestSerialization();
+}</syntaxhighlight>That's because <code>[FieldChangeCallback]</code> may execute ''before'' all synced variables have been deserialized. You may accidentally use outdated values without realizing it! Instead, use <code>OnDeserialization</code> or <code>SendCustomEventDelayed</code> to wait until all variables are deserialized. 
 
 == Optimization ==
-These tips can help reduce the CPU utilization causing by your scripts.
+These tips can help reduce the CPU utilization caused by your scripts.
 
 === Cache LocalPlayer ===
 Cache <code>Networking.LocalPlayer</code> by saving it as a local variable. Re-use the variable instead of calling <code>Networking.LocalPlayer</code> again. For example:<syntaxhighlight lang="c#">
