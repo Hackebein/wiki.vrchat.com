@@ -1,11 +1,12 @@
-{{Noticebox/Official}}{{Noticebox/Stub|This page is not yet complete! You can contribute, by expanding and proofreading, in accordance with the [[VRCWiki:Manual of Style|Manual of Style]].}}
+{{Noticebox/Official}}
+{{Noticebox/Stub|This page is not yet complete! You can contribute, by expanding and proofreading, in accordance with the [[VRCWiki:Manual of Style|Manual of Style]].}}
 
 '''Video players''' are [[Prefabs|prefabs]] in VRChat [[Worlds|worlds]], using [[Udon]], that allow users to share, or stream video content simultaneously. VRChat officially uses two types of video players in their [[VRChat SDK|SDK]], ''VRCAVProVideoPlayer'', and ''VRCUnityVideoPlayer''<ref>[https://creators.vrchat.com/worlds/udon/video-players/ Video Players | VRChat Creation] on ''creators.vrchat.com; retrieved December 7, 2024</ref>. However, there are different [[Community:Video players|community-created]] video player prefabs, with different user interfaces, and preferences. All video players utilize world audio, and most video players have a volume slider on the user interface.
 
 ==Video compatibility==
 Using VRChat's default [[Settings|settings]], video players can play videos from their list of [[Trusted URLs|trusted sources]], such as YouTube and Twitch. However, by toggling "Allow Untrusted URLs" in your settings, videos from most sources should be able to play and be watched, and as long as it's a supported video format, or stream codec, by the player.
 
-Playing videos not from the video player allowlist<ref>[https://creators.vrchat.com/worlds/udon/video-players/www-whitelist/ Video Player Allowlist] on ''creators.vrchat.com''; retrieved December 7, 2024.</ref> in Public [[Instances|instances]] may be limited, unless the world creator has that domain or host whitelisted.
+Playing videos not from the video player allowlist<ref>[https://creators.vrchat.com/worlds/udon/video-players/www-whitelist/ Video Player Allowlist] on ''creators.vrchat.com''; retrieved December 7, 2024.</ref> in public [[Instances|instances]] may be limited, unless the world creator has that domain or host whitelisted.
 
 === Video codecs and containers ===
 If hosting video yourself, VRChat may or may not be able to play various filetypes, depending on the user's platform.  This also varies depending on whether the player is using AVPro or Unity video player.
@@ -22,7 +23,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 ! colspan=2 style="border-right-color:white;" |Steam Deck
 ! colspan=2 style="border-right-color:white;" |Quest 2
 ! colspan=2 style="border-right-color:white;" |Quest 3
-! colspan=2 style="border-right-color:white;" |Android<ref group="note">needs always to be served over https</ref>
+! colspan=2 style="border-right-color:white;" |Android<ref group="note">URL's must use the <code>https</code> protocol</ref>
 ! colspan=2 style="border-right-color:white;" |iOS
 |-
 !style="background-color:#777" |Video
@@ -79,9 +80,9 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✅
 | align="center" style="border-right-color:white;" |✅
 | align="center" |❌
-<ref group="note">sound was played, but screen was staying dark</ref>
+<ref group="note" name=":1">Load succeeded with audio, but video did not display</ref>
 | align="center" style="border-right-color:white;" |❌
-<ref group="note">video loading was succeed, but there was no sound nor screen content</ref>
+<ref group="note" name=":2">Load succeeded, but video or audio did not display/play</ref>
 |-
 !VP8
 !Vorbis
@@ -126,7 +127,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" style="border-right-color:white;" |?
 | align="center" |✅
 | align="center" style="border-right-color:white;" |❌
-<ref name=":0" group="note">on some machines, no sound plays</ref>
+<ref name=":0" group="note">On some hardware, no audio plays</ref>
 | align="center" |✅
 | align="center" style="border-right-color:white;" |✅
 | align="center" |?
@@ -171,8 +172,8 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" style="border-right-color:white;" |?
 | align="center" |✅
 | align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |❌
+| align="center" style="border-right-color:white;" |❌
 |-
 !AV1
 !Vorbis
@@ -218,7 +219,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" style="border-right-color:white;" |?
 | align="center" |❌
 | align="center" style="border-right-color:white;" |❌
-<ref group="note" name="videoyessoundno">video played, sound did not</ref>
+<ref group="note" name="videoyessoundno">Load succeeded with video, but audio did not play</ref>
 | align="center" |✅
 | align="center" style="border-right-color:white;" |✅
 | align="center" |?
@@ -228,8 +229,10 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |❌
 <ref name="videoyessoundno" group="note" />
 | align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |❌
+<ref name=":2" group="note" />
+| align="center" style="border-right-color:white;" |❌
+<ref name=":2" group="note" />
 |-
 !AV1
 !Opus
@@ -246,8 +249,8 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" style="border-right-color:white;" |?
 | align="center" |✅
 | align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |❌
+| align="center" style="border-right-color:white;" |❌
 |-
 !AV1
 !Opus
@@ -265,8 +268,10 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" style="border-right-color:white;" |?
 | align="center" |✅
 | align="center" style="border-right-color:white;" |✅
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |❌
+<ref name=":1" group="note" />
+| align="center" style="border-right-color:white;" |❌
+<ref name=":2" group="note" />
 |-
 ! -
 !AAC
@@ -374,7 +379,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✅
 | align="center" style="border-right-color:white;" |❌
 | align="center" |❌
-<ref group="note">loading was not finished in a brief time</ref>
+<ref group="note">Loading did not finish</ref>
 | align="center" style="border-right-color:white;" |❌
 |-
 ! -
@@ -393,7 +398,7 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" |✅
 | align="center" style="border-right-color:white;" |❌
 | align="center" |❌
-<ref group="note">the resource was loaded but played no sound</ref>
+<ref group="note">Load succeeded, but audio did not play</ref>
 | align="center" style="border-right-color:white;" |❌
 |-
 ! -
@@ -429,8 +434,8 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" style="border-right-color:white;" |?
 | align="center" |✅
 | align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |❌
+| align="center" style="border-right-color:white;" |❌
 |-
 ! -
 !Opus
@@ -447,8 +452,8 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" style="border-right-color:white;" |?
 | align="center" |✅
 | align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |✅
+| align="center" style="border-right-color:white;" |❌
 |-
 ! -
 !Opus
@@ -465,8 +470,8 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" style="border-right-color:white;" |?
 | align="center" |✅
 | align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |❌
+| align="center" style="border-right-color:white;" |❌
 |-
 ! -
 !Opus
@@ -483,8 +488,8 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 | align="center" style="border-right-color:white;" |?
 | align="center" |✅
 | align="center" style="border-right-color:white;" |❌
-| align="center" |?
-| align="center" style="border-right-color:white;" |?
+| align="center" |✅
+| align="center" style="border-right-color:white;" |❌
 |-
 ! -
 !MP3
@@ -560,8 +565,10 @@ If hosting video yourself, VRChat may or may not be able to play various filetyp
 |}
 <references group="note" />
 
-==In the SDK==
-You can add video players to your VRChat world with the SDK's VRCAVProVideoPlayer or VRCUnityVideoPlayer. The easiest way to put a Video Player in your Udon world is by using one of the Prefabs, which you can find in: ''Packages/VRChat SDK - Worlds/Samples/UdonExampleScene/Prefabs/VideoPlayers''.
+==SDK==
+Video players can be added to VRChat worlds with the SDK's <code>VRCAVProVideoPlayer</code> or <code>VRCUnityVideoPlayer</code> prefabs. They can be found in: ''Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VideoPlayers''.
+
+Alternatively, there are different community-created video player prefabs that can be used instead.
 
 ==Official resources==
 * {{VRC link|https://creators.vrchat.com/worlds/udon/video-players |Video Players}} on ''creators.vrchat.com''
@@ -571,8 +578,9 @@ You can add video players to your VRChat world with the SDK's VRCAVProVideoPlaye
 ==See also==
 * [[Trusted URLs]]
 * [[Udon]]
-* 
+
 ==References==
+<references />
 
 [[Category:Video players]]
 [[Category:Needs images]]
