@@ -181,7 +181,7 @@ Effects affecting specific plates.
 *''One plate will be set on fire''
 |-
 |'''Frost traps'''
-|
+|Adds a button that will freeze the player in ice when stepped on, preventing them from moving.
 |
 *''Installing frost traps on #x plates''
 |-
@@ -191,7 +191,7 @@ Effects affecting specific plates.
 *''<nowiki>#</nowiki>x plate is about to receive a bear trap''
 |-
 |'''Landmine'''
-|
+|Adds a mine to the plate that will explode when stepped on, killing the player.
 |
 *''One plate will receive a landmine''
 *''Activating Mines on #x plates''  
@@ -204,7 +204,7 @@ Effects affecting specific plates.
 * ''Activating Bomb Bots on #x plates''
 |-
 |'''Treasure chests'''
-|
+|Adds a chest that will provide points to the player when opened.
 |
 *''Treasure ahead! One plate will receive a treasure chest''
 *''Dispatching treasure chests to #x plates''
@@ -215,13 +215,13 @@ Effects affecting specific plates.
 *''1x plate will receive a weapons crate''
 |-
 |'''Storm clouds'''
-|
+|Spawns a storm cloud over the plate that occasionally will project lightning bolts, which damage players on contact.
 |
 *''Prepare for rain, one plate is about to get its own storm cloud''
 *''Weather Alert: Storm clouds forming over 2x plates''
 |-
 |'''Toxic waste'''
-|
+|Adds a barrel of toxic waste to plates, which causes visual distortion when standing close. Toxic waste does not damage players.
 |
 *''Warning: Toxic waste may distort your perception of reality''
 *''1x plate's about to receive a barrel of toxic waste''
@@ -232,7 +232,7 @@ Effects affecting specific plates.
 *''Installing laser spinners on #x plates''
 |-
 |'''Canine companion'''
-|
+|Adds a small robotic dog to plates, which does not have any impact on gameplay.
 |
 *''Analysis: morale boost required. Activating canine companion''
 |-
@@ -249,7 +249,7 @@ Effects affecting specific plates.
 *''One plate is getting ready to play some tunes''
 |-
 |'''Portal'''
-|
+|Adds a portal to plates, which allows players to warp to other plates, or occasionally a hidden area.
 |
 *''# plates selected for portal experimentation''
 *''One plate is about to receive a one-way portal''
@@ -260,7 +260,7 @@ Effects affecting specific plates.
 *''Lockdown protocol activated. Three plates entering containment''
 |-
 |'''Meteor Alert'''
-|
+|One or more meteors will fall from the sky, and will kill any players they land on.
 |
 * ''# plates in trajectory path''
 *''One plate will be targeted by a meteor''
@@ -292,19 +292,19 @@ Effects affecting the arena, not a specific target.
 *''WARNING: Incoming thermonuclear bomb''
 |-
 |'''Arena laser'''
-|
+|Adds one or two lasers that moves horizontally across the entire arena. Can be avoided by jumping or being on an elevated or lowered plate.
 |
 *''Activating arena laser''
 *''Arena lasers are booting up. Get ready to jump''
 |-
 | '''Spiked wall'''
-|
+|One or two large walls span and slowly move through the arena, pushing players off plates.
 |
 *''A spiked wall will make its way through the arena''
 *''Activating #x wall hazards''
 |-
 |'''Extra plates'''
-|
+|Adds an extra plate for the remainder of the round.
 |
 *''Adding extra plates to the arena''
 |-
@@ -319,12 +319,12 @@ Effects affecting the arena, not a specific target.
 *''ZOINKS! A G-G-GHOST?!''
 |-
 |'''HoloDome''' 
-|
+|Changes the skybox, but otherwise has no impact on gameplay.
 |
 *''HoloDome online... preparing for a change in scenery''
 |-
 |'''Wave'''
-|
+|A giant wave moves slowly through the arena, pushing players off plates.
 |
 *''WARNING: Wave formation detected inside the arena'' 
 * ''ALERT: hydrodynamic activity detected''
@@ -345,12 +345,12 @@ Effects affecting the arena, not a specific target.
 *''Introducing more gravity to the arena''
 |-
 |'''Holo-Maze'''
-|
+|Generates solid walls throughout the arena.
 |
 *''Holo-Maze generation in progress. Prepare for a navigational challenge''
 |-
 |'''Voids'''
-|
+|Spawns 1-3 black holes that slowly grow for several minutes before despawning. Coming in contact causes instant death for players.
 |
 *''DANGER: Multiple interdimensional voids detected''
 *''ERROR: Hard light failure. Beware of unstable holographic areas''
