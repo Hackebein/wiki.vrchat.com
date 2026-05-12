@@ -18,9 +18,26 @@ When enabled, users can adjust the distance from their avatar and switch between
 |-
 ! Button !! Description
 |-
-| F5 || Toggles Third Person View
+| '''F5'''|| ''Toggles Third Person View''
 |-
-| Scrollwheel || Adjusts the distance from the avatar
+| '''Scrollwheel'''|| ''Adjusts the distance from the avatar''
 |-
-| TAB || Enabled free rotate mode
+| '''TAB'''|| ''Enabled free rotate mode''
+|}
+
+== Settings ==
+The following settings can be adjusted in ''Main Menu -> Settings -> Graphics''.
+{| class="wikitable"
+|+
+!Name
+!Tooltip
+|-
+|'''Third Person View'''
+|''See VRChat from behind your avatar! Toggle with F5, freely rotate with TAB, and adjust distance using mouse-wheel.''
+|-
+|'''Third Person View Distance'''
+|''Sets the maximum distance the third person viewpoint can extend away from your avatar when third person view is active''
+|-
+|'''Third Person View Vertical'''
+|''Sets the left/right position for the third person viewpoint relative to your avatar''
 |}
