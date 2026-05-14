@@ -1,10 +1,20 @@
 {{Noticebox/Official}}
-{{Noticebox/Update|The design of Loading Screens has changed with version 2026.2.1. Images need updating.}}
-[[File:LoadingScreen_Support.png|thumb|A loading screen showing VRRat with a link to a support page.]]
-'''Loading Screens''' are a series of intermittent scenes that are shown when loading into the client or [[Special:MyLanguage/Worlds|worlds]]. It displays helpful tips about VRChat, as well as display a download progress bar.
+[[File:VRChat Support.png|thumb|A loading screen showing VRRat with a link to a support page.]]
+'''Loading Screens''' are a series of intermittent scenes that are shown when loading into the client or [[Special:MyLanguage/Worlds|worlds]]. It displays helpful banners about VRChat, as well as display a download progress bar.
 
-== Client ==
-The loading screen scene consists of a teal void with bubble-like particles floating around. In the center of the view point is a graphic showing various tips. Underneath, displays the percentage of the world downloading progress. Below that, shows a "Return to Home" button to return to the user's [[Special:MyLanguage/Worlds#Home world|home world]]. If the user is loading their home world, and they click the Return to Home button, it will load the [[VRChat Home]] instead.
+== Overview ==
+By default, the loading screen scene consists of a teal void with bubble-like particles floating around, but can be changed with Cosmetics.
+
+In the center of the view point is a graphic showing various banners. Underneath, displays information about the world the user is travelling to. It includes the percentage of the world downloading progress, thumbnail and author. Below that, shows a "Return to Home" button to return to the user's [[Special:MyLanguage/Worlds#Home world|home world]]. If the user is loading their home world, and they click the "Go to default home" button, it will load into the [[Special:MyLanguage/VRChat Home|VRChat Home]] instead.
+
+The download process is skipped if the world is in the content cache via preload or previously downloading the world. 
+
+<gallery>
+File:None.png|Entering VRChat Home with “Show Go Button On Load” disabled. No buttons displayed.
+File:GO!.png|Entering any world with “Show Go Button On Load” enabled. “Go!”
+File:Return to Home.png|Entering a non-VRChat Home that is not a custom Home. “Return to Home”
+File:Go to default Home.png|Entering a non-VRChat Home that is a custom Home. “Go to default Home”
+</gallery>
 
 After downloading, the loading screen will display the thumbnail of the world with a load indicator below it. The load indicator states progress in this order: 
 
@@ -12,45 +22,158 @@ After downloading, the loading screen will display the thumbnail of the world wi
 
 While in VR, you are able to see a mirrored version of the loading screen by looking behind.
 
-==== Tips ====
-There are 28 loading screens that can be displayed when entering into a world:
-<gallery mode="packed">
-File:LoadingScreen_Volume.png|Adjust Volume on People
-File:LoadingScreen_AvatarMarketplace.png|Avatar Marketplace
-File:LoadingScreen_ChangeAvatar.png|Change Avatars
-File:LoadingScreen_Forums.png|Check out our forums!
-File:LoadingScreen_CommunityGuidelinesDisturb.png|Community Guidelines Disturb
-File:LoadingScreen_CommunityGuidelinesPrivate.png|Community Guidelines Private
-File:CL_Loading.webp|Community Labs
-File:LoadingScreen_WorldInstance.png|Create a World Instance
-File:LoadingScreen_Portal.png|Drop a Portal
-File:LoadingScreen_FriendsTrusted.png|Friends are Trusted
-File:LoadingScreen_GainTrust.png|Gaining Trust
-File:LoadingScreen_Feedback.png|Got Feedback?
-File:LoadingScreen_AvatarHide.png|Hide & Unhide Avatars
-File:LoadingScreen_Discord.png|Join the VRChat Discord
-File:LoadingScreen_Nameplate.png|Nameplate Information
-File:LoadingScreen_Safety.png|Safety System
-File:LoadingScreen_Scan.png|Scan the Room
-File:LoadingScreen_FriendRequest.png|Send a Friend Request
-File:LoadingScreen_HideTrust.png|Show / Hide Trust Rank
-File:LoadingScreen_StaySafe.png|Stay Safe
-File:LoadingScreen_Marketplace.png|VRChat Marketplace
-File:LoadingScreen_Support.png|VRChat Support
-File:LoadingScreen_TrustExplain.png|What does Trust do?
-File:LoadingScreen_WorldSpotlight.png|World Spotlights
-File:LoadingScreen_VRCPlus.png|VRC+
-File:LoadingScreen_VRCPlusAgeVerification.png|VRC+ Age Verification
-File:LoadingScreen_VRCPlusStickersEmoji.png|VRC+ Custom Stickers & Emoji
-File:LoadingScreen_VRCPlusPrints.png|VRC+ Share Memories with Prints
+== Loading Screens ==
+===Client===
+====Banners====
+There are 17 "permanent" banners that can be displayed when entering into a world. Banners are dynamic and can be added or changed without notice:
+{| class="wikitable sortable"
+!Banner
+!Name
+!Type
+!Notes
+|-
+|[[File:LoadingScreenBanner_Gaining_Trust.png|center|frameless|400px]]
+|Gaining Trust
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_Cosmic_Survival_Kit_26.png|center|frameless|400px]]
+|Cosmic Survival Kit 26
+|Promotional
+|End date of June 3rd 2026.
+|-
+|[[File:LoadingScreenBanner_Avatar_Accessories_2026.png|center|frameless|400px]]
+|Avatar Accessories 2026
+|Promotional
+|
+|-
+|[[File:LoadingScreenBanner_iOS_Available_Now.jpg|center|frameless|400px]]
+|iOS Available Now
+|Promotional
+|
+|-
+|[[File:LoadingScreenBanner_2FA.png|center|frameless|400px]]
+|2FA
+|Informational
+|Only shown to users that don't have [[Two-Factor Authentication (2FA)|2FA]] enabled
+|-
+|[[File:LoadingScreenBanner_Ask_-_Check_Out_Our_Forums.png|center|frameless|400px]]
+|Ask - Check Out Our Forums
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_Community_Guidelines_-_Hate_Speech.png|center|frameless|400px]]
+|Community Guidelines - Hate Speech
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_Community Guidelines_-_Provocative_Content.png|center|frameless|400px]]
+|Community Guidelines - Provocative Content
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_Change_Avatars.png|center|frameless|400px]]
+|Change Avatars
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_Join_the_VRChat_Discord.png|center|frameless|400px]]
+|Join the VRChat Discord
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_VRC+_More_Avatar_Slots.png|center|frameless|400px]]
+|VRC+ More Avatar Slots
+|Promotional
+|Only shown to users that aren't subscribed to [[VRC+]]
+|-
+|[[File:LoadingScreenBanner_VRChat_Support.png|center|frameless|400px]]
+|VRChat Support
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_Hide_and_Unhide_Avatars.png|center|frameless|400px]]
+|Hide and Unhide Avatars
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_Safety_System_-_Shield_Levels.png|center|frameless|400px]]
+|Safety System - Shield Levels
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_Stay_Safe_-_Mute_and_Block_Users.png|center|frameless|400px]]
+|Stay Safe - Mute and Block Users
+|Informational
+|
+|-
+|[[File:LoadingScreenBanner_VRC+_Age_Verification.png|center|frameless|400px]]
+|VRC+ Age Verification
+|Promotional
+|Only shown to users that aren't subscribed to VRC+
+|-
+|[[File:LoadingScreenBanner_VRC+_Nameplate_Icon.png|center|frameless|400px]]
+|VRC+ Nameplate Icon
+|Promotional
+|Only shown to users that aren't subscribed to VRC+
+|-
+|[[File:LoadingScreenBanner_VRC+_World_Slots.png|center|frameless|400px]]
+|VRC+ World Slots
+|Promotional
+|Only shown to users that aren't subscribed to VRC+
+|-
+|[[File:LoadingScreenBanner_VRC+_Prints.png|center|frameless|400px]]
+|VRC+ Prints
+|Promotional
+|Only shown to users that aren't subscribed to VRC+
+|-
+|[[File:LoadingScreenBanner_VRC+_Stickers.png|center|frameless|400px]]
+|VRC+ Stickers
+|Promotional
+|Only shown to users that aren't subscribed to VRC+
+|}
+<div class="mw-collapsible">
+Loading Screen with banners can be seen below:
+<div class="mw-collapsible-content">
+<gallery>
+File:IOS Available Now!.png|'''IOS Available Now!'''
+File:VRC+ Nameplate Icon.png|'''VRC+ Nameplate Icon'''
+File:VRC+ Age Verification.png|'''VRC+ Age Verification'''
+File:VRC+ Prints.png|'''VRC+ Prints'''
+File:VRC+ Stickers.png|'''VRC+ Stickers'''
+File:VRC+ More World Slots.png|'''VRC+ More World Slots'''
+File:VRC+ More Avatar Slots.png|'''VRC+ More Avatar Slots'''
+File:VRChat Support.png|'''VRChat Support'''
+File:Protect your Account.png|'''Protect your Account'''
+File:Change Avatars.png|'''Change Avatars'''
+File:Safety System.png|Safety Syetem
+File:Gaining Trust.png|'''Gaining Trust'''
+File:Hide and Unhide Avatars.png|'''Hide and Unhide Avatars'''
+File:Stay Safe.png|'''Stay Safe'''
+File:Community Guidelines Disturb.png|'''Community Guidelines Disturb'''
+File:Community Guidelines Private.png|'''Community Guidelines Private'''
+File:Check out our forums!.png|'''Check out our forums!'''
+File:Join the VRChat Discord!.png|'''Join the VRChat Discord!'''
 </gallery>
-===== Custom =====
+</div>
+</div>
+
+==== Community Labs ====
+[[Special:MyLanguage/Community Labs|Community Labs]] worlds display a notice and warning when joining.
+
+<gallery mode="packed">
+File:CommunityLabsLoadingScreen.png|Community Labs
+</gallery>
+
+==== Custom ====
 Select worlds can display a custom loading screen, needing permission from VRChat. This is usually associated with linking data with a third-party website. This type of loading screen requires the user to press an "Accept & Continue" button to join the world. 
+
 <gallery mode="packed">
-File:LoadingScreenCustom_FuralitySomna.png|Custom
+File:LoadingScreenCustom_CatsUdon TRPG.png|Custom
 </gallery>
-== Android ==
-There are 3 loading screens that can be displayed when joining a world from the app.
+
+=== Android ===
+There are 3 loading screens that can be displayed when joining a world from the Android companion app.
 <gallery mode="packed">
 File:AndroidLoadingScreen_Avatars.png|Avatars
 File:AndroidLoadingScreen_ShieldLevel.png|Shield Level
@@ -58,6 +181,8 @@ File:AndroidLoadingScreen_Friends.png|Friends
 </gallery>
 
 == Cosmetics ==
+Loading Screen cosmetics changes the look of the loading screen. Cosmetics can change background, music, and UI colors.
+
 {| class="wikitable"
 !Image
 !Name
@@ -101,13 +226,10 @@ File:AndroidLoadingScreen_Friends.png|Friends
 |}
 <references group="note" />
 
-== Settings for the loading screen ==
+== Settings ==
 
 ==== "Go!" button ====
-Within the [[Main Menu]] [[Settings]] menu, under the '''User Interface''' tab, there is an option to toggle a "Go!" button on load. Having this setting enabled requires the user to click the Go button before loading into the world. Disabling the setting will remove the Go button, causing you to automatically join when the download is completed.
-
-==== Preloading worlds ====
-When browsing a world's page from within the VRChat client, an Action that can be clicked is '''Preload World'''. By preloading a world before joining, most of the loading screen can be skipped.
+Within the [[Main Menu]] [[Settings|settings]] menu, under the '''User Interface''' tab, there is an option called "Show Go Button On Load". Enabling this setting requires the user to click the Go button before loading into the world. Disabling the setting will remove the Go button, causing you to automatically join when the download is completed.
 
 == Trivia ==
 
@@ -123,7 +245,9 @@ When browsing a world's page from within the VRChat client, an Action that can b
 * [[Worlds]]
 
 == References ==
-[[Category:User_Interface{{#translation:}}]]
+<references />
 
 == Navigation ==
 {{Navbox/Inventory}}
+
+[[Category:User_Interface{{#translation:}}]]
