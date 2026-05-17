@@ -217,7 +217,7 @@ VRC+ 구독을 계속 유지할 필요는 없습니다.<br />
 |-
 |멤버 전용 그룹 인스턴스 생성||<small>해당 역할에 멤버 전용 인스턴스를 생성할 수 있는 권한을 허용합니다.</small>
 |-
-|멤버 전용 인스턴스 역할 제한||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to add/remove/modify role restrictions on members-only instances. Requires “Create Members-Only Group Instances”.</small></span>
+|멤버 전용 인스턴스 역할 제한||<small>해당 역할에 멤버 전용 인스턴스의 역할 제한을 추가, 제거 또는 수정할 수 있는 권한을 허용합니다.<br />이 기능을 사용하려면 "멤버 전용 그룹 인스턴스 생성" 권한이 필요합니다.</small>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">Portal to Group+ Instances</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to open locked portals to Group+ instances. Members, friends of people there, and friends of the portal dropper may enter unless group-banned.</small></span>
 |-
