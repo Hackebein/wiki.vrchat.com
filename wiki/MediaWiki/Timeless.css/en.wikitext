@@ -441,8 +441,11 @@ pre:not(.mw-highlight pre) {
   color: #b7f430;
   font-weight: 700
 }
+#simpleSearch,
 .diff-context {
-  background: var(--less-dark-grey);
+  background: var(--less-dark-grey)
+}
+.diff-context {
   border-color: #41474c;
   color: inherit
 }
