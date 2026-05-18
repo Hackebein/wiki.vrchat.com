@@ -147,7 +147,9 @@
   unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
 }
 .statstable,
-.tux-groupselector {
+.tux-groupselector,
+.wikiEditor-ui-toolbar .booklet>.index>div:hover,
+.wikiEditor-ui-toolbar .page-characters div span:hover {
   color: #000
 }
 #contentSub,
@@ -158,6 +160,7 @@
 .mw-echo-ui-notificationItemWidget-content-actions-timestamp,
 .mw-echo-ui-notificationItemWidget-content-message-header,
 .mw-message-box,
+.mw-rcfilters-container .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title,
 .mw-rcfilters-ui-filterMenuSectionOptionWidget-header-title.oo-ui-labelElement-label,
 .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-title,
 .mw-rcfilters-ui-itemMenuOptionWidget-label-title,
@@ -205,9 +208,11 @@ body {
 .mw-body h2 {
   border-bottom: solid 3px var(--more-dark-grey-border)
 }
+#mw-content-block,
 #uls-settings-block,
 .mw-sp-translate-edit-definition,
 .mw-sp-translate-message-documentation,
+.oo-ui-tagMultiselectWidget.oo-ui-widget-enabled.oo-ui-tagMultiselectWidget-outlined,
 .tux-list-status .tux-notice,
 .uls-lcd,
 .uls-search {
@@ -387,38 +392,6 @@ figure[typeof~="mw:File/Thumb"]>a:first-child>:first-child:not(.mw-broken-media)
   margin: .25em;
   filter: drop-shadow(0 0 4px #000)
 }
-.embedvideo-thumbnail > p {
-    margin: 0;
-}
-.embedvideo-thumbnail__image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-.embedvideo-privacyNotice__dismiss {
-    color: var(--red);
-    background: var(--less-dark-grey);
-    border: solid var(--less-dark-grey-border);
-    border-radius: 10px;
-}
-.embedvideo-privacyNotice__continue {
-    background: var(--less-dark-grey);
-    color: var(--faux-white);
-    border: solid var(--less-dark-grey-border);
-    border-radius: 10px;
-}
-.embedvideo-privacyNotice__continue:hover {
-    background: var(--green);
-    color: var(--faux-white);
-}
-.embedvideo-privacyNotice__dismiss:hover {
-    background: var(--red);
-    color: var(--faux-white);
-}
-.embedvideo-loader__fakeButton {
-    background: var(--less-dark-grey);
-    color: var(--faux-white);
-}
 code {
   border: 1px solid var(--more-dark-grey)
 }
@@ -428,9 +401,11 @@ pre:not(.mw-highlight pre) {
   border: none;
   border-radius: 16px
 }
-#searchInput,
 .mw-datatable,
 .oo-ui-menuOptionWidget.oo-ui-widget-enabled.oo-ui-optionWidget,
+.oo-ui-messageDialog-title,
+.wikiEditor-ui-toolbar .page-characters div span,
+.wikiEditor-ui-toolbar .page-table td,
 .wikitable {
   color: #fff
 }
@@ -466,11 +441,8 @@ pre:not(.mw-highlight pre) {
   color: #b7f430;
   font-weight: 700
 }
-#simpleSearch,
 .diff-context {
-  background: var(--less-dark-grey)
-}
-.diff-context {
+  background: var(--less-dark-grey);
   border-color: #41474c;
   color: inherit
 }
@@ -502,6 +474,7 @@ pre:not(.mw-highlight pre) {
 #mw-content-text > div > ul > li:first-child {
   padding-top: unset
 }
+/*! ⏸️ fix white background when zoomed in */
 .oo-ui-listToolGroup-tools .oo-ui-tool.oo-ui-widget-enabled:hover,
 .oo-ui-toolbar-bar,
 .oo-ui-toolbar-position-top>.oo-ui-toolbar-bar,
@@ -628,6 +601,10 @@ figure.ve-ce-mwBlockImageNode {
   border-radius: 100%;
   margin-left: .25em
 }
+.mw-changeslist-legend,
+.uls-menu {
+  border: 3px solid var(--less-dark-grey-border)
+}
 .mw-pt-progress--complete::after {
   background-color: var(--green)
 }
@@ -643,7 +620,6 @@ figure.ve-ce-mwBlockImageNode {
 }
 .uls-menu {
   background-color: var(--less-dark-grey);
-  border: 3px solid var(--less-dark-grey-border);
   border-radius: 16px;
   color: var(--faux-white)
 }
@@ -671,6 +647,10 @@ figure.ve-ce-mwBlockImageNode {
 .mw-footer-container {
   border-top: solid 1px var(--less-dark-grey);
   background: #1a1d1c
+}
+#mw-content-container {
+  /*! border-bottom: solid 4px var(--ns-current-color); | adapts to namespace color */
+  border-bottom: solid 4px var(--link)
 }
 .mw-footer {
   max-width: 80em
@@ -700,7 +680,14 @@ figure.ve-ce-mwBlockImageNode {
   box-shadow: 0 0
 }
 #simpleSearch {
-  border: 2px solid #39404a
+  border: 3px solid #39404a;
+  border-radius: 8px;
+  height: 38px;
+  box-shadow: 0 0 .4rem #000
+}
+#searchInput {
+  color: #fff;
+  height: 2.3em
 }
 #p-search {
   flex: 0 1 auto;
@@ -717,7 +704,8 @@ figure.ve-ce-mwBlockImageNode {
 #mw-searchButton,
 input#searchButton {
   filter: invert(1);
-  right: .5em
+  right: .5em;
+  height: 3em
 }
 #user-tools {
   width: 12.5em;
@@ -734,8 +722,9 @@ input#searchButton {
   text-overflow: ellipsis
 }
 #personal .dropdown {
-  background: var(--very-dark-grey);
-  border: solid var(--very-dark-grey-border)
+  background: #16191c;
+  border: solid var(--very-dark-grey-border);
+  border-radius: 8px
 }
 #personal .dropdown:before {
   border-bottom: 10px solid transparent
@@ -968,10 +957,42 @@ input#searchButton {
   box-shadow: none
 }
 .mw-body .mw-rcfilters-ui-changesListWrapperWidget .mw-changeslist-legend {
-  background: var(--less-dark-green);
-  border: solid var(--less-dark-green-border);
+  background: var(--less-dark-grey);
+  border: solid var(--less-dark-grey-border);
   color: var(--faux-white);
   box-shadow: 0 0 .4rem #000
+}
+.mw-changeslist-legend {
+  background-color: var(--less-dark-grey);
+  border-radius: 15px;
+  color: var(--faux-white);
+  box-shadow: 0 0 .4rem #000
+}
+.mw-rcfilters-container .mw-rcfilters-ui-filterTagMultiselectWidget.oo-ui-widget-enabled .oo-ui-tagMultiselectWidget-handle {
+  background-color: var(--less-dark-grey);
+  border: 3px solid var(--less-dark-grey-border);
+  border-radius: 15px
+}
+.mw-rcfilters-container .mw-rcfilters-ui-filterTagMultiselectWidget-wrapper-content-savedQueryTitle {
+  color: #e6e6e6
+}
+.mw-pt-translate-header,
+.mw-rcfilters-collapsed .mw-rcfilters-container .mw-rcfilters-ui-filterTagMultiselectWidget {
+  border-bottom: none
+}
+.mw-rcfilters-ui-filterTagMultiselectWidget-views {
+  padding-top: 1em
+}
+.mw-rcfilters-container .mw-rcfilters-ui-filterTagMultiselectWidget-views-input {
+  padding-right: 10px
+}
+.mw-rcfilters-container .mw-rcfilters-ui-filterTagMultiselectWidget .oo-ui-tagMultiselectWidget-input input {
+  border-radius: 10px
+}
+.mw-rcfilters-container .mw-rcfilters-ui-filterTagMultiselectWidget-views-select-widget.oo-ui-widget {
+  background: var(--more-dark-grey);
+  border: 2px solid var(--more-dark-grey-border);
+  border-radius: 10px
 }
 .oo-ui-buttonElement-framed.oo-ui-widget-disabled > .oo-ui-buttonElement-button {
   background: var(--very-dark-grey);
@@ -997,6 +1018,9 @@ input#searchButton {
 .oo-ui-messageWidget.oo-ui-messageWidget-block.oo-ui-flaggedElement-notice {
   background: var(--very-dark-grey);
   border-color: var(--very-dark-grey-border)
+}
+.mw-echo-ui-notificationItemWidget-initiallyUnseen {
+  background-color: #382f00!important
 }
 .mw-echo-ui-notificationBadgeButtonPopupWidget-popup > .oo-ui-popupWidget-popup > .oo-ui-popupWidget-head {
   border-bottom: 2px solid var(--more-dark-grey-border)
@@ -1026,6 +1050,18 @@ div.editOptions {
 div.editOptions {
   background: var(--less-dark-grey);
   color: inherit
+}
+/*! ⏸️  mimic style of caution noticebox when in source editor */
+body.action-edit:not(.ve-activated) .cdx-message--warning,
+body.action-submit:not(.ve-activated) .cdx-message--warning {
+  background-color: var(--background-color-warning-subtle,#202114);
+  border: 3px solid #9e8600!important;
+  color: #fff;
+  border-radius: 10px
+}
+/*! ⏸️ "special characters & help" improved readability */
+.wikiEditor-ui-toolbar .page-table th {
+  color: #a4a4a4
 }
 .sidebar-chunk {
   border-radius: 15px
@@ -1077,6 +1113,10 @@ div.editOptions {
     position: relative;
     transform: scale(.85)
   }
+  #personal .dropdown {
+    top: 3em;
+    right: -5em
+  }
   #mw-related-navigation .sidebar-chunk,
   #mw-site-navigation .sidebar-chunk {
     background: var(--less-dark-grey);
@@ -1118,9 +1158,6 @@ div.editOptions {
   #mw-site-navigation .sidebar-chunk {
     border: 0
   }
-}
-.mw-pt-translate-header {
-  border-bottom: none
 }
 .mw-translate-fuzzy {
   background-color: #ff72cf36;
@@ -1256,6 +1293,10 @@ div.editOptions {
 }
 .ext-translate-container .tux-messagelist .tux-message-pagemode:last-child .tux-message-item-compact {
   border-bottom: 3px dotted var(--more-dark-grey-border)
+}
+/*! ⏸️ | hack, add margin to bottom of source translate notice */
+.translate-edit-documentation {
+  margin-bottom: 1em
 }
 :root {
   --faux-white: #f8f9fa;
