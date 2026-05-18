@@ -74,9 +74,8 @@
 === 技術細節 ===
 鏡子會於 <code>Camera.onPreCull</code> 階段進行渲染。使用依賴鏡子渲染時機之腳本的世界創作者，應將此行為納入考量。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Resources ==
-</div>
+<span id="Resources"></span>
+==官方資源==
 
 [https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ <span lang="en" dir="ltr" class="mw-content-ltr">VRChat Creator Documentation - VRC Mirror Reflection</span>]
 
