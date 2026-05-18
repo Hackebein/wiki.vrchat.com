@@ -71,10 +71,8 @@
 
 [[Special:MyLanguage/VRChat SDK|VRChat SDK]] 內含可直接使用的鏡子預製組件（Prefab），創作者可以直接將其拖曳至場景中使用。該預製組件位於以下路徑：<br>
 <code>Packages\com.vrchat.worlds\Samples\UdonExampleScene\Prefabs\VRCMirror.prefab</code>
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Technical details ===
-Mirrors render during <code>Camera.onPreCull</code>. World creators using scripts that depend on mirror render timing should account for this.
-</div>
+=== 技術細節 ===
+鏡子會於 <code>Camera.onPreCull</code> 階段進行渲染。使用依賴鏡子渲染時機之腳本的世界創作者，應將此行為納入考量。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Resources ==
