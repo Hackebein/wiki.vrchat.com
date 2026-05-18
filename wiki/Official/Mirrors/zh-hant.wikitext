@@ -23,9 +23,7 @@
 <span id="Calibration_Mirror"></span>
 === 校正鏡子 ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-A calibration mirror is a type of mirror that activates automatically when the user presses the "Calibrate FBT" button. It is visible only to the user who is calibrating and disappears once they are done. The calibration mirror displays only the user's avatar, controllers, and FBT tracker model, which can be set in the Main Menu's Settings. If "Display Calibration Visuals" is enabled under Tracking and IK, the calibration mirror will also reflect these, showing which tracking points the trackers will track when calibration is done.
-</div>
+'''校正鏡子'''（'''Calibration Mirror'''）是在用戶按下「'''FBT 校正'''」（'''Calibrate FBT'''）時會自動啟用的鏡子。其僅有正在進行校正的用戶可見，並會在校正完成後自動關閉。校正鏡子只會顯示用戶的角色、控制器以及 FBT 追蹤器模型，而該模型可於主選單中的「'''設定'''」標籤頁設定。若在「'''追蹤 & IK'''」（'''Tracking and IK'''）中啟用了「'''顯示 FBT 校正範圍'''」（'''Display Calibration Visuals'''），那麼校正鏡子也會一併顯示，用以展示校正完成後各追蹤器所對應的追蹤點。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 It can be enabled via the [[Special:MyLanguage/Action Menu|Action Menu]] or the [[Special:MyLanguage/Main Menu|Main Menu]]'s [[Special:MyLanguage/Settings|Settings]] page, but there are no configuration options for the calibration mirror.
