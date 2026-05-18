@@ -50,9 +50,7 @@
 <span id="Performance_issues"></span>
 == 效能問題 ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Every object reflected in a mirror has to be rendered again, separately from what the user sees in the playable world. A mirror reflecting the whole world will double the performance cost of rendering the world. Occlusion culling does not work in mirror reflections, so a mirror facing a wall will still try to render everything behind the wall too.
-</div>
+鏡子中所反射到的每個物件，都會必須再額外重新渲染一次，並獨立於用戶在世界中實際看到的畫面之外。若鏡子反射了整個世界，則世界的渲染效能成本幾乎會往上再增加一倍。另外，遮擋剔除（Occlusion Culling）在鏡面反射中不會生效，因此即使鏡子正對著牆壁，它仍然會嘗試渲染牆壁後方的所有內容。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Creators can reduce the performance cost for mirrors in many ways, such as:
