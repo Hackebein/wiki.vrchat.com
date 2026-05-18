@@ -59,12 +59,10 @@
 * 調整鏡子所反射的 [[Special:MyLanguage/Layers|Layers（圖層）]]。鏡子只會渲染指定圖層上的物件。例如，若有一個大型戶外世界，而中央有一棟房屋，可以將戶外環境物件設為 Environment Layer（環境圖層），並在屋內鏡子的設定中停用 Environment Layer。如此一來，鏡子便不會嘗試渲染它實際上看不見的戶外環境。
 當用戶要使用到世界中的鏡子時，通常也可以啟用或切換不同選項來節省效能，例如：
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-* Using only one mirror at a time.
-* Choosing a lower quality option for a mirror, if available.
-* Alternatively, substituting a world's mirror for your Personal Mirror.
-* Adjust your mirror resolution under [[Special:MyLanguage/Settings#Graphics|Graphics Settings]].
-</div>
+* 同時只使用一面鏡子。
+* 若有提供，可選擇鏡子的低畫質模式。
+* 或者以個人鏡子來取代使用世界中的鏡子。
+* 也可以在[[Special:MyLanguage/Settings#Graphics|圖形]]設定中調整鏡子的解析度。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==SDK==
