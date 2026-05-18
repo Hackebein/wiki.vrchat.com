@@ -52,14 +52,12 @@
 
 鏡子中所反射到的每個物件，全都必須再額外重新渲染一次，並獨立於用戶在世界中實際看到的畫面之外。若鏡子反射了整個世界，則世界的渲染效能成本幾乎會往上再增加一倍。另外，遮擋剔除（Occlusion Culling）在鏡面反射中不會生效，因此即使鏡子正對著牆壁，它仍然會嘗試渲染牆壁後方的所有內容。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Creators can reduce the performance cost for mirrors in many ways, such as:
-* Disabling all mirrors by default. Only enable a mirror when the user pushes a button, or physically approaches them.
-* Disabling mirrors when a user leaves the area. This will remove the rendering cost of a mirror when a player isn't using it. Users will often not do this themselves, so use a script to do it for them.
-* Considering the placement of mirrors. A mirror facing away from the center of the world will have to render less than one facing inward.
-* Changing the [[Special:MyLanguage/Layers|Layers]] a mirror reflects. A mirror only renders objects on the defined layers. For example, if you have a large outdoor world with a house in the middle, you could set the outdoor environment objects to the environment layer, and then disable the environment layer on the mirrors inside the house. This will stop the mirrors from trying to render the environment that they can't see.
-When interacting with a Mirror in a world, users will be able to enable or toggle different options to save on performance, such as:
-</div>
+創作者可以透過多種方式降低鏡子的效能消耗，例如：
+* 預設停用所有鏡子。只有在用戶按下按鈕，或實際靠近鏡子時才啟用。
+* 當用戶離開區域時停用鏡子。這能在用戶未使用鏡子時移除其渲染成本。由於用戶通常不會自行關閉鏡子，因此可透過腳本自動處理。
+* 考量鏡子的擺放位置。朝向世界外側的鏡子，相較於朝向世界中心的鏡子，需要渲染的內容通常更少。
+* 調整鏡子所反射的 [[Special:MyLanguage/Layers|Layers]]。鏡子只會渲染指定圖層上的物件。例如，若有一個大型戶外世界，而中央有一棟房屋，可以將戶外環境物件設為 environment layer，並在屋內鏡子的設定中停用 Environment Layer。如此一來，鏡子便不會嘗試渲染它實際上看不見的戶外環境。
+當用戶與世界中的鏡子互動時，通常也可以啟用或切換不同選項來節省效能，例如：
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * Using only one mirror at a time.
