@@ -47,9 +47,8 @@
 
 透明鏡子通常會反射周圍的角色，同時像窗戶般顯示著鏡子後方的景象，並帶有些微從鏡子視角所呈現的世界反射效果。這需要特殊的設定方式，而社群上也提供了可直接使用的透明鏡子預製組件。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Performance issues ==
-</div>
+<span id="Performance_issues"></span>
+== 效能問題 ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Every object reflected in a mirror has to be rendered again, separately from what the user sees in the playable world. A mirror reflecting the whole world will double the performance cost of rendering the world. Occlusion culling does not work in mirror reflections, so a mirror facing a wall will still try to render everything behind the wall too.
