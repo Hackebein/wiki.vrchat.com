@@ -114,8 +114,8 @@
   transform-origin: bottom center;
   transition: transform .1s
 }
-[alt*=vrcat i] :active,
-[alt*=vrrat i] :active {
+[alt*=vrcat i]:active,
+[alt*=vrrat i]:active {
   cursor: grabbing;
   transform: scaleY(.9) scaleX(1.1)
 }
@@ -133,6 +133,30 @@ figure[typeof~="mw:File/Thumb"]>:not(figcaption) .mw-file-element {
 .spoiler,
 .tpl-infopush {
   position: relative
+}
+.embedvideo-privacyNotice__dismiss {
+  color: var(--red);
+  background: var(--less-dark-grey);
+  border: solid var(--less-dark-grey-border);
+  border-radius: 10px
+}
+.embedvideo-privacyNotice__continue {
+  background: var(--less-dark-grey);
+  color: var(--faux-white);
+  border: solid var(--less-dark-grey-border);
+  border-radius: 10px
+}
+.embedvideo-privacyNotice__continue:hover {
+  background: var(--green);
+  color: var(--faux-white)
+}
+.embedvideo-privacyNotice__dismiss:hover {
+  background: var(--red);
+  color: var(--faux-white)
+}
+.embedvideo-loader__fakeButton {
+  background: var(--less-dark-grey);
+  color: var(--faux-white)
 }
 .link-audio,
 .link-document,
@@ -241,8 +265,10 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://store.ste
 }
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://discord.com"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://discord.gg"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://wiki.vrchat.com/discord"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://discord.com/"]::before,
-a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://discord.gg/"]::before {
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://discord.gg/"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://wiki.vrchat.com/discord/"]::before {
   content: ""!important;
   display: inline-block!important;
   width: 1em!important;
@@ -300,23 +326,27 @@ a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://web.archi
   border-radius: .25em
 }
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://ask.vrchat.com"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://clientsim.docs.vrchat.com"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://creators.vrchat.com"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://docs.vrchat.com"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://feedback.vrchat.com"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://hello.vrchat.com"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://help.vrchat.com"]::before,
-a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://medium.com/@vrchat"]::before,
-a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://medium.com/vrchat"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://status.vrchat.com"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://udonsharp.docs.vrchat.com"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://vcc.docs.vrchat.com"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://vrch.at"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href="https://vrchat.com"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://ask.vrchat.com/"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://clientsim.docs.vrchat.com/"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://creators.vrchat.com/"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://docs.vrchat.com/"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://feedback.vrchat.com/"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://hello.vrchat.com/"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://help.vrchat.com/"]::before,
-a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://medium.com/@vrchat/"]::before,
-a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://medium.com/vrchat/"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://status.vrchat.com/"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://udonsharp.docs.vrchat.com/"]::before,
+a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://vcc.docs.vrchat.com/"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://vrch.at/"]::before,
 a:not(.icon-none,.code-link,.icon-none *,.plainlinks *)[href^="https://vrchat.com/"]::before {
   content: ""!important;
