@@ -25,9 +25,7 @@
 
 '''校正鏡子'''（'''Calibration Mirror'''）是在用戶按下「'''FBT 校正'''」（'''Calibrate FBT'''）時會自動啟用的鏡子。其僅有正在進行全身追蹤（FBT）校正的用戶可見，並會在校正完成後自動關閉。校正鏡子只會顯示用戶的角色、控制器以及 FBT 追蹤器模型，而該模型可於主選單中的「'''設定'''」標籤頁設定。若在「'''追蹤與 IK'''」（'''Tracking and IK'''）中啟用了「'''顯示 FBT 校正範圍'''」（'''Display Calibration Visuals'''），那麼校正鏡子也會一併顯示，用以展示校正完成後各追蹤器所對應的追蹤點。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-It can be enabled via the [[Special:MyLanguage/Action Menu|Action Menu]] or the [[Special:MyLanguage/Main Menu|Main Menu]]'s [[Special:MyLanguage/Settings|Settings]] page, but there are no configuration options for the calibration mirror.
-</div>
+這項功能可以從[[Special:MyLanguage/Action Menu|動作選單]]或[[Special:MyLanguage/Main Menu|主選單]]中的[[Special:MyLanguage/Settings|設定]]標籤頁設定啟用，但校正鏡子沒有任何可進一步調整的設定選項。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Common setups ==
