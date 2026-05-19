@@ -145,12 +145,10 @@ Above is a part of the full description, although it probably doesn't need to be
 |2026-05-08
 |2026-07-03
 |從[[Special:MyLanguage/Shop|商店]]中購買。
-|<span lang="en" dir="ltr" class="mw-content-ltr">''"The strange creation rattles with energy…"''</span>
+|「這個奇異的東西正隨著能量不停震動著 ...」
 |}
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ==SDK==
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 World authors can add portals to their world via the [https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker] prefab from the [[Special:MyLanguage/VRChat SDK|VRChat SDK]]. It is located in <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>. It allows a world ID along with an optional custom portal name. Alternatively, the Portal Marker may point to the official VRChat Hub or Home World instead.
