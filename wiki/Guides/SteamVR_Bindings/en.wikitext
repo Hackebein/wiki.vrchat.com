@@ -906,12 +906,17 @@ The default thresholds for movement on Vive controllers require you to hit the e
 ====Accidental jumping ====
 With a mix of adjustments to [[Guides:SteamVR Bindings|Overlap percentage]] & [[Guides:SteamVR Bindings#Deadzones|Deadzones]] on the Trackpad DPADs, you can restore the pre-Input 2.0 zone for jumping.
 ====Restore posing with grip / Can't pickup Physbones====
-At time of writing (8/30/24) Physbone posing is part to the <code>interact</code> action and there's is no way to restore pre-input 2.0 functionality of pose via Grip without sacrificing other functionalities. You may be dropping Physbones at the moment because fully pulling the trigger activates the <code>interact</code> action, posing the physbone (or dropping it if posing is disabled) 
-<blockquote>[https://feedback.vrchat.com/open-beta/p/1501-vive-controllers-unwanted-gesture-behavior-in-action-menu Related Canny]</blockquote>(Fixed in Open beta 1647, remove above content when it moves live)
+You're likely using an old Vive wand binding.  You may reset your bindings to the default or manually add <code>Physbone Grab</code> and <code>Physbone Freeze</code> bindings. <!-- This issue was fixed in Open beta 1647
 
-You're likely using an old Vive wand binding.  You may reset your bindings to the default or manually add <code>Physbone Grab</code> and <code>Physbone Freeze</code> bindings.
+https://feedback.vrchat.com/bug-reports/p/1501-vive-controllers-unwanted-gesture-behavior-in-action-menu
 
-====Unwanted Action Menu gestures====
+Old Issue:
+
+Physbone posing is part to the interact action and there's is no way to restore pre-input 2.0 functionality of pose via Grip without sacrificing other functionalities. You may be dropping Physbones at the moment because fully pulling the trigger activates the interact action, posing the physbone (or dropping it if posing is disabled)
+
+ -->
+
+====Unwanted Action (Expression) Menu gestures====
 This is because the Action Menu action set is a copy of the Global action set. If you wish to keep Fist/Open hand functional but prevent the trackpad from firing emotes, you can migrate the actions of <code>Gesture Wheel - Disable Move</code> And <code>Gesture Wheel - Disable Rotate</code> to Touch on their respective Buttons instead of Click. If you want to disable ALL gestures (including fist/open hand) while the action menu is open, you can delete all Gesture Wheel actions from the Action menu action set all together. 
 <blockquote>[https://feedback.vrchat.com/open-beta/p/1501-vive-controllers-unwanted-gesture-behavior-in-action-menu Related Canny]</blockquote>
 
