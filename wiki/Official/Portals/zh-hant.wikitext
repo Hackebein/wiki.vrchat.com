@@ -150,7 +150,7 @@ Above is a part of the full description, although it probably doesn't need to be
 
 ==SDK==
 
-世界創作者可透過 [[Special:MyLanguage/VRChat SDK|VRChat SDK]] 中的 [[https://creators.vrchat.com/worlds/components/vrc_portalmarker/](https://creators.vrchat.com/worlds/components/vrc_portalmarker/) VRC Portal Marker] 預製物件（Prefab）於世界內新增傳送門。其位置位於 <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>。它可設定一個世界藍圖 ID，以及可選的自訂傳送門名稱。此外，Portal Marker 也可以改為指向官方的 VRChat Hub 或起始世界（Home World）。
+世界創作者可透過 [[Special:MyLanguage/VRChat SDK|VRChat SDK]] 中的 [https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker] 預製組件（Prefab）於世界內新增傳送門。其位置位於 <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>。它可設定一個世界藍圖 ID，以及可選的自訂傳送門名稱。此外，Portal Marker 也可以改為指向官方的 VRChat Hub 或起始世界（Home World）。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 VRC Portal Marker scripts can be updated dynamically through [[Special:MyLanguage/Udon|Udon]].
