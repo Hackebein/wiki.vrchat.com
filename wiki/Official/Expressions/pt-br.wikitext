@@ -80,9 +80,7 @@ Por padrão, a sincronização de parâmetros personalizados usa o modo de sincr
 <span id="Built-in_parameters"></span>
 === Parâmetros Integrados ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-VRChat also provides built-in Animator parameters. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
-</div>
+O VRChat também fornece parâmetros integrados do Animator. Eles não precisam ser adicionados ao recurso de Parâmetros de Expressão e não contam para o limite de parâmetros personalizados.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Built-in parameters are read-only. They are added directly to a playable layer's Animator Controller by name, and VRChat updates them automatically at runtime. They are not set on sub-animators, only on playable-layer animators.
