@@ -96,9 +96,7 @@ Parâmetros integrados adicionais incluem:
 * <code>IsOnFriendsList</code> (Bool) — Define se o observador é amigo do usuário que está usando o avatar (mostra False localmente).
 * <code>ScaleFactor</code>, <code>ScaleFactorInverse</code>, <code>EyeHeightAsMeters</code>, <code>EyeHeightAsPercent</code> (Float) — Parâmetros relacionados ao escalonamento do avatar. <code>EyeHeightAsMeters</code> é recomendado para sistemas compatíveis com escala, pois é linear e não depende da altura de upload.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Each built-in parameter has a sync type determining when it is sent to remote users: ''IK'' for tracking-derived values (gestures, velocity, grounded), ''Speech'' for voice-related values (viseme, voice), ''Playable'' for user-state values (mute, earmuffs, tracking type, scale), or ''None'' for local-only values (IsLocal, PreviewMode).
-</div>
+Cada parâmetro integrado possui um tipo de sincronização que determina quando ele é enviado para usuários remotos: ''IK'' para valores derivados do rastreamento (gestos, velocidade, contato com o chão), ''Speech'' para valores relacionados à voz (viseme, voz), ''Playable'' para valores de estado do usuário (silenciar, Protetores de Ouvido, tipo de rastreamento, escala) ou ''None'' para valores apenas locais (IsLocal, PreviewMode).
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Network synchronization ===
