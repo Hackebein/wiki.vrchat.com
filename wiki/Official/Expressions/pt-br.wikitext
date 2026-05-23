@@ -101,13 +101,11 @@ Cada parâmetro integrado possui um tipo de sincronização que determina quando
 <span id="Network_synchronization"></span>
 === Sincronização de rede ===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Only synced expression parameters and certain built-in parameters are sent over the network. The full list of data sent for each avatar includes:
-* '''IK targets''' — Head, jaw, and hands for desktop and 3-point tracking; additionally hip and feet for full-body tracking. Index controller users also sync finger positions.
-* '''Synced expression parameters''' — Only parameters marked as Synced are transmitted. Values are quantized: Int values sync in the range 0–255, Float values sync as multiples of 1/127 between −1 and 1, and Bools sync as true or false.
-* '''Built-in VRC parameters''' — Including gestures, velocity, voice, and other runtime parameters.
-* '''PhysBones''' — Pose position data is sent to late joiners.
-</div>
+Apenas parâmetros de expressão sincronizados e certos parâmetros integrados são enviados pela rede. A lista completa de dados enviados para cada avatar inclui:
+* '''IK targets (Alvos de IK)''' — Cabeça, mandíbula e mãos para desktop e rastreamento de 3 pontos; adicionalmente quadril e pés para rastreamento de corpo inteiro. Usuários de controles Index também sincronizam as posições dos dedos.
+* '''Synced expression parameters (Parâmetros de expressão sincronizados)''' — Apenas parâmetros marcados como Sincronizados são transmitidos. Os valores são quantizados: valores Int sincronizam no intervalo de 0–255, valores Float sincronizam como múltiplos de 1/127 entre −1 e 1, e Bools sincronizam como verdadeiro ou falso.
+* '''Built-in VRC parameters (Parâmetros VRC integrados)''' — Incluindo gestos, velocidade, voz e outros parâmetros em tempo de execução.
+* '''PhysBones''' — Dados de posição da pose são enviados para usuários que entram posteriormente.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 For reliable late-joiner support, a recommended pattern is to split animator logic using the <code>IsLocal</code> parameter: local-side layers handle contacts, parameter drivers, and all logic, then set synced parameters, while remote-side layers only read those synced parameters to play the correct visualization.
