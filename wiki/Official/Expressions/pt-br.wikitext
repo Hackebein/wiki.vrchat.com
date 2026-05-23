@@ -68,14 +68,12 @@ Os parâmetros de expressão são usados ​​para controlar as funcionalidades
 <span id="Settings"></span>
 == Configurações ==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Each entry in the Expression Parameters asset stores:
-* '''Name''', which must match the Animator parameter name exactly.
-* '''Type''', which can be <code>Bool</code>, <code>Int</code>, or <code>Float</code>.
-* '''Default''', which is used when the avatar is reset.
-* '''Saved''', which controls whether the value persists between sessions.
-* '''Synced''', which controls whether the value is sent to other users.
-</div>
+Cada entrada no recurso de Parâmetros de Expressão armazena:
+* '''Nome''', que deve corresponder exatamente ao nome do parâmetro no Animator.
+* '''Tipo''', que pode ser <code>Bool</code>, <code>Int</code> ou <code>Float</code>.
+* '''Padrão''', usado quando o avatar é redefinido.
+* '''Salvo''', que controla se o valor persiste entre sessões.
+* '''Sincronizado''', que controla se o valor é enviado para outros usuários.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet controls temporarily use faster ''IK'' sync while they are actively open.
