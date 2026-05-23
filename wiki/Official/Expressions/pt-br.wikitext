@@ -107,9 +107,7 @@ Apenas parâmetros de expressão sincronizados e certos parâmetros integrados s
 * '''Built-in VRC parameters (Parâmetros VRC integrados)''' — Incluindo gestos, velocidade, voz e outros parâmetros em tempo de execução.
 * '''PhysBones''' — Dados de posição da pose são enviados para usuários que entram posteriormente.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-For reliable late-joiner support, a recommended pattern is to split animator logic using the <code>IsLocal</code> parameter: local-side layers handle contacts, parameter drivers, and all logic, then set synced parameters, while remote-side layers only read those synced parameters to play the correct visualization.
-</div>
+Para um suporte confiável a usuários que entram posteriormente, um padrão recomendado é separar a lógica do Animator usando o parâmetro <code>IsLocal</code>: camadas do lado local lidam com contatos, acionadores de parâmetros e toda a lógica, depois definem os parâmetros sincronizados, enquanto camadas do lado remoto apenas leem esses parâmetros sincronizados para reproduzir a visualização correta.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Gestures and facial expressions ===
