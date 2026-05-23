@@ -109,9 +109,8 @@ Apenas parâmetros de expressão sincronizados e certos parâmetros integrados s
 
 Para um suporte confiável a usuários que entram posteriormente, um padrão recomendado é separar a lógica do Animator usando o parâmetro <code>IsLocal</code>: camadas do lado local lidam com contatos, acionadores de parâmetros e toda a lógica, depois definem os parâmetros sincronizados, enquanto camadas do lado remoto apenas leem esses parâmetros sincronizados para reproduzir a visualização correta.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Gestures and facial expressions ===
-</div>
+<span id="Gestures_and_facial_expressions"></span>
+=== Gestos e Expressões Faciais ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The built-in <code>GestureLeft</code> and <code>GestureRight</code> parameters identify the user's hand gesture, while <code>GestureLeftWeight</code> and <code>GestureRightWeight</code> expose analog trigger pressure. On humanoid avatars, the Gesture playable layer is commonly used for hand poses, while facial expressions are often driven from the FX layer with blendshapes, material properties, or other non-humanoid animations.
