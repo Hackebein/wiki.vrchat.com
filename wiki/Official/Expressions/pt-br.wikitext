@@ -98,9 +98,8 @@ Parâmetros integrados adicionais incluem:
 
 Cada parâmetro integrado possui um tipo de sincronização que determina quando ele é enviado para usuários remotos: ''IK'' para valores derivados do rastreamento (gestos, velocidade, contato com o chão), ''Speech'' para valores relacionados à voz (viseme, voz), ''Playable'' para valores de estado do usuário (silenciar, Protetores de Ouvido, tipo de rastreamento, escala) ou ''None'' para valores apenas locais (IsLocal, PreviewMode).
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Network synchronization ===
-</div>
+<span id="Network_synchronization"></span>
+=== Sincronização de rede ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Only synced expression parameters and certain built-in parameters are sent over the network. The full list of data sent for each avatar includes:
