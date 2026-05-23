@@ -34,9 +34,7 @@ Quando nenhuma expressão é configurada, um menu de expressões padrão com ani
 
 Para adicionar expressões personalizadas, crie um recurso de '''Menu de Expressões''' e um recurso de '''Parâmetros de Expressão''' no Unity, depois atribua-os na seção ''Expressões'' do Descritor de Avatar do VRChat. O menu define quais controles aparecem no menu do jogo, enquanto o recurso de parâmetros define os nomes, tipos, valores padrão e comportamento de sincronização dos valores que esses controles alteram.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Each custom parameter can be marked as ''Saved'' and ''Synced''. Synced custom parameters count toward the avatar's 256-bit sync budget, while avatars can define up to 8192 total custom parameters. Parameters on this asset can also be changed by [[Special:MyLanguage/Contacts|Contact Receivers]], [[Special:MyLanguage/parameter drivers|parameter drivers]], [[Special:MyLanguage/physbones|PhysBones]], and [[Special:MyLanguage/Open Sound Control|OSC]].
-</div>
+Cada parâmetro personalizado pode ser marcado como ''Salvo'' e ''Sincronizado''. Parâmetros personalizados sincronizados contam para o limite de sincronização de 256 bits do avatar, enquanto avatares podem definir até 8192 parâmetros personalizados no total. Os parâmetros desse recurso também podem ser alterados por [[Special:MyLanguage/Contacts|Receptor de Contato]], [[Special:MyLanguage/parameter drivers|acionadores de parâmetros]], [[Special:MyLanguage/physbones|PhysBones]] e [[Special:MyLanguage/Open Sound Control|OSC]].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The SDK also includes a ''Default Parameters'' button. This restores the three alias parameters used by VRChat's default AV3 controllers: <code>VRCEmote</code>, <code>VRCFaceBlendH</code>, and <code>VRCFaceBlendV</code>.
