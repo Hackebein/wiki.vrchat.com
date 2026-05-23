@@ -32,9 +32,7 @@ Quando nenhuma expressão é configurada, um menu de expressões padrão com ani
 <span id="Custom_expressions"></span>
 ===Expressões personalizadas===
 
-<div class="mw-translate-fuzzy">
-Para adicionar expressões personalizadas, crie um arquivo de "Menu de Expressões" e um arquivo de "Parâmetros de Expressão" e, em seguida, anexe-os ao Descritor de Avatar do VRChat. O menu define as entradas de parâmetros exibidas nos menus de expressão do seu avatar. Os parâmetros são as "variáveis" que o menu controla. Você também especifica detalhes, como se os parâmetros devem ser sincronizados para outros usuários. É possível definir 256 bits para serem sincronizados, com um limite de 8192 variáveis.
-</div>
+Para adicionar expressões personalizadas, crie um recurso de '''Menu de Expressões''' e um recurso de '''Parâmetros de Expressão''' no Unity, depois atribua-os na seção ''Expressões'' do Descritor de Avatar do VRChat. O menu define quais controles aparecem no menu do jogo, enquanto o recurso de parâmetros define os nomes, tipos, valores padrão e comportamento de sincronização dos valores que esses controles alteram.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Each custom parameter can be marked as ''Saved'' and ''Synced''. Synced custom parameters count toward the avatar's 256-bit sync budget, while avatars can define up to 8192 total custom parameters. Parameters on this asset can also be changed by [[Special:MyLanguage/Contacts|Contact Receivers]], [[Special:MyLanguage/parameter drivers|parameter drivers]], [[Special:MyLanguage/physbones|PhysBones]], and [[Special:MyLanguage/Open Sound Control|OSC]].
