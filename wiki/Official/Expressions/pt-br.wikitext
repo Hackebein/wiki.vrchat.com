@@ -114,9 +114,7 @@ Para um suporte confiável a usuários que entram posteriormente, um padrão rec
 
 Os parâmetros integrados <code>GestureLeft</code> e <code>GestureRight</code> identificam o gesto de mão do usuário, enquanto <code>GestureLeftWeight</code> e <code>GestureRightWeight</code> expõem a pressão analógica do gatilho. Em avatares humanoides, a camada playable Gesture é comumente usada para poses das mãos, enquanto expressões faciais geralmente são controladas pela camada FX usando blendshapes, propriedades de material ou outras animações não humanoides.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On tracked controllers where finger tracking overrides animation by default, creators can use a Tracking Control state behavior to switch the relevant fingers from ''Tracking'' to ''Animation'' when needed.
-</div>
+Em controles com rastreamento onde o rastreamento dos dedos substitui a animação por padrão, criadores podem usar um comportamento de estado Tracking Control para alternar os dedos relevantes de ''Tracking'' para ''Animation'' quando necessário.
 
 <span id="Expression_Parameter_Mismatching"></span>
 == Divergências de parâmetros de expressão==
