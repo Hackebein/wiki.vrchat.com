@@ -75,9 +75,7 @@ Cada entrada no recurso de Parâmetros de Expressão armazena:
 * '''Salvo''', que controla se o valor persiste entre sessões.
 * '''Sincronizado''', que controla se o valor é enviado para outros usuários.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet controls temporarily use faster ''IK'' sync while they are actively open.
-</div> 
+Por padrão, a sincronização de parâmetros personalizados usa o modo de sincronização ''Playable'' do VRChat. Controles (puppet controls) usam temporariamente a sincronização ''IK'', que é mais rápida, enquanto estiverem abertos. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Built-in parameters ===
