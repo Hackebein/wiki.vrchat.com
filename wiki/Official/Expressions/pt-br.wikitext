@@ -41,15 +41,14 @@ O SDK também inclui um botão de ''Parâmetros Padrão''. Ele restaura os três
 <span id="Controls"></span>
 ====Controles====
 
-<div class="mw-translate-fuzzy">
-Você pode criar até 8 controles por página. Ao criar um controle, escolha o seu tipo:
-* Botão
-* Interruptor
-* Submenu
-* Controle de Dois Eixos (Marionete)
-* Controle de Quatro Eixos (Marionete)
-* Controle Radial (Marionete)
-</div>
+Você pode criar até 8 controles por página. Ao criar um controle, escolha o tipo:
+
+* '''Botão''' define um valor enquanto estiver pressionado, depois o redefine após o VRChat enviar a alteração.
+* '''Interruptor''' define um valor quando ativada e o redefine quando desativada.
+* '''Submenu''' abre outro menu de Expressões e, opcionalmente, pode definir um parâmetro enquanto esse submenu estiver aberto.
+* '''Controle de Dois Eixos''' controla dois parâmetros float a partir da entrada horizontal e vertical, geralmente no intervalo de <code>-1.0</code> a <code>1.0</code>.
+* '''Controle de Quatro Eixos''' controla quatro parâmetros float, um para cada direção, geralmente no intervalo de <code>0.0</code> a <code>1.0</code>.
+* '''Controle Radial''' controla um parâmetro float de <code>0.0</code> a <code>1.0</code>.
 
 <span id="Puppet_Menu_Example"></span>
 =====Exemplo de Menu de Marionetes=====
