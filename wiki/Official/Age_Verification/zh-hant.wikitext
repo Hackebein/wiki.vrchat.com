@@ -70,7 +70,7 @@ Introducing Age Verification | Developer Update #vrchat
 <span id="Additional_information"></span>
 == 附加資訊 ==
 
-*'''驗證要求'''：用戶必須提交一張「'''未經編輯'''」的政府核發身分證件照片才能通過驗證，並完成包含自拍的「'''真人驗證'''」，以確認正在進行驗證的人與證件持有人為同一人。<ref>Tupper 發布在 VRChat Forum 上的[https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-do-i-need-to-submit-to-verify-my-age-4 年齡驗證 Q&A（Age Verification FAQ）]。發布於 [2024-12-02]。存取於 [2024-12-09]。</ref>
+*'''驗證要求'''：用戶必須提交一張「'''未經編輯'''」的政府核發身分證件照片，並完成要求自拍的「'''真人驗證'''」，用於確認正在進行驗證的人與證件持有人為同一人後，才能通過年齡驗證。<ref>Tupper 發布在 VRChat Forum 上的[https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-do-i-need-to-submit-to-verify-my-age-4 年齡驗證 Q&A（Age Verification FAQ）]。發布於 [2024-12-02]。存取於 [2024-12-09]。</ref>
 *'''非必要功能'''：年齡驗證並非使用 VRChat 的必要條件。然而，用戶若要存取有年齡限制的房間與相關功能，則必須完成年齡驗證，並年滿 18 歲。<ref>Tupper 發布在 VRChat Forum 上的[https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-is-age-verification-mandatory-6 年齡驗證 Q&A（Age Verification FAQ）]。發布於 [2024-12-02]。存取於 [2024-12-09]。</ref>
 *'''資料處理'''：Persona 僅會在完成驗證所需的最短時間內保留身分證件資料，用於確認用戶的出生日期，並利用用戶所提交身分證件中的資料建立唯一的單向[[wikipedia:Cryptographic_hash_function|加密雜湊值（Cryptographic Hash）]]。此雜湊值會儲存在 VRChat 伺服器上的該用戶帳號中，而所有身分證件資料則會自 Persona 端刪除。VRChat 伺服器上將僅保留不可逆的加密雜湊值，以及用戶經驗證後的出生日期。<ref>VRChat 發布在 YouTube 上的[https://youtu.be/lzG9IwmM7TI 年齡驗證 Q&A（Age Verification FAQ）]。存取於 [2024-12-09]。</ref>
 **'''注意'''：在 VRChat 中刪除驗證資料將導致該用戶帳號暫時無法使用，直到其再次接受服務條款並重新輸入出生日期為止。此外，該帳號上的驗證狀態也將被移除，除非重新完成驗證。
