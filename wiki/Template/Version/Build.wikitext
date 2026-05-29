@@ -5,10 +5,10 @@
  | live = 1853 <!-- Put the highest value of either windows, android or ios here . -->
  | live-windows = 1853
  | live-android = 1853 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
- | live-ios = 1839 <!-- Put the highest ios value here (ios, ipados). -->
- | open-beta = 1852
- | open-beta-windows = 1852
- | open-beta-quest = 1852
+ | live-ios = 1853 <!-- Put the highest ios value here (ios, ipados). -->
+ | open-beta =
+ | open-beta-windows =
+ | open-beta-quest =
  | unity-live =
 <!-- SDK -->
  | sdk =
@@ -23,5 +23,5 @@
  | quick-launcher =
  | impostors =}}</onlyinclude> <!-- note: when editing, leave brackets and onlyinclude on the last parameter due to whitespace issues -->
 <noinclude>
-{{Documentation}}[[Category:Templates{{#translation:}}]]
+{{Documentation}}
 </noinclude>
