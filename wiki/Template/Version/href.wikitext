@@ -5,10 +5,10 @@
  | live = https://docs.vrchat.com/docs/vrchat-202622 <!-- Put the highest value of either windows, android or ios here . -->
  | live-windows = https://docs.vrchat.com/docs/vrchat-202622
  | live-android = https://docs.vrchat.com/docs/vrchat-202622 <!-- Put the highest android value here (quest/pico/mobile, etc). -->
- | live-ios = https://docs.vrchat.com/docs/vrchat-202621p3 <!-- Put the highest ios value here (ios, ipados). -->
- | open-beta = https://docs.vrchat.com/docs/vrchat-202622-open-beta
- | open-beta-windows = https://docs.vrchat.com/docs/vrchat-202622-open-beta
- | open-beta-quest = https://docs.vrchat.com/docs/vrchat-202622-open-beta
+ | live-ios = https://docs.vrchat.com/docs/vrchat-202622 <!-- Put the highest ios value here (ios, ipados). -->
+ | open-beta =
+ | open-beta-windows =
+ | open-beta-quest =
  | unity-live = 
 <!-- SDK -->
  | sdk = https://creators.vrchat.com/releases/release-3-10-3
@@ -23,5 +23,5 @@
  | quick-launcher =
  | impostors =}}</onlyinclude> <!-- note: when editing, leave brackets and onlyinclude on the last parameter due to whitespace issues -->
 <noinclude>
-{{Documentation}}[[Category:Templates{{#translation:}}]]
+{{Documentation}}
 </noinclude>
