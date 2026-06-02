@@ -4,19 +4,29 @@
 
 「'''傳送門'''」（'''Portals'''），是前往不同[[Special:MyLanguage/Worlds|世界（Worlds）]]與[[Special:MyLanguage/Instances|房間（Instances）]]的主要移動方式之一。傳送門可以固定在世界當中，也可以由用戶自行放置。
 
-<span id="Creating_a_portal"></span>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Behavior==
+</div>
+
+<span id="Creating"></span>
+<div class="mw-translate-fuzzy">
 == 建立傳送門 ==
+</div>
 
 可透過在主選單的「'''世界'''」標籤頁中，選擇任意一個世界並點擊「'''創建新的房間'''」（'''New Instance'''），接著選擇房間類型以及設定房間所在的伺服器地區。選擇完畢後，第二個畫面中便會有一個「'''放置傳送門'''」（'''Drop Portal'''）的按鈕，以及旁邊的鎖頭圖示按鈕。若未將其鎖定，則任何用戶都能看見該傳送門；反之，若將其鎖定，則只有你自己與好友能看見該傳送門。
 
-<span id="Dropping_a_portal"></span>
+<span id="Dropping"></span>
+<div class="mw-translate-fuzzy">
 ==放置傳送門==
+</div>
 
 當用戶點擊了「'''放置傳送門'''」的按鈕後，畫面中會出現一個拋物線狀的虛線標記，用於選擇你想放置傳送門的位置。傳送門必須放置於平坦表面上，且不能與世界物件或玩家重疊。此外，傳送門也無法放置在重生點（Spawn Point）附近。
 
 若要確認放置傳送門，用戶可以依據所使用的平台或模式，以點擊滑鼠左鍵、按下控制器扳機鍵、點擊螢幕，或以拇指與食指做出捏合手勢確認放置。VR 用戶也可以透過按下想使用之控制器的握把鍵，切換由哪隻手放置傳送門。
 
+<div class="mw-translate-fuzzy">
 若「'''設定'''」（'''Setting'''）標籤頁中的「'''傳送門放置模式'''」（'''Portal Mode'''）被選為「'''放置在前方'''」（'''Drop In Front'''），則在點擊「'''放置傳送門'''」按鈕後，傳送門會立即出現在你的正前方。
+</div>
 
 放置好了之後，傳送門將會顯示給其他用戶看見，並展示其世界名稱、放置傳送門的用戶、伺服器地區、房間編號、房間類型、這房間的所在群組（如果適用）、房間人數及容量、平台相容性及計時器等資訊。計時器會從 30 秒倒數至 0 秒，當倒數歸零時，傳送門將會消失。每當有用戶進入傳送門後，計時器便會重新重置回 30 秒重新倒數。
 
@@ -24,8 +34,10 @@
 
 所有人皆可放置通往「公開」或「群組公開」房間的傳送門。而通往「群組 +」房間的傳送門，則只能由群主或擁有「'''Portal to Group+ Instances'''」（'''開啟通往群組 + 房間的傳送門'''）權限的用戶放置。至於通往「好友 +」、「好友」、「邀請 +」、「邀請」房間的傳送門，則僅能由該房間的房主放置。
 
-<span id="Clicking_on_a_portal"></span>
+<span id="Selecting"></span>
+<div class="mw-translate-fuzzy">
 ==點擊傳送門==
+</div>
 
 當傳送門出現時，可以像點擊其他用戶一樣點擊它。開啟快速選單後，將雷射對準並點擊傳送門的膠囊選取框後，即可開啟這個世界的頁面與該房間資訊。這可以讓你在實際走進傳送門之前，預先載入這個世界，或者查看世界下載大小，以及將其加入收藏。
 
@@ -46,9 +58,10 @@
 *'''顯示傳送門通知'''（'''Show Portal Notifications'''）：當有傳送門被放置時，通知將顯示在你的 HUD 上。
 *'''只顯示好友的加入 / 離開 / 傳送門通知'''（'''Only Show Friend Join/Leave/Portal Notifications'''）：此選項會限制傳送門通知僅在好友放置傳送門時顯示。
 
-
-<span id="Skins"></span>
+<span id="Cosmetics"></span>
+<div class="mw-translate-fuzzy">
 ==外觀==
+</div>
 
 傳送門外觀（Portal skins），是一種可用於改變傳送門外觀的裝飾性選項。除了獨特的視覺設計外，它們還可能具有不同的開啟與關閉動畫及音效。傳送門外觀可以在「[[Special:MyLanguage/Inventory|庫存（Inventory）]]」的「'''外觀'''」（'''Cosmetics'''）欄位中選擇。
 {| class="wikitable"
@@ -146,6 +159,20 @@ Above is a part of the full description, although it probably doesn't need to be
 |<span style="white-space: nowrap;">2026 年 7 月 3 日</span>
 |從[[Special:MyLanguage/Shop|商店]]中購買。
 |''『這個奇異的東西正隨著能量不停震動著 ...』<br /><small>"The strange creation rattles with energy…"<small>''
+|-
+|[[File:Portal Neon Star.png|frameless|70x70px]]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Neon Star</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">June 1, 2026</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">July 1, 2026</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Gift 2 months of VRC+ during [[Special:MyLanguage/Pride Month 2026|Pride Month 2026]]</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">''"You're the star. Strut your stuff"''</span>
+|-
+|[[File:Furality Ultra Floortal.png|frameless|70x70px]]
+|<span lang="en" dir="ltr" class="mw-content-ltr">[[Special:MyLanguage/Community:Furality Online Xperience|Furality]] Ultra Floortal</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">June 1, 2026</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">?</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">?</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">''"Your gateway throughout the Ultraplex. Jump in!"''</span>
 |}
 
 ==SDK==
