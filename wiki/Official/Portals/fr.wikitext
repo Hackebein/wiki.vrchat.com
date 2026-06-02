@@ -4,19 +4,29 @@
 
 Les '''portails''' sont une méthode de voyage vers différents [[Special:MyLanguage/Worlds|mondes]] et [[Special:MyLanguage/Instances|instances]]. Les portails peuvent être trouvés de manière statique dans un monde ou être placés par les utilisateurs.
 
-<span id="Creating_a_portal"></span>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Behavior==
+</div>
+
+<span id="Creating"></span>
+<div class="mw-translate-fuzzy">
 ==Créer un portail==
+</div>
 
 Un portail peut être créé en sélectionnant un monde dans le menu, en choisissant « Nouvelle instance », suivi de son type et de la région dans laquelle elle doit être. Après ces sélections, un second écran apparaîtra avec un bouton '''Déposer un portail''' ainsi qu'un bouton de verrouillage à ses côtés. Laisser le portail déverrouillé permet à tous les utilisateurs de voir celui-ci ; si le portail est verrouillé, celui-ci ne sera seulement visible par vous et vos amis.
 
-<span id="Dropping_a_portal"></span>
+<span id="Dropping"></span>
+<div class="mw-translate-fuzzy">
 ==Déposer un portail==
+</div>
 
 Une fois le bouton '''Déposer un portail''' cliqué, un marqueur visuel apparaîtra afin de sélectionner l'endroit ou placer le portail. Les portails doivent être placés sur une surface plate sans interférer avec le monde ou les utilisateurs. Les portails ne peuvent pas être placés près du point d'apparition.
 
 Pour confirmer le placement du portail, appuyez sur le bouton gauche de la souris, sur l'écran, la gâchette de la manette, ou pincez votre pouce et index ensemble. Un utilisateur en VR peut lui intervertir la main utilisée pour placer le portail en appuyant sur la poignée de la manette souhaitée.
 
+<div class="mw-translate-fuzzy">
 si le paramètre « Mode du portail » est réglé sur « Déposer devant », le portail apparaîtra devant vous dès lors que vous appuyez sur le bouton « Déposer un portail ».
+</div>
 
 Le portail sera alors visible à tous, affichant le nom du monde, l'utilisateur l'ayant déposé, sa région, son numéro, son type, le groupe qui la gère (si applicable), sa capacité, les plateformes compatibles, ainsi qu'un minuteur. Le minuteur ira de 30 à 0 secondes et le portail disparaîtra une fois celui-ci fini. Le minuteur se réinitialise à chaque fois qu'un utilisateur entrera dans le portail.
 
@@ -24,8 +34,10 @@ Si le portail mène vers un monde incompatible sur certaines plateformes, les ut
 
 Les portails vers des instances Publique / Groupe public peuvent être déposés par tout le monde. Les portails vers les instances Groupe+ peuvent être déposés par le propriétaire du groupe ou par les membres ayant la permission « Portail vers les instances Groupe+ ». Les portails vers les instances Amis+ / Amis / Invitation+ / Invitation peuvent être déposés par le propriétaire de l'instance.
 
-<span id="Clicking_on_a_portal"></span>
+<span id="Selecting"></span>
+<div class="mw-translate-fuzzy">
 == Appuyer sur un portail ==
+</div>
 
 Lorsqu'un portail est disponible, ils peuvent être appuyés comme avec les utilisateurs. En ouvrant le menu rapide, appuyer sur un portail fait apparaître la page du monde et les informations de l'instance. Cela vous permet de précharger l'instance du monde à la place de marcher dans le portail, ainsi que vérifier la taille de téléchargement du monde ou de l'ajouter à vos favoris.
 
@@ -46,9 +58,10 @@ Une variété de paramètres sont disponibles pour personnaliser les portails. I
 *'''Afficher les notifications de création de portails''' - Fais apparaître des notifications sur l'ATH lors de la création d'un portail.
 *'''Afficher uniquement les notifications « a rejoint/a quitté/a créé un portail »''' - Ce paramètre restreindra les notifications pour n'afficher que des notifications lorsqu'un amis dépose un portail.
 
-
-<span id="Skins"></span>
+<span id="Cosmetics"></span>
+<div class="mw-translate-fuzzy">
 == Apparences ==
+</div>
 
 Les apparences de portail sont un type d’objet cosmétique qui peut être utilisé pour modifier l’apparence des portails. En plus de leur design unique, ils peuvent proposer différentes animations d’ouverture et de fermeture ainsi que des effets sonores. Un skin de portail peut être sélectionné dans l’onglet « Cosmétiques » de l'[[Special:MyLanguage/Inventory|Inventaire]].
 {| class="wikitable"
@@ -146,6 +159,20 @@ Above is a part of the full description, although it probably doesn't need to be
 |3 juillet 2026
 |Acheté dans la [[Special:MyLanguage/Shop|Boutique]]
 |''« L'étrange création crépite d'énergie… »''
+|-
+|[[File:Portal Neon Star.png|frameless|70x70px]]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Neon Star</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">June 1, 2026</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">July 1, 2026</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Gift 2 months of VRC+ during [[Special:MyLanguage/Pride Month 2026|Pride Month 2026]]</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">''"You're the star. Strut your stuff"''</span>
+|-
+|[[File:Furality Ultra Floortal.png|frameless|70x70px]]
+|<span lang="en" dir="ltr" class="mw-content-ltr">[[Special:MyLanguage/Community:Furality Online Xperience|Furality]] Ultra Floortal</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">June 1, 2026</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">?</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">?</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">''"Your gateway throughout the Ultraplex. Jump in!"''</span>
 |}
 
 ==SDK==
