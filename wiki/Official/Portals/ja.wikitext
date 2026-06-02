@@ -5,14 +5,22 @@
 '''ポータル'''は、異なる[[Special:MyLanguage/Worlds|ワールド]]や[[Special:MyLanguage/Instances|インスタンス]]へ移動する手段である。
 ポータルはワールド内に静的に存在する場合もあれば、ユーザーによって「配置」される場合もある。
 
-<span id="Creating_a_portal"></span>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==Behavior==
+</div>
+
+<span id="Creating"></span>
+<div class="mw-translate-fuzzy">
 == ポータルを作る ==
+</div>
 
 ポータルは、ワールドメニューでワールドを選び、'''インスタンスを作る'''を選択した後、インスタンスの種類とインスタンスをホストする地域を選択し、インスタンス作成後に表示される画面で'''ポータルを置く'''ボタンをクリックすることで作成できる。
 ボタンの横には「ロック」ボタンがあり、ポータルのロックを解除すると、すべてのユーザーがポータルを見ることができ、ポータルをロックすると、自分とそのフレンドだけがポータルを見ることができるようになる。
 
-<span id="Dropping_a_portal"></span>
+<span id="Dropping"></span>
+<div class="mw-translate-fuzzy">
 ==ポータルを置く==
+</div>
 
 '''ポータルを置く'''ボタンをクリックすると、ポータルを置く場所を場所を決めるための視覚マーカーが表示される。
 
@@ -21,7 +29,9 @@
 
 ポータルの配置を確定するには、使用している入力方法に応じて、マウスの左ボタンをクリック、コントローラーのトリガーを押す、画面をタップ、または親指と人差し指を閉じる操作を行う。VR ユーザーは、コントローラーのグリップボタンを押すことで、ポータルを配置する手を切り替えることができる。
 
+<div class="mw-translate-fuzzy">
 「ポータルの配置方法」設定が「前方に置く」に設定されている場合は、「ポータルを置く」ボタンをクリックするとすぐにポータルが自分の前に配置される。
+</div>
 
 ポータルは他のプレイヤーに表示され、ワールド名、ポータルを置いたユーザー、地域、インスタンス番号、インスタンスタイプ、インスタンスをホストしているグループ（該当する場合）、インスタンス収容人数、プラットフォーム互換性、およびタイマーが表示される。
 タイマーは30秒から0秒までカウントダウンし、タイマーが0秒に達すると、ポータルは消滅する。
@@ -31,8 +41,10 @@
 
 インスタンスタイプが「パブリック」または「グループパブリック」へのポータルは誰でも置くことができる。「グループ+」インスタンスへのポータルの場合は、グループの所有者または「グループ+インスタンスへのポータル」権限を持つユーザーがポータルを置くことができる。「フレンド+」「フレンド」「インバイト+」「インバイト」インスタンスへのポータルの場合は、インスタンスの所有者だけがポータルを置くことができる。
 
-<span id="Clicking_on_a_portal"></span>
+<span id="Selecting"></span>
+<div class="mw-translate-fuzzy">
 ==ポータルをクリックする==
+</div>
 
 ポータルは他のユーザーと同様にクリックできる。
 クイックメニューを開き、カーソルまたはレーザーでポータルを狙い、表示されるカプセルをクリックすると、そのポータルのワールドページとインスタンス情報が表示される。
@@ -60,8 +72,7 @@
 *'''ポータル通知の表示''' - 誰かがポータルを置いた時に HUD に通知を表示するか切り替える。
 *'''フレンドによる通知のみを表示''' - この設定を有効にすると、フレンドがポータルを置いた時にのみ通知が表示されるようになる。
 
-
-<span id="Skins"></span>
+<span id="Cosmetics"></span>
 <div class="mw-translate-fuzzy">
 == スキン ==
 ポータルスキンは、ポータルの外観を変更できる装飾アイテムの一種である。ユニークなデザインに加えて、ポータルの開閉アニメーションや効果音があることが特徴である。ポータルスキンは、[[Special:MyLanguage/Inventory|インベントリ]]の「装飾」タブで選択できる。
@@ -240,6 +251,20 @@ Above is a part of the full description, although it probably doesn't need to be
 |<span lang="en" dir="ltr" class="mw-content-ltr">July 3, 2026</span>
 |<span lang="en" dir="ltr" class="mw-content-ltr">Buy from the [[Special:MyLanguage/Shop|Shop]]</span>
 |<span lang="en" dir="ltr" class="mw-content-ltr">''"The strange creation rattles with energy…"''</span>
+|-
+|[[File:Portal Neon Star.png|frameless|70x70px]]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Neon Star</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">June 1, 2026</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">July 1, 2026</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Gift 2 months of VRC+ during [[Special:MyLanguage/Pride Month 2026|Pride Month 2026]]</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">''"You're the star. Strut your stuff"''</span>
+|-
+|[[File:Furality Ultra Floortal.png|frameless|70x70px]]
+|<span lang="en" dir="ltr" class="mw-content-ltr">[[Special:MyLanguage/Community:Furality Online Xperience|Furality]] Ultra Floortal</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">June 1, 2026</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">?</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">?</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">''"Your gateway throughout the Ultraplex. Jump in!"''</span>
 |}
 
 ==SDK==
