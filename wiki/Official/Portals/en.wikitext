@@ -6,12 +6,14 @@
 <!--T:2-->
 '''Portals''' are a method of traveling to different [[Special:MyLanguage/Worlds|worlds]] and [[Special:MyLanguage/Instances|instances]]. Portals can be present statically in worlds, or be 'dropped' by users.
 
-==Creating a portal== <!--T:3-->
+==Behavior==
+
+===Creating=== <!--T:3-->
 
 <!--T:4-->
 A portal can be created by selecting a world on the World menu, choosing '''New Instance''', followed by the instance type, and region that the instance should be hosted in. After this selection, a second screen will appear, with a button that says '''Drop Portal''', and a Lock button next to it. Leaving it unlocked, allows any user to be able to see the portal; if the portal is locked, then the portal will only appear to your friends and yourself.
 
-==Dropping a portal== <!--T:5-->
+===Dropping=== <!--T:5-->
 
 <!--T:6-->
 Once the '''Drop Portal''' button is chosen, a visual marker appears to select the area where you want to place a portal. portals must be placed on a flat surface not intersecting with the world or players. The portal also cannot be placed near any spawn points.
@@ -20,7 +22,7 @@ Once the '''Drop Portal''' button is chosen, a visual marker appears to select t
 To confirm the placement of a portal, click the left mouse button, the controller trigger, tap the screen, or pinch your thumb and index finger together, depending on which input method is being used. A VR user can also switch which hand drops the portal by pressing the grip button on the controller they want to use.
 
 <!--T:8-->
-if the "Portal Mode" setting is set to "Drop In Front" the portal will appear in front of you as soon as the Drop Portal button is selected.
+If the "Portal Mode" setting is set to "Drop In Front" the portal will appear in front of you as soon as the Drop Portal button is selected.
 
 <!--T:9-->
 The portal will then appear to others, displaying the world name, the user who dropped the portal, region, instance number, instance type, the group hosting the instance (if applicable), instance capacity, platform compatibility, as well as a timer. The timer will count down from thirty to zero seconds. When the portal reaches zero seconds, the portal will disappear. The timer resets back to thirty seconds after a user enters the portal.
@@ -31,7 +33,7 @@ If a portal is leading to a world that is not compatible with a certain platform
 <!--T:11-->
 Portals to Public/GroupPublic can be dropped by everyone. Portals to Group+ instances can be dropped by the owner of the Group or if with "Portal to Group+ Instances" permission. Portals to Friends+/Friends/Invite+/Invite instances can be dropped by the owner of the instance.
 
-==Clicking on a portal== <!--T:12-->
+===Selecting=== <!--T:12-->
 
 <!--T:13-->
 When a portal is available, they can be clicked on, like other users. By opening up the Quick Menu, clicking on a portal's capsule will open up its world page, and instance information. This allows you to pre-load the world instance instead of walking into the portal, as well as browse its world download size, or favorite it.
@@ -54,8 +56,7 @@ A variety of settings are available to customize portals. These can be accessed 
 *'''Show Portal Notifications''' - Notifications will appear on your HUD when a portal is dropped.
 *'''Only Show Friend Join/Leave/Portal Notifications''' - This toggle will restrict portal notifications to only show when friends drop a portal.
 
-
-== Skins == <!--T:24-->
+== Cosmetics == <!--T:24-->
 
 <!--T:26-->
 Portal skins are a type of cosmetic item that can be used to change the appearance of portals. Aside from their unique design, they can feature different opening and closing animations and sound effects. Portal skin can be selected in the "Cosmetics" tab in the [[Special:MyLanguage/Inventory|Inventory]].
@@ -156,12 +157,19 @@ Above is a part of the full description, although it probably doesn't need to be
 |<translate><!--T:90--> Buy from the [[Special:MyLanguage/Shop|Shop]]</translate>
 |<translate><!--T:91--> ''"The strange creation rattles with energy…"''</translate>
 |-
+|[[File:Portal Neon Star.png|frameless|70x70px]]
+|<translate>Neon Star</translate>
+|<translate>June 1, 2026</translate>
+|<translate>July 1, 2026</translate>
+|<translate>Gift 2 months of VRC+ during [[Special:MyLanguage/Pride Month 2026|Pride Month 2026]]</translate>
+|<translate>''"You're the star. Strut your stuff"''</translate>
+|-
 |[[File:Furality Ultra Floortal.png|frameless|70x70px]]
-|[[Special:MyLanguage/Community:Furality Online Xperience|Furality]] Ultra Floortal
-|June 1, 2026
-|?
-|?
-|''"Your gateway throughout the Ultraplex. Jump in!"''
+|<translate>[[Special:MyLanguage/Community:Furality Online Xperience|Furality]] Ultra Floortal</translate>
+|<translate>June 1, 2026</translate>
+|<translate>?</translate>
+|<translate>?</translate>
+|<translate>''"Your gateway throughout the Ultraplex. Jump in!"''</translate>
 |}
 <translate>
 
