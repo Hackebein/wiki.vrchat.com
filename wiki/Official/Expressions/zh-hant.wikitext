@@ -117,9 +117,7 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 
 內建的 <code>GestureLeft</code> 與 <code>GestureRight</code> 參數用於識別用戶的手勢，而 <code>GestureLeftWeight</code> 與 <code>GestureRightWeight</code> 則提供類比扳機鍵的按壓程度。在 Humanoid 角色上，'''Gesture Playable Layer'''（'''手勢可播放層'''）通常用於控制手勢，而臉部表情則通常透過 FX 圖層中的 Blendshape、材質屬性或其他非 Humanoid 動畫來驅動。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-On tracked controllers where finger tracking overrides animation by default, creators can use a Tracking Control state behavior to switch the relevant fingers from ''Tracking'' to ''Animation'' when needed.
-</div>
+在具備手指追蹤功能的控制器上，由於手指追蹤預設會覆蓋動畫的效果，因此創作者可使用 Tracking Control 狀態行為（State Behavior），在需要時將相關手指的控制方式由 '''Tracking'''（'''追蹤'''）切換為 '''Animation'''（'''動畫'''）模式。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Expression Parameter Mismatching==
