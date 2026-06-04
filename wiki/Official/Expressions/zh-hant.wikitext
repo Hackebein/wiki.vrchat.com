@@ -112,9 +112,8 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 
 為了確保後加入房間的用戶也能正確看到角色狀態，建議採用以 <code>IsLocal</code> 參數分離 Animator 邏輯的設計模式：本地端（<code>IsLocal = True</code>）圖層負責處理 Contact、Parameter Driver 以及所有邏輯運算，並將結果寫入已同步參數；遠端（<code>IsLocal = False</code>）圖層則只讀取這些已同步參數，並根據其值播放正確的視覺表現。這種做法可避免依賴不會同步的本地事件或邏輯，同時確保後加入房間的用戶能夠正確還原並顯示角色目前的狀態。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Gestures and facial expressions ===
-</div>
+<span id="Gestures_and_facial_expressions"></span>
+=== 手勢與臉部表情 ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The built-in <code>GestureLeft</code> and <code>GestureRight</code> parameters identify the user's hand gesture, while <code>GestureLeftWeight</code> and <code>GestureRightWeight</code> expose analog trigger pressure. On humanoid avatars, the Gesture playable layer is commonly used for hand poses, while facial expressions are often driven from the FX layer with blendshapes, material properties, or other non-humanoid animations.
@@ -215,9 +214,8 @@ Unity's Animator system uses floats on the backend for all parameter types, whil
 *[[Special:MyLanguage/VRChat SDK|VRChat SDK]]
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==References==
-</div>
+<span id="References"></span>
+==參考資料==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [https://vrc.school/docs/Avatars/Expressions-Menu-Params VRC School: Expressions Menu and Parameters]
