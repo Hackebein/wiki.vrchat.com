@@ -120,7 +120,7 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 在具備手指追蹤功能的控制器上，由於手指追蹤預設會覆蓋動畫的效果，因此創作者可使用 Tracking Control 狀態行為（State Behavior），在需要時將相關手指的控制方式由 '''Tracking'''（'''追蹤'''）切換為 '''Animation'''（'''動畫'''）模式。
 
 <span id="Expression_Parameter_Mismatching"></span>
-==表情參數不符==
+==表情參數不相符==
 
 表情參數不相符（Expression Parameter Mismatching）是指當表情參數與本機動畫控制（Animator Controller）參數之間使用不同的參數類型。雖然建議保持參數類型一致，但系統仍支援類型不相符的設定，並會依照特定規則在不同類型之間自動轉換數值。這種做法在某些 <u>Advanced</u> 配置中可能相當實用。同樣的轉換機制也適用於 VRChat 內建的動畫參數。
 
