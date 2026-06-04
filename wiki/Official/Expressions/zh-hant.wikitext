@@ -74,9 +74,7 @@ Expression Parameters 資產中的每個項目都會儲存以下資訊：
 * '''Saved'''（'''儲存'''）：控制該數值是否會在不同工作階段之間保留。
 * '''Synced'''（'''同步'''）：控制該數值是否會傳送給其他用戶。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet controls temporarily use faster ''IK'' sync while they are actively open.
-</div> 
+預設情況下，自訂參數會使用 VRChat 的 '''Playable''' 同步模式進行同步。當控制類型的控制項處於被開啟狀態時，則會暫時改用較快速的 '''IK''' 同步模式。 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Built-in parameters ===
