@@ -36,9 +36,7 @@
 
 每個自訂參數都可以設定是否 '''Saved'''（'''儲存'''）及 '''Synced'''（'''同步'''）。已同步的自訂參數會計入角色的 256 位元同步預算，而單一角色最多可定義 8192 個自訂參數。此資產中的參數也可以由 [[Special:MyLanguage/Contacts|Contact Receiver]]、[[Special:MyLanguage/parameter drivers|Parameter Driver]]、[[Special:MyLanguage/physbones|PhysBone]] 以及 [[Special:MyLanguage/Open Sound Control|OSC]] 進行變更。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The SDK also includes a ''Default Parameters'' button. This restores the three alias parameters used by VRChat's default AV3 controllers: <code>VRCEmote</code>, <code>VRCFaceBlendH</code>, and <code>VRCFaceBlendV</code>.
-</div>
+SDK 也提供了一個 '''Default Parameters'''（'''預設參數'''）按鈕。按鈕會還原 VRChat 預設 AV3 控制器所使用的三個別名參數：<code>VRCEmote</code>、<code>VRCFaceBlendH</code> 與 <code>VRCFaceBlendV</code>。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Controls====
