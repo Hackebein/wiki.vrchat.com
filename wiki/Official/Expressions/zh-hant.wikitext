@@ -162,11 +162,10 @@ Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類
 |Int → Float
 |直接轉換：例如 Int = 2 → Float = 2.0
 |}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Expression Parameter Float===
-</div>
+<span id="Expression_Parameter_Float"></span>
+===表情參數 Float===
 {| class="wikitable"
-|+<span lang="en" dir="ltr" class="mw-content-ltr">Animator Controller Parameter</span>
+|+動畫控制參數
 !<span lang="en" dir="ltr" class="mw-content-ltr">Type</span>
 !<span lang="en" dir="ltr" class="mw-content-ltr">Behaviour</span>
 |-
