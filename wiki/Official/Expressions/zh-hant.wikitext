@@ -101,9 +101,8 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 * '''Playable'''：用於表示用戶狀態的數值，例如麥克風靜音、音罩、追蹤類型及角色縮放等。
 * '''None'''：用於僅限本地端使用的數值，例如 <code>IsLocal</code> 與 <code>PreviewMode</code>。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Network synchronization ===
-</div>
+<span id="Network_synchronization"></span>
+===網路同步===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Only synced expression parameters and certain built-in parameters are sent over the network. The full list of data sent for each avatar includes:
