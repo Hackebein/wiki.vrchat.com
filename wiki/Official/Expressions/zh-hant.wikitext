@@ -29,9 +29,8 @@
 * 死亡（Die）
 * 悲傷（Sadness）
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Custom expressions===
-</div>
+<span id="Custom_expressions"></span>
+===自訂表情===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To add custom expressions, create an '''Expression Menu''' asset and an '''Expression Parameters''' asset in Unity, then assign them in the ''Expressions'' section of the VRChat Avatar Descriptor. The menu defines which controls appear in the in-game menu, while the parameters asset defines the names, types, default values, and synchronization behavior of the values those controls change.
