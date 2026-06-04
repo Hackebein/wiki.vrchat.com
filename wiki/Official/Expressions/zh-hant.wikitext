@@ -129,10 +129,10 @@ Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類
 <span id="Expression_Parameter_Bool"></span>
 ===表情參數 Bool===
 {| class="wikitable"
-|+<span lang="en" dir="ltr" class="mw-content-ltr">Animator Controller Parameter</span>
-!<span lang="en" dir="ltr" class="mw-content-ltr">Type</span>
-!<span lang="en" dir="ltr" class="mw-content-ltr">Expression Bool = False</span>
-!<span lang="en" dir="ltr" class="mw-content-ltr">Expression Bool = True</span>
+|+Animator Controller Parameter（動畫控制參數）
+!類型
+!Expression Bool = False
+!Expression Bool = True
 |-
 |Bool → Bool
 |Bool = False
@@ -146,9 +146,8 @@ Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類
 |Float = 0.0
 |Float = 1.0
 |}
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Expression Parameter Int===
-</div>
+<span id="Expression_Parameter_Int"></span>
+===表情參數 Int===
 {| class="wikitable"
 |+<span lang="en" dir="ltr" class="mw-content-ltr">Animator Controller Parameter</span>
 !<span lang="en" dir="ltr" class="mw-content-ltr">Type</span>
