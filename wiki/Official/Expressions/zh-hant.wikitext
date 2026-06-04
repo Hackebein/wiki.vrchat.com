@@ -81,7 +81,7 @@ Expression Parameters 資產中的每個項目都會儲存以下資訊：
 
 VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Expression Parameters 資產中，且不會計入自訂參數的預算限制。
 
-內建參數處於唯讀模式，無法由用戶任意修改。要觸發內建參數，只需在 '''Playable Layer''' 的 '''Animator Controller''' 中使用對應名稱建立參數，VRChat 便會在執行期間自動更新其數值。這些參數不會被設定到'''子 Animator'''（'''Sub-Animator'''）上，而只會設定於 Playable Layer 的 Animator。
+內建參數處於唯讀模式，無法由用戶任意修改。要觸發內建參數，只需在 '''Playable Layer'''（'''可播放層'''）的 '''Animator Controller''' 中使用對應名稱建立參數，VRChat 便會在執行期間自動更新其數值。這些參數不會被設定到'''子 Animator'''（'''Sub-Animator'''）上，而只會設定於 Playable Layer 的 Animator。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Additional built-in parameters include:
