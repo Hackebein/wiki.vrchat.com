@@ -154,7 +154,7 @@ Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類
 !行為
 |-
 |Int → Bool
-|<span lang="en" dir="ltr" class="mw-content-ltr">Any Int value that isn't 0 sets bool to True</span>
+|任何不為 0 的 Int 值都會將 Bool 設為 True。
 |-
 |Int → Int
 |<span lang="en" dir="ltr" class="mw-content-ltr">Expected Behaviour</span>
