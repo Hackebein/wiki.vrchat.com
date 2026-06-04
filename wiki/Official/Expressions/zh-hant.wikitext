@@ -62,9 +62,7 @@ SDK 也提供了一個 '''Default Parameters'''（'''預設參數'''）按鈕。
 <span id="Expression_Parameter"></span>
 ==表情參數==
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Expression Parameters are used to control avatar features via expression menu, [[Special:MyLanguage/Contacts|contact receiver]], [[Special:MyLanguage/Open Sound Control|OSC]], [[Special:MyLanguage/parameter drivers|parameter drivers]] or [[Special:MyLanguage/physbones|physbones]]. These parameters are then mapped to Animator Controller parameters in your avatar's FX, Gesture, or Action controllers.
-</div>
+表情參數（Expression Parameters）可透過表情選單、[[Special:MyLanguage/Contacts|Contact Receiver]]、[[Special:MyLanguage/Open Sound Control|OSC]]、[[Special:MyLanguage/parameter drivers|Parameter Driver]] 或 [[Special:MyLanguage/physbones|PhysBone]] 來控制角色功能。這些參數接著會對應至角色 FX、Gesture 或 Action 控制器中的 Animator Controller 參數。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Settings ===
