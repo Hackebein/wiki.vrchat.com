@@ -83,18 +83,17 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 
 內建參數處於唯讀模式，無法由用戶任意修改。要觸發內建參數，只需在 '''Playable Layer'''（'''可播放層'''）的 '''Animator Controller''' 中使用對應名稱建立參數，VRChat 便會在執行期間自動更新其數值。這些參數不會被設定到'''子 Animator'''（'''Sub-Animator'''）上，而只會設定於 Playable Layer 的 Animator。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Additional built-in parameters include:
-* <code>Viseme</code> (Int) — Set by lip sync from <code>0</code> (silence) to <code>14</code> (the "u" vowel) when the Avatar Descriptor's Lip Sync is set to Viseme Blend Shape or Viseme Parameter Only.
-* <code>Voice</code> (Float) — Perceived microphone volume from <code>0.0</code> to <code>1.0</code>, affected by distance and earmuff settings.
-* <code>VelocityX</code>, <code>VelocityY</code>, <code>VelocityZ</code>, <code>VelocityMagnitude</code> (Float) — Movement speed in m/s along each axis and total magnitude. Locally, playspace movement does not count; remotely, it does.
-* <code>Upright</code> (Float) — <code>0</code> when prone, <code>1</code> when standing.
-* <code>Grounded</code> (Bool) — Whether the user is touching the ground.
-* <code>MuteSelf</code> (Bool) — Whether the user's microphone is muted.
-* <code>Earmuffs</code> (Bool) — Whether the user has earmuffs enabled.
-* <code>IsOnFriendsList</code> (Bool) — Whether the viewer is friends with the avatar's wearer (shows False locally).
-* <code>ScaleFactor</code>, <code>ScaleFactorInverse</code>, <code>EyeHeightAsMeters</code>, <code>EyeHeightAsPercent</code> (Float) — Scaling-related parameters for avatar scaling. <code>EyeHeightAsMeters</code> is recommended for scale-aware systems because it is linear and does not depend on upload height.
-</div>
+其他內建參數包括：
+
+* <code>Viseme</code>（Int）：由唇形同步（Lip Sync）控制，數值範圍從 <code>0</code>（靜音）到 <code>14</code>（母音「u」）。當 Avatar Descriptor 的 Lip Sync 設定為 '''Viseme Blend Shape''' 或 '''Viseme Parameter Only''' 時啟用。
+* <code>Voice</code>（Float）：感知到的麥克風音量，範圍從 <code>0.0</code> 到 <code>1.0</code>，會受到距離及音罩（Earmuffs）設定影響。
+* <code>VelocityX</code>、<code>VelocityY</code>、<code>VelocityZ</code>、<code>VelocityMagnitude</code>（Float）：沿各軸向及總體的移動速度（單位為公尺 / 秒）。本地端不會計算遊玩空間移動，而遠端則會計算。
+* <code>Upright</code>（Float）：趴臥時為 <code>0</code>，站立時為 <code>1</code>。
+* <code>Grounded</code>（Bool）：表示用戶是否接觸地面。
+* <code>MuteSelf</code>（Bool）：表示用戶是否已將自己的麥克風靜音。
+* <code>Earmuffs</code>（Bool）：表示用戶是否已啟用耳罩功能。
+* <code>IsOnFriendsList</code>（Bool）：表示檢視者是否為角色穿戴者的好友（在本地端永遠顯示為 False）。
+* <code>ScaleFactor</code>、<code>ScaleFactorInverse</code>、<code>EyeHeightAsMeters</code>、<code>EyeHeightAsPercent</code>（Float）：與角色縮放相關的參數。由於 <code>EyeHeightAsMeters</code> 為線性數值，且不受上傳時身高影響，因此建議用於需要感知角色尺寸的系統。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Each built-in parameter has a sync type determining when it is sent to remote users: ''IK'' for tracking-derived values (gestures, velocity, grounded), ''Speech'' for voice-related values (viseme, voice), ''Playable'' for user-state values (mute, earmuffs, tracking type, scale), or ''None'' for local-only values (IsLocal, PreviewMode).
