@@ -124,9 +124,7 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 
 表情參數不相符（Expression Parameter Mismatching）是指當表情參數與本機動畫控制（Animator Controller）參數之間使用不同的參數類型。雖然建議保持參數類型一致，但系統仍支援類型不相符的設定，並會依照特定規則在不同類型之間自動轉換數值。這種做法在某些 <u>Advanced</u> 配置中可能相當實用。同樣的轉換機制也適用於 VRChat 內建的動畫參數。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Unity's Animator system uses floats on the backend for all parameter types, while VRChat stores synced custom parameters in compact network-friendly formats. The user interface in Unity and the VRCSDK lets creators choose parameter types for convenience, but under the hood, value conversion is possible. This means that parameters are not being cast in the C# sense, but rather mismatched across systems. This behavior is also supported by popular tools such as Av3Emulator and Gesture Manager.
-</div>
+Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類型，而 VRChat 則會將已同步的自訂表情參數儲存為更精簡、適合網路傳輸的格式。Unity 與 VRCSDK 的使用者介面允許創作者為了方便而選擇不同的參數類型，但在底層仍可進行數值轉換。這代表參數並非以 C# 意義上的型別轉換方式運作，而是在不同系統之間以不相符的參數類型進行對應。這種行為也受到熱門工具如 Av3Emulator 與 Gesture Manager 的支援。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Expression Parameter Bool===
