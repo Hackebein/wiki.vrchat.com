@@ -126,9 +126,8 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 
 Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類型，而 VRChat 則會將已同步的自訂表情參數儲存為更精簡、適合網路傳輸的格式。Unity 與 VRCSDK 的使用者介面允許創作者為了方便而選擇不同的參數類型，但在底層仍可進行數值轉換。這代表參數並非以 C# 意義上的型別轉換方式運作，而是在不同系統之間以不相符的參數類型進行對應。這種行為也受到熱門工具如 Av3Emulator 與 Gesture Manager 的支援。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-===Expression Parameter Bool===
-</div>
+<span id="Expression_Parameter_Bool"></span>
+===表情參數 Bool===
 {| class="wikitable"
 |+<span lang="en" dir="ltr" class="mw-content-ltr">Animator Controller Parameter</span>
 !<span lang="en" dir="ltr" class="mw-content-ltr">Type</span>
