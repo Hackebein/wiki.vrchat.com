@@ -115,7 +115,7 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 <span id="Gestures_and_facial_expressions"></span>
 === 手勢與臉部表情 ===
 
-內建的 <code>GestureLeft</code> 與 <code>GestureRight</code> 參數用於識別用戶的手部手勢，而 <code>GestureLeftWeight</code> 與 <code>GestureRightWeight</code> 則提供類比扳機鍵的按壓程度。在 Humanoid 角色上，Gesture Playable Layer（可播放層）通常用於控制手部姿勢，而臉部表情則通常透過 FX 圖層中的 Blendshape（型態鍵）、材質屬性或其他非 Humanoid 動畫來驅動。
+內建的 <code>GestureLeft</code> 與 <code>GestureRight</code> 參數用於識別用戶的手勢，而 <code>GestureLeftWeight</code> 與 <code>GestureRightWeight</code> 則提供類比扳機鍵的按壓程度。在 Humanoid 角色上，Gesture Playable Layer（手勢可播放層）通常用於控制手勢，而臉部表情則通常透過 FX 圖層中的 Blendshape、材質屬性或其他非 Humanoid 動畫來驅動。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On tracked controllers where finger tracking overrides animation by default, creators can use a Tracking Control state behavior to switch the relevant fingers from ''Tracking'' to ''Animation'' when needed.
