@@ -76,9 +76,8 @@ Expression Parameters 資產中的每個項目都會儲存以下資訊：
 
 預設情況下，自訂參數會使用 VRChat 的 '''Playable''' 同步模式進行同步。當控制類型的控制項處於被開啟狀態時，則會暫時改用較快速的 '''IK''' 同步模式。 
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Built-in parameters ===
-</div>
+<span id="Built-in_parameters"></span>
+===內建參數===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 VRChat also provides built-in Animator parameters. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
