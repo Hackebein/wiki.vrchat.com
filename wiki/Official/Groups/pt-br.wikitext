@@ -167,7 +167,7 @@ Para atribuir permissões a um cargo, um gerente de grupo deve fazer login no si
 |-
 |Gerenciar Cargos do Grupo||<small>Permite o cargo criar, modificar e deletar cargos.</small>
 |-
-|Gerenciar Cargo Padrão do Grupo||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small></span>
+|Gerenciar Cargo Padrão do Grupo||<small>Permite o cargo alterar as permissões do cargo padrão (no caso, Todos). Exige a permissão "Gerenciar Cargos do Grupo".</small>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">Assign Group Roles</span>||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small></span>
 |-
