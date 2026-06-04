@@ -79,9 +79,7 @@ Expression Parameters 資產中的每個項目都會儲存以下資訊：
 <span id="Built-in_parameters"></span>
 ===內建參數===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-VRChat also provides built-in Animator parameters. These do not need to be added to the Expression Parameters asset, and they do not count toward the custom parameter budget.
-</div>
+VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Expression Parameters 資產中，且不會計入自訂參數的預算限制。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Built-in parameters are read-only. They are added directly to a playable layer's Animator Controller by name, and VRChat updates them automatically at runtime. They are not set on sub-animators, only on playable-layer animators.
