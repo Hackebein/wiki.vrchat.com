@@ -96,10 +96,10 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 * <code>ScaleFactor</code>、<code>ScaleFactorInverse</code>、<code>EyeHeightAsMeters</code>、<code>EyeHeightAsPercent</code>（Float）：與角色縮放相關的參數。由於 <code>EyeHeightAsMeters</code> 為線性數值，且不受上傳時身高影響，因此建議用於需要感知角色尺寸的系統。
 
 每個內建參數都有其對應的同步類型，用來決定何時將數值傳送給遠端用戶：
-* ''IK''：用於由追蹤資料衍生的數值，例如手勢、移動速度及是否接觸地面等。
-* ''Speech''：用於與語音相關的數值，例如唇形同步及語音音量。
-* ''Playable''：用於表示用戶狀態的數值，例如麥克風靜音、音罩、追蹤類型及角色縮放等。
-* ''None''：用於僅限本地端使用的數值，例如 <code>IsLocal</code> 與 <code>PreviewMode</code>。
+* '''IK'''：用於由追蹤資料衍生的數值，例如手勢、移動速度及是否接觸地面等。
+* '''Speech'''：用於與語音相關的數值，例如唇形同步及語音音量。
+* '''Playable'''：用於表示用戶狀態的數值，例如麥克風靜音、音罩、追蹤類型及角色縮放等。
+* '''None'''：用於僅限本地端使用的數值，例如 <code>IsLocal</code> 與 <code>PreviewMode</code>。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Network synchronization ===
