@@ -41,15 +41,13 @@ SDK 也提供了一個 '''Default Parameters'''（'''預設參數'''）按鈕。
 <span id="Controls"></span>
 ====控制====
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can create up to 8 controls per page. When creating a control, choose its type:
-* '''Button''' sets a value while pressed, then resets after VRChat sends the change.
-* '''Toggle''' sets a value when enabled and resets it when disabled.
-* '''Sub Menu''' opens another Expressions menu, and can optionally set a parameter while that submenu is open.
-* '''Two Axis Puppet''' drives two float parameters from horizontal and vertical input, usually in the range <code>-1.0</code> to <code>1.0</code>.
-* '''Four Axis Puppet''' drives four float parameters, one for each direction, usually in the range <code>0.0</code> to <code>1.0</code>.
-* '''Radial Puppet''' drives one float parameter from <code>0.0</code> to <code>1.0</code>.
-</div>
+每個頁面最多可建立 8 個控制項。建立控制項時，可選擇以下類型：
+* '''Button'''（'''按鈕'''）：按下時瞬間設定指定數值，並在 VRChat 傳送變更後立即自動重設。
+* '''Toggle'''（'''切換'''）：啟用時設定指定數值，停用時則重設該數值。
+* '''Sub Menu'''（'''子選單'''）：下設另一個表情選單，並可選擇在該子選單開啟期間設定特定參數。
+* '''Two Axis Puppet'''（'''雙軸控制'''）：透過水平與垂直輸入控制兩個浮點數參數，通常範圍為 <code>-1.0</code> 至 <code>1.0</code>。
+* '''Four Axis Puppet'''（'''四軸控制'''）：控制四個浮點數參數，分別對應四個方向，通常範圍為 <code>0.0</code> 至 <code>1.0</code>。
+* '''Radial Puppet'''（'''環形控制'''）：以環狀滑塊控制一個浮點數參數，範圍為 <code>0.0</code> 至 <code>1.0</code>。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 =====Puppet Menu Example=====
