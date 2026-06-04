@@ -71,8 +71,8 @@ Expression Parameters 資產中的每個項目都會儲存以下資訊：
 * '''名稱'''（'''Name'''）：必須與 Animator 參數名稱完全一致。
 * '''類型'''（'''Type'''）：可為 <code>Bool</code>、<code>Int</code> 或 <code>Float</code>。
 * '''預設值'''（'''Default'''）：當角色重設時所使用的值。
-* '''已儲存'''（'''Saved'''）：控制該數值是否會在不同工作階段之間保留。
-* '''已同步'''（'''Synced'''）：控制該數值是否會傳送給其他用戶。
+* '''儲存'''（'''Saved'''）：控制該數值是否會在不同工作階段之間保留。
+* '''同步'''（'''Synced'''）：控制該數值是否會傳送給其他用戶。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet controls temporarily use faster ''IK'' sync while they are actively open.
