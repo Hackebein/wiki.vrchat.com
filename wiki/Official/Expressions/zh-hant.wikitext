@@ -57,9 +57,7 @@ SDK 也提供了一個 '''Default Parameters'''（'''預設參數'''）按鈕。
 
 你可以在任一隻手上開啟一個選單（或同時在兩隻手上開啟）。預設情況下，可透過快速撥動來選擇選項；你也可以在動作選單設定中改為使用扳機鍵進行選擇。若要返回表情選單的上一層，請按下扳機鍵。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-When a puppet control is open, VRChat synchronizes its live values with the faster ''IK'' sync mode. After it is closed, the frozen value remains until it is changed again.
-</div>
+當屬於控制類型的控制項被開啟時，VRChat 會使用較快速的 '''IK''' 同步模式即時同步其數值。控制項關閉後，當前數值會維持不變，直到再次被修改為止。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==Expression Parameter ==
