@@ -101,7 +101,7 @@ Effects affect players directly.
 !Prompts
 |-
 |'''Random stat change'''
-|
+|Randomly changes the speed and or jump stat for players.
 |
 *''All players will receive a random stat change''  
 |-
@@ -202,7 +202,7 @@ Effects affecting specific plates.
 *''Installing frost traps on #x plates''
 |-
 |'''Bear traps''' 
-|
+|Spawns bear traps on plates that will deal damage to players who step in them and temporarily prevent movement.
 |
 *''<nowiki>#</nowiki>x plate is about to receive a bear trap''
 |-
@@ -226,7 +226,7 @@ Effects affecting specific plates.
 *''Dispatching treasure chests to #x plates''
 |-
 |'''Weapons crates''' 
-|
+|Spawns 1-3 creates on random plates that contain various weapons.
 |
 *''1x plate will receive a weapons crate''
 |-
@@ -302,7 +302,7 @@ Effects affecting the arena, not a specific target.
 * ''Mist generators online, Generating fog''
 |-
 | '''Thermonuclear bomb'''
-|
+|Drops 1-3 bombs on the arena, which explode if they make contact with a plate.
 | 
 *''ALERT: Multiple thermonuclear bombs detected. Seek cover''
 *''WARNING: Incoming thermonuclear bomb''
@@ -346,17 +346,17 @@ Effects affecting the arena, not a specific target.
 * ''ALERT: hydrodynamic activity detected''
 |-
 |'''Excavator'''
-|
+|Spawns 1-3 large drill heads below the arena, which slowly rise up. They will clip through the bottom of plates and kill any plays they contact.
 |
 *''Deploying orbital Excavator''
 |-
 |'''Rocket turret'''
-|
+|Spawns a robotic turret that will randomly target a plate using a laser and then shoot a rocket at it. The rocket causes explosion damage to players hit.
 |
 *''ARENA: Deploying rocket turret''
 |-
 |'''Gravity change'''
-|
+|Changes the jump stat for all players.
 |
 *''Introducing more gravity to the arena''
 |-
@@ -372,7 +372,7 @@ Effects affecting the arena, not a specific target.
 *''ERROR: Hard light failure. Beware of unstable holographic areas''
 |-
 |'''Tornado'''
-|
+|Spawns a tornado that slowly moves around the map, and will throw any players that it comes in contact with.
 |
 *''ALERT: Extreme weather detected''
 |}
