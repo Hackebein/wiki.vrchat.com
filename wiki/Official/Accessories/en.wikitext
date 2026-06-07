@@ -24,6 +24,15 @@ Each accessory can be repositioned, rotated, and scaled using on-screen controls
 == Looks ==
 A '''Look''' is a saved combination of accessories and a specific avatar. When an accessory is added to an avatar for the first time, VRChat automatically creates a new Look. Users can create and manage multiple Looks from the '''Looks''' section of the [[Avatar]] tab, allowing quick switching between different accessory combinations.
 
+===Editor===
+The Looks Editor is how users can add and customize accessories on their avatar. It is spilt up into 3 sections: 
+
+* '''Left''': This side displays all owned accessories. Clicking on an accessory will add it to the avatar and assign it to a default bone. Hovering over an added accessory allow the user the option to duplicate it. Additionally, an undo, redo, and reset buttons are under the owned accessories.
+
+* '''Right''': This side displays all properties of the selected accessory. An accessory can have its position, rotation, and scale edited. Some accessories have additional customizable properties, such as toggles, colors, or blend shapes.
+
+* '''Middle''': The section showcases your avatar with its accessories. When an accessory is selected, the camera will focus onto the accessory and show a gizmo depends on if the user is editing its position, rotation, or scale. At the bottom of the editor, the camera orientation can be changed by toggle between "Front" & "Top".<br><br>When the position header is selected, the parent bone can be edited on the right side. Once clicked, the avatar will go transparent and display all human bones by default. The green bone is the bone that the accessory is currently applied to, and the white bones are bones that can be selected. The displayed bones can be changed by clicking "Human" at the bottom of the editor, it will show all "Extra" bones that an accessory can be applied to.
+
 == List of accessories ==
 {| class="wikitable"
 |+List of known accessories
@@ -33,6 +42,7 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 !Available until
 !Requirements
 !Description
+!style="width: 30%"|Properties
 |-
 |[[File:Accessory_Googly_Eyes.png|frameless|70x70px]]
 |Googly Eyes
@@ -40,6 +50,14 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Claim from the [[Special:MyLanguage/Shop|Shop]].
 |''"Googly Eyes. Color, eyelashes, and IPD are adjustable."''
+|Default Bone: Head
+Appearance: 
+
+* Eye Spacing (Slider)
+* Eyelashes (Toggle)
+* Eyeball Color
+* Pupil Color
+* Eyelash Color
 |-
 |[[File:Accessory_Basic_Sphere.png|frameless|70x70px]]
 |Basic Sphere
@@ -47,6 +65,11 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Claim from the [[Special:MyLanguage/Shop|Shop]].
 |''"Basic Sphere. Color is adjustable."''
+|Default Bone: Hips
+
+Colors:
+
+* Base
 |-
 |[[File:Accessory_Basic_Cube.png|frameless|70x70px]]
 |Basic Cube
@@ -54,6 +77,11 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Claim from the [[Special:MyLanguage/Shop|Shop]].
 |''"Basic Cube. Color is adjustable."''
+|Default Bone: Hips
+
+Colors:
+
+* Base
 |-
 |[[File:Accessory_Halo.png|frameless|70x70px]]
 |Halo
@@ -61,6 +89,18 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"A Halo!"''
+|Default Bone: Head
+
+Shapes:
+
+* Thickness (Slider)
+* Sparkle (Toggle)
+
+Colors:
+
+* Base
+* Glow (Slider)
+* Brightness (Slider)
 |-
 |[[File:Accessory_Angel_Wings.png|frameless|70x70px]]
 |Angel Wings
@@ -68,6 +108,21 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"Angel Wings!"''
+|Default Bone: Chest
+
+Shapes:
+
+* Distance (Slider)
+* Wings Back (Slider)
+* Sparkle (Toggle)
+
+Colors:
+
+* Base
+* Feathers
+** Fade (Slider)
+* Glow (Slider)
+* Brightness (Slider)
 |-
 |[[File:Accessory_Devil_Horns.png|frameless|70x70px]]
 |Devil Horns
@@ -75,6 +130,20 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"Devil Horns!"''
+|Default Bone: Head
+
+Shapes:
+
+* Shape (Slider)
+* Distance (Slider)
+
+Colors:
+
+* Base
+* Tips
+** Fade (Slider)
+* Lighter Recoloring (Toggle)
+* Brightness (Slider)
 |-
 |[[File:Accessory_Bat_Wings.png|frameless|70x70px]]
 |Bat Wings
@@ -82,6 +151,18 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"Bat Wings!"''
+|Default Bone: Chest
+
+Shapes:
+
+* Distance (Slider)
+* Wings Back (Slider)
+
+Colors:
+
+* Exterior
+* Interior
+* Brightness (Slider)
 |-
 |[[File:Accessory_Cat_Ears.png|frameless|70x70px]]
 |Cat Ears
@@ -89,6 +170,22 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"Cat Ears!"''
+|Default Bone: Head
+
+Shapes:
+
+* Shape (Slider)
+* Distance (Slider)
+* Inner Fluff (Slider)
+* Outer Fluff (Toggle)
+
+Colors:
+
+* Base
+* Stripes
+** Fade (Slider)
+* Fluff
+* Brightness (Slider)
 |-
 |[[File:Accessory_Cat_Tail.png|frameless|70x70px]]
 |Cat Tail
@@ -96,6 +193,21 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"A Cat Tail!"''
+|Default Bone: Hips
+
+Shapes:
+
+* Taper (Slider)
+* Fluffy (Slider)
+
+Colors:
+
+* Solid Base
+* Stripes
+** Fade (Slider)
+* Colored Tip
+** Fade (Slider)
+* Brightness (Slider)
 |-
 |[[File:Accessory_Collar.png|frameless|70x70px]]
 |Collar
@@ -103,6 +215,19 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"A fashionable Collar!"''
+|Default Bone: Neck
+
+Colors:
+
+* Base
+* Trim
+* Charm
+* Paw
+* Glow (Slider)
+
+Shapes:
+
+* Charm (Toggle)
 |-
 |[[File:Accessory_Bear_Plushie.png|frameless|70x70px]]
 |Bear Plushie
@@ -110,6 +235,19 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"A Bear Plushie!"''
+|Default Bone: Right Shoulder
+
+Shapes:
+
+* Arms Up (Slider)
+* Arm Length (Slider)
+* Legs Down (Slider)
+
+Colors:
+
+* Base
+*Nose & Eyes
+* Brightness (Slider)
 |-
 |[[File:Accessory_Sakura_Hair_Pin.png|frameless|70x70px]]
 |Sakura Hair Pin
@@ -117,6 +255,18 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 |June 1, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"A Sakura Hair Pin!"''
+|Default Bone: Head
+
+Shapes:
+
+* Ornaments (Toggle)
+
+Colors:
+
+* Flowers
+**Glow (Slider)
+* Pin
+* Ornaments
 |-
 |[[File:Accessory_Flower_Crown.png|frameless|70x70px]]
 |Flower Crown
@@ -124,6 +274,16 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 |June 1, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"A Flower Crown!"''
+|Default Bone: Head
+
+Shapes:
+
+* Sparkle (Toggle)
+
+Colors:
+
+* Flower Base
+* Flower Tips
 |-
 |[[File:Accessory Lightweight IVA Mask.png|frameless|70x70px]]
 |Lightweight IVA Mask
@@ -131,6 +291,19 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 |July 3, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"Intervehicular jaw protection."''
+|Default Bone: Head
+
+Colors:
+
+* Mask Base
+* Mask Panels
+* Mask Trim
+* Neon Color
+* Glow (Slider)
+
+Shape:
+
+* Widen (Slider)
 |-
 |[[File:Accessory C4-T Uplink “EAR”.png|frameless|70x70px]]
 |C4-T Uplink "EAR"
@@ -138,6 +311,20 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 |July 3, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"Antenna, for your cat. Or you."''
+|Default Bone: Head
+
+Colors:
+
+* Base
+* Contrast
+* Accent
+* Neon
+* Glow (Slider)
+
+Shapes:
+
+* Length (Slider)
+* Width (Slider)
 |-
 |[[File:Accessory Ruffled Wrist Cuff.png|frameless|70x70px]]
 |Ruffled Wrist Cuff
@@ -145,6 +332,15 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"Wrists done up in lace."''
+|Default Bone: Unknown
+
+Shapes: Unknown
+
+Colors:
+
+* Ruffles
+* Ribbon
+* Bow
 |-
 |[[File:Accessory Maid-style Headdress.png|frameless|70x70px]]
 |Maid-style Headdress
@@ -152,6 +348,15 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"The crowning feature of a real maid…"''
+|Default Bone: Unknown
+
+Colors:
+
+* Ruffles
+* Headband
+* Stitching
+* Ribbons
+Shapes: Unknown
 |-
 |[[File:Accessory Lace Bow.png|frameless|70x70px]]
 |Lace Bow
@@ -159,6 +364,13 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"You're so charming."''
+|Default Bone: Unknown
+
+Shapes: Unknown
+
+Colors:
+
+* Bow Color
 |-
 |[[File:Accessory Charm Barrette.png|frameless|70x70px]]
 |Charm Barrette
@@ -166,6 +378,13 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"You're so charming"''
+|Default Bone: Unknown
+
+Colors:
+
+* Clip
+* Charm
+Shapes: Unknown
 |-
 |[[File:Accessory Garter.png|frameless|70x70px]]
 |Garter
@@ -173,6 +392,15 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"What exactly is it holding up?"''
+|Default Bone: Unknown
+
+Colors:
+
+* Metal
+* Leather
+* Glow (Slider)
+* Metallic (Slider)
+Shapes: Unknown
 |-
 |[[File:Accessory Studded Belt.png|frameless|70x70px]]
 |Studded Belt
@@ -180,6 +408,16 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"It keeps your skinny jeans locked in."''
+|Default Bone: Unknown
+
+Colors:
+
+* Leather
+* Stud Base
+* Stud Checkers
+* Glow (Slider)
+* Metallic (Slider)
+Shapes: Unknown
 |-
 |[[File:Accessory Spiked Cuff.png|frameless|70x70px]]
 |Spiked Cuff
@@ -187,6 +425,15 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"True kvlt fashion."''
+|Default Bone: Unknown
+
+Colors:
+
+* Spike
+* Leather
+* Glow (Slider)
+* Metallic (Slider)
+Shapes: Unknown
 |-
 |[[File:Accessory Circular Piercing.png|frameless|70x70px]]
 |Circular Piercing
@@ -194,6 +441,14 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"is it okay if a piercing glows?"''
+|Default Bone: Unknown
+
+Colors:
+
+* Color
+* Glow (Slider)
+* Metallic (Slider)
+Shapes: Unknown
 |-
 |[[File:Accessory Inflatable Swimmies.png|frameless|70x70px]]
 |Inflatable Swimmies
@@ -201,6 +456,15 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 |July 1, 2026
 |VRC+
 |''"We’re just gonna stick these things on you so that you flop around a lot."''
+|Default Bone: Right Upper Arm
+
+Colors:
+
+* Use Pattern (Toggle)
+* Use Cat Detail (Toggle)
+* Color 1
+* Color 2
+* Pattern
 |-
 |[[File:Accessory_Big_ol’_Floppy_Beach_Hat.png|frameless|70x70px]]
 |Big ol' Floppy Beach Hat
@@ -208,6 +472,14 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 |August 7, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"It's your special summer hat."''
+|Default Bone: Head
+
+Colors:
+
+* Use Pattern (Toggle)
+* Color 1
+* Color 2
+* Pattern
 |-
 |[[File:Accessory_Pool_Tube.png|frameless|70x70px]]
 |Pool Tube
@@ -215,6 +487,16 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 |August 7, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"Float on, and on…"''
+|Default Bone: Hips
+
+Colors:
+
+* Use Pattern (Toggle)
+* Use Cat Detail (Toggle)
+* Color 1
+* Color 2Shapes:
+* Thickness (Slider)
+* Handles (Toggle)
 |-
 |[[File:Accessory_Pride Pin.png|frameless|70x70px]]
 |Pride Pin
@@ -222,10 +504,14 @@ A '''Look''' is a saved combination of accessories and a specific avatar. When a
 |August 1, 2026
 |Claim the [[Inventory#Bundles & Packs|Community Spirit Reward]] bundle.
 |''"Wear it loud – for yourself, or those you love."''
+|Default Bone: Chest
+
+Shapes:
+
+* Shape
 |}
 
-Accessories which VRChat mentioned: 
-* Hats
+Accessories which VRChat mentioned:
 * Sunglasses
 
 ==History==
