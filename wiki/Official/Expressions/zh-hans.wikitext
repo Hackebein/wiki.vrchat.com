@@ -32,9 +32,7 @@
 <span id="Custom_expressions"></span>
 ===自定义模型功能===
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-To add custom expressions, create an '''Expression Menu''' asset and an '''Expression Parameters''' asset in Unity, then assign them in the ''Expressions'' section of the VRChat Avatar Descriptor. The menu defines which controls appear in the in-game menu, while the parameters asset defines the names, types, default values, and synchronization behavior of the values those controls change.
-</div>
+欲添加自定义模型功能，可以在 Unity 中创建 '''Expression Menu'''（模型功能目录）资产（Asset）和 '''Expression Parameters'''（模型功能参数）资产，并将它们指定到 VRChat Avatar Descriptor 脚本的 ''Expressions'' 部分。Expression Menu 控制游戏菜单中显示哪些控制功能，而 Expression Parameters 则定义这些控制功能所改变的值的名称、类型、默认值以及同步行为。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Each custom parameter can be marked as ''Saved'' and ''Synced''. Synced custom parameters count toward the avatar's 256-bit sync budget, while avatars can define up to 8192 total custom parameters. Parameters on this asset can also be changed by [[Special:MyLanguage/Contacts|Contact Receivers]], [[Special:MyLanguage/parameter drivers|parameter drivers]], [[Special:MyLanguage/physbones|PhysBones]], and [[Special:MyLanguage/Open Sound Control|OSC]].
