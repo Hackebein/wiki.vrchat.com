@@ -36,9 +36,7 @@
 
 每一个自定义参数都可被标记为 ''Saved''（储存）和 ''Synced''（同步）。标记为同步的自定义参数计入模型的 256 比特（bit）同步配额。一个虚拟形象最多可以定义 8192 个自定义参数。资产中的参数也可通过[[Special:MyLanguage/Contacts|Contact Receivers]]、[[Special:MyLanguage/parameter drivers|parameter drivers]]、[[Special:MyLanguage/physbones|PhysBones]]或[[Special:MyLanguage/Open Sound Control|OSC]]更改。
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-The SDK also includes a ''Default Parameters'' button. This restores the three alias parameters used by VRChat's default AV3 controllers: <code>VRCEmote</code>, <code>VRCFaceBlendH</code>, and <code>VRCFaceBlendV</code>.
-</div>
+SDK 也包括了一个 ''Default Parameters''（默认参数）按钮。它用于还原 VRChat 默认 AV3 控制器使用的三个参数别名：<code>VRCEmote</code>, <code>VRCFaceBlendH</code>以及<code>VRCFaceBlendV</code>。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ====Controls====
