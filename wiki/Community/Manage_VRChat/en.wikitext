@@ -58,11 +58,11 @@ In addition to VRChat's built-in tools, third-party applications provide alterna
 |-
 | Block or mute users || Yes || Yes || Yes, + blocked/muted list view
 |-
-| Friend activity log || No || Yes (status, avatar, location, bio, name changes) || Yes (online, offline, status, status text, bio, avatar, friend added, friended, unfriended)
+| Friend activity log || No || Yes (status, avatar, location, bio, name changes) || Yes (status, avatar, bio)
 |-
 | Time spent tracking || No || Yes (time together, friendship dates, activity heatmap, avatar wear time) || Yes (time with users, time in worlds)
 |-
-| Mutual friends || Yes || Yes, + interactive graph visualization || Yes, + interactive advanced graph visualization
+| Mutual friends || Yes || Yes, + interactive graph visualization || Yes, + interactive graph visualization
 |-
 | Messenger || No || No || Yes (via invite/response messages; rate-limited)
 |-
@@ -82,6 +82,16 @@ In addition to VRChat's built-in tools, third-party applications provide alterna
 |-
 | View active instances || Yes || Yes, + instance activity chart || Yes, + instance activity list
 |-
+|Upload world images
+|No
+|Yes, + automatic resizing
+|No
+|-
+|Edit world details
+|No
+|Yes
+|Yes (visibility)
+|-
 ! colspan="4" | Avatars
 |-
 | Change avatar || Yes || Yes || Yes
@@ -90,13 +100,13 @@ In addition to VRChat's built-in tools, third-party applications provide alterna
 |-
 | Favorite avatars || Yes (1 list / 6 with VRC+) || Yes, + unlimited local favorites || Yes
 |-
-| Upload avatar/world images || No || Yes (with automatic resizing) || Yes (avatar image + gallery upload, with automatic compressing/resizing)
+| Upload avatar image || No || Yes, + automatic resizing || Yes, + automatic resizing
 |-
-| Edit avatar/world details || No || Yes (name, description, tags; bulk content tag editor) || Yes (avatar description + tags, visibility)
+| Edit avatar details || No || Yes || Yes (description, tags)
 |-
 ! colspan="4" | Groups
 |-
-| View and manage groups || Yes || Yes, + CSV export || Yes + Full Role management, full moderation.
+| View and manage groups || Yes || Yes, + CSV export || Yes
 |-
 | Create group posts || Yes || Yes || Yes
 |-
@@ -122,7 +132,7 @@ In addition to VRChat's built-in tools, third-party applications provide alterna
 |-
 ! colspan="4" | Media and photos
 |-
-| View VRChat photos || Yes || Yes, + world metadata search || Yes, + sorted by date, infinite scroll, (world filter + friend/user filter)
+| View VRChat photos || Yes || Yes, + world metadata search || Yes, + sorted by date, infinite scroll, world filter, friend/user filter
 |-
 | Photo world metadata || In-game only || Yes, + metadata search || Yes (requires VRCCam metadata)
 |-
@@ -130,7 +140,7 @@ In addition to VRChat's built-in tools, third-party applications provide alterna
 |-
 ! colspan="4" | Integration and utilities
 |-
-| Discord Rich Presence || In-game only || Yes, + world thumbnail, player count, join button || Yes, + world thumbnail, player count, join button and privacy settings
+| Discord Rich Presence || In-game only || Yes, + world thumbnail, player count, join button || Yes, + world thumbnail, player count, join button
 |-
 | VR overlay || N/A || Yes (HMD + wrist overlay; live notification feed) || Yes (friends tab with quick invite; world location tab, music controls, tool controls, water drink reminder)
 |-
