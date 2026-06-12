@@ -39,21 +39,26 @@ Challenges:
 * Try VRChat on Another Platform<ref>"Try VRChat on Another Platform", "Challenge description: When a player plays VRC on another platform" - [https://crowdin.com/editor/vrchat-application/19#130856 Crowdin]</ref>
 * Log in X Days in a Row<ref>"Log in {0} Days in a Row", "Challenge description: When a player logs in X number of days in a row." - [https://crowdin.com/editor/vrchat-application/19#130858 Crowdin]</ref>
 
+===Item abilities===
+Item abilities allow [[Items|items]] to have special "abilities" within worlds, such as movement speed changes. These abilities can be disabled by world creators and/or instance moderators.
+
+* Prop Abilities<ref>"Prop Abilities", "Header for prop's list of special abilities shown in the inventory and shop." - [https://crowdin.com/editor/vrchat-application/19/en-zhcn#143410 Crowdin]</ref>
+* Modifies Player Movement<ref>"Modifies Player Movement", "Shown on items in the inventory and shop that modify how the player moves." - [https://crowdin.com/editor/vrchat-application/19/en-zhcn#143408 Crowdin]</ref>
+* This ability is disabled by the world creator and cannot be enabled.<ref>"This ability is disabled by the world creator and cannot be enabled.", "This ability is disabled by the world creator and cannot be enabled. Instance settings button QM tooltip" - [https://crowdin.com/editor/vrchat-application/19/en-zhcn#143398 Crowdin]</ref>
+
 ==Mentioned==
 Mentioned features are featured that have been talked about, or shared publicly by VRChat staff. These features could be worked on, but seem to have no implementation yet.
 
 === New Character Controller for Worlds ===
 A long-running request proposes a replacement world character controller with better moving platform support, smoother stairs and slopes, improved unstuck behavior, collider push interaction, and broader Udon control.<ref name="CannyNewCharacterController">[https://feedback.vrchat.com/udon/p/new-character-controller-for-worlds "New Character Controller for Worlds"] on ''feedback.vrchat.com''; posted April 30, 2024; retrieved March 14, 2026.</ref>
+
 The thread is currently marked ''interested''. A staff update on the post says work is currently halted while other projects are prioritized, with a note that updates will be shared if the item re-enters the roadmap.<ref name="CannyNewCharacterController" />
+
 In March 2026 community discussion, a former VRChat employee allegedly involved with this work claimed they were the only person assigned to it before early-2025 layoffs, and that the feature had been close to shipping.
+
 In April 2026, VRChat employee Sai confirmed on X that the new character controller remains "on the back burner" with no ETA and is not currently being worked on.<ref name="SaiXPost">[https://x.com/Sairenix/status/2042786856899629187 Post] on ''x.com''; posted April 11, 2026; retrieved April 12, 2026.</ref>
 
-=== Expose VRC+ Status to Udon ===
-This request proposes exposing VRC+ subscription status to Udon for world-side logic and feature gating.<ref name="CannyExposeVRCPlusStatus">[https://feedback.vrchat.com/feature-requests/p/expose-vrc-status-to-udon "Expose VRC+ Status to Udon"] on ''feedback.vrchat.com''; posted January 25, 2026; retrieved March 14, 2026.</ref>
-The thread is currently marked ''in progress''. A staff comment links this item to Developer Update 5 March 2026 where the feature was announced.<ref name="CannyExposeVRCPlusStatus" />
-
 === Age verification rollout ===
-
 
 VRChat staff have described age verification rollout in stages. In a livestream in March 2026, the team stated there is no public timeline for broad rollout beyond [[VRC+]], while aiming for the most accessible and low-cost path possible.
 
@@ -85,16 +90,14 @@ A milestone created in 2022 on the VRChat Community OSC GitHub repository plans 
 
 === Unity 6===
 
-Answering the message of a user asking if VRChat is planning to upgrade to Unity 6, a developper answered with a positive message, stating it is currently being worked on.<ref name="Unity 6">[https://discord.com/channels/189511567539306508/449386885299830794/1491132964489400331 Answer] on ''discord.com'' ; retrieved April 9, 2026.</ref>
+Answering the message of a user asking if VRChat is planning to upgrade to Unity 6, a developer answered with a positive message, stating it is currently being worked on.<ref name="Unity 6">[https://discord.com/channels/189511567539306508/449386885299830794/1491132964489400331 Answer] on ''discord.com'' ; retrieved April 9, 2026.</ref>
+
+During the May 22 2026 Dev Stream, pi shared that VRChat is running a Unity 6 build that is currently in closed beta.<ref name="Unity6ClosedBeta">[https://ask.vrchat.com/t/may-22-2026-developer-stream-q-a-summary/48499#p-89590-will-the-sdk-ever-upgrade-to-a-newer-version-of-unity-8 "May 22 Developer Stream Q&A Summary"] on ''ask.vrchat.com''; posted June 1, 2026; retrieved June 11, 2026.</ref>
 
 ==== Render pipeline migration (URP/HDRP) ====
 
 Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published for a migration of this scope.
 Recent staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
-
-=== VRC+ Leaderboard ===
-
-Continious monthly leaderboard for gifted VRC+.
 
 == Scrapped ==
 
@@ -109,7 +112,7 @@ In the 2 February 2023 Developer Update<ref>[https://ask.vrchat.com/t/developer-
 This design was ultimately scrapped and replaced with the current design of portals which was released with [https://docs.vrchat.com/docs/vrchat-202431#portal-overhaul 2024.3.1], first previewed in the 25 July 2024 Developer Update.<ref>[https://ask.vrchat.com/t/developer-update-25-july-2024/25764#p-54081-thinking-with-portals-12 Developer Update - 25 July 2024]</ref>
 
 <gallery mode="packed" heights="220">
-File:PortalPreview.jpg|non-Groups
+File:PortalPreview.jpg|Non-Groups
 File:PortalPreviewGroups.jpg|Groups
 </gallery>
 
