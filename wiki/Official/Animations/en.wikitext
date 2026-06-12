@@ -57,7 +57,7 @@ Give even static clips a small duration (for example, two identical keyframes) s
 Forms include:
 * '''1D''' blend trees for scalar controls.
 * '''2D''' blend trees for two-axis controls.
-* '''Direct''' blend trees for per-motion weight control.
+* '''Direct (DBT)''' blend trees for per-motion weight control.
 
 Blend-tree inputs are Float parameters in Unity's Animator. In VRChat, Bool and Int expression values can still drive these workflows through parameter conversion.
 
