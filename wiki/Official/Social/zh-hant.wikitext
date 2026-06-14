@@ -25,15 +25,13 @@
 |好友可以查看你所在的房間，並可比照與「[[Special:MyLanguage/Social#Statuses|線上]]」狀態一樣的規則自由加入。如果此[[Special:MyLanguage/Instances|房間]]為私人且不可見，那好友所發出的所有加入申請都會被自動接受。
 |-
 |<div style="background-color:rgb(81, 229, 126);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Green"></div>'''線上'''<small> Online<small>
-|<div lang="en" dir="ltr" class="mw-content-ltr">
-Your friends can see the instance you are in and can join your instance without an invitation.
-However, your friends may not see or join the instance without an invite if the instance is deemed "private".
-Your instance is viewable and joinable by friends without requesting an invite in the following cases:
-*The instance is [[Special:MyLanguage/Worlds#Instance Types|Friends+]], [[Special:MyLanguage/Worlds#Instance Types|Group+]], [[Special:MyLanguage/Worlds#Instance Types|Public]], or [[Special:MyLanguage/Worlds#Instance Types|Group Public]].
-*The instance is [[Special:MyLanguage/Worlds#Instance Types|Friends]] and either you or a mutual friend are the instance creator.
-*The instance is [[Special:MyLanguage/Worlds#Instance Types|Group]] and your friends are a member of the group with permission to join the instance based on their group roles.
-*The instance is [[Special:MyLanguage/Worlds#Instance Types|Invite]] or [[Special:MyLanguage/Worlds#Instance Types|Invite+]] and your friends are returning to the instance they created.
-</div>
+|好友可以查看你所在的房間，並且無需邀請即可直接加入你的房間。
+不過，如果此房間為私人且不可見，那你的好友可能無法查看或加入此房間，除非他們收到邀請。
+在下列情況中，你所在的房間可被好友查看並直接加入，而無需提出邀請請求：
+*房間類型為[[Special:MyLanguage/Worlds#Instance Types|好友+（Friends+）]]、[[Special:MyLanguage/Worlds#Instance Types|群組+（Group+）]]、[[Special:MyLanguage/Worlds#Instance Types|公開（Public）]] 或 [[Special:MyLanguage/Worlds#Instance Types|群組公開（Group Public）]]。
+*房間類型為[[Special:MyLanguage/Worlds#Instance Types|好友（Friends）]]，且你或共同好友是該房間的建立者。
+*房間類型為[[Special:MyLanguage/Worlds#Instance Types|群組（Group）]]，且你的好友是此群組成員，並根據其群組身分組權限可加入該房間。
+*房間類型為[[Special:MyLanguage/Worlds#Instance Types|邀請（Invite）]]或[[Special:MyLanguage/Worlds#Instance Types|邀請+（Invite+）]]，且你的好友正在返回由你建立的房間時。
 |-
 |<div style="background-color:rgb(232, 129, 52);width:1rem;height:1rem;border-radius:9999px;display:inline-block;margin:0 0.5em -0.1em 0.5em" alt="Orange"></div>'''詢問我'''<small> Ask Me<small>
 |<div lang="en" dir="ltr" class="mw-content-ltr">
