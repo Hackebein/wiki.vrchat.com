@@ -28,18 +28,7 @@ These are [[badges]] that have been discovered.
 |Complete an invite-only survey. Opt-In for the Badge. Survey window closed.<ref>From a survey about [[Special:MyLanguage/Avatars|Avatars]]</ref>
 |}
 
-=== Challenges ===
-
-A feature which lets you complete challenges<ref>"Complete!", "When the player completes all their challenges" [https://crowdin.com/editor/vrchat-application/19#130850 Crowdin]</ref><ref>"All Challenges Completed!", "When the player completes all their assigned challenges" [https://crowdin.com/editor/vrchat-application/19#130854 Crowdin]</ref>. First discovery on December 13, 2024. Last new discovery on December 16, 2024. This feature is not yet accessible to all users, and seems to only be available for some VRChat accounts.
-
-Challenges:
-* Make X Friends<ref>"Make {0} Friends", "A challenge for players to make {0} number of friends." - [https://crowdin.com/editor/vrchat-application/19#130852 Crowdin]</ref>
-* Visit X Friends<ref>"Visit {0} Worlds", "Challenge description: When a player visit X number of worlds." - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref>
-* Visit X Worlds<ref name="crowdin130860">"Visit {0} Worlds", "Challenge description: When a player visit X number of worlds." - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref>
-* Try VRChat on Another Platform<ref>"Try VRChat on Another Platform", "Challenge description: When a player plays VRC on another platform" - [https://crowdin.com/editor/vrchat-application/19#130856 Crowdin]</ref>
-* Log in X Days in a Row<ref>"Log in {0} Days in a Row", "Challenge description: When a player logs in X number of days in a row." - [https://crowdin.com/editor/vrchat-application/19#130858 Crowdin]</ref>
-
-===Item abilities===
+=== Item abilities ===
 Item abilities allow [[Items|items]] to have special "abilities" within worlds, such as movement speed changes. These abilities can be disabled by world creators and/or instance moderators.
 
 Client translation strings:
@@ -60,10 +49,12 @@ Steam Frame will be supported at release with a native application. A build is a
 
 Decorate your Profile with Icons Frames, Profile Effects, Banners. As well as Nameplate Effects. Similar to Discords customizability which can be bought in the [[Shop]].
 
-==Mentioned==
+== Mentioned ==
+
 Mentioned features are featured that have been talked about, or shared publicly by VRChat staff. These features could be worked on, but seem to have no implementation yet.
 
 === New Character Controller for Worlds ===
+
 A long-running request proposes a replacement world character controller with better moving platform support, smoother stairs and slopes, improved unstuck behavior, collider push interaction, and broader Udon control.<ref name="CannyNewCharacterController">[https://feedback.vrchat.com/udon/p/new-character-controller-for-worlds "New Character Controller for Worlds"] on ''feedback.vrchat.com''; posted April 30, 2024; retrieved March 14, 2026.</ref>
 
 The thread is currently marked ''interested''. A staff update on the post says work is currently halted while other projects are prioritized, with a note that updates will be shared if the item re-enters the roadmap.<ref name="CannyNewCharacterController" />
@@ -84,13 +75,6 @@ VRChat announced it will reintroduce [[Content Gating]] to limit access to conte
 
 The stated goal is a baseline expectation of content safety for public instances: public instances and non-verified spaces must be suitable for a general audience. VRChat described this as setting a clear standard for what content is permissible where, and as a tool to reduce exposure to adult or suggestive content in broadly accessible spaces.<ref name="TrustSafety2025Blog" />
 
-=== Discovery and social system improvements ===
-
-[[File:For-You-Discovery-Page.jpg|thumb]]
-VRChat stated it is exploring improvements to discovery and social systems so users can find intended communities while naturally separating audiences that should not interact.<ref name="TrustSafety2025Blog" /> No specific features or timeline were announced.
-
-In a developer stream Q&A on May 29, 2026, the team described a personalized "For You" world list as an experiment that is currently running, noting that users may see it, see variations of it, or not see it at all, and that no further details would be shared while the experiment is in progress.<ref name="ForYouWorldList">[https://ask.vrchat.com/t/may-29-developer-stream-q-a-summary/48500 "May 29 Developer Stream Q&A Summary"] on ''ask.vrchat.com''; posted June 1, 2026; retrieved June 9, 2026.</ref>
-
 === Group moderation tools ===
 
 VRChat stated it is exploring ways to give [[Groups|group]] owners and moderators stronger tools to enforce community norms and take consistent action against bad actors.<ref name="TrustSafety2025Blog" /> No specific tools or timeline were announced.
@@ -103,16 +87,38 @@ A milestone created in 2022 on the VRChat Community OSC GitHub repository propos
 
 A milestone created in 2022 on the VRChat Community OSC GitHub repository plans to enable [[Udon]] to read and write OSC data for use in VRChat worlds.<ref name="osc-milestones" />
 
+==== Render pipeline migration (URP/HDRP) ====
+
+Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published for a migration of this scope.
+Recent staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
+
+== In Testing ==
+
+In Testing features are currenly either confirmed in closed beta or A/B testing.
+
+=== Challenges ===
+
+A feature which lets you complete challenges<ref>"Complete!", "When the player completes all their challenges" [https://crowdin.com/editor/vrchat-application/19#130850 Crowdin]</ref><ref>"All Challenges Completed!", "When the player completes all their assigned challenges" [https://crowdin.com/editor/vrchat-application/19#130854 Crowdin]</ref>. First discovery on December 13, 2024. Last new discovery on December 16, 2024. This feature is not yet accessible to all users, and seems to only be available for some VRChat accounts.
+
+Challenges:
+* Make X Friends<ref>"Make {0} Friends", "A challenge for players to make {0} number of friends." - [https://crowdin.com/editor/vrchat-application/19#130852 Crowdin]</ref>
+* Visit X Friends<ref>"Visit {0} Worlds", "Challenge description: When a player visit X number of worlds." - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref>
+* Visit X Worlds<ref name="crowdin130860">"Visit {0} Worlds", "Challenge description: When a player visit X number of worlds." - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref>
+* Try VRChat on Another Platform<ref>"Try VRChat on Another Platform", "Challenge description: When a player plays VRC on another platform" - [https://crowdin.com/editor/vrchat-application/19#130856 Crowdin]</ref>
+* Log in X Days in a Row<ref>"Log in {0} Days in a Row", "Challenge description: When a player logs in X number of days in a row." - [https://crowdin.com/editor/vrchat-application/19#130858 Crowdin]</ref>
+
 === Unity 6===
 
 Answering the message of a user asking if VRChat is planning to upgrade to Unity 6, a developer answered with a positive message, stating it is currently being worked on.<ref name="Unity 6">[https://discord.com/channels/189511567539306508/449386885299830794/1491132964489400331 Answer] on ''discord.com'' ; retrieved April 9, 2026.</ref>
 
 During the May 22 2026 Dev Stream, pi shared that VRChat is running a Unity 6 build that is currently in closed beta.<ref name="Unity6ClosedBeta">[https://ask.vrchat.com/t/may-22-2026-developer-stream-q-a-summary/48499#p-89590-will-the-sdk-ever-upgrade-to-a-newer-version-of-unity-8 "May 22 Developer Stream Q&A Summary"] on ''ask.vrchat.com''; posted June 1, 2026; retrieved June 11, 2026.</ref>
 
-==== Render pipeline migration (URP/HDRP) ====
+=== Discovery and social system improvements ===
 
-Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published for a migration of this scope.
-Recent staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
+[[File:For-You-Discovery-Page.jpg|thumb]]
+VRChat stated it is exploring improvements to discovery and social systems so users can find intended communities while naturally separating audiences that should not interact.<ref name="TrustSafety2025Blog" /> No specific features or timeline were announced.
+
+In a developer stream Q&A on May 29, 2026, the team described a personalized "For You" world list as an experiment that is currently running, noting that users may see it, see variations of it, or not see it at all, and that no further details would be shared while the experiment is in progress.<ref name="ForYouWorldList">[https://ask.vrchat.com/t/may-29-developer-stream-q-a-summary/48500 "May 29 Developer Stream Q&A Summary"] on ''ask.vrchat.com''; posted June 1, 2026; retrieved June 9, 2026.</ref>
 
 == Scrapped ==
 
