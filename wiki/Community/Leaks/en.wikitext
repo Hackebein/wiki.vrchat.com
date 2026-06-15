@@ -1,10 +1,12 @@
 {{Noticebox/Community}}
 
-'''Leaks''' are potential unreleased or unannounced features or information found through various credible or non-credible means, such as the [[VRChat API]] or platforms like Crowdin. Anything on this page should be taken with a grain of salt; just because something is on this page, does not confirm that it is something that will be added in the future.
+'''Potentially upcoming features''' are unreleased or unannounced features that may be added to VRChat in the future. They are identified through discovery in tools such as the [[VRChat API]] or platforms like Crowdin, through public statements by VRChat staff, or by appearing in A/B testing. Anything on this page should be taken with a grain of salt; appearing here does not confirm that a feature will be added.
 
-Leaks will typically be removed from this page when they are either confirmed (through being given an applicable testing branch on [[Open Beta]], or being fully released) then after [[VRCWiki:How to Contribute|receiving an article]] on the [[VRCWiki:About|VRChat Wiki]], or assigned within the proper existing articles; or removed after being denied through official VRChat sources.
+Entries will typically be removed from this page when they are either confirmed (through being given an applicable testing branch on [[Open Beta]], or being fully released) or removed after being denied through official VRChat sources.
 
-==Leaks==
+== Discovered ==
+These entries were found through datamining or discovery in sources such as the [[VRChat API]], localization tools like Crowdin, or store listings. Their presence does not confirm that they will be released.
+
 === Badges ===
 These are [[badges]] that have been discovered.
 {| class="wikitable"
@@ -47,11 +49,11 @@ Steam Frame will be supported at release with a native application. A build is a
 
 === Profile and Nameplate Customization ===
 
-Decorate your Profile with Icons Frames, Profile Effects, Banners. As well as Nameplate Effects. Similar to Discords customizability which can be bought in the [[Shop]].
+Decorate your Profile with Icons Frames, Profile Effects, Banners. As well as Nameplate Effects. Similar to Discords customizability. Decorations can be bought in the [[Shop]].
 
-== Mentioned ==
+== Officially mentioned ==
 
-Mentioned features are featured that have been talked about, or shared publicly by VRChat staff. These features could be worked on, but seem to have no implementation yet.
+These are features that have been talked about or shared publicly by VRChat staff. They could be worked on, but appear to have no implementation yet.
 
 === New Character Controller for Worlds ===
 
@@ -87,14 +89,14 @@ A milestone created in 2022 on the VRChat Community OSC GitHub repository propos
 
 A milestone created in 2022 on the VRChat Community OSC GitHub repository plans to enable [[Udon]] to read and write OSC data for use in VRChat worlds.<ref name="osc-milestones" />
 
-==== Render pipeline migration (URP/HDRP) ====
+=== Render pipeline migration (URP/HDRP) ===
 
 Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published for a migration of this scope.
 Recent staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
 
 == In Testing ==
 
-In Testing features are currenly either confirmed in closed beta or A/B testing.
+These features are currently either confirmed in closed beta or in A/B testing.
 
 === Challenges ===
 
@@ -107,7 +109,7 @@ Challenges:
 * Try VRChat on Another Platform<ref>"Try VRChat on Another Platform", "Challenge description: When a player plays VRC on another platform" - [https://crowdin.com/editor/vrchat-application/19#130856 Crowdin]</ref>
 * Log in X Days in a Row<ref>"Log in {0} Days in a Row", "Challenge description: When a player logs in X number of days in a row." - [https://crowdin.com/editor/vrchat-application/19#130858 Crowdin]</ref>
 
-=== Unity 6===
+=== Unity 6 ===
 
 Answering the message of a user asking if VRChat is planning to upgrade to Unity 6, a developer answered with a positive message, stating it is currently being worked on.<ref name="Unity 6">[https://discord.com/channels/189511567539306508/449386885299830794/1491132964489400331 Answer] on ''discord.com'' ; retrieved April 9, 2026.</ref>
 
@@ -119,23 +121,6 @@ During the May 22 2026 Dev Stream, pi shared that VRChat is running a Unity 6 bu
 VRChat stated it is exploring improvements to discovery and social systems so users can find intended communities while naturally separating audiences that should not interact.<ref name="TrustSafety2025Blog" /> No specific features or timeline were announced.
 
 In a developer stream Q&A on May 29, 2026, the team described a personalized "For You" world list as an experiment that is currently running, noting that users may see it, see variations of it, or not see it at all, and that no further details would be shared while the experiment is in progress.<ref name="ForYouWorldList">[https://ask.vrchat.com/t/may-29-developer-stream-q-a-summary/48500 "May 29 Developer Stream Q&A Summary"] on ''ask.vrchat.com''; posted June 1, 2026; retrieved June 9, 2026.</ref>
-
-== Scrapped ==
-
-=== ToxMod ===
-ToxMod is an AI-assisted voice chat moderation product made by Modulate, intended to detect and flag toxic or abusive voice behavior.
-
-In 2022 ToxMod got partially integrated. VRChat later stated that the team had previously been in discussions with Modulate, and that VRChat was inadvertently listed as a ToxMod customer<ref>[https://web.archive.org/web/20220424073126/https://www.modulate.ai/ modulate.ai from 2022] at archive.org</ref>, but that VRChat has no current or future plans to implement ToxMod<ref>[https://ask.vrchat.com/t/developer-update-1-december-2022/15263?page=3#p-30487-toxicity-in-vrchat-15 VRChat Blog Post]</ref>.
-
-===Portal UI refresh===
-In the 2 February 2023 Developer Update<ref>[https://ask.vrchat.com/t/developer-update-2-february-2023/16218#p-32723-portal-ui-refresh-10 Developer Update - 2 February 2023]</ref>, VRChat previewed a refreshed portal user interface and described it as "coming soon". The preview showed updated instance display styling and a banner for portals that lead to Group instances. 
-
-This design was ultimately scrapped and replaced with the current design of portals which was released with [https://docs.vrchat.com/docs/vrchat-202431#portal-overhaul 2024.3.1], first previewed in the 25 July 2024 Developer Update.<ref>[https://ask.vrchat.com/t/developer-update-25-july-2024/25764#p-54081-thinking-with-portals-12 Developer Update - 25 July 2024]</ref>
-
-<gallery mode="packed" heights="220">
-File:PortalPreview.jpg|Non-Groups
-File:PortalPreviewGroups.jpg|Groups
-</gallery>
 
 == References ==
 
