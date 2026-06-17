@@ -27,9 +27,7 @@ A box shape for contacts is in development and planned for a future SDK release<
 On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] also creates built-in Contact Senders for common body parts such as hands and fingers.
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 ===Contact Receivers===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A '''Contact Receiver''' listens for matching senders and writes a value to an Animator parameter on the avatar. Receivers can be configured to allow self-contact, other users, or only local evaluation.
