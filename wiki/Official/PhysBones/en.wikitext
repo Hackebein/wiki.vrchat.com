@@ -219,6 +219,8 @@ On avatars, a single PhysBone component can affect up to 256 transforms. VRChat 
 
 PhysBone collision and grabbing use a bounding box that is capped at a maximum size. Very large stretching setups can still work visually, but users may not be able to touch or grab bones outside that interaction range.
 
+Global avatar PhysBone colliders are limited to four. VRChat attributes this limit to performance: a global collider must be checked against every other collider each frame, and because PhysBones are heavily multi-threaded, accurately counting collisions across multiple cores in parallel is difficult. As a result, the limit is capped in advance rather than counted during execution.<ref name="devqa22may2026">[https://ask.vrchat.com/t/may-22-2026-developer-stream-q-a-summary/48499 "May 22 2026 Developer Stream Q&A Summary"] on ''[[ask.vrchat.com]]''. Posted June 1, 2026. Retrieved June 18, 2026.</ref>
+
 ==Avatar performance==
 PhysBones were introduced to VRChat as an optimized and free alternative to legacy Dynamic Bones for Unity. Compared to Dynamic Bones, more PhysBones can be applied to an avatar on both PC, and Android versions, as they are more cost-performant.
 
