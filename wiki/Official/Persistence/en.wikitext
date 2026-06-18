@@ -1,0 +1,19 @@
+{{Noticebox/Official}}{{Noticebox/Stub}}
+'''Persistence''' is a [[Special:MyLanguage/VRChat SDK|VRChat SDK]] feature that allows [[Special:MyLanguage/Worlds|world]] creators to save per-player data so that it can be restored the next time that player returns to the same world. It is VRChat's native implementation of "world persistence", replacing earlier community-built solutions.
+
+== Overview ==
+With persistence, a world can store data associated with an individual user, such as settings, progress, or the state of certain objects, and load it again on a later visit. The data is tied to the player and the specific world, and is managed through the [[Special:MyLanguage/VRChat SDK|VRChat SDK]] and [[Special:MyLanguage/Udon|Udon]].
+
+== Cross-world data persistence ==
+Cross-world data persistence refers to sharing persistent data between different worlds, rather than within a single world. This is a highly experimental capability that is offered only in specific, hand-selected situations.<ref name="devqa1may2026">[https://ask.vrchat.com/t/may-1-2026-developer-stream-q-a-summary/48386 "May 1 2026 Developer Stream Q&A Summary"] on ''[[ask.vrchat.com]]''. Posted May 5, 2026. Retrieved June 18, 2026.</ref>
+
+== See also ==
+* [[Special:MyLanguage/VRChat SDK|VRChat SDK]]
+* [[Special:MyLanguage/Udon|Udon]]
+* [[Special:MyLanguage/Worlds|Worlds]]
+
+== Official resources ==
+* [https://creators.vrchat.com/worlds/persistence/ Persistence] on ''creators.vrchat.com''
+
+== References ==
+<references />
