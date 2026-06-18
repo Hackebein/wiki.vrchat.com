@@ -10,7 +10,7 @@
 |branch_openbeta_version = 2025.2.3 Build 1662
 |branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202523-openbeta#june-12-build-1661
 }}
-'''Items''' are objects that users can spawn within a world, e.g. toys, tools, gadgets. They can be managed in the [[Inventory]].
+'''Items''' are objects that users can spawn within a world, e.g. toys, tools, gadgets. They can be managed in the [[Inventory]]. Items are divided into two categories: '''Props''' and '''Companions'''.
 
 == Spawning ==
 [[File:Items submenu in Action Menu.png|thumb|Items submenu in [[Action Menu]]|200x200px]]Items can be spawned from the Items submenu in the [[Action Menu]] or from the [[Inventory]]. Users can spawn only one of each item they have. All items spawned by a user are removed after they leave the instance. 
@@ -23,7 +23,10 @@ Item spawning or visibility can be affected by being:
 
 == Types ==
 [[File:THE_REFERENCE_CUBE_item_original.png|thumb|200x200px|A image of "THE REFERENCE CUBE" item.]]
-While offering a range of different features, items can be artificially grouped by their properties:
+There are two categories of items, each described below.
+
+=== Props ===
+A '''Prop''' is the default type of item: an object that a user spawns into a world. While offering a range of different features, props can be artificially grouped by their properties:
 
 '''Placeable items'''
 
@@ -37,9 +40,8 @@ A pickupable item can be grabbed by the user and sometimes other users too.
 
 A consumable item gets destroyed after being placed and activated. It can stack in the inventory.
 
-'''Companion'''
-
-A pet-type item that follows the user around. These items have a distinct "Companion" label in the [[Special:MyLanguage/Shop|Shop]].
+=== Companions ===
+A '''Companion''' is a pet-type item that follows the user around. These items have a distinct "Companion" label in the [[Special:MyLanguage/Shop|Shop]].
 
 == Worlds ==
 ''See also [https://creators.vrchat.com/worlds/items Items in Udon Worlds] for more detailed information.''
@@ -53,6 +55,7 @@ World creators can disable items in the "Default Content Settings" section by ed
 A dedicated "Item" Unity layer is where items spawn. Previously named "reserved3" in older SDK versions.
 
 == List of items ==
+=== List of props ===
 {| class="wikitable"
 !Image
 !Name
@@ -598,10 +601,21 @@ Has a "Water" [[Special:MyLanguage/Avatar Dynamics#Contacts|contact]] sender.
 |Buy from the [[Shop]]
 |''"The power of Poseidon, in your hands. Blast 'em."''
 Has a "Water" [[Special:MyLanguage/Avatar Dynamics#Contacts|contact]] sender.
+|}
+
+=== List of companions ===
+{| class="wikitable"
+!Image
+!Name
+!Release date
+!Available until
+!Acquisition Method
+![[Inventory#Collections|Collection]] / [[Shop#Shelves|Shelf]]
+!Requirement
+!Description
 |-
 |[[File:Item_Reference_Cube_Companion.png|frameless|70x70px]]
 |Reference Cube Companion
-|Companion
 |June 18, 2026
 |
 |[https://vrchat.com/home/redeem?code=CUBEFRIEND Website redemption]
@@ -661,7 +675,7 @@ Users that purchased, or were gifted, the "Portable Winterizer" were granted a n
 |}
 
 == Trivia ==
-* Items were initially called "Props".
+* Items were initially called "Props" during early development. "Props" is now the name of the non-companion item category.
 * A user can spawn up to 15 items in a world at a time.
 
 == See also ==
