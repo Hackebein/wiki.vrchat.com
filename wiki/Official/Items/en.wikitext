@@ -41,13 +41,13 @@ A pickupable item can be grabbed by the user and sometimes other users too.
 A consumable item gets destroyed after being placed and activated. It can stack in the inventory.
 
 === Companions ===
-A '''Companion''' is a pet-type item that follows the user around. These items have a distinct "Companion" label in the [[Special:MyLanguage/Shop|Shop]].
+A '''Companion''' is a pet-type item that follows the user around. These items have a distinct "Companion" label in the [[Special:MyLanguage/Shop|Shop]]. A Companion stays spawned and follows the user between instances rather than needing to be spawned again each time, and only one Companion can be active at a time. Companions include a repositioning system, custom spawn and despawn animations, and following behavior, and can be customized from their Details screen in the [[Special:MyLanguage/Quick Menu|Quick Menu]], a dedicated section of the [[Special:MyLanguage/Action Menu|Action Menu]], or from the [[Special:MyLanguage/Inventory|Inventory]]. Unlike Props, Companions cannot be hidden or disabled by worlds or instances, though a user can hide their own Companion or those of other users.
 
 == Worlds ==
 ''See also [https://creators.vrchat.com/worlds/items Items in Udon Worlds] for more detailed information.''
 
 ==== Content settings ====
-World creators can disable items in the "Default Content Settings" section by editing a world on the website, in case they are causing issues or are undesirable.
+World creators can disable items in the "Default Content Settings" section by editing a world on the website, in case they are causing issues or are undesirable. Props can also be disabled by ability from the World Details page on the website; the first available ability category is "Props that Modify Player Movement", which covers props that change a user's movement speed, add the ability to teleport, or otherwise affect movement. VRChat has indicated that additional ability categories may be added in the future.
 
 ==== Unity layer ====
 ''See also [https://creators.vrchat.com/worlds/layers/ Unity Layers in VRChat] for more detailed information.''
