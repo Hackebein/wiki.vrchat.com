@@ -19,7 +19,9 @@ VRChat creates accessories internally and collaborates with select community cre
 == Overview ==
 When a user adds an accessory to their avatar, it is automatically attached to a default [[avatar]] bone (such as the head, hips, or arm) chosen to best suit the accessory. Users can reassign the accessory to any bone on the avatar's skeleton through the attachment controls.
 
-Each accessory can be repositioned, rotated, and scaled using on-screen controls or the precise adjustment panel on the right side of the editor. Some accessories also offer additional customization options, such as color changes or toggling visual elements. Accessories use VRChat's Toon Standard shader.
+Each accessory can be repositioned, rotated, and scaled using on-screen controls or the precise adjustment panel on the right side of the editor. Some accessories also offer additional customization options, such as color changes or toggling visual elements. Accessories use VRChat's Toon Standard shader. Some accessories that attach to a wrist can be equipped on both wrists at once, allowing a symmetrical look.
+
+To preserve performance, the distance at which other users' accessories appear is both distance-based and count-based: the more people and accessories that are present in an instance, the shorter the range at which they become visible. Users always see their own accessories. Rather than disappearing abruptly, accessories can switch to lower-quality models at a distance.
 
 == Looks ==
 A '''Look''' is a saved combination of accessories and a specific avatar. When an accessory is added to an avatar for the first time, VRChat automatically creates a new Look. Users can create and manage multiple Looks from the '''Looks''' section of the [[Avatar]] tab, allowing quick switching between different accessory combinations.
