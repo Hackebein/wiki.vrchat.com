@@ -519,9 +519,16 @@ Shapes:
 |''It’s good to be king.''
 |Default Bone: Head
 
-Colors: Unknown
+Colors:
+* Base
+* Gemstones 1
+* Gemstones 2
+* Gemstones 3
+* Glow (Slider)
 
-Shapes: Unknown 
+Shapes:
+* Radius (Slider)
+* Band Gems (Toggle)
 |-
 |[[File:Accessory_Beanie.png|frameless|70x70px]]
 |Beanie
@@ -531,9 +538,16 @@ Shapes: Unknown
 |''A relaxed, casual hat.''
 |Default Bone: Head
 
-Colors: Unknown
+Colors:
+* Base
+* Rim
+* Stripes
 
-Shapes: Unknown 
+Shapes: 
+* Slouch (Slider)
+* Radius (Slider)
+* Rim Thickness (Slider)
+* Rim Height (Slider)
 |-
 |[[File:Accessory_Baseball Hat.png|frameless|70x70px]]
 |Baseball Hat
@@ -543,9 +557,15 @@ Shapes: Unknown
 |''Grab your favorite hat.''
 |Default Bone: Head
 
-Colors: Unknown
+Colors:
+* Base
+* Brim
+* Details
 
-Shapes: Unknown 
+Shapes: 
+* Radius (Slider)
+* Hat Shape (Toggle)
+* Brim Length (Slider)
 |-
 |[[File:Accessory_Bucket Hat.png|frameless|70x70px]]
 |Bucket Hat
@@ -555,9 +575,14 @@ Shapes: Unknown
 |''The ideal hat for trails... or nightcubs.''
 |Default Bone: Head
 
-Colors: Unknown
+Colors:
+* Base
+* Details
+* Brim
 
-Shapes: Unknown 
+Shapes:
+* Brim Length (Slider)
+* Radius (Slider)
 |-
 |[[File:Accessory_Classic Shades.png|frameless|70x70px]]
 |Classic Shades
@@ -567,9 +592,20 @@ Shapes: Unknown
 |''The sunglasses you wear for any occasion.''
 |Default Bone: Head
 
-Colors: Unknown
+Shapes: 
+* Lens Width
+* Lens Height
+* Lens Distance
+* Frame Width
+* Frame Angle
+* Arm Length
 
-Shapes: Unknown 
+Colors:
+* Frame 1
+* Frame 2
+* Tint (Slider)
+* Fade (Slider)
+* Glow (Slider)
 |-
 |[[File:Accessory Artist's Specs.png|frameless|70x70px]]
 |Artist's Specs
@@ -579,9 +615,20 @@ Shapes: Unknown
 |''Glasses fit for an artist's gaze.''
 |Default Bone: Head
 
-Colors: Unknown
+Shapes: 
+* Lens Width
+* Lens Height
+* Lens Distance
+* Frame Width
+* Frame Angle
+* Arm Length
 
-Shapes: Unknown 
+Colors:
+* Frame 1
+* Frame 2
+* Tint (Slider)
+* Fade (Slider)
+* Glow (Slider)
 |-
 |[[File:Accessory_Aviator Sunglasses.png|frameless|70x70px]]
 |Aviator Sunglesses
@@ -591,9 +638,20 @@ Shapes: Unknown
 |''The sunglasses you wear when you need to feel cool.''
 |Default Bone: Head
 
-Colors: Unknown
+Shapes: 
+* Lens Width
+* Lens Height
+* Lens Distance
+* Frame Width
+* Frame Angle
+* Arm Length
 
-Shapes: Unknown 
+Colors:
+* Frame 1
+* Frame 2
+* Tint (Slider)
+* Fade (Slider)
+* Glow (Slider)
 |-
 |[[File:Accessory_Subtle Frames.png|frameless|70x70px]]
 |Subtle Frames
