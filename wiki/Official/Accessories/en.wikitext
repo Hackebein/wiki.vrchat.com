@@ -19,15 +19,20 @@ VRChat creates accessories internally and collaborates with select community cre
 == Overview ==
 When a user adds an accessory to their avatar, it is automatically attached to a default [[avatar]] bone (such as the head, hips, or arm) chosen to best suit the accessory. Users can reassign the accessory to any bone on the avatar's skeleton through the attachment controls.
 
-Each accessory can be repositioned, rotated, and scaled using on-screen controls or the precise adjustment panel on the right side of the editor. Some accessories also offer additional customization options, such as color changes or toggling visual elements. Accessories use VRChat's Toon Standard shader. Some accessories that attach to a wrist can be equipped on both wrists at once, allowing a symmetrical look.
+Each accessory can be repositioned, rotated, and scaled using on-screen controls or the precise adjustment panel on the right side of the editor. Some accessories also offer additional customization options, such as color changes or toggling visual elements. Accessories use VRChat's Toon Standard shader. Accessories can be duplicated and equipped on opposite bones at once, allowing a symmetrical look.
 
 To preserve performance, the distance at which other users' accessories appear is both distance-based and count-based: the more people and accessories that are present in an instance, the shorter the range at which they become visible. Users always see their own accessories. Rather than disappearing abruptly, accessories can switch to lower-quality models at a distance.
+
+== Obtaining ==
+Accessories can be obtained through the [[Shop]]. They can either appear under the "Exclusive" tab within one of the shelves or under it's own dedicated "Accessories" tab. Alternatively, accessories can be awarded through drops which can be redeemed under the "[[Bundles & Packs]]" tab of the Inventory.
+
+Accessories are intended to be evergreen<ref>[https://ask.vrchat.com/t/2026-2-1-video-patch-notes-transcript/48358 2026.2.1 Video Patch Notes Transcript] on ''[https://ask.vrchat.com ask.vrchat.com]''. Dated April 28, 2026. Retrieved June 21, 2026.</ref>, although some accessories are time-limited.
 
 == Looks ==
 A '''Look''' is a saved combination of accessories and a specific avatar. When an accessory is added to an avatar for the first time, VRChat automatically creates a new Look. Users can create and manage multiple Looks from the '''Looks''' section of the [[Avatar]] tab, allowing quick switching between different accessory combinations.
 
 ===Editor===
-The Looks Editor is how users can add and customize accessories on their avatar. It is spilt up into 3 sections: 
+The Looks Editor is how users can add and customize accessories on their avatar. It is split up into 3 sections: 
 
 * '''Left''': This side displays all owned accessories. Clicking on an accessory will add it to the avatar and assign it to a default bone. Hovering over an added accessory allow the user the option to duplicate it. Additionally, an undo, redo, and reset buttons are under the owned accessories.
 
@@ -334,15 +339,19 @@ Shapes:
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"Wrists done up in lace."''
-|Default Bone: Unknown
-
-Shapes: Unknown
+|Default Bone: Right Lower Arm
 
 Colors:
 
 * Ruffles
 * Ribbon
 * Bow
+Shapes: 
+
+* Radius (Slider)
+* Ruffle Length (Slider)
+* Ribbon Width (Slider)
+* Bow Size (Slider)
 |-
 |[[File:Accessory Maid-style Headdress.png|frameless|70x70px]]
 |Maid-style Headdress
@@ -350,7 +359,7 @@ Colors:
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"The crowning feature of a real maid…"''
-|Default Bone: Unknown
+|Default Bone: Head
 
 Colors:
 
@@ -358,7 +367,11 @@ Colors:
 * Headband
 * Stitching
 * Ribbons
-Shapes: Unknown
+Shapes:
+
+* Ruffle Length (Slider)
+* Ribbon Width (Slider)
+* Bow Size (Slider)
 |-
 |[[File:Accessory Lace Bow.png|frameless|70x70px]]
 |Lace Bow
@@ -366,13 +379,16 @@ Shapes: Unknown
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"You're so charming."''
-|Default Bone: Unknown
-
-Shapes: Unknown
+|Default Bone: Head
 
 Colors:
 
 * Bow Color
+Shapes:
+
+* Bow (Slider)
+* Tail (Slider)
+* Dovetail (Slider)
 |-
 |[[File:Accessory Charm Barrette.png|frameless|70x70px]]
 |Charm Barrette
@@ -380,13 +396,16 @@ Colors:
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"You're so charming"''
-|Default Bone: Unknown
+|Default Bone: Head
 
 Colors:
 
 * Clip
 * Charm
-Shapes: Unknown
+Shapes:
+
+* Use Heart Charm (Toggle)
+* Hide Clip (Toggle)
 |-
 |[[File:Accessory Garter.png|frameless|70x70px]]
 |Garter
@@ -394,7 +413,7 @@ Shapes: Unknown
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"What exactly is it holding up?"''
-|Default Bone: Unknown
+|Default Bone: Left Upper Leg
 
 Colors:
 
@@ -402,7 +421,10 @@ Colors:
 * Leather
 * Glow (Slider)
 * Metallic (Slider)
-Shapes: Unknown
+Shapes:
+
+* Use Heart Ring (Toggle)
+* Band Thickness (Slider)
 |-
 |[[File:Accessory Studded Belt.png|frameless|70x70px]]
 |Studded Belt
@@ -410,7 +432,7 @@ Shapes: Unknown
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"It keeps your skinny jeans locked in."''
-|Default Bone: Unknown
+|Default Bone: Hips
 
 Colors:
 
@@ -419,7 +441,10 @@ Colors:
 * Stud Checkers
 * Glow (Slider)
 * Metallic (Slider)
-Shapes: Unknown
+Shapes:
+
+* Thickness (Slider)
+* Angle (Slider)
 |-
 |[[File:Accessory Spiked Cuff.png|frameless|70x70px]]
 |Spiked Cuff
@@ -427,7 +452,7 @@ Shapes: Unknown
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"True kvlt fashion."''
-|Default Bone: Unknown
+|Default Bone: Right Lower Arm
 
 Colors:
 
@@ -435,7 +460,11 @@ Colors:
 * Leather
 * Glow (Slider)
 * Metallic (Slider)
-Shapes: Unknown
+Shapes:
+
+* Thickness (Slider)
+* Spike Length (Slider)
+* Use Cone Spikes (Toggle)
 |-
 |[[File:Accessory Circular Piercing.png|frameless|70x70px]]
 |Circular Piercing
@@ -443,14 +472,18 @@ Shapes: Unknown
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''"is it okay if a piercing glows?"''
-|Default Bone: Unknown
+|Default Bone: Head
 
 Colors:
 
 * Color
 * Glow (Slider)
 * Metallic (Slider)
-Shapes: Unknown
+Shapes:
+
+* Thickness (Slider)
+* Width (Slider)
+* Round Stud Closures (Toggle)
 |-
 |[[File:Accessory Inflatable Swimmies.png|frameless|70x70px]]
 |Inflatable Swimmies
@@ -631,7 +664,7 @@ Colors:
 * Glow (Slider)
 |-
 |[[File:Accessory_Aviator Sunglasses.png|frameless|70x70px]]
-|Aviator Sunglesses
+|Aviator Sunglasses
 |June 19, 2026
 | -
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
@@ -675,11 +708,7 @@ Colors:
 * Tint (Slider)
 * Fade (Slider)
 * Glow (Slider)
-|-
-}
-
-Accessories which VRChat mentioned:
-* Sunglasses
+|}
 
 ==History==
 Accessories were intended to be released with the release of 2026.1.3, but during the open beta cycle, it was decided to delay its release until "it's ready for prime time". <ref>[https://docs.vrchat.com/docs/vrchat-202613 VRChat 2026.1.3] ([https://web.archive.org/web/20260325011753/https://docs.vrchat.com/docs/vrchat-202613 Archive.org]) on ''[https://docs.vrchat.com docs.vrchat.com]''. Dated March 24, 2026. Retrieved March 24, 2026.</ref> Accessories beta testing would continue alongside the regular Open Beta on a separate Steam beta branch.
