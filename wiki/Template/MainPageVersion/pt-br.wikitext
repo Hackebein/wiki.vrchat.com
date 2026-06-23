@@ -13,8 +13,11 @@ or your changes will not be shown on the Main Page.
 <div class="qm-box" style="flex: 1 1 20%; min-width: 280px;">
     <h3 class="mw-headline qm-icon version">Última Atualização<span style="font-size: 1rem">{{Templatelinks|MainPageVersion}}</span></h3>
 {{#timel: d, F, Y | May 28, 2026 }} - [{{Version/href|live-mainpage}} VRChat {{Version|live-mainpage}} | Build {{Version/Build|live-mainpage}}]
-* [[Special:MyLanguage/Instances#Group instances|Anúncios da Instância do Grupo]]
-* [[Special:MyLanguage/VRC+#Leaderboard|Tabela de classificação VRC+]]
-* [https://docs.vrchat.com/docs/vrchat-202622 Muitos outros ajustes, melhorias e correções!]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [[Special:MyLanguage/Items#Companions|Companion Updates]]
+* Customizable Gradient [[Special:MyLanguage/Inventory#Cosmetics|UI Background]]
+* [[Special:MyLanguage/Third Person View|Third Person View]] is now available to desktop users without VRC+
+* [https://docs.vrchat.com/docs/vrchat-202623 Many more tweaks, improvements and fixes!]
+</div>
 </div>
 </onlyinclude>
