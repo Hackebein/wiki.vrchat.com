@@ -28,11 +28,19 @@ Para confirmar la colocación de un portal, haz clic con el botón izquierdo del
 Si los ajustes del "Modo de portal" está en "Soltar delante", el portal aparecerá frente a ti tan pronto como se seleccione el botón "Soltar portal".
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Portal visibility follows instance access: if a user is allowed to join an instance, they are generally able to see a portal to it. To restrict who can use a portal, the instance type itself is used (for example, a portal dropped to a Friends instance is not shown to non-friends).
+</div>
+
 El portal aparecerá entonces para los demás, mostrando el nombre del mundo, el usuario que colocó el portal, la región, el número de la estancia, el tipo de estancia, el grupo que aloja la estancia (si aplica), la capacidad de la estancia, la compatibilidad con plataformas, así como un temporizador. El temporizador contará regresivamente desde treinta hasta cero segundos. Cuando el portal llegue a cero, desaparecerá. El temporizador se reinicia a treinta segundos después de que un usuario entre al portal.
 
 Si un portal conduce a un mundo que no es compatible con cierta plataforma, los usuarios que vean el portal desde una plataforma incompatible no podrán entrar en la estancia. En su lugar, el portal mostrará un icono de una "X" roja alrededor. Generalmente se considera prudente tener en cuenta a amigos y conocidos que puedan estar en otras plataformas antes de ir a otra estancia, para que no se queden atrás debido a esto.
 
 Los portales a estancias Públicas/Grupo público pueden ser colocados por cualquier usuario. Los portales a estancias Grupo+ pueden ser colocados por el propietario del grupo o por quienes tengan el permiso "Portal a estancias Grupo+". Los portales a estancias Amigos+/Amigos/Invitación+/Invitación solo pueden ser colocados por el propietario de la estancia.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Multiple portals overlapping in the same location ("portal stacking") is intentional behavior and is not considered a bug.
+</div>
 
 <span id="Selecting"></span>
 <div class="mw-translate-fuzzy">
