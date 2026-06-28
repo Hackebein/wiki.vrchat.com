@@ -33,6 +33,10 @@
 「ポータルの配置方法」設定が「前方に置く」に設定されている場合は、「ポータルを置く」ボタンをクリックするとすぐにポータルが自分の前に配置される。
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Portal visibility follows instance access: if a user is allowed to join an instance, they are generally able to see a portal to it. To restrict who can use a portal, the instance type itself is used (for example, a portal dropped to a Friends instance is not shown to non-friends).
+</div>
+
 ポータルは他のプレイヤーに表示され、ワールド名、ポータルを置いたユーザー、地域、インスタンス番号、インスタンスタイプ、インスタンスをホストしているグループ（該当する場合）、インスタンス収容人数、プラットフォーム互換性、およびタイマーが表示される。
 タイマーは30秒から0秒までカウントダウンし、タイマーが0秒に達すると、ポータルは消滅する。
 ユーザーがポータルに入ると、タイマーは30秒にリセットされる。
@@ -40,6 +44,10 @@
 ポータルが特定のプラットフォームと互換性のないワールドへつながっている場合、互換性のないプラットフォームからそのポータルを見たユーザーからは、インスタンスに入ることができないため、ポータルが赤い「×」アイコンで囲まれて表示される。他のインスタンスへ移動する前に、他のプラットフォームにいるフレンドやインスタンス内のユーザーがこの理由で移動できず取り残されてしまわないか配慮することが、一般的に気遣いのある行動とされている。
 
 インスタンスタイプが「パブリック」または「グループパブリック」へのポータルは誰でも置くことができる。「グループ+」インスタンスへのポータルの場合は、グループの所有者または「グループ+インスタンスへのポータル」権限を持つユーザーがポータルを置くことができる。「フレンド+」「フレンド」「インバイト+」「インバイト」インスタンスへのポータルの場合は、インスタンスの所有者だけがポータルを置くことができる。
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Multiple portals overlapping in the same location ("portal stacking") is intentional behavior and is not considered a bug.
+</div>
 
 <span id="Selecting"></span>
 <div class="mw-translate-fuzzy">
