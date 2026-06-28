@@ -20,17 +20,9 @@ Wenn du mit bestimmten [[Special:MyLanguage/Community:Terminology|Begriffen]] od
 <span id="Standalone_devices"></span>
 ===Standalone-Geräte===
 
+<div class="mw-translate-fuzzy">
 VRChat kann auf den folgenden Standalone-Headsets ausgeführt werden:
-
-*Meta Quest 2
-*Meta Quest 3
-*Meta Quest 3S
-*Meta Quest Pro
-* Vive Focus Vision
-*Vive XR Elite
-*Pico 4
-*Pico 4 Pro
-*Pico 4 Ultra
+</div>
 
 <span id="Mobile_devices"></span>
 ===Mobile Endgeräte===
@@ -47,6 +39,14 @@ Die Tests von Valve zeigen, dass VRChat für das Steam Deck verifiziert ist. Die
 * VRChat zeigt die Steam Deck-Controller-Symbole an.
 *Der Text der Spieloberfläche ist auf dem Steam Deck gut lesbar.
 *Die Standard-Grafikkonfiguration von VRChat funktioniert gut auf dem Gerät.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+===Linux===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat does not provide a native Linux client. It can be played on Linux, including the Steam Deck, through Valve's Proton compatibility layer. VRChat has stated that there are no concrete plans for a native Linux client.<ref name="devqa1may2026">[https://ask.vrchat.com/t/may-1-2026-developer-stream-q-a-summary/48386 "May 1 2026 Developer Stream Q&A Summary"] on ''[[ask.vrchat.com]]''. Posted May 5, 2026. Retrieved June 18, 2026.</ref>
+</div>
 
 ===PC===
 
@@ -78,6 +78,14 @@ VRChat profitiert von großen Caches, die es bei der AMD X3D CPU-Serie gibt. Ein
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 VRChat is available via [https://www.nvidia.com/en-us/geforce-now/ GeForce NOW]<ref>Announcement at X - https://x.com/VRChat/status/1854237896707899862</ref>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Shadow PC ====
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat uses Easy Anti-Cheat (EAC), which is provided by Epic Games. As of 2026, running VRChat on the Shadow PC cloud-gaming service has been affected by a compatibility issue with EAC's handling of virtual machines. VRChat has described this as an ongoing three-way situation between VRChat, Easy Anti-Cheat, and Shadow PC. VRChat has stated that, for security reasons, it will not disable or reduce its anti-cheat for virtual machines, and that the issue must be resolved between the other parties.<ref name="devqa1may2026" />
 </div>
 
 <span id="Installing_VRChat"></span>
