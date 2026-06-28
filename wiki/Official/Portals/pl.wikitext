@@ -35,6 +35,10 @@ If the "Portal Mode" setting is set to "Drop In Front" the portal will appear in
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
+Portal visibility follows instance access: if a user is allowed to join an instance, they are generally able to see a portal to it. To restrict who can use a portal, the instance type itself is used (for example, a portal dropped to a Friends instance is not shown to non-friends).
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
 The portal will then appear to others, displaying the world name, the user who dropped the portal, region, instance number, instance type, the group hosting the instance (if applicable), instance capacity, platform compatibility, as well as a timer. The timer will count down from thirty to zero seconds. When the portal reaches zero seconds, the portal will disappear. The timer resets back to thirty seconds after a user enters the portal.
 </div>
 
@@ -44,6 +48,10 @@ If a portal is leading to a world that is not compatible with a certain platform
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Portals to Public/GroupPublic can be dropped by everyone. Portals to Group+ instances can be dropped by the owner of the Group or if with "Portal to Group+ Instances" permission. Portals to Friends+/Friends/Invite+/Invite instances can be dropped by the owner of the instance.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Multiple portals overlapping in the same location ("portal stacking") is intentional behavior and is not considered a bug.
 </div>
 
 <span id="Selecting"></span>
