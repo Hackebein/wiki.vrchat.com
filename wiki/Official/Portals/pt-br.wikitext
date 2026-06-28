@@ -28,11 +28,19 @@ Para confirmar a colocação de um portal, clique com o botão esquerdo do mouse
 Se a configuração "Modo Portal" estiver definida como "Soltar À Frente", o portal aparecerá à sua frente assim que o botão Soltar Portal for selecionado.
 </div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Portal visibility follows instance access: if a user is allowed to join an instance, they are generally able to see a portal to it. To restrict who can use a portal, the instance type itself is used (for example, a portal dropped to a Friends instance is not shown to non-friends).
+</div>
+
 O portal aparecerá então para os outros, exibindo o nome do mundo, o usuário que o colocou, a região, o número da instância, o tipo de instância, o grupo que hospeda a instância (se aplicável), a capacidade da instância, a compatibilidade da plataforma, bem como um cronômetro. O cronômetro fará uma contagem regressiva de trinta a zero segundos. Quando o portal chegar a zero segundos, ele desaparecerá. O cronômetro será reiniciado para trinta segundos depois que um usuário entrar no portal.
 
 Se um portal estiver levando a um mundo que não é compatível com uma determinada plataforma, os usuários que estiverem visualizando o portal a partir de uma plataforma incompatível não poderão entrar na instância. Em vez disso, o portal terá um ícone vermelho "X" ao seu redor. É geralmente considerado prudente estar ciente dos amigos e conhecidos que podem estar em outras plataformas antes de ir para outra instância, para que eles não fiquem para trás devido a isso.
 
 Os portais para Público/Grupo Público podem ser eliminados por qualquer pessoa. Os portais para instâncias Grupo+ podem ser eliminados pelo proprietário do Grupo ou se tiver a permissão "Portal para Instâncias Grupo+". Os portais para instâncias Amigos+/Amigos/Convidar+/Convidar podem ser eliminados pelo proprietário da instância.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Multiple portals overlapping in the same location ("portal stacking") is intentional behavior and is not considered a bug.
+</div>
 
 <span id="Selecting"></span>
 <div class="mw-translate-fuzzy">
