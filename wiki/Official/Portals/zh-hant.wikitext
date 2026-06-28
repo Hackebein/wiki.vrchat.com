@@ -21,11 +21,19 @@
 
 若「'''設定'''」（'''Setting'''）標籤頁中的「'''傳送門放置模式'''」（'''Portal Mode'''）被選為「'''放置在前方'''」（'''Drop In Front'''），則在點擊「'''放置傳送門'''」按鈕後，傳送門會立即出現在你的正前方。
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Portal visibility follows instance access: if a user is allowed to join an instance, they are generally able to see a portal to it. To restrict who can use a portal, the instance type itself is used (for example, a portal dropped to a Friends instance is not shown to non-friends).
+</div>
+
 放置好了之後，傳送門將會顯示給其他用戶看見，並展示其世界名稱、放置傳送門的用戶、伺服器地區、房間編號、房間類型、這房間的所在群組（如果適用）、房間人數及容量、平台相容性及計時器等資訊。計時器會從 30 秒倒數至 0 秒，當倒數歸零時，傳送門將會消失。每當有用戶進入傳送門後，計時器便會重新重置回 30 秒重新倒數。
 
 若傳送門所通往的世界不支援特定平台，則使用不相容平台的用戶將無法進入該房間，其傳送門周圍會顯示紅色的「X」圖示。因此，在前往其他房間前，通常會建議先留意好友或同行者所使用的平台，以避免有人因平台不相容而被留在原本的房間。
 
 所有人皆可放置通往「公開」或「群組公開」房間的傳送門。而通往「群組 +」房間的傳送門，則只能由群主或擁有「'''Portal to Group+ Instances'''」（'''開啟通往群組 + 房間的傳送門'''）權限的用戶放置。至於通往「好友 +」、「好友」、「邀請 +」、「邀請」房間的傳送門，則僅能由該房間的房主放置。
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Multiple portals overlapping in the same location ("portal stacking") is intentional behavior and is not considered a bug.
+</div>
 
 <span id="Selecting"></span>
 ===點擊傳送門===
