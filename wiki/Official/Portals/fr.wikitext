@@ -21,11 +21,19 @@ Pour confirmer le placement du portail, appuyez sur le bouton gauche de la souri
 
 Si le paramètre « Mode du portail » est réglé sur « Déposer devant », le portail apparaîtra devant vous dès lors que vous appuyez sur le bouton « Déposer un portail ».
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Portal visibility follows instance access: if a user is allowed to join an instance, they are generally able to see a portal to it. To restrict who can use a portal, the instance type itself is used (for example, a portal dropped to a Friends instance is not shown to non-friends).
+</div>
+
 Le portail sera alors visible à tous, affichant le nom du monde, l'utilisateur l'ayant déposé, sa région, son numéro, son type, le groupe qui la gère (si applicable), sa capacité, les plateformes compatibles, ainsi qu'un minuteur. Le minuteur ira de 30 à 0 secondes et le portail disparaîtra une fois celui-ci fini. Le minuteur se réinitialise à chaque fois qu'un utilisateur entrera dans le portail.
 
 Si le portail mène vers un monde incompatible sur certaines plateformes, les utilisateurs sur les plateformes concernées ne pourront pas entrer dans celui-ci. À la place, le portail sera entouré d'une icône « X ». Il est préférable de faire attention à la plateforme utilisée par vos amis et connaissances avant de changer d'instance afin d'éviter de laisser quiconque derrière vous.
 
 Les portails vers des instances Publique / Groupe public peuvent être déposés par tout le monde. Les portails vers les instances Groupe+ peuvent être déposés par le propriétaire du groupe ou par les membres ayant la permission « Portail vers les instances Groupe+ ». Les portails vers les instances Amis+ / Amis / Invitation+ / Invitation peuvent être déposés par le propriétaire de l'instance.
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Multiple portals overlapping in the same location ("portal stacking") is intentional behavior and is not considered a bug.
+</div>
 
 <span id="Selecting"></span>
 == Sélectionner ==
