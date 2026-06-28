@@ -21,8 +21,7 @@
 '''Contact Sender''' definisce un volume di collisione che può essere rilevato da un Contact Receiver corrispondente. Sender possono utilizzare una forma sferica o a capsula, un transform radice, offset di posizione e rotazione locali, e uno o più tag di collisione.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-{{Noticebox/unreleased}}
-A box shape for contacts is in development and planned for a future SDK release<ref>[https://ask.vrchat.com/t/vrchat-creators-roadmap-march-2026/48077 'VRChat Creators Roadmap (March 2026)'] on ''[[ask.vrchat.com]]''.</ref><ref>[https://ask.vrchat.com/t/developer-update-19-march-2026/48078 'Developer Update - 19 March 2026'] on ''[[ask.vrchat.com]]''.</ref>. Box-shaped contacts will be available for both avatars and worlds, with configurable width, height, and depth. Box-shaped contact receivers will also support an additional proximity calculation mode based on the distance from the sender to the positive Z face of the box.
+Box-shaped contacts are available for both avatars and worlds, with configurable width, height, and depth. Box-shaped contact receivers also support an additional proximity calculation mode based on the distance from the sender to the positive Z face of the box.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
