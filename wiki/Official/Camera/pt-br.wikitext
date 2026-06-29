@@ -15,26 +15,24 @@ Existem várias maneiras de acessar a câmera no VRChat:
 [[File:Camera menu.webp|thumb|Aba Câmera no Menu Rápido.]]
 Os modos da câmera determinam como ele se comporta ao tirar uma foto. Existem sete modos de câmera, que correspondem a diferentes recursos:
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Local Photo : After taken, it captures a regular photo. This is the default mode.
-; Multi Layer : After taken, it captures a photo and creates images of each enabled mask. This mode does support focus or filters and may cause frame lag. 
-: It can create up to three additional images (besides the regular photo): "Environment", "Users" (Combines the Local & Remote Users masks), and "UI". The "Users" & "UI" masks save with alpha transparency.
-; Stream : Replaces the desktop view with the camera view. In desktop mode, the "Spout Stream" toggle will appear, allowing the user to receive the camera view through supported applications. 
-: The "Spout Stream" toggle requires applications to support the [https://spout.zeal.co/ Spout] protocol to receive the camera view.
-: This mode is only available on PC.
-; Gallery : After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a rectangular crop. "Save & Apply" saves it to the Photo Gallery section of the Inventory. Requires VRC+.
-; User Icon : After taken, a UI appears allowing the user to zoom, reposition and mirror the photo within a circular crop. "Save & Apply" saves it to the User Icon section of the Inventory and will automatically set the user icon to it. Requires VRC+.
-; Sticker : ''See also [[Special:MyLanguage/Stickers|Stickers]] for more detailed information.''
-: Shows a square outline, highlighting the cropping region. After taken, the "Create Sticker" UI appears, allowing the user to zoom, reposition and mirror the photo with six preset crops. "Save" saves it to the Stickers section of the Inventory. Requires VRC+.
-; Print : ''See also [[Special:MyLanguage/Prints|Prints]] for more detailed information.''
-: After taken, the print UI appears, allowing the user to edit the note. "Print & Save" saves it to the Prints section of the Inventory and will automatically print the print within the world. Requires VRC+.
-; Emoji : ''See also [[Special:MyLanguage/Emojis|Emojis]] for more detailed information.''
-: Shows a square outline, highlighting the cropping region. After taken, the "Create Emoji" UI appears, allowing the user to choose animations, zoom, reposition and mirror the photo with six preset crops. "Save" saves it to the Emoji section of the Inventory. Requires VRC+.
-:Animated options require the user to take a photo for every frame (4 or 16).
+; Foto local : Depois de tirada, a foto é capturada normalmente. Esse é o modo padrão.
+; Multicamada : Depois de tirada, ele tira uma foto e cria imagens de cada máscara ativada. Este modo não suporta foco nem filtros e pode causar atrasos na exibição dos quadros.
+: Ele pode criar até três imagens adicionais (além da foto normal): "Ambiente", "Usuários" (Combina as máscaras de Usuários Locais e Remotos) e "UI". As máscaras "Usuários" e "UI" são salvas com transparência alfa.
+; Transmissão : Substitui a visualização da área de trabalho pela visualização da câmera. No modo de área de trabalho, o botão de alternar a "Transmissão Spout" será exibido, permitindo que o usuário receba a visualização da câmera por meio de aplicativos compatíveis.
+: A opção "Transmissão Spout" exige que os aplicativos sejam compatíveis com o protocolo [https://spout.zeal.co/ Spout] para receber a imagem da câmera.
+: Este modo está disponível apenas no PC.
+; Galeria : Depois de tirada, é exibida uma interface de usuário que permite ao usuário ampliar, reposicionar e inverter a foto dentro de uma área de recorte retangular. A opção "Salvar e aplicar" salva a foto na seção Galeria de fotos do Inventário. Requer o VRC+.
+; Ícone do Usuário : Depois de tirada, é exibida uma interface de usuário que permite ao usuário ampliar, reposicionar e inverter a foto dentro de uma área de recorte circular. A opção "Salvar e aplicar" salva a foto na seção Ícone do Usuário do Inventário e define automaticamente essa foto como o ícone do usuário. Requer o VRC+.
+; Adesivo : ''Veja também [[Special:MyLanguage/Stickers|Adesivos]] para obter informações mais detalhadas.''
+: Exibe um contorno quadrado, destacando a área de recorte. Após a captura, a interface "Criar Adesivo" é exibida, permitindo que o usuário amplie, reposicione e inverta a foto com seis opções de recorte predefinidas. Ao clicar em "Salvar", o adesivo é salvo na seção Adesivos do Inventário. Requer o VRC+.
+; Impressão : ''Veja também [[Special:MyLanguage/Stickers|Impressões]] para obter informações mais detalhadas.''
+: Depois de tirada, a interface de impressão é exibida, permitindo que o usuário edite a nota. "Imprimir e Salvar" salva o item na seção Impressões do Inventário e imprime automaticamente a imagem dentro do mundo. Requer o VRC+.
+; Emoji : ''Veja também [[Special:MyLanguage/Stickers|Emojis]] para obter informações mais detalhadas.''
+: Exibe um contorno quadrado, destacando a área de recorte. Após a captura, a interface "Criar Emoji" é exibida, permitindo que o usuário escolha animações, amplie, reposicione e inverta a foto com seis opções de recorte predefinidas. Ao clicar em "Salvar", a imagem é salva na seção Emoji do Inventário. Requer o VRC+.
+:As opções animadas exigem que o usuário tire uma foto para cada quadro (4 ou 16).
 :; Emoji (1)
-:; Animated (4)
-:; Animated (16)
-</div>
+:; Animado (4)
+:; Animado (16)
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 These three "modes" are not accessible through the Camera Mode button, but rather other means:
