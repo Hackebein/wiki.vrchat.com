@@ -17,7 +17,7 @@ Os modos da câmera determinam como ele se comporta ao tirar uma foto. Existem s
 
 ; Foto local : Depois de tirada, a foto é capturada normalmente. Esse é o modo padrão.
 ; Multicamada : Depois de tirada, ele tira uma foto e cria imagens de cada máscara ativada. Este modo não suporta foco nem filtros e pode causar atrasos na exibição dos quadros.
-: Ele pode criar até três imagens adicionais (além da foto normal): "Ambiente", "Usuários" (Combina as máscaras de Usuários Locais e Remotos) e "UI". As máscaras "Usuários" e "UI" são salvas com transparência alfa.
+: Ele pode criar até três imagens adicionais (além da foto normal): "Ambiente", "Usuários" (Combina as máscaras de Usuários Locais e Remotos) e "IU". As máscaras "Usuários" e "IU" são salvas com transparência alfa.
 ; Transmissão : Substitui a visualização da área de trabalho pela visualização da câmera. No modo de área de trabalho, o botão de alternar a "Transmissão Spout" será exibido, permitindo que o usuário receba a visualização da câmera por meio de aplicativos compatíveis.
 : A opção "Transmissão Spout" exige que os aplicativos sejam compatíveis com o protocolo [https://spout.zeal.co/ Spout] para receber a imagem da câmera.
 : Este modo está disponível apenas no PC.
