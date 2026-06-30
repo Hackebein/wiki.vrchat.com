@@ -13,7 +13,7 @@
         <panel>
             {{#if: {{{branch_live_date}}} | 
                 <section>
-                    <label><span lang="en" dir="ltr" class="mw-content-ltr">Live</span></label>
+                    <label>Aktualnie</label>
                     <data source="branch_live_date">
                         <label>Data</label>
                         <format>{{#timel: F d, Y|{{{branch_live_date}}}}}</format>
