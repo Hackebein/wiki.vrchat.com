@@ -3,7 +3,7 @@
 	{{#if: {{{image}}} |  <image source="image"></image>}}
     <data source="platforms"><label>Platformy</label></data>
     <data source="vr">
-        <label><span lang="en" dir="ltr" class="mw-content-ltr">VR only</span></label>
+        <label>Tylko VR</label>
     </data>
     <data source="vrchatplus">
         <label><span style="margin-inline-end:0.3rem;>[[File:Icon_VRC_Plus_Icon.png|frameless|14x14px]]</span><span lang="en" dir="ltr" class="mw-content-ltr">[[VRC+]]</span></label>
