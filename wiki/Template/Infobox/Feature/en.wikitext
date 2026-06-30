@@ -1,5 +1,4 @@
-<languages/>
-<includeonly><infobox type="Feature" theme="community">
+<noinclude><languages/></noinclude><includeonly><infobox type="Feature" theme="community">
 	<title source="name"><default>'''Missing name!'''</default></title>
 	{{#if: {{{image}}} |  <image source="image"></image>}}
     <data source="platforms"><label>Platforms</label></data>
@@ -46,5 +45,4 @@
             }}
         </panel>
     </group>
-</infobox></includeonly><noinclude>{{Documentation}}
-[[Category:Infobox Templates{{#translation:}}]][[Category:Templates{{#translation:}}]]</noinclude>
+</infobox></includeonly><noinclude>{{Documentation}}</noinclude>
