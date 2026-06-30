@@ -19,7 +19,7 @@
                         <format>{{#timel: F d, Y|{{{branch_live_date}}}}}</format>
                     </data>
                     <data source="branch_live_version"><label>Wersja</label></data>
-                    <data source="branch_live_releasenote"><label><span lang="en" dir="ltr" class="mw-content-ltr">Release note</span></label></data>
+                    <data source="branch_live_releasenote"><label>Lista zmian</label></data>
                 </section>
             }}
             {{#if: {{{branch_openbeta_date}}} | 
@@ -30,7 +30,7 @@
                         <format>{{#timel: F d, Y|{{{branch_openbeta_date}}}|ymd}}</format>
                     </data>
                     <data source="branch_openbeta_version"><label>Wersja</label></data>
-                    <data source="branch_openbeta_releasenote"><label><span lang="en" dir="ltr" class="mw-content-ltr">Release note</span></label></data>
+                    <data source="branch_openbeta_releasenote"><label>Lista zmian</label></data>
                 </section>
             }}
             {{#if: {{{branch_announcement_date}}} | 
