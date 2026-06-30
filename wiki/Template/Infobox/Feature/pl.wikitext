@@ -40,7 +40,7 @@
                         <label>Data</label>
                         <format>{{#timel: F d, Y|{{{branch_announcement_date}}}|ymd}}</format>
                     </data>
-                    <data source="branch_announcement_link"><label><span lang="en" dir="ltr" class="mw-content-ltr">Link</span></label></data>
+                    <data source="branch_announcement_link"><label>Link</label></data>
                 </section>
             }}
         </panel>
