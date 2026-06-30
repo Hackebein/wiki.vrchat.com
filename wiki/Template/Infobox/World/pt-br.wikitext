@@ -9,7 +9,7 @@
         <data source="tags"><label>Etiquetas</label></data>
         <data source="languages"><label>Idiomas</label></data>
         <data source="id"><label>Link para o Mundo</label>
-           <default><span lang="en" dir="ltr" class="mw-content-ltr">'''Missing world ID!'''</span></default>
+           <default>'''ID do mundo ausente!'''</default>
            <format>{{World link|{{{id}}}|{{{name}}}}}</format></data>
     </group>
     <group>
