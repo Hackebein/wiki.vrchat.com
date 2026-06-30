@@ -64,30 +64,27 @@ Os botões do IU são aqueles localizados no centro, à esquerda ou à direita d
 :; Filtros
 :: Alterna entre os filtros de câmera Blueprint, Glitch, Velocidade, Hipnótico, Pixelizar, Rascunho, Brilho, Psicodélico e Antigo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-====Toggle====
-; Fly Speed : Determines how fast the camera moves in Fly mode. Values range from 0.1 to 15, with 3 being the default.
-: Slider shown only when using Desktop mode or when the Flying toggle is on.
-; Turn Speed : Determines how fast the camera rotates in Fly mode. Values range from 0.1 to 5, with 1 being the default.
-: Slider shown only when using Desktop mode or when the Flying toggle is on.
-; Smoothing Strength : Determines how much smoothing is applied to camera movement. Values range from 0.1 to 10, with 5 being the default.
-: Slider shown only when using the Smoothed toggle.
-; Horizontal Offset : Determines the horizontal offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default. Using the Auto Level Roll toggle will disable this slider.
-: Slider shown only when using the Look-At-Me toggle.
-; Vertical Offset : Determines the vertical offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default.
-: Slider shown only when using the Look-At-Me toggle. Using the Auto Level Pitch toggle will disable this slider.
-; Focal Distance : Determines the depth of field's focal distance. 
-: Slider shown only when using the Manual focus toggle.
-; Aperture : Determines the depth of field's aperture. 
-: Slider shown only when using the Semi Auto or Manual focus toggles.
-; Green Screen : Displays sliders to adjust the color of the green screen mask. The sliders are Hue, Saturation, and Lightness.
-: Sliders shown only when using the GreenScreen toggle.
-:; Hue
-:; Saturation
-:; Lightness
-; Duration : Determines the duration of new dolly points when using time-based motion.
-: Slider shown only when the Dolly toggle is selected.
-</div>
+; Velocidade do Voo : Determina a velocidade com que a câmera se move no modo Voo. Os valores variam de 0,1 a 15, sendo 3 o valor padrão.
+: O controle deslizante é exibido apenas no modo Desktop ou quando a opção "Voando" está ativada.
+; Velocidade de Rotação : Determina a velocidade de rotação da câmera no modo Voo. Os valores variam de 0,1 a 5, sendo 1 o valor padrão.
+: O controle deslizante é exibido apenas no modo Desktop ou quando a opção "Voando" está ativada.
+; Força de Suavização : Determina o nível de suavização aplicado ao movimento da câmera. Os valores variam de 0,1 a 10, sendo 5 o valor padrão.
+: O controle deslizante é exibido apenas quando a opção Suavizado está ativada.
+; Deslocamento Horizontal : Determina o deslocamento horizontal em relação ao centro da imagem ao usar o recurso Olhe-Para-Mim. Os valores variam de -25 a 25, sendo 0 o valor padrão. Ao ativar a opção Inclinação de Nível Automático, este controle deslizante será desativado.
+: O controle deslizante é exibido apenas quando se usa o botão Olhe-Para-Mim.
+; Deslocamento Vertical : Determina o deslocamento vertical em relação ao centro da imagem ao usar o recurso Olhe-Para-Mim. Os valores variam de -25 a 25, sendo 0 o valor padrão.
+: O controle deslizante é exibido apenas quando se usa o botão Olhe-Para-Mim. Ao usar o botão Inclinação de Nível Automático, este controle deslizante será desativado.
+; Distância Focal : Determina a distância focal da profundidade de campo. 
+: O controle deslizante é exibido apenas quando se usa o botão de alternância de foco manual.
+; Abertura : Determina a abertura da profundidade de campo.
+: O controle deslizante é exibido apenas ao usar os botões de alternância de foco semiautomático ou manual.
+; Tela Verde : Exibe controles deslizantes para ajustar a cor da máscara da tela verde. Os controles deslizantes são Matiz, Saturação e Luminosidade.
+: Os controles deslizantes são exibidos apenas quando se usa o botão da Tela Verde.
+:; Matiz
+:; Saturação
+:; Luminosidade
+; Duração : Determina a duração dos novos pontos de dolly ao usar movimento baseado em tempo.
+: O controle deslizante é exibido apenas quando a opção Dolly está selecionada.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ===Menu===
