@@ -37,7 +37,7 @@
                 <section>
                     <label><span lang="en" dir="ltr" class="mw-content-ltr">Announcement</span></label>
                     <data source="branch_announcement_date">
-                        <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
+                        <label>Data</label>
                         <format>{{#timel: F d, Y|{{{branch_announcement_date}}}|ymd}}</format>
                     </data>
                     <data source="branch_announcement_link"><label><span lang="en" dir="ltr" class="mw-content-ltr">Link</span></label></data>
