@@ -18,13 +18,13 @@
                         <label>Data</label>
                         <format>{{#timel: F d, Y|{{{branch_live_date}}}}}</format>
                     </data>
-                    <data source="branch_live_version"><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label></data>
+                    <data source="branch_live_version"><label>Wersja</label></data>
                     <data source="branch_live_releasenote"><label><span lang="en" dir="ltr" class="mw-content-ltr">Release note</span></label></data>
                 </section>
             }}
             {{#if: {{{branch_openbeta_date}}} | 
                 <section>
-                    <label><span lang="en" dir="ltr" class="mw-content-ltr">Open Beta</span></label>
+                    <label>Open Beta</label>
                     <data source="branch_openbeta_date">
                         <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
                         <format>{{#timel: F d, Y|{{{branch_openbeta_date}}}|ymd}}</format>
