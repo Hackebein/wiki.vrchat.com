@@ -29,7 +29,7 @@
                         <label>Data</label>
                         <format>{{#timel: F d, Y|{{{branch_openbeta_date}}}|ymd}}</format>
                     </data>
-                    <data source="branch_openbeta_version"><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label></data>
+                    <data source="branch_openbeta_version"><label>Wersja</label></data>
                     <data source="branch_openbeta_releasenote"><label><span lang="en" dir="ltr" class="mw-content-ltr">Release note</span></label></data>
                 </section>
             }}
