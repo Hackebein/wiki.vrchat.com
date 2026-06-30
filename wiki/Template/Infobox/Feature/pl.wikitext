@@ -9,13 +9,13 @@
         <label><span style="margin-inline-end:0.3rem;>[[File:Icon_VRC_Plus_Icon.png|frameless|14x14px]]</span>[[VRC+]]</label>
     </data>
     <group>
-        <header><span lang="en" dir="ltr" class="mw-content-ltr">Release history</span></header>    
+        <header>Historia</header>    
         <panel>
             {{#if: {{{branch_live_date}}} | 
                 <section>
                     <label><span lang="en" dir="ltr" class="mw-content-ltr">Live</span></label>
                     <data source="branch_live_date">
-                        <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
+                        <label>Data</label>
                         <format>{{#timel: F d, Y|{{{branch_live_date}}}}}</format>
                     </data>
                     <data source="branch_live_version"><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label></data>
