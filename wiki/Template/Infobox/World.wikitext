@@ -1,15 +1,15 @@
 <noinclude><languages/></noinclude><includeonly><infobox type="World" theme="community">
-	<title source="name"><default><translate>'''Missing name!'''</translate></default></title>
+	<title source="name"><default><translate><!--T:13--> '''Missing name!'''</translate></default></title>
 	<image source="image"><default>[[File:Placeholder.webp|Missing thumbnail image!]]</default></image>
 	<group>
-        <data source="author"><label><translate><!--T:1--> Author</translate></label><default><translate>'''Missing author!'''</translate></default></data>
+        <data source="author"><label><translate><!--T:1--> Author</translate></label><default><translate><!--T:14--> '''Missing author!'''</translate></default></data>
         <data source="developers"><label><translate><!--T:2--> Developers</translate></label></data>
         <data source="capacity"><label><translate><!--T:3--> Capacity</translate></label></data>
         <data source="platforms"><label><translate><!--T:4--> Platforms</translate></label></data>
         <data source="tags"><label><translate><!--T:5--> Tags</translate></label></data>
         <data source="languages"><label><translate><!--T:6--> Languages</translate></label></data>
         <data source="id"><label><translate><!--T:7--> World Link</translate></label>
-           <default><translate>'''Missing world ID!'''</translate></default>
+           <default><translate><!--T:15--> '''Missing world ID!'''</translate></default>
            <format>{{World link|{{{id}}}|{{{name}}}}}</format></data>
     </group>
     <group>
