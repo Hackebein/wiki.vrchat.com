@@ -26,7 +26,7 @@
                 <section>
                     <label>Open Beta</label>
                     <data source="branch_openbeta_date">
-                        <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
+                        <label>Data</label>
                         <format>{{#timel: F d, Y|{{{branch_openbeta_date}}}|ymd}}</format>
                     </data>
                     <data source="branch_openbeta_version"><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label></data>
