@@ -1,46 +1,46 @@
-<includeonly><infobox type="Feature" theme="community">
-	<title source="name"><default>'''Missing name!'''</default></title>
+<noinclude><languages/></noinclude><includeonly><infobox type="Feature" theme="community">
+	<title source="name"><default><translate>'''Missing name!'''</translate></default></title>
 	{{#if: {{{image}}} |  <image source="image"></image>}}
-    <data source="platforms"><label>Platforms</label></data>
+    <data source="platforms"><label><translate>Platforms</translate></label></data>
     <data source="vr">
-        <label>VR only</label>
+        <label><translate>VR only</translate></label>
     </data>
     <data source="vrchatplus">
-        <label><span style="margin-inline-end:0.3rem;>[[File:Icon_VRC_Plus_Icon.png|frameless|14x14px]]</span>[[VRC+]]</label>
+        <label><span style="margin-inline-end:0.3rem;>[[File:Icon_VRC_Plus_Icon.png|frameless|14x14px]]</span><translate>[[VRC+]]</translate></label>
     </data>
     <group>
-        <header>Release history</header>    
+        <header><translate>Release history</translate></header>    
         <panel>
             {{#if: {{{branch_live_date}}} | 
                 <section>
-                    <label>Live</label>
+                    <label><translate>Live</translate></label>
                     <data source="branch_live_date">
-                        <label>Date</label>
+                        <label><translate>Date</translate></label>
                         <format>{{#timel: F d, Y|{{{branch_live_date}}}}}</format>
                     </data>
-                    <data source="branch_live_version"><label>Version</label></data>
-                    <data source="branch_live_releasenote"><label>Release note</label></data>
+                    <data source="branch_live_version"><label><translate>Version</translate></label></data>
+                    <data source="branch_live_releasenote"><label><translate>Release note</translate></label></data>
                 </section>
             }}
             {{#if: {{{branch_openbeta_date}}} | 
                 <section>
-                    <label>Open Beta</label>
+                    <label><translate>Open Beta</translate></label>
                     <data source="branch_openbeta_date">
-                        <label>Date</label>
+                        <label><translate>Date</translate></label>
                         <format>{{#timel: F d, Y|{{{branch_openbeta_date}}}|ymd}}</format>
                     </data>
-                    <data source="branch_openbeta_version"><label>Version</label></data>
-                    <data source="branch_openbeta_releasenote"><label>Release note</label></data>
+                    <data source="branch_openbeta_version"><label><translate>Version</translate></label></data>
+                    <data source="branch_openbeta_releasenote"><label><translate>Release note</translate></label></data>
                 </section>
             }}
             {{#if: {{{branch_announcement_date}}} | 
                 <section>
-                    <label>Announcement</label>
+                    <label><translate>Announcement</translate></label>
                     <data source="branch_announcement_date">
-                        <label>Date</label>
+                        <label><translate>Date</translate></label>
                         <format>{{#timel: F d, Y|{{{branch_announcement_date}}}|ymd}}</format>
                     </data>
-                    <data source="branch_announcement_link"><label>Link</label></data>
+                    <data source="branch_announcement_link"><label><translate>Link</translate></label></data>
                 </section>
             }}
         </panel>
