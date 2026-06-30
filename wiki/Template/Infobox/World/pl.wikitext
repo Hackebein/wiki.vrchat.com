@@ -9,7 +9,7 @@
         <data source="tags"><label>Tagi</label></data>
         <data source="languages"><label>Języki</label></data>
         <data source="id"><label>Link świata</label>
-           <default><span lang="en" dir="ltr" class="mw-content-ltr">'''Missing world ID!'''</span></default>
+           <default>'''Brakujące ID świata!'''</default>
            <format>{{World link|{{{id}}}|{{{name}}}}}</format></data>
     </group>
     <group>
