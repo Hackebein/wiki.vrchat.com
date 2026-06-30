@@ -1,0 +1,48 @@
+<noinclude><languages/></noinclude><includeonly><infobox type="Feature" theme="community">
+	<title source="name"><default>'''Brakująca nazwa!'''</default></title>
+	{{#if: {{{image}}} |  <image source="image"></image>}}
+    <data source="platforms"><label><span lang="en" dir="ltr" class="mw-content-ltr">Platforms</span></label></data>
+    <data source="vr">
+        <label><span lang="en" dir="ltr" class="mw-content-ltr">VR only</span></label>
+    </data>
+    <data source="vrchatplus">
+        <label><span style="margin-inline-end:0.3rem;>[[File:Icon_VRC_Plus_Icon.png|frameless|14x14px]]</span><span lang="en" dir="ltr" class="mw-content-ltr">[[VRC+]]</span></label>
+    </data>
+    <group>
+        <header><span lang="en" dir="ltr" class="mw-content-ltr">Release history</span></header>    
+        <panel>
+            {{#if: {{{branch_live_date}}} | 
+                <section>
+                    <label><span lang="en" dir="ltr" class="mw-content-ltr">Live</span></label>
+                    <data source="branch_live_date">
+                        <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
+                        <format>{{#timel: F d, Y|{{{branch_live_date}}}}}</format>
+                    </data>
+                    <data source="branch_live_version"><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label></data>
+                    <data source="branch_live_releasenote"><label><span lang="en" dir="ltr" class="mw-content-ltr">Release note</span></label></data>
+                </section>
+            }}
+            {{#if: {{{branch_openbeta_date}}} | 
+                <section>
+                    <label><span lang="en" dir="ltr" class="mw-content-ltr">Open Beta</span></label>
+                    <data source="branch_openbeta_date">
+                        <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
+                        <format>{{#timel: F d, Y|{{{branch_openbeta_date}}}|ymd}}</format>
+                    </data>
+                    <data source="branch_openbeta_version"><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label></data>
+                    <data source="branch_openbeta_releasenote"><label><span lang="en" dir="ltr" class="mw-content-ltr">Release note</span></label></data>
+                </section>
+            }}
+            {{#if: {{{branch_announcement_date}}} | 
+                <section>
+                    <label><span lang="en" dir="ltr" class="mw-content-ltr">Announcement</span></label>
+                    <data source="branch_announcement_date">
+                        <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
+                        <format>{{#timel: F d, Y|{{{branch_announcement_date}}}|ymd}}</format>
+                    </data>
+                    <data source="branch_announcement_link"><label><span lang="en" dir="ltr" class="mw-content-ltr">Link</span></label></data>
+                </section>
+            }}
+        </panel>
+    </group>
+</infobox></includeonly><noinclude>{{Documentation}}</noinclude>
