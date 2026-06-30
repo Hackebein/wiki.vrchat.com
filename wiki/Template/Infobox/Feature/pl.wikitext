@@ -35,7 +35,7 @@
             }}
             {{#if: {{{branch_announcement_date}}} | 
                 <section>
-                    <label><span lang="en" dir="ltr" class="mw-content-ltr">Announcement</span></label>
+                    <label>Ogłoszenie</label>
                     <data source="branch_announcement_date">
                         <label>Data</label>
                         <format>{{#timel: F d, Y|{{{branch_announcement_date}}}|ymd}}</format>
