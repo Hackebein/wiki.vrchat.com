@@ -99,15 +99,13 @@ Os botões do Menu são aqueles que ficam abaixo do quadro da câmera.
 ; Áudio da Câmera : O áudio será ouvido da posição da câmera, e não do avatar.
 : É preciso selecionar o modo de câmera "Transmissão" para que ele apareça.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Anchor : Determines where the camera is attached.
-:; Default
-:: Attached to the user.
+; Âncora : Determina onde a câmera está acoplada.
+:; Padrão
+:: Acoplada no usuário
 :; Local
-:: Follows user movement but not head movement.
-:; World
-:: Attached to the world, independent of user movement.
-</div>
+:: Acompanha os movimentos do usuário, mas não os movimentos da cabeça.
+:; Mundo
+:: Acoplada ao mundo, independente dos movimentos do usuário.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ; Behavior : Desc
