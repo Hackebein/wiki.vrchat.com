@@ -86,7 +86,7 @@ private void IncreaseScore()
 === FieldChangeCallback execution order issues ===
 ''Note: This section has not been proofread yet! It may contain factual errors.''
 
-If you use <code>[FieldChangeCallback]</code>to execute cute, avoid referencing other variables that may not have been deserialized yet. For example:<syntaxhighlight>[SerializeField] private TextMeshProUGUI scoreText;
+If you use <code>[FieldChangeCallback]</code>to execute code, avoid referencing other variables that may not have been deserialized yet. For example:<syntaxhighlight>[SerializeField] private TextMeshProUGUI scoreText;
 [SerializeField] private TextMeshProUGUI roundText;
 [UdonSynced, FieldChangeCallback(nameof(Score))] private int score;
 [UdonSynced] private int round;
