@@ -13,8 +13,8 @@
         <data source="themes"><label>主題</label></data>
         <data source="link"><label>世界連結</label><default>{{#if:{{{id|}}}|{{World link|{{{id}}}|{{#if:{{{name|}}}|{{{name}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}}}}}</default></data>
         <data source="previewYoutubeId"><label>Video</label>
-           <format>{{YouTube|id={{{previewYoutubeId}}}|width=100%|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</format>
-           <default>{{#ifexist:Template:World/{{{id|}}}/previewYoutubeId|{{YouTube|id={{World/{{{id|}}}/previewYoutubeId}}|width=100%|thumb=File:{{{id|}}}_previewYoutubeId.jpg}}}}</default></data>
+           <format><div style="width:248px;margin:0 auto">{{YouTube|id={{{previewYoutubeId}}}|width=248px|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</div></format>
+           <default>{{#ifexist:Template:World/{{{id|}}}/previewYoutubeId|<div style="width:248px;margin:0 auto">{{YouTube|id={{World/{{{id|}}}/previewYoutubeId}}|width=248px|thumb=File:{{{id|}}}_previewYoutubeId.jpg}}</div>}}</default></data>
     </group>
     <group>
         <header>世界歷史</header>
