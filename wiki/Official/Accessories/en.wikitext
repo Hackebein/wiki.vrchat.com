@@ -6,32 +6,35 @@
 |branch_live_date = April 28 2026
 |branch_live_version = 2026.2.1 Build 1835
 |branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202621 2026.2.1]
-|branch_openbeta_date = Mar 18 2026
+|branch_openbeta_date = March 18 2026
 |branch_openbeta_version = 2026.1.3 Build 1814
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202613-open-beta 2026.1.3 Open Beta]
 }}
-'''Accessories''' are cosmetic elements that can be placed on any usable [[avatar]]. Accessories are managed from the '''Accessories''' section of the [[Avatar]] tab and are separate from the [[Inventory]]. Up to 5 accessories can be placed on a single avatar at a time.
+'''Accessories''' are cosmetic elements that can be placed on any usable [[Special:MyLanguage/Avatars|avatar]]. Accessories are managed from the "'''Accessories'''" section of the Avatar tab and are separate from the [[Special:MyLanguage/Inventory|Inventory]]. Up to 5 accessories can be placed on a single avatar at a time.
 
-Unlike [[Items]], accessories have no scripting, are not interactable, and travel with the user between [[worlds]] without needing to be spawned in. Worlds cannot restrict accessory usage.
+Unlike [[Special:MyLanguage/Items|Items]], accessories have no scripting, are not interactable, and travel with the user between [[Special:MyLanguage/Worlds|worlds]] without needing to be spawned in. Worlds cannot restrict accessory usage.
 
 VRChat creates accessories internally and collaborates with select community creators.
 
 == Overview ==
-When a user adds an accessory to their avatar, it is automatically attached to a default [[avatar]] bone (such as the head, hips, or arm) chosen to best suit the accessory. Users can reassign the accessory to any bone on the avatar's skeleton through the attachment controls.
+When a user adds an accessory to their avatar, it is automatically attached to a default [[Special:MyLanguage/Avatars|avatar]] bone (such as the head, hips, or arm) chosen to best suit the accessory. Users can reassign the accessory to any bone on the avatar's skeleton through the attachment controls.
 
 Each accessory can be repositioned, rotated, and scaled using on-screen controls or the precise adjustment panel on the right side of the editor. Some accessories also offer additional customization options, such as color changes or toggling visual elements. Accessories use VRChat's Toon Standard shader. Accessories can be duplicated and equipped on opposite bones at once, allowing a symmetrical look.
 
 To preserve performance, the distance at which other users' accessories appear is both distance-based and count-based: the more people and accessories that are present in an instance, the shorter the range at which they become visible. Users always see their own accessories. Rather than disappearing abruptly, accessories can switch to lower-quality models at a distance.
 
 == Obtaining ==
-Accessories can be obtained through the [[Shop]]. They can either appear under the "Exclusive" tab within one of the shelves or under it's own dedicated "Accessories" tab. Alternatively, accessories can be awarded through drops which can be redeemed under the "[[Bundles & Packs]]" tab of the Inventory.
+Accessories can be obtained through the [[Special:MyLanguage/Shop|Shop]]. They can either appear under the "Exclusive" tab within one of the shelves or under it's own dedicated "Accessories" tab. Alternatively, accessories can be awarded through drops which can be redeemed under the "[[Special:MyLanguage/Bundles & Packs|Bundles & Packs]]" tab of the Inventory.
 
 Accessories are intended to be evergreen<ref>[https://ask.vrchat.com/t/2026-2-1-video-patch-notes-transcript/48358 2026.2.1 Video Patch Notes Transcript] on ''[https://ask.vrchat.com ask.vrchat.com]''. Dated April 28, 2026. Retrieved June 21, 2026.</ref>, although some accessories are time-limited.
 
 == Looks ==
-A '''Look''' is a saved combination of accessories and a specific avatar. When an accessory is added to an avatar for the first time, VRChat automatically creates a new Look. Users can create and manage multiple Looks from the '''Looks''' section of the [[Avatar]] tab, allowing quick switching between different accessory combinations.
+A '''Look''' is a saved combination of accessories and a specific avatar. When an accessory is added to an avatar for the first time, VRChat automatically creates a new Look. Users can create and manage multiple Looks from the '''Looks''' section of the [[Special:MyLanguage/Avatars|Avatar]] tab, allowing quick switching between different accessory combinations.
+
+Users cannot apply a look if the avatar is not favourited. If a user uploaded, owns, or wears a non-favourited avatar, this restriction does not apply.
 
 ===Editor===
+[[File:Looks Editor.png|thumb|A photo of the Looks Editor|alt=A photo of the Looks Editor with the default robot wearing Googly Eyes & a Halo.]]
 The Looks Editor is how users can add and customize accessories on their avatar. It is split up into 3 sections: 
 
 * '''Left''': This side displays all owned accessories. Clicking on an accessory will add it to the avatar and assign it to a default bone. Hovering over an added accessory allow the user the option to duplicate it. Additionally, an undo, redo, and reset buttons are under the owned accessories.
@@ -708,6 +711,45 @@ Colors:
 * Tint (Slider)
 * Fade (Slider)
 * Glow (Slider)
+|-
+|[[File:Accessory_Vega’s_Tiara.png|frameless|70x70px]]
+|Vega’s Tiara
+|July 3, 2026
+|September 4, 2026
+|Claim from the [[Special:MyLanguage/Shop|Shop]].
+|''A crown of stars.''
+|Default Bone: Head
+
+Colors: 
+* Tiara
+* Stars
+* Moons
+* Gems
+* Particles
+* Glow (Slider)
+
+Shapes:
+* Star Size (Slider)
+* Moon Size (Slider)
+* Particles (Toggle)
+|-
+|[[File:Accessory_Altair’s_Horns.png|frameless|70x70px]]
+|Altair’s Horns
+|July 3, 2026
+|September 4, 2026
+|Claim from the [[Special:MyLanguage/Shop|Shop]].
+|''Cow horns... but very purple.''
+|Default Bone: Head
+
+Colors: 
+* Primary
+* Secondary
+* Neon
+* Glow (Slider)
+
+Shapes:
+* Shape (Slider)
+* Distance (Slider)
 |}
 
 ==History==
