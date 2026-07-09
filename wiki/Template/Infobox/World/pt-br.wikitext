@@ -36,4 +36,4 @@
         <data source="updated"><label>Last updated</label><default>{{#ifexist:Template:World/{{{id|}}}/updated_at|{{#timel:F d, Y |{{World/{{{id|}}}/updated_at}}}}}}</default></data>
         <data source="version"><label>Version</label><default>{{#ifexist:Template:World/{{{id|}}}/version|{{World/{{{id|}}}/version}}}}</default></data>
     </group>
-</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}[[Category:Worlds{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>
+</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}{{#switch:{{NAMESPACENUMBER}}|0|3000=[[Category:Worlds{{#translation:}}]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
