@@ -15,6 +15,14 @@
            <default>{{#ifexist:Template:World/{{{id|}}}/previewYoutubeId|{{YouTube|id={{World/{{{id|}}}/previewYoutubeId}}|width=100%|thumb=File:{{{id|}}}_previewYoutubeId.jpg}}}}</default></data>
     </group>
     <group>
+        <header>Statistics</header>
+        <data source="visits"><label>Visits</label><default>{{#ifexist:Template:World/{{{id|}}}/visits|{{formatnum:{{World/{{{id|}}}/visits}}}}}}</default></data>
+        <data source="favorites"><label>Favorites</label><default>{{#ifexist:Template:World/{{{id|}}}/favorites|{{formatnum:{{World/{{{id|}}}/favorites}}}}}}</default></data>
+        <data source="popularity"><label>Popularity</label><default>{{#ifexist:Template:World/{{{id|}}}/popularity|{{#switch:{{World/{{{id|}}}/popularity}}|0=|1=❤️|2=❤️❤️|3=❤️❤️❤️|4=❤️❤️❤️❤️|5=❤️❤️❤️❤️❤️|6=❤️❤️❤️❤️❤️❤️|7=❤️❤️❤️❤️❤️❤️❤️|8=❤️❤️❤️❤️❤️❤️❤️❤️|9=❤️❤️❤️❤️❤️❤️❤️❤️❤️|10=❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️}}}}</default></data>
+        <data source="heat"><label>Heat</label><default>{{#ifexist:Template:World/{{{id|}}}/heat|{{#switch:{{World/{{{id|}}}/heat}}|0=|1=🔥|2=🔥🔥|3=🔥🔥🔥|4=🔥🔥🔥🔥|5=🔥🔥🔥🔥🔥|6=🔥🔥🔥🔥🔥🔥|7=🔥🔥🔥🔥🔥🔥🔥|8=🔥🔥🔥🔥🔥🔥🔥🔥|9=🔥🔥🔥🔥🔥🔥🔥🔥🔥|10=🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥}}}}</default></data>
+        <data source="occupants"><label>Occupants</label><default>{{#ifexist:Template:World/{{{id|}}}/occupants|{{World/{{{id|}}}/occupants}}{{#ifexist:Template:World/{{{id|}}}/publicOccupants| ({{World/{{{id|}}}/publicOccupants}} public, {{World/{{{id|}}}/privateOccupants}} private)}}}}</default></data>
+    </group>
+    <group>
         <header>Historia</header>
         <data source="labs">
             <label>Laboratoria</label>
@@ -26,5 +34,7 @@
             <format>{{#timel: d F Y | {{{published}}} }}</format>
             <default>{{#ifexist:Template:World/{{{id|}}}/publicationDate|{{#ifeq:{{World/{{{id|}}}/publicationDate}}|none||{{#timel:F d, Y |{{World/{{{id|}}}/publicationDate}}}}}}}}</default>
         </data>
+        <data source="updated"><label>Last updated</label><default>{{#ifexist:Template:World/{{{id|}}}/updated_at|{{#timel:F d, Y |{{World/{{{id|}}}/updated_at}}}}}}</default></data>
+        <data source="version"><label>Version</label><default>{{#ifexist:Template:World/{{{id|}}}/version|{{World/{{{id|}}}/version}}}}</default></data>
     </group>
 </infobox>{{#ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}[[Category:Worlds{{#translation:}}]]</includeonly><noinclude>{{Documentation}}</noinclude>
