@@ -11,8 +11,8 @@
         <data source="id"><label>Weltlink</label>
            <format>{{World link|{{{id}}}|{{#if:{{{name|}}}|{{{name}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}}}</format></data>
         <data source="previewYoutubeId"><label>Video</label>
-           <format>{{YouTube|id={{{previewYoutubeId}}}|width=270px|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</format>
-           <default>{{#ifexist:Template:World/{{{id|}}}/previewYoutubeId|{{YouTube|id={{World/{{{id|}}}/previewYoutubeId}}|width=270px|thumb=File:{{{id|}}}_previewYoutubeId.jpg}}}}</default></data>
+           <format><div style="width:248px;margin:0 auto">{{YouTube|id={{{previewYoutubeId}}}|width=248px|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</div></format>
+           <default>{{#ifexist:Template:World/{{{id|}}}/previewYoutubeId|<div style="width:248px;margin:0 auto">{{YouTube|id={{World/{{{id|}}}/previewYoutubeId}}|width=248px|thumb=File:{{{id|}}}_previewYoutubeId.jpg}}</div>}}</default></data>
     </group>
     <group>
         <header>Statistics</header>
