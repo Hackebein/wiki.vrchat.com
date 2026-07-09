@@ -10,7 +10,7 @@
         <data source="languages"><label>Languages</label></data>
         <data source="id"><label>World Link</label>
            <format>{{World link|{{{id}}}|{{#if:{{{name|}}}|{{{name}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}}}</format></data>
-        <data source="previewYoutubeId"><label>Video</label>
+        <data source="previewYoutubeId">
            <format><div style="width:248px;margin:0 auto">{{YouTube|id={{{previewYoutubeId}}}|width=248px|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</div></format>
            <default>{{#ifexist:Template:World/{{{id|}}}/previewYoutubeId|<div style="width:248px;margin:0 auto">{{YouTube|id={{World/{{{id|}}}/previewYoutubeId}}|width=248px|thumb=File:{{{id|}}}_previewYoutubeId.jpg}}</div>}}</default></data>
     </group>
