@@ -6,7 +6,7 @@
         <data source="developers"><label><translate><!--T:2--> Developers</translate></label></data>
         <data source="capacity"><label><translate><!--T:3--> Capacity</translate></label><default>{{#ifexist:Template:World/{{{id|}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id|}}}/capacity|{{World/{{{id|}}}/recommendedCapacity}} (max {{World/{{{id|}}}/capacity}})}}}}</default></data>
         <data source="platforms"><label><translate><!--T:4--> Platforms</translate></label><default>{{#ifexist:Template:World/{{{id|}}}/platforms|{{World/{{{id|}}}/platforms}}}}</default></data>
-        <data source="tags"><label><translate><!--T:5--> Tags</translate></label><default></default></data>
+        <data source="tags"><label><translate><!--T:5--> Tags</translate></label></data>
         <data source="languages"><label><translate><!--T:6--> Languages</translate></label></data>
         <data source="id"><label><translate><!--T:7--> World Link</translate></label>
            <format>{{World link|{{{id}}}|{{#if:{{{name|}}}|{{{name}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}}}</format></data>
