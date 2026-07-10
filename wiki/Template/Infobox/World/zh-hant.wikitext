@@ -6,7 +6,7 @@
         <data source="developers"><label>開發者</label></data>
         <data source="capacity"><label>推薦數</label><default>{{#ifexist:Template:World/{{{id|}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id|}}}/capacity|{{World/{{{id|}}}/recommendedCapacity}} (max {{World/{{{id|}}}/capacity}})}}}}</default></data>
         <data source="platforms"><label>相容平台</label><default>{{#ifexist:Template:World/{{{id|}}}/platforms|{{World/{{{id|}}}/platforms}}}}</default></data>
-        <data source="tags"><label>標籤</label><default>{{#ifexist:Template:World/{{{id|}}}/tags|{{World/{{{id|}}}/tags}}}}</default></data>
+        <data source="tags"><label>標籤</label></data>
         <data source="languages"><label>語言</label></data>
         <data source="id"><label>世界連結</label>
            <format>{{World link|{{{id}}}|{{#if:{{{name|}}}|{{{name}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}}}</format></data>
