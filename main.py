@@ -81,14 +81,22 @@ def run_git(
     if env_extra:
         env.update(env_extra)
     cmd = ["git", "-C", str(repo)] + args
-    return subprocess.run(
+    cp = subprocess.run(
         cmd,
         env=env,
-        check=check,
+        check=False,
         text=True,
         encoding="utf-8",
         capture_output=capture_output,
     )
+    if check and cp.returncode != 0:
+        detail = (cp.stderr or cp.stdout or "").strip()
+        cmd_str = " ".join(cmd)
+        msg = f"git command failed (exit {cp.returncode}): {cmd_str}"
+        if detail:
+            msg = f"{msg}\n{detail}"
+        raise MediaWikiSyncError(msg)
+    return cp
 
 
 def ensure_git_repo(repo: Path) -> None:
@@ -97,11 +105,11 @@ def ensure_git_repo(repo: Path) -> None:
         run_git(repo, ["init", "-b", "main"])
     try:
         run_git(repo, ["config", "user.name"])
-    except subprocess.CalledProcessError:
+    except MediaWikiSyncError:
         run_git(repo, ["config", "user.name", "MediaWiki Importer"])
     try:
         run_git(repo, ["config", "user.email"])
-    except subprocess.CalledProcessError:
+    except MediaWikiSyncError:
         run_git(repo, ["config", "user.email", "mediawiki-importer@localhost"])
 
 
@@ -207,19 +215,33 @@ def sanitize_title_to_path(title: str, ns: int = 0) -> Path:
 def git_head_commit(repo: Path) -> Optional[str]:
     try:
         return run_git(repo, ["rev-parse", "HEAD"]).stdout.strip()
-    except subprocess.CalledProcessError:
+    except MediaWikiSyncError:
         return None
 
 
 def read_note(repo: Path, commit: str) -> Optional[str]:
     try:
         return run_git(repo, ["notes", f"--ref={NOTES_REF}", "show", commit]).stdout
-    except subprocess.CalledProcessError:
+    except MediaWikiSyncError:
         return None
 
 
 def write_note(repo: Path, commit: str, text: str) -> None:
     run_git(repo, ["notes", f"--ref={NOTES_REF}", "add", "-f", "-m", text, commit])
+
+
+def has_git_remote(repo: Path, remote: str = "origin") -> bool:
+    cp = run_git(repo, ["remote"], check=False)
+    return remote in (cp.stdout or "").split()
+
+
+def push_sync_state(repo: Path, remote: str = "origin") -> None:
+    if not has_git_remote(repo, remote):
+        debug(f"No git remote {remote!r}; skipping push.")
+        return
+    debug(f"Pushing commits and notes to {remote}...")
+    run_git(repo, ["push", remote, "HEAD", NOTES_REF])
+    run_git(repo, ["gc", "--auto"], check=False)
 
 
 def get_head_note_state(repo: Path) -> Optional[Dict[str, Any]]:
@@ -247,7 +269,7 @@ def get_last_imported_rcid(
         return None, "No commits in branch."
     try:
         list_result = run_git(repo, ["notes", f"--ref={NOTES_REF}", "list"])
-    except subprocess.CalledProcessError:
+    except MediaWikiSyncError:
         return None, "Notes ref refs/notes/mediawiki-sync missing or not fetched (fetch it in CI)."
     commits_with_notes: set[str] = set()
     for line in list_result.stdout.strip().splitlines():
@@ -762,6 +784,7 @@ def import_changes(
     repo: Path,
     changes: List[RecentChange],
     skip_ns: Set[int],
+    push_every: int = 0,
 ) -> int:
     changes = [rc for rc in changes if rc.ns not in skip_ns]
     revids = [rc.revid for rc in changes if rc.revid is not None]
@@ -793,8 +816,14 @@ def import_changes(
         write_note(repo, commit, json.dumps(note, ensure_ascii=False))
         imported += 1
 
+        if push_every > 0 and imported % push_every == 0:
+            push_sync_state(repo)
+
         if idx % 100 == 0 or idx == total:
             debug(f"Replayed {idx}/{total} changes")
+
+    if push_every > 0 and imported % push_every != 0:
+        push_sync_state(repo)
 
     return imported
 
@@ -827,7 +856,7 @@ def regenerate_notes(
     # Remove existing notes ref so we only have notes for current branch (no orphaned SHAs)
     try:
         run_git(repo, ["update-ref", "-d", NOTES_REF])
-    except subprocess.CalledProcessError:
+    except MediaWikiSyncError:
         pass
 
     bootstrap_re = re.compile(r"^Bootstrap snapshot before (.+)$")
@@ -930,6 +959,12 @@ def main() -> int:
     parser.add_argument("--end", help="Optional end timestamp in ISO 8601 UTC")
     parser.add_argument("--limit", type=int, default=500, help="RecentChanges page size per API request")
     parser.add_argument(
+        "--push-every",
+        type=int,
+        default=0,
+        help="Push commits and notes to origin after every N imported changes (0 = only at end of workflow).",
+    )
+    parser.add_argument(
         "--skip-ns",
         action="append",
         default=[],
@@ -1008,7 +1043,9 @@ def main() -> int:
         )
 
     debug(f"Replaying {len(changes)} recent changes")
-    imported = import_changes(session, args.api_url, repo, changes, skip_ns=skip_ns)
+    imported = import_changes(
+        session, args.api_url, repo, changes, skip_ns=skip_ns, push_every=args.push_every,
+    )
     debug(f"Imported {imported} commits")
     return 0
 

@@ -40,6 +40,8 @@ jobs:
             Translations
             --skip-ns
             Translations talk
+            --push-every
+            100
         run: |
           python main.py
 
