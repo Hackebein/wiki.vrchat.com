@@ -1,9 +1,9 @@
 <languages/>
 {{noticebox/Official}}
 {{Infobox/Feature
-|name=Verificação de Idade
+|name=<span class="mw-translate-fuzzy">Verificação de Idade</span>
 |image=Age Verification feature logo.png|platforms= PC, Android, iOS
-|vrchatplus=Necessário para verificação
+|vrchatplus=<span class="mw-translate-fuzzy">Necessário para verificação</span>
 |branch_live_date = 5 Dec 2024
 |branch_live_version = 2024.4.2 Build 1552
 |branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202442
@@ -13,14 +13,24 @@ Introducing Age Verification | Developer Update #vrchat
 }}}}
 [[File:Age_verified_profile.webp|thumb|Marcadores de perfil]]
 
+<div class="mw-translate-fuzzy">
 '''Verificação de Idade''' é um recurso social que permite aos usuários verificarem sua idade por meio do serviço de terceiros [https://withpersona.com/ Persona]. Os usuários com idade comprovada igual ou superior a 18 anos podem exibir um marcador de verificação de idade em seu perfil e obter acesso a [[Special:MyLanguage/Instances|instâncias]] com restrição de idade. O recurso foi anunciado em 27 de novembro de 2024 no canal oficial do VRChat no YouTube<ref name=":0">"Introducing Age Verification | Developer Update #vrchat." YouTube, uploaded by VRChat, 27 Nov. 2024, https://www.youtube.com/watch?v=odiNjIFUNvw. Accessed 27 Nov. 2024.</ref>.
+</div>
 
+<div class="mw-translate-fuzzy">
 O processo de verificação está atualmente disponível em acesso antecipado para todos os assinantes do [[Special:MyLanguage/VRC+|VRC+]] desde 28 de janeiro de 2025<ref>VRChat. "Age Verification is now available for VRC+ Subscribers!..." Bluesky, 28 Jan. 2025, https://bsky.app/profile/vrchat.com/post/3lgtoi5ho2227.</ref>.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Age assurance is an umbrella term for the different methods used to determine a person's age. Within it, ''verification'' (confirming a date of birth from a government-issued ID) and ''estimation'' are described as distinct methods that may be used on their own or together depending on the situation. VRChat adopted this terminology in place of ''age verification'' in June 2026, and stated that it intended to place greater emphasis on age-estimation approaches alongside ID-based verification, citing a shift across the industry and community feedback.<ref name="safety2026">VRChat (2026, June 24). ''Update: Age Assurance, Content Gating, and Safety Improvements in VRChat''. Retrieved June 25, 2026, from https://hello.vrchat.com/blog/june-2026-safety-update</ref>
+</div>
 
 <span id="Process"></span>
 ==Processo==
 
+<div class="mw-translate-fuzzy">
 O processo de verificação de idade é realizado por meio do [https://withpersona.com/ Persona] — um provedor de verificação de terceiros. Os usuários devem fornecer um documento de identidade emitido pelo governo<ref>https://docs.withpersona.com/reference/government-id-verifications Government ID Verifications on ''withpersona.com''; acessado em 9 de dezembro de 2024.</ref> e utilizando um dispositivo com câmera, como um smartphone, ou computador com webcam, para concluir o processo.
+</div>
 
 Quase qualquer forma de identificação governamental pode ser utilizada, dependendo do país de origem do usuário, incluindo, mas não se limitando a:
 
@@ -35,8 +45,14 @@ Quase qualquer forma de identificação governamental pode ser utilizada, depend
 
 Os usuários podem verificar a idade no site do VRChat através deste [https://vrchat.com/home/ageverification link]. 
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+As of June 2026, VRChat stated that the assurance methods and providers it relies on may change over time, including a greater emphasis on age-estimation. Age estimation determines a likely age range and does not necessarily require a government-issued ID.<ref name="safety2026" />
+</div>
+
+<div class="mw-translate-fuzzy">
 ''O Persona processa a identificação e os dados biométricos do usuário de acordo com sua política de privacidade<ref>Persona. Privacy Policy. https://withpersona.com/legal/privacy-policy. Acessado em 27 de novembro. 2024.</ref> garantindo conformidade com [[wikipedia:General_Data_Protection_Regulation|GDPR]], [[wikipedia:California_Consumer_Privacy_Act|CCPA]], e outros padrões regulatórios<ref>Persona. Security. https://withpersona.com/security. Acessado em 28 de novembro de 2024.</ref>. O VRChat não recebe nem armazena informações pessoais do processo de verificação, exceto a data de nascimento verificada do usuário. O Persona opera sob um Acordo de Processamento de Dados (DPA) com o VRChat, que exige conformidade com o GDPR/CCPA para todos os usuários, independentemente da localização<ref>Tupper (2 de dezembro de 2024). ''Age Verification FAQ''. VRChat Forum. Acessado em 9 de dezembro de 2024, de https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-if-i-dont-live-in-the-eu-or-california-10</ref>.''
 <!-- O artigo infelizmente não faz menção à LGPD, lei brasileira de proteção e tratamento de dados [[wikipedia:General_Personal_Data_Protection_Law|LGPD]], porém deve está acobertada -->
+</div>
 
 <span id="Features"></span>
 ==Recursos==
@@ -46,10 +62,12 @@ Os usuários podem verificar a idade no site do VRChat através deste [https://v
 
 [[File:Age verif Update Status.webp|thumb|Opção no perfil para exibir publicamente uma insígnia "Verificado 18+".|200x200px]]
 
+<div class="mw-translate-fuzzy">
 Usuários verificados com 18 anos ou mais têm a opção de exibir um marcador em seu perfil, indicando seu status de verificação de idade 18+.
 *O marcador "Verificado 18+" só pode ser utilizado por usuários que passaram pelo processo de verificação de idade e têm 18 anos ou mais.
 O marcador pode ser ocultado completamente caso o usuário não queira tornar seu status de verificação visível para outros.
 Usuários verificados como 18+ sempre poderão acessar instâncias com restrição de idade, independentemente de o marcador estar visível publicamente em seu perfil.
+</div>
 
 O ícone do escudo de confiança para verificação de idade, por si só, '''''não''''' indica que um usuário tem 18 anos ou mais — apenas que ele verificou sua idade.
 Usuários menores de 18 anos (mas que devem ter pelo menos 13 anos) podem verificar sua idade pelo Persona, porém não poderão selecionar o marcador "Verificado 18+" em seu perfil nem acessar instâncias com restrição de idade até completarem 18 anos.
@@ -66,9 +84,15 @@ Usuários menores de 18 anos (mas que devem ter pelo menos 13 anos) podem verifi
 ===Filtragem de Conteúdo===
 
 
-{{noticebox/unreleased|{{Upcoming_inline|H1 2026|hello.vrchat.com/blog/trust-safety-update-2025}}}}
+{{noticebox/unreleased|{{Upcoming_inline|United Kingdom first, date TBA|hello.vrchat.com/blog/june-2026-safety-update}}}}
 
+<div class="mw-translate-fuzzy">
 ''A Verificação de Idade funcionará em conjunto com a [[Special:MyLanguage/Content_Gating|Filtragem de Conteúdo]] para impedir que usuários não verificados e usuários verificados com menos de 18 anos acessem conteúdos marcados como "Sugestivos sexualmente" e "Linguagem e temas adultos". Espera-se que isso ocorra no primeiro semestre de 2026. <ref>VRChat (19 de dezembro de 2025). ''Segurança, Liberdade e o Futuro do VRChat''. Recuperado em 20 de dezembro de 2025, de https://hello.vrchat.com/blog/trust-safety-update-2025</ref><ref>Tupper (3 de dezembro de 2024). ''Perguntas frequentes sobre verificação de idade''. Fórum do VRChat. Recuperado em 9 de dezembro de 2024, de https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-other-content-or-systems-will-be-affected-by-age-verification-37</ref>.''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In a June 2026 update, VRChat stated that the first Content Gating change would begin in the United Kingdom and would follow the United Kingdom rollout of Age Assurance by a few months. Under this change, users who are not age assured, or whose age has been determined to be under 18, would have the "Sexually Suggestive" content filter turned on without the option to turn it off; affected content would be hidden and replaced with a placeholder. VRChat stated that this was the only filter category changing at that time, and that users who are already age verified, or who are age assured as 18 or older, would not be affected. VRChat advised creators to review and tag their uploaded content, noting a grace period before enforcement would begin.<ref name="safety2026" />
+</div>
 
 <span id="Rollout"></span>
 ==Implantação==
@@ -80,9 +104,14 @@ A primeira implementação começou em 17 de dezembro de 2024, quando vários gr
 
 Em 28 de janeiro de 2025, o recurso foi disponibilizado para todos os assinantes do [[Special:MyLanguage/VRChat+|VRC+]] como um recurso de Acesso Antecipado. Atualmente, não há uma data confirmada de quando ele estará disponível para todos os usuários.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On June 24, 2026, VRChat stated that the next phase of Age Assurance would begin in the United Kingdom, citing changing regulatory requirements there and the value of testing before a wider rollout. Affected users in the United Kingdom would receive a link to become age assured, offered free of charge during the initial period, with access rolling out in waves over several months. VRChat stated that Age Assurance would remain immediately available to anyone subscribed to [[Special:MyLanguage/VRC+|VRC+]] for one month or more, and that a VRC+ subscription is not required to retain age-assured status once obtained. VRChat did not provide a date for a wider rollout beyond the United Kingdom, citing cost and coverage challenges.<ref name="safety2026" />
+</div>
+
 <span id="Additional_information"></span>
 ==Informação adicional==
 
+<div class="mw-translate-fuzzy">
 *'''Requisitos de Verificação:''' Os usuários devem enviar uma foto não editada de sua identidade emitida pelo governo para que seja aceita, além de completar uma "prova de vida", que envolve uma selfie para garantir que a pessoa validando seja a mesma que possui a identidade<ref>Tupper (2 de dezembro de 2024). ''Age Verification FAQ''. VRChat Forum. Acessado em 9 de dezembro de 2024, de https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-do-i-need-to-submit-to-verify-my-age-4</ref>. 
 *'''Opcional:''' A verificação de idade não é obrigatória para usar o VRChat. No entanto, para acessar instâncias e recursos com filtragem de idade, o usuário deve verificar sua idade e ter 18 anos ou mais<ref>Tupper (2 de dezembro de 2024). ''Age Verification FAQ''. VRChat Forum. Acessado em 9 de dezembro de 2024, de https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-is-age-verification-mandatory-6</ref>. 
 *'''Tratamento de Dados:''' Os dados da identidade são retidos pelo Persona pelo tempo mínimo necessário para verificar a data de nascimento do usuário e criar um [[wikipedia:Cryptographic_hash_function|hash criptográfico]] unidirecional utilizando dados da identidade fornecida pelo usuário. Esse hash é armazenado nos servidores do VRChat para a conta do usuário, e todos os dados da identidade são deletados do lado do Persona, sendo que o hash criptográfico irreversível e a data de nascimento verificada do usuário permanecem nos servidores do VRChat.<ref>https://youtu.be/lzG9IwmM7TI</ref> 
@@ -90,14 +119,17 @@ Em 28 de janeiro de 2025, o recurso foi disponibilizado para todos os assinantes
 *'''Uma Identidade por Conta:''' Uma identidade não pode ser usada para verificar várias contas. Essa filtragem tem o objetivo de aumentar a confiança e incentivar os usuários a valorizarem mais suas contas, desestimulando comportamentos maliciosos<ref>Tupper (2 de dezembro de 2024). ''Age Verification FAQ''. VRChat Forum. Acessado em 9 de dezembro de 2024, de https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-can-i-use-the-same-id-to-verify-multiple-accounts-8</ref>. 
 *'''18+ ≠ Conteúdo Explicitamente Sexual:''' A verificação de idade 18+ ou instâncias com filtragem de idade não isentam as políticas dos [[Special:MyLanguage/Terms of Service|Termos de Serviço]] ou [[Special:MyLanguage/Community Guidelines|Diretrizes da Comunidade]] sobre conteúdo pornográfico. 
 **Consulte a seção 13.2 dos [https://hello.vrchat.com/legal Termos de Serviço]<ref>VRChat (18 de novembro de 2024). ''VRChat Terms of Service''. Acessado em 9 de dezembro de 2024, de https://hello.vrchat.com/legal#:~:text=13.2.%20Prohibited%20Conduct</ref> e também as [https://hello.vrchat.com/community-guidelines Diretrizes da Comunidade]<ref>VRChat (12 de agosto de 2024). ''VRChat Community Guidelines''. Acessado em 9 de dezembro de 2024, de https://hello.vrchat.com/community-guidelines</ref>.
+</div>
 
 <span id="Official_resources"></span>
 ==Recursos oficiais==
 
+<div class="mw-translate-fuzzy">
 *[https://www.youtube.com/watch?v=odiNjIFUNvw Introducing Age Verification] no ''YouTube''
 *[https://www.youtube.com/watch?v=lzG9IwmM7TI VRChat Age Verification Improvements] no ''YouTube''
 *[https://hello.vrchat.com/blog/age-verification Age Verification Now Available for VRC+ Subscribers] no ''hello.vrchat.com''
 *[https://feedback.vrchat.com/age-verification Age Verification Feedback] no ''feedback.vrchat.com''
+</div>
 
 <span id="References"></span>
 ==Referências==
