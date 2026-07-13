@@ -1,24 +1,76 @@
-<noinclude><languages/></noinclude><includeonly><infobox type="World" theme="official">
-	<title source="name"><default>{{#ifexist:Template:World/{{{id|}}}/name|{{World/{{{id|}}}/name}}}}</default></title>
-	<image source="image">
-	    <caption source="imagecaption" />
-	    <default>{{#ifexist:Media:{{{id|}}}_imageUrl.png|[[File:{{{id|}}}_imageUrl.png]]}}</default>
-	</image>
+<noinclude><languages/></noinclude><includeonly>{{#if:{{{id|}}}|
+{{#ifexist:Template:World/{{{id}}}/name|
+<infobox type="World" theme="official">
+	<title><default>{{World/{{{id}}}/name}}</default></title>
+	<image><default>{{#ifexist:Media:{{{id}}}_imageUrl.png|[[File:{{{id}}}_imageUrl.png]]}}</default></image>
 	<group>
-        <data source="developer"><label>Deweloper</label><default>{{#ifexist:Template:World/{{{id|}}}/authorName|{{World/{{{id|}}}/authorName}}}}</default></data>
-        <data source="publisher"><label>Publikujący</label></data>
-    	<data source="designer"><label>Projektant</label></data>
-    	<data source="gen"><label>Generacja</label></data>
-        <data source="platform"><label>Platformy</label><default>{{#ifexist:Template:World/{{{id|}}}/platforms|{{World/{{{id|}}}/platforms}}}}</default></data>
-        <data source="themes"><label>Motywy</label></data>
-        <data source="link"><label>Link świata</label><default>{{#if:{{{id|}}}|{{World link|{{{id}}}|{{#if:{{{name|}}}|{{{name}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}}}}}</default></data>
-        <data source="previewYoutubeId"><label>Video</label>
-           <format><div style="width:248px;margin:0 auto">{{YouTube|id={{{previewYoutubeId}}}|width=248px|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</div></format>
-           <default>{{#ifexist:Template:World/{{{id|}}}/previewYoutubeId|<div style="width:248px;margin:0 auto">{{YouTube|id={{World/{{{id|}}}/previewYoutubeId}}|width=248px|thumb=File:{{{id|}}}_previewYoutubeId.jpg}}</div>}}</default></data>
+        <data><label>Deweloper</label><default>{{#ifexist:Template:World/{{{id}}}/authorName|{{#ifexist:Template:World/{{{id}}}/authorId|[https://vrchat.com/home/user/{{World/{{{id}}}/authorId}} {{World/{{{id}}}/authorName}}]|{{World/{{{id}}}/authorName}}}}}}</default></data>
+        <data source="developers"><label><span class="mw-translate-fuzzy">Publikujący</span></label></data>
+        <data><label><span class="mw-translate-fuzzy">Projektant</span></label><default>{{#ifexist:Template:World/{{{id}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id}}}/capacity|{{World/{{{id}}}/recommendedCapacity}} (max {{World/{{{id}}}/capacity}})}}}}</default></data>
+        <data><label><span class="mw-translate-fuzzy">Generacja</span></label><default>{{#ifexist:Template:World/{{{id}}}/platforms|{{World/{{{id}}}/platforms}}}}</default></data>
+        <data><label><span class="mw-translate-fuzzy">Platformy</span></label><default>{{#ifexist:Template:World/{{{id}}}/tags|{{World/{{{id}}}/tags}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Listing</span></label><default>{{#ifexist:Template:World/{{{id}}}/listing|{{World/{{{id}}}/listing}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Content</span></label><default>{{#ifexist:Template:World/{{{id}}}/content|{{World/{{{id}}}/content}}}}</default></data>
+        <data source="languages"><label><span class="mw-translate-fuzzy">Motywy</span></label></data>
+        <data source="id"><label>Link świata</label>
+           <format>{{World link|{{{id}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}</format></data>
+        <data><default>{{#ifexist:Template:World/{{{id}}}/previewYoutubeId|<div style="width:248px;margin:0 auto">{{YouTube|id={{World/{{{id}}}/previewYoutubeId}}|width=248px|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</div>}}</default></data>
+    </group>
+    <group>
+        <header><span lang="en" dir="ltr" class="mw-content-ltr">Statistics</span></header>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Visits</span></label><default>{{#ifexist:Template:World/{{{id}}}/visits|{{formatnum:{{World/{{{id}}}/visits}}}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Favorites</span></label><default>{{#ifexist:Template:World/{{{id}}}/favorites|{{formatnum:{{World/{{{id}}}/favorites}}}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Popularity</span></label><default>{{#ifexist:Template:World/{{{id}}}/popularity|{{#switch:{{World/{{{id}}}/popularity}}|0=|1=❤️|2=❤️❤️|3=❤️❤️❤️|4=❤️❤️❤️❤️|5=❤️❤️❤️❤️❤️|6=❤️❤️❤️❤️❤️❤️|7=❤️❤️❤️❤️❤️❤️❤️|8=❤️❤️❤️❤️❤️❤️❤️❤️|9=❤️❤️❤️❤️❤️❤️❤️❤️❤️|10=❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Heat</span></label><default>{{#ifexist:Template:World/{{{id}}}/heat|{{#switch:{{World/{{{id}}}/heat}}|0=|1=🔥|2=🔥🔥|3=🔥🔥🔥|4=🔥🔥🔥🔥|5=🔥🔥🔥🔥🔥|6=🔥🔥🔥🔥🔥🔥|7=🔥🔥🔥🔥🔥🔥🔥|8=🔥🔥🔥🔥🔥🔥🔥🔥|9=🔥🔥🔥🔥🔥🔥🔥🔥🔥|10=🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥}}}}</default></data>
     </group>
     <group>
         <header>Historia</header>
-        <data source="labs"><label>Laboratoria</label><default>{{#ifexist:Template:World/{{{id|}}}/labsPublicationDate|{{#ifeq:{{World/{{{id|}}}/labsPublicationDate}}|none||{{#timel:F d, Y |{{World/{{{id|}}}/labsPublicationDate}}}}}}}}</default></data>
-        <data source="published"><label>Publikacja</label><default>{{#ifexist:Template:World/{{{id|}}}/publicationDate|{{#ifeq:{{World/{{{id|}}}/publicationDate}}|none||{{#timel:F d, Y |{{World/{{{id|}}}/publicationDate}}}}}}}}</default></data>
+        <data><label><span class="mw-translate-fuzzy">Laboratoria</span></label><default>{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{#ifeq:{{World/{{{id}}}/labsPublicationDate}}|none||{{#timel:F d, Y |{{World/{{{id}}}/labsPublicationDate}}}}}}}}</default></data>
+        <data><label>Publikacja</label><default>{{#ifexist:Template:World/{{{id}}}/publicationDate|{{#ifeq:{{World/{{{id}}}/publicationDate}}|none||{{#timel:F d, Y |{{World/{{{id}}}/publicationDate}}}}}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Last updated</span></label><default>{{#ifexist:Template:World/{{{id}}}/updated_at|{{#timel:F d, Y |{{World/{{{id}}}/updated_at}}}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label><default>{{#ifexist:Template:World/{{{id}}}/version|{{World/{{{id}}}/version}}}}</default></data>
     </group>
-</infobox>{{#ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Worlds{{#translation:}}]] [[Category:Official Content{{#translation:}}]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
+</infobox>
+|
+{{Noticebox
+|template=Noticebox
+|image=Vrrat_posed-right.png
+|title=<span lang="en" dir="ltr" class="mw-content-ltr">Hang tight…</span>
+|description=<span lang="en" dir="ltr" class="mw-content-ltr">World info is still loading — check back in a bit.</span>}}
+<infobox type="World" theme="official">
+	<title><default><span lang="en" dir="ltr" class="mw-content-ltr">Loading…</span></default></title>
+	<image><default>[[File:Placeholder.webp]]</default></image>
+	<group>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Developer</span></label><default>…</default></data>
+        <data source="developers"><label><span lang="en" dir="ltr" class="mw-content-ltr">Developers</span></label></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Capacity</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Platforms</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Tags</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Listing</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Content</span></label><default>…</default></data>
+        <data source="languages"><label><span lang="en" dir="ltr" class="mw-content-ltr">Languages</span></label></data>
+        <data source="id"><label><span lang="en" dir="ltr" class="mw-content-ltr">World Link</span></label>
+           <format>{{World link|{{{id}}}|{{{id}}}}}</format></data>
+    </group>
+    <group>
+        <header><span lang="en" dir="ltr" class="mw-content-ltr">Statistics</span></header>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Visits</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Favorites</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Popularity</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Heat</span></label><default>…</default></data>
+    </group>
+    <group>
+        <header><span lang="en" dir="ltr" class="mw-content-ltr">World history</span></header>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Published to Labs</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Published</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Last updated</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label><default>…</default></data>
+    </group>
+</infobox>
+}}|
+<infobox type="World" theme="official">
+	<group>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">World Link</span></label><default>''<span lang="en" dir="ltr" class="mw-content-ltr">No world id provided</span>''</default></data>
+    </group>
+</infobox>
+}}{{ #ifeq: {{NAMESPACENUMBER}} | 0 | [[Category:Worlds{{#translation:}}]] [[Category:Official Content{{#translation:}}]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
