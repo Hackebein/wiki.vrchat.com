@@ -9,6 +9,8 @@
         <data><label>Capacidad</label><default>{{#ifexist:Template:World/{{{id}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id}}}/capacity|{{World/{{{id}}}/recommendedCapacity}} (max {{World/{{{id}}}/capacity}})}}}}</default></data>
         <data><label>Plataformas</label><default>{{#ifexist:Template:World/{{{id}}}/platforms|{{World/{{{id}}}/platforms}}}}</default></data>
         <data><label>Etiquetas</label><default>{{#ifexist:Template:World/{{{id}}}/tags|{{World/{{{id}}}/tags}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Listing</span></label><default>{{#ifexist:Template:World/{{{id}}}/listing|{{World/{{{id}}}/listing}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Content</span></label><default>{{#ifexist:Template:World/{{{id}}}/content|{{World/{{{id}}}/content}}}}</default></data>
         <data source="languages"><label>Idiomas</label></data>
         <data source="id"><label>Enlace al mundo</label>
            <format>{{World link|{{{id}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}</format></data>
@@ -44,6 +46,8 @@
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Capacity</span></label><default>…</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Platforms</span></label><default>…</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Tags</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Listing</span></label><default>…</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Content</span></label><default>…</default></data>
         <data source="languages"><label><span lang="en" dir="ltr" class="mw-content-ltr">Languages</span></label></data>
         <data source="id"><label><span lang="en" dir="ltr" class="mw-content-ltr">World Link</span></label>
            <format>{{World link|{{{id}}}|{{{id}}}}}</format></data>
