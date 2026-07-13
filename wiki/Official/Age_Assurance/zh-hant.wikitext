@@ -1,9 +1,9 @@
 <languages/>
 {{noticebox/Official}}
 {{Infobox/Feature
-|name=年齡驗證
+|name=<span class="mw-translate-fuzzy">年齡驗證</span>
 |image=Age Verification feature logo.png|platforms= PC, Android, iOS
-|vrchatplus=驗證所需條件
+|vrchatplus=<span class="mw-translate-fuzzy">驗證所需條件</span>
 |branch_live_date = 5 Dec 2024
 |branch_live_version = 2024.4.2 版本號 1552
 |branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202442
@@ -13,20 +13,36 @@ Introducing Age Verification | Developer Update #vrchat
 }}}}
 [[File:Age_verified_profile.webp|thumb|個人檔案中的驗證標記。]]
 
+<div class="mw-translate-fuzzy">
 「'''年齡驗證'''」（'''Age Verification'''），是一項社交功能，其允許用戶透過第三方服務 [https://withpersona.com/ Persona] 驗證年齡。已驗證的用戶可在其個人檔案上顯示年齡驗證標記，並得以加入具年齡限制的[[Special:MyLanguage/Instances|房間（Instances）]]。此功能於 2024 年 11 月 27 日，在 VRChat 官方 YouTube 頻道上正式公布。<ref name=":0">VRChat 發布在 YouTube 上的 [https://www.youtube.com/watch?v=odiNjIFUNvw Introducing Age Verification | Developer Update #vrchat]。發布於 [2024-11-27]。存取於 [2024-11-27]。</ref>
+</div>
 
+<div class="mw-translate-fuzzy">
 截至 2025 年 1 月 28 日，驗證流程目前仍以搶先體驗的形式開放給所有 [[Special:MyLanguage/VRC+|VRC+]] 訂閱用戶使用。<ref>VRChat 發布在 Bluesky 上的 [https://bsky.app/profile/vrchat.com/post/3lgtoi5ho2227 Age Verification is now available for VRC+ Subscribers!...]，發布於 [2025-01-28]。</ref>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Age assurance is an umbrella term for the different methods used to determine a person's age. Within it, ''verification'' (confirming a date of birth from a government-issued ID) and ''estimation'' are described as distinct methods that may be used on their own or together depending on the situation. VRChat adopted this terminology in place of ''age verification'' in June 2026, and stated that it intended to place greater emphasis on age-estimation approaches alongside ID-based verification, citing a shift across the industry and community feedback.<ref name="safety2026">VRChat (2026, June 24). ''Update: Age Assurance, Content Gating, and Safety Improvements in VRChat''. Retrieved June 25, 2026, from https://hello.vrchat.com/blog/june-2026-safety-update</ref>
+</div>
 
 <span id="Process"></span>
 ==流程==
 
+<div class="mw-translate-fuzzy">
 年齡驗證流程主要透過第三方平台 [https://withpersona.com/ Persona] 服務進行。用戶需提供所在國政府身分證件<ref>[https://docs.withpersona.com/reference/government-id-verifications 政府核發的身分證件驗證（Government ID Verifications）]，位於 ''withpersona.com''。存取於 [2024-12-09]。</ref>，並使用具備攝影功能的裝置，例如智慧型手機或配備網路攝影機的電腦，才能夠完成驗證。
+</div>
 
 幾乎任何形式的政府核發身分證件皆可使用，但可使用的類型會依用戶所在國家而有所不同，例如：具備 NFC 功能的護照（或電子護照）。
 
 用戶可透過此[https://vrchat.com/home/ageverification 連結]，在 VRChat 官方網站上進行年齡驗證。 
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+As of June 2026, VRChat stated that the assurance methods and providers it relies on may change over time, including a greater emphasis on age-estimation. Age estimation determines a likely age range and does not necessarily require a government-issued ID.<ref name="safety2026" />
+</div>
+
+<div class="mw-translate-fuzzy">
 ''Persona 會依照其隱私政策<ref>Persona 發布的[https://withpersona.com/legal/privacy-policy 隱私政策（Privacy Policy）]。存取於 [2024-11-27]。</ref>處理用戶的身分證件資料與生物辨識資料，並確保其符合[[wikipedia:General_Data_Protection_Regulation|《一般資料保護規則》（GDPR）]]、[[wikipedia:California_Consumer_Privacy_Act|《加州消費者隱私法》（CCPA）]]以及其他相關合規標準<ref>Persona 發布的[https://withpersona.com/security 保障說明]。存取於 [2024-11-28]。</ref>。VRChat 不會接收或儲存驗證流程中的個人資訊，唯一例外是用戶經驗證後的出生日期。Persona 與 VRChat 之間採用資料處理協議（Data Processing Agreement，DPA），該協議要求 Persona 對所有用戶皆須依照《一般資料保護規則》、《加州消費者隱私法》標準運作，而不受所在地區限制<ref>Tupper 發布在 VRChat Forum 上的[https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-if-i-dont-live-in-the-eu-or-california-10 年齡驗證 Q&A（Age Verification FAQ）]。發布於 [2024-12-02]。存取於 [2024-12-09]。</ref>。''
+</div>
 
 <span id="Features"></span>
 == 功能 ==
@@ -36,9 +52,11 @@ Introducing Age Verification | Developer Update #vrchat
 
 [[File:Age verif Update Status.webp|thumb|個人檔案中切換顯示「'''已確認年滿 18 歲'''」（'''Verified 18+'''）之處。|200x200px]]
 
+<div class="mw-translate-fuzzy">
 已完成年齡驗證且年滿 18 歲的用戶，可選擇在其個人資料上顯示標記，以表示其 18+ 年齡驗證狀態。
 *「'''已確認年滿 18 歲'''」（'''Verified 18+'''）之選項，僅可由已完成年齡驗證，且已年滿 18 歲的用戶使用。
 若用戶不希望讓其他人看見其驗證狀態，也可選擇完全隱藏該標記。已驗證為 18+ 的用戶，無論其個人檔案上是否公開顯示驗證標記，皆可存取有開設年齡限制的房間。
+</div>
 
 僅有年齡驗證的信任盾牌圖示本身「'''並不代表'''」該用戶已年滿 18 歲，它僅代表該用戶已完成年齡驗證。年滿 13 歲而未滿 18 歲的用戶，也可以透過 Persona 完成年齡驗證，但在年滿 18 歲之前，將無法在其個人資料上選擇「'''已確認年滿 18 歲'''」標記，也無法存取有年齡限制的房間。
 
@@ -54,9 +72,15 @@ Introducing Age Verification | Developer Update #vrchat
 ===內容控管===
 
 
-{{noticebox/unreleased|{{Upcoming_inline|H1 2026|hello.vrchat.com/blog/trust-safety-update-2025}}}}
+{{noticebox/unreleased|{{Upcoming_inline|United Kingdom first, date TBA|hello.vrchat.com/blog/june-2026-safety-update}}}}
 
+<div class="mw-translate-fuzzy">
 ''年齡驗證系統預計將會與[[Special:MyLanguage/Content_Gating|內容控管（Content Gating）]]系統搭配運作，以防止未完成驗證、已完成驗證但未滿 18 歲的用戶，存取被標記為「性暗示」（Sexually suggestive）及「成人用語和主題」（Adult language and themes）的內容。此功能預計將於 2026 年上半年實施。<ref>VRChat 發布的[https://hello.vrchat.com/blog/trust-safety-update-2025 安全、自由，與 VRChat 的未來（Safety, Freedom, and the Future of VRChat）]。發布於 [2024-12-19]。存取於 [2024-12-20]</ref><ref>Tupper 發布在 VRChat Forum 上的[https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-other-content-or-systems-will-be-affected-by-age-verification-37 年齡驗證 Q&A（Age Verification FAQ）]。發布於 [2024-12-03]。存取於 [2024-12-09]。</ref>''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+In a June 2026 update, VRChat stated that the first Content Gating change would begin in the United Kingdom and would follow the United Kingdom rollout of Age Assurance by a few months. Under this change, users who are not age assured, or whose age has been determined to be under 18, would have the "Sexually Suggestive" content filter turned on without the option to turn it off; affected content would be hidden and replaced with a placeholder. VRChat stated that this was the only filter category changing at that time, and that users who are already age verified, or who are age assured as 18 or older, would not be affected. VRChat advised creators to review and tag their uploaded content, noting a grace period before enforcement would begin.<ref name="safety2026" />
+</div>
 
 <span id="Rollout"></span>
 ==推出過程==
@@ -67,9 +91,14 @@ Introducing Age Verification | Developer Update #vrchat
 
 2025 年 1 月 28 日，該功能以搶先體驗形式向所有 [[Special:MyLanguage/VRChat+|VRC+]] 訂閱用戶推出。目前尚未確認何時會開放給所有用戶使用。
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On June 24, 2026, VRChat stated that the next phase of Age Assurance would begin in the United Kingdom, citing changing regulatory requirements there and the value of testing before a wider rollout. Affected users in the United Kingdom would receive a link to become age assured, offered free of charge during the initial period, with access rolling out in waves over several months. VRChat stated that Age Assurance would remain immediately available to anyone subscribed to [[Special:MyLanguage/VRC+|VRC+]] for one month or more, and that a VRC+ subscription is not required to retain age-assured status once obtained. VRChat did not provide a date for a wider rollout beyond the United Kingdom, citing cost and coverage challenges.<ref name="safety2026" />
+</div>
+
 <span id="Additional_information"></span>
 == 附加資訊 ==
 
+<div class="mw-translate-fuzzy">
 *'''驗證要求'''：用戶必須提交一張「'''未經編輯'''」的政府核發身分證件照片，並完成要求自拍的「'''真人驗證'''」，用於確認正在進行驗證的人與證件持有人為同一人後，才能通過年齡驗證。<ref>Tupper 發布在 VRChat Forum 上的[https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-what-do-i-need-to-submit-to-verify-my-age-4 年齡驗證 Q&A（Age Verification FAQ）]。發布於 [2024-12-02]。存取於 [2024-12-09]。</ref>
 *'''非必要功能'''：年齡驗證並非使用 VRChat 的必要條件。然而，用戶若要存取有年齡限制的房間與相關功能，則必須完成年齡驗證，並年滿 18 歲。<ref>Tupper 發布在 VRChat Forum 上的[https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-is-age-verification-mandatory-6 年齡驗證 Q&A（Age Verification FAQ）]。發布於 [2024-12-02]。存取於 [2024-12-09]。</ref>
 *'''資料處理'''：Persona 僅會在完成驗證所需的最短時間內保留身分證件資料，用於確認用戶的出生日期，並利用用戶所提交身分證件中的資料建立唯一的單向[[wikipedia:Cryptographic_hash_function|加密雜湊值（Cryptographic Hash）]]。此雜湊值會儲存在 VRChat 伺服器上的該用戶帳號中，而所有身分證件資料則會自 Persona 端刪除。VRChat 伺服器上將僅保留不可逆的加密雜湊值，以及用戶經驗證後的出生日期。<ref>VRChat 發布在 YouTube 上的[https://youtu.be/lzG9IwmM7TI 年齡驗證 Q&A（Age Verification FAQ）]。存取於 [2024-12-09]。</ref>
@@ -77,14 +106,17 @@ Introducing Age Verification | Developer Update #vrchat
 *'''一個身分證件對應一個帳號'''：同一份身分證件無法用於驗證多個帳號。此限制旨在提升信任度，並鼓勵用戶更重視自己的帳號，以減少惡意行為的發生。<ref>Tupper 發布在 VRChat Forum 上的[https://ask.vrchat.com/t/age-verification-faq/28458#p-58953-can-i-use-the-same-id-to-verify-multiple-accounts-8 年齡驗證 Q&A（Age Verification FAQ）]。發布於 [2024-12-02]。存取於 [2024-12-09]。</ref>
 *'''18 歲年齡驗證不等同於豁免色情露骨內容的限制'''：經 18 歲年齡驗證或有年齡限制的房間「'''並不代表'''」可以豁免[[Special:MyLanguage/Terms of Service|《服務條款》]]或[[Special:MyLanguage/Community Guidelines|《社群守則》（Community Guidelines）]]中關於色情內容的政策限制。
 **請參閱《服務條款》第 13.2 節，以及[https://hello.vrchat.com/legal 《社群守則》]。<ref>VRChat 發布的[https://hello.vrchat.com/legal 《VRChat 服務條款》（VRChat Terms of Service）]。發布於 [2024-11-18]。存取於 [2024-12-09]。</ref><ref>VRChat 發布的[https://hello.vrchat.com/community-guidelines 《VRChat 社群守則》（VRChat Community Guidelines）]。發布於 [2024-08-12]。存取於 [2024-12-09]。</ref>
+</div>
 
 <span id="Official_resources"></span>
 ==官方資源==
 
+<div class="mw-translate-fuzzy">
 * VRChat 發布在 YouTube 上的[https://www.youtube.com/watch?v=odiNjIFUNvw 推出年齡驗證（Introducing Age Verification）]。
 * VRChat 發布在 YouTube 上的 [https://www.youtube.com/watch?v=lzG9IwmM7TI VRChat 年齡驗證改進（VRChat Age Verification Improvements）]。
 * [https://hello.vrchat.com/blog/age-verification VRC+ 訂閱用戶現已可使用年齡驗證（Age Verification Now Available for VRC+ Subscribers）]，位於 ''[[hello.vrchat.com]]''。
 * [https://feedback.vrchat.com/age-verification 年齡驗證意見回饋（Age Verification Feedback）]，位於 ''[[feedback.vrchat.com]]''。
+</div>
 
 <span id="References"></span>
 ==參考資料==
