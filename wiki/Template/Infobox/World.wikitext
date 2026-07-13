@@ -15,58 +15,58 @@
         <data><default>{{#ifexist:Template:World/{{{id}}}/previewYoutubeId|<div style="width:248px;margin:0 auto">{{YouTube|id={{World/{{{id}}}/previewYoutubeId}}|width=248px|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</div>}}</default></data>
     </group>
     <group>
-        <header>Statistics</header>
-        <data><label>Visits</label><default>{{#ifexist:Template:World/{{{id}}}/visits|{{formatnum:{{World/{{{id}}}/visits}}}}}}</default></data>
-        <data><label>Favorites</label><default>{{#ifexist:Template:World/{{{id}}}/favorites|{{formatnum:{{World/{{{id}}}/favorites}}}}}}</default></data>
-        <data><label>Popularity</label><default>{{#ifexist:Template:World/{{{id}}}/popularity|{{#switch:{{World/{{{id}}}/popularity}}|0=|1=❤️|2=❤️❤️|3=❤️❤️❤️|4=❤️❤️❤️❤️|5=❤️❤️❤️❤️❤️|6=❤️❤️❤️❤️❤️❤️|7=❤️❤️❤️❤️❤️❤️❤️|8=❤️❤️❤️❤️❤️❤️❤️❤️|9=❤️❤️❤️❤️❤️❤️❤️❤️❤️|10=❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️}}}}</default></data>
-        <data><label>Heat</label><default>{{#ifexist:Template:World/{{{id}}}/heat|{{#switch:{{World/{{{id}}}/heat}}|0=|1=🔥|2=🔥🔥|3=🔥🔥🔥|4=🔥🔥🔥🔥|5=🔥🔥🔥🔥🔥|6=🔥🔥🔥🔥🔥🔥|7=🔥🔥🔥🔥🔥🔥🔥|8=🔥🔥🔥🔥🔥🔥🔥🔥|9=🔥🔥🔥🔥🔥🔥🔥🔥🔥|10=🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥}}}}</default></data>
+        <header><translate><!--T:39--> Statistics</translate></header>
+        <data><label><translate><!--T:15--> Visits</translate></label><default>{{#ifexist:Template:World/{{{id}}}/visits|{{formatnum:{{World/{{{id}}}/visits}}}}}}</default></data>
+        <data><label><translate><!--T:16--> Favorites</translate></label><default>{{#ifexist:Template:World/{{{id}}}/favorites|{{formatnum:{{World/{{{id}}}/favorites}}}}}}</default></data>
+        <data><label><translate><!--T:17--> Popularity</translate></label><default>{{#ifexist:Template:World/{{{id}}}/popularity|{{#switch:{{World/{{{id}}}/popularity}}|0=|1=❤️|2=❤️❤️|3=❤️❤️❤️|4=❤️❤️❤️❤️|5=❤️❤️❤️❤️❤️|6=❤️❤️❤️❤️❤️❤️|7=❤️❤️❤️❤️❤️❤️❤️|8=❤️❤️❤️❤️❤️❤️❤️❤️|9=❤️❤️❤️❤️❤️❤️❤️❤️❤️|10=❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️}}}}</default></data>
+        <data><label><translate><!--T:18--> Heat</translate></label><default>{{#ifexist:Template:World/{{{id}}}/heat|{{#switch:{{World/{{{id}}}/heat}}|0=|1=🔥|2=🔥🔥|3=🔥🔥🔥|4=🔥🔥🔥🔥|5=🔥🔥🔥🔥🔥|6=🔥🔥🔥🔥🔥🔥|7=🔥🔥🔥🔥🔥🔥🔥|8=🔥🔥🔥🔥🔥🔥🔥🔥|9=🔥🔥🔥🔥🔥🔥🔥🔥🔥|10=🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥}}}}</default></data>
     </group>
     <group>
         <header><translate><!--T:8--> World history</translate></header>
         <data><label><translate><!--T:9--> Published to Labs</translate></label><default>{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{#ifeq:{{World/{{{id}}}/labsPublicationDate}}|none||{{#timel:F d, Y |{{World/{{{id}}}/labsPublicationDate}}}}}}}}</default></data>
         <data><label><translate><!--T:10--> Published</translate></label><default>{{#ifexist:Template:World/{{{id}}}/publicationDate|{{#ifeq:{{World/{{{id}}}/publicationDate}}|none||{{#timel:F d, Y |{{World/{{{id}}}/publicationDate}}}}}}}}</default></data>
-        <data><label>Last updated</label><default>{{#ifexist:Template:World/{{{id}}}/updated_at|{{#timel:F d, Y |{{World/{{{id}}}/updated_at}}}}}}</default></data>
-        <data><label>Version</label><default>{{#ifexist:Template:World/{{{id}}}/version|{{World/{{{id}}}/version}}}}</default></data>
+        <data><label><translate><!--T:13--> Last updated</translate></label><default>{{#ifexist:Template:World/{{{id}}}/updated_at|{{#timel:F d, Y |{{World/{{{id}}}/updated_at}}}}}}</default></data>
+        <data><label><translate><!--T:14--> Version</translate></label><default>{{#ifexist:Template:World/{{{id}}}/version|{{World/{{{id}}}/version}}}}</default></data>
     </group>
 </infobox>
 |
 {{Noticebox
 |template=Noticebox
 |image=Vrrat_posed-right.png
-|title=Hang tight…
-|description=World info is still loading — check back in a bit.}}
+|title=<translate><!--T:36--> Hang tight…</translate>
+|description=<translate><!--T:37--> World info is still loading — check back in a bit.</translate>}}
 <infobox type="World" theme="community">
-	<title><default>Loading…</default></title>
+	<title><default><translate><!--T:38--> Loading…</translate></default></title>
 	<image><default>[[File:Placeholder.webp]]</default></image>
 	<group>
-        <data><label><translate><!--T:1--> Author</translate></label><default>…</default></data>
-        <data source="developers"><label><translate><!--T:2--> Developers</translate></label></data>
-        <data><label><translate><!--T:3--> Capacity</translate></label><default>…</default></data>
-        <data><label><translate><!--T:4--> Platforms</translate></label><default>…</default></data>
-        <data><label><translate><!--T:5--> Tags</translate></label><default>…</default></data>
-        <data source="languages"><label><translate><!--T:6--> Languages</translate></label></data>
-        <data source="id"><label><translate><!--T:7--> World Link</translate></label>
+        <data><label><translate><!--T:19--> Author</translate></label><default>…</default></data>
+        <data source="developers"><label><translate><!--T:20--> Developers</translate></label></data>
+        <data><label><translate><!--T:21--> Capacity</translate></label><default>…</default></data>
+        <data><label><translate><!--T:22--> Platforms</translate></label><default>…</default></data>
+        <data><label><translate><!--T:23--> Tags</translate></label><default>…</default></data>
+        <data source="languages"><label><translate><!--T:24--> Languages</translate></label></data>
+        <data source="id"><label><translate><!--T:25--> World Link</translate></label>
            <format>{{World link|{{{id}}}|{{{id}}}}}</format></data>
     </group>
     <group>
-        <header>Statistics</header>
-        <data><label>Visits</label><default>…</default></data>
-        <data><label>Favorites</label><default>…</default></data>
-        <data><label>Popularity</label><default>…</default></data>
-        <data><label>Heat</label><default>…</default></data>
+        <header><translate><!--T:40--> Statistics</translate></header>
+        <data><label><translate><!--T:26--> Visits</translate></label><default>…</default></data>
+        <data><label><translate><!--T:27--> Favorites</translate></label><default>…</default></data>
+        <data><label><translate><!--T:28--> Popularity</translate></label><default>…</default></data>
+        <data><label><translate><!--T:29--> Heat</translate></label><default>…</default></data>
     </group>
     <group>
-        <header><translate><!--T:8--> World history</translate></header>
-        <data><label><translate><!--T:9--> Published to Labs</translate></label><default>…</default></data>
-        <data><label><translate><!--T:10--> Published</translate></label><default>…</default></data>
-        <data><label>Last updated</label><default>…</default></data>
-        <data><label>Version</label><default>…</default></data>
+        <header><translate><!--T:30--> World history</translate></header>
+        <data><label><translate><!--T:31--> Published to Labs</translate></label><default>…</default></data>
+        <data><label><translate><!--T:32--> Published</translate></label><default>…</default></data>
+        <data><label><translate><!--T:33--> Last updated</translate></label><default>…</default></data>
+        <data><label><translate><!--T:34--> Version</translate></label><default>…</default></data>
     </group>
 </infobox>
 }}|
 <infobox type="World" theme="community">
 	<group>
-        <data><label><translate><!--T:7--> World Link</translate></label><default>''No world id provided''</default></data>
+        <data><label><translate><!--T:35--> World Link</translate></label><default>''<translate><!--T:41--> No world id provided</translate>''</default></data>
     </group>
 </infobox>
 }}{{ #ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}{{#switch:{{NAMESPACENUMBER}}|0|3000=[[Category:Worlds{{#translation:}}]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
