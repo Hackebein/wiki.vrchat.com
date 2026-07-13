@@ -9,6 +9,8 @@
         <data><label><translate><!--T:3--> Capacity</translate></label><default>{{#ifexist:Template:World/{{{id}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id}}}/capacity|{{World/{{{id}}}/recommendedCapacity}} (max {{World/{{{id}}}/capacity}})}}}}</default></data>
         <data><label><translate><!--T:4--> Platforms</translate></label><default>{{#ifexist:Template:World/{{{id}}}/platforms|{{World/{{{id}}}/platforms}}}}</default></data>
         <data><label><translate><!--T:5--> Tags</translate></label><default>{{#ifexist:Template:World/{{{id}}}/tags|{{World/{{{id}}}/tags}}}}</default></data>
+        <data><label><translate><!--T:42--> Listing</translate></label><default>{{#ifexist:Template:World/{{{id}}}/listing|{{World/{{{id}}}/listing}}}}</default></data>
+        <data><label><translate><!--T:43--> Content</translate></label><default>{{#ifexist:Template:World/{{{id}}}/content|{{World/{{{id}}}/content}}}}</default></data>
         <data source="languages"><label><translate><!--T:6--> Languages</translate></label></data>
         <data source="id"><label><translate><!--T:7--> World Link</translate></label>
            <format>{{World link|{{{id}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}</format></data>
@@ -44,6 +46,8 @@
         <data><label><translate><!--T:21--> Capacity</translate></label><default>…</default></data>
         <data><label><translate><!--T:22--> Platforms</translate></label><default>…</default></data>
         <data><label><translate><!--T:23--> Tags</translate></label><default>…</default></data>
+        <data><label><translate><!--T:44--> Listing</translate></label><default>…</default></data>
+        <data><label><translate><!--T:45--> Content</translate></label><default>…</default></data>
         <data source="languages"><label><translate><!--T:24--> Languages</translate></label></data>
         <data source="id"><label><translate><!--T:25--> World Link</translate></label>
            <format>{{World link|{{{id}}}|{{{id}}}}}</format></data>
