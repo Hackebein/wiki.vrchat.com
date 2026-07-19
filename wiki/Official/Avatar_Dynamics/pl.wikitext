@@ -2,10 +2,13 @@
 {{Noticebox/Official}}
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Stub|Not much information here! You can [[Special:MyLanguage/VRCWiki:How to Contribute|contribute]], by expanding and proofreading this article, in accordance with the [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]].}}
-'''Avatar Dynamics''', is an [[Special:MyLanguage/Avatars|avatar]] feature, initially introduced to VRChat on April 21, 2022<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live VRChat Blog: Avatar Dynamics Live]</ref>. is a set of features to add more interactions between avatars. Replacing older avatar components, and adding new options for avatars. This release also introduced a new permission system to let people set who can interact with these new features.
+'''Avatar Dynamics''', is an [[Special:MyLanguage/Avatars|avatar]] feature, initially introduced to VRChat on {{#time: F j, Y | April 21, 2022 }}<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live VRChat Blog: Avatar Dynamics Live]</ref>. is a set of features to add more interactions between avatars. Replacing older avatar components, and adding new options for avatars. This release also introduced a new permission system to let people set who can interact with these new features.
 </div>
 
+<span id="PhysBones"></span>
+<div class="mw-translate-fuzzy">
 ==PhysBones==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''See also [[Special:MyLanguage/Physbones|Physbones]] for more detailed information.''
@@ -16,7 +19,9 @@ PhysBones is a dynamic physics system for avatars that allows users to create se
 </div>
 
 <span id="Contacts"></span>
+<div class="mw-translate-fuzzy">
 ==Kontakty==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''See also [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] for more detailed information.''
@@ -27,7 +32,7 @@ Contacts are a system that allows avatars to detect collisions with itself or ot
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Contact Senders===
+=== Contact Senders ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -43,7 +48,7 @@ On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descrip
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Contact Receivers===
+=== Contact Receivers ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -58,7 +63,7 @@ VRChat supports three receiver behaviors:
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Tags and parameters===
+=== Tags and parameters ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -66,7 +71,7 @@ Contacts only interact when a sender and receiver share at least one matching co
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Debugging===
+=== Debugging ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -74,28 +79,34 @@ In Unity, Contact gizmos appear when Gizmos are enabled and the contact or one o
 </div>
 
 <span id="Permissions"></span>
+<div class="mw-translate-fuzzy">
 ==Uprawnienia==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The Avatar Dynamics permission system gives you complete control over who can interact with your avatar and how:
 </div>
 
 <span id="Global_Permissions"></span>
+<div class="mw-translate-fuzzy">
 ===Globalne uprawnienia===
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Choose “Everyone,” “Friends,” or “Nobody” as a default setting for all users.
 </div>
 
 <span id="Per-User_Overrides"></span>
+<div class="mw-translate-fuzzy">
 ===Nadpisania dla użytkowników===
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Individually grant or deny avatar interaction permissions for specific users.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Quick Toggle/Safe Mode===
+=== Quick Toggle/Safe Mode ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -103,14 +114,16 @@ Instantly pause all interactions (regardless of any other settings) with one but
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Official resources==
+== Official resources ==
 * [https://creators.vrchat.com/avatars/avatar-components/ Avatar Components] on Creator Docs
 * [https://creators.vrchat.com/avatars/avatar-dynamics/physbones/ PhysBones] on Creator Docs
 * [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] on Creator Docs
 </div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==Przypisy==
+</div>
 
 <references/>
 
