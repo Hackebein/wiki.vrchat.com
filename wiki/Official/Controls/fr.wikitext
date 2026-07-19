@@ -5,8 +5,11 @@
 Le menu des paramètres de VRChat détaille les mappages de boutons pour le périphérique que vous utilisez actuellement. Ci-dessous, les configurations par défaut :
 
 <span id="Primary_controls"></span>
+<div class="mw-translate-fuzzy">
 ==Contrôles Principaux==
+</div>
 
+<div class="mw-translate-fuzzy">
 Voici les contrôles de base pour naviguer et interagir dans VRChat, qui s'appliquent aux différents types d'entrée :
 {| class="wikitable" style="text-align:center;"
 ! style="text-align:center;" |Action
@@ -72,12 +75,17 @@ Voici les contrôles de base pour naviguer et interagir dans VRChat, qui s'appli
 |Y
 |Bouton du microphone
 |}
+</div>
 
 <span id="Additional_controls"></span>
+<div class="mw-translate-fuzzy">
 ==Contrôles Additionnels==
+</div>
 
 <span id="VR"></span>
+<div class="mw-translate-fuzzy">
 ===Contrôles VR===
+</div>
 
 VRChat prend en charge officiellement les casques suivants et leurs schémas de contrôle correspondants.
 
@@ -102,8 +110,11 @@ De plus, VRChat prend en charge ces casques en mode PCVR, où votre casque est c
 Sur PC, nous prenons également en charge l'entrée de manette via le gestionnaire d'entrées de Steam (Steam Input 2.0).
 
 <span id="Controller_buttons"></span>
+<div class="mw-translate-fuzzy">
 ====Boutons des Contrôleurs VR====
+</div>
 
+<div class="mw-translate-fuzzy">
 La plupart des contrôleurs VR sont disposés de manière similaire. Chaque contrôleur possède un joystick, deux boutons principaux, un bouton système, un Trigger (bouton arrière haut, index) et un Grip (bouton arrière bas, annulaire).
 {| class="wikitable"
 !Boutons
@@ -122,7 +133,9 @@ La plupart des contrôleurs VR sont disposés de manière similaire. Chaque cont
 |Clic: Menu rapide - Maintenu: Menu d'action
 |-
 |Grip
+</div>
 
+<div class="mw-translate-fuzzy">
 |Ramasser
 |-
 |Gâchette
@@ -140,11 +153,14 @@ La plupart des contrôleurs VR sont disposés de manière similaire. Chaque cont
 |Maintenir les deux boutons menu lors du chargement d'un monde
 |Change localement votre avatar en robot erreur (utile lorsque votre avatar cause des crash ou vous empêche d'accéder à votre menu)
 |}
+</div>
 
+<div class="mw-translate-fuzzy">
 ====Suivi des mains====
 ''Voir [[Special:MyLanguage/Finger Tracking|Suivi des doigts]] pour plus d'informations détaillées.''
 {{Thumb|{{YouTube|oopovk3BPaw|title=VRChat Hand/Finger Tracking Tutorial|thumb=File:Vrc handtrackingthumbnail.webp}}}}  
 [[File:Handtracking controls vrcmenu.webp|thumb|250px|Contrôles pour le suivi des doigts, dans les paramètres du [[Special:MyLanguage/Main Menu|Menu principal]].]]
+</div>
 
 VRChat propose également un {{VRC link|https://vrchat.com/home/world/wrld_8bcf07ab-5f8f-40cb-9289-b2eaad15ab98|monde tutoriel}} ainsi qu'une [https://www.youtube.com/watch?v=oopovk3BPaw vidéo tutoriel] sur la configuration du suivi des mains sur les systèmes Meta Quest et pour apprendre les gestes de suivi des mains dans VRChat.
 
@@ -172,7 +188,9 @@ Vous pouvez également activer ou désactiver le Comfort Turning (rotation par p
 Les commandes du suivi des doigts peuvent être consultées dans l'onglet Commandes du [[Special:MyLanguage/Main Menu|Menu Principal]], lorsque le suivi des doigts est activé.
 
 <span id="Desktop"></span>
+<div class="mw-translate-fuzzy">
 ===Contrôles PC===
+</div>
 
 Vous pouvez jouer à VRChat en utilisant un clavier et une souris.
 
@@ -400,6 +418,7 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 |Adjusts object rotation by moving the mouse
 </div>
 
+<div class="mw-translate-fuzzy">
 |-
 ! colspan="2" |Expressions
 |-
@@ -427,6 +446,7 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 |Maj + F8*
 |Geste de la main - Pouce levé
 |-
+</div>
 
 |-
 ! colspan="2" |Interface utilisateur
@@ -499,10 +519,10 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 |RShift + Backtick + 8<sup>†</sup>
 |Toggles visibility of "Network Object Info" overlay
 |-
-|RShift + Backtick + 9<sup>†</sup> 
+|RShift + Backtick + 9<sup>†</sup>
 |Toggles visibility of "Player Info" overlay
 |-
-|RShift + Backtick + 0<sup>†</sup> 
+|RShift + Backtick + 0<sup>†</sup>
 |Toggles visibility of "VRC_UIShapes" overlay
 |}
 </div>
@@ -512,7 +532,9 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 <sup>†</sup> Sur un clavier anglais US (QWERTY) standard, la touche « backtick » (ou accent grave) se trouve en haut à gauche, à côté de la touche <code>1</code>. Elle partage la touche avec le caractère tilde (<code>~</code>).
 
 <span id="Mobile"></span>
+<div class="mw-translate-fuzzy">
 ===Contrôles Mobile===
+</div>
 
 Sur le côté gauche de l'écran se trouve un joystick virtuel, qui permet de déplacer votre avatar. Appuyer et faire glisser sur l'écran déplacera votre point de vue. Double-tapper et maintenir n'importe où sur l'écran vous permettra de marcher tout en déplaçant simultanément votre point de vue.
 
@@ -523,10 +545,13 @@ Cliquer sur un autre utilisateur ou sur un [[Special:MyLanguage/portals|portail]
 </div>
 
 <span id="Gamepad"></span>
+<div class="mw-translate-fuzzy">
 ===Contrôles Manette===
+</div>
 
 Vous pouvez jouer à VRChat en utilisant une manette sur PC et Mobile.
 
+<div class="mw-translate-fuzzy">
 Les manettes typiques prises en charge incluent les manettes Xbox, PlayStation et Nintendo Switch. Le tableau ci-dessous utilise la disposition de la manette « Xbox » comme référence.
 {| class="wikitable"
 !Boutons (Basé sur une manette Xbox) 
@@ -557,7 +582,9 @@ Les manettes typiques prises en charge incluent les manettes Xbox, PlayStation e
 |Fait pivoter l'objet tenu
 |-
 |RB (Maintenu) + Joystick Gauche
+</div>
 
+<div class="mw-translate-fuzzy">
 |Sélectionner un geste de la main gauche (Disponible uniquement sur Steam) 
 |-
 |RB (Maintenu) + Joystick Droit
@@ -593,16 +620,19 @@ Les manettes typiques prises en charge incluent les manettes Xbox, PlayStation e
 |B (Dans le menu)
 |Ferme le Menu 
 |}
+</div>
 
 <span id="Resources"></span>
+<div class="mw-translate-fuzzy">
 ==Ressources==
+</div>
 
 *[https://www.youtube.com/watch?v=F0I2Ec4JsrE "Quest 2 Finger Tracking"] par VRChat sur ''YouTube''
 *[https://docs.vrchat.com/docs/vrchat-202241 "VRChat 2022.4.1"] concernant le suivi des mains
 *[https://www.youtube.com/watch?v=oopovk3BPaw "Guide débutant au Hand/Finger Tracking de VRChat"] par VRChat sur ''YouTube''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Navigation==
+== Navigation ==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
