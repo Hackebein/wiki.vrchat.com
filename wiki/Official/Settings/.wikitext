@@ -1,1920 +1,2035 @@
+<languages/>
 {{Noticebox/Official}}
+<translate>
 '''Settings''' are preferences to customize your VRChat experience. This article provides a verbose explanation for the amount of settings in VRChat. Menus for settings can be found in the [[Special:MyLanguage/Quick Menu|Quick Menu]], [[Special:MyLanguage/Main Menu|Main Menu]], and [[Special:MyLanguage/Action Menu|Action Menu]].
 
 == Action Menu ==
 The settings wheel in the [[Special:MyLanguage/Action Menu|Action Menu]] provide preferences only for the Action Menu itself.
+</translate>
 {| class="wikitable"
 |+
-!Name
-!Values
+!<translate>Name</translate>
+!<translate>Values</translate>
 |-
-|Menu Size
+|<translate>Menu Size</translate>
 |0-100%
 |-
-|Menu Opacity
+|<translate>Menu Opacity</translate>
 |0-100%
 |-
-|On Hud
-|On/Off
+|<translate>On Hud</translate>
+|<translate>On/Off</translate>
 |-
-|HUD Position
-|Up, Down, Left, Right
+|<translate>HUD Position</translate>
+|<translate>Up, Down, Left, Right</translate>
 |-
-|Flick Select
-|On/Off
+|<translate>Flick Select</translate>
+|<translate>On/Off</translate>
 |-
-|One Handed Movement
-|On/Off
+|<translate>One Handed Movement</translate>
+|<translate>On/Off</translate>
 |}
 
-==Quick Menu==
+<translate>
+== Quick Menu ==
 These options can be found in the [[Special:MyLanguage/Quick Menu|Quick Menu]], providing coverage for Sharing, UI Elements, Your Avatar, Avatar Culling, [[Special:MyLanguage/Chatbox|Chatbox]], Display and Visual Adjustments, Comfort, Tracking & IK, Advanced Settings and Debugging.
 
-===Sharing===
+=== Sharing ===
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Allow Direct Sharing
-|On/Off
-|Allow users to [[Special:MyLanguage/Sharing|share]] content with you directly
+|<translate>Allow Direct Sharing</translate>
+|<translate>On/Off</translate>
+|<translate>Allow users to [[Special:MyLanguage/Sharing|share]] content with you directly</translate>
 |-
-|Accept Sharing From
-|Everyone, Friends
-|'''[Everyone]''' Allow everyone to share content with you directly
-'''[Friends]''' Allow friends to share content with you directly
+|<translate>Accept Sharing From</translate>
+|<translate>Everyone, Friends</translate>
+|<translate>'''[Everyone]''' Allow everyone to share content with you directly
+'''[Friends]''' Allow friends to share content with you directly</translate>
 |-
-|Allow Pedestal Sharing
-|On/Off
-| Allow users to share content with you via pedestals
+|<translate>Allow Pedestal Sharing</translate>
+|<translate>On/Off</translate>
+|<translate>Allow users to share content with you via pedestals</translate>
 |-
-|View Pedestals From
-|Everyone, Friends
-|'''[Everyone]''' Allow everyone to share content with you via pedestals
-'''[Friends]''' Allow friends to share content with you via pedestals
+|<translate>View Pedestals From</translate>
+|<translate>Everyone, Friends</translate>
+|<translate>'''[Everyone]''' Allow everyone to share content with you via pedestals
+'''[Friends]''' Allow friends to share content with you via pedestals</translate>
 |}
 
-===UI Elements===
+<translate>
+=== UI Elements ===
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Nameplate Visibility
-|Standard, Icon, Hidden
-|Set [[Special:MyLanguage/Nameplates|nameplate]] visibility.<br>
+|<translate>Nameplate Visibility</translate>
+|<translate>Standard, Icon, Hidden</translate>
+|<translate>Set [[Special:MyLanguage/Nameplates|nameplate]] visibility.<br>
 '''[Standard]''' Show nameplate above every user<br>
 '''[Icon]''' Only show icons above each user<br>
-'''[Hidden]''' Don't show nameplates or icons
+'''[Hidden]''' Don't show nameplates or icons</translate>
 |-
-|Show Group Banner
-|On/Off
-|Click to show/hide group nameplate banners
+|<translate>Show Group Banner</translate>
+|<translate>On/Off</translate>
+|<translate>Click to show/hide group nameplate banners</translate>
 |-
-|Show Additional Info On Nameplates
-|On/Off
-|Click to show/hide expanded information on nameplates when the Quick Menu is open. When combined with Nameplate Visibility Hidden, disables nameplates completely, even when opening menu.
+|<translate>Show Additional Info On Nameplates</translate>
+|<translate>On/Off</translate>
+|<translate>Click to show/hide expanded information on nameplates when the Quick Menu is open. When combined with Nameplate Visibility Hidden, disables nameplates completely, even when opening menu.</translate>
 |-
-|HUD Detail Level 
-|Off, Minimal, Verbose
-|Change [[Special:MyLanguage/HUD|HUD]] detail level.<br>
+|<translate>HUD Detail Level</translate>
+|<translate>Off, Minimal, Verbose</translate>
+|<translate>Change [[Special:MyLanguage/HUD|HUD]] detail level.<br>
 '''[Verbose]''' Show notification popups<br>
 '''[Minimal]''' Only show icons<br>
-'''[Off]''' Disable HUD
+'''[Off]''' Disable HUD</translate>
 |}
 
-===Your Avatar===
+<translate>
+=== Your Avatar ===
 ''See also [[Special:MyLanguage/Avatars|Avatars]] for more detailed information.''
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Allow Avatar Cloning
-|On/Off
-|Allows other users to clone your current avatar
+|<translate>Allow Avatar Cloning</translate>
+|<translate>On/Off</translate>
+|<translate>Allows other users to clone your current avatar</translate>
 |-
-|Auto Disable Avatar Cloning
-|On/Off
-|Click to turn on/off automatically disabling avatar cloning upon entering a world
+|<translate>Auto Disable Avatar Cloning</translate>
+|<translate>On/Off</translate>
+|<translate>Click to turn on/off automatically disabling avatar cloning upon entering a world</translate>
 |-
-|Avatar Gestures
-| On/Off
-| When enabled, VRChat will attempt to match your current finger pose against the standard VRChat hand poses
+|<translate>Avatar Gestures</translate>
+|<translate>On/Off</translate>
+|<translate>When enabled, VRChat will attempt to match your current finger pose against the standard VRChat hand poses</translate>
 |-
-|Pause Avatar Interactions
-|On/Off
-|Click to pause ALL interactions, INCLUDING users you've overridden to allow
+|<translate>Pause Avatar Interactions</translate>
+|<translate>On/Off</translate>
+|<translate>Click to pause ALL interactions, INCLUDING users you've overridden to allow</translate>
 |-
-|Avatar Allowed to Interact
-| Everyone, Nobody, Friends
-|Toggle interactions on or off
+|<translate>Avatar Allowed to Interact</translate>
+|<translate>Everyone, Nobody, Friends</translate>
+|<translate>Toggle interactions on or off</translate>
 |-
-|Avatar Self Interact
-|On/Off
-|Click to enable/disable Self Interaction
+|<translate>Avatar Self Interact</translate>
+|<translate>On/Off</translate>
+|<translate>Click to enable/disable Self Interaction</translate>
 |}
 
-===Avatar Culling===
+<translate>
+=== Avatar Culling ===
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Hide Beyond
-|0-50m, On/Off
-|Improve performance by reducing the number of avatars displayed
+|<translate>Hide Beyond</translate>
+|<translate>0-50m, On/Off</translate>
+|<translate>Improve performance by reducing the number of avatars displayed</translate>
 |-
-|Show Nearest
-| 0-80, On/Off
-|Improve performance by reducing the number of avatars displayed
+|<translate>Show Nearest</translate>
+|<translate>0-80, On/Off</translate>
+|<translate>Improve performance by reducing the number of avatars displayed</translate>
 |-
-|Always Show Friend Avatars
-|On/Off
-|Toggle to always show friend avatars
+|<translate>Always Show Friend Avatars</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle to always show friend avatars</translate>
 |-
-|Allow override with "Show Avatar" 
-|On/Off
-|Allow selected user's avatars to override culling settings
+|<translate>Allow override with "Show Avatar"</translate>
+|<translate>On/Off</translate>
+|<translate>Allow selected user's avatars to override culling settings</translate>
 |}
 
-===Chatbox===
+<translate>
+=== Chatbox ===
+</translate>
 {| class="wikitable"
-! Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Chatbox Function
-|Clear Chatbox, New message
-|'''[Clear Chatbox]''' Clears the chatbox
-'''[New message]''' Opens chatbox input
+|<translate>Chatbox Function</translate>
+|<translate>Clear Chatbox, New message</translate>
+|<translate>'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input</translate>
 |-
-|Local Chatbox Visibility
-|Mine, Friends, Everyone
-|Change chatbox visibility<br>
+|<translate>Local Chatbox Visibility</translate>
+|<translate>Mine, Friends, Everyone</translate>
+|<translate>Change chatbox visibility<br>
 '''[Mine]''' Only show your own chatbox<br>
 '''[Friends]''' Show chatboxes only from friends<br>
-'''[Everyone]''' Show chatboxes for everyone
+'''[Everyone]''' Show chatboxes for everyone</translate>
 |-
-| colspan="3" style="text-align:center;" |Show Advanced Settings
+| colspan="3" style="text-align:center;" |<translate>Show Advanced Settings</translate>
 |-
-|Chatbox Position
-|Above, Forward
-|Set chatbox to [above head/forward] position
+|<translate>Chatbox Position</translate>
+|<translate>Above, Forward</translate>
+|<translate>Set chatbox to [above head/forward] position</translate>
 |-
-|Chatbox Height
+|<translate>Chatbox Height</translate>
 |0-100%
-|Change chatbox height
+|<translate>Change chatbox height</translate>
 |-
-|Chatbox Size
+|<translate>Chatbox Size</translate>
 | 50-150%
-|Change chatbox size
+|<translate>Change chatbox size</translate>
 |-
-|Chatbox Opacity 
+|<translate>Chatbox Opacity</translate>
 |25-100%
-|Change chatbox opacity
+|<translate>Change chatbox opacity</translate>
 |-
-|Chatbox Display Duration
-| 2-60 seconds
-|Change chatbox display duration
+|<translate>Chatbox Display Duration</translate>
+|<translate>2-60 seconds</translate>
+|<translate>Change chatbox display duration</translate>
 |-
-|Chatbox Notification Volume 
-|On/Off, 0-100%
-|Change chatbox notification volume
+|<translate>Chatbox Notification Volume</translate>
+|<translate>On/Off, 0-100%</translate>
+|<translate>Change chatbox notification volume</translate>
 |-
-|Show Own Chatbox
-|On/Off
-|Show or hide your own chatbox
+|<translate>Show Own Chatbox</translate>
+|<translate>On/Off</translate>
+|<translate>Show or hide your own chatbox</translate>
 |-
-|Send Text Automatically
-|On/Off
-|Toggle chatbox auto send
+|<translate>Send Text Automatically</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle chatbox auto send</translate>
 |}
 
-===Display and Visual Adjustments===
+<translate>
+=== Display and Visual Adjustments ===
+</translate>
 {| class="wikitable"
-!Name
-!Values 
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Screen Brightness
+|<translate>Screen Brightness</translate>
 |0-100%
-|Adjust screen brightness
+|<translate>Adjust screen brightness</translate>
 |-
-|Bloom Intensity
+|<translate>Bloom Intensity</translate>
 |0-100%
-|Bloom multiplier. Set to 0% to disable bloom
+|<translate>Bloom multiplier. Set to 0% to disable bloom</translate>
 |-
-|Reduce Menu Animations
-|On/Off
-|Reduce Menu Animations is [enabled/disabled], click to [enable additional menu animations/reduce menu animations]
+|<translate>Reduce Menu Animations</translate>
+|<translate>On/Off</translate>
+|<translate>Reduce Menu Animations is [enabled/disabled], click to [enable additional menu animations/reduce menu animations]</translate>
 |}
 
-===Color Blind Filters===
+<translate>
+=== Color Blind Filters ===
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Color Filters 
-|On/Off
-|Enable/Disable color filters and their settings
+|<translate>Color Filters</translate>
+|<translate>On/Off</translate>
+|<translate>Enable/Disable color filters and their settings</translate>
 |-
-|Filter Intensity
+|<translate>Filter Intensity</translate>
 |0-100%
-|Change the intensity of the current filter
+|<translate>Change the intensity of the current filter</translate>
 |-
-| Apply To World
-|On/Off
-|Apply Filter to World 
+|<translate>Apply To World</translate>
+|<translate>On/Off</translate>
+|<translate>Apply Filter to World</translate>
 |-
-| Color Filter 
-|No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT
-|Select the color filter you would like to apply<br>
+|<translate>Color Filter</translate>
+|<translate>No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT</translate>
+|<translate>Select the color filter you would like to apply<br>
 '''[None]''' No filter selected<br>
 '''[Protanopia]''' Red / Green Filter<br>
 '''[Deuteranopia]''' Green / Red Filter<br>
 '''[Tritanopia]''' Blue / Yellow Filter<br>
 '''[Grayscale]''' Monochrome Filter<br>
-'''[Retro LUT]''' I Live In The Past Filter
+'''[Retro LUT]''' I Live In The Past Filter</translate>
 |-
-|Simulate Color Blindness
-|On/Off
-|Simulate the selected color blindness option, rather than correcting for it.
+|<translate>Simulate Color Blindness</translate>
+|<translate>On/Off</translate>
+|<translate>Simulate the selected color blindness option, rather than correcting for it.</translate>
 |}
 
-===Comfort===
+<translate>
+=== Comfort ===
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Holoport Locomotion ''[VR]''
-|On/Off
-| Enable third person locomotion (Holoport) 
+|<translate>Holoport Locomotion ''[VR]''</translate>
+|<translate>On/Off</translate>
+|<translate>Enable third person locomotion (Holoport)</translate>
 |-
-|Locomotion Tunneling ''[VR]''
-|None, Low, High
-|Choose movement style and tunneling to reduce motion sickness.<br>
+|<translate>Locomotion Tunneling ''[VR]''</translate>
+|<translate>None, Low, High</translate>
+|<translate>Choose movement style and tunneling to reduce motion sickness.<br>
 '''[None]''' Standard movement with no tunneling<br>
 '''[Low]''' Add a light tunneling effect while moving<br>
-'''[High]''' Add a heavy tunneling effect when moving 
+'''[High]''' Add a heavy tunneling effect when moving</translate>
 |-
-|Responsive Menu
-|On/Off
-|'''[On]''' Responsive Menu is enabled, click to keep Main Menu in its default position.
-'''[Off]''' Responsive Menu is disabled, click to always spawn the main menu in your eyeline.
+|<translate>Responsive Menu</translate>
+|<translate>On/Off</translate>
+|<translate>'''[On]''' Responsive Menu is enabled, click to keep Main Menu in its default position.
+'''[Off]''' Responsive Menu is disabled, click to always spawn the main menu in your eyeline.</translate>
 |}
 
-===Tracking & IK===
+<translate>
+=== Tracking & IK ===
+</translate>
 {| class="wikitable"
-|+[VR Only]
-!Name
-!Values
-! Tooltip
+|+<translate>[VR Only]</translate>
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|User Real Height
-|(3'0"-8'0" ft)/(0.81m-2.44m) 
-|User Real Height should always be set to your height in real life. It's important for properly matching your avatar with your body.
+|<translate>User Real Height</translate>
+|<translate>(3'0"-8'0" ft)/({{formatnum:0.81}}m-{{formatnum:2.44}}m)</translate>
+|<translate>User Real Height should always be set to your height in real life. It's important for properly matching your avatar with your body.</translate>
 |-
-| colspan="2" |Measure Height
-|Automatically set your real height from your headset's standing position (must stand up and look straight ahead, cannot be used while seated)
+| colspan="2" |<translate>Measure Height</translate>
+|<translate>Automatically set your real height from your headset's standing position (must stand up and look straight ahead, cannot be used while seated)</translate>
 |-
-|Avatar Measurement 
-|Arm Span, Height
-|Toggle avatar measurement between height-based and arm-based
+|<translate>Avatar Measurement</translate>
+|<translate>Arm Span, Height</translate>
+|<translate>Toggle avatar measurement between height-based and arm-based
 '''[Arm Span]''' Arm Span mode will fit your avatar to your real body by matching arm length.
-'''[Height]''' Height mode will fit your avatar to your real body by matching height. 
+'''[Height]''' Height mode will fit your avatar to your real body by matching height.</translate>
 |}
 {| class="wikitable"
-|+[VR Only] [At least one full body tracker must be on]
-!Name
-!Values
-!Tooltip
+|+<translate>[VR Only] [At least one full body tracker must be on]</translate>
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Allow FullBody Tracking FBT
-|On/Off
-|Full body tracking is now [enabled/disabled]
+|<translate>Allow FullBody Tracking FBT</translate>
+|<translate>On/Off</translate>
+|<translate>Full body tracking is now [enabled/disabled]</translate>
 |-
-| colspan="2" |Calibrate FBT
-|Calibrate full body tracking. Stand in T-pose and pull both triggers to lock-in.
+| colspan="2" |<translate>Calibrate FBT</translate>
+|<translate>Calibrate full body tracking. Stand in T-pose and pull both triggers to lock-in.</translate>
 |-
-|FBT Spine Mode
-|Lock Head, Lock Hip, Lock Both 
-|Changes to FBT Spine Mode will alter how your spine IK behaves with full body tracking.<br>
+|<translate>FBT Spine Mode</translate>
+|<translate>Lock Head, Lock Hip, Lock Both</translate>
+|<translate>Changes to FBT Spine Mode will alter how your spine IK behaves with full body tracking.<br>
 '''[Lock Hip]''' Strict hip tracking. Avoids odd spine angles by allowing the head to drift.<br>
 '''[Lock Head]''' Strict head tracking. Avoids odd spine angles by allowing the hips to drift.<br>
-'''[Lock Both]''' Doesn't allow the head or hip to drift. 
+'''[Lock Both]''' Doesn't allow the head or hip to drift.</translate>
 |-
-|FBT Locomotion Animation
-|On/Off
-|When enabled, your avatar will use its built-in animations for walking, overriding your leg tracking when moving via controllers. 
+|<translate>FBT Locomotion Animation</translate>
+|<translate>On/Off</translate>
+|<translate>When enabled, your avatar will use its built-in animations for walking, overriding your leg tracking when moving via controllers.</translate>
 |-
-| colspan="2" |Auto-center OSC Trackers
-|Auto-center OSC trackers. Use when head position and rotation is not being sent in over OSC.
+| colspan="2" |<translate>Auto-center OSC Trackers</translate>
+|<translate>Auto-center OSC trackers. Use when head position and rotation is not being sent in over OSC.</translate>
 |-
-| colspan="3" style="text-align:center;" |Show Advanced Settings
+| colspan="3" style="text-align:center;" |<translate>Show Advanced Settings</translate>
 |-
-| colspan="2" |Adjust FBT: Move & Rotate
-| rowspan="3" |Starts Adjust FBT mode, allowing you to grab parts of your avatar to reposition calibration by hand. Adjusts [both position and rotation/position only/rotation only]. Re-open the quickmenu to complete.
+| colspan="2" |<translate>Adjust FBT: Move & Rotate</translate>
+| rowspan="3" |<translate>Starts Adjust FBT mode, allowing you to grab parts of your avatar to reposition calibration by hand. Adjusts [both position and rotation/position only/rotation only]. Re-open the quickmenu to complete.</translate>
 |-
-| colspan="2" | Adjust FBT: Move Only
+| colspan="2" |<translate>Adjust FBT: Move Only</translate>
 |-
-| colspan="2" |Adjust FBT: Rotate Only
+| colspan="2" |<translate>Adjust FBT: Rotate Only</translate>
 |-
-| colspan="2" |Adjust FBT: Reset
-|Resets the current FBT adjustment back to what was measured during Calibrate FBT 
+| colspan="2" |<translate>Adjust FBT: Reset</translate>
+|<translate>Resets the current FBT adjustment back to what was measured during Calibrate FBT</translate>
 |}
 
-===Advanced Settings===
+<translate>
+=== Advanced Settings ===
+</translate>
 {| class="wikitable"
-|+[VR Only]
-!Name
-!Values
-!Tooltip 
+|+<translate>[VR Only]</translate>
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Allow Horizon Adjust
-|On/Off
-|'''[On]''' Disallow usage of the Horizon Adjust feature
-'''[Off]''' Allow using the Horizon Adjust feature
+|<translate>Allow Horizon Adjust</translate>
+|<translate>On/Off</translate>
+|<translate>'''[On]''' Disallow usage of the Horizon Adjust feature
+'''[Off]''' Allow using the Horizon Adjust feature</translate>
 
 
-Horizon Adjust may cause EXTREME VERTIGO! It's recommended to combine with other comfort options such as Holoport, tunneling, or comfort turning. Immediately discontinue use at first sign of discomfort. Use at your own risk. 
+Horizon Adjust may cause EXTREME VERTIGO! It's recommended to combine with other comfort options such as Holoport, tunneling, or comfort turning. Immediately discontinue use at first sign of discomfort. Use at your own risk.
 |-
-|Horizon Adjust Snap
-|On/Off
-|Horizion adjustment snap mode is [enabled/disabled], click to [enable/disable]. Snap mode will lock the horizon adjustment offset to increments of 90 degrees.
+|<translate>Horizon Adjust Snap</translate>
+|<translate>On/Off</translate>
+|<translate>Horizion adjustment snap mode is [enabled/disabled], click to [enable/disable]. Snap mode will lock the horizon adjustment offset to increments of 90 degrees.</translate>
 |-
-| colspan="2" |Set Horizon Adjust
-|Adjust the horizon so that current view direction is forward.
+| colspan="2" |<translate>Set Horizon Adjust</translate>
+|<translate>Adjust the horizon so that current view direction is forward.</translate>
 |-
-| colspan="2" |Reset Horizon
-|Reset horizon adjustment
+| colspan="2" |<translate>Reset Horizon</translate>
+|<translate>Reset horizon adjustment</translate>
 |-
-| colspan="2" | Set Standing Height
-|Set your current head height as full standing height
+| colspan="2" |<translate>Set Standing Height</translate>
+|<translate>Set your current head height as full standing height</translate>
 |}
 
-===Debug===
+<translate>
+=== Debug ===
 ''See also [[Special:MyLanguage/Debug Menu|Debug Menu]] for more detailed information.''
+</translate>
 {| class="wikitable"
-!Name
-! Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|FPS
-|Varies 
-|N/A
+|<translate>FPS</translate>
+|<translate>Varies</translate>
+|<translate>N/A</translate>
 |-
-|Ping
-|Varies
-|N/A
+|<translate>Ping</translate>
+|<translate>Varies</translate>
+|<translate>N/A</translate>
 |-
-|Build
-| Varies
-| N/A
+|<translate>Build</translate>
+|<translate>Varies</translate>
+|<translate>N/A</translate>
 |-
-|Logging
-|Full, Errors Only, Off
-|Controls whether to write debug messages to a log file<br>
+|<translate>Logging</translate>
+|<translate>Full, Errors Only, Off</translate>
+|<translate>Controls whether to write debug messages to a log file<br>
 '''[Full]''' Log all debug and error messages<br>
 '''[Errors Only]''' Log error messages only<br>
-'''[Off]''' Do not log any debug or error messages
+'''[Off]''' Do not log any debug or error messages</translate>
 |-
-|Pin FPS and Ping
-|On/Off
-|'''[On]''' Stats are enabled, click to disable the FPS and Ping display<br>
-'''[Off]''' Stats are disabled, click to pin the FPS and Ping to the top of the Quick Menu
+|<translate>Pin FPS and Ping</translate>
+|<translate>On/Off</translate>
+|<translate>'''[On]''' Stats are enabled, click to disable the FPS and Ping display<br>
+'''[Off]''' Stats are disabled, click to pin the FPS and Ping to the top of the Quick Menu</translate>
 |-
-|Report Bug
-|Report Bug
-|Logs when an issue is experienced<br>
-Click 'Continue' to create a timestamp in your active output log that can be included with your Bug Report (http://feedback.vrchat.com/bug-reports) or Support Ticket. 
+|<translate>Report Bug</translate>
+|<translate>Report Bug</translate>
+|<translate>Logs when an issue is experienced<br>
+Click 'Continue' to create a timestamp in your active output log that can be included with your Bug Report ([http://feedback.vrchat.com/bug-reports feedback.vrchat.com]) or Support Ticket.</translate>
 |-
-|Reset Hand Tracking tutorial
-|Reset Hand Tracking tutorial
-|N/A
+|<translate>Reset Hand Tracking tutorial</translate>
+|<translate>Reset Hand Tracking tutorial</translate>
+|<translate>N/A</translate>
 |-
-|Toggle Debug UI
-|Toggle Debug UI
-|Shows or hides the debug UI panel.
+|<translate>Toggle Debug UI</translate>
+|<translate>Toggle Debug UI</translate>
+|<translate>Shows or hides the debug UI panel.</translate>
 |}
 
-==Main Menu==
+<translate>
+== Main Menu ==
+</translate>
 [[File:System and Settings.png|center|frameless]]
+<translate>
 These options can be found in the Settings tab of the [[Special:MyLanguage/Main Menu|Main Menu]]. They provide coverage for Audio & Voice, Comfort & Safety, Shield Levels, Graphics, [[Special:MyLanguage/Avatars|Avatars]], [[Special:MyLanguage/Mirrors|Mirrors]], User Interface, [[Special:MyLanguage/Controls|Controls]], Tracking & IK, Accessibility, and Debugging.
 
-===Audio & Voice===
+=== Audio & Voice ===
 
-==== Audio Volume====
+==== Audio Volume ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-| Master
-|0-125%, On/Off
-|Control the master volume for all audio
+|<translate>Master</translate>
+|<translate>0-125%, On/Off</translate>
+|<translate>Control the master volume for all audio</translate>
 |-
-|UI/Menu 
-|0-100%, On/Off
-|Control the menu sound volume
+|<translate>UI/Menu</translate>
+|<translate>0-100%, On/Off</translate>
+|<translate>Control the menu sound volume</translate>
 |-
-| World
-|0-100%, On/Off
-|Control the volume of sounds in this world 
+|<translate>World</translate>
+|<translate>0-100%, On/Off</translate>
+|<translate>Control the volume of sounds in this world</translate>
 |-
-|Voices
-|0-100%, On/Off
-|Control the volume of other user's voices
+|<translate>Voices</translate>
+|<translate>0-100%, On/Off</translate>
+|<translate>Control the volume of other user's voices</translate>
 |-
-|Avatars 
-|0-100%, On/Off
-|Control the volume of audio emitted from avatars
+|<translate>Avatars</translate>
+|<translate>0-100%, On/Off</translate>
+|<translate>Control the volume of audio emitted from avatars</translate>
 |-
-|Items/Effects
-|0-100%, On/Off 
-|Control the volume of audio emitted from items, warp effects, gift drops, and portals
+|<translate>Items/Effects</translate>
+|<translate>0-100%, On/Off</translate>
+|<translate>Control the volume of audio emitted from items, warp effects, gift drops, and portals</translate>
 |-
-|Other User's Volume
-|Reset
-|Reset the volume of other users
+|<translate>Other User's Volume</translate>
+|<translate>Reset</translate>
+|<translate>Reset the volume of other users</translate>
 |}
 
-====Microphone====
+<translate>
+==== Microphone ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Change Device
-|Microphone List
-| Change your current audio input device
+|<translate>Change Device</translate>
+|<translate>Microphone List</translate>
+|<translate>Change your current audio input device</translate>
 |-
-|Mic Output Volume
+|<translate>Mic Output Volume</translate>
 |0-100%
-|Control the volume of your microphone
+|<translate>Control the volume of your microphone</translate>
 |-
-|Noise Suppression
-|On/Off
-|Background Noise Suppression is enabled/disabled, click to disable/enable
+|<translate>Noise Suppression</translate>
+|<translate>On/Off</translate>
+|<translate>Background Noise Suppression is enabled/disabled, click to disable/enable</translate>
 |-
-|Mic Activation Threshold
+|<translate>Mic Activation Threshold</translate>
 |0-100%
-|Adjust the point where your microphone picks up your voice
+|<translate>Adjust the point where your microphone picks up your voice</translate>
 |-
-|Test Microphone
-|Start Test, New Test, Stop Playback, Play Again
-|'''[Start Test/New Test, Stop Playback]''' Test how you sound to others by recording a short clip from your microphone and then playing back what you said.
-'''[Play Again]''' Play the last microphone test clip again.
+|<translate>Test Microphone</translate>
+|<translate>Start Test, New Test, Stop Playback, Play Again</translate>
+|<translate>'''[Start Test/New Test, Stop Playback]''' Test how you sound to others by recording a short clip from your microphone and then playing back what you said.
+'''[Play Again]''' Play the last microphone test clip again.</translate>
 |-
-|Microphone Behaviour
-|Push to Talk, Always Off, Always On, Toggle
-|Change how the microphone is activated.
+|<translate>Microphone Behaviour</translate>
+|<translate>Push to Talk, Always Off, Always On, Toggle</translate>
+|<translate>Change how the microphone is activated.</translate>
 |-
-|World Join Behaviour
-|Default On, Default Off, Keep Last State
-|Change how your mic behaves when joining worlds
+|<translate>World Join Behaviour</translate>
+|<translate>Default On, Default Off, Keep Last State</translate>
+|<translate>Change how your mic behaves when joining worlds</translate>
 |-
-|Mic Icon Visibility
-|On activity, When Muted, Always On
-|Change when the microphone icon on your HUD is visible.<br>
+|<translate>Mic Icon Visibility</translate>
+|<translate>On activity, When Muted, Always On</translate>
+|<translate>Change when the microphone icon on your HUD is visible.<br>
 '''[Always On]''' Microphone icon always stays visible<br>
 '''[On Activity]''' Microphone icon fades in when you speak<br>
-'''[When Muted]''' Microphone icon only fades in when you speak while muted
+'''[When Muted]''' Microphone icon only fades in when you speak while muted</translate>
 |}
 
-====Earmuff Mode====
+<translate>
+==== Earmuff Mode ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Earmuff Mode
-|On/Off
-| Reduce the volume of others outside of a distance.
+|<translate>Earmuff Mode</translate>
+|<translate>On/Off</translate>
+|<translate>Reduce the volume of others outside of a distance.</translate>
 |-
-|Distance
-|0.0-10.0m
-|Reduce the volume of users outside of this range.
+|<translate>Distance</translate>
+|<translate>{{formatnum:0.0}}-{{formatnum:10.0}}m</translate>
+|<translate>Reduce the volume of users outside of this range.</translate>
 |-
-|Falloff Distance
-|0.0-10.0m
-|The distance at which user volumes are fully reduced.
+|<translate>Falloff Distance</translate>
+|<translate>{{formatnum:0.0}}-{{formatnum:10.0}}m</translate>
+|<translate>The distance at which user volumes are fully reduced.</translate>
 |-
-|Outside Volume
+|<translate>Outside Volume</translate>
 |0-100%
-|The lowest volume user voice will be reduced to.
+|<translate>The lowest volume user voice will be reduced to.</translate>
 |-
-|Always Show Visual Aide
-|On/Off
-|'''[On]''' Showing Earmuff radius at all times. Toggle to only show when using sliders.<br>
-'''[Off]''' Only showing the Earmuff effect radius when using the sliders, click to show at all times
+|<translate>Always Show Visual Aide</translate>
+|<translate>On/Off</translate>
+|<translate>'''[On]''' Showing Earmuff radius at all times. Toggle to only show when using sliders.<br>
+'''[Off]''' Only showing the Earmuff effect radius when using the sliders, click to show at all times</translate>
 |-
-|Include Avatar Audio
-|On/Off
-|'''[On]''' Including Avatar Audio, click to disable<br>
-'''[Off]''' Include Avatar Audio disabled, click to enable
+|<translate>Include Avatar Audio</translate>
+|<translate>On/Off</translate>
+|<translate>'''[On]''' Including Avatar Audio, click to disable<br>
+'''[Off]''' Include Avatar Audio disabled, click to enable</translate>
 |-
-|Forward Cone
+|<translate>Forward Cone</translate>
 |0-100%
-|The slider adjusts the shape of your earmuffs to favor users in front of you
+|<translate>The slider adjusts the shape of your earmuffs to favor users in front of you</translate>
 |-
-|Falloff Forward Shift
+|<translate>Falloff Forward Shift</translate>
 |0-100%
-|Adjust the amount of forward offset that the directionality property applies to you earmuffs falloff zone 
+|<translate>Adjust the amount of forward offset that the directionality property applies to you earmuffs falloff zone</translate>
 |-
-|Shape Follows Rotation of 
-|Camera, Avatar
-|Sets the type for following camera<br>
-The earmuffs shape follows your [camera's/avatar's] rotation 
+|<translate>Shape Follows Rotation of</translate>
+|<translate>Camera, Avatar</translate>
+|<translate>Sets the type for following camera<br>
+The earmuffs shape follows your [camera's/avatar's] rotation</translate>
 |-
-|Lock Shape Rotation 
-|On/Off 
-|[Unlock/Lock] the earmuff shape's rotation
+|<translate>Lock Shape Rotation</translate>
+|<translate>On/Off</translate>
+|<translate>[Unlock/Lock] the earmuff shape's rotation</translate>
 |}
 
-===Comfort & Safety ===
+<translate>
+=== Comfort & Safety ===
 
-====Comfort====
+==== Comfort ====
+</translate>
 {| class="wikitable"
-! Name
-!Values
-! Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Comfort Turning ''[VR]''
-|On/Off
-|Rotate your view by snapping which can help with motion sickness
+|<translate>Comfort Turning ''[VR]''</translate>
+|<translate>On/Off</translate>
+|<translate>Rotate your view by snapping which can help with motion sickness</translate>
 |-
-|Personal Space
+|<translate>Personal Space</translate>
 
-|On/Off
-|Avatars disappear if they get too close, friends are not affected
+|<translate>On/Off</translate>
+|<translate>Avatars disappear if they get too close, friends are not affected</translate>
 |-
-|AFK Detection
-|On/Off
-|Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away
+|<translate>AFK Detection</translate>
+|<translate>On/Off</translate>
+|<translate>Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away</translate>
 |}
 
-====Sharing====
+<translate>
+==== Sharing ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-| Allow Direct Sharing
-|On/Off
-|Allow users to [[Special:MyLanguage/VRChat+#Sharing|share]] content with you directly
+|<translate>Allow Direct Sharing</translate>
+|<translate>On/Off</translate>
+|<translate>Allow users to [[Special:MyLanguage/VRChat+#Sharing|share]] content with you directly</translate>
 |-
-|Accept Sharing From
-|Everyone, Friends
-|'''[Everyone]''' Allow everyone to share content with you directly
-'''[Friends]''' Allow friends to share content with you directly 
+|<translate>Accept Sharing From</translate>
+|<translate>Everyone, Friends</translate>
+|<translate>'''[Everyone]''' Allow everyone to share content with you directly
+'''[Friends]''' Allow friends to share content with you directly</translate>
 |-
-|Allow Pedestal Sharing
-|On/Off
-|Allow users to share content with you via pedestals
+|<translate>Allow Pedestal Sharing</translate>
+|<translate>On/Off</translate>
+|<translate>Allow users to share content with you via pedestals</translate>
 |-
-|View Pedestals From
-|Everyone, Friends
-|'''[Everyone]''' Allow everyone to share content with you via pedestals
-'''[Friends]''' Allow friends to share content with you via pedestals
+|<translate>View Pedestals From</translate>
+|<translate>Everyone, Friends</translate>
+|<translate>'''[Everyone]''' Allow everyone to share content with you via pedestals
+'''[Friends]''' Allow friends to share content with you via pedestals</translate>
 |}
 
-====Prints====
+<translate>
+==== Prints ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
+!<translate>Name</translate>
+!<translate>Values</translate>
 
-!Tooltip
+!<translate>Tooltip</translate>
 |-
-|View Prints
-|On/Off 
-| Allow users to share photos as prints
+|<translate>View Prints</translate>
+|<translate>On/Off</translate>
+|<translate>Allow users to share photos as prints</translate>
 |-
-|View Prints From
-|Everyone, Friends 
-|'''[Everyone]''' Allow everyone to spawn prints
-'''[Friends]''' Allow friends to spawn prints
+|<translate>View Prints From</translate>
+|<translate>Everyone, Friends</translate>
+|<translate>'''[Everyone]''' Allow everyone to spawn prints
+'''[Friends]''' Allow friends to spawn prints</translate>
 |}
 
-====Safety====
+<translate>
+==== Safety ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-| Streamer Mode
-|On/Off
-|Friend requests will be auto-declined, user images and thumbnails will be disabled, and your location will be hidden<ref group="note">Streamer mode stays enabled after game restarts.</ref>
+|<translate>Streamer Mode</translate>
+|<translate>On/Off</translate>
+|<translate>Friend requests will be auto-declined, user images and thumbnails will be disabled, and your location will be hidden<ref group="note">Streamer mode stays enabled after game restarts.</ref></translate>
 |-
-|Show Community Labs
-|On/Off
-|Show [[Special:MyLanguage/Community Labs|Community Labs]] in the World and Search pages
+|<translate>Show Community Labs</translate>
+|<translate>On/Off</translate>
+|<translate>Show [[Special:MyLanguage/Community Labs|Community Labs]] in the World and Search pages</translate>
 |-
-|Allow Untrusted URLs
-|On/Off
-|Worlds can load content remotely from URLs that are not [[Special:MyLanguage/Trusted_URLs|trusted]].
+|<translate>Allow Untrusted URLs</translate>
+|<translate>On/Off</translate>
+|<translate>Worlds can load content remotely from URLs that are not [[Special:MyLanguage/Trusted_URLs|trusted]].</translate>
 |-
-|Chatbox Language Filter 
-|On/Off
-|Toggle chatbox language filter
+|<translate>Chatbox Language Filter</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle chatbox language filter</translate>
 |-
-|Portal Prompt
-|On/Off
-|Portal Prompt is [enabled/disabled], click to [disable/enable]
+|<translate>Portal Prompt</translate>
+|<translate>On/Off</translate>
+|<translate>Portal Prompt is [enabled/disabled], click to [disable/enable]</translate>
 |-
-|Show Mutual Connections
-|On/Off
-|Mutual Connections [enabled/disabled]. You [will/won't] show your mutual Friends & Groups to others when they view your mutual connections.
+|<translate>Show Mutual Connections</translate>
+|<translate>On/Off</translate>
+|<translate>Mutual Connections [enabled/disabled]. You [will/won't] show your mutual Friends & Groups to others when they view your mutual connections.</translate>
 |-
-|Allow Discord Friends
-|On/Off
-|Discord Friends [enabled/disabled]
+|<translate>Allow Discord Friends</translate>
+|<translate>On/Off</translate>
+|<translate>Discord Friends [enabled/disabled]</translate>
 |-
-|Portal Mode
-|Drop in Front, Place Manually
-|Choose the portal mode.<br>
-Enables Portal [Placement/Drop]
+|<translate>Portal Mode</translate>
+|<translate>Drop in Front, Place Manually</translate>
+|<translate>Choose the portal mode.<br>
+Enables Portal [Placement/Drop]</translate>
 |-
-|Home Instance Type
-|Invite, Invite+, Friends, Friends+, Public
-|Set your home instance type.<br>
-Set your home instance to [Invite/Invite+/Friends/Friends+/Public]
+|<translate>Home Instance Type</translate>
+|<translate>Invite, Invite+, Friends, Friends+, Public</translate>
+|<translate>Set your home instance type.<br>
+Set your home instance to [Invite/Invite+/Friends/Friends+/Public]</translate>
 |-
-|Home Region
-|Automatic, US East, US West, Europe, Japan
-|Set the [[Special:MyLanguage/Worlds#Regions|region]] used by your home instance.<br>
+|<translate>Home Region</translate>
+|<translate>Automatic, US East, US West, Europe, Japan</translate>
+|<translate>Set the [[Special:MyLanguage/Worlds#Regions|region]] used by your home instance.<br>
 '''[Automatic]''' Let VRChat choose the best home region for you.<br>
-Set your home instance region to [US West/US East/Europe/Japan]
+Set your home instance region to [US West/US East/Europe/Japan]</translate>
 |}
 <references group="note" />
-====Content Gating====
+<translate>
+==== Content Gating ====
 ''See also [[Special:MyLanguage/Content Gating|Content Gating]] for more detailed information.''
+</translate>
 
 {| class="wikitable"
-!Name
-!Values 
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Filter Sexually Suggestive Content
-| On/Off
-|Enable to hide content labeled with this Content Warning.
+|<translate>Filter Sexually Suggestive Content</translate>
+|<translate>On/Off</translate>
+|<translate>Enable to hide content labeled with this Content Warning.</translate>
 |-
-|Filter Adult Language and Themes
-|On/Off
-|Enable to hide content labeled with this Content Warning.
+|<translate>Filter Adult Language and Themes</translate>
+|<translate>On/Off</translate>
+|<translate>Enable to hide content labeled with this Content Warning.</translate>
 |-
-|Filter Graphic Violence
-|On/Off
-|Enable to hide content labeled with this Content Warning.
+|<translate>Filter Graphic Violence</translate>
+|<translate>On/Off</translate>
+|<translate>Enable to hide content labeled with this Content Warning.</translate>
 |-
-|Filter Excessive Gore
-|On/Off
-|Enable to hide content labeled with this Content Warning.
+|<translate>Filter Excessive Gore</translate>
+|<translate>On/Off</translate>
+|<translate>Enable to hide content labeled with this Content Warning.</translate>
 |-
-| Filter Extreme Horror
-|On/Off 
-|Enable to hide content labeled with this Content Warning.
+|<translate>Filter Extreme Horror</translate>
+|<translate>On/Off</translate>
+|<translate>Enable to hide content labeled with this Content Warning.</translate>
 |}
+<translate>
 '''''*Footnote regarding Content Gating:''''' Content Gating keeps you safe by filtering content you don't want to see. VRChat has User Generated Content and relies on its creators to label it appropriately. If you see something that you feel has not been labeled correctly, please navigate to the content details page and file an in-game report so that VRChat's Trust & Safety team can investigate.
 
-===Shield Levels===
+=== Shield Levels ===
 ''See also [[Special:MyLanguage/Trust and Safety#Safety_Shield|Trust and Safety]] for more detailed information.''
+</translate>
 {| class="wikitable"
-!Name
-! Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 
 |-
-|Change Shield Level
-| Maximum, Normal, None, Custom
-|'''[Maximum]''' This is the safest mode. It turns off most avatar features for all user Trust Ranks.
+|<translate>Change Shield Level</translate>
+|<translate>Maximum, Normal, None, Custom</translate>
+|<translate>'''[Maximum]''' This is the safest mode. It turns off most avatar features for all user Trust Ranks.
 <br />'''[Normal]''' Turns off avatar features for less trusted users and enables more features for trusted users.
 <br />'''[None]''' See almost all avatar features on all users, excluding nuisance users. WARNING: This mode is not recommended, as it exposes you to everything on all users!
-<br />'''[Custom]''' Customize which avatar features you want to see for each user Trust Rank.
+<br />'''[Custom]''' Customize which avatar features you want to see for each user Trust Rank.</translate>
 |}
 
 {| class="wikitable"
-|+ Visitor |Visitor | New User | User | Known User| Trusted | Friends | Safe Mode<br />"Custom" Shield Level is allowed to change values
-!Name
-!Values
-!Tooltip
+|+<translate>Visitor |Visitor | New User | User | Known User| Trusted | Friends | Safe Mode<br />"Custom" Shield Level is allowed to change values</translate>
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Voice
-|On/Off
-|Voice mutes or unmutes audio that emits from a user's microphone input for the combined Safety Mode and User
-Trust Rank.
+|<translate>Voice</translate>
+|<translate>On/Off</translate>
+|<translate>Voice mutes or unmutes audio that emits from a user's microphone input for the combined Safety Mode and User
+Trust Rank.</translate>
 |-
-|Avatar
-|On/Off
-|Avatar shows or hides the avatar for the combined Safety Mode and User Trust Rank.
+|<translate>Avatar</translate>
+|<translate>On/Off</translate>
+|<translate>Avatar shows or hides the avatar for the combined Safety Mode and User Trust Rank.</translate>
 |-
-| User Icons
-|On/Off
-|User Icons shows or hides the custom User Icons for the combined Safety Mode and User Trust Rank.
+|<translate>User Icons</translate>
+|<translate>On/Off</translate>
+|<translate>User Icons shows or hides the custom User Icons for the combined Safety Mode and User Trust Rank.</translate>
 |-
-|Custom Images 
-| On/Off
-|Custom Images shows or hides the custom Emojis, Sharing, Prints and Stickers for the combined Safety Mode and
-User Trust Rank.
+|<translate>Custom Images</translate>
+|<translate>On/Off</translate>
+|<translate>Custom Images shows or hides the custom Emojis, Sharing, Prints and Stickers for the combined Safety Mode and
+User Trust Rank.</translate>
 |-
-|Drone
+|<translate>Drone</translate>
 
-|On/Off
-|Drone hides or reveals a user's drone for the combined Safetry Mode and User Trust Rank.
+|<translate>On/Off</translate>
+|<translate>Drone hides or reveals a user's drone for the combined Safetry Mode and User Trust Rank.</translate>
 |-
-|Audio
-|On/Off
-|Audio mutes or unmutes audio emitted from a user's avatar for the combined Safety Mode and User Trust Rank.
+|<translate>Audio</translate>
+|<translate>On/Off</translate>
+|<translate>Audio mutes or unmutes audio emitted from a user's avatar for the combined Safety Mode and User Trust Rank.</translate>
 |-
-|Lights & Particles
-|On/Off
-|Particles and Lights turns on or off particles and lights on a user's avatar for the combined Safety Mode and User
-Trust Rank. Particles are components that shoot out effects, like graphics, fire, etc. 
+|<translate>Lights & Particles</translate>
+|<translate>On/Off</translate>
+|<translate>Particles and Lights turns on or off particles and lights on a user's avatar for the combined Safety Mode and User
+Trust Rank. Particles are components that shoot out effects, like graphics, fire, etc.</translate>
 |-
-|Shaders
-|On/Off
-|Shaders turns on or off shaders on a user's avatar for the combined Safety Mode and User Trust Rank.
+|<translate>Shaders</translate>
+|<translate>On/Off</translate>
+|<translate>Shaders turns on or off shaders on a user's avatar for the combined Safety Mode and User Trust Rank.</translate>
 |-
-|Custom Animations 
-|On/Off
-|Custom Animations turns on or off custom animations on a user's avatar for the combined Safety Mode and User
-Trust Rank.
+|<translate>Custom Animations</translate>
+|<translate>On/Off</translate>
+|<translate>Custom Animations turns on or off custom animations on a user's avatar for the combined Safety Mode and User
+Trust Rank.</translate>
 |-
-|Animated Emojis
-| On/Off
-|Animated Emoji allows Custom and Premium Emoji to be animated for the combined Safety Mode and User Trust Rank. 
+|<translate>Animated Emojis</translate>
+|<translate>On/Off</translate>
+|<translate>Animated Emoji allows Custom and Premium Emoji to be animated for the combined Safety Mode and User Trust Rank.</translate>
 |}
 
-===Graphics===
+<translate>
+=== Graphics ===
 
-====Basic ====
+==== Basic ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip 
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Screen Resolution
-|''(Values differ depending on user's monitor resolution)''
-|Set screen resolution
+|<translate>Screen Resolution</translate>
+|<translate>''(Values differ depending on user's monitor resolution)''</translate>
+|<translate>Set screen resolution</translate>
 |-
-| Fullscreen
-|On/Off
-|Set full screen
+|<translate>Fullscreen</translate>
+|<translate>On/Off</translate>
+|<translate>Set full screen</translate>
 |-
-|Quality Preset 
-|Low, Medium, High, Custom
-|Current graphics quality preset
+|<translate>Quality Preset</translate>
+|<translate>Low, Medium, High, Custom</translate>
+|<translate>Current graphics quality preset</translate>
 |-
-|Anti-Aliasing 
-|Disabled, X2, X4, X8
-|Current anti-aliasing quality
+|<translate>Anti-Aliasing</translate>
+|<translate>Disabled, X2, X4, X8</translate>
+|<translate>Current anti-aliasing quality</translate>
 |-
-|Mirror Resolution
-|Quarter, Half, Full, Unlimited 
-|Set the mirror resolution.<br>
-Set mirror resolution to [quarter/half/full/unlimited] mode 
+|<translate>Mirror Resolution</translate>
+|<translate>Quarter, Half, Full, Unlimited</translate>
+|<translate>Set the mirror resolution.<br>
+Set mirror resolution to [quarter/half/full/unlimited] mode</translate>
 |-
-|Shadows
-|Low, Medium, High
-|Set the shadow quality
+|<translate>Shadows</translate>
+|<translate>Low, Medium, High</translate>
+|<translate>Set the shadow quality</translate>
 |-
-|Level of Detail
-|Low, Medium, High
-|Level of Detail (LOD) Quality
+|<translate>Level of Detail</translate>
+|<translate>Low, Medium, High</translate>
+|<translate>Level of Detail (LOD) Quality</translate>
 |-
-|Third Person View
-|On/Off
-|Enable Third Person View. See VRChat from behind your avatar! Toggle with F5, freely rotate with TAB, and adjust distance using mouse-wheel.
+|<translate>Third Person View</translate>
+|<translate>On/Off</translate>
+|<translate>Enable Third Person View. See VRChat from behind your avatar! Toggle with F5, freely rotate with TAB, and adjust distance using mouse-wheel.</translate>
 |-
-|Third Person View Distance
+|<translate>Third Person View Distance</translate>
 |10 - 100%
-|Sets the maximum distance the third person viewpoint can extend away from your avatar when third person view is active
+|<translate>Sets the maximum distance the third person viewpoint can extend away from your avatar when third person view is active</translate>
 |-
-|Third Person View Horizontal
+|<translate>Third Person View Horizontal</translate>
 | -100 - 100%
-|Sets the left/right position for the third person viewpoint relative to your avatar
+|<translate>Sets the left/right position for the third person viewpoint relative to your avatar</translate>
 |-
-|Third Person View Vertical
+|<translate>Third Person View Vertical</translate>
 | -100 - 100%
-|Sets the up/down position for the third person viewpoint relative to your avatar
+|<translate>Sets the up/down position for the third person viewpoint relative to your avatar</translate>
 |-
-|Vertical Field of View
-|50-100°, Reset
-|Change the field of view
+|<translate>Vertical Field of View</translate>
+|<translate>50-100°, Reset</translate>
+|<translate>Change the field of view</translate>
 |-
-|Portrait FOV ''[Mobile]''
-|50-100°, Reset 
-|Change the field of view when in portrait mode
+|<translate>Portrait FOV ''[Mobile]''</translate>
+|<translate>50-100°, Reset</translate>
+|<translate>Change the field of view when in portrait mode</translate>
 |-
-|Landscape FOV ''[Mobile]'' 
-|50-100°, Reset
-|Change the field of view when in landscape mode
+|<translate>Landscape FOV ''[Mobile]''</translate>
+|<translate>50-100°, Reset</translate>
+|<translate>Change the field of view when in landscape mode</translate>
 |-
-|FPS
-|Capped, VSync, Unlimited
-|Controls the max fps for the system
+|<translate>FPS</translate>
+|<translate>Capped, VSync, Unlimited</translate>
+|<translate>Controls the max fps for the system</translate>
 |-
-|FPS Limit
-|''[Mobile]'' 20, 30, 60; ''[PC]'' 10-240; Reset
-|Set a maximum frame rate.
+|<translate>FPS Limit</translate>
+|<translate>''[Mobile]'' 20, 30, 60; ''[PC]'' 10-240; Reset</translate>
+|<translate>Set a maximum frame rate.</translate>
 |}
 
-====Advanced====
+<translate>
+==== Advanced ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Particle Physics Quality
-|Low, Medium, High
-|Set the particle physics quality
+|<translate>Particle Physics Quality</translate>
+|<translate>Low, Medium, High</translate>
+|<translate>Set the particle physics quality</translate>
 |-
-|Particle Limiter
-|On/Off 
-|Limit avatar particles. 
+|<translate>Particle Limiter</translate>
+|<translate>On/Off</translate>
+|<translate>Limit avatar particles.</translate>
 |-
-|Pixel Light Count
-|Off, Low, Medium, High
-|Set pixel light count to [off/low/medium/high]
+|<translate>Pixel Light Count</translate>
+|<translate>Off, Low, Medium, High</translate>
+|<translate>Set pixel light count to [off/low/medium/high]</translate>
 |-
-|Forced Camera Near Distance
-|Off, Dynamic, Forced
-|Overrides the camera near clip plane.<br>
+|<translate>Forced Camera Near Distance</translate>
+|<translate>Off, Dynamic, Forced</translate>
+|<translate>Overrides the camera near clip plane.<br>
 '''[OFF]''' Won't override the near clip value and will use the world's camera settings.<br>
 '''[Dynamic Mode]''' Will override camera near clip to 1mm view distance ow lowest possible with Unity's limits in regard to world far view distance. Resets at end of session.<br>
-'''[Forced Mode]''' Camera near distance will always be 1mm. WARNING: This can result in significant render issues in worlds with a high view distance. Resets on world change.
+'''[Forced Mode]''' Camera near distance will always be 1mm. WARNING: This can result in significant render issues in worlds with a high view distance. Resets on world change.</translate>
 |-
-|DPI Scale ''[Mobile]''
+|<translate>DPI Scale ''[Mobile]''</translate>
 |15-50%
-|The amount we scale down the devices DPI ''[sic]''
+|<translate>The amount we scale down the devices DPI ''[sic]''</translate>
 |}
 
-===Avatars===
+<translate>
+=== Avatars ===
 ''See also [[Special:MyLanguage/Avatars|Avatars]] for more detailed information.''
 
-====Your Avatar====
+==== Your Avatar ====
+</translate>
 {| class="wikitable"
-! Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Avatar Gestures
-|On/Off
-|When enabled, VRChat will attempt to match your current finger pose against the standard VRChat hand poses.
+|<translate>Avatar Gestures</translate>
+|<translate>On/Off</translate>
+|<translate>When enabled, VRChat will attempt to match your current finger pose against the standard VRChat hand poses.</translate>
 |-
-|Allow Avatar Cloning
+|<translate>Allow Avatar Cloning</translate>
 
-|On/Off
-|Allows other users to clone your current avatar
+|<translate>On/Off</translate>
+|<translate>Allows other users to clone your current avatar</translate>
 |-
-| Auto Disable Avatar Cloning
-|On/Off
-| Click to turn [on/off] automatically disabling avatar cloning upon entering a world
+|<translate>Auto Disable Avatar Cloning</translate>
+|<translate>On/Off</translate>
+|<translate>Click to turn [on/off] automatically disabling avatar cloning upon entering a world</translate>
 |-
-|Use Impostor as Fallback
-|On/Off
-|Choose whether or not to use [[Special:MyLanguage/Impostors|Impostors]] as a fallback avatar (when available)
+|<translate>Use Impostor as Fallback</translate>
+|<translate>On/Off</translate>
+|<translate>Choose whether or not to use [[Special:MyLanguage/Impostors|Impostors]] as a fallback avatar (when available)</translate>
 |}
 
-====Avatar Interactions====
+<translate>
+==== Avatar Interactions ====
+</translate>
 {| class="wikitable"
-! Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Pause Avatar Interactions
-|On/Off
-|'''[On]''' Click to resume interactions and activate overrides.<br>
-'''[Off]''' Click to pause ALL interactions, INCLUDING users you've overridden to allow.
+|<translate>Pause Avatar Interactions</translate>
+|<translate>On/Off</translate>
+|<translate>'''[On]''' Click to resume interactions and activate overrides.<br>
+'''[Off]''' Click to pause ALL interactions, INCLUDING users you've overridden to allow.</translate>
 |-
-|Avatar Allowed to Interact
-|Nobody, Friends, Everybody
-|Toggles interactions on or off.<br>
+|<translate>Avatar Allowed to Interact</translate>
+|<translate>Nobody, Friends, Everybody</translate>
+|<translate>Toggles interactions on or off.<br>
 '''[Friends]''' Allow Avatar Interactions with friends and users you've overridden to allow, except friends you've overridden to deny.<br>
 '''[Everyone]''' Allow Avatar Interactions with everyone, except users you've overridden to deny.<br>
-'''[Nobody]''' Deny Avatar Interactions with everyone, except users you've overridden to allow.
+'''[Nobody]''' Deny Avatar Interactions with everyone, except users you've overridden to allow.</translate>
 |-
-|Avatar Self Interact
-|On/Off
-|Click to [enable/disable] Self Interaction
+|<translate>Avatar Self Interact</translate>
+|<translate>On/Off</translate>
+|<translate>Click to [enable/disable] Self Interaction</translate>
 |}
 
-====Avatar Optimization====
+<translate>
+==== Avatar Optimization ====
+</translate>
 {| class="wikitable"
-!Name 
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Block Poorly Optimized Avatars
-| ''[Mobile]'' Very Poor, Poor and Below
-''[PC]'' Very Poor, Poor and Below, Don't Block
-|Set what avatars to block.<br>'''[Don't Block]''' Avatars won't be hidden based on optimization
-'''[Very Poor]''' Very Poor avatars will automatically be hidden
+|<translate>Block Poorly Optimized Avatars</translate>
+|<translate>''[Mobile]'' Very Poor, Poor and Below
+''[PC]'' Very Poor, Poor and Below, Don't Block</translate>
+|<translate>Set what avatars to block.<br>'''[Don't Block]''' Avatars won't be hidden based on optimization
+'''[Very Poor]''' Very Poor avatars will automatically be hidden</translate>
 
 '''[Poor and Below]''' Poor and worse avatars will automatically be hidden
 |-
-|Maximum Download Size
-| ''[Mobile]'' 0-10MB
-''[PC]'' 0-200MB
-|Set the maximum download size for slower connections or to save bandwidth
+|<translate>Maximum Download Size</translate>
+|<translate>''[Mobile]'' 0-10MB
+''[PC]'' 0-200MB</translate>
+|<translate>Set the maximum download size for slower connections or to save bandwidth</translate>
 |-
-|Maximum Uncompressed Size 
-|''[Mobile]'' 0-40MB
-''[PC]'' 0-500MB 
-|Set the maximum uncompressed size to prevent heavy avatars from loading.
+|<translate>Maximum Uncompressed Size</translate>
+|<translate>''[Mobile]'' 0-40MB
+''[PC]'' 0-500MB</translate>
+|<translate>Set the maximum uncompressed size to prevent heavy avatars from loading.</translate>
 |}
-====Avatar Culling====
+<translate>
+==== Avatar Culling ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Hide Avatar Beyond
-|5-50m, On/Off
-|Improve performance by reducing the number of avatars displayed.<br>
-Enable or disable limit.
+|<translate>Hide Avatar Beyond</translate>
+|<translate>5-50m, On/Off</translate>
+|<translate>Improve performance by reducing the number of avatars displayed.<br>
+Enable or disable limit.</translate>
 |-
-|Maximum Shown Avatars
-|0-80, On/Off
-|Improve performance by reducing the number of avatars displayed.<br>
-Enable or disable limit.
+|<translate>Maximum Shown Avatars</translate>
+|<translate>0-80, On/Off</translate>
+|<translate>Improve performance by reducing the number of avatars displayed.<br>
+Enable or disable limit.</translate>
 |-
-|Always Show Friend Avatars
-|On/Off
-| Toggle to always show friend avatars.
+|<translate>Always Show Friend Avatars</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle to always show friend avatars.</translate>
 |-
-|Allow override with "Show Avatar"
-|On/Off
-|Allow selected user's settings to override culling settings.
+|<translate>Allow override with "Show Avatar"</translate>
+|<translate>On/Off</translate>
+|<translate>Allow selected user's settings to override culling settings.</translate>
 |}
 
-====OSC====
+<translate>
+==== OSC ====
+</translate>
 {| class="wikitable"
-!Name 
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|OSC
-|On/Off
-|Toggle [[Special:MyLanguage/OSC|OpenSoundControl]] on or off.
+|<translate>OSC</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle [[Special:MyLanguage/OSC|OpenSoundControl]] on or off.</translate>
 |-
-|OSC Debug Panel
-|On/Off
-|Open a screen which will float in front of you and visualize any incoming OSC.
+|<translate>OSC Debug Panel</translate>
+|<translate>On/Off</translate>
+|<translate>Open a screen which will float in front of you and visualize any incoming OSC.</translate>
 |-
-|Reset Config
-|Reset
-|Reset the OSC configuration.
+|<translate>Reset Config</translate>
+|<translate>Reset</translate>
+|<translate>Reset the OSC configuration.</translate>
 |}
 
-===Mirrors ===
+<translate>
+=== Mirrors ===
 ''See also [[Special:MyLanguage/Mirrors|Mirrors]] for more detailed information.''
 
-====Personal Mirror====
+==== Personal Mirror ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-| Personal Mirror
-|On/Off
-|Turn the personal mirror on or off.
+|<translate>Personal Mirror</translate>
+|<translate>On/Off</translate>
+|<translate>Turn the personal mirror on or off.</translate>
 |-
-|Grabbable 
-| On/Off
-|Allows grabbing the mirror to move its world location.
+|<translate>Grabbable</translate>
+|<translate>On/Off</translate>
+|<translate>Allows grabbing the mirror to move its world location.</translate>
 |-
-|Tracking
-|World, Head, Playspace
-|Select the object which the mirror is anchored.<br>
+|<translate>Tracking</translate>
+|<translate>World, Head, Playspace</translate>
+|<translate>Select the object which the mirror is anchored.<br>
 '''[World]''' Mirror tracks world<br>
 '''[Head]''' Mirror tracks user's head<br>
-'''[Playspace]''' Mirror tracks playspace
+'''[Playspace]''' Mirror tracks playspace</translate>
 |-
-|Opacity
+|<translate>Opacity</translate>
 |0-100%
-|Set the opacity. [0%-100%]
+|<translate>Set the opacity. [0%-100%]</translate>
 |-
-|Immersive Move
-|On/Off
-|Enable movement controls when grabbing the mirror.
+|<translate>Immersive Move</translate>
+|<translate>On/Off</translate>
+|<translate>Enable movement controls when grabbing the mirror.</translate>
 |-
-|Mirror Snap
-|On/Off
-|The mirror will snap to specific angles when enabled.
+|<translate>Mirror Snap</translate>
+|<translate>On/Off</translate>
+|<translate>The mirror will snap to specific angles when enabled.</translate>
 |-
-|Calibration Mirror
-|On/Off 
-|When enabled shows a mirror while calibrating ''[sic]''
+|<translate>Calibration Mirror</translate>
+|<translate>On/Off</translate>
+|<translate>When enabled shows a mirror while calibrating ''[sic]''</translate>
 |-
-|Border
-|On/Off
-|Toggle a border to the mirror.
+|<translate>Border</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle a border to the mirror.</translate>
 |-
-|Show Other Players
-|On/Off
-|When enabled, your personal mirror will reflect other players.
+|<translate>Show Other Players</translate>
+|<translate>On/Off</translate>
+|<translate>When enabled, your personal mirror will reflect other players.</translate>
 |-
-|Show World
-|On/Off
-|When enabled, your personal mirror will reflect the world.
+|<translate>Show World</translate>
+|<translate>On/Off</translate>
+|<translate>When enabled, your personal mirror will reflect the world.</translate>
 |-
-|Show UI
-|On/Off
-|When enabled, your personal mirror will reflect the user interface.
+|<translate>Show UI</translate>
+|<translate>On/Off</translate>
+|<translate>When enabled, your personal mirror will reflect the user interface.</translate>
 |-
-|Reset Personal Mirror
-|Reset
+|<translate>Reset Personal Mirror</translate>
+|<translate>Reset</translate>
 
-|Resets all personal mirror changes
+|<translate>Resets all personal mirror changes</translate>
 |}
 
-==== Face Mirror====
+<translate>
+==== Face Mirror ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Face Mirror
-|On/Off
-|Turn the face mirror on or off. 
+|<translate>Face Mirror</translate>
+|<translate>On/Off</translate>
+|<translate>Turn the face mirror on or off.</translate>
 |-
-|Opacity
+|<translate>Opacity</translate>
 |0-100%
-|Set the opacity. [0%-100%]
+|<translate>Set the opacity. [0%-100%]</translate>
 |-
-|Size
+|<translate>Size</translate>
 |0-100%
-|Adjust the size of the face mirror.
+|<translate>Adjust the size of the face mirror.</translate>
 |-
-|Zoom
+|<translate>Zoom</translate>
 |0-100%
-|Adjust the zoom of the face mirror.
+|<translate>Adjust the zoom of the face mirror.</translate>
 |-
-|Reset Face Mirror
-|Reset
-|Resets all face mirror changes
+|<translate>Reset Face Mirror</translate>
+|<translate>Reset</translate>
+|<translate>Resets all face mirror changes</translate>
 |-
-|Face Mirror Spout Stream
-|On/Off
-|Allow external applications to access your Face Mirror as a Spout stream. The stream stays active whether Face Mirror is on or off.
+|<translate>Face Mirror Spout Stream</translate>
+|<translate>On/Off</translate>
+|<translate>Allow external applications to access your Face Mirror as a Spout stream. The stream stays active whether Face Mirror is on or off.</translate>
 |}
 
-===User Interface===
+<translate>
+=== User Interface ===
 
-====General UI Settings ====
+==== General UI Settings ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Menu Tooltips
-|On/Off
-|Display tooltips under the menu.
+|<translate>Menu Tooltips</translate>
+|<translate>On/Off</translate>
+|<translate>Display tooltips under the menu.</translate>
 |-
-|Interactive Object Tooltips 
-|Highlight Only, Tether, Tooltip, Controller
-|Change how tooltips on interactive objects in the world appear.
+|<translate>Interactive Object Tooltips</translate>
+|<translate>Highlight Only, Tether, Tooltip, Controller</translate>
+|<translate>Change how tooltips on interactive objects in the world appear.
 '''[Highlight Only]''' Only show the outline.
 '''[Tether]''' Show the outline and tether line.
 '''[Tooltip]''' Show the outline, tooltip and tether line.
-'''[Controller]''' Show the outline, tooltip, tether line and controller.
+'''[Controller]''' Show the outline, tooltip, tether line and controller.</translate>
 |-
-|Show Desktop Reticle
-|On/Off
-|Show a small dot in the center of the view
+|<translate>Show Desktop Reticle</translate>
+|<translate>On/Off</translate>
+|<translate>Show a small dot in the center of the view</translate>
 |-
-|Show Go Button On Load
-| On/Off
-|Show a "Go!" button before entering the world when it's ready
+|<translate>Show Go Button On Load</translate>
+|<translate>On/Off</translate>
+|<translate>Show a "Go!" button before entering the world when it's ready</translate>
 |-
-|Slider-Snapping
-|On/Off
-|[Enable/Disable] snapping to fixed increments when adjusting sliders
+|<translate>Slider-Snapping</translate>
+|<translate>On/Off</translate>
+|<translate>[Enable/Disable] snapping to fixed increments when adjusting sliders</translate>
 |-
-|Header Click Scrolls to Top of Page
-|On/Off
-|When enabled, clicking menu headers will scroll pages to the top
+|<translate>Header Click Scrolls to Top of Page</translate>
+|<translate>On/Off</translate>
+|<translate>When enabled, clicking menu headers will scroll pages to the top</translate>
 |-
-|Wing Persistence
-|On/Off
-|When persistence is [enabled/disabled]. Quick menu and main menu [share the same/each have their own unique] wing state. Click to [enable/disable] persistence.
+|<translate>Wing Persistence</translate>
+|<translate>On/Off</translate>
+|<translate>When persistence is [enabled/disabled]. Quick menu and main menu [share the same/each have their own unique] wing state. Click to [enable/disable] persistence.</translate>
 |-
-| Preferred Language
-|See Tooltip
-|English, French, Spanish, Italian, Korean, Deutsch, Japanese, Polski, Russian, Portuguese (Brazil), Simplified Chinese, Traditional Chinese, toki pona
+|<translate>Preferred Language</translate>
+|<translate>See Tooltip</translate>
+|<translate>English, French, Spanish, Italian, Korean, Deutsch, Japanese, Polski, Russian, Portuguese (Brazil), Simplified Chinese, Traditional Chinese, toki pona</translate>
 |-
-|AFK Detection
-|On/Off 
-|Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away
+|<translate>AFK Detection</translate>
+|<translate>On/Off</translate>
+|<translate>Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away</translate>
 |-
-|One Handed Movement ''[VR]'' 
-|On/Off
-| Toggle one handed controls for avatar movement.
+|<translate>One Handed Movement ''[VR]''</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle one handed controls for avatar movement.</translate>
 |}
 
+<translate>
 ==== Dates and Time ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Hour Mode
-|12 Hours, 24 Hours, System Default
-|Changes between 12 and 24 hour clock<br>
-'''[12 Hours]''' Change the clock to 12 hour mode
+|<translate>Hour Mode</translate>
+|<translate>12 Hours, 24 Hours, System Default</translate>
+|<translate>Changes between 12 and 24 hour clock<br>
+'''[12 Hours]''' Change the clock to 12 hour mode</translate>
 
 '''[24 Hours]''' Change the clock to 24 hour mode
 
 '''[System Default]''' Change the clock to the mode your operative system uses
 |-
-|Preferred Timezone 
-|System Default, and 141 others
-|Change the timezone used in dates and times calculations
+|<translate>Preferred Timezone</translate>
+|<translate>System Default, and 141 others</translate>
+|<translate>Change the timezone used in dates and times calculations</translate>
 |}
 
-====Nameplate====
+<translate>
+==== Nameplate ====
+</translate>
 {| class="wikitable"
-!Name
-!Value 
-!Tooltip
+!<translate>Name</translate>
+!<translate>Value</translate>
+!<translate>Tooltip</translate>
 |-
-|Nameplate Visibility
-|Standard, Icon, Hidden
-|Set nameplate visibility.<br>
+|<translate>Nameplate Visibility</translate>
+|<translate>Standard, Icon, Hidden</translate>
+|<translate>Set nameplate visibility.<br>
 '''[Standard]''' Show nameplate above every user<br>
 '''[Icon]''' Only show icons above each user<br>
-'''[Hidden]''' Don't show nameplates or icons
+'''[Hidden]''' Don't show nameplates or icons</translate>
 |-
-|Nameplate Scale
-|Tiny, Small, Normal, Medium, Large
-|Change the size of nameplates.<br>
-Shows [tiny/small/normal/medium/large] nameplates
+|<translate>Nameplate Scale</translate>
+|<translate>Tiny, Small, Normal, Medium, Large</translate>
+|<translate>Change the size of nameplates.<br>
+Shows [tiny/small/normal/medium/large] nameplates</translate>
 |-
-|Nameplate Opacity
+|<translate>Nameplate Opacity</translate>
 |0-100%
-|Change the opacity of the nameplates
+|<translate>Change the opacity of the nameplates</translate>
 |-
-|Show Group Banner
-| On/Off
-|Click to [show/hide] group nameplate banners 
+|<translate>Show Group Banner</translate>
+|<translate>On/Off</translate>
+|<translate>Click to [show/hide] group nameplate banners</translate>
 |-
-|Show Additional Info on Nameplates
-|On/Off
-|Show Additional Info is [enabled/disabled], click to [stop showing/show] expanded information on nameplates when the Quick Menu is open
+|<translate>Show Additional Info on Nameplates</translate>
+|<translate>On/Off</translate>
+|<translate>Show Additional Info is [enabled/disabled], click to [stop showing/show] expanded information on nameplates when the Quick Menu is open</translate>
 |-
-|Show Fallback Icon
-|On/Off
-|Fallback icon is [enabled/disabled], click to [disable/enable] the Fallback icon on nameplates
+|<translate>Show Fallback Icon</translate>
+|<translate>On/Off</translate>
+|<translate>Fallback icon is [enabled/disabled], click to [disable/enable] the Fallback icon on nameplates</translate>
 |-
-|Show Earmuffs Icon
-| On/Off
-|Toggle show earmuffs icon.
+|<translate>Show Earmuffs Icon</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle show earmuffs icon.</translate>
 |}
 
-====HUD====
+<translate>
+==== HUD ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|HUD Detail Level
-|Off, Minimal, Verbose
-|Change HUD detail level.<br>
+|<translate>HUD Detail Level</translate>
+|<translate>Off, Minimal, Verbose</translate>
+|<translate>Change HUD detail level.<br>
 '''[Verbose]''' Show notification popups<br>
 '''[Minimal]''' Only show icons<br>
-'''[Off]''' Disable HUD
+'''[Off]''' Disable HUD</translate>
 |-
-|Play Notification Audio
-|On/Off
-|Play audio when you receive a new notification
+|<translate>Play Notification Audio</translate>
+|<translate>On/Off</translate>
+|<translate>Play audio when you receive a new notification</translate>
 |-
-|Show Gesture Icons
-|On/Off
-|Gesture icons are [enabled/disabled], click to [disable/enable] them on HUD
+|<translate>Show Gesture Icons</translate>
+|<translate>On/Off</translate>
+|<translate>Gesture icons are [enabled/disabled], click to [disable/enable] them on HUD</translate>
 |-
-|HUD Smoothing ''[VR]''
-|On/Off
-|Toggle HUD Smoothing
+|<translate>HUD Smoothing ''[VR]''</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle HUD Smoothing</translate>
 |-
-|HUD Opacity
+|<translate>HUD Opacity</translate>
 |0-100%
-| Change HUD Opacity
+|<translate>Change HUD Opacity</translate>
 |-
-|Mic Opacity
+|<translate>Mic Opacity</translate>
 |0-100%
-|Change Mic Opacity
+|<translate>Change Mic Opacity</translate>
 |-
-|Mic Toggle Volume
+|<translate>Mic Toggle Volume</translate>
 |0-100%
-|Change Mic Toggle Volume
+|<translate>Change Mic Toggle Volume</translate>
 |-
-|Experimental: Use Outline Microphone Icon ''[VR]''
-|On/Off
-|Experimental: Use an outline-only microphone icon on the HUD. Force-enabled on certain OLED headsets to avoid burn-in.
+|<translate>Experimental: Use Outline Microphone Icon ''[VR]''</translate>
+|<translate>On/Off</translate>
+|<translate>Experimental: Use an outline-only microphone icon on the HUD. Force-enabled on certain OLED headsets to avoid burn-in.</translate>
 |-
-|Experimental: Use Pixel Shifting HUD ''[VR]''
-|On/Off
-|Experimental: Use pixel-shifting to avoid OLED burn-in. HUD elements will move in a circle very slowly. Force-enabled on certain OLED headsets to avoid burn-in.
+|<translate>Experimental: Use Pixel Shifting HUD ''[VR]''</translate>
+|<translate>On/Off</translate>
+|<translate>Experimental: Use pixel-shifting to avoid OLED burn-in. HUD elements will move in a circle very slowly. Force-enabled on certain OLED headsets to avoid burn-in.</translate>
 |}
 
-====HUD Verbose Mode Settings====
+<translate>
+==== HUD Verbose Mode Settings ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Show Join Notifications 
-|On/Off
-|Show user join notifications
+|<translate>Show Join Notifications</translate>
+|<translate>On/Off</translate>
+|<translate>Show user join notifications</translate>
 |-
-|Show Leave Notifications
+|<translate>Show Leave Notifications</translate>
 
-|On/Off
-|Show user leave notifications
+|<translate>On/Off</translate>
+|<translate>Show user leave notifications</translate>
 |-
-|Show Portal Notifications
-|On/Off
-|Show portal created notifications
+|<translate>Show Portal Notifications</translate>
+|<translate>On/Off</translate>
+|<translate>Show portal created notifications</translate>
 |-
-|Only Show Friends Join/Leave/Portal Notifications
-|On/Off
-|Only show join/leave/portal notifications for friends
+|<translate>Only Show Friends Join/Leave/Portal Notifications</translate>
+|<translate>On/Off</translate>
+|<translate>Only show join/leave/portal notifications for friends</translate>
 |-
-|Show Invites
-|On/Off
-|Show the invite notification popup
+|<translate>Show Invites</translate>
+|<translate>On/Off</translate>
+|<translate>Show the invite notification popup</translate>
 |-
-|Show Friend Requests
-|On/Off
-|Show the friend request notification popup
+|<translate>Show Friend Requests</translate>
+|<translate>On/Off</translate>
+|<translate>Show the friend request notification popup</translate>
 |-
-| Notification Position
-|Center, Right, Left 
-|Choose the anchor position for the notification popups
+|<translate>Notification Position</translate>
+|<translate>Center, Right, Left</translate>
+|<translate>Choose the anchor position for the notification popups</translate>
 |}
 
-====Chatbox====
+<translate>
+==== Chatbox ====
 Chatbox settings are also available in the Accessibility row.
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Local Chatbox Visibility
-|Mine, Friends, Everyone
-|Change chatbox visibility<br>
+|<translate>Local Chatbox Visibility</translate>
+|<translate>Mine, Friends, Everyone</translate>
+|<translate>Change chatbox visibility<br>
 '''[Mine]''' Only show your own chatbox<br>
 '''[Friends]''' Show chatboxes only from friends<br>
-'''[Everyone]''' Show chatboxes for everyone
+'''[Everyone]''' Show chatboxes for everyone</translate>
 |-
-| Chatbox Position
-|Above, Forward
-|Set chatbox to [above head/forward] position
+|<translate>Chatbox Position</translate>
+|<translate>Above, Forward</translate>
+|<translate>Set chatbox to [above head/forward] position</translate>
 |-
-|Chatbox Height
+|<translate>Chatbox Height</translate>
 |0-100%
-|Change chatbox height
+|<translate>Change chatbox height</translate>
 |-
-|Chatbox Size
+|<translate>Chatbox Size</translate>
 |50-150%
-|Change chatbox size
+|<translate>Change chatbox size</translate>
 |-
-|Chatbox Opacity
+|<translate>Chatbox Opacity</translate>
 |25-100%
-|Change chatbox opacity
+|<translate>Change chatbox opacity</translate>
 |-
-|Chatbox Display Duration
-|2-60 seconds
-|Change chatbox display duration
+|<translate>Chatbox Display Duration</translate>
+|<translate>2-60 seconds</translate>
+|<translate>Change chatbox display duration</translate>
 |-
-|Chatbox Notification Volume
-|On/Off, 0-100%
-|Change chatbox notification volume
+|<translate>Chatbox Notification Volume</translate>
+|<translate>On/Off, 0-100%</translate>
+|<translate>Change chatbox notification volume</translate>
 |-
-| Show Own Chatbox
-| On/Off
-|Show or hide your own chatbox
+|<translate>Show Own Chatbox</translate>
+|<translate>On/Off</translate>
+|<translate>Show or hide your own chatbox</translate>
 |-
-|Send Text Automatically
-|On/Off
-|Toggle chatbox auto send
+|<translate>Send Text Automatically</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle chatbox auto send</translate>
 |-
-| Chatbox Function
-|Clear Chatbox, New message
-|'''[Clear Chatbox]''' Clears the chatbox
-'''[New message]''' Opens chatbox input
+|<translate>Chatbox Function</translate>
+|<translate>Clear Chatbox, New message</translate>
+|<translate>'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input</translate>
 |}
 
-====Action Menu====
+<translate>
+==== Action Menu ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-| Action Menu Opacity
+|<translate>Action Menu Opacity</translate>
 | 0-100%
-|Changes action menu opacity
+|<translate>Changes action menu opacity</translate>
 |-
-|Action Menu Size
+|<translate>Action Menu Size</translate>
 |0-100%
-|Changes action menu size
+|<translate>Changes action menu size</translate>
 |-
-|Action Menu Left Opacity ''[VR]''
+|<translate>Action Menu Left Opacity ''[VR]''</translate>
 |0-100%
-|Changes left action menu opacity
+|<translate>Changes left action menu opacity</translate>
 |-
-|Action Menu Right Opacity ''[VR]''
+|<translate>Action Menu Right Opacity ''[VR]''</translate>
 |0-100%
-|Changes right action menu opacity
+|<translate>Changes right action menu opacity</translate>
 |-
-|Action Menu Left Size ''[VR]'' 
+|<translate>Action Menu Left Size ''[VR]''</translate>
 |0-100%
-| Changes left action menu size
+|<translate>Changes left action menu size</translate>
 |-
-|Action Menu Right Size ''[VR]''
+|<translate>Action Menu Right Size ''[VR]''</translate>
 |0-100%
-|Changes right action menu size
+|<translate>Changes right action menu size</translate>
 |-
-|Flick Select ''[VR]''
-|On/Off
-|Toggle flick select
+|<translate>Flick Select ''[VR]''</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle flick select</translate>
 |}
 
-====Notifications====
+<translate>
+==== Notifications ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-| Send and Receive Boops
-| On/Off
-|Toggles the ability to send and receive [[Booping|Boops]]
+|<translate>Send and Receive Boops</translate>
+|<translate>On/Off</translate>
+|<translate>Toggles the ability to send and receive [[Special:MyLanguage/Booping|Boops]]</translate>
 |-
-|Boop Emoji Effect
-|On/Off
-|Toggles the emoji particle effect when you receive Boops
+|<translate>Boop Emoji Effect</translate>
+|<translate>On/Off</translate>
+|<translate>Toggles the emoji particle effect when you receive Boops</translate>
 |-
-|Enable Automatic Group Invitations<ref group="Test">User needs to be within the cohort of the A/B test to see this setting</ref>
-|On/Off
-|Toggle the ability for group instances to send you automatic invitation notifications
+|<translate>Enable Automatic Group Invitations<ref group="Test">User needs to be within the cohort of the A/B test to see this setting</ref></translate>
+|<translate>On/Off</translate>
+|<translate>Toggle the ability for group instances to send you automatic invitation notifications</translate>
 |}
 <references group="Test" />
 
-===Controls===
+<translate>
+=== Controls ===
 ''See also [[Special:MyLanguage/Controls|Controls]] for more detailed information.''
 
 This menu will vary, depending on the device being used to access VRChat.
 
-====SteamVR====
+==== SteamVR ====
+</translate>
 {| class="wikitable"
-|+Control Settings ''[VR]''
-!Name
-!Values
-!Tooltip 
+|+<translate>Control Settings ''[VR]''</translate>
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-| Open SteamVR Input Bindings Panel
-|Edit SteamVR Bindings
-|Configuration for SteamVR Input is done through Steam Input Bindings
+|<translate>Open SteamVR Input Bindings Panel</translate>
+|<translate>Edit SteamVR Bindings</translate>
+|<translate>Configuration for SteamVR Input is done through Steam Input Bindings</translate>
 |-
-|Finger Tracking Exclusive Mode
-|On/Off
-|Exclusive Mode automatically excludes Inputs sent by SteamVR drivers while hand tracking is enabled. This can avoid conflicting inputs such as double-clicks
+|<translate>Finger Tracking Exclusive Mode</translate>
+|<translate>On/Off</translate>
+|<translate>Exclusive Mode automatically excludes Inputs sent by SteamVR drivers while hand tracking is enabled. This can avoid conflicting inputs such as double-clicks</translate>
 |-
-|Avatars Use Finger Tracking
-|On/Off
-|Avatars fingers will be animated by SteamVR skeletal data if enabled 
+|<translate>Avatars Use Finger Tracking</translate>
+|<translate>On/Off</translate>
+|<translate>Avatars fingers will be animated by SteamVR skeletal data if enabled</translate>
 |-
-|Double Tap Menu button opens Main menu
-|On/Off
-|Double tap the menu button to open the Main Menu
+|<translate>Double Tap Menu button opens Main menu</translate>
+|<translate>On/Off</translate>
+|<translate>Double tap the menu button to open the Main Menu</translate>
 |}
 
-====Desktop====
+<translate>
+==== Desktop ====
+</translate>
 {| class="wikitable"
-|+Control Settings ''[Desktop]''
-!Name
-!Values
-!Tooltip
+|+<translate>Control Settings ''[Desktop]''</translate>
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Mouse Look Sensitivity
+|<translate>Mouse Look Sensitivity</translate>
 |10-100%
-|Change how sensitive the mouse is when looking around the world
+|<translate>Change how sensitive the mouse is when looking around the world</translate>
 |-
-| Invert Mouse Look
-|On/Off
-|Invert up and down movement when looking around the world
+|<translate>Invert Mouse Look</translate>
+|<translate>On/Off</translate>
+|<translate>Invert up and down movement when looking around the world</translate>
 |}
 
-====Mobile====
+<translate>
+==== Mobile ====
+</translate>
 {| class="wikitable"
-|+Touch Control Settings ''[Mobile]''
-!Name
-! Values
-!Tooltip
+|+<translate>Touch Control Settings ''[Mobile]''</translate>
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Look Sensitvity 
+|<translate>Look Sensitvity</translate>
 | 0-100%
-|Change how sensitive the touch controls are 
+|<translate>Change how sensitive the touch controls are</translate>
 |-
-|Auto Rotate Speed
+|<translate>Auto Rotate Speed</translate>
 |0-30
-|Change how fast your rotate when you touch the edge of the screen
+|<translate>Change how fast your rotate when you touch the edge of the screen</translate>
 |-
-|Show Secondary UI
-|On/Off
-|[Show/Hide] the secondary UI on the left side of the screen
+|<translate>Show Secondary UI</translate>
+|<translate>On/Off</translate>
+|<translate>[Show/Hide] the secondary UI on the left side of the screen</translate>
 |-
-| Enable Auto Walk 
+|<translate>Enable Auto Walk</translate>
 
-|On/Off (default: Off)
-|Click to [enable/disable] auto walk
+|<translate>On/Off (default: Off)</translate>
+|<translate>Click to [enable/disable] auto walk</translate>
 |-
-|Invert Look
-|On/Off 
-|Invert up and down movement when looking around the world
+|<translate>Invert Look</translate>
+|<translate>On/Off</translate>
+|<translate>Invert up and down movement when looking around the world</translate>
 |-
-|Allow Focus View 
-|On/Off
-| Click to [enable/disable] focus view support
+|<translate>Allow Focus View</translate>
+|<translate>On/Off</translate>
+|<translate>Click to [enable/disable] focus view support</translate>
 |-
-| Interaction Mode
-|Direct Touch, Reticle Aim
+|<translate>Interaction Mode</translate>
+|<translate>Direct Touch, Reticle Aim</translate>
 
-|Change your interaction mode<br>
+|<translate>Change your interaction mode<br>
 '''[Direct Touch]''' Equip pickups by tapping on them<br>
-'''[Reticle Aim]''' Aim at pickups and tap the select button 
+'''[Reticle Aim]''' Aim at pickups and tap the select button</translate>
 |}
 
-===Tracking & IK===
+<translate>
+=== Tracking & IK ===
 
-====Camera Tracking ====
+==== Camera Tracking ====
 ''See also [[Special:MyLanguage/Selfie Expression|Selfie Expression]] for more detailed information.''
+</translate>
 {| class="wikitable"
-! Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-| Enable Selfie Expression
-|On/Off
-|Selfie Expression uses your camera to animate your avatar! No one will see your real face. Image data is processed locally on your divce, only used for animation, and never saved.
+|<translate>Enable Selfie Expression</translate>
+|<translate>On/Off</translate>
+|<translate>Selfie Expression uses your camera to animate your avatar! No one will see your real face. Image data is processed locally on your divce, only used for animation, and never saved.</translate>
 |-
-|Auto-Adjust Selfie Expression Quality 
-|On/Off 
-|Automatically adjust Selfie Expression quality depending on current frame rate
+|<translate>Auto-Adjust Selfie Expression Quality</translate>
+|<translate>On/Off</translate>
+|<translate>Automatically adjust Selfie Expression quality depending on current frame rate</translate>
 |-
-|Selfie Expression Quality Level
-|Best Quality/High Quality/Balanced/Performance/Off
-|'''[Best Quality]''' Quality - Selfie Expression uses camera with highest resolution and framerate<br />
+|<translate>Selfie Expression Quality Level</translate>
+|<translate>Best Quality/High Quality/Balanced/Performance/Off</translate>
+|<translate>'''[Best Quality]''' Quality - Selfie Expression uses camera with highest resolution and framerate<br />
 '''[High Quality]''' Quality - Selfie Expression uses camera with higher resolution and framerate<br />
 '''[Balanced]''' Balanced - Selfie Expression uses camera with medium resolution and framerate<br />
 '''[Performance]''' Performance - Selfie Expression disables hand tracking and uses minimum camera resolution and framerate<br />
-'''[Off]''' Off - Selfie Expression is disabled until frame rate improves
+'''[Off]''' Off - Selfie Expression is disabled until frame rate improves</translate>
 |-
-|Selfie Expression Also Moves Hands
-|On/Off
-| While Selfie Expression is enabled, and the Quality setting is set to 'Balanced' or above, allow moving hands via your webcam
+|<translate>Selfie Expression Also Moves Hands</translate>
+|<translate>On/Off</translate>
+|<translate>While Selfie Expression is enabled, and the Quality setting is set to 'Balanced' or above, allow moving hands via your webcam</translate>
 |-
-|Auto Recentering Speed
+|<translate>Auto Recentering Speed</translate>
 |0-100
-|Adjust how quickly your avatar will automatically recenter rotation (to compensate your camera offset)
+|<translate>Adjust how quickly your avatar will automatically recenter rotation (to compensate your camera offset)</translate>
 |-
-|Recenter
+|<translate>Recenter</translate>
 |
-|Instantly recenter your avatar to compensate for camera offset
+|<translate>Instantly recenter your avatar to compensate for camera offset</translate>
 |-
-|Reset
+|<translate>Reset</translate>
 |
-|Reset to default
+|<translate>Reset to default</translate>
 |-
-|Change Webcam Device
+|<translate>Change Webcam Device</translate>
 |
-|Change your current webcam device. Makes sure your webcam is not being used by other software
+|<translate>Change your current webcam device. Makes sure your webcam is not being used by other software</translate>
 |}
-====Eye Tracking====
+<translate>
+==== Eye Tracking ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Force Eyetracking Raycast
-|On/Off
-|When eyetracking is active, force eyes to converge at a distance determined by raycast hit
+|<translate>Force Eyetracking Raycast</translate>
+|<translate>On/Off</translate>
+|<translate>When eyetracking is active, force eyes to converge at a distance determined by raycast hit</translate>
 |-
-|Display Eyetracking Debug
-|On/Off
-|When eyetracking is active, display debug overlay information 
+|<translate>Display Eyetracking Debug</translate>
+|<translate>On/Off</translate>
+|<translate>When eyetracking is active, display debug overlay information</translate>
 |-
-|Disable Eye Look Tracking
-|On/Off
-|Disable tracking eye look direction
+|<translate>Disable Eye Look Tracking</translate>
+|<translate>On/Off</translate>
+|<translate>Disable tracking eye look direction</translate>
 |-
-|Disable Eye Lid Tracking
-|On/Off
-|Disable tracking eyelid closed amount
+|<translate>Disable Eye Lid Tracking</translate>
+|<translate>On/Off</translate>
+|<translate>Disable tracking eyelid closed amount</translate>
 |-
-|Mic Mute Disabled Eyetracking
-|On/Off
-|The in-app mic mute function will disable eyetracking as well (when not using push-to-talk mode)
+|<translate>Mic Mute Disabled Eyetracking</translate>
+|<translate>On/Off</translate>
+|<translate>The in-app mic mute function will disable eyetracking as well (when not using push-to-talk mode)</translate>
 |}
 
-====Finger Tracking====
+<translate>
+==== Finger Tracking ====
+</translate>
 {| class="wikitable"
-!Name
-!Values 
-!Tooltip 
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 
 |-
-|Jump Gesture
-|On/Off 
-|Enable or Disable jump Gesture
+|<translate>Jump Gesture</translate>
+|<translate>On/Off</translate>
+|<translate>Enable or Disable jump Gesture</translate>
 |-
-|Grab Gesture 
-|Grab/Pinch/Combined
-|Choose finger grab gesture
+|<translate>Grab Gesture</translate>
+|<translate>Grab/Pinch/Combined</translate>
+|<translate>Choose finger grab gesture</translate>
 |}
-====Calibration & Debug====
+<translate>
+==== Calibration & Debug ====
+</translate>
 {| class="wikitable"
-!Name 
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Legacy Calibration
-|On/Off 
-|Toggles using the old locked avatar position style of FBT calibration
+|<translate>Legacy Calibration</translate>
+|<translate>On/Off</translate>
+|<translate>Toggles using the old locked avatar position style of FBT calibration</translate>
 |-
-|One Handed Calibration
-| On/Off
-|Only require holding a single trigger rather than both when finalizing FBT calibration
+|<translate>One Handed Calibration</translate>
+|<translate>On/Off</translate>
+|<translate>Only require holding a single trigger rather than both when finalizing FBT calibration</translate>
 |-
-|Display Calibration Visuals 
-|On/Off
-|Display extra detail during FBT calibration, Adjust FBT mode, and eyetracking debug
+|<translate>Display Calibration Visuals</translate>
+|<translate>On/Off</translate>
+|<translate>Display extra detail during FBT calibration, Adjust FBT mode, and eyetracking debug</translate>
 
 |-
-|IK Debug Logging
-|On/Off
-|Adds additional output to the log regarding IK
+|<translate>IK Debug Logging</translate>
+|<translate>On/Off</translate>
+|<translate>Adds additional output to the log regarding IK</translate>
 |-
-|Per-Avatar Calibration Adjustment
-|On/Off
-|Changes made in Adjust FBT mode will be applied per-avatar
+|<translate>Per-Avatar Calibration Adjustment</translate>
+|<translate>On/Off</translate>
+|<translate>Changes made in Adjust FBT mode will be applied per-avatar</translate>
 |-
-|Allow Sending Head and Wrist VR Tracking OSC Data*
-|On/Off
-|Send VR system head and wrist OSC data
+|<translate>Allow Sending Head and Wrist VR Tracking OSC Data*</translate>
+|<translate>On/Off</translate>
+|<translate>Send VR system head and wrist OSC data</translate>
 
 |-
-|Calibration Range
-|0.05-2.00m
-|Determines the distance from predicted supported binding points that the caliibration will search (in meters). The closest binding point to the center of the search sphere will be used.
+|<translate>Calibration Range</translate>
+|<translate>{{formatnum:0.05}}-{{formatnum:2.00}}m</translate>
+|<translate>Determines the distance from predicted supported binding points that the caliibration will search (in meters). The closest binding point to the center of the search sphere will be used.</translate>
 |-
-|Confirm Calibration 
-|On/Off
-|Confirmation dialogs when clicking the "Calibrate FBT" button are [enabled/disabled], click to [disable/enable].
+|<translate>Confirm Calibration</translate>
+|<translate>On/Off</translate>
+|<translate>Confirmation dialogs when clicking the "Calibrate FBT" button are [enabled/disabled], click to [disable/enable].</translate>
 |-
-| FBT Tracker Model
-|Sphere, System, Box, Axis
-|Switch tracker model<br>
+|<translate>FBT Tracker Model</translate>
+|<translate>Sphere, System, Box, Axis</translate>
+|<translate>Switch tracker model<br>
 '''[Sphere]''' Sphere - Your trackers will display as the classic default white ball<br>
 '''[System]''' System - Your trackers will display using models provided by your VR system<br>
 '''[Box]''' Box - Your trackers will display as boxes with colored sides representing standard xyz axis colors (lighter colors for positive direction)<br>
-'''[Axis]''' Axis - Your trackers will display with axis aligned protrusions with colored tips representing standard xyz axis colors (lighter colors for positive direction) 
+'''[Axis]''' Axis - Your trackers will display with axis aligned protrusions with colored tips representing standard xyz axis colors (lighter colors for positive direction)</translate>
 |}
+<translate>
 '''''*Footnote regarding the Allow Sending Head and Wrist VR Tracking OSC Data option:''' Legal Disclaimer: You are enabling a feature that will share data about you with third-party services and devices using the OSC network protocol. if you proceed, you are expressly directing VRChat to share data from your headset and other accessories with services and devices that you configure to receive such data. You can turn off this feature at any time in the "Tracking & IK" main menu options page.''
 
-====Body Tracking====
+==== Body Tracking ====
+</translate>
 {| class="wikitable"
-!Name
-!Values 
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|User Real Height
-|(3'0"-8'0" ft)/(0.81m-2.44m)
-|User Real Height should always be set to your height in real life. its important for properly matching your avatar with your body.
+|<translate>User Real Height</translate>
+|<translate>(3'0"-8'0" ft)/({{formatnum:0.81}}m-{{formatnum:2.44}}m)</translate>
+|<translate>User Real Height should always be set to your height in real life. its important for properly matching your avatar with your body.</translate>
 |-
-|Metric Units Adjustment
-|On/Off 
-|Adjustment arrows for User Real hight increment in cm instead of inches<br>
-Adjustment arrows for User Real hight increment in inches instead of cm
+|<translate>Metric Units Adjustment</translate>
+|<translate>On/Off</translate>
+|<translate>Adjustment arrows for User Real hight increment in cm instead of inches<br>
+Adjustment arrows for User Real hight increment in inches instead of cm</translate>
 |-
-|Use Legacy IK Solving
-|On/Off
-|'''[Off]''' Now using new IK2.0<br>
-'''[On]''' Now using old legacy IK      
+|<translate>Use Legacy IK Solving</translate>
+|<translate>On/Off</translate>
+|<translate>'''[Off]''' Now using new IK2.0<br>
+'''[On]''' Now using old legacy IK</translate>
 |-
-|Disable Shoulder Tracking
-|On/Off
-|Prevents arm trackers from affecting shoulders. Use this to avoid issues with some types of IMU-only based arm trackers
+|<translate>Disable Shoulder Tracking</translate>
+|<translate>On/Off</translate>
+|<translate>Prevents arm trackers from affecting shoulders. Use this to avoid issues with some types of IMU-only based arm trackers</translate>
 |-
-|Freeze Tracking on Disconnect 
-|On/Off
-|Cause trackers to freeze in place relative to the user when they are disconnected   
+|<translate>Freeze Tracking on Disconnect</translate>
+|<translate>On/Off</translate>
+|<translate>Cause trackers to freeze in place relative to the user when they are disconnected</translate>
 |-
-|Shoulder Width Compensation
-|On/Off
-|Assists in straightening the arm when reaching upwards on avatars with narrow shoulders
+|<translate>Shoulder Width Compensation</translate>
+|<translate>On/Off</translate>
+|<translate>Assists in straightening the arm when reaching upwards on avatars with narrow shoulders</translate>
 |-
-| FBT Locomotion Animation
-|On/Off
-|FBT locomotion animation is [enabled/disabled] click to [enable/disable]
+|<translate>FBT Locomotion Animation</translate>
+|<translate>On/Off</translate>
+|<translate>FBT locomotion animation is [enabled/disabled] click to [enable/disable]</translate>
 
 |-
-|Tracker Motion Prediction 
+|<translate>Tracker Motion Prediction</translate>
 |0-100%
-|Set how much latency compensating moton prediciton to use on body trackers, only works for SteamVR trackers.
+|<translate>Set how much latency compensating moton prediciton to use on body trackers, only works for SteamVR trackers.</translate>
 |-
-|Wrist Angle
-| -45° to 45°
-|Offsets the angle of the wrist alignment toward or away from the thumb     
+|<translate>Wrist Angle</translate>
+|<translate>-45° to 45°</translate>
+|<translate>Offsets the angle of the wrist alignment toward or away from the thumb</translate>
 
 |-
-|Arm vs Height Ratio
+|<translate>Arm vs Height Ratio</translate>
 |30-60%
-|Adjusts the ratio used to scale the avatar when using mesure-by-arms mode  
+|<translate>Adjusts the ratio used to scale the avatar when using mesure-by-arms mode</translate>
 |-
-|Knee Angle 
-| -180° to 180°
-|Offsets the knee-bend angle as predicted by the foot angle. Ignored if knee trackers are used.
+|<translate>Knee Angle</translate>
+|<translate>-180° to 180°</translate>
+|<translate>Offsets the knee-bend angle as predicted by the foot angle. Ignored if knee trackers are used.</translate>
 |}
 
-===Accessibility===
+<translate>
+=== Accessibility ===
 
-====General Accessibility Settings====
+==== General Accessibility Settings ====
+</translate>
 {| class="wikitable"
-|+[VR Only]
-!Name
-!Values
-!Tooltip
+|+<translate>[VR Only]</translate>
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Holoport Locomotion
-|On/Off
-|Enable third person locomotion (Holoport)
+|<translate>Holoport Locomotion</translate>
+|<translate>On/Off</translate>
+|<translate>Enable third person locomotion (Holoport)</translate>
 |-
-|Locomotion Tunneling
-|None, Low, High
-| Choose locomotion style and tunneling to reduce motion sickness.<br>
+|<translate>Locomotion Tunneling</translate>
+|<translate>None, Low, High</translate>
+|<translate>Choose locomotion style and tunneling to reduce motion sickness.<br>
 '''[None]''' Standard movement with no tunneling<br>
 '''[Low]''' Add a light tunneling effect while moving<br>
-'''[High]''' Add a heavy tunneling effect when moving 
+'''[High]''' Add a heavy tunneling effect when moving</translate>
 |-
-|Third Person Rotation
-| On/Off
-|Reduces motion sickness while turning.
+|<translate>Third Person Rotation</translate>
+|<translate>On/Off</translate>
+|<translate>Reduces motion sickness while turning.</translate>
 |-
-|Responsive Menu
-|On/Off
-|'''[On]''' Responsive Menu is enabled, click to keep Main Menu in its default position.<br>
-'''[Off]''' Responsive Menu is disabled, click to always spawn the main menu in your eyeline. 
+|<translate>Responsive Menu</translate>
+|<translate>On/Off</translate>
+|<translate>'''[On]''' Responsive Menu is enabled, click to keep Main Menu in its default position.<br>
+'''[Off]''' Responsive Menu is disabled, click to always spawn the main menu in your eyeline.</translate>
 |}
 
-====Display and Visual Adjustments====
+<translate>
+==== Display and Visual Adjustments ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Screen Brightness
-|0-100% 
-|Adjust screen brightness
-|-
-|Bloom Intensity 
+|<translate>Screen Brightness</translate>
 |0-100%
-|Bloom multiplier. Set to 0% to disable bloom
+|<translate>Adjust screen brightness</translate>
 |-
-|Reduce Menu Animations
-|On/Off
-|Reduce Menu Animations is [enabled/disabled], click to [enable additional menu animations/reduce menu animations]
+|<translate>Bloom Intensity</translate>
+|0-100%
+|<translate>Bloom multiplier. Set to 0% to disable bloom</translate>
+|-
+|<translate>Reduce Menu Animations</translate>
+|<translate>On/Off</translate>
+|<translate>Reduce Menu Animations is [enabled/disabled], click to [enable additional menu animations/reduce menu animations]</translate>
 |}
 
-====Color Blind Filters====
+<translate>
+==== Color Blind Filters ====
+</translate>
 {| class="wikitable"
-!Name
-! Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Color Filters
-| On/Off
-|Enable/Disable color filters and their settings
+|<translate>Color Filters</translate>
+|<translate>On/Off</translate>
+|<translate>Enable/Disable color filters and their settings</translate>
 |-
-| Filter Intensity
+|<translate>Filter Intensity</translate>
 |0-100%
-|Change the intensity of the current filter
+|<translate>Change the intensity of the current filter</translate>
 |-
-|Apply To World
-| On/Off
-|Apply Filter to World
+|<translate>Apply To World</translate>
+|<translate>On/Off</translate>
+|<translate>Apply Filter to World</translate>
 |-
-|Color Filter
-|No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT
-|Select the color filter you would like to apply<br>
+|<translate>Color Filter</translate>
+|<translate>No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT</translate>
+|<translate>Select the color filter you would like to apply<br>
 '''[None]''' No filter selected<br>
 '''[Protanopia]''' Red / Green Filter<br>
 '''[Deuteranopia]''' Green / Red Filter<br>
 '''[Tritanopia]''' Blue / Yellow Filter<br>
 '''[Grayscale]''' Monochrome Filter<br>
-'''[Retro LUT]''' I Live In The Past Filter 
+'''[Retro LUT]''' I Live In The Past Filter</translate>
 |-
-|Simulate Color Blindness
-|On/Off
-|Simulate the selected color blindness option, rather than correcting for it.
+|<translate>Simulate Color Blindness</translate>
+|<translate>On/Off</translate>
+|<translate>Simulate the selected color blindness option, rather than correcting for it.</translate>
 |}
 
-====Haptics====
+<translate>
+==== Haptics ====
+</translate>
 {| class="wikitable"
-|+[VR and Mobile Only]
-!Name
-!Values
-!Tooltip
+|+<translate>[VR and Mobile Only]</translate>
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|UI Haptics
-|On/Off
-|When enabled your controller will react when interacting with UI elements
+|<translate>UI Haptics</translate>
+|<translate>On/Off</translate>
+|<translate>When enabled your controller will react when interacting with UI elements</translate>
 |-
-|Pickup Haptics
-|On/Off
-|Interact haptics are [enabled/disabled], click to [disable/enable]
+|<translate>Pickup Haptics</translate>
+|<translate>On/Off</translate>
+|<translate>Interact haptics are [enabled/disabled], click to [disable/enable]</translate>
 |-
-|Avatar Touch Haptics
-|On/Off
-|Avatar haptics are [enabled/disabled], click to [disable/enable] Avatar haptics
+|<translate>Avatar Touch Haptics</translate>
+|<translate>On/Off</translate>
+|<translate>Avatar haptics are [enabled/disabled], click to [disable/enable] Avatar haptics</translate>
 |}
+<translate>
 ''Warning: Haptics can result in faster battery drain''
 
-====Chatbox====
+==== Chatbox ====
 Chatbox settings are also available in the User Interface row.
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Local Chatbox Visibility
-|Mine, Friends, Everyone
-|Change chatbox visibility<br>
+|<translate>Local Chatbox Visibility</translate>
+|<translate>Mine, Friends, Everyone</translate>
+|<translate>Change chatbox visibility<br>
 '''[Mine]''' Only show your own chatbox<br>
 '''[Friends]''' Show chatboxes only from friends<br>
-'''[Everyone]''' Show chatboxes for everyone 
+'''[Everyone]''' Show chatboxes for everyone</translate>
 |-
-|Chatbox Position
-|Above, Forward
-|Set chatbox to [above head/forward] position
+|<translate>Chatbox Position</translate>
+|<translate>Above, Forward</translate>
+|<translate>Set chatbox to [above head/forward] position</translate>
 |-
-|Chatbox Height
+|<translate>Chatbox Height</translate>
 |0-100%
-|Change chatbox height
+|<translate>Change chatbox height</translate>
 |-
-|Chatbox Size
+|<translate>Chatbox Size</translate>
 |50-150%
-|Change chatbox size
+|<translate>Change chatbox size</translate>
 |-
-|Chatbox Opacity
+|<translate>Chatbox Opacity</translate>
 |25-100%
-|Change chatbox opacity
+|<translate>Change chatbox opacity</translate>
 |-
-|Chatbox Display Duration
-|2-60 seconds
-|Change chatbox display duration
+|<translate>Chatbox Display Duration</translate>
+|<translate>2-60 seconds</translate>
+|<translate>Change chatbox display duration</translate>
 |-
-|Chatbox Notification Volume
-|On/Off, 0-100%
-|Change chatbox notification volume
+|<translate>Chatbox Notification Volume</translate>
+|<translate>On/Off, 0-100%</translate>
+|<translate>Change chatbox notification volume</translate>
 |-
-|Show Own Chatbox
-|On/Off
-|Show or hide your own chatbox
+|<translate>Show Own Chatbox</translate>
+|<translate>On/Off</translate>
+|<translate>Show or hide your own chatbox</translate>
 |-
-|Send Text Automatically
-|On/Off
-|Toggle chatbox auto send
+|<translate>Send Text Automatically</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle chatbox auto send</translate>
 |-
-|Chatbox Function
-|Clear Chatbox, New message
-|'''[Clear Chatbox]''' Clears the chatbox
-'''[New message]''' Opens chatbox input 
+|<translate>Chatbox Function</translate>
+|<translate>Clear Chatbox, New message</translate>
+|<translate>'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input</translate>
 |}
 
-===Debug===
+<translate>
+=== Debug ===
 ''See also [[Special:MyLanguage/Debug Menu|Debug Menu]] for more detailed information.''
 
-====Debug====
+==== Debug ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|FPS
-|N/A
-|N/A
+|<translate>FPS</translate>
+|<translate>N/A</translate>
+|<translate>N/A</translate>
 |-
-|Ping
-|N/A
-|N/A
+|<translate>Ping</translate>
+|<translate>N/A</translate>
+|<translate>N/A</translate>
 |-
-|Build
-|N/A
-|N/A
+|<translate>Build</translate>
+|<translate>N/A</translate>
+|<translate>N/A</translate>
 |-
-|Report Bug
-|Report Bug
-|Logs when an issue is experienced<br>
-Click 'Continue' to create a timestamp in your active output log that can be included with your Bug Report (http://feedback.vrchat.com/bug-reports) or Support Ticket.
+|<translate>Report Bug</translate>
+|<translate>Report Bug</translate>
+|<translate>Logs when an issue is experienced<br>
+Click 'Continue' to create a timestamp in your active output log that can be included with your Bug Report ([http://feedback.vrchat.com/bug-reports feedback.vrchat.com]) or Support Ticket.</translate>
 |-
-|Clear Local Profile Data
-|Clear Local Profile Data
-|Clear the local profile data<br>
-The current user will be logged out.
+|<translate>Clear Local Profile Data</translate>
+|<translate>Clear Local Profile Data</translate>
+|<translate>Clear the local profile data<br>
+The current user will be logged out.</translate>
 |-
-|Open Logs Folder
-|Open Logs Folder
-|Open the local logs folder
+|<translate>Open Logs Folder</translate>
+|<translate>Open Logs Folder</translate>
+|<translate>Open the local logs folder</translate>
 |-
-|Logging
-|Full, Errors Only, Off
-|Controls whether to write debug messages to a log file<br>
+|<translate>Logging</translate>
+|<translate>Full, Errors Only, Off</translate>
+|<translate>Controls whether to write debug messages to a log file<br>
 '''[Full]''' Log all debug and error messages<br>
 '''[Errors Only]''' Log error messages only<br>
-'''[Off]''' Do not log any debug or error messages
+'''[Off]''' Do not log any debug or error messages</translate>
 |}
 
-====Avatar Debugging====
+<translate>
+==== Avatar Debugging ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Avatar Overlay
-|None, Proximity Bones, All Bones, Contacts
-|Displays bone and contacts information when enabled.<br>
+|<translate>Avatar Overlay</translate>
+|<translate>None, Proximity Bones, All Bones, Contacts</translate>
+|<translate>Displays bone and contacts information when enabled.<br>
 '''[None]''' No avatar debug mode<br>
 '''[Proximity Bones]''' Avatar shows proximity bones<br>
 '''[All Bones]''' Avatar shows all bones<br>
-'''[Contacts]''' Avatar shows contacts
+'''[Contacts]''' Avatar shows contacts</translate>
 |-
-|Avatar Debug
-|On/Off
-|Toggle the avatar debug console.
+|<translate>Avatar Debug</translate>
+|<translate>On/Off</translate>
+|<translate>Toggle the avatar debug console.</translate>
 |}
 
-====Managed Cached Data====
+<translate>
+==== Managed Cached Data ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|Clear Content Cache
-|Clear Content Cache
-|Remove all cached downloaded data<br>
-All cached downloaded content will be deleted. 
+|<translate>Clear Content Cache</translate>
+|<translate>Clear Content Cache</translate>
+|<translate>Remove all cached downloaded data<br>
+All cached downloaded content will be deleted.</translate>
 |-
-|Clear Local Avatar Data
-|Clear Local Avatar Data
-|Clear your saved persistent avatar parameters<br>
-Your local avatar data will be deleted.
+|<translate>Clear Local Avatar Data</translate>
+|<translate>Clear Local Avatar Data</translate>
+|<translate>Clear your saved persistent avatar parameters<br>
+Your local avatar data will be deleted.</translate>
 |-
-|Clear Texture Cache
-|Clear Texture Cache
-|Reduce cache size by removing cached textures<br>
-All locally cached textures will be deleted. 
+|<translate>Clear Texture Cache</translate>
+|<translate>Clear Texture Cache</translate>
+|<translate>Reduce cache size by removing cached textures<br>
+All locally cached textures will be deleted.</translate>
 |}
 
-====User Data====
+<translate>
+==== User Data ====
+</translate>
 {| class="wikitable"
-!Name
-!Values
-!Tooltip
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
 |-
-|User Data
-|Reset All User Data
-|Reset your saved user data in all worlds you've visited (to reset a specific world's user data, visit that world's page).
+|<translate>User Data</translate>
+|<translate>Reset All User Data</translate>
+|<translate>Reset your saved user data in all worlds you've visited (to reset a specific world's user data, visit that world's page).</translate>
 |}
 
-==History==
+<translate>
+== History ==
+</translate>
 {| class="wikitable"
-! colspan="2" style="width: 20%;" |Version
-!Change
+! colspan="2" style="width: 20%;" |<translate>Version</translate>
+!<translate>Change</translate>
 |-
 |[https://docs.vrchat.com/docs/vrchat-202623-open-beta 2026.2.3]
 |[https://docs.vrchat.com/docs/vrchat-202623-open-beta 1860]
-|Anti-aliasing is now available on every device and platform. Defaults are Disabled on mobile, 2x on standalone headsets, and 4x on PC and PCVR, with a maximum of 8x on any device.
+|<translate>Anti-aliasing is now available on every device and platform. Defaults are Disabled on mobile, 2x on standalone headsets, and 4x on PC and PCVR, with a maximum of 8x on any device.</translate>
 |-
 |[https://docs.vrchat.com/docs/vrchat-202622 2026.2.2]
 |[https://docs.vrchat.com/docs/vrchat-202622-open-beta 1849]
-|Settings search now allows direct text input on Desktop.
+|<translate>Settings search now allows direct text input on Desktop.</translate>
 |-
 |[https://docs.vrchat.com/docs/vrchat-202621 2026.2.1]
 |[https://docs.vrchat.com/docs/vrchat-202621-open-beta 1830]
-|Added "Third Person View", "Third Person View Distance", "Third Person View Horizontal", and "Third Person View Vertical" settings.
+|<translate>Added "Third Person View", "Third Person View Distance", "Third Person View Horizontal", and "Third Person View Vertical" settings.</translate>
 |-
-|[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3] 
+|[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3]
 |[https://docs.vrchat.com/docs/vrchat-202613-open-beta 1814]
-|Removed "Avatar Download Prioritization" options. VRChat now automatically prioritizes loading avatars of nearby users regardless of friend status.
+|<translate>Removed "Avatar Download Prioritization" options. VRChat now automatically prioritizes loading avatars of nearby users regardless of friend status.</translate>
 |-
-|[https://docs.vrchat.com/docs/vrchat-202612p1-1 2026.1.2p2]
+|<translate>[https://docs.vrchat.com/docs/vrchat-202612p1-1 2026.1.2p2]</translate>
 |1802
-|"Enable Auto Walk" default changed to Off for all users.
+|<translate>"Enable Auto Walk" default changed to Off for all users.</translate>
 |}
 
-[[Category:User Interface]]
+[[Category:User Interface{{#translation:}}]]
