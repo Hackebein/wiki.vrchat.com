@@ -4,13 +4,13 @@
 
 '''Portals''' are a method of traveling to different [[Special:MyLanguage/Worlds|worlds]] and [[Special:MyLanguage/Instances|instances]]. Portals can be present statically in worlds, or be 'dropped' by users.
 
-==Behavior==
+== Behavior ==
 
-===Creating===
+=== Creating ===
 
 A portal can be created by selecting a world on the World menu, choosing '''New Instance''', followed by the instance type, and region that the instance should be hosted in. After this selection, a second screen will appear, with a button that says '''Drop Portal''', and a Lock button next to it. Leaving it unlocked, allows any user to be able to see the portal; if the portal is locked, then the portal will only appear to your friends and yourself.
 
-===Dropping===
+=== Dropping ===
 
 Once the '''Drop Portal''' button is chosen, a visual marker appears to select the area where you want to place a portal. portals must be placed on a flat surface not intersecting with the world or players. The portal also cannot be placed near any spawn points.
 
@@ -28,20 +28,20 @@ Portals to Public/GroupPublic can be dropped by everyone. Portals to Group+ inst
 
 Multiple portals overlapping in the same location ("portal stacking") is intentional behavior and is not considered a bug.
 
-===Selecting===
+=== Selecting ===
 
 When a portal is available, they can be clicked on, like other users. By opening up the Quick Menu, clicking on a portal's capsule will open up its world page, and instance information. This allows you to pre-load the world instance instead of walking into the portal, as well as browse its world download size, or favorite it.
 
-==Static portals==
+== Static portals ==
 
 Portals may appear pre-placed in worlds, leading to other worlds. These are called "static portals". When a user walks into a static portal, the portal will display a newly generated instance ID. Within thirty seconds, any user may follow into that portal's instance. Static Portals do not disappear.
 
-== Settings==
+== Settings ==
 
-A variety of settings are available to customize portals. These can be accessed by going to the Settings Menu and typing '''''portal''''' in the Search bar. 
+A variety of settings are available to customize portals. These can be accessed by going to the Settings Menu and typing '''''portal''''' in the Search bar.
 
 *'''Portal Prompt''' - Toggles the requirement for input confirmation from a controller before entering a portal.
-*'''Portal Mode''' - Place Manually, Drop in Front. 
+*'''Portal Mode''' - Place Manually, Drop in Front.
 **'''Place Manually''' lets a user control where their portal is dropped.
 **'''Drop In Front''' causes the portal to instantaneously spawn in front of the user.
 *'''Show Portal Notifications''' - Notifications will appear on your HUD when a portal is dropped.
@@ -182,18 +182,18 @@ Above is a part of the full description, although it probably doesn't need to be
 |''"A mechanical portal designed with the "Ignition Point" theme of Vket 2026 Summer."''
 |}
 
-==SDK==
+== SDK ==
 
 World authors can add portals to their world via the [https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker] prefab from the [[Special:MyLanguage/VRChat SDK|VRChat SDK]]. It is located in <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>. It allows a world ID along with an optional custom portal name. Alternatively, the Portal Marker may point to the official VRChat Hub or Home World instead.
 
 VRC Portal Marker scripts can be updated dynamically through [[Special:MyLanguage/Udon|Udon]].
 
-==See also==
+== See also ==
 
 * [[Special:MyLanguage/Loading Screens|Loading Screens]]
 * [[Special:MyLanguage/Worlds|Worlds]]
 
-==Navigation==
+== Navigation ==
 {{Navbox/Inventory}}
 
 [[Category:Features{{#translation:}}]]
