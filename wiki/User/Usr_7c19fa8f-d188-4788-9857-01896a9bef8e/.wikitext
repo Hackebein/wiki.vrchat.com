@@ -1,0 +1,76 @@
+== Profile Overview ==
+<div style="--radius: 1rem; --card-bg: rgb(45, 50, 60); --card-padding: 1.5rem; --card-title-color: rgb(106, 227, 249); --text-color: rgba(255,255,255,0.9); --card-shadow: 0 4px 12px rgba(0,0,0,0.15); display: flex; flex-wrap: wrap; gap: 1.2rem; color: var(--text-color); font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;">
+
+  <!-- Profile Card -->
+  <div style="flex: 1 1 250px; background: var(--card-bg); border-radius: var(--radius); padding: var(--card-padding); display: flex; flex-direction: column; gap: 1rem; box-shadow: var(--card-shadow); transition: transform 0.2s; position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #6AE3F9, #41B8D5);"></div>
+    <div style="text-align: center;">
+      <h3 style="color: var(--card-title-color); margin-top: 1rem; margin-bottom: 0.25rem; font-size: 1.75rem; letter-spacing: 0.5px;">星川Maremo</h3>
+      <div style="font-size: 0.9rem; opacity: 0.8; font-style: italic;">mo~</div>
+    </div>
+    <hr style="border-color: rgba(255,255,255,0.15); border-top: none; width: 100%;" />
+    <div>
+      <div style="color: var(--card-title-color); font-weight: bold; text-transform: uppercase; font-size: 0.8rem; margin-bottom: 0.4rem; letter-spacing: 1px;">Status</div>
+      <div style="font-size: 1rem; padding: 0.3rem 0;">Tonから逃げたい</div>
+    </div>
+     <div>
+      <div style="color: var(--card-title-color); font-weight: bold; text-transform: uppercase; font-size: 0.8rem; margin-bottom: 0.4rem; letter-spacing: 1px;">[[Trust Ranks|Trust Rank]]</div>
+      <div style="font-size: 1rem; padding: 0.3rem 0; display: flex; align-items: center;">
+        <span style="display: inline-block; width: 10px; height: 10px; background: #5cb3fd; border-radius: 50%; margin-right: 8px;"></span>
+  Virtual User
+      </div>
+    </div>
+  </div>
+
+  <!-- Bio & Languages Card -->
+  <div style="flex: 2 1 400px; background: var(--card-bg); border-radius: var(--radius); padding: var(--card-padding); box-shadow: var(--card-shadow); position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #6AE3F9, #41B8D5);"></div>
+    <div style="color: var(--card-title-color); font-weight: bold; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 0.8rem; letter-spacing: 1px;">Bio</div>
+    <div style="font-size: 1rem; line-height: 1.6;">
+  地獄から光へと続く道は長く、厳しい。
+      <br/>
+  戦場を失ったとしても、すべてが失われたわけではない。征服されざる意志、復讐の念、不滅の憎悪、そして決して屈しない勇気。
+      <br/>
+    </div>
+    <hr style="border-color: rgba(255,255,255,0.15); border-top: none; width: 100%; margin-top: 1.2rem;" />
+     <div style="color: var(--card-title-color); font-weight: bold; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 0.8rem; margin-top: 1.2rem; letter-spacing: 1px;">Languages</div>
+     <div style="display: flex; gap: 0.7rem;">
+       <div style="background: linear-gradient(145deg, #333, #444); border-radius: 50%; width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" title="Thai">JPN</div>
+       <div style="background: linear-gradient(145deg, #333, #444); border-radius: 50%; width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" title="English">CHO</div>
+       <div style="background: linear-gradient(145deg, #333, #444); border-radius: 50%; width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; font-weight: bold; box-shadow: 0 2px 6px rgba(0,0,0,0.2);" title="Japanese">TWS</div>
+       </div>
+  </div>
+
+  <div style="flex: 1 1 300px; background: var(--card-bg); border-radius: var(--radius); padding: var(--card-padding); box-shadow: var(--card-shadow); position: relative; overflow: hidden;">
+     <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #6AE3F9, #41B8D5);"></div>
+     <div style="color: var(--card-title-color); font-weight: bold; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 0.8rem; letter-spacing: 1px;">Location</div>
+
+     <!-- Project 1: VRChat Thai Travel -->
+     <div style="margin-bottom: 1.2rem; overflow: hidden; border-left: 3px solid rgba(106, 227, 249, 0.5); padding-left: 12px;">
+        <h4 style="margin-bottom: 0.5rem; color: white; font-size: 1.15rem;">גן העדן האבוד</h4>
+        <div style="font-size: 0.95rem; line-height: 1.5;">
+  『失楽園』（しつらくえん、英語: Paradise Lost）とは、旧約聖書『創世記』第3章の挿話である。蛇に唆されたアダムとイヴが、神の禁を破って「善悪の知識の木」の実である「禁断の果実」を食べ、最終的にエデンの園を追放されるというもの。楽園喪失、楽園追放ともいう。
+        </div>
+     </div>
+  </div>
+
+  <div style="flex: 1 1 300px; background: var(--card-bg); border-radius: var(--radius); padding: var(--card-padding); box-shadow: var(--card-shadow); position: relative; overflow: hidden;">
+     <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #6AE3F9, #41B8D5);"></div>
+     <div style="color: var(--card-title-color); font-weight: bold; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 0.8rem; letter-spacing: 1px;">Connect</div>
+     <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.7rem;">
+        <li style="display: flex; align-items: center;">
+          <span style="margin-right: 8px; color: var(--card-title-color);">🌐</span>
+          <strong>Steam:</strong> [https://steamcommunity.com/id/Maremo/ Maremo]
+        </li>
+        <li style="display: flex; align-items: center;">
+          <span style="margin-right: 8px; color: var(--card-title-color);">🎮</span>
+          <strong>VRChat Profile:</strong> [https://vrchat.com/home/user/usr_7c19fa8f-d188-4788-9857-01896a9bef8e 星川Maremo]
+        </li>
+        <li style="display: flex; align-items: center;">
+          <span style="margin-right: 8px; color: var(--card-title-color);">💻</span>
+          <strong>Twitter:</strong> [https://twitter.com/Maremo_VRC X] 
+        </li>
+     </ul>
+  </div>
+
+</div>

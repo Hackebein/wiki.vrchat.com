@@ -1,0 +1,452 @@
+{{Noticebox/Community}}
+{{Infobox/World
+|name=Japan Street
+|image=Japan_Street_Thumbnail.png
+|developers=[https://vrchat.com/home/user/usr_c91c14d0-d221-4bb1-9dd5-49cd1138580b NEET ENGINEER] and others
+|author=[https://vrchat.com/home/user/usr_c91c14d0-d221-4bb1-9dd5-49cd1138580b NEET ENGINEER]
+|platforms=PC or Quest (Separate World)
+|languages=<strong>World</strong> - Mixed English and Japanese<br/><strong>Menu</strong> - English, Japanese
+|tags=Japanese City themed hangout world
+|id=wrld_02cb84c8-446a-484b-b52b-2c1777e55f8d
+|published=Aug 01 2019
+}}
+'''Japan Street''' is a [[Special:MyLanguage/Worlds|world]] created by NEET ENGINEER.
+
+The world exists on the PC and Quest platforms separately.
+
+It was published in 2019 and has since grown to be one of the largest hubs for the Japanese [[VRChat]] Community.
+
+=World Map=
+[[File:JPST_Map.png]]
+=World Menu=
+<gallery widths="520" heights="300">
+File:JPST_World_Menu.webp|World Menu
+File:JPST_World_Menu_QucikMenu.webp|World Menu (Quick Menu)
+</gallery>
+
+===Date and Time===
+Displayed your local date and time in YYYY/MM/DD format.
+
+===World Time===
+You have 3 type of settings available to choose from.
+{| class="wikitable"
+|-
+| 30 minutes cycle || Enviroment simulate 24 hours every 30 minutes
+|-
+| Real time || Sync to your local time
+|-
+| Manual || Manually set prefered time of day
+|}
+
+===Toggle Main Function===
+{| class="wikitable mw-collapsible mw-collapsed"
+|+
+| Ambient Sound || Toggle Enviroment Sound
+|-
+| Notification || Toggle HUD Notifications
+|-
+| Moving Vehicles || Toggle Moving Vehicles
+|-
+| Chair || Toggle sitting interaction
+|-
+| Akyo's Following || Toggle Akyo Who Follow You
+|-
+| Weather || Toggle Rain Visual
+|-
+| [[Community:AudioLink|AudioLink]] || Toggle AudioLink
+|}
+
+* AudioLink works based on world, player voice.
+
+===Quick Functions===
+{| class="wikitable mw-collapsible mw-collapsed"
+|+
+| Summon Console || Summon Console Window
+|-
+| Cancell Respawn || Spawn Back to Original Position
+|-
+| Reset Local Pickup Position || Reset Local Pickup Objects Position
+|-
+| Reset Local Config (long press) || Reset Local Configulations
+|}
+
+===Locale===
+You have 3 choice of localization of world menu.
+Automatically set based on timezone setting on join.
+
+*Japanese
+*English
+*Simplified Chinese
+
+===Graphics===
+{| class="wikitable"
+|-
+| Low || Set Graphic Setting as Low
+|-
+| Default || Set Graphic Setting as Default
+|-
+| High || Set Graphic Setting as High
+|}
+
+Auto Select: Toggle setting of Graphics Settings Automatically according to local fps.
+
+===Advanced Settings===
+{| class="wikitable mw-collapsible mw-collapsed"
+|+
+! Function !! Auto !! Details
+|-
+| Shadow || Yes || Toggle Shadow Visual
+|-
+| Sun Rays || No || Toggle Sub Rays Visual
+|-
+| High Quality Water || No || Toggle High Quality Water
+|-
+| Fog || No || Toggle Fog
+|-
+| Pole/Tree/Car etc... || Yes || Toggle Pole/Tree/Car and more
+|-
+| Street Light Effect || Yes || Toggle Street Light Effect
+|-
+| Bloom || No || Toggle Bloom
+|-
+| Indoor Light Correction || No || Toggle Indoor Light Correction
+|}
+
+===Console Commands===
+Those commands available to use on console.
+{| class="wikitable mw-collapsible mw-collapsed"
+|+
+! Command !! Description
+|-
+| /time set <H> <M> <S> || Time setting, minutes/seconds can be skipped. 
+Command forces manual time setting mode.
+|-
+| /time mul <Multiplier> || Time multiplier designation (Based on 24 hours)  0~9999,
+Command forces manual time setting mode.
+
+(For a 30 minute cycle, this is 48 times the real time, so: /time mul 48)
+|-
+| /ssw || Toggle SSW Mode
+Graphics Preset Auto Specify function for Virtual Desktop SSW function. 
+
+Half of the standard FPS is set for estimation.
+|-
+| /walk || Slow Walk Mode
+Walking Speed get reduced to half than default.
+|-
+| /qe || Toggle Keyboard Swivel Mode
+Option to swivel keyboard with the “Q” and “E” keys on the keyboard.
+|-
+| /darknight || Toggle Night Ambient Light Intensity Suppression Mode
+Dims ambient light at night (Especially in areas away from the center of city)
+|-
+| /ao || Toggle Screen Space Ambient Occlusion (Multi Scale Volumetric Obscurance)
+Visually better, but AO is misaligned when using VR mode. 
+
+Automatically disabled /sao or /pao if enabled
+|-
+| /pao || Toggle Projector-based Ambient Occlusion
+MSVO get performed on the building only, result get projected by a projector.
+
+Does not affect the avatar and does not shift like when /ao in used with a VR Camera.
+
+Workload is high due to projection. 
+
+Automatically disabled /ao or /sao if enabled.
+|-
+| /sao || Toggle Screen Space Ambient Occlusion (Scalable Ambient Obscurance)
+May flicker, but AO will not shift when taking pictures in VR mode. 
+
+Automatically disabled /ao or /pao if enabled.
+|-
+| /fps || Toggle Frame Rate Graph
+Toggle frame rate graph on Mini Map.
+|-
+| /dev || Toggle Developer Mode
+All player coordinate periodic log output and more...
+|-
+| /kick <ID> || For Admin, Kick Specified Player. (Not in Use)
+|-
+| /rstcar || For Admin, Reset Car Position.
+|-
+| /rstcam || For Admin, Reset Synced Camera Position.
+|}
+Main menu can also be controled though commands.
+{| class="wikitable mw-collapsible mw-collapsed"
+|+
+! Command !! Description
+|-
+| /shadow || Toggle Shadow.
+|-
+| /sunray || Toggle Sun Flare, It only works when the shadow is ON.
+|-
+| /hqwater || Toggle High Quality Water, Only effective when shadows are ON.
+|-
+| /fog || Toggle Fog, Only effective when shadow is ON.
+|-
+| /prop || Toggle Poles/Trees/Cars and more.
+|-
+| /beam || Toggle Street Light Effect.
+|-
+| /bloom || Toggle Bloom.
+|-
+| /avtrlight || Toggle Avatar Light.
+|-
+| /al || Toggle AudioLink.
+|}
+
+=PC & Quest worlds=
+Due to the world size limitation of 50MB at the time, this world has been split between PC and Quest. 
+
+The Quest world used to be updated regularly, but the updates have been suspended since the problem with VRChat for Quest crashing during world initialization. 
+
+The current [https://vrchat.com/home/world/wrld_76b7fb21-1a84-4b49-bb04-f4510d03a358 Japan Street Quest] is based on PC's version 0.309 (excluding some functionalities).
+
+=Concept=
+'Japanese City that looks like it could exist in real life.' 
+
+This world was developed through a collaboration of volunteers, with models being brought together to recreate a Japanese cityscape.
+
+=Community=
+There is an official VRChat group "[https://vrchat.com/home/group/grp_5192fe07-f10b-41b7-8a76-4773f7bbad5a Japan Street町内会]" which exists for this world.
+
+=World Metrics=
+According to official metrics on the VRChat website, the world has received 42,000 favorites as of July 2024.
+
+{| class="wikitable"
+|+ Visitor Metrics of the City of Akyo
+|-
+! Year !! Visits !! Favorites
+|-
+| December 2023 || 1,000,000 || ?
+|-
+| September 2024 || 1,300,000 || 46,500
+|}
+
+=Akyo=
+Akyo is a mysterious animal that exists in Japan Street.
+There are currently over 100 styles of Akyo that exist, with each model having a dedicated pedestal next to Station Park by Haihocho Station.
+
+<gallery widths="260" heights="150">
+File:JPST_Akyo1.png|Akyo sitting by Haihocho Station
+File:JPST_Akyo2.png|Public Pedestal of Akyo Avatars next to convenience store by Haihocho Station
+File:JPST_Akyo_Jump.webp|Akyo in fridge at convenience store
+</gallery>
+
+=History=
+{| class="wikitable"
+|+ History of Japan Street
+|-
+| April 2020 || Japan Street was born while taking over the previous world ID
+|-
+| May 2020 || The name of the City was selected as "City of Akyo" and a Tram was added.
+|-
+| April 2021 || Bus added to the world.
+|-
+| May 2021 || Niito High School added.
+|-
+| January 2022 || Port of Akyo added.
+|-
+| August 2022 || Official Website added.
+|-
+| September 2023 || Navys Memorial Park added.
+|-
+| December 2023 || 1,000,000 visits were reached.
+|-
+| February 2024 || Interior of Shopping Center "Akyon" added.
+|}
+
+= Transport =
+<big>There are several public transport available within the city.</big>
+
+<gallery widths="260" heights="150">
+File:JPST_Haihocho_Station1.png|Subway Central Line (Haihocho Station)
+File:JPST_Bus.png|City Bus Service
+File:JPST_Tram.png|City Tram Service
+File:JPST_Narasaka_Electric_Railway.png|Narasaka Electric Railway
+File:JPST_Shinkansen.png|Shinkansen (Station does not exist)
+File:JPST_River_Boat.png|River Boat
+File:JPST_Port_of_Akyo.png|Port of Akyo
+</gallery>
+
+==City Bus & Tram Services==
+===Mt.Niito View Point Line===
+Operates every 5 minutes.
+
+===== Famous Destinations =====
+
+* Haihocho Station
+* Mt.Niito View Point
+
+
+===Akyo City Station Primary School Line===
+Operates every 5 minutes, and goes one way.
+
+====Famous Destination ====
+
+* Tsukudaoriji Avenue
+* Daiichi Primary School
+
+
+===Industrial Park Line===
+Operates every 5 minutes.
+
+====Famous Destination ====
+
+* Industrial Park Avenue
+* Church
+* Inaribashi Bridge
+
+
+===Tram (Loop Line)===
+Operates every 5 minutes, and goes both ways.
+
+====Famous Destination ====
+
+* Haihocho Station
+* Gisu Inari Shrine
+* Takachiho Coast
+* Mt. Niito Trail Point
+
+=Achievements=
+Four achievements exist within this world.
+
+{| class="wikitable sortable"
+|+ List of Archivements
+|-
+! Archivements !! Details
+|-
+| Coal Mine Maze || Try escape from maze. Maze updated daily.
+|-
+| Clear Katayama Laser || Try solve laser puzzle.
+|-
+| Teleport to Space Telescope || Try point telescope to space telescope.
+|-
+| Find "W" in Grass || Find grass with unusual character.
+|}
+
+<gallery widths="260" heights="150">
+File:JPST_Coal_Mine_Maze.webp|Coal Mine Maze
+File:JPST_Katayama_Laser.webp|Clear Katayama Laser
+File:JPST_Space_Telescope1.webp|Teleport to Space Telescope
+File:JPST_Space_Telescope2.webp|View from Space Telescope
+File:JPST_Grass_W.webp|Find "W" in Grass
+</gallery>
+
+=Gimmicks=
+There are so many gimmicks that exist in this world.
+[[File:JPST_Gimmicks_List.webp]]
+List of gimmicks (Japanese transcript) available to check behind event calender by Haihocho Station
+
+==Time==
+
+There are three modes of time provided in this world.
+
+* '''30 Minutes Cycle''': One day passes in 30 minutes, which is the default setting of this world. The world time will be the same regardless of time zone.
+* '''Real-Time''': Time will follow your PC clock.
+* '''Manual''': Manually set time by hand. You can set time by slider or command.
+
+==Teleportation==
+
+Several teleportation methods are offered in the world. 
+
+Some exist for warping to rooftops or special warp functions, but here we mention those for shortcuts in movement.
+
+* '''Public Telephones''': By interacting with a public telephone in the world, you can warp to a telephone tower at a telephone station. And vice versa.
+* '''Public Restrooms''': Entering and exiting the back room of a public restroom in the world will warp you to a different public restroom.
+* '''Teleport to User''': Teleportation for any user is implemented (opt-out).
+
+<gallery widths="260" heights="150">
+File:JPST_Telephone_Booth.png|Public Telephones
+File:JPST_Toilet.png|Public Restrooms
+File:JPST_P_Teleport.png|Teleport to User at Spawn
+</gallery>
+
+=Culture=
+===Art and Music===
+<gallery widths="260" heights="150">
+File:JPST_History_Museum1.png|Outside of History Museum
+File:JPST_History_Museum2.png|History Exhibition at the moment
+
+File:JPST_Art_Museum1.png|Outside of Art Museum
+File:JPST_Art_Museum2.png|Art Exhibition at the moment
+
+File:JPST_Exhibition_Venue1.png|General Exhibition Venue
+File:VRChat 2024-08-21 16-58-23.336 2560x1440 wrld 02cb84c8-446a-484b-b52b-2c1777e55f8d.png|Interior of Exhibition Venue
+
+File:JPST Open Air Event Dome.png|Open Air Musical Dome
+File:JPST_Performance_by_Station.png|Performance booth by Haihocho Station
+</gallery>
+
+===Education===
+There is tutorial space available for new VRChat user inside world.
+<gallery widths="260" heights="150">
+File:JPST_Tutorial.png|VRChat Tutorial Exihibition near Haihocho Station 
+</gallery>
+
+=Landmarks=
+===Haihocho Station===
+The World Spawn is by the ticket gate of this station.
+
+People mostly gather around this station, and is a major hub for transport.
+
+Street performers can be seen doing live performances opposite the station road.
+
+<gallery widths="260" heights="150">
+File:JPST_Haihocho_Station1.png|Ticket Gate of Station (Spawn of World)
+File:JPST_Haihocho_Station2.png|Front of Station Building
+</gallery>
+
+===Navys Memorial Park===
+Located in the North of the City.
+
+<gallery widths="260" heights="150">
+File:JPST Navys Pk.png|
+</gallery>
+
+=Special Place=
+This world have some special place you can visit.
+
+===Backroom===
+Backroom inspired room located below shopping center.
+
+===Error World===
+Error world be somewhere you go when there is issue joining instance often.
+
+<gallery widths="260" heights="150">
+File:JPST_BackRoom.webp|Backroom inspired area
+File:JPST_Error.webp|Error World inspired area
+</gallery>
+
+=Events=
+Some major and minor events happen throughout the year.
+Check the official website or social media for more info.
+
+=== New Year Eve and New Year Celebration ===
+There is annual event which taken a palce on New Year Eve and New Year Day.
+
+Tour thoughout the world and experience way Japanese people commonly did in real life.
+
+=== World Metric Aniversary Celecration ===
+When reach certain breaking point at metrics, world do celebrate it on occation.
+<gallery widths="260" heights="150">
+File:JPST_1st_Aniversary1.png|1st year aniversary object outside Library
+File:JPST_2nd_Aniversary.png|2nd year aniversary object front of station garage
+</gallery>
+
+=Collaborative Community Project=
+Japan Street is a world that is actively developing with the contributions of world models made by the visitors.
+Anyone can contribute by making models of buildings and more, as long as they follow the rules set by the author.
+[[File:JPST_Collab.png]]
+
+= Related Worlds =
+
+* [https://vrchat.com/home/world/wrld_e5f87a59-70a9-4110-9af9-67bc0e38195b Legacy Japan Street]: Snapshot of Japan Street around 10 days from version 0.1.
+* [https://vrchat.com/home/world/wrld_76b7fb21-1a84-4b49-bb04-f4510d03a358 Japan Street Quest]: Cross-platform version, but not maintained unless there are major bugs.
+
+= Links =
+* [https://akyo.city/ Official Website]
+* [https://vrchat.com/home/world/wrld_76b7fb21-1a84-4b49-bb04-f4510d03a358 Japan Street Quest ]
+
+[[Category:Worlds]]
+[[Category:Japanese]]

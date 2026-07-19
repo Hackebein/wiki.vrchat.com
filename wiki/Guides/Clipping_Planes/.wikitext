@@ -1,0 +1,12 @@
+{{Noticebox/Community}}
+{{Noticebox/Stub}}
+
+'''Clipping Planes''' are a component of Camera objects in Unity. They determine the distances at which objects, including your own avatar, can be seen. The '''Near''' value is how close an object can be to the camera before it stops being rendered. The '''Far''' value is how far away an object can be from the camera while still being rendered. Unity clamps the Far value to 100,000 times the Near value.
+
+=== Main Camera ===
+VRChat uses the values in the Main Camera game object to determine the object render distances for the player. Decreasing the Near distance can create a more cozy environment, allowing player's avatars to be closer to each others faces without being culled. This can also improve the rendering of avatar components using VRCHeadChop. Increasing the Far distance value will allow players to see the environment further away. If the terrain or objects in the background of your world are disappearing when you look around, increasing the Far value can fix that problem. Remember that the Far value is clamped by the Near value, if increasing the Far value isn't doing anything, you may need to increase the Near value too.
+
+=== Other Cameras ===
+Camera game objects that render to a texture also use Clipping Planes. They will attempt to render every game object in the range of their Clipping Planes, this can cause massive performance issues, because they may be trying to render the whole world an additional time. Reducing the Far plane to only what the camera needs to see can solve this issue. For example, a security camera that sees only one room should have the Far value reduced to the size of the room.
+
+[[Category:Guides]]

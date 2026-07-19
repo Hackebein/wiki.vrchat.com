@@ -1,0 +1,64 @@
+.tpl-infopush {
+	position: relative;
+	padding: 0 !important;
+	overflow: hidden;
+	aspect-ratio: 1024 / 312;
+	transform: translateX(0%);
+	grid-column: span 2 / span 2;
+}
+
+.tpl-infopush-content {
+	display: flex;
+	transition: transform 0.3s;
+	transform: translateX(0%);
+}
+
+.tpl-infopush-item, .tpl-infopush-item p {
+	margin: 0;
+	display: contents;
+}
+
+.tpl-infopush-item a {
+	width: 100%;
+	flex-shrink: 0;
+	background: none !important;
+	padding: 0 !important;
+}
+
+.tpl-infopush-item img {
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.tpl-infopush-navigation {
+	display: flex;
+	justify-content: space-between;
+	pointer-events: none;
+	position: absolute;
+	inset: 0;
+}
+
+.tpl-infopush-navigation-item {
+	height: 100%;
+	width: 15%;
+	cursor: pointer;
+	pointer-events: all;
+	background-size: 2rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0%;
+	transition: opacity 200ms;
+	background-color: #0006; /* 😺 darken section on hover */
+}
+
+.tpl-infopush-navigation-item:hover {
+	opacity: 100%;
+}
+
+.tpl-infopush-navigation-previous {
+	background-image: url("https://wiki-files.vrchat.com/Icons_Arrow_Left.png");
+}
+
+.tpl-infopush-navigation-next {
+	background-image: url("https://wiki-files.vrchat.com/Icons_Arrow_Right.png");
+}

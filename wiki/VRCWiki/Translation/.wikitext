@@ -1,0 +1,62 @@
+Thank you for your interest in translating Wiki articles.
+
+==List of available languages==
+If you interested in add more language(s), let us know on our discord.
+* Brazilian Portuguese
+* English
+* French
+* German
+* Italian
+* Japanese
+* Korean
+* Polish
+* Russian
+* Spanish
+* Simplified Chinese
+* Traditional Chinese
+
+==List of page available to translate==
+As we are under review for how system works, only available to translate on following pages listed under [[Special:PageTranslation]].
+
+== How to translate ==
+If you want to translate a page that has never been translated before, please ask a maintainer to enable it. (To be changed)
+
+To translate a page, please follow these steps to continue:
+# Add "?veaction=edit" at end of a URL of the page you want to translate.
+# Click "Translate this page".
+# Select the language to translate to.
+
+==For proofreaders==
+Please go to review page and review translation.
+If you think it is correct, please approve/fix it accordingly.
+
+Maintainers will double check compliance with Wiki rules accordingly.
+
+If you have any concern, feel free to ask maintainer on discord.
+
+==For maintainers==
+<big>'''New pages to be add accordingly based on metric and demand.'''</big>
+
+Please follow the steps below:
+(Remove space from syntax when use)
+
+# Pick a page name.
+# Go to page and add following formats. (remove blank)
+## <nowiki><languages/></nowiki> to really top
+## Add <nowiki><translate></nowiki> before <nowiki><!--T:1--></nowiki>.
+## Add translation unit accordingly to split between category or/and section. 
+## Add ```Special:MyLanguage/``` front of all interlink.
+## Add <nowiki></translate></nowiki> after last translation unit.
+## Add ```<nowiki>{{#translation:}}</nowiki>``` to all categories after term within blakets.
+### *Example: <nowiki>[[Category:Worlds{{#translation:}}]]</nowiki>.
+### *Not need to do if no category assigned. 
+### *It include template attached to page if not works.
+# Go to [[Special:PagePreparation|Prepare page for translation]].
+# Input the page name and click "Prepare".
+# Enter language settings.
+# Press "Publish".
+# Click "Mark this page for translation".
+# Review the script and click "Mark this version for translation".
+# It should work now.
+
+In case the non-translated original page which marked for translation got updated, go to [[Special:PageTranslation|Translatable Pages]] and mark for translation accordingly.

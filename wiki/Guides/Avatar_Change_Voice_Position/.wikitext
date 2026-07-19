@@ -1,0 +1,15 @@
+{{Noticebox/Community}}{{Noticebox/Stub}}
+
+VRChat currently does not have a supported way to change where your voice on your avatar comes from. This is a unintended feature, and may break in the future. This trick also does not support generic avatars.
+
+Normally VRChat has the player's voice follow the avatar's humanoid configured head bone. So with constraints, you can move your head bone, and your voice will move along with it. If you don't want your avatar's head detached or stretched, it will require a little more setup.
+
+== Setup ==
+First, you will need to modify your avatar (this is usually done in something like Blender) to have two head bones. The first one will have no weight painting; this will be your humanoid configured head. The second will have the head mesh weight painted to it, and any extra bones, for example, ears, will be on this one. This second head bone will be the visual head that people see.[[File:Voice position avatar setup.webp|thumb|Example of the two head bones|none]]Next is to set up the head bones in Unity. First, go to the rig humanoid configuration menu. Here you will need to make sure your avatar's humanoid head bone with no weight painting is configured as the head. 
+[[File:Voice position humanoid configuration.webp|none|thumb|Humanoid configuration]]
+For the visual head bone you will need to add a [https://creators.vrchat.com/avatars/avatar-dynamics/constraints/vrc-rotation-constraint/ rotation constraint] and a [https://creators.vrchat.com/avatars/avatar-dynamics/vrc-headchop/ head chop] component. The rotation constraint will have the humanoid head bone as its source, and the head chop will have its scale factor set to 0.
+[[File:Voice position visual bone setup.webp|none|thumb|visual head setup]]
+With this setup, the avatar's head will move and stay out of your vision like normal. Now you can move the humanoid head bone with your voice wherever you want. The best way to move it is with a parent or position constraint. It could be moved somewhere else on your body, or even moved far away so that the voice range will no longer let people hear you. 
+[[File:Voice position head offset.webp|none|thumb|Example of moving the humanoid head bone]]
+[[Category:Guides]]
+[[Category:Stubs]]

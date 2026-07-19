@@ -1,0 +1,268 @@
+{{Noticebox/Official}}
+
+{{Infobox/Feature
+|name= Camera Dolly
+|image=Camera_Dolly_Feature.png
+|platforms= PC, Quest
+|vrchatplus= Required
+|branch_live_date = 26 Mar 2025
+|branch_live_version = 2025.1.3
+|branch_live_releasenote = https://docs.vrchat.com/docs/vrchat-202513
+|branch_openbeta_date = 12 Mar 2025
+|branch_openbeta_version = 2025.1.3
+|branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202513-openbeta
+}}
+
+'''Camera Dolly''' is a [[VRChat+|VRC+]] exclusive system that allows you to create and play animations for the VRChat [[Camera|camera]]. 
+
+== Features ==
+{{Thumb|{{YouTube|Doy9pVLBn_k}}|Official Camera Dolly walkthrough tutorial video.<ref>[https://www.youtube.com/watch?v=Doy9pVLBn_k VRChat Camera Dolly Walkthrough Tutorial] on ''YouTube''.</ref>}}
+
+It includes the following features:
+
+* Path Management: At its core, the camera dolly is a system for authoring animations through points. You can create, edit, and delete points in a variety of ways. Additionally, paths allow you to play multiple animations in sequence. New camera controls have been added that enable more fine-tuned camera usage. Camera parameters the dolly can animate currently include
+** Position
+** Rotation
+** Zoom
+** Focal distance and aperture
+** Look-At-Me offsets
+** Green screen color
+* The initial release of the camera dolly includes a number of configuration options that let you define how animations behave. Motion control allows you to switch between duration and speed as the value driving the animation. The path type refers to how the animation path is smoothed between the points you’ve created. You may also have the path loop, or use easing to create more aesthetically pleasing animations. Capture lets you record a video, an emoji, or automatically take pictures during an animation. Last but not least, the stream type indicates how to animation is streamed via Spout.
+* [[Open Sound Control|OSC]] integration
+
+The camera dolly is not supported on Android/iOS at this time.
+
+== Points ==
+Where the path represents the camera animation, points are essentially keyframes. When you add a point, it is placed at the position and rotation of your camera, and inherits the zoom, focus, Look-At-Me, and Greenscreen values your camera is currently set to.
+
+When adding points, you can leave your camera in hand-held mode, or put it into Fly Mode. Likewise, it works both in landscape and portrait orientation. Position the camera, then click <code>Add</code> in the camera dolly menu to place a point. Create a second point, and you got yourself a path. Click <code>Play</code> to start the animation from the first to the second point. Note that while the animation is playing, the Play button is replaced by a <code>Stop</code> button to cancel it.
+
+Due to performance constraints, there are limits on how many points you can author at any given time. Currently, the limits are as follows:
+
+* Windows
+** Up to 100 points total
+** Up to 50 points per path
+* Quest/Pico
+** Up to 50 points total
+** Up to 25 points per path
+* The camera dolly is not currently supported on mobile (Android/iOS)
+
+If you want to reset the entire path, you can use the <code>Clear All</code> menu button to remove all points (a confirmation prompt will be displayed to ensure you don’t inadvertently select this option). Likewise, the <code>Clear Last</code> option will delete the point at the end of the current path. To delete a specific point, you can do so via the point menu or by grabbing a point and double-clicking the interact button.
+
+Points are pickups. Grab one, and in VR the viewfinder will show its perspective. As you move the point, the path is updated with the point's new position and rotation. While holding a point, you can click the interact button to freeze the point’s position - only rotation will update while the point is frozen. Click again to unfreeze. To edit the point’s animation parameters, adjust the corresponding sliders in the Point Menu.
+
+The Point Menu also includes a button <code>Copy to Camera</code> that let’s you apply a point’s position, rotation, and animation parameters back to the camera. This can be used as an alternative way to preview a point’s perspective, or add new points with precise positions close to the copied one.
+
+The camera dolly takes the lens space into account.
+
+* Default or Local: The path itself will move with the user as the camera animation plays out
+* World: The path is static and does not move with the user
+
+== Paths ==
+Paths allow you to create any number of animations that run sequentially. This gives you a way to create more complex animations with multi-camera setups and keep action more fluid between shots.
+
+Point menus reflect each point’s path, as well as position within a path. For example, point 1-2 is the second point in the first path. The point menu further let’s to change a point’s position and path:
+
+* Moving a point to the next path will prepend it there as the new first point
+* Moving a point to the previous path will append it there as the new last point
+
+Potential use cases include:
+
+* Reversing a path: By changing the position of points within a path, it’s direction can be turned around
+* Combining paths or dividing one path into multiple paths
+
+== Controls ==
+The following camera controls help you control various aspects of the camera dolly.
+
+=== Movement controls ===
+* The Fly Speed slider adjust how fast the camera moves in Fly Mode
+* The Turn Speed slider adjusts how fast the camera rotates in Fly Mode
+* The Smoothing Strength slider adjusts how much camera movement is softened when the Smoothed behaviour is toggled on
+* While using the camera dolly, the maximum fly distance has been increased ten-fold, allowing you to move the camera further away from yourself
+
+=== Look-At-Me controls ===
+* When the Look-At-Me behaviour is toggled on, the horizontal and vertical Look-At-Me offset sliders adjust your position within the camera view
+* By default, you are in the center of the camera view when using Look-At-Me - Using the sliders, you can offset your position from the center
+
+=== Greenscreen controls ===
+* A new set of HSL sliders is displayed while the Greenscreen mask is toggled on
+* The Hue, Saturation, and Lightness sliders adjust the color of the greenscreen
+
+== Settings ==
+The camera dolly has a number of configuration options that allow you to tweak how animations behave.
+
+=== Motion Control ===
+Motion control specifies whether the animation should be time- or speed-based:
+
+* When time-based, a '''Duration''' slider is shown
+* When speed-based, the '''Fly Speed''' slider will be used
+
+'''Speed-based''' animations allow you to create animations with custom ease curves. This can be useful for long animations where easing shouldn’t be applied uniformly across the entire path.
+
+'''Time-based''' animations allow you to pick from a list of ease presets. The overall duration of a time-based animation is the sum of point durations, minus the last one and anchors. So if there are three points, each with duration 2sec, the overall duration will be 4 seconds (A to B ~ 2sec, B to C ~ 2sec). The '''Easing''' configuration includes options for In, Out, and In-Out ease curves at different intensities.
+
+''Read more about easing curves at [https://easings.net easings.net].''
+
+=== Path type ===
+The path type defines how the path is smoothed. The following path types are available:
+
+* '''Fitted''' paths use B-Spline interpolation and are very smooth, but may not pass through points
+* '''Loose''' paths use Catmull Rom interpolation and pass through the points you’ve added, while being slightly less smooth than Fitted paths
+* '''Linear''' paths are not smoothed
+
+Fitted and Loose paths require at least 4 points to be smoothed. While a path has less than 4 points, it will always be linear.
+
+With at least 4 points, Fitted and Loose paths will be smoothed. When smoothed, a few additional elements come into play:
+
+* Anchors: The first and last points of a smoothed path are anchors. They are used to give shape to the beginning and end of the animation path. While anchors aren’t part of the path itself, they are used to interpolate values for the start and end points.
+* Curve Points: Smoothed paths generate smaller “in-between” points between the points you add. These are used to visualize the path. You may also interact with a curve point to add a new point anywhere in an existing path.
+
+=== Looping ===
+The loop type specifies how the animation should loop. Options include '''Repeat, Reverse,''' and '''Revolve'''.
+
+* Repeat looping restarts the path from the start once the camera reaches the end
+* Reverse changes direction whenever the camera reaches the start or end of the path
+* Revolve connects the end of a path back to the start so it loops smoothly
+
+Note that looping will have the path loop '''indefinitely''', including while the camera is closed. You can click '''Stop''' or change worlds to cancel the animation.
+
+=== Capture ===
+The capture setting determines how an animation should be recorded. Note that the animation cannot loop while using one of the below capture settings in order to prevent users from accidentally filling up their storage. The Capture feature currently comes with a few restrictions and is thus in BETA.
+
+* Photo: Automatically takes photos while the camera is animating. While selected a `Photos per Second` slider is displayed, ranging from 0.1 (one photo every 10 seconds) to 2 (one photo every half second)
+* Video: Records an mp4 video while the animation plays. The maximum clip length is 60 seconds. When selected, an additional Audio Source option is displayed that let's you pick between local microphone audio or world audio (including other users) for the audio to record with the video. Due to technical limitations, you can't choose both at this time.
+* Emoji: Takes exactly 16 photos spaced out evenly along the animation. When the animation concludes, the Emoji editor opens. This option is not currently supported with Speed-based motion. 
+
+=== Streaming ===
+Building on top of the Spout2 integration for Stream Mode, this configuration allows you to define how content is streamed. Since this uses Spout, it is currently only supported on Windows.
+
+* '''Single''': The camera animates along paths in order
+* '''Multi''': Spawns up to 3 additional cameras with a spout sender for each path beyond the first. Rather than animating sequentially, each camera animates along its respective path at the same time. Currently has a number of restrictions:
+** Only supports up to 4 paths - additional paths are ignored
+** Only works with time-based animation
+** Additional cameras only animate position and rotation (no additional parameters like zoom, focus, etc.)
+
+== OSC integration ==
+The camera dolly supports OSC control through four endpoints and JSON-based path import/export.
+
+=== Endpoints ===
+'''Play and playback control'''
+* <code>/dolly/Play <''Play'': boolean></code> - Play or stop an animation
+** Returns <code>/dolly/Play <''Playing'': boolean></code> whenever playback starts or stops
+
+* <code>/dolly/PlayDelayed <''Delay'': float></code> - Play an animation after a delay
+** Returns <code>/dolly/Play</code> immediately when fired, not when playback starts
+** Sending this while a delay is running has no effect
+** <code>/dolly/Play TRUE</code> skips any existing delay and starts immediately
+** <code>/dolly/Play FALSE</code> cancels a running delay
+
+'''Import and export'''
+* <code>/dolly/Export</code> - Export the current path to JSON
+** Saves to <code>~/Documents/VRChat/CameraPaths/VRChat_CameraPath_[time].json</code>
+** Returns <code>/dolly/Export <''ExportedFilePath'': string></code> when complete
+
+* <code>/dolly/Import <''DollyPathJSON'': string></code> - Import a JSON dolly path
+** Does nothing if dolly is currently playing or delayed
+
+=== Import behavior ===
+Points are always exported as local, but JSON files can be edited to mark points as global. This determines whether imported points are created relative to the user.
+
+The camera dolly menu includes an Import button for pasting file paths on Windows. OSC must be enabled for this feature to work, even though the import itself does not use OSC.
+
+=== Use cases ===
+* Fine-tuning animation values
+* Editing <code>isLocal</code> values for relative or absolute positioning
+* Reusing paths between sessions
+* Sharing paths with others
+* Building path libraries
+* Creating keyframe visualization tools
+* Integrating with existing community tools
+
+=== Value ranges ===
+{| class="wikitable"
+! Value
+! Default
+! Min
+! Max
+|-
+| Position
+| (0,0,0)
+| —
+| —
+|-
+| Rotation
+| (0,0,0)
+| —
+| —
+|-
+| Zoom
+| 45
+| 20
+| 150
+|-
+| FocalDistance
+| 1.5
+| 0
+| 10
+|-
+| Aperture
+| 15
+| 1.4
+| 32
+|-
+| Greenscreen HSL
+| 120 {{!}} 100 {{!}} 60
+| 0 {{!}} 0 {{!}} 0
+| 360 {{!}} 100 {{!}} 50
+|-
+| Look-At-Me Offsets
+| 0 {{!}} 0
+| -25 {{!}} -25
+| 25 {{!}} 25
+|-
+| Duration (sec)
+| 2
+| 0.1
+| 60
+|-
+| Speed
+| 3
+| 0.1
+| 15
+|-
+| Index
+| -1 (append)
+| 0
+| <num points>
+|-
+| Path
+| <current path>
+| 0
+| <num paths>
+|-
+| IsLocal
+| FALSE
+| —
+| —
+|}
+
+==Official resources==
+* [https://www.youtube.com/watch?v=Doy9pVLBn_k 'VRChat Camera Dolly Walkthrough Tutorial'] on ''YouTube''.
+* [https://www.youtube.com/watch?v=CHt6VsK9STk 'THREE new features and a TON of QoL fixes -- VRChat Release 2025.1.3 is here!'] on ''YouTube''.
+* [https://ask.vrchat.com/t/developer-update-march-27-2025/42391 'Developer Update - 27 March, 2025] on ''ask.vrchat.com''
+
+==Community resources==
+* [https://vrchat.com/home/world/wrld_ec048691-9f51-4e4f-81dd-550187b73ca7/info 'Camera Dolly 101'] world on VRChat.
+* [https://blog.vive.com/us/vrchat-introduces-camera-dolly-a-new-tool-for-creators/ 'VRChat Introduces 'Camera Dolly' – A New Tool for Creators'] on ''blog.vive.com''
+== See also ==
+
+* [[Camera]]
+* [[Camera Drone]]
+* [[Gallery]]
+* [[VRC+]]
+
+== References ==
+<references/>
+
+[[Category:Needs images]]
+[[Category:Features]]

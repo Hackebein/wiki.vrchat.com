@@ -1,0 +1,35 @@
+{{Noticebox/Community}}{{Noticebox/Conflict of interest}}
+{{Infobox/World
+|name=Hokyl Night
+|image=[[File:Hokyl nite titlecard copy.png|thumb]]
+|author=Hdorriker, Dekawolf, Fraxul
+|platforms=PC
+|tags=driving, gliding, night, city, large
+|id=wrld_8ac2305e-6141-4eb4-b0e9-ea2c9d2b72a8
+|published=Feb 24 2024
+}}
+'''Hokyl Night''' is an exploration [[Worlds|world]], featuring a large, open-world city which can be navigated via drivable vehicles, and flight items attached to the user that enable the user to explore the city from a variety of perspective. It was developed by the team of Hdorriker, Dekawolf, and Fraxul.
+
+The world is roughly 121 square kilometers in area or 11 km per side large. Hokyl Night has a variety of different 'districts' whose names appear at the bottom of a user's field of view as they traverse the city.
+==Features==
+===Flight Systems===
+Hokyl Night uses heavily-modified versions of the TORISOUP Grapnel-Gun and Glider. These have been modified to have improved access (reach over shoulder to grab), to conserve user momentum and allow for simultaneous use of both items aiming to smooth out the flight experience and improve motion comfort.
+===Ultra Spark and Custom Avatar Size Audio===
+At spawn, a small device resembling a "vape pen" can be used by any user to grow to 50m tall. Those that use this device are still able to hear other users and are also able to converse within a more intuitive and natural-feeling range than would otherwise be available.
+===Custom Driving System===
+Hokyl Night (and Hokyl Morning) uses a custom driving system that was specifically devised for the unique performance challenges presented by having a large, detailed open world city built with Unity for VRChat. Because of the exploratory nature of the world, this system was developed specifically for '''Cruising''' and '''Social Road Trip-Style Driving''' ''instead of'' high-performance racing which would have required a different balance of how computational resources are utilized.
+====Usage====
+A card displaying the input scheme based on the detected controllers (or desktop controls) displays on entry of the vehicle and will disappear shortly after set in motion. There is also a slowly-blinking info toggle on the dash which will enable or disable this info card.
+
+After entering and starting the vehicle,  simply pressing forward (or W on desktop) for a few seconds will auto-shift the vehicle into DRIVE gear. If it doesn't automatically shift after 5 seconds, this is because the command to shift into Drive was sent before the vehicle finished starting and it cannot receive it until ownership settles.
+
+The shifter is indicated by a button reading "PRND".
+
+There is no manual transmission option.
+===Shader===
+Hokyl Night uses a modified version of the CScape Building Shader, updated for Unity 2022 and modified to include an MSAA pass. A more stylized CScape Mobile version without windows or parallax is used on the Android-Compatible builds of the Hokyl Night spin-off worlds (such as Digitown Loft and Gao Avenue) for performance considerations.
+===Driving System features===
+The Driving System features such as "JUMP" and "ROLL" were added initially as ways to recover stuck vehicles and play with the quirks of the simulation. But in practice, these have become tools that enable unique driving challenges such as attempting to park vehicles atop skyscrapers, power line poles, or any of the likely hundreds of tall objects around the city.
+
+
+[[Category:Worlds]]

@@ -1,0 +1,11 @@
+{{Noticebox/Community}}{{Noticebox/Stub}}
+
+This guide is to show how to desync a players position with stations. This is a unintended feature with stations so this may break in the future.  Basic concept is to change the stations Player Mobility parameter differently between local and remote players.
+
+== Setup ==
+[[File:Station desync example.gif|right]]
+Initial station setup will need to have Seated, and Can use Station from Station set to false. As well as Disable Station Exit set to true.
+
+For the player entering the station locally set the stations Player Mobility to Mobile. all other players will have the stations Player Mobility set to  Immobilize, or Immobilize for Vehicle. If done correctly then the player entering the station will be able to move around while everyone else will only see them stuck at the stations position.
+[[Category:Guides]]
+[[Category:Stubs]]

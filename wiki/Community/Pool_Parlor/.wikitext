@@ -1,0 +1,141 @@
+{{Noticebox/Community}}
+{{Stub|Expand relevant information according to the [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]]; Add the rest of events and their descriptions}}
+{{Noticebox/wip|Working alongside world authors to add and fix missing or inaccurate information}}
+{{Infobox/World
+|name= The Pool Parlor ｜ 8 Ball Pool
+|image= File:Pool_Parlor.webp
+|author= Toasterly
+|developers= Toasterly, Metaphira, TonZu, Yawnar, ChintzyKid, Yukonyx, OrendCross, It's Dina, Yuutashoe, Saryn
+|capacity= 40 (75)
+|platforms= PC, Android
+|tags= billiards, pool, game, 8 ball, quest
+|languages= English, Japanese
+|id= wrld_99bdc4c6-b80c-49f3-aae0-5d67017d8340
+|labs= Mar 13 2023
+|published= Mar 15 2023
+}}
+{{Infobox/World
+|name= Pool Parlor v3 ｜ 8 Ball Pool
+|image= File:Pool_Parlor_v3.webp
+|author= metaphira
+|developers= metaphira
+|capacity= 36 (72)
+|platforms= PC, Android
+|tags= pool, game, billiards, quest, 8ball
+|languages= English, Japanese
+|id= wrld_747e7258-f804-4414-83f5-b618ebca7471
+|labs= Apr 9 2021
+|published= Jun 2 2021
+}}
+
+'''The Pool Parlor''' is a cross-platform game [[Special:MyLanguage/worlds|world]] based on the billiards table<ref>https://en.wikipedia.org/wiki/Pool_(cue_sports)</ref> published by Toasterly in March 2023.
+{| class="wikitable mw-collapsible mw-collapsed"
+|+ Pool Parlor Developers for V4 & V5
+!Developer
+!Contribution
+|-
+|Toasterly
+|Everything else
+|-
+|Metaphira 
+|Table & World Code 
+|-
+|TonZu
+|Textures & World Code
+|-
+|Yawnar
+|Wall Murals
+|-
+|ChintzyKid
+|Table Textures & Meshes
+|-
+|Yukonyx
+|Cue Textures
+|-
+|OrendCross
+|Table Textures, Cue Textures, Table Meshes
+|-
+| It's Dina
+|Ball Textures, Some Furniture
+|-
+|Yuutashoe
+|Graphic Design
+|-
+|Saryn
+|VRPL System
+|}
+
+== Gameplay==
+1-4 players utilize cue sticks on the billiards table to pocket balls or score points.
+
+=== Eight-ball<ref>https://en.wikipedia.org/wiki/Eight-ball</ref>===
+Eight-ball is played with sixteen billiard balls (a cue ball and fifteen object balls). The object balls include seven solid-colored balls numbered 1 through 7, seven striped balls numbered 9 through 15, and the black 8 ball. After the balls are scattered with a break shot, a player is assigned either the group of solid or striped balls once they have legally pocketed a ball from that group. The objective of the game is to legally pocket the 8-ball, which can only be done after all of the balls from a player's assigned group have been cleared from the table.
+
+===Nine-Ball<ref>https://en.wikipedia.org/wiki/Nine-ball</ref>===
+Players must strike the white cue ball to pocket nine colored billiard balls, hitting them in ascending numerical order. As long as the lowest numbered ball on the table is contacted first by the cue ball, and any one or more of the object balls are pocketed in any of the pockets with no foul being committed, a player's inning continues. The winner is the player who legally pockets the nine-ball regardless of how many balls have been pocketed beforehand. This can happen earlier than the nine-ball being the sole remaining object ball on the table if it is pocketed via a combination or other indirect method.
+
+===Four-ball<ref>https://en.wikipedia.org/wiki/Four-ball_billiards</ref>===
+Played on a pocket-less table with four billiard balls, two red, one white, and one yellow. Each player is assigned one of the white (or yellow) balls as a cue ball. A point is scored when a shooter's cue ball caroms on any two other balls in the same shot. Two points are scored when the shooter caroms on each of the three object balls in a single shot. A carom on only one ball results in no points, and ends the shooter's inning.
+
+===Six-red<ref>https://en.wikipedia.org/wiki/Six-red_snooker</ref>===
+Six-red is a variant of snooker<ref>https://en.wikipedia.org/wiki/Snooker</ref>, but with only six red balls initially on the table as opposed to the standard fifteen, played on a standard full-size snooker table measures 12 ft × 6 ft. The individual players or teams take turns to strike the cue ball to pot other balls in a predefined sequence, accumulating points for each successful pot and for each foul committed by the opposing player or team. An individual frame of snooker is won by the player who has scored the most points, and a snooker match ends when a player wins a predetermined number of frames.
+
+==History==
+{{Infobox/World
+|name= First Multitable Pool World - 4 Tables!
+|image= File:First_Multitable_Pool_World_-_4_Tables.webp
+|author= MythicFrog
+|developers= MythicFrog
+|capacity= 20 (40)
+|platforms= PC
+|tags= pool, 8ball, 8, ball, mythic
+|languages= English
+|id= wrld_6b7cc5b1-52ea-49cc-86fe-aa3823fe3319
+|labs= Apr 15 2021
+|published= Apr 18 2021
+}}
+
+In 2021, a person by the name of Harry-T or Terri00 made the first billiards table using [[Udon#]]; this sparked a few pool worlds to pop up; there was a world for 8 ball pool and a public GitHub repo where you could download the prefab that was created by the developer. At the time, the prefab could only be added to the world once; otherwise, it would break. Metaphira's friend MythicFrog started to play around with it to see why and if they could fix it.
+
+MythicFrog released his experimental world on April 15th, 2021. Around this time, Metaphira decided to give it a go as well. The codebase was forked, and Metaphira started modifying it as closed source, and on May 3, 2021, version 0 of the Pool Parlor was released. This world was on as a single flat world with 8 tables, with some additional couches and other furniture. The physics were extremely computation-heavy, and so with multiple tables, FPS would take a huge hit. Metaphira started looking into adding other quality-of-life features and fixing some bugs that had been plaguing the community. Eventually, it became just this one table.
+
+With help from the community, The Pool Parlor v1 was released. It was a really huge dark box with a pool table. Later, v2 of the parlor was a smaller, brighter box. While the world was evolving, Metaphira added the following features:
+
+*Practice mode, so people didn't have to switch cues back and forth and so they could replay shots.
+*Saving/loading shots, so people could share setups for trickshots.
+*Pro mode, which turned off guidelines (and for a while, the ability to lock the cue in place, which made it insanely hard/impossible).
+*Tweaked physics logic to add jump shots and masse shots.
+*More advanced spin control.
+
+Metaphira also ran a few tournaments to try and build the community; eventually Metaphira was running out of free time to maintain the world, and there were more and more feature requests.
+
+On October of 2022, Toasterly approached Metaphira about taking over the project; they agreed, and Metaphira passed over the reigns to Toasterly. After which Toasterly took the original "Metaphira" physics and created a version of the table on Github with those physics. Since then, Toasterly has completely rewritten the table logic and physics simulation. Toasterly started working with IRL billiards players to fine-tune the physics. They started adding more features:
+
+*Adjustable Table Sizes: 7, 8, 9, 10, and 12ft.
+*Snooker
+*Lobby Leaderboard
+*No Collision Mode
+*Custom Physics
+*Adjustable Cue Sizes
+*Custom Ball Types
+*Ball Trails
+*Physics Simulation Optimizations
+*In-World Tournament System
+*Custom Cues
+*Adjustable Team Colors
+*Settings Code Saving
+*Patreon Benefits
+*Simulation Realism:
+**Jumping Inertia
+**More Accurate Spin Math
+**Cut Throw, Spin Throw
+**Spin Transfer
+**Cushion Depression
+**Ball Collision Logic Rewritten
+**Cushion Collision Logic Rewritten
+[[Category:Worlds]]
+[[Category:Game worlds|Pool Parlor]]
+==Resources==
+
+*{{VRC link|https://vrchat.com/home/group/grp_f5fad4e3-9388-40e4-bda7-47fde177bee1|The Official Pool Parlor VRChat Group}} - POOL.1053
+<references />

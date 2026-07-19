@@ -1,0 +1,19 @@
+<includeonly>
+:<span>''Primary page: {{{1}}}''</span></includeonly>
+<noinclude>
+__NOTOC__
+This templates provides basic formatting for a "primary page" link.
+
+== Usage ==
+
+<pre>{{Main|[[<page>]]}}</pre>
+
+=== Parameter ===
+;1 ''Page link''
+
+== Examples ==
+<pre>{{Main|[[Special:MyLanguage/Worlds|Worlds]]}}</pre>
+{{Main|[[Special:MyLanguage/Worlds|Worlds]]}}
+
+[[Category:Formatting templates]]
+</noinclude>

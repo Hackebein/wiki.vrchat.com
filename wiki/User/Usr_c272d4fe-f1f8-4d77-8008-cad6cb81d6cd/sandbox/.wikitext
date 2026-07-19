@@ -1,0 +1,57 @@
+{{DISPLAYTITLE:really cool page}}
+
+test for startnavbox revamp
+<div class="startnavBox"><div id="startnavTitle"><center>Getting Started in VRchat</center></div>
+  <div class="startNavFlex">
+    <div class="startNavButtons" id="gettingStartedButton">[[Getting Started]]</div>
+    <div class="startNavButtons" id="controlsButton">[[Controls]]</div>
+    <div class="startNavButtons" id="gettingStartedButton">[[Trust and Safety|Safety]]</div>
+    <div class="startNavButtons" id="controlsButton">[[VRChat+]]</div>
+    <div class="startNavButtons" id="gettingStartedButton">[[Troubleshooting]]</div>
+    <div class="startNavButtons" id="controlsButton">[[Resources]]</div>
+    <div class="startNavButtons" id="controlsButton">[[FAQ]]</div>
+  </div>
+</div>
+
+<pre>		.startnavBox {
+		margin-left: auto;
+		margin-right: auto;
+		padding: 1.5rem 0rem;
+		border-style: solid;
+		border-radius: 0.5rem;
+		border-color: #000;
+		border-width: 1px;
+		background: #252e34;
+		color: #fff;
+		width: auto;
+		max-width: 800px;
+		align-items: center;
+		justify-content: center;
+		font-family: Arial;
+	}
+	#startnavTitle {
+		font-size: larger;
+		padding-bottom: 10px;
+	}
+	.startNavButtons {
+		margin: 0.5em;
+		padding: 0.8rem 0rem;
+		border-style: solid;
+		border-radius: 0.5rem;
+		border-color: #000;
+		border-width: 1px;
+		background: #07343f;
+		color: #fff;
+		width: 82px;
+		max-height: 10px;
+		font-size: 10px;
+		text-align: center;
+	}
+	.startNavFlex {
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}</pre>

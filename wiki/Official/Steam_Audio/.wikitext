@@ -1,0 +1,30 @@
+{{Noticebox/Official}}
+{{Stub}}
+{{Infobox/Feature
+|name=Steam Audio
+|platforms= iOS
+|branch_live_date = October 24, 2025
+|branch_live_version = 2025.3.4 Build 1726
+|branch_live_releasenote = [https://docs.vrchat.com/docs/vrchat-202534 2025.3.4]
+|branch_openbeta_date = March 19, 2025
+|branch_openbeta_version = 2025.1.3 Build 1546
+|branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202513-openbeta 2025.1.3 Open Beta]
+}}
+
+'''Steam Audio''' is a real-time spatial audio solution developed by Valve Corporation. It simulates how sound waves travel, reflect, and occlude in three-dimensional environments. By leveraging geometry-based propagation and Head-Related Transfer Functions, it delivers immersive audio experiences. Its features include occlusion modeling, dynamic reverb, and virtual surround sound. 
+
+Steam Audio switched to an open source model in February 2024.<ref>[https://store.steampowered.com/news/app/596420/view/7745698166044243232 News - Open Source Release]</ref>.
+
+==Overview==
+While Steam Audio has advanced audio features that can be used by world creators, these will not be included during the initial release, as the goal is to match ONSP behaviour as close as possible. 
+
+==History==
+Steam Audio has been in development since 2020, with the first build releasing under a closed beta on December 18, 2020.<ref>[https://issteamaudiooutyet.com Is Steam Audio Out Yet?]</ref>. During closed beta, it was under development under the "noise" branch.<ref>ChangeID 10298259 - at [https://steamdb.info/app/438100/history/?changeid=10298259 steamdb.info]</ref>
+
+Steam Audio was officialy announced on March 13, 2025 on the Developer Update, with the Open Beta releasing on March 19.<ref>[https://ask.vrchat.com/t/developer-update-13-march-2025/42053 Developer Update - 13 March 2025]</ref>.
+
+== References ==
+<references/>
+
+== See Also ==
+* [https://valvesoftware.github.io/steam-audio/ Steam Audio Project Page]

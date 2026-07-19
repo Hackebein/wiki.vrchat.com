@@ -1,0 +1,153 @@
+{{Noticebox/Community}}{{Noticebox/Stub}}
+'''Visemes''' (pormanteau for ''visual phonemes'') are an [[Avatars|avatar]] feature that mimics lip and mouth movement, when synchronized with human speech. 
+
+Within Unity, visemes are a type of, or set of shapekey(s) that can be programmed onto an avatar. In the Oculus LipSync Library, there are 15 mouth‑shape targets that can be used while you speak.
+
+VRChat converts your live microphone audio through that library, converts the sound into a single integer (<code>0‑14</code>) every video frame, and writes it into the built‑in Animator parameter '''<code>Viseme</code> (often shown in the docs as "VisemeOculus")'''. Your avatar's FX layer (or the [[VRChat SDK|VRChat SDK's]] default layer) turns that number into blend‑shape or bone animation so the mouth appears to pronounce your words in real time.
+
+=== Viseme Slots ===
+{| class="wikitable"
+!Index
+!Name
+!Phonemes
+!Examples
+!Mouth description
+|-
+|0
+|'''sil'''
+|(silence)
+|
+|Neutral, lips relaxed
+|-
+|1
+|'''pp'''
+|p, b, m
+|put, bat, mat
+|Lips fully closed, slight pout
+|-
+|2
+|'''ff'''
+|f, v
+|fat, vat
+|Lower lip touches upper teeth
+|-
+|3
+|'''th'''
+|th
+|that
+|Tongue between teeth
+|-
+|4
+|'''dd'''
+|t, d
+|tip, dip
+|Tip of tongue touches ridge
+|-
+|5
+|'''kk'''
+|k, g
+|call, gas
+|Back of tongue touches palate
+|-
+|6
+|'''ch'''
+|ch, sh, ts, dz, j
+|chair, she, its, join
+|Lips rounded, jaw slightly down
+|-
+|7
+|'''ss'''
+|s, z
+|sit, zoom
+|Teeth almost together, lips wide
+|-
+|8
+|'''nn'''
+|n, l
+|lot, not
+|Tongue presses ridge, lips apart
+|-
+|9
+|'''rr'''
+|r
+|red
+|Lips slightly rounded, cheeks firm
+|-
+|10
+|'''aa'''
+|ah, aw
+|fast, father
+|Jaw open, oval mouth
+|-
+|11
+|'''e'''
+|eh
+|men
+|Mouth wider, mid‑open
+|-
+|12
+|'''i'''
+|ih, ee
+|tip, tea
+|Lips stretched, jaw higher
+|-
+|13
+|'''o'''
+|oh
+|toe
+|Lips rounded, jaw mid‑open
+|-
+|14
+|'''u '''
+|ou
+|boot
+|Lips rounded, slightly forward
+|}
+[https://developers.meta.com/horizon/blog/tech-note-enhancing-oculus-lipsync-with-deep-learning/?utm_source=chatgpt.com Oculus Docs] use the longer spellings ''ih/oh/ou''; [https://creators.vrchat.com/avatars/animator-parameters/#viseme-values VRChat's parameter list] trims them to ''i/o/u''.
+
+=== Wiring Avatar ===
+
+# '''Add blend‑shapes (shape keys) or a jaw bone.'''  Each shapekey should be named exactly like the codes above (case‑sensitive in Unity). Keep the ''sil'' key—even if it only moves one vertex—to stop Unity deleting it on import.
+# '''Set the Avatar Descriptor’s › Lip‑Sync mode to “Viseme Blend Shape”.'''  Hit '''Auto Detect!''' first; if the SDK guesses wrong, pick the correct shapekey for every slot in the dropdown.
+# '''Test in‑editor:''' play the scene, enable the '''Lip Sync''' preview on the descriptor, or simply talk into your mic while the Game view is active.
+# '''Fine‑tune in your FX Animator (optional).'''  The int parameter '''<code>Viseme</code>''' updates every frame; you can:
+#* Drive a 15‑way BlendTree that weights each shapekey.
+#* Branch to custom mouth animations (e.g., a “big scream” version of <code>aa</code>) when volume is high by also reading the <code>Voice</code> float (0‑1).
+# '''Performance tip:''' keep viseme blend‑shapes on a separate head mesh; the GPU only has to update the vertices it actually changes.
+
+=== Troubleshooting quick‑hits ===
+{| class="wikitable"
+!Symptom
+!Likely cause
+!Fix
+|-
+|Mouth never moves
+|Lip‑Sync mode still on ''Jaw Flap'' or ''Default''
+|Switch to ''Viseme Blend Shape''
+|-
+|Wrong shapes (e.g., “th” looks like “ff”)
+|Mis‑matched dropdown slots
+|Re‑assign each viseme in the Descriptor
+|-
+|Shapes snap instead of blend
+|Using an ''Int'' blend‑tree with thresholds too close
+|Use a ''1D float'' tree driven by 0‑14 or add smoothing
+|-
+|Shapes missing on Quest
+|Head mesh not included in the Android build
+|In Build tab, mark head mesh for both PC & Android
+|}
+==== Take‑away ====
+''Visemes are simply numbered mouth cues.'' Name 15 blend‑shapes (or equivalent bone poses) to match the Oculus set, point your Avatar Descriptor at them, and VRChat’s built‑in <code>Viseme</code> parameter will make your character lip‑sync automatically—no extra scripts required.
+
+== Resources ==
+* [https://creators.vrchat.com/avatars/animator-parameters/#viseme-values Animation Parameters] on VRChat's Creator Documentation
+* [https://lackofbindings.github.io/Viseme-Reference/ Viseme Reference] by ''lackofbindings'' on github.io
+* <s>[https://developers.meta.com/horizon/documentation/unity/audio-ovrlipsync-viseme-reference Viseme Reference] on Meta Developers' Documentation for Oculus Spatializer Plugin</s> [Deprecated]
+
+== See also ==
+
+* [[Avatars]]
+* [[Blendshapes]]
+* [[VRChat Creator Companion]]
+* [[VRChat SDK]]

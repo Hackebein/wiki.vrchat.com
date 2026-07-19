@@ -1,0 +1,33 @@
+{{Noticebox/Community}}{{Stub|Please expand and proofread this article, using the VRChat Wiki [[VRCWiki:Manual of Style|Manual of Style]].}}
+
+'''Synchronization''', also known as "sync" or "syncing", is a component of all [[Udon]] Behaviours that controls how data is sent over the network<ref>[https://creators.vrchat.com/worlds/udon/networking Networking] on ''docs.vrchat.com''; retrieved November 26, 2024.</ref> to other players. The type of synchronization can be changed with a drop down menu on the Udon Behaviour. 
+
+Synchronization has three modes: '''continuous''', '''manual''', and '''none'''.
+
+==Continuous==
+Continuous mode should be used for small, frequently update values, such as the position of a moving object. This mode only takes the latest value stored in the object, and may skip over older values in order to get the newest ones. 
+
+==Manual==
+Manual mode should be used for infrequently updated, important values, such as the score in a game. It will not skip over values like Continuous mode does.
+
+==None (No synchronization)==
+None prevents an Udon Behaviour from interacting with anything over the network. 
+
+== Performance ==
+Using any synchronization mode except '''None''' has a performance impact on worlds. This is because the world has to continuously check to see if the values inside the Udon Behaviour have changed. Even if the Udon Behaviour has no stored values in it, the world will still continuously use resources to check it.
+
+Set all synchronization modes in your Udon Behaviours to '''None''', if they are not using network functions, in order to prevent this and lower the performance cost of running your world.
+
+It is also possible to get an estimate on variables from Udon behaviors and synced objects, using the different [[Debug Menu|debug menus]] available in VRChat.
+
+==Official resources==
+* {{VRC link|https://creators.vrchat.com/worlds/udon/networking/|Networking}} on ''docs.vrchat.com''
+* [https://www.youtube.com/watch?v=Mb6ZYBEhxiI VRChat Udon - What is Networking?] published by VRChat on ''YouTube''
+
+==See also==
+* [[Udon]]
+* [[Debug_Menu]]
+
+==References==
+
+[[Category:Guides]]

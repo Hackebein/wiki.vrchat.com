@@ -1,0 +1,32 @@
+{{Noticebox/Community}}
+{{Infobox/Asset
+|name=AudioLink
+|author=llealloo
+|github=llealloo/audiolink}}
+
+'''AudioLink''' is a Unity-based audio reactive system designed for VRChat, allowing avatars and world environments to visually respond to music and other audio inputs. It operates by analyzing audio in real time and using GPU processing to distribute amplitude and frequency data to [[Community:Terminology#Shader|shaders]]. This data can be applied to different elements in VRChat, including avatar shaders and environmental objects, enabling dynamic visualizations that match the audio's rhythm and intensity.
+
+==Features== 
+
+*'''Real-Time audio analysis''': 
+**AudioLink processes live audio data and converts it into multiple data streams. These streams contain frequency information (bass, mids, treble), making it possible to create visuals that move in sync with the audio's beat and intensity​.
+*'''Shader integration''':
+**AudioLink is compatible with VRChat's shaders, allowing developers to create reactive effects on avatars and worlds. It works with popular shader packs like [[Community:Poiyomi_Shaders|Poiyomi Shaders]], Mochie's Unity Shaders, and others.
+* '''GPU-based processing''':  
+**AudioLink uses the GPU for efficient signal processing, ensuring that the visuals keep up with the audio without lag. The audio data is rendered to a texture (_AudioTexture), which is then used by shaders to create synchronized animations​.
+*'''Flexible installation''':  
+**AudioLink can be installed through the VRChat Creator Companion (VCC) or VRChat Package Manager, or by downloading the Unity package for custom setups. This flexibility allows it to be used across various platforms beyond VRChat.
+*'''Cross-avatar and world compatibility''': 
+**AudioLink is designed to work not only in VRChat worlds but also across all avatars within a world. This means you can have synchronized audio-reactive effects on multiple avatars at once.
+*'''Open-source and customizable''':   
+**Available on GitHub, AudioLink is open-source, meaning developers can modify and expand upon it. This makes it ideal for creators looking to tailor the system for unique effects.
+
+==Installation==
+
+#Download and install the [[VRChat_Creator_Companion|VRChat Creator Companion]], open it up.
+#Add your project to the VCC:
+#*If you want to create a new project, use the "New" option in the "Projects" tab and follow the steps there.
+#*If you want to use an existing project, use the "Add" option in the "Projects" tab and follow the steps there.
+#Open the Projects tab and select your project. If you have never used the VCC with the project, use the "Migrate" button to upgrade it.
+#On the right side, find the AudioLink package and add it. If it doesn't show up, make sure you have the "Curated" toggle enabled in the top-right drop-down.
+#At this point, the installation is done. To open your project, you can use the "Open Project" button in the VCC.

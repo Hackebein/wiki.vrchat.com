@@ -1,0 +1,80 @@
+{{Noticebox/Official}}
+[[File:VRC Quick Launcher.png|thumb]]
+'''VRC Quick Launcher''' ('''VRCQL''') is a utility tool designed to enhance the user experience for VRChat developers, and power users by providing an advanced method for launching multiple VRChat instances, and managing various settings through a graphical user interface. This tool is part of [[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]].
+
+A user can specify the file location of VRChat, and allows you to have multiple builds of VRChat running simultaneously. VRCQL will remember the last 10 builds used, meaning that you can easily access and use local builds of VRChat, VRChat [[Special:MyLanguage/Open Beta|open beta]] branches.
+
+==Launch options==
+VRC Quick Launcher has several launch options, similar to launch options on Steam. 
+{| class="wikitable"
+|+
+|-
+!Option!!description
+|-
+|Debug GUI||When enabled, you will be able to use the [[Special:MyLanguage/Debug Menu|Debug Menus]].
+|-
+|SDK log||Enables a large amount of additional logging; this may cause your log file to get very large.
+|-
+|UDON log||Logs [[Udon]] events to the log file, and displays extra information in [[Worlds|World]] Debug Menu 3.
+|-
+|Watch worlds
+|Watches the location where the VRChat SDK builds worlds, then automatically joins any new local world created.
+|-
+|MIDI
+| Forces the MIDI drive to search for a connected MIDI device which contains the <code>deviceName</code> specified, including partial matches; case-insensitive.
+|-
+| OSC
+|Modifies the port or IP address that VRChat utilizes for OSC, using the format '''inPort:senderIP''<nowiki/>'.
+|-
+|Max FPS
+|Allows you to set the maximum amount of frames-per-second of any instance of VRChat can run at.
+|-
+|Watch Avatars
+|Watches the location where the VRChat SDK builds test [[avatars]], and if wearing a test avatar that's been updated automatically switches to the newer version.
+|}
+Additonal custom parameters can be found at the [[Launch Options]] page.
+
+==Instance info==
+With VRC Quick Launcher, you can choose which [[Instances#Instance types|instance type]] you wish to launch the game into.
+{| class="wikitable"
+|+
+|-
+!Option!!description
+|-
+|Create||Allows you to create an instance with options to set the instance type, specify a world ID (leave empty for default home), specify an instance ID, set a user ID for the instance owner, and specify a region.
+|-
+|Join||Allows you to join a specific instance using an instance link.
+|-
+|Local||Creates an instance of a local world in offline testing mode. This version of VRChat does not start with Easy Anti-Cheat, and cannot visit non-local worlds. Avatars are limited to local avatars, cached avatars, your uploaded avatars, and [[Public Avatars|public avatars]].
+|-
+|None ||Opens to your home world based on your home [[Instances#Instance types|Instance type]], If none is set, you will launch into VRChat default home.
+|}
+
+==Profiles ==
+[[File:Multiplecopies.webp|thumb|right]]
+Profiles allow you to launch multiple instances of VRChat simultaneously. You can specify which profiles to launch, and whether they are in VR mode or not. Two or more instances of the same user can exist in a local offline world, but cannot join the same online instance.
+
+It is possible to setup an infinite number of profiles, you can launch them individually in a group or all at once. Enabling "Auto-layout" arranges all windows on the main monitor so you can see all instances of VRChat at the same time.
+
+==How to set up multiple installations ==
+Here are the steps to set up multiple profiles to work with VRC Quick Launcher VRCQL:
+#Create a folder to hold the version of VRChat you are going to use.
+#Go to ''C:\Program Files (x86)\Steam\steamapps\common'' in your file browser.
+#Copy the folder named "VRChat" into the folder you created earlier, this will create a copy of your currently installed version of VRChat, which VRCQL can access.
+#Open VRC Quick Launcher.
+#Click "Browse" at the top right of the window.
+#Select ''VRChat.exe'' from the new folder.
+This installation of VRChat will now appear in the drop-down menu. When this installation of VRChat is selected, it will launch the copied version of VRChat. This means if you were on the [[Special:MyLanguage/Open Beta|open beta]] on Steam, you can revert to the release version, and still launch the open beta from VRC Quick Launcher. However, the copied version of VRChat will not update automatically.
+
+==Known Issues==
+[[File:VRCQLAfinity.webp|thumb|right]]When using the "--affinity=<ARG>" Under the edit button at the top, It will take priority over the custom parameters input box for Affinity As the "Edit" section comes first in line before the custom parameters.
+
+It is advised to use either Custom params or the Affinity input under Edit, Not both to prevent conflictions.
+
+==See also==
+
+*[[VRChat SDK]]
+*[[VRChat Creator Companion]]
+*[[Debug Menu]]
+
+==References==

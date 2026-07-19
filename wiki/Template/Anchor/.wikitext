@@ -1,0 +1,94 @@
+<onlyinclude><span id="{{{1}}}"></span>{{#if: {{{2|}}}|<span id="{{{2}}}"></span>|}}{{#if: {{{3|}}}|<span id="{{{3}}}"></span>|}}{{#if: {{{4|}}}|<span id="{{{4}}}"></span>|}}{{#if: {{{5|}}}|<span id="{{{5}}}"></span>|}}{{#if: {{{6|}}}|<span id="{{{6}}}"></span>|}}{{#if: {{{7|}}}|<span id="{{{7}}}"></span>|}}{{#if: {{{8|}}}|<span id="{{{8}}}"></span>|}}{{#if: {{{9|}}}|<span id="{{{9}}}"></span>|}}{{#if: {{{10|}}}|<span id="{{{10}}}"></span>|}}</onlyinclude>
+<code><nowiki>{{anchor|name1|name2|name3| ... |name10}}</nowiki></code>
+== About ==
+Allows to create one or more (up to 10) manual anchors to a specific part of a page.
+These can later be linked with regular <code><nowiki>[[page_name#anchor_name]]</nowiki></code>.
+
+(All headings are automatically an anchor and don't require one.)
+== Example usage ==
+{{anchor|some name}}
+<code><nowiki>{{anchor|some name}}</nowiki></code>
+
+An anchor has been inserted above, you can then link it [[#some name|like this]].
+
+{{anchor|name1|name2|name3}}
+<code><nowiki>{{anchor|name1|name2|name3| ... |name10}}</nowiki></code>
+
+Or you can insert more names in case of e.g. aliases or renaming.
+== Sources ==
+* About manual anchors - https://www.mediawiki.org/wiki/Help:Links#A_manual_anchor.
+
+[[Category:Templates]]
+
+== TemplateData ==
+<noinclude>
+<templatedata>
+{
+	"params": {
+		"1": {
+			"label": "Name 1",
+			"required": true,
+			"description": "First anchor name",
+			"type": "string"
+		},
+		"2": {
+			"label": "Name 2",
+			"description": "Second anchor name",
+			"type": "string"
+		},
+		"3": {
+			"label": "Name 3",
+			"description": "Third anchor name",
+			"type": "string"
+		},
+		"4": {
+			"label": "Name 4",
+			"description": "Fourth anchor name",
+			"type": "string"
+		},
+		"5": {
+			"label": "Name 5",
+			"description": "Fifth anchor name",
+			"type": "string"
+		},
+		"6": {
+			"label": "Name 6",
+			"description": "Sixth anchor name",
+			"type": "string"
+		},
+		"7": {
+			"label": "Name 7",
+			"description": "Seventh anchor name",
+			"type": "string"
+		},
+		"8": {
+			"label": "Name 8",
+			"description": "Eighth anchor name",
+			"type": "string"
+		},
+		"9": {
+			"label": "Name 9",
+			"description": "Ninth anchor name",
+			"type": "string"
+		},
+		"10": {
+			"label": "Name 10",
+			"description": "Tenth anchor name",
+			"type": "string"
+		}
+	},
+	"paramOrder": [
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"8",
+		"9",
+		"10"
+	]
+}
+</templatedata>
+</noinclude>

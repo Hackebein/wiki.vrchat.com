@@ -1,0 +1,25 @@
+== Templates ==
+The main page is separated into the following templates:
+* [[Special:MyLanguage/Template:MainPageTitleBox|Template:MainPageTitleBox]]
+* [[Special:MyLanguage/Template:MainPageVersion|Template:MainPageVersion]]
+* [[Special:MyLanguage/Template:MainPageUpdates|Template:MainPageUpdates]]
+* [[Special:MyLanguage/Template:MainPageInfopush|Template:MainPageInfopush]]
+* [[Special:MyLanguage/Template:MainPageQuickLinks|Template:MainPageQuickLinks]]
+* [[Special:MyLanguage/Template:VisitorsIndicator/Inner|Template:Visitor Indicator]]
+
+
+If you want to translate following page, please send transcript to [[Special:ListUsers/interface-admin | Interface Admin]] on discord.
+* [https://wiki.vrchat.com/wiki/Special:Translate?group=wiki-sidebar| Sidebar]
+* [https://wiki.vrchat.com/wiki/Special:Translate/wiki-footer| Footer]
+* [https://wiki.vrchat.com/index.php?title=Special:Translate&group=page-Template%3ATemplatelinks| Template Links]
+
+===Note===
+'''To bump release and build number,'''
+
+Go to [[Template:Version]] , [[Template:Version/Build]], [[Template:Version/href]] and [[Special:MyLanguage/Template:MainPageVersion|Template:MainPageVersion]] to patch to latest metrics.
+
+'''After all update done,'''
+
+Be sure to go to [[Special:PageTranslation| Page for Translation]] and "mark for translation" after edit above templates.
+
+If you are not maintainer, please ask maintainer dealing it.

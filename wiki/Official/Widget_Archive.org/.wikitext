@@ -1,0 +1,12 @@
+<noinclude>__NOTOC__
+This widget allows you to embed '''[https://archive.org/ Time machine videos]''' videos on your wiki page.
+
+Created by [https://www.mediawikiwidgets.org/User:Tuxun Tuxun]
+
+== Using this widget ==
+For information on how to use this widget, see [https://www.mediawikiwidgets.org/Vimeo widget description page on MediaWikiWidgets.org].
+
+== Copy to your site ==
+To use this widget on your site, install [https://www.mediawiki.org/wiki/Extension:Widgets MediaWiki Widgets extension] and copy the [{{fullurl:{{FULLPAGENAME}}|action=edit}} full source code] of this page to your wiki as page '''{{FULLPAGENAME}}'''.
+</noinclude><includeonly><iframe allowfullscreen="" frameborder="0" height="<!--{$height|default:480|escape:'html'}-->" src="https://archive.org/embed/<!--{$id|escape:'urlpathinfo'}-->?title=0&byline=0&portrait=0&playlist=1" webkitallowfullscreen="true" width="<!--{$width|default:640|escape:'html'}-->">
+</iframe><br />Archival footage supplied by <a href=https://archive.org archive.org">archive.org</a></includeonly>

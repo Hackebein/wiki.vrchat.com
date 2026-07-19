@@ -1,0 +1,27 @@
+{{Noticebox/Community}}
+
+[[File:Constraint_dampening_example.gif|thumb|526x296px|Example effect of dampening]]
+Constraint dampening, or self-referencing constraints, allows a constraint to follow its source gradually instead of snapping instantly. It’s most commonly used on avatars, but works in worlds too. The main constraint types are Parent, Position, Rotation, and Scale constraints. Keep weight% of source. 0 (0%) is an instant update to target, 0.2 (20%) - 0.3 (30%) is a good value to smooth out network updates.
+
+The speed toward the target depends on:
+*Current distance to the target (larger gap ⇒ faster)
+* Frame rate (more frames per second ⇒ faster)
+*Damp weight (lower damp ⇒ faster)
+
+== Setup==
+===Manual===
+[[File:Constraint dampening editor.webp|thumb|Editor setup example]]
+
+# Add the GameObject with the constraint as one of the sources in the Constraint component, and set its weight to 1.  
+# Use a second source for the target position
+
+===Automated===
+The [[VRChat Package Manager|VPM package]] from [[Community:VRLabs|VRLabs]] automates this process. After adding it to your hierarchy, unpack the package and move the target object to its desired position.
+
+*[https://github.com/VRLabs/Damping-Constraints/blob/main/README.md Project Page] at github.com
+
+
+==Resources==
+*[https://docs.unity3d.com/Packages/com.unity.animation.rigging@1.3/manual/constraints/DampedTransform.html 'Damped Transform | Animation Rigging'] on ''docs.unity3d.com''
+
+[[Category:Guides]]

@@ -166,6 +166,14 @@ _PATH_RESERVED_NAMES = {
 }
 _PATH_MAX_SEGMENT_BYTES = 255
 
+SOURCE_WIKITEXT = ".wikitext"
+_LANG_CODE_RE = re.compile(r"^[a-z]{2,3}(-[a-z0-9]+)?$", re.IGNORECASE)
+
+
+def is_lang_code(segment: str) -> bool:
+    """True when *segment* looks like a MediaWiki language code (en, zh-hant, …)."""
+    return bool(segment and _LANG_CODE_RE.match(segment))
+
 
 def _sanitize_path_segment(segment: str) -> str:
     """Return a single path component that is valid on Linux, macOS, and Windows."""
@@ -203,13 +211,17 @@ def sanitize_title_to_path(title: str, ns: int = 0) -> Path:
     if not name_parts:
         name_parts = ["_"]
 
-    *subdirs, leaf = name_parts
     base = Path(PAGES_DIR) / folder
-    for sub in subdirs:
-        base = base / sub
-    if subdirs:
-        return base / f"{leaf}.wikitext"
-    return base / leaf / "en.wikitext"
+
+    if len(name_parts) >= 2 and is_lang_code(name_parts[-1]):
+        lang = name_parts[-1].lower()
+        for part in name_parts[:-1]:
+            base = base / part
+        return base / f"{lang}.wikitext"
+
+    for part in name_parts:
+        base = base / part
+    return base / SOURCE_WIKITEXT
 
 
 def git_head_commit(repo: Path) -> Optional[str]:
@@ -306,6 +318,10 @@ def author_email(userid: int) -> str:
 
 def ensure_parent_dir(path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+
+
+def write_page_text(path: Path, content: str) -> None:
+    path.write_text(content, encoding="utf-8", newline="\n")
 
 
 def find_case_conflict(target: Path) -> Optional[Path]:
@@ -688,7 +704,7 @@ def bootstrap_snapshot_before_oldest_change(
             conflict.unlink()
             clean_empty_dirs(conflict.parent, repo)
         ensure_parent_dir(target)
-        target.write_text(content, encoding="utf-8")
+        write_page_text(target, content)
         written += 1
 
         if idx % 100 == 0:
@@ -741,7 +757,7 @@ def apply_change_to_worktree(
             conflict.unlink()
             clean_empty_dirs(conflict.parent, repo)
         ensure_parent_dir(target_abs)
-        target_abs.write_text(content, encoding="utf-8")
+        write_page_text(target_abs, content)
         return False, f"write {target_rel}"
 
     if rc.type == "log":
@@ -769,7 +785,7 @@ def apply_change_to_worktree(
                     clean_empty_dirs(target_abs.parent, repo)
                     ensure_parent_dir(dest_abs)
                     remove_case_conflicts(dest_abs, repo)
-                    dest_abs.write_text(content, encoding="utf-8")
+                    write_page_text(dest_abs, content)
                     return False, f"move {target_rel} -> {dest_rel}"
             return True, f"move without known destination for {target_rel}"
 

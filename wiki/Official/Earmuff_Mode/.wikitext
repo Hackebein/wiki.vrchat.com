@@ -1,0 +1,65 @@
+{{Noticebox/Official}}
+
+
+'''Earmuff Mode''', or "Earmuffs" is a feature, that allows a user to reduce the volume of other users outside a customizable radius around them. Earmuffs can be accessed by the [[Special:MyLanguage/Quick Menu|Quick Menu]] through the ''Audio tab'', or in the [[Special:MyLanguage/Settings|Settings]] tab of the [[Special:MyLanguage/Main Menu|Main Menu]], under ''Audio & Voice''. 
+While Earmuff Mode is enabled, other users can see if another user has it enabled by looking for an Earmuff indicator at the top right of their [[Special:MyLanguage/Nameplates|nameplate]], as seen below:
+[[File:EarmuffPlateScreenshot.webp|alt=Screenshot of a VRChat user's nameplate, the screenshot points out the earmuff icon on the top right of the nameplate.|none|thumb|An earmuff indicator appearing on a nameplate, when active.]]
+
+==Overview==
+[[File:Icons Earmuff.webp|thumb|120x120px|Earmuff Icon as it appears in VRChat.]] Earmuff Mode was released as an accessibility feature to the platform, initially in an [[Open Beta]] period on August 5<ref>[https://ask.vrchat.com/t/developer-update-5-august-2022 'Developer Update - 5 August 2022'] on ''ask.vrchat.com''; retrieved September 9, 2025.</ref>, 2022, and then officially launched on August 30<ref>[https://ask.vrchat.com/t/developer-update-30-august-2022 'Developer Update - 30 August 2022'] on ''ask.vrchat.com''; retrieved September 9, 2025.</ref>, 2022. There are different settings and preferences to change how Earmuff Mode is used. The shortcut for quickly toggling on and off Earmuff Mode, is by double-clicking the Audio tab on the Quick Menu. 
+
+==Settings==
+Earmuffs Mode can be toggled on or off and comes with different settings, to allow you to customize your preferred way of "muffling" users.
+
+''See also: Earmuff Mode [[Special:MyLanguage/Settings#Earmuff Mode|Settings]] for a streamlined view.''
+
+===Distance===
+* This changes the range in meters at which the volume of other players will begin to be reduced.
+* Distance value can be set between 0.0-10.0m.
+
+[[File:Earmuff.webp|thumb|A demonstration of the Earmuff Mode menu, and the visual aid indicated by the red and gray circles.]]
+===Falloff Distance===
+* The falloff in meters of which user volumes will be reduced outside the initial range.
+* Falloff distance value can be set between 0.0-10.0m.
+
+===Outside Volume===
+* The lowest range a user's volume will be reduced to.
+* Outside volume value can be set between 0-100%.
+
+===Always Show Visual Aide ===
+* Will toggle the visualization of the Earmuff range to always be visible.
+* Toggles between Off/On.
+
+===Include Avatar Audio===
+* Whether or not Avatar Audio is affected by Earmuff Mode.
+* Toggles between Off/On.
+
+===Forward Cone===
+* Adjusts the range to a cone to favor users in front of the user.
+* Forward cone value can be set between 0-100%.
+
+===Falloff Forward Shift===
+* Adjust the amount of forward offset that the directionality property applies to your Earmuff's falloff zone.
+* Forward cone value can be set between 0-100%.
+
+===Shape Follows Rotation of...===
+* Whether the shape of the Earmuff cone follows the user's camera (current view) or the root of their avatar. 
+* Toggles between Camera and Avatar. 
+
+===Lock Shape Rotation===
+* Locks the shape rotation in its current position.
+* Toggles between Off/On.
+
+==Official resources==
+* [https://docs.vrchat.com/docs/vrchat-202222p3 Earmuff Mode] at ''docs.vrchat.com''
+
+== Trivia ==
+
+* Earmuff Mode was originally called "Conversation Dome" during development
+* This feature can also be quickly toggled by double-clicking the Audio tab, when the Quick Menu is open
+* Concept art of Earmuff Mode showed [[VRCat]] wearing earmuffs, and without wearing their signature cardboard box; this was later changed to include the box
+
+==References==
+
+[[Category:Features]]
+[[Category:Accessibility]]

@@ -1,0 +1,46 @@
+{{Noticebox/Community}}
+{{Stub|Not much information here! Please expand and proofread in reference to the [[VRCWiki:Manual_of_Style|Manual of Style]].}}
+
+'''VRCOSC''' is a third-party application developed by VolcanicArts<ref name="github">[https://github.com/VolcanicArts/VRCOSC VRCOSC  repository (GitHub)]</ref> that simplifies the creation of [[OSC]] programs through an extensible module system.
+
+==Origin==
+
+The application's first pre-release (version ''2022.325.0'') appeared on GitHub on March 25, 2022<ref>[https://github.com/VolcanicArts/VRCOSC/releases/tag/2022.325.0 VRCOSC release version 2022.325.0 (GitHub)]</ref> with the initial feature set consisting of a handful of modules that allowed sending certain avatar parameters into VRChat from external sources (such as heart rate data from an external API, or information about the user's computer) through the OSC protocol<ref name="initial-readme">[https://github.com/VolcanicArts/VRCOSC/blob/2022.325.0/README.md README.md of VRCOSC version 2022.325.0 (GitHub)]</ref>.
+
+Initially the module system required users to create pull requests (meaning to suggest a change to the application code itself) to introduce new modules.<ref name="initial-readme" /> Despite this limitation, the goal of the application has been to allow for extension by modules from the start.
+
+The first stable release of the application arrived on May 27, 2022 with version ''2022.527.0''.<ref>[https://github.com/VolcanicArts/VRCOSC/releases/tag/2022.527.0 VRCOSC release version 2022.527.0 (GitHub)]</ref>
+
+==Features==
+
+===VRCOSC v1===
+
+The "v1" version of the application supports a handful of features out of the box<ref>https://github.com/VolcanicArts/VRCOSC/blob/2024.220.1/README.md</ref> via built-in modules, for example:
+
+* desktop media controls via the [[Action Menu]] and showing of the currently playing song in the [[Chatbox]]
+* displaying live heart rate information in the [[Chatbox]] and sending it as avatar parameters
+* providing speech-to-text (also sometimes referred to as "live transcription") via voice recognition and the [[Chatbox]]
+* allowing for the creation of custom gestures for headsets with individual finger tracking support
+* ability to count parameter changes on an avatar (e.g. to count the number of collisions with a [[Physbones|PhysBone]] collider)
+* displaying the user's hardware statistics in the [[Chatbox]]
+
+These modules also contain prefabs that can be placed on an avatar and are set up to interact with the module's parameters to display certain information on the avatar itself,  e.g. displaying the heartrate on the avatar's wrist.
+
+In addition, external modules are also supported via user-supplied DLLs placed in a specific folder of the user's computer. These modules have the ability to define custom parameters and behavior in C# using the VRCOSC SDK.<ref>[https://github.com/VolcanicArts/VRCOSC/wiki/Module-Creation Module Creation - VRCOSC Wiki (GitHub)]</ref>
+
+===VRCOSC v2===
+
+A complete rewrite of the application is currently in progress, which, in addition to the features of v1, adds support for the automatic installation and updating of modules through GitHub repositories, as well as [[OSCQuery]] support, which should improve the compatibility and reliability of the OSC connection.
+
+==Community impact==
+
+The program has split the community due to its inclusion of [[Chatbox]] support, which makes it easy for its users to repurpose the in-game chat functionality to send messages in quick succession to display arbitrary text, including values from the application's many modules. The Discord server for the application also encourages users to share their own "chatbox configs", which the app allows easy import and export on in the form of JSON files.
+
+When the [[Chatbox]] feature was first introduced, VRChat did not include a notification sound for chat messages.<ref>[https://ask.vrchat.com/t/vrchat-2022-2-2p3/13315 VRChat 2022.2.2p3 (VRChat Ask Forum)]</ref> In response to a feedback post, this feature was subsequently implemented<ref>[https://feedback.vrchat.com/feature-requests/p/chatboxor-textbox-needs-notification-sound Chatbox(or textbox) needs notification sound (VRChat Feedback)]</ref> to let others nearby know a chat message was sent was someone. It was quickly discovered by the users of the app and this change caught the developer off-guard, prompting an announcement that a hotfix is coming, and ultimately the issue was fixed in version 2023.109.0 of the application.<ref>[https://github.com/VolcanicArts/VRCOSC/releases/tag/2023.109.0 VRCOSC release version 2023.109.0 (GitHub)]</ref>
+
+To this day, some people consider the use of the [[Chatbox]] for anything other than its original intended purpose, serving as a text-based method of communication for those who are e.g. mute or hard of hearing, a cardinal sin. Others, however, see it as a fun way to [[Community:Oversharing|overshare]] to people in their immediate surroundings.
+
+As a compromise between the creators of [[OSC]] programs and world authors, the ''Chatbox Club Blacklist''<ref>[https://github.com/cyberkitsune/chatbox-club-blacklist Chatbox Club Blacklist (GitHub)]</ref> project emerged, and an option was implemented in version 2024.220.1 of the app<ref>[https://github.com/VolcanicArts/VRCOSC/releases/tag/2024.220.1 VRCOSC release version 2024.220.1 (GitHub)]</ref> to disable the chatbox functionality in worlds on the list by default. This prevents obnoxiously large chat boxes from obstructing the view and breaking immersion.
+
+==References==
+<references/>

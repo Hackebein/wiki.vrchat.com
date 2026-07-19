@@ -1,0 +1,32 @@
+<onlyinclude>{{#if:{{{description|}}}|{{#description2:{{{description}}}}}}}{{#if:{{{image|}}}|{{#setmainimage:{{{image}}}}}}}{{#if:{{{title|}}}|{{#setmaintitle:{{{title}}}}}}}</onlyinclude><noinclude>{{Documentation}}[[Category:Templates]]<templatedata>
+{
+	"params": {
+		"description": {
+			"label": "Description",
+			"description": "The description that shows up when a page is embedded",
+			"example": "VRRat is one of VRChat's mascots!",
+			"type": "string",
+			"suggested": true
+		},
+		"image": {
+			"label": "Embed Image",
+			"description": "The image shown when a page is embedded.",
+			"type": "wiki-file-name",
+			"suggested": true
+		},
+		"title": {
+			"label": "Title",
+			"description": "The title shown when a page is embedded.",
+			"type": "string",
+			"suggested": true
+		}
+	},
+	"description": "For adding OpenGraph embed data for a page.",
+	"paramOrder": [
+		"title",
+		"description",
+		"image"
+	],
+	"format": "inline"
+}
+</templatedata></noinclude>

@@ -1,0 +1,39 @@
+{{Stub}}
+{{Infobox/Asset
+|name=VRChat Face Tracking
+|author=benaclejames
+|documentation=https://docs.vrcft.io/
+|github=benaclejames/VRCFaceTracking
+}}
+
+'''VRCFT''' stands for '''VRChat Face Tracking''', a '''community-made tool''' that allows you to send real-time '''face tracking data''' into '''VRChat''' using '''OSC'''. It acts as a bridge between '''face tracking software''' (like iFacialMocap or VSeeFace) and your '''VRChat avatar''', enabling expressive facial animations in VRChat.
+
+=== What VRCFT does ===
+
+* '''Receives facial tracking data''' (blendshapes) from supported [https://docs.vrcft.io/docs/vrcft-software/vrcft#module-registry modules]
+* '''Maps those blendshapes to your avatar''' in VRChat using [[Open Sound Control|OSC]]
+* '''Works in desktop mode and VR'''
+
+----
+
+==== Requirements ====
+{| class="wikitable"
+!Requirement
+!Details
+|-
+|'''VRChat'''
+|Must be '''OSC-enabled''' (Settings > OSC)
+|-
+|'''Avatar'''
+|Must have '''blendshapes (shape keys)''' set up properly for face expressions
+See [https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/compatibility/overview VRCFT Standards Wiki]
+|-
+|'''Tracking source'''
+|e.g., iFacialMocap (iOS), VSeeFace (PC webcam), or [https://docs.vrcft.io/docs/vrcft-software/vrcft#module-registry Modules]
+|-
+|'''VRCFT installed'''
+|[https://store.steampowered.com/app/3329480/VRCFaceTracking/ Steam] (community tool, not VRChat official) or on their [https://docs.vrcft.io/ Website]
+|}
+
+==== Important Notes ====
+* Your avatar '''must be properly set up''' with blendshapes and OSC parameters, see [https://docs.vrcft.io/docs/tutorial-avatars/tutorial-avatars-extras/parameters VRCFT Parameters]

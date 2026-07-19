@@ -1,0 +1,26 @@
+== Lack of information ==
+
+I've skimmed through the page and notice it omits a lot of information which would be relevant for someone who is interested in full body tracking but may not know where to start or what to expect.
+
+In the case of Lighthouse tracking, it's probably better to refer to it as SteamVR tracking rather than lighthouse, as when someone buys a SteamVR tracked device (e.g. Vive Tracker 3.0), the box will say "SteamVR Tracking" instead of lighthouse tracking. This also complies with Valve branding guidelines.
+
+Also why is the cost of SteamVR tracked devices not mentioned? That's usually their biggest con, as a significant portion of users who wish to use it don't have base stations already and as such the cost of entry tends to be high, usually at minimum requiring the user to invest a grand or more to get started.
+
+Additionally, given not everyone is using a SteamVR tracked headset, it's probably best to mention that one may have to use Space Calibrator to use said trackers with a standalone headset, giving an example of using Vive 3.0s with a Quest. As for which version to link to, I would link to the Steam version (https://store.steampowered.com/app/3368750/Space_Calibrator/), however I am biased as I maintain the Steam version and hyblocker fork and it likely would present a conflict of interest. This also would probably make sense to go in it's own section rather than have it in the SteamVR tracking section, as it can be used with any combination of tracking systems, not just SteamVR tracking. SteamVR tracking just happens to be the most common use case.
+
+For the Kinect, why not provide a reference to the Amethyst project? (https://github.com/kinecttovr/amethyst) It allows people to use a Kinect for full body tracking in VRChat. (I am also a developer on the project so bias again here).
+
+For PSMoves, why not provide a reference to PSMSEx (https://github.com/Timocop/PSMoveServiceEx)? It's a maintained version of the older tools a number of guides would refer to, and allows people to use PSMove controllers in conjunction with PSEye cameras for rather accurate full body tracking.
+
+For EMF trackers, a project called Fluxpose will provide that form of tracking, but no retail units are currently available for purchase.
+
+Additionally, I would argue that it makes sense to mention OSC trackers for PC and standalone users.
+Also I would mention that mocopi, Slimes and Vive Ultimates work on standalone via either official support of OSC trackers. [[User:Usr 3f2997ae-ecf0-40cb-bcf3-f5692f5e429e|Usr 3f2997ae-ecf0-40cb-bcf3-f5692f5e429e]] ([[User talk:Usr 3f2997ae-ecf0-40cb-bcf3-f5692f5e429e|talk]]) 14:08, 14 March 2025 (UTC)
+
+:The lack of information is because it's limited to the people who've edited the article. Anyone is free to edit the article (and any "main space" article for that matter) it's just that it'll go through the mod queue first to avoid vandalism. [[User:Usr_c272d4fe-f1f8-4d77-8008-cad6cb81d6cd|<span style="color:#9966ff;">TrixxedHeart</span> <span style="font-size:6px; position: relative; top: -1em;">(They/Them)</span>]] ([[User Talk:Usr_c272d4fe-f1f8-4d77-8008-cad6cb81d6cd|talk]]) 15:05, 14 March 2025 (UTC)
+
+::I read through this talk page last night, as was very intrigued. I have also created a page for [[Guides:Types of tracking]]. Feel free to jump in, and add information - though I will try to expand upon this a bit later, and flesh out details. I'm sure some of the information on this page, can help relay between articles when it's done.
+
+::Still, I need to do a bit research about the different types of full-body trackers - as far as I know, I understand there are base station trackers, camera-based trackers, IMU trackers, Wifi-based trackers, and gyroscopic. Please correct me if I am missing anything, or if my terminology is incorrect.
+
+::While I did go ahead to also mention K2VR, as I agree that this is notable for this Guides page on VRCWiki. Please also note that while experimental and industry hardware can be mentioned, articles for body tracking is more geared towards notable consumer-ready and realistically afforable hardware (Kinect meets that criteria), and software that is compatible with VRChat through OSC or software that doesn't modify the client. Thanks! [[User:Usr 8ee44c1a-f905-4e08-bb61-e1cd34e09fc0|Usr 8ee44c1a-f905-4e08-bb61-e1cd34e09fc0]] ([[User talk:Usr 8ee44c1a-f905-4e08-bb61-e1cd34e09fc0|talk]]) 14:09, 15 March 2025 (UTC)

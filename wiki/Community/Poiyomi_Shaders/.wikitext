@@ -1,0 +1,11 @@
+{{Stub}}{{Infobox/Asset|author=poiyomi|documentation=https://www.poiyomi.com/|github=https://github.com/poiyomi/PoiyomiToonShader|vpm=https://poiyomi.github.io/vpm/|name=Poiyomi Shaders}}
+
+'''Poiyomi Shaders''' (also known as "Poiyomi Toon Shader") is a [[Community:Terminology#Shader|shader]] for the Unity Game Engine. It supports a large variety of stylized shading presets consisting of customizable lighting and shadow behavior, as well as supporting features for cartoon-style shading such as Outlines.
+
+Poiyomi Shaders is widely used across VRChat among various avatar creators due to it's modular nature. This can be due to the large amount of optimized features that the shader has readily available for both specific shading styles, special effects such as Decals, RGBA Color Masking, Matcap, Glitter, Outlines, and [[Community:AudioLink|AudioLink]] support.
+
+Poiyomi functions by enabling and disabling various code snippets which are then compiled upon upload, making what is effectively a custom shader per each material. This allows your materials to be far more optimized due to not having to calculate unused portions of their respective shaders. 
+[[Category:Assets]]
+[[Category:Assets available via BOOTH]]
+[[Category:Assets available via GitHub]]
+[[Category:Assets available via the VRChat Package Manager]]
