@@ -22,7 +22,9 @@ Users can start discovering worlds before launching VRChat for the first time, b
 </div>
 
 <span id="Home_world"></span>
+<div class="mw-translate-fuzzy">
 ===ホームワールド ===
+</div>
 
 ホームワールドとは、ユーザーがVRChatを起動した際に最初に参加するワールドである。
 デフォルトでは、ホームワールドは[[Special:MyLanguage/VRChat Home|VRChat Home]] に設定されているが、VRChat 内で使用可能な任意のワールド<ref group="note" name="any-world">プライベートワールドや[[Special:MyLanguage/Community_Labs|コミュニティラボ]]内のワールドはホームワールドとして設定できない。</ref> に変更できる。
@@ -41,7 +43,7 @@ Users can start discovering worlds before launching VRChat for the first time, b
 [[Special:MyLanguage/Quick Menu|クイックメニュー]]を開き、「クイックリンク」セクション内にある「'''ワールド'''」ボタンをクリックすると、[[Special:MyLanguage/Main Menu|メインメニュー]]に移動する。
 デフォルトでは、「VRCat のバラエティボックス」などの様々なワールドカテゴリーからランダムに選ばれたコンテンツが表示される。
 メインメニューのどの画面からでも、下部の「ワールド」タブからこのページに移動できる。
-</div> 
+</div>
 
 <span id="My_Worlds"></span>
 <div class="mw-translate-fuzzy">
@@ -53,7 +55,9 @@ Users can start discovering worlds before launching VRChat for the first time, b
 </div>
 
 <span id="Search"></span>
+<div class="mw-translate-fuzzy">
 ====検索機能====
+</div>
 
 <div class="mw-translate-fuzzy">
 ワールドタブから、ユーザーは「ワールドを検索 (Search Worlds)」ボタンを使用して検索画面に移動し、タイトル、説明、タグ、作成者などを用いて特定のワールドを検索できる。検索結果は、関連性、最終更新日、人気順で並べ替えできる。
@@ -64,7 +68,7 @@ Users can start discovering worlds before launching VRChat for the first time, b
 ランダムな検索ワードでは、検索語句がランダムに表示され、シャッフルすることが可能である。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-====World categories====
+==== World categories ====
 </div>
 
 <div class="mw-translate-fuzzy">
@@ -94,19 +98,21 @@ The categories include:
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-====Joining====
+==== Joining ====
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Clicking on a world tile anywhere on the "Worlds" tab will bring up the dedicated world page for that world. The world tile is represented with a [[Special:MyLanguage/Community:World Thumbnail|thumbnail]] & the world name, giving insight into its contents. This page features more details about the world, such as it's name, the author, description, actions and more.
-</div> 
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To join the world, users can simply click the "Join" button. Alternatively, users can drop a portal to the world as well, by clicking "Drop Portal". The instance of the world a user joins can be changed on the right side, or a new instance can be created under the Actions heading.
-</div> 
+</div>
 
 <span id="Portals"></span>
+<div class="mw-translate-fuzzy">
 ===ポータル ===
+</div>
 
 ''詳しくは [[Special:MyLanguage/Portals|ポータル]] も参照。''
 
@@ -118,13 +124,17 @@ To join the world, users can simply click the "Join" button. Alternatively, user
 ポータルは常に、以下の2種類のいずれかの形態で表示される:
 
 <span id="Static_portals"></span>
+<div class="mw-translate-fuzzy">
 ====静的ポータル====
+</div>
 
 ワールドには、他のワールドへのリンクとして置かれた「静的ポータル」が含まれている場合がある。これらはワールドの一部として恒久的に置かれており、ユーザーがいつでも使用できる状態になっている。
 ユーザーが静的ポータルに入ると、30秒間のカウントダウンが開始され、このカウントダウンが終了するまでの間、後から続いた他のユーザーも同じインスタンスへ移動することができる。
 
 <span id="User-placed_portals"></span>
+<div class="mw-translate-fuzzy">
 ====ユーザーが設置したポータル====
+</div>
 
 ユーザーは、ワールドタブでワールドを検索し、'''「インスタンスを作る」'''を選択した後、インスタンスタイプを指定し、'''「ポータルを置く」'''を実行することで、ワールドのインスタンスへのポータルを置くことができる。
 ポータルは、指定されたスポーン地点付近を除き、ワールド内のほとんどの場所におくことができる。表示は静的ポータルと同様だが、ユーザーがポータルを設置した時点で、30秒間のカウントダウンが開始されるという違いがある。
@@ -138,7 +148,7 @@ To join the world, users can simply click the "Join" button. Alternatively, user
 VRChat のワールドを作成してアップロードするには、ユーザーのトラストランクが「User」に到達している必要がある。
 
 ワールド制作を開始するには、[[Special:MyLanguage/VRChat Creator Companion|VRChat Creator Companion]] をダウンロードする。このツールは、VRChat に対応した最新の Unity バージョンのインストールを支援し、ワールドプロジェクトへ [[Special:MyLanguage/VRChat SDK|VRChat SDK]] を導入するために使用される。
-ワールドをパブリックとしてアップロードした場合、そのワールドは正式に公開される前に、コミュニティラボ ([[Special:MyLanguage/Community Labs|community labs]]) で公開される。 
+ワールドをパブリックとしてアップロードした場合、そのワールドは正式に公開される前に、コミュニティラボ ([[Special:MyLanguage/Community Labs|community labs]]) で公開される。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == Short links ==
@@ -149,7 +159,9 @@ Worlds can be shared using VRChat's <code>vrch.at</code> short link domain combi
 </div>
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==関連項目==
+</div>
 
 * [[Special:MyLanguage/List of worlds created by VRChat|VRChat が作成したワールドの一覧]]
 
@@ -162,12 +174,18 @@ Worlds can be shared using VRChat's <code>vrch.at</code> short link domain combi
 *[[Special:MyLanguage/Portals|ポータル]]
 
 <span id="Trivia"></span>
+<div class="mw-translate-fuzzy">
 ==トリビア==
+</div>
 
+<div class="mw-translate-fuzzy">
 * VRChat で最初に作成されたワールドはカフェだった。VRChatの10周年を記念して、2024年1月16日に改訂版がアップロードされた。<ref>[https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973 '''VRChat.''' ''VRChat Cafe.'' VRChat, 16 Jan. 2024. '''VRChat''', https://vrchat.com/home/world/wrld_329485fe-50a5-4ef8-bb47-194d23f15973]</ref>
+</div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 == 出典 ==
+</div>
 
 <references />
 
