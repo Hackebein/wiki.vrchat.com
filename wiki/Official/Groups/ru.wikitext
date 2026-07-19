@@ -21,19 +21,25 @@
 </div>
 
 <span id="Joining_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==Присоединение к группе==
+</div>
 
 Чтобы присоединиться к группе, сначала нужно перейти на её страницу. Пользователи могут состоять одновременно в 100 разных группах, или в 200 — с активной подпиской [[Special:MyLanguage/VRC+|VRC+]]. Чтобы найти группу, можно воспользоваться вкладкой поиска или вкладкой групп в [[Special:MyLanguage/Main Menu|Главном меню]].
 
 Также можно присоединиться к группе, просматривая список групп в профиле другого пользователя или нажав на определённые рекламные плакаты, размещённые в мирах. После вступления в группу вы сможете присоединяться к любым активным инстансам группы через вкладку '''Инстансы''' на странице группы или в строке '''Активность групп''' во вкладке Контакты.
 
 <span id="Representing"></span>
+<div class="mw-translate-fuzzy">
 ===Представление===
+</div>
 
 Представление группы отображает её имя и баннер над никнеймом пользователя и в его профиле. Пользователь может представить группу, перейдя на страницу группы в главном меню и нажав кнопку "Представлять группу" в правом верхнем углу. Одновременно можно представлять только одну группу.
 
 <span id="Membership_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===Видимость участия===
+</div>
 
 Участник группы может скрыть своё участие, чтобы оно не отображалось в списке групп на его профиле. Однако другие пользователи всё равно смогут увидеть, что вы состоите в группе при следующих условиях:
 
@@ -64,14 +70,18 @@
 |}
 
 <span id="Creating_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==Создание группы==
+</div>
 
 <div class="mw-translate-fuzzy">
 Чтобы создать группу, пользователь должен сначала получить подписку [[Special:MyLanguage/VRChat+|VRC+]]. Сохранение подписки VRC+ не является обязательным для поддержания права собственности на группу. Активная подписка VRC+ необходима для изменения значков, баннеров и редактирования галереи группы с помощью [[Special:MyLanguage/Gallery|галереи]] VRC+, а также для передачи прав собственности на группу другому пользователю. В настоящее время создать группу можно только через {{VRC link|https://vrchat.com/home/groups|веб-сайт VRChat}}. Пользователь может владеть максимум 5 группами, в каждую из которых может вступить до 100,000 участников.
 </div>
 
 <span id="Joinability_and_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===Возможность присоединения и видимость===
+</div>
 
 <div class="mw-translate-fuzzy">
 При создании группы процесс предлагает создателю несколько вариантов конфиденциальности. '''Возможность присоединения''' к группе определяет, может ли пользователь присоединиться к группе. Этот параметр можно изменить позже.
@@ -129,24 +139,64 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 </div>
 
 <span id="Group_roles_and_permissions"></span>
+<div class="mw-translate-fuzzy">
 ==Роли и права в группе==
+</div>
 
 <span id="Viewing_your_roles"></span>
+<div class="mw-translate-fuzzy">
 ===Просмотр ролей===
+</div>
 
 Хотя в данный момент нельзя выбирать или изменять роли внутри клиента VRChat, вы можете просмотреть все текущие роли, назначенные вашей учетной записи. Для этого откройте [[Special:MyLanguage/Main Menu|Главное меню]], перейдите на вкладку «Группы» и выберите группу, для которой хотите просмотреть свои роли. В правом верхнем углу меню есть значок «шестерёнка», который раскрывает '''меню настроек группы'''. В самом верху меню вы сможете увидеть роли, которые вам назначены.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Self-assigning roles ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To self-assign '''Self Assignable''' roles, you must sign in on the VRChat website, and navigate to the Members tab.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 1: Click '''Groups''' on the left sidebar of the website.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 2: Click on a group with self-assignable roles.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 3: Click on the tab titled '''Members'''.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 4: Click on your profile card, ''outside'' your username. (This area is only clickable if there are self-assignable roles.)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 5: Click on roles to move them between '''Available Roles''' and '''Assigned Roles'''. Grayed-out roles in '''Assigned Roles''' are not self-assignable and cannot be removed in this manner.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 6: '''Click Save'''.
+</div>
+
 <span id="Default_roles"></span>
+<div class="mw-translate-fuzzy">
 ===Стандартные роли===
+</div>
 
 [[File:Groups default roles.png|thumb|253x253px|<span lang="en" dir="ltr" class="mw-content-ltr">Role overview</span>]]
 
 Группы имеют три различных уровня ролей: '''Management Roles''', '''Member Roles''' и '''Default Role'''. При создании группы автоматически будут созданы три роли: '''Everyone''', которая отображается под 'Default Role', '''Member''', которая отображается под 'Member Role', и '''Group Owner''', которая отображается под 'Управляющими ролями'. Названия ролей 'Group Owner' и 'Member' можно изменить, но 'Everyone' нельзя изменить или удалить.
 
-Разрешения владельца группы нельзя изменить или удалить никаким образом, так как по умолчанию у него всегда должны быть все разрешения. Тем не менее, владельца группы можно передать другому желающему участнику группы, при условии, что обе стороны подписаны на VRC+. Перед передачей следует тщательно всё обдумать, так как все передачи являются окончательными. Подробности о передаче групп можно найти ниже. 
+Разрешения владельца группы нельзя изменить или удалить никаким образом, так как по умолчанию у него всегда должны быть все разрешения. Тем не менее, владельца группы можно передать другому желающему участнику группы, при условии, что обе стороны подписаны на VRC+. Перед передачей следует тщательно всё обдумать, так как все передачи являются окончательными. Подробности о передаче групп можно найти ниже.
 
 <span id="Creating_roles"></span>
+<div class="mw-translate-fuzzy">
 ===Создание ролей===
+</div>
 
 Роли могут быть добавлены, переименованы или удалены в любое время в панели управления группы. Каждой роли можно задать описание и установить набор разрешений. Разрешения в группе могут быть включены или отключены. Роли могут быть дополнительно настроены как '''Assign On Join''', '''Self Assignable''' или '''Require 2FA'''.
 
@@ -181,19 +231,21 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 [[File:Groups permissions overview.png|thumb|Некоторые доступные разрешения, которые могут быть назначены, как видно в параметрах управления группой]]
 
 <span id="Assigning_permissions"></span>
+<div class="mw-translate-fuzzy">
 ===Назначение разрешений===
+</div>
 
-Чтобы назначить разрешения для роли, менеджер группы должен войти на сайт VRChat и перейти на вкладку Permissions. 
+Чтобы назначить разрешения для роли, менеджер группы должен войти на сайт VRChat и перейти на вкладку Permissions.
 
-*Шаг 1: Нажмите '''Groups''' на левой боковой панели сайта. 
+*Шаг 1: Нажмите '''Groups''' на левой боковой панели сайта.
 
-*Шаг 2: Нажмите на группу, которой вы можете управлять или для которой можно изменить разрешения. 
+*Шаг 2: Нажмите на группу, которой вы можете управлять или для которой можно изменить разрешения.
 
-*Шаг 3: Менеджер группы может получить доступ к различным вкладкам, таким как Overview, Posts и т.д. Нажмите на вкладку с заголовком '''Settings'''. 
+*Шаг 3: Менеджер группы может получить доступ к различным вкладкам, таким как Overview, Posts и т.д. Нажмите на вкладку с заголовком '''Settings'''.
 
-*Шаг 4: Нажмите на '''Roles''' под этой вкладкой. 
+*Шаг 4: Нажмите на '''Roles''' под этой вкладкой.
 
-*Шаг 5: Нажмите на роль, для которой вы хотите изменить разрешения, и выберите '''Permissions''' с иконкой замка. 
+*Шаг 5: Нажмите на роль, для которой вы хотите изменить разрешения, и выберите '''Permissions''' с иконкой замка.
 
 <div class="mw-translate-fuzzy">
 *Шаг 6: Примените разрешения, указанные ниже, прокрутите страницу вниз и нажмите '''Save'''.
@@ -316,7 +368,9 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 | <span lang="en" dir="ltr" class="mw-content-ltr">Bypass Avatar Performance Requirements</span>|| <span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to join group instances that have a minimum avatar performance requirement, regardless of their avatar's performance rating.</small></span>
 |}
 <span id="Group_instances"></span>
+<div class="mw-translate-fuzzy">
 ==Групповые инстансы==
+</div>
 
 <div class="mw-translate-fuzzy">
 Владелец группы и те, кто имеет соответствующие разрешения, могут создавать групповые [[Special:MyLanguage/Instances|инстансы]]. Существует три типа групповых инстансов.
@@ -349,13 +403,15 @@ Group instances are often '''moderated by the group hosting the instance'''. The
 </div>
 
 <span id="Group_instance_queues"></span>
+<div class="mw-translate-fuzzy">
 ===Очередь инстанса группы===
+</div>
 
 Групповые инстансы также отлично подходят для управления мероприятиями с большим количеством участников. В таких ситуациях опция '''Очередь инстанса''' создаст очередь ожидания для обработки запросов на вступление, если будет достигнута максимальная вместимость инстанса. Когда вы встаёте в очередь инстанса, вы получите запрос на присоединение, когда появится свободное место. У вас есть одна минута после получения запроса, чтобы присоединиться к инстансу, прежде чем ваше место будет отдано следующему человеку.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Instance announcements===
+=== Instance announcements ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -367,15 +423,21 @@ A user with the appropriate permission can send an announcement from the Quick M
 </div>
 
 <span id="Transferring_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==Передача группы==
+</div>
 
+<div class="mw-translate-fuzzy">
 На 27 марта 2024 года<ref>https://ask.vrchat.com/t/developer-update-28-march-2024/23676</ref> владельцы групп могут передавать право владения группой другому участнику, при условии, что оба участника подписаны на VRC+ и имеют доступное место. Это следует учитывать, так как все переводы окончательны.
+</div>
 
+<div class="mw-translate-fuzzy">
 '''Вы можете передать право владения своей группой другому участнику группы; целевой участник и группа должны соответствовать следующим требованиям.'''
 *Целевой участник подтвердил свой адрес электронной почты (проверьте раздел «Email» в настройках аккаунта)
 *Целевой участник имеет активную подписку VRC+
 *Целевой участник всё ещё может владеть дополнительными группами (каждый пользователь может владеть до 5 групп)
 *Группа не монетизируется
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == List of .0000 groups ==
@@ -427,7 +489,7 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 |<span lang="en" dir="ltr" class="mw-content-ltr">This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Playtours</span>
-|<private>.0000
+|<span lang="en" dir="ltr" class="mw-content-ltr"><private>.0000</span>
 |<span lang="en" dir="ltr" class="mw-content-ltr">This group is for VRChat Playtours.</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">Instance Capacity Stress Tests</span>
@@ -435,19 +497,25 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 |<span lang="en" dir="ltr" class="mw-content-ltr">This group is for testing unreasonably high capacity instances.</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Community Leaders</span>
-|TBA
-|TBA
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
 |}
 
 <span id="Official_resources"></span>
+<div class="mw-translate-fuzzy">
 ==Официальные ресурсы==
+</div>
 
+<div class="mw-translate-fuzzy">
 *[https://www.youtube.com/watch?v=b6c_kDRJG2A Developer Update - Groups] на ''YouTube'', загружено 30 ноября 2022 года.
 *{{VRC link|https://hello.vrchat.com/blog/vrchat-groups|Groups is Now Live!}} на ''hello.vrchat.com''
 *{{VRC link|https://help.vrchat.com/hc/en-us/sections/11719560642963-VRChat-Groups|VRChat Groups FAQ}} на ''help.vrchat.com''
+</div>
 
 <span id="Trivia"></span>
+<div class="mw-translate-fuzzy">
 ==Интересные факты==
+</div>
 
 <div class="mw-translate-fuzzy">
 *Первая созданная группа была "Just Bread Group" ([https://vrc.group/TOASTY.1234 TOASTY.1234]) <ref>https://x.com/VRChat/status/1747389673154949626</ref>.
@@ -455,7 +523,9 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 </div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==Ссылки==
+</div>
 
 <references />
 
