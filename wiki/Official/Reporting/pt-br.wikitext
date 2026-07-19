@@ -29,7 +29,9 @@ Uma denúncia eficaz permite que os usuários:
 ** Arquivos de log
 
 <span id="Reporting_content"></span>
+<div class="mw-translate-fuzzy">
 ==Como denunciar conteúdo==
+</div>
 
 <span id="Reporting_a_user"></span>
 ===Denunciando um usuário===
@@ -118,7 +120,7 @@ Se houver dúvidas sobre se o conteúdo viola as Diretrizes da Comunidade, consi
 
 * [https://help.vrchat.com/hc/en-us/articles/43987073323667-Reporting-Groups Reporting Groups - Help Website]
 
-Esta opção deve ser selecionada para denunciar um [[Special:MyLanguage/Groups|Grupo]] ou o seu conteúdo. Ao visualizar a página de um grupo, um botão '''Denunciar''' estará disponível no canto superior direito. 
+Esta opção deve ser selecionada para denunciar um [[Special:MyLanguage/Groups|Grupo]] ou o seu conteúdo. Ao visualizar a página de um grupo, um botão '''Denunciar''' estará disponível no canto superior direito.
 {| class="wikitable"
 !Tipos
 !Conteúdo Sexual
@@ -330,30 +332,40 @@ Esta opção deve ser selecionada para denunciar qualquer conteúdo presente em 
 !✔️
 |}
 <span id="Successful_Reports"></span>
+<div class="mw-translate-fuzzy">
 == Denúncias bem-sucedidas ==
+</div>
 
 Quando uma ação for tomada com sucesso com base em uma denúncia enviada anteriormente por você, uma notificação será exibida na aba "Outros" informando isso.
 
 O texto das notificações varia visualmente de acordo com o tipo de denúncia bem-sucedida. Denúncias de usuários exibirão "Usuário", enquanto denúncias de grupos mencionarão "Grupos". No entanto, as respostas recebidas por e-mail são menos específicas e não informam se a denúncia bem-sucedida estava relacionada a um usuário, grupo ou mundo, apenas que ela foi bem-sucedida.
 
+<div class="mw-translate-fuzzy">
 <gallery widths="340" heights="200">
 File:Usersucessfulreport28032025.webp|A notificação no aplicativo exibindo o encerramento bem-sucedido de um caso de moderação.
 File:VRChatWebsiteMessageREPS.webp|A notificação no site informando a conclusão de uma denúncia de moderação.
 File:ReportSucessfulEMAILREP.webp|O e-mail pode indicar quais diretrizes foram violadas na resposta ao seu ticket de moderação. (A redação varia de acordo com o tipo de violação.)
 </gallery>
+</div>
 
 <span id="Reporting_on_the_VRChat_website"></span>
+<div class="mw-translate-fuzzy">
 ==Denunciar pelo Site do VRChat==
+</div>
 
 Além de poder denunciar pelo cliente do VRChat, você também pode, opcionalmente, denunciar qualquer conteúdo {{VRC link|https://help.vrchat.com/hc/en-us/requests/new|pelo site do VRChat}}. Nele, você também pode anexar os seus registros de usuário relevantes, capturas de tela e vídeos curtos ao ticket. Um e-mail confirmando o recebimento da sua denúncia será enviado para o mesmo endereço de e-mail informado no ticket. No entanto, os resultados das ações de moderação não serão divulgados ao denunciante.
 
 <span id="Reporting_a_security_exploit"></span>
+<div class="mw-translate-fuzzy">
 == Relatar uma vulnerabilidade de segurança ==
+</div>
 
 O site do VRChat deve ser utilizado para {{VRC link|https://help.vrchat.com/hc/en-us/requests/new|relatar vulnerabilidades de segurança}} do VRChat ou de seus serviços. Recomenda-se incluir "provas de conceito, documentação, informações de contexto, cenários de ataque, possíveis medidas de mitigação etc.", sendo que "vídeos, capturas de tela, registros de chat, relatos de terceiros etc., por si só, não são úteis e não constituem uma divulgação de vulnerabilidade".
 
 <span id="Reporting_a_bug"></span>
+<div class="mw-translate-fuzzy">
 == Relatar um bug ==
+</div>
 
 {{Thumb|{{YouTube|2nFVVMXqAaE|360px|9 / 16|thumb=File:YTThumb_2nFVVMXqAaE_Severance.webp|title=Tupper…? #Severance #VRChat #vrchatcommunity
 }}|Vídeo curto sobre o Quadro de Feedback.<ref>[https://www.youtube.com/watch?v=2nFVVMXqAaE Tupper…?] no ''YouTube''.</ref>}}
@@ -364,7 +376,8 @@ Você não pode relatar bugs diretamente dentro do jogo, mas pode enviar relató
 
 ===Template for reports<ref>[https://www.twitch.tv/vrchat/clip/SaltyAssiduousEchidnaAMPEnergy-TNqOCjdrYDHegiw9 What a Bug Report needs - Q&A Team StormRel] <!-- fallback video: https://youtu.be/YusV-Atlhog --></ref>===
 
- 1. Resumo
+ <div class="mw-translate-fuzzy">
+1. Resumo
  > Explique em 2 ou 3 frases sobre o que é este relatório.
  O VRChat travou ao tentar entrar na instância de um amigo.
  
@@ -388,6 +401,36 @@ Você não pode relatar bugs diretamente dentro do jogo, mas pode enviar relató
  * Vídeo (até 8 MB ou enviado externamente, [https://studio.youtube.com/channel/%20/videos/upload?d=ud envie para o YouTube])
  * Capturas de tela (até 8 MB ou enviadas externamente)
  * Links
+</div>
+
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+2. Steps to reproduce the bug:
+ > Write down what you did step by step so someone else can see the problem. For example:
+   1. Open Main Menu
+   2. Visit any Profile
+   3. Double Click "Join" Button
+</div>
+
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+3. What did you expect to happen?
+ > Explain what you thought would happen. For example:
+ To join my friends.
+</div>
+
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+4. What actually happened?
+ > Explain what went wrong. For example:
+ VRChat crashed.
+</div>
+
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+X. Additional details (if any):
+ > Add any other information. For example:
+ * Logs (`%appdata%\..\LocalLow\VRChat\VRChat\`, need to be uploaded external)
+ * Video (up to 8MB, or can be uploaded externally, [https://studio.youtube.com/channel/%20/videos/upload?d=ud upload on YouTube])
+ * Screenshots (up to 8MB, or can be uploaded externally)
+ * Links
+</div>
 
 <span id="Official_resources"></span>
 == Recursos oficiais ==
@@ -408,7 +451,9 @@ Artigos do site de ajuda
 * [https://help.vrchat.com/hc/en-us/articles/43987073323667-Reporting-Groups Reporting Groups]
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==Veja também==
+</div>
 
 Regras e Diretrizes
 
@@ -424,5 +469,7 @@ Artigos sobre a plataforma do VRChat
 * [[Special:MyLanguage/Bans|Banimentos]]
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==Referências==
+</div>
 <references />
