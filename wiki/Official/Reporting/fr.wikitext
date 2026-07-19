@@ -31,7 +31,9 @@ Dans un signalement efficace, les utilisateurs peuvent :
 ** Fichiers journaux (log)
 
 <span id="Reporting_content"></span>
+<div class="mw-translate-fuzzy">
 ==Signaler du contenu==
+</div>
 
 <span id="Reporting_a_user"></span>
 === Signaler un utilisateur ===
@@ -120,7 +122,7 @@ S'il est incertain que le contenu enfreint le '''règlement de la communauté'''
 
 * [https://help.vrchat.com/hc/en-us/articles/43987073323667-Reporting-Groups Signaler des groupes - Site d'assistance]
 
-Cette option doit être sélectionnée pour signaler un [[Special:MyLanguage/Groups|groupe]] ou son contenu. Afficher la page d'un groupe donne accès au bouton pour signaler en haut à droite de celle-ci. 
+Cette option doit être sélectionnée pour signaler un [[Special:MyLanguage/Groups|groupe]] ou son contenu. Afficher la page d'un groupe donne accès au bouton pour signaler en haut à droite de celle-ci.
 {| class="wikitable"
 !Types
 !Contenu sexuel
@@ -332,30 +334,40 @@ Cette option doit être sélectionnée pour signaler le contenu d'un [[Special:M
 !✔️
 |}
 <span id="Successful_Reports"></span>
+<div class="mw-translate-fuzzy">
 ==Signalements traités==
+</div>
 
 Une fois un signalement émis traité, vous en serez informé par une notification dans l'onglet "Autre".
 
 Le texte des signalements change selon le type du signalement traité. Un signalement envers un utilisateur affichera "Utilisateur", les signalements concernant les groupes mentionneront "Groupes". Cependant, les réponses reçues via email ne précisent pas si le signalement traité concernait un utilisateur, groupe ou monde.
 
+<div class="mw-translate-fuzzy">
 <gallery widths="340" heights="200">
 File:Usersucessfulreport28032025.webp|La notification affichant une action de modération sur un cas traité.
 File:VRChatWebsiteMessageREPS.webp|La notification sur le site web d'un signalement traité.
 File:ReportSucessfulEMAILREP.webp|L'email du signalement peut afficher quel règlement a été enfreint. (La formulation variera en fonction du type.) 
 </gallery>
+</div>
 
 <span id="Reporting_on_the_VRChat_website"></span>
+<div class="mw-translate-fuzzy">
 ==Signaler sur le site web de VRChat==
+</div>
 
 En plus de signaler en jeu, vous pouvez signaler du contenu sur le {{VRC link|https://help.vrchat.com/hc/en-us/requests/new|site web de VRChat}}. D'ici, vous pourrez attacher des fichiers utiles, tels que des images, vidéos ou logs à votre signalement. Un email confirmant la réception vous sera envoyé. Cependant, les actions de modération ne seront pas révélées.
 
 <span id="Reporting_a_security_exploit"></span>
+<div class="mw-translate-fuzzy">
 ==Signaler une faille de sécurité==
+</div>
 
 Le site web de VRChat doit être utilisé pour signaler les {{VRC link|https://help.vrchat.com/hc/en-us/requests/new|failles de sécurité}} concernant VRChat ou ses services. Il est demandé et conseillé de fournir des « preuves de concept, documents, contexte, scénarios d'attaque, etc. », les « vidéos, images, journaux de discussions, rumeurs, ect n'étant pas suffisant pour constituer des preuves ».
 
 <span id="Reporting_a_bug"></span>
+<div class="mw-translate-fuzzy">
 ==Signaler un bug==
+</div>
 
 {{Thumb|{{YouTube|2nFVVMXqAaE|360px|9 / 16|thumb=File:YTThumb_2nFVVMXqAaE_Severance.webp|title=Tupper…? #Severance #VRChat #vrchatcommunity
 }}|Courte vidéo sur le partage de suggestions.<ref>[https://www.youtube.com/watch?v=2nFVVMXqAaE Tupper…?] on ''YouTube''.</ref>}}
@@ -367,7 +379,8 @@ Vous ne pouvez pas signaler les bugs directement dans VRChat. Vous pouvez cepend
 <span id="Template_for_reportsWhat_a_Bug_Report_needs_-_Q&amp;A_Team_StormRel"></span>
 ===Modèle de signalement<ref>[https://www.twitch.tv/vrchat/clip/SaltyAssiduousEchidnaAMPEnergy-TNqOCjdrYDHegiw9 What a Bug Report needs - Q&A Team StormRel] <!-- fallback video: https://youtu.be/YusV-Atlhog --></ref>===
 
- 1. Résumé
+ <div class="mw-translate-fuzzy">
+1. Résumé
  > Expliquez en 2-3 phrases la raison de votre signalement.
  VRChat a planté lorsque j'ai essayé de rejoindre des amis.
  
@@ -391,6 +404,36 @@ Vous ne pouvez pas signaler les bugs directement dans VRChat. Vous pouvez cepend
  * Vidéo (Jusqu'à 8Mo, ou peut être téléversé en externe, [https://studio.youtube.com/channel/%20/videos/upload?d=ud téléverser sur YouTube])
  * Images (jusqu'à 8Mo, ou peut être téléversé en externe)
  * Liens
+</div>
+
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+2. Steps to reproduce the bug:
+ > Write down what you did step by step so someone else can see the problem. For example:
+   1. Open Main Menu
+   2. Visit any Profile
+   3. Double Click "Join" Button
+</div>
+
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+3. What did you expect to happen?
+ > Explain what you thought would happen. For example:
+ To join my friends.
+</div>
+
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+4. What actually happened?
+ > Explain what went wrong. For example:
+ VRChat crashed.
+</div>
+
+ <div lang="en" dir="ltr" class="mw-content-ltr">
+X. Additional details (if any):
+ > Add any other information. For example:
+ * Logs (`%appdata%\..\LocalLow\VRChat\VRChat\`, need to be uploaded external)
+ * Video (up to 8MB, or can be uploaded externally, [https://studio.youtube.com/channel/%20/videos/upload?d=ud upload on YouTube])
+ * Screenshots (up to 8MB, or can be uploaded externally)
+ * Links
+</div>
 
 <span id="Official_resources"></span>
 == Ressources officielles ==
@@ -411,7 +454,9 @@ Articles du site d'assistance
 * [https://help.vrchat.com/hc/en-us/articles/43987073323667-Reporting-Groups Signaler des groupes - Site d'assistance]
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==Voir aussi==
+</div>
 
 Règlements
 
@@ -427,5 +472,7 @@ Articles VRChat
 *[[Special:MyLanguage/Bans|Bans]]
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==Références==
+</div>
 <references />
