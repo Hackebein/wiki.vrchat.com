@@ -50,7 +50,7 @@ Pronouns3.webp|Displayed in the bio in game
 Pronouns2.webp|Displayed in the bio on mobile client
 </gallery>
 
-===Bio===
+=== Bio ===
 
 The bio (abbreviation for biography) is a paragraph of text written by the user that is generally used to describe or introduce themselves but can be used for any purpose. The bio can be up to 500 characters long.
 
@@ -79,7 +79,7 @@ Under a user's profile, there are several actions that you can take, these will 
 |Sends the user an invitation to join your instance. The invite includes a customizable message and with [[Special:MyLanguage/VRC+|VRC+]] a photo can also be added to the invitation.
 |-
 |Boop<ref name="friends-only" group="actions" />
-|Sends the user a [[Boops|Boop]].
+|Sends the user a [[Special:MyLanguage/Boops|Boop]].
 |-
 |Gift VRC+
 |Opens a menu that allows you to buy [[Special:MyLanguage/VRC+|VRC+]] for the user. ''See [[Special:MyLanguage/VRC+#Gifting|Gifting]] for more detailed information.''
@@ -113,7 +113,7 @@ Under a user's profile, there are several actions that you can take, these will 
 |}
 <references group="actions"/>
 
-===Uploaded & favorited worlds===
+=== Uploaded & favorited worlds ===
 
 Below [[Special:MyLanguage/Social#Actions|actions]] can be found a list of worlds uploaded by the user as well as any publicly viewable lists of favorite worlds. These can be sorted by date added, last updated, name, and recently used.
 
@@ -121,45 +121,44 @@ Below [[Special:MyLanguage/Social#Actions|actions]] can be found a list of world
 
 User profiles can be shared using VRChat's <code>vrch.at</code> short link domain combined with the user's ID, for example <code><nowiki>https://vrch.at/<userId></nowiki></code>. This redirects to the user's profile on the VRChat website (<code><nowiki>https://vrchat.com/home/user/<userId></nowiki></code>).
 
-==Social menu==
+== Social menu ==
 
 [[File:Social Menu.webp|thumb|alt=An image of the social tab of the main menu in VRChat.|The social tab of the main menu in VRChat.]]
 
-===Friend Locations===
+=== Friend Locations ===
 
 '''Friend Locations''' includes a list of friends who are available on "Online" (green) status, or "Join Me" (blue) statuses, and are present in an accessible world such as Public, Friends+, Friends, Group Public, Group+ instances. Below these available users will also display a list of all Friends currently online in Private Instances.
 
-===Group Activity===
+=== Group Activity ===
 
-'''Group Activity''' includes a list of available [[Special:MyLanguage/Groups|Group]] instances, for Groups that you have joined. Creating a Group, Group+, or Group Public instance, if you have the ability, will result in it appearing on the Group Activity tab for users in that group. 
+'''Group Activity''' includes a list of available [[Special:MyLanguage/Groups|Group]] instances, for Groups that you have joined. Creating a Group, Group+, or Group Public instance, if you have the ability, will result in it appearing on the Group Activity tab for users in that group.
 
-===All Friends===
+=== All Friends ===
 
- 
 '''All Friends''' shows the entire list of your friends who are currently online, including Friends on "Ask Me" (orange) or "Do Not Disturb" (red) statuses. It also shows your friends active on the website or friends that are currently offline.
 
-===In Instance===
+=== In Instance ===
 
-'''In Instance''' displays each user who is currently present in the instance you are in; users who have you blocked, while still inside of the instance with you may not appear on this tab, unless you are a Host or a [[Special:MyLanguage/Groups|Group]] Instance Moderator. The "Here" tab on the Quick Menu functions the same as this row. 
+'''In Instance''' displays each user who is currently present in the instance you are in; users who have you blocked, while still inside of the instance with you may not appear on this tab, unless you are a Host or a [[Special:MyLanguage/Groups|Group]] Instance Moderator. The "Here" tab on the Quick Menu functions the same as this row.
 
-===Favorite Friends===
+=== Favorite Friends ===
 
-'''Favorite Friends''' lists are three rows of friends who you have chosen to 'Favorite'. It can be placed in one of the three rows. Each list can be renamed to help with organization. 
+'''Favorite Friends''' lists are three rows of friends who you have chosen to 'Favorite'. It can be placed in one of the three rows. Each list can be renamed to help with organization.
 
-===Recently Seen===
+=== Recently Seen ===
 
 '''Recently Seen''' users are other users you've met in instances. Up to the last 100 recently seen users can be found in this tab and are ordered from the most recent to the oldest.
 
-===Blocked===
+=== Blocked ===
 
 '''Blocked''' users are other users who you decided to block. They can be clicked upon in this tab, and unblocked if desired.
 
-==Friends==
+== Friends ==
 
 {{Stub|Add quirks that have to do with friends and such.}}
 Friends on VRChat are other users that you trust, it acts much like how friending users on other platforms work, you can see whenever that user is online or on the website, send and receive invites from them, and add notes to them. Friends inside of your instance will have their name appear in yellow, and will also have their rank appear in yellow with a (Friend) indicator.
 
-==Mutuals==
+== Mutuals ==
 <!-- Do we want a feature infobox? -->
 {{Infobox/Feature
 |name=Mutuals
@@ -173,19 +172,19 @@ Friends on VRChat are other users that you trust, it acts much like how friendin
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202542-openbeta 2025.4.2 Open Beta]
 }}
 
-Mutuals are a feature that allows the user to view mutual friends or groups of other users. 
+Mutuals are a feature that allows the user to view mutual friends or groups of other users.
 
-There are two ways to see mutuals, in the Quick Menu or the Main Menu with a button "Show X Mutuals". In the Quick Menu, the button can be found on top of user actions. In the Main Menu, the button will be found on the top right, next to the report button. 
+There are two ways to see mutuals, in the Quick Menu or the Main Menu with a button "Show X Mutuals". In the Quick Menu, the button can be found on top of user actions. In the Main Menu, the button will be found on the top right, next to the report button.
 
 If you wish to prevent other users from seeing your mutual friends and groups or appearing as so for others, you can turn off "Show Mutual Connections" in the '''Comfort & Safety''' section of your settings in the Main Menu. Doing so will change the text of the button from "Show X Mutuals" to "No Known Mutuals". Additionally, your user icon will be hidden, and your username will appear as "Hidden Mutual" when you appear in the mutuals in one of your friends.
 
-==Discord Friends==
+== Discord Friends ==
 
-Seen in the Social tab under "All Friends", this feature allows you to see your Discord friends with their current status and to perform different actions. Friends with a Discord account linked will have a Discord icon displayed on their profile 
+Seen in the Social tab under "All Friends", this feature allows you to see your Discord friends with their current status and to perform different actions. Friends with a Discord account linked will have a Discord icon displayed on their profile
 
 If your friend has linked their Discord account to their VRChat account, you will be able to invite them to join your instance through Discord. Otherwise, you will be able to invite them to create a VRChat account. You or your friends may prevent your VRChat account from being shown in the Discord section by turning off the "Allow Discord Friends" setting in the '''Comfort & Safety''' section of the settings.
 
-==References==
+== References ==
 <references/>
 
 
