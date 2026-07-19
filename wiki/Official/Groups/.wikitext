@@ -121,6 +121,22 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 <!--T:18-->
 While it is not currently possible to select or change roles within the VRChat client, you can view all current roles applied to your account by opening the [[Special:MyLanguage/Main Menu|Main Menu]], and clicking on the Group tab, click on a group that you wish to view your roles for. There is a 'cog' icon towards the top right of the menu, which expands a rightwards '''Group Settings''' submenu. The very top of the submenu will let you browse the roles currently applied.
 
+=== Self-assigning roles ===
+
+To self-assign '''Self Assignable''' roles, you must sign in on the VRChat website, and navigate to the Members tab.
+
+*Step 1: Click '''Groups''' on the left sidebar of the website.
+
+*Step 2: Click on a group with self-assignable roles.
+
+*Step 3: Click on the tab titled '''Members'''.
+
+*Step 4: Click on your profile card, ''outside'' your username. (This area is only clickable if there are self-assignable roles.)
+
+*Step 5: Click on roles to move them between '''Available Roles''' and '''Assigned Roles'''. Grayed-out roles in '''Assigned Roles''' are not self-assignable and cannot be removed in this manner.
+
+*Step 6: '''Click Save'''.
+
 === Default roles === <!--T:19-->
 
 </translate>
@@ -139,7 +155,7 @@ Group Owner permissions cannot be changed or deleted in any way, since by defaul
 Roles can be added, renamed, or deleted at any time by a group's management. Each role can be given a description, and a custom set of permissions. Permissions are either toggled on, or off for a group. Roles can optionally be set to be '''Assigned On Join''', be '''Self Assignable''', or '''Require 2FA'''.
 
 <!--T:57-->
-Self Assignable roles are optional, and users can sign into the VRChat website to apply roles to themselves, if available. However, users on platform accounts, such as Steam or Meta accounts, are unable to log in and do so, since logging into their account on the VRChat website requires the [[Special:MyLanguage/Getting Started#Account creation|creation of a VRChat account]]. Group management can manually apply roles to any user at will.
+Self Assignable roles are optional, and users can sign into the VRChat website to apply roles to themselves, if available (see [[#Self-assigning roles|Self-assigning roles]]). However, users on platform accounts, such as Steam or Meta accounts, are unable to log in and do so, since logging into their account on the VRChat website requires the [[Special:MyLanguage/Getting Started#Account creation|creation of a VRChat account]]. Group management can manually apply roles to any user at will.
 
 </translate>
 {| class="wikitable"
