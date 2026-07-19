@@ -1,7 +1,7 @@
 <languages/>
 {{Noticebox/Official}}
 [[File:Mirrors.webp|thumb|Um grupo de pessoas socializando em frente a um espelho.]]
-'''Espelhos''' são superfícies refletoras que permitem aos usuários ver um reflexo espelhado de seu avatar, ao lado de outros usuários e/ou do mundo em que estão, dependendo das configurações do mundo. Muitos mundos contêm espelhos destinados a que os usuários se sentem em frente a eles enquanto socializam. Essa atividade é coloquialmente chamada de "habitação no espelho". Os usuários também podem optar por invocar um espelho próprio, embora visível apenas para eles. 
+'''Espelhos''' são superfícies refletoras que permitem aos usuários ver um reflexo espelhado de seu avatar, ao lado de outros usuários e/ou do mundo em que estão, dependendo das configurações do mundo. Muitos mundos contêm espelhos destinados a que os usuários se sentem em frente a eles enquanto socializam. Essa atividade é coloquialmente chamada de "habitação no espelho". Os usuários também podem optar por invocar um espelho próprio, embora visível apenas para eles.
 
 == Tipos de espelhos ==
 [[File:Mirror actionmenu.webp|thumb|Uma demonstração do Espelho Pessoal e do Espelho Facial no Menu de Ações.]]
@@ -9,7 +9,7 @@
 <span id="Personal_Mirror"></span>
 === Espelho Pessoal ===
 
-Um espelho pessoal é um tipo de espelho que pode ser invocado e movido por um usuário e que só pode ser visto por ele. 
+Um espelho pessoal é um tipo de espelho que pode ser invocado e movido por um usuário e que só pode ser visto por ele.
 
 Pode ser ativado e configurado através do [[Special:MyLanguage/Action Menu|Menu de Ação]] ou na página [[Special:MyLanguage/Settings|Configurações]] do [[Special:MyLanguage/Main Menu|Menu Principal]].
 
@@ -64,7 +64,10 @@ Ao interagir com um Espelho em um mundo, os usuários poderão ativar ou alterna
 * Alternativamente, substituir o seu Espelho Pessoal por um espelho do mundo.
 * Ajustar a resolução do espelho em [[Special:MyLanguage/Settings#Graphics|Configurações Gráficas]].
 
+<span id="SDK"></span>
+<div class="mw-translate-fuzzy">
 ==SDK==
+</div>
 
 <span id="World_prefab"></span>
 === Prefab do mundo ===
@@ -77,7 +80,9 @@ Os espelhos são renderizados durante <code>Camera.onPreCull</code>. Os criadore
 <span id="Resources"></span>
 == Recursos ==
 
-[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ Documentação do Criador do VRChat - VRC Mirror Reflection]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ VRChat Creator Documentation - VRC Mirror Reflection]
+</div>
 
 
 [[Category:Features{{#translation:}}]]
