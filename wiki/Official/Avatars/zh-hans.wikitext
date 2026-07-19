@@ -21,7 +21,7 @@ VRChat 维护着一个精选的具有各种特色的[[Special:MyLanguage/Public 
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-=== Cloning===
+=== Cloning ===
 [[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, "Clone Avatar" and "Favorite Avatar" buttons found under "User Actions" section.]]
 Users have the option to clone avatars directly from other users. This feature allows users to adopt the same avatar they see another user using by selecting the user and utilizing the "Clone Avatar" button within the [[Special:MyLanguage/Quick Menu|Quick Menu]]. If this option is unavailable, it indicates that the other user has disabled the cloning feature, or is using an avatar marked as private.
 </div>
@@ -30,8 +30,10 @@ Users have the option to clone avatars directly from other users. This feature a
 To disable the cloning of avatars one can go to [[Special:MyLanguage/Settings|Settings]] in the Main Menu, click on the '''Avatars''' tab, and turn off '''Allow Avatar Cloning'''.
 </div>
 
+<div class="mw-translate-fuzzy">
 === 虚拟形象展台和模型世界 ===
-你也可以使用虚拟形象展台上的虚拟形象。这些虚拟形象展台通常位于“模型世界”类别下的世界中。这些虚拟形象展台会显示虚拟形象的预览图，用户可以通过与之互动克隆虚拟形象。 
+你也可以使用虚拟形象展台上的虚拟形象。这些虚拟形象展台通常位于“模型世界”类别下的世界中。这些虚拟形象展台会显示虚拟形象的预览图，用户可以通过与之互动克隆虚拟形象。
+</div>
 
 <div class="mw-translate-fuzzy">
 ==收藏虚拟形象==
@@ -42,8 +44,10 @@ To disable the cloning of avatars one can go to [[Special:MyLanguage/Settings|Se
 有多种方法可以收藏虚拟形象。如果你正在使用想要收藏的虚拟形象，请进入虚拟形象页面，点击右下角虚拟形象预览下方的“收藏模型”按钮。如果你想收藏的虚拟形象是别人正在使用的，请选择该用户并点击[[Special:MyLanguage/Quick Menu|快速菜单]]中的“收藏模型”按钮。
 </div>
 
+<div class="mw-translate-fuzzy">
 ==平台兼容性==
 ''更多详细信息，请参阅[[Special:MyLanguage/Platforms|平台]]''。
+</div>
 
 <div class="mw-translate-fuzzy">
 由于 Oculus Quest、安卓和 iOS 等不同系统设备的限制，VRChat 虚拟形象针对 PC 和移动平台的限制有所不同。因此，有些虚拟形象可能无法在所有设备上使用。有关这些限制的详细信息，请参阅以下资源：
@@ -58,6 +62,7 @@ To disable the cloning of avatars one can go to [[Special:MyLanguage/Settings|Se
 用户的备用模型可以在“虚拟形象”菜单中更改。
 </div>
 
+<div class="mw-translate-fuzzy">
 ==性能评级==
 虚拟形象会根据其性能的开销进行评级。它们分别是：
 极高负载{{performance|verypoor|22}}
@@ -65,7 +70,8 @@ To disable the cloning of avatars one can go to [[Special:MyLanguage/Settings|Se
 中负载{{performance|medium|22}}
 低负载{{performance|good|22}}
 极低负载{{performance|excellent|22}}。
-该分类有助于用户了解其虚拟形象对整个 VRChat 体验的性能影响。影响虚拟形象性能评级的因素包括网格多边形数、材质数、纹理分辨率、动画控制器复杂度；以及虚拟形象组件，如[[Special:MyLanguage/Physbones|物理骨骼]]或约束。 
+该分类有助于用户了解其虚拟形象对整个 VRChat 体验的性能影响。影响虚拟形象性能评级的因素包括网格多边形数、材质数、纹理分辨率、动画控制器复杂度；以及虚拟形象组件，如[[Special:MyLanguage/Physbones|物理骨骼]]或约束。
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On standalone VR & mobile platforms, a maximum of 4 Very Poor avatars can be shown at once.
@@ -91,7 +97,7 @@ With the release of [https://creators.vrchat.com/releases/release-3-9-0#fixes--c
 有关SDK可以做些什么的'''详细指南'''可以在创作者文档[https://creators.vrchat.com/avatars/creating-your-first-avatar/ 创建你的第一个虚拟形象]找到，
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Trivia==
+== Trivia ==
 * Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
 </div>
 
