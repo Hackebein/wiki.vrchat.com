@@ -21,7 +21,9 @@ Tipicamente un gruppo è fondato al fine di riunire un insieme di persone intere
 </div>
 
 <span id="Joining_a_group"></span>
+<div class="mw-translate-fuzzy">
 == Unirsi ad un gruppo==
+</div>
 
 Per unirsi a un gruppo è possibile cercare nella pagina di Ricerca o nella pagina dei Gruppi nel [[Special:MyLanguage/Main Menu|Menù Principale]]. 
 Ogni utente può unirsi ad un massimo di 100 gruppi, ma con un abbonamento attivo a [[Special:MyLanguage/VRC+|VRC+]] questo numero sale a 200.
@@ -29,12 +31,16 @@ Ogni utente può unirsi ad un massimo di 100 gruppi, ma con un abbonamento attiv
 L'adesione è inoltre possibile tramite navigazione dei gruppi a cui un utente qualsiasi è membro, o cliccando su poster pubblicitari in un qualsiasi mondo. Una volta entrato in un gruppo, potrai unirti alle istanze esclusive tramite la pagina '''Istanze''' sulla schermata del gruppo, o nella riga "Attività dei Gruppi" nella pagina Social.
 
 <span id="Representing"></span>
+<div class="mw-translate-fuzzy">
 ===Rappresentare un gruppo===
+</div>
 
 Rappresentare un gruppo mostra il nome e lo stendardo del gruppo sulla propria targhetta e sul proprio profilo. Per rappresentare, è necessario andare sulla pagina del gruppo sul menù principale e cliccare il pulsante intitolato: "Rappresenta Gruppo", in alto a destra. È possibile rappresentare un singolo gruppo alla volta.
 
 <span id="Membership_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===Visibilità adesione===
+</div>
 
 Anche se un membro di un gruppo può decidere di nascondere la propria affiliazione ad esso, questo sarà lo stesso visibile ad altri se soddisfatte le seguenti condizioni:
 
@@ -65,14 +71,18 @@ Il processo è replicabile sul sito di VRChat, andando nel menù laterale, clicc
 |}
 
 <span id="Creating_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==Creare un gruppo==
+</div>
 
 <div class="mw-translate-fuzzy">
 Per creare un gruppo, un utente deve avere un abbonamento attivo a [[Special:MyLanguage/VRChat+|VRC+]]. Un abbonamento attivo non è necessario per ritenere la proprietà di un gruppo, ma è necessario per trasferirla ad un altro utente, per cambiare l'icona, lo stendardo e modificare la galleria del gruppo tramite la [[Special:MyLanguage/Gallery|Galleria]] di VRC+. Attualmente, per creare un gruppo è necessario visitare il {{VRC link|https://vrchat.com/home/groups|sito di VRChat}}. Un utente può possedere un massimo di 5 gruppi, a cui un massimo di 100.000 utenti possono unirsi, ciascuno.
 </div>
 
 <span id="Joinability_and_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===Criteri d'entrata e visibilità===
+</div>
 
 <div class="mw-translate-fuzzy">
 Quando si crea un gruppo, il sistema presenterà il creatore con alcune impostazioni di privacy. I '''criteri d'adesione''' determinano la capacità di un utente di unirsi al gruppo. Quest'impostazione può essere cambiata in seguito.
@@ -130,25 +140,65 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 </div>
 
 <span id="Group_roles_and_permissions"></span>
+<div class="mw-translate-fuzzy">
 ==Ruoli e permessi gruppo==
 {{Anchor|Group roles and permissions}}
+</div>
 
 <span id="Viewing_your_roles"></span>
+<div class="mw-translate-fuzzy">
 ===Visualizzare i tuoi ruoli===
+</div>
 
 Anche se attualmente non è possibile effettuare modifiche ai ruoli dall'interno del client di VRChat, puoi lo stesso vedere i ruoli applicati al tuo account nel [[Special:MyLanguage/Main Menu|Menù Principale]], clicca sulla sezione Gruppi, poi sul gruppo interesssato. C'è una piccola icona a forma di 'ingranaggio', in alto a destra del menù, che apre le '''Impostazioni del Gruppo'''. La cima della finestra ti permetterà di visualizzare i ruoli su di te applicati nel gruppo selezionato.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Self-assigning roles ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To self-assign '''Self Assignable''' roles, you must sign in on the VRChat website, and navigate to the Members tab.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 1: Click '''Groups''' on the left sidebar of the website.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 2: Click on a group with self-assignable roles.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 3: Click on the tab titled '''Members'''.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 4: Click on your profile card, ''outside'' your username. (This area is only clickable if there are self-assignable roles.)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 5: Click on roles to move them between '''Available Roles''' and '''Assigned Roles'''. Grayed-out roles in '''Assigned Roles''' are not self-assignable and cannot be removed in this manner.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 6: '''Click Save'''.
+</div>
+
 <span id="Default_roles"></span>
+<div class="mw-translate-fuzzy">
 ===Ruoli predefiniti===
+</div>
 
 [[File:Groups default roles.png|thumb|253x253px|<span lang="en" dir="ltr" class="mw-content-ltr">Role overview</span>]]
 
 I ruoli sono raggruppati in tre categorie: '''Ruoli Gestione''', '''Ruoli Membri''', e '''Ruoli Predefiniti'''. Automaticamente, alla creazione di un nuovo gruppo, saranno presenti tre ruoli: '''Tutti''', che cade sotto la categoria 'Ruoli Predefiniti', '''Membro''', che cade sotto la categoria '''Ruoli Membri''' e '''Proprietario Gruppo''', che fa parte della categoria 'Ruoli Gestione'. Il nome per i ruoli 'Proprietario Gruppo' e 'Membro' possono essere cambiati, non vale però per 'Tutti', esso non è modificabile e non può essere eliminato.
 
-I permessi del proprietario del gruppo non possono essere cambiati o rimossi in alcuna maniera. La proprietà del gruppo può essere trasferita ad un altro utente membro a patto che entrambi posseggano un abbonamento attivo a VRC+. Ogni trasferimento di proprietà è irreversibile, è quindi consigliata la presa in considerazione di quanto potrebbe scaturirne dal trasferimento. Leggi a riguardo del Cambio proprietario qui sotto. 
+I permessi del proprietario del gruppo non possono essere cambiati o rimossi in alcuna maniera. La proprietà del gruppo può essere trasferita ad un altro utente membro a patto che entrambi posseggano un abbonamento attivo a VRC+. Ogni trasferimento di proprietà è irreversibile, è quindi consigliata la presa in considerazione di quanto potrebbe scaturirne dal trasferimento. Leggi a riguardo del Cambio proprietario qui sotto.
 
 <span id="Creating_roles"></span>
+<div class="mw-translate-fuzzy">
 ===Creare ruoli===
+</div>
 
 I ruoli possono essere aggiunti, rinominati o eliminati in qualsiasi momento dalla gestione del gruppo. Ogni ruolo può avere una descrizione ed un insieme di permessi personalizzabili. I ruoli possono essere impostati come: '''Assegnati all'Unione''',  '''Auto Assegnabili''', o che '''Richiedono il 2FA'''.
 
@@ -183,19 +233,21 @@ I ruoli possono essere aggiunti, rinominati o eliminati in qualsiasi momento dal
 [[File:Groups permissions overview.png|thumb|Alcuni dei permessi assegnabili, come nelle Opzioni Gestione Gruppo]]
 
 <span id="Assigning_permissions"></span>
+<div class="mw-translate-fuzzy">
 ===Assegnare permessi===
+</div>
 
-Per assegnare i permessi per un ruolo, un manager del gruppo deve effettuare l'accesso sul sitoweb di VRChat e navigare nella pagina Permessi. 
+Per assegnare i permessi per un ruolo, un manager del gruppo deve effettuare l'accesso sul sitoweb di VRChat e navigare nella pagina Permessi.
 
-*Step 1: Cliccare si '''Groups''' sulla barra sinistra del sito. 
+*Step 1: Cliccare si '''Groups''' sulla barra sinistra del sito.
 
-*Step 2: Clicca su un gruppo che puoi modificare o in cui puoi cambiare i permessi. 
+*Step 2: Clicca su un gruppo che puoi modificare o in cui puoi cambiare i permessi.
 
-*Step 3: Ci sono diverse funzioni a cui un manager di gruppo può accedere, come Overview, Posts, etc. Premi sulla sezione denominata '''Settings'''. 
+*Step 3: Ci sono diverse funzioni a cui un manager di gruppo può accedere, come Overview, Posts, etc. Premi sulla sezione denominata '''Settings'''.
 
-*Step 4: Premi su '''Roles''', sotto quella sezione. 
+*Step 4: Premi su '''Roles''', sotto quella sezione.
 
-*Step 5: Premi sul ruolo a cui vuoi modificare i permessi e premi '''Permissions''' con l'icona a lucchetto. 
+*Step 5: Premi sul ruolo a cui vuoi modificare i permessi e premi '''Permissions''' con l'icona a lucchetto.
 
 <div class="mw-translate-fuzzy">
 * Step 6: Applica i permessi sottostanti, scorri alla fine della pagina e '''premi Save'''.
@@ -318,7 +370,9 @@ Per assegnare i permessi per un ruolo, un manager del gruppo deve effettuare l'a
 | <span lang="en" dir="ltr" class="mw-content-ltr">Bypass Avatar Performance Requirements</span>|| <span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to join group instances that have a minimum avatar performance requirement, regardless of their avatar's performance rating.</small></span>
 |}
 <span id="Group_instances"></span>
+<div class="mw-translate-fuzzy">
 ==Istanze gruppo==
+</div>
 
 <div class="mw-translate-fuzzy">
 Il proprietario di un gruppo e coloro con i permessi necessari, possono creare un'istanza di gruppo. Ci sono tre tipi di istanze di gruppo.
@@ -351,13 +405,15 @@ Group instances are often '''moderated by the group hosting the instance'''. The
 </div>
 
 <span id="Group_instance_queues"></span>
+<div class="mw-translate-fuzzy">
 ===Code per istanza gruppo===
+</div>
 
 Le istanze di gruppo sono un'ottima maniera per gestire eventi ad alta densità di persone. Per situazioni in cui il numero di partecipanti supera la capienza massima dell'istanza, una '''Coda di Gruppo''' sarà creata per gestire l'afflusso eccessivo, creando una coda LIFO (Last In First Out), in cui coloro che aspettano da più tempo riceveranno l'accesso all'istanza, una volta che uno spazio si crea, ricevendo un invito. Una volta ricevuto l'invito, si avrà un minuto per accedere, al termine del quale, il proprio posto sarà dato ad un'altra persona.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Instance announcements===
+=== Instance announcements ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -369,15 +425,21 @@ A user with the appropriate permission can send an announcement from the Quick M
 </div>
 
 <span id="Transferring_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==Cambiare proprietario del gruppo==
+</div>
 
+<div class="mw-translate-fuzzy">
 Dal 27 Maggio 2024<ref>https://ask.vrchat.com/t/developer-update-28-march-2024/23676</ref>, i proprietari di un gruppo possono trasferirne la proprietà ad un altro membro a patto che entrambi dispongano di un abbonamento attivo a VRC+ ed abbiamo spazio disponibile. Il trasferimento, una volta effettuato, è finale, non è possibile annullarlo.
+</div>
 
+<div class="mw-translate-fuzzy">
 '''Puoi trasferire la proprietà del gruppo ad un altro membro del gruppo; il membro scelto e il proprietario dovranno seguire i seguenti requisiti:''' 
 *Il membro scelto deve avere la sua email verificata (guarda la sezione Email nelle impostazioni account).
 * Il membro scelto deve avere un abbonamento attivo a VRChat+.
 *Il membro scelto deve avere lo spazio necessario (ogni utente può possedere un massimo 5 gruppi).
 *Il gruppo non è monetizzato.
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 == List of .0000 groups ==
@@ -429,7 +491,7 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 |<span lang="en" dir="ltr" class="mw-content-ltr">This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Playtours</span>
-|<private>.0000
+|<span lang="en" dir="ltr" class="mw-content-ltr"><private>.0000</span>
 |<span lang="en" dir="ltr" class="mw-content-ltr">This group is for VRChat Playtours.</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">Instance Capacity Stress Tests</span>
@@ -437,19 +499,25 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 |<span lang="en" dir="ltr" class="mw-content-ltr">This group is for testing unreasonably high capacity instances.</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Community Leaders</span>
-|TBA
-|TBA
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
 |}
 
 <span id="Official_resources"></span>
+<div class="mw-translate-fuzzy">
 ==Risorse ufficiali==
+</div>
 
+<div class="mw-translate-fuzzy">
 * [https://www.youtube.com/watch?v=b6c_kDRJG2A Aggiornamento Sviluppo - Gruppi] su ''YouTube'', pubblicato il 30 Novembre 2022.
 *{{VRC link|https://hello.vrchat.com/blog/vrchat-groups|Gruppi ora Live!}} su ''hello.vrchat.com''
 *{{VRC link|https://help.vrchat.com/hc/en-us/sections/11719560642963-VRChat-Groups|FAQ sui Gruppi VRChat}} su ''help.vrchat.com''
+</div>
 
 <span id="Trivia"></span>
+<div class="mw-translate-fuzzy">
 ==Curiosità==
+</div>
 
 <div class="mw-translate-fuzzy">
 * "Just Bread Group" ([https://vrc.group/TOASTY.1234 TOASTY.1234]) fu il primo gruppo creato.
@@ -457,7 +525,9 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 </div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==Riferimenti==
+</div>
 
 <references />
 
