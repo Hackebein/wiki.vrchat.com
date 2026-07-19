@@ -7,27 +7,35 @@
 <span id="Overview"></span>
 == Visão geral ==
 [[File:VRChatSDK_UDON_Example.gif|thumb|Um exemplo da interface do Udon Node Graph e uma demonstração do seu código. ''(GIF Animado)'']]
+<div class="mw-translate-fuzzy">
 O Udon permite que os usuários utilizem a interface de usuário '''Udon Node Graph''' para a criação visual de scripts, usando 'noodles' para conectar nós entre si e criar scripts avançados para [[Mundos]]. Os usuários também podem programar da maneira tradicional, usando o '''UdonSharp''' (U#), que permite o uso de uma sintaxe limitada de C#. O Udon também compila para seu próprio bytecode, conhecido como '''Udon Assembly''', que pode ser interpretado pela plataforma VRChat.
+</div>
 
-O Udon é usado principalmente como substituto dos [https://docs.unity3d.com/ScriptReference/MonoBehaviour.html MonoBehaviors] no Unity. O Udon foi projetado para interagir com segurança com a plataforma VRChat em um ambiente sandbox, com um conjunto selecionado de operações aprovadas para realizar várias ações, que podem ser opcionalmente sincronizadas pela rede. O Udon abrange uma ampla gama de operações nativas do C# e do Unity, bem como operações específicas do VRChat que podem ser usadas para criar [[mundos]] e experiências avançadas no VRChat. 
+<div class="mw-translate-fuzzy">
+O Udon é usado principalmente como substituto dos [https://docs.unity3d.com/ScriptReference/MonoBehaviour.html MonoBehaviors] no Unity. O Udon foi projetado para interagir com segurança com a plataforma VRChat em um ambiente sandbox, com um conjunto selecionado de operações aprovadas para realizar várias ações, que podem ser opcionalmente sincronizadas pela rede. O Udon abrange uma ampla gama de operações nativas do C# e do Unity, bem como operações específicas do VRChat que podem ser usadas para criar [[mundos]] e experiências avançadas no VRChat.
+</div>
 
 <span id="History"></span>
 == História ==
 
-O Udon Toolkit foi anunciado originalmente em uma publicação no blog<ref>[https://medium.com/@vrchat/vrchat-node-graph-playmaker-and-soon-1a958672688d 'VRChat “Node Graph”, Playmaker, and Soon™'; recuperado em 6 de setembro de 2024.]</ref> em 20 de junho de 2018 e apresentado como "VRChat Node Graph", tendo sido adicionalmente discutido durante um vídeo de [[Atualização dos Desenvolvedores]]<ref>[https://www.youtube.com/watch?v=sst9GZAZBDU 'Atualização do Desenvolvimento do VRChat #4' no YouTube; recuperado em 6 de setembro de 2024.]</ref> em 26 de junho de 2018 para substituir o toolkit do ''"Playmaker"'', nas versões iniciais do SDK de mundo. 
+<div class="mw-translate-fuzzy">
+O Udon Toolkit foi anunciado originalmente em uma publicação no blog<ref>[https://medium.com/@vrchat/vrchat-node-graph-playmaker-and-soon-1a958672688d 'VRChat “Node Graph”, Playmaker, and Soon™'; recuperado em 6 de setembro de 2024.]</ref> em 20 de junho de 2018 e apresentado como "VRChat Node Graph", tendo sido adicionalmente discutido durante um vídeo de [[Atualização dos Desenvolvedores]]<ref>[https://www.youtube.com/watch?v=sst9GZAZBDU 'Atualização do Desenvolvimento do VRChat #4' no YouTube; recuperado em 6 de setembro de 2024.]</ref> em 26 de junho de 2018 para substituir o toolkit do ''"Playmaker"'', nas versões iniciais do SDK de mundo.
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Udon officially launched on April 1, 2020 in an 'Open Alpha' state<ref>[https://medium.com/vrchat/introducing-vrchat-udon-unlocking-coding-for-creators-ce411a6390d1 'Introducing VRChat Udon: Unlocking Coding for Creators'] on ''Medium''; retrieved December 16, 2024</ref> with VRChat version 2020.1.1<ref>[https://docs.vrchat.com/docs/patch-notes-2020#vrchat-202011 VRChat 2020.1.1] on ''docs.vrchat.com''; retrieved December 16, 2024</ref>. Users could upload worlds to VRChat using Udon scripts. In addition, VRChat also created a spotlight row in the World Menu, showcasing worlds utilizing Udon<ref>[https://medium.com/vrchat/udon-alpha-spotlight-3bb5bb6c54f6 'Udon Alpha Spotlight'] on ''Medium''; retrieved December 16, 2024.</ref><ref>[https://web.archive.org/web/20210124123602/https://ask.vrchat.com/c/worlds/showcase/30 Archive (01/24/2020) - 'World Showcase' for Udon] on ''ask.vrchat.com'' via ''Archive.org''; retrieved December 16, 2024</ref>.
+Udon officially launched on {{#time: F j, Y | April 1, 2020 }} in an 'Open Alpha' state<ref>[https://medium.com/vrchat/introducing-vrchat-udon-unlocking-coding-for-creators-ce411a6390d1 'Introducing VRChat Udon: Unlocking Coding for Creators'] on ''Medium''; retrieved December 16, 2024</ref> with VRChat version 2020.1.1<ref>[https://docs.vrchat.com/docs/patch-notes-2020#vrchat-202011 VRChat 2020.1.1] on ''docs.vrchat.com''; retrieved December 16, 2024</ref>. Users could upload worlds to VRChat using Udon scripts. In addition, VRChat also created a spotlight row in the World Menu, showcasing worlds utilizing Udon<ref>[https://medium.com/vrchat/udon-alpha-spotlight-3bb5bb6c54f6 'Udon Alpha Spotlight'] on ''Medium''; retrieved December 16, 2024.</ref><ref>[https://web.archive.org/web/20210124123602/https://ask.vrchat.com/c/worlds/showcase/30 Archive (01/24/2020) - 'World Showcase' for Udon] on ''ask.vrchat.com'' via ''Archive.org''; retrieved December 16, 2024</ref>.
 </div>
 
 === UdonSharp (U#) ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-UdonSharp, or U#, is a compiler that compiles C# into Udon's assembly code. UdonSharp was originally created as an [https://github.com/MerlinVR/UdonSharp open-source] community project on February 7, 2020<ref>[https://github.com/MerlinVR/UdonSharp/releases/tag/v0.1.0 '0.1.0 Initial release'] on ''github.com''; retrieved September 13, 2025.</ref>, by developer Merlin, and contributed to by other creators<ref>[https://hello.vrchat.com/blog/creator-toolbox-update 'Creator Toolbox Update'] on VRChat's Blog, at ''hello.vrchat.com''; retrieved September 13, 2025.</ref>. UdonSharp is now on the [https://github.com/vrchat-community/udonsharp official VRChat Open Source repository].
+UdonSharp, or U#, is a compiler that compiles C# into Udon's assembly code. UdonSharp was originally created as an [https://github.com/MerlinVR/UdonSharp open-source] community project on {{#time: F j, Y | February 7, 2020 }}<ref>[https://github.com/MerlinVR/UdonSharp/releases/tag/v0.1.0 '0.1.0 Initial release'] on ''github.com''; retrieved September 13, 2025.</ref>, by developer Merlin, and contributed to by other creators<ref>[https://hello.vrchat.com/blog/creator-toolbox-update 'Creator Toolbox Update'] on VRChat's Blog, at ''hello.vrchat.com''; retrieved September 13, 2025.</ref>. UdonSharp is now on the [https://github.com/vrchat-community/udonsharp official VRChat Open Source repository].
 </div>
 
 <span id="How_to_make_an_U#_script&#039;UdonSharp&#039;_on_creators.vrchat.com;_retrieved_September_13,_2025."></span>
+<div class="mw-translate-fuzzy">
 ==== Como fazer um script U#<ref>[https://creators.vrchat.com/worlds/udon/udonsharp 'UdonSharp'] on ''creators.vrchat.com''; recuperado em 13 de setembro de 2025.</ref>====
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 <blockquote>You can create an UdonSharp script the project window or the hierarchy window by following the steps below.
@@ -58,11 +66,11 @@ UdonSharp, or U#, is a compiler that compiles C# into Udon's assembly code. Udon
 === Udon 2 (Soba) ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-On December 15, 2022, VRChat announced that their development team began working on a successor to Udon, which was given the working title of ''"Udon 2"''<ref>[https://ask.vrchat.com/t/developer-update-15-december-2022/15518 'Developer Update - 15 December 2022'; retrieved December 16, 2024.]</ref>. The next update regarding Udon 2 would come on February 29, 2024 with a mention of the performance benefits and additional features it would bring<ref>[https://ask.vrchat.com/t/developer-update-29-february-2024/23149 'Developer Update - 29 February 2024'; retrieved December 16, 2024.]</ref>, and another update on March 14, 2024 that showcased an example from the internal beta<ref>[https://ask.vrchat.com/t/developer-update-14-march-2024/23401 'Developer Update - 14 March 2024'; retrieved December 16, 2024.]</ref>.
+On {{#time: F j, Y | December 15, 2022 }}, VRChat announced that their development team began working on a successor to Udon, which was given the working title of ''"Udon 2"''<ref>[https://ask.vrchat.com/t/developer-update-15-december-2022/15518 'Developer Update - 15 December 2022'; retrieved December 16, 2024.]</ref>. The next update regarding Udon 2 would come on {{#time: F j, Y | February 29, 2024 }} with a mention of the performance benefits and additional features it would bring<ref>[https://ask.vrchat.com/t/developer-update-29-february-2024/23149 'Developer Update - 29 February 2024'; retrieved December 16, 2024.]</ref>, and another update on {{#time: F j, Y | March 14, 2024 }} that showcased an example from the internal beta<ref>[https://ask.vrchat.com/t/developer-update-14-march-2024/23401 'Developer Update - 14 March 2024'; retrieved December 16, 2024.]</ref>.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-On November 25, 2024, previous plans for Udon 2 were dropped, and a new project would take its place, termed [[Soba]]<ref>[https://ask.vrchat.com/t/developer-update-25-november-2024/28125 'Developer Update - 25 November 2024'; retrieved December 16, 2024.]</ref>.
+On {{#time: F j, Y | November 25, 2024 }}, previous plans for Udon 2 were dropped, and a new project would take its place, termed [[Special:MyLanguage/Soba|Soba]]<ref>[https://ask.vrchat.com/t/developer-update-25-november-2024/28125 'Developer Update - 25 November 2024'; retrieved December 16, 2024.]</ref>.
 </div>
 
 <span id="Trivia"></span>
@@ -73,7 +81,9 @@ On November 25, 2024, previous plans for Udon 2 were dropped, and a new project 
 </div>
 
 <span id="Official_resources"></span>
+<div class="mw-translate-fuzzy">
 ==Recursos oficiais==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * {{VRC link|https://creators.vrchat.com/worlds/udon/|What is Udon?}} on ''creators.vrchat.com''
