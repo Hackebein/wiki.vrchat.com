@@ -3,10 +3,13 @@
 '''トラストランク'''は VRChat の[[Special:MyLanguage/Trust and Safety|トラスト＆セーフティ]]システムの一部であり、すべてのユーザーが安全で楽しい時間を過ごせるように設計されている。このシステムは、ユーザーがいつコンテンツをアップロードできるかを決定し、ユーザーの行動を評価して、多くの変数の集合体を用いて「信頼度」を計算する。
 
 <span id="Ranks"></span>
+<div class="mw-translate-fuzzy">
 ==ランク==
+</div>
 
-ユーザーの信頼度は、VRChat の使用時間、コンテンツへの貢献度、交友関係などの指標である'''トラストランク'''に反映される。 
+ユーザーの信頼度は、VRChat の使用時間、コンテンツへの貢献度、交友関係などの指標である'''トラストランク'''に反映される。
 
+<div class="mw-translate-fuzzy">
 取得できるトラストランクは以下のとおりである（低い順から高い順）：
 {| class="wikitable"
 |+
@@ -30,10 +33,14 @@
 !Trusted User
 |「User」として表示することを選択できる。
 |}
+</div>
 
 <span id="Special_ranks"></span>
+<div class="mw-translate-fuzzy">
 ===特殊なランク===
+</div>
 
+<div class="mw-translate-fuzzy">
 {| class="wikitable"
 |+
 | style="background-color: #efea17" |
@@ -48,30 +55,38 @@
 !Administrator / VRChat Team
 |このランクは VRChat チームのメンバーが所有する一部のアカウントに付与される。VRChat クライアント上に表示されるほか、ユーザープロフィール閲覧時にアプリ内およびトラストランクに代わって頭上にも表示される。また、VRChat のウェブサイト上でも、ユーザープロフィールや検索結果において、赤い枠線で表示される。
 |}
+</div>
 
+<div class="mw-translate-fuzzy">
 === 削除されたランク ===
 [[Special:MyLanguage/Removed_Features#Veteran%2FLegend_trust_rank|削除された機能]]を参照。
+</div>
 
 <span id="Gaining_ranks"></span>
+<div class="mw-translate-fuzzy">
 ===ランクを上げる===
+</div>
 
-トラストシステムの内部構造は、悪用を防ぐために意図的に隠されている。  
+トラストシステムの内部構造は、悪用を防ぐために意図的に隠されている。
 
-しかし、トラストランクを上げる最善の方法は、VRChat で以下のような通常の活動をすることである: 
+しかし、トラストランクを上げる最善の方法は、VRChat で以下のような通常の活動をすることである:
 
 *探検する
 *フレンドを作る
 *コンテンツを作る
 
+<div class="mw-translate-fuzzy">
 トラストランクが上がらない行為には以下が含まれる:
 *部屋でただ立っているだけや長時間の放置 (AFK)
 *労力の少ないコンテンツを大量にアップロードする
 *たくさんのユーザーとフレンドになりすぎる
 *他の VRChat ユーザーに対する嫌がらせ
 さらに、[[Special:MyLanguage/VRC+|VRC+]]に加入したり、VRC+のサブスクリプションを贈られたりすることで、トラストランクを一度だけ上げることも可能である。<ref>[https://hello.vrchat.com/vrchatplus VRC+]  VRChat 公式サイト; 2024年10月24日閲覧</ref>
+</div>
 
 ただし、場合によってはトラストランクが直接上昇しないこともあるが、次のランクへ到達するための進行度が加算される。
 
+<div class="mw-translate-fuzzy">
 ==トラストランクとセーフティ ==
 [[File:Shield_level.webp|thumb|300px|シールドレベルは、ユーザーのトラストランクに応じてカスタマイズ可能である。]]
 トラストランクは、他のユーザーがあなたのアバターをどのように表示するか、声を聴くことができるか、また[[Special:MyLanguage/Stickers|ステッカー]]や[[VRC+#Prints|プリント]]などの[[Special:MyLanguage/Gallery|ギャラリー]]コンテンツを閲覧できるかといった点に影響する。これらの挙動は、各ユーザーの[[Special:MyLanguage/Trust and Safety#Personal%20safety|セーフティのシールドレベル]]の設定に依存する。
@@ -112,9 +127,12 @@
 |}
 
 セキュリティや快適性に対するユーザーの好みに応じて、複数の'''プリセット'''が用意されている。
+</div>
 
 <span id="Appearance_of_ranks_inside_VRChat"></span>
+<div class="mw-translate-fuzzy">
 ==VRChat 内でのランクの表示==
+</div>
 
 [[File:TrustRank_Example.png|right|frameless]]
 
@@ -124,6 +142,7 @@
 *[[Special:MyLanguage/Nameplates|ネームプレート]]左上には、ユーザーのトラストランクが表示される。
 *ネームプレート右上には、アバターのパフォーマンスランクが表示される。
 
+<div class="mw-translate-fuzzy">
 === ランクの移行 ===
 
 *'''Visitor から New User:'''「New User」ランクに到達すると、VRChat アカウントを使用している場合に限り、コンテンツを VRChat へアップロードできるようになる。このランク移行時には通知が表示され、コンテンツ制作に関する VRChat のドキュメントページへ案内される。
@@ -132,28 +151,37 @@
 *'''ランク表示の切り替え:'''「Known User」ランク以上のユーザーは、自身のランク表示を「User」として表示することを選択できる。この設定を有効にすると、トラストランクのアイコンおよびテキストが「User」ランクのものに変更され、セーフティシステム上の扱いも「User」ランクとして処理される。この切り替えは、プロフィールページのステータス下部、またはウィング内の「プロフィール」表示の最下部から設定可能である。
 
 == 公式リソース ==
+</div>
 
 *[https://docs.vrchat.com/docs/vrchat-safety-and-trust-system Safety and Trust System] on ''docs.vrchat.com''
 *[https://medium.com/@vrchat/vrchat-safety-and-trust-system-changes-and-feedback-a3a9e54ec572 VRChat Safety and Trust System: Changes and Feedback] on Medium.
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==関連項目==
+</div>
 
 *[[Special:MyLanguage/Trust and Safety|トラスト＆セーフティ]]
 
+<div class="mw-translate-fuzzy">
 * [[Terms of Service]]
 * [[Community Guidelines]]
 * [[VRCWiki:Guidelines]]
 * [[VRCWiki:Disciplinary policy]]
+</div>
 
 VRChat platform articles
 
+<div class="mw-translate-fuzzy">
 * [[Reporting]]
 * [[Bans]]
 * [[Two-Factor Authentication (2FA)]]
+</div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 == 出典 ==
+</div>
 
 [[Category:Features{{#translation:}}]]
 
