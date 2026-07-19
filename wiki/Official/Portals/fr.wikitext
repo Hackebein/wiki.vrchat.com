@@ -5,15 +5,21 @@
 Les '''portails''' sont une méthode de voyage vers différents [[Special:MyLanguage/Worlds|mondes]] et [[Special:MyLanguage/Instances|instances]]. Les portails peuvent être trouvés de manière statique dans un monde ou être placés par les utilisateurs.
 
 <span id="Behavior"></span>
+<div class="mw-translate-fuzzy">
 ==Comportement==
+</div>
 
 <span id="Creating"></span>
+<div class="mw-translate-fuzzy">
 ==Créer==
+</div>
 
 Un portail peut être créé en sélectionnant un monde dans le menu, en choisissant « Nouvelle instance », suivi de son type et de la région dans laquelle elle doit être. Après ces sélections, un second écran apparaîtra avec un bouton '''Déposer un portail''' ainsi qu'un bouton de verrouillage à ses côtés. Laisser le portail déverrouillé permet à tous les utilisateurs de voir celui-ci ; si le portail est verrouillé, celui-ci ne sera seulement visible par vous et vos amis.
 
 <span id="Dropping"></span>
+<div class="mw-translate-fuzzy">
 ==Déposer==
+</div>
 
 Une fois le bouton '''Déposer un portail''' cliqué, un marqueur visuel apparaîtra afin de sélectionner l'endroit ou placer le portail. Les portails doivent être placés sur une surface plate sans interférer avec le monde ou les utilisateurs. Les portails ne peuvent pas être placés près du point d'apparition.
 
@@ -36,26 +42,34 @@ Multiple portals overlapping in the same location ("portal stacking") is intenti
 </div>
 
 <span id="Selecting"></span>
+<div class="mw-translate-fuzzy">
 == Sélectionner ==
+</div>
 
 Lorsqu'un portail est disponible, ils peuvent être appuyés comme avec les utilisateurs. En ouvrant le menu rapide, appuyer sur un portail fait apparaître la page du monde et les informations de l'instance. Cela vous permet de précharger l'instance du monde à la place de marcher dans le portail, ainsi que vérifier la taille de téléchargement du monde ou de l'ajouter à vos favoris.
 
 <span id="Static_portals"></span>
+<div class="mw-translate-fuzzy">
 ==Portails statiques==
+</div>
 
 Certains portails menant vers d'autres mondes sont placés en avance dans des mondes. Ils sont appelés des « Portails statiques ». Lorsqu'un utilisateur marche dans un portail statique, le portail va générer et affichera une nouvelle ID d'instance. Dans les trente secondes qui suivent, n'importe quel utilisateur peut rejoindre la nouvelle instance créée par le portail. Les portails statiques ne disparaissent pas.
 
 <span id="Settings"></span>
+<div class="mw-translate-fuzzy">
 ==Paramètres==
+</div>
 
-Une variété de paramètres sont disponibles pour personnaliser les portails. Ils peuvent être accédés dans les paramètres du menu principal depuis la barre de recherche en cherchant « Portails ». 
+Une variété de paramètres sont disponibles pour personnaliser les portails. Ils peuvent être accédés dans les paramètres du menu principal depuis la barre de recherche en cherchant « Portails ».
 
+<div class="mw-translate-fuzzy">
 *'''Confirmer l'entrée du portail''' - Active la nécessité de confirmer l'entrée dans le portail.
 *'''Mode du portail''' - Placer manuellement, Déposer devant. 
 **'''Placer manuellement''' Laisse contrôler l'utilisateur où il placera le portail.
 **'''Déposer devant''' Fait apparaître immédiatement le portail devant l'utilisateur.
 *'''Afficher les notifications de création de portails''' - Fais apparaître des notifications sur l'ATH lors de la création d'un portail.
 *'''Afficher uniquement les notifications « a rejoint/a quitté/a créé un portail »''' - Ce paramètre restreindra les notifications pour n'afficher que des notifications lorsqu'un amis dépose un portail.
+</div>
 
 <span id="Cosmetics"></span>
 == Apparences ==
@@ -193,19 +207,26 @@ Above is a part of the full description, although it probably doesn't need to be
 |<span lang="en" dir="ltr" class="mw-content-ltr">''"A mechanical portal designed with the "Ignition Point" theme of Vket 2026 Summer."''</span>
 |}
 
+<span id="SDK"></span>
+<div class="mw-translate-fuzzy">
 ==SDK==
+</div>
 
 les auteurs de mondes peuvent ajouter des portails à leurs mondes via le préfab [https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker] du [[Special:MyLanguage/VRChat SDK|SDK VRChat]] qui est situé dans <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>. Cela permet de créer un portail avec un nom personnalisé et l'ID d'un monde. Autrement, le portail peut rediriger vers le Hub officiel de VRChat ou vers le monde d'accueil.
 
 Les scripts VRC Portal Marker peuvent être mis à jours dynamiquement via [[Special:MyLanguage/Udon|Udon]]
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==Voir aussi==
+</div>
 
 * [[Special:MyLanguage/Loading Screens|Écrans de chargement]]
 * [[Special:MyLanguage/Worlds|Mondes]]
 
+<div class="mw-translate-fuzzy">
 ==Navigation==
 {{Navbox/Inventory}}
+</div>
 
 [[Category:Features{{#translation:}}]]
