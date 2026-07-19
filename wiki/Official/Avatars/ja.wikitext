@@ -13,28 +13,36 @@ VRChatは、パフォーマンスが最適化された注目の[[Special:MyLangu
 
 使用したいアバターを見つけたら、それを選択し、「適用」ボタンを押すことで使用できる。
 
+<div class="mw-translate-fuzzy">
 === クローン ===
 [[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, 「アバターをクローン」および「アバターをお気に入りに加える」ボタンは、「ユーザーアクション」セクション内に配置されている。]]
 ユーザーは、他のユーザーが使用しているアバターを直接クローンすることができる。この機能により、対象のユーザーを選択し、[[Special:MyLanguage/Quick Menu|クイックメニュー]]内の「アバターをクローン」ボタンを使用することで、同じアバターを使用することができる。
 このオプションが表示されない場合、相手のユーザーがアバターのクローンを無効にしているか、使用中のアバターが非公開 (Private) に設定されていることを示している。
+</div>
 
 アバターのクローンを無効にするには、メインメニューの[[Special:MyLanguage/Settings|設定]]を開き、'''アバター'''タブから'''アバターのクローン許可'''をオフにする。
 
+<div class="mw-translate-fuzzy">
 === ペデスタルとアバターワールド ===
-アバターはアバターペデスタルからでも見つけることができる。これらは通常、「アバターワールド」カテゴリのワールド内に置いてあり、これらのペデスタルにはアバターのプレビューが表示されていて、ユーザーはそのペデスタルをインタラクトすることで、クローンすることができる。 
+アバターはアバターペデスタルからでも見つけることができる。これらは通常、「アバターワールド」カテゴリのワールド内に置いてあり、これらのペデスタルにはアバターのプレビューが表示されていて、ユーザーはそのペデスタルをインタラクトすることで、クローンすることができる。
+</div>
 
+<div class="mw-translate-fuzzy">
 ==お気に入りに加える==
 
 アバターをお気に入りに登録することで、後から呼び出すことが可能である。お気に入り登録済みのアバターは、アバターページの「お気に入り」行に表示される。
 
 初期状態では、お気に入りアバターは最大50件を収容可能な単一リストに追加される。
 また、[[Special:MyLanguage/VRC+|VRC+ サブスクリプション]]により、最大5つの追加リストの利用が可能となり、合計して6つのリストを使用できる。
+</div>
 
 アバターをお気に入りに登録する方法はいくつか存在する。
 使用中のアバターを登録する場合は、アバターページを開き、アバタープレビューの右下にある「お気に入りに加える」ボタンを選択する。他のユーザーが使用しているアバターを登録する場合は、そのユーザーを選択し、[[Special:MyLanguage/Quick Menu|クイックメニュー]]内の「アバターをお気に入りに加える」ボタンを使用する。
 
+<div class="mw-translate-fuzzy">
 ==プラットフォーム間の互換性==
 ''詳しくは[[Special:MyLanguage/Platforms|プラットフォーム]]も参照。''
+</div>
 
 VRChat のアバターは、主に Meta (Oculus) Quest、Android、iOS システムなどのデバイスの制限によって、PC とモバイル プラットフォームで異なる見た目になっている。そのため、一部のアバターはすべてのデバイスでは表示または使用できない場合がある。これらの制限に関する詳細情報は、次のリソースで確認できる。
 
@@ -45,18 +53,22 @@ VRChat のアバターは、主に Meta (Oculus) Quest、Android、iOS システ
 
 ユーザーのフォールバックアバターは、VRChatのウェブサイト上で変更できる。
 
+<div class="mw-translate-fuzzy">
 ==パフォーマンスのランク付け==
 アバターはパフォーマンスのしきい値によってランク付けされる。ランクの評価は低い順から Very Poor{{performance|verypoor|22}}、Poor{{performance|poor|22}}、Medium{{performance|medium|22}}、Good{{performance|good|22}}、Excellent{{performance|excellent|22}} の順になっていて、この分類はユーザーが自分のアバターが VRChat のエクスペリエンス全体に与えるパフォーマンスの影響を理解するのに役立つ。
 
-アバターのパフォーマンスのランク付けに影響を与えるものの例として、メッシュのポリゴン数、マテリアル数、テクスチャの解像度、アニメーターの複雑さ、[[Special:MyLanguage/Physbones|PhysBones]] やコンストレイントなどのアバターコンポーネントの多さが挙げられる。 
+アバターのパフォーマンスのランク付けに影響を与えるものの例として、メッシュのポリゴン数、マテリアル数、テクスチャの解像度、アニメーターの複雑さ、[[Special:MyLanguage/Physbones|PhysBones]] やコンストレイントなどのアバターコンポーネントの多さが挙げられる。
+</div>
 
 スタンドアロンVRおよびモバイルプラットフォームにおいては、Very Poor アバターの同時表示数は最大4体に制限されている。
 
 公式ドキュメントの[https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ アバターのパフォーマンスのランク付けシステム] (英語) から詳しい詳細を見ることができる。
 
+<div class="mw-translate-fuzzy">
 == 作成とアップロード==
 ユーザーは、VRChat の[[Special:MyLanguage/Terms of Service|利用規約]]に準拠することで、カスタムアバターを作成・アップロードし、VRChat の体験を拡張することができる。
 アバターをアップロードするには、事前に[[Special:MyLanguage/Trust Rank|トラストランク]]が「New User」に到達している必要があり、あわせて推奨されているバージョンの Unity および [[Special:MyLanguage/VRChat SDK|VRChat SDK]] などの必要なツールを導入する必要がある。
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When an avatar has both PC and Android versions, creators can upload both variants under the same blueprint ID so that the same avatar entry works across platforms.
