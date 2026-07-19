@@ -4,24 +4,26 @@
 Les '''instances''' sont des sessions uniques d'un monde. Les utilisateurs peuvent créer et rejoindre des instances d'un monde, ainsi que voir et interagir dans cet espace partagé avec les autres utilisateurs présents dans la même instance. Les instances en elles-mêmes peuvent avoir différentes propriétés qui définissent qui peut rejoindre, inviter ou voir qui se trouve en son sein. De plus, les instances ont des  régions qui correspondent à des serveurs dans le monde réel qui gèrent la connexion passante entre les utilisateurs de la session.
 
 <span id="Instance_types"></span>
+<div class="mw-translate-fuzzy">
 ==Types d'instances==
+</div>
 
 Il existe de nombreux environnements publics et privés en tout genre que les utilisateurs peuvent explorer. Les utilisateurs peuvent aussi créer et rejoindre de nombreux groupes communautaires afin de rencontrer d'autres utilisateurs partageant les mêmes intérêts. Les utilisateurs peuvent aussi décider de rejoindre ou créer une instance publique, ou créer une instance privée afin d'être seuls ou d'inviter leurs amis. L'accès à une instance dépend de l'utilisateur l'ayant créée, suivant le type de l'instance :
 {| class="wikitable"
 |+
-!'''Publique''' 
+!'''Publique'''
 |Une instance publique que tout le monde peut rejoindre.
 |-
 !'''Amis+'''
 |Vos amis, les leurs et ainsi de suite peuvent rejoindre.
 |-
-!'''Amis''' 
+!'''Amis'''
 |Seuls vos amis peuvent rejoindre.
 |-
 !'''Invitation+'''
 |Vos amis et leurs amis peuvent demander à rejoindre, à moins que votre [[Special:MyLanguage/social status|social statut]] ou celui d'un ami présent soit réglé sur « Rejoignez-moi ».
 |-
-!'''Invitation''' 
+!'''Invitation'''
 |Vos amis doivent demander à rejoindre, à moins que votre statut soit réglé sur « Rejoignez-moi ».
 |-
 !'''[[Special:MyLanguage/Groups|Groupe]]'''
@@ -83,17 +85,25 @@ Il existe de nombreux environnements publics et privés en tout genre que les ut
 |}
 <references group="note" />
 <span id="Public_instances"></span>
+<div class="mw-translate-fuzzy">
 ===Instances publiques===
+</div>
 
-Les instances publiques sont considérées comme étant facilement accessibles et incluent celles de types « Publique » et « Groupe public »<ref name=":0">https://hello.vrchat.com/community-guidelines</ref> 
+<div class="mw-translate-fuzzy">
+Les instances publiques sont considérées comme étant facilement accessibles et incluent celles de types « Publique » et « Groupe public »<ref name=":0">https://hello.vrchat.com/community-guidelines</ref>
+</div>
 
 <span id="Private_instances"></span>
+<div class="mw-translate-fuzzy">
 ===Instances privées===
+</div>
 
 Les instances privées nécessitent une invitation ou autre moyen d'y accéder et incluent les instances de type « Amis », « Amis+ », « Invitation », « Invitation+ », « Groupe » et « Groupe+ ».<ref name=":0" />
 
 <span id="Group_instances"></span>
+<div class="mw-translate-fuzzy">
 ===Instances de groupe===
+</div>
 
 Les instances de groupe sont créées par un groupe et incluent les instances de type « Groupe public », « Groupe+ » et « Groupe ».
 
@@ -102,7 +112,7 @@ Les instances de groupe sont créées par un groupe et incluent les instances de
 
 ''Voir aussi [[Special:MyLanguage/Age Verification|Vérification de l'âge]].''
 
-Optionnellement, une vérification de l'âge 18+ peut être définie pour une instance de groupe par un membre ayant un rôle ayant la permission « Créer une instance restreinte », de façon à ce que seuls les utilisateurs ayant la vérification 18+ puissent rejoindre. 
+Optionnellement, une vérification de l'âge 18+ peut être définie pour une instance de groupe par un membre ayant un rôle ayant la permission « Créer une instance restreinte », de façon à ce que seuls les utilisateurs ayant la vérification 18+ puissent rejoindre.
 
 Si un utilisateur est vérifié, les instances restreintes seront priorisées et affichées tout en haut de la liste d'instances.
 
@@ -116,22 +126,30 @@ Les instances peuvent avoir une file d'attente. Lorsque la limite est atteinte, 
 Un utilisateur peut se connecter directement à une instance si un autre de ses clients y est déjà présent. Le nouveau client expulsera l'ancien dès l'entrée, vous permettant d'intervertir entre VR et PC sans avoir à perdre votre place dans une instance pleine.
 
 <span id="Avatar_Performance_Gated"></span>
+<div class="mw-translate-fuzzy">
 ====Limitation par performance d'avatar====
+</div>
 
 Les instances de groupe offrent l'option de définir une limite de performance minimale pour les avatars. Ces limites sont définies lors de la création de l'instance et s'applique à tous les utilisateurs qui s'y trouvent. La limite de performance minimale peut être configurée pour limiter les avatars de qualité médiocre, moyenne ou bon. Par défaut, aucune limite n'est définie.
 
+<div class="mw-translate-fuzzy">
 Lorsque la limite est en vigueur, les utilisateurs qui la dépassent s'exposent aux conséquences suivantes :
 * Tenter de rejoindre l'instance notifiera le joueur que leur avatar dépasse la limite de performance acceptée. Le joueur recevera un pop-up d'avertissement indiquant leur rang d'avatar actuel, la limite de performance de l'instance, et comment les autres utilisateurs verront leur avatar.
 * Dans l'instance, les utilisateurs verront leur avatar en tant que [[Special:MyLanguage/Fallbacks|Fallback]] ou en tant que [[Special:MyLanguage/Impostors|Impostor]], mais localement l'utilisateur sera toujours avec leur avatar habituel.
+</div>
 
 Les groupes peuvent créer un rôle pour contourner la restriction de performance d'avatar.
 
 <span id="Regions"></span>
+<div class="mw-translate-fuzzy">
 ==Régions==
+</div>
 
 Lors de la sélection du type de l'instance, des choix de régions seront disponibles afin d'optimiser leur expérience. Choisir une instance plus proche de votre emplacement permettra de réduire la [[Special:MyLanguage/:Community:Terminology#Ping|latence]] et d'assurer une connexion plus stable, évitant les déconnexions et lags intempestifs
 
+<div class="mw-translate-fuzzy">
 Historiquement, VRChat ne tournait que sur le serveur Ouest des États-Unis. Le 16 juin 2021, deux nouvelles régions furent ajoutées - '''Europe et Japon''' lors de la [https://docs.vrchat.com/docs/vrchat-202124 mise à jour des régions]<ref>https://docs.vrchat.com/docs/vrchat-202124</ref>, afin de distribuer la charge du serveur et augmenter le nombre d'utilisateurs. Le 1 décembre 2021, la région '''Est des États-Unis''' <ref>https://docs.vrchat.com/docs/vrchat-202142</ref> fut ajoutée et le serveur Américain renommé ''''Ouest des États-Unis''''. Les utilisateurs sont encouragés à vérifier le site web du {{VRC link|https://status.vrchat.com|statut de VRChat}} ou leur [https://x.com/VRChat_Status compte statut VRChat] sur les résaux sociaux pour être mis au courant des pannes ou découverte de problèmes.
+</div>
 {| class="wikitable"
 |+
 !Jeton
@@ -173,7 +191,7 @@ Ce lien redirige automatiquement vers la page de lancement de l’instance sur l
 == Paramètres d'instance ==
 
 [[File:QuickMenu HereTab.png|thumb|L'interface des paramètres de l'instance dans l'onglet « Ici » du menu rapide.]]
-Après avoir rejoint une instance, son créateur peut sélectionner quel type de contenu est autorisé en son sein ; les options par défaut seront définies selon les paramètres de contenu par défaut du monde. Modifier le type de contenu autorisé peut être fais dans l'onglet « Ici » du menu rapide. 
+Après avoir rejoint une instance, son créateur peut sélectionner quel type de contenu est autorisé en son sein ; les options par défaut seront définies selon les paramètres de contenu par défaut du monde. Modifier le type de contenu autorisé peut être fais dans l'onglet « Ici » du menu rapide.
 
 Les paramètres de l'instance ne peuvent être définis par son créateur si celle-ci est de type « Publique » ou « Groupe public ». À la place, les paramètres seront définis sur les paramètres de contenu par défaut du monde. Les objets ne peuvent seulement être désactivés dans les instances de groupe et respecteront les paramètres définis par l'auteur du monde qu'importe l'instance.
 
@@ -194,7 +212,7 @@ Vos permissions en termes de gestion de l'instance dépendent de si vous êtes l
 <span id="Instance_owner"></span>
 === Propriétaire de l'instance ===
 
-Le propriétaire de l'instance est la personne ayant créé l'instance, et dépendant de son type, peut être celle d'un utilisateur, groupe, ou de l'auteur du monde. La propriété de l'instance ne peut être changée une fois assignée. Afin de changer la propriété de l'instance, une nouvelle doit être créée par un autre utilisateur ou groupe. La propriété de l'instance est souvent confondue avec un « Maître », qui est généralement lié aux paramètres [[Special:MyLanguage/Udon|Udon]] du monde. 
+Le propriétaire de l'instance est la personne ayant créé l'instance, et dépendant de son type, peut être celle d'un utilisateur, groupe, ou de l'auteur du monde. La propriété de l'instance ne peut être changée une fois assignée. Afin de changer la propriété de l'instance, une nouvelle doit être créée par un autre utilisateur ou groupe. La propriété de l'instance est souvent confondue avec un « Maître », qui est généralement lié aux paramètres [[Special:MyLanguage/Udon|Udon]] du monde.
 
 Les propriétaires d'une instance ont la permission de [[Special:MyLanguage/Trust and Safety#User moderation tools|modérer les utilisateurs]], y compris les exclure, avertir, ou désactiver leur microphone. Dans le cas d'une instance de groupe, les modérateurs du groupe et leurs pouvoirs dépendent de leur [[Special:MyLanguage/Groups#Group Roles and Permissions|rôles et permissions de groupe]].
 
@@ -206,7 +224,9 @@ Les instances publiques n'ont pas de propriétaire désigné et sont par défaut
 L'auteur du monde possède les mêmes outils de modération qu'un propriétaire d'instance, ayant la capacité de modérer les utilisateurs par l'exclusion, l'avertissement et la désactivation du microphone. L'auteur du monde possède ces pouvoirs supplémentaires, dépendant du type de l'instance.
 
 <span id="Permission_chart"></span>
+<div class="mw-translate-fuzzy">
 ===Tableau des permissions===
+</div>
 {| class="wikitable"
 |+Permissions de modération pour les instances
 !Type d'instance
@@ -286,6 +306,8 @@ Cependant, si le créateur de l’instance ou l’auteur du monde est déjà pr�
 Les instances ayant fonctionné depuis une longue période se réinitialiseront automatiquement afin d'empêcher de potentiels problèmes. Si une instance est peuplée, les utilisateurs rejoindront automatiquement l'instance une fois réinitialisée. Autrement, ils seront renvoyés dans leur monde d'accueil. Un avertissement 100 ou 60 minutes peut être donné avant réinitialisation, dont un 5 minutes avant obligatoire. Les instances peuvent fonctionner pendant 7 jours, mais peuvent se réinitialiser plus tôt dû à une mise à jour côté serveur.
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==Références==
+</div>
 
 <references />
