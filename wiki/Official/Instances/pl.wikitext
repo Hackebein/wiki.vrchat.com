@@ -8,26 +8,28 @@
 </div>
 
 <span id="Instance_types"></span>
+<div class="mw-translate-fuzzy">
 ==Typy instancji==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 There are many public and private environments of all genres that the user can explore. Users may also create and join various community groups to meet other users with mutual interests. Users can choose to join a public instance, or create a private instance to be alone or invite friends after adding them. The type of privacy of created instances is up to the user, and follows under the various tiers:
 </div>
 {| class="wikitable"
 |+
-!'''Publiczna''' 
+!'''Publiczna'''
 |<span lang="en" dir="ltr" class="mw-content-ltr">A publicly listed instance to which anyone can join.</span>
 |-
 !'''Znajomi+'''
 |<span lang="en" dir="ltr" class="mw-content-ltr">Your friends, and their friends, and so on can join.</span>
 |-
-!'''Znajomi''' 
+!'''Znajomi'''
 |<span lang="en" dir="ltr" class="mw-content-ltr">Only your friends may join; friends of friends are excluded.</span>
 |-
 !'''Zaproszeni+'''
 |<span lang="en" dir="ltr" class="mw-content-ltr">Users and friends of users must request to join your instance, unless you or an invited user's [[Special:MyLanguage/social status|social status]] is set to "Join Me".</span>
 |-
-!'''Zaproszeni''' 
+!'''Zaproszeni'''
 |<span lang="en" dir="ltr" class="mw-content-ltr">Users must send a join request to join you, unless your social status is set to "Join Me"; friends of friends are excluded.</span>
 |-
 !'''[[Special:MyLanguage/Groups|Grupowa]]'''
@@ -91,21 +93,27 @@ All or selected roles ("Join Group Instances" group role permission required). N
 |}
 <references group="note" />
 <span id="Public_instances"></span>
+<div class="mw-translate-fuzzy">
 ===Publiczne instancje===
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Public instances are considered easily accessible and include Public and Group Public types.<ref name=":0">https://hello.vrchat.com/community-guidelines</ref>
-</div> 
+Public instances are considered easily accessible and include Public and Group Public types.<ref name=":0">[https://hello.vrchat.com/community-guidelines hello.vrchat.com]</ref>
+</div>
 
 <span id="Private_instances"></span>
+<div class="mw-translate-fuzzy">
 ===Prywatne instancje===
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Private instances require an invitation or a way to get in and include Friends, Friends+, Invite, Invite+, Group, and Group+ types.<ref name=":0" />
 </div>
 
 <span id="Group_instances"></span>
+<div class="mw-translate-fuzzy">
 ==Instancje grupowe==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Group instances are created by a group and include Group Public, Group+, and Group types.
@@ -120,7 +128,7 @@ Group instances are created by a group and include Group Public, Group+, and Gro
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Optionally, 18+ age verification requirement can be set for a group instance by a group member with a role with "Create Age Gated Instances" permission, so that only users with verified 18+ age can join.
-</div> 
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If a user is age verified, age gated instances will be prioritized and shown at the top of the instance list.
@@ -142,7 +150,7 @@ A user can direct-connect to an instance if another of their own clients is alre
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-====Avatar Performance Gated====
+==== Avatar Performance Gated ====
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -151,7 +159,7 @@ Group instances have the option to set a minimum performance limit for avatars. 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When the limit is in effect, users violating the performance limit will be subject to:
-* Attempting to join the instance will notify the user that their avatar violates the performance limit. They will receive a warning pop-up showing their current avatar rank, the instance performance limit, and how users will see their avatar. 
+* Attempting to join the instance will notify the user that their avatar violates the performance limit. They will receive a warning pop-up showing their current avatar rank, the instance performance limit, and how users will see their avatar.
 * Within the instance, users will see their avatar as a [[Special:MyLanguage/Fallbacks|Fallback]] or an [[Special:MyLanguage/Impostors|Impostor]], but locally the user will still be in their regular avatar.
 </div>
 
@@ -160,14 +168,16 @@ Groups can set up a role to bypass avatar performance requirements.
 </div>
 
 <span id="Regions"></span>
+<div class="mw-translate-fuzzy">
 ==Regiony==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Whilst selecting an instance type, there are choices for varying regions to better optimize their experience. Choosing an instance closest to your location will see a decrease in [[Special:MyLanguage/Community:Terminology#Ping|ping]], and ensuring a more stable connection to the instance, preventing disconnections and lag.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-Historically, VRChat ran solely on the U.S. West server. On June 16, 2021, two extra regions - '''Europe, and Japan''' were added to the platform in the [https://docs.vrchat.com/docs/vrchat-202124 Regions update]<ref>https://docs.vrchat.com/docs/vrchat-202124</ref> to distribute server load, and offset increasing user count. On December 1, 2021, VRChat added the '''U.S. East'''<ref>https://docs.vrchat.com/docs/vrchat-202142</ref> region, and renamed the current USA server to ''''U.S. West'''<nowiki/>'. Users are also encouraged to check VRChat's {{VRC link|https://status.vrchat.com|server status}} website or their [https://x.com/VRChat_Status VRChat Status account] on social media for outages, or upon discovering issues when connecting to VRChat.
+Historically, VRChat ran solely on the U.S. West server. On {{#time: F j, Y | June 16, 2021 }}, two extra regions - '''Europe, and Japan''' were added to the platform in the [https://docs.vrchat.com/docs/vrchat-202124 Regions update]<ref>[https://docs.vrchat.com/docs/vrchat-202124 docs.vrchat.com]</ref> to distribute server load, and offset increasing user count. On {{#time: F j, Y | December 1, 2021 }}, VRChat added the '''U.S. East'''<ref>[https://docs.vrchat.com/docs/vrchat-202142 docs.vrchat.com]</ref> region, and renamed the current USA server to ''''U.S. West'''<nowiki/>'. Users are also encouraged to check VRChat's {{VRC link|https://status.vrchat.com|server status}} website or their [https://x.com/VRChat_Status VRChat Status account] on social media for outages, or upon discovering issues when connecting to VRChat.
 </div>
 {| class="wikitable"
 |+
@@ -221,7 +231,7 @@ Instances can be shared using VRChat's <code>vrch.at</code> short link domain co
 </div>|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">The instance settings UI on the Quick Menu "Here" tab.</span>]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
 After joining an instance, the instance creator can select what type of content is to be allowed within the instance; the default options will be set to the world's default content settings. Changing what type of content is allowed can be made in the '''Here''' tab of the Quick Menu.
-</div> 
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Instance Settings cannot be set by the instance creator if the instance type is Public or Group Public. Instead, it will respect the world creator's content settings. Items can only be toggled in group instances and will always respect the world creator's content settings regardless of instance type.
@@ -252,7 +262,7 @@ Your permissions for managing an instance is dependent on whether you are a worl
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The instance owner, is the person who initiated the instance, and depending on its type can be either a user, a group, or the world author. Instance ownership cannot be changed once assigned. To change instance ownership, a new instance must be opened by another user or group. Instance ownership is often confused with a "master", which is usually tied to [[Special:MyLanguage/Udon|Udon]] world settings.
-</div> 
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Instance owners have permission to [[Special:MyLanguage/Trust and Safety#User moderation tools|moderate users]], including kicking, warning or muting them. In the case of a group instance, group moderators and their powers depend on assigned [[Special:MyLanguage/Groups#Group Roles and Permissions|group roles and permissions]].
@@ -270,7 +280,9 @@ The author of the world have the same core set of moderation tools as an instanc
 </div>
 
 <span id="Permission_chart"></span>
+<div class="mw-translate-fuzzy">
 === Wykres uprawnień ===
+</div>
 {| class="wikitable"
 |+<span lang="en" dir="ltr" class="mw-content-ltr">Moderation permissions for instances</span>
 !Typ instancji
@@ -352,6 +364,8 @@ Instances that have been running for long periods will automatically reset to pr
 </div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==Przypisy==
+</div>
 
 <references />
