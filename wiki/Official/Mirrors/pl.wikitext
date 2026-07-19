@@ -3,7 +3,7 @@
 [[File:Mirrors.webp|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">A group of people socializing in front of a mirror.</span>]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Mirrors''' are reflective surfaces that allow users to view a mirrored reflection of their avatar, alongside other users and/or the world they're in, depending on the settings of the world. Many worlds contain mirrors intended for users to sit in front of as they socialize. This activity is colloquially referred to as "mirror dwelling". Users may also choose to summon a mirror of their own though only visible to them.
-</div> 
+</div>
 
 <div class="mw-translate-fuzzy">
 === Rodzaje luster ===
@@ -17,7 +17,7 @@
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A personal mirror is a type of mirror that can be summoned and moved by a user that can only be viewed by them.
-</div> 
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 It can be enabled and configured via the [[Special:MyLanguage/Action Menu|Action Menu]] or the [[Special:MyLanguage/Main Menu|Main Menu]]'s [[Special:MyLanguage/Settings|Settings]] page.
@@ -105,7 +105,7 @@ When interacting with a Mirror in a world, users will be able to enable or toggl
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==SDK==
+== SDK ==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -124,7 +124,9 @@ Mirrors render during <code>Camera.onPreCull</code>. World creators using script
 <span id="Resources"></span>
 == Linki ==
 
-[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ Dokumentacja VRChat Creator - VRC Mirror Reflection]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ VRChat Creator Documentation - VRC Mirror Reflection]
+</div>
 
 
 [[Category:Features{{#translation:}}]]
