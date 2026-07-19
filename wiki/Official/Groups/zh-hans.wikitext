@@ -23,7 +23,9 @@
 </div>
 
 <span id="Joining_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==加入群组==
+</div>
 
 <div class="mw-translate-fuzzy">
 要加入一个群组，你必须首先打开群组页面。用户最多可以加入 100 个不同的群组，如果订阅了活跃的[[Special:MyLanguage/VRChat+|VRChat+]]，则最多可以加入 200 个群组。要加入一个群组，可以通过[[Special:MyLanguage/Main Menu|主菜单]]中的“搜索”选项卡或“群组”选项卡查找。也可以通过浏览其他用户在其个人档案中的群组列表，或点击位于世界中的特定宣传海报来加入群组。加入群组后，您可以通过群组页面上的'''房间'''选项卡或'''社交'''选项卡中的'''群组活动'''选项卡加入任何活跃的群组房间。
@@ -32,12 +34,16 @@
 您还可以通过浏览其他用户个人资料上他们所展示的群组列表，或点击世界中特定的宣传海报来加入群组。加入群组后，您可以通过群组页面上的'''房间'''选项，或社交选项中的'''群组活动'''栏，进入任何活跃的群组房间。
 
 <span id="Representing"></span>
+<div class="mw-translate-fuzzy">
 ===展示群组===
+</div>
 
 展示群组会在用户的铭牌和个人资料上显示该群组的名称和横幅。用户可以通过进入主菜单中的群组页面并点击右上角的“展示群组”按钮来展示群组。一次只能展示一个群组。
 
 <span id="Membership_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===群组成员可见性===
+</div>
 
 群组成员可以选择在个人档案中隐藏已加入的群组。但是，在以下的情况下，用户仍然可以看到你是否在该群组中：
 
@@ -72,14 +78,18 @@
 |}
 
 <span id="Creating_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==创建群组==
+</div>
 
 <div class="mw-translate-fuzzy">
 要创建群组，用户必须首先拥有一个活跃的 [[Special:MyLanguage/VRChat+|VRChat+]] 订阅。保持 VRChat+ 订阅并不是保留组所有权的必要条件。但如果要使用 VRChat+ 图库更改图标、横幅和编辑群组图库，以及将群组所有权转让给其他用户，则需要活跃的 VRChat+ 订阅。目前，创建群组必须通过 {{VRC link|https://vrchat.com/home/groups|VRChat 网站}}。一个用户最多可拥有 5 个群组，每个群组最多可有 100,000 名成员加入。
 </div>
 
 <span id="Joinability_and_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===加入条件和可见性===
+</div>
 
 <div class="mw-translate-fuzzy">
 创建群组时，创建流程会让创建者更改一些隐私选项。群组的'''加入条件'''决定了任何用户能否加入群组。这一设置可以在以后更改。
@@ -155,12 +165,48 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 </div>
 
 <span id="Viewing_your_roles"></span>
+<div class="mw-translate-fuzzy">
 ===查看你的权限组===
+</div>
 
 虽然目前无法在 VRChat 客户端中选择或更改权限组，但你可以打开[[Special:MyLanguage/Main Menu|主菜单]]，点击“群组”选项卡，然后点击希望查看权限组的群组，即可查看当前你的账户的所有权限组。菜单右上方有一个“齿轮”图标，它会向右展开一个'''群组设置'''子菜单。子菜单的最上方可以查看当前拥有的权限组。
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Self-assigning roles ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To self-assign '''Self Assignable''' roles, you must sign in on the VRChat website, and navigate to the Members tab.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 1: Click '''Groups''' on the left sidebar of the website.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 2: Click on a group with self-assignable roles.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 3: Click on the tab titled '''Members'''.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 4: Click on your profile card, ''outside'' your username. (This area is only clickable if there are self-assignable roles.)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 5: Click on roles to move them between '''Available Roles''' and '''Assigned Roles'''. Grayed-out roles in '''Assigned Roles''' are not self-assignable and cannot be removed in this manner.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 6: '''Click Save'''.
+</div>
+
 <span id="Default_roles"></span>
+<div class="mw-translate-fuzzy">
 ===默认权限组===
+</div>
 
 [[File:Groups default roles.png|thumb|253x253px|<span lang="en" dir="ltr" class="mw-content-ltr">Role overview</span>]]
 
@@ -168,10 +214,12 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 
 <div class="mw-translate-fuzzy">
 群组所有者权限不能以任何方式更改或删除，因为默认情况下，群组所有者应始终拥有所有权限。但是，只要双方都订阅了 VRChat+，群组所有者就可以将群组转让给另一个群成员。转让群组前应慎重考虑，因为所有转让都是无法撤销的。请阅读下文以获取有关群组转让的更多信息。
-</div> 
+</div>
 
 <span id="Creating_roles"></span>
+<div class="mw-translate-fuzzy">
 ===创建权限组===
+</div>
 
 管理员可以随时添加、重命名或删除权限组。每个权限组都可以有一个简介和一组自定义权限。权限组可以被设置为'''加入时分配'''、'''可自行分配'''或'''需要 2FA '''。
 
@@ -197,29 +245,31 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 [[File:Groups permissions overview.png|thumb|从群组管理选项中可以看到一些可分配的权限]]
 
 <span id="Assigning_permissions"></span>
+<div class="mw-translate-fuzzy">
 ===分配权限===
+</div>
 
-要为某个权限组分配权限，群组管理员必须登录 VRChat 网站，并导航至 “Permissions” 选项卡。 
+要为某个权限组分配权限，群组管理员必须登录 VRChat 网站，并导航至 “Permissions” 选项卡。
 
 <div class="mw-translate-fuzzy">
 * 第1步：点击网站左侧边栏的 '''Groups''' 选项卡。
-</div> 
+</div>
 
 <div class="mw-translate-fuzzy">
 * 第2步：点击选择一个你拥有管理权限的群组。
-</div> 
+</div>
 
 <div class="mw-translate-fuzzy">
 * 第3步：群组管理员可以访问不同的选项卡，如“概览”、“帖子”等。点击 '''Settings''' 选项卡。
-</div> 
+</div>
 
 <div class="mw-translate-fuzzy">
 * 第4步：点击该选项卡下方的 '''Roles'''。
-</div> 
+</div>
 
 <div class="mw-translate-fuzzy">
 * 第5步：点击要编辑权限的权限组，然后点击带锁图标的 '''Permissions'''。
-</div> 
+</div>
 
 <div class="mw-translate-fuzzy">
 * 第6步：应用以下的权限，向下滚动到页面底部，然后点击 '''Save'''。
@@ -356,7 +406,9 @@ Community member Reava has created [https://github.com/Reava/Resources/releases/
 | <span lang="en" dir="ltr" class="mw-content-ltr">Bypass Avatar Performance Requirements</span>|| <span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to join group instances that have a minimum avatar performance requirement, regardless of their avatar's performance rating.</small></span>
 |}
 <span id="Group_instances"></span>
+<div class="mw-translate-fuzzy">
 ==群组房间==
+</div>
 
 <div class="mw-translate-fuzzy">
 群组所有者和拥有相关权限的人可以创建群组房间。有三种类型群组房间。
@@ -389,13 +441,15 @@ Group instances are often '''moderated by the group hosting the instance'''. The
 </div>
 
 <span id="Group_instance_queues"></span>
+<div class="mw-translate-fuzzy">
 ===群组房间队列===
+</div>
 
 群组房间也非常适合举办人数众多的活动。在创建房间时启用'''排队加入房间'''选项会为房间启用一个等待队列，可以在房间人数达到最大上限时让未加入房间的用户排队等待。当你加入某个房间的等待队列后，一旦房间出现空位，你将收到邀请，空位会为你保留一分钟，如果超时未加入房间，空位名额会被分配给队列中的下一个人。
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Instance announcements===
+=== Instance announcements ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -473,7 +527,7 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 |<span lang="en" dir="ltr" class="mw-content-ltr">This group is for those who are part of the official VRChat Wiki contributor team. Members of this group are not necessarily employees of VRChat.</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Playtours</span>
-|<private>.0000
+|<span lang="en" dir="ltr" class="mw-content-ltr"><private>.0000</span>
 |<span lang="en" dir="ltr" class="mw-content-ltr">This group is for VRChat Playtours.</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">Instance Capacity Stress Tests</span>
@@ -481,12 +535,14 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 |<span lang="en" dir="ltr" class="mw-content-ltr">This group is for testing unreasonably high capacity instances.</span>
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Community Leaders</span>
-|TBA
-|TBA
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
 |}
 
 <span id="Official_resources"></span>
+<div class="mw-translate-fuzzy">
 == 官方资源 ==
+</div>
 
 <div class="mw-translate-fuzzy">
 * ''YouTube'' 上的[https://www.youtube.com/watch?v=b6c_kDRJG2A 开发者更新 - 群组]，上传于2022年11月30日。
@@ -495,12 +551,12 @@ Every group that is created, is given a shortcode, with a generated four-digit d
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Trivia==
+== Trivia ==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-*Groups originally had a capacity of 10,000 members, but was later increased to hold 100,000 members. On January 30, 2026, Groups were given a capacity of 200,000 members<ref>[https://discord.com/channels/189511567539306508/336764577301659649/1466899265296011284 Post in #announcements by Tupper] on [[Special:MyLanguage/Discord servers|VRChat Discord]]. Dated January 30, 2026. Retrieved January 30, 2026.</ref>
-*"Just Bread Group" ([https://vrc.group/TOASTY.1234 TOASTY.1234]) was the first ever Group<ref>https://x.com/VRChat/status/1747389673154949626</ref>. It was created by our server engineer Bready for testing purposes. While launching Groups, the data had to be organized in a specific way to maximize server performance, and one had to be created first in order to organize the database properly.
+*Groups originally had a capacity of {{formatnum:10,000}} members, but was later increased to hold {{formatnum:100,000}} members. On {{#time: F j, Y | January 30, 2026 }}, Groups were given a capacity of {{formatnum:200,000}} members<ref>[https://discord.com/channels/189511567539306508/336764577301659649/1466899265296011284 Post in #announcements by Tupper] on [[Special:MyLanguage/Discord servers|VRChat Discord]]. Dated January 30, 2026. Retrieved January 30, 2026.</ref>
+*"Just Bread Group" ([https://vrc.group/TOASTY.1234 TOASTY.1234]) was the first ever Group<ref>[https://x.com/VRChat/status/1747389673154949626 x.com]</ref>. It was created by our server engineer Bready for testing purposes. While launching Groups, the data had to be organized in a specific way to maximize server performance, and one had to be created first in order to organize the database properly.
 </div>
 
 <span id="References"></span>
