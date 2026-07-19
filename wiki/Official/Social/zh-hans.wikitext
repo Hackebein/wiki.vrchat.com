@@ -62,7 +62,9 @@ Pronouns2.webp|在移动端的用户资料显示
 </gallery>
 
 <span id="Bio"></span>
+<div class="mw-translate-fuzzy">
 === 简介 ===
+</div>
 
 简介是玩家编辑的一段文字，用于描述或介绍自己，也可用作其它用途。简介至多可以有500个字符。
 
@@ -91,8 +93,8 @@ Pronouns2.webp|在移动端的用户资料显示
 |发送邀请<ref group="actions" name="friends-only"></ref>
 |<span lang="en" dir="ltr" class="mw-content-ltr">Sends the user an invitation to join your instance. The invite includes a customizable message and with [[Special:MyLanguage/VRC+|VRC+]] a photo can also be added to the invitation.</span>
 |-
-|Boop<ref name="friends-only" group="actions" />
-|Sends the user a [[Boops|Boop]].
+|<span lang="en" dir="ltr" class="mw-content-ltr">Boop<ref name="friends-only" group="actions" /></span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Sends the user a [[Special:MyLanguage/Boops|Boop]].</span>
 |-
 |赠送VRC+
 |<span lang="en" dir="ltr" class="mw-content-ltr">Opens a menu that allows you to buy [[Special:MyLanguage/VRC+|VRC+]] for the user. ''See [[Special:MyLanguage/VRC+#Gifting|Gifting]] for more detailed information.''</span>
@@ -127,7 +129,9 @@ Pronouns2.webp|在移动端的用户资料显示
 <references group="actions"/>
 
 <span id="Uploaded_&amp;_favorited_worlds"></span>
+<div class="mw-translate-fuzzy">
 === 已上传及收藏的世界 ===
+</div>
 
 在[[Special:MyLanguage/Social#Actions|操作]]下方会罗列该玩家上传的世界以及公开收藏的世界。它们可按照添加时间、最近更新、名称等排序。
 
@@ -137,52 +141,69 @@ Pronouns2.webp|在移动端的用户资料显示
 用户资料可通过VRChat的<code>vrch.at</code>短链接域名附加用户ID分享，例如<code><nowiki>https://vrch.at/<userId></nowiki></code>。该链接重定向自VRChat网站上对应的用户资料页（<code><nowiki>https://vrchat.com/home/user/<userId></nowiki></code>）。
 
 <span id="Social_menu"></span>
+<div class="mw-translate-fuzzy">
 == 社交菜单 ==
+</div>
 
 [[File:Social Menu.webp|thumb|alt=VRChat主菜单中的社交页面截图|VRChat主菜单中的社交页面]]
 
 <span id="Friend_Locations"></span>
+<div class="mw-translate-fuzzy">
 === 好友位置 ===
+</div>
 
 '''好友位置'''包含了状态为在线（绿色）或欢迎加入（蓝色）且处于可加入房间（如公开、好友+、仅限好友、群组公开、群组+）的好友。在下方也会显示位于私人房间中的好友。
 
 <span id="Group_Activity"></span>
+<div class="mw-translate-fuzzy">
 === 群组房间 ===
+</div>
 
-'''群组房间'''展示已加入群组的可用[[Special:MyLanguage/Groups|群组]]房间。如果你创建了类型为群组、群组+或群组公开的房间，该房间将会显示在对应群组所有成员的群组房间界面下。 
+'''群组房间'''展示已加入群组的可用[[Special:MyLanguage/Groups|群组]]房间。如果你创建了类型为群组、群组+或群组公开的房间，该房间将会显示在对应群组所有成员的群组房间界面下。
 
 <span id="All_Friends"></span>
+<div class="mw-translate-fuzzy">
 === 全部好友 ===
+</div>
 
- 
 '''全部好友'''页面展示完整的在线好友列表，包含状态为忙碌（橙色）和请勿打扰（红色）的好友。它也包含在网页端活跃的好友和离线好友。
 
 <span id="In_Instance"></span>
+<div class="mw-translate-fuzzy">
 === 房内玩家 ===
+</div>
 
-'''房内玩家'''展示当前处于同一房间的玩家。已屏蔽的玩家将不会显示在此处，除非你是房主或[[Special:MyLanguage/Groups|群组]]管理员。快捷菜单中的“当前房间”页面与此页面的功能相同。 
+'''房内玩家'''展示当前处于同一房间的玩家。已屏蔽的玩家将不会显示在此处，除非你是房主或[[Special:MyLanguage/Groups|群组]]管理员。快捷菜单中的“当前房间”页面与此页面的功能相同。
 
 <span id="Favorite_Friends"></span>
+<div class="mw-translate-fuzzy">
 === 好友分组 ===
+</div>
 
-'''好友分组'''提供了三个分组。你可以将好友分组至这三个组之一。组可以被重命名以便分类。 
+'''好友分组'''提供了三个分组。你可以将好友分组至这三个组之一。组可以被重命名以便分类。
 
-<span id="Recently_Seen"></span>
+<div class="mw-translate-fuzzy">
 === Recently Seen ===
+</div>
 
 '''Recently Seen'''页面显示你在房间中曾遇到的玩家。它展示了最近遇到的100名玩家，按照相遇时间排序。
 
 <span id="Blocked"></span>
+<div class="mw-translate-fuzzy">
 === 黑名单 ===
+</div>
 
 '''黑名单'''中是你屏蔽的玩家。你可以点击任一玩家，并执行解除屏蔽操作。
 
 <span id="Friends"></span>
+<div class="mw-translate-fuzzy">
 == 好友 ==
+</div>
 
 {{Stub|Add quirks that have to do with friends and such.}}
 与其它的平台类似，在VRChat中，好友是你信任的玩家。你可以查看玩家是否在线或在网页端活跃、发送及接受邀请、添加备注。在同一房间中的好友的名字会变成黄色，且该玩家的信誉级别也会包含好友前缀。
 
+<div class="mw-translate-fuzzy">
 == Mutuals ==
 <!-- Do we want a feature infobox? -->
 {{Infobox/Feature
@@ -196,27 +217,28 @@ Pronouns2.webp|在移动端的用户资料显示
 |branch_openbeta_version = 2025.4.2 Build 1761
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202542-openbeta 2025.4.2 Open Beta]
 }}
+</div>
 
-Mutuals功能允许玩家查看与其它玩家的共同好友或群组。 
+Mutuals功能允许玩家查看与其它玩家的共同好友或群组。
 
-有两种方式查看mutuals，在快捷菜单或主菜单中会显示“View X Mutuals”按钮。在快捷菜单中，该按钮位于用户操作上方；在主菜单中，该按钮在右上角的举报按钮旁边。 
+有两种方式查看mutuals，在快捷菜单或主菜单中会显示“View X Mutuals”按钮。在快捷菜单中，该按钮位于用户操作上方；在主菜单中，该按钮在右上角的举报按钮旁边。
 
 如果你不希望别的玩家查看与你的共同好友或群组，或不希望自己出现在别的玩家的共同好友列表中，你可以关闭设置-舒适与安全-安全中的“Show Mutual Connections”。关闭该选项后，“View X Mutuals”按钮会变为“No Known Mutuals”。此外，当你出现在别的玩家的共同好友列表时，你的头像会被隐藏，用户名会被显示为“Hidden Mutual”。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Discord Friends==
+== Discord Friends ==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Seen in the Social tab under "All Friends", this feature allows you to see your Discord friends with their current status and to perform different actions. Friends with a Discord account linked will have a Discord icon displayed on their profile
-</div> 
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 If your friend has linked their Discord account to their VRChat account, you will be able to invite them to join your instance through Discord. Otherwise, you will be able to invite them to create a VRChat account. You or your friends may prevent your VRChat account from being shown in the Discord section by turning off the "Allow Discord Friends" setting in the '''Comfort & Safety''' section of the settings.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==References==
+== References ==
 <references/>
 </div>
 
