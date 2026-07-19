@@ -1,23 +1,32 @@
 <languages/>
 {{Noticebox/Official}}
+<div class="mw-translate-fuzzy">
 {{Stub|Pouca informação aqui! Você pode [[Special:MyLanguage/VRCWiki:How to Contribute|contribuir]], expandindo e revisando este artigo, de acordo com o [[Special:MyLanguage/VRCWiki:Manual of Style|Manual de Estilo]].}}
 A '''Dinâmica de Avatar''' é um recurso de [[Special:MyLanguage/Avatars|avatar]], introduzido inicialmente no VRChat em 21 de abril de 2022<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live VRChat Blog: Avatar Dynamics Live]</ref>. Trata-se de um conjunto de funcionalidades que adiciona mais interações entre avatares. Substituindo componentes antigos e adicionando novas opções para avatares. Esta versão também introduziu um novo sistema de permissões que permite aos usuários definir quem pode interagir com esses novos recursos.
+</div>
 
+<span id="PhysBones"></span>
+<div class="mw-translate-fuzzy">
 ==PhysBones==
+</div>
 
 ''Veja também [[Special:MyLanguage/Physbones|Physbones]] para informações mais detalhadas.''
 
 O PhysBones é um sistema dinâmico de física para avatares que permite aos usuários criar movimentos secundários e ossos interativos no VRChat. Ele é utilizado para simular comportamentos naturais em partes do avatar, respondendo a manipulações físicas por meio de parâmetros relacionados ao movimento, à gravidade e às colisões.
 
 <span id="Contacts"></span>
+<div class="mw-translate-fuzzy">
 ==Contatos==
+</div>
 
 ''Veja também [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contatos] para informações mais detalhadas.''
 
 Contatos (Contacts) são um sistema que permite aos avatares detectar colisões consigo mesmos ou com outros avatares. Essas colisões podem então ser usadas para acionar parâmetros do Animator e realizar diversos tipos de efeitos de interação.
 
 <span id="Contact_Senders"></span>
+<div class="mw-translate-fuzzy">
 ===Emissores de Contato===
+</div>
 
 Um '''Emissor de Contato (Contact Sender)''' define um volume de colisão que pode ser detectado por um Receptor de Contato (Contact Receive) correspondente. Os emissores podem usar formato de esfera ou cápsula, um transform raiz, deslocamentos locais de posição e rotação, e uma ou mais tags de colisão.
 
@@ -26,7 +35,9 @@ Estão disponíveis contatos em forma de caixa tanto para avatares quanto para m
 Em avatares, a seção ''Colliders'' do [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] também cria '''Emissores de Contato (Contact Senders)'''  integrados para partes comuns do corpo, como mãos e dedos.
 
 <span id="Contact_Receivers"></span>
+<div class="mw-translate-fuzzy">
 ===Receptores de Contato===
+</div>
 
 Um '''Receptor de Contato (Contact Receiver)''' detecta '''Emissores de Contato (Contact Senders)''' correspondentes e escreve um valor em um parâmetro do Animator no avatar. Os receptores podem ser configurados para permitir auto-contato, outros usuários ou apenas avaliação local.
 
@@ -39,42 +50,58 @@ O VRChat oferece suporte a três comportamentos de receptor:
 <!-- Mais algumas coisas intrínsecas do Unity que não podem ser traduzidas no momento, já que não há localização do Unity e do SDK do VRChat para PT-BR. -->
 
 <span id="Tags_and_parameters"></span>
+<div class="mw-translate-fuzzy">
 ===Tags e Parâmetros===
+</div>
 
 Contacts só interagem quando um emissor e um receptor compartilham pelo menos uma tag de colisão correspondente. O campo ''Parameter'' do receptor determina qual parâmetro do Animator é atualizado. Dependendo do tipo de parâmetro do Animator, o valor pode ser interpretado como float, int ou bool.
 
 <span id="Debugging"></span>
+<div class="mw-translate-fuzzy">
 ===Depuração===
+</div>
 
 No Unity, os gizmos de Contato (Contact) aparecem quando os Gizmos estão ativados e o Contato ou um de seus objetos pai está selecionado. No VRChat, o overlay de Avatar Dynamics também pode ser usado para visualizar Contacts e PhysBones durante os testes.
 
 <span id="Permissions"></span>
+<div class="mw-translate-fuzzy">
 ==Permissões==
+</div>
 
 O sistema de permissões da Dinâmica de Avatar oferece controle total sobre quem pode interagir com seu avatar e como:
 
 <span id="Global_Permissions"></span>
+<div class="mw-translate-fuzzy">
 ===Permissões Globais===
+</div>
 
 Escolha “Todos”, “Amigos” ou “Ninguém” como configuração padrão para todos os usuários.
 
 <span id="Per-User_Overrides"></span>
+<div class="mw-translate-fuzzy">
 ===Configuração por usuário===
+</div>
 
 Conceda ou negue individualmente permissões de interação com avatares para usuários específicos.
 
 <span id="Quick_Toggle/Safe_Mode"></span>
+<div class="mw-translate-fuzzy">
 ===Ligar ou Desligar Rápido/Modo Seguro===
+</div>
 
 Pause instantaneamente todas as interações (independentemente de quaisquer outras configurações) com um único toque de botão no Menu Rápido.
 
+<div class="mw-translate-fuzzy">
 ==Recursos Oficiais==
 * [https://creators.vrchat.com/avatars/avatar-components/ Avatar Components] no Creator Docs
 * [https://creators.vrchat.com/avatars/avatar-dynamics/physbones/ PhysBones] no Creator Docs
 * [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] no Creator Docs
+</div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==Referências==
+</div>
 
 <references/>
 
