@@ -7,8 +7,11 @@ Los '''Controles''' son matrices de entradas en mandos y dispositivos para naveg
 El Menú de ajuste dentro de VRChat detalla las asignaciones de botones para el dispositivo que estés utilizando actualmente. A continuación se muestran los ajustes por defecto:
 
 <span id="Primary_controls"></span>
+<div class="mw-translate-fuzzy">
 ==Controles principales==
+</div>
 
+<div class="mw-translate-fuzzy">
 Estos son los controles básicos para navegar e interactuar dentro de VRChat que se aplican a los diferentes tipos de entrada:
 {| class="wikitable" style="text-align:center;"
 ! style="text-align:center;" |Acción
@@ -74,12 +77,17 @@ Estos son los controles básicos para navegar e interactuar dentro de VRChat que
 |Y
 | Botón de micrófono
 |}
+</div>
 
 <span id="Additional_controls"></span>
+<div class="mw-translate-fuzzy">
 ==Controles adicionales==
+</div>
 
 <span id="VR"></span>
+<div class="mw-translate-fuzzy">
 ===RV===
+</div>
 
 VRChat admite oficialmente los siguientes visores y sus correspondientes esquemas de control.
 
@@ -104,8 +112,11 @@ Además, VRChat admite estos visores en modo PCVR, en el cual los visores están
 En PC, también admitimos la entrada de mandos externos a través del gestor de entrada de Steam.
 
 <span id="Controller_buttons"></span>
+<div class="mw-translate-fuzzy">
 ====Botones de mandos====
+</div>
 
+<div class="mw-translate-fuzzy">
 La mayoría de los mandos de RV tienen una disposición similar. Cada mando tiene un joystick y dos botones principales, un botón de sistema, un gatillo y un botón de agarre.
 {| class="wikitable"
 !Botón
@@ -124,7 +135,9 @@ La mayoría de los mandos de RV tienen una disposición similar. Cada mando tien
 |Pulsando: Menú rápido Manteniendo pulsado: Menú de acción 
 |-
 |Agarrar - Presionando con el dedo del medio
+</div>
 
+<div class="mw-translate-fuzzy">
 |Levantar
 |-
 |Presionando con el dedo índice 
@@ -142,6 +155,7 @@ La mayoría de los mandos de RV tienen una disposición similar. Cada mando tien
 |Mantén presionado ambos botones de menú mientras carga el avatar en el mundo
 |Cambiar localmente tu avatar al robot de error (útil cuando tu avatar causa bloqueos o evita que uses tu menú)
 |}
+</div>
 
 <div class="mw-translate-fuzzy">
 ====Seguimiento de manos====
@@ -178,7 +192,9 @@ Para '''recoger objetos del mundo''', acércate a ellos y cierra el puño. Tambi
 Los controles de seguimiento de dedos se pueden ver en la pestaña "Controles" del [[Special:MyLanguage/Main Menu|Menú principal]], mientras el seguimiento de dedos esté activado.
 
 <span id="Desktop"></span>
+<div class="mw-translate-fuzzy">
 ===Escritorio===
+</div>
 
 Puedes jugar a VRChat utilizando un teclado y un ratón/mouse.
 
@@ -429,7 +445,7 @@ El movimiento se controla mediante la configuración estándar de FPS "WASD". El
 |Shift + F3*
 |Hand gesture - Open Hand
 |-
-|Shift + F4* 
+|Shift + F4*
 |Hand gesture - Point
 |-
 |Shift + F5*
@@ -518,10 +534,10 @@ El movimiento se controla mediante la configuración estándar de FPS "WASD". El
 |RShift + Backtick + 8<sup>†</sup>
 |Toggles visibility of "Network Object Info" overlay
 |-
-|RShift + Backtick + 9<sup>†</sup> 
+|RShift + Backtick + 9<sup>†</sup>
 |Toggles visibility of "Player Info" overlay
 |-
-|RShift + Backtick + 0<sup>†</sup> 
+|RShift + Backtick + 0<sup>†</sup>
 |Toggles visibility of "VRC_UIShapes" overlay
 |}
 </div>
@@ -531,7 +547,9 @@ El movimiento se controla mediante la configuración estándar de FPS "WASD". El
 <sup>†</sup> En un teclado QWERTY estándar de EE.UU., «backtick» (acento grave) es la tecla de la parte superior izquierda, al lado de la tecla <code>1</code>. Comparte tecla con el carácter tilde (<code>~</code>). En un teclado español el acento grave está colocado en la tecla a la derecha de la letra P (<code>`</code>), mientras que el carácter (<code>~</code>) está en el número 4. Y en un teclado latinoamericano (<code>`</code>) se sitúa a la izquierda de la tecla "enter" junto con (<code>+</code>) y (<code>*</code>), mientras que el carácter (<code>~</code>) está justo debajo, compartido con el cierre de llave y cierre de corchete.
 
 <span id="Mobile"></span>
+<div class="mw-translate-fuzzy">
 ===Teléfonos===
+</div>
 
 En la parte izquierda de la pantalla hay un joystick virtual que moverá tu avatar. Tocando y arrastrando en la pantalla moverás tu punto de vista. Si mantienes pulsado dos veces en cualquier lugar de la pantalla, podrás caminar y mover tu punto de vista simultáneamente.
 
@@ -542,10 +560,13 @@ Si pulsas sobre otro usuario o sobre un [[Special:MyLanguage/portals|portal]], a
 </div>
 
 <span id="Gamepad"></span>
+<div class="mw-translate-fuzzy">
 ===Mandos externos===
+</div>
 
 Puedes jugar a VRChat utilizando un mando externo en PC y teléfonos.
 
+<div class="mw-translate-fuzzy">
 Los mandos compatibles más comunes son los de Xbox, los de PlayStation y los de Nintendo Switch. La siguiente tabla utiliza el diseño del mando de "Xbox" como referencia.
 {| class="wikitable"
 !Botones (Basado en el mando de Xbox) 
@@ -576,7 +597,9 @@ Los mandos compatibles más comunes son los de Xbox, los de PlayStation y los de
 |Rota el objeto sostenido
 |-
 |RB (Manteniendo) + Joystick izquierdo
+</div>
 
+<div class="mw-translate-fuzzy">
 |Selecciona el gesto de la mano izquierda (Disponible solo en Steam)
 |-
 |RB (Manteniendo) + Joystick Derecho
@@ -612,16 +635,19 @@ Los mandos compatibles más comunes son los de Xbox, los de PlayStation y los de
 |B (En el Menú)
 |Cierra menú
 |}
+</div>
 
 <span id="Resources"></span>
+<div class="mw-translate-fuzzy">
 ==Recursos==
+</div>
 
 *[https://www.youtube.com/watch?v=F0I2Ec4JsrE «Quest 2 Seguimiento de dedos»] de VRChat en ''YouTube''
 *[https://docs.vrchat.com/docs/vrchat-202241 «VRChat 2022.4.1»] sobre el seguimiento de manos
 *[https://www.youtube.com/watch?v=oopovk3BPaw "Guía para principiantes sobre el seguimiento de manos y dedos en VRChat"] de VRChat en ''YouTube''
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Navigation==
+== Navigation ==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
