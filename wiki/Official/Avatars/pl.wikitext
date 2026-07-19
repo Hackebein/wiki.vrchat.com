@@ -19,15 +19,17 @@ Możliwe jest sklonowanie awatara bezpośrednio od innego użytkownika. Ta funkc
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-=== Cloning===
+=== Cloning ===
 [[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, "Clone Avatar" and "Favorite Avatar" buttons found under "User Actions" section.]]
 Users have the option to clone avatars directly from other users. This feature allows users to adopt the same avatar they see another user using by selecting the user and utilizing the "Clone Avatar" button within the [[Special:MyLanguage/Quick Menu|Quick Menu]]. If this option is unavailable, it indicates that the other user has disabled the cloning feature, or is using an avatar marked as private.
 </div>
 
 Aby wyłączyć możliwość klonowania awatarów, użytkownik może przejść do [[Special:MyLanguage/Settings|Ustawień]] w Menu Głównym, następnie zakładki '''Awatary''' i wyłączyć opcję '''Zezwalaj na klonowanie awatara'''.
 
+<div class="mw-translate-fuzzy">
 ===Piedestały i światy z awatarami===
-Awatary można również znaleźć na piedestałach awatarów. Zazwyczaj znajdują się one na światach w kategorii "Światy z awatarami". Piedestały te wyświetlają podglądy awatarów, które użytkownicy mogą kliknąć, aby je sklonować. 
+Awatary można również znaleźć na piedestałach awatarów. Zazwyczaj znajdują się one na światach w kategorii "Światy z awatarami". Piedestały te wyświetlają podglądy awatarów, które użytkownicy mogą kliknąć, aby je sklonować.
+</div>
 
 <div class="mw-translate-fuzzy">
 ==Ulubione==
@@ -38,8 +40,10 @@ Użytkownicy mogą zapisywać awatary do listy ulubionych, aby zachować je na p
 Istnieje kilka sposobów na dodanie awatara do ulubionych. Jeśli korzystasz z awatara, który chcesz zapisać, przejdź do strony "Awatary" i kliknij przycisk "Do ulubionych" w prawym dolnym rogu, poniżej podglądu awatara. Jeśli chcesz zapisać awatar kogoś innego to wybierz użytkownika i naciśnij przycisk "Ulubiony awatar" w [[Special:MyLanguage/Quick Menu|Menu Szybkim]].
 </div>
 
+<div class="mw-translate-fuzzy">
 ==Kompatybilność z platformami==
 ''Zobacz także [[Special:MyLanguage/Platforms|Platformy]] po więcej informacji.''
+</div>
 
 Awatary przygotowywane są inaczej dla PC i platform mobilnych, głównie ze względu na ograniczenia urządzeń takich jak Meta (Oculus) Quest, Android i iOS. W związku z tym niektóre awatary mogą nie być widoczne lub używalne na wszystkich platformach. Szczegółowe informacje na temat tych ograniczeń można znaleźć w następujących zasobach:
 
@@ -52,8 +56,10 @@ Twórcy mogą skonfigurować awatar tak, aby był kompatybilny z wieloma platfor
 Awatar zastępczy użytkownika może zostać zmieniony w menu "Awatary".
 </div>
 
+<div class="mw-translate-fuzzy">
 ==Rangi wydajności==
-Awatary są klasyfikowane według progów wydajności. Począwszy od Bardzo Ciężkiego{{performance|verypoor|22}}, przez Ciężki{{performance|poor|22}}, Średni{{performance|medium|22}}, Dobry{{performance|good|22}}, po Świetny{{performance|excellent|22}}. Klasyfikacja ta pomaga użytkownikom zrozumieć wpływ wydajności ich awatarów na ogólne wrażenia z korzystania z VRChatu. Przykłady rzeczy, które wpływają na ranking wydajności awatara to: liczba wielokątów, materiałów, rozdzielczość tekstur, złożoność Animatora; oraz komponenty awatara, takie jak [[Special:MyLanguage/Physbones|PhysBones]] czy Constraints. 
+Awatary są klasyfikowane według progów wydajności. Począwszy od Bardzo Ciężkiego{{performance|verypoor|22}}, przez Ciężki{{performance|poor|22}}, Średni{{performance|medium|22}}, Dobry{{performance|good|22}}, po Świetny{{performance|excellent|22}}. Klasyfikacja ta pomaga użytkownikom zrozumieć wpływ wydajności ich awatarów na ogólne wrażenia z korzystania z VRChatu. Przykłady rzeczy, które wpływają na ranking wydajności awatara to: liczba wielokątów, materiałów, rozdzielczość tekstur, złożoność Animatora; oraz komponenty awatara, takie jak [[Special:MyLanguage/Physbones|PhysBones]] czy Constraints.
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On standalone VR & mobile platforms, a maximum of 4 Very Poor avatars can be shown at once.
@@ -79,7 +85,7 @@ Po przesłaniu awatara będzie można go znaleźć w sekcji "Przesłane" na liś
 Bardziej '''szczegółowy przewodnik''' o tym co można zrobić za pomocą SDK, jest dostępny w dokumentacji dla twórców na [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Creating Your First Avatar].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Trivia==
+== Trivia ==
 * Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
 </div>
 
