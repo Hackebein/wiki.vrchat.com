@@ -15,25 +15,34 @@ Al leer esta página se explicará fácilmente:
 Si no estás familiarizado con alguna [[Special:MyLanguage/Community:Terminology|terminología]] o tema, no dudes en hacer clic en cualquiera de los enlaces resaltados en azul que te llevan a otras páginas de la Wiki de VRChat.
 
 <span id="System_requirements_/_recommendations"></span>
+<div class="mw-translate-fuzzy">
 ==Requisitos / recomendaciones del sistema==
+</div>
 
 <span id="Standalone_devices"></span>
+<div class="mw-translate-fuzzy">
 ===Dispositivos Standalone===
+</div>
 
 <div class="mw-translate-fuzzy">
 VRChat se ejecuta en los siguientes visores standalone:
 </div>
 
 <span id="Mobile_devices"></span>
+<div class="mw-translate-fuzzy">
 ===Teléfonos===
+</div>
 
 VRChat se puede jugar en cualquier dispositivo Android 10 en adelante, o iOS 17.0 en adelante con al menos 6 GB de RAM en el sistema y que esté conectado por Wi-Fi o a redes 4G/5G.
 
 Cualquier dispositivo Android o iOS reciente de gama media o superior debería cumplir con estas especificaciones.
 
+<span id="Steam_Deck"></span>
+<div class="mw-translate-fuzzy">
 ===Steam Deck===
+</div>
 
-Las pruebas de Valve indican que VRChat está verificado en Steam Deck. Es totalmente funcional y funciona a la perfección con los controles y la pantalla integrados. 
+Las pruebas de Valve indican que VRChat está verificado en Steam Deck. Es totalmente funcional y funciona a la perfección con los controles y la pantalla integrados.
 
 *Se puede acceder a todas las funciones cuando se utiliza los ajustes por defecto del mando.
 *VRChat muestra los iconos de los mandos de Steam Deck.
@@ -41,34 +50,45 @@ Las pruebas de Valve indican que VRChat está verificado en Steam Deck. Es total
 *La configuración de gráficos predeterminada de VRChat funciona bien en el dispositivo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Linux===
+=== Linux ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 VRChat does not provide a native Linux client. It can be played on Linux, including the Steam Deck, through Valve's Proton compatibility layer. VRChat has stated that there are no concrete plans for a native Linux client.<ref name="devqa1may2026">[https://ask.vrchat.com/t/may-1-2026-developer-stream-q-a-summary/48386 "May 1 2026 Developer Stream Q&A Summary"] on ''[[ask.vrchat.com]]''. Posted May 5, 2026. Retrieved June 18, 2026.</ref>
 </div>
 
+<span id="PC"></span>
+<div class="mw-translate-fuzzy">
 ===PC===
+</div>
 
+<div class="mw-translate-fuzzy">
 Los requisitos mínimos<ref>Ayuda de VRChat, Requisitos del sistema, https://help.vrchat.com/hc/en-us/articles/1500002378722-System-Requirements</ref><ref>Steam Store, VRChat, https://store.steampowered.com/app/438100/VRChat/</ref> para jugar se basan en los requisitos mínimos de SteamVR<ref>Steam Store, SteamVR, https://store.steampowered.com/app/250820/SteamVR/</ref>.
+</div>
 
 Si quieres ver si tu PC es compatible con VRChat, puedes comparar las especificaciones de tu PC con los requisitos mínimos listados abajo.
 
+<div class="mw-translate-fuzzy">
 * '''CPU:''' Intel® i5-4590 o AMD FX 8350 o equivalente
 * '''Memoria:''' 4 GB
 * '''GPU:''' NVIDIA GeForce® GTX 970 o AMD Radeon™ R9 290 o equivalente
 * '''Espacio en disco:''' 31,5 GB de almacenamiento (~1,5 GB para la aplicación<ref>SteamDB, VRChat, Depot https://steamdb.info/depot/438101/</ref>, tamaño mínimo de caché de 30 GB)
 * '''Conexión a Internet:''' requerida (velocidad de descarga recomendada de 25 Mbps o más)
 * '''SO:''' Windows 10, Windows 11
+</div>
 
 Estos son los requisitos <u>mínimos absolutos</u> para ejecutar VRChat en  escritorio y en modo RV. Aunque la aplicación se ejecutará, es posible que experimentes problemas de rendimiento. VRChat tiene mucho contenido creado por el usuario, algunos [[Special:MyLanguage/Avatars|avatares]] y [[Special:MyLanguage/Worlds|mundos]] pueden hacer que tu rendimiento disminuya más de lo que esperarías de un juego típico. Se recomienda que ajustes tu [[Special:MyLanguage/Safety|configuración de seguridad]] para obtener una mejor experiencia.
 
 VRChat se beneficia de grandes cachés que se pueden encontrar en la serie de CPU AMD X3D. En cuanto a la GPU, seleccionar tarjetas que tengan más V-RAM te dará una experiencia de alto rendimiento. Sin embargo, en ciertos casos (incluida la realidad virtual), se recomienda principalmente que elijas una tarjeta que tenga un mejor rendimiento en general.
 
+<div class="mw-translate-fuzzy">
 ===PC (En nube)===
 ====GeForce NOW====
+</div>
 
+<div class="mw-translate-fuzzy">
 VRChat está disponible a través de [https://www.nvidia.com/en-us/geforce-now/ GeForce NOW]<ref>Anuncio en X: https://x.com/VRChat/status/1854237896707899862</ref>
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Shadow PC ====
@@ -79,25 +99,35 @@ VRChat uses Easy Anti-Cheat (EAC), which is provided by Epic Games. As of 2026, 
 </div>
 
 <span id="Installing_VRChat"></span>
+<div class="mw-translate-fuzzy">
 ==Instalar VRChat==
+</div>
 
+<div class="mw-translate-fuzzy">
 ===en Meta Quest===
 ''para Meta Quest 2, Meta Quest 3, Meta Quest 3S, Meta Quest Pro''
+</div>
 
 Busca '''VRChat''' en la tienda de Meta o instálalo desde la [https://www.meta.com/es-es/experiences/vrchat/1856672347794301/ página de Meta].
 
+<div class="mw-translate-fuzzy">
 ===en Pico===
 ''para Pico 4, Pico 4 Pro, Pico 4 Ultra''
+</div>
 
 Busca '''VRChat''' en la tienda Pico o instálalo desde la [https://store-global.picoxr.com/es/detail/1/7288745304105664518 página de la tienda de Pico].
 
+<div class="mw-translate-fuzzy">
 ===en Vive===
 ''para Vive XR Elite, Vive Focus Vision''
+</div>
 
 En la página de la tienda de Viveport, puedes buscar '''VRChat''' o hacer clic [https://www.viveport.com/apps/4b5187b8-004c-473c-9219-258c3ea8e255 aquí].
 
+<div class="mw-translate-fuzzy">
 ===en PC===
 Se recomienda instalar las [https://apps.microsoft.com/detail/9nmzlz57r3t7 extensiones de vídeo HEVC] para una mejor compatibilidad con la reproducción de vídeos.
+</div>
 
 <span id="Via_Steam"></span>
 ==== vía Steam ====
@@ -105,26 +135,36 @@ Se recomienda instalar las [https://apps.microsoft.com/detail/9nmzlz57r3t7 exten
 En la página de la tienda de Steam , puedes buscar '''VRChat''' o hacer clic [https://store.steampowered.com/app/438100/VRChat aquí].
 
 <span id="Via_Viveport"></span>
+<div class="mw-translate-fuzzy">
 ====vía Viveport====
+</div>
 
 En la página de la tienda de Viveport, puedes buscar '''VRChat''' o hacer clic [https://www.viveport.com/apps/469fbcbb-bfde-40b5-a7d4-381249d387cd/ aquí].
 
+<div class="mw-translate-fuzzy">
 ====vía Meta ====
 ''para Meta Rift, Meta Rift S''
+</div>
 
 Busca '''VRChat''' en la tienda de Meta o instálalo desde la [https://www.meta.com/experiences/pcvr/vrchat/997678176960598/ página de Meta].
 
 <span id="On_Android"></span>
+<div class="mw-translate-fuzzy">
 ===en Android===
+</div>
 
 Puedes buscar '''VRChat''' en Google Play Store o [https://play.google.com/store/apps/details?id=com.vrchat.mobile.playstore pulsar este enlace en tu dispositivo].
 
+<div class="mw-translate-fuzzy">
 ===en iOS===
 Puedes buscar '''VRChat''' en la App Store de iOs o iPadOS, o [https://apps.apple.com/app/vrchat/id6448578770 pulsar este enlace en tu telefóno].
 Para instalar y ejecutar la aplicación, necesitas un modelo de iPhone o iPad con iOS 17 o posterior con al menos 6 GB de RAM.
+</div>
 
 <span id="Account_creation"></span>
+<div class="mw-translate-fuzzy">
 ==Crear una cuenta==
+</div>
 
 [[File:Página_de_inicio_de_sesión_ES.webp|thumb|Imagen de la pantalla de inicio de sesión de VRChat]]
 {{Thumb|{{YouTube|gXTe3GhWebY|title=Sign-In Issues | Account Management|thumb=File:YTThumb_gXTe3GhWebY_SignIn.webp}}}}
@@ -134,7 +174,9 @@ Cuando inicies VRChat, aparecerá una pantalla de inicio de sesión. Tendrás op
 La creación de una cuenta de dispositivo a través de Steam, Meta, Google, Pico o VIVE solo otorgará acceso instantáneo a la aplicación de VRChat. También es posible [[Special:MyLanguage/Account Merging|fusionar cuentas]] si deseas generar una cuenta de dispositivo ahora y crear una cuenta de VRChat más tarde. Después de fusionar la cuenta de tu dispositivo con una cuenta de VRChat, si eliges iniciar sesión en la cuenta del dispositivo, se transferirán tus datos de inicio de sesión a la cuenta de VRChat.
 
 <span id="Learning_how_to_use_VRChat"></span>
+<div class="mw-translate-fuzzy">
 ==Aprender a usar VRChat==
+</div>
 
 Cuando inicies sesión en VRChat, comenzarás en un mundo de inicio privado. Aquí, podrás explorar a tu propio ritmo para aprender los [[Special:MyLanguage/Controls|controles]], ajustar los [[Special:MyLanguage/Settings|ajustes]], encontrar tu primer avatar e ir a tu próximo mundo. El mundo de inicio por defecto es la [[Special:MyLanguage/VRChat Home|casa de VRChat]], un lugar acogedor para comenzar tu sesión. Puedes elegir regresar a tu estancia casa en cualquier momento abriendo el menú rápido y eligiendo el mosaico '''Ir a casa'''.
 
@@ -142,6 +184,7 @@ Cuando te encuentras con otro usuario en VRChat, puedes abrir tu [[Special:MyLan
 
 En el Menú rápido también hay una pestaña que muestra la lista de jugadores actuales en la instancia: la pestaña '''Aquí'''. Al hacer clic en el nombre de uno de los usuarios de la lista, puedes: leer su biografía, solicitar que te agreguen como amigo, cambiar el volumen de su micrófono, silenciarlo, ocultar su avatar, [[Special:MyLanguage/Avatars#Cloning|clonar]] su avatar si está disponible para ello o bloquearlo.
 
+<div class="mw-translate-fuzzy">
 == Cambiar el idioma de la interfaz de usuario ==
 Si VRChat está configurado en un idioma que no entiendes, puedes usar el siguiente proceso para cambiarlo:
 *Los iconos se pueden usar para identificar en qué botón hacer clic.
@@ -150,9 +193,12 @@ File:Como_cambiar_el_idioma_de_la_interfaz_ES.webp|1. Abre el menú rápido y ha
 File:Como_cambiar_el_idioma_de_la_interfaz_2_ES.webp|2. Selecciona la categoría '''entre los símbolos del espejo y los controles''' para ir a la categoría "Interfaz de usuario" y haz clic en el botón '''resaltado por el círculo amarillo'''.
 File:Como_cambiar_el_idioma_de_la_interfaz_3_ES.webp|3. Selecciona '''Español''' o tu '''idioma preferido'''.
 </gallery>También puedes cambiar tus ajustes de idioma en la '''pantalla de inicio de sesión'''.
+</div>
 
 <span id="Community_resources"></span>
+<div class="mw-translate-fuzzy">
 ==Recursos de la comunidad==
+</div>
 
 
 {{Noticebox/Community}}
@@ -163,8 +209,10 @@ Nuestra comunidad ha creado muchas guías excelentes para comenzar a usar VRChat
 
 * [https://spritesanddice.com/features/vrchat-survival-pack/ La guía de supervivencia de VRChat], por Adam Factor: un resumen de VRChat, visores recomendados y un "paquete de inicio" de comunidades de VRChat en las que participar.
 
+<div class="mw-translate-fuzzy">
 === Videos ===
-Gracias a PHIA y al equipo de [[Community:The Virtual Reality Show|The Virtual Reality Show]] por crear los videos a continuación. 
+Gracias a PHIA y al equipo de [[Community:The Virtual Reality Show|The Virtual Reality Show]] por crear los videos a continuación.
+</div>
 
 *[https://www.youtube.com/watch?v=Bm8quWg_wig <nowiki>GUÍA PARA PRINCIPIANTES DE VRCHAT [2024] - ¡Introducción para nuevos jugadores!</nowiki>] - Esta guía es una excelente introducción sobre cómo comenzar a usar VRChat.
 
@@ -177,12 +225,16 @@ Gracias a PHIA y al equipo de [[Community:The Virtual Reality Show|The Virtual R
 *[https://www.youtube.com/watch?v=QSyS4HSaFPA Guía completa de VRChat de la A a la Z de Derafrog]: ofrece un vídeo completo sobre muchas partes de VRChat.
 
 <span id="Official_resources"></span>
+<div class="mw-translate-fuzzy">
 ==Recursos oficiales==
+</div>
 
 *{{VRC link|https://vrch.at/getting-started | Primeros pasos}} en ''help.vrchat.com''
 
+<div class="mw-translate-fuzzy">
 ==Referencias==
 {{Reflist}}
+</div>
 
 
 {{Start-navbox}}
