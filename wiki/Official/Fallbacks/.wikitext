@@ -14,11 +14,11 @@
 
 '''Fallbacks''', or fallback [[Special:MyLanguage/Avatars|avatars]], are optimized avatars that serve as a placeholder<ref>[https://medium.com/vrchat/vrchat-on-quest-avatar-performance-woes-1a3cc228a442 "VRChat on Quest: Avatar Performance Woes"] on ''[https://medium.com/vrchat Medium]''. Dated March 18, 2021. Retrieved September 16, 2021.</ref> for when the user can't see another user's original avatar, such as when users are on different [[Special:MyLanguage/Platforms|platforms]]. Fallbacks were introduced to VRChat, with the 2021.1.5<ref>[https://docs.vrchat.com/docs/vrchat-202115 "VRChat 2021.1.5"] on ''[[docs.vrchat.com]]''. Dated March 23, 2021. Retrieved September 16, 2025.</ref> update, on March 23, 2021.
 
-==Avatar Fallback System==
+== Avatar Fallback System ==
 [[File:Fallback system.webp|thumb|A VRChat graphic from 2021, describing the ability to select a Fallback avatar, to show users on Quest.]]
 The Avatar Fallback System ''(not to be confused with the [https://creators.vrchat.com/avatars/shader-fallback-system Shader Blocking and Fallback System])'' is a way for users to select which fallback avatar is shown to others when they aren't able to see a user's original avatar. It is also indicated as an icon on the nameplate, letting users know that they're viewing a fallback and why.
 
-===Identifying fallbacks===
+=== Identifying fallbacks ===
 Fallbacks can be identified when viewing another user's fallback by viewing their nameplate. Fallbacks are indicated with a blue feather icon.
 
 ==== Fallback types ====
@@ -68,22 +68,22 @@ There is another icon that can appear, the grey shield icon ([[File:Perf SafetyB
 |The user's avatar is loading. Either if the avatar is still downloading or initializing.
 |}
 
-===Choosing a fallback===
+=== Choosing a fallback ===
 To choose a fallback avatar, open the avatar page on the VRChat website, then select "Use as Fallback" under the Manage Avatar section.
 
 There are 2 options for choosing a fallback:
 
-*Uploading a custom avatar as a fallback.
-*Using avatars from the [[Special:MyLanguage/Public Avatars|Public avatar]] row as a fallback.
+* Uploading a custom avatar as a fallback.
+* Using avatars from the [[Special:MyLanguage/Public Avatars|Public avatar]] row as a fallback.
 
-====Custom fallbacks====
+==== Custom fallbacks ====
 Users can upload their own custom fallback avatar. There are some requirements in order to upload and use a custom fallback:
 
-*Be built for all available platforms.
-*Performance rank must be Good{{performance|good|22}} or better on the respective platform.
-*Have the Fallback flag set from the Android upload.
+* Be built for all available platforms.
+* Performance rank must be Good{{performance|good|22}} or better on the respective platform.
+* Have the Fallback flag set from the Android upload.
 
-==Deprecation==
+== Deprecation ==
 With the release of [https://docs.vrchat.com/docs/vrchat-202522 2025.2.2], VRChat mentioned in the release notes that Fallbacks are being deprecated, cited with the following reason:
 <blockquote>
 ''Fallbacks are being deprecated slowly over time in favor of impostors....''</blockquote>
