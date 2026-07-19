@@ -1,7 +1,7 @@
 <languages/>
 {{Noticebox/Official}}
 [[File:Mirrors.webp|thumb|Un groupe de personnes socialisant devant un miroir.]]
-Les '''miroirs''' sont des surfaces réflectives qui permettent aux utilisateurs de voir une image réfléchie de leur avatar aux côtés d'autres utilisateurs ou du monde où ils se trouvent, dépendant des paramètres du monde. De nombreux mondes possèdent des miroirs ayant pour but de permettre aux utilisateurs de s'y asseoir tout en socialisant. Cette activité est plus communément appelée « Mirror Dwelling ». Les utilisateurs sont aussi en capacité d'utiliser un miroir personnel qui leur est uniquement visible. 
+Les '''miroirs''' sont des surfaces réflectives qui permettent aux utilisateurs de voir une image réfléchie de leur avatar aux côtés d'autres utilisateurs ou du monde où ils se trouvent, dépendant des paramètres du monde. De nombreux mondes possèdent des miroirs ayant pour but de permettre aux utilisateurs de s'y asseoir tout en socialisant. Cette activité est plus communément appelée « Mirror Dwelling ». Les utilisateurs sont aussi en capacité d'utiliser un miroir personnel qui leur est uniquement visible.
 
 === Types de miroirs ===
 [[File:Mirror actionmenu.webp|thumb|Une démonstration des boutons "Miroir personnel" et "Miroir facial" dans le menu d'action.]]
@@ -9,7 +9,7 @@ Les '''miroirs''' sont des surfaces réflectives qui permettent aux utilisateurs
 <span id="Personal_Mirror"></span>
 ==== Miroir personnel ====
 
-Un miroir personnel est un type de miroir pouvant être utilisé, déplacé et visible uniquement par son utilisateur. 
+Un miroir personnel est un type de miroir pouvant être utilisé, déplacé et visible uniquement par son utilisateur.
 
 Il peut être activé et modifié via la page du [[Special:MyLanguage/Action Menu|menu d'action]] ou du [[Special:MyLanguage/Main Menu|menu principal]].
 
@@ -63,7 +63,10 @@ Lorsqu’un utilisateur interagit avec un miroir dans un monde, il pourra active
 * Autrement, opter pour le miroir personnel.
 * Ajuster la résolution du miroir via les paramètres dans [[Special:MyLanguage/Settings#Graphics|Graphismes]]
 
+<span id="SDK"></span>
+<div class="mw-translate-fuzzy">
 ==SDK==
+</div>
 
 <span id="World_prefab"></span>
 === préfab de monde ===
@@ -77,7 +80,9 @@ Les créateurs de worlds qui utilisent des scripts dépendant du timing de rendu
 <span id="Resources"></span>
 == Ressources ==
 
-[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ Documentation des créateurs VRChat - VRC Mirror Reflection]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/ VRChat Creator Documentation - VRC Mirror Reflection]
+</div>
 
 
 [[Category:Features{{#translation:}}]]
