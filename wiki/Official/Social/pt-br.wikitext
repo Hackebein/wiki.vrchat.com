@@ -48,7 +48,10 @@ Eles precisam solicitar um convite seu para poderem participar, independentement
 
 Os [[wikipedia:Pronoun|pronomes]] podem ser exibidos na biografia de alguém para indicar aos outros como se referir a essa pessoa. Quando configurados, os pronomes serão exibidos na sua biografia e também abaixo da sua [[Special:MyLanguage/Nameplates|placa de identificação]].
 
+<span id="Bio"></span>
+<div class="mw-translate-fuzzy">
 ===Bio===
+</div>
 
 A bio (abreviação de biografia) é um parágrafo de texto escrito pelo usuário, geralmente usado para se descrever ou se apresentar, mas que pode ser utilizado para qualquer finalidade. A bio pode ter até 500 caracteres.
 
@@ -77,8 +80,8 @@ No perfil de um usuário, você pode realizar diversas ações, que variam depen
 |Enviar Convite<ref group="actions" name="friends-only"></ref>
 |Envia ao usuário um convite para entrar na sua instância. O convite inclui uma mensagem personalizável e, com [[Special:MyLanguage/VRC+|VRC+]], também é possível adicionar uma foto ao convite.
 |-
-|Boop<ref name="friends-only" group="actions" />
-|Sends the user a [[Boops|Boop]].
+|<span lang="en" dir="ltr" class="mw-content-ltr">Boop<ref name="friends-only" group="actions" /></span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Sends the user a [[Special:MyLanguage/Boops|Boop]].</span>
 |-
 |Presentear com VRC+
 |Abre um menu que permite comprar [[Special:MyLanguage/VRC+|VRC+]] para o usuário. ''Consulte [[Special:MyLanguage/VRC+#Gifting|Presenteando o VRC+]] para obter informações mais detalhadas.''
@@ -113,7 +116,9 @@ No perfil de um usuário, você pode realizar diversas ações, que variam depen
 <references group="actions"/>
 
 <span id="Uploaded_&amp;_favorited_worlds"></span>
+<div class="mw-translate-fuzzy">
 ===Mundos enviados & favoritos===
+</div>
 
 Abaixo de [[Special:MyLanguage/Social#Actions|ações]] você encontrará uma lista de mundos enviados pelo usuário, bem como quaisquer listas públicas de mundos favoritos. Estes podem ser classificados por data de criação, última atualização, nome e uso recente.
 
@@ -123,52 +128,70 @@ Abaixo de [[Special:MyLanguage/Social#Actions|ações]] você encontrará uma li
 Os perfis de usuário podem ser compartilhados usando o domínio de links curtos do VRChat <code>vrch.at</code>, combinado com o ID do usuário, por exemplo, <code><nowiki>https://vrch.at/<userId></nowiki></code>. Isso redireciona para o perfil do usuário no site do VRChat (<code><nowiki>https://vrchat.com/home/user/<userId></nowiki></code>).
 
 <span id="Social_menu"></span>
+<div class="mw-translate-fuzzy">
 ==Menu social==
+</div>
 
 [[File:Social Menu.webp|thumb|alt=Imagem da aba social do menu principal do VRChat.|A aba social do menu principal do VRChat.]]
 
 <span id="Friend_Locations"></span>
+<div class="mw-translate-fuzzy">
 ===Localização de Amigos===
+</div>
 
 "Localização de Amigos" inclui uma lista de amigos que estão com o status "Disponível" (verde) ou "Junte-se a Mim" (azul) e que estão em um mundo que dê para acessar como o Público, Amigos+, Amigos, Grupo Público ou Grupo+. Abaixo desses usuários disponíveis, você também verá uma lista de todos os amigos online em instâncias privadas.
 
 <span id="Group_Activity"></span>
+<div class="mw-translate-fuzzy">
 ===Atividade do Grupo===
+</div>
 
-'''Atividade do Grupo''' inclui uma lista de instâncias disponíveis de [[Special:MyLanguage/Groups|Grupo]], para os Grupos dos quais você participa. Ao criar uma instância de Grupo, Grupo+ ou Grupo Público, se você tiver essa permissão, fará com que ela apareça na guia Atividade do Grupo para os usuários desse grupo. 
+'''Atividade do Grupo''' inclui uma lista de instâncias disponíveis de [[Special:MyLanguage/Groups|Grupo]], para os Grupos dos quais você participa. Ao criar uma instância de Grupo, Grupo+ ou Grupo Público, se você tiver essa permissão, fará com que ela apareça na guia Atividade do Grupo para os usuários desse grupo.
 
 <span id="All_Friends"></span>
+<div class="mw-translate-fuzzy">
 ===Todos os Amigos===
+</div>
 
- 
 '''Todos os Amigos''' mostra a lista completa dos seus amigos que estão online no momento, incluindo aqueles com status "Pergunte-me" (laranja) ou "Não perturbe" (vermelho). Também mostra seus amigos ativos no site e aqueles que estão offline.
 
 <span id="In_Instance"></span>
+<div class="mw-translate-fuzzy">
 ===Na Instância===
+</div>
 
-'''Na Instância''' exibe todos os usuários presentes na instância em que você está; usuários que bloquearam você, mesmo estando na mesma instância, podem não aparecer nesta aba, a menos que você seja um Host ou um Moderador de Instância de [[Special:MyLanguage/Groups|Grupo]]. A aba "Aqui" no Menu Rápido funciona da mesma forma que esta página. 
+'''Na Instância''' exibe todos os usuários presentes na instância em que você está; usuários que bloquearam você, mesmo estando na mesma instância, podem não aparecer nesta aba, a menos que você seja um Host ou um Moderador de Instância de [[Special:MyLanguage/Groups|Grupo]]. A aba "Aqui" no Menu Rápido funciona da mesma forma que esta página.
 
 <span id="Favorite_Friends"></span>
+<div class="mw-translate-fuzzy">
 ===Amigos Favoritos===
+</div>
 
-As listas de '''Amigos Favoritos''' são compostas por três linhas de amigos que você escolheu como "Favoritos". Os mesmos podem ser colocado em uma das três fileiras. É possível renomear cada lista para facilitar a organização. 
+As listas de '''Amigos Favoritos''' são compostas por três linhas de amigos que você escolheu como "Favoritos". Os mesmos podem ser colocado em uma das três fileiras. É possível renomear cada lista para facilitar a organização.
 
 <span id="Recently_Seen"></span>
+<div class="mw-translate-fuzzy">
 ===Visto Recentemente===
+</div>
 
 Os usuários em '''Vistos recentemente''' são outros usuários que você encontrou nas instâncias. Nesta guia, é possível encontrar até os últimos 100 usuários vistos recentemente, ordenados do mais recente ao mais antigo.
 
 <span id="Blocked"></span>
+<div class="mw-translate-fuzzy">
 ===Bloqueado===
+</div>
 
 Usuários '''Bloqueados''' são outros usuários que você decidiu bloquear. Você pode clicar neles nesta aba e desbloqueá-los, se desejar.
 
 <span id="Friends"></span>
+<div class="mw-translate-fuzzy">
 ==Amigos==
+</div>
 
 {{Stub|Add quirks that have to do with friends and such.}}
 Amigos no VRChat são outros usuários em quem você confia. Funciona de forma muito semelhante a adicionar usuários como amigos em outras plataformas: você pode ver quando um usuário está online ou no site, enviar e receber convites deles, e adicionar notas nos mesmos. Os amigos dentro da sua instância terão seus nomes exibidos em amarelo, e também terão seu nível de confiabilidade em amarelo com um indicador (de Amigo).
 
+<div class="mw-translate-fuzzy">
 ==Mútuos==
 <!-- Do we want a feature infobox? -->
 {{Infobox/Feature
@@ -182,22 +205,27 @@ Amigos no VRChat são outros usuários em quem você confia. Funciona de forma m
 |branch_openbeta_version = 2025.4.2 Build 1761
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202542-openbeta 2025.4.2 Open Beta]
 }}
+</div>
 
-Mútuos é um recurso que permite ao usuário visualizar amigos ou grupos em comum com outros usuários. 
+Mútuos é um recurso que permite ao usuário visualizar amigos ou grupos em comum com outros usuários.
 
-Existem duas maneiras de ver os mutúos: no Menu Rápido ou no Menu Principal, com o botão "Visualizar X Mútuos". No Menu Rápido, o botão pode ser encontrado na parte superior das ações do usuário. No Menu Principal, o botão será encontrado no canto superior direito, ao lado do botão de denúncia. 
+Existem duas maneiras de ver os mutúos: no Menu Rápido ou no Menu Principal, com o botão "Visualizar X Mútuos". No Menu Rápido, o botão pode ser encontrado na parte superior das ações do usuário. No Menu Principal, o botão será encontrado no canto superior direito, ao lado do botão de denúncia.
 
 Se você deseja impedir que outros usuários vejam seus amigos e grupos em comum ou apareçam como tal para outras pessoas, você pode desativar a opção "Mostrar Conexões Mútuas" na seção "Conforto e Segurança" das suas configurações no Menu Principal. Ao fazer isso, o texto do botão mudará de "Mostrar X Mútuos" para "Nenhuma Mútuo Conhecido". Além disso, seu ícone de usuário será ocultado e seu nome de usuário aparecerá como "Mútuo Oculto" quando você aparecer nos mútuos de um de seus amigos.
 
 <span id="Discord_Friends"></span>
+<div class="mw-translate-fuzzy">
 ==Amigos do Discord==
+</div>
 
-Disponível na guia Socia, na seção "Todos os amigos", esse recurso permite que você veja seus amigos do Discord com seu status atual e realize diversas ações. Os amigos com uma conta do Discord vinculada terão um ícone do Discord exibido em seu perfil 
+Disponível na guia Socia, na seção "Todos os amigos", esse recurso permite que você veja seus amigos do Discord com seu status atual e realize diversas ações. Os amigos com uma conta do Discord vinculada terão um ícone do Discord exibido em seu perfil
 
 Se o seu amigo tiver vinculado a conta do Discord à conta do VRChat, você poderá convidá-lo para entrar na sua instância pelo Discord. Caso contrário, você poderá convidá-lo a criar uma conta no VRChat. Você ou seus amigos podem impedir que a conta do VRChat seja exibida na seção do Discord desativando a configuração "Permitir amigos do Discord" na seção "Conforto e segurança" nas configurações.
 
+<div class="mw-translate-fuzzy">
 ==Referências==
 <references/>
+</div>
 
 
 [[Category:User Interface{{#translation:}}]]
