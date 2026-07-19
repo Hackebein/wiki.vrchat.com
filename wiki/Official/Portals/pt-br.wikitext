@@ -5,7 +5,7 @@
 '''Portais''' são um método de viajar para diferentes [[Special:MyLanguage/Worlds|mundos]] e [[Special:MyLanguage/Instances|instâncias]]. Os portais podem estar presentes estaticamente nos mundos ou ser 'soltado' pelos usuários.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Behavior==
+== Behavior ==
 </div>
 
 <span id="Creating"></span>
@@ -50,21 +50,27 @@ Multiple portals overlapping in the same location ("portal stacking") is intenti
 Quando um portal está disponível, ele pode ser clicado, assim como outros usuários. Ao abrir o Menu Rápido, clicar na cápsula de um portal abrirá sua página do mundo e as informações da instância. Isso permite que você pré-carregue a instância do mundo em vez de entrar no portal, bem como navegar pelo tamanho do download do mundo ou adicioná-lo aos favoritos.
 
 <span id="Static_portals"></span>
+<div class="mw-translate-fuzzy">
 ==Portais estáticos==
+</div>
 
 Os portais podem aparecer pré-posicionados nos mundos, levando a outros mundos. Estes são chamados de "portais estáticos". Quando um usuário entra em um portal estático, o portal exibe um ID de instância recém-gerado. Em trinta segundos, qualquer usuário pode seguir para a instância desse portal. Os Portais Estáticos não desaparecem.
 
 <span id="Settings"></span>
+<div class="mw-translate-fuzzy">
 ==Configurações==
+</div>
 
-Há várias configurações disponíveis para personalizar os portais. Elas podem ser acessadas indo ao Menu Configurações e digitando '''''portal''''' na barra de pesquisa. 
+Há várias configurações disponíveis para personalizar os portais. Elas podem ser acessadas indo ao Menu Configurações e digitando '''''portal''''' na barra de pesquisa.
 
+<div class="mw-translate-fuzzy">
 *'''Solicitação de Portal''' - Alterna a exigência de confirmação de entrada por um controlador antes de entrar em um portal.
 *'''Modo Portal''' - Colocar manualmente, soltar na frente. 
 **'''Colocar manualmente''' permite que o usuário controle onde seu portal será colocado.
 **'''Soltar na frente''' faz com que o portal apareça instantaneamente na frente do usuário.
 *'''Mostrar Notificações do Portal''' - Notificações aparecerão no seu HUD quando um portal for colocado.
 *'''Mostrar Apenas Notificações de Amigos Entrando/Saindo/Portal''' - Esta opção restringirá as notificações do portal para mostrar apenas quando amigos colocarem um portal.
+</div>
 
 <span id="Cosmetics"></span>
 <div class="mw-translate-fuzzy">
@@ -268,19 +274,26 @@ Above is a part of the full description, although it probably doesn't need to be
 |<span lang="en" dir="ltr" class="mw-content-ltr">''"A mechanical portal designed with the "Ignition Point" theme of Vket 2026 Summer."''</span>
 |}
 
+<span id="SDK"></span>
+<div class="mw-translate-fuzzy">
 ==SDK==
+</div>
 
 Os autores de mundo podem adicionar portais ao seu mundo através do prefab [https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker] do [[Special:MyLanguage/VRChat SDK|SDK do VRChat]]. Ele está localizado em <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>. Ele permite um ID de mundo junto com um nome de portal personalizado opcional. Alternativamente, o Portal Marker pode apontar para o Hub Oficial do VRChat ou Mundo Inicial.
 
 Os scripts do VRC Portal Marker podem ser atualizados dinamicamente através do [[Special:MyLanguage/Udon|Udon]].
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==Veja também==
+</div>
 
 * [[Special:MyLanguage/Loading Screens|Telas de Carregamento]]
 * [[Special:MyLanguage/Worlds|Mundos]]
 
+<div class="mw-translate-fuzzy">
 ==Navegação==
 {{Navbox/Inventory}}
+</div>
 
 [[Category:Features{{#translation:}}]]
