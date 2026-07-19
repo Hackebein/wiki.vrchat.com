@@ -1,7 +1,6 @@
 <languages/>
 {{Noticebox/Official}}
 [[File:Action_Menu_Expressions.png|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">An example of Expressions menu in the Action Menu.</span>]]
- 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 '''Expressions''' are a feature of VRChat [[Special:MyLanguage/avatars|avatars]], consisting of user-customized menus that let you enable actions or toggles on your avatar; designed for flexible, easy access to unique avatar features.
 </div>
@@ -11,21 +10,27 @@ More information is available at {{VRC link|https://creators.vrchat.com/avatars/
 </div>
 
 <span id="Expressions_menu"></span>
+<div class="mw-translate-fuzzy">
 ==Menu ekspresji==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The in-game Expressions menu is accessible through the [[Special:MyLanguage/Action Menu|Action Menu]], or the Expressions wing on the [[Special:MyLanguage/Quick Menu|Quick Menu]] and [[Special:MyLanguage/Main Menu|Main Menu]]. in any version of VRChat. Changes to an avatar's expressions are networked globally to other users on the same [[Special:MyLanguage/Platforms|platform]], and can be set-up for cross-platform [[Special:MyLanguage/Guides:Synchronization|synchronization]].
 </div>
 
 <span id="Expressions_in_the_SDK"></span>
+<div class="mw-translate-fuzzy">
 ==Ekspresje w SDK==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Expressions are edited using various parameters in the [[Special:MyLanguage/VRChat SDK|VRChat SDK]].
 </div>
 
 <span id="Base_expressions"></span>
+<div class="mw-translate-fuzzy">
 ===Bazowe ekspresje===
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 When no expressions are configured, a default expression menu with base animations is added to the avatar, containing the following animations:
@@ -40,7 +45,9 @@ When no expressions are configured, a default expression menu with base animatio
 </div>
 
 <span id="Custom_expressions"></span>
+<div class="mw-translate-fuzzy">
 ===Własne ekspresje===
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 To add custom expressions, create an '''Expression Menu''' asset and an '''Expression Parameters''' asset in Unity, then assign them in the ''Expressions'' section of the VRChat Avatar Descriptor. The menu defines which controls appear in the in-game menu, while the parameters asset defines the names, types, default values, and synchronization behavior of the values those controls change.
@@ -55,7 +62,7 @@ The SDK also includes a ''Default Parameters'' button. This restores the three a
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-====Controls====
+==== Controls ====
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -69,7 +76,7 @@ You can create up to 8 controls per page. When creating a control, choose its ty
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-=====Puppet Menu Example=====
+===== Puppet Menu Example =====
 </div>
 
 [[File:PuppetMenu.gif|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">Example of the Action Menu and Face Mirror in use. ''(Animated GIF)''</span>]]
@@ -86,7 +93,9 @@ When a puppet control is open, VRChat synchronizes its live values with the fast
 </div>
 
 <span id="Expression_Parameter"></span>
+<div class="mw-translate-fuzzy">
 ==Parametry ekspresji ==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Expression Parameters are used to control avatar features via expression menu, [[Special:MyLanguage/Contacts|contact receiver]], [[Special:MyLanguage/Open Sound Control|OSC]], [[Special:MyLanguage/parameter drivers|parameter drivers]] or [[Special:MyLanguage/physbones|physbones]]. These parameters are then mapped to Animator Controller parameters in your avatar's FX, Gesture, or Action controllers.
@@ -107,7 +116,7 @@ Each entry in the Expression Parameters asset stores:
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 By default, custom parameter sync uses VRChat's ''Playable'' sync mode. Puppet controls temporarily use faster ''IK'' sync while they are actively open.
-</div> 
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Built-in parameters ===
@@ -167,7 +176,7 @@ On tracked controllers where finger tracking overrides animation by default, cre
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-== Expression Parameter Mismatching==
+== Expression Parameter Mismatching ==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -179,7 +188,7 @@ Unity's Animator system uses floats on the backend for all parameter types, whil
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Expression Parameter Bool===
+=== Expression Parameter Bool ===
 </div>
 {| class="wikitable"
 |+<span lang="en" dir="ltr" class="mw-content-ltr">Animator Controller Parameter</span>
@@ -200,7 +209,7 @@ Unity's Animator system uses floats on the backend for all parameter types, whil
 |Float = 1.0
 |}
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Expression Parameter Int===
+=== Expression Parameter Int ===
 </div>
 {| class="wikitable"
 |+<span lang="en" dir="ltr" class="mw-content-ltr">Animator Controller Parameter</span>
@@ -217,7 +226,7 @@ Unity's Animator system uses floats on the backend for all parameter types, whil
 |<span lang="en" dir="ltr" class="mw-content-ltr">Straight Conversion: e.g. Int = 2 → Float = 2.0</span>
 |}
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Expression Parameter Float===
+=== Expression Parameter Float ===
 </div>
 {| class="wikitable"
 |+<span lang="en" dir="ltr" class="mw-content-ltr">Animator Controller Parameter</span>
@@ -234,7 +243,9 @@ Unity's Animator system uses floats on the backend for all parameter types, whil
 |<span lang="en" dir="ltr" class="mw-content-ltr">Expected Behaviour</span>
 |}
 <span id="Resources"></span>
+<div class="mw-translate-fuzzy">
 ==Linki==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 *{{VRC link|https://vrchat.com/home/world/wrld_6168d07b-f55c-40bc-8077-749dde39983c|Avatar 3.0 Hub}} world on VRChat
@@ -246,7 +257,9 @@ Unity's Animator system uses floats on the backend for all parameter types, whil
 </div>
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==Zobacz też==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 *[[Special:MyLanguage/Avatars|Avatars]]
@@ -256,7 +269,9 @@ Unity's Animator system uses floats on the backend for all parameter types, whil
 </div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==Przypisy==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 * [https://vrc.school/docs/Avatars/Expressions-Menu-Params VRC School: Expressions Menu and Parameters]
