@@ -10,22 +10,30 @@ VRChat mantiene una lista destacada de [[Special:MyLanguage/Public Avatars|avata
 
 Una vez que encuentres un avatar que quieras usar, selecciónalo y confirma pulsando el botón "Aplicar".
 
+<div class="mw-translate-fuzzy">
 === Clonar ===
 [[File:Clonar_avatares_publicos_ES.webp|thumb|right|Menú rápido con un usuario seleccionado. Los botones "Clonar Avatar" y "Añadir a favoritos" se encuentran debajo de la sección de "Acciones del usuario".]]
 Los usuarios tienen la opción de clonar avatares directamente a partir de otros usuarios. Esta característica les permite utilizar el mismo avatar que ven en otro usuario seleccionando el usuario y utilizando el botón "Clonar Avatar" dentro del [[Special:MyLanguage/Quick Menu|menú rápido]]. Si esta opción no está disponible, significa que el otro usuario ha desactivado la característica de clonación o está usando un avatar marcado como privado.
+</div>
 
 Para deshabilitar la clonación de avatares uno puede ir a [[Special:MyLanguage/Settings|ajustes]] en el Menú principal, hacer clic en la pestaña '''Avatares''' y desactivar '''Permitir la clonación de avatares'''.
 
+<div class="mw-translate-fuzzy">
 === Pedestales y mundos de avatares ===
-Los avatares también pueden encontrarse en pedestales de avatar. Suelen estar ubicados en mundos de la categoría "Mundos de avatares". Esos pedestales muestran una previa de los avatares, con el que los usuarios pueden interactuar para clonarlos. 
+Los avatares también pueden encontrarse en pedestales de avatar. Suelen estar ubicados en mundos de la categoría "Mundos de avatares". Esos pedestales muestran una previa de los avatares, con el que los usuarios pueden interactuar para clonarlos.
+</div>
 
+<div class="mw-translate-fuzzy">
 === Agregar avatares a la sección "Favoritos" ===
 Los usuarios pueden guardar sus avatares en la sección "Favoritos" para usarlos más tarde. Los avatares que añadan a Favoritos aparecerán en la lista "Favoritos" en su página de avatares. Por defecto, los avatares que se añadan como favoritos aparecen en una sola lista que guarda un máximo de 50 avatares. Esta cantidad se puede mejorar para permitir guardar hasta 300 avatares (Subdivididos en 6 listas con capacidad de 50 cada una), lo cual requiere de una "Suscripción Activa" llamada [[Special:MyLanguage/VRC+|VRC+ (VRChat Plus)]].
+</div>
 
 Hay varias maneras para marcar un avatar como favorito. Si estás usando el avatar que deseas marcar como favorito, ve a la página de avatares y haz clic en el botón "Añadir a favoritos" en la esquina inferior derecha, debajo de la vista previa del avatar. Si otra persona está usando el avatar que deseas marcar como favorito, selecciona el usuario y presiona el botón "Añadir a favoritos" en el [[Special:MyLanguage/Quick Menu|Menú rápido]].
 
+<div class="mw-translate-fuzzy">
 ==Compatibilidad entre plataformas==
 ''Consulta [[Special:MyLanguage/Platforms|Plataformas]] para obtener información más detallada.''
+</div>
 
 Los avatares de VRChat están diseñados de manera diferente para plataformas de ordenador y móvil, principalmente debido a las limitaciones de dispositivos tales como los sistemas de Meta (Oculus) Quest, Android y iOS. Como resultado, algunos avatares pueden no ser visibles o utilizables en todos los dispositivos. Puedes obtener información más detallada en los siguientes recursos:
 
@@ -36,15 +44,19 @@ Los creadores pueden configurar un avatar para que sea compatible con múltiples
 
 El avatar sustituto del usuario puede cambiarse en la página web de VRChat.
 
+<div class="mw-translate-fuzzy">
 ==Clasificación de rendimiento==
-Los avatares se clasifican según umbrales de rendimiento que van desde Muy Pobre{{performance|verypoor|22}}, Pobre{{performance|poor|22}}, Medio{{performance|medium|22}}, Bueno{{performance|good|22}}, hasta Excelente{{performance|excellent|22}}. Esta clasificación ayuda a los usuarios a entender el impacto del rendimiento de sus avatares en la experiencia general de VRChat. Entre los factores que influyen en la clasificación del rendimiento del avatar se incluyen el recuento de polígonos de la malla, el número de materiales, la resolución de la textura, la complejidad de la animación; y los componentes del avatar, como los [[Special:MyLanguage/Physbones|PhysBones (huesos físicos)]] o las restricciones 
+Los avatares se clasifican según umbrales de rendimiento que van desde Muy Pobre{{performance|verypoor|22}}, Pobre{{performance|poor|22}}, Medio{{performance|medium|22}}, Bueno{{performance|good|22}}, hasta Excelente{{performance|excellent|22}}. Esta clasificación ayuda a los usuarios a entender el impacto del rendimiento de sus avatares en la experiencia general de VRChat. Entre los factores que influyen en la clasificación del rendimiento del avatar se incluyen el recuento de polígonos de la malla, el número de materiales, la resolución de la textura, la complejidad de la animación; y los componentes del avatar, como los [[Special:MyLanguage/Physbones|PhysBones (huesos físicos)]] o las restricciones
+</div>
 
 En RV standalone y en plataformas telefónicas, se pueden mostrar un máximo de 4 avatares con rendimiento "Muy pobre" a la vez.
 
 Puedes encontrar más detalles en la documentación oficial en el [https://creators.vrchat.com/avatars/avatar-performance-ranking-system/ sistema de clasificación del rendimiento de los avatares].
 
+<div class="mw-translate-fuzzy">
 ==Crear y subir==
 Los usuarios pueden ampliar su experiencia en VRChat creando y subiendo un avatar personalizado, siempre que cumplan con los [[Special:MyLanguage/Terms of Service|términos de servicio]] de VRChat. Para subir un avatar, los usuarios deben tener el [[Special:MyLanguage/Trust Rank|rango]] de "Nuevo usuario" y obtener las herramientas necesarias, tales como la versión recomendada de Unity y el [[Special:MyLanguage/VRChat SDK|SDK de VRChat]].
+</div>
 
 Cuando un avatar tiene versiones para PC y Android, los creadores pueden subir ambas variantes con la misma ID de plano para que la misma entrada del avatar funcione en todas las plataformas.
 
@@ -54,8 +66,10 @@ Una vez que hayas subido el avatar, deberías poder encontrarlo en la sección d
 
 Una '''guía más detallada''' sobre lo que puedes hacer con el SDK está disponible en la documentación de "Creators" en: [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Crear tu primer avatar].
 
+<div class="mw-translate-fuzzy">
 ==Curiosidades==
 * Antes de 2019, solo se podían añadir 25 avatares a una lista de avatares favoritos. Además, una suscripción a VRC+ solo desbloqueaba 2 listas adicionales, haciendo un total de 3.
+</div>
 
 <span id="Official_resources"></span>
 == Recursos oficiales ==
