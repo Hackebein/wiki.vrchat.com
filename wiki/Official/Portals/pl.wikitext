@@ -5,7 +5,7 @@
 '''Portale''' służą jako metoda podróżowania do innych [[Special:MyLanguage/Worlds|światów]] i [[Special:MyLanguage/Instances|instancji]]. Portale mogą znajdować się na światach lub być "stawiane" przez użytkowników.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Behavior==
+== Behavior ==
 </div>
 
 <span id="Creating"></span>
@@ -64,22 +64,26 @@ When a portal is available, they can be clicked on, like other users. By opening
 </div>
 
 <span id="Static_portals"></span>
+<div class="mw-translate-fuzzy">
 ==Statyczne portale==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Portals may appear pre-placed in worlds, leading to other worlds. These are called "static portals". When a user walks into a static portal, the portal will display a newly generated instance ID. Within thirty seconds, any user may follow into that portal's instance. Static Portals do not disappear.
 </div>
 
 <span id="Settings"></span>
+<div class="mw-translate-fuzzy">
 == Ustawienia==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 A variety of settings are available to customize portals. These can be accessed by going to the Settings Menu and typing '''''portal''''' in the Search bar.
-</div> 
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 *'''Portal Prompt''' - Toggles the requirement for input confirmation from a controller before entering a portal.
-*'''Portal Mode''' - Place Manually, Drop in Front. 
+*'''Portal Mode''' - Place Manually, Drop in Front.
 **'''Place Manually''' lets a user control where their portal is dropped.
 **'''Drop In Front''' causes the portal to instantaneously spawn in front of the user.
 *'''Show Portal Notifications''' - Notifications will appear on your HUD when a portal is dropped.
@@ -225,7 +229,10 @@ Above is a part of the full description, although it probably doesn't need to be
 |<span lang="en" dir="ltr" class="mw-content-ltr">''"A mechanical portal designed with the "Ignition Point" theme of Vket 2026 Summer."''</span>
 |}
 
+<span id="SDK"></span>
+<div class="mw-translate-fuzzy">
 ==SDK==
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 World authors can add portals to their world via the [https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker] prefab from the [[Special:MyLanguage/VRChat SDK|VRChat SDK]]. It is located in <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>. It allows a world ID along with an optional custom portal name. Alternatively, the Portal Marker may point to the official VRChat Hub or Home World instead.
@@ -236,13 +243,15 @@ VRC Portal Marker scripts can be updated dynamically through [[Special:MyLanguag
 </div>
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==Zobacz też==
+</div>
 
 * [[Special:MyLanguage/Loading Screens|Ekrany ładowania]]
 * [[Special:MyLanguage/Worlds|Światy]]
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Navigation==
+== Navigation ==
 {{Navbox/Inventory}}
 </div>
 
