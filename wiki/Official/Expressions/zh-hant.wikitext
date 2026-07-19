@@ -1,23 +1,28 @@
 <languages/>
 {{Noticebox/Official}}
 [[File:Action_Menu_Expressions.png|thumb|動作選單中的表情選單範例。]]
- 
 「'''表情'''」（'''Expressions'''），是在 VRChat 中的[[Special:MyLanguage/avatars|角色（Avatar）]]功能之一，其由用戶自訂的選單所組成，可讓用戶在角色上啟用各種動作或切換功能，旨在以靈活且方便的方式快速存取角色的獨特功能。
 
 更多資訊請參閱{{VRC link|https://creators.vrchat.com/avatars/expression-menu-and-controls|關於角色的創作者文件}}。
 
 <span id="Expressions_menu"></span>
+<div class="mw-translate-fuzzy">
 ==表情選單==
+</div>
 
 遊戲內的表情選單，可透過[[Special:MyLanguage/Action Menu|動作選單（Action Menu）]]存取，也可透過[[Special:MyLanguage/Quick Menu|快速選單（Quick Menu）]]與[[Special:MyLanguage/Main Menu|主選單（Main Menu）]]中的表情標籤頁存取。這種操作方式適用於所有平台的 VRChat。角色表情的變化會同步給同一[[Special:MyLanguage/Platforms|平台]]上的其他用戶，並可設定跨平臺[[Special:MyLanguage/Guides:Synchronization|同步]]。
 
 <span id="Expressions_in_the_SDK"></span>
+<div class="mw-translate-fuzzy">
 ==SDK 中的表情==
+</div>
 
 表情功能可透過 [[Special:MyLanguage/VRChat SDK|VRChat SDK]] 中的各種參數進行編輯。
 
 <span id="Base_expressions"></span>
+<div class="mw-translate-fuzzy">
 ===基礎表情===
+</div>
 
 當未設定任何表情功能時，系統會自動為角色加入包含基礎動畫的預設表情選單，其中包含以下動畫：
 * 揮手（Wave）
@@ -30,7 +35,9 @@
 * 悲傷（Sadness）
 
 <span id="Custom_expressions"></span>
+<div class="mw-translate-fuzzy">
 ===自訂表情===
+</div>
 
 若要新增自訂表情，請先在 Unity 中建立 '''Expression Menu'''（'''表情選單'''）資產與 '''Expression Parameters'''（'''表情參數'''）資產，然後在 VRChat Avatar Descriptor 的 Expressions 區段中指派這些資產。Expression Menu 用於定義哪些控制項會顯示於遊戲內選單，而 Expression Parameters 則用於定義這些控制項所變更之數值的名稱、類型、預設值，以及同步行為。
 
@@ -39,7 +46,9 @@
 SDK 也提供了一個 '''Default Parameters'''（'''預設參數'''）按鈕。按鈕會還原 VRChat 預設 AV3 控制器所使用的三個別名參數：<code>VRCEmote</code>、<code>VRCFaceBlendH</code> 與 <code>VRCFaceBlendV</code>。
 
 <span id="Controls"></span>
+<div class="mw-translate-fuzzy">
 ====控制====
+</div>
 
 每個頁面最多可建立 8 個控制項。建立控制項時，可選擇以下類型：
 * '''Button'''（'''按鈕'''）：按下時瞬間設定指定數值，並在 VRChat 傳送變更後立即自動重設。
@@ -50,7 +59,9 @@ SDK 也提供了一個 '''Default Parameters'''（'''預設參數'''）按鈕。
 * '''Radial Puppet'''（'''環形控制'''）：以環狀滑塊控制一個浮點數參數，範圍為 <code>0.0</code> 至 <code>1.0</code>。
 
 <span id="Puppet_Menu_Example"></span>
+<div class="mw-translate-fuzzy">
 =====控制選單範例=====
+</div>
 
 [[File:PuppetMenu.gif|thumb|動作選單與臉部鏡子的使用範例。''（動畫 GIF）'']]
 當你向不同方向移動搖桿、觸控板或滑鼠時，將會改變其動畫參數，以此來表現不同表情，或在不同表情之間進行混合（例如「開心」與「驚訝」）。任何參數都可以透過此選單進行控制。
@@ -60,7 +71,9 @@ SDK 也提供了一個 '''Default Parameters'''（'''預設參數'''）按鈕。
 當屬於控制類型的控制項被開啟時，VRChat 會使用較快速的 '''IK''' 同步模式即時同步其數值。控制項關閉後，當前數值會維持不變，直到再次被修改為止。
 
 <span id="Expression_Parameter"></span>
+<div class="mw-translate-fuzzy">
 ==表情參數==
+</div>
 
 '''表情參數'''（'''Expression Parameters'''）可透過表情選單、[[Special:MyLanguage/Contacts|Contact Receiver]]、[[Special:MyLanguage/Open Sound Control|OSC]]、[[Special:MyLanguage/parameter drivers|Parameter Driver]] 或 [[Special:MyLanguage/physbones|PhysBone]] 元件來控制角色功能。這些參數接著會對應至角色 FX、手勢（Gesture）或動作控制器中的 Animator Controller 參數。
 
@@ -74,7 +87,7 @@ Expression Parameters 資產中的每個項目都會儲存以下資訊：
 * '''Saved'''（'''儲存'''）：控制該數值是否會在不同工作階段之間保留。
 * '''Synced'''（'''同步'''）：控制該數值是否會傳送給其他用戶。
 
-預設情況下，自訂參數會使用 VRChat 的 '''Playable''' 同步模式進行同步。當控制類型的控制項處於被開啟狀態時，則會暫時改用較快速的 '''IK''' 同步模式。 
+預設情況下，自訂參數會使用 VRChat 的 '''Playable''' 同步模式進行同步。當控制類型的控制項處於被開啟狀態時，則會暫時改用較快速的 '''IK''' 同步模式。
 
 <span id="Built-in_parameters"></span>
 ===內建參數===
@@ -120,14 +133,18 @@ VRChat 也提供內建的 Animator 參數。這些參數不需要額外加入 Ex
 在具備手指追蹤功能的控制器上，由於手指追蹤預設會覆蓋動畫的效果，因此創作者可使用 Tracking Control 狀態行為（State Behavior），在需要時將相關手指的控制方式由 '''Tracking'''（'''追蹤'''）切換為 '''Animation'''（'''動畫'''）模式。
 
 <span id="Expression_Parameter_Mismatching"></span>
+<div class="mw-translate-fuzzy">
 ==表情參數不相符==
+</div>
 
 表情參數不相符（Expression Parameter Mismatching）是指當表情參數與本機動畫控制（Animator Controller）參數之間使用不同的參數類型。雖然建議保持參數類型一致，但系統仍支援類型不相符的設定，並會依照特定規則在不同類型之間自動轉換數值。這種做法在某些 <u>Advanced</u> 配置中可能相當實用。同樣的轉換機制也適用於 VRChat 內建的動畫參數。
 
 Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類型，而 VRChat 則會將已同步的自訂表情參數儲存為更精簡、適合網路傳輸的格式。Unity 與 VRCSDK 的使用者介面允許創作者為了方便而選擇不同的參數類型，但在底層仍可進行數值轉換。這代表參數並非以 C# 意義上的型別轉換方式運作，而是在不同系統之間以不相符的參數類型進行對應。這種行為也受到熱門工具如 Av3Emulator 與 Gesture Manager 的支援。
 
 <span id="Expression_Parameter_Bool"></span>
+<div class="mw-translate-fuzzy">
 ===表情參數 Bool===
+</div>
 {| class="wikitable"
 |+動畫控制參數
 !類型
@@ -147,7 +164,9 @@ Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類
 |Float = 1.0
 |}
 <span id="Expression_Parameter_Int"></span>
+<div class="mw-translate-fuzzy">
 ===表情參數 Int===
+</div>
 {| class="wikitable"
 |+動畫控制參數
 !類型
@@ -163,7 +182,9 @@ Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類
 |直接轉換：例如 Int = 2 → Float = 2.0
 |}
 <span id="Expression_Parameter_Float"></span>
+<div class="mw-translate-fuzzy">
 ===表情參數 Float===
+</div>
 {| class="wikitable"
 |+動畫控制參數
 !類型
@@ -179,7 +200,9 @@ Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類
 |預期行為
 |}
 <span id="Resources"></span>
+<div class="mw-translate-fuzzy">
 ==官方資源==
+</div>
 
 * 發布在 VRChat 上的 {{VRC link|https://vrchat.com/home/world/wrld_6168d07b-f55c-40bc-8077-749dde39983c|Avatar 3.0 Hub}} 世界。
 * 發布在 VRChat 創作者文件上的[https://creators.vrchat.com/avatars/expression-menu-and-controls/ 表情選單與控制]。
@@ -189,7 +212,9 @@ Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類
 * 發布在 VRChat 創作者文件上的[https://creators.vrchat.com/avatars/state-behaviors/ 狀態行為]。
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==參見==
+</div>
 
 *[[Special:MyLanguage/Avatars|角色]]
 **[[Special:MyLanguage/Avatar Dynamics|角色互動]]
@@ -197,7 +222,9 @@ Unity 的 Animator 系統在底層實際上使用 Float 來處理所有參數類
 *[[Special:MyLanguage/VRChat SDK|VRChat SDK]]
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==參考資料==
+</div>
 
 * [https://vrc.school/docs/Avatars/Expressions-Menu-Params VRC School: Expressions Menu and Parameters]
 * [https://vrc.school/docs/Avatars/Gestures VRC School: Hand Gestures/Facial Expressions]
