@@ -19,7 +19,7 @@ Benutzer haben die Möglichkeit, Avatare direkt von anderen Nutzern zu klonen. M
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-=== Cloning===
+=== Cloning ===
 [[File:Publicavatarclone.webp|thumb|right|Quick Menu with a user selected, "Clone Avatar" and "Favorite Avatar" buttons found under "User Actions" section.]]
 Users have the option to clone avatars directly from other users. This feature allows users to adopt the same avatar they see another user using by selecting the user and utilizing the "Clone Avatar" button within the [[Special:MyLanguage/Quick Menu|Quick Menu]]. If this option is unavailable, it indicates that the other user has disabled the cloning feature, or is using an avatar marked as private.
 </div>
@@ -28,8 +28,10 @@ Users have the option to clone avatars directly from other users. This feature a
 To disable the cloning of avatars one can go to [[Special:MyLanguage/Settings|Settings]] in the Main Menu, click on the '''Avatars''' tab, and turn off '''Allow Avatar Cloning'''.
 </div>
 
+<div class="mw-translate-fuzzy">
 ===Podeste und Avatar-Welten ===
-Außerdem können Avatare auch über Avatar-Podeste gefunden werden. Diese sind normalerweise in Welten der Kategorie "Avatar Worlds" zu finden. Über den Podesten wird eine Vorschau vom Avatar angezeigt, mit der die Benutzer interagieren und so diesen klonen können. 
+Außerdem können Avatare auch über Avatar-Podeste gefunden werden. Diese sind normalerweise in Welten der Kategorie "Avatar Worlds" zu finden. Über den Podesten wird eine Vorschau vom Avatar angezeigt, mit der die Benutzer interagieren und so diesen klonen können.
+</div>
 
 <div class="mw-translate-fuzzy">
 ==Avatare als Favoriten markieren==
@@ -40,8 +42,10 @@ Benutzer können Avatare als Favoriten markieren, um sie für die spätere Benut
 Es gibt mehrere Möglichkeiten, einen Avatar als Favoriten zu markieren. Wenn du den Avatar aktiv benutzt, den du als Favoriten markieren möchtest, navigiere zum Avatar-Menü und klicke unten rechts unter der Avatar-Vorschau auf die Schaltfläche "Favorisieren". Wenn jemand anderes einen Avatar benutzt, den du als Favoriten markieren möchtest, wähle den Benutzer aus und drücke im [[Special:MyLanguage/Quick Menu|Schnellmenü]] die Schaltfläche "Favorisiere Avatar".
 </div>
 
+<div class="mw-translate-fuzzy">
 ==Plattform-Kompatibilität==
 ''Siehe auch [[Special:MyLanguage/Platforms|Plattformen]] für mehr detaillierte Informationen.''
+</div>
 
 <div class="mw-translate-fuzzy">
 VRChat-Avatare werden für PC und mobile Plattformen unterschiedlich erstellt, hauptsächlich aufgrund der Einschränkungen von Geräten wie die Oculus Quest sowie Android- und iOS-Systemen. Daher sind einige Avatare möglicherweise nicht auf allen Geräten sicht- oder nutzbar. Detaillierte Informationen zu diesen Einschränkungen findest du innerhalb der folgenden Ressourcen:
@@ -56,8 +60,10 @@ Avatar-Ersteller können diesen so konfigurieren, dass er mit mehreren Plattform
 Der Fallback-Avatar des Benutzers kann im Avatar-Menü geändert werden.
 </div>
 
+<div class="mw-translate-fuzzy">
 ==Performance-Ranking==
-Avatare werden nach Performanceschwellen eingestuft. Sie reichen von Very Poor{{performance|verypoor|22}} über Poor{{performance|poor|22}}, Medium{{performance|medium|22}}, Good{{performance|good|22}} bis hin zu Excellent{{performance|excellent|22}}. Diese Einstufung hilft Benutzern, die Performanceauswirkungen ihrer Avatare auf das gesamte VRChat-Erlebnis zu verstehen. Beispiele für Faktoren, die die Performancebewertung von Avataren beeinflussen, sind die Anzahl der Mesh-Polygone, die Anzahl der Materialien, die Texturauflösung, die Komplexität des Animators und Avatar-Komponenten wie Physbones oder Constraints. 
+Avatare werden nach Performanceschwellen eingestuft. Sie reichen von Very Poor{{performance|verypoor|22}} über Poor{{performance|poor|22}}, Medium{{performance|medium|22}}, Good{{performance|good|22}} bis hin zu Excellent{{performance|excellent|22}}. Diese Einstufung hilft Benutzern, die Performanceauswirkungen ihrer Avatare auf das gesamte VRChat-Erlebnis zu verstehen. Beispiele für Faktoren, die die Performancebewertung von Avataren beeinflussen, sind die Anzahl der Mesh-Polygone, die Anzahl der Materialien, die Texturauflösung, die Komplexität des Animators und Avatar-Komponenten wie Physbones oder Constraints.
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On standalone VR & mobile platforms, a maximum of 4 Very Poor avatars can be shown at once.
@@ -83,7 +89,7 @@ Sobald du einen hochgeladenen Avatar besitzt, kannst du diesen im Abschnitt "Hoc
 Eine '''ausführlichere Anleitung''' zu den Möglichkeiten des SDK ist verfügbar in der Creation-Dokumentation bei [https://creators.vrchat.com/avatars/creating-your-first-avatar/ Creating Your First Avatar].
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Trivia==
+== Trivia ==
 * Prior to 2019, only 25 avatars could be added to an avatar favorites list. A VRC+ subscription would also only unlock 2 more lists for a total of 3.
 </div>
 
