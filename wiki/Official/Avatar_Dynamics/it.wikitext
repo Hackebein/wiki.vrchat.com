@@ -1,8 +1,13 @@
 <languages/>
 {{Noticebox/Official}}
+<div class="mw-translate-fuzzy">
 '''Avatar Dynamics''' è una funzionalità degli [[Special:MyLanguage/Avatars|avatar]], introdotta inizialmente in VRChat il 21 aprile 2022 ([https://hello.vrchat.com/blog/avatar-dynamics-live VRChat Blog: Avatar Dynamics Live]). Si tratta di un insieme di funzionalità che aggiunge più interazioni tra gli avatar. Sostituendo componenti vecchi e aggiungendo nuove opzioni per gli avatar. Questa versione ha anche introdotto un nuovo sistema di permessi che consente agli utenti di definire chi può interagire con queste nuove funzionalità.
+</div>
 
+<span id="PhysBones"></span>
+<div class="mw-translate-fuzzy">
 ==PhysBones==
+</div>
 
 ''Vedi anche [[Special:MyLanguage/Physbones|PhysBones]] per informazioni più dettagliate.''
 
@@ -10,13 +15,19 @@
 '''PhysBones''' sono un sistema di fisica dinamica per avatar che consente la creazione di movimenti secondari e ossa interattive in VRChat. Vengono utilizzati per simulare comportamenti più naturali nelle parti dell'avatar, rispondendo alle manipolazioni fisiche attraverso parametri relativi al movimento, alla gravità e alle collisioni.
 </div>
 
+<span id="Contacts"></span>
+<div class="mw-translate-fuzzy">
 ==Contacts==
+</div>
 
 ''Vedi anche [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] per informazioni più dettagliate.''
 
 '''Contacts''' sono un sistema che consente agli avatar di rilevare collisioni con sé stessi o con altri avatar. Queste collisioni possono poi essere utilizzate per controllare parametri dell'Animator ed eseguire numerosi tipi di effetti interattivi.
 
+<span id="Contact_Senders"></span>
+<div class="mw-translate-fuzzy">
 ===Contact Senders===
+</div>
 
 '''Contact Sender''' definisce un volume di collisione che può essere rilevato da un Contact Receiver corrispondente. Sender possono utilizzare una forma sferica o a capsula, un transform radice, offset di posizione e rotazione locali, e uno o più tag di collisione.
 
@@ -28,7 +39,10 @@ Box-shaped contacts are available for both avatars and worlds, with configurable
 On avatars, the ''Colliders'' section of the [[Special:MyLanguage/Avatar Descriptor|Avatar Descriptor]] also creates built-in Contact Senders for common body parts such as hands and fingers.
 </div>
 
+<span id="Contact_Receivers"></span>
+<div class="mw-translate-fuzzy">
 ===Contact Receivers===
+</div>
 
 '''Contact Receiver''' ascolta i sender corrispondenti e scrive un valore in un parametro Animator sull’avatar. I receiver possono essere configurati per consentire il self-contact, altri utenti oppure solo la valutazione locale.
 
@@ -40,7 +54,7 @@ VRChat supports three receiver behaviors:
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Tags and parameters===
+=== Tags and parameters ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -48,7 +62,7 @@ Contacts only interact when a sender and receiver share at least one matching co
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Debugging===
+=== Debugging ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -56,7 +70,7 @@ In Unity, Contact gizmos appear when Gizmos are enabled and the contact or one o
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Permissions==
+== Permissions ==
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -64,7 +78,7 @@ The Avatar Dynamics permission system gives you complete control over who can in
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Global Permissions===
+=== Global Permissions ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -72,7 +86,7 @@ Choose “Everyone,” “Friends,” or “Nobody” as a default setting for a
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Per-User Overrides===
+=== Per-User Overrides ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -80,7 +94,7 @@ Individually grant or deny avatar interaction permissions for specific users.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Quick Toggle/Safe Mode===
+=== Quick Toggle/Safe Mode ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -88,14 +102,14 @@ Instantly pause all interactions (regardless of any other settings) with one but
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Official resources==
+== Official resources ==
 * [https://creators.vrchat.com/avatars/avatar-components/ Avatar Components] on Creator Docs
 * [https://creators.vrchat.com/avatars/avatar-dynamics/physbones/ PhysBones] on Creator Docs
 * [https://creators.vrchat.com/avatars/avatar-dynamics/contacts/ Contacts] on Creator Docs
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==References==
+== References ==
 </div>
 
 <references/>
