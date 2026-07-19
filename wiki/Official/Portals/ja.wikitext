@@ -6,7 +6,7 @@
 ポータルはワールド内に静的に存在する場合もあれば、ユーザーによって「配置」される場合もある。
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-==Behavior==
+== Behavior ==
 </div>
 
 <span id="Creating"></span>
@@ -59,7 +59,9 @@ Multiple portals overlapping in the same location ("portal stacking") is intenti
 これにより、ポータルに直接入る代わりにワールドを事前にダウンロードしたり、ワールドのダウンロードサイズを確認したり、お気に入りに追加したりできる。
 
 <span id="Static_portals"></span>
+<div class="mw-translate-fuzzy">
 ==静的ポータル==
+</div>
 
 ポータルはワールドに予め配置されている場合があり、これらは「静的ポータル」と呼ばれ、他のワールドへと繋がっている。
 
@@ -68,17 +70,21 @@ Multiple portals overlapping in the same location ("portal stacking") is intenti
 静的ポータルが消滅することはない。
 
 <span id="Settings"></span>
+<div class="mw-translate-fuzzy">
 == 設定 ==
+</div>
 
 ポータルをカスタマイズするための様々な設定を使用できる。
-設定メニューに移動し、検索バーに'''''ポータル'''''と入力することで確認できる。 
+設定メニューに移動し、検索バーに'''''ポータル'''''と入力することで確認できる。
 
+<div class="mw-translate-fuzzy">
 *'''ポータルの確認プロンプト''' - ポータルに入る時にコントローラーからの入力を必要とするかを切り替える。
 *'''ポータルの配置方法''' - 手動で置くか、前方に置くかの二択を選ぶことができる。
 **'''手動で置く'''では、ユーザーがポータルを置く位置を決めることができる。
 **'''前方に置く'''では、ポータルがユーザーの真正面に瞬時に作成される。
 *'''ポータル通知の表示''' - 誰かがポータルを置いた時に HUD に通知を表示するか切り替える。
 *'''フレンドによる通知のみを表示''' - この設定を有効にすると、フレンドがポータルを置いた時にのみ通知が表示されるようになる。
+</div>
 
 <span id="Cosmetics"></span>
 <div class="mw-translate-fuzzy">
@@ -296,7 +302,10 @@ Above is a part of the full description, although it probably doesn't need to be
 |<span lang="en" dir="ltr" class="mw-content-ltr">''"A mechanical portal designed with the "Ignition Point" theme of Vket 2026 Summer."''</span>
 |}
 
+<span id="SDK"></span>
+<div class="mw-translate-fuzzy">
 ==SDK==
+</div>
 
 ワールド作者は、[[Special:MyLanguage/VRChat SDK|VRChat SDK]]の[https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker]プレファブを使って、自分のワールドにポータルを置くことができる。
 
@@ -309,12 +318,16 @@ Above is a part of the full description, although it probably doesn't need to be
 VRC Portal Marker スクリプトは、[[Special:MyLanguage/Udon|Udon]] を経由して動的に更新できる。
 
 <span id="See_also"></span>
+<div class="mw-translate-fuzzy">
 ==関連項目==
+</div>
 
 * [[Special:MyLanguage/Loading Screens|ロード画面]]
 * [[Special:MyLanguage/Worlds|ワールド]]
 
+<div class="mw-translate-fuzzy">
 ==ナビゲーション==
 {{Navbox/Inventory}}
+</div>
 
 [[Category:Features{{#translation:}}]]
