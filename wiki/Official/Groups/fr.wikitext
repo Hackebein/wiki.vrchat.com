@@ -19,19 +19,25 @@ Les '''Groupes''' sont une fonctionnalité sociale conçue pour former, mainteni
 L'objectif de créer un groupe est de permettre à d'autres utilisateurs de les rejoindre, généralement pour rassembler un public, comme une base de fans ou une [[Special:MyLanguage/Community:Culture|culture]], et éventuellement pour organiser et participer à des [[Special:MyLanguage/Calendar|évènements]] dans les [[Special:MyLanguage/Instances|instances]] du groupe. Les membres d'un groupe peuvent choisir de le représenter, affichant la bannière du groupe sur leur plaque nominative et leur profil. La fonctionnalité Groups a été officiellement lancée le [https://hello.vrchat.com/blog/vrchat-groups 30 novembre 2022].
 
 <span id="Joining_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==Rejoindre un groupe==
+</div>
 
 Pour rejoindre un groupe, vous devez d’abord accéder à la page du groupe. Les utilisateurs peuvent faire partie de jusqu’à 100 groupes différents en même temps, ou jusqu’à 200 avec un abonnement [[Special:MyLanguage/VRC+|VRC+]] actif. Pour rejoindre un groupe, vous pouvez en trouver un via l’onglet Recherche ou l’onglet Groupes dans le [[Special:MyLanguage/Main Menu|Menu Principal]].
 
 Il est également possible de rejoindre un groupe en parcourant la liste des groupes qu'un utilisateur représente sur son profil, ou en cliquant sur des affichages publicitaires spécifiques situés dans les mondes. Une fois que vous êtes membre d'un groupe, vous pouvez rejoindre toutes les instances actives du groupe via l'onglet '''Instances''' de la page du groupe, ou '''Activité des groupes''' dans l'onglet Social.
 
 <span id="Representing"></span>
+<div class="mw-translate-fuzzy">
 ===Représentation===
+</div>
 
 La représentation d'un groupe permet d'afficher le nom et la bannière du groupe sur le cadre et le profil de l'utilisateur. Un utilisateur peut représenter un groupe en se rendant sur la page du groupe dans le menu principal et en cliquant sur le bouton « Représenter le groupe », situé dans le coin supérieur droit. Un seul groupe peut être représenté à la fois.
 
 <span id="Membership_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===Visibilité des membres===
+</div>
 
 Un membre d'un groupe peut choisir de cacher son affiliation de la liste des groupes rejoins sur leur profil. Cependant, un utilisateur sera '''toujours en mesure''' de voir si vous êtes membre du groupe dans les cas suivants :
 
@@ -54,12 +60,18 @@ Il est également possible de modifier la visibilité à partir du site web de V
 |}
 
 <span id="Creating_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==Créer un groupe==
+</div>
 
+<div class="mw-translate-fuzzy">
 Pour créer un groupe, l'utilisateur doit d'abord avoir un abonnement [[Special:MyLanguage/VRChat+|VRC+]] actif. Garder l’abonnement VRC+ n’est pas nécessaire pour conserver les droits du groupe. Un abonnement VRC+ est requis pour changer les icônes, les bannières et modifier la galerie du groupe en utilisant la [[Special:MyLanguage/Gallery|Galerie]] VRC+, ainsi que pour transférer les droits du groupe à un autre utilisateur. Actuellement, créer un groupe doit être fait via le {{VRC link|https://vrchat.com/home/groups|site web de VRChat}}. Un utilisateur peut posséder un maximum de 5 groupes, dont chaque groupe peut accueillir jusqu'à 200 000 membres.
+</div>
 
 <span id="Joinability_and_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===Rejoignabilité et visibilité===
+</div>
 
 Lors de la création d'un groupe, un processus d'intégration propose au créateur plusieurs options de confidentialité. La '''joignabilité''' d’un groupe détermine la capacité d’un utilisateur donné à rejoindre le groupe. Ce paramètre peut être modifié ultérieurement.
 
@@ -87,7 +99,9 @@ La '''visibilité''' d'un groupe détermine si le groupe peut ou ne peut pas êt
 Comme mentionné, les utilisateurs peuvent masquer quelconque groupe public de leur profil via les paramètres de visibilité.
 
 <span id="Group_banner"></span>
+<div class="mw-translate-fuzzy">
 ===Bannière de groupe===
+</div>
 
 Les bannières de groupe sont affichées sur le cadre des utilisateurs qui choisissent de représenter ce groupe, mais aussi sur la page du groupe sur le site web de VRChat, ainsi que sur l'interface du groupe dans VRChat.
 
@@ -96,28 +110,70 @@ La bannière peut être mise en ligne et sélectionnée sur le site web de VRCha
 Reava, un membre de la communauté, a créé un [https://github.com/Reava/Resources/releases/tag/Guide guide] permettant de créer une bannière de sorte à ce que les éléments les plus importants soient visibles sur l'interface.
 
 <span id="Group_roles_and_permissions"></span>
+<div class="mw-translate-fuzzy">
 ==Rôles et permissions des groupes==
+</div>
 
 <span id="Viewing_your_roles"></span>
+<div class="mw-translate-fuzzy">
 ===Afficher vos rôles===
+</div>
 
 Il n'est pas actuellement possible de sélectionner ou de modifier des rôles dans le client VRChat, mais vous pouvez consulter tous les rôles actuellement appliqués à votre compte en ouvrant le [[Special:MyLanguage/Main Menu|Menu principal]], en cliquant sur l'onglet Groupe, puis en sélectionnant un groupe pour lequel vous souhaitez voir vos rôles. Une icône en forme de « roue dentée » se trouve en haut à droite du menu, qui ouvre un sous-menu '''Paramètres du groupe''' vers la droite. La partie supérieure du sous-menu vous permet de parcourir les rôles actuellement appliqués.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Self-assigning roles ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To self-assign '''Self Assignable''' roles, you must sign in on the VRChat website, and navigate to the Members tab.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 1: Click '''Groups''' on the left sidebar of the website.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 2: Click on a group with self-assignable roles.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 3: Click on the tab titled '''Members'''.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 4: Click on your profile card, ''outside'' your username. (This area is only clickable if there are self-assignable roles.)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 5: Click on roles to move them between '''Available Roles''' and '''Assigned Roles'''. Grayed-out roles in '''Assigned Roles''' are not self-assignable and cannot be removed in this manner.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 6: '''Click Save'''.
+</div>
+
 <span id="Default_roles"></span>
+<div class="mw-translate-fuzzy">
 ===Rôles par défaut===
+</div>
 
 [[File:Groups default roles.png|thumb|253x253px|Aperçus des rôles]]
 
 Les groupes disposent de trois niveaux différents pour les rôles : '''Rôles de gestion''', '''Rôles des membres''' et '''Rôle par défaut'''. Par défaut, les groupes auront trois rôles lors de leur création : '''Tout le monde''', qui est répertorié sous « Rôle par défaut », '''Membre''', qui est répertorié sous « Rôle des membres », et '''Propriétaire du groupe''', qui est répertorié sous « Rôle de gestion ». Les noms des rôles « Propriétaire du groupe » et « Membre » peuvent être modifiés, mais « Tout le monde » ne peut ni être modifié ni supprimé.
 
-Les permissions du propriétaire du groupe ne peuvent en aucun cas être modifiées ou supprimées, car par défaut, il doit toujours disposer de toutes les permissions. Cependant, le rôle de propriétaire du groupe peut être transféré à un autre membre du groupe volontaire, à condition que les deux parties soient abonnées à VRC+. Ce transfert doit être soigneusement réfléchi, car tous les transferts sont définitifs. Lisez-en plus sur le transfert de groupe ci-dessous. 
+Les permissions du propriétaire du groupe ne peuvent en aucun cas être modifiées ou supprimées, car par défaut, il doit toujours disposer de toutes les permissions. Cependant, le rôle de propriétaire du groupe peut être transféré à un autre membre du groupe volontaire, à condition que les deux parties soient abonnées à VRC+. Ce transfert doit être soigneusement réfléchi, car tous les transferts sont définitifs. Lisez-en plus sur le transfert de groupe ci-dessous.
 
 <span id="Creating_roles"></span>
+<div class="mw-translate-fuzzy">
 ===Créer des rôles===
+</div>
 
 Les rôles peuvent être ajoutés, renommés ou supprimés à tout moment par la gestion du groupe. Chaque rôle peut être accompagné d'une description et d'un ensemble personnalisé de permissions. Les permissions peuvent être activées ou désactivées pour un groupe. Les rôles peuvent également être configurés pour être '''Attribués à l'inscription''', '''Auto-attribuables''' ou '''Nécessitant une A2F'''.
 
+<div class="mw-translate-fuzzy">
 Les rôles auto-attribuables sont facultatifs. Les utilisateurs peuvent se connecter au site Web de VRChat pour s’attribuer des rôles, si cette option est disponible. Cependant, les utilisateurs ayant des comptes de plateforme, tels que Steam ou Meta, ne peuvent pas se connecter et le faire, car l’accès à leur compte sur le site Web de VRChat nécessite la [[Special:MyLanguage/Getting Started#Account creation|création d’un compte VRChat]]. L’administration du groupe peut attribuer manuellement des rôles à n’importe quel utilisateur à tout moment.
+</div>
 
 {| class="wikitable"
 |+
@@ -137,19 +193,21 @@ Les rôles auto-attribuables sont facultatifs. Les utilisateurs peuvent se conne
 [[File:Groups permissions overview.png|thumb|Quelques-unes des permissions disponibles pouvant être attribuées, visibles dans les options de gestion du groupe]]
 
 <span id="Assigning_permissions"></span>
+<div class="mw-translate-fuzzy">
 ===Assigner des permissions===
+</div>
 
-Pour attribuer des permissions à un rôle, un gestionnaire de groupe doit se connecter sur le site Web de VRChat et accéder à l'onglet Permissions. 
+Pour attribuer des permissions à un rôle, un gestionnaire de groupe doit se connecter sur le site Web de VRChat et accéder à l'onglet Permissions.
 
-* Étape 1 : Cliquez sur '''Groupes''' dans la barre latérale gauche du site Web. 
+* Étape 1 : Cliquez sur '''Groupes''' dans la barre latérale gauche du site Web.
 
-* Étape 2 : Cliquez sur un groupe que vous pouvez gérer ou pour lequel vous pouvez modifier les permissions. 
+* Étape 2 : Cliquez sur un groupe que vous pouvez gérer ou pour lequel vous pouvez modifier les permissions.
 
-* Étape 3 : Il existe différents onglets auxquels un gestionnaire de groupe peut accéder, tels que Aperçu, Publications, etc. Cliquez sur l'onglet intitulé '''Paramètres'''. 
+* Étape 3 : Il existe différents onglets auxquels un gestionnaire de groupe peut accéder, tels que Aperçu, Publications, etc. Cliquez sur l'onglet intitulé '''Paramètres'''.
 
-* Étape 4 : Cliquez sur '''Rôles''', sous cet onglet. 
+* Étape 4 : Cliquez sur '''Rôles''', sous cet onglet.
 
-* Étape 5 : Cliquez sur le rôle pour lequel vous souhaitez modifier les permissions, puis cliquez sur '''Permissions''' avec l'icône de cadenas. 
+* Étape 5 : Cliquez sur le rôle pour lequel vous souhaitez modifier les permissions, puis cliquez sur '''Permissions''' avec l'icône de cadenas.
 
 *Étape 6 : Appliquez les permissions indiquées ci-dessous, faites défiler jusqu’en bas de la page, puis '''cliquez sur Enregistrer'''.
 
@@ -213,7 +271,9 @@ Pour attribuer des permissions à un rôle, un gestionnaire de groupe doit se co
 | Contourner les Exigences de Performances d'Avatar|| Permet au rôle de rejoindre des instances de groupe ayant une exigence de performance d'avatar minimale, sans tenir compte du rang de performance de l'avatar.
 |}
 <span id="Group_instances"></span>
+<div class="mw-translate-fuzzy">
 ==Instances de groupe==
+</div>
 
 Le propriétaire d’un groupe, ainsi que ceux disposant des autorisations appropriées, peuvent créer des instances de groupe [[Special:MyLanguage/Instances|instances]]. Il existe trois types d’instances de groupe.
 
@@ -231,13 +291,15 @@ Le propriétaire d’un groupe, ainsi que ceux disposant des autorisations appro
 Les instances de groupe sont souvent '''modérées par le groupe qui héberge l’instance'''. Le propriétaire du groupe, ainsi que ceux disposant des autorisations de modération via leur rôle, peuvent avertir, rendre muet, exclure ou bannir un utilisateur dans l’instance. Bannir un utilisateur d’un groupe l’empêche définitivement de rejoindre toute instance créée par ce groupe, ainsi que de rejoindre le groupe lui-même.
 
 <span id="Group_instance_queues"></span>
+<div class="mw-translate-fuzzy">
 ===Files d'attente des instances de groupe===
+</div>
 
 Les instances de groupe sont également idéales pour gérer des événements avec un grand nombre de personnes. Pour cette situation, l'option '''Files d'attente de groupe VRChat''' met en place une file d'attente pour traiter les demandes de participation lorsque la capacité maximale de l'instance est atteinte. Lorsque vous rejoignez la file d'attente pour une instance, vous serez placé et recevrez une demande d'invitation lorsqu'un emplacement devient disponible. Une fois la demande reçue de votre côté, vous disposez d'une minute pour rejoindre l'instance avant que votre emplacement ne soit attribué à la personne suivante.
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Instance announcements===
+=== Instance announcements ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -249,15 +311,21 @@ A user with the appropriate permission can send an announcement from the Quick M
 </div>
 
 <span id="Transferring_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==Transférer un groupe ==
+</div>
 
+<div class="mw-translate-fuzzy">
 Depuis le 27 mars 2024<ref>https://ask.vrchat.com/t/developer-update-28-march-2024/23676</ref>, les propriétaires de groupes peuvent choisir de transférer la propriété d'un groupe à un autre membre du groupe disposé à accepter, à condition que les deux parties soient abonnées à VRC+ et aient de l'espace disponible. Cela doit être pris en compte, car tous les transferts sont définitifs.
+</div>
 
+<div class="mw-translate-fuzzy">
 '''Vous pouvez transférer la propriété de votre groupe à un autre membre du groupe ; le membre cible et le groupe doivent répondre aux exigences ci-dessous.'''
 * Le membre cible a vérifié son adresse e-mail (vérifiez la section Email dans les paramètres du compte)
 * Le membre cible a un abonnement VRC+ actif
 * Le membre cible peut encore posséder d'autres groupes (chaque utilisateur peut posséder jusqu'à 5 groupes)
 * Le groupe n'est pas monétisé
+</div>
 
 <span id="List_of_.0000_groups"></span>
 == Liste des groupes .0000  ==
@@ -306,7 +374,7 @@ Chaque groupe créé se voit attribuer un code court, accompagné d’un discrim
 |Ce groupe est destiné aux contributeurs de l'équipe officielle du wiki de VRChat. Ses membres ne sont pas nécessairement des employés de VRChat.
 |-
 |VRChat Playtours
-|<private>.0000
+|<span lang="en" dir="ltr" class="mw-content-ltr"><private>.0000</span>
 |Ce groupe est pour VRChat Playtours.
 |-
 |Stress Tests de Capacité d'Instance
@@ -314,25 +382,35 @@ Chaque groupe créé se voit attribuer un code court, accompagné d’un discrim
 |Ce groupe est destiné aux tests d'instances à capacité déraisonnablement élevée.
 |-
 |<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Community Leaders</span>
-|TBA
-|TBA
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
 |}
 
 <span id="Official_resources"></span>
+<div class="mw-translate-fuzzy">
 ==Ressources officielles==
+</div>
 
+<div class="mw-translate-fuzzy">
 * [https://www.youtube.com/watch?v=b6c_kDRJG2A Mise à jour du développeur - Groupes] sur ''YouTube'', publié le 30 novembre 2022.
 * {{VRC link|https://hello.vrchat.com/blog/vrchat-groups|Les groupes sont maintenant en ligne !}} sur ''hello.vrchat.com''
 * {{VRC link|https://help.vrchat.com/hc/en-us/sections/11719560642963-VRChat-Groups|FAQ sur les groupes VRChat}} sur ''help.vrchat.com''
+</div>
 
 <span id="Trivia"></span>
+<div class="mw-translate-fuzzy">
 == Anecdotes ==
+</div>
 
+<div class="mw-translate-fuzzy">
 * Les groupes avaient dans le temps la capacité de n'avoir que 10 000 membres. Cela a été augmenté jusqu'à 100 000 membres. Le 30 janvier 2026, les groupes ont vu leur capacité augmentée à 200 000 membres.<ref>[https://discord.com/channels/189511567539306508/336764577301659649/1466899265296011284 Post in #announcements by Tupper] on [[Special:MyLanguage/Discord servers|VRChat Discord]]. Dated January 30, 2026. Retrieved January 30, 2026.</ref>
 *"Just Bread Group" ([https://vrc.group/TOASTY.1234 TOASTY.1234]) fut le tout premier Groupe<ref>https://x.com/VRChat/status/1747389673154949626</ref>. Il a été créé par notre ingénieur serveur Bready à des fins de test. Lors du lancement des Groupes, les données devaient être organisées d'une manière spécifique pour optimiser les performances des serveurs, et un groupe devait être créé en premier pour structurer correctement la base de données.
+</div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 == Références ==
+</div>
 
 <references />
 
