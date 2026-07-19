@@ -19,19 +19,25 @@
 建立群組的核心目的，便是吸引有著同樣愛好、目標的用戶們聚集一塊，例如像是粉絲群體，或是某種[[Special:MyLanguage/Community:Culture|文化]]的愛好者，都能夠透過群組相聚。用戶們可以透過創建群組[[Special:MyLanguage/instances|房間（Instances）]]舉辦或參與[[Special:MyLanguage/Calendar|活動]]，而用戶還可以將自己最偏好的群組，展示在自己個人資料中，而群組的橫幅也會顯示在個人資料及用戶名牌上。群組是自[https://hello.vrchat.com/blog/vrchat-groups 2022 年 11 月 30 日]起正式推出的功能。
 
 <span id="Joining_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==加入群組==
+</div>
 
 如果要加入一個群組，首先便需要先點擊進入該群組的主要頁面。用戶目前能夠同時加入的群組上限為100個，而有訂閱 [[Special:MyLanguage/VRChat+|VRChat＋]] 的用戶，上限則能夠提高至200個。另外，你也可以透過[[Special:MyLanguage/Main_Menu|主選單（Main menu）]]的「'''搜尋'''」功能或「'''群組'''」標籤頁，來找到並加入你所偏好的群組。
 
 你也可以透過點擊其他用戶在個人資料中展示的群組，或者是點擊內建在[[Special:MyLanguage/Worlds|世界（Worlds）]]中的群組按鈕或宣傳海報來加入群組。而在加入群組後，你便可以透過各個群組頁面中的「'''房間'''」類別，或是在社交標籤頁中的「'''群組活動'''」欄位，找到目前你加入的群組所附屬的房間。
 
 <span id="Representing"></span>
+<div class="mw-translate-fuzzy">
 ===展示群組===
+</div>
 
 在展示群組的時候，被展示的群組名稱、橫幅都會顯示在用戶名牌與個人資料的上方。若要展示任何群組，可以透過[[Special:MyLanguage/Main_Menu|主選單]]的「'''群組'''」標籤頁，點擊進入該群組的主要頁面，接著點擊右上角的「'''展示群組'''」按鈕。用戶每次只能選擇展示一個群組。
 
 <span id="Membership_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===隱藏群組===
+</div>
 
 身為群組成員，你可以在個人資料的群組列表中，隱藏自己加入的某個群組。不過，以下情況將「'''無法避免'''」，且能夠被其他用戶「'''看見'''」你在某個群組之中：
 
@@ -54,12 +60,18 @@
 |}
 
 <span id="Creating_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==創建群組==
+</div>
 
+<div class="mw-translate-fuzzy">
 如果要創建一個群組，創建者本身需要訂閱 [[Special:MyLanguage/VRChat+|VRChat＋]]，在訂閱失效後，用戶仍然可以保有這個群組。不過，若用戶想變更群組頭像或橫幅、編輯群組「'''相簿'''」，以及移交群組給其他用戶，或接收其他用戶移交的群組，則依舊需要訂閱 [[Special:MyLanguage/VRChat+|VRChat＋]]，才能使用上述功能。目前創建群組需要到 {{VRC link|https://vrchat.com/home/groups|VRChat 官方網站}}操作，而每個用戶最多擁有 5 個群組，每個群組成員上限為 20 萬人。
+</div>
 
 <span id="Joinability_and_visibility"></span>
+<div class="mw-translate-fuzzy">
 ===加入權限與群組可見度===
+</div>
 
 在開始創建群組時，系統將引導創建者設定群組。首先便是進入設定「加入權限」的頁面，上方標題顯示為「'''How can people join your Group?'''」（'''人們要怎麼加入你的群組？'''），這項設定決定了用戶加入群組的方式。此設定可在日後進行更改。
 
@@ -87,7 +99,9 @@
 如前所述，任何用戶都可以透過可見度設定，去手動隱藏任何公開群組，使其不顯示在自己的個人檔案上。
 
 <span id="Group_banner"></span>
+<div class="mw-translate-fuzzy">
 ===群組橫幅===
+</div>
 
 群組橫幅（Group banner）會顯示在已選擇展示這個群組的用戶其名牌之上，同時也會出現在 VRChat 官方網站的群組頁面，以及 VRChat 內的群組介面當中。
 
@@ -96,28 +110,70 @@
 社群上的用戶「Reava」製作了一份[https://github.com/Reava/Resources/releases/tag/Guide 橫幅指南]，可協助有意製作群組橫幅的用戶在各個介面中顯示時，其重要區域不會被裁切。
 
 <span id="Group_roles_and_permissions"></span>
+<div class="mw-translate-fuzzy">
 ==群組身分組與權限==
+</div>
 
 <span id="Viewing_your_roles"></span>
+<div class="mw-translate-fuzzy">
 ===查看你的身分組===
+</div>
 
 目前無法直接在 VRChat 中選擇或變更身分組，不過用戶仍然可以查看自己所屬的身分組。若要查看自己的身分組，可以透過[[Special:MyLanguage/Main_Menu|主選單]]的「'''群組'''」標籤頁，點擊進入該群組的主要頁面，接著點擊右上角的齒輪圖示以進入「'''群組設定'''」，最上方會顯示你目前所屬的身分組。
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Self-assigning roles ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To self-assign '''Self Assignable''' roles, you must sign in on the VRChat website, and navigate to the Members tab.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 1: Click '''Groups''' on the left sidebar of the website.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 2: Click on a group with self-assignable roles.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 3: Click on the tab titled '''Members'''.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 4: Click on your profile card, ''outside'' your username. (This area is only clickable if there are self-assignable roles.)
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 5: Click on roles to move them between '''Available Roles''' and '''Assigned Roles'''. Grayed-out roles in '''Assigned Roles''' are not self-assignable and cannot be removed in this manner.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+*Step 6: '''Click Save'''.
+</div>
+
 <span id="Default_roles"></span>
+<div class="mw-translate-fuzzy">
 ===預設身分組===
+</div>
 
 [[File:Groups default roles.png|thumb|253x253px|身分組總覽]]
 
 群組總共有三種層級的身分組，即「'''管理身分組'''」、「'''成員身分組'''」、「'''預設身分組'''」，而在剛創建群組時，系統會自動生成三個身分組，各為預設且無法更改名稱和刪除的「'''Everyone'''」（'''所有人'''）身分組、分發給一般成員的「'''Member'''」（'''成員'''）身分組，以及擁有管理權限的「'''Group Owner'''」（'''群組擁有者'''）身分組。
 
-群組擁有者的權限無法更改或刪除，其預設擁有所有權限，而擁有者可以移交給其他用戶，不過雙方都須訂閱 [[Special:MyLanguage/VRChat+|VRChat＋]]。請注意，由於移交群組的動作無法撤銷，因此請在執行前再三考慮。詳細資訊請參考下方的「'''移交群組'''」章節。 
+群組擁有者的權限無法更改或刪除，其預設擁有所有權限，而擁有者可以移交給其他用戶，不過雙方都須訂閱 [[Special:MyLanguage/VRChat+|VRChat＋]]。請注意，由於移交群組的動作無法撤銷，因此請在執行前再三考慮。詳細資訊請參考下方的「'''移交群組'''」章節。
 
 <span id="Creating_roles"></span>
+<div class="mw-translate-fuzzy">
 ===創建身分組===
+</div>
 
 具有管理權限的成員，可以隨時新增、更改名稱、刪除身分組，而每個身分組都可以設定它的說明，並根據需要來自訂身分組所擁有的權限。另外，身分組還可以設定為「'''Assigned On Join'''」（'''自動分配'''）、「'''Self Assignable'''」（'''自行選擇'''）、「'''Require Two-Factor Authentication'''」（'''需要二步驟驗證'''）。
 
+<div class="mw-translate-fuzzy">
 「Self Assignable」（自行分配）是能夠在身分組設定中開啟的選項，用戶可以透過 {{VRC link|https://vrchat.com/home/groups|VRChat 官方網站}}來選擇自己的身分組。不過，用戶若使用的是如 Steam 或 Quest 的平台帳號，則無法直接登入官方網站。用戶必須要[[Special:MyLanguage/Getting Started#Account Creation|創建 VRChat 帳號]]才能登入官方網站。此外，具有管理權限的成員可以手動為任何用戶分配身分組，而無須對方自行選擇。
+</div>
 
 {| class="wikitable"
 |+
@@ -137,19 +193,21 @@
 [[File:Groups permissions overview.png|thumb|部分可分配的權限，顯示於群組設定選項中]]
 
 <span id="Assigning_permissions"></span>
+<div class="mw-translate-fuzzy">
 ===分配權限===
+</div>
 
-如果要設定身分組權限，具有管理權限的成員需要進入 {{VRC link|https://vrchat.com/home/groups|VRChat 官方網站}}的「'''Permissions'''」（'''權限'''）設定頁面。 
+如果要設定身分組權限，具有管理權限的成員需要進入 {{VRC link|https://vrchat.com/home/groups|VRChat 官方網站}}的「'''Permissions'''」（'''權限'''）設定頁面。
 
-*第一步：在 VRChat 官方網站中，點擊左側欄位中的「'''Groups'''」（'''群組'''）按鈕。 
+*第一步：在 VRChat 官方網站中，點擊左側欄位中的「'''Groups'''」（'''群組'''）按鈕。
 
-*第二步：點擊任一個你可以管理或更改權限的群組。 
+*第二步：點擊任一個你可以管理或更改權限的群組。
 
-*第三步：進入群組頁面後，會出現「Overview」（總覽）、「Posts」（貼文）等等的選項頁及欄位。此時，請點擊「'''Settings'''」（'''設定'''）選項頁。 
+*第三步：進入群組頁面後，會出現「Overview」（總覽）、「Posts」（貼文）等等的選項頁及欄位。此時，請點擊「'''Settings'''」（'''設定'''）選項頁。
 
-*第四步：點擊「'''Roles'''」（'''身分組'''）以進入選項頁。 
+*第四步：點擊「'''Roles'''」（'''身分組'''）以進入選項頁。
 
-*第五步：點擊你想編輯的身分組後，接著點擊帶有鎖頭圖示的「'''Permissions'''」（'''權限'''）欄位。 
+*第五步：點擊你想編輯的身分組後，接著點擊帶有鎖頭圖示的「'''Permissions'''」（'''權限'''）欄位。
 
 *第六步：參考下表進行權限設定完畢後，向下滾動至頁面底部，並點擊「'''Save'''」（'''儲存'''）來完成設定。
 
@@ -213,7 +271,9 @@
 | <span style="white-space: nowrap;">'''Bypass Avatar Performance Requirements'''</span><br />赦免角色效能限制|| 允許在加入設有角色效能限制房間時，不受到任何限制。
 |}
 <span id="Group_instances"></span>
+<div class="mw-translate-fuzzy">
 ==群組房間==
+</div>
 
 群組的所有者以及擁有適當權限的成員可以創建群組[[Special:MyLanguage/instances|房間]]，而群組房間共分有三種類型：
 
@@ -231,13 +291,15 @@
 群組房間通常會由「'''建立這個房間的群組'''」進行管理。群主以及透過身分組被授予管理權限的人員，可以在房間內對用戶進行警告、靜音、踢除或停權。被群組停權的用戶將永久無法加入該群組建立的任何房間，也無法加入該群組本身。
 
 <span id="Group_instance_queues"></span>
+<div class="mw-translate-fuzzy">
 ===群組房間隊列===
+</div>
 
 群組房間也非常適合用於需要管理大量用戶參與的活動。在這種情況下，「'''VRChat 群組排隊'''」（'''VRChat Group Queues'''）的功能將為房間設置一個等待隊列，以在房間達到最大容量時處理加入申請。當你加入了某個房間的隊列時，你便會進入到房間隊列當中，並在房間有空位時寄給你一個邀請請求。一旦你在接收到請求後的一分鐘內還沒加入房間，你的空位將會遞補給下一個正在排隊的人。
 
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
-===Instance announcements===
+=== Instance announcements ===
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
@@ -249,15 +311,21 @@ A user with the appropriate permission can send an announcement from the Quick M
 </div>
 
 <span id="Transferring_a_group"></span>
+<div class="mw-translate-fuzzy">
 ==群組轉讓==
+</div>
 
+<div class="mw-translate-fuzzy">
 截至 2024 年 3 月 27 日<ref>https://ask.vrchat.com/t/developer-update-28-march-2024/23676</ref>，群組所有者可以把群組轉讓給其他成員，只要雙方都有訂閱 VRC＋，且對方還有空位可以擁有新的群組。請注意，轉讓一旦完成便無法撤回，因此務必在確認完畢後，再進行此操作。
+</div>
 
+<div class="mw-translate-fuzzy">
 '''你可以將群組所有權轉讓給群組中的其他成員，但目標成員和群組都必須符合以下條件：''' 
 *目標成員已驗證電子郵件地址（可以在帳戶設定中的電子郵件部分查看）
 *目標成員正在訂閱 VRC＋
 *目標成員還能擁有更多群組（每個用戶最多可擁有5個群組）
 *這個群組未啟用收益化
+</div>
 
 <span id="List_of_.0000_groups"></span>
 == 代碼為「.0000」的群組列表 ==
@@ -306,7 +374,7 @@ A user with the appropriate permission can send an announcement from the Quick M
 |這個群組為官方 VRChat Wiki 貢獻者團隊成員所使用。本群組成員不一定是 VRChat 員工。
 |-
 |'''VRChat Playtours'''
-|<private>.0000
+|<span lang="en" dir="ltr" class="mw-content-ltr"><private>.0000</span>
 |這個群組是提供給 VRChat Playtours 所使用。
 |-
 |'''Instance Capacity Stress Tests'''<br /><small>房間容量壓力測試群<small>
@@ -314,25 +382,35 @@ A user with the appropriate permission can send an announcement from the Quick M
 |這個群組用於測試極高容量的房間。
 |-
 |'''VRChat Community Leaders'''<br /><small>社群群主群<small>
-|TBA
-|TBA
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">TBA</span>
 |}
 
 <span id="Official_resources"></span>
+<div class="mw-translate-fuzzy">
 ==官方資源==
+</div>
 
+<div class="mw-translate-fuzzy">
 *發布在 YouTube 上的[https://www.youtube.com/watch?v=b6c_kDRJG2A Developer Update - Groups]。發布於 [2022-11-30]。
 *{{VRC link|https://hello.vrchat.com/blog/vrchat-groups|Groups is Now Live!}}，位於 hello.vrchat.com。
 *{{VRC link|https://help.vrchat.com/hc/en-us/sections/11719560642963-VRChat-Groups|VRChat Groups FAQ}}，位於 hello.vrchat.com。
+</div>
 
 <span id="Trivia"></span>
+<div class="mw-translate-fuzzy">
 ==冷知識==
+</div>
 
+<div class="mw-translate-fuzzy">
 *群組最初的成員上限為 1 萬人，之後提高至 10 萬人。2026 年 1 月 30 日後，群組容量再次提高至 20 萬人。<ref>Tupper 發布在 [[Special:MyLanguage/Discord servers|VRChat 官方 Discord 伺服器]]上的[https://discord.com/channels/189511567539306508/336764577301659649/1466899265296011284 公告訊息]。發布於 [2026-01-30]。</ref>
 *「Just Bread Group」（[https://vrc.group/TOASTY.1234 TOASTY.1234]）是歷史上第一個建立的群組<ref>https://x.com/VRChat/status/1747389673154949626</ref>。它是由我們的伺服器工程師 Bready 為了測試用途所創建的。在群組系統上線之前，為了最大化伺服器效能，資料必須以特定方式組織，而要達成這個目標，必須先建立第一個群組來正確架構資料庫。
+</div>
 
 <span id="References"></span>
+<div class="mw-translate-fuzzy">
 ==參考資料==
+</div>
 
 <references />
 
