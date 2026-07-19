@@ -100,8 +100,8 @@ Under a user's profile, there are several actions that you can take, these will 
 |<translate><!--T:34--> Send Invite<ref group="actions" name="friends-only"></ref></translate>
 |<translate><!--T:35--> Sends the user an invitation to join your instance. The invite includes a customizable message and with [[Special:MyLanguage/VRC+|VRC+]] a photo can also be added to the invitation.</translate>
 |-
-|Boop<ref name="friends-only" group="actions" />
-|Sends the user a [[Boops|Boop]].
+|<translate>Boop<ref name="friends-only" group="actions" /></translate>
+|<translate>Sends the user a [[Special:MyLanguage/Boops|Boop]].</translate>
 |-
 |<translate><!--T:36--> Gift VRC+</translate>
 |<translate><!--T:37--> Opens a menu that allows you to buy [[Special:MyLanguage/VRC+|VRC+]] for the user. ''See [[Special:MyLanguage/VRC+#Gifting|Gifting]] for more detailed information.''</translate>
@@ -160,23 +160,22 @@ User profiles can be shared using VRChat's <code>vrch.at</code> short link domai
 ===Group Activity=== <!--T:63-->
 
 <!--T:64-->
-'''Group Activity''' includes a list of available [[Special:MyLanguage/Groups|Group]] instances, for Groups that you have joined. Creating a Group, Group+, or Group Public instance, if you have the ability, will result in it appearing on the Group Activity tab for users in that group. 
+'''Group Activity''' includes a list of available [[Special:MyLanguage/Groups|Group]] instances, for Groups that you have joined. Creating a Group, Group+, or Group Public instance, if you have the ability, will result in it appearing on the Group Activity tab for users in that group.
 
 ===All Friends=== <!--T:65-->
 
- 
 <!--T:66-->
 '''All Friends''' shows the entire list of your friends who are currently online, including Friends on "Ask Me" (orange) or "Do Not Disturb" (red) statuses. It also shows your friends active on the website or friends that are currently offline.
 
 ===In Instance=== <!--T:67-->
 
 <!--T:68-->
-'''In Instance''' displays each user who is currently present in the instance you are in; users who have you blocked, while still inside of the instance with you may not appear on this tab, unless you are a Host or a [[Special:MyLanguage/Groups|Group]] Instance Moderator. The "Here" tab on the Quick Menu functions the same as this row. 
+'''In Instance''' displays each user who is currently present in the instance you are in; users who have you blocked, while still inside of the instance with you may not appear on this tab, unless you are a Host or a [[Special:MyLanguage/Groups|Group]] Instance Moderator. The "Here" tab on the Quick Menu functions the same as this row.
 
 ===Favorite Friends=== <!--T:69-->
 
 <!--T:70-->
-'''Favorite Friends''' lists are three rows of friends who you have chosen to 'Favorite'. It can be placed in one of the three rows. Each list can be renamed to help with organization. 
+'''Favorite Friends''' lists are three rows of friends who you have chosen to 'Favorite'. It can be placed in one of the three rows. Each list can be renamed to help with organization.
 
 ===Recently Seen=== <!--T:81-->
 
@@ -212,10 +211,10 @@ Friends on VRChat are other users that you trust, it acts much like how friendin
 }}
 
 <!--T:76-->
-Mutuals are a feature that allows the user to view mutual friends or groups of other users. 
+Mutuals are a feature that allows the user to view mutual friends or groups of other users.
 
 <!--T:78-->
-There are two ways to see mutuals, in the Quick Menu or the Main Menu with a button "Show X Mutuals". In the Quick Menu, the button can be found on top of user actions. In the Main Menu, the button will be found on the top right, next to the report button. 
+There are two ways to see mutuals, in the Quick Menu or the Main Menu with a button "Show X Mutuals". In the Quick Menu, the button can be found on top of user actions. In the Main Menu, the button will be found on the top right, next to the report button.
 
 <!--T:80-->
 If you wish to prevent other users from seeing your mutual friends and groups or appearing as so for others, you can turn off "Show Mutual Connections" in the '''Comfort & Safety''' section of your settings in the Main Menu. Doing so will change the text of the button from "Show X Mutuals" to "No Known Mutuals". Additionally, your user icon will be hidden, and your username will appear as "Hidden Mutual" when you appear in the mutuals in one of your friends.
@@ -223,7 +222,7 @@ If you wish to prevent other users from seeing your mutual friends and groups or
 ==Discord Friends== <!--T:83-->
 
 <!--T:84-->
-Seen in the Social tab under "All Friends", this feature allows you to see your Discord friends with their current status and to perform different actions. Friends with a Discord account linked will have a Discord icon displayed on their profile 
+Seen in the Social tab under "All Friends", this feature allows you to see your Discord friends with their current status and to perform different actions. Friends with a Discord account linked will have a Discord icon displayed on their profile
 
 <!--T:85-->
 If your friend has linked their Discord account to their VRChat account, you will be able to invite them to join your instance through Discord. Otherwise, you will be able to invite them to create a VRChat account. You or your friends may prevent your VRChat account from being shown in the Discord section by turning off the "Allow Discord Friends" setting in the '''Comfort & Safety''' section of the settings.
