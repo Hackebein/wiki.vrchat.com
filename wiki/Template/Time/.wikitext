@@ -1,0 +1,25 @@
+<includeonly>{{#if:{{{1|}}}|{{#time:{{#switch:{{PAGELANGUAGE}}
+ |en=g:i A
+ |de=H:i
+ |fr=H:i
+ |es=H:i
+ |it=H:i
+ |pt-br=H:i
+ |pl=H:i
+ |ru=H:i
+ |ja=H:i
+ |ko=H:i
+ |zh-hans=H:i
+ |zh-hant=H:i
+ |#default=H:i
+}}|{{{1}}}|{{PAGELANGUAGE}}}}}}</includeonly><noinclude>
+Formats a time for the current page language.
+
+== Usage ==
+<pre>{{Time|13:37}}</pre>
+
+== Example ==
+{{Time|13:37}}
+
+[[Category:Templates]]
+</noinclude>
