@@ -36,9 +36,7 @@ VRChat prend en charge trois comportements pour les récepteurs :
 * '''Proximity''' — Renvoie une valeur flottante de 0.0 à 1.0 en fonction de la proximité de l’émetteur par rapport au centre du récepteur.
 
 <span id="Tags_and_parameters"></span>
-<div class="mw-translate-fuzzy">
-===Étiquettes et paramètres===
-</div>
+=== Étiquettes et paramètres ===
 
 Les contacts n’interagissent que lorsqu’un émetteur et un récepteur partagent au moins une étiquette de collision correspondante. Le champ ''Parameter'' du récepteur détermine quel paramètre de l’Animator est mis à jour. Selon le type de paramètre de l’Animator, la valeur peut être interprétée comme un float, un int ou un bool.
 
