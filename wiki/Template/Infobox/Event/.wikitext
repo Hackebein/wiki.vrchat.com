@@ -14,11 +14,11 @@
         </data>
     	<data source="start">
         	<label><translate><!--T:3--> Start date</translate></label>
-            <format><translate><!--T:4--> {{#timel:F d, Y|<tvar name="date">{{{start}}}</tvar>}}</translate></format>
+            <format>{{Date|{{{start}}}}}</format>
         </data>
     	<data source="end">
         	<label><translate><!--T:5--> End date</translate></label>
-            <format><translate><!--T:6--> {{#timel:F d, Y|<tvar name="date">{{{end}}}</tvar>}}</translate></format>
+            <format>{{Date|{{{end}}}}}</format>
         </data>
     </group>
 	<group layout="horizontal">
