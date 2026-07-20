@@ -25,9 +25,9 @@
     </group>
     <group>
         <header><span lang="en" dir="ltr" class="mw-content-ltr">World history</span></header>
-        <data><label><span class="mw-translate-fuzzy">Laboratorio della Comunità</span></label><default>{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{#ifeq:{{World/{{{id}}}/labsPublicationDate}}|none||{{#timel:F d, Y |{{World/{{{id}}}/labsPublicationDate}}}}}}}}</default></data>
-        <data><label>Pubblicato</label><default>{{#ifexist:Template:World/{{{id}}}/publicationDate|{{#ifeq:{{World/{{{id}}}/publicationDate}}|none||{{#timel:F d, Y |{{World/{{{id}}}/publicationDate}}}}}}}}</default></data>
-        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Last updated</span></label><default>{{#ifexist:Template:World/{{{id}}}/updated_at|{{#timel:F d, Y |{{World/{{{id}}}/updated_at}}}}}}</default></data>
+        <data><label><span class="mw-translate-fuzzy">Laboratorio della Comunità</span></label><default>{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{#ifeq:{{World/{{{id}}}/labsPublicationDate}}|none||{{Date|{{World/{{{id}}}/labsPublicationDate}}}}}}}}</default></data>
+        <data><label>Pubblicato</label><default>{{#ifexist:Template:World/{{{id}}}/publicationDate|{{#ifeq:{{World/{{{id}}}/publicationDate}}|none||{{Date|{{World/{{{id}}}/publicationDate}}}}}}}}</default></data>
+        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Last updated</span></label><default>{{#ifexist:Template:World/{{{id}}}/updated_at|{{Date|{{World/{{{id}}}/updated_at}}}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label><default>{{#ifexist:Template:World/{{{id}}}/version|{{World/{{{id}}}/version}}}}</default></data>
     </group>
 </infobox>
