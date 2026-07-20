@@ -9,36 +9,36 @@
         <label><span style="margin-inline-end:0.3rem;>[[File:Icon_VRC_Plus_Icon.png|frameless|14x14px]]</span><translate><!--T:5--> [[VRC+]]</translate></label>
     </data>
     <group>
-        <header><translate><!--T:6--> Release history</translate></header>    
+        <header><translate><!--T:6--> Release history</translate></header>
         <panel>
-            {{#if: {{{branch_live_date}}} | 
+            {{#if: {{{branch_live_date}}} |
                 <section>
                     <label><translate><!--T:7--> Live</translate></label>
                     <data source="branch_live_date">
                         <label><translate><!--T:8--> Date</translate></label>
-                        <format>{{#timel: F d, Y|{{{branch_live_date}}}}}</format>
+                        <format>{{Date|{{{branch_live_date}}}}}</format>
                     </data>
                     <data source="branch_live_version"><label><translate><!--T:9--> Version</translate></label></data>
                     <data source="branch_live_releasenote"><label><translate><!--T:10--> Release note</translate></label></data>
                 </section>
             }}
-            {{#if: {{{branch_openbeta_date}}} | 
+            {{#if: {{{branch_openbeta_date}}} |
                 <section>
                     <label><translate><!--T:11--> Open Beta</translate></label>
                     <data source="branch_openbeta_date">
                         <label><translate><!--T:12--> Date</translate></label>
-                        <format>{{#timel: F d, Y|{{{branch_openbeta_date}}}|ymd}}</format>
+                        <format>{{Date|{{{branch_openbeta_date}}}}}</format>
                     </data>
                     <data source="branch_openbeta_version"><label><translate><!--T:13--> Version</translate></label></data>
                     <data source="branch_openbeta_releasenote"><label><translate><!--T:14--> Release note</translate></label></data>
                 </section>
             }}
-            {{#if: {{{branch_announcement_date}}} | 
+            {{#if: {{{branch_announcement_date}}} |
                 <section>
                     <label><translate><!--T:15--> Announcement</translate></label>
                     <data source="branch_announcement_date">
                         <label><translate><!--T:16--> Date</translate></label>
-                        <format>{{#timel: F d, Y|{{{branch_announcement_date}}}|ymd}}</format>
+                        <format>{{Date|{{{branch_announcement_date}}}}}</format>
                     </data>
                     <data source="branch_announcement_link"><label><translate><!--T:17--> Link</translate></label></data>
                 </section>
