@@ -1,8 +1,10 @@
 <languages/>
 {{Noticebox/Official}}
+<div class="mw-translate-fuzzy">
 {{Stub|Peu d’informations ici ! Vous pouvez [[Special:MyLanguage/VRCWiki:How to Contribute|contribuer]] en développant et en relisant cet article, conformément au [[Special:MyLanguage/VRCWiki:Manual of Style|Manuel de style]].}}
 Les '''Dynamiques d'avatars''' est une fonctionnalité des [[Special:MyLanguage/Avatars|avatars]], introduite dans VRChat le {{#time: F j, Y | 21 avril 2022 }}<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live
  Blog VRChat : Avatar Dynamics Live]</ref>. Elle constitue un ensemble de fonctionnalités permettant d’ajouter davantage d’interactions entre les avatars, remplaçant les anciens composants d’avatar et offrant de nouvelles options. Cette version a également introduit un nouveau système de permissions permettant de définir qui peut interagir avec ces nouvelles fonctionnalités.
+</div>
 
 == PhysBones ==
 
@@ -30,10 +32,12 @@ Sur les avatars, la section « '''Colliders''' » de « l'[[Special:MyLanguage/A
 
 Un « contact receiver » reçoit les « senders » homologues et définit une valeur pour un « Animator parameter » de l'avatar. Les « receivers » peuvent être configurés afin de permettre l'interaction avec soi-même, les autres utilisateurs, ou localement.
 
+<div class="mw-translate-fuzzy">
 VRChat prend en charge trois comportements pour les récepteurs :
 * '''Constant''' — Maintient un paramètre actif tant qu’un émetteur correspondant reste à l’intérieur du récepteur.
 * '''On Enter''' — S’active pendant une seule frame lorsqu’un émetteur correspondant entre, avec possibilité de nécessiter une vitesse minimale.
 * '''Proximity''' — Renvoie une valeur flottante de 0.0 à 1.0 en fonction de la proximité de l’émetteur par rapport au centre du récepteur.
+</div>
 
 <span id="Tags_and_parameters"></span>
 === Étiquettes et paramètres ===
