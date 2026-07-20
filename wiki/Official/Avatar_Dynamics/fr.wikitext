@@ -41,16 +41,11 @@ VRChat prend en charge trois comportements pour les récepteurs :
 Les contacts n’interagissent que lorsqu’un émetteur et un récepteur partagent au moins une étiquette de collision correspondante. Le champ ''Parameter'' du récepteur détermine quel paramètre de l’Animator est mis à jour. Selon le type de paramètre de l’Animator, la valeur peut être interprétée comme un float, un int ou un bool.
 
 <span id="Debugging"></span>
-<div class="mw-translate-fuzzy">
-===Débogage===
-</div>
+=== Débogage ===
 
 Dans Unity, les gizmos de Contact apparaissent lorsque les Gizmos sont activés et que le contact ou l’un de ses parents est sélectionné. Dans VRChat, la superposition Avatar Dynamics peut également être utilisée pour visualiser les Contacts et les PhysBones pendant les tests.
 
-<span id="Permissions"></span>
-<div class="mw-translate-fuzzy">
-==Permissions==
-</div>
+== Permissions ==
 
 Le système de permission des dynamiques d'avatar vous donne un contrôle complet sur qui peut interagir avec votre avatar et comment :
 
