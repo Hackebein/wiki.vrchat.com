@@ -9,36 +9,36 @@
         <label><span style="margin-inline-end:0.3rem;>[[File:Icon_VRC_Plus_Icon.png|frameless|14x14px]]</span>[[VRC+]]</label>
     </data>
     <group>
-        <header>Historia</header>    
+        <header>Historia</header>
         <panel>
-            {{#if: {{{branch_live_date}}} | 
+            {{#if: {{{branch_live_date}}} |
                 <section>
                     <label>Aktualnie</label>
                     <data source="branch_live_date">
                         <label>Data</label>
-                        <format>{{#timel: F d, Y|{{{branch_live_date}}}}}</format>
+                        <format>{{Date|{{{branch_live_date}}}}}</format>
                     </data>
                     <data source="branch_live_version"><label>Wersja</label></data>
                     <data source="branch_live_releasenote"><label>Lista zmian</label></data>
                 </section>
             }}
-            {{#if: {{{branch_openbeta_date}}} | 
+            {{#if: {{{branch_openbeta_date}}} |
                 <section>
                     <label>Open Beta</label>
                     <data source="branch_openbeta_date">
                         <label>Data</label>
-                        <format>{{#timel: F d, Y|{{{branch_openbeta_date}}}|ymd}}</format>
+                        <format>{{Date|{{{branch_openbeta_date}}}}}</format>
                     </data>
                     <data source="branch_openbeta_version"><label>Wersja</label></data>
                     <data source="branch_openbeta_releasenote"><label>Lista zmian</label></data>
                 </section>
             }}
-            {{#if: {{{branch_announcement_date}}} | 
+            {{#if: {{{branch_announcement_date}}} |
                 <section>
                     <label>Ogłoszenie</label>
                     <data source="branch_announcement_date">
                         <label>Data</label>
-                        <format>{{#timel: F d, Y|{{{branch_announcement_date}}}|ymd}}</format>
+                        <format>{{Date|{{{branch_announcement_date}}}}}</format>
                     </data>
                     <data source="branch_announcement_link"><label>Link</label></data>
                 </section>
