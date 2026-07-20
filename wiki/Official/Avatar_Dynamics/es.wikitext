@@ -47,10 +47,12 @@ En los avatares, la sección ''Colliders'' (colisionadores) del [[Special:MyLang
 
 Un '''contact receiver''' detecta emisores que coinciden y escribe un valor en un parámetro del animador del avatar. Los receptores pueden configurarse para permitir contacto propio, de otros usuarios o solo evaluación local.
 
+<div class="mw-translate-fuzzy">
 VRChat admite tres comportamientos del receptor:
 * '''Constante''' mantiene un parámetro activo mientras un remitente coincidente permanece dentro del receptor.
 * '''Al entrar''' se activa durante un frame cuando entre un remitente coincidente, lo que opcionalmente requiere una velocidad mínima.
 * '''Proximidad''' genera un valor flotante de `0.0` a `1.0` basado en qué tan cerca está el remitente del centro del receptor.
+</div>
 
 <span id="Tags_and_parameters"></span>
 <div class="mw-translate-fuzzy">
