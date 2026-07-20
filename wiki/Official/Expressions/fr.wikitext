@@ -29,9 +29,7 @@ Lorsqu'aucune expression n'est configurée, un menu d'expression avec les animat
 * Tristesse
 
 <span id="Custom_expressions"></span>
-<div class="mw-translate-fuzzy">
-===Expressions personnalisées===
-</div>
+=== Expressions personnalisées ===
 
 Pour ajouter des expressions personnalisées, dans Unity créez un fichier '''Expression Menu''', ainsi qu'un fichier '''Expression Parameters''', puis ajoutez-les à la section '''Expressions''' de l'Avatar Descriptor VRChat. Le menu définis quels contrôles apparaissent dans le menu en jeu, tandis que les paramètres définissent les noms, types, valeurs par défaut, et le comportement de syncrhonisation des valeurs que ces contrôles changent.
 
