@@ -1,0 +1,26 @@
+<includeonly>{{#if:{{{1|}}}|{{#time:{{#switch:{{PAGELANGUAGE}}
+ |en=F j, Y, g:i A
+ |de=j. F Y, H:i
+ |fr=j xg Y, H:i
+ |es=j \d\e xg \d\e Y, H:i
+ |it=j xg Y, H:i
+ |pt-br=j \d\e xg \d\e Y, H:i
+ |pl=j xg Y, H:i
+ |ru=j xg Y, H:i
+ |ja=Y年n月j日 H:i
+ |ko=Y년 n월 j일 H:i
+ |zh-hans=Y年n月j日 H:i
+ |zh-hant=Y年n月j日 H:i
+ |#default=j xg Y, H:i
+}}|{{{1}}}|{{PAGELANGUAGE}}}}}}</includeonly><noinclude>
+Formats a date and time for the current page language.
+
+== Usage ==
+<pre>{{DateTime|2026-11-28 13:37}}</pre>
+<pre>{{DateTime|28.11.2026 13:37}}</pre>
+
+== Example ==
+{{DateTime|2026-11-28 13:37}}
+
+[[Category:Templates]]
+</noinclude>
