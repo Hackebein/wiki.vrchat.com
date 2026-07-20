@@ -1,0 +1,26 @@
+<includeonly>{{#if:{{{1|}}}|{{#time:{{#switch:{{PAGELANGUAGE}}
+ |en=M j
+ |de=j. M
+ |fr=j M
+ |es=j \d\e M
+ |it=j M
+ |pt-br=j \d\e M
+ |pl=j M
+ |ru=j M
+ |ja=n月j日
+ |ko=n월 j일
+ |zh-hans=n月j日
+ |zh-hant=n月j日
+ |#default=j M
+}}|{{{1}}}|{{PAGELANGUAGE}}}}}}</includeonly><noinclude>
+Formats a month and day (no year) for the current page language. Intended for compact lists such as [[Template:MainPageUpdates/Item]].
+
+== Usage ==
+<pre>{{Date/md|2026-11-28}}</pre>
+<pre>{{Date/md|28.11.2026}}</pre>
+
+== Example ==
+{{Date/md|2026-11-28}}
+
+[[Category:Templates]]
+</noinclude>
