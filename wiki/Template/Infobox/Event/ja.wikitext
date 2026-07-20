@@ -14,11 +14,11 @@
         </data>
     	<data source="start">
         	<label>開始日</label>
-            <format>{{#timel: Y"年"Fd"日" | {{{start}}} }}</format>
+            <format>{{Date|{{{start}}}}}</format>
         </data>
     	<data source="end">
         	<label>終了日</label>
-            <format>{{#timel: Y"年"Fd"日" | {{{end}}} }}</format>
+            <format>{{Date|{{{end}}}}}</format>
         </data>
     </group>
 	<group layout="horizontal">
