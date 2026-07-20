@@ -122,9 +122,7 @@ Le même comportement de conversion peut aussi être utilisé avec les paramètr
 Le système Animator de Unity utilise des <code>float</code> en interne pour tous les types de paramètres, tandis que VRChat stocke les paramètres personnalisés synchronisés dans des formats compact légé pour le réseau. L’interface utilisateur dans Unity et le SDK VRC permet aux créateurs de choisir des types de paramètres par convenance, mais sous le capot, des conversions de valeurs sont possibles. Cela signifie que les paramètres ne sont pas convertis (cast), mais plutôt non correspondants entre les systèmes. Ce comportement est également pris en charge par des outils populaires tels que Av3Emulator et Gesture Manager.
 
 <span id="Expression_Parameter_Bool"></span>
-<div class="mw-translate-fuzzy">
-===Paramètre d’Expression Bool===
-</div>
+=== Paramètre d’expression Bool ===
 {| class="wikitable"
 |+Paramètre du contrôleur d’Animator
 !Type
