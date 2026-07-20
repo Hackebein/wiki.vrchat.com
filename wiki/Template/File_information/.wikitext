@@ -2,55 +2,55 @@
 |-
 ! style="width: 15%;" | Description
 |
-{{#if: {{{description|}}} 
-| {{{description}}} 
+{{#if: {{{description|}}}
+| {{{description}}}
 | No description added. Please consider [[Special:EditPage/{{FULLPAGENAME}}|adding one.]]
 }}
 |-
 ! Source
 |
-{{#if: {{{source|}}} 
-| {{{source}}} 
+{{#if: {{{source|}}}
+| {{{source}}}
 | No source added. Please consider [[Special:EditPage/{{FULLPAGENAME}}|adding one.]]<includeonly>[[Category:Files without a source]]</includeonly>
 }}
 {{#switch: {{{date|}}}
-|   = 
-| - = 
-| none = 
-| #default = 
+|   =
+| - =
+| none =
+| #default =
 {{!}}-
 ! {{#if:{{{date|}}}}} {{!}} Date
-{{!}} {{{date|}}}
+{{!}} {{Date|{{{date|}}}}}
 }}
 |-
-! Author 
+! Author
 |
-{{#if: {{{author|}}} 
-| {{{author}}} 
+{{#if: {{{author|}}}
+| {{{author}}}
 | No author added. Please consider [[Special:EditPage/{{FULLPAGENAME}}|adding one.]]<includeonly>[[Category:Files without an author]]</includeonly>
 }}
 |-
-! Permission 
+! Permission
 |
-{{#if: {{{permission|}}} 
-| {{{permission}}} 
+{{#if: {{{permission|}}}
+| {{{permission}}}
 | See below.
 }}
 |-
 {{#switch: {{{other_versions|}}}
-|   = 
-| - = 
-| none = 
-| #default = 
+|   =
+| - =
+| none =
+| #default =
 {{!}}-
 ! {{#if:{{{other_versions|}}}}} {{!}} Other versions
 {{!}} {{{other_versions|}}}
 }}
 {{#switch: {{{additional_information|}}}
-|   = 
-| - = 
-| none = 
-| #default = 
+|   =
+| - =
+| none =
+| #default =
 {{!}}-
 ! {{#if:{{{additional_information|}}}}} {{!}} Additional information
 {{!}} {{{additional_information|}}}
