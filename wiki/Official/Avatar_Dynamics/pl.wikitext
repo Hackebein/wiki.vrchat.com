@@ -2,7 +2,7 @@
 {{Noticebox/Official}}
 <div lang="en" dir="ltr" class="mw-content-ltr">
 {{Stub|Not much information here! You can [[Special:MyLanguage/VRCWiki:How to Contribute|contribute]], by expanding and proofreading this article, in accordance with the [[Special:MyLanguage/VRCWiki:Manual of Style|Manual of Style]].}}
-'''Avatar Dynamics''', is an [[Special:MyLanguage/Avatars|avatar]] feature, initially introduced to VRChat on {{#time: F j, Y | April 21, 2022 }}<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live VRChat Blog: Avatar Dynamics Live]</ref>. is a set of features to add more interactions between avatars. Replacing older avatar components, and adding new options for avatars. This release also introduced a new permission system to let people set who can interact with these new features.
+'''Avatar Dynamics''', is an [[Special:MyLanguage/Avatars|avatar]] feature, initially introduced to VRChat on {{Date|April 21, 2022}}<ref>[https://hello.vrchat.com/blog/avatar-dynamics-live VRChat Blog: Avatar Dynamics Live]</ref>. is a set of features to add more interactions between avatars. Replacing older avatar components, and adding new options for avatars. This release also introduced a new permission system to let people set who can interact with these new features.
 </div>
 
 <span id="PhysBones"></span>
@@ -59,7 +59,7 @@ A '''Contact Receiver''' listens for matching senders and writes a value to an A
 VRChat supports three receiver behaviors:
 * '''Constant''' keeps a parameter active while a matching sender stays inside the receiver.
 * '''On Enter''' activates for one frame when a matching sender enters, optionally requiring a minimum velocity.
-* '''Proximity''' outputs a float from `0.0` to `1.0` based on how close the sender is to the center of the receiver.
+* '''Proximity''' outputs a float from `{{formatnum:0.0}}` to `{{formatnum:1.0}}` based on how close the sender is to the center of the receiver.
 </div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
