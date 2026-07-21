@@ -193,10 +193,7 @@ Above is a part of the full description, although it probably doesn't need to be
 |<span lang="en" dir="ltr" class="mw-content-ltr">''"A mechanical portal designed with the "Ignition Point" theme of Vket 2026 Summer."''</span>
 |}
 
-<span id="SDK"></span>
-<div class="mw-translate-fuzzy">
-==SDK==
-</div>
+== SDK ==
 
 les auteurs de mondes peuvent ajouter des portails à leurs mondes via le préfab [https://creators.vrchat.com/worlds/components/vrc_portalmarker/ VRC Portal Marker] du [[Special:MyLanguage/VRChat SDK|SDK VRChat]] qui est situé dans <code>Packages/com.vrchat.worlds/Samples/UdonExampleScene/Prefabs/VRCPortalMarker.prefab</code>. Cela permet de créer un portail avec un nom personnalisé et l'ID d'un monde. Autrement, le portail peut rediriger vers le Hub officiel de VRChat ou vers le monde d'accueil.
 
