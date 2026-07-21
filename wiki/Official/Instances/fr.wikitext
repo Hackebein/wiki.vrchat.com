@@ -120,11 +120,9 @@ Un utilisateur peut se connecter directement à une instance si un autre de ses 
 
 Les instances de groupe offrent l'option de définir une limite de performance minimale pour les avatars. Ces limites sont définies lors de la création de l'instance et s'applique à tous les utilisateurs qui s'y trouvent. La limite de performance minimale peut être configurée pour limiter les avatars de qualité médiocre, moyenne ou bon. Par défaut, aucune limite n'est définie.
 
-<div class="mw-translate-fuzzy">
 Lorsque la limite est en vigueur, les utilisateurs qui la dépassent s'exposent aux conséquences suivantes :
 * Tenter de rejoindre l'instance notifiera le joueur que leur avatar dépasse la limite de performance acceptée. Le joueur recevera un pop-up d'avertissement indiquant leur rang d'avatar actuel, la limite de performance de l'instance, et comment les autres utilisateurs verront leur avatar.
 * Dans l'instance, les utilisateurs verront leur avatar en tant que [[Special:MyLanguage/Fallbacks|Fallback]] ou en tant que [[Special:MyLanguage/Impostors|Impostor]], mais localement l'utilisateur sera toujours avec leur avatar habituel.
-</div>
 
 Les groupes peuvent créer un rôle pour contourner la restriction de performance d'avatar.
 
