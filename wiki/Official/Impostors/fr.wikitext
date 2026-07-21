@@ -58,9 +58,7 @@ Les imposteurs sont plutôt bons par défaut. Cependant, les avatars complexes p
 Pour personnaliser votre imposteur, ajoutez le composant « VRCImpostorSettings » à votre avatar avant de le téléverser. Modifier les paramètres de ce composant vous permet de changer l’apparence de l’imposteur. Vous pouvez ajouter plusieurs « VRCImpostorSettings » pour personnaliser différentes parties du corps.
 
 <span id="Resolution_Scale"></span>
-<div class="mw-translate-fuzzy">
-===Échelle de résolution===
-</div>
+=== Échelle de résolution ===
 
 Modifie la quantité d’espace sur l’atlas de textures de l’imposteur qui est dédiée à la texture de cette partie du corps. Par exemple, vous pouvez placer ce script sur l’os de la tête et changer cette valeur pour que la tête occupe plus ou moins de l’atlas de textures, augmentant ou diminuant ainsi la qualité de texture globale. Notez que cela peut réduire d’autres parties du corps sur l’atlas si nécessaire.
 
