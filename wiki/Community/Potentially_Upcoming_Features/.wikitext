@@ -30,26 +30,17 @@ These are [[badges]] that have been discovered.
 |Complete an invite-only survey. Opt-In for the Badge. Survey window closed.<ref>From a survey about [[Special:MyLanguage/Avatars|Avatars]]</ref>
 |}
 
-=== Item abilities ===
-Item abilities allow [[Items|items]] to have special "abilities" within worlds, such as movement speed changes. These abilities can be disabled by world creators and/or instance moderators.
-
-Client translation strings:
-
-* ''"Prop Abilities"<ref>"Prop Abilities", "Header for prop's list of special abilities shown in the inventory and shop." - [https://crowdin.com/editor/vrchat-application/19/en-zhcn#143410 Crowdin]</ref>''
-* ''"Modifies Player Movement"<ref>"Modifies Player Movement", "Shown on items in the inventory and shop that modify how the player moves." - [https://crowdin.com/editor/vrchat-application/19/en-zhcn#143408 Crowdin]</ref>''
-* ''"This ability is disabled by the world creator and cannot be enabled."<ref>"This ability is disabled by the world creator and cannot be enabled.", "This ability is disabled by the world creator and cannot be enabled. Instance settings button QM tooltip" - [https://crowdin.com/editor/vrchat-application/19/en-zhcn#143398 Crowdin]</ref>''
-Options on the website in world settings:
-
-* ''"Props Enabled/Disabled"''
-* ''"Props that Modify Player Movement"''
-
 === Steam Frame ===
 
 Steam Frame will be supported at release with a native application. A build is already available.<ref> https://steamdb.info/changelist/36482738/</ref>
 
-=== Profile and Nameplate Customization ===
+=== Profile and nameplate customization ===
 
-Decorate your Profile with Icons Frames, Profile Effects, Banners. Banners can be customImage (current banners), or color (hex rgb, solid color). As well as Nameplate Effects. Similar to Discords customizability. Decorations can be bought in the [[Shop]].
+Profile decoration options have been discovered, including icon frames, profile effects, and banners. Banners may use a custom image or a solid color specified as a hex RGB value. Nameplate effects have also been observed. Decorations can potentially be purchased in the [[Shop]] later.
+
+=== Language of an Instance ===
+
+Estimations on the spoken languages of an [[Instances|instance]] is available via API since end of March.
 
 == Officially mentioned ==
 
@@ -65,21 +56,33 @@ In March 2026 community discussion, a former VRChat employee allegedly involved 
 
 In April 2026, VRChat employee Sai confirmed on X that the new character controller remains "on the back burner" with no ETA and is not currently being worked on.<ref name="SaiXPost">[https://x.com/Sairenix/status/2042786856899629187 Post] on ''x.com''; posted April 11, 2026; retrieved April 12, 2026.</ref>
 
-=== Age verification rollout ===
+=== Age assurance rollout ===
 
-VRChat staff have described age verification rollout in stages. In a livestream in March 2026, the team stated there is no public timeline for broad rollout beyond [[VRC+]], while aiming for the most accessible and low-cost path possible.
+VRChat staff have described age assurance rollout in stages. In a livestream in March 2026, the team stated there is no public timeline for broad rollout beyond [[VRC+]], while aiming for the most accessible and low-cost path possible.
 
-In December 2025, VRChat stated it is working to reduce the cost of age verification through negotiation, partnership, and optimization, without announcing a price point, and that its long-term goal—finances permitting—is to make verification free for everyone.<ref name="TrustSafety2025Blog">[https://hello.vrchat.com/blog/trust-safety-update-2025 "Safety, Freedom, and the Future of VRChat"] on ''hello.vrchat.com''; dated December 19, 2025; retrieved June 9, 2026.</ref> The same announcement expects [[Age Verification]] to function alongside reintroduced [[Content Gating]] in the first half of 2026.
+In December 2025, VRChat stated it is working to reduce the cost of age verification through negotiation, partnership, and optimization, without announcing a price point, and that its long-term goal—finances permitting—is to make verification free for everyone.<ref name="TrustSafety2025Blog">[https://hello.vrchat.com/blog/trust-safety-update-2025 "Safety, Freedom, and the Future of VRChat"] on ''hello.vrchat.com''; dated December 19, 2025; retrieved June 9, 2026.</ref> The same announcement expected [[Age Verification]] to function alongside reintroduced [[Content Gating]] in the first half of 2026.
+
+In a June 2026 update, VRChat adopted the term "age assurance" as an umbrella covering both age verification and age estimation, and said it would lean more on estimation approaches going forward. It stated that the next rollout phase would begin in the United Kingdom—offered free of charge during an initial period and rolling out in waves over several months—while [[VRC+]] subscribers retain immediate access. VRChat gave no date for a wider rollout beyond the United Kingdom, again citing cost and coverage challenges.<ref name="SafetyUpdate2026">[https://hello.vrchat.com/blog/june-2026-safety-update "Update: Age Assurance, Content Gating, and Safety Improvements in VRChat"] on ''hello.vrchat.com''; dated June 24, 2026; retrieved June 25, 2026.</ref>
 
 === Content gating reintroduction ===
 
-VRChat announced it will reintroduce [[Content Gating]] to limit access to content based on tags, with some content requiring [[Age Verification]] to view.<ref name="TrustSafety2025Blog" /> The change is expected in the first half of 2026.
+VRChat announced it will reintroduce [[Content Gating]] to limit access to content based on tags, with some content requiring [[Age Verification]] to view.<ref name="TrustSafety2025Blog" /> At the time, the change was expected in the first half of 2026.
 
 The stated goal is a baseline expectation of content safety for public instances: public instances and non-verified spaces must be suitable for a general audience. VRChat described this as setting a clear standard for what content is permissible where, and as a tool to reduce exposure to adult or suggestive content in broadly accessible spaces.<ref name="TrustSafety2025Blog" />
+
+In a June 2026 update, VRChat said the first Content Gating change would begin in the United Kingdom, following the United Kingdom age assurance rollout by a few months. Users who are not age assured, or whose age is determined to be under 18, would have the "Sexually Suggestive" filter turned on with no option to disable it, with affected content hidden behind a placeholder. VRChat described this as the only filter category changing at that time, said it could extend gating more broadly later, and advised creators to tag affected content ahead of a grace period before enforcement.<ref name="SafetyUpdate2026" />
 
 === Group moderation tools ===
 
 VRChat stated it is exploring ways to give [[Groups|group]] owners and moderators stronger tools to enforce community norms and take consistent action against bad actors.<ref name="TrustSafety2025Blog" /> No specific tools or timeline were announced.
+
+=== Age assured groups ===
+
+In a June 2026 update, VRChat stated it intends to build [[Groups]] that require members to be age assured as 18 or older to join. It described this as a feature planned for after the underlying age assurance systems are established, and framed it as a preview that is subject to change.<ref name="SafetyUpdate2026" />
+
+=== Public instance behavior system ===
+
+VRChat stated it is experimenting with a system aimed at reducing toxicity and bad behavior in public instances, which it described as one of the longest-running complaints about the platform. It framed this as part of a broader Trust & Safety effort that also includes growing investment, reducing the time between a report being filed and action being taken, and building systems intended to reduce harm rather than only react to it. VRChat distinguished this conduct-focused work from content tools such as [[Content Gating]], which can hide an avatar or world but cannot address how people behave. VRChat said it planned a dedicated post in July 2026 covering how the system works, how it was designed, and how the experiment would run, including how users could take part.<ref name="SafetyUpdate2026" />
 
 === OSC: Output for Haptics ===
 
@@ -89,10 +92,12 @@ A milestone created in 2022 on the VRChat Community OSC GitHub repository propos
 
 A milestone created in 2022 on the VRChat Community OSC GitHub repository plans to enable [[Udon]] to read and write OSC data for use in VRChat worlds.<ref name="osc-milestones" />
 
-=== Render pipeline migration (URP/HDRP) ===
+=== Render pipeline migration (URP) ===
 
-Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published for a migration of this scope.
-Recent staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
+Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published by VRChat for a migration of this scope.
+Recent VRChat staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
+
+In a Unity forum thread on render pipeline strategy, a Unity staff member said Unity hoped to share more details during the year on "how we are migrating one of the largest UGC platforms to URP".<ref name="UnityURP2026">[https://discussions.unity.com/t/render-pipelines-strategy-for-2026/1710004/206 Post] on ''discussions.unity.com''; posted February 27, 2026; retrieved June 25, 2026.</ref> The platform was not named, but was a reply to questions about VRChat.
 
 === Platform-wide streamed event ===
 
@@ -117,10 +122,19 @@ Challenges:
 
 === Discovery and social system improvements ===
 
-[[File:For-You-Discovery-Page.jpg|thumb]]
+[[File:For-You-Discovery-Page.jpg|thumb|Earlier "For You" world list experiment]]
+[[File:Discover-Alpha-Live-Tab.jpg|thumb|Discover (Alpha) on the Live tab of the Main Menu]]
 VRChat stated it is exploring improvements to discovery and social systems so users can find intended communities while naturally separating audiences that should not interact.<ref name="TrustSafety2025Blog" /> No specific features or timeline were announced.
 
-In a developer stream Q&A on May 29, 2026, the team described a personalized "For You" world list as an experiment that is currently running, noting that users may see it, see variations of it, or not see it at all, and that no further details would be shared while the experiment is in progress.<ref name="ForYouWorldList">[https://ask.vrchat.com/t/may-29-developer-stream-q-a-summary/48500 "May 29 Developer Stream Q&A Summary"] on ''ask.vrchat.com''; posted June 1, 2026; retrieved June 9, 2026.</ref>
+In a developer stream Q&A on {{Date|May 29, 2026}}, the team described a personalized "For You" world list as an experiment that was running at the time, noting that users may see it, see variations of it, or not see it at all, and that no further details would be shared while the experiment was in progress.<ref name="ForYouWorldList">[https://ask.vrchat.com/t/may-29-developer-stream-q-a-summary/48500 "May 29 Developer Stream Q&A Summary"] on ''ask.vrchat.com''; posted June 1, 2026; retrieved June 9, 2026.</ref>
+
+As of {{Date|July 2026}}, the "For You" world list was no longer observed in the client.
+
+An A/B test labeled Discover (Alpha) has been observed on the Live tab of the Main Menu. First observed {{Date|2026-07-24}}.
+
+=== Unity 6 ===
+
+Engine upgrade to Unity 6 (6000.0.60f1) is available on PC on `unity-6` branch. Bugs can be reported in the [https://feedback.vrchat.com/open-beta Open Beta] canny board.
 
 == References ==
 
