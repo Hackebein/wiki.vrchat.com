@@ -4,43 +4,109 @@
 
 Users might create posts with their feedback, comment on existing ones, or upvote them. The posts are categorized in boards, each dedicated to a specific platform, feature, release, software, initiative etc. VRChat developers might comment on and track selected posts, labelling them as e.g. "Interested", "In progress" or "Completed", depending on the platform's interests and progress.
 
-=== Requirements ===
-To create a post, comment, or upvote, user must log in with their VRChat account and have a [[Special:MyLanguage/Trust Rank|trust rank]] of "New User" or higher.
+== Requirements ==
+To create a post, comment, or upvote, users must log in with their VRChat account and have a [[Special:MyLanguage/Trust Rank|trust rank]] of "New User" or higher.
 
-=== Boards ===
+== Boards ==
+Boards listed for logged-out visitors on the Feedback site include:
 
-==== General ====
+=== General ===
 
-* '''Feature Requests''' - Requests for changes or additions to the VRChat platform.
-* '''Bug Reports''' -  [[Reporting#Reporting a bug|Bugs]] on the VRChat platform.
-* '''World/Udon Bugs & Feature Requests'''
-* '''Avatar Bugs & Feature Requests'''
-* '''SDK Bug & Feature Requests'''
-* '''Localization''' - Localization issues.
-* '''VRChat+ Feature Ideas''' - Suggesting new features for [[VRC+]].
+* '''{{VRC link|https://feedback.vrchat.com/feature-requests|Feature Requests}}''' - Requests for changes or additions to the VRChat platform.
+* '''{{VRC link|https://feedback.vrchat.com/bug-reports|Bug Reports}}''' - [[Reporting#Reporting a bug|Bugs]] on the VRChat platform.
+* '''{{VRC link|https://feedback.vrchat.com/udon|World/Udon Bugs & Feature Requests}}'''
+* '''{{VRC link|https://feedback.vrchat.com/avatar-30|Avatar Bugs & Feature Requests}}'''
+* '''{{VRC link|https://feedback.vrchat.com/sdk-bug-reports|SDK Bug & Feature Requests}}'''
+* '''{{VRC link|https://feedback.vrchat.com/localization|Localization}}''' - Localization issues.
+* '''{{VRC link|https://feedback.vrchat.com/vrchat-plus-feature-ideas|VRChat+ Feature Ideas}}''' - Suggesting new features for [[VRC+]].
 
-==== Beta ====
+=== Beta ===
 
-* '''Open Beta''' - Feedback, feature requests, and bug reports for [[Open Beta]] builds and branches.
-* '''Steam Audio Open Beta''' -  Feedback, feature requests, and bug reports for Steam Audio Open Beta.
-* '''Android Limited Beta''' - Feedback, feature requests and bug reports for Android limited beta.
-* '''iOS Closed Beta''' - Feedback, feature requests and bug reports for iOS closed beta.
+* '''{{VRC link|https://feedback.vrchat.com/open-beta|Open Beta}}''' - Feedback, feature requests, and bug reports for [[Open Beta]] builds and branches.
+* '''{{VRC link|https://feedback.vrchat.com/android|Android}}''' - Feedback, feature requests, and bug reports for Android.
+* '''{{VRC link|https://feedback.vrchat.com/ios-mobile-beta|iOS}}''' - Feedback, feature requests, and bug reports for iOS.
 
-==== Features ====
+=== Features ===
 
-* '''Creator Economy''' - Feedback and bug reports for [[Creator Economy]].
-* '''Impostors''' -  Feedback and bug reports for avatar [[Impostors]].
-* '''VRChat IK 2.0''' - Feedback and bug reports for [[Inverse Kinematics]].
-* '''Persistence''' - Feedback and bug reports for [[Persistence]].
-* '''Age Verification Feedback''' - Feedback for [[Age Verification]].
-* '''Avatar Marketplace''' - Feedback for [[Avatar Marketplace]].
+* '''{{VRC link|https://feedback.vrchat.com/creator-economy|Creator Economy}}''' - Feedback and bug reports for [[Creator Economy]].
+* '''{{VRC link|https://feedback.vrchat.com/impostors|Impostors}}''' - Feedback and bug reports for avatar [[Impostors]].
+* '''{{VRC link|https://feedback.vrchat.com/vrchat-ik-20|VRChat IK 2.0}}''' - Feedback and bug reports for [[Inverse Kinematics]].
+* '''{{VRC link|https://feedback.vrchat.com/persistence|Persistence}}''' - Feedback and bug reports for [[Persistence]].
+* '''{{VRC link|https://feedback.vrchat.com/age-verification|Age Verification Feedback}}''' - Feedback for [[Age Assurance]].
+* '''{{VRC link|https://feedback.vrchat.com/avatar-marketplace|Avatar Marketplace}}''' - Feedback for [[Avatar Marketplace]].
+* '''{{VRC link|https://feedback.vrchat.com/third-person-view|Third-Person View}}''' - Feedback for [[Third Person View]].
 
-==== Websites ====
+=== Websites ===
 
-* '''Website''' - Feedback for VRChat websites.
-* '''Merch Ideas''' - Suggesting new items for VRChat to add to their merchandise store.
+* '''{{VRC link|https://feedback.vrchat.com/website|Website}}''' - Feedback for VRChat websites.
+* '''{{VRC link|https://feedback.vrchat.com/merch|Merch Ideas}}''' - Suggesting new items for VRChat to add to their merchandise store.
 
-==== Software ====
+=== Software ===
 
-* '''Creator Companion''' - Bug reports and feature requests for [[VRChat Creator Companion]].
-* '''Example Central''' - Feedback and bug reports for [[Example Central]] in Unity.
+* '''{{VRC link|https://feedback.vrchat.com/creator-companion|Creator Companion}}''' - Bug reports and feature requests for [[VRChat Creator Companion]].
+* '''{{VRC link|https://feedback.vrchat.com/example-central|Example Central}}''' - Feedback and bug reports for [[Example Central]] in Unity.
+
+=== Not listed when logged out ===
+
+Some boards are reachable by direct URL but are not listed among boards for logged-out visitors.
+
+{| class="wikitable"
+! Name
+! URL
+|-
+| Avatar Accessories
+| {{VRC link|https://feedback.vrchat.com/avatar-accessories|feedback.vrchat.com/avatar-accessories}}
+|-
+| Noise Beta
+| {{VRC link|https://feedback.vrchat.com/noise-beta|feedback.vrchat.com/noise-beta}}
+|}
+
+=== Access-restricted ===
+
+Some boards exist but require special access and are not publicly readable.
+
+{| class="wikitable"
+! Name
+! URL
+|-
+| Avatar Marketplace Sellers
+| {{VRC link|https://feedback.vrchat.com/avatar-marketplace-sellers|feedback.vrchat.com/avatar-marketplace-sellers}}
+|-
+| Creator Economy Sellers
+| {{VRC link|https://feedback.vrchat.com/creator-economy-sellers|feedback.vrchat.com/creator-economy-sellers}}
+|-
+| Groups
+| {{VRC link|https://feedback.vrchat.com/groups|feedback.vrchat.com/groups}}
+|-
+| Internal
+| {{VRC link|https://feedback.vrchat.com/internal|feedback.vrchat.com/internal}}
+|-
+| Quest Creators
+| {{VRC link|https://feedback.vrchat.com/quest-creators|feedback.vrchat.com/quest-creators}}
+|-
+| Trust and Safety System
+| {{VRC link|https://feedback.vrchat.com/trust-and-safety-system|feedback.vrchat.com/trust-and-safety-system}}
+|-
+| Steam Audio Open Beta
+| {{VRC link|https://feedback.vrchat.com/steam-audio-open-beta|feedback.vrchat.com/steam-audio-open-beta}}
+|-
+| Avatar Dynamics Reports and Feedback
+| {{VRC link|https://feedback.vrchat.com/avatar-dynamics-reports-and-feedback|feedback.vrchat.com/avatar-dynamics-reports-and-feedback}}
+|-
+| VRChat Community Testers
+| {{VRC link|https://feedback.vrchat.com/vrchat-community-testers|feedback.vrchat.com/vrchat-community-testers}}
+|-
+| VRChat+ Feedback
+| {{VRC link|https://feedback.vrchat.com/vrchat-plus-feedback|feedback.vrchat.com/vrchat-plus-feedback}}
+|-
+| VRChat Udon Closed Alpha Feedback
+| {{VRC link|https://feedback.vrchat.com/vrchat-udon-closed-alpha-feedback|feedback.vrchat.com/vrchat-udon-closed-alpha-feedback}}
+|-
+| Unity 6
+| {{VRC link|https://feedback.vrchat.com/unity-6|feedback.vrchat.com/unity-6}}
+|}
+
+The '''VRChat+ Feedback''' board is distinct from the public '''VRChat+ Feature Ideas''' board.
+
+== Official resources ==
+* {{VRC link|https://feedback.vrchat.com|feedback.vrchat.com}}
