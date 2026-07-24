@@ -30,26 +30,13 @@ These are [[badges]] that have been discovered.
 |Complete an invite-only survey. Opt-In for the Badge. Survey window closed.<ref>From a survey about [[Special:MyLanguage/Avatars|Avatars]]</ref>
 |}
 
-=== Item abilities ===
-Item abilities allow [[Items|items]] to have special "abilities" within worlds, such as movement speed changes. These abilities can be disabled by world creators and/or instance moderators.
-
-Client translation strings:
-
-* ''"Prop Abilities"<ref>"Prop Abilities", "Header for prop's list of special abilities shown in the inventory and shop." - [https://crowdin.com/editor/vrchat-application/19/en-zhcn#143410 Crowdin]</ref>''
-* ''"Modifies Player Movement"<ref>"Modifies Player Movement", "Shown on items in the inventory and shop that modify how the player moves." - [https://crowdin.com/editor/vrchat-application/19/en-zhcn#143408 Crowdin]</ref>''
-* ''"This ability is disabled by the world creator and cannot be enabled."<ref>"This ability is disabled by the world creator and cannot be enabled.", "This ability is disabled by the world creator and cannot be enabled. Instance settings button QM tooltip" - [https://crowdin.com/editor/vrchat-application/19/en-zhcn#143398 Crowdin]</ref>''
-Options on the website in world settings:
-
-* ''"Props Enabled/Disabled"''
-* ''"Props that Modify Player Movement"''
-
 === Steam Frame ===
 
 Steam Frame will be supported at release with a native application. A build is already available.<ref> https://steamdb.info/changelist/36482738/</ref>
 
-=== Profile and Nameplate Customization ===
+=== Profile and nameplate customization ===
 
-Decorate your Profile with Icons Frames, Profile Effects, Banners. Banners can be customImage (current banners), or color (hex rgb, solid color). As well as Nameplate Effects. Similar to Discords customizability. Decorations can be bought in the [[Shop]].
+Profile decoration options have been discovered, including icon frames, profile effects, and banners. Banners may use a custom image or a solid color specified as a hex RGB value. Nameplate effects have also been observed. Decorations can potentially be purchased in the [[Shop]] later.
 
 === Language of an Instance ===
 
@@ -112,15 +99,6 @@ Recent VRChat staff commentary only indicates long-term internal planning tied t
 
 In a Unity forum thread on render pipeline strategy, a Unity staff member said Unity hoped to share more details during the year on "how we are migrating one of the largest UGC platforms to URP".<ref name="UnityURP2026">[https://discussions.unity.com/t/render-pipelines-strategy-for-2026/1710004/206 Post] on ''discussions.unity.com''; posted February 27, 2026; retrieved June 25, 2026.</ref> The platform was not named, but was a reply to questions about VRChat.
 
-=== Discovery and social system improvements ===
-
-[[File:For-You-Discovery-Page.jpg|thumb]]
-VRChat stated it is exploring improvements to discovery and social systems so users can find intended communities while naturally separating audiences that should not interact.<ref name="TrustSafety2025Blog" /> No specific features or timeline were announced.
-
-In a developer stream Q&A on May 29, 2026, the team described a personalized "For You" world list as an experiment that was running at the time, noting that users may see it, see variations of it, or not see it at all, and that no further details would be shared while the experiment was in progress.<ref name="ForYouWorldList">[https://ask.vrchat.com/t/may-29-developer-stream-q-a-summary/48500 "May 29 Developer Stream Q&A Summary"] on ''ask.vrchat.com''; posted June 1, 2026; retrieved June 9, 2026.</ref>
-
-The "For You" world list was no longer visible to users as of July 2026, and the experiment appears to have ended.
-
 === Platform-wide streamed event ===
 
 On June 22, 2026, VRChat opened a public interest check for performers and venues for a planned large, platform-wide event.<ref name="VRChatMusicInterestBsky">[https://bsky.app/profile/vrchat.com/post/3movpjgim422n "Music Performance Interest"] post on ''bsky.app''; posted June 22, 2026; retrieved June 22, 2026.</ref> According to the application form, the event would be officially promoted across VRChat's social media, video, and in-app discovery, and "broadcast beyond standard instances using streaming tech".<ref name="VRChatEventForm">[https://forms.gle/sgGRLYr6XAqhv5K89 "VRChat Event — Performer & Venue Interest"] application form on ''forms.gle''; retrieved June 22, 2026.</ref>
@@ -141,6 +119,18 @@ Challenges:
 * Visit X Worlds<ref name="crowdin130860">"Visit {0} Worlds", "Challenge description: When a player visit X number of worlds." - [https://crowdin.com/editor/vrchat-application/19#130860 Crowdin]</ref>
 * Try VRChat on Another Platform<ref>"Try VRChat on Another Platform", "Challenge description: When a player plays VRC on another platform" - [https://crowdin.com/editor/vrchat-application/19#130856 Crowdin]</ref>
 * Log in X Days in a Row<ref>"Log in {0} Days in a Row", "Challenge description: When a player logs in X number of days in a row." - [https://crowdin.com/editor/vrchat-application/19#130858 Crowdin]</ref>
+
+=== Discovery and social system improvements ===
+
+[[File:For-You-Discovery-Page.jpg|thumb|Earlier "For You" world list experiment]]
+[[File:Discover-Alpha-Live-Tab.jpg|thumb|Discover (Alpha) on the Live tab of the Main Menu]]
+VRChat stated it is exploring improvements to discovery and social systems so users can find intended communities while naturally separating audiences that should not interact.<ref name="TrustSafety2025Blog" /> No specific features or timeline were announced.
+
+In a developer stream Q&A on {{Date|May 29, 2026}}, the team described a personalized "For You" world list as an experiment that was running at the time, noting that users may see it, see variations of it, or not see it at all, and that no further details would be shared while the experiment was in progress.<ref name="ForYouWorldList">[https://ask.vrchat.com/t/may-29-developer-stream-q-a-summary/48500 "May 29 Developer Stream Q&A Summary"] on ''ask.vrchat.com''; posted June 1, 2026; retrieved June 9, 2026.</ref>
+
+As of {{Date|July 2026}}, the "For You" world list was no longer observed in the client.
+
+An A/B test labeled Discover (Alpha) has been observed on the Live tab of the Main Menu. First observed {{Date|2026-07-24}}.
 
 === Unity 6 ===
 
