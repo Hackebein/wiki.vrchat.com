@@ -21,7 +21,11 @@ This template displays build numbers of clients. This template parameters should
 |-
 |Live (Android)
 |{{Version/Build|live-android}}
-|<code><nowiki>{{Version/Build|live-android}}</nowiki></code>
+|<code><nowiki>{{Version/Build|live-android}}</nowiki>
+|-
+|Live (Android SteamOS)
+|{{Version/Build|live-android-steamos}}
+|<code><nowiki>{{Version/Build|live-android-steamos}}</nowiki></code>
 |-
 |Live (iOS)
 |{{Version/Build|live-ios}}
