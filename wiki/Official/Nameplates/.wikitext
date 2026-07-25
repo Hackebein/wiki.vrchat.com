@@ -1,6 +1,7 @@
 {{Noticebox/Official}}
+{{Noticebox/Update|Elements & images need to be updated to reflect changes from [https://docs.vrchat.com/docs/vrchat-202623-openbeta 2026.3.1]}}
 
-Nameplates are a UI element that displays above users' [[Special:MyLanguage/avatars|avatars]] that contains their display name, group information, status, trust rank, fallback status, and other details.
+Nameplates are a UI element that displays above users' [[Special:MyLanguage/Avatars|avatars]] that contains their display name, group information, status, trust rank, fallback status, and other details.
 
 <gallery mode="packed" heights="120">
 File:VRChatNameplate.png|Default nameplate
@@ -201,8 +202,39 @@ These settings will affect visibility of these elements whether "Show Additional
 *Show Earmuffs Icon
 *Muted & Deafen
 
+==Profile Decorations==
+{{Noticebox/unreleased|{{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}}}
+Nameplate Effects change the look of Nameplates. These cosmetics appear on nameplates in-instance, Main Menu & Quick Menu profile header, Quick Menu "Here" tab and "Friends" wing, and the Main Menu "Social" tab user tiles when compact view is enabled.
+
+These effects can be applied within the Profile tab by clicking "Edit Profile" and navigating to the "Profile Decorations" section. Nameplate Effects can be purchased within the [[Shop]].
+{| class="wikitable"
+|+List of known Nameplate Effects
+!Image
+!Name
+!Released
+!Available until
+!Requirements
+!Description
+|-
+|[[File:NameplateEffect Reference Cube Purple.png|frameless|70x70px]]
+|Reference Cube Purple
+|July 22, 2026
+|???
+|Claim from the [[Shop]] during the [https://docs.vrchat.com/docs/vrchat-202623-openbeta 2026.3.1] Open Beta
+|''"NUMBER ONE CUBE FAN."''
+|-
+|[[File:NameplateEffect Reference Cube Teal.png|frameless|70x70px]]
+|Reference Cube Teal
+|July 22, 2026
+|???
+|Claim from the [[Shop]] during the [https://docs.vrchat.com/docs/vrchat-202623-openbeta 2026.3.1] Open Beta
+|''"NUMBER ONE CUBE FAN."''
+|}
+
 ==References==
 <references/>
 
-[[Category:Needs images{{#translation:}}]]
-[[Category:User_Interface{{#translation:}}]]
+==Navigation==
+{{Navbox/Inventory}}
+
+[[Category:User_interface{{#translation:}}]]
