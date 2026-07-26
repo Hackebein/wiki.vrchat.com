@@ -257,7 +257,7 @@ Change chatbox visibility<br>
 |<translate><!--T:140--> Apply Filter to World</translate>
 |-
 |<translate><!--T:141--> Color Filter</translate>
-|<translate><!--T:142--> No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT</translate>
+|<translate><!--T:142--> No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT, Dog</translate>
 |<translate><!--T:143-->
 Select the color filter you would like to apply<br>
 '''[None]''' No filter selected<br>
@@ -265,7 +265,8 @@ Select the color filter you would like to apply<br>
 '''[Deuteranopia]''' Green / Red Filter<br>
 '''[Tritanopia]''' Blue / Yellow Filter<br>
 '''[Grayscale]''' Monochrome Filter<br>
-'''[Retro LUT]''' I Live In The Past Filter</translate>
+'''[Retro LUT]''' I Live In The Past Filter<br>
+'''[Dog]''' Dog Filter</translate> {{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}
 |-
 |<translate><!--T:144--> Simulate Color Blindness</translate>
 |<translate><!--T:145--> On/Off</translate>
@@ -449,7 +450,7 @@ Click 'Continue' to create a timestamp in your active output log that can be inc
 <translate>
 == Main Menu == <!--T:242-->
 </translate>
-[[File:System and Settings.png|center|frameless]]
+
 <translate>
 <!--T:243-->
 These options can be found in the Settings tab of the [[Special:MyLanguage/Main Menu|Main Menu]]. They provide coverage for Audio & Voice, Comfort & Safety, Shield Levels, Graphics, [[Special:MyLanguage/Avatars|Avatars]], [[Special:MyLanguage/Mirrors|Mirrors]], User Interface, [[Special:MyLanguage/Controls|Controls]], Tracking & IK, Accessibility, and Debugging.
@@ -1202,9 +1203,13 @@ Change how tooltips on interactive objects in the world appear.
 '''[Tooltip]''' Show the outline, tooltip and tether line.
 '''[Controller]''' Show the outline, tooltip, tether line and controller.</translate>
 |-
-|<translate><!--T:672--> Show Desktop Reticle</translate>
+|<translate><!--T:672--> Show Reticle</translate>
 |<translate><!--T:673--> On/Off</translate>
 |<translate><!--T:674--> Show a small dot in the center of the view</translate>
+|-
+|<translate>Right-click Laser Selection</translate> {{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}
+|<translate>On/Off</translate>
+|<translate>Right-click to select users and objects without opening menus. Disable if it interferes with world interactions.</translate>
 |-
 |<translate><!--T:675--> Show Go Button On Load</translate>
 |<translate><!--T:676--> On/Off</translate>
@@ -1407,8 +1412,8 @@ Change chatbox visibility<br>
 '''[Everyone]''' Show chatboxes for everyone</translate>
 |-
 |<translate><!--T:790--> Chatbox Position</translate>
-|<translate><!--T:791--> Above, Forward</translate>
-|<translate><!--T:792--> Set chatbox to [above head/forward] position</translate>
+|<translate><!--T:791--> Above, Forward, Below</translate>
+|<translate><!--T:792--> Set chatbox to [above nameplate/forward/below nameplate] position</translate>
 |-
 |<translate><!--T:793--> Chatbox Height</translate>
 |0-100%
@@ -1497,12 +1502,7 @@ Change chatbox visibility<br>
 |<translate><!--T:840--> Boop Emoji Effect</translate>
 |<translate><!--T:841--> On/Off</translate>
 |<translate><!--T:842--> Toggles the emoji particle effect when you receive Boops</translate>
-|-
-|<translate><!--T:843--> Enable Automatic Group Invitations<ref group="Test">User needs to be within the cohort of the A/B test to see this setting</ref></translate>
-|<translate><!--T:844--> On/Off</translate>
-|<translate><!--T:845--> Toggle the ability for group instances to send you automatic invitation notifications</translate>
 |}
-<references group="Test" />
 
 <translate>
 <!--T:846-->
@@ -1786,23 +1786,21 @@ Adjustment arrows for User Real hight increment in inches instead of cm</transla
 |<translate><!--T:1007--> FBT Locomotion Animation</translate>
 |<translate><!--T:1008--> On/Off</translate>
 |<translate><!--T:1009--> FBT locomotion animation is [enabled/disabled] click to [enable/disable]</translate>
-
 |-
 |<translate><!--T:1010--> Tracker Motion Prediction</translate>
 |0-100%
 |<translate><!--T:1011--> Set how much latency compensating moton prediciton to use on body trackers, only works for SteamVR trackers.</translate>
 |-
 |<translate><!--T:1012--> Wrist Angle</translate>
-|<translate><!--T:1013--> -45° to 45°</translate>
+| -45° to 45°
 |<translate><!--T:1014--> Offsets the angle of the wrist alignment toward or away from the thumb</translate>
-
 |-
 |<translate><!--T:1015--> Arm vs Height Ratio</translate>
 |30-60%
 |<translate><!--T:1016--> Adjusts the ratio used to scale the avatar when using mesure-by-arms mode</translate>
 |-
 |<translate><!--T:1017--> Knee Angle</translate>
-|<translate><!--T:1018--> -180° to 180°</translate>
+| -180° to 180°
 |<translate><!--T:1019--> Offsets the knee-bend angle as predicted by the foot angle. Ignored if knee trackers are used.</translate>
 |}
 
@@ -1882,7 +1880,7 @@ Choose locomotion style and tunneling to reduce motion sickness.<br>
 |<translate><!--T:1060--> Apply Filter to World</translate>
 |-
 |<translate><!--T:1061--> Color Filter</translate>
-|<translate><!--T:1062--> No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT</translate>
+|<translate><!--T:1062--> No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT, Dog</translate>
 |<translate><!--T:1063-->
 Select the color filter you would like to apply<br>
 '''[None]''' No filter selected<br>
@@ -1890,7 +1888,8 @@ Select the color filter you would like to apply<br>
 '''[Deuteranopia]''' Green / Red Filter<br>
 '''[Tritanopia]''' Blue / Yellow Filter<br>
 '''[Grayscale]''' Monochrome Filter<br>
-'''[Retro LUT]''' I Live In The Past Filter</translate>
+'''[Retro LUT]''' I Live In The Past Filter<br>
+'''[Dog]''' Dog Filter</translate> {{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}
 |-
 |<translate><!--T:1064--> Simulate Color Blindness</translate>
 |<translate><!--T:1065--> On/Off</translate>
@@ -1940,8 +1939,8 @@ Change chatbox visibility<br>
 '''[Everyone]''' Show chatboxes for everyone</translate>
 |-
 |<translate><!--T:1089--> Chatbox Position</translate>
-|<translate><!--T:1090--> Above, Forward</translate>
-|<translate><!--T:1091--> Set chatbox to [above head/forward] position</translate>
+|<translate><!--T:1090--> Above, Forward, Below</translate>
+|<translate><!--T:1091--> Set chatbox to [above nameplate/forward/below nameplate] position</translate>
 |-
 |<translate><!--T:1092--> Chatbox Height</translate>
 |0-100%
@@ -2096,6 +2095,13 @@ All locally cached textures will be deleted.</translate>
 ! colspan="2" style="width: 20%;" |<translate><!--T:1170--> Version</translate>
 !<translate><!--T:1171--> Change</translate>
 |-
+| rowspan="2" |[https://docs.vrchat.com/docs/vrchat-202623-openbeta 2026.3.1]
+|[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1879]
+|<translate>Added Chatbox Position "Below" setting.</translate>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1878]
+|<translate>Added "Right-click Laser Selection", and Color Filter "Dog" settings.</translate>
+|-
 |[https://docs.vrchat.com/docs/vrchat-202623-open-beta 2026.2.3]
 |[https://docs.vrchat.com/docs/vrchat-202623-open-beta 1860]
 |<translate><!--T:1172--> Anti-aliasing is now available on every device and platform. Defaults are Disabled on mobile, 2x on standalone headsets, and 4x on PC and PCVR, with a maximum of 8x on any device.</translate>
@@ -2106,7 +2112,7 @@ All locally cached textures will be deleted.</translate>
 |-
 |[https://docs.vrchat.com/docs/vrchat-202621 2026.2.1]
 |[https://docs.vrchat.com/docs/vrchat-202621-open-beta 1830]
-|<translate><!--T:1174--> Added "Third Person View", "Third Person View Distance", "Third Person View Horizontal", and "Third Person View Vertical" settings.</translate>
+|<translate><!--T:1174--> Added "Third Person View", "Third Person View Distance", "Third Person View Horizontal", and "Third Person View Vertical" settings. Removed "Enable Automatic Group Invitations" setting.</translate>
 |-
 |[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3]
 |[https://docs.vrchat.com/docs/vrchat-202613-open-beta 1814]
