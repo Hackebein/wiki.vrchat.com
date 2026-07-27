@@ -19,9 +19,25 @@ This template displays versions of clients, SDK's, and other notable versioned t
 |{{Version/href|live-windows}}
 |<code><nowiki>{{Version/href|live-windows}}</nowiki></code>
 |-
-|Live (Android)
-|{{Version/href|live-android}}
-|<code><nowiki>{{Version/href|live-android}}</nowiki></code>
+|Live (Android Quest)
+|{{Version/href|live-android-quest}}
+|<code><nowiki>{{Version/href|live-android-quest}}</nowiki></code>
+|-
+|Live (Android Google Play)
+|{{Version/href|live-android-google-play}}
+|<code><nowiki>{{Version/href|live-android-google-play}}</nowiki></code>
+|-
+|Live (Android Pico)
+|{{Version/href|live-android-pico}}
+|<code><nowiki>{{Version/href|live-android-pico}}</nowiki></code>
+|-
+|Live (Android SteamOS)
+|{{Version/href|live-android-steamos}}
+|<code><nowiki>{{Version/href|live-android-steamos}}</nowiki></code>
+|-
+|Live (Android Viveport)
+|{{Version/href|live-android-viveport}}
+|<code><nowiki>{{Version/href|live-android-viveport}}</nowiki></code>
 |-
 |Live (iOS)
 |{{Version/href|live-ios}}
@@ -36,8 +52,8 @@ This template displays versions of clients, SDK's, and other notable versioned t
 |<code><nowiki>{{Version/href|open-beta-windows}}</nowiki></code>
 |-
 |Open Beta (Quest)
-|{{Version/href|open-beta-quest}}
-|<code><nowiki>{{Version/href|open-beta-quest}}</nowiki></code>
+|{{Version/href|open-beta-android-quest}}
+|<code><nowiki>{{Version/href|open-beta-android-quest}}</nowiki></code>
 |-
 |Unity (Live)
 |{{Version/href|unity-live}}
