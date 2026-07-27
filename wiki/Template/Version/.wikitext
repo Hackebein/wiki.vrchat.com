@@ -4,9 +4,11 @@
  | live-mainpage = 2026.2.3 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
  | live = {{ClientBuild/windows/version}} <!-- Put the highest value of either windows, android or ios here. -->
  | live-windows = {{ClientBuild/windows/version}}
- <!-- This is currently quest and frame only, there are also pico and mobile. -->
  | live-android-quest = {{ClientBuild/android-quest/version}}
+ | live-android-google-play = {{ClientBuild/android-google-play/version}}
+ | live-android-pico = {{ClientBuild/android-pico/version}}
  | live-android-steamos = {{ClientBuild/android-steamos/version}}
+ | live-android-viveport = {{ClientBuild/android-viveport/version}}
  | live-ios = 2026.2.3p1 <!-- Put the highest ios value here (ios, ipados). -->
  | open-beta = {{ClientBuild/open-beta-windows/version}}
  | open-beta-windows = {{ClientBuild/open-beta-windows/version}}
