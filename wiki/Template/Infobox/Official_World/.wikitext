@@ -18,8 +18,8 @@
     </group>
     <group>
         <header><translate><!--T:39--> Statistics</translate></header>
-        <data><label><translate><!--T:15--> Visits</translate></label><default>{{#ifexist:Template:World/{{{id}}}/visits|{{formatnum:{{World/{{{id}}}/visits}}}}}}</default></data>
-        <data><label><translate><!--T:16--> Favorites</translate></label><default>{{#ifexist:Template:World/{{{id}}}/favorites|{{formatnum:{{World/{{{id}}}/favorites}}}}}}</default></data>
+        <data><label><translate><!--T:15--> Visits</translate></label><default>{{#ifexist:Template:World/{{{id}}}/visits|{{World/{{{id}}}/visits}}}}</default></data>
+        <data><label><translate><!--T:16--> Favorites</translate></label><default>{{#ifexist:Template:World/{{{id}}}/favorites|{{World/{{{id}}}/favorites}}}}</default></data>
         <data><label><translate><!--T:17--> Popularity</translate></label><default>{{#ifexist:Template:World/{{{id}}}/popularity|{{#switch:{{World/{{{id}}}/popularity}}|0=|1=❤️|2=❤️❤️|3=❤️❤️❤️|4=❤️❤️❤️❤️|5=❤️❤️❤️❤️❤️|6=❤️❤️❤️❤️❤️❤️|7=❤️❤️❤️❤️❤️❤️❤️|8=❤️❤️❤️❤️❤️❤️❤️❤️|9=❤️❤️❤️❤️❤️❤️❤️❤️❤️|10=❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️}}}}</default></data>
         <data><label><translate><!--T:18--> Heat</translate></label><default>{{#ifexist:Template:World/{{{id}}}/heat|{{#switch:{{World/{{{id}}}/heat}}|0=|1=🔥|2=🔥🔥|3=🔥🔥🔥|4=🔥🔥🔥🔥|5=🔥🔥🔥🔥🔥|6=🔥🔥🔥🔥🔥🔥|7=🔥🔥🔥🔥🔥🔥🔥|8=🔥🔥🔥🔥🔥🔥🔥🔥|9=🔥🔥🔥🔥🔥🔥🔥🔥🔥|10=🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥}}}}</default></data>
     </group>
