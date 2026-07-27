@@ -1,0 +1,34 @@
+<noinclude>
+== Usage ==
+Formats a compact count with an optional short-scale unit. Formatted for page language <code>{{PAGELANGUAGE}}</code>.
+
+<pre>
+{{Compact number|28.8|k}}
+{{Compact number|475|k}}
+{{Compact number|1.41|M}}
+{{Compact number|1|T}}
+{{Compact number|999}}
+</pre>
+
+'''Parameters:'''
+* <code>1</code> — numeric coefficient (required)
+* <code>2</code> — unit key: <code>k</code> (10³), <code>M</code> (10⁶), <code>B</code> (10⁹), <code>T</code> (10¹²), <code>Qa</code> (10¹⁵), or <code>Qi</code> (10¹⁸) (optional)
+</noinclude><includeonly>{{formatnum:{{{1}}}}}{{#if:{{{2|}}}|{{#switch:{{lc:{{PAGELANGUAGE}}}}
+| de = &nbsp;{{#switch:{{{2}}}|k=Tsd.|M=Mio.|B=Mrd.|T=Bio.|Qa=Brd.|Qi=Trill.}}
+| fr = &nbsp;{{#switch:{{{2}}}|k=k|M=M|B=Md|T=Bn|Qa=Bd|Qi=Td}}
+| es = &nbsp;{{#switch:{{{2}}}|k=mil|M=M|B=mil&nbsp;M|T=B|Qa=mil&nbsp;B|Qi=T}}
+| it = &nbsp;{{#switch:{{{2}}}|k=mila|M=Mln|B=Mld|T=Bln|Qa=Bld|Qi=Tln}}
+| ja = {{#switch:{{{2}}}|k=千|M=百万|B=十億|T=兆|Qa=千兆|Qi=百京}}
+| ko = {{#switch:{{{2}}}|k=천|M=백만|B=십억|T=조|Qa=천조|Qi=백경}}
+| ru = &nbsp;{{#switch:{{{2}}}|k=тыс.|M=млн|B=млрд|T=трлн|Qa=квдрлн|Qi=квнтлн}}
+| pl = &nbsp;{{#switch:{{{2}}}|k=tys.|M=mln|B=mld|T=bln|Qa=bld|Qi=tln}}
+| pt-br = &nbsp;{{#switch:{{{2}}}|k=mil|M=mi|B=bi|T=tri|Qa=qua|Qi=qui}}
+| zh-hans
+| zh-cn = {{#switch:{{{2}}}|k=千|M=百万|B=十亿|T=兆|Qa=千兆|Qi=百京}}
+| zh-hant
+| zh-hk = {{#switch:{{{2}}}|k=千|M=百萬|B=十億|T=兆|Qa=千兆|Qi=百京}}
+| he = &lrm;{{#switch:{{{2}}}|k=אלף|M=מיליון|B=מיליארד|T=טריליון|Qa=קוודריליון|Qi=קווינטיליון}}
+| tok = &nbsp;{{#switch:{{{2}}}|k=k|M=M|B=B|T=T|Qa=Qa|Qi=Qi}}
+| en
+| #default = {{#switch:{{{2}}}|k=k|M=M|B=B|T=T|Qa=Qa|Qi=Qi}}
+}}}}</includeonly>
