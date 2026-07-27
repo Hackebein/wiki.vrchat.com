@@ -19,13 +19,25 @@ This template displays build numbers of clients. This template parameters should
 |{{Version/Build|live-windows}}
 |<code><nowiki>{{Version/Build|live-windows}}</nowiki></code>
 |-
-|Live (Android)
-|{{Version/Build|live-android}}
-|<code><nowiki>{{Version/Build|live-android}}</nowiki>
+|Live (Android Quest)
+|{{Version/Build|live-android-quest}}
+|<code><nowiki>{{Version/Build|live-android-quest}}</nowiki></code>
+|-
+|Live (Android Google Play)
+|{{Version/Build|live-android-google-play}}
+|<code><nowiki>{{Version/Build|live-android-google-play}}</nowiki></code>
+|-
+|Live (Android Pico)
+|{{Version/Build|live-android-pico}}
+|<code><nowiki>{{Version/Build|live-android-pico}}</nowiki></code>
 |-
 |Live (Android SteamOS)
 |{{Version/Build|live-android-steamos}}
 |<code><nowiki>{{Version/Build|live-android-steamos}}</nowiki></code>
+|-
+|Live (Android Viveport)
+|{{Version/Build|live-android-viveport}}
+|<code><nowiki>{{Version/Build|live-android-viveport}}</nowiki></code>
 |-
 |Live (iOS)
 |{{Version/Build|live-ios}}
@@ -39,9 +51,9 @@ This template displays build numbers of clients. This template parameters should
 |{{Version/Build|open-beta-windows}}
 |<code><nowiki>{{Version/Build|open-beta-windows}}</nowiki></code>
 |-
-|Open Beta (Quest)
-|{{Version/Build|open-beta-quest}}
-|<code><nowiki>{{Version/Build|open-beta-quest}}</nowiki></code>
+|Open Beta (Android Quest)
+|{{Version/Build|open-beta-android-quest}}
+|<code><nowiki>{{Version/Build|open-beta-android-quest}}</nowiki></code>
 |}
 <includeonly>[[Category:Templates{{#translation:}}]]</includeonly>
 <noinclude>[[Category:Template documentation{{#translation:}}]]</noinclude>
