@@ -12,9 +12,8 @@ El Avatar Marketplace permite a los usuarios comprar y utilizar avatares de crea
 Al seleccionar el acceso rápido '''Avatares''' en el [[Special:MyLanguage/Quick Menu|Menú Rápido]], se abre la pestaña de Avatares en el [[Special:MyLanguage/Main Menu|Menú Principal]], mostrando por defecto la sección '''Explorar'''. Esta sección incluye tanto [[Special:MyLanguage/Public Avatars|avatares públicos]] gratuitos como avatares de pago disponibles a través del Marketplace.
 <!--It will need to be noted that the '''Marketplace''' tab in the Main Menu will likely do the same thing; this still needs to be implemented, and will likely be available before AVM goes live. Remove this comment when the Marketplace tab gets mentioned. ~DAG-XR (05.25.2025)-->
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Product listings ==
-</div>
+<span id="Product_listings"></span>
+== Listados de productos ==
 [[File:AVM-ProductListingExample.webp|thumb|<span lang="en" dir="ltr" class="mw-content-ltr">An example of a marketplace listing.</span>]]
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Each avatar listing includes images, a preview of the base model and [[Special:MyLanguage/Impostors|impostor]] (if available), a description, price, file size, upload date, performance ranking, and relevant tags. Listings also show avatar features such as platform compatibility, visemes, eye look support, Impostors, and performance breakdowns. Avatars can also be previewed locally before purchase, only the user will see the avatar during this preview.
