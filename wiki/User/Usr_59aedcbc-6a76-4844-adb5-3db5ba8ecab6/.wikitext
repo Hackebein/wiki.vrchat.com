@@ -1,0 +1,51 @@
+== Profile Overview ==
+<div style="max-width: 800px; margin: 1.5rem 0; padding: 2rem; background: #1E293B; color: #E2E8F0; border-radius: 12px; border: 1px solid #334155; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+
+  <!-- HEADER -->
+  <div style="border-bottom: 1px solid #334155; padding-bottom: 1rem; margin-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 0.5rem;">
+    <div>
+      <h1 style="font-size: 2rem; font-weight: 800; margin: 0; color: #F8FAFC; border: none; padding: 0;">Neostella</h1>
+      <div style="font-size: 0.85rem; color: #94A3B8; margin-top: 0.3rem;">VRChat User Profile</div>
+    </div>
+    <span style="font-size: 0.75rem; background: #334155; color: #38BDF8; padding: 0.3rem 0.6rem; border-radius: 4px; font-weight: 600;">Wiki Contributor</span>
+  </div>
+
+  <!-- ABOUT THIS PAGE / PURPOSE -->
+  <div style="background: rgba(15, 23, 42, 0.6); padding: 1.2rem; border-radius: 8px; border-left: 4px solid #38BDF8; margin-bottom: 1.8rem;">
+    <h3 style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: #38BDF8; margin: 0 0 0.5rem 0; border: none; padding: 0;">📌 ABOUT THIS PAGE</h3>
+    <p style="font-size: 0.92rem; line-height: 1.7; color: #CBD5E1; margin: 0;">
+      このページは、VRChat Wikiにおける<strong>日本語翻訳の確認・誤字修正・ページの微更新</strong>などの作業・確認用として作成した個人の利用者ページ（User Page）です。<br/>
+      大きな功績や代表作があるわけではなく、日常的にVRChatを遊んでいる一般的なユーザーとしてWikiの編集・利用を行っています。
+    </p>
+  </div>
+
+  <!-- DETAILS & LINKS -->
+  <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; margin-bottom: 1.8rem;">
+    
+    <!-- User Info -->
+    <div style="flex: 1 1 240px; background: #0F172A; padding: 1rem; border-radius: 8px; border: 1px solid #334155;">
+      <h4 style="font-size: 0.8rem; text-transform: uppercase; color: #94A3B8; margin: 0 0 0.8rem 0; border: none; padding: 0; letter-spacing: 0.5px;">USER INFO</h4>
+      <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.88rem; display: flex; flex-direction: column; gap: 0.5rem; color: #CBD5E1;">
+        <li style="display: flex; justify-content: space-between;"><span style="color: #64748B;">Platform:</span> <strong>VRChat</strong></li>
+        <li style="display: flex; justify-content: space-between;"><span style="color: #64748B;">Language:</span> <strong>Japanese (日本語)</strong></li>
+        <li style="display: flex; justify-content: space-between;"><span style="color: #64748B;">Activity:</span> <strong>Playing VRChat / Translation / Editing</strong></li>
+      </ul>
+    </div>
+
+    <!-- Links -->
+    <div style="flex: 1 1 240px; background: #0F172A; padding: 1rem; border-radius: 8px; border: 1px solid #334155;">
+      <h4 style="font-size: 0.8rem; text-transform: uppercase; color: #94A3B8; margin: 0 0 0.8rem 0; border: none; padding: 0; letter-spacing: 0.5px;">EXTERNAL LINKS</h4>
+      <div style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.88rem;">
+        [https://vrchat.com/home/user/usr_59aedcbc-6a76-4844-adb5-3db5ba8ecab6 ☞ VRChat Profile]
+        [https://x.com/neo_stella0 ☞ X (Twitter)]
+      </div>
+    </div>
+
+  </div>
+
+  <!-- AI DISCLAIMER FOOTER -->
+  <div style="border-top: 1px solid #334155; padding-top: 1rem; text-align: right; font-size: 0.78rem; color: #64748B; font-style: italic;">
+    ※ この利用者ページのHTML/CSSレイアウトコードは、AI（Gemini）によって生成されたものをベースに使用しています。
+  </div>
+
+</div>
