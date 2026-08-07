@@ -14,24 +14,16 @@ I collect data wherever I can reach it, build pipelines that turn it into someth
 == VRChat Wiki ==
 I have been here since this wiki started and I am one of the maintainers on [[VRCWiki:Team]]. Full paper trail at [https://wiki.vrchat.com/wiki/Special:Contributions/Usr_40be82e7-f7d5-4548-b314-3fc7b26d22ee Special:Contributions].
 
-Edit count or line change count are bad metrics. A page written from scratch and a fixed typo both count as one edit. A rewrite eats an afternoon. A lot of my heavy lifting is template plumbing and translation units that never surface as prose. So here is what I actually work on:
+Edit count or line change count are bad metrics. A page written from scratch and a fixed typo both count as one edit. A rewrite eats an afternoon. A lot of my heavy lifting is template plumbing and translation units that never surface as prose.
 
-* '''Platform documentation''' — [[Getting Started]], [[Instances]], [[Groups]], [[Menus]], [[Social]], [[OSC]], [[Avatar Dynamics]], [[Items]], [[Badges]]. Several of them started on my keyboard.
-* '''German localization''' — my largest single share of edits. German page versions, and proofreading on Crowdin for VRChat itself.
-* '''Community tooling pages''' — [[Community:VRCX]], [[Community:Vrc-get]], [[Community:ALCOM]], [[Community:Manage VRChat]], [[VRC Quick Launcher]]. The tools everyone uses and nobody documents.
-* '''[[Community:Potentially Upcoming Features]]''' — my most edited page. Started as a dump for datamined and pre-announcement findings, then got renamed and restructured after a long argument about where that kind of information belongs.
-* '''Events and community pages''' — seasonal events, exhibitions, dance and photography, including [[Community:VRDancing]] and [[Community:VR Photography Exhibitions]].
+What I actually do: platform documentation such as [[Getting Started]], [[Instances]], [[Groups]], [[Menus]], [[Social]], [[OSC]], [[Community:OSC Resources]], [[Avatar Dynamics]], [[Items]] and [[Badges]], several of which started on my keyboard — including the OSC and OSC Resources pages. German localization is my largest single share of edits — German page versions, plus proofreading on Crowdin for VRChat itself. I also write the community tooling pages nobody else wants to own: [[Community:VRCX]], [[Community:Vrc-get]], [[Community:ALCOM]], [[Community:Manage VRChat]], [[VRC Quick Launcher]]. The tools everyone uses and nobody documents.
+
+[[Community:Potentially Upcoming Features]] is my most edited page. It started as a dump for datamined and pre-announcement findings, then got renamed and restructured after a long argument about where that kind of information belongs. Seasonal events, exhibitions, dance and photography land here too, including [[Community:VRDancing]] and [[Community:VR Photography Exhibitions]].
 
 === Automated contributions ===
 Not everything I contribute is typed by hand. I run bots on [https://vrchat.com/home/user/usr_bbbda87a-b179-41d3-bdcf-6fa732bd4c19 HackebeinsBot], the account the Music Truck project used in-game before it got a second job. Those edits are data feeds from other sources, so manual work stays reserved for things a bot cannot do yet. Public list at [https://wiki.vrchat.com/wiki/Special:Contributions/Usr_bbbda87a-b179-41d3-bdcf-6fa732bd4c19 Special:Contributions].
 
-The bot keeps VRChat data updated for:
-* World data pages behind the world infoboxes, including visits, favorites and heat values
-* The VPM package version summary and the per-package version templates
-* [[Template:Version|Client build metadata]] for Steam, Meta Quest, Pico Store, Google Play and Viveport
-* Creator tool versions for the [[VRChat Creator Companion]] and [[VRC Quick Launcher]]
-
-The same service can write marketplace shelves and paid avatar listing pages too. Those show up less often than the world and build syncs.
+The bot keeps world data pages behind the infoboxes up to date — visits, favorites, heat — plus the VPM package version summary and the per-package version templates. It also syncs [[Template:Version|client build metadata]] for Steam, Meta Quest, Pico Store, Google Play and Viveport, and creator tool versions for the [[VRChat Creator Companion]] and [[VRC Quick Launcher]]. Marketplace shelves and paid avatar listing pages are in scope too; those just show up less often than the world and build syncs.
 
 === Software I wrote for the wiki ===
 * [https://github.com/Hackebein/wiki.vrchat.com wiki.vrchat.com] — full MediaWiki to Git mirror. One commit per edit, resumable, bootstrapped from a snapshot. Built because I stopped being sure how freely readable this wiki would stay behind bot protection. Git history is cheap insurance.
