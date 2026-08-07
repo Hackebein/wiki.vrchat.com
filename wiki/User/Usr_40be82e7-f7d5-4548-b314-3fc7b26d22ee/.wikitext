@@ -1,33 +1,96 @@
 {{DISPLAYTITLE:User: Hackebein}}
 
-[https://vrchat.com/home/user/usr_40be82e7-f7d5-4548-b314-3fc7b26d22ee Hackebein] (any), a VRChat Wiki Maintainer, a VRChat Crowdin Proofreader, a Aerial Hoop (Lyra) dancer, a Pole dancer, ...
+[https://vrchat.com/home/user/usr_40be82e7-f7d5-4548-b314-3fc7b26d22ee Hackebein] (any). VRChat Wiki maintainer, Crowdin proofreader, aerial hoop (lyra) and pole dancer, occasional reason for a hotfix.
+
+I collect data wherever I can reach it, build pipelines that turn it into something useful, and automate anything I refuse to do twice. If it is broken, undocumented, or nobody else wanted to finish it, that is my kind of project.
+
+== Badges ==
+[[Badges]] I currently hold on my profile:
+* [[File:VRChat_Wiki_Contributor.png |frameless|32x32px|link=Badges]] [[Badges|VRChat Wiki Contributor]]
+* [[File:VRChatTranslatorBadge.png |frameless|32x32px|link=Badges]] [[Badges|VRChat Translator]]
+* [[File:Badge_Testers_T3.png|frameless|32x32px|link=Badges]] [[Badges|Community Tester (Top Contributor)]]
+* [[File:AccountAge_7.png|frameless|32x32px|link=Badges]] [[Badges|7 Years]]
+
+== VRChat Wiki ==
+I have been here since this wiki started and I am one of the maintainers on [[VRCWiki:Team]]. Full paper trail at [https://wiki.vrchat.com/wiki/Special:Contributions/Usr_40be82e7-f7d5-4548-b314-3fc7b26d22ee Special:Contributions].
+
+Edit count or line change count are bad metrics. A page written from scratch and a fixed typo both count as one edit. A rewrite eats an afternoon. A lot of my heavy lifting is template plumbing and translation units that never surface as prose. So here is what I actually work on:
+
+* '''Platform documentation''' — [[Getting Started]], [[Instances]], [[Groups]], [[Menus]], [[Social]], [[OSC]], [[Avatar Dynamics]], [[Items]], [[Badges]]. Several of them started on my keyboard.
+* '''German localization''' — my largest single share of edits. German page versions, and proofreading on Crowdin for VRChat itself.
+* '''Community tooling pages''' — [[Community:VRCX]], [[Community:Vrc-get]], [[Community:ALCOM]], [[Community:Manage VRChat]], [[VRC Quick Launcher]]. The tools everyone uses and nobody documents.
+* '''[[Community:Potentially Upcoming Features]]''' — my most edited page. Started as a dump for datamined and pre-announcement findings, then got renamed and restructured after a long argument about where that kind of information belongs.
+* '''Events and community pages''' — seasonal events, exhibitions, dance and photography, including [[Community:VRDancing]] and [[Community:VR Photography Exhibitions]].
+
+=== Automated contributions ===
+Not everything I contribute is typed by hand. I run bots on [https://vrchat.com/home/user/usr_bbbda87a-b179-41d3-bdcf-6fa732bd4c19 HackebeinsBot], the account the Music Truck project used in-game before it got a second job. Those edits are data feeds from other sources, so manual work stays reserved for things a bot cannot do yet. Public list at [https://wiki.vrchat.com/wiki/Special:Contributions/Usr_bbbda87a-b179-41d3-bdcf-6fa732bd4c19 Special:Contributions].
+
+The bot keeps VRChat data updated for:
+* World data pages behind the world infoboxes, including visits, favorites and heat values
+* The VPM package version summary and the per-package version templates
+* [[Template:Version|Client build metadata]] for Steam, Meta Quest, Pico Store, Google Play and Viveport
+* Creator tool versions for the [[VRChat Creator Companion]] and [[VRC Quick Launcher]]
+
+The same service can write marketplace shelves and paid avatar listing pages too. Those show up less often than the world and build syncs.
+
+=== Software I wrote for the wiki ===
+* [https://github.com/Hackebein/wiki.vrchat.com wiki.vrchat.com] — full MediaWiki to Git mirror. One commit per edit, resumable, bootstrapped from a snapshot. Built because I stopped being sure how freely readable this wiki would stay behind bot protection. Git history is cheap insurance.
+* [https://github.com/Hackebein/vrc-api2wiki vrc-api2wiki] — the service behind the bot above.
+* [https://github.com/Hackebein/VPMM-connector-VRCWiki VPMM-connector-VRCWiki] — bridge between VPM Manager and the wiki.
 
 == Projects ==
+=== VPM Manager ===
+The VPM ecosystem is decentralized by design: anyone can publish a listing. In practice that means a pile of repository URLs to maintain, transitive dependencies and removals nobody can follow, and paid assets travelling as loose <code>.unitypackage</code> files.
+
+[https://vpmm.dev VPM Manager] is my answer. One license-respecting catalog that aggregates public listings, free and paid, and mirrors the archives so a package survives its original host. Searchable from inside [[VRChat Creator Companion|VCC]] or [[Community:ALCOM|ALCOM]], with richer metadata on the site itself, dependency graphs included. My own listing domain <code>vpm.hackebein.dev</code> points at it and generates my listing page on its own.
+
+Publishing side is [https://github.com/Hackebein/hackebein.vpm.packager hackebein.vpm.packager], the Unity editor tool I package my own releases with.
+
+{{Contentbox/Asset/VPM
+| name=hackebein.vpm.packager
+| version=Latest version
+| status=maintained
+| github=Hackebein/hackebein.vpm.packager
+}}
+
 === Object Tracking ===
 [[File:Hackebein_object_tracking_wip.jpg|thumb|right|WIP screenshot of a tracker in VRChat]]
-Track your real-world objects and use them in VRChat. This could include items like cups, chairs, poles, aerial hoops (lyra), guitars, decks, pets, cameras, or even your entire room. Various communities are forming around these possibilities <ref>https://vrchat.com/home/group/grp_b9665434-bcce-4260-bbdc-ae3b7c48edf0 - TRACKD.6559</ref>.
+Track your real-world objects and bring them into VRChat, with any tracker SteamVR and OpenVR support. Cups, chairs, poles, aerial hoops (lyra), guitars, decks, pets, cameras, or your entire room. Communities are forming around exactly this <ref>https://vrchat.com/home/group/grp_b9665434-bcce-4260-bbdc-ae3b7c48edf0 - TRACKD.6559</ref>.
 
-This project began in mid-2022 with the goal of synchronizing the rotation of my pole inside VRChat with its real-world speed. Initially focused on a single-axis rotation, the project has since evolved to support full six degrees of freedom (6DoF). Some Demos can be found on my Social Media Channels like this [https://x.com/Hackebein/status/1817729114142343460 Demo]
+It began in mid-2022 with one goal: make my pole spin in VRChat at the speed it spins in my flat. One axis was enough for about a week. It now does full six degrees of freedom. Demos live on my social media, like this [https://x.com/Hackebein/status/1817729114142343460 one].
+
+It is also the rig behind my performance art. Aerial hoop, pole and swinging bench, in VR, on the same trackers.
+
+The desktop application ships on [https://store.steampowered.com/app/3140770 Steam] as an auto-updating build. The avatar side installs from my VPM listing. Companion packages cover an aerial hoop, a simple dance pole example and the tracking host.
 
 {{Contentbox/Asset/VPM
 | name=hackebein.objecttracking
 | version=Latest version
-| status=maintenance
-| github=Hackebein/Object-Tracking-Unitypackage
+| status=maintained
 }}
 
+=== Bug hunting and quality assurance ===
+I file bug reports and break things before you do. Not a hobby, it just happens when I touch software. I am part of the Community Testers program described on [[Quality Assurance]]. Next up is a GitHub runner driving one VR and three desktop clients at once, so world and avatar tests crash on a schedule instead of at random.
+
+I also run a scraper and search index over the [[VRChat Feedback]] boards:
+* [https://github.com/Hackebein/feedback.vrchat.com feedback.vrchat.com] — the scraper, the data, and everything else this project needs
+* [https://vrchat-canny.hackebein.dev vrchat-canny.hackebein.dev] — full-text search, push notifications and Canny integration
+
+=== VaOBS ===
+[https://github.com/Hackebein/VaOBS VaOBS] grabs the video playing inside VRChat and hands it to OBS as its own media source. Keep it on a separate track and shift the audio in post instead of fighting it live.
+
 === Citizen of VRChat ===
-It’s similar to an idle game but not confined to a single world. You earn points and unlocks based on your online activity and joinability. There are also bonus unlocks on special occasions like Christmas, New Year, Halloween, Valentine's Day, ... or when joining special events.
+An idle game that is not trapped in a single world. Points and unlocks for being online and joinable, with bonus unlocks on Christmas, New Year, Halloween, Valentine's Day and similar occasions, or for showing up at special events.
 
 ==== Associations ====
 * [https://vrchat.com/home/user/usr_e37487ce-3d37-4c3f-bbb5-06344418f5e6 CitizenofVRChat]
 * [https://vrc.group/VRCCIT.3881 Citizen of VRChat] - VRCCIT.3881
 
 === Your World ===
-Create your own persisting virtual world without needing to open Unity. Built collaboratively and add your personal touch with photos, videos, and holograms from your previous experiences in VRChat. Some unlocks will be related to "Citizen of VRChat".
+Your own persistent world without ever opening Unity. Built collaboratively, then decorated with photos, videos and holograms from wherever you have already been. Some unlocks tie back into Citizen of VRChat.
 
 === VRCRecords ===
-An automated service designed to capture instances or events in 4K resolution at 30FPS, aimed at creating video memories with dynamic camera movements. It includes features for live viewing/streaming via spout, NDI and rtsp. Making it suitable for streaming or VJ visuals. Future plans include self-hosting options and expanded functionality for use in video and movie production.
+Automated capture of instances and events in 4K at 30FPS, with camera movement instead of a headset on a tripod. Live out via Spout, NDI and RTSP, which makes it usable for streaming or VJ visuals. Self-hosting and a proper video and movie production path are on the list.
 
 ==== Associations ====
 * [https://vrchat.com/home/user/usr_228afb47-c6e5-4073-81db-070f3fd8597c VRCRecordsBlack]
@@ -37,29 +100,29 @@ An automated service designed to capture instances or events in 4K resolution at
 
 === Music Truck ===
 [[File:Hackebein music truck wip.png|thumb|right|WIP screenshot of the truck model]]
-An immersive in-game feature that allows you to create playlists collaboratively with friends and strangers, playing music within your instance as a separate user. This setup lets you control the music volume independently from user voices. The Music Truck also features a touchscreen interface for easy track searching and playlist management. Additionally, it offers the ability to paint a road on the ground and includes a system for attaching other trailers.
+Collaborative playlists with friends and strangers, played into your instance by a separate user, so music volume stops being welded to voice volume. Touchscreen for search and playlist management, a road you can paint on the ground, and a hitch for more trailers.
 
-Currently on hold due to the low audio quality of the mic output in VRChat.
+On hold. VRChat's mic output does not carry music well enough to be worth shipping.
 
 ==== Associations ====
-* [https://vrchat.com/home/user/usr_bbbda87a-b179-41d3-bdcf-6fa732bd4c19 HackesMusicBox]
+* [https://vrchat.com/home/user/usr_bbbda87a-b179-41d3-bdcf-6fa732bd4c19 HackebeinsBot]
 
 === Extended Groups Limit ===
-Dynamically adds and removes public groups to help focus on the important ones.
+Adds and removes public groups on the fly, so the list stays focused on the ones that matter right now.
 
 ==== Associations ====
 * [https://vrchat.com/home/user/usr_0c2817f3-64e7-4294-8d2b-922ef1dfebcc Hackebein 9999]
 
 == Alt accounts ==
-An incomplete list of alternative accounts
+An incomplete list. I lose track too.
 * [https://vrchat.com/home/user/usr_e32fb58b-b552-4cc7-955c-e2cdaa79556f Mettbein]
 
 === Abandoned accounts ===
-A list of accounts without active use
+Accounts that do nothing anymore.
 * [https://vrchat.com/home/user/usr_a6098913-4498-45d0-a201-3b59d566dc6f DiscordBot]
 
 == Communities ==
-A list of Communities you can find Hackebein around.
+Where you can run into me.
 
 === Own Communities ===
 * [https://vrchat.com/home/group/grp_ad35dfdd-32e6-4b44-9a8a-a01e3a3d9b99 Hackebein] - HACKY.9999
@@ -69,7 +132,7 @@ A list of Communities you can find Hackebein around.
 * [[Community:VRDancing|VRDancing]]
 
 === Social Eating ===
-Non is public, sorry
+None public, sorry.
 
 === Music Communities ===
 * [https://vrchat.com/home/group/grp_77b7d4d3-64b8-4008-aced-576fb0713e26 CONCRETE] - CONK.7570
@@ -81,9 +144,14 @@ Non is public, sorry
 * [https://vrchat.com/home/group/grp_a9acc75d-01cc-4388-bb04-f60049dbdb29 Terkoiz N Friends] - TNFRDZ.9139
 
 == Links ==
+* [https://hackebein.de hackebein.de]
 * [https://discord.gg/AqCwGqqQmW Hackebein's Research Lab] at discord.com
-* [https://x.com/Hackebein X/Twitter]
+* [https://github.com/Hackebein GitHub]
 * [https://bsky.app/profile/hackebe.in Bsky]
+* [https://x.com/Hackebein X/Twitter]
+* [https://t.me/Hackebein Telegram]
+* [https://www.patreon.com/hackebein Patreon]
+* [https://hackebein.de/gpg.asc PGP key] - DE68 1625 8EC5 0065 7141 3536 358C F569 8DDD 556E
 
 == References ==
 <references />
