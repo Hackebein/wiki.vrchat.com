@@ -266,7 +266,7 @@ Select the color filter you would like to apply<br>
 '''[Tritanopia]''' Blue / Yellow Filter<br>
 '''[Grayscale]''' Monochrome Filter<br>
 '''[Retro LUT]''' I Live In The Past Filter<br>
-'''[Dog]''' Dog Filter</translate> {{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}
+'''[Dog]''' Dog Filter</translate>
 |-
 |<translate><!--T:144--> Simulate Color Blindness</translate>
 |<translate><!--T:145--> On/Off</translate>
@@ -1207,10 +1207,6 @@ Change how tooltips on interactive objects in the world appear.
 |<translate><!--T:673--> On/Off</translate>
 |<translate><!--T:674--> Show a small dot in the center of the view</translate>
 |-
-|<translate><!--T:1178--> Right-click Laser Selection</translate> {{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}
-|<translate><!--T:1179--> On/Off</translate>
-|<translate><!--T:1180--> Right-click to select users and objects without opening menus. Disable if it interferes with world interactions.</translate>
-|-
 |<translate><!--T:675--> Show Go Button On Load</translate>
 |<translate><!--T:676--> On/Off</translate>
 |<translate><!--T:677--> Show a "Go!" button before entering the world when it's ready</translate>
@@ -1296,14 +1292,6 @@ Shows [tiny/small/normal/medium/large] nameplates</translate>
 |<translate><!--T:721--> Show Additional Info on Nameplates</translate>
 |<translate><!--T:722--> On/Off</translate>
 |<translate><!--T:723--> Show Additional Info is [enabled/disabled], click to [stop showing/show] expanded information on nameplates when the Quick Menu is open</translate>
-|-
-|<translate><!--T:724--> Show Fallback Icon</translate>
-|<translate><!--T:725--> On/Off</translate>
-|<translate><!--T:726--> Fallback icon is [enabled/disabled], click to [disable/enable] the Fallback icon on nameplates</translate>
-|-
-|<translate><!--T:727--> Show Earmuffs Icon</translate>
-|<translate><!--T:728--> On/Off</translate>
-|<translate><!--T:729--> Toggle show earmuffs icon.</translate>
 |}
 
 <translate>
@@ -1889,7 +1877,7 @@ Select the color filter you would like to apply<br>
 '''[Tritanopia]''' Blue / Yellow Filter<br>
 '''[Grayscale]''' Monochrome Filter<br>
 '''[Retro LUT]''' I Live In The Past Filter<br>
-'''[Dog]''' Dog Filter</translate> {{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}
+'''[Dog]''' Dog Filter</translate>
 |-
 |<translate><!--T:1064--> Simulate Color Blindness</translate>
 |<translate><!--T:1065--> On/Off</translate>
@@ -2095,7 +2083,10 @@ All locally cached textures will be deleted.</translate>
 ! colspan="2" style="width: 20%;" |<translate><!--T:1170--> Version</translate>
 !<translate><!--T:1171--> Change</translate>
 |-
-| rowspan="2" |[https://docs.vrchat.com/docs/vrchat-202623-openbeta 2026.3.1]
+| rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202631 2026.3.1]
+|[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1880]
+|<translate>Removed "Right-click Laser Selection", "Show Fallback Icon", "Show Earmuffs Icon" settings.</translate>
+|-
 |[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1879]
 |<translate><!--T:1181--> Added Chatbox Position "Below" setting.</translate>
 |-
