@@ -1,7 +1,7 @@
 <onlyinclude>{{#switch: {{lc:{{{1|}}}}}
 <!-- Set upcoming versions to a blank value if no versions are in development.-->
 <!-- CLIENT --> 
- | live-mainpage = 2026.2.3 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
+ | live-mainpage = 2026.3.1 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
  | live = {{ClientBuild/windows/version}} <!-- Put the highest value of either windows, android or ios here. -->
  | live-windows = {{ClientBuild/windows/version}}
  | live-android-quest = {{ClientBuild/android-quest/version}}
