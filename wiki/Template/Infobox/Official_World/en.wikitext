@@ -18,8 +18,8 @@
     </group>
     <group>
         <header>Statistics</header>
-        <data><label>Visits</label><default>{{#ifexist:Template:World/{{{id}}}/visits|{{formatnum:{{World/{{{id}}}/visits}}}}}}</default></data>
-        <data><label>Favorites</label><default>{{#ifexist:Template:World/{{{id}}}/favorites|{{formatnum:{{World/{{{id}}}/favorites}}}}}}</default></data>
+        <data><label>Visits</label><default>{{#ifexist:Template:World/{{{id}}}/visits|{{World/{{{id}}}/visits}}}}</default></data>
+        <data><label>Favorites</label><default>{{#ifexist:Template:World/{{{id}}}/favorites|{{World/{{{id}}}/favorites}}}}</default></data>
         <data><label>Popularity</label><default>{{#ifexist:Template:World/{{{id}}}/popularity|{{#switch:{{World/{{{id}}}/popularity}}|0=|1=❤️|2=❤️❤️|3=❤️❤️❤️|4=❤️❤️❤️❤️|5=❤️❤️❤️❤️❤️|6=❤️❤️❤️❤️❤️❤️|7=❤️❤️❤️❤️❤️❤️❤️|8=❤️❤️❤️❤️❤️❤️❤️❤️|9=❤️❤️❤️❤️❤️❤️❤️❤️❤️|10=❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️}}}}</default></data>
         <data><label>Heat</label><default>{{#ifexist:Template:World/{{{id}}}/heat|{{#switch:{{World/{{{id}}}/heat}}|0=|1=🔥|2=🔥🔥|3=🔥🔥🔥|4=🔥🔥🔥🔥|5=🔥🔥🔥🔥🔥|6=🔥🔥🔥🔥🔥🔥|7=🔥🔥🔥🔥🔥🔥🔥|8=🔥🔥🔥🔥🔥🔥🔥🔥|9=🔥🔥🔥🔥🔥🔥🔥🔥🔥|10=🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥}}}}</default></data>
     </group>
