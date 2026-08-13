@@ -239,7 +239,7 @@ These options can be found in the [[Special:MyLanguage/Quick Menu|Quick Menu]], 
 '''[Tritanopia]''' Blue / Yellow Filter<br>
 '''[Grayscale]''' Monochrome Filter<br>
 '''[Retro LUT]''' I Live In The Past Filter<br>
-'''[Dog]''' Dog Filter {{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}
+'''[Dog]''' Dog Filter
 |-
 |Simulate Color Blindness
 |On/Off
@@ -1089,10 +1089,6 @@ Enable or disable limit.
 |On/Off
 |Show a small dot in the center of the view
 |-
-|Right-click Laser Selection {{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}
-|On/Off
-|Right-click to select users and objects without opening menus. Disable if it interferes with world interactions.
-|-
 |Show Go Button On Load
 |On/Off
 |Show a "Go!" button before entering the world when it's ready
@@ -1171,14 +1167,6 @@ Shows [tiny/small/normal/medium/large] nameplates
 |Show Additional Info on Nameplates
 |On/Off
 |Show Additional Info is [enabled/disabled], click to [stop showing/show] expanded information on nameplates when the Quick Menu is open
-|-
-|Show Fallback Icon
-|On/Off
-|Fallback icon is [enabled/disabled], click to [disable/enable] the Fallback icon on nameplates
-|-
-|Show Earmuffs Icon
-|On/Off
-|Toggle show earmuffs icon.
 |}
 
 ==== HUD ====
@@ -1716,7 +1704,7 @@ Adjustment arrows for User Real hight increment in inches instead of cm
 '''[Tritanopia]''' Blue / Yellow Filter<br>
 '''[Grayscale]''' Monochrome Filter<br>
 '''[Retro LUT]''' I Live In The Past Filter<br>
-'''[Dog]''' Dog Filter {{Upcoming_inline|2026.3.1|docs.vrchat.com/docs/vrchat-202623-openbeta}}
+'''[Dog]''' Dog Filter
 |-
 |Simulate Color Blindness
 |On/Off
@@ -1896,7 +1884,10 @@ All locally cached textures will be deleted.
 ! colspan="2" style="width: 20%;" |Version
 !Change
 |-
-| rowspan="2" |[https://docs.vrchat.com/docs/vrchat-202623-openbeta 2026.3.1]
+| rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202631 2026.3.1]
+|[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1880]
+|Removed "Right-click Laser Selection", "Show Fallback Icon", "Show Earmuffs Icon" settings.
+|-
 |[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1879]
 |Added Chatbox Position "Below" setting.
 |-
