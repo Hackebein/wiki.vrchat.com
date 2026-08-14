@@ -34,10 +34,6 @@ These are [[badges]] that have been discovered.
 
 A native Android build of VRChat is available on Steam's public branch. Steam lists an Android depot and an OpenXR APK for the build as of {{Date|2026-07-24}}.<ref name="SteamDBAndroidSteamOS2026-07">[https://steamdb.info/app/438100/history/?changeid=37514799 App history change 37514799] on ''steamdb.info''; retrieved July 25, 2026.</ref> The build is tracked as {{Version|live-android-steamos}} (build {{Version/Build|live-android-steamos}}).<ref name="SteamDBAndroidSteamOS2026-07" />
 
-=== Profile and nameplate customization ===
-
-Profile decoration options have been discovered, including icon frames, profile effects, and banners. Banners may use a custom image or a solid color specified as a hex RGB value. Nameplate effects have also been observed. Decorations can potentially be purchased in the [[Shop]] later.
-
 === Language of an Instance ===
 
 Estimations on the spoken languages of an [[Instances|instance]] is available via API since end of March.
@@ -61,8 +57,6 @@ These are features that have been talked about or shared publicly by VRChat staf
 A long-running request proposes a replacement world character controller with better moving platform support, smoother stairs and slopes, improved unstuck behavior, collider push interaction, and broader Udon control.<ref name="CannyNewCharacterController">[https://feedback.vrchat.com/udon/p/new-character-controller-for-worlds "New Character Controller for Worlds"] on ''feedback.vrchat.com''; posted April 30, 2024; retrieved March 14, 2026.</ref>
 
 The thread is currently marked ''interested''. A staff update on the post says work is currently halted while other projects are prioritized, with a note that updates will be shared if the item re-enters the roadmap.<ref name="CannyNewCharacterController" />
-
-In March 2026 community discussion, a former VRChat employee allegedly involved with this work claimed they were the only person assigned to it before early-2025 layoffs, and that the feature had been close to shipping.
 
 In April 2026, VRChat employee Sai confirmed on X that the new character controller remains "on the back burner" with no ETA and is not currently being worked on.<ref name="SaiXPost">[https://x.com/Sairenix/status/2042786856899629187 Post] on ''x.com''; posted April 11, 2026; retrieved April 12, 2026.</ref>
 
@@ -94,6 +88,8 @@ In a June 2026 update, VRChat stated it intends to build [[Groups]] that require
 
 VRChat stated it is experimenting with a system aimed at reducing toxicity and bad behavior in public instances, which it described as one of the longest-running complaints about the platform. It framed this as part of a broader Trust & Safety effort that also includes growing investment, reducing the time between a report being filed and action being taken, and building systems intended to reduce harm rather than only react to it. VRChat distinguished this conduct-focused work from content tools such as [[Content Gating]], which can hide an avatar or world but cannot address how people behave. VRChat said it planned a dedicated post in July 2026 covering how the system works, how it was designed, and how the experiment would run, including how users could take part.<ref name="SafetyUpdate2026" />
 
+On {{Date|2026-07-30}}, Tupper said the system had been delayed after effort shifted to related priorities on the Trust & Safety team's internal roadmap, with no current ETA. He said the community would still be informed well in advance of testing.<ref name="TupperPublicInstance2026-07-30">[https://ask.vrchat.com/t/developer-update-30-july-2026/48750/17 Reply] by Tupper on ''ask.vrchat.com''; posted July 30, 2026; retrieved August 13, 2026.</ref>
+
 === OSC: Output for Haptics ===
 
 A milestone created in 2022 on the VRChat Community OSC GitHub repository proposes streaming OSC data representing touches or collisions with avatars to interface with haptic devices.<ref name="osc-milestones">[https://github.com/vrchat-community/osc/milestones Milestones] on ''github.com/vrchat-community/osc''; retrieved April 6, 2026.</ref>
@@ -104,16 +100,57 @@ A milestone created in 2022 on the VRChat Community OSC GitHub repository plans 
 
 === Render pipeline migration (URP) ===
 
-Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. As of March 2026, no official release announcement or Open Beta plan has been published by VRChat for a migration of this scope.
-Recent VRChat staff commentary only indicates long-term internal planning tied to BiRP deprecation, without concrete deliverables or timelines.
+Community discussion periodically suggests migrating VRChat from Unity's Built-in Render Pipeline (BiRP) to URP or HDRP. No official release announcement or Open Beta plan has been published for a migration of this scope.
 
 In a Unity forum thread on render pipeline strategy, a Unity staff member said Unity hoped to share more details during the year on "how we are migrating one of the largest UGC platforms to URP".<ref name="UnityURP2026">[https://discussions.unity.com/t/render-pipelines-strategy-for-2026/1710004/206 Post] on ''discussions.unity.com''; posted February 27, 2026; retrieved June 25, 2026.</ref> The platform was not named, but was a reply to questions about VRChat.
 
-=== Platform-wide streamed event ===
+=== Moonchaser ===
 
-On June 22, 2026, VRChat opened a public interest check for performers and venues for a planned large, platform-wide event.<ref name="VRChatMusicInterestBsky">[https://bsky.app/profile/vrchat.com/post/3movpjgim422n "Music Performance Interest"] post on ''bsky.app''; posted June 22, 2026; retrieved June 22, 2026.</ref> According to the application form, the event would be officially promoted across VRChat's social media, video, and in-app discovery, and "broadcast beyond standard instances using streaming tech".<ref name="VRChatEventForm">[https://forms.gle/sgGRLYr6XAqhv5K89 "VRChat Event — Performer & Venue Interest"] application form on ''forms.gle''; retrieved June 22, 2026.</ref>
+On {{Date|2026-06-22}}, VRChat opened a public interest check for performers and venues for a planned large, platform-wide event.<ref name="VRChatMusicInterestBsky">[https://bsky.app/profile/vrchat.com/post/3movpjgim422n "Music Performance Interest"] post on ''bsky.app''; posted June 22, 2026; retrieved June 22, 2026.</ref> According to the application form, the event would be officially promoted across VRChat's social media, video, and in-app discovery, and "broadcast beyond standard instances using streaming tech".<ref name="VRChatEventForm">[https://forms.gle/sgGRLYr6XAqhv5K89 "VRChat Event — Performer & Venue Interest"] application form on ''forms.gle''; retrieved June 22, 2026.</ref>
 
-The interest form had described timing as still in flux, with a first event likely about one hour and pre-recorded, targeting late August or November 2026.<ref name="VRChatEventForm" /> On {{Date|2026-08-07}}, a VRChat Shop post for the EDM Bundle (available until {{Date|2026-10-09}}) included a promotional video that presents the event date as {{Date|2026-08-28}}.<ref name="VRChatEDMBundleX">[https://x.com/VRChat/status/2085833362959126610 Post] on ''x.com''; posted August 7, 2026; retrieved August 8, 2026.</ref>
+The interest form had described timing as still in flux, with a first event likely about one hour and pre-recorded, targeting late August or November 2026.<ref name="VRChatEventForm" /> The {{Date|2026-07-30}} Developer Update referred to an unnamed event around August's lunar eclipse.<ref name="DU2026-07-30">[https://ask.vrchat.com/t/developer-update-30-july-2026/48750 "Developer Update - 30 July 2026"] on ''ask.vrchat.com''; dated July 30, 2026; retrieved August 13, 2026.</ref> On {{Date|2026-08-07}}, a VRChat Shop post for the EDM Bundle (available until {{Date|2026-10-09}}) included a promotional video that presents the event date as {{Date|2026-08-28}}.<ref name="VRChatEDMBundleX">[https://x.com/VRChat/status/2085833362959126610 Post] on ''x.com''; posted August 7, 2026; retrieved August 8, 2026.</ref> On {{Date|2026-08-13}}, VRChat named the event Moonchaser and said it would be hosted on {{Date|2026-08-28}}.<ref name="DU2026-08-13">[https://ask.vrchat.com/t/developer-update-13-august-2026/48800 "Developer Update - 13 August 2026"] on ''ask.vrchat.com''; dated August 13, 2026; retrieved August 13, 2026.</ref>
+
+=== Image paste into inventory media ===
+
+A {{Date|2026-07-16}} Developer Update described a forthcoming way to paste JPG, PNG, or clipboard images into VRChat as [[Prints]], [[Inventory#User Icons|user icons]], [[Stickers]], and [[Emojis]]. An image can be pasted as raw data, pasted as a file, or dragged and dropped. Stickers, user icons, and emojis are padded to a square with transparency by default; Prints keep their original shape. Portrait Prints are rotated automatically, with a separate control for further rotation. When the clipboard already holds image data, a Paste icon appears on the Quick Menu launch pad and does the same thing as Ctrl+V.<ref name="DU2026-07-16">[https://ask.vrchat.com/t/developer-update-16-july-2026/48702 "Developer Update - 16 July 2026"] on ''ask.vrchat.com''; dated July 16, 2026; retrieved August 13, 2026.</ref>
+
+=== Action Menu theme and quality of life ===
+
+The [[Action Menu]] is planned to use the user's configured UI theme colors, which VRChat described as a long-standing community request. The Tools menu is also planned to gain optional long-press actions for secondary functions, such as opening a related settings page, while single-press paths stay in place.
+
+The same update described a cleanup of the Options tab: dropping Close Menu and, originally, Mic Toggle, to make room for moving Face Mirror out of the Personal Mirror menu. Mirror menus are being reorganized so their options can be edited while the mirrors are closed, and personal mirror presets are being added. Calibration Mirror stays in Main Menu settings and is turned on by default for new full-body tracking users.<ref name="DU2026-07-16" />
+
+After feedback, the {{Date|2026-07-30}} Developer Update kept the microphone toggle.<ref name="DU2026-07-30" />
+
+=== Group Nameplate Banner ===
+
+Group management on the website is planned to gain a Group Nameplate Banner, a separate image from the existing group banner and used only on the group's nameplate. Groups that do not upload one keep using the existing banner. The upload flow includes a template.
+
+Two crop modes were described. Bottom-left Anchored pins the image's bottom-left corner so that a longer nameplate reveals more of the image without changing its scale. Centered scales the image to cover the banner, keeping a marked center square always visible while the rest can crop as the nameplate grows or shrinks.<ref name="DU2026-07-30" />
+
+=== Custom nameplate banners without a group ===
+
+VRChat also planned custom nameplate banners that can be uploaded individually, including by users who are not in a [[Groups|group]]. That change is scheduled to follow shortly after the 2026.3.1 launch rather than ship on day one.<ref name="DU2026-07-30" />
+
+=== Udon update ===
+
+An upcoming [[Udon]] update is planned to add native APIs so world objects can face the local player or follow a humanoid avatar bone without per-frame update loops, which VRChat described as expensive. Both APIs are subject to change until release.<ref name="DU2026-08-13" />
+
+Native billboarding registers a transform with <code>VRCBillboard.Register</code> and removes it with <code>VRCBillboard.Unregister</code>. The default register call tracks yaw only; an overload with <code>allowTilt</code> also tracks pitch.
+
+Attaching a transform to a bone currently requires moving and rotating the object every frame. Native <code>AttachTransformToBone</code> and <code>DetachTransformFromBone</code> methods are planned so that tracking is handled after a one-time attach.
+
+=== Advanced contact proximity parameters ===
+
+When a [[Avatar Dynamics#Contacts|contact]] receiver is hit by a sender with at least one matching tag, it can already generate a proximity parameter that indicates how close the sender is. An upcoming SDK update is planned to add further parameters.
+
+The extra parameters include the sender type, the local midpoint of the sender relative to the receiver, velocity and speed, the rate at which proximity is changing, and up to 16 boolean parameters for tags the sender shares with the receiver. If several senders contact the same receiver, the values represent the sender with the highest proximity. VRChat said the additions follow community feedback and are intended to replace workarounds used to derive the same information.<ref name="DU2026-08-13" />
+
+=== Soba ===
+
+[[Soba]] remains in development toward a Closed Beta. VRChat described the language itself as "in good shape." The largest implemented change relative to [[Udon]] is non-behavior classes: plain classes that do not inherit from a behavior, whereas in Udon every piece of code must live on an UdonBehaviour. Also implemented are structs, interfaces, custom interfaces, static variables, nested types, and exception logs with a full stack trace of user code.
+
+Remaining work includes confirming that implemented behavior works in a real client, plus test coverage, editor tooling, validation, error messages, and documentation. VRChat did not give a Closed Beta date, saying it would rather under-promise after a March 2026 update that described the team as "hard at work" and then stretched five more months. Soba is designed to sit alongside Udon, not replace it.<ref name="DU2026-08-13" />
 
 == In testing ==
 
