@@ -1,234 +1,263 @@
 <languages/>
-{{Noticebox/Community}}VRChatへの安定した接続を維持する上で生じる[[Special:MyLanguage/Troubleshooting|問題]]を解決するための対策がいくつかあります。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This guide covers [[Special:MyLanguage/Troubleshooting|connection issues]] with [[Special:MyLanguage/VRChat|VRChat]]. Connecting to VRChat requires a reliable path to Cloudflare, AWS CloudFront, and Photon Engine.<ref name="vrc-conn">{{VRC link|https://help.vrchat.com/hc/en-us/articles/360062658433-Troubleshooting-Connection-Issues-with-VRChat|Troubleshooting Connection Issues with VRChat}} on ''help.vrchat.com''.</ref> Check VRChat's official status outlets before changing local network settings.
+</div>
 
-== 用語集 ==
-このガイドにはコンピュータ用語が含まれており、以下の略語が頻繁に言及されます。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Glossary ==
+This guide uses the following terms:
+</div>
 
-* '''DNS''' - ドメインネームシステム：デバイスを特定し、ウェブサイトのIPアドレスに接続するプロトコル。
-* '''EDNS ECS''' - DNSクライアントサブネット拡張メカニズム：再帰DNSリゾルバが部分的なクライアントIPアドレス情報を権威DNSネームサーバーに送信するための仕組み。
-* '''IP''' - インターネットプロトコルアドレス：お使いのデバイスのインターネット接続に関連付けられたアドレスであり、ウェブサイトなどのネットワーク上でお使いのデバイスを特定します。
-* '''ISP（インターネットサービスプロバイダ）''' - デバイスをインターネットに接続させる会社。例：Comcast、Virgin、NTTドコモ　等
-* '''OS''' - オペレーティングシステム　例：Windows、MacOS、iOS、Android　等
-* '''Upstream Provider''' - プラットフォームのインフラストラクチャを支援するサービス。この場合はVRChatを指す。
-* '''VPN（仮想プライベートネットワーク）''' - 異なるIPアドレスを用いた「トンネリング」方式により、接続を暗号化または保護するソフトウェア。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''DNS''' — Domain Name System: a protocol that resolves a domain name to an IP address.
+* '''IP''' — Internet Protocol address: an address that identifies a device on a network.
+* '''ISP''' — Internet Service Provider: a company that provides Internet access. Examples include Comcast, Virgin, and NTT Docomo.
+* '''OS''' — Operating System.
+* '''Upstream provider''' — a third-party service that VRChat depends on for part of its infrastructure.
+* '''VPN''' — Virtual Private Network: software that routes traffic through another network, often changing the apparent IP address.
+</div>
 
-== 公式VRChat情報源を確認する ==
-VRChatでは、サーバーの不具合や停止が公式に確認されたかどうかをユーザーが確認できる情報源を提供しています。 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Check official outlets ==
+VRChat publishes confirmed instabilities and outages through the following outlets.
+</div>
 
-ウェブ：
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On the web:
+</div>
 
-* https://status.vrchat.com/
-* https://x.com/VRChat_Status
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* {{VRC link|https://status.vrchat.com|status.vrchat.com}}
+* [https://x.com/VRChat_Status @VRChat_Status] on X
+</div>
 
-Discord上で：
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On Discord:
+</div>
 
-* https://discord.com/channels/189511567539306508/400375734423781379
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [https://discord.com/channels/189511567539306508/400375734423781379 VRChat support channel] on VRChat's [[Special:MyLanguage/Discord servers|Discord servers]]
+</div>
 
-=== 上流プロバイダー ===
-さらに、VRChatにはサインイン、アカウント認証、サーバーの安定性に影響を与える複数の「上流プロバイダー」が存在します。
-「上流プロバイダー」とは、VRChatのサービスに必要な基盤的な機能やデータを提供する外部サービスやシステムのことを指します。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Help articles for connection, firewall, ports, uploads, and downloads are listed under [[#Official resources]].
+</div>
 
-==== アカウント認証 ====
-これらの上流プロバイダーは、あなたの「[[Special:MyLanguage/Platforms|プラットフォーム]] [[Special:MyLanguage/VRChat account|アカウント]]」に紐づくアカウントデータ、および各アプリケーションストアからホストされるゲームデータを扱います。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Upstream providers ===
+VRChat depends on several upstream providers for account authorization, [[Special:MyLanguage/Instances|instance]] hosting, and purchases. Outages or maintenance on those services can affect sign-in, instances, and the [[Special:MyLanguage/Creator Economy|Creator Economy]]. For Photon regions, Thunes, and related providers, see [[Special:MyLanguage/Community:Server infrastructure|Server infrastructure]].
+</div>
 
-* Meta
-* Steam
-* Google
-* PICO
-* Viveport
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Unstable connection ==
+If the status outlets above do not show an incident, some users change DNS, prefer IPv4 over IPv6, or use Cloudflare WARP. This guide treats DNS as the first local change. Disabling IPv6 is not recommended on Windows, and it can remove Internet access on IPv6-only ISPs.<ref name="ms-ipv6">[https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/configure-ipv6-in-windows Configure IPv6 for advanced users] on ''learn.microsoft.com''.</ref>
+</div>
 
-==== インスタンスホスティング ====
-VRChatはPhotonを介して4つの異なるサーバーに[[Special:MyLanguage/Instances|インスタンス]]を分散配置しており、そのうち1つは独自のリージョンに紐付けられています。サーバーのメンテナンスが必要な場合があり、その際はリージョンが一時的に不安定になることがあります。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Configure DNS ===
+Write down the current DNS addresses before changing them, so the previous settings can be restored.<ref name="google-dns">[https://developers.google.com/speed/public-dns/docs/using Get Started with Google Public DNS] on ''developers.google.com''.</ref> This section uses [https://one.one.one.one/ Cloudflare 1.1.1.1] as the example. Set '''1.1.1.1''' as the preferred IPv4 resolver and '''1.0.0.1''' as the alternate.<ref name="cf-ips">[https://developers.cloudflare.com/1.1.1.1/ip-addresses/ IP addresses] on ''developers.cloudflare.com''.</ref> If the connection has IPv6, set that same provider's IPv6 DNS addresses as well. Do not mix one provider's IPv4 addresses with another provider's IPv6 addresses.
+</div>
 
-* Photon Engine
-** 米国西部
-** 米国東部
-** ヨーロッパ
-** 日本
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On IPv6-only networks, use the provider's IPv6 DNS addresses. Cloudflare and Google both publish IPv6 resolver addresses.<ref name="cf-ips" /><ref name="google-dns" />
+</div>
 
-==== クリエイターエコノミーと購入 ====
-VRChatの[[Special:MyLanguage/Creator Economy|Creator Economy]]は、ユーザーとベンダー間の取引を処理し、購入情報を検証するためにTiliaサービスに依存しています。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Use first-party setup pages. VPN or security apps sometimes document their own resolver addresses; use those only if you mean to use that vendor's DNS. Otherwise use Cloudflare, Google, or another provider from the table below.
+</div>
 
-* Thunes（旧Tilia）
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Windows: [https://developers.cloudflare.com/1.1.1.1/setup/windows/ Set up 1.1.1.1 on Windows] on ''developers.cloudflare.com''; [https://support.microsoft.com/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9 Essential network settings and tasks in Windows] on ''support.microsoft.com''
+* macOS: [https://developers.cloudflare.com/1.1.1.1/setup/macos/ Set up 1.1.1.1 on macOS] on ''developers.cloudflare.com''; [https://support.apple.com/guide/mac-help/change-dns-settings-on-mac-mh14127/mac Change DNS settings on Mac] on ''support.apple.com''
+* Linux: [https://developers.cloudflare.com/1.1.1.1/setup/linux/ Set up 1.1.1.1 on Linux] on ''developers.cloudflare.com''; [https://developers.google.com/speed/public-dns/docs/using Get Started with Google Public DNS] on ''developers.google.com''
+</div>
 
-==不安定な接続==
-ISPによる限定的なIPv6サポート
-
-===オプション1 - VPNトンネルの使用===
-接続に問題がある場合、VPNトンネルを利用して接続を安定させることをお勧めします。
-
-ただし、IPアドレスを隠蔽したり仮想的な地理的位置を変更するVPNを使用すると、エラーが発生したり頻繁にログアウトされる可能性があることにご注意ください。
-
-# [https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/ CloudflareのWARP]は、Cloudflareのサーバーを利用して接続を安定化させ、通信を暗号化するVPNトンネルです。VRChatでの接続問題の改善に役立つ可能性があります。
-## [https://developers.cloudflare.com/1.1.1.1/setup/ 1.1.1.1 by Cloudflare] は、WARPにバンドルされた代替DNSリゾルバーです。デバイスのトラフィックの一部を暗号化することで、セキュリティとプライバシーを保護するように設計されています。
-
-===オプション 2 - DNS サーバーの設定（英語資料のみ）===
-
-*'''Windows10''': https://docs.quad9.net/Setup_Guides/Windows/Windows_10/
-*'''Windows11''': https://docs.quad9.net/Setup_Guides/Windows/Windows_11_%28Encrypted%29/
-*'''Mac''': https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/
-*'''Linux''': https://docs.quad9.net/Setup_Guides/Linux_and_BSD/Ubuntu_22.04_%28Encrypted%29/
-
-上記のDNS設定ガイドでは、デフォルトで「Quad9」DNSサーバーに接続するIPアドレスが使用されます。
-代わりに、提供されているCloudflareのIPアドレスを使用してください。
-
-'''IPv4とIPv6の両方の設定を行う必要があります。そうすれば問題なく動作します。'''
-<syntaxhighlight lang="bbcode" line="1">
-<IPv4>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Cloudflare 1.1.1.1 addresses:<ref name="cf-ips" />
+<syntaxhighlight lang="text">
+IPv4
 1.1.1.1
 1.0.0.1
+</div>
 
-<IPv6>
-2001:4860:4860::8888
-2001:4860:4860::8844
+<div lang="en" dir="ltr" class="mw-content-ltr">
+IPv6
+2606:4700:4700::1111
+2606:4700:4700::1001
 </syntaxhighlight>
+</div>
 
-'''1.1.1.1'''（サーバー1）を優先アドレスとして設定し、'''1.0.0.1'''（サーバー2）を代替アドレスとして設定してください。
-
-ただし、以下の他のDNSオプションも使用可能です。
-
-DNSプロバイダーは任意に選択でき、Cloudflareに限定されるものではありません。
-
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Other public DNS providers can be used instead of Cloudflare:
+</div>
 {| class="wikitable"
-|+
 |-
 !プロバイダー!!IPv4 Server!!IPv6 Server
-!IPv4 Server (EDNS ECS)!!IPv6 Server(EDNS ECS)
 |-
 |[https://developers.google.com/speed/public-dns Google]||8.8.8.8
 8.8.4.4
 |2001:4860:4860::8888
 2001:4860:4860::8844
-|デフォルトでサポートされています。
-|デフォルトでサポートされています。
 |-
-|[https://controld.com/free-dns Control D]||76.76.2.0
+|[https://docs.controld.com/docs/free-dns Control D]||76.76.2.0
 76.76.10.0
 |2606:1a40::
 2606:1a40:1::
-|非対応
-|非対応
 |-
 |[https://www.quad9.net/service/service-addresses-and-features/ Quad9]||9.9.9.9
 149.112.112.112
 |2620:fe::fe
 2620:fe::9
-|9.9.9.11
-149.112.112.11
-|
-2620:fe::11
-
-2620:fe::fe:11
 |-
 |[https://www.opendns.com/setupguide/ OpenDNS Home]||208.67.222.222
 208.67.220.220
-|
-2620:119:35::35
-
-2620:119:53::53
-|デフォルトでサポートされています。
-|デフォルトでサポートされています。
+| —
 |-
-|[https://one.one.one.one/dns/ Cloudflare]||1.1.1.1
+|[https://developers.cloudflare.com/1.1.1.1/ip-addresses/ Cloudflare]||1.1.1.1
 1.0.0.1
 |2606:4700:4700::1111
 2606:4700:4700::1001
-|非対応
-|非対応
 |-
 |[https://adguard-dns.io/en/public-dns.html AdGuard DNS]||94.140.14.14
 94.140.15.15
 |2a10:50c0::ad1:ff
-
 2a10:50c0::ad2:ff
-|デフォルトでサポートされています。
-|デフォルトでサポートされています。
 |-
-|[https://cleanbrowsing.org/filters/ CleanBrowsing]||185.228.168.9
+|[https://cleanbrowsing.org/filters/ CleanBrowsing Security]||185.228.168.9
 185.228.169.9
-|2a0d:2a00:1::
-
-2a0d:2a00:2:: 
-|非対応
-|非対応
+|2a0d:2a00:1::2
+2a0d:2a00:2::2
 |}
-Source: https://www.lifewire.com/free-and-public-dns-servers-2626062
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Prefer IPv4 over IPv6 on Windows ===
+Microsoft does not recommend disabling IPv6, unbinding IPv6 from interfaces, or disabling IPv6 components. Microsoft recommends preferring IPv4 over IPv6 in prefix policies instead, by setting the <code>DisabledComponents</code> registry value to decimal 32 (<code>0x20</code>).<ref name="ms-ipv6" /> This option may not work if the ISP no longer offers IPv4.
+</div>
 
-EDNS ECSは従来のDNSサーバーよりも近いホストを提供するため、世界中にホストを配置する傾向にあるクラウドサービスプロバイダーにおいて、場合によっては利用しやすくなります。 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Microsoft warns that an incorrect registry change can cause serious problems. Back up the registry first, and restart the PC after the change.<ref name="ms-ipv6" />
+</div>
 
-参照: https://adguard-dns.io/en/blog/privacy-friendly-edns-client-subnet.html
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To prefer IPv4 on Windows:
+</div>
 
-=== オプション 3 - Windows で IPv4 を IPv6 より優先させる ===
-これにより、IPv6 を完全に無効化することなく、IPv4 の使用を優先します。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+# Open Command Prompt as administrator: press the Windows key, type <code>cmd</code>, then choose '''Run as administrator'''.
+# Run:
+<syntaxhighlight lang="text">
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters" /v DisabledComponents /t REG_DWORD /d 32 /f
+</syntaxhighlight>
+# Restart the PC.
+# Optional check: run <code>netsh interface ipv6 show prefixpolicies</code>. The <code>::ffff:0:0/96</code> prefix should have a higher precedence than <code>::/0</code>.<ref name="ms-ipv6" />
+</div>
 
-*ISP が IPv4 の提供を完全に停止している場合、このオプションは機能しない可能性があります。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To undo the change:
+</div>
 
-Windowsで有効にするには、
+<div lang="en" dir="ltr" class="mw-content-ltr">
+# Open Command Prompt as administrator again.
+# Run:
+<syntaxhighlight lang="text">
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters" /v DisabledComponents /t REG_DWORD /d 0 /f
+</syntaxhighlight>
+# Restart the PC.
+</div>
 
-* 「Windowsキー」を押しながら「cmd」と入力し、コマンドプロンプトを開きます。その後「管理者として実行」を選択します。
-* 「netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 100 4」と入力し、Enterキーを押します。
-* PCを再起動すると、IPv4が優先されるようになります。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Cloudflare WARP ===
+[https://one.one.one.one/ Cloudflare WARP] is a further option after DNS changes. Setup is documented in Cloudflare's [https://developers.cloudflare.com/warp-client/get-started/ WARP client get-started] guide.
+</div>
 
-IPv6優先度設定を無効にするには、
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat Help allows Cloudflare WARP as a last-resort VPN and states that some other VPNs may be blocked. Using a VPN may have legal limitations depending on local regulations.<ref name="vrc-crash">{{VRC link|https://help.vrchat.com/hc/en-us/articles/1500002247921-VRChat-keeps-crashing-or-has-issues-launching-properly|VRChat keeps crashing or has issues launching properly}} on ''help.vrchat.com''.</ref> VRChat Help also suggests trying Cloudflare WARP when content uploads hang because of ISP routing or throttling.<ref name="vrc-upload">{{VRC link|https://help.vrchat.com/hc/en-us/articles/1500002248501-I-m-stuck-on-building-or-uploading-content|I'm stuck on building or uploading content}} on ''help.vrchat.com''.</ref>
+</div>
 
-* 「Windowsキー」を押して「cmd」と入力し、「管理者として実行」を再度選択してコマンドプロンプトを再度開きます。
-* 「netsh interface ipv6 reset」と入力し、Enterキーを押します。
-* これにより、PCの再起動後にIPv4優先設定が元に戻ります。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Cloudflare documents two relevant modes:<ref name="cf-warp-modes">[https://developers.cloudflare.com/warp-client/warp-modes/ WARP modes] on ''developers.cloudflare.com''.</ref><ref name="cf-warp-vpn">[https://support.cloudflarewarp.com/hc/en-us/articles/360019372194-Is-the-1-1-1-1-app-a-VPN Is the 1.1.1.1 app a VPN?] on ''support.cloudflarewarp.com''.</ref>
+</div>
 
-===オプション4 - IPv6を無効化しIPv4使用を強制する（使用しないでください）===
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''WARP''' (tunnel) mode sends device traffic through Cloudflare. Cloudflare states that this replaces the original IP address with a Cloudflare IP that still represents an approximate location. WARP is not designed as an anonymizer or as a way to appear in a different country.<ref name="cf-warp-faq">[https://developers.cloudflare.com/warp-client/known-issues-and-faq/ Known issues and FAQ] on ''developers.cloudflare.com''.</ref><ref name="cf-warp-vpn" />
+* '''DNS only''' mode sends DNS queries to Cloudflare and does not tunnel other traffic.<ref name="cf-warp-modes" />
+</div>
 
-IPv4アドレスの世界的な不足により、多くのISPがIPv4機能を完全に廃止し始めています。
-お使いのISPがこれを行っている場合、この方法は機能せず、インターネットに全く接続できなくなる可能性があります。
-IPv6プロトコルの無効化方法については、以下のガイドが利用可能です（操作内容を理解している場合に限ります）。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat Help notes that VPNs can slow downloads, and suggests disabling the VPN or excluding VRChat from the tunnel.<ref name="vrc-slow">{{VRC link|https://help.vrchat.com/hc/en-us/articles/14301364738707-I-m-experiencing-slow-download-speeds|I'm experiencing slow download speeds}} on ''help.vrchat.com''.</ref>
+</div>
 
-*'''Windows''': https://support.surfshark.com/hc/en-us/articles/360011550199-How-to-disable-IPv6-on-Windows
-*'''Mac''': https://support.surfshark.com/hc/en-us/articles/360012367560-How-to-disable-IPv6-on-macOS
-*'''Linux''': https://support.surfshark.com/hc/en-us/articles/360024470413-How-to-disable-IPv6-on-a-Linux-device
+<div lang="en" dir="ltr" class="mw-content-ltr">
+WARP tunnel mode can also break [[Special:MyLanguage/VRChat SDK|SDK]] uploads. [[Special:MyLanguage/Guides:Common SDK issues|Common SDK issues]] describes a "Missing Credentials" error while WARP is enabled, and recommends disabling WARP or switching to DNS-only 1.1.1.1 for that case.
+</div>
 
-==トラブルシューティング==
-パケットの送信順序が乱れたり、インターネット接続が遅い、あるいは不安定な場合、接続が不安定になることがあります。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Disabling IPv6 ===
+Disabling IPv6 is a last option and is not recommended. Microsoft states that IPv6 is a mandatory part of current Windows versions, and that disabling or unbinding it can break Windows components.<ref name="ms-ipv6" /> On IPv6-only ISPs, disabling IPv6 can remove Internet access entirely.
+</div>
 
-接続が不安定になる原因はいくつか考えられますが、ここでは最も一般的なトラブルシューティング方法をいくつかご紹介します。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+If IPv6 still needs to be limited on macOS, Apple documents a '''Link-local only''' TCP/IP option that limits IPv6 traffic to the local network.<ref name="apple-tcpip">[https://support.apple.com/guide/mac-help/change-tcpip-settings-on-mac-mh14129/mac Change TCP/IP settings on Mac] on ''support.apple.com''.</ref>
+</div>
 
-=== VRChat の更新 ===
-VRChat の更新が必要になる場合があります。
-Steam または Meta ストアで、VRChat クライアントの更新を促すメッセージが表示されることがあります。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Troubleshooting ==
+Connection problems can also come from a slow or unstable path, a local firewall, or the VRChat client itself. VRChat Help for Meta Quest, Pico, and Vive XR Elite includes restarting the headset, trying another network, power-cycling the router to renew the IP address, and disabling IPv6 firewall features on the router (this is not the same as disabling IPv6).<ref name="vrc-conn" />
+</div>
 
-=== ルーターの再起動 ===
-ルーターの電源を切り、数分間待ってから再び電源を入れて、ルーターを再起動してください。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Update VRChat ===
+Update the VRChat client if the store (for example Steam or Meta) shows an available update.
+</div>
 
-=== ファイルの整合性 ===
-GPUドライバーまたはVRChatソフトウェアのファームウェアの整合性を確認してください。
-必要に応じて、VRChatを再インストールする必要がある場合があります。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Reboot router ===
+Power the router off, wait a few minutes, and power it back on. VRChat Help notes that this often renews the IP address.<ref name="vrc-conn" />
+</div>
 
-=== ウイルス対策ソフトやファイアウォールのホワイトリスト登録 ===
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Installation and drivers ===
+Update GPU drivers and check the VRChat installation. Reinstall VRChat if needed.
+</div>
 
-ファイアウォールやウイルス対策ソフトがVRChatへの接続をブロックしていないことを確認してください。
-必要に応じて、VRChatとEasy Anti Cheatをウイルス対策ソフトやファイアウォールのホワイトリストに登録してください。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Firewall, antivirus, and ports ===
+Make sure the firewall or antivirus is not blocking VRChat. VRChat Help suggests adding a firewall exception for VRChat, or temporarily disabling the firewall during testing, then turning it back on.<ref name="vrc-conn" /> Some users also add Easy Anti-Cheat to the same exception list.
+</div>
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat Help lists outbound ports that need to be allowed on a strict firewall, including UDP 5055 and 5056 for realtime networking.<ref name="vrc-ports">{{VRC link|https://help.vrchat.com/hc/en-us/articles/360062658793-Which-ports-do-I-need-to-open-for-VRChat|Which ports do I need to open for VRChat?}} on ''help.vrchat.com''.</ref>
+</div>
 
-*互換性のあるオペレーティングシステムとソフトウェアを使用している場合、コマンドプロンプトで「ping/nslookup/tracert」を実行して確認できます。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Output logs ===
+On PC, VRChat output logs are under <code>%USERPROFILE%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>.<ref name="vrc-logs">{{VRC link|https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps|Where do I find my Output Logs and Crash Dumps?}} on ''help.vrchat.com''.</ref> For Quest, Linux, and crash dumps, see [[Special:MyLanguage/Guides:How to write efficient bug reports|How to write efficient bug reports]].
+</div>
 
-=== 出力ログ ===
-既定では、VRChatの出力ログは「%USERNAME%\AppData\LocalLow\VRChat\vrchat」フォルダ内に「output_log_(日付)」という名前で保存されます。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VRC link|https://vrch.at/support|VRChat User Support}} or the [[Special:MyLanguage/Discord servers|Discord]] support channel can help as a last resort.
+</div>
 
-最新の日付のファイルを確認し、VRChatへの接続に異常がなかったか調べてください。 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== System time ===
+Check that the system clock matches the current time in the configured time zone.
+</div>
 
-{{VRC link|https://vrch.at/support|VRChatのユーザーサポート}}、またはVRChatの[[Special:MyLanguage/Discord servers|Discordサーバー]]でのトラブルシューティングは、最後の手段として問題を見つけることができます。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Official resources ==
+* {{VRC link|https://status.vrchat.com|status.vrchat.com}}
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/360062658433-Troubleshooting-Connection-Issues-with-VRChat|Troubleshooting Connection Issues with VRChat}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/1500002247921-VRChat-keeps-crashing-or-has-issues-launching-properly|VRChat keeps crashing or has issues launching properly}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/1500002248501-I-m-stuck-on-building-or-uploading-content|I'm stuck on building or uploading content}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/14301364738707-I-m-experiencing-slow-download-speeds|I'm experiencing slow download speeds}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/360062658793-Which-ports-do-I-need-to-open-for-VRChat|Which ports do I need to open for VRChat?}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps|Where do I find my Output Logs and Crash Dumps?}} on ''help.vrchat.com''
+</div>
 
-=== システム時刻 ===
-お使いのシステム時計が、お住まいのタイムゾーンの現在時刻と一致しているか再度確認し、時刻が正しく設定されていることを確認してください。
-
-*[[Category:Guides{{#translation:}}]]
-
-==役立つリソース==
-Downdetectorは、ISPの問題の早期兆候を確認するための目安として利用できます。
-
-ただし、これは必ずしも上流プロバイダーの問題を裏付けるものではありません。
-
-判断の余地として、ご自身の判断でご利用ください。
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Community resources ==
+Downdetector can show user reports of ISP issues. It does not confirm an outage at a VRChat upstream provider.
+</div>
 {| class="wikitable"
-|+ 
 |-
 | Downdetector US || https://downdetector.com/
 |-
@@ -243,9 +272,9 @@ Downdetectorは、ISPの問題の早期兆候を確認するための目安と�
 | Downdetector JP || https://downdetector.jp/
 |}
 
-<span id="See_also"></span>
-==関連項目==
-
-* [[Special:MyLanguage/Instances|インスタンス]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== References ==
+</div>
+<references />
 
 [[Category:Guides{{#translation:}}]]
