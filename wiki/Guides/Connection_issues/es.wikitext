@@ -1,208 +1,263 @@
 <languages/>
-{{Noticebox/Community}}Hay varios métodos para solucionar [[Special:MyLanguage/Troubleshooting|problemas]] relacionados con mantener una conexión estable con [[Special:MyLanguage/VRChat|VRChat]].
-== Glosario ==
-Esta guía contiene terminología informática y menciona con frecuencia estas abreviaturas:
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This guide covers [[Special:MyLanguage/Troubleshooting|connection issues]] with [[Special:MyLanguage/VRChat|VRChat]]. Connecting to VRChat requires a reliable path to Cloudflare, AWS CloudFront, and Photon Engine.<ref name="vrc-conn">{{VRC link|https://help.vrchat.com/hc/en-us/articles/360062658433-Troubleshooting-Connection-Issues-with-VRChat|Troubleshooting Connection Issues with VRChat}} on ''help.vrchat.com''.</ref> Check VRChat's official status outlets before changing local network settings.
+</div>
 
-* '''DNS''' - Domain Name System (Sistema de nombres de dominio): Un protocolo que localiza y conecta tu dispositivo a una dirección IP de una página web.
-* '''EDNS ECS''' - Extension Mechanisms for DNS Client Subnet (Mecanismo de extensión de subred para el cliente DNS): un mecanismo para que los servidores de resolución de DNS recursivos envíen información parcial de la dirección IP del cliente a los servidores de nombres DNS autorizados.
-* '''IP''' - Internet Protocol address (Dirección de protocolo de internet): Una dirección, asociada a la conexión a internet de tu dispositivo, que permite que tu dispositivo se conecte a una red, como una página web.
-* '''ISP''' - Internet Service Provider (Proveedor de servicios de internet ): Una empresa que permite que tu dispositivo se conecte a internet. Algunos ejemplos son: Vodafone, Movistar y Claro.
-* '''OS''' - Operating System (Sistema operativo).
-* '''Upstream provider''' (Proveedor de red principal) - Un servicio que ayuda en la infraestructura de una plataforma, en este caso, VRChat.
-* '''VPN''' - Virtual Private Network (Red privada virtual): Software que puede cifrar o proteger tu conexión, mediante el método de "túnel" usando diferentes direcciones IP.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Glossary ==
+This guide uses the following terms:
+</div>
 
-== Verificar canales oficiales de VRChat ==
-VRChat ofrece medios para que los usuarios verifiquen si VRChat ha confirmado inestabilidades en los servidores o cortes de servicio. 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''DNS''' — Domain Name System: a protocol that resolves a domain name to an IP address.
+* '''IP''' — Internet Protocol address: an address that identifies a device on a network.
+* '''ISP''' — Internet Service Provider: a company that provides Internet access. Examples include Comcast, Virgin, and NTT Docomo.
+* '''OS''' — Operating System.
+* '''Upstream provider''' — a third-party service that VRChat depends on for part of its infrastructure.
+* '''VPN''' — Virtual Private Network: software that routes traffic through another network, often changing the apparent IP address.
+</div>
 
-En internet:
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Check official outlets ==
+VRChat publishes confirmed instabilities and outages through the following outlets.
+</div>
 
-* https://status.vrchat.com/
-* https://x.com/VRChat_Status
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On the web:
+</div>
 
-En Discord:
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* {{VRC link|https://status.vrchat.com|status.vrchat.com}}
+* [https://x.com/VRChat_Status @VRChat_Status] on X
+</div>
 
-* https://discord.com/channels/189511567539306508/400375734423781379
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On Discord:
+</div>
 
-=== Proveedores de red principal ===
-Además, VRChat cuenta con múltiples "proveedores de red principal" que afectan al inicio de sesión, a la autorización de cuentas y a la estabilidad de los servidores.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* [https://discord.com/channels/189511567539306508/400375734423781379 VRChat support channel] on VRChat's [[Special:MyLanguage/Discord servers|Discord servers]]
+</div>
 
-==== Autorización de cuenta ====
-Estos proveedores de red principales gestionan los datos de tu "[[Special:MyLanguage/VRChat account|cuenta]] de [[Special:MyLanguage/Platforms|plataforma]]", así como los datos del juego alojados en sus respectivas tiendas de aplicaciones.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Help articles for connection, firewall, ports, uploads, and downloads are listed under [[#Official resources]].
+</div>
 
-* Meta
-* Steam
-* Google
-* PICO
-* Viveport
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Upstream providers ===
+VRChat depends on several upstream providers for account authorization, [[Special:MyLanguage/Instances|instance]] hosting, and purchases. Outages or maintenance on those services can affect sign-in, instances, and the [[Special:MyLanguage/Creator Economy|Creator Economy]]. For Photon regions, Thunes, and related providers, see [[Special:MyLanguage/Community:Server infrastructure|Server infrastructure]].
+</div>
 
-==== Alojamiento de estancias ====
-VRChat aloja [[Special:MyLanguage/Instances|estancias]] en cuatro servidores diferentes a través de Photon, cada uno vinculado a su propia región. Ocasionalmente, puede requerirse mantenimiento en un servidor, lo que genera inestabilidad en una región durante un breve periodo de tiempo.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Unstable connection ==
+If the status outlets above do not show an incident, some users change DNS, prefer IPv4 over IPv6, or use Cloudflare WARP. This guide treats DNS as the first local change. Disabling IPv6 is not recommended on Windows, and it can remove Internet access on IPv6-only ISPs.<ref name="ms-ipv6">[https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/configure-ipv6-in-windows Configure IPv6 for advanced users] on ''learn.microsoft.com''.</ref>
+</div>
 
-* Motor Photon 
-** EE. UU. Oeste
-** EE. UU. Este
-** Europa
-** Japón
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Configure DNS ===
+Write down the current DNS addresses before changing them, so the previous settings can be restored.<ref name="google-dns">[https://developers.google.com/speed/public-dns/docs/using Get Started with Google Public DNS] on ''developers.google.com''.</ref> This section uses [https://one.one.one.one/ Cloudflare 1.1.1.1] as the example. Set '''1.1.1.1''' as the preferred IPv4 resolver and '''1.0.0.1''' as the alternate.<ref name="cf-ips">[https://developers.cloudflare.com/1.1.1.1/ip-addresses/ IP addresses] on ''developers.cloudflare.com''.</ref> If the connection has IPv6, set that same provider's IPv6 DNS addresses as well. Do not mix one provider's IPv4 addresses with another provider's IPv6 addresses.
+</div>
 
-==== Economía del creador y compras ====
-La [[Special:MyLanguage/Creator Economy|Economía del creador]] de VRChat depende de los servicios de Thunes, formalmente Tilia, para procesar transacciones y verificar la información de compra entre usuarios y vendedores.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+On IPv6-only networks, use the provider's IPv6 DNS addresses. Cloudflare and Google both publish IPv6 resolver addresses.<ref name="cf-ips" /><ref name="google-dns" />
+</div>
 
-* Thunes (formalmente Tilia)
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Use first-party setup pages. VPN or security apps sometimes document their own resolver addresses; use those only if you mean to use that vendor's DNS. Otherwise use Cloudflare, Google, or another provider from the table below.
+</div>
 
-==Conexión inestable==
-Compatibilidad limitada con IPv6 por parte del proveedor de servicios de internet (ISP)
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* Windows: [https://developers.cloudflare.com/1.1.1.1/setup/windows/ Set up 1.1.1.1 on Windows] on ''developers.cloudflare.com''; [https://support.microsoft.com/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9 Essential network settings and tasks in Windows] on ''support.microsoft.com''
+* macOS: [https://developers.cloudflare.com/1.1.1.1/setup/macos/ Set up 1.1.1.1 on macOS] on ''developers.cloudflare.com''; [https://support.apple.com/guide/mac-help/change-dns-settings-on-mac-mh14127/mac Change DNS settings on Mac] on ''support.apple.com''
+* Linux: [https://developers.cloudflare.com/1.1.1.1/setup/linux/ Set up 1.1.1.1 on Linux] on ''developers.cloudflare.com''; [https://developers.google.com/speed/public-dns/docs/using Get Started with Google Public DNS] on ''developers.google.com''
+</div>
 
-===Opción 1 - Usar una VPN===
-Si tienes problemas de conexión, puede ser buena idea utilizar una VPN para estabilizar tu conexión. Ten en cuenta que usar VPNs que ocultan tu IP o cambian tu ubicación geográfica virtual puede provocar errores y cierres de sesión frecuentes.
-
-# [https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/ WARP de Cloudflare] es una VPN que busca estabilizar tu conexión y encriptar tu tráfico usando los servidores de Cloudflare, lo que podría ayudar con problemas de conexión en VRChat.
-## [https://developers.cloudflare.com/1.1.1.1/setup/ 1.1.1.1 de Cloudflare] es un servidor de resolución DNS alternativo incluido con WARP. Está diseñado para seguridad y privacidad al encriptar parte del tráfico de tu dispositivo.
-
-===Opción 2 - Configurar un servidor DNS===
-*'''Windows 10''': https://docs.quad9.net/es/Gu%C3%ADas_de_configuraci%C3%B3n/Windows/Windows_10/
-*'''Windows 11''' (en inglés): https://docs.quad9.net/Setup_Guides/Windows/Windows_11_%28Encrypted%29/
-*'''Mac''' (en inglés): https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_%28Encrypted%29/
-*'''Linux''': https://docs.quad9.net/es/Gu%C3%ADas_de_configuraci%C3%B3n/Linux_y_BSD/Ubuntu_22.04_%28Encriptado%29/
-
-Las guías para la configuración de DNS mencionadas arriba usarán, por defecto, direcciones IP que se conectan a los servidores DNS de "Quad9".
-En su lugar, utiliza las direcciones IP de Cloudflare proporcionadas.
-
-'''Debes configurar tanto IPv4 como IPv6 para que funcione sin problemas.'''
-<syntaxhighlight lang="bbcode" line="1">
-<IPv4>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Cloudflare 1.1.1.1 addresses:<ref name="cf-ips" />
+<syntaxhighlight lang="text">
+IPv4
 1.1.1.1
 1.0.0.1
+</div>
 
-<IPv6>
-2001:4860:4860::8888
-2001:4860:4860::8844
+<div lang="en" dir="ltr" class="mw-content-ltr">
+IPv6
+2606:4700:4700::1111
+2606:4700:4700::1001
 </syntaxhighlight>
+</div>
 
-'''1.1.1.1''' (Servidor 1) debe ser tu dirección preferida, mientras que '''1.0.0.1''' (Servidor 2) debe ser tu dirección alternativa. 
-Sin embargo, puedes usar cualquiera de las otras opciones de DNS que aparecen a continuación. Puedes elegir cualquier proveedor de DNS; las opciones no se limitan solo a Cloudflare.
-
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Other public DNS providers can be used instead of Cloudflare:
+</div>
 {| class="wikitable"
-|+
 |-
 !Proveedor!!Servidor IPv4!!Servidor IPv6
-!Servidor IPv4 (EDNS ECS)!!Servidor IPv6 (EDNS ECS)
 |-
 |[https://developers.google.com/speed/public-dns Google]||8.8.8.8
 8.8.4.4
 |2001:4860:4860::8888
 2001:4860:4860::8844
-|Compatible por defecto
-|Compatible por defecto
 |-
-|[https://controld.com/free-dns Control D]||76.76.2.0
+|[https://docs.controld.com/docs/free-dns Control D]||76.76.2.0
 76.76.10.0
 |2606:1a40::
 2606:1a40:1::
-|No compatible
-|No compatible
 |-
 |[https://www.quad9.net/service/service-addresses-and-features/ Quad9]||9.9.9.9
 149.112.112.112
 |2620:fe::fe
 2620:fe::9
-|9.9.9.11
-149.112.112.11
-|
-2620:fe::11
-
-2620:fe::fe:11
 |-
 |[https://www.opendns.com/setupguide/ OpenDNS Home]||208.67.222.222
 208.67.220.220
-|
-2620:119:35::35
-
-2620:119:53::53
-|Compatible por defecto
-|Compatible por defecto
+| —
 |-
-|[https://one.one.one.one/dns/ Cloudflare]||1.1.1.1
+|[https://developers.cloudflare.com/1.1.1.1/ip-addresses/ Cloudflare]||1.1.1.1
 1.0.0.1
 |2606:4700:4700::1111
 2606:4700:4700::1001
-|No compatible
-|No compatible
 |-
 |[https://adguard-dns.io/en/public-dns.html AdGuard DNS]||94.140.14.14
 94.140.15.15
 |2a10:50c0::ad1:ff
-
 2a10:50c0::ad2:ff
-|Compatible por defecto
-|Compatible por defecto
 |-
-|[https://cleanbrowsing.org/filters/ CleanBrowsing]||185.228.168.9
+|[https://cleanbrowsing.org/filters/ CleanBrowsing Security]||185.228.168.9
 185.228.169.9
-|2a0d:2a00:1::
-
-2a0d:2a00:2:: 
-|No compatible
-|No compatible
+|2a0d:2a00:1::2
+2a0d:2a00:2::2
 |}
-Source: https://www.lifewire.com/free-and-public-dns-servers-2626062
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Prefer IPv4 over IPv6 on Windows ===
+Microsoft does not recommend disabling IPv6, unbinding IPv6 from interfaces, or disabling IPv6 components. Microsoft recommends preferring IPv4 over IPv6 in prefix policies instead, by setting the <code>DisabledComponents</code> registry value to decimal 32 (<code>0x20</code>).<ref name="ms-ipv6" /> This option may not work if the ISP no longer offers IPv4.
+</div>
 
-EDNS ECS proporciona hosts más cercanos que los servidores DNS tradicionales, lo que a veces resulta más fácil de usar en proveedores de servicios en nube que normalmente alojan en todo el mundo. 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Microsoft warns that an incorrect registry change can cause serious problems. Back up the registry first, and restart the PC after the change.<ref name="ms-ipv6" />
+</div>
 
-Referencia (en inglés): https://adguard-dns.io/en/blog/privacy-friendly-edns-client-subnet.html
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To prefer IPv4 on Windows:
+</div>
 
-=== Opción 3 - Aumentar la prioridad de IPv4 sobre IPv6 en Windows ===
-Esto dará prioridad al uso de IPv4 sobre IPv6, sin desactivar IPv6 por completo.
-*Esta opción puede no funcionar si tu ISP deja de ofrecer IPv4 por completo.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+# Open Command Prompt as administrator: press the Windows key, type <code>cmd</code>, then choose '''Run as administrator'''.
+# Run:
+<syntaxhighlight lang="text">
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters" /v DisabledComponents /t REG_DWORD /d 32 /f
+</syntaxhighlight>
+# Restart the PC.
+# Optional check: run <code>netsh interface ipv6 show prefixpolicies</code>. The <code>::ffff:0:0/96</code> prefix should have a higher precedence than <code>::/0</code>.<ref name="ms-ipv6" />
+</div>
 
-Para activarlo en Windows,
+<div lang="en" dir="ltr" class="mw-content-ltr">
+To undo the change:
+</div>
 
-* Abre la consola de comandos presionando la tecla Windows y escribiendo cmd, lo que abrirá el "Símbolo del sistema"; después selecciona con el clic derecho "Ejecutar como administrador".
-* Escribe: netsh interface ipv6 set prefixpolicy ::ffff:0:0/96 100 4 y presiona la tecla "Enter".
-* Esto debería dar prioridad a IPv4, después de reiniciar tu PC.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+# Open Command Prompt as administrator again.
+# Run:
+<syntaxhighlight lang="text">
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip6\Parameters" /v DisabledComponents /t REG_DWORD /d 0 /f
+</syntaxhighlight>
+# Restart the PC.
+</div>
 
-Para desactivar la priorización de IPv6,
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Cloudflare WARP ===
+[https://one.one.one.one/ Cloudflare WARP] is a further option after DNS changes. Setup is documented in Cloudflare's [https://developers.cloudflare.com/warp-client/get-started/ WARP client get-started] guide.
+</div>
 
-* Abre nuevamente la consola de comandos presionando la tecla Windows, escribiendo cmd, y seleccionando con el clic derecho "Ejecutar como administrador" otra vez.
-* Escribe: netsh interface ipv6 reset y presiona la tecla "Enter".
-* Esto debería revertir la priorización de IPv4 después de reiniciar tu PC.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat Help allows Cloudflare WARP as a last-resort VPN and states that some other VPNs may be blocked. Using a VPN may have legal limitations depending on local regulations.<ref name="vrc-crash">{{VRC link|https://help.vrchat.com/hc/en-us/articles/1500002247921-VRChat-keeps-crashing-or-has-issues-launching-properly|VRChat keeps crashing or has issues launching properly}} on ''help.vrchat.com''.</ref> VRChat Help also suggests trying Cloudflare WARP when content uploads hang because of ISP routing or throttling.<ref name="vrc-upload">{{VRC link|https://help.vrchat.com/hc/en-us/articles/1500002248501-I-m-stuck-on-building-or-uploading-content|I'm stuck on building or uploading content}} on ''help.vrchat.com''.</ref>
+</div>
 
-===Opción 4 - Desactivar IPv6 y forzar el uso de IPv4 (NO RECOMENDADO)===
-Muchos proveedores de internet (ISP) han empezado a eliminar la compatibilidad con IPv4 debido a la escasez mundial de direcciones IPv4.
-Si tu ISP ya hizo esto, este método puede no funcionar e incluso impedir que te conectes a internet.
-Existen algunas guías disponibles sobre cómo desactivar el protocolo IPv6, en caso de que sepas lo que estás haciendo:
-*'''Windows''' (en inglés): https://support.surfshark.com/hc/en-us/articles/360011550199-How-to-disable-IPv6-on-Windows
-*'''Mac''' (en inglés): https://support.surfshark.com/hc/en-us/articles/360012367560-How-to-disable-IPv6-on-macOS
-*'''Linux''' (en inglés): https://support.surfshark.com/hc/en-us/articles/360024470413-How-to-disable-IPv6-on-a-Linux-device
+<div lang="en" dir="ltr" class="mw-content-ltr">
+Cloudflare documents two relevant modes:<ref name="cf-warp-modes">[https://developers.cloudflare.com/warp-client/warp-modes/ WARP modes] on ''developers.cloudflare.com''.</ref><ref name="cf-warp-vpn">[https://support.cloudflarewarp.com/hc/en-us/articles/360019372194-Is-the-1-1-1-1-app-a-VPN Is the 1.1.1.1 app a VPN?] on ''support.cloudflarewarp.com''.</ref>
+</div>
 
-==Solución de problemas==
-La inestabilidad de la conexión puede ocurrir debido a que los paquetes se envían fuera de orden o por tener una conexión a internet lenta o inestable. Existen varias razones por las que una conexión puede volverse inestable, sin embargo, aquí se presentan algunos de los métodos más comunes para solucionar el problema:
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* '''WARP''' (tunnel) mode sends device traffic through Cloudflare. Cloudflare states that this replaces the original IP address with a Cloudflare IP that still represents an approximate location. WARP is not designed as an anonymizer or as a way to appear in a different country.<ref name="cf-warp-faq">[https://developers.cloudflare.com/warp-client/known-issues-and-faq/ Known issues and FAQ] on ''developers.cloudflare.com''.</ref><ref name="cf-warp-vpn" />
+* '''DNS only''' mode sends DNS queries to Cloudflare and does not tunnel other traffic.<ref name="cf-warp-modes" />
+</div>
 
-=== Actualizar VRChat ===
-¡Puede que VRChat necesite actualizarse! Es posible que aparezca un mensaje pidiéndote actualizar tu cliente de VRChat en Steam o en la tienda de Meta.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat Help notes that VPNs can slow downloads, and suggests disabling the VPN or excluding VRChat from the tunnel.<ref name="vrc-slow">{{VRC link|https://help.vrchat.com/hc/en-us/articles/14301364738707-I-m-experiencing-slow-download-speeds|I'm experiencing slow download speeds}} on ''help.vrchat.com''.</ref>
+</div>
 
-=== Reiniciar el router ===
-Reinicia tu router, apagándolo, esperando un par de minutos y volviéndolo a encender.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+WARP tunnel mode can also break [[Special:MyLanguage/VRChat SDK|SDK]] uploads. [[Special:MyLanguage/Guides:Common SDK issues|Common SDK issues]] describes a "Missing Credentials" error while WARP is enabled, and recommends disabling WARP or switching to DNS-only 1.1.1.1 for that case.
+</div>
 
-=== Integridad del archivo ===
-Verifica la integridad del firmware de los controladores de tu GPU o del software de VRChat. Si es necesario, puede que tengas que reinstalar VRChat.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Disabling IPv6 ===
+Disabling IPv6 is a last option and is not recommended. Microsoft states that IPv6 is a mandatory part of current Windows versions, and that disabling or unbinding it can break Windows components.<ref name="ms-ipv6" /> On IPv6-only ISPs, disabling IPv6 can remove Internet access entirely.
+</div>
 
-=== Poner en lista blanca en tu antivirus o firewall ===
-Asegúrate de que tu firewall o tu antivirus no estén bloqueando tu conexión con VRChat. Si es necesario, VRChat y Easy Anti Cheat deben añadirse a la lista blanca en tu antivirus o firewall.
-*Puedes usar los comandos "ping/nslookup/tracert" en el símbolo del sistema (cmd) para comprobarlo, siempre que uses un sistema operativo y software compatibles.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+If IPv6 still needs to be limited on macOS, Apple documents a '''Link-local only''' TCP/IP option that limits IPv6 traffic to the local network.<ref name="apple-tcpip">[https://support.apple.com/guide/mac-help/change-tcpip-settings-on-mac-mh14129/mac Change TCP/IP settings on Mac] on ''support.apple.com''.</ref>
+</div>
 
-=== Registros de salida ===
-Por defecto, los registros de salida de VRChat se encuentran en la ruta "%USERNAME%\AppData\LocalLow\VRChat\vrchat" y tienen el nombre "output_log_(fecha)". Revisa el archivo con la fecha más reciente y busca posibles inestabilidades en tu conexión con VRChat. 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Troubleshooting ==
+Connection problems can also come from a slow or unstable path, a local firewall, or the VRChat client itself. VRChat Help for Meta Quest, Pico, and Vive XR Elite includes restarting the headset, trying another network, power-cycling the router to renew the IP address, and disabling IPv6 firewall features on the router (this is not the same as disabling IPv6).<ref name="vrc-conn" />
+</div>
 
-{{VRC link|https://vrch.at/support|El soporte al usuario de VRChat}}, o la resolución de problemas en los [[Special:MyLanguage/Discord servers|servidores de Discord]] de VRChat, podrían ayudarte a encontrar el problema como último recurso.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Update VRChat ===
+Update the VRChat client if the store (for example Steam or Meta) shows an available update.
+</div>
 
-=== Hora del sistema ===
-Verifica nuevamente el reloj de tu sistema con la hora actual de tu zona horaria y asegúrate de que esté configurado correctamente.
-[[Category:Guides{{#translation:}}]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Reboot router ===
+Power the router off, wait a few minutes, and power it back on. VRChat Help notes that this often renews the IP address.<ref name="vrc-conn" />
+</div>
 
-== Recursos útiles ==
-Downdetector puede usarse como una guía para comprobar indicios tempranos de problemas con tu proveedor de internet. Sin embargo, esto no siempre confirma problemas con un proveedor de red principal. Por favor, úsala a tu discreción como margen para juzgar.
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Installation and drivers ===
+Update GPU drivers and check the VRChat installation. Reinstall VRChat if needed.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Firewall, antivirus, and ports ===
+Make sure the firewall or antivirus is not blocking VRChat. VRChat Help suggests adding a firewall exception for VRChat, or temporarily disabling the firewall during testing, then turning it back on.<ref name="vrc-conn" /> Some users also add Easy Anti-Cheat to the same exception list.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+VRChat Help lists outbound ports that need to be allowed on a strict firewall, including UDP 5055 and 5056 for realtime networking.<ref name="vrc-ports">{{VRC link|https://help.vrchat.com/hc/en-us/articles/360062658793-Which-ports-do-I-need-to-open-for-VRChat|Which ports do I need to open for VRChat?}} on ''help.vrchat.com''.</ref>
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Output logs ===
+On PC, VRChat output logs are under <code>%USERPROFILE%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>.<ref name="vrc-logs">{{VRC link|https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps|Where do I find my Output Logs and Crash Dumps?}} on ''help.vrchat.com''.</ref> For Quest, Linux, and crash dumps, see [[Special:MyLanguage/Guides:How to write efficient bug reports|How to write efficient bug reports]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+{{VRC link|https://vrch.at/support|VRChat User Support}} or the [[Special:MyLanguage/Discord servers|Discord]] support channel can help as a last resort.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== System time ===
+Check that the system clock matches the current time in the configured time zone.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Official resources ==
+* {{VRC link|https://status.vrchat.com|status.vrchat.com}}
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/360062658433-Troubleshooting-Connection-Issues-with-VRChat|Troubleshooting Connection Issues with VRChat}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/1500002247921-VRChat-keeps-crashing-or-has-issues-launching-properly|VRChat keeps crashing or has issues launching properly}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/1500002248501-I-m-stuck-on-building-or-uploading-content|I'm stuck on building or uploading content}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/14301364738707-I-m-experiencing-slow-download-speeds|I'm experiencing slow download speeds}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/360062658793-Which-ports-do-I-need-to-open-for-VRChat|Which ports do I need to open for VRChat?}} on ''help.vrchat.com''
+* {{VRC link|https://help.vrchat.com/hc/en-us/articles/9521522810899-Where-do-I-find-my-Output-Logs-and-Crash-Dumps|Where do I find my Output Logs and Crash Dumps?}} on ''help.vrchat.com''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Community resources ==
+Downdetector can show user reports of ISP issues. It does not confirm an outage at a VRChat upstream provider.
+</div>
 {| class="wikitable"
-|+ 
 |-
 | Downdetector US || https://downdetector.com/
 |-
@@ -217,9 +272,9 @@ Downdetector puede usarse como una guía para comprobar indicios tempranos de pr
 | Downdetector JP || https://downdetector.jp/
 |}
 
-<span id="See_also"></span>
-== Véase también ==
-
-* [[Special:MyLanguage/Instances|Estancias]]
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== References ==
+</div>
+<references />
 
 [[Category:Guides{{#translation:}}]]
