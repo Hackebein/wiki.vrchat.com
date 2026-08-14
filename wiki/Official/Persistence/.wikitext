@@ -4,6 +4,11 @@
 == Overview ==
 With persistence, a world can store data associated with an individual user, such as settings, progress, or the state of certain objects, and load it again on a later visit. The data is tied to the player and the specific world, and is managed through the [[Special:MyLanguage/VRChat SDK|VRChat SDK]] and [[Special:MyLanguage/Udon|Udon]].
 
+== Saving ==
+VRChat writes persistence data to permanent storage during a session rather than only when a user leaves a world. As of {{Date|2026-07-30}}, that intermittent save was described as triggering after about half an hour, after an earlier more conservative interval of about once an hour.<ref name="DU2026-07-30">[https://ask.vrchat.com/t/developer-update-30-july-2026/48750 "Developer Update - 30 July 2026"] on ''[[ask.vrchat.com]]''. Dated July 30, 2026. Retrieved August 13, 2026.</ref>
+
+A window can appear when leaving a world while the client is still transmitting persistence data, which VRChat described as a mitigation when a world is near networking rate limits. Realtime servers also retry writes after API interruptions. VRChat stated that prolonged API outages remain the largest remaining risk of loss, and that [https://help.vrchat.com/ VRChat support] can restore older persistence data if contacted soon after a loss. Old persistence data is retained for a limited period described as weeks, not months.<ref name="DU2026-07-30" />
+
 == Cross-world data persistence ==
 Cross-world data persistence refers to sharing persistent data between different worlds, rather than within a single world. This is a highly experimental capability that is offered only in specific, hand-selected situations.<ref name="devqa1may2026">[https://ask.vrchat.com/t/may-1-2026-developer-stream-q-a-summary/48386 "May 1 2026 Developer Stream Q&A Summary"] on ''[[ask.vrchat.com]]''. Posted May 5, 2026. Retrieved June 18, 2026.</ref>
 
