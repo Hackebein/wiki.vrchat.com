@@ -5,17 +5,22 @@
 {{Noticebox/Official}}
 La '''Caméra''' est un outil en jeu permettant aux utilisateurs de prendre des photos afin de capturer leurs expériences au sein de VRChat.
 
+<div class="mw-translate-fuzzy">
 ==Accès==
 Il existe plusieurs façons d’accéder à la caméra dans VRChat :
+</div>
 
 * Ouvrez le [[Special:MyLanguage/Action Menu|Menu d’actions]], sélectionnez '''Outils''', puis '''Caméra'''.
 * Ouvrez le [[Special:MyLanguage/Quick Menu|Menu rapide]] et cliquez sur l’onglet Caméra dans la rangée inférieure. Le Menu rapide fournit des options pour tous les modes caméra.
 * Double-cliquez sur l’onglet Caméra dans la rangée inférieure du Menu rapide. Cela permet de déployer ou ranger immédiatement la caméra.
 
+<div class="mw-translate-fuzzy">
 ==Modes==
 [[File:Camera menu.webp|thumb|Onglet Caméra dans le menu rapide.]]
 Les modes caméra déterminent le comportement de la caméra lors de la prise d’une photo. Il existe sept modes caméra correspondant à différentes fonctionnalités :
+</div>
 
+<div class="mw-translate-fuzzy">
 ; Photo locale : Après la prise, capture une photo classique. Il s’agit du mode par défaut.
 ; Multi-couches : Après la prise, capture une photo et crée des images pour chaque masque activé. Ce mode ne prend pas en charge la mise au point ni les filtres et peut provoquer un décalage d’images.
 : Il peut créer jusqu’à trois images supplémentaires (en plus de la photo classique) : « Environnement », « Utilisateurs » (combine les masques Utilisateur local et distant) et « Interface utilisateur ». Les masques « Utilisateurs » et « Interface utilisateur » sont enregistrés avec la transparence alpha.
@@ -34,18 +39,24 @@ Les modes caméra déterminent le comportement de la caméra lors de la prise d�
 :; Émoji (1)
 :; Animé (4)
 :; Animé (16)
+</div>
 
 Ces deux modes ne sont pas accessibles via le bouton Mode caméra, mais par d’autres moyens :
 
+<div class="mw-translate-fuzzy">
 ; Caméra drone: ''Voir aussi [[Special:MyLanguage/Camera Drone|Caméra drone]] pour plus de détails.''
 : Déploie le Drone.
 ; Capture d’écran : Prend une photo sans les éléments de l’[[Special:MyLanguage/HUD|ATH]]. Par défaut, la capture se fait en 1920×1080, sauf si modifiée dans le [https://docs.vrchat.com/docs/configuration-file fichier de configuration].
 ; Invitation photo : Les invitations ou réponses à une invitation peuvent être envoyées avec une image. Après la prise, une interface permet de zoomer, repositionner et inverser la photo dans un recadrage rectangulaire. « Enregistrer et appliquer » l’attache à l’invitation/réponse. Nécessite VRC+.
+</div>
 
+<div class="mw-translate-fuzzy">
 ==Options==
 [[File:Camera.png|thumb|Vue d’ensemble de la caméra VRChat.]]
 Les options se composent de boutons situées autour ou sur le cadre de la caméra. Certaines options peuvent être contrôlées à la fois via l’interface utilisateur et le menu.
+</div>
 
+<div class="mw-translate-fuzzy">
 ===Interface utilisateur===
 Les boutons de l’interface utilisateur sont situées au centre, à gauche ou à droite du cadre de la caméra.
 
@@ -65,7 +76,9 @@ Les boutons de l’interface utilisateur sont situées au centre, à gauche ou �
 :: Parcourt les modes Mise au point automatique, Semi-automatique et Manuel.
 :; Filtres
 :: Parcourt les filtres caméra Cyanotype, Glitch, Vitesse, Hypno, Pixelisé, Croquis, Scintiller, Psychédélique et Ancien.
+</div>
 
+<div class="mw-translate-fuzzy">
 ====Curseurs====
 ; Vitesse de vol : Détermine la vitesse de déplacement de la caméra en mode Vol. Les valeurs vont de 0,1 à 15, 3 étant la valeur par défaut.
 : Curseur affiché uniquement en mode Bureau ou lorsque le bouton Vol est activé.
@@ -88,10 +101,14 @@ Les boutons de l’interface utilisateur sont situées au centre, à gauche ou �
 :; Luminosité
 ; Durée : Détermine la durée des nouveaux points Dolly lors de l’utilisation du mouvement basé sur le temps.
 : Curseur affiché uniquement lorsque le bouton Dolly est activé.
+</div>
 
+<div class="mw-translate-fuzzy">
 ===Menu===
 Les bascules du menu sont des interrupteurs situés sous le cadre de la caméra.
+</div>
 
+<div class="mw-translate-fuzzy">
 ; Prendre une photo : Prend une photo.
 ; Minuteur (5 s) : Prend une photo avec un délai de cinq secondes. Les utilisateurs distants verront un indicateur circulaire autour de l’objectif indiquant le compte à rebours avant la prise de la photo. La photo peut être annulée avant la fin des cinq secondes.
 ; Mode : Détermine le comportement de la caméra lors de la prise de photos. Voir la section [[Camera#Modes|Modes]] ci-dessus pour toutes les options.
@@ -101,6 +118,7 @@ Les bascules du menu sont des interrupteurs situés sous le cadre de la caméra.
 : Le mode caméra "Stream" doit être sélectionné pour que cette option apparaisse.
 ; Audio de la caméra : Le son entendu proviendra de la position de la caméra plutôt que de l’avatar.
 : Le mode caméra "Stream" doit être sélectionné pour que cette option apparaisse.
+</div>
 
 ; Ancrage : Définis où la caméra est ancrée
 :; Défaut
@@ -156,6 +174,7 @@ Les bascules du menu sont des interrupteurs situés sous le cadre de la caméra.
 :; Objets
 :: Inclut les [[Special:MyLanguage/Items|objets]] placés par les utilisateurs dans le monde.
 
+<div class="mw-translate-fuzzy">
 ; Dolly : ''Voir aussi [[Special:MyLanguage/Camera Dolly|Caméra Dolly]] pour plus de détails.''
 : Cette option est uniquement disponible sur PC et Android (VR autonome).
 :; Ajouter
@@ -172,6 +191,7 @@ Les bascules du menu sont des interrupteurs situés sous le cadre de la caméra.
 ::; Importer
 ::: (chemin d’import)
 ::; Afficher les tracés : Description
+</div>
 
 ; Objectif : Définit la manière dont la caméra est affichée dans le monde.
 :; Désactivé
@@ -217,16 +237,22 @@ File:CameraFilter Olde.png|Ancien
 ; Enregistrer les métadonnées : Ajoute des métadonnées aux photos lors de la prise.
 : Les métadonnées incluent : le nom d’affichage de l’auteur, l’ID de l’auteur, le nom d’affichage du monde et l’ID du monde. Si la photo est prise dans un monde privé, le nom d’affichage et l’ID du monde ne sont pas inclus.
 
+<div class="mw-translate-fuzzy">
 ==Comportement==
 ===Indicateurs===
 ====Faisceau rouge====
 Lorsqu’un utilisateur sort sa caméra, un faisceau rouge est projeté vers le haut et vers le bas depuis la position de celle-ci. De plus, un quadrilatère rouge est également affiché pour indiquer la direction vers laquelle la caméra est orientée. Ces faisceaux rouges ne sont visibles que lorsque le menu rapide est ouvert.
+</div>
 
 <span id="Timed"></span>
+<div class="mw-translate-fuzzy">
 ====Minuté====
+</div>
 
 <span id="Audio_From_Camera"></span>
+<div class="mw-translate-fuzzy">
 ====Audio de Caméra====
+</div>
 
 <span id="Accessing_saved_photos"></span>
 == Accéder aux photos sauvegardées ==
@@ -246,8 +272,10 @@ Lorsqu’un utilisateur sort sa caméra, un faisceau rouge est projeté vers le 
 * [[Special:MyLanguage/Camera Drone|Drone]]
 * [[Special:MyLanguage/Gallery|Galerie]]
 
+<div class="mw-translate-fuzzy">
 ==Navigation==
 {{Navbox/Inventory}}
+</div>
 
 [[Category:User Interface{{#translation:}}]]
 [[Category:Features{{#translation:}}]]
