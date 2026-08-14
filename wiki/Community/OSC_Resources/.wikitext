@@ -7,25 +7,26 @@
 * [https://hexler.net/protokol Protokol] - Standalone OSC receiver
 
 ==Libraries==
-{| class="wikitable" style="text-align:center"
+{| class="wikitable" style="text-align:center; table-layout:fixed; width:100%"
 |-
 !
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/radarsat1/liblo liblo]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/LucHeart/CoreOSC-UTF8-ASYNC CoreOSC]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/stella3d/OscCore OscCore]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/Natsumi-sama/OscQueryLibrary OscQueryLibrary]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/vrchat-community/vrc-oscquery-lib vrc-oscquery-lib]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/hypebeast/go-osc go-osc]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/hoijui/JavaOSC JavaOSC]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/colinbdclark/osc.js osc.js]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/jangxx/node-oscquery node-oscquery]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/attwad/python-osc python-osc]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/theepicsnail/vrchat_oscquery vrchat_oscquery]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/fraklein/python-oscquery python-oscquery]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/cyberkitsune/tinyoscquery tinyoscquery]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/klingtnet/rosc rosc]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://lib.rs/crates/oscquery oscquery]
-! style="width: 6%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | [https://github.com/orchetect/OSCKit OSCKit]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/radarsat1/liblo liblo]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/LucHeart/CoreOSC-UTF8-ASYNC CoreOSC]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/stella3d/OscCore OscCore]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/Natsumi-sama/OscQueryLibrary OscQueryLibrary]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/vrchat-community/vrc-oscquery-lib vrc-oscquery-lib]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/hypebeast/go-osc go-osc]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/hoijui/JavaOSC JavaOSC]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/colinbdclark/osc.js osc.js]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/jangxx/node-oscquery node-oscquery]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/attwad/python-osc python-osc]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/theepicsnail/vrchat_oscquery vrchat_oscquery]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/fraklein/python-oscquery python-oscquery]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/cyberkitsune/tinyoscquery tinyoscquery]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/klingtnet/rosc rosc]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://lib.rs/crates/oscquery oscquery]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/minetake01/vrchat_osc vrchat_osc]
+! style="width: 3%; writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding: 0.35em 0.1em;" | [https://github.com/orchetect/OSCKit OSCKit]
 |-
 ! style="text-align:left" | Language
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | C
@@ -41,6 +42,7 @@
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Python
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Python
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Python
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Rust
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Rust
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Rust
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | Swift
@@ -61,9 +63,10 @@
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT / Apache-2.0
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT / Apache-2.0
+| style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT / Apache-2.0
 | style="writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap;" | MIT
 |-
-! colspan="17" style="text-align:left; background:#9AA0AA; color:#fff" | OSC transport
+! colspan="18" style="text-align:left; background:#9AA0AA; color:#fff" | OSC transport
 |-
 ! style="text-align:left" | Send messages
 | style="background:#22A84A; color:#fff" | ✓
@@ -81,6 +84,7 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓<ref name="vrchat-osc-rosc">OSC UDP encode/decode via bundled [https://github.com/klingtnet/rosc rosc].</ref>
 | style="background:#22A84A; color:#fff" | ✓
 |-
 ! style="text-align:left" | Receive messages
@@ -99,6 +103,7 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓<ref name="vrchat-osc-rosc" />
 | style="background:#22A84A; color:#fff" | ✓
 |-
 ! style="text-align:left" | Bundle support
@@ -117,9 +122,10 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓<ref name="vrchat-osc-rosc" />
 | style="background:#22A84A; color:#fff" | ✓
 |-
-! colspan="17" style="text-align:left; background:#9AA0AA; color:#fff" | VRChat types
+! colspan="18" style="text-align:left; background:#9AA0AA; color:#fff" | VRChat types
 |-
 ! style="text-align:left" | <code>i</code> (int32)
 | style="background:#22A84A; color:#fff" | ✓
@@ -138,8 +144,10 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 |-
 ! style="text-align:left" | <code>f</code> (float32)
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -174,8 +182,10 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 |-
 ! style="text-align:left" | <code>T</code> (True)
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -210,9 +220,10 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 |-
-! colspan="17" style="text-align:left; background:#9AA0AA; color:#fff" | Optional types
-|-
+! colspan="18" class="mw-customtoggle-ot-b-blob mw-customtoggle-ot-h-int64 mw-customtoggle-ot-d-float64 mw-customtoggle-ot-t-timetag mw-customtoggle-ot-s-symbol mw-customtoggle-ot-c-char mw-customtoggle-ot-r-rgba-color mw-customtoggle-ot-u mw-customtoggle-ot-m-midi-message mw-customtoggle-ot-n-nil mw-customtoggle-ot-i-infinitum mw-customtoggle-ot-array" style="text-align:left; background:#9AA0AA; color:#fff; cursor:pointer" | Optional types
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-b-blob"
 ! style="text-align:left" | <code>b</code> (blob)
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -230,7 +241,8 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
-|-
+| style="background:#22A84A; color:#fff" | ✓
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-h-int64"
 ! style="text-align:left" | <code>h</code> (int64)
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -248,7 +260,8 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
-|-
+| style="background:#22A84A; color:#fff" | ✓
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-d-float64"
 ! style="text-align:left" | <code>d</code> (float64)
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -266,7 +279,8 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
-|-
+| style="background:#22A84A; color:#fff" | ✓
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-t-timetag"
 ! style="text-align:left" | <code>t</code> (timetag)
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -284,7 +298,8 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
-|-
+| style="background:#22A84A; color:#fff" | ✓
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-s-symbol"
 ! style="text-align:left" | <code>S</code> (symbol)
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -301,8 +316,9 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#D4890B; color:#fff" | ~<ref name="vrchat-osc-symbol">OSCQuery TYPE tag only; UDP encode/decode uses bundled [https://crates.io/crates/rosc rosc], which has no Symbol.</ref>
 | style="background:#22A84A; color:#fff" | ✓
-|-
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-c-char"
 ! style="text-align:left" | <code>c</code> (char)
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -320,7 +336,8 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
-|-
+| style="background:#22A84A; color:#fff" | ✓
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-r-rgba-color"
 ! style="text-align:left" | <code>r</code> (RGBA color)
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
@@ -337,8 +354,9 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
-|-
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-u"
 ! style="text-align:left" | <code>u</code>
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
@@ -356,7 +374,8 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
-|-
+| style="background:#C03030; color:#fff" | ✗
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-m-midi-message"
 ! style="text-align:left" | <code>m</code> (MIDI message)
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -374,7 +393,8 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
-|-
+| style="background:#22A84A; color:#fff" | ✓
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-n-nil"
 ! style="text-align:left" | <code>N</code> (Nil)
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -392,7 +412,8 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
-|-
+| style="background:#22A84A; color:#fff" | ✓
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-i-infinitum"
 ! style="text-align:left" | <code>I</code> (Infinitum)
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
@@ -410,7 +431,8 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
-|-
+| style="background:#22A84A; color:#fff" | ✓
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ot-array"
 ! style="text-align:left" | <code>[]</code> (array)
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
@@ -428,8 +450,9 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 |-
-! colspan="17" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — VRChat attributes
+! colspan="18" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — VRChat attributes
 |-
 ! style="text-align:left" | HTTP server
 | style="background:#C03030; color:#fff" | ✗
@@ -446,6 +469,7 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
@@ -465,6 +489,7 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | FULL_PATH
@@ -482,6 +507,7 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
@@ -501,6 +527,7 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | TYPE
@@ -518,6 +545,7 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
@@ -537,6 +565,7 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | VALUE
@@ -554,6 +583,7 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
@@ -573,6 +603,7 @@
 | style="background:#D4890B; color:#fff" | ~<ref name="range-adv" />
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | DESCRIPTION
@@ -591,10 +622,11 @@
 | style="background:#D4890B; color:#fff" | ~<ref name="desc-adv" />
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
+| style="background:#D4890B; color:#fff" | ~<ref name="desc-adv" />
 | style="background:#C03030; color:#fff" | ✗
 |-
-! colspan="17" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery server — additional OSCQuery attributes
-|-
+! colspan="18" class="mw-customtoggle-oe-tags mw-customtoggle-oe-extended-type mw-customtoggle-oe-unit mw-customtoggle-oe-critical mw-customtoggle-oe-clipmode mw-customtoggle-oe-overloads" style="text-align:left; background:#9AA0AA; color:#fff; cursor:pointer" | OSCQuery server — additional OSCQuery attributes
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-oe-tags"
 ! style="text-align:left" | TAGS
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
@@ -612,7 +644,8 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
-|-
+| style="background:#C03030; color:#fff" | ✗
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-oe-extended-type"
 ! style="text-align:left" | EXTENDED_TYPE
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
@@ -630,7 +663,8 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
-|-
+| style="background:#C03030; color:#fff" | ✗
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-oe-unit"
 ! style="text-align:left" | UNIT
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
@@ -648,7 +682,8 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
-|-
+| style="background:#C03030; color:#fff" | ✗
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-oe-critical"
 ! style="text-align:left" | CRITICAL
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
@@ -666,7 +701,8 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
-|-
+| style="background:#C03030; color:#fff" | ✗
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-oe-clipmode"
 ! style="text-align:left" | CLIPMODE
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
@@ -684,7 +720,8 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
-|-
+| style="background:#C03030; color:#fff" | ✗
+|- class="mw-collapsible mw-collapsed" id="mw-customcollapsible-oe-overloads"
 ! style="text-align:left" | OVERLOADS
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
@@ -702,8 +739,9 @@
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#C03030; color:#fff" | ✗
 |-
-! colspan="17" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery client
+! colspan="18" style="text-align:left; background:#9AA0AA; color:#fff" | OSCQuery client
 |-
 ! style="text-align:left" | HTTP client
 | style="background:#C03030; color:#fff" | ✗
@@ -721,9 +759,10 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
-! colspan="17" style="text-align:left; background:#9AA0AA; color:#fff" | Service discovery
+! colspan="18" style="text-align:left; background:#9AA0AA; color:#fff" | Service discovery
 |-
 ! style="text-align:left" | mDNS advertisement
 | style="background:#C03030; color:#fff" | ✗
@@ -741,6 +780,7 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |-
 ! style="text-align:left" | mDNS discovery
@@ -759,6 +799,7 @@
 | style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 | style="background:#C03030; color:#fff" | ✗
+| style="background:#22A84A; color:#fff" | ✓
 | style="background:#C03030; color:#fff" | ✗
 |}
 {{reflist}}
