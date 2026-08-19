@@ -766,10 +766,20 @@ Properties: None
 |October 9, 2026 
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''Festival wear.''
-|Default Bone: Unknown
-Colors: Unknown
-Shapes: Unknown
-Audio: Unknown
+|Default Bone: Neck
+Colors: 
+* Color 1
+* Color 2
+* Glow (Slider)
+Shapes:
+* Thickness (Slider)
+* Cross (Slider)
+* Single (Toggle)
+Audio:
+* Audio Link (Toggle)
+* Audio Tint (Color)
+* Mode (Slider)
+* Frequency (Slider)
 |-
 |[[File:Accessory Festival Glasses.png|frameless|70x70px]]
 |Festival Glasses
@@ -778,9 +788,22 @@ Audio: Unknown
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''Bright Eyes.''
 |Default Bone: Head
-Colors: Unknown
-Shapes: Unknown
-Audio: Unknown
+Colors: 
+* Frames
+* Base
+* Glow (Slider)
+Shapes:
+* Lens Shape (Slider)
+* Lens Size (Slider)
+* Lens Distance (Slider)
+* Frame Width (Slider)
+* Arm Rotation (Slider)
+* Arm Length (Slider)
+Audio:
+* Audio Link (Toggle)
+* Audio Tint (Color)
+* Mode (Slider)
+* Frequency (Slider)
 |-
 |[[File:Accessory JR-WEST Cap with Mamehinata Ears.png|frameless|70x70px]]
 |JR-WEST Cap with Mamehinata Ears
@@ -789,7 +812,7 @@ Audio: Unknown
 |Buy from the [[Special:MyLanguage/Shop|Shop]].
 |''JR-WEST collaboration.''
 |Default Bone: Head
-Properties: Unknown
+Properties: None
 |}
 
 ==History==
