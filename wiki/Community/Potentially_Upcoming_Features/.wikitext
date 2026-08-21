@@ -44,10 +44,6 @@ Work has been discovered in [[VRChat SDK|World SDK]] 3.10.4, including [[Items|P
 
 "Avatar Part" has been discovered in [[VRChat SDK|Avatar SDK]] 3.10.4. Avatar Part has a separate Control Panel, like the Control Panels used to upload [[Worlds|worlds]] and [[Avatars|avatars]].<ref name="SDK3104" />
 
-=== Twitch Drops ===
-[[File:VRChat Website Twitch Drops Account Linking.png|thumb]]
-New "Twitch Drops" section in the "Account Linking" section of the website has been discovered. Suggesting new functionality of linking Twitch account and receiving Twitch Drops rewards. 
-
 == Officially mentioned ==
 
 These are features that have been talked about or shared publicly by VRChat staff. They could be worked on, but appear to have no implementation yet.
@@ -104,12 +100,6 @@ Community discussion periodically suggests migrating VRChat from Unity's Built-i
 
 In a Unity forum thread on render pipeline strategy, a Unity staff member said Unity hoped to share more details during the year on "how we are migrating one of the largest UGC platforms to URP".<ref name="UnityURP2026">[https://discussions.unity.com/t/render-pipelines-strategy-for-2026/1710004/206 Post] on ''discussions.unity.com''; posted February 27, 2026; retrieved June 25, 2026.</ref> The platform was not named, but was a reply to questions about VRChat.
 
-=== Moonchaser ===
-
-On {{Date|2026-06-22}}, VRChat opened a public interest check for performers and venues for a planned large, platform-wide event.<ref name="VRChatMusicInterestBsky">[https://bsky.app/profile/vrchat.com/post/3movpjgim422n "Music Performance Interest"] post on ''bsky.app''; posted June 22, 2026; retrieved June 22, 2026.</ref> According to the application form, the event would be officially promoted across VRChat's social media, video, and in-app discovery, and "broadcast beyond standard instances using streaming tech".<ref name="VRChatEventForm">[https://forms.gle/sgGRLYr6XAqhv5K89 "VRChat Event — Performer & Venue Interest"] application form on ''forms.gle''; retrieved June 22, 2026.</ref>
-
-The interest form had described timing as still in flux, with a first event likely about one hour and pre-recorded, targeting late August or November 2026.<ref name="VRChatEventForm" /> The {{Date|2026-07-30}} Developer Update referred to an unnamed event around August's lunar eclipse.<ref name="DU2026-07-30">[https://ask.vrchat.com/t/developer-update-30-july-2026/48750 "Developer Update - 30 July 2026"] on ''ask.vrchat.com''; dated July 30, 2026; retrieved August 13, 2026.</ref> On {{Date|2026-08-07}}, a VRChat Shop post for the EDM Bundle (available until {{Date|2026-10-09}}) included a promotional video that presents the event date as {{Date|2026-08-28}}.<ref name="VRChatEDMBundleX">[https://x.com/VRChat/status/2085833362959126610 Post] on ''x.com''; posted August 7, 2026; retrieved August 8, 2026.</ref> On {{Date|2026-08-13}}, VRChat named the event Moonchaser and said it would be hosted on {{Date|2026-08-28}}.<ref name="DU2026-08-13">[https://ask.vrchat.com/t/developer-update-13-august-2026/48800 "Developer Update - 13 August 2026"] on ''ask.vrchat.com''; dated August 13, 2026; retrieved August 13, 2026.</ref>
-
 === Image paste into inventory media ===
 
 A {{Date|2026-07-16}} Developer Update described a forthcoming way to paste JPG, PNG, or clipboard images into VRChat as [[Prints]], [[Inventory#User Icons|user icons]], [[Stickers]], and [[Emojis]]. An image can be pasted as raw data, pasted as a file, or dragged and dropped. Stickers, user icons, and emojis are padded to a square with transparency by default; Prints keep their original shape. Portrait Prints are rotated automatically, with a separate control for further rotation. When the clipboard already holds image data, a Paste icon appears on the Quick Menu launch pad and does the same thing as Ctrl+V.<ref name="DU2026-07-16">[https://ask.vrchat.com/t/developer-update-16-july-2026/48702 "Developer Update - 16 July 2026"] on ''ask.vrchat.com''; dated July 16, 2026; retrieved August 13, 2026.</ref>
@@ -120,7 +110,7 @@ The [[Action Menu]] is planned to use the user's configured UI theme colors, whi
 
 The same update described a cleanup of the Options tab: dropping Close Menu and, originally, Mic Toggle, to make room for moving Face Mirror out of the Personal Mirror menu. Mirror menus are being reorganized so their options can be edited while the mirrors are closed, and personal mirror presets are being added. Calibration Mirror stays in Main Menu settings and is turned on by default for new full-body tracking users.<ref name="DU2026-07-16" />
 
-After feedback, the {{Date|2026-07-30}} Developer Update kept the microphone toggle.<ref name="DU2026-07-30" />
+After feedback, the {{Date|2026-07-30}} Developer Update kept the microphone toggle.<ref name="DU2026-07-30">[https://ask.vrchat.com/t/developer-update-30-july-2026/48750 "Developer Update - 30 July 2026"] on ''ask.vrchat.com''; dated July 30, 2026; retrieved August 13, 2026.</ref>
 
 === Group Nameplate Banner ===
 
@@ -134,7 +124,7 @@ VRChat also planned custom nameplate banners that can be uploaded individually, 
 
 === Udon update ===
 
-An upcoming [[Udon]] update is planned to add native APIs so world objects can face the local player or follow a humanoid avatar bone without per-frame update loops, which VRChat described as expensive. Both APIs are subject to change until release.<ref name="DU2026-08-13" />
+An upcoming [[Udon]] update is planned to add native APIs so world objects can face the local player or follow a humanoid avatar bone without per-frame update loops, which VRChat described as expensive. Both APIs are subject to change until release.<ref name="DU2026-08-13">[https://ask.vrchat.com/t/developer-update-13-august-2026/48800 "Developer Update - 13 August 2026"] on ''ask.vrchat.com''; dated August 13, 2026; retrieved August 13, 2026.</ref>
 
 Native billboarding registers a transform with <code>VRCBillboard.Register</code> and removes it with <code>VRCBillboard.Unregister</code>. The default register call tracks yaw only; an overload with <code>allowTilt</code> also tracks pitch.
 
