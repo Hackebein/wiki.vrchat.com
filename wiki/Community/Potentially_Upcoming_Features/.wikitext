@@ -136,6 +136,18 @@ When a [[Avatar Dynamics#Contacts|contact]] receiver is hit by a sender with at 
 
 The extra parameters include the sender type, the local midpoint of the sender relative to the receiver, velocity and speed, the rate at which proximity is changing, and up to 16 boolean parameters for tags the sender shares with the receiver. If several senders contact the same receiver, the values represent the sender with the highest proximity. VRChat said the additions follow community feedback and are intended to replace workarounds used to derive the same information.<ref name="DU2026-08-13" />
 
+=== Material Contacts ===
+
+Material Contacts writes contact transforms into shader properties. When it is enabled on a receiver, the receiver can target up to four <code>MeshRenderer</code> components. Those renderers receive the world-space transform matrix of the receiver's four nearest contacting senders, and of the receiver itself.<ref name="DU2026-08-27">[https://ask.vrchat.com/t/developer-update-27-august-2026/48877 "Developer Update - 27 August 2026"] on ''ask.vrchat.com''; dated August 27, 2026; retrieved August 27, 2026.</ref>
+
+Contacts currently update at most 60 times per second. That cap is being removed, so contacts can update every frame above 60 FPS.<ref name="DU2026-08-27" />
+
+=== Variable-width avatar parameters ===
+
+Synced avatar parameters use three types. Integers are 8-bit values from 0 to 255. Floats are 8-bit fixed-point values from −1.0 to 1.0. Booleans are 1-bit true or false.<ref name="DU2026-08-27" />
+
+Integer and float parameters will use a configurable number of bits. A lower bit width frees unused space in the 256-bit synced-parameter budget. A higher bit width allows integers above 255, or more float precision, and uses more of that budget. A 2-bit integer can replace several mutually exclusive boolean toggles. One example uses a 2-bit Outfit parameter (0 to 3) and a 4-bit EyeConstriction float. That setup uses 7 bits instead of 17. The inspector is subject to change.<ref name="DU2026-08-27" />
+
 === Soba ===
 
 [[Soba]] remains in development toward a Closed Beta. VRChat described the language itself as "in good shape." The largest implemented change relative to [[Udon]] is non-behavior classes: plain classes that do not inherit from a behavior, whereas in Udon every piece of code must live on an UdonBehaviour. Also implemented are structs, interfaces, custom interfaces, static variables, nested types, and exception logs with a full stack trace of user code.
@@ -171,7 +183,15 @@ An A/B test labeled Discover (Alpha) has been observed on the Live tab of the Ma
 
 === Unity 6 ===
 
-Engine upgrade to Unity 6 (6000.0.60f1) is available on PC on `unity-6` branch. Bugs can be reported in the [https://feedback.vrchat.com/open-beta Open Beta] canny board.
+Engine upgrade to Unity 6 (6000.0.60f1) is available on PC on the <code>unity-6</code> branch. Bugs can be reported in the [https://feedback.vrchat.com/open-beta Open Beta] canny board.
+
+Unity 6 SDK and [[VRChat Creator Companion|VCC]] support is in QA as of {{Date|2026-08-27}}. The later Unity 6 SDK and VCC open beta installs Unity 6 through VCC and migrates projects.<ref name="DU2026-08-27" />
+
+=== Action Drivers ===
+
+Action Drivers is an upcoming avatar [[VRChat SDK|SDK]] component. It is in development and subject to change.<ref name="DU2026-08-27" />
+
+Creators bind avatar parameters to actions such as toggling GameObjects or changing blend shapes. Action Drivers does not replace custom animators.<ref name="DU2026-08-27" />
 
 == References ==
 
