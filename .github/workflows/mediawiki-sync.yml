@@ -3,7 +3,7 @@ name: MediaWiki sync
 on:
   schedule:
     # Run hourly (minute 0 of every hour, UTC)
-    - cron: "0 * * * *"
+    - cron: "0/5 * * * *"
   workflow_dispatch:
 
 jobs:
