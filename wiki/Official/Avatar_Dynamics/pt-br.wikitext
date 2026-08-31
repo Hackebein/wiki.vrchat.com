@@ -39,9 +39,7 @@ O VRChat oferece suporte a três comportamentos de receptor:
 <!-- Mais algumas coisas intrínsecas do Unity que não podem ser traduzidas no momento, já que não há localização do Unity e do SDK do VRChat para PT-BR. -->
 
 <span id="Tags_and_parameters"></span>
-<div class="mw-translate-fuzzy">
-===Tags e Parâmetros===
-</div>
+=== Tags e Parâmetros ===
 
 Contacts só interagem quando um emissor e um receptor compartilham pelo menos uma tag de colisão correspondente. O campo ''Parameter'' do receptor determina qual parâmetro do Animator é atualizado. Dependendo do tipo de parâmetro do Animator, o valor pode ser interpretado como float, int ou bool.
 
