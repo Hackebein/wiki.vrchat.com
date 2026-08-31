@@ -7,9 +7,7 @@
 <span id="Overview"></span>
 == Visão geral ==
 [[File:VRChatSDK_UDON_Example.gif|thumb|Um exemplo da interface do Udon Node Graph e uma demonstração do seu código. ''(GIF Animado)'']]
-<div class="mw-translate-fuzzy">
-O Udon permite que os usuários utilizem a interface de usuário '''Udon Node Graph''' para a criação visual de scripts, usando 'noodles' para conectar nós entre si e criar scripts avançados para [[Mundos]]. Os usuários também podem programar da maneira tradicional, usando o '''UdonSharp''' (U#), que permite o uso de uma sintaxe limitada de C#. O Udon também compila para seu próprio bytecode, conhecido como '''Udon Assembly''', que pode ser interpretado pela plataforma VRChat.
-</div>
+O Udon permite que os usuários utilizem a interface de usuário '''Udon Node Graph''' para a criação visual de scripts, usando 'noodles' para conectar nós entre si e criar scripts avançados para [[Special:MyLanguage/Worlds|Mundos]]. Os usuários também podem programar da maneira tradicional, usando o '''UdonSharp''' (U#), que permite o uso de uma sintaxe limitada de C#. O Udon também compila para seu próprio bytecode, conhecido como '''Udon Assembly''', que pode ser interpretado pela plataforma VRChat.
 
 <div class="mw-translate-fuzzy">
 O Udon é usado principalmente como substituto dos [https://docs.unity3d.com/ScriptReference/MonoBehaviour.html MonoBehaviors] no Unity. O Udon foi projetado para interagir com segurança com a plataforma VRChat em um ambiente sandbox, com um conjunto selecionado de operações aprovadas para realizar várias ações, que podem ser opcionalmente sincronizadas pela rede. O Udon abrange uma ampla gama de operações nativas do C# e do Unity, bem como operações específicas do VRChat que podem ser usadas para criar [[mundos]] e experiências avançadas no VRChat.
