@@ -13,7 +13,7 @@
 |branch_openbeta_releasenote = https://docs.vrchat.com/docs/vrchat-202513-openbeta
 }}
 
-'''Camera Dolly''' is a [[VRChat+|VRC+]] exclusive system that allows you to create and play animations for the VRChat [[Camera|camera]]. 
+'''Camera Dolly''' is a [[VRChat+|VRC+]] exclusive system that allows you to create and play animations for the VRChat [[Camera|camera]].
 
 == Features ==
 {{Thumb|{{YouTube|Doy9pVLBn_k}}|Official Camera Dolly walkthrough tutorial video.<ref>[https://www.youtube.com/watch?v=Doy9pVLBn_k VRChat Camera Dolly Walkthrough Tutorial] on ''YouTube''.</ref>}}
@@ -131,7 +131,7 @@ The capture setting determines how an animation should be recorded. Note that th
 
 * Photo: Automatically takes photos while the camera is animating. While selected a `Photos per Second` slider is displayed, ranging from 0.1 (one photo every 10 seconds) to 2 (one photo every half second)
 * Video: Records an mp4 video while the animation plays. The maximum clip length is 60 seconds. When selected, an additional Audio Source option is displayed that let's you pick between local microphone audio or world audio (including other users) for the audio to record with the video. Due to technical limitations, you can't choose both at this time.
-* Emoji: Takes exactly 16 photos spaced out evenly along the animation. When the animation concludes, the Emoji editor opens. This option is not currently supported with Speed-based motion. 
+* Emoji: Takes exactly 16 photos spaced out evenly along the animation. When the animation concludes, the Emoji editor opens. This option is not currently supported with Speed-based motion.
 
 === Streaming ===
 Building on top of the Spout2 integration for Stream Mode, this configuration allows you to define how content is streamed. Since this uses Spout, it is currently only supported on Windows.
@@ -246,14 +246,21 @@ The camera dolly menu includes an Import button for pasting file paths on Window
 | —
 |}
 
-==Official resources==
+== World paths ==
+Worlds can define Camera Dolly paths and activate them through [[Udon]] as of [[VRChat SDK|SDK]] 3.9.0.<ref name="SDK390">[https://creators.vrchat.com/releases/release-3-9-0/ "Release 3.9.0"] on ''creators.vrchat.com''; retrieved August 31, 2026.</ref>
+
+Camera Dolly remains a [[VRC+|VRC+]] exclusive feature for users. World creators can still add Camera Dolly paths with Udon without VRC+.<ref name="CannyCameraDollyUdon">[https://feedback.vrchat.com/udon/p/camera-dolly-in-udon "Camera Dolly in Udon"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref>
+
+== Official resources ==
 * [https://www.youtube.com/watch?v=Doy9pVLBn_k 'VRChat Camera Dolly Walkthrough Tutorial'] on ''YouTube''.
 * [https://www.youtube.com/watch?v=CHt6VsK9STk 'THREE new features and a TON of QoL fixes -- VRChat Release 2025.1.3 is here!'] on ''YouTube''.
 * [https://ask.vrchat.com/t/developer-update-march-27-2025/42391 'Developer Update - 27 March, 2025] on ''ask.vrchat.com''
+* [https://creators.vrchat.com/worlds/components/vrc_cameradolly/ 'VRC Camera Dolly'] on ''creators.vrchat.com''.
 
-==Community resources==
+== Community resources ==
 * [https://vrchat.com/home/world/wrld_ec048691-9f51-4e4f-81dd-550187b73ca7/info 'Camera Dolly 101'] world on VRChat.
 * [https://blog.vive.com/us/vrchat-introduces-camera-dolly-a-new-tool-for-creators/ 'VRChat Introduces 'Camera Dolly' – A New Tool for Creators'] on ''blog.vive.com''
+
 == See also ==
 
 * [[Camera]]
