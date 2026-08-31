@@ -46,7 +46,7 @@ Work has been discovered in [[VRChat SDK|World SDK]] 3.10.4, including [[Items|P
 
 == Officially mentioned ==
 
-These are features that have been talked about or shared publicly by VRChat staff. They could be worked on, but appear to have no implementation yet.
+These are features that have been talked about or shared publicly by VRChat staff. They may be in development, but they do not yet have an Open Beta testing branch or a confirmed live release.
 
 === New character controller for worlds ===
 
@@ -64,19 +64,21 @@ The thread is currently marked ''interested''. A staff update on {{Date|2025-05-
 
 === Age assurance rollout ===
 
-VRChat staff have described age assurance rollout in stages. In a livestream in March 2026, the team stated there is no public timeline for broad rollout beyond [[VRC+]], while aiming for the most accessible and low-cost path possible.
+The next Age Assurance phase beyond [[VRC+]] is planned for the United Kingdom and has not been announced as started. [[Age Assurance]] through [[VRC+]] remains the current live method.
 
-In December 2025, VRChat stated it is working to reduce the cost of age verification through negotiation, partnership, and optimization, without announcing a price point, and that its long-term goal—finances permitting—is to make verification free for everyone.<ref name="TrustSafety2025Blog">[https://hello.vrchat.com/blog/trust-safety-update-2025 "Safety, Freedom, and the Future of VRChat"] on ''hello.vrchat.com''; dated December 19, 2025; retrieved June 9, 2026.</ref> The same announcement expected [[Age Verification]] to function alongside reintroduced [[Content Gating]] in the first half of 2026.
+In December 2025, VRChat stated it is working to reduce the cost of age verification through negotiation, partnership, and optimization, without announcing a price point. The long-term goal is to make verification free for everyone if finances permit.<ref name="TrustSafety2025Blog">[https://hello.vrchat.com/blog/trust-safety-update-2025 "Safety, Freedom, and the Future of VRChat"] on ''hello.vrchat.com''; dated December 19, 2025; retrieved June 9, 2026.</ref> The same announcement expected [[Age Verification]] to function alongside reintroduced [[Content Gating]] in the first half of 2026.
 
-In a June 2026 update, VRChat adopted the term "age assurance" as an umbrella covering both age verification and age estimation, and said it would lean more on estimation approaches going forward. It stated that the next rollout phase would begin in the United Kingdom—offered free of charge during an initial period and rolling out in waves over several months—while [[VRC+]] subscribers retain immediate access. VRChat gave no date for a wider rollout beyond the United Kingdom, again citing cost and coverage challenges.<ref name="SafetyUpdate2026">[https://hello.vrchat.com/blog/june-2026-safety-update "Update: Age Assurance, Content Gating, and Safety Improvements in VRChat"] on ''hello.vrchat.com''; dated June 24, 2026; retrieved June 25, 2026.</ref>
+In a June 2026 update, VRChat adopted the term "age assurance" as an umbrella covering both age verification and age estimation, and said it would lean more on estimation approaches going forward.<ref name="SafetyUpdate2026">[https://hello.vrchat.com/blog/june-2026-safety-update "Update: Age Assurance, Content Gating, and Safety Improvements in VRChat"] on ''hello.vrchat.com''; dated June 24, 2026; retrieved June 25, 2026.</ref> VRChat stated that "once we start doing this, you'll get a link to go get age-assured." The UK rollout is planned in waves over several months and would be offered free of charge during an initial period. [[VRC+]] subscribers would keep immediate access. VRChat gave no date for a wider rollout beyond the United Kingdom, citing cost and coverage challenges.<ref name="SafetyUpdate2026" />
 
 === Content gating reintroduction ===
 
-VRChat announced it will reintroduce [[Content Gating]] to limit access to content based on tags, with some content requiring [[Age Verification]] to view.<ref name="TrustSafety2025Blog" /> At the time, the change was expected in the first half of 2026.
+User-toggleable [[Content Gating]] filters are already live. Age-based forced gating has not begun.
 
-The stated goal is a baseline expectation of content safety for public instances: public instances and non-verified spaces must be suitable for a general audience. VRChat described this as setting a clear standard for what content is permissible where, and as a tool to reduce exposure to adult or suggestive content in broadly accessible spaces.<ref name="TrustSafety2025Blog" />
+VRChat announced it will reintroduce age-based forced gating so that some tagged content requires [[Age Verification]] to view.<ref name="TrustSafety2025Blog" /> At the time, the change was expected in the first half of 2026.
 
-In a June 2026 update, VRChat said the first Content Gating change would begin in the United Kingdom, following the United Kingdom age assurance rollout by a few months. Users who are not age assured, or whose age is determined to be under 18, would have the "Sexually Suggestive" filter turned on with no option to disable it, with affected content hidden behind a placeholder. VRChat described this as the only filter category changing at that time, said it could extend gating more broadly later, and advised creators to tag affected content ahead of a grace period before enforcement.<ref name="SafetyUpdate2026" />
+The stated goal is a baseline expectation of content safety for public instances. Public instances and non-verified spaces must be suitable for a general audience. The system is meant to set a standard for what content is permissible where, and to reduce exposure to adult or suggestive content in broadly accessible spaces.<ref name="TrustSafety2025Blog" />
+
+The upcoming change is age-based forced gating of "Sexually Suggestive" content in the United Kingdom. It is planned to follow the United Kingdom age assurance rollout by a few months and has not begun. Users who are not age assured, or whose age is determined to be under 18, would have the "Sexually Suggestive" filter turned on with no option to disable it. Affected content would be hidden behind a placeholder. This is the only filter category changing at that time. VRChat said it could extend gating more broadly later, and advised creators to tag affected content ahead of a grace period before enforcement.<ref name="SafetyUpdate2026" />
 
 === Group moderation tools ===
 
@@ -110,19 +112,11 @@ In a Unity forum thread on render pipeline strategy, a Unity staff member said U
 
 A {{Date|2026-07-16}} Developer Update described a forthcoming way to paste JPG, PNG, or clipboard images into VRChat as [[Prints]], [[Inventory#User Icons|user icons]], [[Stickers]], and [[Emojis]]. An image can be pasted as raw data, pasted as a file, or dragged and dropped. Stickers, user icons, and emojis are padded to a square with transparency by default; Prints keep their original shape. Portrait Prints are rotated automatically, with a separate control for further rotation. When the clipboard already holds image data, a Paste icon appears on the Quick Menu launch pad and does the same thing as Ctrl+V.<ref name="DU2026-07-16">[https://ask.vrchat.com/t/developer-update-16-july-2026/48702 "Developer Update - 16 July 2026"] on ''ask.vrchat.com''; dated July 16, 2026; retrieved August 13, 2026.</ref>
 
-=== Action Menu theme and quality of life ===
-
-The [[Action Menu]] is planned to use the user's configured UI theme colors, which VRChat described as a long-standing community request. The Tools menu is also planned to gain optional long-press actions for secondary functions, such as opening a related settings page, while single-press paths stay in place.
-
-The same update described a cleanup of the Options tab: dropping Close Menu and, originally, Mic Toggle, to make room for moving Face Mirror out of the Personal Mirror menu. Mirror menus are being reorganized so their options can be edited while the mirrors are closed, and personal mirror presets are being added. Calibration Mirror stays in Main Menu settings and is turned on by default for new full-body tracking users.<ref name="DU2026-07-16" />
-
-After feedback, the {{Date|2026-07-30}} Developer Update kept the microphone toggle.<ref name="DU2026-07-30">[https://ask.vrchat.com/t/developer-update-30-july-2026/48750 "Developer Update - 30 July 2026"] on ''ask.vrchat.com''; dated July 30, 2026; retrieved August 13, 2026.</ref>
-
 === Group Nameplate Banner ===
 
 Group management on the website is planned to gain a Group Nameplate Banner, a separate image from the existing group banner and used only on the group's nameplate. Groups that do not upload one keep using the existing banner. The upload flow includes a template.
 
-Two crop modes were described. Bottom-left Anchored pins the image's bottom-left corner so that a longer nameplate reveals more of the image without changing its scale. Centered scales the image to cover the banner, keeping a marked center square always visible while the rest can crop as the nameplate grows or shrinks.<ref name="DU2026-07-30" />
+Two crop modes were described. Bottom-left Anchored pins the image's bottom-left corner so that a longer nameplate reveals more of the image without changing its scale. Centered scales the image to cover the banner, keeping a marked center square always visible while the rest can crop as the nameplate grows or shrinks.<ref name="DU2026-07-30">[https://ask.vrchat.com/t/developer-update-30-july-2026/48750 "Developer Update - 30 July 2026"] on ''ask.vrchat.com''; dated July 30, 2026; retrieved August 13, 2026.</ref>
 
 === Custom nameplate banners without a group ===
 
@@ -162,17 +156,9 @@ Integer and float parameters will use a configurable number of bits. A lower bit
 
 Remaining work includes confirming that implemented behavior works in a real client, plus test coverage, editor tooling, validation, error messages, and documentation. VRChat did not give a Closed Beta date, saying it would rather under-promise after a March 2026 update that described the team as "hard at work" and then stretched five more months. Soba is designed to sit alongside Udon, not replace it.<ref name="DU2026-08-13" />
 
-=== World analytics ===
-
-World analytics is in progress at a very early stage.<ref name="CannyWorldAnalytics">[https://feedback.vrchat.com/udon/p/give-world-creators-access-to-analytics-about-their-world "Give world creators access to analytics about their world"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref> A small test gives additional, rudimentary analytics to a few dozen invited world creators. That group is as many as can be supported without a full system. The test is intended to learn which analytics matter and how creators use them. Work next year is planned to use those findings to build a system that supports many more creators. Building that system is expected to take quite a bit of time.<ref name="Roadmap2026-08" />
-
 === Portal exclusion zones ===
 
 World creators currently choose to disable [[Portals]] completely, or to allow them anywhere except the player spawn area. Work in progress adds exclusion zones, which are areas where players cannot place portals.<ref name="CannyPortalDropZones">[https://feedback.vrchat.com/udon/p/world-request-designating-portal-drop-zones "World request: designating portal drop zones"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref> The change is intended for games and other spaces where players should not walk into a dropped portal. More details are planned for an upcoming Developer Update.<ref name="Roadmap2026-08" />
-
-=== Camera Dolly in Udon ===
-
-Worlds will be able to apply [[Camera Dolly]] animations to the user's camera, including pre-defined paths around points of interest such as stages, race tracks, or dance floors.<ref name="CannyCameraDollyUdon">[https://feedback.vrchat.com/udon/p/camera-dolly-in-udon "Camera Dolly in Udon"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref> Camera Dolly remains a [[VRC+]] exclusive feature. World creators can still add Camera Dolly paths with [[Udon]] without VRC+.<ref name="CannyCameraDollyUdon" />
 
 === Avatar optimizer ===
 
@@ -180,7 +166,7 @@ An official avatar optimizer was removed from the August 2026 Creators Roadmap f
 
 == In testing ==
 
-These features are currently either confirmed in closed beta or in A/B testing.
+These features are in limited testing, such as closed beta, Open Beta, A/B testing, or an invite-only test.
 
 === Challenges ===
 
@@ -207,15 +193,19 @@ An A/B test labeled Discover (Alpha) has been observed on the Live tab of the Ma
 
 === Unity 6 ===
 
-Engine upgrade to Unity 6 (6000.0.67f1) is available on PC on the <code>unity-6</code> branch. Bugs can be reported in the [https://feedback.vrchat.com/open-beta Open Beta] canny board.
+Engine upgrade to Unity 6 (6000.0.67f1) is available on PC on the <code>unity-6</code> branch.<ref name="DiscordUnity6">[https://discord.com/channels/189511567539306508/503009489486872583 #open-beta-announcements] on VRChat Discord; retrieved August 31, 2026.</ref> The branch opened at 6000.0.60f1.<ref name="DU2026-06-25">[https://ask.vrchat.com/t/developer-update-25-june-2026/48618 "Developer Update - 25 June 2026"] on ''ask.vrchat.com''; dated June 25, 2026; retrieved August 31, 2026.</ref> Bugs can be reported in the [https://feedback.vrchat.com/open-beta Open Beta] canny board.
 
 Unity 6 SDK and [[VRChat Creator Companion|VCC]] support is in QA as of {{Date|2026-08-27}}. The later Unity 6 SDK and VCC open beta installs Unity 6 through VCC and migrates projects.<ref name="DU2026-08-27" />
 
 === Action Drivers ===
 
-Action Drivers is an upcoming avatar [[VRChat SDK|SDK]] component. It is in development and subject to change.<ref name="DU2026-08-27" />
+Action Drivers is an upcoming avatar [[VRChat SDK|SDK]] component in closed beta testing. It is subject to change.<ref name="DU2026-08-27" />
 
 Creators bind avatar parameters to actions such as toggling GameObjects or changing blend shapes. Action Drivers does not replace custom animators.<ref name="DU2026-08-27" /> Material swaps are being handled as part of Action Drivers.<ref name="CannyMaterialSwap">[https://feedback.vrchat.com/feature-requests/p/material-swap-dedicated-componentbehavior "Material Swap: Dedicated Component/Behavior"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref>
+
+=== World analytics ===
+
+World analytics is in progress at a very early stage.<ref name="CannyWorldAnalytics">[https://feedback.vrchat.com/udon/p/give-world-creators-access-to-analytics-about-their-world "Give world creators access to analytics about their world"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref> A small test gives additional, rudimentary analytics to a few dozen invited world creators. That group is as many as can be supported without a full system. The test is intended to learn which analytics matter and how creators use them. Work next year is planned to use those findings to build a system that supports many more creators. Building that system is expected to take quite a bit of time.<ref name="Roadmap2026-08" />
 
 == References ==
 
