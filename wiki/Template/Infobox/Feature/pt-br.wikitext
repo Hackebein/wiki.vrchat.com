@@ -30,7 +30,7 @@
                         <format>{{Date|{{{branch_openbeta_date}}}}}</format>
                     </data>
                     <data source="branch_openbeta_version"><label>Versão</label></data>
-                    <data source="branch_openbeta_releasenote"><label><span lang="en" dir="ltr" class="mw-content-ltr">Release note</span></label></data>
+                    <data source="branch_openbeta_releasenote"><label>Notas de lançamento</label></data>
                 </section>
             }}
             {{#if: {{{branch_announcement_date}}} |
