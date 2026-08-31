@@ -21,7 +21,7 @@
         <data><label>'''ID do mundo ausente!'''</label><default>{{#ifexist:Template:World/{{{id}}}/visits|{{World/{{{id}}}/visits}}}}</default></data>
         <data><label>Favoritos</label><default>{{#ifexist:Template:World/{{{id}}}/favorites|{{World/{{{id}}}/favorites}}}}</default></data>
         <data><label>Popularidade</label><default>{{#ifexist:Template:World/{{{id}}}/popularity|{{#switch:{{World/{{{id}}}/popularity}}|0=|1=❤️|2=❤️❤️|3=❤️❤️❤️|4=❤️❤️❤️❤️|5=❤️❤️❤️❤️❤️|6=❤️❤️❤️❤️❤️❤️|7=❤️❤️❤️❤️❤️❤️❤️|8=❤️❤️❤️❤️❤️❤️❤️❤️|9=❤️❤️❤️❤️❤️❤️❤️❤️❤️|10=❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️}}}}</default></data>
-        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Heat</span></label><default>{{#ifexist:Template:World/{{{id}}}/heat|{{#switch:{{World/{{{id}}}/heat}}|0=|1=🔥|2=🔥🔥|3=🔥🔥🔥|4=🔥🔥🔥🔥|5=🔥🔥🔥🔥🔥|6=🔥🔥🔥🔥🔥🔥|7=🔥🔥🔥🔥🔥🔥🔥|8=🔥🔥🔥🔥🔥🔥🔥🔥|9=🔥🔥🔥🔥🔥🔥🔥🔥🔥|10=🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥}}}}</default></data>
+        <data><label>Em Alta</label><default>{{#ifexist:Template:World/{{{id}}}/heat|{{#switch:{{World/{{{id}}}/heat}}|0=|1=🔥|2=🔥🔥|3=🔥🔥🔥|4=🔥🔥🔥🔥|5=🔥🔥🔥🔥🔥|6=🔥🔥🔥🔥🔥🔥|7=🔥🔥🔥🔥🔥🔥🔥|8=🔥🔥🔥🔥🔥🔥🔥🔥|9=🔥🔥🔥🔥🔥🔥🔥🔥🔥|10=🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥}}}}</default></data>
     </group>
     <group>
         <header>História do Mundo</header>
