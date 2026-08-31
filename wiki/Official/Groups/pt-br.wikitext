@@ -263,9 +263,7 @@ O proprietário de um grupo e aqueles com as permissões corretas podem criar o 
 As instâncias de grupo são frequentemente '''moderadas pelo grupo que hospeda a instância'''. O proprietário do grupo e aqueles que recebem permissão de moderação por meio de seu cargo podem avisar, silenciar, expulsar ou banir um usuário dentro da instância. Banir um usuário de um grupo impede permanentemente que ele entre em qualquer Instância criada pelo grupo, como também juntar-se ao grupo.
 
 <span id="Group_instance_queues"></span>
-<div class="mw-translate-fuzzy">
-===Filas de instâncias do grupo===
-</div>
+=== Filas de instâncias do grupo ===
 
 As Instâncias de Grupo também são ótimas para gerenciar eventos com um grande número de pessoas. Para essa situação, a opção '''Filas de Grupos do VRChat''' irá configurar uma fila de espera para processar os pedidos de entrada quando a capacidade máxima da instância for atingida. Quando você entra na fila de uma instância, você será colocado na fila e receberá um pedido de convite quando uma vaga estiver disponível. Assim que o pedido for recebido, você terá um minuto para entrar na instância antes que sua vaga seja oferecida à próxima pessoa.
 
