@@ -29,7 +29,7 @@
                         <label>Data</label>
                         <format>{{Date|{{{branch_openbeta_date}}}}}</format>
                     </data>
-                    <data source="branch_openbeta_version"><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label></data>
+                    <data source="branch_openbeta_version"><label>Versão</label></data>
                     <data source="branch_openbeta_releasenote"><label><span lang="en" dir="ltr" class="mw-content-ltr">Release note</span></label></data>
                 </section>
             }}
