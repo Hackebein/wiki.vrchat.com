@@ -35,7 +35,7 @@
             }}
             {{#if: {{{branch_announcement_date}}} |
                 <section>
-                    <label><span lang="en" dir="ltr" class="mw-content-ltr">Announcement</span></label>
+                    <label>Anúncio</label>
                     <data source="branch_announcement_date">
                         <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
                         <format>{{Date|{{{branch_announcement_date}}}}}</format>
