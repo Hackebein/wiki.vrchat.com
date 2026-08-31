@@ -24,7 +24,7 @@
             }}
             {{#if: {{{branch_openbeta_date}}} |
                 <section>
-                    <label><span lang="en" dir="ltr" class="mw-content-ltr">Open Beta</span></label>
+                    <label>Open Beta</label>
                     <data source="branch_openbeta_date">
                         <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
                         <format>{{Date|{{{branch_openbeta_date}}}}}</format>
