@@ -15,7 +15,6 @@ Existem várias maneiras de acessar a câmera no VRChat:
 [[File:Camera menu.webp|thumb|Aba Câmera no Menu Rápido.]]
 Os modos da câmera determinam como ele se comporta ao tirar uma foto. Existem sete modos de câmera, que correspondem a diferentes recursos:
 
-<div class="mw-translate-fuzzy">
 ; Foto local : Depois de tirada, a foto é capturada normalmente. Esse é o modo padrão.
 ; Multicamada : Depois de tirada, ele tira uma foto e cria imagens de cada máscara ativada. Este modo não suporta foco nem filtros e pode causar atrasos na exibição dos quadros.
 : Ele pode criar até três imagens adicionais (além da foto normal): "Ambiente", "Usuários" (Combina as máscaras de Usuários Locais e Remotos) e "IU". As máscaras "Usuários" e "IU" são salvas com transparência alfa.
@@ -23,7 +22,7 @@ Os modos da câmera determinam como ele se comporta ao tirar uma foto. Existem s
 : A opção "Transmissão Spout" exige que os aplicativos sejam compatíveis com o protocolo [https://spout.zeal.co/ Spout] para receber a imagem da câmera.
 : Este modo está disponível apenas no PC.
 ; Galeria : Depois de tirada, é exibida uma interface de usuário que permite ao usuário ampliar, reposicionar e inverter a foto dentro de uma área de recorte retangular. A opção "Salvar e aplicar" salva a foto na seção Galeria de fotos do Inventário. Requer o VRC+.
-; Ícone do Usuário : Depois de tirada, é exibida uma interface de usuário que permite ao usuário ampliar, reposicionar e inverter a foto dentro de uma área de recorte circular. A opção "Salvar e aplicar" salva a foto na seção Ícone do Usuário do Inventário e define automaticamente essa foto como o ícone do usuário. Requer o VRC+.
+; [[Special:MyLanguage/Inventory#User Icons|Ícone do Usuário]] : Depois de tirada, é exibida uma interface de usuário que permite ao usuário ampliar, reposicionar e inverter a foto dentro de uma área de recorte circular. A opção "Salvar e aplicar" salva a foto na seção Ícone do Usuário do Inventário e define automaticamente essa foto como o ícone do usuário.
 ; Adesivo : ''Veja também [[Special:MyLanguage/Stickers|Adesivos]] para obter informações mais detalhadas.''
 : Exibe um contorno quadrado, destacando a área de recorte. Após a captura, a interface "Criar Adesivo" é exibida, permitindo que o usuário amplie, reposicione e inverta a foto com seis opções de recorte predefinidas. Ao clicar em "Salvar", o adesivo é salvo na seção Adesivos do Inventário. Requer o VRC+.
 ; Impressão : ''Veja também [[Special:MyLanguage/Stickers|Impressões]] para obter informações mais detalhadas.''
@@ -34,7 +33,6 @@ Os modos da câmera determinam como ele se comporta ao tirar uma foto. Existem s
 :; Emoji (1)
 :; Animado (4)
 :; Animado (16)
-</div>
 
 Esses três "modos" não podem ser acessados pelo botão Modo de Câmera, mas sim por outros meios:
 
