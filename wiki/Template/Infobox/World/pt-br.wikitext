@@ -17,7 +17,7 @@
         <data><default>{{#ifexist:Template:World/{{{id}}}/previewYoutubeId|<div style="width:248px;margin:0 auto">{{YouTube|id={{World/{{{id}}}/previewYoutubeId}}|width=248px|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</div>}}</default></data>
     </group>
     <group>
-        <header><span lang="en" dir="ltr" class="mw-content-ltr">Statistics</span></header>
+        <header>Estatísticas</header>
         <data><label>'''ID do mundo ausente!'''</label><default>{{#ifexist:Template:World/{{{id}}}/visits|{{World/{{{id}}}/visits}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Favorites</span></label><default>{{#ifexist:Template:World/{{{id}}}/favorites|{{World/{{{id}}}/favorites}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Popularity</span></label><default>{{#ifexist:Template:World/{{{id}}}/popularity|{{#switch:{{World/{{{id}}}/popularity}}|0=|1=❤️|2=❤️❤️|3=❤️❤️❤️|4=❤️❤️❤️❤️|5=❤️❤️❤️❤️❤️|6=❤️❤️❤️❤️❤️❤️|7=❤️❤️❤️❤️❤️❤️❤️|8=❤️❤️❤️❤️❤️❤️❤️❤️|9=❤️❤️❤️❤️❤️❤️❤️❤️❤️|10=❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️}}}}</default></data>
