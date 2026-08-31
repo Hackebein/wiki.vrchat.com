@@ -116,9 +116,7 @@ Os parâmetros integrados <code>GestureLeft</code> e <code>GestureRight</code> i
 Em controles com rastreamento onde o rastreamento dos dedos substitui a animação por padrão, criadores podem usar um comportamento de estado Tracking Control para alternar os dedos relevantes de ''Tracking'' para ''Animation'' quando necessário.
 
 <span id="Expression_Parameter_Mismatching"></span>
-<div class="mw-translate-fuzzy">
-== Divergências de parâmetros de expressão==
-</div>
+== Divergências de parâmetros de expressão ==
 
 A divergência de parâmetros de expressão refere-se à prática de usar tipos de parâmetros diferentes entre os parâmetros de expressão e os parâmetros do controlador de animação local. Embora seja recomendável manter a consistência dos tipos de parâmetros, existe suporte para essa divergência e o sistema converterá os valores entre os tipos de acordo com regras específicas. Isso pode ser útil em certas configurações <u>avançadas</u>. O mesmo comportamento de conversão também pode ser usado com parâmetros integrados do Animator do VRChat.
 
