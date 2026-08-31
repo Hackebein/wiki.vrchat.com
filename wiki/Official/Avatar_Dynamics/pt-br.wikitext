@@ -17,9 +17,7 @@ O PhysBones é um sistema dinâmico de física para avatares que permite aos usu
 Contatos (Contacts) são um sistema que permite aos avatares detectar colisões consigo mesmos ou com outros avatares. Essas colisões podem então ser usadas para acionar parâmetros do Animator e realizar diversos tipos de efeitos de interação.
 
 <span id="Contact_Senders"></span>
-<div class="mw-translate-fuzzy">
-===Emissores de Contato===
-</div>
+=== Emissores de Contato ===
 
 Um '''Emissor de Contato (Contact Sender)''' define um volume de colisão que pode ser detectado por um Receptor de Contato (Contact Receive) correspondente. Os emissores podem usar formato de esfera ou cápsula, um transform raiz, deslocamentos locais de posição e rotação, e uma ou mais tags de colisão.
 
