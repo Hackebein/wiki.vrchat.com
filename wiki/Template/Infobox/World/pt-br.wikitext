@@ -9,7 +9,7 @@
         <data><label>Capacidade</label><default>{{#ifexist:Template:World/{{{id}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id}}}/capacity|{{World/{{{id}}}/recommendedCapacity}} (max {{World/{{{id}}}/capacity}})}}}}</default></data>
         <data><label>Plataformas</label><default>{{#ifexist:Template:World/{{{id}}}/platforms|{{World/{{{id}}}/platforms}}}}</default></data>
         <data><label>Etiquetas</label><default>{{#ifexist:Template:World/{{{id}}}/tags|{{World/{{{id}}}/tags}}}}</default></data>
-        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Listing</span></label><default>{{#ifexist:Template:World/{{{id}}}/listing|{{World/{{{id}}}/listing}}}}</default></data>
+        <data><label>Lista</label><default>{{#ifexist:Template:World/{{{id}}}/listing|{{World/{{{id}}}/listing}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Content</span></label><default>{{#ifexist:Template:World/{{{id}}}/content|{{World/{{{id}}}/content}}}}</default></data>
         <data source="languages"><label>Idiomas</label></data>
         <data source="id"><label>Link para o Mundo</label>
