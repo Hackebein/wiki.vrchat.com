@@ -70,7 +70,7 @@
 }}|
 <infobox type="World" theme="community">
 	<group>
-        <data><label>Link do Mundo</label><default>''<span lang="en" dir="ltr" class="mw-content-ltr">No world id provided</span>''</default></data>
+        <data><label>Link do Mundo</label><default>''Não foi fornecido nenhum ID no mundo''</default></data>
     </group>
 </infobox>
 }}{{ #ifeq: {{NAMESPACENUMBER}} | 3000 | [[Category:Community Content{{#translation:}}]]}}{{#switch:{{NAMESPACENUMBER}}|0|3000=[[Category:Worlds{{#translation:}}]]}}</includeonly><noinclude>{{Documentation}}</noinclude>
