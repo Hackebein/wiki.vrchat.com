@@ -56,6 +56,12 @@ The thread is currently marked ''interested''. A staff update on the post says w
 
 In April 2026, VRChat employee Sai confirmed on X that the new character controller remains "on the back burner" with no ETA and is not currently being worked on.<ref name="SaiXPost">[https://x.com/Sairenix/status/2042786856899629187 Post] on ''x.com''; posted April 11, 2026; retrieved April 12, 2026.</ref>
 
+=== Avatar preview improvements ===
+
+A request proposes raising the camera used in avatar previews, instead of the current bottom-up view focused on the lower half of the body.<ref name="Canny1642AvatarPreview">[https://feedback.vrchat.com/avatar-marketplace/p/1642-camera-angle-avatar-preview "[1642] Camera Angle Avatar Preview"] on ''feedback.vrchat.com''; posted May 22, 2025; retrieved August 31, 2026.</ref>
+
+The thread is currently marked ''interested''. A staff update on {{Date|2025-05-23}} said improving avatar previews in general was part of planning for the second half of 2025, with no promises.<ref name="Canny1642AvatarPreview" />
+
 === Age assurance rollout ===
 
 VRChat staff have described age assurance rollout in stages. In a livestream in March 2026, the team stated there is no public timeline for broad rollout beyond [[VRC+]], while aiming for the most accessible and low-cost path possible.
@@ -130,6 +136,8 @@ Native billboarding registers a transform with <code>VRCBillboard.Register</code
 
 Attaching a transform to a bone currently requires moving and rotating the object every frame. Native <code>AttachTransformToBone</code> and <code>DetachTransformFromBone</code> methods are planned so that tracking is handled after a one-time attach.
 
+The August 2026 Creators Roadmap lists this work as in progress.<ref name="Roadmap2026-08">[https://ask.vrchat.com/t/vrchat-creators-roadmap-august-2026/48896 "VRChat Creators Roadmap (August 2026)"] on ''ask.vrchat.com''; dated August 31, 2026; retrieved August 31, 2026.</ref>
+
 === Advanced contact proximity parameters ===
 
 When a [[Avatar Dynamics#Contacts|contact]] receiver is hit by a sender with at least one matching tag, it can already generate a proximity parameter that indicates how close the sender is. An upcoming SDK update is planned to add further parameters.
@@ -153,6 +161,22 @@ Integer and float parameters will use a configurable number of bits. A lower bit
 [[Soba]] remains in development toward a Closed Beta. VRChat described the language itself as "in good shape." The largest implemented change relative to [[Udon]] is non-behavior classes: plain classes that do not inherit from a behavior, whereas in Udon every piece of code must live on an UdonBehaviour. Also implemented are structs, interfaces, custom interfaces, static variables, nested types, and exception logs with a full stack trace of user code.
 
 Remaining work includes confirming that implemented behavior works in a real client, plus test coverage, editor tooling, validation, error messages, and documentation. VRChat did not give a Closed Beta date, saying it would rather under-promise after a March 2026 update that described the team as "hard at work" and then stretched five more months. Soba is designed to sit alongside Udon, not replace it.<ref name="DU2026-08-13" />
+
+=== World analytics ===
+
+World analytics is in progress at a very early stage.<ref name="CannyWorldAnalytics">[https://feedback.vrchat.com/udon/p/give-world-creators-access-to-analytics-about-their-world "Give world creators access to analytics about their world"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref> A small test gives additional, rudimentary analytics to a few dozen invited world creators. That group is as many as can be supported without a full system. The test is intended to learn which analytics matter and how creators use them. Work next year is planned to use those findings to build a system that supports many more creators. Building that system is expected to take quite a bit of time.<ref name="Roadmap2026-08" />
+
+=== Portal exclusion zones ===
+
+World creators currently choose to disable [[Portals]] completely, or to allow them anywhere except the player spawn area. Work in progress adds exclusion zones, which are areas where players cannot place portals.<ref name="CannyPortalDropZones">[https://feedback.vrchat.com/udon/p/world-request-designating-portal-drop-zones "World request: designating portal drop zones"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref> The change is intended for games and other spaces where players should not walk into a dropped portal. More details are planned for an upcoming Developer Update.<ref name="Roadmap2026-08" />
+
+=== Camera Dolly in Udon ===
+
+Worlds will be able to apply [[Camera Dolly]] animations to the user's camera, including pre-defined paths around points of interest such as stages, race tracks, or dance floors.<ref name="CannyCameraDollyUdon">[https://feedback.vrchat.com/udon/p/camera-dolly-in-udon "Camera Dolly in Udon"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref> Camera Dolly remains a [[VRC+]] exclusive feature. World creators can still add Camera Dolly paths with [[Udon]] without VRC+.<ref name="CannyCameraDollyUdon" />
+
+=== Avatar optimizer ===
+
+An official avatar optimizer was removed from the August 2026 Creators Roadmap for now. It is expected to return.<ref name="CannyAvatarOptimizer">[https://feedback.vrchat.com/avatar-30/p/automatic-avatar-optimization-in-sdk "Automatic Avatar Optimization in SDK"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref> [[#Unity 6|Unity 6]] support is prioritized first because it affects the optimizer's features and functionality. The optimizer is also intended to work with popular third-party avatar optimizers. Optimization is intended to be easier without many new ways to break an avatar on upload.<ref name="Roadmap2026-08" />
 
 == In testing ==
 
@@ -191,7 +215,7 @@ Unity 6 SDK and [[VRChat Creator Companion|VCC]] support is in QA as of {{Date|2
 
 Action Drivers is an upcoming avatar [[VRChat SDK|SDK]] component. It is in development and subject to change.<ref name="DU2026-08-27" />
 
-Creators bind avatar parameters to actions such as toggling GameObjects or changing blend shapes. Action Drivers does not replace custom animators.<ref name="DU2026-08-27" />
+Creators bind avatar parameters to actions such as toggling GameObjects or changing blend shapes. Action Drivers does not replace custom animators.<ref name="DU2026-08-27" /> Material swaps are being handled as part of Action Drivers.<ref name="CannyMaterialSwap">[https://feedback.vrchat.com/feature-requests/p/material-swap-dedicated-componentbehavior "Material Swap: Dedicated Component/Behavior"] on ''feedback.vrchat.com''; retrieved August 31, 2026.</ref>
 
 == References ==
 
