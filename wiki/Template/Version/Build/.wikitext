@@ -1,7 +1,7 @@
 <onlyinclude>{{#switch: {{lc:{{{1|}}}}}
 <!-- Set upcoming builds to a blank value if no versions are in development.-->
 <!-- CLIENT -->
- | live-mainpage = 1885 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
+ | live-mainpage = 1901 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
  | live = {{ClientBuild/windows/buildNumber}} <!-- Put the highest value of either windows, android or ios here. -->
  | live-windows = {{ClientBuild/windows/buildNumber}}
  | live-android-quest = {{ClientBuild/android-quest/buildNumber}}
@@ -9,7 +9,7 @@
  | live-android-pico = {{ClientBuild/android-pico/buildNumber}}
  | live-android-steamos = {{ClientBuild/android-steamos/buildNumber}}
  | live-android-viveport = {{ClientBuild/android-viveport/buildNumber}}
- | live-ios = 1865 <!-- Put the highest ios value here (ios, ipados). -->
+ | live-ios = 1886 <!-- Put the highest ios value here (ios, ipados). -->
  | open-beta = {{ClientBuild/open-beta-windows/buildNumber}}
  | open-beta-windows = {{ClientBuild/open-beta-windows/buildNumber}}
  | open-beta-android-quest = {{ClientBuild/open-beta-android-quest/buildNumber}}
