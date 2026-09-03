@@ -1,1264 +1,749 @@
 {{Noticebox/Community}}
-{{Noticebox/Stub}}
-{{Noticebox/wip|Page created on 11/28/25, and is a work in progress!}}
 {{Infobox/World
-|name=Massive Medal Pusher
-|image=Mmp v5 thumber.webp
-|author=りくち_
-|capacity= 60 (30)
-|platforms=PC, Android
-|tags=Game, Medal, Chill, Idle
-|languages=Japanese, English(US)|id=wrld_1af53798-92a3-4c3f-99ae-a7c42ec6084d
-|labs=April 12, 2025
-|published=April 12, 2025
-}}[[File:MMP_English_LOGO.webp|alt=Kuso Dekkee Pussha- Gemu - Massive Medal Pusher|600x600px]]<blockquote>''【ENG ⁄ JP】【Ver․5․0․2】 SO MASSIVEǃǃǃǃ Massive local medals - global leaderboards ＆ instance-wide features awaitǃ でっけえ！！！！ メダルは負荷を考慮して非同期です。。''</blockquote>
-'''Massive Medal Pusher ⁄ クソでっけぇプッシャーゲーム''' is an medal [[:Category:Game worlds|game]] [[Worlds|world]], created in 2025 by りくち_. The environment resembles spacious wooden rooms, featuring an interactive [[Wikipedia:Coin pusher|coin pusher]], and world mascots: Sherbi, Paletta, and Ferretta.
+|id=wrld_1af53798-92a3-4c3f-99ae-a7c42ec6084d
+}}
+'''Massive Medal Pusher''' (クソでっけぇプッシャーゲーム) is a cross-platform [[:Category:Game worlds|game world]] created by {{VRC link|https://vrchat.com/home/user/usr_194e211a-a2d2-4c01-a60d-230c6d05af75|りくち_}}. It left [[Special:MyLanguage/Community Labs|Community Labs]] on {{Date|April 12, 2025}}.<ref>[https://vrchat.com/home/world/wrld_1af53798-92a3-4c3f-99ae-a7c42ec6084d Massive Medal Pusher] on ''vrchat.com''.</ref> Players insert medals into a [[Wikipedia:Coin pusher|coin pusher]], drop them for a saved total, and spend that total on perks, skills, and totems.
 
-==Overview==
-{{YouTube|title=Massive Medal Pusher Trailer Movie|id=a3sOmnDANE8}}
+== Layout ==
 
-===Coin Pusher===
-The coin pusher is the primary feature of the world, which allows medals to be pushed into it. Medals are pushed into the machine, and creates more medals, and can generate other currencies which are earned by the user.
+The world is a set of wooden rooms around a large pusher table. A golden dispenser box floats in the play area. Picking it up (or pressing 2 on desktop) inserts medals; the medals drop from a tower at the back of the table. A payout rail sits on the right. Balls come from a red rail in front of the table.
 
-====Medals====
-Medals are the primary currency of this world, and can be used to purchase perks, skills, and items at the shrine. Medals appear in different colors, shapes, and sizes. They can be earned by inserting medals automatically or manually, interacting with Roomkeeper Sherbi, earning them from falling Sherbi Ball objects, and winning from the Roulette, Sherbi Chance Game, or Paletta Chance Game. 
+A roulette wheel sits above the pusher. A Sherbi Chance board sits with the physical lottery machine. Paletta and Ferretta lottery machines stand to the right of the pusher. Roomkeeper Sherbi figures spawn around the rooms.
 
-Tokens are the primary shape of medals, and appear in the shape of a coin. A larger token indicates a larger payout. Compressed medals are cylindrical-shaped medals, and also have a larger payout than tokens. Gold is the primary color of medals, but can appear as pink, green. Gem medals are special, and can appear as sapphire, ruby, emerald, and, diamond.
+The second floor holds a shrine with altars for totems, an in-world guide (SherPedia), achievement and statistics boards, and avatar pedestals. Cloud save and global leaderboards are on wall panels.
 
-Prized medals are gem medals that are collected, and will appear near the achievement board are being successfully earned.
+A keypad labels a management room. The in-world text tells players not to enter; doing so destroys save data.
 
-====Sherbi Ball====
-Sherbi Ball objects have a chance of being inserted into the machine, through purchased Perks and totems, or purchasing them in the Skills Shop. When they are inserted into the machine, they eject from the metal rail on the right side of the machine, or are released from the very top. Sherbi Ball objects come in a multitude of different colors, all with different effects, and can "chain" itself, earning the user a better reward.
+The world is graphically heavy, so enabling avatar culling is recommended; mobile headsets drain battery quickly.<ref name="cwiki-home">[https://wikiwiki.jp/vr_bigpusher/ クソでっけぇプッシャーゲーム（でかプ） Wiki] (in Japanese). Retrieved {{Date|September 3, 2026}}.</ref>
 
-A Sherbi Ball that chains itself will fall down the medal pusher, and give the "Continue!" pop-up text. The ball will re-appear, and will have a chain number on the face of the ball, showing how many times it has continued.
+== Gameplay ==
 
-The Sherbi Ball is also an [[Special:MyLanguage/Avatars|avatar]] pedestal that can be cloned from the second floor of the world.
-{| class="wikitable"
-|+Types of
-Normal Sherbi Ball
-!Color
+Inserted medals pile on the moving pusher shelf. Drops from the front pay the saved total. The payout counter, filled by roulette wins and ball drops, shoots extra medals from the right rail. Higher counters pay faster. When the counter is very large, compressed medals and golden medals replace ordinary payouts.
+
+Manual insertion speeds up while the trigger is held. That extra speed lasts a short time on auto-insert after the player stops. Manual insertion also adds five times as much to the Sherbi jackpot progressive counter as auto-insert. Some perks that spawn SP medals or balls during insertion apply only to manual insertion unless a totem extends them.
+
+Progress is stored with [[Special:MyLanguage/Persistence|Persistence]]. A cloud-save panel can back up that data and feeds the global leaderboard.
+
+=== Medals ===
+
+Sherbi medals on the table can upgrade into higher-value medals as they spawn. Dropping a medal pays the saved total and may add payout counts, skill points, walls, or roulette spins.
+
+{| class="wikitable sortable"
+!Icon
+!Name
+!Saved total
+!Other effect
+|-
+|[[File:Massive Medal Pusher world icon - medal normal.png|frameless|48x48px]]
+|'''Sherbi Medal'''
+|1
+|—
+|-
+|[[File:Massive Medal Pusher world icon - medal green.png|frameless|48x48px]]
+|'''Green Medal'''
+|5
+|Also used for Green Win payouts
+|-
+|[[File:Massive Medal Pusher world icon - medal pink.png|frameless|48x48px]]
+|'''Pink Medal'''
+|10
+|—
+|-
+|[[File:Massive Medal Pusher world icon - medal purple.png|frameless|48x48px]]
+|'''Purple Medal'''
+|20
+|—
+|-
+|[[File:Massive Medal Pusher world icon - medal roulette.png|frameless|48x48px]]
+|'''Roulette Medal'''
+|2
+|Adds one roulette spin. Spawn rate from the payout and jackpot machines is limited
+|-
+|[[File:Massive Medal Pusher world icon - medal cyan.png|frameless|48x48px]]
+|'''Cyan Medal'''
+|3
+|Adds 5 payout counts and has a small chance to spawn a Sherbi Ball
+|-
+|[[File:Massive Medal Pusher world icon - medal wall.png|frameless|48x48px]]
+|'''Wall Medal'''
+|10
+|Adds 10 payout counts and raises the side walls for 30 seconds
+|-
+|[[File:Massive Medal Pusher world icon - medal sp.png|frameless|48x48px]]
+|'''SP Medal'''
+|10
+|Also pays 1 skill point
+|-
+|[[File:Massive Medal Pusher world icon - medal compressed green.png|frameless|48x48px]]
+|'''Compressed Green'''
+|50
+|Used when payout or jackpot counts are very high
+|-
+|[[File:Massive Medal Pusher world icon - medal golden.png|frameless|48x48px]]
+|'''Compressed Golden'''
+|777
+|Used when payout or jackpot counts are very high
+|-
+|[[File:Massive Medal Pusher world icon - medal rainbow.png|frameless|48x48px]]
+|'''Rainbow Medal'''
+|—
+|Adds 334 payout counts, 50 Fever spins, and 99 seconds of side walls
+|-
+|[[File:Massive Medal Pusher world icon - medal sapphire.png|frameless|48x48px]]
+|'''Sapphire Medal'''
+|—
+|Adds 10,000–20,000 payout counts and seven random Sherbi Balls
+|-
+|[[File:Massive Medal Pusher world icon - medal ruby.png|frameless|48x48px]]
+|'''Ruby Medal'''
+|—
+|Adds 10,000 payout counts and 1,000 skill points
+|-
+|[[File:Massive Medal Pusher world icon - medal emerald.png|frameless|48x48px]]
+|'''Emerald Medal'''
+|—
+|Spawns 100 Normal Sherbi Balls and 1 Golden Sherbi Ball
+|-
+|[[File:Massive Medal Pusher world icon - medal diamond.png|frameless|48x48px]]
+|'''Diamond Medal'''
+|—
+|Adds 50,000 payout counts, 1,000 Golden Power, and a Golden Paletta Ball after Paletta unlocks
+|}
+
+Compressed pink and purple medals pay 100 and 200. Larger golden medals scale by ten times plus 7 (7,777 then 77,777, and so on). Rare medals play a sound when they appear.
+
+Green Win pays green medals (5 each) instead of ordinary medals. Rare medals still roll as usual during that payout.
+
+=== Sherbi Balls ===
+
+Roulette BALL results and several other effects spawn Sherbi Balls. About half are Normal. The rest are Special or Rare. When a ball's effect spawns another ball, the new ball carries a chain number. Effects are about twice as strong at 10 chains, then rise more slowly.
+
+A ball that continues shows a Continue popup and the chain count on its face.
+
+==== Normal and special ====
+
+{| class="wikitable sortable"
+!Icon
+!Name
+!On drop
+|-
+|[[File:Massive Medal Pusher world icon - ball normal.png|frameless|48x48px]]
+|'''Normal'''
+|Small payout. Chain: more payout
+|-
+|[[File:Massive Medal Pusher world icon - ball orange.png|frameless|48x48px]]
+|'''Orange'''
+|Payout, then one extra ball (51% Orange, otherwise a random ball at 70% special, ignoring Refined Ball). Chain: more payout
+|-
+|[[File:Massive Medal Pusher world icon - ball red.png|frameless|48x48px]]
+|'''Red'''
+|Small payout, then one extra ball (79% Red, otherwise a random ball at 60% special, ignoring Refined Ball). Chain: more payout
+|-
+|[[File:Massive Medal Pusher world icon - ball pink.png|frameless|48x48px]]
+|'''Pink'''
+|Two random balls and one Normal. The second random ball is 5% less likely to be special. No chain bonus
+|-
+|[[File:Massive Medal Pusher world icon - ball starry.png|frameless|48x48px]]
+|'''Starry'''
+|Payout, and 40% chance to spawn two of the same Special or Rare ball. Chain: more payout
+|-
+|[[File:Massive Medal Pusher world icon - ball lime.png|frameless|48x48px]]
+|'''Lime'''
+|Payout, and double medal insertion for 5 seconds. Chain: more payout
+|-
+|[[File:Massive Medal Pusher world icon - ball purple.png|frameless|48x48px]]
+|'''Purple'''
+|Removes the pusher edge for 10 seconds and spawns 1–2 random balls (50% special). A running timer refreshes to the longer value; leftover time becomes payout. Chain: more timer
+|-
+|[[File:Massive Medal Pusher world icon - ball green.png|frameless|48x48px]]
+|'''Green'''
+|4 Fever spins. Chain: more Fever
+|-
+|[[File:Massive Medal Pusher world icon - ball white.png|frameless|48x48px]]
+|'''White'''
+|Green Win, with a small chance of a Green Sherbi. Chain: more Green Win
+|-
+|[[File:Massive Medal Pusher world icon - ball black.png|frameless|48x48px]]
+|'''Black'''
+|Small payout, 4% chance of a Rainbow Sherbi, a small chance of a Rainbow Medal, and 2% chance to spawn Black again. Chain: more payout and Rainbow chance
+|-
+|[[File:Massive Medal Pusher world icon - ball peach.png|frameless|48x48px]]
+|'''Peach'''
+|One SP medal. Chain: chance of extra SP medals
+|-
+|[[File:Massive Medal Pusher world icon - ball navy.png|frameless|48x48px]]
+|'''Navy'''
+|Payout and Sherbi progressive counter. Chain: more of both
+|-
+|[[File:Massive Medal Pusher world icon - ball pale pink.png|frameless|48x48px]]
+|'''Pale Pink'''
+|Sherbi Chance advances 1 square. In ULTIMATE MODE this move does not create END and does not end the mode on END. Chain: Sherbi Chance
+|-
+|[[File:Massive Medal Pusher world icon - ball cyan.png|frameless|48x48px]]
+|'''Cyan'''
+|One Lottery Ball (rarely two), ignoring the Lottery Ball spawn limit. Chain: Sherbi Chance
+|-
+|[[File:Massive Medal Pusher world icon - ball mint.png|frameless|48x48px]]
+|'''Mint'''
+|Up to four +10-chain Lottery Balls at 10% each. Chain: Sherbi Chance
+|-
+|[[File:Massive Medal Pusher world icon - ball cream.png|frameless|48x48px]]
+|'''Cream'''
+|Sherbi Chance stacks. Each Sherbi Chance reward consumes one third of the stacks and raises the multiplier. Chain: more stacks
+|-
+|[[File:Massive Medal Pusher world icon - ball lavender.png|frameless|48x48px]]
+|'''Lavender'''
+|Payout and Paletta/Ferretta progressive counters. Chain: more of both
+|-
+|[[File:Massive Medal Pusher world icon - ball yellow.png|frameless|48x48px]]
+|'''Yellow'''
+|Payout and Paletta Ball counter (can spawn one at once). Speeds an already running Paletta lottery slightly. Chain: more payout and Paletta progress
+|-
+|[[File:Massive Medal Pusher world icon - ball meadow.png|frameless|48x48px]]
+|'''Meadow'''
+|Payout and Golden Power (Paletta multiplier and Golden Paletta chance). Golden Power decays after each Paletta lottery. Chain: more Golden Power
+|-
+|[[File:Massive Medal Pusher world icon - ball sprout.png|frameless|48x48px]]
+|'''Sprout'''
+|Small payout, with very low chances of a Black Box or Rainbow Sherbi after those systems unlock. Chain: higher rare-reward rate
+|-
+|[[File:Massive Medal Pusher world icon - ball lottery.png|frameless|48x48px]]
+|'''Lottery Ball'''
+|Moves into the physical lottery. After one appears, the next ordinary Lottery Ball waits a short time. Cyan and similar effects ignore that wait. Chain: Sherbi Chance multiplier
+|}
+
+==== Rare ====
+
+Rare balls play a sound when they spawn.
+
+{| class="wikitable sortable"
+!Icon
+!Name
+!On drop
+|-
+|[[File:Massive Medal Pusher world icon - ball rainbow.png|frameless|48x48px]]
+|'''Rainbow'''
+|Payout and 4 Fever spins. 90% chance to respawn, or always if the chain is 5 or less. Chain: more payout
+|-
+|[[File:Massive Medal Pusher world icon - ball golden.png|frameless|48x48px]]
+|'''Golden'''
+|One Normal and one of each Special ball. Chain: one extra Normal per 3 chain, up to 3
+|-
+|[[File:Massive Medal Pusher world icon - ball amethyst.png|frameless|48x48px]]
+|'''Amethyst'''
+|Payout of chain × 100 and 99 seconds of edge removal. Chain 4 or less, or 78%: another Amethyst. Otherwise five Normal balls at +20 chain
+|-
+|[[File:Massive Medal Pusher world icon - ball emerald.png|frameless|48x48px]]
+|'''Emerald'''
+|(30–500) × chain SP medals, hard-capped at 999. 25% chance to respawn, otherwise one Normal
+|-
+|[[File:Massive Medal Pusher world icon - ball rose quartz.png|frameless|48x48px]]
+|'''Rose Quartz'''
+|Sherbi Chance advances chain laps (soft cap 10). JACKPOT does not reset the laps. END does not end ULTIMATE MODE. Chain 4 or less, or 77%: another Rose Quartz
+|-
+|[[File:Massive Medal Pusher world icon - ball topaz.png|frameless|48x48px]]
+|'''Topaz'''
+|Payout of 50 × chain and Paletta counter of 50 × chain. Speeds a running Paletta lottery. Chain 4 or less, or 65%: another Topaz
+|-
+|[[File:Massive Medal Pusher world icon - ball sapphire.png|frameless|48x48px]]
+|'''Sapphire'''
+|Payout of 100 × chain and Sherbi progressive of 100 × chain. Chain 4 or less, or 65%: another Sapphire. When the chain ends, 1% chance of 20 × chain Lavender balls at chain 3
+|-
+|[[File:Massive Medal Pusher world icon - ball diamond.png|frameless|48x48px]]
+|'''Diamond'''
+|Green Win by chain. Chain 4 or less, or 50%: another Diamond. 0.1% chance of a second Diamond when the chain ends
+|}
+
+=== Roulette ===
+
+Each dropped Roulette Medal spins the wheel once. 5–100 WIN adds that many payout counts. BALL spawns a Sherbi Ball. LOSE pays nothing.
+
+Fever spends one stored Fever spin per roulette. During Fever there is no LOSE, the minimum WIN is 10, the maximum WIN is 500, and high WIN and BALL are more common.
+
+Landing 70 WIN or more lights one bonus-step lamp. Seven lamps fire one of: +100 payout, one 10-chain Lottery Ball, +15 Fever, or three random balls.
+
+=== Sherbi Chance ===
+
+Sherbi Chance unlocks at 1,000 total. A Lottery Ball that finishes the physical lottery moves Sherbi 1–8 squares.
+
+* Blue or yellow: payout by the square
+* Green: payout in green medals or higher (5×)
+* BALL: that many Sherbi Balls
+* JACKPOT: Sherbi Jackpot
+
+Multipliers rise with laps that skip JACKPOT and with Lottery Ball chains. Extra balls from a multiplier do not keep the chain.
+
+The Sherbi progressive counter in the center of the board is the jackpot payout. It is shared in the instance. It rises from medal drops, Navy balls, Sherbi Chance rewards, and Roomkeeper Sherbi, and falls when anyone in the instance hits jackpot. The drop has a 3-second cooldown per player and is smaller when more players are present. A local hard cap depends on progress.
+
+Sherbi Jackpot pays the progressive counter times the Sherbi Chance multipliers, launches medals from above, and launches balls from the count. Ordinary payout during the jackpot is added to the jackpot counter.
+
+ULTIMATE MODE can start from a Roomkeeper Sherbi or, rarely, from roulette. Every square becomes a red 100 WIN. Each advance raises the Sherbi Chance multiplier, then that square becomes END. Landing on END ends the mode. Yellow or JACKPOT clears END squares back to red.
+
+=== Paletta Chance ===
+
+Paletta unlocks at 1,000,000 total. A Paletta Ball appears after enough insertions, or on a very rare insertion roll. Dropping it starts the disk lottery on the right.
+
+* Number: payout
+* BALL: many Sherbi Balls
+* NEXT: a higher-multiplier Paletta stage
+* JACKPOT: Paletta Jackpot
+
+The Paletta progressive counter is local and stored in temporary save data, one value per jackpot tier. It rises from non-JACKPOT pockets, rare medals and balls, Lavender balls, and Roomkeepers. Winning a Paletta Jackpot cuts that tier and lower tiers.
+
+Paletta Jackpot pays the stored counter, launches medals from above, and launches balls (Special or better; every 10th ball is Rare or better). Payout during this jackpot is multiplied by 10 before it is added to the jackpot counter.
+
+A Golden Paletta Ball doubles the lottery reward. Meadow balls add Golden Power, which raises the Paletta multiplier and Golden Paletta chance and decays after each Paletta lottery.
+
+=== Ferretta Chance ===
+
+Ferretta unlocks at 10,000,000 total. Every three Paletta Balls spawn one Ferretta Ball. The disk lottery marks numbers on a bingo card. Completing a line pays Ferretta Jackpot. Several lines at once raise the jackpot tier, up to five. Those numbers then deactivate.
+
+The card starts with at least ten active squares and at least one square that can complete a line. If not, random numbers activate until both are true.
+
+The Ferretta progressive counter is local on the bingo card. It rises from non-jackpot pockets (more with a Ferretta item), Lavender balls, and Roomkeepers, and drops on a Ferretta Jackpot. Golden Power also multiplies Ferretta Jackpot and is spent only on a win.
+
+Ferretta items come from item pockets and from Black Boxes. Common, rare, and legendary items can open extra bingo hits.
+
+=== Roomkeeper Sherbi ===
+
+Roomkeeper Sherbi unlocks at 100 total. Figures spawn over time. Interacting pays a random reward. Spawn rate is higher when none are in the room and falls off after four. Rainbow Roomkeepers are stronger and rarer.
+
+Non-rainbow Roomkeepers have a small chance to start ULTIMATE MODE instead of the usual reward. That chance rises with skill use, Roomkeeper interacts, and a weak previous ULTIMATE MODE, then resets when ULTIMATE MODE occurs.
+
+=== Skills ===
+
+SP medals pay skill points. Points also come from some balls, manual insertion, and Roomkeeper interacts. The skill shop spends them. Each skill also gives a smaller effect to other players in the instance. Holding a shop button repeats the skill. Skill points save with the rest of progress.
+
+Visible skills include 50 Win, Special Ball, Fever Roulette, 20 Fever, and Rainbow Ball. Rainbow Ball costs 50 skill points and also spawns three extra balls; players who only receive the skill get ten random balls instead. A third skill slot unlocks at 2,000,000 total.
+
+A credit shop sells timed auto-insert and faster roulette. Auto-insert does not trigger some perks that require manual insertion. Manual insertion while auto-insert is running pauses that timer.
+
+A local setting can refuse other players' skills. Another local setting reduces 20× skill receive when an instance is heavy.
+
+=== Tasks ===
+
+Tasks unlock at 5,000 total. Repeatable tasks pay skill points when the objective is met. Daily tasks are three objectives that reset at {{Time|00:00}} UTC. Claiming all three daily tasks pays one Black Box. Completing any task also has a low chance of a Black Box: 3% plus the skill-point reward divided by 1,000. A Black Box also spawns one random gem Sherbi Ball.
+
+=== Perks ===
+
+The perk shop unlocks at 10,000 total. Each perk has levels 0–10. A respec refunds the spent total. Individual perks also have their own unlock conditions (insertions, roulette wins, jackpots, and similar).
+
+{| class="wikitable sortable"
+!Icon
+!Name
+!Unlock
 !Effect
-!Note
 |-
-|Black
-|
-|
+|[[File:Massive Medal Pusher world icon - perk faster insertion.png|frameless|48x48px]]
+|'''Faster Insertion'''
+|10,000 total
+|Medal insertion rate (manual and auto)
 |-
-|Cream
-|
-|
+|[[File:Massive Medal Pusher world icon - perk sp medal insertion.png|frameless|48x48px]]
+|'''SP Medal Insertion'''
+|5,000 insertions
+|SP medals during manual insertion. A Roomkeeper interact counts as 100 insertions
 |-
-|Cyan
-|
-|
+|[[File:Massive Medal Pusher world icon - perk ball insertion.png|frameless|48x48px]]
+|'''Ball Insertion'''
+|10,000 insertions
+|Random balls during manual insertion. A Roomkeeper interact counts as 100 insertions
 |-
-|Green
-|
-|
+|[[File:Massive Medal Pusher world icon - perk fevered roulette medal.png|frameless|48x48px]]
+|'''Fevered Roulette Medal'''
+|10,000 roulette wins
+|Chance that a Roulette Medal starts Fever instead
 |-
-|Lavender
-|
-|
+|[[File:Massive Medal Pusher world icon - perk refined ball.png|frameless|48x48px]]
+|'''Refined Ball'''
+|100 Sherbi Ball drops
+|Random balls are more often Special
 |-
-|Lime
-|
-|
+|[[File:Massive Medal Pusher world icon - perk sherbi chance multiplier.png|frameless|48x48px]]
+|'''Sherbi Chance Multiplier'''
+|20 Sherbi Jackpots
+|Sherbi Chance multiplier
 |-
-|Meadow
-|
-|
+|[[File:Massive Medal Pusher world icon - perk sherbi progressive multiplier.png|frameless|48x48px]]
+|'''Sherbi Progressive Multiplier'''
+|5 Sherbi Jackpots
+|Sherbi jackpot progressive contribution
 |-
-|Mint
-|
-|
+|[[File:Massive Medal Pusher world icon - perk more roomkeeper sherbi.png|frameless|48x48px]]
+|'''More Roomkeeper Sherbi'''
+|10 Roomkeeper interacts
+|Roomkeeper spawn rate
 |-
-|Navy
-|
-|
+|[[File:Massive Medal Pusher world icon - perk more rainbow roomkeeper.png|frameless|48x48px]]
+|'''More Rainbow Roomkeeper'''
+|50 Roomkeeper interacts
+|Chance a Roomkeeper is Rainbow
+|-
+|[[File:Massive Medal Pusher world icon - perk sustained insertion speed.png|frameless|48x48px]]
+|'''Sustained Insertion Speed'''
+|2,000 insertions
+|How long auto-insert keeps the manual speed boost
+|-
+|[[File:Massive Medal Pusher world icon - perk refined roulette.png|frameless|48x48px]]
+|'''Refined Roulette'''
+|(open with the shop)
+|Less LOSE, and less minimum WIN during Fever
+|-
+|[[File:Massive Medal Pusher world icon - perk skill receiver.png|frameless|48x48px]]
+|'''Skill Receiver'''
+|50 skill points spent
+|Share of other players' skills. The share falls after 10 players
+|-
+|[[File:Massive Medal Pusher world icon - perk more paletta ball.png|frameless|48x48px]]
+|'''More Paletta Ball'''
+|10 Paletta Balls
+|Fewer insertions per Paletta Ball, higher instant-spawn chance, faster Paletta/Ferretta lottery
+|-
+|[[File:Massive Medal Pusher world icon - perk richer roomkeeper.png|frameless|48x48px]]
+|'''Richer Roomkeeper'''
+|20 Roomkeeper interacts
+|Roomkeeper reward value
+|-
+|[[File:Massive Medal Pusher world icon - perk refined pal fer chance.png|frameless|48x48px]]
+|'''Refined Pal/Fer Chance'''
+|10 Paletta Jackpots
+|Paletta and Ferretta multipliers, faster low-stage Paletta, extra NEXT pockets by level
+|-
+|[[File:Massive Medal Pusher world icon - perk more item pockets.png|frameless|48x48px]]
+|'''More Item Pockets'''
+|10 Ferretta Balls
+|Chance a Ferretta pocket is an item pocket (extra pockets above 100%)
+|-
+|[[File:Massive Medal Pusher world icon - perk refined ferretta item.png|frameless|48x48px]]
+|'''Refined Ferretta Item'''
+|10 Ferretta lines
+|Higher-tier Ferretta items
+|}
+
+{| class="wikitable sortable"
+|+Perk levels
+!Perk
+!1
+!2
+!3
+!4
+!5
+!6
+!7
+!8
+!9
+!10
+|-
+|Faster Insertion
+|5K<br />4.4/s
+|10K<br />4.8/s
+|20K<br />6.0/s
+|50K<br />7.0/s
+|100K<br />8.0/s
+|200K<br />9.2/s
+|500K<br />10.4/s
+|1M<br />12.0/s
+|2M<br />14.0/s
+|5M<br />16.0/s
+|-
+|SP Medal Insertion
+|20K<br />1/100
+|50K<br />1/90
+|100K<br />1/80
+|500K<br />1/70
+|2M<br />1/60
+|10M<br />1/50
+|50M<br />1/40
+|200M<br />1/30
+|1B<br />1/20
+|5B<br />1/10
+|-
+|Ball Insertion
+|50K<br />1/250
+|100K<br />1/225
+|200K<br />1/200
+|500K<br />1/175
+|2M<br />1/150
+|10M<br />1/125
+|50M<br />1/100
+|200M<br />1/75
+|1B<br />1/50
+|5B<br />1/25
+|-
+|Fevered Roulette Medal
+|100K<br />1%
+|500K<br />2%
+|2M<br />3%
+|10M<br />5%
+|20M<br />7.5%
+|50M<br />10%
+|100M<br />15%
+|200M<br />20%
+|500M<br />30%
+|1B<br />50%
+|-
+|Refined Ball
+|10K<br />34%
+|20K<br />38%
+|50K<br />42%
+|100K<br />46%
+|200K<br />50%
+|1M<br />52%
+|5M<br />54%
+|20M<br />56%
+|100M<br />58%
+|500M<br />60%
+|-
+|Sherbi Chance Multiplier
+|500K<br />1.05×
+|1M<br />1.1×
+|2M<br />1.15×
+|5M<br />1.2×
+|20M<br />1.3×
+|100M<br />1.4×
+|500M<br />1.5×
+|2B<br />1.65×
+|10B<br />1.8×
+|50B<br />2×
+|-
+|Sherbi Progressive Multiplier
+|50K<br />1.05×
+|100K<br />1.1×
+|200K<br />1.15×
+|500K<br />1.2×
+|1M<br />1.3×
+|2M<br />1.4×
+|5M<br />1.5×
+|10M<br />1.65×
+|20M<br />1.8×
+|50M<br />2×
+|-
+|More Roomkeeper Sherbi
+|10K<br />1.1×
+|20K<br />1.2×
+|100K<br />1.5×
+|500K<br />1.8×
+|2M<br />2×
+|10M<br />2.3×
+|50M<br />2.7×
+|200M<br />3×
+|2B<br />3.5×
+|20B<br />4×
+|-
+|More Rainbow Roomkeeper
+|200K<br />1.3%
+|500K<br />1.8%
+|2M<br />2.4%
+|10M<br />3.3%
+|50M<br />4.5%
+|200M<br />6%
+|1B<br />8%
+|5B<br />10%
+|20B<br />15%
+|100B<br />20%
+|-
+|Sustained Insertion Speed
+|5K<br />20 s
+|10K<br />1 min
+|20K<br />3 min
+|50K<br />5 min
+|100K<br />10 min
+|200K<br />30 min
+|500K<br />1 h
+|1M<br />90 min
+|2M<br />2 h
+|5M<br />6 h
+|-
+|Refined Roulette
+|5K<br />55%
+|10K<br />60%
+|20K<br />65%
+|50K<br />70%
+|100K<br />75%
+|500K<br />78%
+|2M<br />82%
+|10M<br />86%
+|50M<br />90%
+|200M<br />100%
+|-
+|Skill Receiver
+|20K<br />0.1%
+|50K<br />0.3%
+|200K<br />0.7%
+|1M<br />1.5%
+|5M<br />3%
+|20M<br />6%
+|100M<br />12.5%
+|500M<br />25%
+|2B<br />50%
+|10B<br />100%
+|-
+|More Paletta Ball
+|1M<br />9.9K or 1/23K
+|2M<br />9.8K or 1/20K
+|5M<br />9.7K or 1/17K
+|10M<br />9.6K or 1/15K
+|20M<br />9.4K or 1/13K
+|100M<br />9.2K or 1/12K
+|500M<br />9K or 1/11K
+|2B<br />8.7K or 1/10K
+|10B<br />8.5K or 1/9K
+|50B<br />8K or 1/8K
+|-
+|Richer Roomkeeper
+|50K<br />1.2×
+|100K<br />1.5×
+|500K<br />2×
+|2M<br />2.5×
+|10M<br />3×
+|50M<br />4×
+|200M<br />5×
+|1B<br />6.5×
+|5B<br />8×
+|20B<br />10×
+|-
+|Refined Pal/Fer Chance
+|10M<br />1.05×
+|20M<br />1.1×
+|100M<br />1.15×
+|500M<br />1.2×
+|2B<br />1.3×
+|10B<br />1.4×
+|50B<br />1.5×
+|200B<br />1.65×
+|1T<br />1.8×
+|10T<br />2×
+|-
+|More Item Pockets
+|10M<br />0.33
+|20M<br />0.67
+|50M<br />1.00
+|200M<br />1.33
+|1B<br />1.67
+|10B<br />2.00
+|100B<br />2.50
+|1T<br />3.00
+|10T<br />4.00
+|100T<br />5.00
+|-
+|Refined Ferretta Item
+|100M<br />0.33
+|500M<br />0.67
+|2B<br />1.00
+|10B<br />1.33
+|50B<br />1.67
+|200B<br />2.00
+|1T<br />2.50
+|5T<br />3.00
+|20T<br />4.00
+|200T<br />5.00
+|}
+
+Costs are abbreviated: K for thousand, M for million, B for billion, T for trillion. Level 0 is 4.0/s insertion, no SP or ball insertion, 30% special-ball chance, 50% roulette win rate, 10,000 insertions or 1/25,000 for Paletta, and 5 seconds of leftover speed. Faster Insertion multiplies a 4.0/s base. Refined Roulette values are win rate (100% minus LOSE). More Paletta Ball lists guaranteed insertions and the instant-spawn chance. Item-pocket and Ferretta-item values are pocket/item weights at that level.
+
+=== Totems ===
+
+Totems unlock at 1,000,000,000 total, on the second-floor shrine. Spending the saved total at the offering box summons a totem. Summoned totems save. An effect applies only after the totem is placed on an altar. Extra altars cost 0, then 1.5 billion, 5 billion, 200 billion, and 5 trillion. Unplaced totems can be respawned from the shrine.
+
+Summon cost is 1 billion, 10 billion, or 100 billion depending on the totem. Summons are random within the current cost tier, except that Orange is always the first totem; the next tier opens once a tier is complete.<ref name="cwiki-totem">[https://wikiwiki.jp/vr_bigpusher/%E3%81%A7%E3%81%8B%E3%83%97%E7%A5%9E%E7%A4%BE でかプ神社＆トーテム] (in Japanese). クソでっけぇプッシャーゲーム Wiki. Retrieved {{Date|September 3, 2026}}.</ref>
+
+{| class="wikitable sortable"
+!Name
+!Effect
 |-
 |Orange
-|
-|
+|Every starting ball is Orange (rare balls are not replaced)
 |-
-|<small>Pale Pink</small>
-|
-|
-|-
-|Peach
-|
-|
+|Green
+|Doubles roulette spins except from skills and rare effects
 |-
 |Pink
-|
-|
+|Adds Balls × 3 on the roulette
 |-
 |Purple
-|
-|
-|-
-|Red
-|
-|
-|-
-|Sprout
-|
-|
-|-
-|Starry
-|
-|
+|Wall, flatten, and double-insertion buffs stay on. Purple Ball gives two balls
 |-
 |White
-|
-|
-|-
-|Yellow
-|
-|
-|}
-Types of Rare Sherbi Ball
-{| class="wikitable"
-!Color
-!Effect
-!Note
-|-
-|Rainbow
-|
-|
-|-
-|Amethyst
-|
-|
-|-
-|Emerald
-|
-|
-|-
-|Golden
-|
-|
-|-
-|<small>Rose Quartz</small>
-|
-|
-|-
-|Topaz
-|
-|
-|}
-
-===Roulette===
-The Roulette wheel is situated at the top of the coin pusher, and gives a chance at deploying medals or Sherbi Ball objects. The roulette can be triggered through perks and totems, and can also be bought with SP Medals, using the "Fever Roulette" skill, making the roulette earn more, and activating the Sherbi Chance Game. The shop to the left of the Skills Shop can also activate a timer for a "Faster Roulette" perk.
-
-===Sherbi Lottery===
-Sherbi Chance Game, Sherbi Jackpot, Sherbi Progressive Counter
-
-Sometimes referring to as S-JACK.
-===Paletta Lottery===
-Paletta Chance Game, Paletta Jackpot, Paletta Progressive Counter
-
-Sometimes referred to as P-JACK.
-
-== Sherbi, Paletta, Ferretta ==
-
-====Sherbi====
-A snow weasel character that appears across a wide range of elements, including medal designs and balls.
-
-Based on the character by: KIGURUMI MARMOT https://booth.pm/en/items/3284766
-
-====Paletta====
-A ferret character that mainly appears in the Paletta Chance Game.
-
-Based on the character by: Nebula plant https://booth.pm/en/items/4944751
-
-====Ferretta====
-A ferret character that appears in modes such as the Ferretta Bingo Game.
-
-Based on the character by: Nebula plant https://booth.pm/en/items/4944751
-
-==Shops and perks==
-===Shop===
-====Auto-Play Pass====
-Auto-Play Pass allows medals to be inserted automatically, instead of manually. Some perks and passive skills will not trigger with automatic insertion. Manually inserting medals while there is an elapsed timer on the Auto-Play Pass will only freeze the timer. The timer will continue counting down when manual insertion stops.
-
-====Faster Roulette====
-
-===Skills shop===
-====Tasks====
-====Special Ball====
-====10 Fever Roulettes====
-====Rainbow Ball====
-
-===Perks shop===
-
-==== Faster Insertion ====
-Increases the frequency of medal insertion per second, for manual insertion and automatic insertion.
-{| class="wikitable"
-|+Faster Insertion
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|4.0/s
-|
-|-
-|1.
-|10,000
-|4.4
-|
-|-
-|2.
-|20,000
-|4.8
-|
-|-
-|3.
-|50,000
-|6.0
-|
-|-
-|4.
-|100,000
-|7.0
-|
-|-
-|5.
-|200,000
-|8.0
-|
-|-
-|6.
-|500,000
-|9.2
-|
-|-
-|7.
-|1,000,000
-|10.4
-|
-|-
-|8.
-|2,000,000
-|12.0
-|
-|-
-|9.
-|5,000,000
-|14.0
-|
-|-
-|10.
-|10,000,000
-|16.0
-|
-|}
-
-==== Longer Fast Insertion ====
-Makes a longer effect of faster automatic medal insertion, which occurs after stopping manual insertion.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|5 seconds
-|
-|-
-|1.
-|10,000
-|<small>20 seconds</small>
-|
-|-
-|2.
-|20,000
-|1 minute
-|
-|-
-|3.
-|50,000
-|3 minutes
-|
-|-
-|4.
-|100,000
-|5 minutes
-|
-|-
-|5.
-|200,000
-|10 minutes
-|
-|-
-|6.
-|500,000
-|30 minutes
-|
-|-
-|7.
-|1,000,000
-|1 hour
-|
-|-
-|8.
-|2,000,000
-|90 minutes
-|
-|-
-|9.
-|5,000,000
-|2 hours
-|
-|-
-|10.
-|10,000,000
-|6 hours
-|
-|}
-
-==== SP Medal Insertion ====
-Allows spawning of SP medals by manual insertion. A higher level causes SP medals to spawn more frequently/
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|20,000
-|1/200
-|
-|-
-|2.
-|50,000
-|1/167
-|
-|-
-|3.
-|100,000
-|1/133
-|
-|-
-|4.
-|500,000
-|1/100
-|
-|-
-|5.
-|2,000,000
-|1/80
-|
-|-
-|6.
-|10,000,000
-|1/66
-|
-|-
-|7.
-|50,000,000
-|1/40
-|
-|-
-|8.
-|200.000,000
-|1/29
-|
-|-
-|9.
-|1,000,000,000
-|1/20
-|
-|-
-|10.
-|5,000,000,000
-|1/10
-|
-|}
-
-==== Ball Insertion ====
-Allows random balls to spawn, when medals are manually inserted. A higher level will cause Sherbi Balls to spawn more frequently.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|50,000
-|1/500
-|
-|-
-|2.
-|100,000
-|1/417
-|
-|-
-|3.
-|200,000
-|1/333
-|
-|-
-|4.
-|500,000
-|1/250
-|
-|-
-|5.
-|2,000,000
-|1/200
-|
-|-
-|6.
-|10,000,000
-|1/167
-|
-|-
-|7.
-|50,000,000
-|1/100
-|
-|-
-|8.
-|200,000,000
-|1/71
-|
-|-
-|9.
-|1,000,000,000
-|1/50
-|
-|-
-|10.
-|5,000,000,000
-|1/25
-|
-|}
-
-==== Skill Receiver ====
-When another player in your instance uses a skill, you can also receive a fraction of its effect. A higher level increases the fraction of the skill that is received.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|20,000
-|5%
-|
-|-
-|2.
-|50,000
-|10%
-|
-|-
-|3.
-|200,000
-|25%
-|
-|-
-|4.
-|1,000,000
-|33%
-|
-|-
-|5.
-|5,000,000
-|50%
-|
-|-
-|6.
-|20,000,000
-|55%
-|
-|-
-|7.
-|100,000,000
-|60%
-|
-|-
-|8.
-|500,000,000
-|67%
-|
-|-
-|9.
-|2,000,000,000
-|80%
-|
-|-
-|10.
-|10,000,000,000
-|100%
-|
-|}
-
-==== Refined Roulette ====
-Increases the winning rate for the roulette wheel above the coin pusher. Less spins will land on "LOSE". It also lowers the chance of getting the minimum win during Fever Roulette.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|50%
-|
-|-
-|1.
-|10,000
-|55%
-|
-|-
-|2.
-|20,000
-|60%
-|
-|-
-|3.
-|50,000
-|65%
-|
-|-
-|4.
-|100,000
-|70%
-|
-|-
-|5.
-|200,000
-|75%
-|
-|-
-|6.
-|1,000,000
-|78%
-|
-|-
-|7.
-|5,000,000
-|82%
-|
-|-
-|8.
-|20,000,000
-|86%
-|
-|-
-|9.
-|100,000,000
-|90%
-|
-|-
-|10.
-|500,000,000
-|100%
-|
-|}
-
-==== Fevered Roulette Medal ====
-Makes a roulette medal having a chance to become a Fever Roulette. This is also counted as a fever occurrence on your statistics board.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|100,000
-|1%
-|
-|-
-|2.
-|500,000
-|2%
-|
-|-
-|3.
-|2,000,000
-|3%
-|
-|-
-|4.
-|10,000,000
-|5%
-|
-|-
-|5.
-|20,000,000
-|8%
-|
-|-
-|6.
-|50,000,000
-|10%
-|
-|-
-|7.
-|100,000,000
-|15%
-|
-|-
-|8.
-|200,000,000
-|20%
-|
-|-
-|9.
-|500,000,000
-|30%
-|
-|-
-|10.
-|1,000,000,000
-|50%
-|
-|}
-
-==== Refined Ball ====
-Makes more chances to turn a random ball into a special ball.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|30%
-|
-|-
-|1.
-|10,000
-|34%
-|
-|-
-|2.
-|20,000
-|38%
-|
-|-
-|3.
-|50,000
-|42%
-|
-|-
-|4.
-|100,000
-|46%
-|
-|-
-|5.
-|200,000
-|50%
-|
-|-
-|6.
-|1,000,000
-|52%
-|
-|-
-|7.
-|5,000,000
-|54%
-|
-|-
-|8.
-|20,000,000
-|56%
-|
-|-
-|9.
-|100,000,000
-|58%
-|
-|-
-|10.
-|500,000,000
-|60%
-|
-|}
-
-==== Jack Counter Multiplier ====
-Increases the contribution of the Sherbi Jackpot progressive counter.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|500,000
-|1.05x
-|
-|-
-|2.
-|1,000,000
-|1.1x
-|
-|-
-|3.
-|2,000,000
-|1.15x
-|
-|-
-|4.
-|5,000,000
-|1.2x
-|
-|-
-|5.
-|20,000,000
-|1.3x
-|
-|-
-|6.
-|100,000,000
-|1.4x
-|
-|-
-|7.
-|500,000,000
-|1.5x
-|
-|-
-|8.
-|2,000,000,000
-|1.65x
-|
-|-
-|9.
-|10,000,000,000
-|1.8x
-|
-|-
-|10.
-|50,000,000,000
-|2x
-|
-|}
-
-==== Sherbi Chance Multiplier ====
-Increases the multiplier for the Sherbi Chance Game.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|500,000
-|1.05x
-|
-|-
-|2.
-|1,000,000
-|1.1x
-|
-|-
-|3.
-|2,000,000
-|1.15x
-|
-|-
-|4.
-|5,000,000
-|1.2x
-|
-|-
-|5.
-|20,000,000
-|1.3x
-|
-|-
-|6.
-|100,000,000
-|1.4x
-|
-|-
-|7.
-|500,000,000
-|1.5x
-|
-|-
-|8.
-|2,000,000,000
-|1.65x
-|
-|-
-|9.
-|10,000,000,000
-|1.8x
-|
-|-
-|10.
-|50,000,000,000
-|2x
-|
-|}
-
-==== More Roomkeeper Sherbi ====
-Increases the spawn frequency of Roomkeeper Sherbi.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|10,000
-|1.1x
-|
-|-
-|2.
-|20,000
-|1.2x
-|
-|-
-|3.
-|100,000
-|1.5x
-|
-|-
-|4.
-|500,000
-|1.8x
-|
-|-
-|5.
-|2,000,000
-|2.0x
-|
-|-
-|6.
-|10,000,000
-|2.3x
-|
-|-
-|7.
-|50,000,000
-|2.7x
-|
-|-
-|8.
-|200,000,000
-|3.0x
-|
-|-
-|9.
-|2,000,000,000
-|3.5x
-|
-|-
-|10.
-|20,000,000,000
-|4.0x
-|
-|}
-
-==== More Rainbow Roomkeeper ====
-Increases the chance of a Roomkeeper Sherbi that spawns, as a Rainbow variant, giving a stronger effect than normal.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|200,000
-|1.3%
-|
-|-
-|2.
-|500,000
-|1.8%
-|
-|-
-|3.
-|2,000,000
-|2.4%
-|
-|-
-|4.
-|10,000,000
-|3.3%
-|
-|-
-|5.
-|50,000,000
-|4.5%
-|
-|-
-|6.
-|200,000,000
-|6%
-|
-|-
-|7.
-|1,000,000,000
-|8%
-|
-|-
-|8.
-|5,000,000,000
-|10%
-|
-|-
-|9.
-|20,000,000,000
-|15%
-|
-|-
-|10.
-|100,000,000,000
-|20%
-|
-|}
-
-==== Richer Roomkeeper ====
-Increases the value of Roomkeeper Sherbi effects.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|50,000
-|1.2x
-|
-|-
-|2.
-|100,000
-|1.5x
-|
-|-
-|3.
-|500,000
-|2x
-|
-|-
-|4.
-|2,000,000
-|2.5x
-|
-|-
-|5.
-|10,000,000
-|3x
-|
-|-
-|6.
-|50,000,000
-|4x
-|
-|-
-|7.
-|200,000,000
-|5x
-|
-|-
-|8.
-|1,000,000,000
-|6.5x
-|
-|-
-|9.
-|5,000,000,000
-|8x
-|
-|-
-|10.
-|20,000,000,000
-|10x
-|
-|}
-
-==== More Paletta Ball ====
-Decreases the number of insertions required for Paletta Ball to appear, and increases the chance to spawn instantly at insertion.
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|10,000
-|<small>or 1/25,000</small>
-|-
-|1.
-|100,000,000
-|9,900
-|<small>or 1/23,000</small>
-|-
-|2.
-|200,000,000
-|9,800
-|<small>or 1/20,000</small>
-|-
-|3.
-|500,000,000
-|9,700
-|<small>or 1/17,000</small>
-|-
-|4.
-|1,000,000,000
-|9,600
-|<small>or 1/15,000</small>
-|-
-|5.
-|2,000,000,000
-|9,400
-|<small>or 1/13,000</small>
-|-
-|6.
-|5,000,000,000
-|9,200
-|<small>or 1/12,000</small>
-|-
-|7.
-|10,000,000,000
-|9,000
-|<small>or 1/11,000</small>
-|-
-|8.
-|20,000,000,000
-|8,700
-|<small>or 1/10,000</small>
-|-
-|9.
-|50,000,000,000
-|8,500
-|<small>or 1/9,000</small>
-|-
-|10.
-|100,000,000,000
-|8,000
-|<small>or 1/8,000</small>
-|}
-
-==== Refined Paletta Chance ====
-Increases the multiplier to Paletta Chance Game.
-
-* Each level adds the count of NEXT in the first Paletta stage
-* Each 3rd level adds the count of NEXT in the second Paletta stage
-* Each 5th level adds the count of NEXT in the third Paletta stage
-* Level 8 adds the count of NEXT in the final Paletta stage
-
-{| class="wikitable"
-!Level
-!Price
-!Skill
-!Notes
-|-
-|0.
-|0
-|None
-|
-|-
-|1.
-|500,000,000
-|1.05x
-|
-|-
-|2.
-|1,000,000,000
-|1.1x
-|
-|-
-|3.
-|2,000,000,000
-|1.15x
-|
-|-
-|4.
-|5,000,000,000
-|1.2x
-|
-|-
-|5.
-|10,000,000,000
-|1.3x
-|
-|-
-|6.
-|50,000,000,000
-|1.4x
-|
-|-
-|7.
-|200,000,000,000
-|1.5x
-|
-|-
-|8.
-|1,000,000,000,000
-|1.65x
-|
-|-
-|9.
-|10,000,000,000,000
-|1.8x
-|
-|-
-|10.
-|
-|2x
-|
-|}
-
-== Altar and totems ==
-Totems are passive skills that can be purchased with medals, and have varying benefits. Altars have to be purchased with medals first to place the totems. The shrine is located on the second floor. Effects from totems can stack with perks, other skills, and can compliment other totems. Finding the right combination of totems to use with each other is important to maximize medal earnings.
-{| class="wikitable"
-|+Altars
-!Altar
-!Price
-|-
-|First
-|0
-|-
-|Second
-|2,000,000,000
-|-
-|Third
-|50,000,000,000
-|-
-|Fourth
-|2,000,000,000,000
-|-
-|Fifth
-|10,000,000,000,000
-|}
-{| class="wikitable"
-|+Totems
-!Color
-!Effect
-!Price
-|-
-|Black
-|Triples the chance to spawn Rainbow Roomkeeper
-|10,000,000,000
-|-
-|Cream
-|2.0x Sherbi Chance multiplier
-|10,000,000,000
+|Green Win pays compressed green medals (10×)
 |-
 |Cyan
-|Doubles lottery attempts of Sherbi Chance
-|100,000,000,000
+|Doubles Sherbi Chance lottery attempts
 |-
-|Green
-|Doubles roulette spins (except skills and rare effects)
-|1,000,000,000
-|-
-|Lavender
-|Doubles the contribution of the Paletta Jackpot progressive counter
-|10,000,000,000
-|-
-|Lime
-|Doubles medal insertion
-|1,000,000,000
-|-
-|Meadow
-|2x Paletta Chance multiplier
-|10,000,000,000
-|-
-|Mint
-|Every Normal Ball has a 5% chance to spawn a lottery ball
-|100,000,000,000
+|Pale Pink
+|Odd steps stop making END, and END is disabled in ULTIMATE MODE
 |-
 |Navy
-|Doubles the contribution of the Sherbi Jackpot progressive counter
-|1,000,000,000
-|-
-|Orange
-|Every starting ball is Orange
-|1,000,000,000
-|-
-|<small>Pale Pink</small>
-|Odd steps stop making END and disables END in Ultimate Mode
-|100,000,000,000
-|-
-|Peach
-|<small>"SP Medal Insertion" and "Ball Insertion" has double effect and also applies for auto insertion</small>
-|10,000,000,000
-|-
-|Pink
-|Adds "Balls x 3" in Roulette
-|100,000,000,000
-|-
-|Purple
-|All pusher buffs are permanent. Purple Ball gives 2 balls.
-|1,000,000,000
+|+50% Sherbi progressive contribution for everyone in the instance
 |-
 |Red
 |Every starting ball gains +5 chains
-|10,000,000,000
+|-
+|Cream
+|2.0× Sherbi Chance multiplier
+|-
+|Mint
+|Each Normal Ball has a 5% chance to spawn a Lottery Ball
+|-
+|Peach
+|SP Medal Insertion and Ball Insertion have double effect and also apply to auto-insert
 |-
 |Starry
-|Every non-rare Balls has 1% chance to double effect
-|100,000,000,000
+|Each non-rare ball has a 1% chance to double its effect
 |-
-|White
-|Green Win pays compressen green medals (x10 valuable)
-|1,000,000,000
+|Meadow
+|2.0× Paletta Chance and 2.0× Ferretta Chance
+|-
+|Black
+|Doubles Roomkeeper spawn rate and triples Rainbow Roomkeeper chance
 |-
 |Yellow
-|Doubles chance to instant spawn Paletta Ball
-|100,000,000,000
+|Doubles Paletta Ball spawn rate
+|-
+|Lavender
+|+50% Paletta/Ferretta progressive contribution for everyone in the instance
+|-
+|Lime
+|Doubles medal insertion
+|-
+|Sprout
+|Roomkeepers have a 1% chance to pay a Black Box
 |}
 
-== See also ==
+Navy and Lavender totem bonuses are instance-wide and shown on shrine counters. The shrine sign renames itself after the placed totems; with no totem placed it reads "Void Shrine" (虚無神社).<ref name="cwiki-totem" />
+
+=== Achievements and leaderboards ===
+
+An achievement board lists bronze, silver, gold, and platinum entries. Overhead nameplates can show achievement count. Cloud save feeds a global ranking of total earned and related stats. Instance ranking panels show Paletta and Ferretta jackpot records.
+
+=== Strategy ===
+
+Cream and Cyan are generally considered the strongest totems: Cream keeps a permanent multiplier on Sherbi Chance, and Cyan doubles its lottery attempts. Red, Green, Lime, and Mint (paired with Cyan) also rate highly. Orange, Navy, Meadow, Lavender, and Yellow are seen as weak, useful mainly for chasing ranking records rather than raw earnings.<ref name="cwiki-totem" />
+
+A common five-altar loadout is Green, Red, Cream, Mint, and Cyan, swapping Green out when too many balls slow the instance down. Past that fixed set, players match totem placement, perk levels, and skill timing to the daily Sherbi, a featured ball color that changes each day.<ref name="cwiki-totem" /><ref name="cwiki-guide">[https://wikiwiki.jp/vr_bigpusher/%E5%88%9D%E5%BF%83%E8%80%85%E3%82%AC%E3%82%A4%E3%83%89 初心者ガイド] (in Japanese). クソでっけぇプッシャーゲーム Wiki. Retrieved {{Date|September 3, 2026}}.</ref>
+
+New players usually level Faster Insertion and Skill Receiver first, summon the Lime totem before buying a third altar, and take Cream as the first 10-billion-medal summon.<ref name="cwiki-guide" />
+
+Skills buff every other player in the instance, so populated instances are generally considered to progress much faster than playing alone.<ref name="cwiki-guide" /><ref>[https://vrc-world-guide.hatenablog.com/entry/koryaku-pusher 【VRChatワールド攻略】Massive Medal Pusherで億万長者になる3つのコツ] (in Japanese). oka-vrc旅行記, {{Date|October 19, 2025}}.</ref> During a Paletta Jackpot every payout is multiplied by 10, so raising the Sherbi jackpot progressive counter and landing Sherbi Jackpots inside that window is a favorite way to multiply earnings.<ref name="cwiki-guide" />
+
+== Characters ==
+
+'''Sherbi''' is a snow weasel used on medals, balls, Roomkeepers, and the Sherbi Chance board. The design uses a [https://booth.pm/en/items/3284766 KIGURUMI MARMOT] Booth asset.
+
+'''Paletta''' is a ferret used on Paletta Balls and the Paletta lottery.
+
+'''Ferretta''' is a ferret used on Ferretta Balls and the bingo lottery. Paletta and Ferretta use a [https://booth.pm/en/items/4944751 Nebula plant] Booth ferret asset.
+
+== Resources ==
+
+* [https://vrchat.com/home/world/wrld_1af53798-92a3-4c3f-99ae-a7c42ec6084d Massive Medal Pusher on VRChat]
+* [https://www.youtube.com/watch?v=A6BQCL79juM Trailer]
+* [https://push.trap.games/ Official website] (in Japanese)
+* [https://vrc.group/DEKAPU.9809 Official VRChat group]
+* [https://discord.com/invite/CgnYyXecKm Discord server]
+* [https://wikiwiki.jp/vr_bigpusher/ Community wiki] (in Japanese)
 
 == References ==
+
+{{reflist}}
+
+[[Category:Game worlds{{#translation:}}]]
