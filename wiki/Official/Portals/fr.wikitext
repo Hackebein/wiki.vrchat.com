@@ -21,9 +21,7 @@ Pour confirmer le placement du portail, appuyez sur le bouton gauche de la souri
 
 Si le paramètre « Mode du portail » est réglé sur « Déposer devant », le portail apparaîtra devant vous dès lors que vous appuyez sur le bouton « Déposer un portail ».
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Portal visibility follows instance access: if a user is allowed to join an instance, they are generally able to see a portal to it. To restrict who can use a portal, the instance type itself is used (for example, a portal dropped to a Friends instance is not shown to non-friends).
-</div>
+La visibilité des portails suit l’accès à l’instance : si un utilisateur est autorisé à rejoindre une instance, il peut généralement voir un portail vers celle-ci. Pour restreindre les personnes pouvant utiliser un portail, c’est le type d’instance lui-même qui est utilisé (par exemple, un portail déposé vers une instance Amis n’est pas affiché aux utilisateurs qui ne sont pas amis).
 
 Le portail sera alors visible à tous, affichant le nom du monde, l'utilisateur l'ayant déposé, sa région, son numéro, son type, le groupe qui la gère (si applicable), sa capacité, les plateformes compatibles, ainsi qu'un minuteur. Le minuteur ira de 30 à 0 secondes et le portail disparaîtra une fois celui-ci fini. Le minuteur se réinitialise à chaque fois qu'un utilisateur entrera dans le portail.
 
