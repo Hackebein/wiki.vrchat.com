@@ -23,7 +23,7 @@ Si le paramètre « Mode du portail » est réglé sur « Déposer devant », le
 
 La visibilité des portails suit l’accès à l’instance : si un utilisateur est autorisé à rejoindre une instance, il peut généralement voir un portail vers celle-ci. Pour restreindre les personnes pouvant utiliser un portail, c’est le type d’instance lui-même qui est utilisé (par exemple, un portail déposé vers une instance Amis n’est pas affiché aux utilisateurs qui ne sont pas amis).
 
-Le portail sera alors visible à tous, affichant le nom du monde, l'utilisateur l'ayant déposé, sa région, son numéro, son type, le groupe qui la gère (si applicable), sa capacité, les plateformes compatibles, ainsi qu'un minuteur. Le minuteur ira de 30 à 0 secondes et le portail disparaîtra une fois celui-ci fini. Le minuteur se réinitialise à chaque fois qu'un utilisateur entrera dans le portail.
+Le portail apparaîtra alors aux autres utilisateurs, affichant le nom du monde, l’utilisateur ayant déposé le portail, la région, le numéro d’instance, le type d’instance, le groupe hébergeant l’instance (le cas échéant), la capacité de l’instance, la compatibilité avec les plateformes, ainsi qu’un minuteur. Le minuteur décomptera de trente à zéro seconde. Lorsque le portail atteint zéro seconde, il disparaît. Le minuteur est réinitialisé à trente secondes après qu’un utilisateur entre dans le portail.
 
 Si le portail mène vers un monde incompatible sur certaines plateformes, les utilisateurs sur les plateformes concernées ne pourront pas entrer dans celui-ci. À la place, le portail sera entouré d'une icône « X ». Il est préférable de faire attention à la plateforme utilisée par vos amis et connaissances avant de changer d'instance afin d'éviter de laisser quiconque derrière vous.
 
