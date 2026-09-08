@@ -55,9 +55,8 @@ Un objeto consumible se destruye tras ser colocado y activado. Se puede apilar e
 
 Un '''Compañero''' es un objeto de tipo mascota que sigue al usuario a todas partes. Estos objetos tienen una etiqueta distintiva de "Compañero" en la [[Special:MyLanguage/Shop|Tienda]]. Un Compañero permanece invocado y sigue al usuario entre instancias en lugar de tener que volver a invocarse cada vez, y solo puede haber un Compañero activo a la vez. Los Compañeros incluyen un sistema de reposicionamiento, animaciones personalizadas de aparición y desaparición, y comportamiento de seguimiento, y se pueden personalizar desde su pantalla de Detalles en el [[Special:MyLanguage/Quick Menu|Menú Rápido]], una sección dedicada del [[Special:MyLanguage/Action Menu|Menú de Acción]], o desde el [[Special:MyLanguage/Inventory|Inventario]]. A diferencia de los Props, los Compañeros no se pueden ocultar ni desactivar por mundos o instancias, aunque un usuario puede ocultar su propio Compañero o los de otros usuarios.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-== Worlds ==
-</div>
+<span id="Worlds"></span>
+== Mundos ==
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ''See also [https://creators.vrchat.com/worlds/items Items in Udon Worlds] for more detailed information.''
