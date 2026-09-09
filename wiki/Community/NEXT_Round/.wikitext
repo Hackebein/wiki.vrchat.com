@@ -1,0 +1,662 @@
+{{Noticebox/Community}}
+{{Infobox/World
+|id=wrld_cf5b4d70-4089-494a-bea2-4dfd22316d56
+}}
+'''NEXT Round''' is a cross-platform [[:Category:PvP worlds|player-versus-player]] [[:Category:Game worlds|game world]] created by {{VRC link|https://vrchat.com/home/user/usr_9320cca6-978c-4eb8-944b-74985dcdaa77|Satou213}}. Players fight with guns in rounds, then pick cards that change the gun, movement, health, or a defensive drone.
+
+== Layout ==
+
+Players spawn in a two-floor lobby. The ground floor has join cubes, a gun table, the card-pick area, score and loadout boards, and an options panel. A title sign shows first-to wins, cards per round, and how many players have joined. Stairs on the south and east sides go to the second floor. An FPS panel sits on the south wall.
+
+From left to right, the lobby has a card BAN board, the card-pick stands, and a combined info panel. The second floor has a full card list, QvPen, an asset-credits board, spectator monitors with a camera switch, and a community board.
+
+On a first visit, the player goes to a tutorial island with moving target bots. A photo wall behind the tutorial entrance shows the NEXT ROUND title. Warps return players to the lobby when a match is not running.
+
+A debug island is a Patreon supporter perk. The author and listed debuggers can also enter. Players there can turn on 20 frozen cards so they enter the live draw. The credits board names ''Victory of Round'' and ''ROUNDS'' as inspiration.
+
+== Gameplay ==
+
+A green box on the gun table joins the next round. The match has 10 join seats. Instance capacity is 12. The world owner can raise the match to 12 from the debug island.
+
+The default rules are free-for-all, first to 5 round wins, 2 cards per round, and 45 seconds to pick. Starting HP is 150. The instance owner can switch free-for-all to teams (red, blue, green, yellow, purple). Options also change win count, cards per round, pick time, reroll cost, zone-shrink speed, and whether the round winner is skipped on the next pick. Casual, Normal, and Veteran presets sit on a board next to the options panel.
+
+After each round, players pick from a random offer. Copies of the same card stack. A reroll spends round points (default 1). Supporters who are also the current instance owner can BAN cards so they leave the pool. They can also turn on free-pick, so everyone takes cards from the BAN board instead of the random offer.
+
+The arena is a grid of map tiles. Auto size is 4 tiles at 4 players or fewer, and 9 tiles at 5 or more. 16 tiles is a manual setting. A blue safe dome shrinks during the round. Players outside the dome take damage. That damage is higher farther from the dome.
+
+Each player has a gun with a bayonet. The bayonet hits during a dash. Laser Sword adds a blade that hits without dashing. Defense is a drone. Q on desktop, or the off-hand trigger, launches it. It flies out, stops, and returns. A ready drone glows yellow. Card text calls launching that drone a shield. Team matches use a downed state. An ally within 3 m for 2 seconds brings the player back at 30% of max HP. Later revives in the same round take longer. Team voice reaches allies regardless of distance.
+
+The UI language switches between Japanese and English. English names below are the English card labels. Japanese names are the Japanese UI text.
+
+== Cards ==
+
+There are 102 cards in Common, Rare, and Epic. 82 start in the live draw. The other 20 are frozen shield cards, marked Frozen in the Draw column. They can be turned on from the debug island. The lobby list groups them as gun, drone, movement, health, and other.
+
+{| class="wikitable sortable"
+!Icon
+!Name
+!Rarity
+!Draw
+!Effect
+|-
+|[[File:NEXT Round world icon - Heavy Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Heavy Shot'''<br>ヘヴィショット
+|Common
+|Live
+|Attack +50%. +25% attack per ammo round removed / ammo −2 / reload time +0.5s
+|-
+|[[File:NEXT Round world icon - Wide Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Wide Shot'''<br>ワイドショット
+|Common
+|Live
+|Ammo +5 / pellets +4 / attack −40% / spread +3° / bullet speed −30% / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Modified Rapid.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Modified Rapid'''<br>改造ラピッド
+|Common
+|Live
+|Fire interval −50% / ammo +10 / attack −45% / spread +5° / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Speed Loader.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Speed Loader'''<br>スピードローダー
+|Rare
+|Live
+|Reload time −50%
+|-
+|[[File:NEXT Round world icon - Updraft.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Updraft'''<br>アップドラフト
+|Common
+|Live
+|Attack +40% / bullet gravity is reversed
+|-
+|[[File:NEXT Round world icon - Speed Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Speed Shot'''<br>スピードショット
+|Common
+|Live
+|Bullet speed +40% / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Ricochet.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Ricochet'''<br>跳弾弾
+|Common
+|Live
+|Attack +30% / ricochet +2 / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Rebound.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Rebound'''<br>リバウンド
+|Rare
+|Live
+| +30% power per ricochet / ricochet +2 / attack −20% / reload time +0.5s
+|-
+|[[File:NEXT Round world icon - Chill Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Chill Shot'''<br>チルショット
+|Common
+|Live
+|Hits slow the target's move speed by 40%
+|-
+|[[File:NEXT Round world icon - Star Circle.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Star Circle'''<br>スターサークル
+|Common
+|Frozen
+|On shield, spawn a star ring; after 3s, targets inside take 20 damage (+20 per copy) / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - Lightweight.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Lightweight'''<br>ライトウェイト
+|Common
+|Live
+|Bullet speed +20% / move speed +25% / HP −20%
+|-
+|[[File:NEXT Round world icon - Big Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Big Shot'''<br>ビッグショット
+|Rare
+|Live
+|Bullet size +100%
+|-
+|[[File:NEXT Round world icon - Limiter.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Limiter'''<br>リミッター
+|Rare
+|Live
+|HP +25%. Caps incoming damage at half of max HP (cap at 300% of max HP)
+|-
+|[[File:NEXT Round world icon - Iron Wall.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Iron Wall'''<br>アイアンウォール
+|Rare
+|Live
+|HP +20%. For 3s after being hit, the next hit deals 50% less damage
+|-
+|[[File:NEXT Round world icon - Explosive Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Explosive Shot'''<br>爆裂弾
+|Rare
+|Live
+|Explosion damage +25% / explosion radius +1.2m / fire interval +43%
+|-
+|[[File:NEXT Round world icon - Counter Blow.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Counter Blow'''<br>カウンターブロウ
+|Common
+|Frozen
+|On shield, deal 12% of own HP as damage nearby (+12% per copy) / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - Auto Shield.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Auto Shield'''<br>オートシールド
+|Rare
+|Frozen
+|Shield auto-fires (copies split one shield cooldown; auto-fire does not spend cooldown, so a manual shield still works; 3 copies is the shortest gap) / drone cooldown +20% / drone cooldown +1s
+|-
+|[[File:NEXT Round world icon - Quick Change.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Quick Change'''<br>クイックチェンジ
+|Common
+|Frozen
+|Raising a shield instantly refills ammo / reload time +0.5s / drone cooldown +0.35s
+|-
+|[[File:NEXT Round world icon - Shield Crush.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Shield Crush'''<br>シールドクラッシュ
+|Common
+|Frozen
+|Fire interval −23% / shield lockout +2s / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Healthy Body.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Healthy Body'''<br>健康体
+|Common
+|Live
+|HP +20% / incoming debuff duration −25% / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - Life Steal.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Life Steal'''<br>ライフスティール
+|Rare
+|Live
+|Lifesteal +30% / HP +20%
+|-
+|[[File:NEXT Round world icon - Poison Steal.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Poison Steal'''<br>ポイズンスティール
+|Rare
+|Live
+|Lifesteal +20% / hits apply poison / fire interval +25%
+|-
+|[[File:NEXT Round world icon - Jammer Wave.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Jammer Wave'''<br>ジャマーウェーブ
+|Common
+|Frozen
+|When shield is ready, emit a sphere that breaks shields and marks for 2s (1.5× damage taken) / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - High Gear.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''High Gear'''<br>ハイギア
+|Rare
+|Live
+|Fire interval −23% / move speed +30% / jump +30% / attack −25% / HP −40%
+|-
+|[[File:NEXT Round world icon - No Guard.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''No Guard'''<br>ノーガード
+|Rare
+|Live
+|Attack +100% / HP −50%
+|-
+|[[File:NEXT Round world icon - Blink.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Blink'''<br>ブリンク
+|Rare
+|Frozen
+|Drone cooldown −25% / on shield, warp along look direction (5m, +2m per copy)
+|-
+|[[File:NEXT Round world icon - Drone Master.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Drone Master'''<br>ドローンマスター
+|Common
+|Live
+|Drone cooldown −15% / HP +25% / drone return speed +20% / drone move speed +30% (out and back)
+|-
+|[[File:NEXT Round world icon - Last Spurt.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Last Spurt'''<br>ラストスパート
+|Rare
+|Live
+|Move speed −40%. Speed rises as the zone shrinks; that bonus speed also raises bullet power / HP −30%
+|-
+|[[File:NEXT Round world icon - Overrun.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Overrun'''<br>オーバーラン
+|Rare
+|Live
+|Move speed rises while moving forward; that bonus speed also raises bullet power / HP −30%
+|-
+|[[File:NEXT Round world icon - Knockback.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Knockback'''<br>ノックバック
+|Common
+|Live
+|Knockback +21. Knockback force scales with bullet power
+|-
+|[[File:NEXT Round world icon - Kill Bonus.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Kill Bonus'''<br>キルボーナス
+|Common
+|Live
+|HP +25% / a kill restores 60% HP over 3s and grants move speed +30% and damage taken −50% for 3s per copy / reload time +0.25s / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - Optical Sensor.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Optical Sensor'''<br>光学センサー
+|Epic
+|Live
+|Spread −40%. Own bullets stay visible through walls until they vanish. Hits track the target for 2s
+|-
+|[[File:NEXT Round world icon - Piercing Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Piercing Shot'''<br>貫通弾
+|Rare
+|Live
+|Terrain pierce +1 / fire interval +20% / reload time +0.5s
+|-
+|[[File:NEXT Round world icon - Cube Pet.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Cube Pet'''<br>キューブペット
+|Epic
+|Live
+|HP +5% / the drone also fires (does not spend ammo) / attack −25% / fire interval +50% / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Aerial.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Aerial'''<br>エアリアル
+|Common
+|Live
+|Fire interval −17% / jump +15% / extra mid-air jump (+1 per copy) / HP −10%
+|-
+|[[File:NEXT Round world icon - Barrier Dash.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Barrier Dash'''<br>バリアダッシュ
+|Common
+|Frozen
+|On shield, rush forward (12 m/s, +4 m/s and more hang time per copy) / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - After Guard.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''After Guard'''<br>アフターガード
+|Rare
+|Frozen
+|0.3s after a shield, another shield fires (chains per copy) / drone cooldown +20%
+|-
+|[[File:NEXT Round world icon - Hot Hand.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Hot Hand'''<br>ホットハンド
+|Common
+|Live
+|A hit makes reload twice as fast for 10s (+10s per copy)
+|-
+|[[File:NEXT Round world icon - Resurrection.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Resurrection'''<br>リザレクション
+|Epic
+|Live
+|Once per round, stay up at 30% HP instead of going down (cleanses debuffs and blocks them for 2s) / HP −30%
+|-
+|[[File:NEXT Round world icon - Heal Block.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Heal Block'''<br>回復阻害
+|Common
+|Live
+|Lifesteal +15% / hits apply Heal Block for 4s / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Bullet Boost.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Bullet Boost'''<br>弾丸強化
+|Epic
+|Live
+|Attack +30% / bullet speed +30% / bullet lifetime +50% / ricochet +1 / range +60m / reload time +0.5s
+|-
+|[[File:NEXT Round world icon - Rapid Fire.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Rapid Fire'''<br>ラピッドファイア
+|Common
+|Live
+|Fire interval −30% / ammo +5 / attack −15%
+|-
+|[[File:NEXT Round world icon - High Speed Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''High Speed Shot'''<br>ハイスピードショット
+|Common
+|Live
+|Bullet speed +80% / fire interval +50% / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Toughness.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Toughness'''<br>タフネス
+|Common
+|Live
+|HP +40%
+|-
+|[[File:NEXT Round world icon - Heavy Armor.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Heavy Armor'''<br>ヘヴィアーマー
+|Common
+|Live
+|HP +75% / fire interval +43% / reload time +0.25s / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - Big Bang.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Big Bang'''<br>ビッグバン
+|Epic
+|Frozen
+|2s after a shield, a blast centered on the player (fixed 40 inside 4m × copies; fixed 20 out to twice that radius)
+|-
+|[[File:NEXT Round world icon - Shield Laser.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Shield Laser'''<br>シールドレーザー
+|Epic
+|Frozen
+|On shield, a terrain-piercing laser (1.5s charge, 2s beam; 10 damage every 0.25s to anyone touching it; range and width grow per copy)
+|-
+|[[File:NEXT Round world icon - Flame Ring.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Flame Ring'''<br>フレイムリング
+|Rare
+|Frozen
+|On shield, fire orbs (10 + 6 per copy, 2s travel; 5 damage plus burn equal to 8% current HP over 2s)
+|-
+|[[File:NEXT Round world icon - Charge Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Charge Shot'''<br>チャージショット
+|Epic
+|Live
+|Hold to fire a charged shot (Desktop E / VR right-stick up toggles the mode) / fire interval +25% / bullet speed −20%
+|-
+|[[File:NEXT Round world icon - Sticky Bomb.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Sticky Bomb'''<br>スティッキーボム
+|Rare
+|Live
+|Plants a bomb at the impact or on the hit player / attack −20% / reload time +0.5s
+|-
+|[[File:NEXT Round world icon - Hazard Zone.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Hazard Zone'''<br>危険地帯
+|Rare
+|Live
+|Plants a hazard zone at the impact / fire interval +33%
+|-
+|[[File:NEXT Round world icon - Blizzard.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Blizzard'''<br>ブリザード
+|Rare
+|Frozen
+|Max HP +10 / on shield, an ice shockwave in 4m (slows for 2s) / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - Recycle.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Recycle'''<br>リサイクル
+|Rare
+|Live
+|Hits restore 50% of magazine size (can go over the ammo cap) / reload time +0.5s
+|-
+|[[File:NEXT Round world icon - Bouncy Round.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Bouncy Round'''<br>弾力弾
+|Common
+|Live
+|Ricochet +4 / attack −20% / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Hybrid.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Hybrid'''<br>ハイブリッド
+|Rare
+|Live
+|Reload time −30% / drone cooldown −20% / HP +10%
+|-
+|[[File:NEXT Round world icon - Two Birds.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Two Birds'''<br>一石二鳥
+|Epic
+|Frozen
+|Hitting someone with a shield attack halves reload time and fire interval for 6s (+6s per copy)
+|-
+|[[File:NEXT Round world icon - Adrenaline.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Adrenaline'''<br>アドレナリン
+|Epic
+|Live
+|Lifesteal +10% / a hit multiplies max HP and current HP by 2.5 for 3s, then scales back to the original values after 3s (no leftover loss; resets between rounds)
+|-
+|[[File:NEXT Round world icon - Shooting Star.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Shooting Star'''<br>シューティングスター
+|Epic
+|Live
+|Bullet speed +40% / pellets +2 / spread +1° / hits apply First Star (buffs the target). Fire interval +25% / attack −20%
+|-
+|[[File:NEXT Round world icon - Shot Laser.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Shot Laser'''<br>ショットレーザー
+|Rare
+|Live
+|Fires a laser at the point the bullet reaches 1s after it is shot
+|-
+|[[File:NEXT Round world icon - Spider Net.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Spider Net'''<br>スパイダーネット
+|Rare
+|Live
+|Reload time +0.25s / plants a web at the impact (no effect on the owner)
+|-
+|[[File:NEXT Round world icon - Chill Time.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Chill Time'''<br>チルタイム
+|Rare
+|Live
+|After 5s without moving, shooting, shielding, or jumping, enter Chill (regenerate 5% HP × copies per second). Doing any of those four cancels it. Auto Shield's auto-fire does not cancel it
+|-
+|[[File:NEXT Round world icon - Assassin.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Assassin'''<br>アサシン
+|Epic
+|Live
+|Bullet power rises up close (up to +150%) / fire interval +30% / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Precision Gear.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Precision Gear'''<br>精密機器
+|Rare
+|Live
+|Drone cooldown −50% / drone return speed +20% / HP −20%
+|-
+|[[File:NEXT Round world icon - Doping.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Doping'''<br>ドーピング
+|Epic
+|Live
+|Drone cooldown −10% / alternates First Star and slow (copies stack) / HP −15%
+|-
+|[[File:NEXT Round world icon - Countdown.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Countdown'''<br>カウントダウン
+|Epic
+|Frozen
+|Each shield causes a 15-damage blast in 4m. Every 10th is an 80-damage blast in 8m after a 1s tell. Neither hits the owner / drone cooldown +0.35s
+|-
+|[[File:NEXT Round world icon - Shockwave.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Shockwave'''<br>衝撃波
+|Rare
+|Frozen
+|HP +20% / on shield, a 10-damage shockwave in 5m with knockback. Each copy adds 1.5m radius and +4 knockback. Does not hit the owner / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - Shining Star.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Shining Star'''<br>シャイニングスター
+|Rare
+|Frozen
+|HP +20% / on shield, a large rainbow star at the feet. From 2s to 4s after it appears, players inside the ring (same height), allies and enemies, heal 15 HP per second (+15 per copy) / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - Float.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Float'''<br>浮遊
+|Rare
+|Live
+|Reload time −25% / jump +30% / hold jump to hover / HP −20%
+|-
+|[[File:NEXT Round world icon - Decoy Bomb.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Decoy Bomb'''<br>デコイボム
+|Epic
+|Frozen
+|On shield, place a decoy pillar with 1/4 of max HP (up to 3). If it lasts 4s, it fires the owner's shield skills there and vanishes. If it breaks, a new one cannot be placed for 6s from spawn / drone cooldown +0.35s
+|-
+|[[File:NEXT Round world icon - Snipe.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Snipe'''<br>スナイプ
+|Epic
+|Live
+|Bullet speed +40% / power rises with distance (up to +100%) / fire interval +50%
+|-
+|[[File:NEXT Round world icon - Stack.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Stack'''<br>スタック
+|Epic
+|Frozen
+|Store one extra dash and one extra shield (needs one cooldown cycle to stock; copies add more charges) / drone cooldown +15%
+|-
+|[[File:NEXT Round world icon - Multi Debuff.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Multi Debuff'''<br>マルチデバフ
+|Epic
+|Live
+|Own debuffs can stack +1 extra copy / debuff duration +30% / attack −15%
+|-
+|[[File:NEXT Round world icon - Laser Sword.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Laser Sword'''<br>レーザーソード
+|Rare
+|Live
+|Fire interval −20% / move speed +10% / a laser sword with a hitbox that is always active, unlike the bayonet
+|-
+|[[File:NEXT Round world icon - Precision Fire.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Precision Fire'''<br>精密射撃
+|Rare
+|Live
+|Attack +100% / spread −40% / fire interval +100% / reload time +0.5s
+|-
+|[[File:NEXT Round world icon - Close Quarters.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Close Quarters'''<br>近接戦闘
+|Rare
+|Live
+|Fire interval −23% / reload time −50% / bullet speed −20%
+|-
+|[[File:NEXT Round world icon - Step In.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Step In'''<br>踏み込み
+|Common
+|Live
+|Dash distance +50% / dash cooldown +0.3s
+|-
+|[[File:NEXT Round world icon - Flash Cut.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Flash Cut'''<br>一閃
+|Epic
+|Live
+|Dash distance +70% / attack +50% / dash and shield stacks +2 / fire interval +43% / reload time +0.5s / drone cooldown +0.35s / dash cooldown +0.75s
+|-
+|[[File:NEXT Round world icon - Read The Move.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Read The Move'''<br>見切り
+|Rare
+|Live
+|Dash cooldown −20% / dash distance +30% / move speed −20%
+|-
+|[[File:NEXT Round world icon - Anti Shield.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Anti Shield'''<br>アンチシールド
+|Epic
+|Frozen
+|Enemy shield mitigation becomes 70% (multiplies per copy), so 30% still goes through. Debuffs also apply for that fraction of their duration
+|-
+|[[File:NEXT Round world icon - Self Destruct.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Self Destruct'''<br>自爆指令
+|Epic
+|Live
+|HP +5% / after the drone stops it blinks and explodes (hits the owner). Drone cooldown +0.5s
+|-
+|[[File:NEXT Round world icon - Extra Powder.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Extra Powder'''<br>火薬増量
+|Rare
+|Live
+|HP +5% / drone damage +50% (adds per copy). Drone cooldown +0.5s
+|-
+|[[File:NEXT Round world icon - Homing System.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Homing System'''<br>誘導システム
+|Epic
+|Live
+|HP +5% / while flying out, the drone tracks players / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - AI Module.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''AI Module'''<br>AI搭載
+|Rare
+|Live
+|HP +5% / +2 wall redirects on hit (+2 per copy). Drone travel distance ×1.3 (multiplies per copy) / drone return speed +20%
+|-
+|[[File:NEXT Round world icon - Eco Mode.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Eco Mode'''<br>省エネ
+|Common
+|Live
+|HP +5% / drone cooldown −30% (multiplies per copy). Drone travel distance ×0.9 (multiplies per copy) / drone return speed +20%
+|-
+|[[File:NEXT Round world icon - Shield Drone.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Shield Drone'''<br>シールドドローン
+|Rare
+|Live
+|HP +5% / drone shield size ×1.4 (multiplies per copy). Drone cooldown +0.5s
+|-
+|[[File:NEXT Round world icon - Drone Laser.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Drone Laser'''<br>ドローンレーザー
+|Epic
+|Live
+|HP +5% / while flying out, the drone fires a laser along its path every 0.5s. Drone cooldown +0.5s
+|-
+|[[File:NEXT Round world icon - Flame Burst.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Flame Burst'''<br>フレイムバースト
+|Rare
+|Live
+|HP +5% / when the drone stops, fireballs in 8 directions (5 damage plus burn). +8 directions per copy, cap 64. Drone cooldown +0.25s
+|-
+|[[File:NEXT Round world icon - Grapple.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Grapple'''<br>グラップリング
+|Rare
+|Live
+|HP +5% / while the drone is in the air, hold Use to pull toward it
+|-
+|[[File:NEXT Round world icon - Manual Control.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Manual Control'''<br>マニュアル操作
+|Epic
+|Live
+|Drone cooldown −20% / HP +5% / while flying out, steer the drone toward look direction. Drone travel distance ×1.5
+|-
+|[[File:NEXT Round world icon - Sub Drone.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Sub Drone'''<br>サブドローン
+|Rare
+|Live
+|HP +5% / add one extra drone with its own cooldown (cap 10). Ready drones launch in order. Drone cooldown +20% (multiplies per copy)
+|-
+|[[File:NEXT Round world icon - Gravity Field.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Gravity Field'''<br>グラビティエリア
+|Rare
+|Live
+|HP +5% / a returning drone creates a gravity field
+|-
+|[[File:NEXT Round world icon - Anti-Gravity Field.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Anti-Gravity Field'''<br>アンチグラビティエリア
+|Rare
+|Live
+|HP +5% / while flying out, the drone knocks players away
+|-
+|[[File:NEXT Round world icon - Zero Gravity.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Zero Gravity'''<br>無重力
+|Rare
+|Live
+|Attack +50% / bullets no longer drop / bullet speed −20%
+|-
+|[[File:NEXT Round world icon - Flare Bullet.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Flare Bullet'''<br>フレアバレット
+|Epic
+|Live
+|Every 8m the bullet slows over 0.50s to 10% speed, explodes, then re-accelerates along the original fire angle (so it does not drop; a ricochet sets a new fire angle). From the second burst, the slow and post-blast pause last twice as long (blast points stay the same). The blast deals 15% of the bullet's damage plus 2s burn in 2m (does not hit the owner). Bursts repeat until the bullet expires. Each copy shortens the gap by 1m (minimum 4m)
+|-
+|[[File:NEXT Round world icon - Burst.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Burst'''<br>バースト
+|Rare
+|Live
+|Each trigger pull fires 2 shots in a burst / magazine +100% / attack −50% / fire interval +80% / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Pacifist.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Pacifist'''<br>平和主義者
+|Epic
+|Live
+|Damage dealt and taken is halved (this effect can go below the attack floor of 5). Regen 1% of max HP per second / HP −10%
+|-
+|[[File:NEXT Round world icon - Homing.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Homing'''<br>ホーミング
+|Rare
+|Live
+|Bullets track nearby players / attack −25% / fire interval +20% / bullet speed −15% / reload time +0.5s / debuff duration −20%
+|-
+|[[File:NEXT Round world icon - Gamble.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Gamble'''<br>ギャンブル
+|Rare
+|Live
+|Every 10s in a round, gain three random card effects (drone cards excluded)
+|-
+|[[File:NEXT Round world icon - Lock-on Chaff.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Lock-on Chaff'''<br>ロックオンチャフ
+|Rare
+|Live
+|HP +5% / while flying out, the drone drops a cube that marks whoever touches it / drone cooldown +0.2s
+|-
+|[[File:NEXT Round world icon - Venom Shot.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Venom Shot'''<br>ヴェノムショット
+|Common
+|Live
+|Reload time −20% / hits apply poison / attack −10%
+|-
+|[[File:NEXT Round world icon - Particle Power.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Particle Power'''<br>パーティクルパワー
+|Epic
+|Live
+|Bullet explosions and lasers deal 3× damage (+2× per copy) / attack −50% / reload time +0.25s
+|-
+|[[File:NEXT Round world icon - Close-Range Drone.png|frameless|48x48px]]
+|style="white-space:nowrap;"|'''Close-Range Drone'''<br>近接ドローン
+|Common
+|Live
+|Drone flight time ×0.7 / move speed ×1.2 (travel distance ×0.84, multiplies per copy). Drone cooldown −10% (multiplies per copy)
+|}
+
+== Resources ==
+
+* [https://vrchat.com/home/world/wrld_cf5b4d70-4089-494a-bea2-4dfd22316d56 NEXT_Round on VRChat]
+* [https://discord.gg/fBfn5YnEyz Discord]
+* [https://www.patreon.com/c/satou213 Patreon]
+
+[[Category:Game worlds{{#translation:}}]]
+[[Category:PvP worlds{{#translation:}}]]
