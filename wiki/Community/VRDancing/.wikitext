@@ -1,47 +1,150 @@
 {{Noticebox/Community}}
 {{Infobox/World
-|name=VRDancing
-|image=VRDancing_Thumbnail.png
-|developers=Mixieǃ, Chatmans
-|author=Mixieǃ
-|platforms=PC
-|tags=game, fitness, dance, avatar, workout
 |id=wrld_42377cf1-c54f-45ed-8996-5875b0573a83
-|labs=Jun 11, 2021
-|published=Jun 14 2021
+|developers=Mixieǃ, Silentt, Chatmans
 }}
-'''VRDancing''' is an advanced dancing studio [[Special:MyLanguage/Worlds|world]] featuring a plethora of functionalities, tailored for both beginner and seasoned dancers. Dancers can be found at any time in public instances. The VRDancing community hosts a variety of events, including charity drives and dance sessions. It was created by Mixieǃ in 2021.
+'''VRDancing''' is a PC-only dance studio [[Special:MyLanguage/:Category:Worlds|world]] where players follow choreography videos from a searchable in-world database of over 13,000 entries.<ref name="listing">[https://vrchat.com/home/world/wrld_42377cf1-c54f-45ed-8996-5875b0573a83 VRDancing] on ''vrchat.com''.</ref>
 
-==Features==
-===User-friendly database===
-Offers a sortable, searchable, and filterable database of dance choreography to find dances that match interest or skill level.
-===Playlists===
-Dancers can create, export, and import playlists, allowing them to quickly set up preferred sequences for sessions, facilitating an uninterrupted dance experience
-===Dynamic dancefloor===
-The dance floor dynamically adjusts in size according to the number of participants, and the video player's position changes based on the dancers' locations, providing an optimized space for every event.
-===Queue system===
-This feature allows users to queue videos for dance sessions with options for access restrictions, queue capping, vote skipping, and prevention of duplicate video entries.
-===Event hosting tools ===
-Features like intercom communication and crowd control functionalities are integrated to ensure events run smoothly, alongside secure access restrictions to maintain safety.
-=== Advanced camera systems===
-An advanced programmable camera system with customizable angles and transitions enhances the recording and streaming of dances, catering to both personal and professional use.
-===Low-latency video player===
-Ideal for sync with dance partners, even over varying network conditions.
-===Progression system===
-VRDancing incorporates a unique Discord-based progression system where participants can earn experience points (XP) through various activities such as attending weekend sessions and open sessions, and by participating in dance instruction and video events. This system encourages community engagement and personal growth in dance skills, providing tangible milestones and rewards for active community members.
+== Layout ==
 
-==Community==
-VRDancing is a beginner-friendly community of dancers that hosts weekly dance, fitness, and hangout events in the EU, NA, and AP time zones. No Full Body Tracking is required, making it accessible to a wide range of participants, from complete beginners to experienced dancers.
+Players spawn in a changing room. A rules-agreement panel sits at the exit. The room has avatar lockers, a mirror with announcements, a story desk, and a Patreon bench. Lockers include Echo by TinkerLucy (v5.0.0). Kytö by Sohvi is the first official VRDancing furry avatar (v5.6.0). The story desk shows write-ups from community members.
+
+The dance floor can be small or large. The main video player is on the floor. A database and queue appear when approached. Bleachers face the floor. A door leads to a garden. The Marshall Shrine and an upstairs TV are in the world. Donation-progress displays sit in the changing room and on the dance floor.<ref name="world">[https://www.vrdancing.club/world Worlds] on ''vrdancing.club''.</ref>
+
+== Features ==
+
+The database is searchable and filterable. Players can create up to five persistent custom tags. Video previews were added in v5.9.0 on {{Date|2025-12-04}}.
+
+A queue holds upcoming videos. It has vote skip, playlist export, and playlist import.
+
+Settings, camera setups, and video history persist with [[Special:MyLanguage/Persistence|Persistence]]. Instance history keeps the last 100 videos. Persistent history keeps the last 500. The default video player is AVPro. Players can switch to UnityVideoPlayer. The servers are VRD-CDN and VRD-CDN-LQ (v5.3.0, {{Date|2025-08-14}}). Switch Server is on the database and in the options menu. ALT+P fullscreens the video on desktop.
+
+Camera modes are Follow, Static, Animated, and Handheld. Staff can hand out microphones as of v5.4.0.<ref name="world" />
+
+== Community ==
+
+VRDancing hosts weekly dance, fitness, and hangout events in EU, NA, and Asia-Pacific. Full-body tracking is not required. Weekend sessions run on Saturdays. A community instructor curates the playlist. Open sessions run on Wednesdays. Anyone in the instance can queue a choreography. Weekend times are {{Time|21:00}} CET and {{Time|19:00}} CST. Open session times are {{Time|20:00}} CET, {{Time|19:00}} CST, and {{Time|19:00}} JST.<ref name="home">[https://www.vrdancing.club/ VRDancing] on ''vrdancing.club''.</ref> Events are not Meta Quest compatible.<ref name="join">[https://www.vrdancing.club/join How to join] on ''vrdancing.club''.</ref> The [[Special:MyLanguage/Groups|VRChat group]] is [https://vrchat.com/home/group/grp_d960be54-cfc2-44cb-863d-6d624d8975c1 VRDancing] (VRD.9523).
+
+Experience points (XP) are tracked on Discord. XP is awarded only after the Discord command <code>/setmyname</code> links a VRChat display name. Leaving Discord removes the rank. The rank returns after enough XP for the next rank. Ranks are Discord roles.<ref name="discord">[https://discord.gg/VRDancing VRDancing Discord]. Levels {{Date|2022-09-16}}; Marshallthon {{Date|2021-08-02}} and {{Date|2022-07-26}}.</ref> The command <code>/setdisplayrank</code> sets the displayed role to any rank already earned. It does not change XP or the actual rank. A level-up assigns the new rank.<ref name="displayrank">[https://www.vrdancing.club/announcements/discord-bot-change-your-name-color-update Discord bot: change your name color] on ''vrdancing.club''.</ref>
+
+Weekend and open sessions award XP from a button at the end of the event. XP from those sessions is credited at the end of the week. The cap is 10 XP per week. Weekend session instructors earn an extra 20 XP. A dance video submitted on Discord awards 20 XP once per calendar month. The video must be at least one minute. The same choreography cannot be submitted twice. Officer (150 XP) unlocks Discord submissions to the story desk.<ref name="discord" />
+
+{| class="wikitable sortable"
+! Rank
+! XP
+|-
+| Newcomer
+| 0
+|-
+| Cadet
+| 10
+|-
+| Rookie
+| 40
+|-
+| Major
+| 80
+|-
+| Officer
+| 150
+|-
+| General
+| 250
+|-
+| Captain
+| 350
+|-
+| Commander
+| 500
+|-
+| Admiral
+| 650
+|-
+| Commodore
+| 800
+|-
+| Legend
+| 1,000
+|-
+| Fitness Marshall
+| 10,000
+|}
+
+v5.1.0 made the XP button visible in the mirror. It also lowered the volume of the button's Fitness Marshall quotes.<ref name="world" /> Dance Week awards 2 XP per evening, Monday to Friday.<ref name="dw16">[https://www.vrdancing.club/announcements/our-favorite-every-couple-of-months-event-is-back-dance-week-16 Dance Week #16] on ''vrdancing.club'' ({{Date|2026-07-21}}).</ref> Marshallthon participation awards 30 XP.<ref name="m2026">[https://www.vrdancing.club/announcements/marshallthon-2026 Marshallthon 2026] on ''vrdancing.club''.</ref> In 2022, 2023, 2024, and 2025, a button appeared at the end of each timeslot.<ref name="m2025">[https://www.vrdancing.club/announcements/marshallthon-2025 Marshallthon 2025] on ''vrdancing.club''.</ref> A 2023 Christmas choreography recording awarded 20 XP for the final video with practice.<ref name="xmasxp">[https://www.vrdancing.club/announcements/christmas-choreography Christmas choreography] on ''vrdancing.club''.</ref>
+
+Mixieǃ published [https://vrchat.com/home/world/wrld_7593bd1f-6a7f-4cc2-bb74-ff2b47afef90 VRDancing - FX Studio] on {{Date|2023-02-03}}. It has particles, spotlights, and trails.<ref name="fxstudio">[https://www.vrdancing.club/announcements/new-world-fx-studio New World: FX Studio] on ''vrdancing.club''.</ref>
+
+VRDancing won Virtual Experience at the 2024 [[Special:MyLanguage/Community:VR Community Awards|VR Community Awards]]. Marshallthon 2024 was a philanthropy finalist. VRDancing was a Virtual Experience finalist in the 2025 awards.<ref name="vrca-past">[https://vrcommunityawards.com/past-winners Past winners] on ''vrcommunityawards.com''.</ref>
+
+== Marshallthon ==
+
+Marshallthon is an annual marathon of every choreography video by The Fitness Marshall. It raises money for [[wikipedia:The Trevor Project|The Trevor Project]] and is streamed on Twitch. Donations can trigger in-world dancefloor effects.<ref name="charity">[https://www.vrdancing.club/charity Charity] on ''vrdancing.club''.</ref>
+
+The 2021 event started {{Date|2021-08-21}} {{Time|13:00}} UTC+2 and ran 24 hours. It used invite-plus instances. The 2022 event ran {{Date|2022-09-03}} {{Time|11:00}} to {{Date|2022-09-04}} {{Time|15:00}} UTC+2. It used invite-only instances.<ref name="discord" />
+
+The 2026 event was {{Date|2026-09-05}} {{Time|11:00}} to {{Date|2026-09-06}} {{Time|21:00}} on the American Labor Day weekend. Videos played A to Z across 17 two-hour slots. The VRChat group was required to join.<ref name="m2026" />
+
+{| class="wikitable sortable"
+! Year
+! Dates
+! Amount
+|-
+| 2021
+| {{Date|2021-08-21}} to {{Date|2021-08-22}}
+| $4,625.00<ref name="charity" />
+|-
+| 2022
+| {{Date|2022-09-03}} to {{Date|2022-09-04}}
+| $13,500.00
+|-
+| 2023
+| {{Date|2023-09-02}} to {{Date|2023-09-03}}<ref name="m2023">[https://www.vrdancing.club/announcements/marshallthon-2023-date Marshallthon 2023] on ''vrdancing.club''.</ref>
+| $10,838.13
+|-
+| 2024
+| {{Date|2024-08-31}} to {{Date|2024-09-01}}<ref name="m2024">[https://www.vrdancing.club/announcements/marshallthon-2024 Marshallthon 2024] on ''vrdancing.club''.</ref>
+| $14,100.69
+|-
+| 2025
+| {{Date|2025-08-30}} to {{Date|2025-08-31}}<ref name="m2025" />
+| $22,225.38
+|-
+| 2026
+| {{Date|2026-09-05}} to {{Date|2026-09-06}}
+| $37,039.47
+|}
+
+Lifetime fundraising is $102,328.67.<ref name="charity" />
+
+== History ==
+
+The world was created on {{Date|2021-02-09}}.<ref name="listing" /> v5.0.0 shipped on {{Date|2025-02-07}}.<ref name="home" /> v5.4.0 disabled the upstairs intercom on {{Date|2025-08-22}}. The latest published changelog is v5.9.0 on {{Date|2025-12-04}}.<ref name="world" />
+
+Chatmans retired as admin on {{Date|2026-01-04}}.<ref name="chatmans">[https://www.vrdancing.club/announcements/chatmans-is-retiring-from-admin-of-vrdancing Chatmans is retiring from admin of VRDancing] on ''vrdancing.club''.</ref> CalliePepper became an admin on {{Date|2026-01-08}}.<ref name="callie">[https://www.vrdancing.club/announcements/new-admin-calliepepper New admin CalliePepper] on ''vrdancing.club''.</ref> VRDancing marked five years in January 2026.<ref name="five">[https://www.vrdancing.club/announcements/5-years-of-vrdancing 5 years of VRDancing] on ''vrdancing.club''.</ref>
 
 == Credits ==
-The development of VRDancing is a collaborative effort involving multiple contributors focused on design, infrastructure, and maintaining the song database.
-* Chatmans: 3D Design and Modeling.
-*Silentt: Manages CDN/Infrastructure.
 
-==Resources==
-*[https://vrchat.com/home/group/grp_d960be54-cfc2-44cb-863d-6d624d8975c1 VRChat Group] - VRD.9523
-*[https://database.vrdancing.club/ Dance Choreography Database]
-*[https://www.vrdancing.club/ VRDancing Website] at vrdancing.club
-*[https://www.youtube.com/shorts/j_8SKXxesJk Dance with friends in VRChat!] posted by VRChat, on YouTube
+Mixieǃ: programming, UI, and maintenance. Silentt: CDN, Discord bot, and infrastructure. Chatmans: original admin. CalliePepper: admin. TinkerLucy, Sohvi, and BluSnow: public avatars.<ref name="team">[https://www.vrdancing.club/team Team] on ''vrdancing.club''.</ref>
 
-[[Category:Sport]]
+== See also ==
+
+* [[Special:MyLanguage/Community:Music culture in VRChat|Music culture in VRChat]]
+* [[Special:MyLanguage/Community:VR Community Awards|VR Community Awards]]
+
+== Resources ==
+
+* [https://www.vrdancing.club/ VRDancing] (website)
+* [https://www.vrdancing.club/charity Charity]
+* [https://database.vrdancing.club/ Choreography database]
+* [https://vrchat.com/home/group/grp_d960be54-cfc2-44cb-863d-6d624d8975c1 VRDancing] (VRChat group, VRD.9523)
+* [https://discord.gg/VRDancing Discord]
+* [https://www.twitch.tv/vrdancing Twitch]
+* [https://www.patreon.com/mixie Mixie] on Patreon
+* [https://www.youtube.com/shorts/j_8SKXxesJk Dance with friends in VRChat!] (VRChat on YouTube)
+
+== References ==
+
+{{reflist}}
+
+[[Category:Sport{{#translation:}}]]
+[[Category:Worlds{{#translation:}}]]
