@@ -94,6 +94,8 @@ ShaderMotion includes an '''AnimationRecorder''' tool that can export avatar mot
 
 Exported <code>.anim</code> files can be used directly in Unity animator controllers. For use in other software, third-party conversion tools can convert them to <code>.fbx</code> format.
 
+Some worlds are purpose-built for recording ShaderMotion video for later conversion to a Unity AnimationClip. '''{{World link|wrld_859d580d-ff9c-4545-84ba-682440f64857|MOCAP Studio}}''' is one such world.
+
 == Streaming settings ==
 
 The ShaderMotion documentation suggests the following OBS settings for live streaming ShaderMotion-encoded motion:
@@ -117,6 +119,10 @@ The ShaderMotion documentation suggests the following OBS settings for live stre
 | Color range
 | Partial
 |}
+
+== See also ==
+
+* [[Community:Motion Capture]]
 
 == Resources ==
 
