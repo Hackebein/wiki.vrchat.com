@@ -23,6 +23,8 @@ These tools capture motion directly within VRChat, using the platform's own trac
 
 '''MotionCaptureLabo''' is a VRChat world that provides a recording avatar for motion capture. The tool exports animation data as text that can be copied from VRChat and pasted into a Unity conversion tool called MotionDecoder. Due to VRChat's text field character limits, animation quality is limited and becomes more choppy at higher frame rates.
 
+'''{{World link|wrld_f463d749-19f6-4481-a805-16b2d2448333|Elreen's Pose Recorder}}''' is a VRChat world by {{VRC link|https://vrchat.com/home/user/usr_e6090884-c08d-44ec-a286-b0c2c059ab23|Elreen}} that records motion in VRChat. Recordings export to the VRChat output log as as numbered <code>BPR1</code> text. '''Elreen's Pose Importer''' converts that data into a Unity Humanoid <code>.anim</code> file.
+
 == External motion capture software ==
 
 These tools run outside of VRChat and use VR hardware directly to capture motion.
@@ -71,6 +73,11 @@ After motion is captured, additional tools are often needed to convert raw data 
 | JSON (from Json2Anim)
 | <code>.anim</code>
 |-
+| '''Elreen's Pose Importer'''
+| Converts recordings from Elreen's Pose Recorder into a Unity Humanoid animation file.
+| VRChat output log
+| <code>.anim</code>
+|-
 | '''Animation Converter'''
 | Converts Unity <code>.anim</code> files to <code>.fbx</code> format for use in other software or to access Unity's model animation import settings.
 | <code>.anim</code>
@@ -114,6 +121,13 @@ After motion is captured, additional tools are often needed to convert raw data 
 | No
 | No
 | Text (via MotionDecoder)
+|-
+| Elreen's Pose Recorder + Elreen's Pose Importer
+| In VRChat
+| Yes
+| Yes
+| No
+| <code>.anim</code>
 |-
 | Virtual Motion Recorder
 | Standalone app
