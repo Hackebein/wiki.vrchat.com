@@ -25,9 +25,7 @@ Para confirmar la colocación de un portal, haz clic con el botón izquierdo del
 Si los ajustes del "Modo de portal" está en "Soltar delante", el portal aparecerá frente a ti tan pronto como se seleccione el botón "Soltar portal".
 </div>
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Portal visibility follows instance access: if a user is allowed to join an instance, they are generally able to see a portal to it. To restrict who can use a portal, the instance type itself is used (for example, a portal dropped to a Friends instance is not shown to non-friends).
-</div>
+La visibilidad de los portales depende del acceso a la instancia: si un usuario tiene permitido unirse a una instancia, por lo general podrá ver el portal hacia ella. Para restringir quién puede usar un portal, se utiliza el propio tipo de instancia (por ejemplo, un portal desplegado hacia una instancia para Amigos no se mostrará a las personas que no sean amigas).
 
 El portal aparecerá entonces para los demás, mostrando el nombre del mundo, el usuario que colocó el portal, la región, el número de la estancia, el tipo de estancia, el grupo que aloja la estancia (si aplica), la capacidad de la estancia, la compatibilidad con plataformas, así como un temporizador. El temporizador contará regresivamente desde treinta hasta cero segundos. Cuando el portal llegue a cero, desaparecerá. El temporizador se reinicia a treinta segundos después de que un usuario entre al portal.
 
