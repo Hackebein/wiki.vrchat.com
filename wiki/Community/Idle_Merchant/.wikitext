@@ -1,0 +1,1147 @@
+{{Noticebox/Community}}
+{{Infobox/World
+|id=wrld_ebca0ab7-7ea8-46e2-aac6-fc5a67f94924
+}}
+'''Idle Merchant''' (掛機商人) is a PC-only idle [[:Category:Game worlds|game world]] created by {{VRC link|https://vrchat.com/home/user/usr_6d8387cb-dc71-4555-baf3-6ef662e91ca9|turbo-}}.<ref>[https://vrchat.com/home/world/wrld_ebca0ab7-7ea8-46e2-aac6-fc5a67f94924 Idle Merchant] on ''vrchat.com''.</ref> Players open cases for random equipment, sell it on a simulated market, and hire a hero for idle combat.
+
+== Layout ==
+
+The world is a furnished interior with a bed, a visitor information board, and QvPen pens. A VizVid video player and switches for mirrors, audio, video, colliders, post-processing, and a night-mode slider sit on the walls.
+
+The game UI is a large canvas with pages for cases, the item catalog, inventory, sell orders, a cashier counter, idle battle, fusion contracts, reforge, player-to-player transfers, settings, Q&A, and a Developer Page. A separate leaderboard canvas stands in the room. An in-world changelog lists version notes.
+
+The Developer Page is a digit pad. 30919 is the tester code. It only works if the player's display name is on a tester list. 70486 unlocks a debug panel that can reset that player's saved data.
+
+The interface language defaults to Traditional Chinese. Players can switch to Simplified Chinese, Japanese, Korean, or English.
+
+== Gameplay ==
+
+Progress saves with [[Special:MyLanguage/Persistence|Persistence]]. A settings panel shows storage use and can reset saved progress. Starting money is 0. Inventory holds 200 items. Sell orders hold 50 listings.
+
+A tutorial can run on first play and can be restarted from settings.
+
+=== Cases ===
+
+There are five cases. Each open gives one random item from that case. Ten free opens refresh each day. After that, an open costs money.
+
+Auto-open can collect or stop when a gold item appears, collect or stop on red or gold, or send the item into a fusion contract.
+
+Every item name always uses the same color. Crude Iron Sword is always blue. Mithril Sword is always red. An open first picks a color, then picks one item from that case in that color. The color odds are blue 70%, purple 25%, pink 4%, red 0.8%, and gold 0.2%.
+
+{| class="wikitable"
+!Icon
+!Case
+!Required level
+!Cost
+!EXP per open
+|-
+|[[File:Idle Merchant world icon - beginner forge case.png|frameless|48x48px]]
+|Beginner Forge Case
+|1
+|100
+|25
+|-
+|[[File:Idle Merchant world icon - adventurer expedition case.png|frameless|48x48px]]
+|Adventurer Expedition Case
+|20
+|250
+|30
+|-
+|[[File:Idle Merchant world icon - royal treasury case.png|frameless|48x48px]]
+|Royal Treasury Case
+|40
+|650
+|75
+|-
+|[[File:Idle Merchant world icon - elemental ruins case.png|frameless|48x48px]]
+|Elemental Ruins Case
+|60
+|1,800
+|420
+|-
+|[[File:Idle Merchant world icon - void end case.png|frameless|48x48px]]
+|Void End Case
+|80
+|5,000
+|680
+|}
+
+=== Stats and passives ===
+
+Each item shows Attack and Attack speed as two numbers. The left number is the standard value for that item. The right number is a random offset from it. The catalog lists the lowest and highest each stat can be. The standard value sits in the middle of that range.
+
+A new item can have 0, 1, 2, 3, or 4 passives. Each count is equally likely. 99.2% of rolled passives are ordinary. 0.8% are rare. 40% of ordinary passives are negative. Rare passives raise the suggested sale price. That price is the reference value, scaled by the two stat bonuses and the passives.
+
+Some items always carry one exclusive rare passive. That line cannot be reforged.
+
+Helmets share passives with standard armor. Hats share passives with robes. Negative passives can appear on any item.
+
+=== Inventory and market ===
+
+Collected items go to the inventory. A red lock is a manual lock. A yellow lock means the item is equipped in idle battle. Locked items cannot be sold or fused. Players can showcase a weapon on the leaderboard, sell an item, or open a price chart. Sort arranges the bag by price.
+
+Sell orders list asking prices on the market. Money can be transferred to another player after level 20.
+
+A catalog page lists every item, its min and max stats, and its market chart.
+
+=== Fusion ===
+
+Fusion spends several items of one color to make one item of the next color. The spent items do not have to be the same name. They only have to share a color. Locked items cannot be spent.
+
+{| class="wikitable"
+!Spent color
+!Count
+!Result color
+|-
+|Blue
+|20
+|Purple
+|-
+|Purple
+|20
+|Pink
+|-
+|Pink
+|15
+|Red
+|-
+|Red
+|10
+|Gold
+|}
+
+Gold items cannot be fused.
+
+The new item comes from the cases the spent items came from. It is always the next color. The name has to appear in one of those cases. Spending more items from one case makes that case's names more likely. If that case only has a few names in the next color, each of those names is more likely. Attack, attack speed, and passives are rolled again. They are not copied from the spent items.
+
+=== Reforge ===
+
+Reforge spends money to reroll stats or passives. Later cases and rarer colors cost more. Exclusive rare passives cannot be reforged. Reforging an empty passive slot is a paid world-store unlock. An item that is not in any case uses the Beginner Forge Case prices.
+
+Passive reforge cost:
+
+{| class="wikitable"
+!Case
+!Blue
+!Purple
+!Pink
+!Red
+!Gold
+|-
+|Beginner Forge Case
+|100
+|300
+|1,800
+|5,000
+|25,000
+|-
+|Adventurer Expedition Case
+|125
+|375
+|2,100
+|6,500
+|30,500
+|-
+|Royal Treasury Case
+|150
+|450
+|2,400
+|8,000
+|36,000
+|-
+|Elemental Ruins Case
+|175
+|525
+|2,700
+|9,500
+|41,500
+|-
+|Void End Case
+|200
+|600
+|3,000
+|11,000
+|47,000
+|}
+
+=== Idle battle ===
+
+Players hire one hero class and can switch later. Auto expedition sends the hero through a region. Each kill spends one Harvest. Harvested kills drop extra money and EXP. Harvest count resets daily. A boss appears after a set number of fights. The next region unlocks after that region's boss.
+
+Heroes equip a weapon, helmet or hat, armor or robe, and accessory. Appearance can be set separately from equipped stats. The class table lists the preferred weapon and armor types.
+
+{| class="wikitable"
+!Icon
+!Class
+!Preferred gear
+|-
+|[[File:Idle Merchant world icon - swordsman.png|frameless|48x48px]]
+|Swordsman
+|Melee weapons and normal armor
+|-
+|[[File:Idle Merchant world icon - archer.png|frameless|48x48px]]
+|Archer
+|Ranged weapons and normal armor
+|-
+|[[File:Idle Merchant world icon - wizard.png|frameless|48x48px]]
+|Wizard
+|Staves and magic armor
+|}
+
+The four regions are Wild Frontier, Skeleton Gravefield, Orc Battlefield, and Shadow Kingdom. Each also has a Normal and a Hard difficulty. Each region has five monsters. The fifth is the boss. On the first difficulty those bosses are Wild Bear King, Grave Necromancer King, Orc Rider King, and Shadow Knight King.
+
+{| class="wikitable"
+!Region
+!Required level
+|-
+|Wild Frontier
+|1
+|-
+|Skeleton Gravefield
+|9
+|-
+|Orc Battlefield
+|17
+|-
+|Shadow Kingdom
+|25
+|-
+|Wild Frontier - Normal
+|33
+|-
+|Skeleton Gravefield - Normal
+|41
+|-
+|Orc Battlefield - Normal
+|49
+|-
+|Shadow Kingdom - Normal
+|57
+|-
+|Wild Frontier - Hard
+|65
+|-
+|Skeleton Gravefield - Hard
+|74
+|-
+|Orc Battlefield - Hard
+|83
+|-
+|Shadow Kingdom - Hard
+|92
+|}
+
+=== Employees and cashier ===
+
+A cashier counter sells items in a minigame. Employees can be hired and upgraded. They take a commission and have a remaining-jobs counter.
+
+{| class="wikitable"
+!Employee
+!Required level
+!Cost
+|-
+|Trainee Employee
+|1
+|0
+|-
+|Regular Employee
+|10
+|2,500
+|-
+|Skilled Employee
+|20
+|7,500
+|-
+|Professional Employee
+|35
+|15,000
+|-
+|Elite Employee
+|50
+|30,000
+|-
+|Master Employee
+|70
+|60,000
+|-
+|Legendary Employee
+|90
+|120,000
+|}
+
+=== Leaderboard ===
+
+The board ranks players by the total current market value of items in the inventory. Money on hand is not counted. Cards can show a showcased weapon, player level, and a background pattern. Free patterns include stars, pentagons, Diagonal 1, scattered shapes, warning, wave, ocean wave, morphing ball, crystal, clouds, hearts, skulls, puzzle, chains, flags, and floral. Graffiti Pattern and Mysterious Letters Pattern unlock from the world store.
+
+=== World store ===
+
+The world is enrolled in the [[Special:MyLanguage/Creator Economy|Creator Economy]]. The world store sells these listings for [[Special:MyLanguage/Creator Economy#VRChat Credits|VRChat Credits]]:
+
+* '''Reforge Empty Passives''' (新增空詞條), 299 credits, permanent. Unlocks reforging an empty passive slot.
+* '''Tipper 1''' (贊助者 1), 100 credits, permanent. Unlocks Graffiti Pattern and Mysterious Letters Pattern on the leaderboard.
+* '''Tip''' (贊助), 100 credits. Nothing.
+
+== Items ==
+
+The catalog lists every item. Attack and attack speed roll in the ranges below. A dash under Case means the item does not appear in any case. Color is fixed for that item.
+
+{| class="wikitable sortable"
+!Icon
+!Item
+!Color
+!Attack
+!Attack speed
+!Case
+!Exclusive passive
+|-
+!colspan="7"|Melee weapons
+|-
+|[[File:Idle Merchant world icon - crude iron dagger.png|frameless|48x48px]]
+|Crude Iron Dagger
+|Blue
+|4–8
+|6–10
+|—
+|
+|-
+|[[File:Idle Merchant world icon - crude iron sword.png|frameless|48x48px]]
+|Crude Iron Sword
+|Blue
+|5–9
+|5–9
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - crude iron spear.png|frameless|48x48px]]
+|Crude Iron Spear
+|Blue
+|6–10
+|4–8
+|—
+|
+|-
+|[[File:Idle Merchant world icon - crude iron axe.png|frameless|48x48px]]
+|Crude Iron Axe
+|Blue
+|4–8
+|6–10
+|—
+|
+|-
+|[[File:Idle Merchant world icon - crude iron hammer.png|frameless|48x48px]]
+|Crude Iron Hammer
+|Blue
+|5–9
+|5–9
+|—
+|
+|-
+|[[File:Idle Merchant world icon - mithril dagger.png|frameless|48x48px]]
+|Mithril Dagger
+|Blue
+|14–18
+|7–11
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - mithril sword.png|frameless|48x48px]]
+|Mithril Sword
+|Red
+|8–18
+|6–16
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - mithril spear.png|frameless|48x48px]]
+|Mithril Spear
+|Purple
+|14–20
+|8–14
+|—
+|
+|-
+|[[File:Idle Merchant world icon - mithril axe.png|frameless|48x48px]]
+|Mithril Axe
+|Purple
+|15–21
+|7–13
+|—
+|
+|-
+|[[File:Idle Merchant world icon - mithril hammer.png|frameless|48x48px]]
+|Mithril Hammer
+|Purple
+|13–19
+|9–15
+|—
+|
+|-
+|[[File:Idle Merchant world icon - golden dagger.png|frameless|48x48px]]
+|Golden Dagger
+|Red
+|17–27
+|8–18
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - golden sword.png|frameless|48x48px]]
+|Golden Sword
+|Gold
+|13–25
+|4–16
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - golden spear.png|frameless|48x48px]]
+|Golden Spear
+|Pink
+|25–33
+|12–20
+|—
+|
+|-
+|[[File:Idle Merchant world icon - golden axe.png|frameless|48x48px]]
+|Golden Axe
+|Blue
+|24–28
+|11–15
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - golden hammer.png|frameless|48x48px]]
+|Golden Hammer
+|Pink
+|27–35
+|10–18
+|—
+|
+|-
+|[[File:Idle Merchant world icon - diamond sword.png|frameless|48x48px]]
+|Diamond Sword
+|Gold
+|19–31
+|9–21
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - diamond axe.png|frameless|48x48px]]
+|Diamond Axe
+|Red
+|28–38
+|11–21
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - frost blade.png|frameless|48x48px]]
+|Frost Blade
+|Gold
+|32–44
+|10–22
+|Royal Treasury Case
+|Attacks have a high chance to launch ice spikes. 20-second cooldown.
+|-
+|[[File:Idle Merchant world icon - ancientwood blade.png|frameless|48x48px]]
+|Ancientwood Blade
+|Gold
+|71–83
+|18–30
+|—
+|Attacks have a high chance to summon thorns. 20-second cooldown.
+|-
+|[[File:Idle Merchant world icon - blazing blade.png|frameless|48x48px]]
+|Blazing Blade
+|Red
+|45–55
+|14–24
+|Elemental Ruins Case
+|Attacks have a high chance to trigger a fiery explosion. 20-second cooldown.
+|-
+|[[File:Idle Merchant world icon - thunder blade.png|frameless|48x48px]]
+|Thunder Blade
+|Gold
+|49–61
+|13–25
+|Elemental Ruins Case
+|Attacks have a high chance to call down powerful lightning strikes. 20-second cooldown.
+|-
+|[[File:Idle Merchant world icon - forbidden sword.png|frameless|48x48px]]
+|Forbidden Sword
+|—
+|0–0
+|0–0
+|—
+|
+|-
+|[[File:Idle Merchant world icon - diamond shortsword.png|frameless|48x48px]]
+|Diamond Shortsword
+|Blue
+|42–46
+|13–17
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - dark matter sword.png|frameless|48x48px]]
+|Dark Matter Sword
+|Blue
+|65–69
+|17–21
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - void blade.png|frameless|48x48px]]
+|Void Blade
+|Red
+|70–80
+|16–26
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - end blade.png|frameless|48x48px]]
+|End Blade
+|Gold
+|72–84
+|17–29
+|Void End Case
+|
+|-
+!colspan="7"|Bows
+|-
+|[[File:Idle Merchant world icon - crude bow.png|frameless|48x48px]]
+|Crude Bow
+|Blue
+|2–6
+|8–12
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - fine bow.png|frameless|48x48px]]
+|Fine Bow
+|Red
+|7–17
+|7–17
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - royal bow.png|frameless|48x48px]]
+|Royal Bow
+|Gold
+|11–23
+|6–18
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - silverfeather bow.png|frameless|48x48px]]
+|Silverfeather Bow
+|Blue
+|11–15
+|10–14
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - clockwork bow.png|frameless|48x48px]]
+|Clockwork Bow
+|Red
+|14–24
+|11–21
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - windgod bow.png|frameless|48x48px]]
+|Windgod Bow
+|Gold
+|18–30
+|10–22
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - composite bow.png|frameless|48x48px]]
+|Composite Bow
+|Blue
+|23–27
+|12–16
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - eclipse divine bow.png|frameless|48x48px]]
+|Eclipse Divine Bow
+|Red
+|26–36
+|13–23
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - frost warbow.png|frameless|48x48px]]
+|Frost Warbow
+|Gold
+|28–40
+|14–26
+|Royal Treasury Case
+|Attacks have a high chance to launch ice spikes. 20-second cooldown.
+|-
+|[[File:Idle Merchant world icon - starfire longbow.png|frameless|48x48px]]
+|Starfire Longbow
+|Blue
+|38–42
+|17–21
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - void bow.png|frameless|48x48px]]
+|Void Bow
+|Red
+|44–54
+|15–25
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - thunder god bow.png|frameless|48x48px]]
+|Thunder God Bow
+|Gold
+|45–57
+|17–29
+|Elemental Ruins Case
+|Turn into lightning and dodge quickly when hit. 15-second cooldown.
+|-
+|[[File:Idle Merchant world icon - dark matter bow.png|frameless|48x48px]]
+|Dark Matter Bow
+|Blue
+|64–68
+|18–22
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - genesis starbow.png|frameless|48x48px]]
+|Genesis Starbow
+|Red
+|66–76
+|20–30
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - end divine bow.png|frameless|48x48px]]
+|End Divine Bow
+|Gold
+|71–83
+|18–30
+|Void End Case
+|
+|-
+!colspan="7"|Staves
+|-
+|[[File:Idle Merchant world icon - apprentice staff.png|frameless|48x48px]]
+|Apprentice Staff
+|Red
+|7–17
+|7–17
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - rare staff.png|frameless|48x48px]]
+|Rare Staff
+|Red
+|16–26
+|9–19
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - frost staff.png|frameless|48x48px]]
+|Frost Staff
+|Gold
+|20–32
+|8–20
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - crude staff.png|frameless|48x48px]]
+|Crude Staff
+|Blue
+|4–8
+|6–10
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - ruby staff.png|frameless|48x48px]]
+|Ruby Staff
+|Gold
+|12–24
+|5–17
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - demon staff.png|frameless|48x48px]]
+|Demon Staff
+|Red
+|43–53
+|16–26
+|Elemental Ruins Case
+|Attacks have a high chance to inflict 2-3 negative effects. 25-second cooldown.
+|-
+|[[File:Idle Merchant world icon - holy staff.png|frameless|48x48px]]
+|Holy Staff
+|Gold
+|47–59
+|15–27
+|Elemental Ruins Case
+|Automatically create a golden shield for 5 seconds. 25-second cooldown.
+|-
+|[[File:Idle Merchant world icon - arcane staff.png|frameless|48x48px]]
+|Arcane Staff
+|Blue
+|13–17
+|8–12
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - starsand staff.png|frameless|48x48px]]
+|Starsand Staff
+|Blue
+|22–26
+|13–17
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - sage staff.png|frameless|48x48px]]
+|Sage Staff
+|Red
+|28–38
+|11–21
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - worldtree staff.png|frameless|48x48px]]
+|Worldtree Staff
+|Gold
+|30–42
+|12–24
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - netherflame staff.png|frameless|48x48px]]
+|Netherflame Staff
+|Blue
+|40–44
+|15–19
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - dark matter staff.png|frameless|48x48px]]
+|Dark Matter Staff
+|Blue
+|63–67
+|19–23
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - void scepter.png|frameless|48x48px]]
+|Void Scepter
+|Red
+|68–78
+|18–28
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - end scepter.png|frameless|48x48px]]
+|End Scepter
+|Gold
+|70–82
+|19–31
+|Void End Case
+|Attacks have a high chance to emit piercing red light. 30-second cooldown
+|-
+!colspan="7"|Helmets and hats
+|-
+|[[File:Idle Merchant world icon - crude iron helmet.png|frameless|48x48px]]
+|Crude Iron Helmet
+|Purple
+|2–8
+|1–4
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - mithril helmet.png|frameless|48x48px]]
+|Mithril Helmet
+|Purple
+|10–16
+|2–6
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - golden helmet.png|frameless|48x48px]]
+|Golden Helmet
+|Purple
+|17–23
+|4–8
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - apprentice hat.png|frameless|48x48px]]
+|Apprentice Hat
+|Pink
+|10–18
+|18–26
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - advanced hat.png|frameless|48x48px]]
+|Advanced Hat
+|Pink
+|17–25
+|35–43
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - green mage hat.png|frameless|48x48px]]
+|Green Mage Hat
+|Pink
+|31–39
+|54–62
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - chaos hat.png|frameless|48x48px]]
+|Chaos Hat
+|Gold
+|52–64
+|84–96
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - diamond helmet.png|frameless|48x48px]]
+|Diamond Helmet
+|Purple
+|28–34
+|7–11
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - dark matter helmet.png|frameless|48x48px]]
+|Dark Matter Helmet
+|Purple
+|48–54
+|9–15
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - end helmet.png|frameless|48x48px]]
+|End Helmet
+|Gold
+|52–64
+|8–20
+|Void End Case
+|
+|-
+!colspan="7"|Armor and robes
+|-
+|[[File:Idle Merchant world icon - crude iron armor.png|frameless|48x48px]]
+|Crude Iron Armor
+|Purple
+|3–9
+|1–4
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - mithril armor.png|frameless|48x48px]]
+|Mithril Armor
+|Purple
+|8–14
+|2–6
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - golden armor.png|frameless|48x48px]]
+|Golden Armor
+|Purple
+|18–24
+|4–8
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - diamond armor.png|frameless|48x48px]]
+|Diamond Armor
+|Purple
+|28–34
+|7–11
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - apprentice robe.png|frameless|48x48px]]
+|Apprentice Robe
+|Pink
+|11–19
+|17–25
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - advanced robe.png|frameless|48x48px]]
+|Advanced Robe
+|Pink
+|18–26
+|34–42
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - green mage robe.png|frameless|48x48px]]
+|Green Mage Robe
+|Pink
+|29–37
+|56–64
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - chaos robe.png|frameless|48x48px]]
+|Chaos Robe
+|Gold
+|53–65
+|83–95
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - dark matter armor.png|frameless|48x48px]]
+|Dark Matter Armor
+|Purple
+|46–52
+|9–15
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - end armor.png|frameless|48x48px]]
+|End Armor
+|Gold
+|53–65
+|8–20
+|Void End Case
+|
+|-
+!colspan="7"|Accessories
+|-
+|[[File:Idle Merchant world icon - common ring.png|frameless|48x48px]]
+|Common Ring
+|Purple
+|2–8
+|5–9
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - ruby ring.png|frameless|48x48px]]
+|Ruby Ring
+|Purple
+|4–10
+|14–20
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - sapphire ring.png|frameless|48x48px]]
+|Sapphire Ring
+|Purple
+|12–18
+|27–33
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - common necklace.png|frameless|48x48px]]
+|Common Necklace
+|Purple
+|2–8
+|5–9
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - ruby necklace.png|frameless|48x48px]]
+|Ruby Necklace
+|Purple
+|4–10
+|14–20
+|Adventurer Expedition Case
+|
+|-
+|[[File:Idle Merchant world icon - sapphire necklace.png|frameless|48x48px]]
+|Sapphire Necklace
+|Purple
+|12–18
+|27–33
+|Royal Treasury Case
+|
+|-
+|[[File:Idle Merchant world icon - common spellbook.png|frameless|48x48px]]
+|Common Spellbook
+|Pink
+|3–11
+|6–12
+|Beginner Forge Case
+|
+|-
+|[[File:Idle Merchant world icon - advanced spellbook.png|frameless|48x48px]]
+|Advanced Spellbook
+|Purple
+|11–17
+|28–34
+|—
+|
+|-
+|[[File:Idle Merchant world icon - master spellbook.png|frameless|48x48px]]
+|Master Spellbook
+|Pink
+|23–31
+|46–54
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - chaos spellbook.png|frameless|48x48px]]
+|Chaos Spellbook
+|Pink
+|38–46
+|69–77
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - monster eye.png|frameless|48x48px]]
+|Monster Eye
+|Purple
+|21–27
+|46–52
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - sea gods eye.png|frameless|48x48px]]
+|Sea God's Eye
+|Red
+|24–34
+|47–57
+|Elemental Ruins Case
+|
+|-
+|[[File:Idle Merchant world icon - demon eye.png|frameless|48x48px]]
+|Demon Eye
+|Pink
+|38–46
+|69–77
+|Void End Case
+|
+|-
+|[[File:Idle Merchant world icon - void core.png|frameless|48x48px]]
+|Void Core
+|Red
+|38–48
+|71–81
+|Void End Case
+|Below 25% health, gain increased evasion for 10 seconds. 20-second cooldown
+|}
+
+=== Passive pools ===
+
+Ordinary and rare passives come from the lists below. An exclusive rare on an item in the table always fills one slot on that item.
+
+==== Melee weapons ====
+
+* Increases Attack by 3%
+* Increases Attack Speed by 3%
+* Attacks have a low chance to cause bleeding for 6 seconds
+* Attacks have a low chance to cause poison for 6 seconds
+* Attacks have a low chance to cause burning for 4 seconds
+* Attacks have a low chance to cause freezing for 8 seconds
+* Attacks have a low chance to cause lightning for 2 seconds
+* Attacks have a high chance to trigger a fiery explosion. 20-second cooldown. (rare)
+* Attacks have a high chance to launch ice spikes. 20-second cooldown. (rare)
+* Attacks have a high chance to call down powerful lightning strikes. 20-second cooldown. (rare)
+* Attacks have a high chance to release freezing air and freeze enemies. 20-second cooldown. (rare)
+* Attacks have a high chance to summon thorns. 20-second cooldown. (rare)
+* 5% chance to dodge damage when hit
+* Attacks have a high chance to automatically attack a second time (rare)
+* 30% chance to deal random bonus damage when attacking (rare)
+
+==== Ranged weapons ====
+
+* Increases Attack by 3%
+* Attacks have a low chance to cause bleeding for 6 seconds
+* Attacks have a low chance to cause poison for 6 seconds
+* Attacks have a low chance to cause burning for 4 seconds
+* Attacks have a low chance to cause freezing for 8 seconds
+* Attacks have a low chance to cause lightning for 2 seconds
+* Attacks have a high chance to trigger a fiery explosion. 20-second cooldown. (rare)
+* Attacks have a high chance to launch ice spikes. 20-second cooldown. (rare)
+* Attacks have a high chance to call down powerful lightning strikes. 20-second cooldown. (rare)
+* Attacks have a high chance to summon thorns. 20-second cooldown. (rare)
+* 25% chance to fire three arrows at once
+* 5% chance to dodge damage when hit
+* Attacks have a high chance to emit piercing red light. 30-second cooldown (rare)
+* 30% chance to deal random bonus damage when attacking (rare)
+
+==== Staves ====
+
+* Increases Attack by 3%
+* Attacks have a low chance to cause bleeding for 6 seconds
+* Attacks have a low chance to cause poison for 6 seconds
+* Attacks have a low chance to cause burning for 4 seconds
+* Attacks have a low chance to cause freezing for 8 seconds
+* Attacks have a low chance to cause lightning for 2 seconds
+* Attacks have a high chance to call down powerful lightning strikes. 20-second cooldown. (rare)
+* Attacks have a high chance to launch a giant fireball. 20-second cooldown. (rare)
+* Automatically create a frost barrier for 5 seconds. 30-second cooldown. (rare)
+* Attacks have a high chance to summon thorns. 20-second cooldown. (rare)
+* Attacks have a high chance to summon a giant rock. 20-second cooldown. (rare)
+* Attacks have a high chance to inflict 2-3 negative effects. 25-second cooldown. (rare)
+* Automatically create a golden shield for 5 seconds. 25-second cooldown. (rare)
+* Attacks have a high chance to emit piercing red light. 30-second cooldown (rare)
+* 30% chance to deal random bonus damage when attacking (rare)
+
+==== Accessories ====
+
+* Increases Attack by 3%
+* Increases maximum Mana (Stamina) by 3%
+* Increases Attack by 0.5%
+* Reduces full Mana (Stamina) recovery time by 0.3 seconds
+* Halves negative-effect duration
+* Increases maximum Health by 3%
+* Below 25% health, gain increased evasion for 10 seconds. 20-second cooldown (rare)
+* Attacks have a high chance to remove negative effects. 20-second cooldown (rare)
+* 50% chance to reduce damage taken by 25% when hit (rare)
+* Enemies continuously take damage every second (rare)
+* 10% chance on attack to summon a mirror image that blocks one attack (rare)
+* Attacks have a high chance to remove negative effects. 20-second cooldown (rare)
+
+==== Standard armor ====
+
+* Increases Attack by 2.5%
+* 45% chance to resist bleeding
+* 45% chance to resist poison
+* 45% chance to resist burning
+* 45% chance to resist freezing
+* 45% chance to resist lightning
+* Can revive once per life (rare)
+* Slowly restores health below half health. 20-second cooldown. (rare)
+* Turn into lightning and dodge quickly when hit. 15-second cooldown. (rare)
+* Attacks have a high chance to release flames. 20-second cooldown. (rare)
+* Automatically gain frost armor for 10 seconds. 30-second cooldown. (rare)
+* Automatically gain damage reduction for 5 seconds. 30-second cooldown. (rare)
+* 50% chance to reduce damage taken by 25% when hit (rare)
+* Enemies continuously take damage every second (rare)
+
+==== Magic armor ====
+
+* Increases Attack by 2.5%
+* 45% chance to resist bleeding
+* 45% chance to resist poison
+* 45% chance to resist burning
+* 45% chance to resist freezing
+* 45% chance to resist lightning
+* Can revive once per life (rare)
+* Slowly restores health below half health. 20-second cooldown. (rare)
+* Turn into lightning and dodge quickly when hit. 15-second cooldown. (rare)
+* Attacks have a high chance to release flames. 20-second cooldown. (rare)
+* Automatically gain frost armor for 10 seconds. 30-second cooldown. (rare)
+* Automatically gain damage reduction for 5 seconds. 30-second cooldown. (rare)
+* Reduces full Mana (Stamina) recovery time by 0.3 seconds
+* 50% chance to reduce damage taken by 25% when hit (rare)
+* Enemies continuously take damage every second (rare)
+
+==== Negative (any type) ====
+
+* 10% chance to suffer poison damage for 6 seconds when hit
+* 10% chance to lose control when attacking
+* When hit, 10% chance to randomly gain bleeding, poison, burning, freezing, or lightning
+* 15% chance to become weakened for 5 seconds when hit
+
+== References ==
+<references />
+
+[[Category:Game worlds{{#translation:}}]]
