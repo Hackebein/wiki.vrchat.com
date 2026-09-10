@@ -4,6 +4,8 @@
 
 I collect data wherever I can reach it, build pipelines that turn it into something useful, and automate anything I refuse to do twice. If it is broken, undocumented, or nobody else wanted to finish it, that is my kind of project.
 
+[[File:GodHackebein_character_sheet.png|800px|thumb|right|Character sheet of GodHackebein. Made in [https://vrchat.com/home/world/wrld_96460268-8c89-438f-b8f2-2ea2f1ed1ce7 The Avatar Studio].]]
+
 == Badges ==
 [[Badges]] I currently hold on my profile:
 * [[File:VRChat_Wiki_Contributor.png |frameless|32x32px|link=Badges]] [[Badges|VRChat Wiki Contributor]]
@@ -16,19 +18,19 @@ I have been here since this wiki started and I am one of the maintainers on [[VR
 
 Edit count or line change count are bad metrics. A page written from scratch and a fixed typo both count as one edit. A rewrite eats an afternoon. A lot of my heavy lifting is template plumbing and translation units that never surface as prose.
 
-What I actually do: platform documentation such as [[Getting Started]], [[Instances]], [[Groups]], [[Menus]], [[Social]], [[OSC]], [[Community:OSC Resources]], [[Avatar Dynamics]], [[Items]] and [[Badges]], several of which started on my keyboard — including the OSC and OSC Resources pages. German localization is my largest single share of edits — German page versions, plus proofreading on Crowdin for VRChat itself. I also write the community tooling pages nobody else wants to own: [[Community:VRCX]], [[Community:Vrc-get]], [[Community:ALCOM]], [[Community:Manage VRChat]], [[VRC Quick Launcher]]. The tools everyone uses and nobody documents.
+What I actually do: platform documentation such as [[Getting Started]], [[Instances]], [[Groups]], [[Menus]], [[Social]], [[OSC]], [[Community:OSC Resources]], [[Avatar Dynamics]], [[Items]] and [[Badges]], several of which started on my keyboard, including the OSC and OSC Resources pages. German localization is my largest single share of edits, German page versions plus proofreading on Crowdin for VRChat itself. I also write the community tooling pages nobody else wants to own: [[Community:VRCX]], [[Community:Vrc-get]], [[Community:ALCOM]], [[Community:Manage VRChat]], [[VRC Quick Launcher]]. The tools everyone uses and nobody documents.
 
 [[Community:Potentially Upcoming Features]] is my most edited page. It started as a dump for datamined and pre-announcement findings, then got renamed and restructured after a long argument about where that kind of information belongs. Seasonal events, exhibitions, dance and photography land here too, including [[Community:VRDancing]] and [[Community:VR Photography Exhibitions]].
 
 === Automated contributions ===
 Not everything I contribute is typed by hand. I run bots on [https://vrchat.com/home/user/usr_bbbda87a-b179-41d3-bdcf-6fa732bd4c19 HackebeinsBot], the account the Music Truck project used in-game before it got a second job. Those edits are data feeds from other sources, so manual work stays reserved for things a bot cannot do yet. Public list at [https://wiki.vrchat.com/wiki/Special:Contributions/Usr_bbbda87a-b179-41d3-bdcf-6fa732bd4c19 Special:Contributions].
 
-The bot keeps world data pages behind the infoboxes up to date — visits, favorites, heat — plus the VPM package version summary and the per-package version templates. It also syncs [[Template:Version|client build metadata]] for Steam, Meta Quest, Pico Store, Google Play and Viveport, and creator tool versions for the [[VRChat Creator Companion]] and [[VRC Quick Launcher]]. Marketplace shelves and paid avatar listing pages are in scope too; those just show up less often than the world and build syncs.
+The bot keeps world data pages behind the infoboxes up to date, visits, favorites, heat, plus the VPM package version summary and the per-package version templates. It also syncs [[Template:Version|client build metadata]] for Steam, Meta Quest, Pico Store, Google Play and Viveport, and creator tool versions for the [[VRChat Creator Companion]] and [[VRC Quick Launcher]]. Marketplace shelves and paid avatar listing pages are in scope too; those just show up less often than the world and build syncs.
 
 === Software I wrote for the wiki ===
-* [https://github.com/Hackebein/wiki.vrchat.com wiki.vrchat.com] — full MediaWiki to Git mirror. One commit per edit, resumable, bootstrapped from a snapshot. Built because I stopped being sure how freely readable this wiki would stay behind bot protection. Git history is cheap insurance.
-* [https://github.com/Hackebein/vrc-api2wiki vrc-api2wiki] — the service behind the bot above.
-* [https://github.com/Hackebein/VPMM-connector-VRCWiki VPMM-connector-VRCWiki] — bridge between VPM Manager and the wiki.
+* [https://github.com/Hackebein/wiki.vrchat.com wiki.vrchat.com], full MediaWiki to Git mirror. One commit per edit, resumable, bootstrapped from a snapshot. Built because I stopped being sure how freely readable this wiki would stay behind bot protection. Git history is cheap insurance.
+* [https://github.com/Hackebein/vrc-api2wiki vrc-api2wiki], the service behind the bot above.
+* [https://github.com/Hackebein/VPMM-connector-VRCWiki VPMM-connector-VRCWiki], bridge between VPM Manager and the wiki.
 
 == Projects ==
 === VPM Manager ===
@@ -47,7 +49,7 @@ Publishing side is [https://github.com/Hackebein/hackebein.vpm.packager hackebei
 
 === Object Tracking ===
 [[File:Hackebein_object_tracking_wip.jpg|thumb|right|WIP screenshot of a tracker in VRChat]]
-Track your real-world objects and bring them into VRChat, with any tracker SteamVR and OpenVR support. Cups, chairs, poles, aerial hoops (lyra), guitars, decks, pets, cameras, or your entire room. Communities are forming around exactly this <ref>https://vrchat.com/home/group/grp_b9665434-bcce-4260-bbdc-ae3b7c48edf0 - TRACKD.6559</ref>.
+Track your real-world objects and bring them into VRChat, with any SteamVR or OpenVR tracker. Cups, chairs, poles, aerial hoops (lyra), guitars, decks, pets, cameras, or your entire room. Communities are forming around exactly this.<ref>https://vrchat.com/home/group/grp_b9665434-bcce-4260-bbdc-ae3b7c48edf0 - TRACKD.6559</ref>
 
 It began in mid-2022 with one goal: make my pole spin in VRChat at the speed it spins in my flat. One axis was enough for about a week. It now does full six degrees of freedom. Demos live on my social media, like this [https://x.com/Hackebein/status/1817729114142343460 one].
 
@@ -65,8 +67,11 @@ The desktop application ships on [https://store.steampowered.com/app/3140770 Ste
 I file bug reports and break things before you do. Not a hobby, it just happens when I touch software. I am part of the Community Testers program described on [[Quality Assurance]]. Next up is a GitHub runner driving one VR and three desktop clients at once, so world and avatar tests crash on a schedule instead of at random.
 
 I also run a scraper and search index over the [[VRChat Feedback]] boards:
-* [https://github.com/Hackebein/feedback.vrchat.com feedback.vrchat.com] — the scraper, the data, and everything else this project needs
-* [https://vrchat-canny.hackebein.dev vrchat-canny.hackebein.dev] — full-text search, push notifications and Canny integration
+* [https://github.com/Hackebein/feedback.vrchat.com feedback.vrchat.com], the scraper, the data, and everything else this project needs
+* [https://vrchat-canny.hackebein.dev vrchat-canny.hackebein.dev], full-text search, push notifications and Canny integration
+
+=== VRChat Feed ===
+[https://vrchat-feed.hackebein.dev VRChat Feed] mixes VRChat sources into one stream, built to play in a home world [[Video players|video player]] so you can catch up with what you missed in-game. The site lists every source in one place. Filters pick photography posts, VRChat announcements, a streamer who just went live, or any combination. RSS, Atom and an API export the same mix when neither the browser nor the video player fits.
 
 === VaOBS ===
 [https://github.com/Hackebein/VaOBS VaOBS] grabs the video playing inside VRChat and hands it to OBS as its own media source. Keep it on a separate track and shift the audio in post instead of fighting it live.
