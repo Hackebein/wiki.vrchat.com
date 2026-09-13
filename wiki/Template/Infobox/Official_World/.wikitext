@@ -26,7 +26,7 @@
     <group>
         <header><translate><!--T:8--> World history</translate></header>
         <data><label><translate><!--T:9--> Published to Labs</translate></label><default>{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{#ifeq:{{World/{{{id}}}/labsPublicationDate}}|none||{{Date|{{World/{{{id}}}/labsPublicationDate}}}}}}}}</default></data>
-        <data><label><translate><!--T:10--> Published</translate></label><default>{{#ifexist:Template:World/{{{id}}}/publicationDate|{{#ifeq:{{World/{{{id}}}/publicationDate}}|none||{{#ifexpr:{{#time:U|2019-03-13T00:00:00Z}}>{{#time:U|{{World/{{{id}}}/publicationDate}}}}|before {{Date|2019-03-13}}{{#tag:abbr|*|title=The Community Labs feature was released on {{Date|2019-03-13}}. This world was published before that date.}}|{{#ifexist:Template:World/{{{id}}}/created_at|{{#ifexpr:{{#time:U|2019-03-13T00:00:00Z}}>{{#time:U|{{World/{{{id}}}/created_at}}}}|{{#ifeq:{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{World/{{{id}}}/labsPublicationDate}}|none}}|none|before {{Date|2019-03-13}}{{#tag:abbr|*|title=The Community Labs feature was released on {{Date|2019-03-13}}. This world was published before that date.}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}}}}}}}</default></data>
+        <data source="published"><label><translate><!--T:10--> Published</translate></label><default>{{#ifexist:Template:World/{{{id}}}/publicationDate|{{#ifeq:{{World/{{{id}}}/publicationDate}}|none||{{#ifexpr:{{#time:U|2019-03-13T00:00:00Z}}>{{#time:U|{{World/{{{id}}}/publicationDate}}}}|before {{Date|2019-03-13}}{{#tag:abbr|*|title=The Community Labs feature was released on {{Date|2019-03-13}}. This world was published before that date.}}|{{#ifexist:Template:World/{{{id}}}/created_at|{{#ifexpr:{{#time:U|2019-03-13T00:00:00Z}}>{{#time:U|{{World/{{{id}}}/created_at}}}}|{{#ifeq:{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{World/{{{id}}}/labsPublicationDate}}|none}}|none|before {{Date|2019-03-13}}{{#tag:abbr|*|title=The Community Labs feature was released on {{Date|2019-03-13}}. This world was published before that date.}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}}}}}}}</default></data>
         <data><label><translate><!--T:13--> Last updated</translate></label><default>{{#ifexist:Template:World/{{{id}}}/updated_at|{{Date|{{World/{{{id}}}/updated_at}}}}}}</default></data>
         <data><label><translate><!--T:14--> Version</translate></label><default>{{#ifexist:Template:World/{{{id}}}/version|{{World/{{{id}}}/version}}}}</default></data>
     </group>
@@ -62,7 +62,7 @@
     <group>
         <header><translate><!--T:30--> World history</translate></header>
         <data><label><translate><!--T:31--> Published to Labs</translate></label><default>…</default></data>
-        <data><label><translate><!--T:32--> Published</translate></label><default>…</default></data>
+        <data source="published"><label><translate><!--T:32--> Published</translate></label><default>…</default></data>
         <data><label><translate><!--T:33--> Last updated</translate></label><default>…</default></data>
         <data><label><translate><!--T:34--> Version</translate></label><default>…</default></data>
     </group>
