@@ -10,6 +10,7 @@ Paste this template at the top of a world page with the world ID. Most infobox f
 '''Optional (manual only):'''
 * <code>developers</code> — additional developers not covered by the API author field
 * <code>languages</code> — languages used or available inside the world
+* <code>published</code> — overwrite the Published row. Any wikitext is allowed. For a single date, use <code>{{Date|YYYY-MM-DD}}</code>. Use free text when the API date is not the public-release story (for example a remaster note).
 
 ==Example==
 Minimal usage:
@@ -25,6 +26,7 @@ With optional manual fields:
 |id=wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd
 |developers=ExampleDev1, ExampleDev2
 |languages=English, Japanese, French
+|published={{Date|2017-02-01}}
 <nowiki>}}</nowiki>
 </pre>
 ==TemplateData Documentation==
@@ -49,12 +51,19 @@ With optional manual fields:
 			"description": "Optional. Languages used or available inside the world.",
 			"example": "English, Japanese, French",
 			"type": "string"
+		},
+		"published": {
+			"label": "Published",
+			"description": "Optional. Overwrite the Published row. Prefer {{Date|YYYY-MM-DD}} for a single date; free text is allowed.",
+			"example": "{{Date|2017-02-01}}",
+			"type": "string"
 		}
 	},
 	"paramOrder": [
 		"id",
 		"developers",
-		"languages"
+		"languages",
+		"published"
 	]
 }
 </templatedata>
