@@ -94,51 +94,25 @@ These templates may be used inline, such as links to official VRChat documents, 
 !Result
 |-
 | [[Special:MyLanguage/Template:Infobox/World|Template:Infobox/World]]
-| <code><nowiki>{{World
-|name=
-|image=
-|imagecaption=
-|developer=
-|publisher=
-|designer=
-|gen=
-|platform=
-|themes=
-|link=
-|labs=
+| <code><nowiki>{{Infobox/World
+|id=
+|developers=
+|languages=
 |published=
 }}</nowiki></code>
 | {{Infobox/World
-|name=Treehouse in the Shade
-|developer=1001
-|platform= PC
-|link={{World link|wrld_551c30cb-0e56-4c69-9176-10e259a89e2a|Treehouse in the Shade}}
-|published=Nov 09 2018
+|id=wrld_551c30cb-0e56-4c69-9176-10e259a89e2a
 }}
 |-
 | [[Special:MyLanguage/Template:Infobox/Official World|Template:Infobox/Official World]]
-| <code><nowiki>{{Official World
-|name=
-|image=
-|imagecaption=
-|developer=
-|publisher=
-|designer=
-|gen=
-|platform=
-|themes=
-|link=
-|labs=
+| <code><nowiki>{{Infobox/Official World
+|id=
+|developers=
+|languages=
 |published=
 }}</nowiki></code>
 | {{Infobox/Official World
-|name=VRChat Home
-|image=
-|imagecaption=
-|developer=VRChat
-|platform= PC, Android
-|link={{World link|wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd|VRChat Home}}
-|published=Sep 30 2022
+|id=wrld_4432ea9b-729c-46e3-8eaf-846aa0a37fdd
 }}
 |-
 |[[Special:MyLanguage/Template:Infobox/Asset|Template:Infobox/Asset]]
