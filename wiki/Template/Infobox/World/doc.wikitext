@@ -10,7 +10,7 @@ Paste this template at the top of a world page with the world ID. Most infobox f
 '''Optional (manual only):'''
 * <code>developers</code> — additional developers not covered by the API author field
 * <code>languages</code> — languages used or available inside the world
-* <code>published</code> — overwrite the Published row. Any wikitext is allowed. For a single date, use <code>{{Date|YYYY-MM-DD}}</code>. Use free text when the API date is not the public-release story (for example a remaster note).
+* <code>published</code> — overwrite the Published row. Any wikitext is allowed. For a single date, use <code><nowiki>{{Date|YYYY-MM-DD}}</nowiki></code>. Use free text when the API date is not the public-release story (for example a remaster note).
 
 ==Example==
 Minimal usage:
