@@ -26,7 +26,7 @@
     <group>
         <header>Welthistorie</header>
         <data><label>Veröffentlicht in Labs</label><default>{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{#ifeq:{{World/{{{id}}}/labsPublicationDate}}|none||{{Date|{{World/{{{id}}}/labsPublicationDate}}}}}}}}</default></data>
-        <data><label>Veröffentlicht</label><default>{{#ifexist:Template:World/{{{id}}}/publicationDate|{{#ifeq:{{World/{{{id}}}/publicationDate}}|none||{{#ifexpr:{{#time:U|2019-03-13T00:00:00Z}}>{{#time:U|{{World/{{{id}}}/publicationDate}}}}|before {{Date|2019-03-13}}{{#tag:abbr|*|title=The Community Labs feature was released on {{Date|2019-03-13}}. This world was published before that date.}}|{{#ifexist:Template:World/{{{id}}}/created_at|{{#ifexpr:{{#time:U|2019-03-13T00:00:00Z}}>{{#time:U|{{World/{{{id}}}/created_at}}}}|{{#ifeq:{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{World/{{{id}}}/labsPublicationDate}}|none}}|none|before {{Date|2019-03-13}}{{#tag:abbr|*|title=The Community Labs feature was released on {{Date|2019-03-13}}. This world was published before that date.}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}}}}}}}</default></data>
+        <data source="published"><label>Veröffentlicht</label><default>{{#ifexist:Template:World/{{{id}}}/publicationDate|{{#ifeq:{{World/{{{id}}}/publicationDate}}|none||{{#ifexpr:{{#time:U|2019-03-13T00:00:00Z}}>{{#time:U|{{World/{{{id}}}/publicationDate}}}}|before {{Date|2019-03-13}}{{#tag:abbr|*|title=The Community Labs feature was released on {{Date|2019-03-13}}. This world was published before that date.}}|{{#ifexist:Template:World/{{{id}}}/created_at|{{#ifexpr:{{#time:U|2019-03-13T00:00:00Z}}>{{#time:U|{{World/{{{id}}}/created_at}}}}|{{#ifeq:{{#ifexist:Template:World/{{{id}}}/labsPublicationDate|{{World/{{{id}}}/labsPublicationDate}}|none}}|none|before {{Date|2019-03-13}}{{#tag:abbr|*|title=The Community Labs feature was released on {{Date|2019-03-13}}. This world was published before that date.}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}|{{Date|{{World/{{{id}}}/publicationDate}}}}}}}}}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Last updated</span></label><default>{{#ifexist:Template:World/{{{id}}}/updated_at|{{Date|{{World/{{{id}}}/updated_at}}}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label><default>{{#ifexist:Template:World/{{{id}}}/version|{{World/{{{id}}}/version}}}}</default></data>
     </group>
@@ -62,7 +62,7 @@
     <group>
         <header><span lang="en" dir="ltr" class="mw-content-ltr">World history</span></header>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Published to Labs</span></label><default>…</default></data>
-        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Published</span></label><default>…</default></data>
+        <data source="published"><label><span lang="en" dir="ltr" class="mw-content-ltr">Published</span></label><default>…</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Last updated</span></label><default>…</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Version</span></label><default>…</default></data>
     </group>
