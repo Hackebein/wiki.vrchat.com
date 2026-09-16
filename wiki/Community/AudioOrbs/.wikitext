@@ -1,13 +1,52 @@
-{{Stub|Not much information here! Please expand and proofread, in accordance to the [[VRCWiki:Manual of Style|Manual of Style]].}}
+{{Noticebox/Community}}
 {{Infobox/World
 |id=wrld_5edb4d7d-2400-49f8-bae1-a8eb48a258e2
 }}
-{{Quote|''32 AudioLink-enabled orbs that dynamically enlighten the environment and your avatar. Many settings to tinker with. v2.23''}}
+'''AudioOrbs''' is a PC-only audio visualizer [[Special:MyLanguage/:Category:Worlds|world]] published by {{VRC link|https://vrchat.com/home/user/usr_a2bbad63-ad9a-451c-bc2b-604dbf670ffc|Kilerbomb}}. [[Special:MyLanguage/Community:AudioLink|AudioLink]] orbs light the environment and the player's avatar.
 
-'''AudioOrbs''' is a PC-only audio visualization world, utilizing AudioLink. The world features thirty-two individual [[Community:AudioLink|AudioLink]] enabled orbs, that dynamically luminate the environment, and any avatars utilizing the AudioLink prefab.
+== Layout ==
 
-==See also==
-* [[Community:AudioLink|AudioLink]]
+Players spawn in an open visualizer space with a video player, world settings, avatar settings, and a stats panel. A [[Special:MyLanguage/Mirrors|mirror]] is in the world. Rails run through the space for grinding. A credits board and a Generous Supporters list sit with the info panels.
 
-[[Category:Worlds]]
-[[Category:Needs images]]
+A graphics settings panel covers avatar lighting issues. The same panel can turn off deferred lighting on avatars. The video player used is USharpVideo v1.0.0 U# Video Player.
+
+An [[Special:MyLanguage/Community:AudioLink|AudioLink]] panel next to the player has Treble, Gain, Bass, Length, Hit Fade, Exp Falloff, Basic EQ, and Reset. Those sliders change how AudioLink reads the video audio for the orbs. ColorChord and Theme Colors set the visualization colors. Theme Colors includes Hue, Saturation, and Value.
+
+== Features ==
+
+Orbs react to the video player's audio through AudioLink. World Settings groups are Ambience, Ambience Extras, Environment, Environment Extras, Orb Visuals, Particle Visuals, Player Interactive, and Configurable.
+
+Orb Visuals include orb trails, history (frames), orb smearing, and palette controls (palettes, palette, palette scroll, palette cycle, randomize colors, bass hue shift). Lighting includes player light, light rays, volumetrics, volume player shadows, fog density, ground fog, emit fix, and cutout fix. Performance toggles include performance, fast mode, FFLS, frame info, and fps. Player Interactive includes rail switching, grind distance, rail visibility, rail auto-rotate, and crouch. A motion-sickness warning sits on rail auto-rotate: yaw follows the rail's curve, so a circular rail turns the player a full rotation in one lap.
+
+An OrbURL is a video URL that also stores AudioLink and AudioOrbs settings. Pasting an OrbURL into the video player loads those settings. The board states that the same URL still plays as a normal video URL in a browser, another player, or Discord.
+
+Environment themes are Default, Plain, Hex, Vector, Disco, Arcade, Halloween, Christmas, MC Grass, MC Terracotta, Pillars, Sealed Star.
+
+Sealed Star is labelled as from ''Dr. Robotnik's Ring Racers''. A BIT.TRIP theme is labelled Environment. Holding both triggers reverts a loaded environment theme.
+
+=== Movement ===
+
+PLAYER FLIGHT CONTROLS: in VR, left trigger flies up and right trigger flies forward along the right hand. On desktop, Space flies up and F flies forward along the look direction.
+
+RAIL GRINDING CONTROLS: while grinding, point movement at an adjacent rail and jump to switch. Crouch while grinding lowers friction and raises speed, including on desktop.
+
+=== Stats ===
+
+The stats panel shows instance age, connected players, songs played, visits, your play time, all play time, boosters hit, and orburls used. It reports whether the instance is a standard instance or an extended instance. A notice states that instance size is within the recommended maximum of 32 players, and that exceeding that recommended capacity reduces network sync rates.
+
+== Credits ==
+
+In-world credits name Amplify Shader Editor, [[Special:MyLanguage/Community:AudioLink|AudioLink]], tanoise by Toocanzs, USharpVideo, and UdonAirtime. Audio and textures credit Choice Provisions. A Sealed Star theme credits Kart Krew Dev team for audio, sprites, and textures. Tree silhouette textures credit popopoka. A skeleton hand model credits Nigel Shrekberry. Wind ambience credits Leandros.Ntounis on freesound.org.
+
+== See also ==
+
+* [[Special:MyLanguage/Community:AudioLink|AudioLink]]
+
+== Resources ==
+
+* [https://kilerbomb.booth.pm/ Kilerbomb] on ''Booth''
+* [https://kilerbomb.gumroad.com/l/uyxuo Kilerbomb's VRC Stuff] on ''Gumroad''
+* [https://discord.gg/fc25R6R Discord]
+* [https://twitter.com/Kilerbomb @Kilerbomb] on ''X''
+
+[[Category:Worlds{{#translation:}}]]
