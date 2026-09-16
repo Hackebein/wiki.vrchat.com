@@ -7,44 +7,110 @@ The following domains are allowlisted for public [https://creators.vrchat.com/wo
 !Service
 !Domain
 |-
+|Anique Inc.
+|<code>vr-static.anique.jp</code>
+|-
 |Akamai CDN
 |<code>vod-progressive.akamaized.net</code>
 |-
 |Facebook Video
 |<code>*.facebook.com</code>,<code>*.fbcdn.net</code>
 |-
+|[[Special:MyLanguage/Community:Furality Online Xperience|Furality Online Xperience]]
+|<code>*.furality.online</code>,<code>live.foxcdn.io</code>,<code>cdn.furality.org</code>
+|-
+|Gugenka Inc.
+|<code>*.gugenka-media.com</code>,<code>*.gugenka-media.jp</code>
+|-
 |Google Video
 |<code>*.googlevideo.com</code>
 |-
 |Hyperbeam
-|<code>*.hyperbeam.com</code>,<code>*.hyperbeam.dev</code>
+|<code>hyperbeam.com</code>,<code>hyperbeam.dev</code>,<code>*.hyperbeam.com</code>,<code>*.hyperbeam.dev</code>
+|-
+|MidCircuitCDN
+|<code>*.midcircuitcdn.com</code>
 |-
 |Mixcloud
 |<code>*.mixcloud.com</code>
 |-
+|nci-system.com
+|<code>*.nci-system.com</code>
+|-
 |NicoNico
 |<code>*.nicovideo.jp</code>
+|-
+|poly.jp
+|<code>*.poly.jp</code>
+|-
+|sa-vrc-media.com
+|<code>*.sa-vrc-media.com</code>
+|-
+|Sammy Corporation (株式会社サミー)
+|<code>api-vrc.sammy.co.jp</code>,<code>cdn-vrc.sammy.co.jp</code>,<code>vrc.sammy.co.jp</code>
 |-
 |Soundcloud
 |<code>soundcloud.com</code>,<code>*.sndcdn.com</code>
 |-
+|The Mighty Gym
+|<code>themightygym.com</code>,<code>mightygymcdn.nyc3.cdn.digitaloceanspaces.com</code>
+|-
 |Topaz Chat
-|<code>*.topaz.chat</code>
+|<code>ciel.topaz.chat</code>,<code>topaz.chat</code>,<code>*.topaz.chat</code>
+|-
+|Twist Events
+|<code>twisteventsasia.com</code>
 |-
 |Twitch
-|<code>*.twitch.tv</code>,<code>*.ttvnw.net</code>,<code>*.twitchcdn.net</code>
+|<code>*.twitch.tv</code>,<code>*.ttvnw.net</code>,<code>*.twitchcdn.net</code>,<code>*.jtvnw.net</code>,<code>dqrpb9wgowsf5.cloudfront.net</code>,<code>ds0h3roq6wcgc.cloudfront.net</code>,<code>d2nvs31859zcd8.cloudfront.net</code>
+|-
+|Unity
+|<code>stream.broadcast.unity.com</code>
+|-
+|URoom
+|<code>*.uroom.online</code>
+|-
+|VazaR
+|<code>*.vazar.jp</code>
+|-
+|V, inc.
+|<code>*.v-inc.jp</code>
+|-
+|Vimeo
+|<code>*.vimeo.com</code>
+|-
+|[[Special:MyLanguage/Community:Virtual Market|Virtual Market]] (VKet)
+|<code>*.v-market.work</code>,<code>music4.cdn.vket.com</code>,<code>*.vket.chat</code>,<code>movie.vketcdn.com</code>
+|-
+|Virtual Okinawa
+|<code>virtualokinawa-on-demand.contents.work</code>,<code>*.virtualokinawa-on-demand.contents.work</code>
 |-
 |[[Special:MyLanguage/Community:VRCDN|VRCDN]]
 |<code>*.vrcdn.live</code>,<code>*.vrcdn.video</code>,<code>*.vrcdn.cloud</code>
 |-
-|Vimeo
-|<code>*.vimeo.com</code>
+|vrtv.jp
+|<code>vrc.gate.vrtv.jp</code>,<code>stream.vrtv.jp</code>
+|-
+|VR Analog Game System CatsUdon - VRTRPGサークル「CatsUdon工房」
+|<code>*.catsudon.net</code>
+|-
+|VRChat
+|<code>redirect.vrchat.com</code>
+|-
+|XMarket
+|<code>*.xr-marketplace.com</code>
+|-
+|yizmarkia.com
+|<code>*.yizmarkia.com</code>
 |-
 |Youku
 |<code>*.youku.com</code>
 |-
 |YouTube
 |<code>*.youtube.com</code>,<code>youtu.be</code>
+|-
+|Unidentified Cloudflare Stream customer
+|<code>customer-xv2a3pcqk85obd78.cloudflarestream.com</code>
 |}
 
 == String loading allowlist ==
@@ -56,17 +122,56 @@ The following domains are allowlisted for [https://creators.vrchat.com/worlds/ud
 |DisBridge
 |<code>*.disbridge.com</code>
 |-
+|[[Special:MyLanguage/Community:Furality Online Xperience|Furality Online Xperience]]
+|<code>api.fynn.ai</code>,<code>api-dev.fynn.ai</code>,<code>boop.fynn.ai</code>,<code>cdn.furality.org</code>
+|-
 |GitHub
 |<code>*.github.io</code>
 |-
 |GitHub Gist
 |<code>gist.githubusercontent.com</code>
 |-
+|Gugenka Inc.
+|<code>*.gugenka-media.com</code>,<code>*.gugenka-media.jp</code>
+|-
+|nci-system.com
+|<code>*.nci-system.com</code>
+|-
 |Pastebin
 |<code>pastebin.com</code>
 |-
+|poly.jp
+|<code>*.poly.jp</code>
+|-
+|sa-vrc-media.com
+|<code>*.sa-vrc-media.com</code>
+|-
+|Topaz Chat
+|<code>ciel.topaz.chat</code>
+|-
+|URoom
+|<code>*.uroom.online</code>
+|-
+|VazaR
+|<code>*.vazar.jp</code>,<code>*.vazarapi.com</code>
+|-
+|VKet
+|<code>*.v-market.work</code>,<code>*.vket.chat</code>
+|-
+|yizmarkia.com
+|<code>*.yizmarkia.com</code>
+|-
+|V, inc.
+|<code>*.v-inc.jp</code>
+|-
+|VR Analog Game System CatsUdon - VRTRPGサークル「CatsUdon工房」
+|<code>*.catsudon.net</code>
+|-
 |VRCDN
 |<code>*.vrcdn.cloud</code>
+|-
+|XMarket
+|<code>*.xr-marketplace.com</code>
 |}
 
 == Image loading allowlist ==
@@ -74,6 +179,9 @@ The following domains are allowlisted for [https://creators.vrchat.com/worlds/ud
 {| class="wikitable"
 !Service
 !Domain
+|-
+|Anique Inc.
+|<code>vr-static.anique.jp</code>
 |-
 |Discord
 |<code>cdn.discordapp.com</code>
@@ -87,6 +195,9 @@ The following domains are allowlisted for [https://creators.vrchat.com/worlds/ud
 |GitHub
 |<code>*.github.io</code>
 |-
+|Gugenka Inc.
+|<code>*.gugenka-media.com</code>,<code>*.gugenka-media.jp</code>
+|-
 |ImageBam
 |<code>images4.imagebam.com</code>
 |-
@@ -99,20 +210,59 @@ The following domains are allowlisted for [https://creators.vrchat.com/worlds/ud
 |Imgur
 |<code>i.imgur.com</code>
 |-
+|nci-system.com
+|<code>*.nci-system.com</code>
+|-
+|poly.jp
+|<code>*.poly.jp</code>
+|-
+|sa-vrc-media.com
+|<code>*.sa-vrc-media.com</code>
+|-
 |Postimages
 |<code>i.postimg.cc</code>
 |-
 |Reddit
 |<code>i.redd.it</code>
 |-
-|X (formerly Twitter)
-|<code>pbs.twimg.com</code>
+|URoom
+|<code>*.uroom.online</code>
+|-
+|VazaR
+|<code>*.vazar.jp</code>,<code>*.vazarapi.com</code>
+|-
+|Virtual Okinawa
+|<code>virtualokinawa-on-demand.contents.work</code>,<code>*.virtualokinawa-on-demand.contents.work</code>
+|-
+|VKet
+|<code>*.v-market.work</code>,<code>music4.cdn.vket.com
+|-
+|VR Analog Game System CatsUdon - VRTRPGサークル「CatsUdon工房」
+|<code>*.catsudon.net</code>
 |-
 |VRCDN
 |<code>*.vrcdn.cloud</code>
 |-
 |VRChat
 |<code>assets.vrchat.com</code>
+|-
+|V, inc.
+|<code>*.v-inc.jp</code>
+|-
+|X (formerly Twitter)
+|<code>pbs.twimg.com</code>
+|-
+|XMarket
+|<code>*.xr-marketplace.com</code>
+|-
+|yizmarkia.com
+|<code>*.yizmarkia.com</code>
+|-
+|YouTube
+|<code>i.ytimg.com</code>
+|-
+|Unidentified Cloudflare Workers customer
+|<code>vrc-live-sync-api.infrastructure-517.workers.dev</code>
 |}
 
 == See also ==
