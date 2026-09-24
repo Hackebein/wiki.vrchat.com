@@ -44,7 +44,11 @@ Products:
 * ''many more ...''<br>You can help the VRChat Wiki by [[Special:EditPage/{{FULLPAGENAME}}|adding more to this list.]]
 
 === EMF ===
-Electromagnetic field (EMF) tracking uses low-frequency magnetic fields to determine the position and orientation of devices. A base station generates a magnetic field, and sensors on the tracked device measure changes in that field. By comparing the signals from multiple coils, the system calculates precise spatial coordinates and orientation. EMF-based VR tracking is similar to IMU-based systems but offers greater accuracy and responsiveness. However, no commercial product has been released yet.
+Electromagnetic field (EMF) tracking uses low-frequency magnetic fields to determine the position and orientation of devices. A base station generates a magnetic field, and sensors on the tracked device measure changes in that field. By comparing the signals from multiple coils, the system calculates precise spatial coordinates and orientation. EMF-based VR tracking is similar to IMU-based systems but offers greater accuracy and responsiveness. 
+
+Products soon to come:
+
+* FluxPose<ref>https://www.fluxpose.com/</ref>
 
 === Camera ===
 Camera-based tracking in VR uses external or built-in cameras to monitor the position and movement of the headset and controllers. These cameras capture visual data, which is processed to determine spatial orientation and location in real time. This method allows for precise, room-scale tracking without the need for additional sensors. However, it relies on good lighting and unobstructed views to maintain accuracy.
