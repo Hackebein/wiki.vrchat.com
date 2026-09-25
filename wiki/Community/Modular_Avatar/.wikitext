@@ -107,6 +107,9 @@ Modular Avatar includes a set of '''reactive components''' for toggling and swap
 
 Modular Avatar uses a non-destructive workflow. Rather than directly modifying avatar assets in the Unity project, users attach Modular Avatar components to GameObjects. These components describe the desired modifications declaratively — users tell Unity ''how'' they want the avatar changed, rather than changing it directly.
 
+It is built on [[Community:NDMF|NDMF]].
+
+<!-- the following parts should be merged within NDMF article.
 During the avatar build process, [[Community:NDMF|NDMF]] executes Modular Avatar's logic in defined phases:
 
 # '''Resolving''' — References between components are validated and paths are resolved.
@@ -115,6 +118,7 @@ During the avatar build process, [[Community:NDMF|NDMF]] executes Modular Avatar
 # '''Optimizing''' — Final cleanup and optimization passes run.
 
 [[Community:NDMF|NDMF]] coordinates the execution order across all installed NDMF-based plugins, ensuring that operations from different tools (such as Modular Avatar and Avatar Optimizer) run in the correct sequence. This scheduling system allows multiple independent tools to modify the same avatar without conflicting.
+-->
 
 The non-destructive approach provides several practical benefits:
 * Removing a prefab-based accessory is as simple as deleting the GameObject; the avatar returns to its original state.
