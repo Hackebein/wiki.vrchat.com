@@ -1,0 +1,71 @@
+{{Noticebox/Community}}
+{{stub}}
+{{Infobox/Asset
+|name=AAO: Avatar Optimizer
+|author=anatawa12
+|license=[[license:mit|MIT]]
+|github=anatawa12/avatar-optimizer
+|documentation=https://vpm.anatawa12.com/avatar-optimizer
+}}
+
+(For upcoming VRChat-'''Official''' Avatar optimizer, please see [[Community:Potentially Upcoming Features]]. For d4rkpl4y3r's avatar optimizer, please see [[Community:d4rkAvatarOptimizer]].)
+
+'''AAO: Avatar Optimizer''' is an [[Avatar]] optimization tool, built on [[Community:NDMF|NDMF]].
+
+== History ==
+
+The project's official anniversary post summarizes much of its early history<ref name="first-anniversary-blog-post">https://vpm.anatawa12.com/avatar-optimizer/ja/posts/2024-06-27-one-year-since-stable-release/</ref>.
+
+* AAO is also known as "Anatawa12's Avatar Optimizer", but was renamed in later release<ref name="first-anniversary-blog-post" />.
+* The initial release was not based on NDMF<ref>https://github.com/anatawa12/AvatarOptimizer/issues/353</ref>. However, later version migrated to the NDMF<ref>https://github.com/anatawa12/AvatarOptimizer/pull/375</ref>.
+
+== Features ==
+TODO: this section is WIP.
+
+=== "Trace and Optimize" ===
+
+AAO provides a "Trace and Optimize" component. Users can add it to the Avatar's root<ref name="component-trace-and-optimize">https://vpm.anatawa12.com/avatar-optimizer/en/docs/reference/trace-and-optimize/</ref>; typically, GameObject with the [[Avatar Descriptor]].
+
+The documentation describes this design principle as follows<ref name="component-trace-and-optimize" />:
+
+<blockquote>
+Trace and Optimize is quite carefully designed under the premise that “never let it affect the appearance.”
+
+So, if any problems occur, [...] they are all caused by bugs in AAO, without exception.
+</blockquote>
+
+This component automatically applies optimizations equivalent to those performed by the following components when it determines that they are safe.
+
+=== Merge Skinned Mesh ===
+
+This component ''manually'' merges Unity SkinnedMeshRenderer components<ref name="component-merge-skinned-mesh">https://vpm.anatawa12.com/avatar-optimizer/en/docs/reference/merge-skinned-mesh/</ref>.
+
+This component is usually not required, as "Trace and Optimize" automatically performs the same optimization in most cases<ref name="component-merge-skinned-mesh" />:
+
+<blockquote>
+Trace and Optimize will automatically do the same process, so in most cases you do not need to use this component.
+</blockquote>
+
+=== Freeze Blendshape ===
+
+This component ''manually'' freezes [[Community:Terminology#Shapekey|Blendshape]]s at once in their initial weight<ref name="component-freeze-blendshape">https://vpm.anatawa12.com/avatar-optimizer/en/docs/reference/freeze-blendshape/
+</ref> and remove it from the mesh. It must be added to same GameObject as SkinnedMeshRenderer<ref name="component-freeze-blendshape" />.
+
+By definition, it does not consider animations that affect blendshapes; if the blendshapes are animated, consider using [[Community:Modular Avatar|Modular Avatar]]'s "Mesh Cutter" component instead.
+
+=== Remove Meshes by various selection ===
+
+Following components remove parts of mesh by their input:
+* [https://vpm.anatawa12.com/avatar-optimizer/en/docs/reference/remove-mesh-by-blendshape Remove Mesh By BlendShape] - uses Blendshapes
+* [https://vpm.anatawa12.com/avatar-optimizer/en/docs/reference/remove-mesh-by-mask Remove Mesh By Mask] - uses a Texture
+* [https://vpm.anatawa12.com/avatar-optimizer/en/docs/reference/remove-mesh-by-box Remove Mesh By Box] - uses cuboids
+* [https://vpm.anatawa12.com/avatar-optimizer/en/docs/remove-mesh-by-uv-tile/ Remove Mesh By UV Tile] - uses [[Community:Poiyomi Shaders|"UV Discard"]]-compatible configuration.
+
+By definition, it does not consider animations that affect blendshapes; if the blendshapes are animated, consider using [[Community:Modular Avatar|Modular Avatar]]'s "Mesh Cutter" component instead.
+
+== See also ==
+* [[Community:VRChat Performance Benchmarks]]
+
+== References ==
+
+<references />
