@@ -6,7 +6,7 @@
 |documentation=https://modular-avatar.nadena.dev
 }}
 
-'''Modular Avatar''' is an open-source, non-destructive avatar assembly tool for VRChat, developed by bd_ (known as bdunderscore on GitHub). It allows users to add outfits, animations, and other components to avatars through drag-and-drop without permanently modifying the base avatar. Modular Avatar processes changes at build time, leaving original assets intact. The project is licensed under the MIT License.
+'''Modular Avatar''' is an open-source, non-destructive avatar assembly tool for VRChat, developed by bd_ (known as bdunderscore on GitHub). It allows users to add outfits, animations, and other components to [[avatars]] through drag-and-drop without permanently modifying the base avatar. Modular Avatar processes changes at build time, leaving original assets intact. The project is licensed under the MIT License.
 
 The tool is built on the '''[[Community:NDMF|Non-Destructive Modular Framework (NDMF)]]''', a general-purpose framework also developed by bd_ that handles scheduling and coordination of avatar modifications across multiple plugins. First released on September 10, 2022.
 
@@ -32,19 +32,19 @@ Modular Avatar includes the following components, which users attach to GameObje
 | Merges a clothing or accessory armature onto the avatar's existing bone structure. Automatically updates Skinned Mesh Renderer references, minimizes generated bones, and supports position locking to preview outfit fit in edit mode. Includes a "Reset position to base avatar" tool for cross-avatar outfit fitting and automatic bone name adjustment.
 |-
 | '''Merge Animator'''
-| Combines multiple animator controllers into the avatar's FX layer at build time. Supports replacing pre-existing controllers and automatic Write Defaults matching.
+| Combines multiple [[Animators|animator]] controllers into the [[Playable layers|avatar's FX layer]] at build time. Supports replacing pre-existing controllers and automatic Write Defaults matching.
 |-
 | '''Merge Blend Tree'''
 | Merges blend trees from multiple sources into the avatar's animator.
 |-
 | '''Merge Motion'''
-| Merges individual animation clips into the avatar's animation layers.
+| Merges individual [[Animations|animation clips]] into the avatar's animation layers.
 |-
 | '''Bone Proxy'''
-| Places objects from prefabs inside existing avatar bones (e.g., contacts inside hands). Reparents objects to target bones and adjusts animator references.
+| Places objects from prefabs inside existing avatar bones (e.g., [[contacts]] inside hands). Reparents objects to target bones and adjusts animator references.
 |-
 | '''Menu Installer'''
-| Adds menu items to the avatar's expressions menu. Automatically splits menus into multiple pages when the menu is full.
+| Adds menu items to the avatar's [[Expressions|expressions]] menu. Automatically splits menus into multiple pages when the menu is full.
 |-
 | '''Menu Item'''
 | Defines individual expressions menu entries from the Unity hierarchy. Supports submenus and automatic parameter creation.
@@ -71,7 +71,7 @@ Modular Avatar includes the following components, which users attach to GameObje
 | Scales an object relative to world space.
 |-
 | '''Rename Collision Tags'''
-| Renames contact collision tags to unique names, similar to the auto-rename feature in MA Parameters. Prevents collisions between prefabs that use the same tag names.
+| Renames [[contact|contact collision tags]] to unique names, similar to the auto-rename feature in MA Parameters. Prevents collisions between prefabs that use the same tag names.
 |-
 | '''MA Global Collider'''
 | Adds a collider accessible to all [[PhysBones]] on the avatar.
