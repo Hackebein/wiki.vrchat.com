@@ -1,0 +1,60 @@
+{{DISPLAYTITLE:Constraints-ja}}
+
+Note: This page is '''NOT''' in the [[VRCWiki:How_to_Contribute#Namespace|''official'' namespace]] yet, and is subject to '''change'''.
+
+'''コンストレイント'''とは、Unityにおいてゲームオブジェクトの位置、回転、スケールなどを他のゲームオブジェクトに関連付けるためのコンポーネント群である<ref name="unity-constraints">[https://docs.unity3d.com/ja/2022.3/Manual/Constraints.html Unity - マニュアル: Constraints], accessed September 29, 2026.</ref>。
+
+VRChatはUnity標準のコンストレイント (以下、本稿では便宜的に'''Unity Constraints'''と呼ぶ) に加え、独自実装である'''VRChat Constraints'''を提供している。VRChat ConstraintsはUnity標準の6種類<ref name="unity-constraints" />のコンストレイントに相当する機能を提供し、VRChatでの利用に合わせた追加機能を持つ<ref name="vrchat-constraints">[https://creators.vrchat.com/common-components/constraints/ Constraints | VRChat Creation], accessed September 29, 2026.</ref>。
+
+== 前史 ==
+
+VRChatの初期では、後にUnity 2018.1で導入されるUnity標準のコンストレイント自体がまだ存在していなかった<ref>[https://unity.com/releases/editor/whats-new/2018.1.0f1 Unity 2018.1.0f1], accessed September 29, 2026.</ref><ref>[https://discussions.unity.com/t/constraints-animation-feature-feedback/678132/17 Constraints - Animation feature - Feedback - Unity Discussions], accessed September 29, 2026.</ref>。
+Unity標準のコンストレイントがアバターで利用可能になったのは、VRChatがUnity 2018へ移行した2020年である<ref name="patch-2020">[https://docs.vrchat.com/docs/patch-notes-2020 Patch Notes - 2020], accessed September 29, 2026.</ref>。
+
+しかし、それ以前にも、アバターに含まれるオブジェクトをワールド空間に固定する、いわゆる「ワールド固定」を実現するために複数の手法が用いられていた<ref name="yf2018-fix">[https://jellyfish-qrage.hatenablog.com/entry/2018/07/26/025810 アイテムをアバターから切り離しワールド固定にする方法（パーティクル不使用版）【VRChat技術情報】 - VRChatパブリックログ], accessed September 29, 2026.</ref>。
+
+* 2018年には、Particle SystemのSimulation SpaceをWorldに設定し、Particle System Rendererで任意のメッシュを描画することで、アバターの移動から独立してパーティクルをワールド空間上に残す手法が用いられていた<ref>[https://bironist.hatenablog.com/entry/2018/10/04/191804 VRChatでマヨネーズを絞り出す（ワールド座標パーティクル解説） - ビログ], accessed September 29, 2026.</ref><ref>[https://vrcworld.wiki.fc2.com/wiki/%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%AF%E3%83%AB%E8%8A%B8%E4%BE%8B パーティクル芸例 - VRChat 技術メモ帳 - VRChat tech notes], accessed September 29, 2026.</ref><ref>[https://jellyfish-qrage.hatenablog.com/entry/2018/08/04/032351 伸縮するワイヤーの表現方法（＆物置きの応用）【VRChat技術情報】 - VRChatパブリックログ], accessed September 29, 2026.</ref>。さらにParticle System RendererをMeshに設定し、任意のメッシュをパーティクルとして生成することで、アバターから独立したオブジェクトのように扱う方法も用いられていた<ref>[https://bironist.hatenablog.com/entry/2019/02/02/192958 VRChatでみんなにおにぎりを配る（メッシュパーティクルで複数同時ワールド固定解説） - ビログ], accessed September 29, 2026.</ref>。2018年の日本語記事では、このような「ワールド座標シミュレーションのメッシュパーティクル」が、それまでワールド座標へ固定されたオブジェクトを表現する一般的な手法であったとされている<ref name="yf2018-fix" />。この方式では同一のメッシュを複数生成できる一方、複雑なGameObjectをそのまま配置できないことや、メッシュの姿勢の扱いなどに制約があった<ref name="yf2018-fix" />。
+* 同時期、RigidbodyおよびFixed Jointを利用してゲームオブジェクトそのものをワールド空間に固定する方法が利用されていた。Connected Bodyを指定しないFixed Jointを利用して仮想的なワールド座標系を作り、Rigidbodyの<code>Is Kinematic</code>を切り替えることで、オブジェクトの固定とアバターへの追従を切り替えるものであった<ref name="yf2018-fix" />。 この方式はVRChatの更新やワールドの設定などによって正常に動作しない場合があった<ref name="fixed-joint-breakage">[https://vrchat.canny.io/bug-reports/p/fixed-jointrigid-body-dragangular-drag-problem Fixed Joint/Rigid Body Drag/Angular Drag Problem | Bug Reports | VRChat], accessed September 29, 2026.</ref>。
+* 2018年4月24日、VRChat 2018.1.1とともに配布されたSDKに、アバター上のワールド空間Particle SystemをIK計算後のボーン位置へ追従させるための<code>VRC_IKFollower</code>コンポーネントが追加された<ref name="patch-2018">[https://docs.vrchat.com/docs/patch-notes-2018 Patch Notes - 2018], accessed September 29, 2026.</ref><ref name="component-ikfollower">[https://docs.vrchat.com/docs/vrc_ikfollower VRC_IKFollower], accessed September 29, 2026.</ref><ref>[https://vrcprog.hatenablog.jp/entry/component-IKFollower VRC_IKFollower - Programming in VRChat], accessed September 29, 2026.</ref>。日本語圏でも、<code>VRC_IKFollower</code>を利用するワールドパーティクルの作成方法が紹介されていた。しかし、<code>VRC_IKFollower</code>は特定の階層以下に入れると視界に表示されなくなるという制約が存在した<ref>[https://x.com/gend_VR/status/1030244550680297472 元怒 (@gend_VR) on X], accessed September 29, 2026.</ref><ref group="注">この現象は、[https://creators.vrchat.com/avatars/avatar-components/vrc-headchop/ Head Chopコンポーネントのドキュメンテーション] に存在する「When wearing an avatar, VRChat automatically "chops off" the avatar's head bone by setting its transform scale to almost 0.」の影響を受けていた可能性がある</ref>。
+* Unity標準のコンストレイントが利用可能になる以前には、Fixed Jointのほか、有料Unityアセットの[[Community:Final IK|Final IK]]をワールド固定に利用する方法も存在した<ref>[https://qiita.com/Super_Amatou_VR/items/4b5eb1a7aeaf0535a80f VRCでFinal_IKを使う（初心者向け？） - Qiita], accessed September 29, 2026.</ref>。2019年に公開され、2020年5月に更新された日本語の記事では、日本語圏ではFixed Jointを利用する方式が比較的多かったとされている<ref>[https://fley-kousatu.hatenablog.com/entry/2019/09/10/125100 パーティクルライブ・パリピ砲 作成の基礎知識について - バーチャル思考実験室], accessed September 29, 2026.</ref>。
+* 2020年4月1日にリリースされたVRChat 2020.1.1では、VRChatのUnityバージョンがUnity 2018.4.20f1へ更新され、Aim Constraint、Look At Constraint、Parent Constraint、Position Constraint、Rotation ConstraintおよびScale ConstraintがSDK2のアバター用allowlistに追加された<ref name="patch-2020" />。これ以降、Unity標準のコンストレイントを利用したワールド固定などの手法が用いられるようになった。
+** 2020年4月3日に公開された日本語の解説記事では、それ以前のFixed Joint方式と比較し、Constraintを利用する方式はワールド側の設定によって壊れないことが利点として挙げられている<ref name="note-berylmoon">[https://note.com/berylmoon/n/neb481c4f1f9d VRCでConstraintを使ったワールド固定＆ピックアップ(Unity2018対応)｜Beryllin], accessed September 29, 2026.</ref>。
+
+== VRChatにおける用途 ==
+
+VRChatのアバターでは、許可されたコンポーネント以外の任意のカスタムスクリプトを利用できない<ref name="allowed-avatar-components">[https://creators.vrchat.com/avatars/whitelisted-avatar-components/whitelisted-avatar-components/ Allowed Avatar Components | VRChat Creation], accessed September 29, 2026.</ref>。そのため、後述のVRChat Constraintsが導入される以前から、Unity標準のParent Constraintなどを仕込んでおき、擬似的にヒエラルキー上の親子関係を変更したような挙動を実現する手段が用いられていた。
+
+ここでいう「擬似的」とは、実際にTransformの親子関係を変更するのではなく、コンストレイント対象のTransformの位置や回転を、指定したソースの子であるかのように評価することを指す。UnityのParent Constraintも、対象をHierarchy上で実際に子へ移動することなく、ソースの子であるかのように移動・回転させる<ref name="unity-parent">[https://docs.unity3d.com/ja/2022.3/Manual/class-ParentConstraint.html Unity - マニュアル: Parent Constraint], accessed September 29, 2026.</ref>。
+
+また、複数のUnity Constraintsを組み合わせ、アバター上のオブジェクトをワールド空間上の位置に固定する、いわゆる「World Constraint」も用いられていた。VRChatは後に、この用途を単一のコンストレイントで実現する<code>Freeze To World</code>をVRChat Constraintsへ追加している<ref name="dev-20240530">[https://ask.vrchat.com/t/developer-update-30-may-2024/24821 Developer Update - 30 May 2024 - Dev Updates - VRChat Ask Forum], accessed September 29, 2026.</ref>。
+
+VRChat Constraintsでは、このほか<code>Solve In Local Space</code>によるローカル空間での計算や、コンポーネント自身とは異なるTransformを操作対象にする<code>Target Transform</code>など、Unity標準のコンストレイントにはない機能も提供されている<ref name="vrchat-constraints" />。
+
+== 歴史 ==
+
+* 2024年5月2日: VRChatは、Unity標準のコンストレイントと同様に動作しながら、VRChatのアバター向けに最適化された独自のコンストレイントコンポーネントを開発中であることを発表した。また、Unity Constraintsをゲーム内で自動的にVRChat Constraintsへ変換する予定であることや、<code>Solve In Local Space</code>もこの時点で紹介された<ref name="dev-20240502">[https://ask.vrchat.com/t/developer-update-2-may-2024/24284 Developer Update - 2 May 2024 - Dev Updates - VRChat Ask Forum], accessed September 29, 2026.</ref>。
+* 2024年5月30日: VRChat Constraintsの詳細な仕様が発表された。当初は複数の挙動を1つのコンポーネントで扱う実装だったものが、Unity標準のコンストレイントと同様に複数種類のコンポーネントへ分割された。また、SDKによるUnity Constraintsの自動変換や、<code>Freeze To World</code>などが紹介された。この時点で開発は内部QAの終盤にあり、同年7月の公開を予定していた<ref name="dev-20240530" />。
+* 2024年7月24日: VRChat 2024.3.1 Build 1480のOpen BetaにVRChat Constraintsが導入された。VRChatはUnity標準実装より高い性能を特徴として挙げ、モバイル向けアバターでも利用可能になるとしていた。また、SDKによるUnity Constraintsからの自動変換もベータテストされた<ref name="client-202431-beta">[https://docs.vrchat.com/docs/vrchat-202431beta VRChat 2024.3.1 (BETA)], accessed September 29, 2026.</ref>。
+* 2024年8月14日: VRChat 2024.3.1 Build 1490が正式リリースされ、VRChat Constraintsがクライアントへ導入された。既存のアバターに含まれるUnity Constraintsについても、アバターのロード時にVRChat Constraintsへ自動変換されるようになった<ref name="client-202431">[https://docs.vrchat.com/docs/vrchat-202431 VRChat 2024.3.1], accessed September 29, 2026.</ref>。
+* 2024年8月16日: [[VRChat SDK]] version 3.7.0がリリースされ、アバター制作者がVRChat Constraintsを直接利用できるようになった。既存のUnity ConstraintsをSDK上で変換する機能も提供された<ref name="sdk-370">[https://creators.vrchat.com/releases/release-3-7-0/ Release 3.7.0 | VRChat Creation], accessed September 29, 2026.</ref>。
+* 2025年7月31日: VRChatは、PhysBonesおよびContactsとともにVRChat Constraintsをワールドでも利用できるようにする計画を発表した。また、ワールドではUdonからこれらのコンポーネントを操作できるようにする方針も示された<ref name="dev-20250731">[https://ask.vrchat.com/t/developer-update-31-july-2025/45861 Developer Update - 31 July 2025 - Dev Updates - VRChat Ask Forum], accessed September 29, 2026.</ref>。
+* 2025年9月中旬頃: World Dynamicsのclosed community betaが開始され、PhysBones、Contacts、VRChat Constraintsのワールド対応についてコミュニティによるテストが行われた。9月25日のDeveloper Updateでは、約1週間前からclosed community betaを実施していると説明された<ref name="dev-20250925">[https://ask.vrchat.com/t/developer-update-25-september-2025/46733 Developer Update - 25 September 2025 - Dev Updates - VRChat Ask Forum], accessed September 29, 2026.</ref>。
+* 2025年10月24日: [[VRChat SDK]] version 3.10.0がリリースされ、VRChat Constraintsを含むVRChat Dynamicsがワールドプロジェクトで利用可能になった。これらをUdonから操作するAPIおよびイベントも追加された。このリリースはベータ期間中にはversion 3.9.1として開発されていたが、互換性のないAPI変更のため3.10.0へ変更された<ref name="sdk-3100">[https://creators.vrchat.com/releases/release-3-10-0/ Release 3.10.0 | VRChat Creation], accessed September 29, 2026.</ref>。
+* 2025年11月3日: VRChat 2025.4.1 Build 1749が正式リリースされ、ワールド上のPhysBones、ContactsおよびVRChat Constraintsにクライアントが正式対応した<ref name="client-202541">[https://docs.vrchat.com/docs/vrchat-202541 VRChat 2025.4.1], accessed September 29, 2026.</ref>。
+
+== トリビア ==
+
+* [[VRChat SDK]]の「Auto Fix」を使うと、アップロード対象のアバターに含まれるUnity ConstraintsをVRChat Constraintsへ変換できる。この変換では、コンストレイント本体だけでなく、それを参照しているアニメーションクリップのバインディングも変換できる。SDK内部では<code>VRC.SDK3.Avatars.AvatarDynamicsSetup</code>クラスの変換処理が利用されている<ref name="constraints-api">[https://creators.vrchat.com/common-components/constraints/constraints-api/ Constraints API | VRChat Creation], accessed September 29, 2026.</ref>。
+* [[Community:Modular Avatar|Modular Avatar]]の<code>Convert Constraints</code>コンポーネントでも、Unity Constraintsおよびそれを参照するアニメーションをビルド時に非破壊的にVRChat Constraintsへ変換できる。Modular Avatarがインストールされている場合、VRChat SDKのAuto Fixは必要に応じてこのコンポーネントをアバターのルートへ追加する<ref name="ma-convert">[https://modular-avatar.nadena.dev/docs/reference/convert-constraints Convert Constraints | Modular Avatar], accessed September 29, 2026.</ref>。
+* VRChat Constraintsでは、1つのコンストレイントに17個以上のソースを持たせること自体は可能である。ただし、アバターでは[[Animators|Animator]]から操作できるのはSourcesリストの先頭16個までに制限されている<ref name="constraints-api" />。
+
+== 参考資料 ==
+
+* [https://creators.vrchat.com/common-components/ Common Components | VRChat Creation], accessed September 29, 2026.
+* [https://creators.vrchat.com/releases/ VRChat SDK Releases | VRChat Creation], accessed September 29, 2026.
+
+== 注釈 ==
+<references group="注" />
+
+== 出典 ==
+<references />
