@@ -1,0 +1,38 @@
+:root {
+	/*
+	  Cancels non-official namespace recoloring. This is unacceptable for me.
+	  See also:
+	  * [[Special:diff/6815]]
+	  ** The link seems to point to VRChat's internal guild,
+	      or at least not the publicly accessible official one.
+	*/
+	--ns-2: var(--ns-0);
+	--ns-2-color: var(--ns-0-color);
+	--ns-3: var(--ns-0);
+	--ns-3-color: var(--ns-0-color);
+	--ns-3100: var(--ns-0);
+	--ns-3100-color: var(--ns-0-color);
+	--ns-3101: var(--ns-0);
+	--ns-3101-color: var(--ns-0-color);
+}
+
+.mw-first-heading .mw-page-title-separator {
+	/* Do not hide the colon. */
+	display: revert !important;
+}
+
+.mw-first-heading .mw-page-title-namespace,
+.mw-first-heading:not(:has(.mw-page-title-namespace))::before {
+	/*
+	  common.css overrides[^1] MediaWiki's built-in i18n
+	  through a strange custom-property reference [^2].
+	  Reverts a half-baked[^3] reinvention[^2] of the wheel - a square[^4] one, at that.
+	  [^1]: See [[Special:Permalink/75608#L-364--L-381]].
+	  [^2]: See [[Special:Permalink/75608#L-485--L-490]].
+	  [^3]: For example, `.vector-sticky-header-context-bar-primary` isn't affected.
+	  [^4]: For '''some reason''', the global CSS produces a misaligned title by combining a hidden colon with an odd `font-size` such as `0.7em`[^2].
+	*/
+	content: unset;
+	color: inherit;
+	font-size: inherit;
+}
