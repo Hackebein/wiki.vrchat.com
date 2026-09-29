@@ -71,7 +71,7 @@ Modular Avatar includes the following components, which users attach to GameObje
 | Scales an object relative to world space.
 |-
 | '''Rename Collision Tags'''
-| Renames [[contact|contact collision tags]] to unique names, similar to the auto-rename feature in MA Parameters. Prevents collisions between prefabs that use the same tag names.
+| Renames [[contacts|contact collision tags]] to unique names, similar to the auto-rename feature in MA Parameters. Prevents collisions between prefabs that use the same tag names.
 |-
 | '''MA Global Collider'''
 | Adds a collider accessible to all [[PhysBones]] on the avatar.
