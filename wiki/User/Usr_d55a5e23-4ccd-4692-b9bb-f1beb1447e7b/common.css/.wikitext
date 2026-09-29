@@ -16,6 +16,11 @@
 	--ns-3101-color: var(--ns-0-color);
 }
 
+.mw-first-heading {
+	/* Do not apply flex. */
+	display: flow-root !important;
+}
+
 .mw-first-heading .mw-page-title-separator {
 	/* Do not hide the colon. */
 	display: revert !important;
