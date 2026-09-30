@@ -22,6 +22,8 @@ Unity標準のコンストレイントがアバターで利用可能になった
 
 == VRChatにおける用途 ==
 
+アバターに組み込んだアイテム（武器など）の持ち替え、ワールド固定、補助ボーン、通常の人体の構成を外れた（いわゆる「人外」）アバターの偽物の腕や身体の制御などに用いられる。
+
 VRChatのアバターでは、許可されたコンポーネント以外の任意のカスタムスクリプトを利用できない<ref name="allowed-avatar-components">[https://creators.vrchat.com/avatars/whitelisted-avatar-components/whitelisted-avatar-components/ Allowed Avatar Components | VRChat Creation], accessed September 29, 2026.</ref>。そのため、後述のVRChat Constraintsが導入される以前から、Unity標準のParent Constraintなどを仕込んでおき、擬似的にヒエラルキー上の親子関係を変更したような挙動を実現する手段が用いられていた。
 
 ここでいう「擬似的」とは、実際にTransformの親子関係を変更するのではなく、コンストレイント対象のTransformの位置や回転を、指定したソースの子であるかのように評価することを指す。UnityのParent Constraintも、対象をHierarchy上で実際に子へ移動することなく、ソースの子であるかのように移動・回転させる<ref name="unity-parent">[https://docs.unity3d.com/ja/2022.3/Manual/class-ParentConstraint.html Unity - マニュアル: Parent Constraint], accessed September 29, 2026.</ref>。
