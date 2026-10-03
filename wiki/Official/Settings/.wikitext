@@ -531,9 +531,10 @@ These options can be found in the Settings tab of the [[Special:MyLanguage/Main 
 |<translate><!--T:291--> Default On, Default Off, Keep Last State</translate>
 |<translate><!--T:292--> Change how your mic behaves when joining worlds</translate>
 |-
-|<translate>Mic Icon Position</translate>
-|<translate>Top Right, Both, Bottom Left</translate>
+|<translate><!--T:1184--> Mic Icon Position</translate>
+|<translate><!--T:1185--> Top Right, Both, Bottom Left</translate>
 |<translate>
+<!--T:1186-->
 Change where microphone icons appear on your HUD<br>
 '''[Top Right]''' Display a microphone icon at the top right of your screen<br>
 '''[Both]''' Display a microphone icon at the bottom left and top right of your screen<br>
@@ -547,9 +548,9 @@ Change when the microphone icon on your HUD is visible.<br>
 '''[On Activity]''' Microphone icon fades in when you speak<br>
 '''[When Muted]''' Microphone icon only fades in when you speak while muted</translate>
 |-
-|<translate>Mic Opacity</translate>
-|<translate>0-100%</translate>
-|<translate>Change Mic Opacity</translate>
+|<translate><!--T:1187--> Mic Opacity</translate>
+|<translate><!--T:1188--> 0-100%</translate>
+|<translate><!--T:1189--> Change Mic Opacity</translate>
 |}
 
 <translate>
@@ -1243,9 +1244,9 @@ Change how tooltips on interactive objects in the world appear.
 |<translate><!--T:691--> On/Off</translate>
 |<translate><!--T:692--> Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away</translate>
 |-
-|<translate>Always Show VRChat Soft Keyboard</translate>
-|<translate>On/Off</translate>
-|<translate>Show soft keyboard even when hardware keyboard is present.</translate>
+|<translate><!--T:1190--> Always Show VRChat Soft Keyboard</translate>
+|<translate><!--T:1191--> On/Off</translate>
+|<translate><!--T:1192--> Show soft keyboard even when hardware keyboard is present.</translate>
 |-
 |<translate><!--T:693--> One Handed Movement ''[VR]''</translate>
 |<translate><!--T:694--> On/Off</translate>
@@ -1311,44 +1312,45 @@ Shows [tiny/small/normal/medium/large] nameplates</translate>
 |}
 
 <translate>
-==== Desktop HUD ====
+==== Desktop HUD ==== <!--T:1193-->
 </translate>
 {| class="wikitable"
-!<translate>Name</translate>
-!<translate>Value</translate>
-!<translate>Tooltip</translate>
+!<translate><!--T:1194--> Name</translate>
+!<translate><!--T:1195--> Value</translate>
+!<translate><!--T:1196--> Tooltip</translate>
 |-
-|<translate>Reset HUD Settings to Default</translate>
-|<translate>Reset</translate>
-|<translate>Resets all HUD settings to their defaults</translate>
+|<translate><!--T:1197--> Reset HUD Settings to Default</translate>
+|<translate><!--T:1198--> Reset</translate>
+|<translate><!--T:1199--> Resets all HUD settings to their defaults</translate>
 |-
-|<translate>Hide HUD</translate>
-|<translate>On/Off</translate>
-|<translate>Hides the HUD panels. Notifications and Face Mirror are not affected.</translate>
+|<translate><!--T:1200--> Hide HUD</translate>
+|<translate><!--T:1201--> On/Off</translate>
+|<translate><!--T:1202--> Hides the HUD panels. Notifications and Face Mirror are not affected.</translate>
 |-
-|<translate>HUD Style</translate>
-|<translate>Full, Compact, Minimal</translate>
+|<translate><!--T:1203--> HUD Style</translate>
+|<translate><!--T:1204--> Full, Compact, Minimal</translate>
 |<translate>
+<!--T:1205-->
 Change HUD style.<br>
 '''[Full]''' Show all HUD icons and key binding indicators.<br>
 '''[Compact]''' Remove the key binding indicators and only show icons on the HUD.<br>
 '''[Minimal]''' Collapse the HUD down to a minimal set of icons.</translate>
 |-
-|<translate>Show Contextual Controls</translate>
-|<translate>On/Off</translate>
-|<translate>Toggles contextual tooltips that may appear when hovering an object.</translate>
+|<translate><!--T:1206--> Show Contextual Controls</translate>
+|<translate><!--T:1207--> On/Off</translate>
+|<translate><!--T:1208--> Toggles contextual tooltips that may appear when hovering an object.</translate>
 |-
-|<translate>Show Selection Prompt</translate>
-|<translate>On/Off</translate>
-|<translate>Hides the prompt shown when a user or object can be selected.</translate>
+|<translate><!--T:1209--> Show Selection Prompt</translate>
+|<translate><!--T:1210--> On/Off</translate>
+|<translate><!--T:1211--> Hides the prompt shown when a user or object can be selected.</translate>
 |-
-|<translate>HUD Opacity</translate>
+|<translate><!--T:1212--> HUD Opacity</translate>
 |0-100%
-|<translate>Changes the overall opacity of the HUD</translate>
+|<translate><!--T:1213--> Changes the overall opacity of the HUD</translate>
 |-
-|<translate>HUD Background Opacity</translate>
+|<translate><!--T:1214--> HUD Background Opacity</translate>
 |0-100%
-|<translate>Changes the opacity of the background window on HUD elements.</translate>
+|<translate><!--T:1215--> Changes the opacity of the background window on HUD elements.</translate>
 |}
 
 <translate>
@@ -2142,13 +2144,13 @@ All locally cached textures will be deleted.</translate>
 |-
 | rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202633-open-beta 2026.3.3]
 |[https://docs.vrchat.com/docs/vrchat-202633-openbeta 1916]
-|<translate>Added "Always Show VRChat Soft Keyboard" setting.</translate>
+|<translate><!--T:1216--> Added "Always Show VRChat Soft Keyboard" setting.</translate>
 |-
 |[https://docs.vrchat.com/docs/vrchat-202633-openbeta 1914]
-|<translate>Added "Mic Icon Position" and "Mic Opacity" settings.</translate>
+|<translate><!--T:1217--> Added "Mic Icon Position" and "Mic Opacity" settings.</translate>
 |-
 |[https://docs.vrchat.com/docs/vrchat-202633-openbeta 1912]
-|<translate>Added Desktop HUD section with "Reset HUD Settings to Default", "Hide HUD", "HUD Style", "Show Contextual Controls", "Show Selection Prompt", "HUD Opacity", and "HUD Background Opacity" settings.</translate>
+|<translate><!--T:1218--> Added Desktop HUD section with "Reset HUD Settings to Default", "Hide HUD", "HUD Style", "Show Contextual Controls", "Show Selection Prompt", "HUD Opacity", and "HUD Background Opacity" settings.</translate>
 |-
 | rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202631 2026.3.1]
 |[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1880]
