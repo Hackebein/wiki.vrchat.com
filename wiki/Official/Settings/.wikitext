@@ -1216,10 +1216,6 @@ Change how tooltips on interactive objects in the world appear.
 '''[Tooltip]''' Show the outline, tooltip and tether line.
 '''[Controller]''' Show the outline, tooltip, tether line and controller.</translate>
 |-
-|<translate><!--T:672--> Show Reticle</translate>
-|<translate><!--T:673--> On/Off</translate>
-|<translate><!--T:674--> Show a small dot in the center of the view</translate>
-|-
 |<translate><!--T:675--> Show Go Button On Load</translate>
 |<translate><!--T:676--> On/Off</translate>
 |<translate><!--T:677--> Show a "Go!" button before entering the world when it's ready</translate>
@@ -1549,6 +1545,19 @@ Change chatbox visibility<br>
 |<translate><!--T:840--> Boop Emoji Effect</translate>
 |<translate><!--T:841--> On/Off</translate>
 |<translate><!--T:842--> Toggles the emoji particle effect when you receive Boops</translate>
+|}
+
+<translate>
+==== Other HUD Settings ====
+</translate>
+{| class="wikitable"
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
+|-
+|<translate><!--T:672--> Show Reticle</translate>
+|<translate><!--T:673--> On/Off</translate>
+|<translate><!--T:674--> Show a small dot in the center of the view</translate>
 |}
 
 <translate>
@@ -2150,7 +2159,7 @@ All locally cached textures will be deleted.</translate>
 |<translate><!--T:1217--> Added "Mic Icon Position" and "Mic Opacity" settings.</translate>
 |-
 |[https://docs.vrchat.com/docs/vrchat-202633-open-beta 1912]
-|<translate><!--T:1218--> Added Desktop HUD section with "Reset HUD Settings to Default", "Hide HUD", "HUD Style", "Show Contextual Controls", "Show Selection Prompt", "HUD Opacity", and "HUD Background Opacity" settings.</translate>
+|<translate><!--T:1218--> Added "Desktop HUD" section with "Reset HUD Settings to Default", "Hide HUD", "HUD Style", "Show Contextual Controls", "Show Selection Prompt", "HUD Opacity", and "HUD Background Opacity" settings. Added "Other HUD Settings" section.</translate>
 |-
 | rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202631 2026.3.1]
 |[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1880]
