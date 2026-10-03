@@ -479,12 +479,23 @@ These options can be found in the Settings tab of the [[Special:MyLanguage/Main 
 |Default On, Default Off, Keep Last State
 |Change how your mic behaves when joining worlds
 |-
+|Mic Icon Position
+|Top Right, Both, Bottom Left
+|Change where microphone icons appear on your HUD<br>
+'''[Top Right]''' Display a microphone icon at the top right of your screen<br>
+'''[Both]''' Display a microphone icon at the bottom left and top right of your screen<br>
+'''Bottom Left]''' Display a microphone icon at the bottom left of your screen
+|-
 |Mic Icon Visibility
 |On activity, When Muted, Always On
 |Change when the microphone icon on your HUD is visible.<br>
 '''[Always On]''' Microphone icon always stays visible<br>
 '''[On Activity]''' Microphone icon fades in when you speak<br>
 '''[When Muted]''' Microphone icon only fades in when you speak while muted
+|-
+|Mic Opacity
+|0-100%
+|Change Mic Opacity
 |}
 
 ==== Earmuff Mode ====
@@ -713,9 +724,9 @@ Trust Rank.
 |On/Off
 |Avatar shows or hides the avatar for the combined Safety Mode and User Trust Rank.
 |-
-|User Icons
+|Photo Icons
 |On/Off
-|User Icons shows or hides the custom User Icons for the combined Safety Mode and User Trust Rank.
+|Photo Icons shows or hides the custom Photo Icons for the combined Safety Mode and User Trust Rank.
 |-
 |Custom Images
 |On/Off
@@ -1113,6 +1124,10 @@ Enable or disable limit.
 |On/Off
 |Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away
 |-
+|Always Show VRChat Soft Keyboard
+|On/Off
+|Show soft keyboard even when hardware keyboard is present.
+|-
 |One Handed Movement ''[VR]''
 |On/Off
 |Toggle one handed controls for avatar movement.
@@ -1167,6 +1182,44 @@ Shows [tiny/small/normal/medium/large] nameplates
 |Show Additional Info on Nameplates
 |On/Off
 |Show Additional Info is [enabled/disabled], click to [stop showing/show] expanded information on nameplates when the Quick Menu is open
+|}
+
+==== Desktop HUD ====
+{| class="wikitable"
+!Name
+!Value
+!Tooltip
+|-
+|Reset HUD Settings to Default
+|Reset
+|Resets all HUD settings to their defaults
+|-
+|Hide HUD
+|On/Off
+|Hides the HUD panels. Notifications and Face Mirror are not affected.
+|-
+|HUD Style
+|Full, Compact, Minimal
+|Change HUD style.<br>
+'''[Full]''' Show all HUD icons and key binding indicators.<br>
+'''[Compact]''' Remove the key binding indicators and only show icons on the HUD.<br>
+'''[Minimal]''' Collapse the HUD down to a minimal set of icons.
+|-
+|Show Contextual Controls
+|On/Off
+|Toggles contextual tooltips that may appear when hovering an object.
+|-
+|Show Selection Prompt
+|On/Off
+|Hides the prompt shown when a user or object can be selected.
+|-
+|HUD Opacity
+|0-100%
+|Changes the overall opacity of the HUD
+|-
+|HUD Background Opacity
+|0-100%
+|Changes the opacity of the background window on HUD elements.
 |}
 
 ==== HUD ====
@@ -1883,6 +1936,16 @@ All locally cached textures will be deleted.
 {| class="wikitable"
 ! colspan="2" style="width: 20%;" |Version
 !Change
+|-
+| rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202633-open-beta 2026.3.3]
+|[https://docs.vrchat.com/docs/vrchat-202633-openbeta 1916]
+|Added "Always Show VRChat Soft Keyboard" setting.
+|-
+|[https://docs.vrchat.com/docs/vrchat-202633-openbeta 1914]
+|Added "Mic Icon Position" and "Mic Opacity" settings.
+|-
+|[https://docs.vrchat.com/docs/vrchat-202633-openbeta 1912]
+|Added Desktop HUD section with "Reset HUD Settings to Default", "Hide HUD", "HUD Style", "Show Contextual Controls", "Show Selection Prompt", "HUD Opacity", and "HUD Background Opacity" settings.
 |-
 | rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202631 2026.3.1]
 |[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1880]
