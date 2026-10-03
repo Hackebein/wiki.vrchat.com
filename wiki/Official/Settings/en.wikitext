@@ -1096,10 +1096,6 @@ Enable or disable limit.
 '''[Tooltip]''' Show the outline, tooltip and tether line.
 '''[Controller]''' Show the outline, tooltip, tether line and controller.
 |-
-|Show Reticle
-|On/Off
-|Show a small dot in the center of the view
-|-
 |Show Go Button On Load
 |On/Off
 |Show a "Go!" button before entering the world when it's ready
@@ -1404,6 +1400,17 @@ Chatbox settings are also available in the Accessibility row.
 |Boop Emoji Effect
 |On/Off
 |Toggles the emoji particle effect when you receive Boops
+|}
+
+==== Other HUD Settings ====
+{| class="wikitable"
+!Name
+!Values
+!Tooltip
+|-
+|Show Reticle
+|On/Off
+|Show a small dot in the center of the view
 |}
 
 === Controls ===
@@ -1945,7 +1952,7 @@ All locally cached textures will be deleted.
 |Added "Mic Icon Position" and "Mic Opacity" settings.
 |-
 |[https://docs.vrchat.com/docs/vrchat-202633-open-beta 1912]
-|Added Desktop HUD section with "Reset HUD Settings to Default", "Hide HUD", "HUD Style", "Show Contextual Controls", "Show Selection Prompt", "HUD Opacity", and "HUD Background Opacity" settings.
+|Added "Desktop HUD" section with "Reset HUD Settings to Default", "Hide HUD", "HUD Style", "Show Contextual Controls", "Show Selection Prompt", "HUD Opacity", and "HUD Background Opacity" settings. Added "Other HUD Settings" section.
 |-
 | rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202631 2026.3.1]
 |[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1880]
