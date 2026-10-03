@@ -357,7 +357,7 @@ El movimiento se controla mediante la configuración estándar de FPS "WASD". El
 |Moves user right
 |-
 |Space
-|Makes user jump (if it is enabled in the room)
+|Makes user jump
 |-
 |Shift
 |Sprint
@@ -471,6 +471,9 @@ El movimiento se controla mediante la configuración estándar de FPS "WASD". El
 |R
 |Opens Action Menu
 |-
+|F4
+|Toggles Face Mirror positions
+|-
 |Right Click (Hold)
 |Shows interaction mouse (If "Show Reticle" setting is off)
 |-
@@ -524,6 +527,9 @@ El movimiento se controla mediante la configuración estándar de FPS "WASD". El
 |-
 |RShift + Backtick + 4<sup>†</sup>
 |Toggles visibility of "Players" debug menu
+|-
+|RShift + Backtick + 5<sup>†</sup>
+|Toggles visibility of "Net Tools" debug menu
 |-
 |RShift + Backtick + 6<sup>†</sup>
 |Toggles visibility of "Net Objects" debug menu
