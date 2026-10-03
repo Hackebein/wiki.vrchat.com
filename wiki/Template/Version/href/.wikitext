@@ -1,18 +1,18 @@
 <onlyinclude>{{#switch: {{lc:{{{1|}}}}}
 <!-- Set upcoming href to a blank value if no versions are in development.-->
 <!-- CLIENT -->
- | live-mainpage = https://docs.vrchat.com/docs/vrchat-202632 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
- | live = https://docs.vrchat.com/docs/vrchat-202632 <!-- Put the highest value of either windows, android or ios here. -->
- | live-windows = https://docs.vrchat.com/docs/vrchat-202632
- | live-android-quest = https://docs.vrchat.com/docs/vrchat-202632
- | live-android-google-play = https://docs.vrchat.com/docs/vrchat-202632
- | live-android-pico = https://docs.vrchat.com/docs/vrchat-202632
- | live-android-steamos =
- | live-android-viveport = https://docs.vrchat.com/docs/vrchat-202631
- | live-ios = https://docs.vrchat.com/docs/vrchat-202631p1 <!-- Put the highest ios value here (ios, ipados). -->
- | open-beta = https://docs.vrchat.com/docs/vrchat-202632-open-beta
- | open-beta-windows = https://docs.vrchat.com/docs/vrchat-202632-open-beta
- | open-beta-android-quest = https://docs.vrchat.com/docs/vrchat-202632-open-beta
+ | live-mainpage = https://docs.vrchat.com/docs/vrchat-202633 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
+ | live = https://docs.vrchat.com/docs/vrchat-202633 <!-- Put the highest value of either windows, android or ios here. -->
+ | live-windows = https://docs.vrchat.com/docs/vrchat-202633
+ | live-android-quest = https://docs.vrchat.com/docs/vrchat-202633
+ | live-android-google-play = https://docs.vrchat.com/docs/vrchat-202633
+ | live-android-pico = https://docs.vrchat.com/docs/vrchat-202632p2
+ | live-android-steamos = https://docs.vrchat.com/docs/vrchat-202633
+ | live-android-viveport = https://docs.vrchat.com/docs/vrchat-202633
+ | live-ios = https://docs.vrchat.com/docs/vrchat-202632p2 <!-- Put the highest ios value here (ios, ipados). -->
+ | open-beta =
+ | open-beta-windows =
+ | open-beta-android-quest =
  | unity-live = 
 <!-- SDK -->
  | sdk = https://creators.vrchat.com/releases/release-3-10-4
