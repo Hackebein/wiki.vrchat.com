@@ -336,6 +336,7 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 |Ajuste le tangage de l'objet tenu (rotation autour de l'axe Y)
 </div>
 
+<div class="mw-translate-fuzzy">
 |-
 ! colspan="2" |Déplacement
 |Z
@@ -361,6 +362,7 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 |-
 |W
 |Ramper / Se mettre en position couchée
+</div>
 
 |-
 ! colspan="2" |Vue à la troisième personne
@@ -448,6 +450,7 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 |-
 </div>
 
+<div class="mw-translate-fuzzy">
 |-
 ! colspan="2" |Interface utilisateur
 |-
@@ -465,6 +468,7 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 |-
 |Control + H
 |Active la visibilité de l'[[Special:MyLanguage/HUD|ATH ]] (Icône du microphone et notification)
+</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 |-
@@ -509,6 +513,9 @@ Le mouvement est géré via la configuration standard FPS « WASD ». Votre sour
 |-
 |RShift + Backtick + 4<sup>†</sup>
 |Toggles visibility of "Players" debug menu
+|-
+|RShift + Backtick + 5<sup>†</sup>
+|Toggles visibility of "Net Tools" debug menu
 |-
 |RShift + Backtick + 6<sup>†</sup>
 |Toggles visibility of "Net Objects" debug menu
