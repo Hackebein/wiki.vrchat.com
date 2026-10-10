@@ -234,7 +234,7 @@ Para asignar permisos a un rol, un administrador del grupo debe iniciar sesión 
 |-
 |Administrar los roles del grupo||<small>Permite que el rol cree roles, modifique roles y elimine roles.</small>
 |-
-|Administrar el rol predeterminado del grupo||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to manage the permissions for the default role (aka Everyone role). Requires “Manage Group Roles”.</small></span>
+|Administrar el rol predeterminado del grupo|||Administrar rol por defecto del grupo||<small>Permite al rol gestionar los permisos del rol por defecto (también conocido como: "Todos"). Requiere "Administrar roles del grupo".</small>
 |-
 |Asignar roles del grupo||<span lang="en" dir="ltr" class="mw-content-ltr"><small>Allows role to assign/unassign roles to users. Requires “Manage Group Member Data”.</small></span>
 |-
