@@ -47,6 +47,7 @@ VRChat supports three receiver behaviors:
 <!--T:24-->
 Contacts only interact when a sender and receiver share at least one matching collision tag. The receiver's ''Parameter'' field determines which Animator parameter is updated. Depending on the Animator parameter type, the value may be interpreted as a float, int, or bool.
 
+<!--T:29-->
 [[VRChat SDK|The SDK]] provides some built-in tags<ref>[https://creators.vrchat.com/common-components/contacts/built-in-contact-tags built-in list]</ref>.
 
 === Debugging === <!--T:25-->
