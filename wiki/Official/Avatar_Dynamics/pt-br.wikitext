@@ -43,6 +43,10 @@ O VRChat oferece suporte a três comportamentos de receptor:
 
 Contacts só interagem quando um emissor e um receptor compartilham pelo menos uma tag de colisão correspondente. O campo ''Parameter'' do receptor determina qual parâmetro do Animator é atualizado. Dependendo do tipo de parâmetro do Animator, o valor pode ser interpretado como float, int ou bool.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[VRChat SDK|The SDK]] provides some built-in tags<ref>[https://creators.vrchat.com/common-components/contacts/built-in-contact-tags built-in list]</ref>.
+</div>
+
 <span id="Debugging"></span>
 === Depuração ===
 
