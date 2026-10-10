@@ -40,6 +40,10 @@ VRChat prend en charge trois comportements pour les récepteurs :
 
 Les contacts n’interagissent que lorsqu’un émetteur et un récepteur partagent au moins une étiquette de collision correspondante. Le champ ''Parameter'' du récepteur détermine quel paramètre de l’Animator est mis à jour. Selon le type de paramètre de l’Animator, la valeur peut être interprétée comme un float, un int ou un bool.
 
+<div lang="en" dir="ltr" class="mw-content-ltr">
+[[VRChat SDK|The SDK]] provides some built-in tags<ref>[https://creators.vrchat.com/common-components/contacts/built-in-contact-tags built-in list]</ref>.
+</div>
+
 <span id="Debugging"></span>
 === Débogage ===
 
