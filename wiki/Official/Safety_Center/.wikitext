@@ -1,8 +1,10 @@
 {{Noticebox/unreleased|Feature is currently in open beta, introduced on version [https://docs.vrchat.com/docs/vrchat-202641-open-beta 2026.4.1] build 1931}}
 {{Noticebox/wip|Slowly adding informations|[[User:Usr adbb8876-cc64-48a6-adf5-8ee651bc98f4|Usr adbb8876-cc64-48a6-adf5-8ee651bc98f4]] ([[User talk:Usr adbb8876-cc64-48a6-adf5-8ee651bc98f4|talk]])}}
-The '''Safety Center''' is a tab part of the Main Menu that allows users to check their account standing, received warnings, restricted features as well as making appeals.
+The '''Safety Center''' is a tab part of the Main Menu that allows users to check their account standing, warning received, restricted features as well as making appeals.
 
 == Account Standing ==
+The standing of an account is affected by the warnings and restrictions issued to the user. Depending on the type or severity of the violation, the standing of an account may slowly return to it's original state as warnings and feature restrictions are lifted. This helps users determine how close they are to having their account suspended.
+
 The Account Standing is composed of five different levels, each having a different color and description:
 {| class="wikitable"
 |+
@@ -27,8 +29,56 @@ The Account Standing is composed of five different levels, each having a differe
 |You've been suspended due to severe or numerous violations: either three or more permanent feature restrictions, or too many violations stacked up across your account.
 |}
 
-== Features Restrictions & Warnings ==
+== Feature Restrictions & Warnings ==
 Users will now receive warnings and have certain features restricted matching the violations. As an example, instead of previously receiving a suspension for an avatar violating the [https://hello.vrchat.com/community-guidelines Community Guidelines], users will now either receive a warning or have the ability to upload avatars restricted temporarily, or permanently.
 
-=== Features Restrictions ===
-The restriction of a feature may be temporary or permanent.
+Below the Account Standing, users are able to find restrictions and warnings issued up to 3 days ago. 
+
+=== Feature restrictions ===
+Depending on the violation, or after receiving too many warnings, users may receive a feature restriction, which may be temporary or permanent. Upon being issued, feature restrictions can be appealed up to 30 days, even once lifted.
+
+Features that may be restricted are the following: 
+{| class="wikitable"
+|+
+!'''Restriction'''
+!Description
+|-
+|Avatar
+|User is unable to upload avatars
+|-
+|World
+|User is unable to upload worlds
+|-
+|Text Chat
+|User is unabled to use the chatbox
+|-
+|Voice Chat
+|User is unabled to speak
+|-
+|Public Instances
+|User is unabled to create public instances
+|-
+|Public Instances Access
+|User is unabled to join public instances
+|-
+|Profile
+|User is unabled to change his profile
+|-
+|Groups
+|User is unabled to create groups
+|-
+|Stickers
+|User is unabled to create stickers
+|-
+|Emojis
+|User is unabled to create emojis
+|-
+|Prints
+|User is unabled to create prints
+|-
+|Gallery
+|User is unabled to create gallery images
+|-
+|Icons
+|User is unabled to create icons
+|}
