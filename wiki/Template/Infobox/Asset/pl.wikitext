@@ -37,24 +37,36 @@
     	<header>Pobieranie</header>
     	<data source="vpm">
 			<label>[[VRChat Package Manager|VRChat Package Manager]]</label>
-            <format>[vcc://vpm/addRepo?url={{{vpm}}} Dodaj do VCC][[Category:Assets available via the VRChat Package Manager{{#translation:}}]]</format>
+            <format>[vcc://vpm/addRepo?url={{{vpm}}} Dodaj do VCC]</format>
 		</data>
         <data source="booth">
 			<label>[[Community:BOOTH|BOOTH]]</label>
-            <format>[https://booth.pm/en/items/{{{booth}}} {{{booth}}}][[Category:Assets available via BOOTH{{#translation:}}]]</format>
+            <format>[https://booth.pm/en/items/{{{booth}}} {{{booth}}}]</format>
 		</data>
         <data source="gumroad">
 			<label>[[Community:Gumroad|Gumroad]]</label>
-            <format>[https://gum.co/{{{gumroad}}} {{{gumroad}}}][[Category:Assets available via Gumroad{{#translation:}}]]</format>
+            <format>[https://gum.co/{{{gumroad}}} {{{gumroad}}}]</format>
 		</data>
         <data source="github">
 			<label>[[wikipedia:GitHub|GitHub]] repository</label>
-            <format>[https://github.com/{{{github}}} {{{github}}}][[Category:Assets available via GitHub{{#translation:}}]]</format>
+            <format>[https://github.com/{{{github}}} {{{github}}}]</format>
 		</data>
         <data source="gitlab">
 			<label>[[wikipedia:GitLab|GitLab]] repository</label>
-            <format>[https://gitlab.com/{{{gitlab}}} {{{gitlab}}}][[Category:Assets available via GitLab{{#translation:}}]]</format>
+            <format>[https://gitlab.com/{{{gitlab}}} {{{gitlab}}}]</format>
 		</data>
     </group>
-</infobox>[[Category:Resources{{#translation:}}]][[Category:Assets{{#translation:}}]]</onlyinclude>
+</infobox>
+{{#switch:{{NAMESPACE}}
+| {{ns:0}}
+| {{ns:3000}} = <!--
+Categories shouldn't be triggered in Template page itself, but must triggered in the "Community" namespace articles.
+-->{{#if:{{{vpm|}}}|[[Category:Assets available via the VRChat Package Manager{{#translation:}}]]}}<!--
+-->{{#if:{{{booth|}}}|[[Category:Assets available via BOOTH{{#translation:}}]]}}<!--
+-->{{#if:{{{gumroad|}}}|[[Category:Assets available via Gumroad{{#translation:}}]]}}<!--
+-->{{#if:{{{github|}}}|[[Category:Assets available via GitHub{{#translation:}}]]}}<!--
+-->{{#if:{{{gitlab}|}}}|[[Category:Assets available via GitLab{{#translation:}}]]}}<!--
+-->}}
+
+[[Category:Resources{{#translation:}}]][[Category:Assets{{#translation:}}]]</onlyinclude>
 <noinclude>{{Documentation}}</noinclude>
