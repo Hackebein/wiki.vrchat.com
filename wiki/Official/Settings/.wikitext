@@ -1733,6 +1733,27 @@ Change your interaction mode<br>
 |}
 
 <translate>
+==== Face Tracking ====
+</translate>
+{| class="wikitable"
+!<translate>Name</translate>
+!<translate>Values</translate>
+!<translate>Tooltip</translate>
+|-
+|<translate>Disable Face Tracking</translate>
+|<translate>On/Off</translate>
+|<translate>Disable face tracking expressions. Eye tracking is controlled separately.</translate>
+|-
+|<translate>Mic Mute Disables Face Tracking</translate>
+|<translate>On/Off</translate>
+|<translate>The in-app mic mute function will disable face tracking as well (when not using push-to-talk mode)</translate>
+|-
+|<translate>OSC Face Tracking Smoothing</translate>
+|<translate>On/Off</translate>
+|<translate>Apply smoothing over time to local OSC face tracking data.</translate>
+|}
+
+<translate>
 ==== Finger Tracking ==== <!--T:943-->
 </translate>
 {| class="wikitable"
@@ -2150,6 +2171,10 @@ All locally cached textures will be deleted.</translate>
 {| class="wikitable"
 ! colspan="2" style="width: 20%;" |<translate><!--T:1170--> Version</translate>
 !<translate><!--T:1171--> Change</translate>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202641 2026.4.1]
+|[https://docs.vrchat.com/docs/vrchat-202641-open-beta 1931]
+|<translate>Added "Face Tracking" section with "Disable Face Tracking", "Mic Mute Disables Face Tracking", and "OSC Face Tracking Smoothing" settings.</translate>
 |-
 | rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202633-open-beta 2026.3.3]
 |[https://docs.vrchat.com/docs/vrchat-202633-open-beta 1916]
