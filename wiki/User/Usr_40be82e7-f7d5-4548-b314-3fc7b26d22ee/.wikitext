@@ -74,7 +74,7 @@ I also run a scraper and search index over the [[VRChat Feedback]] boards:
 [https://vrchat-feed.hackebein.dev VRChat Feed] mixes VRChat sources into one stream, built to play in a home world [[Video players|video player]] so you can catch up with what you missed in-game. The site lists every source in one place. Filters pick photography posts, VRChat announcements, a streamer who just went live, or any combination. RSS, Atom and an API export the same mix when neither the browser nor the video player fits.
 
 === VaOBS ===
-[https://github.com/Hackebein/VaOBS VaOBS] grabs the video playing inside VRChat and hands it to OBS as its own media source. Keep it on a separate track and shift the audio in post instead of fighting it live.
+[https://github.com/Hackebein/VaOBS VaOBS] is a Windows OBS plugin for recording audio from VRChat video players. It reads video URLs from VRChat logs and aligns the stream audio with the VRChat capture while recording.
 
 === Citizen of VRChat ===
 An idle game that is not trapped in a single world. Points and unlocks for being online and joinable, with bonus unlocks on Christmas, New Year, Halloween, Valentine's Day and similar occasions, or for showing up at special events.
