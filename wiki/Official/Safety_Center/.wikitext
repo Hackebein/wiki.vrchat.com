@@ -1,7 +1,7 @@
 {{Noticebox/Official}}
 {{Infobox/Feature
 |name=Safety Center
-|image=
+|image=Safety_Center_Good.png
 |platforms= PC, Android, iOS
 |branch_live_date = October 28, 2026
 |branch_live_version = 2026.4.1 Build 1936
@@ -10,22 +10,27 @@
 |branch_openbeta_version = 2026.4.1 Build 1931
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202641-open-beta 2026.4.1 Open Beta]
 }}
-{{Noticebox/wip|Slowly adding informations|[[User:Usr adbb8876-cc64-48a6-adf5-8ee651bc98f4|Usr adbb8876-cc64-48a6-adf5-8ee651bc98f4]] ([[User talk:Usr adbb8876-cc64-48a6-adf5-8ee651bc98f4|talk]])}}
-The '''Safety Center''' is a system and feature that allows users to check their account standing, warnings received, restricted features as well as making appeals.
+{{Noticebox/wip|Slowly adding information|[[User:Usr adbb8876-cc64-48a6-adf5-8ee651bc98f4|Usr adbb8876-cc64-48a6-adf5-8ee651bc98f4]] ([[User talk:Usr adbb8876-cc64-48a6-adf5-8ee651bc98f4|talk]])}}
+The '''Safety Center''' is a system and feature that allows users to check their account standing, warnings received and restricted features, as well as make appeals. It can be opened with the button at the top left of the Settings page.<ref name="relnotes">[https://docs.vrchat.com/docs/vrchat-202641 VRChat 2026.4.1 release notes]</ref>
+
+VRChat described two goals for it: making sure users actioned by the Trust & Safety team better understand why, and giving punishments that fit the violation better, using "feature level" punishments instead of "account level" ones. As an example, an avatar-based violation used to lead to an account suspension. It now leads to a temporary restriction on changing into or using certain avatars, while the account remains accessible.<ref name="relnotes" /><ref name="devupdate">[https://ask.vrchat.com/t/developer-update-8-october-2026/49095 Developer Update - 8 October 2026]</ref>
 
 == Account Standing ==
-The standing of an account is affected by the warnings and restrictions issued to the user. Depending on the type or severity of the violation, the standing of an account may slowly return to it's original state as warnings and feature restrictions are lifted. This helps users determine how close they are to having their account suspended.
+[[File:Safety_Center_Good.png|thumb|The Account Standing banner at the ''Good'' level.]]
+The standing of an account is affected by the warnings and restrictions issued to the user. Depending on the type or severity of the violation, the standing of an account may slowly return to its original state as warnings and feature restrictions are lifted. This helps users determine how close they are to having their account suspended.
+
+The banner shows the standing in the color of its level, a short message (linking to the Terms of Service and the Community Guidelines in the ''Good'' and ''Restricted'' screenshots), a bar of five segments, and the description of the current level.<ref name="devupdate" /> At the ''Good'' level, the message thanks the user for following the Terms of Service and the Community Guidelines, and all five segments are lit.
 
 The Account Standing is composed of five different levels, each having a different color and description:
 {| class="wikitable"
 |+
 | style="background-color: #00E5A0"|
 !Good
-|No active issues or restrictions or your account.
+|No active issues or restrictions on your account.
 |-
 |style="background-color: #FFCD32"|
 !Caution
-|you have multiple warnings, or some violations on your account that haven't yet cleared, but no active temporary feature restrictions.
+|You have multiple warnings, or some violations on your account that haven't yet cleared, but no active temporary feature restrictions.
 |-
 |style="background-color: #FF6B2B"|
 !Restricted
@@ -40,15 +45,28 @@ The Account Standing is composed of five different levels, each having a differe
 |You've been suspended due to severe or numerous violations: either three or more permanent feature restrictions, or too many violations stacked up across your account.
 |}
 
+[[File:Safety_Center_Restricted.jpeg|thumb|The Account Standing banner at the ''Restricted'' level. The values shown are test data.<ref name="devupdate" />]]
+
 == Feature Restrictions & Warnings ==
 Previously, no matter the severity or type, violating the [https://hello.vrchat.com/community-guidelines Community Guidelines] caused users to receive a suspension. With the introduction of the Safety Center, warnings and feature restrictions are now the first sanctions users may receive, as long as the violation is not severe enough to cause an immediate suspension.
 
-Below the Account Standing, users are able to find feature restrictions and warnings issued up to 3 days ago. 
+Below the Account Standing, users are able to find feature restrictions and warnings issued up to 3 days ago.
+
+[[File:Safety_Center_Issues_List.jpeg|thumb|A restriction under ''New'' and a warning under ''Active''. The values shown are test data.<ref name="devupdate" />]]
+The screenshots published by VRChat show the issues split into two sections. The ''New'' section holds issues received up to 3 days ago. The ''Active'' section holds issues that still count against the standing of the account until they are removed.<ref name="devupdate" /> Each issue shows the section of the Community Guidelines that was broken (as a link), when it happened, and the penalty. Restrictions also show the days left to appeal and an '''Appeal''' button, and warnings show the days left until they become inactive.<ref name="devupdate" />
+
+=== Warnings ===
+A warning does not restrict anything. It tells the user that future violations may result in feature restrictions or account suspension. The screenshots published by VRChat show no Appeal button on warnings.<ref name="devupdate" />
 
 === Feature restrictions ===
-Depending on the violation, or after receiving too many warnings, users may receive a feature restriction, which may be temporary or permanent. Feature restrictions can be appealed up to 30 days from the issue date, even once lifted.
+[[File:Safety_Center_Restriction_Details.jpeg|thumb|The details of a 1-day text chat restriction. The values shown are test data.<ref name="devupdate" />]]
+Depending on the violation, or after receiving too many warnings, users may receive a feature restriction, which may be temporary or permanent. Feature restrictions can be appealed up to 30 days from the issue date, even once lifted. One appeal is allowed per violation.<ref name="devupdate" />
 
-Features that may be restricted are the following: 
+A restriction is titled with its length and the restricted feature, for example a 3-day avatar restriction. Its details window shows what it restricts, its duration, the policy violated (as a link to the Community Guidelines) and the appeal information.<ref name="devupdate" />
+
+VRChat noted that the punishments in its screenshots are for show and testing, and should not be read into too much.<ref name="devupdate" />
+
+Features that may be restricted are the following:
 {| class="wikitable"
 |+
 !'''Restriction'''
@@ -61,37 +79,43 @@ Features that may be restricted are the following:
 |User is unable to upload worlds
 |-
 |Text Chat
-|User is unabled to use the chatbox
+|User is unable to use the chatbox
 |-
 |Voice Chat
-|User is unabled to speak
+|User is unable to speak
 |-
 |Public Instances
-|User is unabled to create public instances
+|User is unable to create public instances
 |-
 |Public Instances Access
-|User is unabled to join public instances
+|User is unable to join public instances
 |-
 |Profile
-|User is unabled to change his profile
+|User is unable to change their profile
 |-
 |Groups
-|User is unabled to create groups
+|User is unable to create groups
 |-
 |Stickers
-|User is unabled to create stickers
+|User is unable to create stickers
 |-
 |Emojis
-|User is unabled to create emojis
+|User is unable to create emojis
 |-
 |Prints
-|User is unabled to create prints
+|User is unable to create prints
 |-
 |Gallery
-|User is unabled to create gallery images
+|User is unable to create gallery images
 |-
 |Icons
-|User is unabled to create icons
+|User is unable to create icons
 |}
+
+=== Appeals ===
+Certain infractions can be appealed from the client, including a suspension. A suspended user sees the Safety Center before loading into any world.<ref name="devupdate" />
+
+== References ==
+<references />
 
 [[Category:Features{{#translation:}}]]
