@@ -127,13 +127,10 @@
 
 לקבוצות יש שלוש רמות שונות של תפקידים: '''תפקידי ניהול''' (Management Roles), '''תפקידי חברים''' (Member Roles) ו'''תפקיד ברירת מחדל''' (Default Role). באופן אוטומטי, לקבוצות יש שלושה תפקידים כשהקבוצה נוצרת: '''כולם''' (Everyone), שמופיע תחת 'תפקיד ברירת מחדל', '''חבר''' (Member), שמופיע תחת 'תפקיד חבר', ו'''בעל הקבוצה''' (Group Owner), שמופיע תחת 'תפקיד ניהול'. ניתן לשנות את שמות התפקידים 'בעל הקבוצה' ו'חבר', אבל לא ניתן לשנות או למחוק את 'כולם'.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Group Owner permissions cannot be changed or deleted in any way, since by default, they should always have all permissions. The Group owner, however, can be transferred to another willing group member as long as both parties are subscribed to VRC+. This should be deliberated heavily before transfer, since all transfers are final. Read more about Group Transferring below.
-</div>
+לא ניתן לשנות או למחוק בשום דרך את ההרשאות של בעל הקבוצה, מכיוון שכברירת מחדל, תמיד צריכות להיות לו כל ההרשאות. עם זאת, ניתן להעביר את הבעלות על הקבוצה לחבר אחר בקבוצה שמוכן לכך, כל עוד שני הצדדים מנויים ל-VRC+. יש לשקול זאת היטב לפני ההעברה, מכיוון שכל ההעברות סופיות. קראו עוד על העברת קבוצה בהמשך.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Creating roles ===
-</div>
+<span id="Creating_roles"></span>
+=== יצירת תפקידים ===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Roles can be added, renamed, or deleted at any time by a group's management. Each role can be given a description, and a custom set of permissions. Permissions are either toggled on, or off for a group. Roles can optionally be set to be '''Assigned On Join''', be '''Self Assignable''', or '''Require 2FA'''.
