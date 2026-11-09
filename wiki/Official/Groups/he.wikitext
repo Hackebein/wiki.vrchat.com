@@ -125,9 +125,7 @@
 
 [[File:Groups default roles.png|thumb|253x253px|סקירת התפקידים]]
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-Groups have three different tiers for roles: '''Management Roles''', '''Member Roles''', and '''Default Role'''. Automatically, groups will have three roles when the group is created: '''Everyone''', which is listed under 'Default Role', '''Member''', which is listed under 'Member Role', and '''Group Owner''', which is listed under 'Management Role'. The role names for 'Group Owner' and 'Member' can be changed, but 'Everyone' cannot be changed or deleted.
-</div>
+לקבוצות יש שלוש רמות שונות של תפקידים: '''תפקידי ניהול''' (Management Roles), '''תפקידי חברים''' (Member Roles) ו'''תפקיד ברירת מחדל''' (Default Role). באופן אוטומטי, לקבוצות יש שלושה תפקידים כשהקבוצה נוצרת: '''כולם''' (Everyone), שמופיע תחת 'תפקיד ברירת מחדל', '''חבר''' (Member), שמופיע תחת 'תפקיד חבר', ו'''בעל הקבוצה''' (Group Owner), שמופיע תחת 'תפקיד ניהול'. ניתן לשנות את שמות התפקידים 'בעל הקבוצה' ו'חבר', אבל לא ניתן לשנות או למחוק את 'כולם'.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 Group Owner permissions cannot be changed or deleted in any way, since by default, they should always have all permissions. The Group owner, however, can be transferred to another willing group member as long as both parties are subscribed to VRC+. This should be deliberated heavily before transfer, since all transfers are final. Read more about Group Transferring below.
