@@ -48,26 +48,24 @@ Estos tres "modos" no son accesibles por medio del botón de "Modo de la cámara
 [[File:Camera.png|thumb|Vista general de la Cámara de VRChat.]]
 Las opciones consisten en los toggles que aparecen alrededor del marco de la cámara. Algunas opciones pueden ser controladas tanto por la IU como por el Menú.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== UI ===
-The UI toggles are toggles that are on the on center, left or right sides of the camera frame.
-==== Default ====
-; Close : Closes the camera.
-; Orientation : Switch between landscape and portrait orientation.
-; Flip : Flips the camera. When Anchor is set to "Default", the camera lens turns around 180°, otherwise the image is flipped horizontally.
-; Zoom : Zooms the camera in or out. The camera FOV can be zoomed from 20 to 150, with 45 being the default value.
-; Exposure : Changes the exposure (brightness) of the image. The exposure can be set from -10 to 4, with 0 being the default value.
-; Reset : Resets the zoom and exposure slides to their default values.
-; Info : Shows the status of different camera toggles. Click on a status to quickly cycle through options.
-:; Camera Mode
-:: Cycles through the Photo, Stream, and Multi Layer camera modes.
-:; Pins
-:: Cycles through pins 1, 2 and 3.
-:; Focus
-:: Cycles through Full Auto, Semi Auto, and Manual focuses.
-:; Filters
-:: Cycles through the Blueprint, Glitch, Speed, Hypno, Pixelate, Sketch, Sparkle, Trippy, and Olde camera filters.
-</div>
+=== Interfaz de usuario (IU) ===
+Los controles de la IU se encuentran en el centro, a la izquierda o a la derecha del encuadre de la cámara.
+==== Predeterminado ====
+; Cerrar : Cierra la cámara.
+; Orientación : Alterna entre orientación horizontal y vertical.
+; Invertir : Invierte la cámara. Cuando el anclaje está configurado en "Predeterminado", la lente de la cámara gira 180°; de lo contrario, la imagen se invierte horizontalmente.
+; Zoom : Acerca o aleja la imagen de la cámara. El campo de visión (FOV) de la cámara puede ajustarse entre 20 y 150; el valor predeterminado es 45.
+; Exposición : Modifica la exposición (brillo) de la imagen. La exposición puede ajustarse en un rango de -10 a 4; el valor predeterminado es 0.
+; Restablecer : Devuelve los controles de zoom y exposición a sus valores predeterminados.
+; Información : Muestra el estado de los distintos controles de la cámara. Haz clic en un estado para alternar rápidamente entre las opciones disponibles.
+:; Modo de cámara
+:: Alterna entre los modos de cámara: Foto, Stream y Multicapa.
+:; Anclajes
+:: Alterna entre los anclajes 1, 2 y 3.
+:; Enfoque
+:: Alterna entre los modos de enfoque: totalmente automático, semiautomático y manual.
+:; Filtros
+:: Alterna entre los filtros de cámara: Cianotipo, Glitch, Velocidad, Hipnótico, Pixelado, Boceto, Destellos, Psicodélico y Antiguo.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Toggle ====
