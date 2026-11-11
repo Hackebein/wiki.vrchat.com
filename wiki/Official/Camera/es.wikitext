@@ -21,7 +21,7 @@ Los modos de la cámara determinan cómo se comporta al tomar una foto. Hay siet
 ; Foto Local : Al tomarla, captura una foto normal. Este es el modo por defecto.
 ; Multi Capa : Tras tomarla, captura una foto y crea multiples imagenes de cada máscara activada. Este modo no soporta enfoque o filtros y puede generar retraso de recuadros.
 : Puede crear hasta tres imagenes adicionales (además de la foto regular): "Entorno", "Usuarios" (Combina las máscaras de Usuario Local y Remoto), y la "IU". Las máscaras de "Usuarios" y "IU" se guardan con composición alfa.
-; Stream : Remplaza la vista de escritorio con la vista de la cámara. En modo escritorio, el toggle "Transmisión Spout" aparecerá, permitiendo al usuario recibir la vista de la cámara a través de aplicaciones soportadas.
+; Transmisión : Remplaza la vista de escritorio con la vista de la cámara. En modo escritorio, el toggle "Transmisión Spout" aparecerá, permitiendo al usuario recibir la vista de la cámara a través de aplicaciones soportadas.
 : El toggle "Transmisión Spout" requiere a las aplicacioens soportar el protocolo [https://spout.zeal.co/ Spout] para recibir la vista de la cámara.
 : Este modo solo esta disponible en PC.
 ; Galería : Tras tomarla, una IU aparece permitiendo al usuario hacer zoom, reposicionar y hacer espejo a la foto en un recorte rectangular. "Guardar y aplicar" la guarda en la sección de "Galería de fotos" del "Invetario". Requiere VRC+.
