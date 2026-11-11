@@ -100,15 +100,13 @@ Los controles del menú son elementos situados debajo del encuadre de la cámara
 ; Audio desde la cámara : El audio que se escucha proviene de la posición de la cámara, en lugar de la posición del avatar.
 : Debe seleccionarse el modo de cámara "Transmisión" para que esta opción aparezca.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-; Anchor : Determines where the camera is attached.
-:; Default
-:: Attached to the user.
+; Anclaje: Determina a qué está sujeta la cámara.
+:; Predeterminado
+:: Sujeto al usuario.
 :; Local
-:: Follows user movement but not head movement.
-:; World
-:: Attached to the world, independent of user movement.
-</div>
+:: Sigue el movimiento del usuario, pero no el movimiento de la cabeza.
+:; Mundo
+:: Sujeta al mundo, independientemente del movimiento del usuario.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ; Behavior : Desc
