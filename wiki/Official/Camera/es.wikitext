@@ -67,30 +67,28 @@ Los controles de la IU se encuentran en el centro, a la izquierda o a la derecha
 :; Filtros
 :: Alterna entre los filtros de cámara: Cianotipo, Glitch, Velocidad, Hipnótico, Pixelado, Boceto, Destellos, Psicodélico y Antiguo.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-==== Toggle ====
-; Fly Speed : Determines how fast the camera moves in Fly mode. Values range from 0.1 to 15, with 3 being the default.
-: Slider shown only when using Desktop mode or when the Flying toggle is on.
-; Turn Speed : Determines how fast the camera rotates in Fly mode. Values range from 0.1 to 5, with 1 being the default.
-: Slider shown only when using Desktop mode or when the Flying toggle is on.
-; Smoothing Strength : Determines how much smoothing is applied to camera movement. Values range from 0.1 to 10, with 5 being the default.
-: Slider shown only when using the Smoothed toggle.
-; Horizontal Offset : Determines the horizontal offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default. Using the Auto Level Roll toggle will disable this slider.
-: Slider shown only when using the Look-At-Me toggle.
-; Vertical Offset : Determines the vertical offset from the center of the image when using Look-At-Me. Values range from -25 to 25, with 0 being the default.
-: Slider shown only when using the Look-At-Me toggle. Using the Auto Level Pitch toggle will disable this slider.
-; Focal Distance : Determines the depth of field's focal distance.
-: Slider shown only when using the Manual focus toggle.
-; Aperture : Determines the depth of field's aperture.
-: Slider shown only when using the Semi Auto or Manual focus toggles.
-; Green Screen : Displays sliders to adjust the color of the green screen mask. The sliders are Hue, Saturation, and Lightness.
-: Sliders shown only when using the GreenScreen toggle.
-:; Hue
-:; Saturation
-:; Lightness
-; Duration : Determines the duration of new dolly points when using time-based motion.
-: Slider shown only when the Dolly toggle is selected.
-</div>
+==== Toggles ====
+; Velocidad de vuelo : Determina la rapidez con la que se desplaza la cámara en el Modo vuelo. Los valores oscilan entre 0,1 y 15; el valor predeterminado es 3.
+: Este control solo aparece al usar el modo escritorio (Desktop) o cuando el toggle de vuelo está activado.
+; Velocidad de giro : Determina la rapidez con la que gira la cámara en el Modo vuelo. Los valores oscilan entre 0,1 y 5; el valor predeterminado es 1.
+: Este control solo aparece al usar el modo escritorio (Desktop) o cuando el toggle de vuelo está activado.
+; Intensidad de suavizado : Determina el grado de suavizado aplicado al movimiento de la cámara. Los valores oscilan entre 0,1 y 10; el valor predeterminado es 5.
+: Este control solo aparece cuando el toggle de suavizado está activado.
+; Desplazamiento horizontal : Determina el desplazamiento horizontal respecto al centro de la imagen al utilizar la función "Mírame". Los valores oscilan entre -25 y 25; el valor predeterminado es 0. El uso del toggle de nivelación automática de rotación desactivará este control.
+: Este control solo aparece cuando el toggle "Mírame" está activado.
+; Desplazamiento vertical : Determina el desplazamiento vertical respecto al centro de la imagen al utilizar la función "Mírame". Los valores oscilan entre -25 y 25; el valor predeterminado es 0.
+: Este control solo aparece cuando el toggle "Mírame" está activado. El uso del toggle de nivelación automática de inclinación desactivará este control.
+; Distancia focal : Determina la distancia focal de la profundidad de campo.
+: Este control solo aparece cuando el toggle de enfoque manual está activado.
+; Apertura : Determina la apertura de la profundidad de campo.
+: Este control solo aparece cuando el toggle de enfoque semiautomático o manual está activado.
+; Pantalla verde : Muestra controles para ajustar el color de la máscara de pantalla verde. Los controles corresponden a: tono, saturación y luminosidad.
+: Estos controles solo aparecen cuando el toggle de pantalla verde está activado.
+:; Tono
+:; Saturación
+:; Luminosidad
+; Duración : Determina la duración de los nuevos puntos de recorrido al utilizar el movimiento basado en tiempos.
+: Este control solo aparece cuando el toggle "Dolly" está seleccionado.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 === Menu ===
