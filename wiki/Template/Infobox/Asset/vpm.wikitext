@@ -1,6 +1,6 @@
 <noinclude><languages/></noinclude><includeonly>
 {{#ifexpr:{{PAGESIZE:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}|R}} > 0
-| <div class="portable-infobox pi-theme-community" style="box-sizing:border-box;max-width:100%;border:1px solid var(--pi-border-color,#a2a9b1);border-radius:9px;background:var(--pi-background,#f8f9fa);overflow-wrap:anywhere">
+| <div class="portable-infobox pi-theme-community" style="box-sizing:border-box;float:right;clear:right;width:clamp(270px,calc(1800px - 300%),100%);max-width:calc(100% - .75em);margin:0 0 1em .75em;border:1px solid var(--pi-border-color,#a2a9b1);border-radius:9px;background:var(--pi-background,#f8f9fa);overflow-wrap:anywhere">
 <div style="padding:.65em 1em;display:flex;flex-wrap:wrap;align-items:baseline;gap:.35em .7em">
 <div style="flex:1 1 12em;min-width:0">
 <div style="font-size:1.25em;font-weight:700;line-height:1.25">{{{Displayname|{{{displayname|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/DisplayName|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/DisplayName}}|{{{name|com.vrchat.worlds}}}}}}}}}}}</div>
