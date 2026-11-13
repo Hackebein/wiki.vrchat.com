@@ -1,0 +1,29 @@
+<noinclude><languages/></noinclude><includeonly>
+{{#ifexpr:{{PAGESIZE:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}|R}} > 0
+| <div class="portable-infobox pi-theme-community" style="box-sizing:border-box;max-width:100%;border:1px solid var(--pi-border-color,#a2a9b1);border-radius:9px;background:var(--pi-background,#f8f9fa);overflow-wrap:anywhere">
+<div style="padding:.65em 1em;display:flex;flex-wrap:wrap;align-items:baseline;gap:.35em .7em">
+<div style="flex:1 1 12em;min-width:0">
+<div style="font-size:1.25em;font-weight:700;line-height:1.25">{{{Displayname|{{{displayname|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/DisplayName|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/DisplayName}}|{{{name|com.vrchat.worlds}}}}}}}}}}}</div>
+<div style="font-size:.84em;margin-top:.3em"><code>{{{name|com.vrchat.worlds}}}</code></div>
+{{#if:{{{title|}}}|<div>{{{title|}}}</div>}}
+</div>
+<div style="font-size:.85em;padding:.12em .52em;border:1px solid var(--pi-border-color,#72777d);border-radius:5px;font-weight:650">v{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}}}</div>
+</div>{{#if:{{{image|}}}|<div style="padding:0 1em .65em;text-align:center;max-width:100%">{{{image|}}}</div>}}{{#if:{{{youtube|}}}|<div style="padding:0 1em .65em">{{YouTube|{{{youtube|}}}|100%}}</div>}}
+<div style="border-top:1px solid var(--pi-border-color,#a2a9b1);padding:.5em 1em;display:flex;flex-wrap:wrap;align-items:center;gap:.4em 1em">
+<div style="flex:1 1 16em;min-width:0;display:flex;flex-wrap:wrap;gap:.2em .85em;font-size:.9em">
+{{#if:{{{status|}}}|<div>{{#switch:{{{status|}}}
+ | maintained = Actively maintained
+ | maintenance = Maintenance mode
+ | deprecated = Deprecated
+ | abandoned = Abandoned
+ | archived = Archived
+ | unknown = Unknown
+ | #default = {{{status|}}}
+}}</div>}}{{#if:{{{license|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/License|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/License}}|}}}}}|<div>License: {{{license|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/License|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/License}}|}}}}}</div>}}{{#if:{{{author|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 1|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 1}}|}}}}}|<div>By {{Infobox/Asset/Authors|{{{author|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 1|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 1}}|}}}}}|{{{author_1|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 2|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 2}}|}}}}}|{{{author_2|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 3|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 3}}|}}}}}|{{{author_3|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 4|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Author 4}}|}}}}}}}</div>}}
+</div>{{#if:{{{vpm|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/VPM|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/VPM}}|}}}}}{{{source|}}}{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Documentation|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Documentation}}|}}|<div style="display:flex;flex-wrap:wrap;align-items:center;gap:.35em .7em">{{#if:{{{vpm|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/VPM|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/VPM}}|}}}}}|<div style="padding:.32em .7em;border:1px solid var(--pi-border-color,#72777d);border-radius:6px;background:var(--pi-secondary-background,#eaecf0)">[vcc://vpm/addRepo?url={{{vpm|{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/VPM|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/VPM}}|}}}}} Add to VCC]</div>{{#switch:{{NAMESPACE}}|{{ns:0}}|{{ns:3000}}=[[Category:Assets available via the VRChat Package Manager{{#translation:}}]]}}}}{{#if:{{{source|}}}|<div>[{{{source|}}} Source code]</div>}}{{#if:{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Documentation|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Documentation}}|}}|<div>[{{#ifexist:Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Documentation|{{VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}/Documentation}}|}} Documentation]</div>}}</div>}}
+</div>
+</div>
+| Create a blank [[Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}|Template:VPM/{{{name|com.vrchat.worlds}}}/{{{version|Latest version}}}]] page, to get updates for this VPM Package. It takes a bit to update.
+}}
+[[Category:Resources{{#translation:}}]][[Category:Assets{{#translation:}}]]</includeonly>
+<noinclude>{{Documentation}}</noinclude>
