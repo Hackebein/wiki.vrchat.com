@@ -33,12 +33,11 @@ The bot keeps world data pages behind the infoboxes up to date, visits, favorite
 * [https://github.com/Hackebein/VPMM-connector-VRCWiki VPMM-connector-VRCWiki], bridge between VPM Manager and the wiki.
 
 == Projects ==
-=== VPM Manager ===
-The VPM ecosystem is decentralized by design: anyone can publish a listing. In practice that means a pile of repository URLs to maintain, transitive dependencies and removals nobody can follow, and paid assets travelling as loose <code>.unitypackage</code> files.
+=== VPMM ===
+<span id="VPM_Manager"></span>
+I built [https://vpmm.dev/ VPMM] (VPM Manager) to make VRChat creator packages easier to find. You can compare versions, see what a package depends on, and check Unity test results where available. You can add a listing to [[VRChat Creator Companion]] or [[Community:ALCOM|ALCOM]].
 
-[https://vpmm.dev VPM Manager] is my answer. One license-respecting catalog that aggregates public listings, free and paid, and mirrors the archives so a package survives its original host. Searchable from inside [[VRChat Creator Companion|VCC]] or [[Community:ALCOM|ALCOM]], with richer metadata on the site itself, dependency graphs included. My own listing domain <code>vpm.hackebein.dev</code> points at it and generates my listing page on its own.
-
-Publishing side is [https://github.com/Hackebein/hackebein.vpm.packager hackebein.vpm.packager], the Unity editor tool I package my own releases with.
+If you publish packages, you can import your releases and share your own listing. I use [https://github.com/Hackebein/hackebein.vpm.packager VPM Packager] to package my releases in Unity.
 
 {{Contentbox/Asset/VPM
 | name=hackebein.vpm.packager
@@ -66,9 +65,7 @@ The desktop application ships on [https://store.steampowered.com/app/3140770 Ste
 === Bug hunting and quality assurance ===
 I file bug reports and break things before you do. Not a hobby, it just happens when I touch software. I am part of the Community Testers program described on [[Quality Assurance]]. Next up is a GitHub runner driving one VR and three desktop clients at once, so world and avatar tests crash on a schedule instead of at random.
 
-I also run a scraper and search index over the [[VRChat Feedback]] boards:
-* [https://github.com/Hackebein/feedback.vrchat.com feedback.vrchat.com], the scraper, the data, and everything else this project needs
-* [https://vrchat-canny.hackebein.dev vrchat-canny.hackebein.dev], full-text search, push notifications and Canny integration
+I built [https://vrchat-canny.hackebein.dev VRChat Feedback Search] so I can look for existing reports before filing a new one. It searches the [[VRChat Feedback]] boards and can notify you about updates to posts you follow. The [https://github.com/Hackebein/feedback.vrchat.com code is on GitHub].
 
 === VRChat Feed ===
 [https://vrchat-feed.hackebein.dev VRChat Feed] mixes VRChat sources into one stream, built to play in a home world [[Video players|video player]] so you can catch up with what you missed in-game. The site lists every source in one place. Filters pick photography posts, VRChat announcements, a streamer who just went live, or any combination. RSS, Atom and an API export the same mix when neither the browser nor the video player fits.
@@ -147,8 +144,6 @@ None public, sorry.
 * [https://bsky.app/profile/hackebe.in Bsky]
 * [https://x.com/Hackebein X/Twitter]
 * [https://t.me/Hackebein Telegram]
-* [https://www.patreon.com/hackebein Patreon]
-* [https://hackebein.de/gpg.asc PGP key] - DE68 1625 8EC5 0065 7141 3536 358C F569 8DDD 556E
 
 == References ==
 <references />
