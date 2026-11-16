@@ -319,13 +319,11 @@ VRChat은 유저, 월드, 아바타 및 그룹과 관련된 대부분의 문제�
 ==== 유저 조치 ====
 
 [[File:Here tab.webp|thumb|퀵 메뉴의 "현재 인스턴스" 탭. 인스턴스 정보와 여러 인벤토리 아이템을 켜고 끄는 버튼이 있습니다.]]
-<div lang="en" dir="ltr" class="mw-content-ltr">
-You can select a user, and choose among the following moderation choices:
-* [[File:Icons Report 25.png|frameless|28x28px]] '''Warn User:''' Send the user a message telling them they have been warned.
-* [[File:Icons KickUser 25.png|frameless|28x28px]] '''Kick User:''' Remove the user from the instance. They will not be able to join for 1 hour.
-* [[File:MicrophoneMuted HUD.png|frameless|28x28px]] '''Force Mic Off:''' Mute the user's microphone. The user can unmute their microphone freely.
-* '''[[File:Icons Groups 25.png|frameless|28x28px]]''' '''Ban From Group:''' Bans the selected user from the group that owns the instance. The user will be unable to join group instances from that group and won't be able to join that group.
-</div>
+유저를 선택하면 다음 관리 옵션 중에서 고를 수 있습니다:
+* [[File:Icons Report 25.png|frameless|28x28px]] '''유저 경고:''' 경고를 받았다는 메시지를 그 유저에게 보냅니다.
+* [[File:Icons KickUser 25.png|frameless|28x28px]] '''유저 추방:''' 그 유저를 인스턴스에서 내보냅니다. 1시간 동안 다시 들어올 수 없습니다.
+* [[File:MicrophoneMuted HUD.png|frameless|28x28px]] '''마이크 강제 끄기:''' 그 유저의 마이크를 끕니다. 유저는 언제든 마이크를 다시 켤 수 있습니다.
+* '''[[File:Icons Groups 25.png|frameless|28x28px]]''' '''그룹에서 영구 추방:''' 선택한 유저를 인스턴스를 소유한 그룹에서 영구 추방합니다. 그 유저는 이 그룹의 그룹 인스턴스에 들어올 수 없고, 그룹에도 가입할 수 없습니다.
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 ==== Instance toggles ====
