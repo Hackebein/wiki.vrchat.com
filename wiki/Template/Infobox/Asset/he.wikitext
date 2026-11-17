@@ -10,7 +10,7 @@
         <format>{{Infobox/Asset/Authors|{{{author|}}}|{{{author_1|}}}|{{{author_2|}}}|{{{author_3|}}}}}</format>
     </data>
     <data source="status">
-        <label><span lang="en" dir="ltr" class="mw-content-ltr">Status</span></label>
+        <label>סטטוס</label>
         <format>{{#ifeq: {{{status|}}} | maintained
 | <span lang="en" dir="ltr" class="mw-content-ltr">Actively Maintained – Asset is regularly updated with new features and bug fixes.</span>
 | {{#ifeq: {{{status|}}} | maintenance
