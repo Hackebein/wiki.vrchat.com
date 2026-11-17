@@ -12,7 +12,7 @@
         <data><label>רישום</label><default>{{#ifexist:Template:World/{{{id}}}/listing|{{World/{{{id}}}/listing}}}}</default></data>
         <data><label>תוכן</label><default>{{#ifexist:Template:World/{{{id}}}/content|{{World/{{{id}}}/content}}}}</default></data>
         <data source="languages"><label>שפות</label></data>
-        <data source="id"><label><span lang="en" dir="ltr" class="mw-content-ltr">World Link</span></label>
+        <data source="id"><label>קישור לעולם</label>
            <format>{{World link|{{{id}}}|{{#ifexist:Template:World/{{{id}}}/name|{{World/{{{id}}}/name}}|{{{id}}}}}}}</format></data>
         <data><default>{{#ifexist:Template:World/{{{id}}}/previewYoutubeId|<div style="width:248px;margin:0 auto">{{YouTube|id={{World/{{{id}}}/previewYoutubeId}}|width=248px|thumb=File:{{{id}}}_previewYoutubeId.jpg}}</div>}}</default></data>
     </group>
