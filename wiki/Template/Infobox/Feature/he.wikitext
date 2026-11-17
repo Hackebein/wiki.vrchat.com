@@ -37,10 +37,10 @@
                 <section>
                     <label>הודעה</label>
                     <data source="branch_announcement_date">
-                        <label><span lang="en" dir="ltr" class="mw-content-ltr">Date</span></label>
+                        <label>תאריך</label>
                         <format>{{Date|{{{branch_announcement_date}}}}}</format>
                     </data>
-                    <data source="branch_announcement_link"><label><span lang="en" dir="ltr" class="mw-content-ltr">Link</span></label></data>
+                    <data source="branch_announcement_link"><label>קישור</label></data>
                 </section>
             }}
         </panel>
