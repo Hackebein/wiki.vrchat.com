@@ -25,7 +25,7 @@
 <div style="padding: 0.4em 0.5em; flex-basis: 40%; box-sizing: border-box;">'''License:''' {{{license|}}}<br>[vcc://vpm/addRepo?url={{{vpm|}}} Add to VCC]</div>
 }}{{#if:{{{author|}}} |
 <div style="padding: 0.4em 0.5em; flex-basis: 60%; box-sizing: border-box;">{{#if:{{{author_1|}}}
-|<span lang="en" dir="ltr" class="mw-content-ltr">'''Authors''' (ordered by significance)</span>
+|'''יוצרים''' (לפי סדר חשיבות)
 |'''<span lang="en" dir="ltr" class="mw-content-ltr">Author</span>'''
 }}:<br>{{Infobox/Asset/Authors|{{{author|}}}|{{{author_1||}}}|{{{author_2||}}}|{{{author_3||}}}}}</div>
 ||}}{{#ifexpr: {{#if: {{{docs|}}}|1|0}} OR {{#if: {{{booth|}}}|1|0}} OR {{#if: {{{gumroad|}}}|1|0}} OR {{#if: {{{github|}}}|1|0}} OR {{#if: {{{gitlab|}}}|1|0}} |<div style="padding: 0.4em 0.5em; flex-basis: 40%; box-sizing: border-box;">'''Links:'''{{#if: {{{docs|}}}
