@@ -1,0 +1,21 @@
+<noinclude><languages/></noinclude><includeonly>{{Infobox/Asset/Author|{{{1|}}}}}{{#if:{{{2|}}}|<span lang="en" dir="ltr" class="mw-content-ltr">, {{Infobox/Asset/Author|{{{2|}}}}}</span>|}}{{#if:{{{3|}}}|{{#if:{{{4|}}}|<span lang="en" dir="ltr" class="mw-content-ltr">, {{Infobox/Asset/Author|{{{3|}}}}}, and {{{4}}} others</span>|<span lang="en" dir="ltr" class="mw-content-ltr">, and {{Infobox/Asset/Author|{{{3|}}}}}</span>}}|}}</includeonly><noinclude>
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== One author ===
+{{Infobox/Asset/Authors|Tupper}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Two authors ===
+{{Infobox/Asset/Authors|Tupper|VRCat}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Three authors ===
+{{Infobox/Asset/Authors|Tupper|VRCat|VRRat}}
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Three authors with count ===
+{{Infobox/Asset/Authors|Tupper|VRCat|VRRat|14}}
+</div>
+</noinclude>
