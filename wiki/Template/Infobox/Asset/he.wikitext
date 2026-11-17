@@ -1,0 +1,72 @@
+<noinclude><languages/></noinclude><onlyinclude><infobox type="Asset" layout="stacked" theme="community">
+    <title source="name"/>
+    <header>{{{title|}}}</header>
+	<image source="image"/>
+    <data source="youtube">
+        <format>{{YouTube|{{{youtube}}}|100%}}</format>
+    </data>
+    <data source="author">
+        <label>{{#if:{{{author_1|}}}|יוצרים (לפי סדר חשיבות)|<span lang="en" dir="ltr" class="mw-content-ltr">Author</span>}}</label>
+        <format>{{Infobox/Asset/Authors|{{{author|}}}|{{{author_1|}}}|{{{author_2|}}}|{{{author_3|}}}}}</format>
+    </data>
+    <data source="status">
+        <label><span lang="en" dir="ltr" class="mw-content-ltr">Status</span></label>
+        <format>{{#ifeq: {{{status|}}} | maintained
+| <span lang="en" dir="ltr" class="mw-content-ltr">Actively Maintained – Asset is regularly updated with new features and bug fixes.</span>
+| {{#ifeq: {{{status|}}} | maintenance
+| <span lang="en" dir="ltr" class="mw-content-ltr">Maintenance Mode – Asset only receives critical bug fixes, but no new features.</span>
+| {{#ifeq: {{{status|}}} | deprecated
+| <span lang="en" dir="ltr" class="mw-content-ltr">Deprecated – Asset is no longer recommended for use and may be replaced by a newer alternative.</span>
+| {{#ifeq: {{{status|}}} | abandoned
+| <span lang="en" dir="ltr" class="mw-content-ltr">Abandoned – Asset is no longer maintained and may not be functional.</span>
+| {{#ifeq: {{{status|}}} | archived
+| <span lang="en" dir="ltr" class="mw-content-ltr">Archived – Asset is preserved for historical purposes but is not in active use.</span>
+| {{#ifeq: {{{status|}}} | unknown
+| <span lang="en" dir="ltr" class="mw-content-ltr">Unknown – Status is unknown.</span>
+<!-- Fallback -->  
+| {{{status}}}}}
+}}}}}}}}}}</format>
+    </data>
+    <data source="documentation">
+        <label><span lang="en" dir="ltr" class="mw-content-ltr">Documentation</span></label>
+    </data>
+    <data source="license">
+        <label><span lang="en" dir="ltr" class="mw-content-ltr">License</span></label>
+    </data>
+	<group>
+    	<header><span lang="en" dir="ltr" class="mw-content-ltr">Downloads</span></header>
+    	<data source="vpm">
+			<label>[[VRChat Package Manager|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Package Manager</span>]]</label>
+            <format>[vcc://vpm/addRepo?url={{{vpm}}} <span lang="en" dir="ltr" class="mw-content-ltr">Add to VCC</span>]</format>
+		</data>
+        <data source="booth">
+			<label>[[Community:BOOTH|BOOTH]]</label>
+            <format>[https://booth.pm/en/items/{{{booth}}} {{{booth}}}]</format>
+		</data>
+        <data source="gumroad">
+			<label>[[Community:Gumroad|Gumroad]]</label>
+            <format>[https://gum.co/{{{gumroad}}} {{{gumroad}}}]</format>
+		</data>
+        <data source="github">
+			<label>[[wikipedia:GitHub|GitHub]] repository</label>
+            <format>[https://github.com/{{{github}}} {{{github}}}]</format>
+		</data>
+        <data source="gitlab">
+			<label>[[wikipedia:GitLab|GitLab]] repository</label>
+            <format>[https://gitlab.com/{{{gitlab}}} {{{gitlab}}}]</format>
+		</data>
+    </group>
+</infobox>
+{{#switch:{{NAMESPACE}}
+| {{ns:0}}
+| {{ns:3000}} = <!--
+Categories shouldn't be triggered in Template page itself, but must triggered in the "Community" namespace articles.
+-->{{#if:{{{vpm|}}}|[[Category:Assets available via the VRChat Package Manager{{#translation:}}]]}}<!--
+-->{{#if:{{{booth|}}}|[[Category:Assets available via BOOTH{{#translation:}}]]}}<!--
+-->{{#if:{{{gumroad|}}}|[[Category:Assets available via Gumroad{{#translation:}}]]}}<!--
+-->{{#if:{{{github|}}}|[[Category:Assets available via GitHub{{#translation:}}]]}}<!--
+-->{{#if:{{{gitlab}|}}}|[[Category:Assets available via GitLab{{#translation:}}]]}}<!--
+-->}}
+
+[[Category:Resources{{#translation:}}]][[Category:Assets{{#translation:}}]]</onlyinclude>
+<noinclude>{{Documentation}}</noinclude>
