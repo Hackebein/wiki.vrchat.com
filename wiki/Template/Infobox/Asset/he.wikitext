@@ -12,7 +12,7 @@
     <data source="status">
         <label>סטטוס</label>
         <format>{{#ifeq: {{{status|}}} | maintained
-| <span lang="en" dir="ltr" class="mw-content-ltr">Actively Maintained – Asset is regularly updated with new features and bug fixes.</span>
+| מתוחזק באופן פעיל – האסט מתעדכן באופן קבוע עם תכונות חדשות ותיקוני באגים.
 | {{#ifeq: {{{status|}}} | maintenance
 | <span lang="en" dir="ltr" class="mw-content-ltr">Maintenance Mode – Asset only receives critical bug fixes, but no new features.</span>
 | {{#ifeq: {{{status|}}} | deprecated
