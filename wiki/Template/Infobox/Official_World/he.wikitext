@@ -4,7 +4,7 @@
 	<title><default>{{World/{{{id}}}/name}}</default></title>
 	<image><default>{{#ifexist:Media:{{{id}}}_imageUrl.png|[[File:{{{id}}}_imageUrl.png]]}}</default></image>
 	<group>
-        <data><label>מפתחים</label><default>{{#ifexist:Template:World/{{{id}}}/authorName|{{#ifexist:Template:World/{{{id}}}/authorId|[https://vrchat.com/home/user/{{World/{{{id}}}/authorId}} {{World/{{{id}}}/authorName}}]|{{World/{{{id}}}/authorName}}}}}}</default></data>
+        <data><label>מפתח</label><default>{{#ifexist:Template:World/{{{id}}}/authorName|{{#ifexist:Template:World/{{{id}}}/authorId|[https://vrchat.com/home/user/{{World/{{{id}}}/authorId}} {{World/{{{id}}}/authorName}}]|{{World/{{{id}}}/authorName}}}}}}</default></data>
         <data source="developers"><label>מפתחים</label></data>
         <data><label>קיבולת</label><default>{{#ifexist:Template:World/{{{id}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id}}}/capacity|{{World/{{{id}}}/recommendedCapacity}} (max {{World/{{{id}}}/capacity}})}}}}</default></data>
         <data><label>פלטפורמות</label><default>{{#ifexist:Template:World/{{{id}}}/platforms|{{World/{{{id}}}/platforms}}}}</default></data>
