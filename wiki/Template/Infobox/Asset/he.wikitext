@@ -31,10 +31,10 @@
         <label>תיעוד</label>
     </data>
     <data source="license">
-        <label><span lang="en" dir="ltr" class="mw-content-ltr">License</span></label>
+        <label>רישיון</label>
     </data>
 	<group>
-    	<header><span lang="en" dir="ltr" class="mw-content-ltr">Downloads</span></header>
+    	<header>הורדות</header>
     	<data source="vpm">
 			<label>[[VRChat Package Manager|<span lang="en" dir="ltr" class="mw-content-ltr">VRChat Package Manager</span>]]</label>
             <format>[vcc://vpm/addRepo?url={{{vpm}}} <span lang="en" dir="ltr" class="mw-content-ltr">Add to VCC</span>]</format>
