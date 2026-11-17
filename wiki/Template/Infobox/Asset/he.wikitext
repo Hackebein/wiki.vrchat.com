@@ -14,7 +14,7 @@
         <format>{{#ifeq: {{{status|}}} | maintained
 | מתוחזק באופן פעיל – האסט מתעדכן באופן קבוע עם תכונות חדשות ותיקוני באגים.
 | {{#ifeq: {{{status|}}} | maintenance
-| <span lang="en" dir="ltr" class="mw-content-ltr">Maintenance Mode – Asset only receives critical bug fixes, but no new features.</span>
+| מצב תחזוקה – האסט מקבל רק תיקוני באגים קריטיים, ללא תכונות חדשות.
 | {{#ifeq: {{{status|}}} | deprecated
 | <span lang="en" dir="ltr" class="mw-content-ltr">Deprecated – Asset is no longer recommended for use and may be replaced by a newer alternative.</span>
 | {{#ifeq: {{{status|}}} | abandoned
