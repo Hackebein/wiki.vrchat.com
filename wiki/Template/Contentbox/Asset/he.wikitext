@@ -12,7 +12,7 @@
 | {{#ifeq: {{{status|}}} | maintenance
 | מצב תחזוקה<br><span style="font-size: .7em;">האסט מקבל רק תיקוני באגים קריטיים, ללא תכונות חדשות.</span>
 | {{#ifeq: {{{status|}}} | deprecated
-| <span lang="en" dir="ltr" class="mw-content-ltr">Deprecated</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is no longer recommended for use and may be replaced by a newer alternative.</span></span>
+| הוצא משימוש<br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is no longer recommended for use and may be replaced by a newer alternative.</span></span>
 | {{#ifeq: {{{status|}}} | abandoned
 | <span lang="en" dir="ltr" class="mw-content-ltr">Abandoned</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is no longer maintained and may not be functional.</span></span>
 | {{#ifeq: {{{status|}}} | archived
