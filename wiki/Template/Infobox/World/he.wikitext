@@ -6,8 +6,8 @@
 	<group>
         <data><label>יוצר</label><default>{{#ifexist:Template:World/{{{id}}}/authorName|{{#ifexist:Template:World/{{{id}}}/authorId|[https://vrchat.com/home/user/{{World/{{{id}}}/authorId}} {{World/{{{id}}}/authorName}}]|{{World/{{{id}}}/authorName}}}}}}</default></data>
         <data source="developers"><label>מפתחים</label></data>
-        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Capacity</span></label><default>{{#ifexist:Template:World/{{{id}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id}}}/capacity|{{World/{{{id}}}/recommendedCapacity}} (max {{World/{{{id}}}/capacity}})}}}}</default></data>
-        <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Platforms</span></label><default>{{#ifexist:Template:World/{{{id}}}/platforms|{{World/{{{id}}}/platforms}}}}</default></data>
+        <data><label>קיבולת</label><default>{{#ifexist:Template:World/{{{id}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id}}}/capacity|{{World/{{{id}}}/recommendedCapacity}} (max {{World/{{{id}}}/capacity}})}}}}</default></data>
+        <data><label>פלטפורמות</label><default>{{#ifexist:Template:World/{{{id}}}/platforms|{{World/{{{id}}}/platforms}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Tags</span></label><default>{{#ifexist:Template:World/{{{id}}}/tags|{{World/{{{id}}}/tags}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Listing</span></label><default>{{#ifexist:Template:World/{{{id}}}/listing|{{World/{{{id}}}/listing}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Content</span></label><default>{{#ifexist:Template:World/{{{id}}}/content|{{World/{{{id}}}/content}}}}</default></data>
