@@ -19,7 +19,7 @@
                         <format>{{Date|{{{branch_live_date}}}}}</format>
                     </data>
                     <data source="branch_live_version"><label>גרסה</label></data>
-                    <data source="branch_live_releasenote"><label><span lang="en" dir="ltr" class="mw-content-ltr">Release note</span></label></data>
+                    <data source="branch_live_releasenote"><label>הערות הגרסה</label></data>
                 </section>
             }}
             {{#if: {{{branch_openbeta_date}}} |
