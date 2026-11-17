@@ -18,7 +18,7 @@
 | {{#ifeq: {{{status|}}} | archived
 | בארכיון<br><span style="font-size: .7em;">האסט נשמר למטרות היסטוריות ואינו בשימוש פעיל.</span>
 | {{#ifeq: {{{status|unknown}}} | unknown
-| לא ידוע<br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Status is unknown.</span></span>
+| לא ידוע<br><span style="font-size: .7em;">הסטטוס אינו ידוע.</span>
 <!-- Fallback -->  
 | {{{status|}}}
 }}}}}}}}}}}}</div>{{#if: {{{license|}}}|
