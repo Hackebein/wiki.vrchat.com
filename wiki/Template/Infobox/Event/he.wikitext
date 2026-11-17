@@ -13,7 +13,7 @@
             <format>[[{{{organizer}}}]]{{If not template|[[Category:Events by {{{organizer}}}{{#translation:}}]]}}</format>
         </data>
     	<data source="start">
-        	<label><span lang="en" dir="ltr" class="mw-content-ltr">Start date</span></label>
+        	<label>תאריך התחלה</label>
             <format>{{Date|{{{start}}}}}</format>
         </data>
     	<data source="end">
