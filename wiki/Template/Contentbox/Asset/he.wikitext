@@ -14,7 +14,7 @@
 | {{#ifeq: {{{status|}}} | deprecated
 | הוצא משימוש<br><span style="font-size: .7em;">לא מומלץ עוד להשתמש באסט, וייתכן שהוחלף באלטרנטיבה חדשה יותר.</span>
 | {{#ifeq: {{{status|}}} | abandoned
-| <span lang="en" dir="ltr" class="mw-content-ltr">Abandoned</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is no longer maintained and may not be functional.</span></span>
+| נטוש<br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is no longer maintained and may not be functional.</span></span>
 | {{#ifeq: {{{status|}}} | archived
 | <span lang="en" dir="ltr" class="mw-content-ltr">Archived</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is preserved for historical purposes but is not in active use.</span></span>
 | {{#ifeq: {{{status|unknown}}} | unknown
