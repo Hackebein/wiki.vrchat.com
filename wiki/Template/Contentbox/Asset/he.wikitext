@@ -16,9 +16,9 @@
 | {{#ifeq: {{{status|}}} | abandoned
 | נטוש<br><span style="font-size: .7em;">האסט אינו מתוחזק עוד וייתכן שאינו פועל.</span>
 | {{#ifeq: {{{status|}}} | archived
-| בארכיון<br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is preserved for historical purposes but is not in active use.</span></span>
+| בארכיון<br><span style="font-size: .7em;">האסט נשמר למטרות היסטוריות ואינו בשימוש פעיל.</span>
 | {{#ifeq: {{{status|unknown}}} | unknown
-| <span lang="en" dir="ltr" class="mw-content-ltr">Unknown</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Status is unknown.</span></span>
+| לא ידוע<br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Status is unknown.</span></span>
 <!-- Fallback -->  
 | {{{status|}}}
 }}}}}}}}}}}}</div>{{#if: {{{license|}}}|
