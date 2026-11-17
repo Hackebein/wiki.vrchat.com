@@ -1,0 +1,47 @@
+<noinclude><languages/></noinclude>
+<onlyinclude>
+<infobox type="event" theme="community">
+	<title source="name"/>
+    <image source="image"/>
+    <group>
+    	<data source="event">
+        	<label>אירוע</label>
+            <format>[[{{{event}}}]]{{If not template|[[Category:{{{event}}} Events{{#translation:}}]]}}</format>
+        </data>
+        <data source="organizer">
+        	<label>מארגן</label>
+            <format>[[{{{organizer}}}]]{{If not template|[[Category:Events by {{{organizer}}}{{#translation:}}]]}}</format>
+        </data>
+    	<data source="start">
+        	<label><span lang="en" dir="ltr" class="mw-content-ltr">Start date</span></label>
+            <format>{{Date|{{{start}}}}}</format>
+        </data>
+    	<data source="end">
+        	<label><span lang="en" dir="ltr" class="mw-content-ltr">End date</span></label>
+            <format>{{Date|{{{end}}}}}</format>
+        </data>
+    </group>
+	<group layout="horizontal">
+    	<header><span lang="en" dir="ltr" class="mw-content-ltr">Chronology</span></header>
+    	<data source="previous">
+        	<label><span style="text-align: left; width: 100%; display: block">[[File:Icons_Arrow_Left.png|frameless|12px|link=]] <span lang="en" dir="ltr" class="mw-content-ltr">Previous event</span></span></label>
+        	<format><span style="text-align: left; width: 100%; display: block">[[Special:MyLanguage/{{{previous}}}|{{{previous}}}]]</span></format>
+		</data>
+        <data source="next">
+        	<label><span style="text-align: right; width: 100%; display: block"><span lang="en" dir="ltr" class="mw-content-ltr">Next event</span> [[File:Icons_Arrow_Right.png|frameless|12px|link=]]</span></label>
+        	<format><span style="text-align: right; width: 100%; display: block">[[Special:MyLanguage/{{{next}}}|{{{next}}}]]</span></format>
+		</data>
+    </group>
+</infobox>{{If not template|[[Category:Events{{#translation:}}]]}}
+</onlyinclude>
+{{Infobox/Event
+|name=[[Spookality]] 2024
+|image=[[Spookality_2024_BlogHeader.png]]
+|event=Spookality
+|organizer=VRChat
+|start=October 1, 2024
+|end=October 14, 2024
+|winners_announced=October 21, 2024
+|previous=Spookality 2023
+|next=Spookality 2025}}
+<noinclude>
