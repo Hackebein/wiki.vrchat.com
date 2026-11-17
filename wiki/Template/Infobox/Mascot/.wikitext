@@ -1,8 +1,9 @@
+<languages/>
 <includeonly><infobox type="World" theme="official">
 	<title source="name"><default>{{PAGENAME}}</default></title>
 	<image source="image"><default>[[File:Placeholder.webp|Missing mascot image!]]</default></image>
-	<data source="firstAppearance"><label>First appearance</label><default>Unknown</default></data>
-	<data source="species"><label>Species</label><default>Missing Species!</default></data>
-	<data source="pronouns"><label>Pronouns</label><default>Unknown</default></data>
+	<data source="firstAppearance"><label><translate>First appearance</translate></label><default><translate>Unknown</translate></default></data>
+	<data source="species"><label><translate>Species</translate></label><default><translate>Missing Species!</translate></default></data>
+	<data source="pronouns"><label><translate>Pronouns</translate></label><default><translate>Unknown</translate></default></data>
 </infobox></includeonly>
 <noinclude>{{Documentation}}</noinclude>
