@@ -5,7 +5,7 @@
 	<image><default>{{#ifexist:Media:{{{id}}}_imageUrl.png|[[File:{{{id}}}_imageUrl.png]]}}</default></image>
 	<group>
         <data><label>יוצר</label><default>{{#ifexist:Template:World/{{{id}}}/authorName|{{#ifexist:Template:World/{{{id}}}/authorId|[https://vrchat.com/home/user/{{World/{{{id}}}/authorId}} {{World/{{{id}}}/authorName}}]|{{World/{{{id}}}/authorName}}}}}}</default></data>
-        <data source="developers"><label><span lang="en" dir="ltr" class="mw-content-ltr">Developers</span></label></data>
+        <data source="developers"><label>מפתחים</label></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Capacity</span></label><default>{{#ifexist:Template:World/{{{id}}}/recommendedCapacity|{{#ifexist:Template:World/{{{id}}}/capacity|{{World/{{{id}}}/recommendedCapacity}} (max {{World/{{{id}}}/capacity}})}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Platforms</span></label><default>{{#ifexist:Template:World/{{{id}}}/platforms|{{World/{{{id}}}/platforms}}}}</default></data>
         <data><label><span lang="en" dir="ltr" class="mw-content-ltr">Tags</span></label><default>{{#ifexist:Template:World/{{{id}}}/tags|{{World/{{{id}}}/tags}}}}</default></data>
