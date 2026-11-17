@@ -1,0 +1,47 @@
+<noinclude><languages/></noinclude><onlyinclude><div class="pi-theme-community" style="background: var(--pi-background); overflow: hidden;  margin-bottom: 5px; {{#ifexpr: {{#if: {{{youtube|}}} | 1 | 0 }} OR {{#if: {{{image|}}} | 1 | 0 }} ||display: table-cell; vertical-align:top; width: 50%;}}">
+<div style="display:flex; flex-wrap: wrap; align-items: stretch;">
+{{#ifexpr: {{#if: {{{youtube|}}}|1|0}} OR {{#if: {{{image|}}}|1|0}} |
+<div style="flex-basis: 45%; display: flex;">{{#if: {{{youtube|}}}|{{YouTube|{{{youtube|}}}|100%}}|{{#if: {{{image|}}}|<!-- Image -->|}}}}</div>
+}}
+<div style="flex-grow: 1; display:flex; flex-direction: column; flex-basis: min-content;">
+<div style="background:var(--pi-secondary-background); text-align:center;">{{{title|}}}</div>
+<div style="font-size: 1.75em; line-height: 1.5; text-align: center;">{{{name|Name}}}</div>
+<div style="display: flex; flex-wrap: wrap;">
+<div style="padding: 0.4em 0.5em; flex-basis: 60%; box-sizing: border-box;">'''Status:''' {{#ifeq: {{{status|}}} | maintained
+| <span lang="en" dir="ltr" class="mw-content-ltr">Actively Maintained</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is regularly updated with new features and bug fixes.</span></span>
+| {{#ifeq: {{{status|}}} | maintenance
+| <span lang="en" dir="ltr" class="mw-content-ltr">Maintenance Mode</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset only receives critical bug fixes, but no new features.</span></span>
+| {{#ifeq: {{{status|}}} | deprecated
+| <span lang="en" dir="ltr" class="mw-content-ltr">Deprecated</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is no longer recommended for use and may be replaced by a newer alternative.</span></span>
+| {{#ifeq: {{{status|}}} | abandoned
+| <span lang="en" dir="ltr" class="mw-content-ltr">Abandoned</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is no longer maintained and may not be functional.</span></span>
+| {{#ifeq: {{{status|}}} | archived
+| <span lang="en" dir="ltr" class="mw-content-ltr">Archived</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is preserved for historical purposes but is not in active use.</span></span>
+| {{#ifeq: {{{status|unknown}}} | unknown
+| <span lang="en" dir="ltr" class="mw-content-ltr">Unknown</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Status is unknown.</span></span>
+<!-- Fallback -->  
+| {{{status|}}}
+}}}}}}}}}}}}</div>{{#if: {{{license|}}}|
+<div style="padding: 0.4em 0.5em; flex-basis: 40%; box-sizing: border-box;">'''License:''' {{{license|}}}<br>[vcc://vpm/addRepo?url={{{vpm|}}} Add to VCC]</div>
+}}{{#if:{{{author|}}} |
+<div style="padding: 0.4em 0.5em; flex-basis: 60%; box-sizing: border-box;">{{#if:{{{author_1|}}}
+|<span lang="en" dir="ltr" class="mw-content-ltr">'''Authors''' (ordered by significance)</span>
+|'''<span lang="en" dir="ltr" class="mw-content-ltr">Author</span>'''
+}}:<br>{{Infobox/Asset/Authors|{{{author|}}}|{{{author_1||}}}|{{{author_2||}}}|{{{author_3||}}}}}</div>
+||}}{{#ifexpr: {{#if: {{{docs|}}}|1|0}} OR {{#if: {{{booth|}}}|1|0}} OR {{#if: {{{gumroad|}}}|1|0}} OR {{#if: {{{github|}}}|1|0}} OR {{#if: {{{gitlab|}}}|1|0}} |<div style="padding: 0.4em 0.5em; flex-basis: 40%; box-sizing: border-box;">'''Links:'''{{#if: {{{docs|}}}
+| * [{{{docs}}} Docs]
+}}{{#if: {{{booth|}}}
+| * [https://booth.pm/en/items/{{{booth}}} BOOTH]
+}}{{#if: {{{gumroad|}}}
+| * [https://gum.co/{{{gumroad}}} Gumroad]
+}}{{#if: {{{github|}}}
+| * [https://github.com/{{{github}}} GitHub]
+}}{{#if: {{{gitlab|}}}
+| * [https://gitlab.com/{{{gitlab}}} GitLab]
+}}</div>}}
+</div>
+</div>
+</div>
+</div>
+[[Category:Resources{{#translation:}}]][[Category:Assets{{#translation:}}]]</onlyinclude>
+<noinclude>{{Documentation}}</noinclude>
