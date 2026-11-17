@@ -20,9 +20,9 @@
 | {{#ifeq: {{{status|}}} | abandoned
 | נטוש – האסט אינו מתוחזק עוד וייתכן שאינו פועל.
 | {{#ifeq: {{{status|}}} | archived
-| <span lang="en" dir="ltr" class="mw-content-ltr">Archived – Asset is preserved for historical purposes but is not in active use.</span>
+| בארכיון – האסט נשמר למטרות היסטוריות ואינו בשימוש פעיל.
 | {{#ifeq: {{{status|}}} | unknown
-| <span lang="en" dir="ltr" class="mw-content-ltr">Unknown – Status is unknown.</span>
+| לא ידוע – הסטטוס אינו ידוע.
 <!-- Fallback -->  
 | {{{status}}}}}
 }}}}}}}}}}</format>
