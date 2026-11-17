@@ -16,7 +16,7 @@
 | {{#ifeq: {{{status|}}} | maintenance
 | מצב תחזוקה – האסט מקבל רק תיקוני באגים קריטיים, ללא תכונות חדשות.
 | {{#ifeq: {{{status|}}} | deprecated
-| <span lang="en" dir="ltr" class="mw-content-ltr">Deprecated – Asset is no longer recommended for use and may be replaced by a newer alternative.</span>
+| הוצא משימוש – לא מומלץ עוד להשתמש באסט, וייתכן שהוחלף באלטרנטיבה חדשה יותר.
 | {{#ifeq: {{{status|}}} | abandoned
 | <span lang="en" dir="ltr" class="mw-content-ltr">Abandoned – Asset is no longer maintained and may not be functional.</span>
 | {{#ifeq: {{{status|}}} | archived
