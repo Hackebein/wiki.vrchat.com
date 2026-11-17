@@ -1,0 +1,16 @@
+<noinclude><languages/></noinclude>{{Noticebox
+|template=Noticebox/Update
+|image=4-ThinkRat.webp
+|title={{#switch: {{{type|page}}}
+ |page = יש לעדכן את הדף הזה!
+ |section = <span lang="en" dir="ltr" class="mw-content-ltr">This section needs to be updated!</span>
+}}
+|description={{#switch: {{{type|page}}}
+ |page = <span lang="en" dir="ltr" class="mw-content-ltr">This page includes information which is outdated. Please update this page with current information.</span>
+ |section = <span lang="en" dir="ltr" class="mw-content-ltr">This section includes information which is outdated. Please update this section with current information.</span>
+}}
+<br/>{{Reason|{{{1|}}}|{{{2|}}}}}
+|border-color=#ff9350}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Needs updating{{#translation:}}]]}}</includeonly>
+<noinclude>
+{{Documentation}}
+</noinclude>
