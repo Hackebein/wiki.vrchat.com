@@ -8,7 +8,7 @@
 <div style="font-size: 1.75em; line-height: 1.5; text-align: center;">{{{name|Name}}}</div>
 <div style="display: flex; flex-wrap: wrap;">
 <div style="padding: 0.4em 0.5em; flex-basis: 60%; box-sizing: border-box;">'''Status:''' {{#ifeq: {{{status|}}} | maintained
-| מתוחזק באופן פעיל<br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset is regularly updated with new features and bug fixes.</span></span>
+| מתוחזק באופן פעיל<br><span style="font-size: .7em;">האסט מתעדכן באופן קבוע עם תכונות חדשות ותיקוני באגים.</span>
 | {{#ifeq: {{{status|}}} | maintenance
 | <span lang="en" dir="ltr" class="mw-content-ltr">Maintenance Mode</span><br><span style="font-size: .7em;"><span lang="en" dir="ltr" class="mw-content-ltr">Asset only receives critical bug fixes, but no new features.</span></span>
 | {{#ifeq: {{{status|}}} | deprecated
