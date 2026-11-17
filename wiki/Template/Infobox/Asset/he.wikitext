@@ -6,7 +6,7 @@
         <format>{{YouTube|{{{youtube}}}|100%}}</format>
     </data>
     <data source="author">
-        <label>{{#if:{{{author_1|}}}|יוצרים (לפי סדר חשיבות)|<span lang="en" dir="ltr" class="mw-content-ltr">Author</span>}}</label>
+        <label>{{#if:{{{author_1|}}}|יוצרים (לפי סדר חשיבות)|יוצר}}</label>
         <format>{{Infobox/Asset/Authors|{{{author|}}}|{{{author_1|}}}|{{{author_2|}}}|{{{author_3|}}}}}</format>
     </data>
     <data source="status">
