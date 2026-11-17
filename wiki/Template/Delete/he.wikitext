@@ -2,7 +2,7 @@
 |template=Delete{{#if:{{{variant|}}}|/{{{variant|}}}|}}
 |image=Icons_Delete.png
 |title=דף זה [[Special:MyLanguage/:Category:Pages marked for deletion|סומן למחיקה]].
-|description=דף זה [[Special:MyLanguage/:Category:Pages marked for deletion|סומן למחיקה]].<br/>{{Reason|{{{1|}}}|{{{2|}}}|required=1}}
+|description=דף זה סומן למחיקה, וייתכן ש[[Special:MyLanguage/VRCWiki:Wiki Moderators|מודרטורי הויקי]] יסרקו אותו כדי להסיר את תוכנו או למזג אותו לדף אחר.<br/>{{Reason|{{{1|}}}|{{{2|}}}|required=1}}
 |border-color=#160707
 |background-color=#260707}}{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Pages marked for deletion{{#translation:}}]]}}</includeonly><noinclude>
 {{Documentation}}
