@@ -1,0 +1,10 @@
+<noinclude><languages/></noinclude>{{Noticebox
+|template=Noticebox/unreleased
+|image=CautionTriangle.png
+|title=תוכן שטרם שוחרר או בבטא!
+|description=<span lang="en" dir="ltr" class="mw-content-ltr">This content is currently unreleased or in [[Special:MyLanguage/Open Beta|beta]], be aware it could change!</span><br/>{{Reason|{{{1|}}}|{{{2|}}}}}
+|border-color=#ffbf00}}<includeonly>{{#ifeq: {{{nocat}}} | 1 |  | [[Category:Upcoming{{#translation:}}]]}}</includeonly>
+
+<noinclude>
+{{Documentation}}
+</noinclude>
