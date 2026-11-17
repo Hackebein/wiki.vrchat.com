@@ -18,7 +18,7 @@
 | {{#ifeq: {{{status|}}} | deprecated
 | הוצא משימוש – לא מומלץ עוד להשתמש באסט, וייתכן שהוחלף באלטרנטיבה חדשה יותר.
 | {{#ifeq: {{{status|}}} | abandoned
-| <span lang="en" dir="ltr" class="mw-content-ltr">Abandoned – Asset is no longer maintained and may not be functional.</span>
+| נטוש – האסט אינו מתוחזק עוד וייתכן שאינו פועל.
 | {{#ifeq: {{{status|}}} | archived
 | <span lang="en" dir="ltr" class="mw-content-ltr">Archived – Asset is preserved for historical purposes but is not in active use.</span>
 | {{#ifeq: {{{status|}}} | unknown
