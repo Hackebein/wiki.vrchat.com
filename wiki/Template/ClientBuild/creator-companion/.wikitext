@@ -1,1 +1,10 @@
-{{ClientBuild/creator-companion/version}}
+{{#switch:{{{1|display}}}
+ |version = 2.4.5
+ |buildNumber = 
+ |buildHash = 
+ |unityVersion = 
+ |releaseDate = 
+ |releaseNotes = 
+ |display = 2.4.5
+ |#default =
+}}
