@@ -1,7 +1,7 @@
 <onlyinclude>{{#switch: {{lc:{{{1|}}}}}
 <!-- Set upcoming versions to a blank value if no versions are in development.-->
 <!-- CLIENT --> 
- | live-mainpage = 2026.4.1 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
+ | live-mainpage = {{ClientBuild/live-mainpage|version}}
  | live = {{ClientBuild/windows/version}} <!-- Put the highest value of either windows, android or ios here. -->
  | live-windows = {{ClientBuild/windows/version}}
  | live-android-quest = {{ClientBuild/android-quest/version}}
@@ -9,11 +9,12 @@
  | live-android-pico = {{ClientBuild/android-pico/version}}
  | live-android-steamos = {{ClientBuild/android-steamos/version}}
  | live-android-viveport = {{ClientBuild/android-viveport/version}}
- | live-ios = 2026.4.1 <!-- Put the highest ios value here (ios, ipados). -->
+ | live-ios = {{ClientBuild/ios-app-store|version}}
  | open-beta = {{ClientBuild/open-beta-windows/version}}
  | open-beta-windows = {{ClientBuild/open-beta-windows/version}}
  | open-beta-android-quest = {{ClientBuild/open-beta-android-quest/version}}
- | unity-live = 6000.0.67f1-DWR
+ | unity-live = {{ClientBuild/windows/unityVersion}}
+ | unity-open-beta = {{ClientBuild/open-beta-windows/unityVersion}}
 <!-- SDK -->
  | sdk = {{VPM/com.vrchat.base/Latest_stable_version}}
  | sdk-worlds = {{VPM/com.vrchat.worlds/Latest_stable_version}}

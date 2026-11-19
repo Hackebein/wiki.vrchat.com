@@ -1,7 +1,7 @@
 <onlyinclude>{{#switch: {{lc:{{{1|}}}}}
 <!-- Set upcoming href to a blank value if no versions are in development.-->
 <!-- CLIENT -->
- | live-mainpage = https://docs.vrchat.com/docs/vrchat-202641 <!-- Should be the main version of live (2024.2.3), no "p1, p2, etc" releases. -->
+ | live-mainpage = {{ClientBuild/live-mainpage|releaseNotes}}
  | live = https://docs.vrchat.com/docs/vrchat-202641 <!-- Put the highest value of either windows, android or ios here. -->
  | live-windows = https://docs.vrchat.com/docs/vrchat-202641
  | live-android-quest = https://docs.vrchat.com/docs/vrchat-202641
@@ -9,11 +9,12 @@
  | live-android-pico = https://docs.vrchat.com/docs/vrchat-202641
  | live-android-steamos = https://docs.vrchat.com/docs/vrchat-202633
  | live-android-viveport = https://docs.vrchat.com/docs/vrchat-202641
- | live-ios = https://docs.vrchat.com/docs/vrchat-202641 <!-- Put the highest ios value here (ios, ipados). -->
+ | live-ios = {{ClientBuild/ios-app-store|releaseNotes}}
  | open-beta = https://docs.vrchat.com/docs/vrchat-202641-open-beta
  | open-beta-windows = https://docs.vrchat.com/docs/vrchat-202641-open-beta
  | open-beta-android-quest = https://docs.vrchat.com/docs/vrchat-202641-open-beta
- | unity-live = 
+ | unity-live =
+ | unity-open-beta =
 <!-- SDK -->
  | sdk = https://creators.vrchat.com/releases/release-3-10-5
  | sdk-worlds = https://creators.vrchat.com/releases/release-3-10-5
