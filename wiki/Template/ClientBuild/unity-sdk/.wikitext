@@ -1,1 +1,10 @@
-{{ClientBuild/unity-sdk/version}}
+{{#switch:{{{1|display}}}
+ |version = 2022.3.22f1
+ |buildNumber = 
+ |buildHash = 
+ |unityVersion = 
+ |releaseDate = 
+ |releaseNotes = 
+ |display = 2022.3.22f1
+ |#default =
+}}
