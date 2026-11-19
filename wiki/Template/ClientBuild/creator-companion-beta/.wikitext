@@ -1,1 +1,10 @@
-{{ClientBuild/creator-companion-beta/version}}
+{{#switch:{{{1|display}}}
+ |version = 2.5.0-beta.2
+ |buildNumber = 
+ |buildHash = 
+ |unityVersion = 
+ |releaseDate = 
+ |releaseNotes = 
+ |display = 2.5.0-beta.2
+ |#default =
+}}
