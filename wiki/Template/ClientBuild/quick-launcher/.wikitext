@@ -1,1 +1,10 @@
-{{ClientBuild/quick-launcher/version}}
+{{#switch:{{{1|display}}}
+ |version = 1.6.2
+ |buildNumber = 
+ |buildHash = 
+ |unityVersion = 
+ |releaseDate = 
+ |releaseNotes = 
+ |display = 1.6.2
+ |#default =
+}}
