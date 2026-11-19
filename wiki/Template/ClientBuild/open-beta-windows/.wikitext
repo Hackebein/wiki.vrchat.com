@@ -1,1 +1,10 @@
-{{ClientBuild/open-beta-windows/version}} ({{ClientBuild/open-beta-windows/buildNumber}})
+{{#switch:{{{1|display}}}
+ |version = 2026.4.2
+ |buildNumber = 1950
+ |buildHash = 4a2b57ca98
+ |unityVersion = 6000.0.67f1-DWR
+ |releaseDate = 
+ |releaseNotes = 
+ |display = 2026.4.2 (1950)
+ |#default =
+}}
