@@ -1475,7 +1475,9 @@ Shapes:
 |December 16, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]]
 |''"©2017 PROJECT Lovelive! Sunshine!!"''
-|TBA
+|Default Bone: Head
+Offset:
+* Offset (Slider)
 |-
 |[[File:Accessory Ohara Mari Cat Tail.png|frameless|70x70px]]
 |Ohara Mari Cat Tail
@@ -1483,7 +1485,7 @@ Shapes:
 |December 16, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]]
 |''"©2017 PROJECT Lovelive! Sunshine!!"''
-|TBA
+|Default Bone: Hips
 |-
 |[[File:Accessory Sakurauchi Riko Bunny Ear Headband.png|frameless|70x70px]]
 |Sakurauchi Riko Bunny Ear Headband
@@ -1491,7 +1493,7 @@ Shapes:
 |December 16, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]]
 |''"©2017 PROJECT Lovelive! Sunshine!!"''
-|TBA
+|Default Bone: Head
 |-
 |[[File:Accessory Sakurauchi Riko Back Ribbon.png|frameless|70x70px]]
 |Sakurauchi Riko Back Ribbon
@@ -1499,7 +1501,349 @@ Shapes:
 |December 16, 2026
 |Buy from the [[Special:MyLanguage/Shop|Shop]]
 |''"©2017 PROJECT Lovelive! Sunshine!!"''
-|TBA
+|Default Bone: Spine
+|-
+|[[File:Accessory Tsushima_Yoshiko_Horn_Headband.png|frameless|70x70px]]
+|Tsushima Yoshiko Horn Headband
+|November 16, 2026
+|December 16, 2026
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"©2017 PROJECT Lovelive! Sunshine!!"''
+|Default Bone: Head
+Offset:
+* Offset (Slider)
+|-
+|[[File:Accessory Tsushima_Yoshiko_Devil_Wings.png|frameless|70x70px]]
+|Tsushima Yoshiko Devil Wings
+|November 16, 2026
+|December 16, 2026
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"©2017 PROJECT Lovelive! Sunshine!!"''
+|Default Bone: Chest
+Wings:
+* Offset (Slider)
+* Rotation (Slider)
+|-
+|[[File:Accessory Signal Halo.png|frameless|70x70px]]
+|Signal Halo
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"Halo with tech-style panels, draped cables, and animated lighting."''
+|Default Bone: Head
+Colors:
+* Color 1 (Color)
+* Color 2 (Color)
+* Color 3 (Color)
+* Emission Color (Color)
+* Min Brightness (Slider)
+Audio: 
+* Audio Band (Dropdown)
+** Lows
+** Mids
+** Highs
+|-
+|[[File:Accessory Signal Glasses.png|frameless|70x70px]]
+|Signal Glasses
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"Round glasses with cord details and animated light strips on both temples."''
+|Default Bone: Head
+Colors:
+* Color 1 (Color)
+* Color 2 (Color)
+* Color 3 (Color)
+* Emission Color (Color)
+* Min Brightness (Slider)
+Shapes:
+* Lens Distance (Slider)
+* Frame Width (Slider)
+* Arm Rotation (Slider)
+* Arm Length (Slider)
+* NosePad Toggle (Toggle)
+* NosePad Width (Slider)
+* NosePad Angle (Slider)
+* Cord Toggle (Toggle)
+* Cord Length (Slider)
+Audio: 
+* Audio Band (Dropdown)
+** Lows
+** Mids
+** Highs
+|-
+|[[File:Accessory Signal Lanyard.png|frameless|70x70px]]
+|Signal Lanyard
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''Graphic lanyard with a tech-style tag and a small animated light ring."''
+|Default Bone: Chest
+Colors:
+* Color 1 (Color)
+* Color 2 (Color)
+* Color 3 (Color)
+* Emission Color (Color)
+* Min Brightness (Slider)
+Shapes:
+* Width (Slider)
+* Rear Space (Slider)
+* Angle 1 (Slider)
+* Angle 2 (Slider)
+* Angle 3 (Slider)
+* Angle 4 (Slider)
+Audio: 
+* Audio Band (Dropdown)
+** Lows
+** Mids
+** Highs
+|-
+|[[File:Accessory Signal Bracelet.png|frameless|70x70px]]
+|Signal Bracelet
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"Bracelet with technical graphics ans an animated pixel-style heart."''
+|Default Bone: Left Lower Arm
+Colors:
+* Color 1 (Color)
+* Color 2 (Color)
+* Color 3 (Color)
+* Emission Color (Color)
+* Min Brightness (Slider)
+Audio: 
+* Audio Band (Dropdown)
+** Lows
+** Mids
+** Highs
+|-
+|[[File:Accessory ALICE Morpho Butterfly.png|frameless|70x70px]]
+|ALICE Morpho Butterfly
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"Morpho butterflies with an adjustable count of one to four."''
+|Default Bone: Hips
+Particles:
+* Butterfly Count (1 - 4) (Slider)
+|-
+|[[File:Accessory ALICE Ribbon Eyepatch.png|frameless|70x70px]]
+|ALICE Ribbon Eyepatch
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"A ribbon-and-lace eyepatch with adjustable colors, adjustable fit, and a Leg Fit option.."''
+|Default Bone: Head
+Colors:
+* Eyepatch Color (Color)
+* Lace Color (Color)
+* Ribbon Color (Color)
+* String Color (Color)
+Shapes:
+* Eyepatch Size (Slider)
+* Eyepatch Left - Right (Slider)
+* Eyepatch Up - Down (Slider)
+* Eyepatch Back - Front (Slider)
+* Strap Back - Front (Slider)
+* Strap Down - Up (Slider)
+* Strap Width (Slider)
+* Leg Fit (Not for Head) (Slider)
+* Hide Ribbon (Toggle)
+* Hide Lace (Toggle)
+* Hide Straps (Toggle)
+|-
+|[[File:Accessory ALICE Hug Bear.png|frameless|70x70px]]
+|ALICE Hug Bear
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"A teddy bear companion who always cares about you, with customizable color and adjustable arms and legs."''
+|Default Bone: Left Shoulder
+Colors:
+* Bear Color (Color)
+Shapes:
+* Arms Up (Slider)
+* Arms Length (Slider)
+* Arms Down (Slider)
+|-
+|[[File:Accessory ALICE Ribbon Halo.png|frameless|70x70px]]
+|ALICE Ribbon Halo
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"A ribbon-wrapped halo with customizable ribbon color."''
+|Default Bone: Head
+Colors:
+* Ribbon Color (Color)
+|-
+|[[File:Accessory Bug Sprout.png|frameless|70x70px]]
+|Bug Sprout
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"A parasitic sprout with 4 bugs sitting on top of it"''
+|Default Bone: Head
+Colors:
+* Hue Shift (Slider)
+* Particles (Toggle)
+Boogs:
+* Antonio (Toggle)
+* Simon (Toggle)
+* Timmy :3 (Toggle)
+* Gabriel (Toggle)
+|-
+|[[File:Accessory Duck of Many Talents.png|frameless|70x70px]]
+|Duck of Many Talents
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"Rubber ducky with many hats and glasses"''
+|Default Bone: Left Shoulder
+Beaks:
+* Beak 1 (Toggle)
+* Beak 2 (Toggle)
+* Beak 3 (Toggle)
+Hats: 
+* Cowboy (Toggle)
+* Paper Boat (Toggle)
+* Nurse (Toggle)
+* Fez (Toggle)
+* Cat ears (Toggle)
+* Aviation Goggles (Toggle)
+* Sombrero (Toggle)
+Mics:
+* Cool Glasses (Toggle)
+* Demon Glasses (Toggle)
+* Duckpods (Toggle)
+* Hue Shift (Slider)
+|-
+|[[File:Accessory Dominator Mask.png|frameless|70x70px]]
+|Dominator Mask
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"A cybernetic skull mask"''
+|Default Bone: Head
+Colors:
+* Color 1 (Color)
+* Color 2 (Color)
+* Color 3 (Color)
+Style:
+* Style 2 (Toggle)
+* Particles? (Toggle)
+* Width (Slider)
+* Audiolink? (Toggle)
+* Audio Link Fallback (Toggle)
+|-
+|[[File:Accessory Hat of Unrelenting Joy.png|frameless|70x70px]]
+|Hat of Unrelenting Joy
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"A cap with a propeller on the hat"''
+|Default Bone: Head
+Style:
+* Style Change (Toggle)
+* Base Wideness (Slider)
+* Height (Slider)
+* Hue Shift (Slider)
+Propeller Speed:
+* Propeller Speed Faster (Toggle)
+Audiolink:
+* Audiolink? (Toggle)
+|-
+|[[File:Accessory Basil Bunny.png|frameless|70x70px]]
+|Basil Bunny
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"His ears are silky soft."''
+|Default Bone: Right Hand
+Colors:
+* Bunny Color (Color)
+* Rim Color (Color)
+* Emission Color (Color)
+* Fade (Slider)
+* Emission Strength (Slider)
+Customization:
+* Eye Size (Slider)
+* Stuffing Amount (Slider)
+* Tail Size (Slider)
+* Cotton Tail (Toggle)
+Poses:
+* Sit (Toggle)
+* Hug (Toggle)
+|-
+|[[File:Accessory Cardamom Capybara.png|frameless|70x70px]]
+|Cardamom Capybara
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"The soft-looking capybara seems quite tired."''
+|Default Bone: Right Hand
+Colors:
+* Fur Color (Color)
+* Orange Color (Color)
+* Emission Color (Color)
+* Rim Color (Color)
+* Emission Strength (Slider)
+Customization:
+* Hide Orange (Toggle)
+* Orange Size (Slider)
+* Wavy Ear (Toggle)
+* Stuffing Amount (Slider)
+Pose:
+* Sit (Toggle)
+* Hug (Toggle)
+|-
+|[[File:Accessory Paprika Cat.png|frameless|70x70px]]
+|Paprika Cat
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"A sweet-looking weighted plush."''
+|Default Bone: Right Hand
+Colors:
+* Fur Color (Color)
+* Collar Color (Color)
+* Emission Strength (Slider)
+* Emission Color (Color)
+* Rim Color (Color)
+Customization:
+* Pointy Tail (Slider)
+* Big Eyes (Slider)
+* Hide Collar (Toggle)
+* Pointy Cheeks (Toggle)
+* Stuffing Amount (Slider)
+Pose:
+* Sit (Toggle)
+* Hug (Toggle)
+|-
+|[[File:Accessory Rosemary Wolf.png|frameless|70x70px]]
+|Rosemary Wolf
+|November 20, 2026
+| -
+|Buy from the [[Special:MyLanguage/Shop|Shop]]
+|''"Big nose for sniffin' flowers."''
+|Default Bone: Right Hand
+Colors:
+* Fur 1 Color (Color)
+* Fur 2 Color (Color)
+* Collar Color (Color)
+* Rim Color (Color)
+* Emission Strength (Slider)
+* Emission Color (Color)
+Customization:
+* Ear Size (Slider)
+* Eye Size (Slider)
+* Hide Collar (Toggle)
+* Hide Claws (Toggle)
+* Claw Size (Slider)
+* Stuffing Amount (Slider)
+* Pointy Ears (Toggle)
+Pose:
+* Sit (Toggle)
+* Hug (Toggle)
 |}
 <references group="note"/>
 
