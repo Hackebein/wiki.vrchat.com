@@ -120,17 +120,17 @@ Change [[Special:MyLanguage/HUD|HUD]] detail level.<br>
 |<translate><!--T:59--> On/Off</translate>
 |<translate><!--T:60--> When enabled, VRChat will attempt to match your current finger pose against the standard VRChat hand poses</translate>
 |-
-|<translate><!--T:61--> Pause Avatar Interactions</translate>
+|<translate><!--T:61--> Pause Avatar/Item Interactions</translate>
 |<translate><!--T:62--> On/Off</translate>
-|<translate><!--T:63--> Click to pause ALL interactions, INCLUDING users you've overridden to allow</translate>
+|<translate><!--T:63--> Click to pause ALL interactions on Avatars and Items, INCLUDING users you've overridden to allow</translate>
 |-
-|<translate><!--T:64--> Avatar Allowed to Interact</translate>
+|<translate><!--T:64--> Users Allowed to Interact</translate>
 |<translate><!--T:65--> Everyone, Nobody, Friends</translate>
-|<translate><!--T:66--> Toggle interactions on or off</translate>
+|<translate><!--T:66--> Enable or disable Avatar and Item Interactions for specific groups of users.</translate>
 |-
-|<translate><!--T:67--> Avatar Self Interact</translate>
+|<translate><!--T:67--> Avatar/Item Self Interact</translate>
 |<translate><!--T:68--> On/Off</translate>
-|<translate><!--T:69--> Click to enable/disable Self Interaction</translate>
+|<translate><!--T:69--> Click to enable/disable Self Interaction for the Avatars you wear and the Items you place.</translate>
 |}
 
 <translate>
@@ -474,7 +474,7 @@ These options can be found in the Settings tab of the [[Special:MyLanguage/Main 
 |-
 |<translate><!--T:255--> World</translate>
 |<translate><!--T:256--> 0-100%, On/Off</translate>
-|<translate><!--T:257--> Control the volume of sounds in this world</translate>
+|<translate><!--T:257--> Control the volume of sounds in worlds and loading screens</translate>
 |-
 |<translate><!--T:258--> Voices</translate>
 |<translate><!--T:259--> 0-100%, On/Off</translate>
@@ -712,6 +712,10 @@ The earmuffs shape follows your [camera's/avatar's] rotation</translate>
 |<translate><!--T:386--> Show Mutual Connections</translate>
 |<translate><!--T:387--> On/Off</translate>
 |<translate><!--T:388--> Mutual Connections [enabled/disabled]. You [will/won't] show your mutual Friends & Groups to others when they view your mutual connections.</translate>
+|-
+|<translate>Allow Worlds To Count Friends In Instance</translate>
+|<translate>On/Off</translate>
+|<translate>Allow worlds to count how many friends you have within an instance and be notified when you send and accept friend requests. Details are anonymized.</translate>
 |-
 |<translate><!--T:389--> Allow Discord Friends</translate>
 |<translate><!--T:390--> On/Off</translate>
@@ -988,30 +992,30 @@ Overrides the camera near clip plane.<br>
 |}
 
 <translate>
-==== Avatar Interactions ==== <!--T:547-->
+==== Avatar/Item Interactions ==== <!--T:547-->
 </translate>
 {| class="wikitable"
 !<translate><!--T:548--> Name</translate>
 !<translate><!--T:549--> Values</translate>
 !<translate><!--T:550--> Tooltip</translate>
 |-
-|<translate><!--T:551--> Pause Avatar Interactions</translate>
+|<translate><!--T:551--> Pause Avatar/Item Interactions</translate>
 |<translate><!--T:552--> On/Off</translate>
 |<translate><!--T:553-->
-'''[On]''' Click to resume interactions and activate overrides.<br>
-'''[Off]''' Click to pause ALL interactions, INCLUDING users you've overridden to allow.</translate>
+'''[On]''' Click to resume interactions on Avatars and Items and activate overrides.<br>
+'''[Off]''' Click to pause ALL interactions on Avatars and Items, INCLUDING users you've overridden to allow.</translate>
 |-
-|<translate><!--T:554--> Avatar Allowed to Interact</translate>
+|<translate><!--T:554--> Users Allowed to Interact</translate>
 |<translate><!--T:555--> Nobody, Friends, Everybody</translate>
 |<translate><!--T:556-->
 Toggles interactions on or off.<br>
-'''[Friends]''' Allow Avatar Interactions with friends and users you've overridden to allow, except friends you've overridden to deny.<br>
-'''[Everyone]''' Allow Avatar Interactions with everyone, except users you've overridden to deny.<br>
-'''[Nobody]''' Deny Avatar Interactions with everyone, except users you've overridden to allow.</translate>
+'''[Friends]''' Allow Avatar and Item Interactions with friends and users you've overridden to allow, except friends you've overridden to deny.<br>
+'''[Everyone]''' Allow Avatar and Item Interactions with everyone, except users you've overridden to deny.<br>
+'''[Nobody]''' Deny Avatar and Item Interactions with everyone, except users you've overridden to allow.</translate>
 |-
-|<translate><!--T:557--> Avatar Self Interact</translate>
+|<translate><!--T:557--> Avatar/Item Self Interact</translate>
 |<translate><!--T:558--> On/Off</translate>
-|<translate><!--T:559--> Click to [enable/disable] Self Interaction</translate>
+|<translate><!--T:559--> Click to [enable/disable] Self Interaction for the Avatars you wear and the Items you place.</translate>
 |}
 
 <translate>
@@ -2171,6 +2175,10 @@ All locally cached textures will be deleted.</translate>
 {| class="wikitable"
 ! colspan="2" style="width: 20%;" |<translate><!--T:1170--> Version</translate>
 !<translate><!--T:1171--> Change</translate>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202642 2026.4.2]
+|[https://docs.vrchat.com/docs/vrchat-202642-open-beta 1948]
+|<translate>Added "Allow Worlds To Count Friends In Instance" setting.</translate>
 |-
 |[https://docs.vrchat.com/docs/vrchat-202641 2026.4.1]
 |[https://docs.vrchat.com/docs/vrchat-202641-open-beta 1931]
