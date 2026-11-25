@@ -4,11 +4,18 @@
     <h3 class="mw-headline qm-icon version">המהדורה האחרונה<span style="font-size: 1rem">{{Templatelinks|MainPageVersion}}</span></h3>
 {{Date|{{ClientBuild/live-mainpage|releaseDate}}}} - [{{Version/href|live-mainpage}} VRChat {{Version|live-mainpage}} | גרסה {{Version/Build|live-mainpage}}]
 <!-- These editorial highlights apply to the named release. Mark changed translation units for translation when editing the highlights. -->
-{{#ifeq:{{Version|live-mainpage}}|2026.4.1|
-* [[Special:MyLanguage/Safety Center|מרכז הבטיחות]]
-* מעקב פנים מעודכן
-* תהליך התחברות והרשמה משופר
-* [https://docs.vrchat.com/docs/vrchat-202641 עוד הרבה התאמות, שיפורים ותיקונים!]
+{{#ifeq:{{Version|live-mainpage}}|2026.4.2|
+<div lang="en" dir="ltr" class="mw-content-ltr">
+* UI Refresh
+** [[Special:MyLanguage/Main Menu#Live Now|Live Now]] Overhaul
+** New [[Special:MyLanguage/Instances|Instance Creation]]
+** Updated [[Special:MyLanguage/Quick Menu#Tabs|Quick Menu "Here"]] tab 
+** New default [[Special:MyLanguage/Inventory#Cosmetics|UI theme]]
+* [[Special:MyLanguage/Instances#Instance_owner|Public Instance Ownership]]
+* [[Special:MyLanguage/Worlds#Ratings|World Upvotes]]
+* [[Special:MyLanguage/Controls#Desktop|Direct Arm Control]]
+* [https://docs.vrchat.com/docs/vrchat-202642 Many more tweaks, improvements and fixes!]
+</div>
 }}
 </div>
 </onlyinclude>
