@@ -1,0 +1,2301 @@
+<languages/>
+{{Noticebox/Official}}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''Settings''' are preferences to customize your VRChat experience. This article provides a verbose explanation for the amount of settings in VRChat. Menus for settings can be found in the [[Special:MyLanguage/Quick Menu|Quick Menu]], [[Special:MyLanguage/Main Menu|Main Menu]], and [[Special:MyLanguage/Action Menu|Action Menu]].
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Action Menu ==
+The settings wheel in the [[Special:MyLanguage/Action Menu|Action Menu]] provide preferences only for the Action Menu itself.
+</div>
+{| class="wikitable"
+|+
+!Nome
+!Valori
+|-
+|Grandezza Menù
+|0-100%
+|-
+|Opacità Menù
+|0-100%
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">On Hud</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">HUD Position</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Up, Down, Left, Right</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Flick Select</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">One Handed Movement</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Quick Menu ==
+These options can be found in the [[Special:MyLanguage/Quick Menu|Quick Menu]], providing coverage for Sharing, UI Elements, Your Avatar, Avatar Culling, [[Special:MyLanguage/Chatbox|Chatbox]], Display and Visual Adjustments, Comfort, Tracking & IK, Advanced Settings and Debugging.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Sharing ===
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Direct Sharing</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow users to [[Special:MyLanguage/Sharing|share]] content with you directly</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Accept Sharing From</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Everyone, Friends</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Everyone]''' Allow everyone to share content with you directly
+'''[Friends]''' Allow friends to share content with you directly
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Pedestal Sharing</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow users to share content with you via pedestals</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">View Pedestals From</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Everyone, Friends</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Everyone]''' Allow everyone to share content with you via pedestals
+'''[Friends]''' Allow friends to share content with you via pedestals
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== UI Elements ===
+</div>
+{| class="wikitable"
+!Nome
+!Valori
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Nameplate Visibility</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Standard, Icon, Hidden</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Set [[Special:MyLanguage/Nameplates|nameplate]] visibility.<br>
+'''[Standard]''' Show nameplate above every user<br>
+'''[Icon]''' Only show icons above each user<br>
+'''[Hidden]''' Don't show nameplates or icons
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Group Banner</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to show/hide group nameplate banners</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Additional Info On Nameplates</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to show/hide expanded information on nameplates when the Quick Menu is open. When combined with Nameplate Visibility Hidden, disables nameplates completely, even when opening menu.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">HUD Detail Level</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Off, Minimal, Verbose</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change [[Special:MyLanguage/HUD|HUD]] detail level.<br>
+'''[Verbose]''' Show notification popups<br>
+'''[Minimal]''' Only show icons<br>
+'''[Off]''' Disable HUD
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Your Avatar ===
+''See also [[Special:MyLanguage/Avatars|Avatars]] for more detailed information.''
+</div>
+{| class="wikitable"
+!Nome
+!Valori
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Avatar Cloning</span>
+|Abilitato/Disabilitato
+|Permette agli altri utenti di clonare l'avatar dell'utente che lo abilita
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Auto Disable Avatar Cloning</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to turn on/off automatically disabling avatar cloning upon entering a world</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Gestures</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When enabled, VRChat will attempt to match your current finger pose against the standard VRChat hand poses</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Pause Avatar Interactions</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to pause ALL interactions, INCLUDING users you've overridden to allow</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Allowed to Interact</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Everyone, Nobody, Friends</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle interactions on or off</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Self Interact</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to enable/disable Self Interaction</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Avatar Culling ===
+</div>
+{| class="wikitable"
+!Nome
+!Valori
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Hide Beyond</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-50m, On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Improve performance by reducing the number of avatars displayed</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Nearest</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-80, On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Improve performance by reducing the number of avatars displayed</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Always Show Friend Avatars</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle to always show friend avatars</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow override with "Show Avatar"</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow selected user's avatars to override culling settings</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Chatbox ===
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Function</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Chatbox, New message</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Local Chatbox Visibility</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mine, Friends, Everyone</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change chatbox visibility<br>
+'''[Mine]''' Only show your own chatbox<br>
+'''[Friends]''' Show chatboxes only from friends<br>
+'''[Everyone]''' Show chatboxes for everyone
+</div>
+|-
+| colspan="3" style="text-align:center;" |<span lang="en" dir="ltr" class="mw-content-ltr">Show Advanced Settings</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Position</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Above, Forward</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set chatbox to [above head/forward] position</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Height</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox height</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Size</span>
+| 50-150%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox size</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Opacity</span>
+|25-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox opacity</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Display Duration</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">2-60 seconds</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox display duration</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Notification Volume</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off, 0-100%</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox notification volume</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Own Chatbox</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show or hide your own chatbox</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Send Text Automatically</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle chatbox auto send</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Display and Visual Adjustments ===
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Screen Brightness</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adjust screen brightness</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Bloom Intensity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Bloom multiplier. Set to 0% to disable bloom</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reduce Menu Animations</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reduce Menu Animations is [enabled/disabled], click to [enable additional menu animations/reduce menu animations]</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Color Blind Filters ===
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Color Filters</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable/Disable color filters and their settings</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Filter Intensity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change the intensity of the current filter</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Apply To World</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Apply Filter to World</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Color Filter</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT, Dog</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Select the color filter you would like to apply<br>
+'''[None]''' No filter selected<br>
+'''[Protanopia]''' Red / Green Filter<br>
+'''[Deuteranopia]''' Green / Red Filter<br>
+'''[Tritanopia]''' Blue / Yellow Filter<br>
+'''[Grayscale]''' Monochrome Filter<br>
+'''[Retro LUT]''' I Live In The Past Filter<br>
+'''[Dog]''' Dog Filter
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Simulate Color Blindness</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Simulate the selected color blindness option, rather than correcting for it.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Comfort ===
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Holoport Locomotion ''[VR]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable third person locomotion (Holoport)</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Locomotion Tunneling ''[VR]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">None, Low, High</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Choose movement style and tunneling to reduce motion sickness.<br>
+'''[None]''' Standard movement with no tunneling<br>
+'''[Low]''' Add a light tunneling effect while moving<br>
+'''[High]''' Add a heavy tunneling effect when moving
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Responsive Menu</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[On]''' Responsive Menu is enabled, click to keep Main Menu in its default position.
+'''[Off]''' Responsive Menu is disabled, click to always spawn the main menu in your eyeline.
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Tracking & IK ===
+</div>
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">[VR Only]</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">User Real Height</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">(3'0"-8'0" ft)/({{formatnum:0.81}}m-{{formatnum:2.44}}m)</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">User Real Height should always be set to your height in real life. It's important for properly matching your avatar with your body.</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Measure Height</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Automatically set your real height from your headset's standing position (must stand up and look straight ahead, cannot be used while seated)</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Measurement</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Arm Span, Height</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Toggle avatar measurement between height-based and arm-based
+'''[Arm Span]''' Arm Span mode will fit your avatar to your real body by matching arm length.
+'''[Height]''' Height mode will fit your avatar to your real body by matching height.
+</div>
+|}
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">[VR Only] [At least one full body tracker must be on]</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow FullBody Tracking FBT</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Full body tracking is now [enabled/disabled]</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Calibrate FBT</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Calibrate full body tracking. Stand in T-pose and pull both triggers to lock-in.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">FBT Spine Mode</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Lock Head, Lock Hip, Lock Both</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Changes to FBT Spine Mode will alter how your spine IK behaves with full body tracking.<br>
+'''[Lock Hip]''' Strict hip tracking. Avoids odd spine angles by allowing the head to drift.<br>
+'''[Lock Head]''' Strict head tracking. Avoids odd spine angles by allowing the hips to drift.<br>
+'''[Lock Both]''' Doesn't allow the head or hip to drift.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">FBT Locomotion Animation</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When enabled, your avatar will use its built-in animations for walking, overriding your leg tracking when moving via controllers.</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Auto-center OSC Trackers</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Auto-center OSC trackers. Use when head position and rotation is not being sent in over OSC.</span>
+|-
+| colspan="3" style="text-align:center;" |<span lang="en" dir="ltr" class="mw-content-ltr">Show Advanced Settings</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Adjust FBT: Move & Rotate</span>
+| rowspan="3" |<span lang="en" dir="ltr" class="mw-content-ltr">Starts Adjust FBT mode, allowing you to grab parts of your avatar to reposition calibration by hand. Adjusts [both position and rotation/position only/rotation only]. Re-open the quickmenu to complete.</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Adjust FBT: Move Only</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Adjust FBT: Rotate Only</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Adjust FBT: Reset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Resets the current FBT adjustment back to what was measured during Calibrate FBT</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Advanced Settings ===
+</div>
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">[VR Only]</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Horizon Adjust</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[On]''' Disallow usage of the Horizon Adjust feature
+'''[Off]''' Allow using the Horizon Adjust feature
+</div>
+
+
+Horizon Adjust may cause EXTREME VERTIGO! It's recommended to combine with other comfort options such as Holoport, tunneling, or comfort turning. Immediately discontinue use at first sign of discomfort. Use at your own risk.
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Horizon Adjust Snap</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Horizion adjustment snap mode is [enabled/disabled], click to [enable/disable]. Snap mode will lock the horizon adjustment offset to increments of 90 degrees.</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Set Horizon Adjust</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adjust the horizon so that current view direction is forward.</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Reset Horizon</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset horizon adjustment</span>
+|-
+| colspan="2" |<span lang="en" dir="ltr" class="mw-content-ltr">Set Standing Height</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set your current head height as full standing height</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Debug ===
+''See also [[Special:MyLanguage/Debug Menu|Debug Menu]] for more detailed information.''
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">FPS</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Varies</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Ping</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Varies</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Build</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Varies</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Logging</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Full, Errors Only, Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Controls whether to write debug messages to a log file<br>
+'''[Full]''' Log all debug and error messages<br>
+'''[Errors Only]''' Log error messages only<br>
+'''[Off]''' Do not log any debug or error messages
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Pin FPS and Ping</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[On]''' Stats are enabled, click to disable the FPS and Ping display<br>
+'''[Off]''' Stats are disabled, click to pin the FPS and Ping to the top of the Quick Menu
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Report Bug</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Report Bug</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Logs when an issue is experienced<br>
+Click 'Continue' to create a timestamp in your active output log that can be included with your Bug Report ([http://feedback.vrchat.com/bug-reports feedback.vrchat.com]) or Support Ticket.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset Hand Tracking tutorial</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset Hand Tracking tutorial</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle Debug UI</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle Debug UI</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Shows or hides the debug UI panel.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== Main Menu ==
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+These options can be found in the Settings tab of the [[Special:MyLanguage/Main Menu|Main Menu]]. They provide coverage for Audio & Voice, Comfort & Safety, Shield Levels, Graphics, [[Special:MyLanguage/Avatars|Avatars]], [[Special:MyLanguage/Mirrors|Mirrors]], User Interface, [[Special:MyLanguage/Controls|Controls]], Tracking & IK, Accessibility, and Debugging.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Audio & Voice ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Audio Volume ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Master</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-125%, On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Control the master volume for all audio</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">UI/Menu</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-100%, On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Control the menu sound volume</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">World</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-100%, On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Control the volume of sounds in this world</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Voices</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-100%, On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Control the volume of other user's voices</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatars</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-100%, On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Control the volume of audio emitted from avatars</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Items/Effects</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-100%, On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Control the volume of audio emitted from items, warp effects, gift drops, and portals</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Other User's Volume</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset the volume of other users</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Microphone ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change Device</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Microphone List</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change your current audio input device</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mic Output Volume</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Control the volume of your microphone</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Noise Suppression</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Background Noise Suppression is enabled/disabled, click to disable/enable</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mic Activation Threshold</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adjust the point where your microphone picks up your voice</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Test Microphone</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Start Test, New Test, Stop Playback, Play Again</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Start Test/New Test, Stop Playback]''' Test how you sound to others by recording a short clip from your microphone and then playing back what you said.
+'''[Play Again]''' Play the last microphone test clip again.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Microphone Behaviour</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Push to Talk, Always Off, Always On, Toggle</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change how the microphone is activated.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">World Join Behaviour</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Default On, Default Off, Keep Last State</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change how your mic behaves when joining worlds</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mic Icon Position</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Top Right, Both, Bottom Left</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change where microphone icons appear on your HUD<br>
+'''[Top Right]''' Display a microphone icon at the top right of your screen<br>
+'''[Both]''' Display a microphone icon at the bottom left and top right of your screen<br>
+'''Bottom Left]''' Display a microphone icon at the bottom left of your screen
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mic Icon Visibility</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On activity, When Muted, Always On</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change when the microphone icon on your HUD is visible.<br>
+'''[Always On]''' Microphone icon always stays visible<br>
+'''[On Activity]''' Microphone icon fades in when you speak<br>
+'''[When Muted]''' Microphone icon only fades in when you speak while muted
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mic Opacity</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-100%</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change Mic Opacity</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Earmuff Mode ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Earmuff Mode</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reduce the volume of others outside of a distance.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Distance</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">{{formatnum:0.0}}-{{formatnum:10.0}}m</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reduce the volume of users outside of this range.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Falloff Distance</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">{{formatnum:0.0}}-{{formatnum:10.0}}m</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The distance at which user volumes are fully reduced.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Outside Volume</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">The lowest volume user voice will be reduced to.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Always Show Visual Aide</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[On]''' Showing Earmuff radius at all times. Toggle to only show when using sliders.<br>
+'''[Off]''' Only showing the Earmuff effect radius when using the sliders, click to show at all times
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Include Avatar Audio</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[On]''' Including Avatar Audio, click to disable<br>
+'''[Off]''' Include Avatar Audio disabled, click to enable
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Forward Cone</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">The slider adjusts the shape of your earmuffs to favor users in front of you</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Falloff Forward Shift</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adjust the amount of forward offset that the directionality property applies to you earmuffs falloff zone</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Shape Follows Rotation of</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Camera, Avatar</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Sets the type for following camera<br>
+The earmuffs shape follows your [camera's/avatar's] rotation
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Lock Shape Rotation</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">[Unlock/Lock] the earmuff shape's rotation</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Comfort & Safety ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Comfort ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Comfort Turning ''[VR]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Rotate your view by snapping which can help with motion sickness</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Personal Space</span>
+
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatars disappear if they get too close, friends are not affected</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">AFK Detection</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Sharing ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Direct Sharing</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow users to [[Special:MyLanguage/VRChat+#Sharing|share]] content with you directly</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Accept Sharing From</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Everyone, Friends</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Everyone]''' Allow everyone to share content with you directly
+'''[Friends]''' Allow friends to share content with you directly
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Pedestal Sharing</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow users to share content with you via pedestals</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">View Pedestals From</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Everyone, Friends</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Everyone]''' Allow everyone to share content with you via pedestals
+'''[Friends]''' Allow friends to share content with you via pedestals
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Prints ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">View Prints</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow users to share photos as prints</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">View Prints From</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Everyone, Friends</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Everyone]''' Allow everyone to spawn prints
+'''[Friends]''' Allow friends to spawn prints
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Safety ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Streamer Mode</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Friend requests will be auto-declined, user images and thumbnails will be disabled, and your location will be hidden<ref group="note">Streamer mode stays enabled after game restarts.</ref></span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Community Labs</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show [[Special:MyLanguage/Community Labs|Community Labs]] in the World and Search pages</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Untrusted URLs</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Worlds can load content remotely from URLs that are not [[Special:MyLanguage/Trusted_URLs|trusted]].</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Language Filter</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle chatbox language filter</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Portal Prompt</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Portal Prompt is [enabled/disabled], click to [disable/enable]</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Mutual Connections</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mutual Connections [enabled/disabled]. You [will/won't] show your mutual Friends & Groups to others when they view your mutual connections.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Discord Friends</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Discord Friends [enabled/disabled]</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Portal Mode</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Drop in Front, Place Manually</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Choose the portal mode.<br>
+Enables Portal [Placement/Drop]
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Home Instance Type</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Invite, Invite+, Friends, Friends+, Public</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Set your home instance type.<br>
+Set your home instance to [Invite/Invite+/Friends/Friends+/Public]
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Home Region</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Automatic, US East, US West, Europe, Japan</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Set the [[Special:MyLanguage/Worlds#Regions|region]] used by your home instance.<br>
+'''[Automatic]''' Let VRChat choose the best home region for you.<br>
+Set your home instance region to [US West/US East/Europe/Japan]
+</div>
+|}
+<references group="note" />
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Content Gating ====
+''See also [[Special:MyLanguage/Content Gating|Content Gating]] for more detailed information.''
+</div>
+
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Filter Sexually Suggestive Content</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable to hide content labeled with this Content Warning.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Filter Adult Language and Themes</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable to hide content labeled with this Content Warning.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Filter Graphic Violence</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable to hide content labeled with this Content Warning.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Filter Excessive Gore</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable to hide content labeled with this Content Warning.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Filter Extreme Horror</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable to hide content labeled with this Content Warning.</span>
+|}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''''*Footnote regarding Content Gating:''''' Content Gating keeps you safe by filtering content you don't want to see. VRChat has User Generated Content and relies on its creators to label it appropriately. If you see something that you feel has not been labeled correctly, please navigate to the content details page and file an in-game report so that VRChat's Trust & Safety team can investigate.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Shield Levels ===
+''See also [[Special:MyLanguage/Trust and Safety#Safety_Shield|Trust and Safety]] for more detailed information.''
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change Shield Level</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Maximum, Normal, None, Custom</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Maximum]''' This is the safest mode. It turns off most avatar features for all user Trust Ranks.
+<br />'''[Normal]''' Turns off avatar features for less trusted users and enables more features for trusted users.
+<br />'''[None]''' See almost all avatar features on all users, excluding nuisance users. WARNING: This mode is not recommended, as it exposes you to everything on all users!
+<br />'''[Custom]''' Customize which avatar features you want to see for each user Trust Rank.
+</div>
+|}
+
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">Visitor |Visitor | New User | User | Known User| Trusted | Friends | Safe Mode<br />"Custom" Shield Level is allowed to change values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Voice</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Voice mutes or unmutes audio that emits from a user's microphone input for the combined Safety Mode and User
+Trust Rank.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar shows or hides the avatar for the combined Safety Mode and User Trust Rank.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Photo Icons</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Photo Icons shows or hides the custom Photo Icons for the combined Safety Mode and User Trust Rank.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Custom Images</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Custom Images shows or hides the custom Emojis, Sharing, Prints and Stickers for the combined Safety Mode and
+User Trust Rank.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Drone</span>
+
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Drone hides or reveals a user's drone for the combined Safetry Mode and User Trust Rank.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Audio</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Audio mutes or unmutes audio emitted from a user's avatar for the combined Safety Mode and User Trust Rank.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Lights & Particles</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Particles and Lights turns on or off particles and lights on a user's avatar for the combined Safety Mode and User
+Trust Rank. Particles are components that shoot out effects, like graphics, fire, etc.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Shaders</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Shaders turns on or off shaders on a user's avatar for the combined Safety Mode and User Trust Rank.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Custom Animations</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Custom Animations turns on or off custom animations on a user's avatar for the combined Safety Mode and User
+Trust Rank.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Animated Emojis</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Animated Emoji allows Custom and Premium Emoji to be animated for the combined Safety Mode and User Trust Rank.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Graphics ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Basic ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Screen Resolution</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">''(Values differ depending on user's monitor resolution)''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set screen resolution</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Fullscreen</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set full screen</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Quality Preset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Low, Medium, High, Custom</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Current graphics quality preset</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Anti-Aliasing</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Disabled, X2, X4, X8</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Current anti-aliasing quality</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mirror Resolution</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Quarter, Half, Full, Unlimited</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Set the mirror resolution.<br>
+Set mirror resolution to [quarter/half/full/unlimited] mode
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Shadows</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Low, Medium, High</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set the shadow quality</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Level of Detail</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Low, Medium, High</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Level of Detail (LOD) Quality</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Third Person View</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable Third Person View. See VRChat from behind your avatar! Toggle with F5, freely rotate with TAB, and adjust distance using mouse-wheel.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Third Person View Distance</span>
+|10 - 100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Sets the maximum distance the third person viewpoint can extend away from your avatar when third person view is active</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Third Person View Horizontal</span>
+| -100 - 100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Sets the left/right position for the third person viewpoint relative to your avatar</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Third Person View Vertical</span>
+| -100 - 100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Sets the up/down position for the third person viewpoint relative to your avatar</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Vertical Field of View</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">50-100°, Reset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change the field of view</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Portrait FOV ''[Mobile]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">50-100°, Reset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change the field of view when in portrait mode</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Landscape FOV ''[Mobile]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">50-100°, Reset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change the field of view when in landscape mode</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">FPS</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Capped, VSync, Unlimited</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Controls the max fps for the system</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">FPS Limit</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">''[Mobile]'' 20, 30, 60; ''[PC]'' 10-240; Reset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set a maximum frame rate.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Advanced ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Particle Physics Quality</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Low, Medium, High</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set the particle physics quality</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Particle Limiter</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Limit avatar particles.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Pixel Light Count</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Off, Low, Medium, High</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set pixel light count to [off/low/medium/high]</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Forced Camera Near Distance</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Off, Dynamic, Forced</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Overrides the camera near clip plane.<br>
+'''[OFF]''' Won't override the near clip value and will use the world's camera settings.<br>
+'''[Dynamic Mode]''' Will override camera near clip to 1mm view distance ow lowest possible with Unity's limits in regard to world far view distance. Resets at end of session.<br>
+'''[Forced Mode]''' Camera near distance will always be 1mm. WARNING: This can result in significant render issues in worlds with a high view distance. Resets on world change.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">DPI Scale ''[Mobile]''</span>
+|15-50%
+|<span lang="en" dir="ltr" class="mw-content-ltr">The amount we scale down the devices DPI ''[sic]''</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Avatars ===
+''See also [[Special:MyLanguage/Avatars|Avatars]] for more detailed information.''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Your Avatar ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Gestures</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When enabled, VRChat will attempt to match your current finger pose against the standard VRChat hand poses.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Avatar Cloning</span>
+
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allows other users to clone your current avatar</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Auto Disable Avatar Cloning</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to turn [on/off] automatically disabling avatar cloning upon entering a world</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Use Impostor as Fallback</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Choose whether or not to use [[Special:MyLanguage/Impostors|Impostors]] as a fallback avatar (when available)</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Avatar Interactions ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Pause Avatar Interactions</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[On]''' Click to resume interactions and activate overrides.<br>
+'''[Off]''' Click to pause ALL interactions, INCLUDING users you've overridden to allow.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Allowed to Interact</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Nobody, Friends, Everybody</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Toggles interactions on or off.<br>
+'''[Friends]''' Allow Avatar Interactions with friends and users you've overridden to allow, except friends you've overridden to deny.<br>
+'''[Everyone]''' Allow Avatar Interactions with everyone, except users you've overridden to deny.<br>
+'''[Nobody]''' Deny Avatar Interactions with everyone, except users you've overridden to allow.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Self Interact</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to [enable/disable] Self Interaction</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Avatar Optimization ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Block Poorly Optimized Avatars</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+''[Mobile]'' Very Poor, Poor and Below
+''[PC]'' Very Poor, Poor and Below, Don't Block
+</div>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Set what avatars to block.<br>'''[Don't Block]''' Avatars won't be hidden based on optimization
+'''[Very Poor]''' Very Poor avatars will automatically be hidden
+</div>
+
+'''[Poor and Below]''' Poor and worse avatars will automatically be hidden
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Maximum Download Size</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+''[Mobile]'' 0-10MB
+''[PC]'' 0-200MB
+</div>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set the maximum download size for slower connections or to save bandwidth</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Maximum Uncompressed Size</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+''[Mobile]'' 0-40MB
+''[PC]'' 0-500MB
+</div>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set the maximum uncompressed size to prevent heavy avatars from loading.</span>
+|}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Avatar Culling ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Hide Avatar Beyond</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">5-50m, On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Improve performance by reducing the number of avatars displayed.<br>
+Enable or disable limit.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Maximum Shown Avatars</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">0-80, On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Improve performance by reducing the number of avatars displayed.<br>
+Enable or disable limit.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Always Show Friend Avatars</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle to always show friend avatars.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow override with "Show Avatar"</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow selected user's settings to override culling settings.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== OSC ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">OSC</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle [[Special:MyLanguage/OSC|OpenSoundControl]] on or off.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">OSC Debug Panel</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Open a screen which will float in front of you and visualize any incoming OSC.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset Config</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset the OSC configuration.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Mirrors ===
+''See also [[Special:MyLanguage/Mirrors|Mirrors]] for more detailed information.''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Personal Mirror ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Personal Mirror</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Turn the personal mirror on or off.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Grabbable</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allows grabbing the mirror to move its world location.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Tracking</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">World, Head, Playspace</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Select the object which the mirror is anchored.<br>
+'''[World]''' Mirror tracks world<br>
+'''[Head]''' Mirror tracks user's head<br>
+'''[Playspace]''' Mirror tracks playspace
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Opacity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set the opacity. [0%-100%]</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Immersive Move</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable movement controls when grabbing the mirror.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mirror Snap</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The mirror will snap to specific angles when enabled.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Calibration Mirror</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When enabled shows a mirror while calibrating ''[sic]''</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Border</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle a border to the mirror.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Other Players</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When enabled, your personal mirror will reflect other players.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show World</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When enabled, your personal mirror will reflect the world.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show UI</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When enabled, your personal mirror will reflect the user interface.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset Personal Mirror</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset</span>
+
+|<span lang="en" dir="ltr" class="mw-content-ltr">Resets all personal mirror changes</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Face Mirror ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Face Mirror</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Turn the face mirror on or off.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Opacity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set the opacity. [0%-100%]</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Size</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adjust the size of the face mirror.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Zoom</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adjust the zoom of the face mirror.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset Face Mirror</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Resets all face mirror changes</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Face Mirror Spout Stream</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow external applications to access your Face Mirror as a Spout stream. The stream stays active whether Face Mirror is on or off.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== User Interface ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== General UI Settings ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Menu Tooltips</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Display tooltips under the menu.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Interactive Object Tooltips</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Highlight Only, Tether, Tooltip, Controller</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change how tooltips on interactive objects in the world appear.
+'''[Highlight Only]''' Only show the outline.
+'''[Tether]''' Show the outline and tether line.
+'''[Tooltip]''' Show the outline, tooltip and tether line.
+'''[Controller]''' Show the outline, tooltip, tether line and controller.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Go Button On Load</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show a "Go!" button before entering the world when it's ready</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Slider-Snapping</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">[Enable/Disable] snapping to fixed increments when adjusting sliders</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Header Click Scrolls to Top of Page</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When enabled, clicking menu headers will scroll pages to the top</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Wing Persistence</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When persistence is [enabled/disabled]. Quick menu and main menu [share the same/each have their own unique] wing state. Click to [enable/disable] persistence.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Preferred Language</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">See Tooltip</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">English, French, Spanish, Italian, Korean, Deutsch, Japanese, Polski, Russian, Portuguese (Brazil), Simplified Chinese, Traditional Chinese, toki pona</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">AFK Detection</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Detect if you've got your headset off (or in Desktop, press the End key) so your avatar can play a special "AFK" animation while you're away</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Always Show VRChat Soft Keyboard</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show soft keyboard even when hardware keyboard is present.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">One Handed Movement ''[VR]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle one handed controls for avatar movement.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Dates and Time ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Hour Mode</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">12 Hours, 24 Hours, System Default</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Changes between 12 and 24 hour clock<br>
+'''[12 Hours]''' Change the clock to 12 hour mode
+</div>
+
+'''[24 Hours]''' Change the clock to 24 hour mode
+
+'''[System Default]''' Change the clock to the mode your operative system uses
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Preferred Timezone</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">System Default, and 141 others</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change the timezone used in dates and times calculations</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Nameplate ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Value</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Nameplate Visibility</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Standard, Icon, Hidden</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Set nameplate visibility.<br>
+'''[Standard]''' Show nameplate above every user<br>
+'''[Icon]''' Only show icons above each user<br>
+'''[Hidden]''' Don't show nameplates or icons
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Nameplate Scale</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Tiny, Small, Normal, Medium, Large</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change the size of nameplates.<br>
+Shows [tiny/small/normal/medium/large] nameplates
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Nameplate Opacity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change the opacity of the nameplates</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Group Banner</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to [show/hide] group nameplate banners</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Additional Info on Nameplates</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Additional Info is [enabled/disabled], click to [stop showing/show] expanded information on nameplates when the Quick Menu is open</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Desktop HUD ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Value</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset HUD Settings to Default</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Resets all HUD settings to their defaults</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Hide HUD</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Hides the HUD panels. Notifications and Face Mirror are not affected.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">HUD Style</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Full, Compact, Minimal</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change HUD style.<br>
+'''[Full]''' Show all HUD icons and key binding indicators.<br>
+'''[Compact]''' Remove the key binding indicators and only show icons on the HUD.<br>
+'''[Minimal]''' Collapse the HUD down to a minimal set of icons.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Contextual Controls</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggles contextual tooltips that may appear when hovering an object.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Selection Prompt</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Hides the prompt shown when a user or object can be selected.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">HUD Opacity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Changes the overall opacity of the HUD</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">HUD Background Opacity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Changes the opacity of the background window on HUD elements.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== HUD ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">HUD Detail Level</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Off, Minimal, Verbose</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change HUD detail level.<br>
+'''[Verbose]''' Show notification popups<br>
+'''[Minimal]''' Only show icons<br>
+'''[Off]''' Disable HUD
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Play Notification Audio</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Play audio when you receive a new notification</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Gesture Icons</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Gesture icons are [enabled/disabled], click to [disable/enable] them on HUD</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">HUD Smoothing ''[VR]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle HUD Smoothing</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">HUD Opacity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change HUD Opacity</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mic Opacity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change Mic Opacity</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mic Toggle Volume</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change Mic Toggle Volume</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Experimental: Use Outline Microphone Icon ''[VR]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Experimental: Use an outline-only microphone icon on the HUD. Force-enabled on certain OLED headsets to avoid burn-in.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Experimental: Use Pixel Shifting HUD ''[VR]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Experimental: Use pixel-shifting to avoid OLED burn-in. HUD elements will move in a circle very slowly. Force-enabled on certain OLED headsets to avoid burn-in.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== HUD Verbose Mode Settings ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Join Notifications</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show user join notifications</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Leave Notifications</span>
+
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show user leave notifications</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Portal Notifications</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show portal created notifications</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Only Show Friends Join/Leave/Portal Notifications</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Only show join/leave/portal notifications for friends</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Invites</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show the invite notification popup</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Friend Requests</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show the friend request notification popup</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Notification Position</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Center, Right, Left</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Choose the anchor position for the notification popups</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Chatbox ====
+Chatbox settings are also available in the Accessibility row.
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Local Chatbox Visibility</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mine, Friends, Everyone</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change chatbox visibility<br>
+'''[Mine]''' Only show your own chatbox<br>
+'''[Friends]''' Show chatboxes only from friends<br>
+'''[Everyone]''' Show chatboxes for everyone
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Position</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Above, Forward, Below</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set chatbox to [above nameplate/forward/below nameplate] position</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Height</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox height</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Size</span>
+|50-150%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox size</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Opacity</span>
+|25-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox opacity</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Display Duration</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">2-60 seconds</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox display duration</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Notification Volume</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off, 0-100%</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox notification volume</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Own Chatbox</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show or hide your own chatbox</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Send Text Automatically</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle chatbox auto send</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Function</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Chatbox, New message</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Action Menu ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Action Menu Opacity</span>
+| 0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Changes action menu opacity</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Action Menu Size</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Changes action menu size</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Action Menu Left Opacity ''[VR]''</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Changes left action menu opacity</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Action Menu Right Opacity ''[VR]''</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Changes right action menu opacity</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Action Menu Left Size ''[VR]''</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Changes left action menu size</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Action Menu Right Size ''[VR]''</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Changes right action menu size</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Flick Select ''[VR]''</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle flick select</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Notifications ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Send and Receive Boops</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggles the ability to send and receive [[Special:MyLanguage/Booping|Boops]]</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Boop Emoji Effect</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggles the emoji particle effect when you receive Boops</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Other HUD Settings ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Reticle</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show a small dot in the center of the view</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Controls ===
+''See also [[Special:MyLanguage/Controls|Controls]] for more detailed information.''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+This menu will vary, depending on the device being used to access VRChat.
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== SteamVR ====
+</div>
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">Control Settings ''[VR]''</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Open SteamVR Input Bindings Panel</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Edit SteamVR Bindings</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Configuration for SteamVR Input is done through Steam Input Bindings</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Finger Tracking Exclusive Mode</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Exclusive Mode automatically excludes Inputs sent by SteamVR drivers while hand tracking is enabled. This can avoid conflicting inputs such as double-clicks</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatars Use Finger Tracking</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatars fingers will be animated by SteamVR skeletal data if enabled</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Double Tap Menu button opens Main menu</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Double tap the menu button to open the Main Menu</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Desktop ====
+</div>
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">Control Settings ''[Desktop]''</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mouse Look Sensitivity</span>
+|10-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change how sensitive the mouse is when looking around the world</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Invert Mouse Look</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Invert up and down movement when looking around the world</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Mobile ====
+</div>
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">Touch Control Settings ''[Mobile]''</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Look Sensitvity</span>
+| 0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change how sensitive the touch controls are</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Auto Rotate Speed</span>
+|0-30
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change how fast your rotate when you touch the edge of the screen</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Secondary UI</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">[Show/Hide] the secondary UI on the left side of the screen</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable Auto Walk</span>
+
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off (default: Off)</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to [enable/disable] auto walk</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Invert Look</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Invert up and down movement when looking around the world</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Focus View</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Click to [enable/disable] focus view support</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Interaction Mode</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Direct Touch, Reticle Aim</span>
+
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change your interaction mode<br>
+'''[Direct Touch]''' Equip pickups by tapping on them<br>
+'''[Reticle Aim]''' Aim at pickups and tap the select button
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Tracking & IK ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Camera Tracking ====
+''See also [[Special:MyLanguage/Selfie Expression|Selfie Expression]] for more detailed information.''
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable Selfie Expression</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Selfie Expression uses your camera to animate your avatar! No one will see your real face. Image data is processed locally on your divce, only used for animation, and never saved.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Auto-Adjust Selfie Expression Quality</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Automatically adjust Selfie Expression quality depending on current frame rate</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Selfie Expression Quality Level</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Best Quality/High Quality/Balanced/Performance/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Best Quality]''' Quality - Selfie Expression uses camera with highest resolution and framerate<br />
+'''[High Quality]''' Quality - Selfie Expression uses camera with higher resolution and framerate<br />
+'''[Balanced]''' Balanced - Selfie Expression uses camera with medium resolution and framerate<br />
+'''[Performance]''' Performance - Selfie Expression disables hand tracking and uses minimum camera resolution and framerate<br />
+'''[Off]''' Off - Selfie Expression is disabled until frame rate improves
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Selfie Expression Also Moves Hands</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">While Selfie Expression is enabled, and the Quality setting is set to 'Balanced' or above, allow moving hands via your webcam</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Auto Recentering Speed</span>
+|0-100
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adjust how quickly your avatar will automatically recenter rotation (to compensate your camera offset)</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Recenter</span>
+|
+|<span lang="en" dir="ltr" class="mw-content-ltr">Instantly recenter your avatar to compensate for camera offset</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset</span>
+|
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset to default</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change Webcam Device</span>
+|
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change your current webcam device. Makes sure your webcam is not being used by other software</span>
+|}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Eye Tracking ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Force Eyetracking Raycast</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When eyetracking is active, force eyes to converge at a distance determined by raycast hit</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Display Eyetracking Debug</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When eyetracking is active, display debug overlay information</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Disable Eye Look Tracking</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Disable tracking eye look direction</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Disable Eye Lid Tracking</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Disable tracking eyelid closed amount</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mic Mute Disabled Eyetracking</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The in-app mic mute function will disable eyetracking as well (when not using push-to-talk mode)</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Face Tracking ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Disable Face Tracking</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Disable face tracking expressions. Eye tracking is controlled separately.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mic Mute Disables Face Tracking</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">The in-app mic mute function will disable face tracking as well (when not using push-to-talk mode)</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">OSC Face Tracking Smoothing</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Apply smoothing over time to local OSC face tracking data.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Finger Tracking ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Jump Gesture</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable or Disable jump Gesture</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Grab Gesture</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Grab/Pinch/Combined</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Choose finger grab gesture</span>
+|}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Calibration & Debug ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Legacy Calibration</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggles using the old locked avatar position style of FBT calibration</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">One Handed Calibration</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Only require holding a single trigger rather than both when finalizing FBT calibration</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Display Calibration Visuals</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Display extra detail during FBT calibration, Adjust FBT mode, and eyetracking debug</span>
+
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">IK Debug Logging</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adds additional output to the log regarding IK</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Per-Avatar Calibration Adjustment</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Changes made in Adjust FBT mode will be applied per-avatar</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Allow Sending Head and Wrist VR Tracking OSC Data*</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Send VR system head and wrist OSC data</span>
+
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Calibration Range</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">{{formatnum:0.05}}-{{formatnum:2.00}}m</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Determines the distance from predicted supported binding points that the caliibration will search (in meters). The closest binding point to the center of the search sphere will be used.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Confirm Calibration</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Confirmation dialogs when clicking the "Calibrate FBT" button are [enabled/disabled], click to [disable/enable].</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">FBT Tracker Model</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Sphere, System, Box, Axis</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Switch tracker model<br>
+'''[Sphere]''' Sphere - Your trackers will display as the classic default white ball<br>
+'''[System]''' System - Your trackers will display using models provided by your VR system<br>
+'''[Box]''' Box - Your trackers will display as boxes with colored sides representing standard xyz axis colors (lighter colors for positive direction)<br>
+'''[Axis]''' Axis - Your trackers will display with axis aligned protrusions with colored tips representing standard xyz axis colors (lighter colors for positive direction)
+</div>
+|}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+'''''*Footnote regarding the Allow Sending Head and Wrist VR Tracking OSC Data option:''' Legal Disclaimer: You are enabling a feature that will share data about you with third-party services and devices using the OSC network protocol. if you proceed, you are expressly directing VRChat to share data from your headset and other accessories with services and devices that you configure to receive such data. You can turn off this feature at any time in the "Tracking & IK" main menu options page.''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Body Tracking ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">User Real Height</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">(3'0"-8'0" ft)/({{formatnum:0.81}}m-{{formatnum:2.44}}m)</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">User Real Height should always be set to your height in real life. its important for properly matching your avatar with your body.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Metric Units Adjustment</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Adjustment arrows for User Real hight increment in cm instead of inches<br>
+Adjustment arrows for User Real hight increment in inches instead of cm
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Use Legacy IK Solving</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Off]''' Now using new IK2.0<br>
+'''[On]''' Now using old legacy IK
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Disable Shoulder Tracking</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Prevents arm trackers from affecting shoulders. Use this to avoid issues with some types of IMU-only based arm trackers</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Freeze Tracking on Disconnect</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Cause trackers to freeze in place relative to the user when they are disconnected</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Shoulder Width Compensation</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Assists in straightening the arm when reaching upwards on avatars with narrow shoulders</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">FBT Locomotion Animation</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">FBT locomotion animation is [enabled/disabled] click to [enable/disable]</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Tracker Motion Prediction</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set how much latency compensating moton prediciton to use on body trackers, only works for SteamVR trackers.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Wrist Angle</span>
+| -45° to 45°
+|<span lang="en" dir="ltr" class="mw-content-ltr">Offsets the angle of the wrist alignment toward or away from the thumb</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Arm vs Height Ratio</span>
+|30-60%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adjusts the ratio used to scale the avatar when using mesure-by-arms mode</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Knee Angle</span>
+| -180° to 180°
+|<span lang="en" dir="ltr" class="mw-content-ltr">Offsets the knee-bend angle as predicted by the foot angle. Ignored if knee trackers are used.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Accessibility ===
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== General Accessibility Settings ====
+</div>
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">[VR Only]</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Holoport Locomotion</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable third person locomotion (Holoport)</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Locomotion Tunneling</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">None, Low, High</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Choose locomotion style and tunneling to reduce motion sickness.<br>
+'''[None]''' Standard movement with no tunneling<br>
+'''[Low]''' Add a light tunneling effect while moving<br>
+'''[High]''' Add a heavy tunneling effect when moving
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Third Person Rotation</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reduces motion sickness while turning.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Responsive Menu</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[On]''' Responsive Menu is enabled, click to keep Main Menu in its default position.<br>
+'''[Off]''' Responsive Menu is disabled, click to always spawn the main menu in your eyeline.
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Display and Visual Adjustments ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Screen Brightness</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Adjust screen brightness</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Bloom Intensity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Bloom multiplier. Set to 0% to disable bloom</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reduce Menu Animations</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reduce Menu Animations is [enabled/disabled], click to [enable additional menu animations/reduce menu animations]</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Color Blind Filters ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Color Filters</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Enable/Disable color filters and their settings</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Filter Intensity</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change the intensity of the current filter</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Apply To World</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Apply Filter to World</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Color Filter</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">No filter, Protanopia, Deuteranopia, Tritanopia, Grayscale, Retro LUT, Dog</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Select the color filter you would like to apply<br>
+'''[None]''' No filter selected<br>
+'''[Protanopia]''' Red / Green Filter<br>
+'''[Deuteranopia]''' Green / Red Filter<br>
+'''[Tritanopia]''' Blue / Yellow Filter<br>
+'''[Grayscale]''' Monochrome Filter<br>
+'''[Retro LUT]''' I Live In The Past Filter<br>
+'''[Dog]''' Dog Filter
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Simulate Color Blindness</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Simulate the selected color blindness option, rather than correcting for it.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Haptics ====
+</div>
+{| class="wikitable"
+|+<span lang="en" dir="ltr" class="mw-content-ltr">[VR and Mobile Only]</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">UI Haptics</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">When enabled your controller will react when interacting with UI elements</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Pickup Haptics</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Interact haptics are [enabled/disabled], click to [disable/enable]</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Touch Haptics</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar haptics are [enabled/disabled], click to [disable/enable] Avatar haptics</span>
+|}
+<div lang="en" dir="ltr" class="mw-content-ltr">
+''Warning: Haptics can result in faster battery drain''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Chatbox ====
+Chatbox settings are also available in the User Interface row.
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Local Chatbox Visibility</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Mine, Friends, Everyone</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Change chatbox visibility<br>
+'''[Mine]''' Only show your own chatbox<br>
+'''[Friends]''' Show chatboxes only from friends<br>
+'''[Everyone]''' Show chatboxes for everyone
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Position</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Above, Forward, Below</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Set chatbox to [above nameplate/forward/below nameplate] position</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Height</span>
+|0-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox height</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Size</span>
+|50-150%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox size</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Opacity</span>
+|25-100%
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox opacity</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Display Duration</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">2-60 seconds</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox display duration</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Notification Volume</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off, 0-100%</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Change chatbox notification volume</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show Own Chatbox</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Show or hide your own chatbox</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Send Text Automatically</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle chatbox auto send</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Chatbox Function</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Chatbox, New message</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+'''[Clear Chatbox]''' Clears the chatbox
+'''[New message]''' Opens chatbox input
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+=== Debug ===
+''See also [[Special:MyLanguage/Debug Menu|Debug Menu]] for more detailed information.''
+</div>
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Debug ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">FPS</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Ping</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Build</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">N/A</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Report Bug</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Report Bug</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Logs when an issue is experienced<br>
+Click 'Continue' to create a timestamp in your active output log that can be included with your Bug Report ([http://feedback.vrchat.com/bug-reports feedback.vrchat.com]) or Support Ticket.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Local Profile Data</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Local Profile Data</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Clear the local profile data<br>
+The current user will be logged out.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Open Logs Folder</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Open Logs Folder</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Open the local logs folder</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Logging</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Full, Errors Only, Off</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Controls whether to write debug messages to a log file<br>
+'''[Full]''' Log all debug and error messages<br>
+'''[Errors Only]''' Log error messages only<br>
+'''[Off]''' Do not log any debug or error messages
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Avatar Debugging ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Overlay</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">None, Proximity Bones, All Bones, Contacts</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Displays bone and contacts information when enabled.<br>
+'''[None]''' No avatar debug mode<br>
+'''[Proximity Bones]''' Avatar shows proximity bones<br>
+'''[All Bones]''' Avatar shows all bones<br>
+'''[Contacts]''' Avatar shows contacts
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Avatar Debug</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">On/Off</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Toggle the avatar debug console.</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== Managed Cached Data ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Content Cache</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Content Cache</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Remove all cached downloaded data<br>
+All cached downloaded content will be deleted.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Local Avatar Data</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Local Avatar Data</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Clear your saved persistent avatar parameters<br>
+Your local avatar data will be deleted.
+</div>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Texture Cache</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Clear Texture Cache</span>
+|<div lang="en" dir="ltr" class="mw-content-ltr">
+Reduce cache size by removing cached textures<br>
+All locally cached textures will be deleted.
+</div>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+==== User Data ====
+</div>
+{| class="wikitable"
+!<span lang="en" dir="ltr" class="mw-content-ltr">Name</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Values</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Tooltip</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">User Data</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset All User Data</span>
+|<span lang="en" dir="ltr" class="mw-content-ltr">Reset your saved user data in all worlds you've visited (to reset a specific world's user data, visit that world's page).</span>
+|}
+
+<div lang="en" dir="ltr" class="mw-content-ltr">
+== History ==
+</div>
+{| class="wikitable"
+! colspan="2" style="width: 20%;" |<span lang="en" dir="ltr" class="mw-content-ltr">Version</span>
+!<span lang="en" dir="ltr" class="mw-content-ltr">Change</span>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202641 2026.4.1]
+|[https://docs.vrchat.com/docs/vrchat-202641-open-beta 1931]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Added "Face Tracking" section with "Disable Face Tracking", "Mic Mute Disables Face Tracking", and "OSC Face Tracking Smoothing" settings.</span>
+|-
+| rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202633-open-beta 2026.3.3]
+|[https://docs.vrchat.com/docs/vrchat-202633-open-beta 1916]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Added "Always Show VRChat Soft Keyboard" setting.</span>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202633-open-beta 1914]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Added "Mic Icon Position" and "Mic Opacity" settings.</span>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202633-open-beta 1912]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Added "Desktop HUD" section with "Reset HUD Settings to Default", "Hide HUD", "HUD Style", "Show Contextual Controls", "Show Selection Prompt", "HUD Opacity", and "HUD Background Opacity" settings. Added "Other HUD Settings" section.</span>
+|-
+| rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202631 2026.3.1]
+|[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1880]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Removed "Right-click Laser Selection", "Show Fallback Icon", "Show Earmuffs Icon" settings.</span>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1879]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Added Chatbox Position "Below" setting.</span>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202623-openbeta 1878]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Added "Right-click Laser Selection", and Color Filter "Dog" settings.</span>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202623-open-beta 2026.2.3]
+|[https://docs.vrchat.com/docs/vrchat-202623-open-beta 1860]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Anti-aliasing is now available on every device and platform. Defaults are Disabled on mobile, 2x on standalone headsets, and 4x on PC and PCVR, with a maximum of 8x on any device.</span>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202622 2026.2.2]
+|[https://docs.vrchat.com/docs/vrchat-202622-open-beta 1849]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Settings search now allows direct text input on Desktop.</span>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202621 2026.2.1]
+|[https://docs.vrchat.com/docs/vrchat-202621-open-beta 1830]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Added "Third Person View", "Third Person View Distance", "Third Person View Horizontal", and "Third Person View Vertical" settings. Removed "Enable Automatic Group Invitations" setting.</span>
+|-
+|[https://docs.vrchat.com/docs/vrchat-202613 2026.1.3]
+|[https://docs.vrchat.com/docs/vrchat-202613-open-beta 1814]
+|<span lang="en" dir="ltr" class="mw-content-ltr">Removed "Avatar Download Prioritization" options. VRChat now automatically prioritizes loading avatars of nearby users regardless of friend status.</span>
+|-
+|<span lang="en" dir="ltr" class="mw-content-ltr">[https://docs.vrchat.com/docs/vrchat-202612p1-1 2026.1.2p2]</span>
+|1802
+|<span lang="en" dir="ltr" class="mw-content-ltr">"Enable Auto Walk" default changed to Off for all users.</span>
+|}
+
+[[Category:User Interface{{#translation:}}]]
