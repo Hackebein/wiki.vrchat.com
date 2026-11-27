@@ -80,9 +80,8 @@ VRChat 계정이 있으면 {{VRC link|https://feedback.vrchat.com|feedback.vrcha
 
 PC에서는 출력 로그가 저장된 폴더가 파일 탐색기로 열립니다. PC의 VRChat 출력 로그는 기본적으로 <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> 폴더에 <code>output_log_(날짜)</code>라는 이름으로 저장됩니다. 날짜가 가장 최근인 파일을 찾아 버그 신고서에 첨부하세요.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
-=== Linux (via Proton)===
-</div>
+<span id="Linux_(via_Proton)"></span>
+=== Linux (Proton 사용)===
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 The location of this folder depends heavily on your distribution<ref group="note" name="compatibility">VRChat on Linux via Proton is not directly supported unless you are using VRChat on the Steam Deck.</ref>and how you've installed Steam.
