@@ -1,5 +1,4 @@
 {{Noticebox/Official}}
-{{Noticebox|image=Icon_Circle_X_Mark.svg|title=This page describes content that has been removed.|description=This feature was present in earlier versions of VRChat, but has since been removed.|border-color=black|background-color=#260707}}
 {{Infobox/Feature
 |name=Hype Train
 |image=
@@ -10,58 +9,63 @@
 |branch_openbeta_version = 2026.2.2 Build 1843
 |branch_openbeta_releasenote = [https://docs.vrchat.com/docs/vrchat-202622-openbeta 2026.2.2 Open Beta]
 }}
-'''Hype Trains''' was a community gifting feature in which users in an instance collectively send [[Special:MyLanguage/VRC+|VRC+]] gift drops within a time limit to reach a shared goal and unlock a reward.
+'''Hype Trains''' is a community gifting feature in which users in an instance collectively send [[Special:MyLanguage/VRC+|VRC+]] gift drops within a time limit to reach a shared goal and unlock personnal and/or global rewards during specific events.
 
 ==Overview==
-The Hype Train was introduced as a limited-time feature during the [[Special:MyLanguage/Pride Month 2026|Pride Month 2026]] event. A Hype Train starts when the [[Special:MyLanguage/Instances|instance]] recieves a total two gift drops from users within the timer window. A Hype Train can be started in any world and in any instance. Each gift drop that is sent resets the timer, and the Hype Train ends if the timer runs out before the goal is reached.
+The Hype Train was first introduced during the [[Special:MyLanguage/Pride Month 2026|Pride Month 2026]] event. A Hype Train starts when the [[Special:MyLanguage/Instances|instance]] receives a total two gift drops from users within the timer window. A Hype Train can be started depending on the event in any or specific world and in any instance. Each gift drop that is sent resets the timer, and the Hype Train ends if the timer runs out before the goal is reached.
 
-When a Hype Train is completed, users who are in the instance or were in the instance during the active hype train will receive a reward.
+When a Hype Train is completed, users who are in the instance during the active hype train will receive the rewards.
 
 ==Behavior==
 ===Indicator & UI===
-During an active hype train, instances showcased a "train" icon indicating the a hype train is active. It also showed the amount of gift drops that were sent out of how many is needed.
+During an active hype train, instances showcased a "train" icon indicating the a hype train is active. It also shows the amount of gift drops that were sent out of how many is needed.
 
-Within the instance, active hype trains displayed a custom [[Special:MyLanguage/Quick Menu|Quick Menu]] widget showcasing the amount of gifts sent, gifters, personal contributions, and time remaining. Ended hype trains showed an alternate version. It also displayed a pride version of [[Special:MyLanguage/VRCat|VRCat]], clicking it will make VRCat comment on the ongoing hype train. 
+Within the instance, active hype trains displayed a custom [[Special:MyLanguage/Quick Menu|Quick Menu]] widget showcasing the amount of gifts sent, gifters, personal contributions, and time remaining. Ended hype trains showed an alternate version. Depending on the event [[Special:MyLanguage/VRCat|VRCat]] will be displayed according to the theme. Clicking it will make VRCat comment on the ongoing hype train. 
 
-The [[Special:MyLanguage/HUD|HUD]] also displayed custom elements. During an active hype train it showcased the amount of gifts sent and time remaining. When a hype train is completed, it showcased a element displaying "Hype Train complete: reward unlocked!".
+The [[Special:MyLanguage/HUD|HUD]] also displays custom elements. During an active hype train, it showcases the amount of gifts sent and time remaining. When a hype train is completed, it showcases an element displaying "Hype Train complete: reward unlocked!".
 
 ===Goal & timer===
-For a Hype Train to be completed, users must reach the goal of 50 gift drops. In addition, this goal must be completed within 10 minutes of last sent gift drop starting.
+For a Hype Train to be completed, users must reach a set goal of gift drops. In addition, the goal must be completed within the time limit of the last gift drop sent.
 
-Each gift drop sent resets the timer back to 10 minutes. 
+Each gift drop sent resets the timer back to it's original state. 
 
-The goal & timer of the hype train was originally set to 100 and 5 minutes respectively. Due to community feedback, the goal was decreased to 50<ref name="HypeTrainChange">[https://x.com/VRChat/status/2061973981582770603 "Now, it only takes 50 gifted months in an instance to complete a Hype Train''...''"] on ''X.com''. Dated June 2, 2026. Retrieved July 13, 2026.</ref> and the timer was increased to 10 minutes<ref name="DevUpdate11June2026">[https://ask.vrchat.com/t/developer-update-11-june-2026/48551 "Developer Update - 11 June 2026"] on ''[[ask.vrchat.com]]''. Dated June 11, 2026. Retrieved June 18, 2026.</ref> to help with some platforms taking longer than others to complete a purchase.
+The goal & timer of the hype train changes each events. In some cases, like during the Holiday Event 2026, the hype train may feature different goals, each rewarding different rewards when reached.
 
 ===Reward===
-When a Hype Train is completed, users who are in the instance or were in the instance during the active hype train will receive the "Extravagant Pride Fan" [[Special:MyLanguage/Items|item]] as a reward.<ref name="Pride2026">[https://www.youtube.com/watch?v=oKMOUy-U01g "VRChat Pride Campaign 2026: Gift VRC+ and Earn In-Game Rewards!"] on ''YouTube''. Dated June 1, 2026. Retrieved June 18, 2026.</ref>
+When a Hype Train is completed, users who are in the instance will receive the designated reward.
 
 ==History==
 {| class="wikitable"
-! colspan="2" style="width: 20%;" |Version
-!Change
+!Event
+! style="width: 20%;" |Start Date
+!End Date
+!Global Rewards
+!Personnal Rewards
 |-
-|[https://docs.vrchat.com/docs/vrchat-202623p1 2026.2.3p1]
-|1865<br>July 1, 2026
-|Removed Hype Train.<ref name="HypeTrainRemoved">[https://x.com/VRChat/status/2072399779238211699 "As a reminder, now that Pride Month/June is over, the Pride VRC+ gifting rewards and Hype Trains are no longer available!''...''"] on ''X.com''. Dated July 1, 2026. Retrieved July 13, 2026.</ref>
+|[[Pride Month 2026]]
+|June 1, 2026
+|June 30, 2026
+|[[Items#List of props|Extravagant Pride Fan]]
+| -
 |-
-|[https://discord.com/channels/189511567539306508/336764577301659649/1514762240379584512 2026.2.2p3]
-|1856<br>June 11, 2026
-|Hype Train timeout requirement increased from 5 minutes to 10 minutes.<ref name="DevUpdate11June2026" />
+|[[Spookality 2026]]
+|September 3, 2026
+|November 2, 2026
+|[[Items#List of companions|Ghost]]
+|[[Accessories#List of accessories|Rucksack]]
 |-
-| rowspan="3" |[https://docs.vrchat.com/docs/vrchat-202622 2026.2.2]
-|1853<br>June 2, 2026
-|Hype Train completion requirement lowered from 100 to 50.<ref name="HypeTrainChange" />
-|-
-|1853<br>June 1, 2026
-|Released Hype Train.<ref name="Pride2026" />
-|-
-|[https://docs.vrchat.com/docs/vrchat-202622-open-beta 1843]
-|Added Hype Train.<ref name="HypeTrainIcon">[https://discord.com/channels/189511567539306508/449386885299830794/1504292449667911777 "alright what are yall cooking and why do i see a train icon] on ''Discord''. Dated May 13, 2026. Retrieved July 13, 2026.</ref> (Undocumented addition)
+|[[Holiday Event 2026]]
+|November 25, 2026
+|January 3, 2027
+|[[Accessories#List of accessories|Frosty Ski Goggles]], All Aboard Sticker, [[Items#List of props|A Hot Cup of Generosity]], [[Portals#Cosmetics|Cozy Lodge]], 500 Credits
+| -
 |}
 
 ==See also==
 * [[Special:MyLanguage/VRC+|VRC+]]
 * [[Special:MyLanguage/Pride Month 2026|Pride Month 2026]]
+* [[Spookality 2026]]
+* [[Holiday Event 2026]]
 
 ==References==
 <references />
