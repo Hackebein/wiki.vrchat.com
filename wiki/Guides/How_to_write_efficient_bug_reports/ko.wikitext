@@ -76,9 +76,7 @@ VRChat 계정이 있으면 {{VRC link|https://feedback.vrchat.com|feedback.vrcha
 [[File:Debug QM.webp|thumb|퀵 메뉴 설정 탭의 디버그 항목]]
 로그 파일을 얻으려면 퀵 메뉴의 설정 탭에서 "디버그" 항목까지 스크롤한 뒤 "버그 신고"를 누르세요. 그러면 출력 로그에 플래그가 설정된 타임스탬프가 남습니다.
 
-<div lang="en" dir="ltr" class="mw-content-ltr">
 === PC ===
-</div>
 
 <div lang="en" dir="ltr" class="mw-content-ltr">
 On PC, your file explorer will open to the folder where the output log is stored. By default, VRChat's output logs on a PC are located under <code>%USERNAME%\AppData\LocalLow\VRChat\vrchat</code> and named <code>output_log_(date)</code>. Check the latest dated file, and attach it to your bug report.
